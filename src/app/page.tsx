@@ -4,7 +4,6 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Business Executive Group - Payroll, HCM Software & Job Placement',
   description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
-  canonical: 'https://beghr.com/',
 };
 
 export default function Home() {

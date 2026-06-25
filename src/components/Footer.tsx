@@ -15,12 +15,6 @@ export default function Footer() {
             />
             <span>Business Executive Group</span>
           </Link>
-          <nav style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
-            <Link href="/services/managed-payroll">Managed Payroll</Link>
-            <Link href="/services/hcm-software">HCM Software</Link>
-            <Link href="/services/job-placement">Job Placement</Link>
-            <Link href="/#network">Network</Link>
-          </nav>
         </div>
 
         <div className="social" aria-label="Business Executive Group on social media">

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core -->
+  <url><loc>https://beghr.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://beghr.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Managed Payroll -->
+  <url><loc>https://beghr.com/services/managed-payroll</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/legal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/healthcare</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/finance</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/technology</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/engineering</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/trades</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/executive</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- HCM Software -->
+  <url><loc>https://beghr.com/services/hcm-software</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/legal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/healthcare</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/finance</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/technology</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/engineering</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/trades</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/executive</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Job Placement -->
+  <url><loc>https://beghr.com/services/job-placement</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/legal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/healthcare</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/finance</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/technology</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/engineering</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/trades</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/executive</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Blog -->
+  <url><loc>https://beghr.com/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beghr.com/blog/legal-hiring</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beghr.com/blog/hcm-software</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beghr.com/blog/entrepreneur</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+</urlset>

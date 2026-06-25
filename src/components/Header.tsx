@@ -11,52 +11,55 @@ export default function Header() {
 
         <nav className="nav-links" id="navLinks">
           <details className="nav-dd">
-            <summary>Managed Payroll</summary>
+            <summary>Services</summary>
             <div className="nav-panel">
-              <Link href="/services/managed-payroll" className="nav-panel-hub">Managed Payroll Overview</Link>
-              <Link href="/services/payroll-legal">Law Firms</Link>
-              <Link href="/services/payroll-healthcare">Healthcare</Link>
-              <Link href="/services/payroll-finance">Finance & Accounting</Link>
-              <Link href="/services/payroll-technology">IT & Technology</Link>
-              <Link href="/services/payroll-engineering">Engineering</Link>
-              <Link href="/services/payroll-trades">Skilled Trades & Mfg</Link>
-              <Link href="/services/payroll-executive">Executive & Leadership</Link>
+
+              <span className="nav-panel-label">Managed Payroll</span>
+              <Link href="/services/managed-payroll" className="nav-panel-hub">Overview</Link>
+              <Link href="/services/managed-payroll/legal">Law Firms</Link>
+              <Link href="/services/managed-payroll/healthcare">Healthcare</Link>
+              <Link href="/services/managed-payroll/finance">Finance &amp; Accounting</Link>
+              <Link href="/services/managed-payroll/technology">IT &amp; Technology</Link>
+              <Link href="/services/managed-payroll/engineering">Engineering</Link>
+              <Link href="/services/managed-payroll/trades">Skilled Trades &amp; Mfg</Link>
+              <Link href="/services/managed-payroll/executive">Executive &amp; Leadership</Link>
+
+              <span className="nav-panel-label">HCM Software</span>
+              <Link href="/services/hcm-software" className="nav-panel-hub">Overview</Link>
+              <Link href="/services/hcm-software/legal">Law Firms</Link>
+              <Link href="/services/hcm-software/healthcare">Healthcare</Link>
+              <Link href="/services/hcm-software/finance">Finance &amp; Accounting</Link>
+              <Link href="/services/hcm-software/technology">IT &amp; Technology</Link>
+              <Link href="/services/hcm-software/engineering">Engineering</Link>
+              <Link href="/services/hcm-software/trades">Skilled Trades &amp; Mfg</Link>
+              <Link href="/services/hcm-software/executive">Executive &amp; Leadership</Link>
+
+              <span className="nav-panel-label">Job Placement</span>
+              <Link href="/services/job-placement" className="nav-panel-hub">Overview</Link>
+              <Link href="/services/job-placement/legal">Legal &amp; Attorney</Link>
+              <Link href="/services/job-placement/healthcare">Healthcare &amp; Nursing</Link>
+              <Link href="/services/job-placement/finance">Finance &amp; Accounting</Link>
+              <Link href="/services/job-placement/technology">IT &amp; Technology</Link>
+              <Link href="/services/job-placement/engineering">Engineering</Link>
+              <Link href="/services/job-placement/trades">Skilled Trades &amp; Mfg</Link>
+              <Link href="/services/job-placement/executive">Executive &amp; Director+</Link>
+
             </div>
           </details>
 
           <details className="nav-dd">
-            <summary>HCM Software</summary>
+            <summary>About Us</summary>
             <div className="nav-panel">
-              <Link href="/services/hcm-software" className="nav-panel-hub">HCM Software Overview</Link>
-              <Link href="/services/hcm-legal">Law Firms</Link>
-              <Link href="/services/hcm-healthcare">Healthcare</Link>
-              <Link href="/services/hcm-finance">Finance & Accounting</Link>
-              <Link href="/services/hcm-technology">IT & Technology</Link>
-              <Link href="/services/hcm-engineering">Engineering</Link>
-              <Link href="/services/hcm-trades">Skilled Trades & Mfg</Link>
-              <Link href="/services/hcm-executive">Executive & Leadership</Link>
+              <Link href="/about" className="nav-panel-hub">About / Board of Directors</Link>
+              <Link href="/contact">Contact Us</Link>
             </div>
           </details>
 
-          <details className="nav-dd">
-            <summary>Job Placement</summary>
-            <div className="nav-panel">
-              <Link href="/services/job-placement" className="nav-panel-hub">Job Placement Overview</Link>
-              <Link href="/services/placement-legal">Legal & Attorney</Link>
-              <Link href="/services/placement-healthcare">Healthcare & Nursing</Link>
-              <Link href="/services/placement-finance">Finance & Accounting</Link>
-              <Link href="/services/placement-technology">IT & Technology</Link>
-              <Link href="/services/placement-engineering">Engineering</Link>
-              <Link href="/services/placement-trades">Skilled Trades & Mfg</Link>
-              <Link href="/services/placement-executive">Executive & Director+</Link>
-            </div>
-          </details>
-
-          <Link href="/#network">Network</Link>
+          <Link href="/blog">Blog</Link>
 
           <a
             className="btn btn--gold"
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
+            href="https://calendly.com/tori-beghr?id=1"
             target="_blank"
             rel="noopener noreferrer"
           >

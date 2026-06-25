@@ -10,6 +10,30 @@ export const metadata: Metadata = {
   icons: {
     icon: '/assets/beg-logo-gold.png',
   },
+  alternates: {
+    canonical: 'https://beghr.com',
+  },
+  openGraph: {
+    title: 'Business Executive Group',
+    description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
+    url: 'https://beghr.com',
+    siteName: 'Business Executive Group',
+    images: [
+      {
+        url: 'https://beghr.com/assets/beg-header-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Business Executive Group',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Business Executive Group',
+    description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
+    images: ['https://beghr.com/assets/beg-header-image.png'],
+  },
 };
 
 export default function RootLayout({
@@ -24,14 +48,18 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-        {/* NAP Schema Markup for SEO */}
+        {/* Organization + LocalBusiness Schema Markup for SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'LocalBusiness',
+              '@type': 'Organization',
               name: 'Business Executive Group',
+              url: 'https://beghr.com',
+              logo: 'https://beghr.com/assets/beg-header-image.png',
+              telephone: '469-412-1204',
+              email: 'tori.wint@beghr.com',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '',
@@ -40,11 +68,14 @@ export default function RootLayout({
                 postalCode: '',
                 addressCountry: 'US',
               },
-              telephone: '469-412-1204',
-              email: 'tori.wint@beghr.com',
-              url: 'https://beghr.com',
-              description: 'Managed payroll, HCM software, and job placement services for businesses nationwide.',
-              areaServed: 'US',
+              description: 'Managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
+              areaServed: 'United States',
+              sameAs: [
+                'https://www.linkedin.com/company/businessexecutivegroup/',
+                'https://facebook.com/thehrexecutivegroup',
+                'https://instagram.com/thehrexecutivegroup',
+                'https://youtube.com/@TheHRExecutiveGroup',
+              ],
             }),
           }}
         />

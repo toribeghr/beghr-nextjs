@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Engineering | Business Executive Group',
   description: 'Managed payroll for engineering firms. Prevailing wage, certified payroll, project labor. Book a discovery call.',
-  canonical: 'https://beghr.com/services/payroll-engineering',
 };
 
 export default function PayrollEngineeringPage() {

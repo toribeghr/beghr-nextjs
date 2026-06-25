@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Finance & Accounting | Business Executive Group',
   description: 'Managed payroll for finance firms. Bonus structures, equity compensation, zero error tolerance. Book a discovery call.',
-  canonical: 'https://beghr.com/services/payroll-finance',
 };
 
 export default function PayrollFinancePage() {

@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Healthcare | Business Executive Group',
   description: 'Fully managed payroll for healthcare teams. Shift differentials, compliance, on-time filings. Book a discovery call.',
-  canonical: 'https://beghr.com/services/payroll-healthcare',
 };
 
 export default function PayrollHealthcarePage() {

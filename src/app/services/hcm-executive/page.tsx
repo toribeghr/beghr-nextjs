@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Executive HCM Software | Business Executive Group',
   description: 'HCM platform for executives and leadership. Deferred comp, complex benefits, discreet management.',
-  canonical: 'https://beghr.com/services/hcm-executive',
 };
 
 export default function HCMExecutivePage() {

@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Skilled Trades | Business Executive Group',
   description: 'Managed payroll for trades and manufacturing. Union rules, certified payroll, multi-site operations. Book a discovery call.',
-  canonical: 'https://beghr.com/services/payroll-trades',
 };
 
 export default function PayrollTradesPage() {

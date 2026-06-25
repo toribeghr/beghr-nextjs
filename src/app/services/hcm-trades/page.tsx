@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'HCM Software for Skilled Trades | Business Executive Group',
   description: 'HCM platform for manufacturing and trades. Union compliance, multi-site payroll, certified tracking.',
-  canonical: 'https://beghr.com/services/hcm-trades',
 };
 
 export default function HCMTradesPage() {

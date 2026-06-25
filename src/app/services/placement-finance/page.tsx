@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Finance & Accounting Job Placement | Business Executive Group',
   description: 'Finance and accounting hiring. Fill controller, CPA, and accounting roles faster. Milestone pricing, 45-day guarantee.',
-  canonical: 'https://beghr.com/services/placement-finance',
 };
 
 export default function PlacementFinancePage() {

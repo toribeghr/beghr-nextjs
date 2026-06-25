@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'HCM Software for Law Firms | Business Executive Group',
   description: 'HCM platform for legal firms. Manage payroll, HR, time, and benefits on one iSolved platform.',
-  canonical: 'https://beghr.com/services/hcm-legal',
 };
 
 export default function HCMLegalPage() {

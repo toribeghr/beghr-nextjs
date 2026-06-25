@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'HCM Software for Engineering | Business Executive Group',
   description: 'HCM platform for engineering firms. Certified payroll, prevailing wage, project tracking on one system.',
-  canonical: 'https://beghr.com/services/hcm-engineering',
 };
 
 export default function HCMEngineeringPage() {

@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'HCM Software for Technology | Business Executive Group',
   description: 'HCM platform for tech companies. Manage equity, contractors, and remote teams on one system.',
-  canonical: 'https://beghr.com/services/hcm-technology',
 };
 
 export default function HCMTechnologyPage() {

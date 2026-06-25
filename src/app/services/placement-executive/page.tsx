@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Executive Search Services | Business Executive Group',
   description: 'Executive leadership search. Find director and C-level talent. Confidential, focused executive recruiting.',
-  canonical: 'https://beghr.com/services/placement-executive',
 };
 
 export default function PlacementExecutivePage() {

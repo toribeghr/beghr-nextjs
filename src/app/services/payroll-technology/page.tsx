@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Technology | Business Executive Group',
   description: 'Managed payroll for tech companies. Remote teams, stock options, rapid scaling. Book a discovery call.',
-  canonical: 'https://beghr.com/services/payroll-technology',
 };
 
 export default function PayrollTechnologyPage() {

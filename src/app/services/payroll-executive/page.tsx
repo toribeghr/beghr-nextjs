@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Executive Payroll Services | Business Executive Group',
   description: 'Executive payroll and compensation management. Deferred comp, executive benefits, discretion. Book a discovery call.',
-  canonical: 'https://beghr.com/services/payroll-executive',
 };
 
 export default function PayrollExecutivePage() {

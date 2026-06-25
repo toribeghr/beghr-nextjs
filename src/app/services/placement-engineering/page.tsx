@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Engineering Job Placement Services | Business Executive Group',
   description: 'Engineering job placement. Fill engineer and technical roles faster. Specialized recruiting for your projects.',
-  canonical: 'https://beghr.com/services/placement-engineering',
 };
 
 export default function PlacementEngineeringPage() {

@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'HCM Software for Healthcare | Business Executive Group',
   description: 'HCM platform for healthcare organizations. Manage staffing, shifts, compliance, and payroll on one system.',
-  canonical: 'https://beghr.com/services/hcm-healthcare',
 };
 
 export default function HCMHealthcarePage() {

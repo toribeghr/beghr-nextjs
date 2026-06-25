@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Healthcare Job Placement Services | Business Executive Group',
   description: 'Healthcare and nursing job placement. Fill clinical roles faster before burnout. 45-day replacement guarantee.',
-  canonical: 'https://beghr.com/services/placement-healthcare',
 };
 
 export default function PlacementHealthcarePage() {

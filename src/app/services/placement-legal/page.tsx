@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Legal Job Placement Services | Business Executive Group',
   description: 'Legal hiring services. Fill attorney, paralegal, and counsel roles faster and at lower cost than commission-based recruiters.',
-  canonical: 'https://beghr.com/services/placement-legal',
 };
 
 export default function PlacementLegalPage() {

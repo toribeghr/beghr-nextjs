@@ -5,7 +5,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'HCM Software for Finance & Accounting | Business Executive Group',
   description: 'HCM platform for finance firms. Manage payroll, bonuses, and HR on one connected system.',
-  canonical: 'https://beghr.com/services/hcm-finance',
 };
 
 export default function HCMFinancePage() {

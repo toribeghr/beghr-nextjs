@@ -6,7 +6,6 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll | Business Executive Group',
   description: 'Fully managed payroll for businesses nationwide. We run payroll, taxes, and filings so your team never touches it. Book a 15-minute discovery call.',
-  canonical: 'https://beghr.com/services/managed-payroll',
 };
 
 const pageSlug = 'managed-payroll';

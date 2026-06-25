@@ -48,6 +48,14 @@ export default function Header() {
           </details>
 
           <details className="nav-dd">
+            <summary>Network</summary>
+            <div className="nav-panel">
+              <Link href="/network/membership" className="nav-panel-hub">Membership</Link>
+              <Link href="/network/sponsorship">Sponsorship</Link>
+            </div>
+          </details>
+
+          <details className="nav-dd">
             <summary>About Us</summary>
             <div className="nav-panel">
               <Link href="/about" className="nav-panel-hub">About / Board of Directors</Link>

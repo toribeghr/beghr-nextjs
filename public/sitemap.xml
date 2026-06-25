@@ -36,6 +36,10 @@
   <url><loc>https://beghr.com/services/job-placement/trades</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beghr.com/services/job-placement/executive</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
+  <!-- Network -->
+  <url><loc>https://beghr.com/network/membership</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/network/sponsorship</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
   <!-- Blog -->
   <url><loc>https://beghr.com/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beghr.com/blog/payroll</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>

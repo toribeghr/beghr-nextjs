@@ -5,18 +5,6 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="container">
-        <div className="foot-grid">
-          <Link href="/" className="brand">
-            <Image
-              src="/assets/beg-logo-gold.png"
-              alt="Business Executive Group"
-              width={38}
-              height={38}
-            />
-            <span>Business Executive Group</span>
-          </Link>
-        </div>
-
         <div className="social" aria-label="Business Executive Group on social media">
           <a
             href="https://www.linkedin.com/company/businessexecutivegroup/"

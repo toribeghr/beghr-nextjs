@@ -133,14 +133,14 @@ export default function Home() {
       </section>
 
       <div className="sticky-cta" id="stickyCta">
-        <span>Ready to get your time back?</span>
+        <span>Ready to get started?</span>
         <a
           className="btn btn--gold"
           href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Book a Call
+          Book a Discovery Call
         </a>
       </div>
 

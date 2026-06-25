@@ -5,19 +5,17 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav">
         <Link href="/" className="brand" aria-label="Business Executive Group home">
-          <svg width="42" height="56" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg" className="logo-mark" style={{ flexShrink: 0 }}>
-            <circle cx="50" cy="50" r="35" fill="#D4AF37"/>
-            <circle cx="25" cy="35" r="12" fill="#D4AF37"/>
-            <circle cx="75" cy="35" r="12" fill="#D4AF37"/>
-            <circle cx="40" cy="45" r="4" fill="#0A0E27"/>
-            <circle cx="60" cy="45" r="4" fill="#0A0E27"/>
-            <polygon points="50,60 45,68 55,68" fill="#0A0E27"/>
-            <g stroke="#7A8A9E" strokeWidth="3" fill="none" strokeLinecap="round">
-              <line x1="20" y1="85" x2="80" y2="85"/>
-              <circle cx="30" cy="85" r="6"/>
-              <line x1="65" y1="78" x2="65" y2="92"/>
-              <line x1="78" y1="78" x2="78" y2="92"/>
-            </g>
+          <svg width="42" height="42" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" className="logo-mark" style={{ flexShrink: 0 }}>
+            <circle cx="50" cy="45" r="28" fill="#D4AF37"/>
+            <circle cx="28" cy="25" r="14" fill="#D4AF37"/>
+            <circle cx="72" cy="25" r="14" fill="#D4AF37"/>
+            <circle cx="40" cy="40" r="4" fill="#0A0E27"/>
+            <circle cx="60" cy="40" r="4" fill="#0A0E27"/>
+            <polygon points="50,50 47,57 53,57" fill="#0A0E27"/>
+            <line x1="32" y1="70" x2="70" y2="70" stroke="#7A8A9E" strokeWidth="3" strokeLinecap="round"/>
+            <circle cx="42" cy="70" r="7" fill="none" stroke="#7A8A9E" strokeWidth="3"/>
+            <rect x="60" y="65" width="4" height="10" fill="#7A8A9E"/>
+            <rect x="68" y="65" width="4" height="10" fill="#7A8A9E"/>
           </svg>
           <span>Business Executive Group</span>
         </Link>

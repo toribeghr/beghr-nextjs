@@ -102,9 +102,32 @@ export default function Footer() {
           </a>
         </div>
 
+        <div className="maps-section" style={{ marginTop: '40px', paddingTop: '40px', borderTop: '1px solid rgba(212, 175, 55, 0.2)' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px', alignItems: 'start' }}>
+            <div>
+              <h3 style={{ marginBottom: '16px', color: '#D4AF37' }}>Contact</h3>
+              <p style={{ color: '#C7D2E5', margin: '8px 0' }}>
+                <strong>Business Executive Group</strong><br/>
+                Celina, TX<br/>
+                <a href="tel:4694121204" style={{ color: '#D4AF37', textDecoration: 'none' }}>469-412-1204</a><br/>
+                <a href="mailto:tori.wint@beghr.com" style={{ color: '#D4AF37', textDecoration: 'none' }}>tori.wint@beghr.com</a>
+              </p>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.7463789370157!2d-96.30583!3d33.30876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3e1c6e6e6e6d%3A0x6e6e6e6e6e6e6e6e!2sCelina%2C%20TX!5e0!3m2!1sen!2sus!4v1624567890000"
+              width="100%"
+              height="250"
+              style={{ border: 0, borderRadius: '6px' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+
         <div className="foot-bottom">
           <span>&copy; 2026 Business Executive Group. All rights reserved.</span>
-          <span>Serving businesses nationwide &middot; info@dfwleadershipconnect.com</span>
+          <span>Serving businesses nationwide &middot; Celina, TX &middot; 469-412-1204</span>
         </div>
       </div>
     </footer>

@@ -24,6 +24,31 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
+        {/* NAP Schema Markup for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'LocalBusiness',
+              name: 'Business Executive Group',
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: '',
+                addressLocality: 'Celina',
+                addressRegion: 'TX',
+                postalCode: '',
+                addressCountry: 'US',
+              },
+              telephone: '469-412-1204',
+              email: 'tori.wint@beghr.com',
+              url: 'https://beghr.com',
+              description: 'Managed payroll, HCM software, and job placement services for businesses nationwide.',
+              areaServed: 'US',
+            }),
+          }}
+        />
+
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{

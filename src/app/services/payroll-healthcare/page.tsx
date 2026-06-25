@@ -12,7 +12,6 @@ export default function PayrollHealthcarePage() {
     <ServicePage
       eyebrow="Managed Payroll · Healthcare"
       title="Healthcare payroll, fully managed."
-      subtitle="Managed Payroll for Healthcare"
       description="Running payroll for clinical and healthcare teams means shift differentials, 24/7 schedules, and compliance that cannot slip. We run all of it as a fully managed service."
       calendlyLink={getCalendlyLink('payroll-healthcare')}
       heroStats={[

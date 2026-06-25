@@ -12,7 +12,6 @@ export default function HCMLegalPage() {
     <ServicePage
       eyebrow="HCM Software · Legal"
       title="One HR platform for law firms."
-      subtitle="HCM Software for Legal"
       description="Law firm HR management includes partner accounting, associate tracking, and billable time. One connected HCM platform powered by iSolved, set up and supported by BEG."
       calendlyLink={getCalendlyLink('hcm-legal')}
     />

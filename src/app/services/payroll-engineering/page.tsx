@@ -12,7 +12,6 @@ export default function PayrollEngineeringPage() {
     <ServicePage
       eyebrow="Managed Payroll · Engineering"
       title="Engineering payroll, fully managed."
-      subtitle="Managed Payroll for Engineering"
       description="Engineering payroll includes prevailing wage, certified payroll, and project-based labor tracking. We handle it all as a fully managed service."
       calendlyLink={getCalendlyLink('payroll-engineering')}
     />

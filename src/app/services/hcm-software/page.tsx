@@ -16,7 +16,6 @@ export default function HCMSoftwarePage() {
     <ServicePage
       eyebrow="HCM Software · Powered by iSolved"
       title="Payroll, HR, time, and benefits on one platform."
-      subtitle="HCM Software"
       description="Prefer to keep HR in-house? Our HCM Software, powered by iSolved, puts everything on one system, set up and supported by BEG, so your team is never stuck stitching tools together or going it alone."
       calendlyLink={calendlyLink}
       heroStats={[

@@ -12,7 +12,6 @@ export default function PlacementEngineeringPage() {
     <ServicePage
       eyebrow="Job Placement · Engineering"
       title="Fill your engineering roles faster."
-      subtitle="Engineering Job Placement"
       description="Engineering projects need qualified engineers on time. We source and place qualified engineers so your projects keep moving."
       calendlyLink={getCalendlyLink('placement-engineering')}
     />

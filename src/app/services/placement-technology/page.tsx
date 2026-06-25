@@ -12,7 +12,6 @@ export default function PlacementTechnologyPage() {
     <ServicePage
       eyebrow="Job Placement · Technology"
       title="Fill your software and tech roles faster."
-      subtitle="Technology Job Placement"
       description="Technology teams move fast. We place software engineers, data scientists, and IT professionals so your roadmap stays on track."
       calendlyLink={getCalendlyLink('placement-technology')}
     />

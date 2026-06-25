@@ -12,7 +12,6 @@ export default function PlacementExecutivePage() {
     <ServicePage
       eyebrow="Job Placement · Executive"
       title="Find your next executive leader."
-      subtitle="Executive Job Placement"
       description="Executive and director-level search requires confidentiality and deep expertise. We source and place senior leaders with focused, discreet recruiting."
       calendlyLink={getCalendlyLink('placement-executive')}
     />

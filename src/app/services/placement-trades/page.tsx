@@ -12,7 +12,6 @@ export default function PlacementTradesPage() {
     <ServicePage
       eyebrow="Job Placement · Skilled Trades"
       title="Fill your skilled trades and manufacturing roles faster."
-      subtitle="Skilled Trades Job Placement"
       description="Manufacturing and skilled trades need qualified production and technical talent on the line. We place skilled trades professionals to keep operations running."
       calendlyLink={getCalendlyLink('placement-trades')}
     />

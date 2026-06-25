@@ -12,7 +12,6 @@ export default function HCMTradesPage() {
     <ServicePage
       eyebrow="HCM Software · Skilled Trades"
       title="One HR platform for trades and manufacturing."
-      subtitle="HCM Software for Trades"
       description="Skilled trades HR includes union compliance, certified payroll, and multi-site management. One HCM platform powered by iSolved, set up and supported by BEG."
       calendlyLink={getCalendlyLink('hcm-trades')}
     />

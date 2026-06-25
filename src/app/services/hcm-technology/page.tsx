@@ -12,7 +12,6 @@ export default function HCMTechnologyPage() {
     <ServicePage
       eyebrow="HCM Software · Technology"
       title="One HR platform for tech companies."
-      subtitle="HCM Software for Technology"
       description="Technology company HR includes equity compensation, contractor management, and distributed teams. One HCM platform powered by iSolved, set up and supported by BEG."
       calendlyLink={getCalendlyLink('hcm-technology')}
     />

@@ -12,7 +12,6 @@ export default function PlacementFinancePage() {
     <ServicePage
       eyebrow="Job Placement · Finance"
       title="Fill your finance and accounting roles faster."
-      subtitle="Finance & Accounting Job Placement"
       description="Finance and accounting teams need quality hires who can impact your bottom line immediately. We place controllers, CPAs, and accounting professionals."
       calendlyLink={getCalendlyLink('placement-finance')}
     />

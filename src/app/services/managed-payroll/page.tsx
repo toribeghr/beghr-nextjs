@@ -16,7 +16,6 @@ export default function ManagedPayrollPage() {
     <ServicePage
       eyebrow="Managed Payroll"
       title="Hand off payroll. For good."
-      subtitle="Managed Payroll"
       description="Fully managed payroll for businesses nationwide. We run payroll, taxes, and filings so your team never touches it again. One less thing to worry about, one more thing that works."
       calendlyLink={calendlyLink}
       heroStats={[

@@ -12,7 +12,6 @@ export default function PayrollTradesPage() {
     <ServicePage
       eyebrow="Managed Payroll · Skilled Trades"
       title="Trades payroll, fully managed."
-      subtitle="Managed Payroll for Skilled Trades"
       description="Skilled trades and manufacturing payroll means union rules, certified payroll, and workers compensation management. We handle it as a fully managed service."
       calendlyLink={getCalendlyLink('payroll-trades')}
     />

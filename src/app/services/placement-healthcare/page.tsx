@@ -12,7 +12,6 @@ export default function PlacementHealthcarePage() {
     <ServicePage
       eyebrow="Job Placement · Healthcare"
       title="Fill your clinical and nursing roles faster."
-      subtitle="Healthcare Job Placement"
       description="Healthcare organizations need qualified clinical staff now. We source and place nurses, clinicians, and healthcare professionals before burnout sets in."
       calendlyLink={getCalendlyLink('placement-healthcare')}
     />

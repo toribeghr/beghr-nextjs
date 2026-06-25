@@ -12,7 +12,6 @@ export default function HCMFinancePage() {
     <ServicePage
       eyebrow="HCM Software · Finance"
       title="One HR platform for accounting firms."
-      subtitle="HCM Software for Finance"
       description="Finance and accounting HR requires bonus tracking, commission management, and zero-error payroll. One HCM platform powered by iSolved, set up and supported by BEG."
       calendlyLink={getCalendlyLink('hcm-finance')}
     />

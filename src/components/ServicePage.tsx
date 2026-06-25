@@ -2,7 +2,6 @@ import { ReactNode } from 'react';
 
 interface ServicePageProps {
   title: string;
-  subtitle: string;
   description: string;
   calendlyLink: string;
   eyebrow?: string;
@@ -12,7 +11,6 @@ interface ServicePageProps {
 
 export default function ServicePage({
   title,
-  subtitle,
   description,
   calendlyLink,
   eyebrow,

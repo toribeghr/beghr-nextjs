@@ -12,7 +12,6 @@ export default function HCMHealthcarePage() {
     <ServicePage
       eyebrow="HCM Software · Healthcare"
       title="One HR platform for healthcare organizations."
-      subtitle="HCM Software for Healthcare"
       description="Healthcare HR includes shift scheduling, clinical staff management, and compliance tracking. One connected HCM platform powered by iSolved, set up and supported by BEG."
       calendlyLink={getCalendlyLink('hcm-healthcare')}
     />

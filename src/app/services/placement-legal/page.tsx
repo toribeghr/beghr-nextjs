@@ -12,7 +12,6 @@ export default function PlacementLegalPage() {
     <ServicePage
       eyebrow="Job Placement · Legal"
       title="Fill your open legal roles faster."
-      subtitle="Legal Job Placement"
       description="Finding the right attorney or paralegal is not a numbers game. We source, screen, and shortlist qualified legal talent for your firm, backed by a 45-day replacement guarantee and milestone-based pricing."
       calendlyLink={getCalendlyLink('placement-legal')}
       heroStats={[

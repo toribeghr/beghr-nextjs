@@ -15,7 +15,6 @@ export default function PayrollLegalPage() {
     <ServicePage
       eyebrow="Managed Payroll · Legal"
       title="Payroll for legal, fully handled."
-      subtitle="Managed Payroll for Legal"
       description="Running payroll for a law firm team means partner draws, multi-state attorneys, and billable staff who cannot lose time to back-office errors. We run all of it as a fully managed service, so your team never touches payroll again."
       calendlyLink={calendlyLink}
       heroStats={[

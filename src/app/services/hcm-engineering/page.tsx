@@ -12,7 +12,6 @@ export default function HCMEngineeringPage() {
     <ServicePage
       eyebrow="HCM Software · Engineering"
       title="One HR platform for engineering firms."
-      subtitle="HCM Software for Engineering"
       description="Engineering HR requires prevailing wage compliance, certified payroll, and project tracking. One HCM platform powered by iSolved, set up and supported by BEG."
       calendlyLink={getCalendlyLink('hcm-engineering')}
     />

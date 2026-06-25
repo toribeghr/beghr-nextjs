@@ -12,7 +12,6 @@ export default function PayrollExecutivePage() {
     <ServicePage
       eyebrow="Managed Payroll · Executive"
       title="Executive payroll, discreetly managed."
-      subtitle="Managed Payroll for Executive"
       description="Executive and leadership payroll includes deferred compensation, executive benefits, and complex arrangements handled with discretion and care."
       calendlyLink={getCalendlyLink('payroll-executive')}
     />

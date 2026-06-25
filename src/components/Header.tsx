@@ -1,13 +1,18 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
     <header className="site-header">
       <div className="container nav">
         <Link href="/" className="brand" aria-label="Business Executive Group home">
-          <div style={{ width: '42px', height: '42px', background: '#D4AF37', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', fontWeight: 'bold', color: '#0A0E27', flexShrink: 0 }}>
-            BEG
-          </div>
+          <Image
+            src="/assets/beg-logo-gold.png"
+            alt="Business Executive Group"
+            width={42}
+            height={42}
+            priority
+          />
           <span>Business Executive Group</span>
         </Link>
 

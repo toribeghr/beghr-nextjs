@@ -69,31 +69,31 @@ export default function ManagedPayrollPage() {
             <h2>Payroll solutions built for your business</h2>
           </div>
           <div className="cards">
-            <Link href="/services/payroll-legal" className="card-link reveal">
+            <Link href="/services/managed-payroll/legal" className="card-link reveal">
               <h3>Legal</h3>
               <p>Partner draws, multi-state attorneys, billable staff.</p>
             </Link>
-            <Link href="/services/payroll-healthcare" className="card-link reveal">
+            <Link href="/services/managed-payroll/healthcare" className="card-link reveal">
               <h3>Healthcare</h3>
               <p>Clinical staff, providers, compliance on time.</p>
             </Link>
-            <Link href="/services/payroll-finance" className="card-link reveal">
+            <Link href="/services/managed-payroll/finance" className="card-link reveal">
               <h3>Finance</h3>
               <p>Equity compensation, bonus structures, tax planning.</p>
             </Link>
-            <Link href="/services/payroll-technology" className="card-link reveal">
+            <Link href="/services/managed-payroll/technology" className="card-link reveal">
               <h3>Technology</h3>
               <p>Remote teams, stock options, rapid scaling.</p>
             </Link>
-            <Link href="/services/payroll-engineering" className="card-link reveal">
+            <Link href="/services/managed-payroll/engineering" className="card-link reveal">
               <h3>Engineering</h3>
               <p>Specialized roles, benefits complexity, retention.</p>
             </Link>
-            <Link href="/services/payroll-trades" className="card-link reveal">
+            <Link href="/services/managed-payroll/trades" className="card-link reveal">
               <h3>Trades</h3>
               <p>Project payroll, workers comp, compliance.</p>
             </Link>
-            <Link href="/services/payroll-executive" className="card-link reveal">
+            <Link href="/services/managed-payroll/executive" className="card-link reveal">
               <h3>Executive</h3>
               <p>C-suite, deferred comp, executive benefits.</p>
             </Link>

@@ -110,6 +110,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           dangerouslySetInnerHTML={{
             __html: `const t=document.getElementById('navToggle'),l=document.getElementById('navLinks');
 if(t&&l){t.addEventListener('click',()=>l.classList.toggle('open'));l.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>l.classList.remove('open')));}
+document.querySelectorAll('.reveal').forEach(el=>el.classList.add('will-animate'));
 const io=new IntersectionObserver((es)=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 (function(){var s=document.getElementById("stickyCta");var hero=document.querySelector(".hero");if(!s||!hero)return;var io=new IntersectionObserver(function(es){es.forEach(function(e){s.classList.toggle("show",!e.isIntersecting)})},{threshold:0});io.observe(hero);})();`,

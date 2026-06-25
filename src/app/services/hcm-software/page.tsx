@@ -69,37 +69,37 @@ export default function HCMSoftwarePage() {
             <h2>One platform, configured for your industry</h2>
           </div>
           <div className="cards">
-            <Link href="/services/hcm-legal" className="card-link reveal">
+            <Link href="/services/hcm-software/legal" className="card-link reveal">
               <span className="tag">Legal</span>
               <h3>Law Firms</h3>
               <p>Partner draws, multi-state attorneys, billable staff.</p>
             </Link>
-            <Link href="/services/hcm-healthcare" className="card-link reveal">
+            <Link href="/services/hcm-software/healthcare" className="card-link reveal">
               <span className="tag">Healthcare</span>
               <h3>Healthcare</h3>
               <p>Shift differentials, 24/7 schedules, high turnover.</p>
             </Link>
-            <Link href="/services/hcm-finance" className="card-link reveal">
+            <Link href="/services/hcm-software/finance" className="card-link reveal">
               <span className="tag">Finance</span>
               <h3>Finance & Accounting</h3>
               <p>Bonus and commission structures, zero error tolerance.</p>
             </Link>
-            <Link href="/services/hcm-technology" className="card-link reveal">
+            <Link href="/services/hcm-software/technology" className="card-link reveal">
               <span className="tag">Technology</span>
               <h3>IT & Technology</h3>
               <p>Equity, contractors, multi-state teams.</p>
             </Link>
-            <Link href="/services/hcm-engineering" className="card-link reveal">
+            <Link href="/services/hcm-software/engineering" className="card-link reveal">
               <span className="tag">Engineering</span>
               <h3>Engineering</h3>
               <p>Prevailing wage, certified payroll, project labor.</p>
             </Link>
-            <Link href="/services/hcm-trades" className="card-link reveal">
+            <Link href="/services/hcm-software/trades" className="card-link reveal">
               <span className="tag">Trades</span>
               <h3>Skilled Trades & Mfg</h3>
               <p>Union rules, certified payroll, multiple job sites.</p>
             </Link>
-            <Link href="/services/hcm-executive" className="card-link reveal">
+            <Link href="/services/hcm-software/executive" className="card-link reveal">
               <span className="tag">Executive</span>
               <h3>Executive & Leadership</h3>
               <p>Complex, deferred comp handled discreetly.</p>

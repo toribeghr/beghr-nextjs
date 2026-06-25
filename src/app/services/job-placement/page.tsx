@@ -37,37 +37,37 @@ export default function JobPlacementPage() {
             </p>
           </div>
           <div className="cards">
-            <Link href="/services/placement-legal" className="card-link reveal">
+            <Link href="/services/job-placement/legal" className="card-link reveal">
               <span className="tag">Legal</span>
               <h3>Legal & Attorney</h3>
               <p>Fill open attorney, paralegal, and counsel seats without the contingency-fee gamble.</p>
             </Link>
-            <Link href="/services/placement-healthcare" className="card-link reveal">
+            <Link href="/services/job-placement/healthcare" className="card-link reveal">
               <span className="tag">Healthcare</span>
               <h3>Healthcare & Nursing</h3>
               <p>Clinical and nursing talent placed before burnout sets in.</p>
             </Link>
-            <Link href="/services/placement-finance" className="card-link reveal">
+            <Link href="/services/job-placement/finance" className="card-link reveal">
               <span className="tag">Finance</span>
               <h3>Finance & Accounting</h3>
               <p>Controllers, accountants, and analysts, including CPA-credentialed roles.</p>
             </Link>
-            <Link href="/services/placement-technology" className="card-link reveal">
+            <Link href="/services/job-placement/technology" className="card-link reveal">
               <span className="tag">Technology</span>
               <h3>IT & Technology</h3>
               <p>Software, data, and IT roles filled before your roadmap slips.</p>
             </Link>
-            <Link href="/services/placement-engineering" className="card-link reveal">
+            <Link href="/services/job-placement/engineering" className="card-link reveal">
               <span className="tag">Engineering</span>
               <h3>Engineering</h3>
               <p>Qualified engineers sourced so your projects keep moving.</p>
             </Link>
-            <Link href="/services/placement-trades" className="card-link reveal">
+            <Link href="/services/job-placement/trades" className="card-link reveal">
               <span className="tag">Trades</span>
               <h3>Skilled Trades & Manufacturing</h3>
               <p>Production and skilled-trade talent to keep your line running.</p>
             </Link>
-            <Link href="/services/placement-executive" className="card-link reveal">
+            <Link href="/services/job-placement/executive" className="card-link reveal">
               <span className="tag">Executive</span>
               <h3>Executive & Director+</h3>
               <p>Focused, confidential search for director and above leadership.</p>

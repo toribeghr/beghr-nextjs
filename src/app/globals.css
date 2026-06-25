@@ -449,9 +449,13 @@ p {
 }
 
 .head.reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.head.reveal.will-animate {
   opacity: 0;
   transform: translateY(20px);
-  transition: all 0.5s ease;
 }
 
 .head.reveal.in {
@@ -739,11 +743,16 @@ p {
   font-weight: 500;
 }
 
-/* Reveal Animation */
+/* Reveal Animation — fallback: visible by default, animated when JS fires */
 .reveal {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.reveal.will-animate {
   opacity: 0;
   transform: translateY(20px);
-  transition: all 0.5s ease;
 }
 
 .reveal.in {

@@ -1,18 +1,19 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Header() {
   return (
     <header className="site-header">
       <div className="container nav">
         <Link href="/" className="brand" aria-label="Business Executive Group home">
-          <Image
-            src="/assets/beg-logo-gold.png"
-            alt="Business Executive Group lion mark"
-            width={42}
-            height={42}
-            priority
-          />
+          <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="21" cy="21" r="21" fill="#D4AF37" opacity="0.1"/>
+            <g fill="#D4AF37">
+              <path d="M21 8c2 0 3.5 1 4.5 2.5.8 1.2 1 2.5.8 3.5-.2 1-1 1.8-2 2l-1.3.3.5 1.2c.3.8.2 1.5-.2 2-.5.6-1.3 1-2.3 1s-1.8-.4-2.3-1c-.4-.5-.5-1.2-.2-2l.5-1.2-1.3-.3c-1-.2-1.8-1-2-2-.2-1 0-2.3.8-3.5C17.5 9 19 8 21 8z"/>
+              <path d="M14 16c.5 0 1 .2 1.3.6l1 1.3 1-1.3c.3-.4.8-.6 1.3-.6s1 .2 1.3.6c.3.4.3 1 0 1.5l-2.3 3-2.3-3c-.3-.5-.3-1.1 0-1.5.3-.4.8-.6 1.3-.6z"/>
+              <rect x="18" y="24" width="6" height="1.5" rx="0.5"/>
+              <path d="M21 26c-2 0-3-1.5-3-3.5s1-3.5 3-3.5 3 1.5 3 3.5-1 3.5-3 3.5z"/>
+            </g>
+          </svg>
           <span>Business Executive Group</span>
         </Link>
 

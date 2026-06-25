@@ -23,42 +23,6 @@ export default function Footer() {
           </nav>
         </div>
 
-        <nav className="foot-sitemap" aria-label="All services by industry">
-          <div>
-            <b>Managed Payroll</b>
-            <Link href="/services/managed-payroll">Overview</Link>
-            <Link href="/services/payroll-legal">Law Firms</Link>
-            <Link href="/services/payroll-healthcare">Healthcare</Link>
-            <Link href="/services/payroll-finance">Finance & Accounting</Link>
-            <Link href="/services/payroll-technology">IT & Technology</Link>
-            <Link href="/services/payroll-engineering">Engineering</Link>
-            <Link href="/services/payroll-trades">Skilled Trades & Mfg</Link>
-            <Link href="/services/payroll-executive">Executive & Leadership</Link>
-          </div>
-          <div>
-            <b>HCM Software</b>
-            <Link href="/services/hcm-software">Overview</Link>
-            <Link href="/services/hcm-legal">Law Firms</Link>
-            <Link href="/services/hcm-healthcare">Healthcare</Link>
-            <Link href="/services/hcm-finance">Finance & Accounting</Link>
-            <Link href="/services/hcm-technology">IT & Technology</Link>
-            <Link href="/services/hcm-engineering">Engineering</Link>
-            <Link href="/services/hcm-trades">Skilled Trades & Mfg</Link>
-            <Link href="/services/hcm-executive">Executive & Leadership</Link>
-          </div>
-          <div>
-            <b>Job Placement</b>
-            <Link href="/services/job-placement">Overview</Link>
-            <Link href="/services/placement-legal">Legal & Attorney</Link>
-            <Link href="/services/placement-healthcare">Healthcare & Nursing</Link>
-            <Link href="/services/placement-finance">Finance & Accounting</Link>
-            <Link href="/services/placement-technology">IT & Technology</Link>
-            <Link href="/services/placement-engineering">Engineering</Link>
-            <Link href="/services/placement-trades">Skilled Trades & Mfg</Link>
-            <Link href="/services/placement-executive">Executive & Director+</Link>
-          </div>
-        </nav>
-
         <div className="social" aria-label="Business Executive Group on social media">
           <a
             href="https://www.linkedin.com/company/businessexecutivegroup/"

@@ -13,34 +13,9 @@ export default function Header() {
           <details className="nav-dd">
             <summary>Services</summary>
             <div className="nav-panel">
-
               <Link href="/services/managed-payroll" className="nav-panel-label nav-panel-hub">Managed Payroll</Link>
-              <Link href="/services/managed-payroll/legal">Law Firms</Link>
-              <Link href="/services/managed-payroll/healthcare">Healthcare</Link>
-              <Link href="/services/managed-payroll/finance">Finance &amp; Accounting</Link>
-              <Link href="/services/managed-payroll/technology">IT &amp; Technology</Link>
-              <Link href="/services/managed-payroll/engineering">Engineering</Link>
-              <Link href="/services/managed-payroll/trades">Skilled Trades &amp; Mfg</Link>
-              <Link href="/services/managed-payroll/executive">Executive &amp; Leadership</Link>
-
               <Link href="/services/hcm-software" className="nav-panel-label nav-panel-hub">HCM Software</Link>
-              <Link href="/services/hcm-software/legal">Law Firms</Link>
-              <Link href="/services/hcm-software/healthcare">Healthcare</Link>
-              <Link href="/services/hcm-software/finance">Finance &amp; Accounting</Link>
-              <Link href="/services/hcm-software/technology">IT &amp; Technology</Link>
-              <Link href="/services/hcm-software/engineering">Engineering</Link>
-              <Link href="/services/hcm-software/trades">Skilled Trades &amp; Mfg</Link>
-              <Link href="/services/hcm-software/executive">Executive &amp; Leadership</Link>
-
               <Link href="/services/job-placement" className="nav-panel-label nav-panel-hub">Job Placement</Link>
-              <Link href="/services/job-placement/legal">Legal &amp; Attorney</Link>
-              <Link href="/services/job-placement/healthcare">Healthcare &amp; Nursing</Link>
-              <Link href="/services/job-placement/finance">Finance &amp; Accounting</Link>
-              <Link href="/services/job-placement/technology">IT &amp; Technology</Link>
-              <Link href="/services/job-placement/engineering">Engineering</Link>
-              <Link href="/services/job-placement/trades">Skilled Trades &amp; Mfg</Link>
-              <Link href="/services/job-placement/executive">Executive &amp; Director+</Link>
-
             </div>
           </details>
 

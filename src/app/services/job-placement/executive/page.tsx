@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Executive Search Services | Business Executive Group',
-  description: 'Executive leadership search. Find director and C-level talent. Confidential, focused executive recruiting.',
+  title: 'Executive Search Services | C-Level & Director Recruiting | BEG',
+  description: 'Confidential executive and director-level search. Milestone-based recruiting, 45-day replacement guarantee. Find leadership talent that moves the needle.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement/executive',
   },

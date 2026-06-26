@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Legal Job Placement Services | Business Executive Group',
-  description: 'Legal hiring services. Fill attorney, paralegal, and counsel roles faster and at lower cost than commission-based recruiters.',
+  title: 'Legal Job Placement | Fill Attorney Roles in 23-35 Days | BEG',
+  description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement/legal',
   },

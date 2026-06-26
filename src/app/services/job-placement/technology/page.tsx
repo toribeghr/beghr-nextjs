@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Technology Job Placement Services | Business Executive Group',
-  description: 'IT and software job placement. Fill developer, data, and tech roles faster before your roadmap slips.',
+  title: 'IT & Technology Job Placement | Dev & Data Recruiting | BEG',
+  description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Book a discovery call.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement/technology',
   },

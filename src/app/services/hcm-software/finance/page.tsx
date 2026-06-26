@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Finance & Accounting | Business Executive Group',
-  description: 'HCM platform for finance firms. Manage payroll, bonuses, and HR on one connected system.',
+  title: 'iSolved HCM for Finance Firms | Bonus & Payroll Platform | BEG',
+  description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software/finance',
   },

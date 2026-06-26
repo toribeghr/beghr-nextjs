@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Healthcare Job Placement Services | Business Executive Group',
-  description: 'Healthcare and nursing job placement. Fill clinical roles faster before burnout. 45-day replacement guarantee.',
+  title: 'Healthcare Job Placement | Clinical & Nursing Recruiting | BEG',
+  description: 'Fill nursing and clinical roles before burnout. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee. Book a call.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement/healthcare',
   },

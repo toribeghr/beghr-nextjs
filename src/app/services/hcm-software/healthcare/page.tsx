@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Healthcare | Business Executive Group',
-  description: 'HCM platform for healthcare organizations. Manage staffing, shifts, compliance, and payroll on one system.',
+  title: 'iSolved HCM for Healthcare | Clinical HR & Payroll Platform | BEG',
+  description: 'iSolved HCM for healthcare. Shift scheduling, compliance tracking, and clinical staff management on one platform. Implemented and supported by BEG.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software/healthcare',
   },

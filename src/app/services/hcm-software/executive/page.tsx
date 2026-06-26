@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Executive HCM Software | Business Executive Group',
-  description: 'HCM platform for executives and leadership. Deferred comp, complex benefits, discreet management.',
+  title: 'iSolved HCM for Executive Teams | Deferred Comp Platform | BEG',
+  description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software/executive',
   },

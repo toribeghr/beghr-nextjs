@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Legal | Business Executive Group',
-  description: 'Fully managed payroll for law firm teams. We run payroll, taxes, and filings so your team never touches it. Book a 15-minute discovery call.',
+  title: 'Managed Payroll for Law Firms | $25-$35 PEPM | BEG',
+  description: 'Outsource law firm payroll for $25-$35 PEPM. Partner distributions, trust accounting, and tax filings all included. Request a free scope review.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll/legal',
   },

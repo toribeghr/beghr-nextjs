@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Technology | Business Executive Group',
-  description: 'HCM platform for tech companies. Manage equity, contractors, and remote teams on one system.',
+  title: 'iSolved HCM for Tech Companies | HR & Equity Platform | BEG',
+  description: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software/technology',
   },

@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Finance & Accounting Job Placement | Business Executive Group',
-  description: 'Finance and accounting hiring. Fill controller, CPA, and accounting roles faster. Milestone pricing, 45-day guarantee.',
+  title: 'Finance & Accounting Job Placement | Controller & CPA Hiring | BEG',
+  description: 'Place controllers, CPAs, and accounting managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement/finance',
   },

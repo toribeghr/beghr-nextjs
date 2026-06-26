@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Healthcare | Business Executive Group',
-  description: 'Fully managed payroll for healthcare teams. Shift differentials, compliance, on-time filings. Book a discovery call.',
+  title: 'Managed Payroll for Healthcare | Shift Differential & Compliance | BEG',
+  description: 'Healthcare payroll fully managed at $25-$35 PEPM. Shift differentials, compliance filings, and on-time taxes included. Request a free scope review.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll/healthcare',
   },

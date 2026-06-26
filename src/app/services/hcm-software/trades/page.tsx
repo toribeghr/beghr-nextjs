@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Skilled Trades | Business Executive Group',
-  description: 'HCM platform for manufacturing and trades. Union compliance, multi-site payroll, certified tracking.',
+  title: 'iSolved HCM for Skilled Trades | Union & Multi-Site Payroll | BEG',
+  description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software/trades',
   },

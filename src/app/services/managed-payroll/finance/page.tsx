@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Finance & Accounting | Business Executive Group',
-  description: 'Managed payroll for finance firms. Bonus structures, equity compensation, zero error tolerance. Book a discovery call.',
+  title: 'Managed Payroll for Finance Firms | $25-$35 PEPM | BEG',
+  description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25-$35 PEPM. Request a scope review.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll/finance',
   },

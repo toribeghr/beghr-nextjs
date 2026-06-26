@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Skilled Trades Job Placement | Business Executive Group',
-  description: 'Skilled trades and manufacturing job placement. Fill production and skilled roles faster. Keep your line running.',
+  title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG',
+  description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting specialists.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement/trades',
   },

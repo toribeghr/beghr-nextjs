@@ -4,8 +4,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'HCM Software Powered by iSolved | Business Executive Group',
-  description: 'BEG HCM Software powered by iSolved. Payroll, HR, time, and benefits on one platform, set up and supported by BEG.',
+  title: 'iSolved HCM Software | Authorized iSolved Reseller | BEG',
+  description: 'iSolved People Cloud via BEG. HR, payroll, benefits, and AI workforce tools in one platform. 330% documented ROI. Now with iSolved Connector for Claude.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software',
   },

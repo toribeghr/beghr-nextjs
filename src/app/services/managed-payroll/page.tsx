@@ -4,8 +4,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll | Business Executive Group',
-  description: 'Fully managed payroll for businesses nationwide. We run payroll, taxes, and filings so your team never touches it. Book a 15-minute discovery call.',
+  title: 'Managed Payroll Services | $25-$35 PEPM | Outsource Payroll | BEG',
+  description: 'Fully managed payroll at $25-$35 per employee per month. All-inclusive: taxes, filings, and compliance. Works in your existing system. No migration.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll',
   },

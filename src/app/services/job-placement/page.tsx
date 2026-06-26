@@ -4,8 +4,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Job Placement Services Powered by iSolved | Business Executive Group',
-  description: 'BEG Job Placement Services. Fill specialized roles 2-3x faster than industry standard. Milestone pricing, 45-day replacement guarantee.',
+  title: 'Job Placement Services | Fill Roles in 23-35 Days | BEG',
+  description: 'Fill specialized roles 2-3x faster than contingency recruiters. Milestone billing, 45-day replacement guarantee. Legal, clinical, tech, finance, and more.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement',
   },

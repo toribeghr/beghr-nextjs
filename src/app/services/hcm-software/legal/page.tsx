@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Law Firms | Business Executive Group',
-  description: 'HCM platform for legal firms. Manage payroll, HR, time, and benefits on one iSolved platform.',
+  title: 'iSolved HCM for Law Firms | Legal HR & Payroll Platform | BEG',
+  description: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software/legal',
   },

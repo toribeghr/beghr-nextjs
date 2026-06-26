@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Skilled Trades | Business Executive Group',
-  description: 'Managed payroll for trades and manufacturing. Union rules, certified payroll, multi-site operations. Book a discovery call.',
+  title: 'Managed Payroll for Skilled Trades | Union & Certified Payroll | BEG',
+  description: 'Trades and manufacturing payroll at $25-$35 PEPM. Union compliance, certified payroll, and multi-site management all included. Request a scope review.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll/trades',
   },

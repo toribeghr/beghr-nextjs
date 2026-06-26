@@ -3,8 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Engineering | Business Executive Group',
-  description: 'Managed payroll for engineering firms. Prevailing wage, certified payroll, project labor. Book a discovery call.',
+  title: 'Managed Payroll for Engineering Firms | Certified Payroll | BEG',
+  description: 'Engineering payroll managed at $25-$35 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll/engineering',
   },

@@ -140,6 +140,7 @@ p {
   border-radius: 10px;
   border: 1.5px solid transparent;
   cursor: pointer;
+  color: #000;
   transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
 
@@ -170,7 +171,7 @@ p {
 
 .btn--navy {
   background: var(--navy);
-  color: #fff;
+  color: #000;
 }
 
 .btn--navy:hover {

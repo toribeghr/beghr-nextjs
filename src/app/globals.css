@@ -7,9 +7,9 @@
   --navy: #0A0E27;
   --navy-2: #1A1A1A;
   --navy-3: #2A2A2A;
-  --gold: #D4AF37;
-  --gold-light: #E7CE88;
-  --gold-deep: #A9842F;
+  --gold: #ECAC60;
+  --gold-light: #F5C97A;
+  --gold-deep: #DA7008;
   --ink: #16203A;
   --slate: #5A6377;
   --bg: #FFFFFF;
@@ -182,7 +182,7 @@ p {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(10, 14, 39, 0.96);
+  background: var(--navy);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(212, 175, 55, 0.15);
 }

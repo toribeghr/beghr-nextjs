@@ -143,7 +143,7 @@ export default function AboutPage() {
       <section className="section" style={{ background: '#0a0a0a', padding: '80px 0' }}>
         <div className="container">
           <div className="head center reveal" style={{ marginBottom: '56px' }}>
-            <p className="eyebrow" style={{ color: 'var(--clr-gold, #C9A84C)' }}>Leadership</p>
+            <p className="eyebrow" style={{ color: 'var(--gold, #ECAC60)' }}>Leadership</p>
             <h2 style={{ color: '#fff' }}>Board of Directors</h2>
             <p className="lede center" style={{ color: '#9aa3b0', marginTop: '12px' }}>
               Our board brings deep expertise across business operations, HR, finance, insurance, cybersecurity, and sales.
@@ -191,7 +191,7 @@ export default function AboutPage() {
                 <h3 style={{ color: '#fff', fontSize: '1.15rem', margin: '0 0 4px', fontWeight: 600 }}>
                   {member.name}
                 </h3>
-                <p style={{ color: 'var(--clr-gold, #C9A84C)', fontSize: '.85rem', fontWeight: 600, letterSpacing: '.06em', textTransform: 'uppercase', margin: '0 0 14px' }}>
+                <p style={{ color: 'var(--gold, #ECAC60)', fontSize: '.85rem', fontWeight: 600, letterSpacing: '.06em', textTransform: 'uppercase', margin: '0 0 14px' }}>
                   {member.title}
                 </p>
                 <p style={{ color: '#9aa3b0', fontSize: '.9rem', lineHeight: 1.65, maxWidth: 300, margin: '0 auto' }}>

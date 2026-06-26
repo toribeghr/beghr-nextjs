@@ -5,7 +5,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav">
         <Link href="/" className="brand" aria-label="Business Executive Group home">
-          <img src="/assets/beg-header-image.png" alt="Business Executive Group" className="logo-mark" style={{ width: 42, height: 42, flexShrink: 0 }} />
+          <img src="/assets/beg-header-image.png" alt="Business Executive Group" className="logo-mark" style={{ flexShrink: 0 }} />
           <span>Business Executive Group</span>
         </Link>
 

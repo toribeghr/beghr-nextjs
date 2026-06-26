@@ -45,15 +45,15 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="maps-section" style={{ marginTop: '40px', paddingTop: '40px', borderTop: '1px solid rgba(212, 175, 55, 0.2)' }}>
+        <div className="maps-section" style={{ marginTop: '40px', paddingTop: '40px', borderTop: '1px solid rgba(236, 172, 96, 0.2)' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px', alignItems: 'start' }}>
             <div>
-              <h3 style={{ marginBottom: '16px', color: '#D4AF37' }}>Contact</h3>
+              <h3 style={{ marginBottom: '16px', color: '#ECAC60' }}>Contact</h3>
               <p style={{ color: '#C7D2E5', margin: '8px 0' }}>
                 <strong>Business Executive Group</strong><br/>
                 Celina, TX<br/>
-                <a href="tel:4694121204" style={{ color: '#D4AF37', textDecoration: 'none' }}>469-412-1204</a><br/>
-                <a href="mailto:tori.wint@beghr.com" style={{ color: '#D4AF37', textDecoration: 'none' }}>tori.wint@beghr.com</a>
+                <a href="tel:4694121204" style={{ color: '#ECAC60', textDecoration: 'none' }}>469-412-1204</a><br/>
+                <a href="mailto:tori.wint@beghr.com" style={{ color: '#ECAC60', textDecoration: 'none' }}>tori.wint@beghr.com</a>
               </p>
             </div>
             <iframe

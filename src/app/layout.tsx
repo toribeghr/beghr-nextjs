@@ -62,10 +62,8 @@ export default function RootLayout({
               email: 'tori.wint@beghr.com',
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: '',
                 addressLocality: 'Celina',
                 addressRegion: 'TX',
-                postalCode: '',
                 addressCountry: 'US',
               },
               description: 'Managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',

@@ -1,6 +1,6 @@
 /* ============================================================
    Business Executive Group (BEG) — Global Stylesheet
-   Modern professional: navy (#0A0E27) + gold (#D4AF37)
+   Modern professional: black (#000000) + gold (#ECAC60)
    ============================================================ */
 
 :root {
@@ -284,7 +284,7 @@ p {
   top: 100%;
   left: 0;
   background: var(--navy);
-  border: 1px solid rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(236, 172, 96, 0.15);
   border-radius: var(--radius);
   padding: 12px 0;
   min-width: 180px;
@@ -301,12 +301,12 @@ p {
 }
 
 .nav-panel a:hover {
-  background: rgba(212, 175, 55, 0.1);
+  background: rgba(236, 172, 96, 0.1);
   color: var(--gold-light);
 }
 
 .nav-panel-hub {
-  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  border-bottom: 1px solid rgba(236, 172, 96, 0.15);
   font-weight: 600;
   color: var(--gold) !important;
 }
@@ -421,7 +421,7 @@ p {
   gap: 32px;
   margin-top: 48px;
   padding-top: 48px;
-  border-top: 1px solid rgba(212, 175, 55, 0.15);
+  border-top: 1px solid rgba(236, 172, 96, 0.15);
 }
 
 .trust-row > div {
@@ -500,7 +500,7 @@ p {
   background: var(--navy);
   color: #D7DEEC;
   padding: 64px 0 24px;
-  border-top: 1px solid rgba(212, 175, 55, 0.15);
+  border-top: 1px solid rgba(236, 172, 96, 0.15);
 }
 
 .foot-grid {
@@ -510,7 +510,7 @@ p {
   align-items: start;
   margin-bottom: 48px;
   padding-bottom: 32px;
-  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  border-bottom: 1px solid rgba(236, 172, 96, 0.15);
 }
 
 .foot-grid nav {
@@ -535,7 +535,7 @@ p {
   gap: 32px;
   margin-bottom: 32px;
   padding-bottom: 32px;
-  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  border-bottom: 1px solid rgba(236, 172, 96, 0.15);
 }
 
 .foot-sitemap div {
@@ -630,7 +630,7 @@ p {
 /* Lead Magnet Form */
 .lead-magnet {
   background: rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(236, 172, 96, 0.15);
   border-radius: var(--radius);
   padding: 48px 32px;
   text-align: center;
@@ -726,7 +726,7 @@ p {
   right: 0;
   left: 0;
   background: var(--navy);
-  border-top: 1px solid rgba(212, 175, 55, 0.15);
+  border-top: 1px solid rgba(236, 172, 96, 0.15);
   padding: 16px 24px;
   display: flex;
   justify-content: space-between;
@@ -794,7 +794,7 @@ p {
   .nav-panel {
     position: static;
     border: none;
-    background: rgba(212, 175, 55, 0.1);
+    background: rgba(236, 172, 96, 0.1);
     margin: 0;
     padding: 12px 0 12px 20px;
   }

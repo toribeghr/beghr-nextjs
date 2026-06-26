@@ -184,15 +184,6 @@ export default function AboutPage() {
                       objectPosition: 'top center',
                       display: 'block',
                     }}
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.style.display = 'none';
-                      const parent = target.parentElement;
-                      if (parent) {
-                        parent.style.alignItems = 'center';
-                        parent.innerHTML = `<span style="font-size:3rem;opacity:.3;">${member.name.split(' ').map(w=>w[0]).join('')}</span>`;
-                      }
-                    }}
                   />
                 </div>
 

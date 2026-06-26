@@ -28,13 +28,13 @@ export default function PrivacyPolicyPage() {
           <p>This site uses Google Tag Manager and Google Analytics 4 to understand how visitors interact with our pages. These tools may set cookies on your device. You can opt out at any time via <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)' }}>Google&apos;s opt-out tool</a>.</p>
 
           <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>4. Data Retention</h2>
-          <p>We retain contact information for as long as needed to service your inquiry or as required by law. You may request deletion of your data at any time by emailing <a href="mailto:tori.wint@beghr.com" style={{ color: 'var(--gold)' }}>tori.wint@beghr.com</a>.</p>
+          <p>We retain contact information for as long as needed to service your inquiry or as required by law. You may request deletion of your data at any time by emailing <a href="mailto:sales@beghr.com" style={{ color: 'var(--gold)' }}>sales@beghr.com</a>.</p>
 
           <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>5. Third-Party Services</h2>
           <p>We use Calendly for scheduling, which has its own privacy policy. Links to third-party sites are provided for convenience and do not constitute an endorsement.</p>
 
           <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>6. Contact</h2>
-          <p>Questions about this policy? Reach us at <a href="mailto:tori.wint@beghr.com" style={{ color: 'var(--gold)' }}>tori.wint@beghr.com</a> or call <a href="tel:4694121204" style={{ color: 'var(--gold)' }}>469-412-1204</a>.</p>
+          <p>Questions about this policy? Reach us at <a href="mailto:sales@beghr.com" style={{ color: 'var(--gold)' }}>sales@beghr.com</a> or call <a href="tel:4694121204" style={{ color: 'var(--gold)' }}>469-412-1204</a>.</p>
         </div>
       </div>
     </section>

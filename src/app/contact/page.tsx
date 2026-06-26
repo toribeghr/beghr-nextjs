@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Contact Business Executive Group | BEG HR Services',
-  description: 'Contact Business Executive Group in Celina, TX. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement services nationwide.',
+  description: 'Contact Business Executive Group in Plano, TX. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement services nationwide.',
   alternates: {
     canonical: 'https://beghr.com/contact',
   },
@@ -34,12 +34,13 @@ export default function ContactPage() {
               name: 'Business Executive Group',
               url: 'https://beghr.com',
               telephone: '469-412-1204',
-              email: 'tori.wint@beghr.com',
+              email: 'sales@beghr.com',
               address: {
                 '@type': 'PostalAddress',
-                addressLocality: 'Celina',
+                streetAddress: '7700 Windrose Ave',
+                addressLocality: 'Plano',
                 addressRegion: 'TX',
-                postalCode: '75009',
+                postalCode: '75024',
                 addressCountry: 'US',
               },
               areaServed: 'United States',
@@ -77,7 +78,7 @@ export default function ContactPage() {
           </div>
           <div className="trust-row" style={{ marginTop: '28px' }}>
             <div><b>Same Day</b><small>Response Mon&ndash;Sat</small></div>
-            <div><b>Celina, TX</b><small>Serving all 50 states</small></div>
+            <div><b>Plano, TX</b><small>Serving all 50 states</small></div>
             <div><b>Real People</b><small>No bots, no call centers</small></div>
           </div>
         </div>
@@ -108,7 +109,7 @@ export default function ContactPage() {
                   <div style={{ width: 36, height: 36, borderRadius: 8, background: 'var(--color-bg-soft, #f4f5f7)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: 18 }}>✉️</div>
                   <div>
                     <p style={{ fontSize: 11, color: 'var(--clr-muted)', margin: '0 0 3px', textTransform: 'uppercase', letterSpacing: '.06em' }}>Email</p>
-                    <a href="mailto:tori.wint@beghr.com" style={{ fontSize: 15, fontWeight: 500, color: 'inherit', textDecoration: 'none' }}>tori.wint@beghr.com</a>
+                    <a href="mailto:sales@beghr.com" style={{ fontSize: 15, fontWeight: 500, color: 'inherit', textDecoration: 'none' }}>sales@beghr.com</a>
                   </div>
                 </div>
 
@@ -116,7 +117,7 @@ export default function ContactPage() {
                   <div style={{ width: 36, height: 36, borderRadius: 8, background: 'var(--color-bg-soft, #f4f5f7)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: 18 }}>📍</div>
                   <div>
                     <p style={{ fontSize: 11, color: 'var(--clr-muted)', margin: '0 0 3px', textTransform: 'uppercase', letterSpacing: '.06em' }}>Location</p>
-                    <p style={{ fontSize: 15, fontWeight: 500, margin: '0 0 2px' }}>Celina, TX 75009</p>
+                    <p style={{ fontSize: 15, fontWeight: 500, margin: '0 0 2px' }}>7700 Windrose Ave, Plano, TX 75024</p>
                     <p style={{ fontSize: 12, color: 'var(--clr-muted)', margin: 0 }}>Serving businesses nationwide</p>
                   </div>
                 </div>

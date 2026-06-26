@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import SocialFollow from '@/components/SocialFollow';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -104,6 +105,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <Header />
         {children}
+        <SocialFollow />
         <Footer />
 
         <script

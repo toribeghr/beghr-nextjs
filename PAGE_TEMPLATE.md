@@ -238,6 +238,26 @@ All placeholder SVGs live in `/public/assets/hero-images/`. When swapping in a r
 
 ---
 
+## Universal Layout (layout.tsx)
+
+Every page automatically renders in this order — no per-page setup needed:
+
+```
+<Header />
+{children}         ← page content
+<SocialFollow />   ← Option A strip: black bg, gold icons, 4 platform buttons
+<Footer />         ← contact info + map only (social icons removed)
+```
+
+**SocialFollow component:** `src/components/SocialFollow.tsx`
+CSS class: `.social-follow` — defined in globals.css.
+Platforms: LinkedIn (@businessexecutivegroup), Facebook, Instagram, YouTube (@TheHRExecutiveGroup).
+Mobile: buttons stack single column, centered, max-width 280px.
+
+**Footer:** contact block + Google Maps embed only. Social icons live in SocialFollow, not Footer.
+
+---
+
 ## Mobile Behavior (≤880px)
 - `.hero-split` collapses to single column
 - `.hero-split-img` gets `order: 2` — image appears below CTA, never above text

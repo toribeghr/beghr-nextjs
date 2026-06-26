@@ -32,7 +32,7 @@ export default function LawFirmPayrollPage() {
           <p className="eyebrow">Blog · Payroll Management · Law Firms</p>
           <h1>Law Firm Payroll Outsourcing: Cost vs. Hiring a Paralegal or HR Manager</h1>
           <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
-            <span><strong>By</strong> Tori Wint, Founder</span>
+            <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
             <span><strong>Published:</strong> June 25, 2026</span>
             <span><strong>Read time:</strong> 8 min</span>
           </div>
@@ -188,15 +188,15 @@ export default function LawFirmPayrollPage() {
 
         <p><strong>The firms that are scaling fastest</strong> are the ones that outsource the operational stuff and keep their internal team focused on business development, client service, and strategic growth.</p>
 
-        <div style={{ background: 'linear-gradient(135deg, #1a1a2e, #c41e3a)', color: 'white', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
-          <h3 style={{ color: 'white', margin: 0 }}>Ready to Explore Outsourced Payroll for Your Firm?</h3>
+        <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
+          <h3 style={{ color: '#000000', margin: 0 }}>Ready to Explore Outsourced Payroll for Your Firm?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If you're spending $60,000–$100,000+ annually to manage payroll in-house, it's worth having a conversation about outsourcing. We work with law firms across the country—solo practices to 200+ attorney firms. Our managed payroll solution handles everything: processing, compliance, benefits, reporting, and integration with your existing systems. Plus, you get support from actual payroll experts, not a single overworked coordinator.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#c41e3a', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
-          <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Tori Wint, Founder</strong>
-          <p>Tori is the founder of Business Executive Group (BEG), a Dallas-Fort Worth-based HR and payroll solutions firm serving law firms, healthcare practices, tech companies, and professional services firms. BEG partners with iSolved to deliver managed payroll, benefits administration, and HCM platform solutions.</p>
+          <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
+          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a Dallas-Fort Worth-based HR and payroll solutions firm serving law firms, healthcare practices, tech companies, and professional services firms. BEG partners with iSolved to deliver managed payroll, benefits administration, and HCM platform solutions.</p>
         </div>
 
         <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '2px solid #e0e0e0' }}>

@@ -14,7 +14,7 @@ export default function RestaurantPayrollPage() {
           <p className="eyebrow">Blog · Payroll Management · Hospitality</p>
           <h1>Restaurant Payroll Outsourcing: Cost vs. Hiring In-House Manager</h1>
           <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
-            <span><strong>By</strong> Tori Wint, Founder</span>
+            <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
         </div>
@@ -97,15 +97,15 @@ export default function RestaurantPayrollPage() {
           </div>
         </div>
 
-        <div style={{ background: 'linear-gradient(135deg, #1a1a2e, #c41e3a)', color: 'white', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
-          <h3 style={{ color: 'white', margin: 0 }}>Ready to Simplify Restaurant Payroll?</h3>
+        <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
+          <h3 style={{ color: '#000000', margin: 0 }}>Ready to Simplify Restaurant Payroll?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If you're spending $60,000–$100,000+ annually on in-house payroll management, outsourcing is worth exploring. We work with restaurants, bars, and hospitality businesses across the country. Our payroll solution handles tipped employees, multi-location complexity, POS integration, and compliance.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#c41e3a', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
-          <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Tori Wint, Founder</strong>
-          <p>Tori is the founder of Business Executive Group (BEG), serving restaurants, hospitality, and professional services with managed payroll and HR solutions that integrate with POS systems and restaurant operations.</p>
+          <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
+          <p>Anthony is the VP of Sales for Business Executive Group (BEG), serving restaurants, hospitality, and professional services with managed payroll and HR solutions that integrate with POS systems and restaurant operations.</p>
         </div>
       </section>
     </article>

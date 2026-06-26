@@ -254,7 +254,7 @@ CSS class: `.social-follow` — defined in globals.css.
 Platforms: LinkedIn (@businessexecutivegroup), Facebook, Instagram, YouTube (@TheHRExecutiveGroup).
 Mobile: buttons stack single column, centered, max-width 280px.
 
-**Footer:** contact block + Google Maps embed only. Social icons live in SocialFollow, not Footer.
+**Footer:** 4-column grid — Contact info (left) + Managed Payroll links + HCM Software links + Job Placement links. No map (map lives on /contact only). No social icons (those live in SocialFollow). Gold column headers, arrow link style (`›`), Overview link bolded per column. Mobile: collapses to 2-col at 880px, 1-col at 520px.
 
 ---
 

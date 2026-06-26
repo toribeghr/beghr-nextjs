@@ -11,23 +11,177 @@ export const metadata: Metadata = {
   },
 };
 
-const pageSlug = 'job-placement';
-const calendlyLink = getCalendlyLink(pageSlug);
+const CALENDLY = getCalendlyLink('job-placement');
 
 export default function JobPlacementPage() {
   return (
     <ServicePage
       imageSrc="/assets/hero-images/job-placement.svg"
-      eyebrow="Job Placement Services · Powered by iSolved"
-      title="Fill the role that has been open too long."
-      description="How long has that seat sat empty, and what is it costing you every week it stays that way? We source, screen, and shortlist the right people for your specialized and hard-to-fill roles, so you stop losing time and revenue to an empty chair."
-      calendlyLink={calendlyLink}
+      eyebrow="Job Placement Services"
+      title="That role has been open too long. Let us fix that."
+      description="Every week a specialized seat sits empty, your team absorbs the cost. Lost output, overloaded colleagues, work going to the wrong desk. We place attorneys, clinicians, engineers, and finance professionals in 23-35 days at roughly 50% less than contingency firms."
+      calendlyLink={CALENDLY}
       heroStats={[
-        { value: '2-3x', label: 'Faster than industry' },
-        { value: '45-day', label: 'Replacement guarantee' },
-        { value: 'Milestone', label: 'Pricing, not commissions' },
+        { value: '23-35', label: 'Days to fill on average' },
+        { value: '86%', label: 'Fill rate on active searches' },
+        { value: '~50%', label: 'Less than contingency pricing' },
       ]}
     >
+
+      {/* PAIN */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">The Real Cost of a Slow Search</p>
+            <h2>What does that open role actually cost your organization?</h2>
+          </div>
+          <div className="beg-grid-3 reveal">
+            {[
+              {
+                stat: '$8,000+',
+                label: 'Per week in lost output per unfilled senior role',
+                sub: 'One senior professional producing 40 hours a week. That capacity is gone every week the seat stays empty.',
+              },
+              {
+                stat: '90+ days',
+                label: 'Average search length using traditional job boards',
+                sub: 'Contingency recruiters and job boards are slow by design. Posting and waiting means competing for whoever is left after the market has already moved.',
+              },
+              {
+                stat: '2-4 weeks',
+                label: 'Window before top passive candidates accept another offer',
+                sub: 'The best candidates are not on job boards. When they open up to a move, that window closes fast. A slow search misses them every time.',
+              },
+            ].map(({ stat, label, sub }) => (
+              <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+                <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>{stat}</div>
+                <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>{label}</div>
+                <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>{sub}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* HOW IT WORKS */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">How It Works</p>
+            <h2>From open role to placed hire in three steps</h2>
+          </div>
+          <div className="beg-grid-3 reveal">
+            {[
+              {
+                num: '01',
+                title: 'Discovery call',
+                body: 'We learn your organization, the role, and what a strong candidate actually looks like in your environment. 15 minutes. No fluff.',
+              },
+              {
+                num: '02',
+                title: 'Active sourcing',
+                body: 'We go direct to passive candidates who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.',
+              },
+              {
+                num: '03',
+                title: 'Shortlist review',
+                body: 'You receive 3-5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet people who have already been qualified against your specific criteria.',
+              },
+            ].map(({ num, title, body }) => (
+              <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
+                <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
+                <strong style={{ display: 'block', fontSize: '1rem', marginBottom: '0.4rem' }}>{title}</strong>
+                <p style={{ margin: 0, fontSize: '0.93rem', color: '#555555', lineHeight: '1.6' }}>{body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* THREE BONUSES */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">What You Get</p>
+            <h2>Three things every organization wants and most placement firms do not offer</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem', marginTop: '2rem' }}>
+            {[
+              {
+                badge: 'Bonus 01',
+                title: 'No contingency fees. Ever.',
+                objection: 'Common objection: "We already work with contingency recruiters."',
+                body: 'Contingency firms charge 20-25% of first-year salary, typically $40,000-$60,000 per placement. We use milestone-based pricing. You pay for results at defined stages, not a lump sum at the end. The total cost is roughly 50% less. Our incentives are aligned with your timeline, so we move faster.',
+              },
+              {
+                badge: 'Bonus 02',
+                title: '45-day replacement guarantee at no charge.',
+                objection: 'Common objection: "What if the placement does not work out?"',
+                body: 'If the hire does not work out within 45 days, we replace them at no additional cost. Contingency firms typically offer 30-day guarantees at best, and many charge again for replacements. Our guarantee is longer, cleaner, and built into every engagement.',
+              },
+              {
+                badge: 'Bonus 03',
+                title: 'A curated shortlist. Not a resume stack.',
+                objection: 'Common objection: "We have used recruiters before and wasted time on bad candidates."',
+                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3-5 candidates screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
+              },
+            ].map(({ badge, title, objection, body }) => (
+              <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
+                <div>
+                  <span style={{ display: 'inline-block', background: '#ECAC60', color: '#000000', fontWeight: '700', fontSize: '0.75rem', padding: '0.2rem 0.6rem', borderRadius: '4px', marginBottom: '0.6rem', letterSpacing: '0.05em' }}>{badge}</span>
+                  <strong style={{ display: 'block', fontSize: '1.05rem', lineHeight: '1.4' }}>{title}</strong>
+                </div>
+                <div>
+                  <p style={{ margin: '0 0 0.6rem', fontSize: '0.82rem', color: '#888888', fontStyle: 'italic' }}>{objection}</p>
+                  <p style={{ margin: 0, fontSize: '0.95rem', color: '#444444', lineHeight: '1.65' }}>{body}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SCARCITY */}
+      <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="beg-grid-2 reveal">
+            <div>
+              <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
+              <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>
+                Every week that role stays open is a decision you are making.
+              </h2>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                One unfilled senior seat losing 40 hours of output per week. At $200 per hour, that is $8,000 in absorbed cost every week. At 12 weeks, that is $96,000 before the search even closes. A 23-35 day search closes that gap. A 90-day process built on job boards does not.
+              </p>
+            </div>
+            <div>
+              <p className="eyebrow" style={{ color: '#ECAC60' }}>The Talent Window</p>
+              <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>
+                The best candidates are only available for a few weeks.
+              </h2>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                Strong passive candidates are not on job boards. When they decide they are open to a move, that window is 2-4 weeks before they accept another offer, usually from whoever was already in front of them. A slow search does not find the best people. It finds whoever is still available after the market has moved.
+              </p>
+            </div>
+          </div>
+          <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
+            <Link
+              href={CALENDLY}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn--gold"
+              style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}
+            >
+              Book a 15-Minute Discovery Call
+            </Link>
+            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>
+              No commitment. We will tell you exactly what we can do for your search and what it costs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* INDUSTRIES */}
       <section className="section">
         <div className="container">
           <div className="head center reveal">
@@ -40,22 +194,22 @@ export default function JobPlacementPage() {
           <div className="cards">
             <Link href="/services/job-placement/legal" className="card-link reveal">
               <span className="tag">Legal</span>
-              <h3>Legal & Attorney</h3>
+              <h3>Legal &amp; Attorney</h3>
               <p>Fill open attorney, paralegal, and counsel seats without the contingency-fee gamble.</p>
             </Link>
             <Link href="/services/job-placement/healthcare" className="card-link reveal">
               <span className="tag">Healthcare</span>
-              <h3>Healthcare & Nursing</h3>
+              <h3>Healthcare &amp; Nursing</h3>
               <p>Clinical and nursing talent placed before burnout sets in.</p>
             </Link>
             <Link href="/services/job-placement/finance" className="card-link reveal">
               <span className="tag">Finance</span>
-              <h3>Finance & Accounting</h3>
-              <p>Controllers, accountants, and analysts, including CPA-credentialed roles.</p>
+              <h3>Finance &amp; Accounting</h3>
+              <p>Controllers, accountants, and analysts including CPA-credentialed roles.</p>
             </Link>
             <Link href="/services/job-placement/technology" className="card-link reveal">
               <span className="tag">Technology</span>
-              <h3>IT & Technology</h3>
+              <h3>IT &amp; Technology</h3>
               <p>Software, data, and IT roles filled before your roadmap slips.</p>
             </Link>
             <Link href="/services/job-placement/engineering" className="card-link reveal">
@@ -65,83 +219,19 @@ export default function JobPlacementPage() {
             </Link>
             <Link href="/services/job-placement/trades" className="card-link reveal">
               <span className="tag">Trades</span>
-              <h3>Skilled Trades & Manufacturing</h3>
+              <h3>Skilled Trades &amp; Manufacturing</h3>
               <p>Production and skilled-trade talent to keep your line running.</p>
             </Link>
             <Link href="/services/job-placement/executive" className="card-link reveal">
               <span className="tag">Executive</span>
-              <h3>Executive & Director+</h3>
+              <h3>Executive &amp; Director+</h3>
               <p>Focused, confidential search for director and above leadership.</p>
             </Link>
           </div>
         </div>
       </section>
 
-      <section className="section section--soft">
-        <div className="container">
-          <div className="head center reveal">
-            <p className="eyebrow">Why BEG Job Placement</p>
-            <h2>A recruiting partner that does the heavy lifting</h2>
-            <p className="lede center" style={{ marginTop: '16px' }}>
-              Finding the right person with the right skills and culture fit is no easy task.
-            </p>
-          </div>
-          <div className="cards">
-            <article className="card reveal">
-              <h3>A dedicated specialist</h3>
-              <ul>
-                <li>One Placement Specialist owns your search</li>
-                <li>Weekly calibration calls to stay on target</li>
-                <li>Sourcing, pre-screening, and shortlisting done for you</li>
-              </ul>
-            </article>
-            <article className="card reveal">
-              <h3>Faster, at lower cost</h3>
-              <ul>
-                <li>Candidates placed 2 to 3 times faster</li>
-                <li>A fraction of the cost of commission-based recruiters</li>
-                <li>Milestone-based, tiered pricing tied to real progress</li>
-              </ul>
-            </article>
-            <article className="card reveal">
-              <h3>Lower risk hiring</h3>
-              <ul>
-                <li>45-day replacement guarantee on every placement</li>
-                <li>Candidates vetted against your must-have requirements</li>
-                <li>An established, relationship-managed candidate pool</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <div className="head center reveal">
-            <p className="eyebrow">How It Works</p>
-            <h2>From open role to the right hire</h2>
-          </div>
-          <div className="steps">
-            <div className="step reveal">
-              <h4>Book a call</h4>
-              <p>We learn the role, the must-haves, and what it is costing you to leave it open.</p>
-            </div>
-            <div className="step reveal">
-              <h4>We build the search</h4>
-              <p>Your specialist sources and pre-screens against your exact criteria.</p>
-            </div>
-            <div className="step reveal">
-              <h4>You review shortlists</h4>
-              <p>Only qualified, vetted candidates reach your desk, with weekly calibration.</p>
-            </div>
-            <div className="step reveal">
-              <h4>You hire with confidence</h4>
-              <p>Backed by a 45-day replacement guarantee on your placement.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      {/* FAQ */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '780px' }}>
           <div className="head center reveal">
@@ -154,20 +244,57 @@ export default function JobPlacementPage() {
               <p>Specialized, hard-to-fill roles across legal, healthcare, finance and accounting, technology, engineering, skilled trades and manufacturing, and executive search.</p>
             </div>
             <div className="faq-item">
+              <h3>How is this different from a staffing agency?</h3>
+              <p>We are not a staffing agency. This is direct permanent placement with milestone-based pricing. You hire the candidate directly. We place, not staff.</p>
+            </div>
+            <div className="faq-item">
               <h3>How fast can you fill a role?</h3>
-              <p>2 to 3 times faster than the industry standard. On your call we give you a realistic timeline for your specific role.</p>
+              <p>23-35 days on average, 2-3x faster than the industry standard. On your discovery call we give you a realistic timeline for your specific role and vertical.</p>
             </div>
             <div className="faq-item">
               <h3>How is pricing structured?</h3>
-              <p>Milestone-based and tied to real progress, a fraction of the cost of commission-based recruiters.</p>
+              <p>Milestone-based and tied to real progress, at roughly 50% less than contingency arrangements. Exact structure is covered on your discovery call.</p>
             </div>
             <div className="faq-item">
               <h3>What if the hire does not work out?</h3>
-              <p>Every placement carries a 45-day replacement guarantee.</p>
+              <p>Every placement carries a 45-day replacement guarantee at no additional charge.</p>
             </div>
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'How is this different from a staffing agency?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How fast can you fill a role?',
+                acceptedAnswer: { '@type': 'Answer', text: '23-35 days on average, 2-3x faster than the industry standard.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How is pricing structured?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Milestone-based at roughly 50% less than contingency arrangements.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What if the hire does not work out?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Every placement carries a 45-day replacement guarantee at no additional charge.' },
+              },
+            ],
+          }),
+        }}
+      />
+
     </ServicePage>
   );
 }

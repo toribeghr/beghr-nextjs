@@ -141,6 +141,7 @@ p {
   border: 1.5px solid transparent;
   cursor: pointer;
   color: #000;
+  background: linear-gradient(180deg, var(--gold-light), var(--gold));
   transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
 
@@ -170,12 +171,12 @@ p {
 }
 
 .btn--navy {
-  background: var(--navy);
+  background: linear-gradient(180deg, var(--gold-light), var(--gold));
   color: #000;
 }
 
 .btn--navy:hover {
-  background: var(--navy-2);
+  box-shadow: 0 16px 30px -10px rgba(201, 162, 75, 0.75);
 }
 
 /* Header */

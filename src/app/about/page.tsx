@@ -133,8 +133,8 @@ export default function AboutPage() {
 
           <div style={{ marginTop: '32px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
             <Link href="/services/managed-payroll" className="btn btn--gold">Managed Payroll</Link>
-            <Link href="/services/hcm-software" className="btn" style={{ background: 'var(--clr-navy)', color: '#fff' }}>HCM Software</Link>
-            <Link href="/services/job-placement" className="btn" style={{ background: 'transparent', border: '2px solid var(--clr-navy)', color: 'var(--clr-navy)' }}>Job Placement</Link>
+            <Link href="/services/hcm-software" className="btn btn--gold">HCM Software</Link>
+            <Link href="/services/job-placement" className="btn btn--gold">Job Placement</Link>
           </div>
         </div>
       </section>

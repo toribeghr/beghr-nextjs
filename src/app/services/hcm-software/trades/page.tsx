@@ -111,7 +111,7 @@ export default function HCMTradesPage() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets your HR and operations team pull workforce reports, verify union compliance documentation, and manage employee records — all through a Claude AI conversation. Less time in the system, more time running the operation. No competitor offers this. The iSolved Connector for Claude is generally available in Claude's directory today — not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude lets your HR and operations team pull workforce reports, verify union compliance documentation, and manage employee records — all through a Claude AI conversation. Less time in the system, more time running the operation. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',

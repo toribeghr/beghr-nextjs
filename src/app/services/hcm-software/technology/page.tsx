@@ -111,7 +111,7 @@ export default function HCMTechnologyPage() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude is a natural fit for tech-forward teams. Your HR ops team can complete tasks — onboarding new hires, pulling headcount reports, managing PTO policies — directly through Claude AI. It is the most advanced HR AI integration available in any HCM platform today. No competitor offers this. The iSolved Connector for Claude is generally available in Claude's directory today — not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude is a natural fit for tech-forward teams. Your HR ops team can complete tasks — onboarding new hires, pulling headcount reports, managing PTO policies — directly through Claude AI. It is the most advanced HR AI integration available in any HCM platform today. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',

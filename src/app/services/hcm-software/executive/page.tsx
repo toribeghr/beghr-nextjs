@@ -111,7 +111,7 @@ export default function HCMExecutivePage() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets authorized HR team members access executive compensation data, pull reports, and manage benefit events — through Claude AI, with full access controls intact. No competitor offers this. The iSolved Connector for Claude is generally available in Claude's directory today — not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude lets authorized HR team members access executive compensation data, pull reports, and manage benefit events — through Claude AI, with full access controls intact. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',

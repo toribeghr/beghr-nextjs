@@ -945,7 +945,7 @@ export default function HCM${cap(slug)}Page() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: '${data.claudeAngle} No competitor offers this. The iSolved Connector for Claude is generally available in Claude\'s directory today — not a roadmap item, not a beta feature.',
+                body: '${data.claudeAngle} No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',

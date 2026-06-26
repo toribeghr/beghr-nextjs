@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function PayrollTechnologyPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/technology.svg"
       eyebrow="Managed Payroll · Technology"
       title="Tech payroll, fully managed."
       description="Technology payroll means remote teams, stock options, and rapid growth. We run payroll as a fully managed service so your team stays focused on building."

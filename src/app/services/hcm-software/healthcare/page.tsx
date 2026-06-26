@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function HCMHealthcarePage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/healthcare.svg"
       eyebrow="HCM Software · Healthcare"
       title="One HR platform for healthcare organizations."
       description="Healthcare HR includes shift scheduling, clinical staff management, and compliance tracking. One connected HCM platform powered by iSolved, set up and supported by BEG."

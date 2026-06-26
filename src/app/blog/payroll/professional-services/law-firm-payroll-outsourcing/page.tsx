@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager',
@@ -28,13 +29,18 @@ export default function LawFirmPayrollPage() {
   return (
     <article className="blog-post">
       <section className="hero" style={{ paddingBottom: '40px' }}>
-        <div className="container" style={{ maxWidth: '840px' }}>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
           <p className="eyebrow">Blog · Payroll Management · Law Firms</p>
           <h1>Law Firm Payroll Outsourcing: Cost vs. Hiring a Paralegal or HR Manager</h1>
           <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
             <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
             <span><strong>Published:</strong> June 25, 2026</span>
             <span><strong>Read time:</strong> 8 min</span>
+          </div>
+            </div>
+            <HeroImageBox src="/assets/hero-images/legal.svg" alt="Law Firm Payroll" />
           </div>
         </div>
       </section>

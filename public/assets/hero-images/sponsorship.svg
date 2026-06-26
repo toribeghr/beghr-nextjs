@@ -1,0 +1,24 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#000000"/>
+<stop offset="52%" stop-color="#1a1a1a"/>
+<stop offset="78%" stop-color="#2e1f07"/>
+<stop offset="100%" stop-color="#3d2a0e"/>
+</linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+<g stroke="#ECAC60" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.62">
+
+  <path d="M 280 248 L 460 195 L 460 368 L 280 315 Z" stroke-width="5" fill="#ECAC60" fill-opacity="0.08"/>
+  <rect x="238" y="248" width="42" height="67" rx="6" stroke-width="5"/>
+  <path d="M 238 280 L 220 280 L 220 315 L 238 315" stroke-width="5"/>
+  <path d="M 280 315 L 280 380" stroke-width="5"/>
+  <circle cx="490" cy="282" r="8" fill="#ECAC60" fill-opacity="0.5" stroke="none"/>
+  <path d="M 490 250 A 40 40 0 0 1 490 314" stroke-width="3.5" fill="none"/>
+  <path d="M 490 228 A 62 62 0 0 1 490 336" stroke-width="3.5" fill="none" opacity="0.5"/>
+  <path d="M 490 208 A 80 80 0 0 1 490 356" stroke-width="3.5" fill="none" opacity="0.3"/>
+
+</g>
+<text x="400" y="558" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#ECAC60" opacity="0.25">SPONSORSHIP</text>
+</svg>

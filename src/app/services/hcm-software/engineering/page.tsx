@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function HCMEngineeringPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/engineering.svg"
       eyebrow="HCM Software · Engineering"
       title="One HR platform for engineering firms."
       description="Engineering HR requires prevailing wage compliance, certified payroll, and project tracking. One HCM platform powered by iSolved, set up and supported by BEG."

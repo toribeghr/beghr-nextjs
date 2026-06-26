@@ -17,6 +17,7 @@ const calendlyLink = getCalendlyLink(pageSlug);
 export default function JobPlacementPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/job-placement.svg"
       eyebrow="Job Placement Services · Powered by iSolved"
       title="Fill the role that has been open too long."
       description="How long has that seat sat empty, and what is it costing you every week it stays that way? We source, screen, and shortlist the right people for your specialized and hard-to-fill roles, so you stop losing time and revenue to an empty chair."

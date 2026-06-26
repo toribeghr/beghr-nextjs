@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function PlacementTechnologyPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/technology.svg"
       eyebrow="Job Placement · Technology"
       title="Fill your software and tech roles faster."
       description="Technology teams move fast. We place software engineers, data scientists, and IT professionals so your roadmap stays on track."

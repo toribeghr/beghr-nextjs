@@ -17,6 +17,7 @@ const calendlyLink = getCalendlyLink(pageSlug);
 export default function ManagedPayrollPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/payroll.svg"
       eyebrow="Managed Payroll"
       title="Hand off payroll. For good."
       description="Fully managed payroll for businesses nationwide. We run payroll, taxes, and filings so your team never touches it again. One less thing to worry about, one more thing that works."

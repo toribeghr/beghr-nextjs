@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function HCMLegalPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/legal.svg"
       eyebrow="HCM Software · Legal"
       title="One HR platform for law firms."
       description="Law firm HR management includes partner accounting, associate tracking, and billable time. One connected HCM platform powered by iSolved, set up and supported by BEG."

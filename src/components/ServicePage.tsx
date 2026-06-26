@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import HeroImageBox from '@/components/HeroImageBox';
 
 interface ServicePageProps {
   title: string;
@@ -6,6 +7,8 @@ interface ServicePageProps {
   calendlyLink: string;
   eyebrow?: string;
   heroStats?: Array<{ label: string; value: string }>;
+  imageSrc?: string;
+  imageAlt?: string;
   children?: ReactNode;
 }
 
@@ -15,24 +18,31 @@ export default function ServicePage({
   calendlyLink,
   eyebrow,
   heroStats,
+  imageSrc,
+  imageAlt,
   children,
 }: ServicePageProps) {
   return (
     <>
       <section className="hero">
-        <div className="container" style={{ maxWidth: '840px' }}>
-          {eyebrow && <p className="eyebrow">{eyebrow}</p>}
-          <h1>{title}</h1>
-          <p className="lede" style={{ margin: '18px 0 28px' }}>{description}</p>
-          <div className="hero-cta">
-            <a
-              className="btn btn--gold"
-              href={calendlyLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book a Discovery Call
-            </a>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
+              {eyebrow && <p className="eyebrow">{eyebrow}</p>}
+              <h1>{title}</h1>
+              <p className="lede" style={{ margin: '18px 0 28px' }}>{description}</p>
+              <div className="hero-cta">
+                <a
+                  className="btn btn--gold"
+                  href={calendlyLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Book a Discovery Call
+                </a>
+              </div>
+            </div>
+            <HeroImageBox src={imageSrc} alt={imageAlt} />
           </div>
           {heroStats && heroStats.length > 0 && (
             <div className="trust-row">

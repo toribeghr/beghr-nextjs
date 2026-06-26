@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Sponsorship | Business Executive Group',
@@ -12,22 +13,27 @@ export default function SponsorshipPage() {
   return (
     <>
       <section className="hero">
-        <div className="container" style={{ maxWidth: '840px' }}>
-          <p className="eyebrow">Network · Sponsorship</p>
-          <h1>Put your brand in front of DFW decision-makers.</h1>
-          <p className="lede" style={{ margin: '18px 0 28px' }}>
-            BEG events bring together 1,500+ entrepreneurs and business owners across Dallas-Fort Worth.
-            Sponsorship puts your brand in the room where deals get made.
-          </p>
-          <div className="hero-cta">
-            <a
-              className="btn btn--gold"
-              href="https://calendly.com/tori-beghr?id=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Discuss Sponsorship
-            </a>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
+              <p className="eyebrow">Network · Sponsorship</p>
+              <h1>Put your brand in front of DFW decision-makers.</h1>
+              <p className="lede" style={{ margin: '18px 0 28px' }}>
+                BEG events bring together 1,500+ entrepreneurs and business owners across Dallas-Fort Worth.
+                Sponsorship puts your brand in the room where deals get made.
+              </p>
+              <div className="hero-cta">
+                <a
+                  className="btn btn--gold"
+                  href="https://calendly.com/tori-beghr?id=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Discuss Sponsorship
+                </a>
+              </div>
+            </div>
+            <HeroImageBox src="/assets/hero-images/sponsorship.svg" alt="BEG Sponsorship" />
           </div>
         </div>
       </section>

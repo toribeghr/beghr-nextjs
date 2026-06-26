@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Business Executive Group - Payroll, HCM Software & Job Placement',
@@ -10,16 +11,21 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <div className="container" style={{ maxWidth: '840px' }}>
-          <p className="eyebrow">Business Executive Group</p>
-          <h1>Three services. One partner.</h1>
-          <p className="lede" style={{ margin: '18px 0 28px' }}>
-            Managed payroll. HCM software. Job placement. Everything you need to run your business, staffed and supported by a team that knows how to make it work.
-          </p>
-          <div className="hero-cta">
-            <a className="btn btn--gold" href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer">
-              Book a Discovery Call
-            </a>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
+              <p className="eyebrow">Business Executive Group</p>
+              <h1>Three services. One partner.</h1>
+              <p className="lede" style={{ margin: '18px 0 28px' }}>
+                Managed payroll. HCM software. Job placement. Everything you need to run your business, staffed and supported by a team that knows how to make it work.
+              </p>
+              <div className="hero-cta">
+                <a className="btn btn--gold" href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer">
+                  Book a Discovery Call
+                </a>
+              </div>
+            </div>
+            <HeroImageBox src="/assets/hero-images/home.svg" alt="Business Executive Group" />
           </div>
           <div className="trust-row">
             <div><b>1,500+</b><small>Entrepreneur members</small></div>

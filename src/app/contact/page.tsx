@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Contact Business Executive Group | BEG HR Services',
@@ -59,22 +60,27 @@ export default function ContactPage() {
 
       {/* Hero */}
       <section className="hero">
-        <div className="container" style={{ maxWidth: '840px' }}>
-          <p className="eyebrow">Contact Us</p>
-          <h1>Let&apos;s talk about your business.</h1>
-          <p className="lede" style={{ margin: '18px 0 28px' }}>
-            Book a 15-minute discovery call, call or email us directly, or complete the form below.
-            A real person on our team will get back to you the same business day.
-          </p>
-          <div className="hero-cta">
-            <a
-              className="btn btn--gold"
-              href="https://calendly.com/tori-beghr?id=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book a Discovery Call
-            </a>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
+              <p className="eyebrow">Contact Us</p>
+              <h1>Let&apos;s talk about your business.</h1>
+              <p className="lede" style={{ margin: '18px 0 28px' }}>
+                Book a 15-minute discovery call, call or email us directly, or complete the form below.
+                A real person on our team will get back to you the same business day.
+              </p>
+              <div className="hero-cta">
+                <a
+                  className="btn btn--gold"
+                  href="https://calendly.com/tori-beghr?id=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Book a Discovery Call
+                </a>
+              </div>
+            </div>
+            <HeroImageBox src="/assets/hero-images/contact.svg" alt="Contact BEG" />
           </div>
           <div className="trust-row" style={{ marginTop: '28px' }}>
             <div><b>Same Day</b><small>Response Mon&ndash;Sat</small></div>

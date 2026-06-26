@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function PlacementHealthcarePage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/healthcare.svg"
       eyebrow="Job Placement · Healthcare"
       title="Fill your clinical and nursing roles faster."
       description="Healthcare organizations need qualified clinical staff now. We source and place nurses, clinicians, and healthcare professionals before burnout sets in."

@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function HCMExecutivePage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/executive.svg"
       eyebrow="HCM Software · Executive"
       title="One HR platform for executive teams."
       description="Executive HR management requires deferred compensation tracking and complex benefits administration handled with discretion and care. One HCM platform powered by iSolved, set up and supported by BEG."

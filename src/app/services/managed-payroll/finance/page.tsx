@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function PayrollFinancePage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/finance.svg"
       eyebrow="Managed Payroll · Finance"
       title="Finance payroll, fully handled."
       description="Finance and accounting payroll means bonus structures, commission tracking, and zero error tolerance. We run all of it as a fully managed service, so your team never touches it."

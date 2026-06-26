@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Legal Hiring & Recruiting | BEG Blog',
@@ -39,12 +40,17 @@ export default function BlogLegalHiringPage() {
   return (
     <>
       <section className="hero">
-        <div className="container" style={{ maxWidth: '840px' }}>
-          <p className="eyebrow">Blog · Legal Hiring &amp; Recruiting</p>
-          <h1>Legal Hiring &amp; Recruiting</h1>
-          <p className="lede" style={{ margin: '18px 0 28px' }}>
-            Attorney market trends, law firm hiring strategies, and placement insights.
-          </p>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
+              <p className="eyebrow">Blog · Legal Hiring &amp; Recruiting</p>
+              <h1>Legal Hiring &amp; Recruiting</h1>
+              <p className="lede" style={{ margin: '18px 0 28px' }}>
+                Attorney market trends, law firm hiring strategies, and placement insights.
+              </p>
+            </div>
+            <HeroImageBox src="/assets/hero-images/legal.svg" alt="Legal Hiring & Recruiting" />
+          </div>
         </div>
       </section>
 

@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function PlacementFinancePage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/finance.svg"
       eyebrow="Job Placement · Finance"
       title="Fill your finance and accounting roles faster."
       description="Finance and accounting teams need quality hires who can impact your bottom line immediately. We place controllers, CPAs, and accounting professionals."

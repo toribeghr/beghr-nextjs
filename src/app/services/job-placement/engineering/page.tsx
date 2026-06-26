@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function PlacementEngineeringPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/engineering.svg"
       eyebrow="Job Placement · Engineering"
       title="Fill your engineering roles faster."
       description="Engineering projects need qualified engineers on time. We source and place qualified engineers so your projects keep moving."

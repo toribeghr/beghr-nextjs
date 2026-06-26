@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function PlacementTradesPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/trades.svg"
       eyebrow="Job Placement · Skilled Trades"
       title="Fill your skilled trades and manufacturing roles faster."
       description="Manufacturing and skilled trades need qualified production and technical talent on the line. We place skilled trades professionals to keep operations running."

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Membership | Business Executive Group',
@@ -12,22 +13,27 @@ export default function MembershipPage() {
   return (
     <>
       <section className="hero">
-        <div className="container" style={{ maxWidth: '840px' }}>
-          <p className="eyebrow">Network · Membership</p>
-          <h1>Join 1,500+ DFW entrepreneurs.</h1>
-          <p className="lede" style={{ margin: '18px 0 28px' }}>
-            Business Executive Group is the entrepreneur network and resource hub for Dallas-Fort Worth business owners.
-            Monthly events, peer connections, and access to the services your business actually needs.
-          </p>
-          <div className="hero-cta">
-            <a
-              className="btn btn--gold"
-              href="https://calendly.com/tori-beghr?id=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn About Membership
-            </a>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
+              <p className="eyebrow">Network · Membership</p>
+              <h1>Join 1,500+ DFW entrepreneurs.</h1>
+              <p className="lede" style={{ margin: '18px 0 28px' }}>
+                Business Executive Group is the entrepreneur network and resource hub for Dallas-Fort Worth business owners.
+                Monthly events, peer connections, and access to the services your business actually needs.
+              </p>
+              <div className="hero-cta">
+                <a
+                  className="btn btn--gold"
+                  href="https://calendly.com/tori-beghr?id=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Learn About Membership
+                </a>
+              </div>
+            </div>
+            <HeroImageBox src="/assets/hero-images/membership.svg" alt="BEG Membership" />
           </div>
         </div>
       </section>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#000000"/>
+<stop offset="52%" stop-color="#1a1a1a"/>
+<stop offset="78%" stop-color="#2e1f07"/>
+<stop offset="100%" stop-color="#3d2a0e"/>
+</linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+<g stroke="#ECAC60" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.62">
+
+  <path d="M 400 380 C 350 340 240 305 240 242 A 80 80 0 0 1 400 218 A 80 80 0 0 1 560 242 C 560 305 450 340 400 380 Z" stroke-width="5" fill="#ECAC60" fill-opacity="0.14"/>
+  <path d="M 400 355 C 358 318 265 288 265 238 A 65 65 0 0 1 400 218" stroke-width="3.5" fill="none" opacity="0.45"/>
+
+</g>
+<text x="400" y="558" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#ECAC60" opacity="0.25">NONPROFIT</text>
+</svg>

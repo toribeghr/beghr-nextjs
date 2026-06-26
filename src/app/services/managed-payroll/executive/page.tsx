@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function PayrollExecutivePage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/executive.svg"
       eyebrow="Managed Payroll · Executive"
       title="Executive payroll, discreetly managed."
       description="Executive and leadership payroll includes deferred compensation, executive benefits, and complex arrangements handled with discretion and care."

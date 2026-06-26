@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function HCMTradesPage() {
   return (
     <ServicePage
+      imageSrc="/assets/hero-images/trades.svg"
       eyebrow="HCM Software · Skilled Trades"
       title="One HR platform for trades and manufacturing."
       description="Skilled trades HR includes union compliance, certified payroll, and multi-site management. One HCM platform powered by iSolved, set up and supported by BEG."

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'SaaS Payroll Outsourcing: Cost vs. Hiring Payroll Ops Manager',
@@ -10,12 +11,17 @@ export default function SaaSPayrollPage() {
   return (
     <article className="blog-post">
       <section className="hero">
-        <div className="container" style={{ maxWidth: '840px' }}>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
           <p className="eyebrow">Blog · Payroll Management · Technology</p>
           <h1>SaaS Payroll Outsourcing: Cost vs. Hiring Payroll Ops Manager</h1>
           <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
             <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
             <span><strong>Published:</strong> June 25, 2026</span>
+          </div>
+            </div>
+            <HeroImageBox src="/assets/hero-images/cloud-saas.svg" alt="SaaS Payroll Outsourcing" />
           </div>
         </div>
       </section>

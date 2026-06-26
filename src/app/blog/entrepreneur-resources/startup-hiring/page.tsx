@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Startup Hiring 101: Building Your First Team',
@@ -10,12 +11,17 @@ export default function StartupHiringPage() {
   return (
     <article className="blog-post">
       <section className="hero">
-        <div className="container" style={{ maxWidth: '840px' }}>
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
           <p className="eyebrow">Blog · Business & Entrepreneur Resources</p>
           <h1>Startup Hiring 101: Building Your First Team</h1>
           <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
             <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
             <span><strong>Published:</strong> June 25, 2026</span>
+          </div>
+            </div>
+            <HeroImageBox src="/assets/hero-images/startup.svg" alt="Startup Hiring" />
           </div>
         </div>
       </section>

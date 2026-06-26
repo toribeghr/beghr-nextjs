@@ -166,7 +166,7 @@ export default function AboutPage() {
                     maxWidth: 280,
                     margin: '0 auto 20px',
                     aspectRatio: '4/5',
-                    background: '#111',
+                    background: '#000',
                     borderRadius: 12,
                     overflow: 'hidden',
                     display: 'flex',

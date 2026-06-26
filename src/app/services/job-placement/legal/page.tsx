@@ -36,7 +36,7 @@ export default function PlacementLegalPage() {
             <p className="eyebrow">The Real Cost of a Slow Search</p>
             <h2>What does that open role actually cost your firm?</h2>
           </div>
-          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', marginTop: '2rem' }}>
+          <div className="beg-grid-3 reveal">
             {[
               {
                 stat: '$8,000+',
@@ -74,7 +74,7 @@ export default function PlacementLegalPage() {
             <p className="eyebrow">How It Works</p>
             <h2>From open role to placed hire in three steps</h2>
           </div>
-          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', marginTop: '2rem' }}>
+          <div className="beg-grid-3 reveal">
             {[
               {
                 num: '01',
@@ -130,7 +130,7 @@ export default function PlacementLegalPage() {
                 body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated legal search specialist builds a shortlist of 3-5 candidates who have been screened against your specific criteria — practice area, bar admission, culture fit, and compensation range. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
               },
             ].map(({ badge, title, objection, body }) => (
-              <div key={badge} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '1.5rem', alignItems: 'start' }}>
+              <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
                 <div>
                   <span style={{ display: 'inline-block', background: '#ECAC60', color: '#000000', fontWeight: '700', fontSize: '0.75rem', padding: '0.2rem 0.6rem', borderRadius: '4px', marginBottom: '0.6rem', letterSpacing: '0.05em' }}>{badge}</span>
                   <strong style={{ display: 'block', fontSize: '1.05rem', lineHeight: '1.4' }}>{title}</strong>
@@ -148,7 +148,7 @@ export default function PlacementLegalPage() {
       {/* SCARCITY — cost of inaction + talent window */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'start' }}>
+          <div className="beg-grid-2 reveal">
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>

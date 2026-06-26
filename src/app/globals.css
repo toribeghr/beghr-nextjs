@@ -1172,3 +1172,46 @@ p {
     padding: 32px 20px;
   }
 }
+
+/* ── Service page responsive grid utilities ─────────────────────────────── */
+
+/* 3-column grid: pain stats, how-it-works steps */
+.beg-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* 2-column equal grid: scarcity / split sections */
+.beg-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* 1fr + 2fr grid: bonus cards (badge left, copy right) */
+.beg-grid-bonus {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .beg-grid-3 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .beg-grid-2 {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .beg-grid-bonus {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}

@@ -408,6 +408,14 @@ p {
   padding: 88px 0;
 }
 
+/* All text inside the hero is always white — never grey on black */
+.hero p,
+.hero .lede,
+.hero-split-text p,
+.hero-split-text .lede {
+  color: #fff !important;
+}
+
 .hero-cta {
   display: flex;
   gap: 16px;

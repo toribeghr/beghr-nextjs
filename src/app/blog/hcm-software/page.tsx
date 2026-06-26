@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'HCM Software & HR Tech | BEG Blog',
@@ -6,14 +7,57 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://beghr.com/blog/hcm-software' },
 };
 
+const posts = [
+  {
+    title: 'iSolved HCM Platform: Cloud Payroll & HR for Growing Companies',
+    description: 'iSolved payroll and HRIS solutions for mid-market companies. Centralized HR, payroll, benefits, and talent management in one platform.',
+    slug: '/blog/hcm-technology/isolved-platform',
+  },
+  {
+    title: 'HR Automation: Save 200+ Hours Per Year',
+    description: 'Automate payroll, benefits, onboarding, and compliance. See how HR automation saves time and eliminates errors.',
+    slug: '/blog/hcm-technology/hr-automation',
+  },
+  {
+    title: 'Payroll Tax Compliance: 2026 Updates & What Changed',
+    description: 'Tax law changes, new payroll requirements, and what HR teams need to know about payroll compliance in 2026.',
+    slug: '/blog/hcm-technology/payroll-compliance',
+  },
+];
+
 export default function BlogHcmPage() {
   return (
-    <section className="hero">
-      <div className="container" style={{ maxWidth: '840px' }}>
-        <p className="eyebrow">Blog · HCM Software</p>
-        <h1>HCM Software &amp; HR Tech</h1>
-        <p className="lede" style={{ margin: '18px 0 28px' }}>Posts coming soon. Check back for iSolved guides, HR automation tips, and software comparisons.</p>
-      </div>
-    </section>
+    <>
+      <section className="hero">
+        <div className="container" style={{ maxWidth: '840px' }}>
+          <p className="eyebrow">Blog · HCM Software &amp; HR Tech</p>
+          <h1>HCM Software &amp; HR Tech</h1>
+          <p className="lede" style={{ margin: '18px 0 28px' }}>
+            iSolved guides, HR automation tips, and software comparisons for growing businesses.
+          </p>
+        </div>
+      </section>
+
+      <section className="section section--soft">
+        <div className="container">
+          <div className="head center reveal">
+            <h2>Featured Posts</h2>
+          </div>
+          <div className="cards">
+            {posts.map((post) => (
+              <article key={post.slug} className="card reveal">
+                <h3>
+                  <Link href={post.slug}>{post.title}</Link>
+                </h3>
+                <p>{post.description}</p>
+                <Link href={post.slug} className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
+                  Read Post
+                </Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

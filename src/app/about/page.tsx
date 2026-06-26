@@ -23,6 +23,12 @@ const board = [
     bio: 'Tori consults clients on talent strategy, recruitment, employee development, compliance, payroll & benefits, and workforce engagement while fostering an inclusive environment that supports both staff and members.',
   },
   {
+    name: 'Anthony Moretti',
+    title: 'VP of Sales',
+    photo: '/assets/board/anthony-moretti.png',
+    bio: 'Serial entrepreneur. Built 3 companies past $1M in sales. Now heading revenue growth as VP of Sales for BEG\'s HR and legal services division.',
+  },
+  {
     name: 'Bill Clawson',
     title: 'CFO',
     photo: '/assets/board/bill-clawson.png',
@@ -39,12 +45,6 @@ const board = [
     title: 'Cybersecurity',
     photo: '/assets/board/marissa-bybee.png',
     bio: 'Marissa is a highly accomplished Cybersecurity Sales Executive specializing in delivering enterprise-grade security solutions that safeguard critical assets and drive business resilience across cloud security, network defense, and risk management.',
-  },
-  {
-    name: 'Anthony Moretti',
-    title: 'VP of Sales',
-    photo: '/assets/board/anthony-moretti.png',
-    bio: 'Serial entrepreneur. Built 3 companies past $1M in sales. Now heading revenue growth as VP of Sales for BEG\'s HR and legal services division.',
   },
 ];
 

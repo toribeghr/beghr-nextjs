@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'About Business Executive Group | Board of Directors | BEG HR',
@@ -55,8 +54,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
-            <div className="hero-split-text">
+          <div className="hero-single">
               <p className="eyebrow">About Us</p>
               <h1>Built by business owners, for business owners.</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>
@@ -73,8 +71,6 @@ export default function AboutPage() {
                   Book a Discovery Call
                 </a>
               </div>
-            </div>
-            <HeroImageBox src="/assets/hero-images/about.svg" alt="About Business Executive Group" />
           </div>
         </div>
       </section>

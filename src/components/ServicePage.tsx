@@ -9,6 +9,7 @@ interface ServicePageProps {
   heroStats?: Array<{ label: string; value: string }>;
   imageSrc?: string;
   imageAlt?: string;
+  showHeroImage?: boolean;
   children?: ReactNode;
 }
 
@@ -20,14 +21,34 @@ export default function ServicePage({
   heroStats,
   imageSrc,
   imageAlt,
+  showHeroImage = false,
   children,
 }: ServicePageProps) {
   return (
     <>
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
-            <div className="hero-split-text">
+          {showHeroImage ? (
+            <div className="hero-split">
+              <div className="hero-split-text">
+                {eyebrow && <p className="eyebrow">{eyebrow}</p>}
+                <h1>{title}</h1>
+                <p className="lede" style={{ margin: '18px 0 28px' }}>{description}</p>
+                <div className="hero-cta">
+                  <a
+                    className="btn btn--gold"
+                    href={calendlyLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book a Discovery Call
+                  </a>
+                </div>
+              </div>
+              <HeroImageBox src={imageSrc} alt={imageAlt} />
+            </div>
+          ) : (
+            <div className="hero-single">
               {eyebrow && <p className="eyebrow">{eyebrow}</p>}
               <h1>{title}</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>{description}</p>
@@ -42,8 +63,7 @@ export default function ServicePage({
                 </a>
               </div>
             </div>
-            <HeroImageBox src={imageSrc} alt={imageAlt} />
-          </div>
+          )}
           {heroStats && heroStats.length > 0 && (
             <div className="trust-row">
               {heroStats.map((stat, i) => (
@@ -91,11 +111,6 @@ export default function ServicePage({
         </a>
       </div>
 
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `document.querySelectorAll(".nav-dd").forEach(function(d){d.addEventListener("toggle",function(){if(d.open){document.querySelectorAll(".nav-dd[open]").forEach(function(o){if(o!==d)o.open=false})}})});`,
-        }}
-      />
     </>
   );
 }

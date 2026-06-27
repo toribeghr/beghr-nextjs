@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Contact Business Executive Group | BEG HR Services',
@@ -61,8 +60,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
-            <div className="hero-split-text">
+          <div className="hero-single">
               <p className="eyebrow">Contact Us</p>
               <h1>Let&apos;s talk about your business.</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>
@@ -79,8 +77,6 @@ export default function ContactPage() {
                   Book a Discovery Call
                 </a>
               </div>
-            </div>
-            <HeroImageBox src="/assets/hero-images/contact.svg" alt="Contact BEG" />
           </div>
           <div className="trust-row" style={{ marginTop: '28px' }}>
             <div><b>Same Day</b><small>Response Mon&ndash;Sat</small></div>

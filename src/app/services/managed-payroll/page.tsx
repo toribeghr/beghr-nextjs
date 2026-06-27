@@ -18,6 +18,7 @@ export default function ManagedPayrollPage() {
   return (
     <ServicePage
       imageSrc="/assets/hero-images/payroll.svg"
+      showHeroImage={true}
       eyebrow="Managed Payroll"
       title="Your payroll should not take half your week or cost six figures to get right."
       description="A full-time payroll manager costs $60,000-$100,000 per year in salary and benefits alone. BEG runs your entire payroll operation at $25-$45 per employee per month, all-inclusive. Every cycle, every filing, every compliance update. Nothing for your team to touch."

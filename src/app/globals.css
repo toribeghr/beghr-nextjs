@@ -490,11 +490,17 @@ p {
 }
 
 /* ── Hero split layout ── */
+/* Two-column hero (text + image) */
 .hero-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 64px;
   align-items: stretch;
+}
+
+/* Single-column hero (text only) */
+.hero-single {
+  max-width: 760px;
 }
 
 .hero-split-img {

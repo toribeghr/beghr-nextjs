@@ -5,8 +5,8 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Job Placement Services | Fill Roles in 23-35 Days | BEG',
-  description: 'Fill specialized roles 2-3x faster than contingency recruiters. Milestone billing, 45-day replacement guarantee. Legal, clinical, tech, finance, and more.',
+  title: 'Law Firm Recruiting & Attorney Placement Services | Fill Roles in 23-35 Days | BEG',
+  description: 'Specialized recruiting for law firms and businesses. Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement',
   },
@@ -65,8 +65,44 @@ export default function JobPlacementPage() {
         </div>
       </section>
 
-      {/* HOW IT WORKS */}
+      {/* MARKET CONTEXT */}
       <section className="section">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Why Most Searches Fail</p>
+            <h2>The talent market has changed. Most hiring processes have not.</h2>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginTop: '2.5rem' }} className="reveal">
+            <div>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.75rem', color: '#000000' }}>The supply problem in legal</h3>
+              <p style={{ fontSize: '0.95rem', color: '#444444', lineHeight: '1.7' }}>
+                Law school enrollment is down roughly 30% since 2010. The pool of qualified lateral candidates is smaller than it has ever been. Law firms competing for that talent through job boards are running the same play as every other firm and fighting over the same candidates who chose to be visible.
+              </p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.75rem', color: '#000000' }}>Where the best candidates actually are</h3>
+              <p style={{ fontSize: '0.95rem', color: '#444444', lineHeight: '1.7' }}>
+                The most qualified lateral candidates are not on job boards. They are passive: employed, performing well, and open to a move if the right opportunity reaches them directly. That window is 2-4 weeks before they accept another offer, usually from whoever was already in front of them. A search built on posting and waiting misses them every time.
+              </p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.75rem', color: '#000000' }}>Why contingency search moves slowly</h3>
+              <p style={{ fontSize: '0.95rem', color: '#444444', lineHeight: '1.7' }}>
+                Contingency firms are paid only when a placement closes. That structure misaligns their incentives: they submit high volumes of candidates rather than moving quickly on a targeted shortlist. The average contingency search takes 90+ days. By then, the best candidates have accepted offers from whoever prioritized speed.
+              </p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.75rem', color: '#000000' }}>What BEG does differently</h3>
+              <p style={{ fontSize: '0.95rem', color: '#444444', lineHeight: '1.7' }}>
+                We source passive candidates directly. Milestone billing aligns our incentives with your timeline, not just the final placement fee. And we move: 23-35 days on average versus 90+ for traditional contingency. When the candidate window is 2-4 weeks, speed is the entire differentiator.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* HOW IT WORKS */}
+      <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">How It Works</p>
@@ -96,6 +132,49 @@ export default function JobPlacementPage() {
                 <p style={{ margin: 0, fontSize: '0.93rem', color: '#555555', lineHeight: '1.6' }}>{body}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MILESTONE VS CONTINGENCY */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '900px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Pricing Model Comparison</p>
+            <h2>Milestone billing vs. contingency: why it matters for your search</h2>
+            <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '620px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+              On a $175,000 attorney hire, a 25% contingency fee is $43,750 due at close. Here is how milestone billing at roughly 50% less compares across every factor that actually matters.
+            </p>
+          </div>
+          <div style={{ overflowX: 'auto', marginTop: '2.5rem' }} className="reveal">
+            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem' }}>
+              <thead>
+                <tr style={{ background: '#000000', color: '#ECAC60' }}>
+                  <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700, minWidth: '200px' }}>Factor</th>
+                  <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>BEG Milestone Billing</th>
+                  <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>Contingency Recruiter</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Payment structure', 'Milestone-based: payments tied to progress', 'Lump sum at close: 20-25% of first-year salary'],
+                  ['Cost on a $175K hire', 'Roughly 50% less than contingency', '$35,000-$43,750 due at placement'],
+                  ['Incentive alignment', 'Aligned with your speed and quality of fit', 'Aligned with closing any candidate, fast'],
+                  ['Candidate volume', '3-5 curated, pre-screened candidates', '20+ resumes submitted; you screen'],
+                  ['Average time to fill', '23-35 days', '90+ days industry average'],
+                  ['Replacement guarantee', '45 days, no additional charge', '30 days or less at most firms'],
+                  ['Sourcing method', 'Direct passive candidate outreach', 'Job board postings and database'],
+                  ['Focus on your fit criteria', 'Yes: shortlist qualified to your specifics', 'Volume approach; less selective'],
+                  ['What happens if no placement', 'Milestone payments reflect work done', 'No fee owed but no urgency either'],
+                ].map(([factor, beg, contingency], i) => (
+                  <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #e5e5e5' }}>
+                    <td style={{ padding: '13px 16px', fontWeight: 600, color: '#333333' }}>{factor}</td>
+                    <td style={{ padding: '13px 16px', color: '#1a6e1a', fontWeight: 600 }}>{beg}</td>
+                    <td style={{ padding: '13px 16px', color: '#555555' }}>{contingency}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
@@ -238,28 +317,44 @@ export default function JobPlacementPage() {
         <div className="container" style={{ maxWidth: '780px' }}>
           <div className="head center reveal">
             <p className="eyebrow">FAQ</p>
-            <h2>Common questions</h2>
+            <h2>Common questions about job placement</h2>
           </div>
           <div className="faq reveal">
             <div className="faq-item">
               <h3>What kinds of roles do you place?</h3>
-              <p>Specialized, hard-to-fill roles across legal, healthcare, finance and accounting, technology, engineering, skilled trades and manufacturing, and executive search.</p>
+              <p>Specialized, hard-to-fill roles across legal, healthcare, finance and accounting, technology, engineering, skilled trades and manufacturing, and executive search. Legal placement is a primary focus, with particular depth in attorney, paralegal, and counsel searches for law firms and corporate legal departments.</p>
             </div>
             <div className="faq-item">
               <h3>How is this different from a staffing agency?</h3>
-              <p>We are not a staffing agency. This is direct permanent placement with milestone-based pricing. You hire the candidate directly. We place, not staff.</p>
+              <p>We are not a staffing agency. BEG Job Placement Services is direct permanent placement with milestone-based pricing. You hire the candidate directly into your organization. We do not place temps, contractors, or interim staff. We place permanent hires, and the candidate is your employee from day one.</p>
             </div>
             <div className="faq-item">
               <h3>How fast can you fill a role?</h3>
-              <p>23-35 days on average, 2-3x faster than the industry standard. On your discovery call we give you a realistic timeline for your specific role and vertical.</p>
+              <p>23-35 days on average, which is 2-3 times faster than the industry standard for contingency search. On your discovery call we give you a realistic timeline for your specific role and vertical. Legal roles in competitive markets move faster because we source passively rather than waiting for applicants.</p>
             </div>
             <div className="faq-item">
               <h3>How is pricing structured?</h3>
-              <p>Milestone-based and tied to real progress, at roughly 50% less than contingency arrangements. Exact structure is covered on your discovery call.</p>
+              <p>Milestone-based and tied to real progress in the search, at roughly 50% less than contingency arrangements. The exact structure depends on the role, level, and vertical. We cover the full fee model on your discovery call before any engagement begins. No surprises.</p>
             </div>
             <div className="faq-item">
               <h3>What if the hire does not work out?</h3>
-              <p>Every placement carries a 45-day replacement guarantee at no additional charge.</p>
+              <p>Every placement carries a 45-day replacement guarantee at no additional charge. If the candidate does not work out within 45 days of their start date, we run a replacement search at no cost. Most contingency firms offer 30 days or less; some charge for replacements. Our 45-day guarantee is built into every engagement.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What practice areas and specialties do you recruit for?</h3>
+              <p>In legal we recruit across all major practice areas: litigation, corporate, real estate, employment, healthcare, IP, tax, and general counsel. For non-legal verticals we place in clinical and nursing, finance and accounting, technology and engineering, and executive search. Your discovery call confirms whether your specific role is in our active scope.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How do you actually find passive candidates?</h3>
+              <p>We source directly through professional networks, referrals, alumni channels, and targeted outreach to working professionals who are not actively job hunting but may be open to the right opportunity. We do not post jobs to job boards. Job board sourcing captures only candidates who are already visible to every other recruiter. The passive market is where the best people are, and reaching it requires direct contact.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Can you work on multiple roles at once for the same organization?</h3>
+              <p>Yes. Many organizations engage BEG on multiple simultaneous searches, particularly when a firm or department is scaling. We assign a dedicated search specialist to each role and run them in parallel. Volume across roles does not slow down individual search timelines.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What information do you need to start a search?</h3>
+              <p>On your discovery call we cover: the role title and specialty, the experience level required, compensation range, your timeline urgency, any previous search history and what went wrong, and what a strong candidate looks like in your specific environment. The more specific you can be about past misses and must-haves, the tighter the shortlist we build.</p>
             </div>
           </div>
         </div>
@@ -277,7 +372,7 @@ export default function JobPlacementPage() {
           {
             category: 'Legal hiring',
             title: 'Associate Attorney Hiring: What Law Firms Get Wrong',
-            excerpt: 'Most firms rely on job boards to find associate talent. The best candidates are not on job boards — here is where they are.',
+            excerpt: 'Most firms rely on job boards to find associate talent. The best candidates are not on job boards. Here is where they are.',
             href: '/blog/legal-hiring/associate-hiring',
           },
           {
@@ -299,29 +394,48 @@ export default function JobPlacementPage() {
               {
                 '@type': 'Question',
                 name: 'How is this different from a staffing agency?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency. You hire the candidate directly into your organization from day one.' },
               },
               {
                 '@type': 'Question',
                 name: 'How fast can you fill a role?',
-                acceptedAnswer: { '@type': 'Answer', text: '23-35 days on average, 2-3x faster than the industry standard.' },
+                acceptedAnswer: { '@type': 'Answer', text: '23-35 days on average, 2-3x faster than the industry standard for contingency search.' },
               },
               {
                 '@type': 'Question',
                 name: 'How is pricing structured?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Milestone-based at roughly 50% less than contingency arrangements.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Milestone-based and tied to real search progress, at roughly 50% less than contingency arrangements. Full fee structure is covered on your discovery call.' },
               },
               {
                 '@type': 'Question',
                 name: 'What if the hire does not work out?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Every placement carries a 45-day replacement guarantee at no additional charge.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Every placement carries a 45-day replacement guarantee at no additional charge. The longest guarantee in the market.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How do you find passive candidates?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Direct outreach through professional networks, referrals, and targeted sourcing. We do not post to job boards. Passive candidates are not visible there, and the best lateral hires are almost always passive.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What practice areas do you recruit for?',
+                acceptedAnswer: { '@type': 'Answer', text: 'In legal: litigation, corporate, real estate, employment, healthcare, IP, tax, and general counsel. We also place in clinical, finance and accounting, technology, engineering, and executive search.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Can you work on multiple roles at once?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Yes. We assign a dedicated search specialist to each role and run parallel searches. Volume does not slow individual timelines.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What information do you need to start?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Role title and specialty, experience level, compensation range, timeline urgency, any prior search history, and what a strong candidate looks like in your environment. Covered on your discovery call.' },
               },
             ],
           }),
         }}
       />
 
-    
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -329,7 +443,7 @@ export default function JobPlacementPage() {
             '@context': 'https://schema.org',
             '@type': 'ProfessionalService',
             name: 'Job Placement Services',
-            description: 'Specialized job placement in 23-35 days at roughly 50% less than contingency firms. 86% fill rate. 45-day replacement guarantee.',
+            description: 'Specialized job placement and law firm recruiting in 23-35 days at roughly 50% less than contingency firms. 86% fill rate. 45-day replacement guarantee. Milestone billing.',
             url: 'https://beghr.com/services/job-placement',
             provider: {
               '@type': 'Organization',

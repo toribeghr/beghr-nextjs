@@ -6,7 +6,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Services | $25-$45 PEPM | Outsource Payroll | BEG',
-  description: 'Fully managed payroll at $25-$45 per employee per month. All-inclusive: taxes, filings, and compliance. Works in your existing system. No migration. All 50 states.',
+  description: 'Fully managed payroll at $25-$45 per employee per month. Taxes, filings, W-2s, garnishments, compliance, and employee support all included. Works in your existing system. No migration. All 50 states.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll',
   },
@@ -19,14 +19,14 @@ export default function ManagedPayrollPage() {
     <ServicePage
       imageSrc="/assets/hero-images/payroll.webp"
       showHeroImage={true}
-      eyebrow="Managed Payroll"
+      eyebrow="Managed Payroll Services"
       title="Your payroll should not take half your week or cost six figures to get right."
       description="A full-time payroll manager costs $60,000-$100,000 per year in salary and benefits alone. BEG runs your entire payroll operation at $25-$45 per employee per month, all-inclusive. Every cycle, every filing, every compliance update. Nothing for your team to touch."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25-$45', label: 'PEPM, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
-        { value: '100%', label: 'Managed for you' },
+        { value: '3-5 Days', label: 'To live managed payroll' },
       ]}
     >
 
@@ -100,8 +100,81 @@ export default function ManagedPayrollPage() {
         </div>
       </section>
 
-      {/* THREE BONUSES */}
+      {/* WHAT WE HANDLE */}
       <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '980px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Complete Scope</p>
+            <h2>Everything BEG handles so your team handles nothing.</h2>
+            <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '640px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+              Most payroll vendors process checks and leave everything else to you. BEG manages the full scope from initial setup through year-end close at one flat monthly rate.
+            </p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem', marginTop: '2.5rem' }}>
+            {[
+              {
+                heading: 'Setup and Onboarding',
+                items: [
+                  'Employee records and direct deposit',
+                  'Tax registration: federal, state, and local',
+                  'Deductions: benefits, 401k, garnishments',
+                  'Pay schedule and frequency configuration',
+                  'Multi-state registration support',
+                  'Historical data migration',
+                ],
+              },
+              {
+                heading: 'Ongoing Processing',
+                items: [
+                  'Gross-to-net calculations every cycle',
+                  'Tax withholding and remittance',
+                  'Direct deposit and pay stub delivery',
+                  'Off-cycle and bonus payrolls',
+                  'New hire reporting in all 50 states',
+                  'Timecard and exception review',
+                ],
+              },
+              {
+                heading: 'Compliance and Filings',
+                items: [
+                  'Federal and state payroll tax deposits',
+                  'Quarterly 941 and 940 filings',
+                  'State unemployment insurance (SUTA)',
+                  'W-2 preparation, filing, and delivery',
+                  'ACA 1094/1095 reporting',
+                  'Year-end reconciliation and close',
+                ],
+              },
+              {
+                heading: 'Employee Support',
+                items: [
+                  'Paycheck questions handled by BEG',
+                  'Direct deposit updates and changes',
+                  'W-2 reissues and corrections',
+                  'Employment and income verifications',
+                  'IRS and state notice management',
+                  'Garnishment calculation and remittance',
+                ],
+              },
+            ].map(({ heading, items }) => (
+              <div key={heading} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.5rem' }} className="reveal">
+                <h3 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem', paddingBottom: '0.5rem', borderBottom: '2px solid #ECAC60', color: '#000000' }}>{heading}</h3>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                  {items.map((item) => (
+                    <li key={item} style={{ fontSize: '0.88rem', padding: '0.35rem 0', color: '#444444', borderBottom: '1px solid #f0f0f0', display: 'flex', gap: '0.5rem', alignItems: 'flex-start', lineHeight: '1.45' }}>
+                      <span style={{ color: '#ECAC60', fontWeight: '700', flexShrink: 0, marginTop: '2px' }}>&#10003;</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* THREE BONUSES */}
+      <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">What You Get</p>
@@ -143,6 +216,51 @@ export default function ManagedPayrollPage() {
         </div>
       </section>
 
+      {/* COMPARISON TABLE */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '1000px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">How It Compares</p>
+            <h2>Managed payroll vs. in-house vs. self-service software</h2>
+            <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '600px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+              The right model depends on your headcount, risk tolerance, and how much time your team can afford to spend on payroll every pay period.
+            </p>
+          </div>
+          <div style={{ overflowX: 'auto', marginTop: '2.5rem' }} className="reveal">
+            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem' }}>
+              <thead>
+                <tr style={{ background: '#000000', color: '#ECAC60' }}>
+                  <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700, minWidth: '160px' }}>Factor</th>
+                  <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>BEG Managed Payroll</th>
+                  <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>In-House Manager</th>
+                  <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>Self-Service Software</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$6,000-$9,000+ (salary and benefits)', '$300-$600 plus your time'],
+                  ['Who runs payroll', 'BEG: fully managed', 'Your employee', 'You or your team'],
+                  ['Tax filings', 'All 50 states, fully handled', 'Depends on expertise', 'Platform-assisted; you verify'],
+                  ['W-2s and year-end', 'Fully managed by BEG', 'Employee dependent', 'Generated; you distribute'],
+                  ['Multi-state compliance', 'Yes, all 50 states included', 'Varies by experience', 'Platform-assisted'],
+                  ['Employee questions', 'BEG handles directly', 'One person (turnover risk)', 'Self-service portal'],
+                  ['Migration required', 'No: works in your system', 'Hire, train, onboard (months)', 'Full data migration required'],
+                  ['Time to live payroll', '3-5 business days', '6-12 weeks to hire and train', '4-8 weeks to configure'],
+                  ['Key risk', 'None: BEG is accountable', 'Turnover leaves you exposed', 'You own all errors and penalties'],
+                ].map(([factor, beg, inhouse, software], i) => (
+                  <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #e5e5e5' }}>
+                    <td style={{ padding: '13px 16px', fontWeight: 600, color: '#333333' }}>{factor}</td>
+                    <td style={{ padding: '13px 16px', color: '#1a6e1a', fontWeight: 600 }}>{beg}</td>
+                    <td style={{ padding: '13px 16px', color: '#555555' }}>{inhouse}</td>
+                    <td style={{ padding: '13px 16px', color: '#555555' }}>{software}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* SCARCITY */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -153,7 +271,7 @@ export default function ManagedPayrollPage() {
                 Every month you pay a payroll manager is a month you overpay.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                A payroll manager at $75,000 per year costs $6,250 per month before benefits, PTO, and overhead. BEG manages the same function at $25-$45 per employee per month. For a 50-person company, that is $1,250-$1,750 per month total. The difference goes back to your bottom line every single month.
+                A payroll manager at $75,000 per year costs $6,250 per month before benefits, PTO, and overhead. BEG manages the same function at $25-$45 per employee per month. For a 50-person company, that is $1,250-$2,250 per month total. The difference goes back to your bottom line every single month.
               </p>
             </div>
             <div>
@@ -235,28 +353,44 @@ export default function ManagedPayrollPage() {
         <div className="container" style={{ maxWidth: '780px' }}>
           <div className="head center reveal">
             <p className="eyebrow">FAQ</p>
-            <h2>Common questions</h2>
+            <h2>Common questions about managed payroll</h2>
           </div>
           <div className="faq reveal">
             <div className="faq-item">
               <h3>Is this payroll software or a managed service?</h3>
-              <p>A fully managed service. We run every pay cycle, every tax filing, and every year-end form for you. No login to manage, no software to learn.</p>
+              <p>A fully managed service. BEG runs every pay cycle, every tax filing, and every year-end form for you. There is no software login for your team to manage. You approve payroll and BEG handles everything else.</p>
             </div>
             <div className="faq-item">
               <h3>Do I have to switch payroll platforms?</h3>
-              <p>No. BEG can work in your existing system or in our iSolved account. Most clients do not need to migrate anything.</p>
+              <p>No. BEG can work in your existing payroll system, including ADP, Paychex, QuickBooks Payroll, and others, or we can run payroll in our iSolved account if you prefer. Most clients do not migrate anything. We configure around what you already have.</p>
             </div>
             <div className="faq-item">
               <h3>How long does onboarding take?</h3>
-              <p>Most clients are running cleanly within 3–5 business days. We handle migration, configuration, and testing before processing your first managed cycle.</p>
+              <p>Most clients are running cleanly within 3-5 business days. BEG handles data migration, system configuration, and a test cycle before processing your first live payroll. The 3-5 day window applies to clients moving to iSolved. If we work in your existing system, setup is often faster.</p>
             </div>
             <div className="faq-item">
               <h3>What does the $25-$45 PEPM include?</h3>
-              <p>Everything: payroll processing, direct deposit, tax filings, W-2s, new hire reporting, and ongoing compliance. No add-ons, no per-run charges.</p>
+              <p>Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2s, new hire reporting, garnishment processing, year-end close, and employee support for paycheck questions. No per-run charges, no filing fees, no module add-ons.</p>
             </div>
             <div className="faq-item">
               <h3>What happens if there is an error on a pay run?</h3>
-              <p>You call your BEG contact directly. Not a support queue. Not a 1-800 number. The person who runs your payroll fixes it.</p>
+              <p>You call your BEG contact directly. The person who runs your payroll fixes it. Not a support queue, not a 1-800 number, not a first-level rep who has to escalate. BEG is accountable for payroll accuracy and we correct errors on our end.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Do you handle multi-state payroll?</h3>
+              <p>Yes. BEG manages payroll across all 50 states as part of the standard service. That includes separate state tax registrations, state unemployment insurance filings, local tax handling, and compliance updates when states change rates or reporting requirements. If you add a new state, your BEG contact handles the registration and configuration at no additional charge.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How do you handle garnishments and wage levies?</h3>
+              <p>Garnishments, including child support orders, student loan levies, tax levies, and court orders, are fully managed by BEG. We calculate correct withholding amounts per federal and state limits, deduct them from the applicable paychecks, remit payments to the correct agencies, and maintain records for auditing. New garnishment orders are processed as they arrive.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What does BEG do for W-2s and year-end?</h3>
+              <p>BEG manages the full year-end process. That includes reconciling payroll records against tax deposits, preparing and electronically filing W-2s with the Social Security Administration and applicable state agencies, and delivering W-2s to employees by the IRS deadline. If corrections are needed afterward, BEG handles W-2c filings as well.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How is my payroll data kept secure?</h3>
+              <p>iSolved, BEG's preferred platform, runs on SOC 2 Type II certified infrastructure with multi-tenant architecture and encryption at rest and in transit. Access to your payroll data is role-controlled and limited to authorized personnel. BEG never shares your payroll data outside of legally required remittances to tax authorities and direct deposit networks.</p>
             </div>
           </div>
         </div>
@@ -268,7 +402,7 @@ export default function ManagedPayrollPage() {
           {
             category: 'Payroll outsourcing',
             title: 'Why SaaS Companies Outsource Payroll Instead of Hiring In-House',
-            excerpt: 'A full-time payroll manager costs $60K-$100K before benefits. Here is the math on what outsourcing actually costs — and what you get.',
+            excerpt: 'A full-time payroll manager costs $60K-$100K before benefits. Here is the math on what outsourcing actually costs and what you get.',
             href: '/blog/payroll/technology/saas-payroll-outsourcing',
           },
           {
@@ -296,29 +430,53 @@ export default function ManagedPayrollPage() {
               {
                 '@type': 'Question',
                 name: 'Is this payroll software or a managed service?',
-                acceptedAnswer: { '@type': 'Answer', text: 'A fully managed service. BEG runs every pay cycle, every tax filing, and every year-end form for you.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'A fully managed service. BEG runs every pay cycle, every tax filing, and every year-end form. There is no software login for your team to manage.' },
               },
               {
                 '@type': 'Question',
                 name: 'Do I have to switch payroll platforms?',
-                acceptedAnswer: { '@type': 'Answer', text: 'No. BEG can work in your existing system or in our iSolved account. Most clients do not need to migrate anything.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'No. BEG can work in your existing payroll system or in our iSolved account. Most clients do not need to migrate anything.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How long does onboarding take?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Most clients are running cleanly within 3-5 business days. BEG handles data migration, configuration, and a test cycle before your first live payroll.' },
               },
               {
                 '@type': 'Question',
                 name: 'What does the $25-$45 PEPM include?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, direct deposit, tax filings, W-2s, new hire reporting, and ongoing compliance. No add-ons.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2s, new hire reporting, garnishment processing, year-end close, and employee support. No per-run charges or add-ons.' },
               },
               {
                 '@type': 'Question',
                 name: 'What happens if there is an error on a pay run?',
-                acceptedAnswer: { '@type': 'Answer', text: 'You call your BEG contact directly. Not a support queue. The person who runs your payroll fixes it.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'You call your BEG contact directly. The person who runs your payroll fixes it. BEG is accountable for payroll accuracy.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Do you handle multi-state payroll?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG manages payroll across all 50 states including state tax registrations, SUTA filings, local tax handling, and compliance updates. Adding a new state is handled by your BEG contact at no additional charge.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How do you handle garnishments and wage levies?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Garnishments including child support, student loan levies, tax levies, and court orders are fully managed by BEG. We calculate withholding, remit to agencies, and handle new orders as they arrive.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What does BEG do for W-2s and year-end?',
+                acceptedAnswer: { '@type': 'Answer', text: 'BEG manages the full year-end process: reconciling records, preparing and filing W-2s with the SSA and state agencies, and delivering W-2s to employees by the IRS deadline. W-2c corrections are also handled by BEG.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How is my payroll data kept secure?',
+                acceptedAnswer: { '@type': 'Answer', text: 'iSolved runs on SOC 2 Type II certified infrastructure with encryption at rest and in transit. Access is role-controlled. BEG never shares payroll data outside of legally required remittances.' },
               },
             ],
           }),
         }}
       />
 
-    
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -326,7 +484,7 @@ export default function ManagedPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'ProfessionalService',
             name: 'Managed Payroll Services',
-            description: 'Fully managed payroll at $25-$45 per employee per month, all-inclusive. Taxes, filings, and compliance handled. All 50 states.',
+            description: 'Fully managed payroll at $25-$45 per employee per month, all-inclusive. Taxes, filings, W-2s, garnishments, and compliance handled. All 50 states. 3-5 day onboarding.',
             url: 'https://beghr.com/services/managed-payroll',
             provider: {
               '@type': 'Organization',
@@ -341,6 +499,7 @@ export default function ManagedPayrollPage() {
           }),
         }}
       />
+
     </ServicePage>
   );
 }

@@ -17,7 +17,7 @@ const CALENDLY = getCalendlyLink('managed-payroll');
 export default function ManagedPayrollPage() {
   return (
     <ServicePage
-      imageSrc="/assets/hero-images/payroll.svg"
+      imageSrc="/assets/hero-images/payroll.webp"
       showHeroImage={true}
       eyebrow="Managed Payroll"
       title="Your payroll should not take half your week or cost six figures to get right."

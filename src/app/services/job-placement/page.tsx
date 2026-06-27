@@ -17,7 +17,7 @@ const CALENDLY = getCalendlyLink('job-placement');
 export default function JobPlacementPage() {
   return (
     <ServicePage
-      imageSrc="/assets/hero-images/job-placement.svg"
+      imageSrc="/assets/hero-images/job-placement.webp"
       showHeroImage={true}
       eyebrow="Job Placement Services"
       title="That role has been open too long. Let us fix that."

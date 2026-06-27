@@ -211,7 +211,7 @@ export default function RealEstatePropertyManagementPayrollPage() {
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#666' }}>Related Resources</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
             <a href="/services/managed-payroll" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>Managed Payroll &rarr;</a>
-            <a href="/blog/payroll/real-estate" style={{ display: 'inline-block', background: '#f0f0f0', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>Real Estate Payroll Overview &rarr;</a>
+            <a href="/blog/payroll" style={{ display: 'inline-block', background: '#f0f0f0', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>Payroll by Industry &rarr;</a>
             <a href="/compare/managed-payroll-vs-adp" style={{ display: 'inline-block', background: '#f0f0f0', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>BEG vs. ADP &rarr;</a>
           </div>
         </div>

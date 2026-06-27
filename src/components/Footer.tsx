@@ -43,6 +43,16 @@ export default function Footer() {
             <Link href="/services/managed-payroll/engineering" className="footer-link">Engineering</Link>
             <Link href="/services/managed-payroll/trades" className="footer-link">Skilled Trades &amp; Mfg</Link>
             <Link href="/services/managed-payroll/executive" className="footer-link">Executive &amp; Leadership</Link>
+            <Link href="/services/managed-payroll/auto-dealership" className="footer-link">Auto Dealerships</Link>
+            <Link href="/services/managed-payroll/cannabis" className="footer-link">Cannabis Businesses</Link>
+            <Link href="/services/managed-payroll/childcare" className="footer-link">Childcare Centers</Link>
+            <Link href="/services/managed-payroll/church" className="footer-link">Churches &amp; Nonprofits</Link>
+            <Link href="/services/managed-payroll/fitness" className="footer-link">Fitness &amp; Gyms</Link>
+            <Link href="/services/managed-payroll/franchise" className="footer-link">Franchise Operations</Link>
+            <Link href="/services/managed-payroll/home-health" className="footer-link">Home Health Agencies</Link>
+            <Link href="/services/managed-payroll/marketing-agency" className="footer-link">Marketing Agencies</Link>
+            <Link href="/services/managed-payroll/trucking" className="footer-link">Trucking &amp; Fleets</Link>
+            <Link href="/services/managed-payroll/veterinary" className="footer-link">Veterinary Practices</Link>
           </div>
 
           {/* HCM Software */}

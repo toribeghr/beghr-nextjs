@@ -50,6 +50,14 @@ Every new page must pass all items before git push. Claude checks this automatic
 - [ ] All internal `href` values use relative paths (`/services/...`, not `https://beghr.com/...`)
 - [ ] All external links have `target="_blank" rel="noopener noreferrer"`
 
+**Service pages:** include a `<RelatedPosts />` section (3 cards) before the closing schema/tags. Import from `@/components/RelatedPosts`. Place after the last content section, before the `<script type="application/ld+json">` blocks. Pass `posts={[...]}` with `category`, `title`, `excerpt`, and `href` for 3 relevant blog posts.
+
+**Blog posts:** include at least 1 external authority link contextually in the body copy. Approved sources by vertical:
+- Legal hiring: americanbar.org, bls.gov/ooh/legal, nalp.org, acc.com
+- Payroll: irs.gov, dol.gov, americanpayroll.org
+- HCM software: shrm.org, isolved.com, gartner.com
+- Entrepreneur: bls.gov, dol.gov, shrm.org
+
 ---
 
 ## 6. On-Page SEO

@@ -27,7 +27,7 @@ export default function iSolvedPlatformPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Growing companies need an all-in-one HR platform. Managing payroll, benefits, time and attendance, and talent separately creates silos, errors, and wasted time. iSolved brings all of it into one unified system&mdash;no more data transfers between platforms, no more mismatched records.</p>
+        <p>Growing companies need an all-in-one HR platform. Managing payroll, benefits, time and attendance, and talent separately creates silos, errors, and wasted time. <a href="https://www.isolved.com/" target="_blank" rel="noopener noreferrer">iSolved</a> brings all of it into one unified system&mdash;no more data transfers between platforms, no more mismatched records.</p>
 
         <p>For companies scaling from 50 to 500 employees, iSolved replaces multiple point solutions and keeps payroll and HR aligned.</p>
 

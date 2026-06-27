@@ -27,7 +27,7 @@ export default function HRAutomationPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Your HR team spends 200+ hours per year on manual tasks: processing timecards, enrolling employees in benefits, sending reminders, collecting compliance docs. These tasks don&apos;t add value&mdash;they just take time.</p>
+        <p>According to <a href="https://www.shrm.org/topics-tools/topics/human-resources" target="_blank" rel="noopener noreferrer">SHRM</a>, your HR team spends 200+ hours per year on manual tasks: processing timecards, enrolling employees in benefits, sending reminders, collecting compliance docs. These tasks don&apos;t add value&mdash;they just take time.</p>
 
         <p>HR automation eliminates these tasks. Employees self-serve. Workflows run automatically. Your team focuses on strategy, culture, and hiring instead of paperwork.</p>
 

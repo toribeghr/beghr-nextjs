@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -259,6 +260,30 @@ export default function ManagedPayrollPage() {
           </div>
         </div>
       </section>
+
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll outsourcing',
+            title: 'Why SaaS Companies Outsource Payroll Instead of Hiring In-House',
+            excerpt: 'A full-time payroll manager costs $60K-$100K before benefits. Here is the math on what outsourcing actually costs — and what you get.',
+            href: '/blog/payroll/technology/saas-payroll-outsourcing',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Law Firm Payroll Outsourcing: What Managing Partners Need to Know',
+            excerpt: 'Multi-state compliance, partner draws, and staff payroll on one system. Why law firms are moving away from in-house payroll.',
+            href: '/blog/payroll/professional-services/law-firm-payroll-outsourcing',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Accounting Firm Payroll: Why Internal Teams Are Moving It Out',
+            excerpt: 'Firms that manage client payroll often have the messiest internal payroll. A look at the common gaps and how outsourcing closes them.',
+            href: '/blog/payroll/professional-services/accounting',
+          },
+        ]}
+      />
 
       <script
         type="application/ld+json"

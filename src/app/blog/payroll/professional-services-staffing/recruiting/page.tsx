@@ -35,7 +35,7 @@ export default function StaffingPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>Why Staffing Payroll is Uniquely Risky</h2>
 
-        <p>Staffing agencies manage hundreds of workers—many part-time, temporary, or 1099 contractors. Misclassify a single worker and you face IRS audits and liability. Tax withholding must be precise. Compliance errors destroy client trust.</p>
+        <p>Staffing agencies manage hundreds of workers—many part-time, temporary, or 1099 contractors. Misclassify a single worker and you face <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">IRS</a> audits and liability. Tax withholding must be precise. Compliance errors destroy client trust.</p>
 
         <p>Your in-house HR person can't possibly stay current on all the nuances. This is specialist work.</p>
 

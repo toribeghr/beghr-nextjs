@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager',
-  description: 'Manufacturing payroll outsourcing vs. hiring in-house. Save $65K-$100K annually. Handle shift work, overtime, and compliance easily.',
+  description: 'Manufacturing payroll outsourcing vs. hiring in-house. Save $65K-$100K annually. Handle shift work, overtime, and <a href="https://www.dol.gov/" target="_blank" rel="noopener noreferrer">compliance</a> easily.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll' },
 };
 

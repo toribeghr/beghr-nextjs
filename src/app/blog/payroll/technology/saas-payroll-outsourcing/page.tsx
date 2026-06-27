@@ -29,7 +29,7 @@ export default function SaaSPayrollPage() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
         <p>SaaS companies move fast. Payroll ops slows you down. Every hour your payroll manager spends on tax forms is an hour not spent scaling operations or supporting customer success.</p>
 
-        <p>Yet most fast-growing SaaS firms still hire in-house payroll specialists, burning $70K–$110K annually on a role that could be outsourced entirely.</p>
+        <p>Yet most fast-growing SaaS firms still hire in-house payroll specialists, burning $70K–$110K annually on a role that could be outsourced entirely. <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">IRS payroll tax obligations</a> only add to the complexity.</p>
 
         <p><strong>The math is brutal: outsourcing payroll frees up capacity to scale without hiring overhead staff.</strong></p>
 

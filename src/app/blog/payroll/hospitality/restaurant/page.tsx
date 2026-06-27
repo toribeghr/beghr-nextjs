@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Restaurant Payroll Outsourcing: Cost vs. Hiring In-House Manager',
-  description: 'Restaurant payroll outsourcing vs. hiring payroll manager. Save $60K-$90K annually. Handle tipped employees, tax compliance, scheduling integration.',
+  description: 'Restaurant payroll outsourcing vs. hiring payroll manager. Save $60K-$90K annually. Handle tipped employees, tax <a href="https://www.dol.gov/agencies/whd/restaurants" target="_blank" rel="noopener noreferrer">compliance</a>, scheduling integration.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/hospitality/restaurant' },
 };
 

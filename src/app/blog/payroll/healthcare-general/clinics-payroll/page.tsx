@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Healthcare Clinic Payroll Outsourcing: Cost vs. Hiring HR Manager',
-  description: 'Healthcare clinic payroll outsourcing vs. hiring in-house. Save $68K-$102K annually. Handle HIPAA compliance and multi-location payroll.',
+  description: 'Healthcare clinic payroll outsourcing vs. hiring in-house. Save $68K-$102K annually. Handle HIPAA <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">compliance</a> and multi-location payroll.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare-general/clinics-payroll' },
 };
 

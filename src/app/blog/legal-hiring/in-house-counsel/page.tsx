@@ -33,7 +33,7 @@ export default function InHouseCounselPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>What In-House Counsel Needs</h2>
 
-        <p>In-house attorneys need broad legal knowledge, business judgment, and cultural fit. They manage contracts, employment law, compliance, and board matters. They report to the CEO or CFO. The right hire is part attorney, part business partner, part advisor.</p>
+        <p>In-house attorneys need broad legal knowledge, business judgment, and cultural fit. They manage contracts, employment law, compliance, and board matters — a scope that the <a href="https://www.acc.com/" target="_blank" rel="noopener noreferrer">Association of Corporate Counsel</a> calls the most complex generalist role in law. They report to the CEO or CFO. The right hire is part attorney, part business partner, part advisor.</p>
 
         <p>This role is harder to hire for than a law firm associate position because it demands both legal depth and business acumen.</p>
 

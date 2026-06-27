@@ -35,7 +35,7 @@ export default function AssociateHiringPage() {
 
         <p>Most law firms post on job boards and wait. Passive candidate searches take time. Bar admissions verification delays offers. Your hiring timeline stretches to 90+ days—and top talent takes other offers in the meantime.</p>
 
-        <p>The best associates aren't on job boards. They're lateral candidates at other firms. Finding them requires a different strategy.</p>
+        <p>The best associates aren't on job boards. They're lateral candidates at other firms — a pattern confirmed by <a href="https://www.bls.gov/ooh/legal/lawyers.htm" target="_blank" rel="noopener noreferrer">BLS data showing high demand for experienced attorneys</a>. Finding them requires a different strategy.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>How Top Firms Hire Fast</h2>
 

@@ -33,7 +33,7 @@ export default function AttorneyMarketTrendsPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Supply Side: Fewer Attorneys</h2>
 
-        <p>Law school enrollment is down 30% since 2010. That means fewer junior attorneys entering the market. Graduating law students have choice. They're picking the best firms, not the first offers.</p>
+        <p><a href="https://www.americanbar.org/groups/legal_education/resources/statistics/" target="_blank" rel="noopener noreferrer">Law school enrollment is down 30% since 2010</a>, according to ABA data. That means fewer junior attorneys entering the market. Graduating law students have choice. They're picking the best firms, not the first offers.</p>
 
         <p>If your firm's hiring process is slow, you lose candidates to faster competitors.</p>
 

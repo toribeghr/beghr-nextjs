@@ -33,7 +33,7 @@ export default function ParalegalHiringPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>What to Look For in Paralegals</h2>
 
-        <p>Technical skills matter: case management software, legal research, document management, and writing. But culture fit matters more. A detail-oriented, well-organized paralegal who fits your firm's pace and style is worth more than a technically perfect hire who doesn't mesh with your team.</p>
+        <p>Technical skills matter: case management software, legal research, document management, and writing. The <a href="https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm" target="_blank" rel="noopener noreferrer">BLS projects strong paralegal demand through 2032</a>, making top candidates harder to find. But culture fit matters more. A detail-oriented, well-organized paralegal who fits your firm's pace and style is worth more than a technically perfect hire who doesn't mesh with your team.</p>
 
         <p>Experience in your practice area is valuable, but trainability is key. A great paralegal with litigation experience can learn transactional work. The reverse is harder.</p>
 

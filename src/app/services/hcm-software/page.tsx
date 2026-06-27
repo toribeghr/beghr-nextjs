@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -283,6 +284,30 @@ export default function HCMSoftwarePage() {
           </div>
         </div>
       </section>
+
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM software',
+            title: 'HR Automation in 2025: What iSolved Actually Automates',
+            excerpt: 'Most HR platforms promise automation but deliver report generation. Here is what genuine automation looks like and which tasks it eliminates.',
+            href: '/blog/hcm-software/hr-automation',
+          },
+          {
+            category: 'HCM software',
+            title: 'iSolved Platform Overview: Features, Pricing, and Who It Is For',
+            excerpt: 'A no-fluff breakdown of what iSolved covers, who it fits best, and how it compares to the platforms most mid-size companies are already running.',
+            href: '/blog/hcm-software/isolved-platform',
+          },
+          {
+            category: 'HCM software',
+            title: 'Payroll Compliance in 2025: What Changes and How HCM Software Keeps You Current',
+            excerpt: 'Tax law changes, multi-state filings, and new reporting requirements. How the right HCM platform handles compliance so your team does not have to.',
+            href: '/blog/hcm-software/payroll-compliance',
+          },
+        ]}
+      />
 
       <script
         type="application/ld+json"

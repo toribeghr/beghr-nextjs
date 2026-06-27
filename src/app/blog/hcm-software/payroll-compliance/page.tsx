@@ -27,7 +27,7 @@ export default function PayrollCompliancePage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Payroll tax rules change every year. State requirements shift. IRS thresholds update. Federal withholding changes. If your payroll system isn&apos;t updated, you&apos;re exposed to penalties and audits.</p>
+        <p>Payroll tax rules change every year. State requirements shift. <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">IRS</a> thresholds update. Federal withholding changes. If your payroll system isn&apos;t updated, you&apos;re exposed to penalties and audits.</p>
 
         <p>Here&apos;s what changed in 2026 and what your payroll system needs to handle.</p>
 

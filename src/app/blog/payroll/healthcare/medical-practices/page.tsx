@@ -63,7 +63,7 @@ export default function MedicalPracticesPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Consequences of Getting Payroll Wrong</h2>
 
-        <p><strong>Compliance Risk:</strong> One missed payroll deadline or misclassification can trigger IRS penalties ($500–$2,500), back taxes, and potential liability. For a practice with 20+ employees, a classification error could cost $10,000+.</p>
+        <p><strong>Compliance Risk:</strong> One missed payroll deadline or misclassification can trigger <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">IRS</a> penalties ($500–$2,500), back taxes, and potential liability. For a practice with 20+ employees, a classification error could cost $10,000+.</p>
 
         <p><strong>Staff Turnover:</strong> Late or incorrect paychecks destroy morale. Your clinical staff—nurses, therapists, medical assistants—are already stretched thin. Payroll errors accelerate burnout and turnover.</p>
 

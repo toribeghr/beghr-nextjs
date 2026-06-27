@@ -37,7 +37,7 @@ export default function RealEstatePayrollPage() {
 
         <p>Properties in different states have different tax requirements. Property managers earn commissions or bonuses. Tenant reimbursements and expense allocations must be tracked separately. One error cascades across the portfolio.</p>
 
-        <p>Your HR coordinator spends time on compliance, not on retention or culture initiatives that drive performance.</p>
+        <p>Your HR coordinator spends time on <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">compliance</a>, not on retention or culture initiatives that drive performance.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Financial Reality</h2>
 

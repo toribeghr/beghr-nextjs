@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Retail Payroll Outsourcing: Cost vs. Hiring HR Coordinator',
-  description: 'Retail payroll outsourcing vs. hiring in-house. Save $60K-$90K annually. Handle seasonal staffing and compliance easily.',
+  description: 'Retail payroll outsourcing vs. hiring in-house. Save $60K-$90K annually. Handle seasonal staffing and <a href="https://www.dol.gov/" target="_blank" rel="noopener noreferrer">compliance</a> easily.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/retail/staffing-payroll' },
 };
 

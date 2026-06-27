@@ -35,7 +35,7 @@ export default function ConstructionPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>Why Construction Payroll Fails In-House</h2>
 
-        <p>Prevailing wage rules vary by job location and project type. Misallocate labor across projects, fail to track prevailing wage requirements, or misclassify a 1099 contractor—and the Department of Labor comes calling.</p>
+        <p>Prevailing wage rules vary by job location and project type. Misallocate labor across projects, fail to track prevailing wage requirements, or misclassify a 1099 contractor—and the <a href="https://www.dol.gov/agencies/whd/government-contracts" target="_blank" rel="noopener noreferrer">Department of Labor</a> comes calling.</p>
 
         <p>Your payroll manager is constantly checking compliance docs, not strategic work. That's expensive expertise for a single company.</p>
 

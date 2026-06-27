@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator',
-  description: 'Dental office payroll outsourcing vs. hiring in-house. Save $65K+ annually. Manage hygienist tips, compliance, scheduling easily.',
+  description: 'Dental office payroll outsourcing vs. hiring in-house. Save $65K+ annually. Manage hygienist tips, <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">compliance</a>, scheduling easily.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/dental' },
 };
 

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -262,6 +263,30 @@ export default function JobPlacementPage() {
           </div>
         </div>
       </section>
+
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Legal hiring',
+            title: 'Why Law Firms Struggle to Fill Attorney Roles in 30 Days',
+            excerpt: 'Law school enrollment is down 30% since 2010. Here is what that means for your open roles and why passive candidates are the answer.',
+            href: '/blog/legal-hiring/attorney-market-trends',
+          },
+          {
+            category: 'Legal hiring',
+            title: 'Associate Attorney Hiring: What Law Firms Get Wrong',
+            excerpt: 'Most firms rely on job boards to find associate talent. The best candidates are not on job boards — here is where they are.',
+            href: '/blog/legal-hiring/associate-hiring',
+          },
+          {
+            category: 'Legal hiring',
+            title: 'How Solo Firms and Small Practices Can Compete for Top Legal Talent',
+            excerpt: 'Small firms punch above their weight when they move fast. A playbook for growing practices that cannot afford a long search.',
+            href: '/blog/legal-hiring/solo-firm-growth',
+          },
+        ]}
+      />
 
       <script
         type="application/ld+json"

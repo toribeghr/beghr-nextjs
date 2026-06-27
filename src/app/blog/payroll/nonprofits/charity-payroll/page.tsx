@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Payroll Outsourcing: Cost vs. Hiring HR Staff',
-  description: 'Nonprofit payroll outsourcing vs. hiring in-house. Save $55K-$85K annually. Simplify tax-exempt compliance.',
+  description: 'Nonprofit payroll outsourcing vs. hiring in-house. Save $55K-$85K annually. Simplify tax-exempt <a href="https://www.irs.gov/charities-non-profits" target="_blank" rel="noopener noreferrer">compliance</a>.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/nonprofits/charity-payroll' },
 };
 

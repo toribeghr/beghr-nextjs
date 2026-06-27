@@ -41,7 +41,7 @@ export default function StartupHiringPage() {
 
         <p>Startup hiring is competitive. The best people have options. Move fast—from first conversation to offer in 1–2 weeks. Delayed decisions lose candidates.</p>
 
-        <p>Have your equity plan, offer structure, and salary benchmarks ready. Remove friction so you can move at startup speed.</p>
+        <p>Have your equity plan, offer structure, and <a href="https://www.bls.gov/oes/current/oes_nat.htm" target="_blank" rel="noopener noreferrer">salary benchmarks</a> ready. Remove friction so you can move at startup speed.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Build Your First Team. We Handle the Rest.</h3>

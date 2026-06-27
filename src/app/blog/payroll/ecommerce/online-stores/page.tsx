@@ -35,7 +35,7 @@ export default function ECommercePayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>Why E-Commerce Payroll is Different</h2>
 
-        <p>E-commerce teams are remote, distributed, and growing fast. Contractors mix with W-2 staff. Seasonal hiring (Black Friday, holidays) creates payroll spikes. Your HR coordinator manages timecards and onboarding instead of culture and retention.</p>
+        <p>E-commerce teams are remote, distributed, and growing fast. Contractors mix with W-2 staff — a distinction the <a href="https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee" target="_blank" rel="noopener noreferrer">IRS scrutinizes closely</a>. Seasonal hiring (Black Friday, holidays) creates payroll spikes. Your HR coordinator manages timecards and onboarding instead of culture and retention.</p>
 
         <p>Every time you scale headcount, payroll admin workload doesn't scale proportionally—outsourcing does.</p>
 

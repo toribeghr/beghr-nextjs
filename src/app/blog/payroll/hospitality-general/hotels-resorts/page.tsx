@@ -35,7 +35,7 @@ export default function HospitalityPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>Why Hospitality Payroll is Complex</h2>
 
-        <p>Tipped employees require tip tracking and tax reporting. Shift differentials, meal deductions, and multi-location coordination create complexity. High turnover means constant onboarding and offboarding. Your HR manager is drowning in admin.</p>
+        <p>Tipped employees require tip tracking and tax reporting under <a href="https://www.dol.gov/agencies/whd/hospitality" target="_blank" rel="noopener noreferrer">DOL hospitality wage rules</a>. Shift differentials, meal deductions, and multi-location coordination create complexity. High turnover means constant onboarding and offboarding. Your HR manager is drowning in admin.</p>
 
         <p>This isn't where your leadership should focus in hospitality—culture and service standards are.</p>
 

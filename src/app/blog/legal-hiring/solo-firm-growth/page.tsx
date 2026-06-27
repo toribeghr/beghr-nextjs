@@ -27,7 +27,7 @@ export default function SoloFirmGrowthPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Solo lawyers who are ready to hire their first associate face a unique challenge: finding an attorney who fits your practice, your culture, and your budget. The wrong hire can drain cash and slow growth. The right hire multiplies your capacity and revenue.</p>
+        <p>Solo lawyers who are ready to hire their first associate face a unique challenge: finding an attorney who fits your practice, your culture, and your budget. The <a href="https://www.americanbar.org/groups/solo_small_firm/" target="_blank" rel="noopener noreferrer">ABA Solo, Small Firm and General Practice Division</a> reports that first-hire timing and fit are the top reasons small firms stall out. The wrong hire can drain cash and slow growth. The right hire multiplies your capacity and revenue.</p>
 
         <p>Most solo practices hire based on network referrals, which is slow and limiting. There's a better way.</p>
 

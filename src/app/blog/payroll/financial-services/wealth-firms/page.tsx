@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Financial Services Payroll Outsourcing: Cost vs. Hiring HR Manager',
-  description: 'Financial services payroll outsourcing vs. hiring in-house. Save $72K-$108K annually. Handle compliance, commissions, and regulatory requirements.',
+  description: 'Financial services payroll outsourcing vs. hiring in-house. Save $72K-$108K annually. Handle <a href="https://www.dol.gov/" target="_blank" rel="noopener noreferrer">compliance</a>, commissions, and regulatory requirements.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/financial-services/wealth-firms' },
 };
 

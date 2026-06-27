@@ -27,7 +27,7 @@ export default function AccountingPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Accounting firms thrive on billable hours. Every hour spent managing internal HR and payroll is an hour not spent on client work—and that's money left on the table.</p>
+        <p>Accounting firms thrive on billable hours. Every hour spent managing internal HR and payroll is an hour not spent on client work. The <a href="https://www.americanpayroll.org/" target="_blank" rel="noopener noreferrer">American Payroll Association</a> estimates payroll errors cost companies 1–2% of total payroll annually—and that's money left on the table.</p>
 
         <p>Yet many accounting practices still manage their own payroll in-house, employing an HR coordinator or office manager who spends 10–15 hours per week on tax forms, payroll processing, and compliance.</p>
 

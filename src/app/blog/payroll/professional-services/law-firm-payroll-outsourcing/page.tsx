@@ -87,7 +87,7 @@ export default function LawFirmPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>What Happens When Payroll Goes Wrong</h2>
 
-        <p><strong>Compliance Risk:</strong> Payroll mistakes aren't just embarrassing—they're expensive. Missing a tax deadline can trigger penalties ($100–$500 per infraction). Misclassifying contractors? The IRS can impose back taxes, penalties, and interest. For a firm with 20+ employees, a single classification error could cost $5,000–$25,000.</p>
+        <p><strong>Compliance Risk:</strong> Payroll mistakes aren't just embarrassing—they're expensive. Missing a tax deadline can trigger penalties ($100–$500 per infraction). Misclassifying contractors? The <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">IRS</a> can impose back taxes, penalties, and interest. For a firm with 20+ employees, a single classification error could cost $5,000–$25,000.</p>
 
         <p><strong>Turnover Disruption:</strong> That payroll person leaves, and suddenly you're scrambling. Onboarding a replacement takes 3–6 months. In the interim, payroll processes slow down, errors increase, and staff morale suffers because paychecks are late or wrong.</p>
 

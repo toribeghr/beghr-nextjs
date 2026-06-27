@@ -167,7 +167,7 @@ export default function MedicalPracticesPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a Dallas-Fort Worth-based HR and payroll solutions firm serving medical practices, dental offices, healthcare systems, and professional services firms. With expertise in healthcare-specific compliance and operations, Anthony helps practices eliminate administrative burden and focus on clinical excellence.</p>
+          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a national HR and payroll solutions firm serving medical practices, dental offices, healthcare systems, and professional services firms. With expertise in healthcare-specific compliance and operations, Anthony helps practices eliminate administrative burden and focus on clinical excellence.</p>
         </div>
 
         <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '2px solid #e0e0e0' }}>

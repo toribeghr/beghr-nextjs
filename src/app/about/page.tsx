@@ -4,7 +4,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'About Business Executive Group | Board of Directors | BEG HR',
-  description: 'BEG serves 1,500+ DFW entrepreneurs with managed payroll, HCM software, and job placement. Meet our board of directors and leadership team.',
+  description: 'Business Executive Group delivers managed payroll, HCM software, and specialized job placement for growing businesses nationwide. Meet our board and leadership team.',
   alternates: {
     canonical: 'https://beghr.com/about',
   },
@@ -61,7 +61,7 @@ export default function AboutPage() {
               <h1>Built by business owners, for business owners.</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>
                 Business Executive Group is an established entrepreneur network and professional services organization
-                serving 1,500+ members across Dallas-Fort Worth.
+                serving 1,500+ members through DFW Leadership Connect.
               </p>
               <div className="hero-cta">
                 <a
@@ -84,7 +84,7 @@ export default function AboutPage() {
         <div className="container" style={{ maxWidth: '860px' }}>
           <div className="head reveal">
             <p className="eyebrow">Who We Are</p>
-            <h2>The HR and workforce partner DFW businesses have been missing.</h2>
+            <h2>The HR and workforce partner growing businesses have been missing.</h2>
           </div>
 
           <div className="reveal" style={{ marginTop: '32px', lineHeight: 1.8, fontSize: '1.05rem', color: 'var(--clr-body)' }}>
@@ -97,7 +97,7 @@ export default function AboutPage() {
             </p>
             <p style={{ marginBottom: '1.25rem' }}>
               Business Executive Group was built to solve exactly that. We are an established entrepreneur network and
-              professional services organization based in Dallas-Fort Worth, with 1,500+ member entrepreneurs, a board
+              professional services organization headquartered in Dallas-Fort Worth, with 1,500+ member entrepreneurs in our DFW Leadership Connect network, a board
               of directors, and active corporate sponsors including iSolved and WTW. Our members are business owners,
               founders, and executives who understand what it means to wear every hat and have decided there are certain
               hats worth handing off.
@@ -126,7 +126,7 @@ export default function AboutPage() {
             <p style={{ marginBottom: '1.25rem' }}>
               Beyond professional services, BEG is a network. Our DFW Leadership Connect events bring together
               entrepreneurs and executives every month, creating relationships that open doors, generate referrals,
-              and build the kind of community that makes running a business in North Texas something worth doing.
+              and build the kind of community that makes building a business something worth doing.
             </p>
             <p>
               If payroll is eating time your team should not be spending on it, if your HR stack is fragmented and
@@ -213,7 +213,7 @@ export default function AboutPage() {
       <section className="section section--soft" style={{ padding: '48px 0' }}>
         <div className="container">
           <div className="trust-row">
-            <div><b>1,500+</b><small>DFW Entrepreneur Members</small></div>
+            <div><b>1,500+</b><small>Network Members</small></div>
             <div><b>All 50 States</b><small>Payroll Coverage</small></div>
             <div><b>3 Services</b><small>Managed Payroll, HCM, Placement</small></div>
             <div><b>iSolved</b><small>Powered by 7M+ Employee Platform</small></div>

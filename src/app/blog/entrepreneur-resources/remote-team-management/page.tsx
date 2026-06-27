@@ -33,7 +33,7 @@ export default function RemoteTeamManagementPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Payroll & Compliance Challenge</h2>
 
-        <p>Hiring someone in California is different than hiring someone in Texas. State tax requirements vary. Remote work laws differ. The <a href="https://www.dol.gov/" target="_blank" rel="noopener noreferrer">Department of Labor</a> and IRS both audit multi-state worker arrangements. Mishandle compliance and you face penalties and litigation.</p>
+        <p>Hiring someone in California is different than hiring someone in New York. State tax requirements vary. Remote work laws differ. The <a href="https://www.dol.gov/" target="_blank" rel="noopener noreferrer">Department of Labor</a> and IRS both audit multi-state worker arrangements. Mishandle compliance and you face penalties and litigation.</p>
 
         <p>Set up your payroll and HR systems before you hire your first remote employee. Let a professional handle multi-state compliance so you can focus on building product.</p>
 

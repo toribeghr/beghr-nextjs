@@ -29,7 +29,7 @@ const categories = [
   {
     slug: 'entrepreneur',
     title: 'Business & Entrepreneur Resources',
-    description: 'BEG network content, entrepreneur tips, and DFW business community updates.',
+    description: 'BEG network content, entrepreneur tips, and business community updates.',
   },
 ];
 

@@ -56,7 +56,7 @@ export default function LawFirmPayrollPage() {
 
         <p>Let's start with the obvious number: <strong>salary.</strong></p>
 
-        <p>According to the <a href="https://www.bls.gov/" target="_blank" rel="noopener noreferrer">Bureau of Labor Statistics</a>, a payroll specialist in the professional services industry makes between $45,000 and $65,000 annually. A dedicated HR coordinator runs $50,000–$70,000. In major markets like Dallas-Fort Worth where talent is competitive, you're looking at the higher end.</p>
+        <p>According to the <a href="https://www.bls.gov/" target="_blank" rel="noopener noreferrer">Bureau of Labor Statistics</a>, a payroll specialist in the professional services industry makes between $45,000 and $65,000 annually. A dedicated HR coordinator runs $50,000–$70,000. In competitive markets where top talent has options, you're looking at the higher end.</p>
 
         <p>But that's just the base salary.</p>
 
@@ -202,7 +202,7 @@ export default function LawFirmPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a Dallas-Fort Worth-based HR and payroll solutions firm serving law firms, healthcare practices, tech companies, and professional services firms. BEG partners with iSolved to deliver managed payroll, benefits administration, and HCM platform solutions.</p>
+          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a national HR and payroll solutions firm serving law firms, healthcare practices, tech companies, and professional services firms. BEG partners with iSolved to deliver managed payroll, benefits administration, and HCM platform solutions.</p>
         </div>
 
         <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '2px solid #e0e0e0' }}>

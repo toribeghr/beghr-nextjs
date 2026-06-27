@@ -104,7 +104,7 @@ export default function DentalPayrollPage() {
         </div>
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a Dallas-Fort Worth-based HR and payroll solutions firm serving dental practices, medical offices, law firms, and professional services with managed payroll and HCM platform solutions.</p>
+          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a national HR and payroll solutions firm serving dental practices, medical offices, law firms, and professional services with managed payroll and HCM platform solutions.</p>
         </div>
       </section>
     

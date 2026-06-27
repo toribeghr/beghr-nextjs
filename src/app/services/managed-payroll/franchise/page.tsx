@@ -248,8 +248,14 @@ export default function PayrollFranchisePage() {
       </section>
 
       <section className="section">
-        <div className="container" style={{ maxWidth: '820px', textAlign: 'center' }}>
-          <p style={{ color: '#666666', fontSize: '0.95rem' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related articles</p>
+          <ul style={{ paddingLeft: '1.25rem', lineHeight: '2', marginBottom: '1.5rem' }}>
+            <li><Link href="/blog/payroll/franchise/franchise-multi-location-payroll" style={{ color: '#ECAC60' }}>Multi-Location Payroll for Franchise Owners: How to Manage Across Locations</Link></li>
+            <li><Link href="/blog/payroll/franchise/franchise-minimum-wage-compliance" style={{ color: '#ECAC60' }}>Franchise Minimum Wage Compliance: How to Stay Current Across Multiple Locations</Link></li>
+            <li><Link href="/blog/payroll/franchise/managed-payroll-vs-in-house" style={{ color: '#ECAC60' }}>Managed Payroll vs. Hiring In-House for Franchise Owners</Link></li>
+          </ul>
+          <p style={{ color: '#666666', fontSize: '0.95rem', textAlign: 'center' }}>
             Looking for managed payroll for a different industry?{' '}
             <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>
               See all managed payroll services

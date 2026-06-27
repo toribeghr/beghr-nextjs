@@ -248,8 +248,14 @@ export default function PayrollFitnessPage() {
       </section>
 
       <section className="section">
-        <div className="container" style={{ maxWidth: '820px', textAlign: 'center' }}>
-          <p style={{ color: '#666666', fontSize: '0.95rem' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related articles</p>
+          <ul style={{ paddingLeft: '1.25rem', lineHeight: '2', marginBottom: '1.5rem' }}>
+            <li><Link href="/blog/payroll/fitness/fitness-trainer-w2-vs-1099" style={{ color: '#ECAC60' }}>Fitness Trainer W-2 vs. 1099: IRS Classification Rules for Studios and Gyms</Link></li>
+            <li><Link href="/blog/payroll/fitness/per-class-pay-minimum-wage" style={{ color: '#ECAC60' }}>Per-Class Pay and Minimum Wage: Payroll Compliance for Fitness Studios</Link></li>
+            <li><Link href="/blog/payroll/fitness/managed-payroll-vs-in-house" style={{ color: '#ECAC60' }}>Managed Payroll vs. Hiring In-House for Fitness Studios and Gyms</Link></li>
+          </ul>
+          <p style={{ color: '#666666', fontSize: '0.95rem', textAlign: 'center' }}>
             Looking for managed payroll for a different industry?{' '}
             <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>
               See all managed payroll services

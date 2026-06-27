@@ -60,6 +60,109 @@ const industryPosts = [
   },
 ];
 
+const informationalPosts = [
+  {
+    title: 'Truck Driver Payroll Taxes: What Carriers Must Withhold and Report',
+    description: 'Core employer taxes, multi-state interstate obligations, and W-2 vs. owner-operator classification for trucking companies.',
+    slug: '/blog/payroll/trucking/truck-driver-payroll-taxes',
+  },
+  {
+    title: 'Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup',
+    description: 'Accountable plan requirements, FICA savings calculation, and the most common setup mistakes that cost fleets thousands per year.',
+    slug: '/blog/payroll/trucking/per-diem-pay-truck-drivers',
+  },
+  {
+    title: 'Veterinary Staff Overtime Rules: Which Roles Are Exempt and Which Are Not',
+    description: 'FLSA exemption table by role, regular rate calculation with bonuses, and the most common overtime compliance failures in vet practices.',
+    slug: '/blog/payroll/veterinary/veterinary-staff-overtime-rules',
+  },
+  {
+    title: 'DVM Compensation and Payroll: Base Salary, Production %, and Bonuses',
+    description: 'How to process base salary plus production percentage structures, supplemental wage taxation for bonuses, and owner DVM reasonable salary.',
+    slug: '/blog/payroll/veterinary/dvm-compensation-payroll',
+  },
+  {
+    title: 'Auto Dealer Commission Payroll: Draw-Against, Chargebacks, and Flat-Rate',
+    description: 'Draw-against-commission processing, F&I chargeback handling, and flat-rate technician minimum wage floor compliance.',
+    slug: '/blog/payroll/auto-dealership/dealer-commission-payroll',
+  },
+  {
+    title: 'Dealership Overtime and Minimum Wage: FLSA Rules for F&I, Service Advisors, and Technicians',
+    description: 'Which dealership roles are exempt, what the Navarro decision changed for service advisors, and how flat-rate techs can fall below minimum wage.',
+    slug: '/blog/payroll/auto-dealership/dealership-overtime-minimum-wage',
+  },
+  {
+    title: 'Cannabis Payroll and 280E: How to Code Payroll Costs to Minimize Tax Impact',
+    description: 'Which roles qualify as COGS under 280E, how to allocate payroll costs, and what documentation is required to defend your positions.',
+    slug: '/blog/payroll/cannabis/cannabis-payroll-280e',
+  },
+  {
+    title: 'Cannabis Payroll Without a Bank: How Dispensaries Pay Employees',
+    description: 'Four banking options for cannabis operators, cash payroll requirements, and full payroll tax obligations regardless of banking status.',
+    slug: '/blog/payroll/cannabis/cannabis-payroll-banking',
+  },
+  {
+    title: 'Childcare Payroll and Overtime: Which Staff Are Exempt and Which Are Not',
+    description: 'FLSA overtime exemption table by role, variable scheduling overtime exposure, and high-turnover onboarding compliance.',
+    slug: '/blog/payroll/childcare/childcare-payroll-overtime',
+  },
+  {
+    title: 'Childcare Subsidy and Payroll: Managing Mixed-Funding Compliance',
+    description: 'How to track and document staff cost allocation across CCDF, Head Start, state pre-K, and private-pay funding in a way that survives an audit.',
+    slug: '/blog/payroll/childcare/childcare-subsidy-payroll',
+  },
+  {
+    title: 'Home Health Travel Time: When Must Agencies Pay Between Client Visits?',
+    description: 'FLSA travel time compensability table, three tracking methods, and DOL enforcement context for home health agencies.',
+    slug: '/blog/payroll/home-health/home-health-travel-time',
+  },
+  {
+    title: 'EVV and Payroll Reconciliation: Resolving the Five Most Common Discrepancy Types',
+    description: 'Missed clock-outs, GPS flags, extended visits, travel gaps, and substitute aides — a step-by-step reconciliation workflow for home health agencies.',
+    slug: '/blog/payroll/home-health/evv-payroll-reconciliation',
+  },
+  {
+    title: 'Minister Housing Allowance and Payroll: Setup, Limits, and Reporting',
+    description: 'Designation-before-payment requirement, payroll system configuration, and W-2 Box 1 exclusion for dual-status ministers.',
+    slug: '/blog/payroll/church/minister-housing-allowance-payroll',
+  },
+  {
+    title: 'Church Payroll and FICA: Which Employees Are Exempt and Which Are Not',
+    description: 'FICA status by role, the dual-status minister explained, Form 4361 opt-out, and the optional Section 3121(w) church election.',
+    slug: '/blog/payroll/church/church-employee-fica-payroll',
+  },
+  {
+    title: 'Multi-State Payroll for Remote Marketing Agency Teams',
+    description: 'State registration requirements, high-payroll-tax states to watch, and the contractor misclassification risk that multiplies multi-state exposure.',
+    slug: '/blog/payroll/marketing-agency/marketing-agency-remote-payroll',
+  },
+  {
+    title: 'S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know',
+    description: 'Reasonable compensation requirements, how distributions work alongside salary, and the IRS audit exposure for S-corps that skip the payroll step.',
+    slug: '/blog/payroll/marketing-agency/scorp-owner-salary-payroll',
+  },
+  {
+    title: 'Fitness Trainer W-2 vs. 1099: IRS Classification Rules for Studios and Gyms',
+    description: 'Behavioral control factors, who is almost certainly an employee, ABC test states, and the cost of misclassification.',
+    slug: '/blog/payroll/fitness/fitness-trainer-w2-vs-1099',
+  },
+  {
+    title: 'Per-Class Pay and Minimum Wage: Payroll Compliance for Fitness Studios',
+    description: 'How to calculate the minimum wage floor for per-class instructors, what counts as compensable time, and a worked example.',
+    slug: '/blog/payroll/fitness/per-class-pay-minimum-wage',
+  },
+  {
+    title: 'Multi-Location Payroll for Franchise Owners: How to Manage Across Locations',
+    description: 'Legal entity structure, cost center tracking, employee transfers between locations, and new-state registration when expanding.',
+    slug: '/blog/payroll/franchise/franchise-multi-location-payroll',
+  },
+  {
+    title: 'Franchise Minimum Wage Compliance: How to Stay Current Across Multiple Locations',
+    description: 'State and city minimum wage layers, which states have automatic increases, and how to build a system that catches every effective date.',
+    slug: '/blog/payroll/franchise/franchise-minimum-wage-compliance',
+  },
+];
+
 const posts = [
   {
     title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring a Paralegal or HR Manager',
@@ -183,6 +286,28 @@ export default function BlogPayrollPage() {
       </section>
 
       <section className="section section--soft">
+        <div className="container">
+          <div className="head center reveal">
+            <h2>Industry Compliance Guides</h2>
+            <p>Overtime rules, tax obligations, and compliance how-tos for specific industries.</p>
+          </div>
+          <div className="cards">
+            {informationalPosts.map((post) => (
+              <article key={post.slug} className="card reveal">
+                <h3>
+                  <Link href={post.slug}>{post.title}</Link>
+                </h3>
+                <p>{post.description}</p>
+                <Link href={post.slug} className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
+                  Read Post
+                </Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className="head center reveal">
             <h2>More Payroll Resources</h2>

@@ -248,8 +248,14 @@ export default function PayrollHomeHealthPage() {
       </section>
 
       <section className="section">
-        <div className="container" style={{ maxWidth: '820px', textAlign: 'center' }}>
-          <p style={{ color: '#666666', fontSize: '0.95rem' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related articles</p>
+          <ul style={{ paddingLeft: '1.25rem', lineHeight: '2', marginBottom: '1.5rem' }}>
+            <li><Link href="/blog/payroll/home-health/home-health-travel-time" style={{ color: '#ECAC60' }}>Home Health Travel Time: When Must Agencies Pay Between Client Visits?</Link></li>
+            <li><Link href="/blog/payroll/home-health/evv-payroll-reconciliation" style={{ color: '#ECAC60' }}>EVV and Payroll Reconciliation: Resolving the Five Most Common Discrepancy Types</Link></li>
+            <li><Link href="/blog/payroll/home-health/managed-payroll-vs-in-house" style={{ color: '#ECAC60' }}>Managed Payroll vs. Hiring In-House for Home Health Agencies</Link></li>
+          </ul>
+          <p style={{ color: '#666666', fontSize: '0.95rem', textAlign: 'center' }}>
             Looking for managed payroll for a different industry?{' '}
             <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>
               See all managed payroll services

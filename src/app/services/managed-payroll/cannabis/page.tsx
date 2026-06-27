@@ -249,8 +249,14 @@ export default function PayrollCannabisPage() {
 
       {/* LINK BACK TO HUB */}
       <section className="section">
-        <div className="container" style={{ maxWidth: '820px', textAlign: 'center' }}>
-          <p style={{ color: '#666666', fontSize: '0.95rem' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related articles</p>
+          <ul style={{ paddingLeft: '1.25rem', lineHeight: '2', marginBottom: '1.5rem' }}>
+            <li><Link href="/blog/payroll/cannabis/cannabis-payroll-280e" style={{ color: '#ECAC60' }}>Cannabis Payroll and 280E: How to Code Payroll Costs to Minimize Tax Impact</Link></li>
+            <li><Link href="/blog/payroll/cannabis/cannabis-payroll-banking" style={{ color: '#ECAC60' }}>Cannabis Payroll Without a Bank: How Dispensaries Pay Employees</Link></li>
+            <li><Link href="/blog/payroll/cannabis/managed-payroll-vs-in-house" style={{ color: '#ECAC60' }}>Managed Payroll vs. Hiring In-House for Cannabis Businesses</Link></li>
+          </ul>
+          <p style={{ color: '#666666', fontSize: '0.95rem', textAlign: 'center' }}>
             Looking for managed payroll for a different industry?{' '}
             <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>
               See all managed payroll services

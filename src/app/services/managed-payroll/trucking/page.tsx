@@ -249,8 +249,14 @@ export default function PayrollTruckingPage() {
 
       {/* LINK BACK TO HUB */}
       <section className="section">
-        <div className="container" style={{ maxWidth: '820px', textAlign: 'center' }}>
-          <p style={{ color: '#666666', fontSize: '0.95rem' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related articles</p>
+          <ul style={{ paddingLeft: '1.25rem', lineHeight: '2', marginBottom: '1.5rem' }}>
+            <li><Link href="/blog/payroll/trucking/truck-driver-payroll-taxes" style={{ color: '#ECAC60' }}>Truck Driver Payroll Taxes: What Carriers Must Withhold and Report</Link></li>
+            <li><Link href="/blog/payroll/trucking/per-diem-pay-truck-drivers" style={{ color: '#ECAC60' }}>Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup</Link></li>
+            <li><Link href="/blog/payroll/trucking/managed-payroll-vs-in-house" style={{ color: '#ECAC60' }}>Managed Payroll vs. Hiring In-House for Trucking Companies</Link></li>
+          </ul>
+          <p style={{ color: '#666666', fontSize: '0.95rem', textAlign: 'center' }}>
             Looking for managed payroll for a different industry?{' '}
             <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>
               See all managed payroll services

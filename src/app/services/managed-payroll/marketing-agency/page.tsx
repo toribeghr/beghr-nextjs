@@ -248,8 +248,14 @@ export default function PayrollMarketingAgencyPage() {
       </section>
 
       <section className="section">
-        <div className="container" style={{ maxWidth: '820px', textAlign: 'center' }}>
-          <p style={{ color: '#666666', fontSize: '0.95rem' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related articles</p>
+          <ul style={{ paddingLeft: '1.25rem', lineHeight: '2', marginBottom: '1.5rem' }}>
+            <li><Link href="/blog/payroll/marketing-agency/marketing-agency-remote-payroll" style={{ color: '#ECAC60' }}>Multi-State Payroll for Remote Marketing Agency Teams</Link></li>
+            <li><Link href="/blog/payroll/marketing-agency/scorp-owner-salary-payroll" style={{ color: '#ECAC60' }}>S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know</Link></li>
+            <li><Link href="/blog/payroll/marketing-agency/managed-payroll-vs-in-house" style={{ color: '#ECAC60' }}>Managed Payroll vs. Hiring In-House for Marketing Agencies</Link></li>
+          </ul>
+          <p style={{ color: '#666666', fontSize: '0.95rem', textAlign: 'center' }}>
             Looking for managed payroll for a different industry?{' '}
             <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>
               See all managed payroll services

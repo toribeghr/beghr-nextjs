@@ -39,7 +39,7 @@ export default function Header() {
 
           <a
             className="btn btn--gold"
-            href="https://calendly.com/tori-beghr?id=1"
+            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -12,7 +12,7 @@ export default function PayrollManagerVsOutsourcingPage() {
   return (
     <article className="blog-post">
 
-      {/* ── HERO ── */}
+      {/* HERO */}
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -34,7 +34,7 @@ export default function PayrollManagerVsOutsourcingPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        {/* ── INTRO ── */}
+        {/* INTRO */}
         <p>
           When a company starts thinking about managed payroll, the conversation usually goes one direction fast: <em>"It's cheaper to just keep someone in-house."</em>
         </p>
@@ -45,7 +45,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           This page does that math. If you're deciding between hiring a payroll manager and outsourcing to a managed service, here's every number you need.
         </p>
 
-        {/* ── QUICK COMPARISON TABLE ── */}
+        {/* QUICK COMPARISON TABLE */}
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
           At a Glance: In-House vs. Managed Payroll
         </h2>
@@ -82,7 +82,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           </table>
         </div>
 
-        {/* ── SECTION 1: The Real Cost of In-House ── */}
+        {/*  SECTION 1: The Real Cost of In-House  */}
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
           The Real Cost of an In-House Payroll Manager
         </h2>
@@ -115,7 +115,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           When your in-house payroll manager makes a compliance mistake — misclassifying an employee, missing a state filing deadline, incorrectly calculating overtime under new FLSA rules — the liability is yours. With a managed payroll provider, compliance errors are the provider's responsibility, and reputable providers carry the liability.
         </p>
 
-        {/* ── CTA 1 ── */}
+        {/* CTA 1 */}
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Want to see the math for your company?</h3>
           <p style={{ marginBottom: '1.5rem' }}>We'll run a free cost comparison using your actual headcount and current payroll setup. No pitch, just numbers.</p>
@@ -125,7 +125,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           </a>
         </div>
 
-        {/* ── SECTION 2: Managed Payroll Cost ── */}
+        {/*  SECTION 2: Managed Payroll Cost  */}
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
           What Managed Payroll Actually Costs
         </h2>
@@ -143,7 +143,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           That price doesn't change when your payroll manager has a busy week. It doesn't increase when there's a compliance update. It scales linearly with headcount — add 10 employees, add $250–$350/month.
         </p>
 
-        {/* ── SECTION 3: When In-House Makes Sense ── */}
+        {/*  SECTION 3: When In-House Makes Sense  */}
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
           When In-House Payroll Makes More Sense
         </h2>
@@ -160,7 +160,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           If your company is between 20 and 200 employees and payroll is largely standard (salary, hourly, some commissions), managed payroll almost always beats in-house on total cost.
         </p>
 
-        {/* ── SECTION 4: Side-by-Side Scenarios ── */}
+        {/*  SECTION 4: Side-by-Side Scenarios  */}
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
           Side-by-Side: Three Company Sizes
         </h2>
@@ -195,7 +195,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           In-house true cost includes salary, benefits, error correction, software, and prorated replacement cost. BEG pricing at $25–$35/PEPM all-inclusive.
         </p>
 
-        {/* ── SECTION 5: The Questions to Ask ── */}
+        {/*  SECTION 5: The Questions to Ask  */}
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
           The Questions Worth Asking Before You Decide
         </h2>
@@ -211,7 +211,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           Most companies that do this exercise find the in-house number is 50–80% higher than they initially estimated. The managed payroll number is almost always lower.
         </p>
 
-        {/* ── FINAL CTA ── */}
+        {/* FINAL CTA */}
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Run the numbers for your company</h2>
           <p style={{ marginBottom: '0.5rem', color: '#ddd' }}>
@@ -224,7 +224,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           </a>
         </div>
 
-        {/* ── AUTHOR ── */}
+        {/* AUTHOR */}
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.05rem' }}>Anthony Moretti, VP of Sales — Business Executive Group</strong>
           <p style={{ margin: 0, color: '#444' }}>

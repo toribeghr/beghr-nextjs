@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'PEO vs. Managed Payroll: What's the Difference and Which Do You Need? (2026)',
+  title: "PEO vs. Managed Payroll: What's the Difference and Which Do You Need? (2026)",
   description: 'PEOs co-employ your staff and control your HR. Managed payroll handles payroll operations without touching your employment relationships. Full comparison for 20–200 employee companies.',
   alternates: { canonical: 'https://beghr.com/blog/compare/peo-vs-managed-payroll' },
 };

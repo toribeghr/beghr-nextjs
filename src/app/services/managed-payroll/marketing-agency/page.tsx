@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Marketing Agency Managed Payroll | Remote Teams | BEG',
+  title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG',
   description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
   alternates: { canonical: 'https://beghr.com/services/managed-payroll/marketing-agency' },,
   openGraph: {
-    title: 'Marketing Agency Managed Payroll | Remote Teams | BEG',
+    title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG',
     description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
     url: 'https://beghr.com/services/managed-payroll/marketing-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Marketing Agency Managed Payroll | Remote Teams | BEG', description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG', description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

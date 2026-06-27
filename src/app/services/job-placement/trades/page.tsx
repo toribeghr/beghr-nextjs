@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Skilled Trades Job Placement | Manufacturing | BEG',
+  title: 'Skilled Trades Placement | Roles Filled Fast. Guaranteed. | BEG',
   description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',
   alternates: { canonical: 'https://beghr.com/services/job-placement/trades' },,
   openGraph: {
-    title: 'Skilled Trades Job Placement | Manufacturing | BEG',
+    title: 'Skilled Trades Placement | Roles Filled Fast. Guaranteed. | BEG',
     description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',
     url: 'https://beghr.com/services/job-placement/trades',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Skilled Trades Job Placement | Manufacturing | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Skilled Trades Placement | Roles Filled Fast. Guaranteed. | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

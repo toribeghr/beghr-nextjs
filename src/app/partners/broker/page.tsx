@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'BEG Broker Partner Program | Insurance & Benefits',
+  title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG',
   description: 'Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers\' comp audits and benefits sync. $25–$45 PEPM, no conflict.',
   alternates: { canonical: 'https://beghr.com/partners/broker' },
   openGraph: {
-    title: 'BEG Broker Partner Program | Insurance & Benefits',
+    title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG',
     description: "Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers' comp audits and benefits sync. $25–$45 PEPM, no conflict.",
     url: 'https://beghr.com/partners/broker',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG Broker Partner Program | Insurance & Benefits', description: "Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers' comp audits and benefits sync.", images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG', description: "Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers' comp audits and benefits sync.", images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [

@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Tech Company Managed Payroll | Remote Team Payroll | BEG',
+  title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG',
   description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.',
   alternates: { canonical: 'https://beghr.com/services/managed-payroll/technology' },,
   openGraph: {
-    title: 'Tech Company Managed Payroll | Remote Team Payroll | BEG',
+    title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG',
     description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.',
     url: 'https://beghr.com/services/managed-payroll/technology',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Tech Company Managed Payroll | Remote Team Payroll | BEG', description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG', description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

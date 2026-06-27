@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Law Firms | Legal Payroll | BEG',
+  title: 'iSolved HCM for Law Firms | Claude AI for Legal HR | BEG',
   description: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/legal' },,
   openGraph: {
-    title: 'iSolved HCM for Law Firms | Legal Payroll | BEG',
+    title: 'iSolved HCM for Law Firms | Claude AI for Legal HR | BEG',
     description: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',
     url: 'https://beghr.com/services/hcm-software/legal',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Law Firms | Legal Payroll | BEG', description: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Law Firms | Claude AI for Legal HR | BEG', description: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

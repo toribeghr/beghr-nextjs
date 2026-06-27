@@ -2,20 +2,20 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About Business Executive Group | BEG HR',
+  title: 'About BEG | 1,500+ Members. Payroll. Placement. HCM. | BEG',
   description: 'Business Executive Group is an established network with 1,500+ members. We deliver managed payroll, HCM software, and job placement services nationwide.',
   alternates: {
     canonical: 'https://beghr.com/about',
   },
   openGraph: {
-    title: 'About Business Executive Group | BEG',
+    title: 'About BEG | 1,500+ Members. Payroll. Placement. HCM. | BEG',
     description: 'Business Executive Group is an established entrepreneur network with 1,500+ members. We deliver managed payroll, HCM software, and job placement services nationwide.',
     url: 'https://beghr.com/about',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group leadership team' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'About Business Executive Group | BEG', description: 'Business Executive Group is an established entrepreneur network with 1,500+ members. We deliver managed payroll, HCM software, and job placement services nationwide.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'About BEG | 1,500+ Members. Payroll. Placement. HCM. | BEG', description: 'Business Executive Group is an established entrepreneur network with 1,500+ members. We deliver managed payroll, HCM software, and job placement services nationwide.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 export default function AboutPage() {

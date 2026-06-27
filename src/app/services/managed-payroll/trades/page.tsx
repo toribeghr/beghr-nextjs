@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Skilled Trades Managed Payroll | Union Payroll | BEG',
+  title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG',
   description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',
   alternates: { canonical: 'https://beghr.com/services/managed-payroll/trades' },,
   openGraph: {
-    title: 'Skilled Trades Managed Payroll | Union Payroll | BEG',
+    title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG',
     description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',
     url: 'https://beghr.com/services/managed-payroll/trades',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Skilled Trades Managed Payroll | Union Payroll | BEG', description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG', description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

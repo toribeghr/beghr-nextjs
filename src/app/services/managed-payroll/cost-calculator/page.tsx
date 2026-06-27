@@ -3,18 +3,18 @@ import Link from 'next/link';
 import PayrollCalculator from '@/components/PayrollCalculator';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll Cost Calculator | Monthly Savings | BEG',
+  title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
   description: 'Calculate what you\'re paying for payroll today vs. BEG managed payroll at $25–$45 PEPM. Compare in-house, software, PEO, and accountant costs. See your estimated annual savings instantly.',
   alternates: { canonical: 'https://beghr.com/services/managed-payroll/cost-calculator' },,
   openGraph: {
-    title: 'Managed Payroll Cost Calculator | Monthly Savings | BEG',
+    title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
     description: 'Calculate what you\',
     url: 'https://beghr.com/services/managed-payroll/cost-calculator',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll Cost Calculator | Monthly Savings | BEG', description: 'Calculate what you\', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG', description: 'Calculate what you\', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

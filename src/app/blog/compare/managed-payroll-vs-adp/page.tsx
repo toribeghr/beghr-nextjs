@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'ADP vs. Managed Payroll: Is ADP Still Worth It for Mid-Size Companies? (2026)',
+  title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG',
   description: 'ADP is powerful but expensive and complex for 20–200 employee companies. Compare ADP total cost, service model, and capabilities against BEG managed payroll.',
   alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-adp' },,
   openGraph: {
-    title: 'ADP vs. Managed Payroll: Is ADP Still Worth It for Mid-Size Companies? (2026)',
+    title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG',
     description: 'ADP is powerful but expensive and complex for 20–200 employee companies. Compare ADP total cost, service model, and capabilities against BEG managed pay...',
     url: 'https://beghr.com/blog/compare/managed-payroll-vs-adp',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'ADP vs. Managed Payroll: Is ADP Still Worth It for Mid-Size Companies? (2026)', description: 'ADP is powerful but expensive and complex for 20–200 employee companies. Compare ADP total cost, service model, and capabilities against BEG managed pay...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG', description: 'ADP is powerful but expensive and complex for 20–200 employee companies. Compare ADP total cost, service model, and capabilities against BEG managed pay...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Finance Firms | Bonus Payroll | BEG',
+  title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG',
   description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/finance' },,
   openGraph: {
-    title: 'iSolved HCM for Finance Firms | Bonus Payroll | BEG',
+    title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG',
     description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
     url: 'https://beghr.com/services/hcm-software/finance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Finance Firms | Bonus Payroll | BEG', description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG', description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

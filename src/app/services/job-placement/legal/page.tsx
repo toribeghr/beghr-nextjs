@@ -5,20 +5,20 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Legal Job Placement | Attorney Roles in 23-35 Days | BEG',
+  title: 'Attorney Placement | 23-35 Days. 45-Day Guarantee. | BEG',
   description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement/legal',
   },,
   openGraph: {
-    title: 'Legal Job Placement | Attorney Roles in 23-35 Days | BEG',
+    title: 'Attorney Placement | 23-35 Days. 45-Day Guarantee. | BEG',
     description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',
     url: 'https://beghr.com/services/job-placement/legal',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Legal Job Placement | Attorney Roles in 23-35 Days | BEG', description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Attorney Placement | 23-35 Days. 45-Day Guarantee. | BEG', description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

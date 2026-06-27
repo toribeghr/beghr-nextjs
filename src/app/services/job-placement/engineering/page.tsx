@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Engineering Job Placement | Technical Recruiting | BEG',
+  title: 'Engineering Placement | Roles Filled Fast. Guaranteed. | BEG',
   description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',
   alternates: { canonical: 'https://beghr.com/services/job-placement/engineering' },,
   openGraph: {
-    title: 'Engineering Job Placement | Technical Recruiting | BEG',
+    title: 'Engineering Placement | Roles Filled Fast. Guaranteed. | BEG',
     description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',
     url: 'https://beghr.com/services/job-placement/engineering',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Engineering Job Placement | Technical Recruiting | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Engineering Placement | Roles Filled Fast. Guaranteed. | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

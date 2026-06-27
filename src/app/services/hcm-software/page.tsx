@@ -5,20 +5,20 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM Software Partner | BEG Implementation',
+  title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
   description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software',
   },,
   openGraph: {
-    title: 'iSolved HCM Software Partner | BEG Implementation',
+    title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
     description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
     url: 'https://beghr.com/services/hcm-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM Software Partner | BEG Implementation', description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG', description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Skilled Trades | Union Payroll | BEG',
+  title: 'iSolved HCM for Skilled Trades | Union Payroll Built In | BEG',
   description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/trades' },,
   openGraph: {
-    title: 'iSolved HCM for Skilled Trades | Union Payroll | BEG',
+    title: 'iSolved HCM for Skilled Trades | Union Payroll Built In | BEG',
     description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
     url: 'https://beghr.com/services/hcm-software/trades',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Skilled Trades | Union Payroll | BEG', description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Skilled Trades | Union Payroll Built In | BEG', description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Auto Dealership Managed Payroll | Commission Pay | BEG',
+  title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG',
   description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
   alternates: { canonical: 'https://beghr.com/services/managed-payroll/auto-dealership' },,
   openGraph: {
-    title: 'Auto Dealership Managed Payroll | Commission Pay | BEG',
+    title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG',
     description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
     url: 'https://beghr.com/services/managed-payroll/auto-dealership',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Auto Dealership Managed Payroll | Commission Pay | BEG', description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG', description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

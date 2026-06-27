@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'CPA & Accounting Firm Partner Program | BEG Managed Payroll',
+  title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG',
   description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 PEPM.',
   alternates: { canonical: 'https://beghr.com/partners/cpa' },,
   openGraph: {
-    title: 'CPA & Accounting Firm Partner Program | BEG Managed Payroll',
+    title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG',
     description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...',
     url: 'https://beghr.com/partners/cpa',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'CPA & Accounting Firm Partner Program | BEG Managed Payroll', description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG', description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

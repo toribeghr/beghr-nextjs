@@ -3,18 +3,18 @@ import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
-  title: 'Best ADP Alternatives for Mid-Market Companies | BEG',
+  title: 'Best ADP Alternative | iSolved Has Claude AI. ADP Doesn\'t. | BEG',
   description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including iSolved, managed by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/alternatives-to-adp' },,
   openGraph: {
-    title: 'Best ADP Alternatives for Mid-Market Companies | BEG',
+    title: 'Best ADP Alternative | iSolved Has Claude AI. ADP Doesn\'t. | BEG',
     description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including iSolved, managed by BEG.',
     url: 'https://beghr.com/services/hcm-software/alternatives-to-adp',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best ADP Alternatives for Mid-Market Companies | BEG', description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including iSolved, managed by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best ADP Alternative | iSolved Has Claude AI. ADP Doesn\'t. | BEG', description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including iSolved, managed by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

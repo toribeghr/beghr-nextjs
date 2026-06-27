@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+  title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG',
   description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers for law firms.',
   alternates: { canonical: 'https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone' },,
   openGraph: {
-    title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+    title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG',
     description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers f...',
     url: 'https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)', description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers f...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG', description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers f...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

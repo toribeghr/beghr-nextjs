@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Healthcare Job Placement | Nursing Recruiting | BEG',
+  title: 'Healthcare Placement | 23-35 Days. 45-Day Guarantee. | BEG',
   description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.',
   alternates: { canonical: 'https://beghr.com/services/job-placement/healthcare' },,
   openGraph: {
-    title: 'Healthcare Job Placement | Nursing Recruiting | BEG',
+    title: 'Healthcare Placement | 23-35 Days. 45-Day Guarantee. | BEG',
     description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.',
     url: 'https://beghr.com/services/job-placement/healthcare',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Job Placement | Nursing Recruiting | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Placement | 23-35 Days. 45-Day Guarantee. | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

@@ -231,6 +231,18 @@ export default function PayrollCannabisPage() {
               <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: payroll processing, 280E cost allocation documentation, state tax filings, multi-state registrations, year-end W-2s, and BEG support. No compliance surcharges, no per-run fees, no year-end invoices.</p>
             </div>
+            <div className="faq-item">
+              <h3>Are cannabis companies subject to the same state payroll tax rules as other businesses?</h3>
+              <p>Yes. Cannabis businesses pay state payroll taxes — state income tax withholding, unemployment insurance, and applicable local taxes — the same as any other employer. The federal complexity comes from IRC 280E limiting federal income tax deductions, not from payroll taxes themselves. State payroll tax compliance for cannabis is fully managed as part of our service.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How do you handle payroll if we have cash flow limitations from banking restrictions?</h3>
+              <p>Banking limitations affect how cannabis companies fund payroll, not the payroll mechanics themselves. We work within your existing banking relationship and payroll funding process. If you use a cannabis-friendly bank or a dedicated payroll account, we process through that account with the documentation trail your bank and state regulators require.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to get cannabis payroll into compliance?</h3>
+              <p>From signed agreement to compliant, managed payroll: 3–5 business days. We map your employee roster by role, 280E allocation structure, and state licensing requirements during the scope call, then configure payroll and documentation in your existing system. Most cannabis operators are running properly documented managed payroll within a week of the first call.</p>
+            </div>
           </div>
         </div>
       </section>

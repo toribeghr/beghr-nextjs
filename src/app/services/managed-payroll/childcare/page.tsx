@@ -231,6 +231,18 @@ export default function PayrollChildcarePage() {
               <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: payroll processing, new hire and termination processing, state tax filings, year-end W-2s, compliance updates, and BEG support. No per-hire fees, no per-run charges, no year-end surcharges.</p>
             </div>
+            <div className="faq-item">
+              <h3>Are childcare workers entitled to overtime pay?</h3>
+              <p>Yes. Childcare teachers, aides, and support staff are entitled to FLSA minimum wage and overtime unless they meet a specific exemption. Most classroom staff do not qualify for any FLSA exemption and must be paid overtime at 1.5x their regular rate after 40 hours in a workweek. Directors and administrators may qualify for the executive or administrative exemption if they meet the salary threshold and duties tests.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What documentation does a state childcare subsidy audit typically request?</h3>
+              <p>State CCAP, Head Start, and Child Care Development Fund auditors typically request payroll records showing staff names, job titles, hours worked, hourly rates, and total wages paid during the audit period. We maintain payroll records in the standard format state agencies expect — so when an auditor makes a documentation request, you can produce accurate records immediately rather than scrambling to reconstruct them.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to set up managed payroll for a childcare center?</h3>
+              <p>From signed agreement to live payroll: 3–5 business days. We review your substitute classifications, configure FLSA exemption documentation, and set up your payroll in your existing system. High-turnover centers often see the most immediate relief — new hire processing and termination handling that used to consume hours each week hands off to BEG on day one.</p>
+            </div>
           </div>
         </div>
       </section>

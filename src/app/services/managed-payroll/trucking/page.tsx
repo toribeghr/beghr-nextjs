@@ -231,6 +231,18 @@ export default function PayrollTruckingPage() {
               <h3>What if driver headcount changes seasonally?</h3>
               <p>Your monthly rate adjusts with headcount at the same per-employee rate. Seasonal spikes and off-peak reductions update your cost automatically. No renegotiation required.</p>
             </div>
+            <div className="faq-item">
+              <h3>How do you handle payroll for lease-purchase drivers?</h3>
+              <p>Lease-purchase drivers occupy a gray zone between employee and independent contractor. The structure of the agreement — not the label — determines classification. We review your lease-purchase agreements, determine the correct tax treatment for each driver in the program, and process pay accurately. Misclassification of lease-purchase drivers is a frequent IRS and DOL enforcement target in the trucking industry.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Which states create the most payroll tax complexity for trucking companies?</h3>
+              <p>California, New York, Illinois, and Washington have the most aggressive payroll tax enforcement and the most complex apportionment rules for interstate carriers. California in particular has its own driver classification standards under AB5 that are stricter than federal criteria. Multi-state route planning needs to factor in payroll compliance, not just fuel taxes and road fees.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to get started with managed trucking payroll?</h3>
+              <p>From signed agreement to live payroll: 3–5 business days. The scope review call is 15 minutes. We review your driver roster, per diem structure, and multi-state routes, then configure everything in your existing system. Most trucking operations are running fully managed payroll within a week of the first call.</p>
+            </div>
           </div>
         </div>
       </section>

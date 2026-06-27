@@ -155,6 +155,30 @@ export default function PayrollFranchisePage() {
         </div>
       </section>
 
+      {/* IMPLEMENTATION TIMELINE */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Getting Started</p>
+            <h2>From scope review to live franchise payroll in 3–5 business days</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
+            {[
+              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your current locations, state registrations, franchisor payroll requirements, and expansion timeline — and give you a fixed monthly price per employee.' },
+              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, location roster and pay structures reviewed across all units.' },
+              { day: 'Days 2–4', title: 'Configuration', body: 'Location-specific pay rules, missing state registrations, and joint-employer documentation configured in your existing system.' },
+              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed multi-location pay run — BEG executes across all locations, your team approves. One invoice, everything included.' },
+            ].map(({ day, title, body }) => (
+              <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
+                <div style={{ fontSize: '0.8rem', fontWeight: '700', color: '#ECAC60', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{day}</div>
+                <strong style={{ display: 'block', fontSize: '0.97rem', marginBottom: '0.4rem' }}>{title}</strong>
+                <p style={{ margin: 0, fontSize: '0.85rem', color: '#666666', lineHeight: '1.5' }}>{body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* SCARCITY */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -206,6 +230,18 @@ export default function PayrollFranchisePage() {
             <div className="faq-item">
               <h3>What does $25–$45 PEPM include across all locations?</h3>
               <p>Everything: multi-location payroll processing, state registrations and filings for every location, new location setup as you expand, year-end W-2s for all employees, and BEG support. One invoice, all locations.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What if I operate locations under different franchise brands?</h3>
+              <p>Multi-brand franchise portfolios are managed under a single BEG engagement. Each brand's payroll requirements, franchisor compliance standards, and state registrations are tracked and managed separately within the unified service. The per-employee rate applies across all locations and all brands — one invoice, one point of contact, everything included regardless of how many concepts you operate.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How does managed payroll handle minimum wage compliance across different states?</h3>
+              <p>State minimum wage rates vary significantly and change regularly — some states are at $17 or more per hour, others below federal minimum, and many local jurisdictions have their own thresholds above the state rate. We configure location-specific pay rules that automatically apply the correct minimum wage at each location. When a state updates its rate, we update your configuration before the effective date.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How do employees transfer between locations for payroll purposes?</h3>
+              <p>Employees who transfer between locations are moved in the payroll system with the correct effective date, location-specific pay rate, and any state withholding changes if the transfer crosses state lines. We handle the state registration implications of cross-state transfers and make sure no payroll cycles are missed during the transition — important when transfers happen mid-cycle before a new location opens.</p>
             </div>
           </div>
         </div>

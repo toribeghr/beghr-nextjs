@@ -231,6 +231,18 @@ export default function PayrollMarketingAgencyPage() {
               <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: multi-state payroll processing, new state registrations, contractor 1099-NEC filing, commission tracking, year-end W-2s, and BEG support. No per-state fees, no per-1099 charges.</p>
             </div>
+            <div className="faq-item">
+              <h3>How do you handle owner compensation in an S-corp marketing agency?</h3>
+              <p>S-corp owner-employees must pay themselves a reasonable salary through payroll — not distributions only — to satisfy IRS requirements. We structure owner W-2 compensation correctly, process it on schedule, and maintain the documentation your CPA needs for the S-corp election. Owner-employee payroll mistakes are one of the most common IRS audit flags for small professional services firms.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Can you register us in a state where we just hired our first remote employee?</h3>
+              <p>Yes — and this is included at no additional charge. When you hire someone in a new state, we initiate the registration, get your accounts set up, and configure withholding before the first paycheck in that state. There is no per-state setup fee and no waiting for you to handle the paperwork. We track every state where you have payroll obligations and stay ahead of your hiring.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to get started with managed marketing agency payroll?</h3>
+              <p>From signed agreement to live payroll: 3–5 business days. We identify every state where you have employees, complete missing registrations, review contractor classifications, and configure commission tracking in your existing system. Most agencies run their first BEG-managed payroll within a week — with state compliance gaps that existed for months closed before that first pay cycle runs.</p>
+            </div>
           </div>
         </div>
       </section>

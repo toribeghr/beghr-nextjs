@@ -231,6 +231,18 @@ export default function PayrollChurchPage() {
               <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: dual-status minister payroll, housing allowance tracking and documentation, FICA or SECA processing, state filings, year-end W-2s, and BEG support. No add-on fees, no per-run charges.</p>
             </div>
+            <div className="faq-item">
+              <h3>Can a minister opt out of Social Security?</h3>
+              <p>Yes, under specific circumstances. A minister may file Form 4361 to apply for an exemption from self-employment tax on ministerial earnings if they have a sincerely held religious objection to public insurance. The exemption is permanent once approved by the IRS. We flag this option for ministers who qualify and ensure W-2 reporting reflects the election correctly throughout their tenure.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How do you handle payroll for church-operated schools, daycares, or other ministry programs?</h3>
+              <p>Multi-ministry organizations with schools, daycares, camps, or other programs alongside the main church have distinct payroll considerations. Staff employed by a specific ministry arm may have different FICA treatment depending on that entity's tax status and organizational structure. We scope each entity and apply the correct payroll treatment to each staff category — one managed engagement, all ministries covered.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to set up managed church payroll?</h3>
+              <p>From signed agreement to live payroll: 3–5 business days. We configure dual-status minister W-2 setup, housing allowance tracking, and FICA or SECA processing for each staff category in your existing system. If you are transitioning before year-end, we also audit the current year's housing allowance designations to catch any documentation gaps before the W-2 deadline.</p>
+            </div>
           </div>
         </div>
       </section>

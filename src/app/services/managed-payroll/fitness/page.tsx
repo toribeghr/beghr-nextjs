@@ -155,6 +155,30 @@ export default function PayrollFitnessPage() {
         </div>
       </section>
 
+      {/* IMPLEMENTATION TIMELINE */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Getting Started</p>
+            <h2>From scope review to compliant fitness payroll in 3–5 business days</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
+            {[
+              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your trainer arrangements, instructor relationships, front desk pay structures, and commission plans — and give you a fixed monthly price.' },
+              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, studio management system access granted, trainer and instructor arrangements reviewed.' },
+              { day: 'Days 2–4', title: 'Configuration', body: 'Trainer classification decisions made, commission overtime calculations configured, and state registrations set up in your existing system.' },
+              { day: 'Day 5', title: 'First live payroll', body: 'Your first correctly classified, FLSA-compliant fitness pay run — BEG executes, your team approves.' },
+            ].map(({ day, title, body }) => (
+              <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
+                <div style={{ fontSize: '0.8rem', fontWeight: '700', color: '#ECAC60', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{day}</div>
+                <strong style={{ display: 'block', fontSize: '0.97rem', marginBottom: '0.4rem' }}>{title}</strong>
+                <p style={{ margin: 0, fontSize: '0.85rem', color: '#666666', lineHeight: '1.5' }}>{body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* SCARCITY */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -206,6 +230,18 @@ export default function PayrollFitnessPage() {
             <div className="faq-item">
               <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: payroll processing, trainer classification review, W-2 and 1099 processing, commission overtime calculations, state filings, year-end W-2s and 1099-NECs, and BEG support. No per-1099 fees, no add-on charges.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What if a personal trainer works primarily at our studio but also trains a few private clients?</h3>
+              <p>A trainer who works primarily at your studio — using your space, your schedule, your equipment, and your brand — but has a handful of private clients on the side generally still qualifies as your W-2 employee. The classification analysis depends on where their economic dependence actually lies. We review each arrangement and give you a clear determination before the next payroll cycle.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Do fitness studios have to provide benefits to full-time personal trainers?</h3>
+              <p>Studios with 50 or more full-time equivalent employees are subject to ACA employer mandate requirements and must offer qualifying health coverage or face IRS penalties. Below that threshold, benefits are voluntary. We track your FTE count throughout the year and flag the 50-employee threshold before you cross it — so you can make benefits decisions ahead of the compliance deadline, not after.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to clean up a trainer misclassification situation?</h3>
+              <p>From signed agreement to corrected, compliant payroll: 3–5 business days. We review each trainer relationship, determine the correct classification, set up W-2 payroll for those who qualify as employees, and configure commission overtime calculations in your existing system. The first managed pay cycle under BEG runs correctly — no months-long re-onboarding process.</p>
             </div>
           </div>
         </div>

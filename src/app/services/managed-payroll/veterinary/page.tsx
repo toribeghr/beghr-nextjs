@@ -231,6 +231,18 @@ export default function PayrollVeterinaryPage() {
               <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: payroll processing, production pay calculations, federal and state tax filing, 1099-NEC processing for relief vets, year-end W-2s, compliance updates, and dedicated BEG support. No add-on fees, no per-run charges, no year-end surcharges.</p>
             </div>
+            <div className="faq-item">
+              <h3>How do you handle ACA compliance for growing veterinary practices?</h3>
+              <p>Practices approaching 50 full-time equivalent employees become Applicable Large Employers under the ACA and must offer qualifying coverage or face penalties. We track your FTE count throughout the year and flag the threshold before you cross it, so you can make benefits decisions proactively rather than reactively at the end of the year.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What if we expand to a second clinic in a different state?</h3>
+              <p>Multi-state practice expansion is part of what we manage. We register in the new state, handle separate withholding requirements, and incorporate the new location into your existing managed payroll engagement. You get consolidated billing and reporting across all locations at the same per-employee rate — no new contracts, no additional setup fees.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to transition to managed veterinary payroll?</h3>
+              <p>From signed agreement to live payroll: 3–5 business days. We configure your production pay structure, review relief vet classifications, and set up everything in your existing system. The first payroll under BEG management runs the week after onboarding — no disruption to your practice schedule or your staff.</p>
+            </div>
           </div>
         </div>
       </section>

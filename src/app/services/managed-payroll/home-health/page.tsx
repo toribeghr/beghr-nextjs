@@ -231,6 +231,18 @@ export default function PayrollHomeHealthPage() {
               <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: payroll processing, FLSA-compliant overtime calculations, live-in aide documentation, Medicaid wage tracking, state filings, year-end W-2s, and BEG support. No per-run fees, no compliance surcharges.</p>
             </div>
+            <div className="faq-item">
+              <h3>How do you handle travel time pay between client visits?</h3>
+              <p>Travel time between client visits is compensable work time under FLSA and must be included in hours for overtime purposes. Many home health agencies exclude travel time from hourly calculations — that is an FLSA violation. We include travel time in your overtime calculations, set up the tracking process, and make sure every caregiver's total compensable hours are correctly calculated each pay cycle.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What if our agency operates in multiple states?</h3>
+              <p>Multi-state home health agencies are managed as a single engagement. We handle state-specific wage requirements, Medicaid wage compliance for each state program, and payroll tax registrations and filings in every state you operate. Some states have home care wage requirements that exceed federal FLSA minimums — we apply whichever standard is higher for each caregiver in each state.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to correct FLSA issues and get started with managed home health payroll?</h3>
+              <p>From signed agreement to compliant managed payroll: 3–5 business days. The scope call identifies your current compliance gaps. Configuration corrects overtime calculations, sets up live-in aide documentation, and puts Medicaid wage tracking in place. Your first managed pay cycle runs correctly — fixing what was wrong without disrupting your caregiving operations.</p>
+            </div>
           </div>
         </div>
       </section>

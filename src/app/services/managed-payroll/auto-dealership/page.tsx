@@ -231,6 +231,18 @@ export default function PayrollAutoDealershipPage() {
               <h3>What if we add a second or third rooftop?</h3>
               <p>Multi-rooftop payroll is managed as a single engagement. We handle separate state registrations for each location, consolidate reporting, and scale the PEPM rate with total headcount across all locations.</p>
             </div>
+            <div className="faq-item">
+              <h3>How do you handle F&I manager compensation — base salary, per-deal bonuses, and charge-backs?</h3>
+              <p>F&I manager pay is one of the most complex compensation structures in auto retail. We reconcile base salary, per-deal product bonuses, back-end commissions, and charge-backs on unwound deals each pay period. Each component is applied to the correct period with documentation that prevents unauthorized deduction claims under state wage laws — a common source of F&I wage disputes.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What does managed payroll cost for a dealership with 80 employees?</h3>
+              <p>At $25 PEPM in your existing system, an 80-person dealership pays $2,000 per month all-inclusive. At $45 PEPM on BEG's iSolved platform, that's $3,600 per month — still less than the fully-loaded cost of one payroll administrator and a fraction of the legal fees on a single DOL flat-rate overtime investigation targeting your service department.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How long does it take to set up managed payroll for a dealership?</h3>
+              <p>From signed agreement to live payroll: 3–5 business days. We map your commission structures, flat-rate pay rules, F&I compensation plan, and DMS integration during onboarding, then configure everything in your existing system. Most dealerships complete their first fully managed pay cycle within a week of the scope review call.</p>
+            </div>
           </div>
         </div>
       </section>

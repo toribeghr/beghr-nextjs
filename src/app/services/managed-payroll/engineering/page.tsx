@@ -89,6 +89,63 @@ export default function PayrollEngineeringPage() {
         </div>
       </section>
 
+      {/* COMPLIANCE DEEP DIVE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Compliance Requirements</p>
+            <h2>What engineering firm payroll actually requires — and what most vendors miss</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Davis-Bacon Act and state prevailing wage laws</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When your engineering firm holds a federal or federally assisted contract — highways, bridges, federal buildings, water infrastructure — the Davis-Bacon Act requires you to pay workers at the prevailing wage rate set by the Department of Labor for each specific job classification in that specific county. Forty-three states have their own prevailing wage laws covering state-funded public works projects. The rates change by project type, by county, and by trade classification. A civil engineer on a federal highway project in one county may have a different required wage than the same classification on a water infrastructure project in an adjacent county. Managing prevailing wage manually across multiple active projects is where most engineering payroll errors originate.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>WH-347 certified payroll reporting — weekly, auditable, no exceptions</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Federal contractors must submit a WH-347 Certified Payroll Report every week there are workers on a Davis-Bacon project — including weeks with no work performed, where a no-work certification is still required. The WH-347 lists every worker, their job classification, hours worked each day, gross wages paid, all deductions taken, and fringe benefits provided or paid in cash. One error — a misclassified worker, an incorrect fringe credit, or a missing submission week — can trigger a DOL compliance investigation, withholding of contract payments by the contracting agency, or debarment from future federal contracting. BEG manages the WH-347 submission schedule for every active government project in your roster.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fringe benefit compliance under Davis-Bacon</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Davis-Bacon allows contractors to satisfy the fringe benefit component of prevailing wage through bona fide benefit plans — health insurance, pension contributions, apprenticeship training fund contributions. If your benefit plan provides less than the required fringe dollar amount per hour worked, the difference must be paid as additional cash wages on top of base pay. Miscalculating the fringe credit creates both underpayment liability and inaccuracy in your certified payroll report. BEG calculates the fringe credit value from your benefit plans against the required fringe rate for each classification on each project, and tracks whether additional cash fringe is owed each pay period.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Multi-state job site registration and tracking</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>An engineering firm with active projects in multiple states must maintain a separate employer tax registration in each state where employees work — even temporarily. Each state requires a distinct employer income tax withholding account, a state unemployment insurance (SUI) account, and new-hire reporting compliance. Missing a registration triggers automatic penalties from the date the first employee began working in that state — not from when the oversight was discovered. BEG handles state registration and keeps your payroll configuration current as your project map changes. When a project ends in one state and begins in another, we initiate the new registration before the first employee works on site.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Project-based labor cost allocation</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Engineering firms track labor costs by project for billing, fee analysis, and contract management. Payroll must code every hour worked to the correct project number so labor cost reports reconcile against your project accounting system. When an employee splits time across multiple active contracts in the same pay period, the split must reflect both correct wages and correct certified payroll reporting for each project. BEG configures payroll to align with your project accounting structure so labor cost allocation is captured at the source rather than estimated after the fact.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WHO THIS SERVES */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Who This Serves</p>
+            <h2>Engineering and infrastructure firms that carry government contracts</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+            {[
+              { title: 'Civil and structural engineering firms', body: 'Public infrastructure projects — highways, bridges, water systems — carry Davis-Bacon and certified payroll requirements on every federally funded contract.' },
+              { title: 'MEP engineering contractors', body: 'Mechanical, electrical, and plumbing contractors on federally funded building projects must comply with Davis-Bacon wage determinations specific to each trade classification.' },
+              { title: 'Environmental and geotechnical firms', body: 'Government agency contracts for site assessment, remediation, and geotechnical investigation typically carry prevailing wage requirements.' },
+              { title: 'Survey and land development companies', body: 'Survey crews working on federal or state land projects operate under prevailing wage rules that vary by state and project type.' },
+              { title: 'Multi-state project firms', body: 'Any engineering firm with active projects in more than one state needs payroll configured for multiple tax jurisdictions simultaneously.' },
+              { title: 'Firms at 15 to 200 employees', body: 'Large enough to carry real compliance exposure, too small to justify a full-time certified payroll specialist on staff.' },
+            ].map((item, i) => (
+              <div key={i} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderLeft: '4px solid #ECAC60', borderRadius: '4px', padding: '1.25rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.95rem', marginBottom: '0.4rem' }}>{item.title}</strong>
+                <p style={{ margin: 0, fontSize: '0.88rem', color: '#666666', lineHeight: '1.55' }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* THREE BONUSES */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -183,6 +240,22 @@ export default function PayrollEngineeringPage() {
             <div className="faq-item">
               <h3>What if our headcount changes?</h3>
               <p>Your rate adjusts with headcount. Adding or removing employees updates your monthly cost at the same per-employee rate. No contracts to renegotiate.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What is a WH-347 and what happens if we miss a submission?</h3>
+              <p>The WH-347 is the federal certified payroll report form required weekly on Davis-Bacon projects. Missing a submission can trigger payment withholding by the contracting agency and a DOL compliance review. BEG manages the WH-347 submission schedule for every active government contract in your project roster.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Do state prevailing wage laws apply if our project is not federally funded?</h3>
+              <p>In most states, yes. Forty-three states have prevailing wage laws that cover state-funded public works projects independently of federal Davis-Bacon requirements. The applicable wage determination depends on the funding source, the state, and the project type. BEG tracks the correct wage schedule for each project in each jurisdiction.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How does BEG handle fringe benefit compliance on Davis-Bacon projects?</h3>
+              <p>BEG calculates the fringe credit value from your benefit plans against the required fringe rate per job classification. If your plan value falls short, we calculate and apply additional cash fringe payments on top of base wages. This calculation is tracked per project and reflected accurately in your certified payroll reports.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Can BEG handle payroll across multiple active projects simultaneously?</h3>
+              <p>Yes. BEG configures payroll to track hours by project code so labor costs allocate correctly to each contract. Employees who split time across projects in the same pay period are handled with accurate per-project certified payroll reporting and correct wage application for each project jurisdiction.</p>
             </div>
           </div>
         </div>

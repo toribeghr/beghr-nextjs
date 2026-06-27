@@ -89,6 +89,63 @@ export default function PayrollExecutivePage() {
         </div>
       </section>
 
+      {/* COMPLIANCE DEEP DIVE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Compliance Requirements</p>
+            <h2>What executive compensation payroll actually requires — and where generic vendors fail</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Non-qualified deferred compensation and IRC Section 409A</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Non-qualified deferred compensation (NQDC) plans allow executives to defer salary and bonus into a future tax year. IRC Section 409A governs these plans strictly: timing elections must be made before the calendar year in which the compensation is earned (with narrow exceptions), and distributions must follow a fixed schedule or triggering event specified in the plan document. If an election is missed, voided, or improperly structured, the entire deferred balance becomes immediately taxable plus a 20% excise tax plus interest. Payroll must coordinate with the NQDC plan document and the plan administrator on every deferral election and every distribution event to ensure the correct amounts are processed on the correct dates.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Equity compensation payroll — RSU vesting and option exercises</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When restricted stock units vest, the fair market value of the shares on the vest date is ordinary income subject to federal withholding, FICA, Medicare, and state income tax withholding. The company must withhold taxes at the time of vesting — typically through a sell-to-cover arrangement or flat supplemental rate withholding — and remit to the IRS with the next scheduled payroll deposit. Non-qualified stock option (NQSO) exercises create the same event: the spread between the exercise price and fair market value is ordinary income requiring immediate payroll withholding. Missing the withholding window or applying the wrong rate creates a payroll tax restatement and potential penalties.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Executive fringe benefits and imputed income</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Several common executive benefits create taxable income that must be added to W-2 gross wages: group term life insurance above $50,000 face value (using IRS Table I rates), personal use of a company vehicle (calculated using the annual lease value or cents-per-mile method), employer-paid club memberships (fully imputed unless the club is used primarily for business), and certain supplemental executive retirement plan (SERP) benefits. Each of these has a different valuation method and a different inclusion timing. A payroll partner who does not understand the fringe benefit rules will either understate executive W-2 income — creating audit exposure — or handle them inconsistently across the executive team.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Change-of-control and golden parachute gross-up calculations</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>IRC Section 280G imposes a 20% excise tax on "excess parachute payments" — compensation paid in connection with a change of control that exceeds one times the executive's average annual compensation over the preceding five years. When a transaction is anticipated, payroll must coordinate with legal and tax advisors to calculate the 280G exposure for each covered executive, apply any gross-up provisions contained in their employment agreements, and ensure the correct withholding is applied to parachute payments when they are made. This is a low-frequency but high-dollar event where a payroll error has significant consequences.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Access controls and discretion in executive payroll processing</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>C-suite and board member compensation should not flow through the same payroll system access that HR generalists use for regular employee records. Total compensation for senior executives — including base salary, deferred comp balances, equity grant values, and benefits — is sensitive information that should be restricted to a narrow group. BEG processes executive payroll under a restricted-access model, separate from general employee payroll workflows, with access limited to designated contacts on both sides.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WHO THIS SERVES */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Who This Serves</p>
+            <h2>Organizations with complex executive compensation structures</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+            {[
+              { title: 'Private equity-backed companies', body: 'Management incentive plans, carried interest arrangements, and rollover equity create payroll complexity that most HR systems are not configured to handle.' },
+              { title: 'Family-owned enterprises with active boards', body: 'Board member compensation, deferred comp plans for founders, and separation agreements for transitioning executives all require specialized payroll handling.' },
+              { title: 'Pre-IPO companies', body: 'RSU grants, option pools, and equity compensation events that accelerate in the months before a public offering require payroll precision that scales with the event.' },
+              { title: 'Professional services firms', body: 'Managing partner compensation, non-equity partner salaries, and senior director bonus arrangements that vary by year and role classification.' },
+              { title: 'Healthcare systems and nonprofits', body: 'Executive SERP plans, deferred compensation elections, and incentive compensation tied to organizational performance metrics.' },
+              { title: 'Companies at 25 to 500 employees', body: 'Large enough to have a senior executive team with complex arrangements, small enough that an internal specialist for executive payroll alone is not justifiable.' },
+            ].map((item, i) => (
+              <div key={i} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderLeft: '4px solid #ECAC60', borderRadius: '4px', padding: '1.25rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.95rem', marginBottom: '0.4rem' }}>{item.title}</strong>
+                <p style={{ margin: 0, fontSize: '0.88rem', color: '#666666', lineHeight: '1.55' }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* THREE BONUSES */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -184,6 +241,22 @@ export default function PayrollExecutivePage() {
               <h3>What if our headcount changes?</h3>
               <p>Your rate adjusts with headcount. Adding or removing employees updates your monthly cost at the same per-employee rate. No contracts to renegotiate.</p>
             </div>
+            <div className="faq-item">
+              <h3>What happens if a 409A election is missed or improperly structured?</h3>
+              <p>Under IRC Section 409A, an improperly structured deferred compensation arrangement causes the entire deferred amount to become immediately taxable plus a 20% excise tax plus interest — regardless of whether the executive has received the funds. BEG coordinates every NQDC deferral and distribution event with your plan document and administrator to prevent timing errors.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How does BEG handle payroll withholding on RSU vesting events?</h3>
+              <p>When shares vest, BEG processes the supplemental payroll withholding on the spread (shares times fair market value on vest date) as ordinary income. We coordinate the withholding method — sell-to-cover or flat supplemental rate — with your equity plan administrator and remit withholding with the next scheduled payroll deposit. The vesting income is reflected on the executive W-2.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Can BEG process executive payroll separately from our general employee payroll?</h3>
+              <p>Yes. BEG manages executive payroll under a restricted-access model, separate from the general employee payroll workflow. Compensation details for C-suite and board members are handled with access limited to designated contacts on both sides — not routed through standard HR workflows.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Does BEG handle the imputed income calculation for executive fringe benefits?</h3>
+              <p>Yes. BEG calculates imputed income for common executive fringe benefits — group term life above $50K, personal vehicle use, club memberships, and SERP contributions — and adds them to W-2 gross wages using the correct IRS valuation method for each benefit type.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -198,12 +271,14 @@ export default function PayrollExecutivePage() {
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
               { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
+              { '@type': 'Question', name: 'What happens if a 409A election is missed?', acceptedAnswer: { '@type': 'Answer', text: 'Under IRC Section 409A, an improperly structured deferred compensation arrangement causes the entire deferred amount to become immediately taxable plus a 20% excise tax. BEG coordinates every NQDC event with your plan document and administrator.' } },
+              { '@type': 'Question', name: 'How does BEG handle RSU vesting events?', acceptedAnswer: { '@type': 'Answer', text: 'BEG processes supplemental payroll withholding on the spread at vesting, coordinates the withholding method with your equity plan administrator, and reflects the income on the executive W-2.' } },
             ],
           }),
         }}
       />
 
-    
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

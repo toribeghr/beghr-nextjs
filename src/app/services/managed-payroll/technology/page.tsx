@@ -89,6 +89,63 @@ export default function PayrollTechnologyPage() {
         </div>
       </section>
 
+      {/* COMPLIANCE DEEP DIVE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Compliance Requirements</p>
+            <h2>Remote teams, equity events, and state nexus — what tech company payroll actually requires</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>State tax nexus for remote employees — the most common gap in tech payroll</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When a tech company hires a remote employee who works from a state where the company has no other presence, the hire creates employer tax nexus in that state. This requires registering for a new employer withholding account, a state unemployment insurance (SUI) account, and new-hire reporting in that state — before the first paycheck is issued. Every state has different registration processes, different UI new-employer rates, and different payroll tax thresholds. Missing a registration triggers automatic penalties from the date the employee began working in that state, not from when the oversight was discovered. On a 50-person remote team spread across 12 states, managing state registrations manually is a full-time task. BEG handles state registration proactively — when you make the hire, we initiate the registration before the first payroll run.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>RSU vesting events and same-day payroll withholding</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When restricted stock units vest, the number of shares multiplied by the fair market value on the vest date is ordinary income subject to federal withholding, FICA, Medicare, and state income tax. The company must withhold taxes at the time of vesting — typically through a sell-to-cover arrangement or flat supplemental rate — and remit with the next scheduled payroll deposit. Missing the vest date or withholding at the wrong rate creates a payroll tax restatement, potential IRS penalties, and employee W-2 errors. BEG coordinates vest event processing with your equity plan administrator so withholding is calculated correctly at the time of each vest, reflected in the payroll deposit, and reported on the employee W-2 without requiring manual corrections at year-end.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>NQSO exercises and ISO disqualifying dispositions</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Non-qualified stock option (NQSO) exercises create ordinary income equal to the spread between the exercise price and the fair market value on the exercise date — taxable and subject to FICA at the time of exercise. Incentive stock options (ISOs) do not create a regular income tax event at exercise (though they trigger AMT), but a disqualifying disposition — selling ISO shares before the holding period requirements are met — converts the gain to ordinary income that must be reported on the employee W-2. BEG manages both NQSO exercises and ISO disqualifying dispositions in coordination with your equity plan records so the correct amounts appear on the W-2 and are properly deposited.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Contractor-to-employee conversion as your team scales from 25 to 200</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Tech companies at 25 to 200 employees often have a mix of W-2 employees and 1099 contractors. As the company scales and contractor engagement patterns change — higher hours, more control, dedicated project assignment — some contractor relationships begin to look more like employment under the IRS classification tests. The cost of misclassifying an employee as a contractor is the uncollected FICA (both employee and employer share) plus penalties and interest for every open tax year. BEG reviews contractor arrangements during the scope review and flags any relationships where the classification carries elevated risk, so you can address them proactively rather than in an audit.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Payroll compliance for domestic tech companies at 25 to 200 employees</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG serves domestic tech companies — US-based employees across multiple states — and does not manage international employer of record or PEO arrangements for overseas employees. The domestic focus means BEG is purpose-built for the compliance challenges that a 25-to-200-person US tech company actually faces: multi-state registration, equity event payroll processing, contractor classification, and remote team scaling. If your team is distributed across 8 to 15 US states with quarterly equity vesting events and a mix of salaried employees and contractors, this is exactly the payroll profile BEG is designed to manage.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WHO THIS SERVES */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Who This Serves</p>
+            <h2>US-based tech companies scaling from 25 to 200 employees</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+            {[
+              { title: 'SaaS companies with distributed engineering teams', body: 'Remote engineers across 8 to 15 states with RSU grants and quarterly vesting create the exact multi-state, equity-event payroll complexity BEG manages.' },
+              { title: 'Series A through Series C funded startups', body: 'Post-Series A companies scaling headcount rapidly, onboarding employees across new states every quarter, and managing equity compensation for the first time.' },
+              { title: 'Tech-enabled services companies', body: 'B2B software and tech-enabled services businesses with a mix of W-2 engineers, customer success employees, and 1099 contractors working on specific deliverables.' },
+              { title: 'Digital marketing and agency tech companies', body: 'Creative and technology agencies with distributed teams, freelancer-heavy workflows, and contractor classification questions that require regular review.' },
+              { title: 'Fintech and insurtech companies', body: 'Financial technology companies that combine distributed tech teams with regulated employee classifications — compliance obligations from both industries.' },
+              { title: 'Pre-IPO companies preparing for equity events', body: 'Companies with equity plans that will accelerate vesting or exercise at a liquidity event, requiring payroll coordination with the cap table and transfer agent.' },
+            ].map((item, i) => (
+              <div key={i} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderLeft: '4px solid #ECAC60', borderRadius: '4px', padding: '1.25rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.95rem', marginBottom: '0.4rem' }}>{item.title}</strong>
+                <p style={{ margin: 0, fontSize: '0.88rem', color: '#666666', lineHeight: '1.55' }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* THREE BONUSES */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -184,6 +241,22 @@ export default function PayrollTechnologyPage() {
               <h3>What if our headcount changes?</h3>
               <p>Your rate adjusts with headcount. Adding or removing employees updates your monthly cost at the same per-employee rate. No contracts to renegotiate.</p>
             </div>
+            <div className="faq-item">
+              <h3>How does BEG handle state tax registration when we hire a remote employee in a new state?</h3>
+              <p>When you notify us of a new hire in a state where you are not already registered, BEG initiates the employer withholding and SUI registrations in that state before the first payroll run. We track the registration status and confirm it is complete before any wages are paid. You are never in a position of running payroll in an unregistered state.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What is the process for payroll withholding on RSU vesting events?</h3>
+              <p>BEG coordinates with your equity plan administrator to receive vest event data — shares vesting, employee, vest date, fair market value. We calculate the ordinary income amount, determine the correct withholding (federal supplemental rate or aggregate method, plus state and FICA), process the withholding payroll run on or near the vest date, and remit with the next scheduled deposit. The income is reflected on the employee W-2 in the correct box.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How does BEG manage contractor-to-employee conversions as our team scales?</h3>
+              <p>During the scope review, BEG reviews your contractor roster against the IRS classification factors. Any relationship that shows elevated reclassification risk is flagged so you can address it proactively. When a contractor is converted to W-2 status, BEG handles the payroll configuration update, ensures the new employee is enrolled in withholding correctly, and coordinates the transition of any benefits that need to start at conversion.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Does BEG manage international employees or employer of record for overseas workers?</h3>
+              <p>No. BEG manages domestic US payroll — W-2 employees working in US states. International employer of record, global payroll, and overseas entity compliance are outside our service scope. BEG is purpose-built for US-based tech companies at 25 to 200 domestic employees.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -198,12 +271,14 @@ export default function PayrollTechnologyPage() {
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
               { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
+              { '@type': 'Question', name: 'How does BEG handle state registration for remote employees in new states?', acceptedAnswer: { '@type': 'Answer', text: 'When you notify us of a new hire in a new state, BEG initiates employer withholding and SUI registrations before the first payroll run. You are never running payroll in an unregistered state.' } },
+              { '@type': 'Question', name: 'What is the process for RSU vesting payroll withholding?', acceptedAnswer: { '@type': 'Answer', text: 'BEG coordinates with your equity plan administrator, calculates ordinary income on the vest date, determines correct withholding amounts, processes the withholding payroll run, and reflects the income accurately on the employee W-2.' } },
             ],
           }),
         }}
       />
 
-    
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

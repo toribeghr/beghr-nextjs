@@ -89,6 +89,63 @@ export default function PayrollFinancePage() {
         </div>
       </section>
 
+      {/* COMPLIANCE DEEP DIVE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Compliance Requirements</p>
+            <h2>What finance firm payroll actually requires — and the risk of getting it wrong</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>SOX payroll controls and records retention</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>For public companies and companies preparing for a public offering, Sarbanes-Oxley Section 404 requires adequate internal controls over financial reporting — and payroll records are explicitly in scope. Payroll transactions represent a significant portion of operating expenses, and the controls around payroll authorization, processing, reconciliation, and record retention must be documented and testable. A managed payroll service that maintains compliant record-keeping, audit trails, and access controls supports your SOX 404 controls framework. BEG maintains payroll records with the access controls and retention policies appropriate for a SOX-sensitive environment.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Advisor and analyst compensation structures — bonus, commission, and grid pay</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Finance firms pay their professionals in ways that standard payroll systems are not designed for. Financial advisors on a grid-based model receive commission payouts calculated against trailing production — the payroll system must pull from production reports and apply the correct grid percentage to each advisor's production level. Portfolio managers may receive performance fees paid as W-2 supplemental compensation or as partnership distributions. Traders may receive discretionary bonuses calculated by desk against P&L. Each of these compensation types has different withholding treatment, different payment timing, and different W-2 reporting requirements. BEG configures payroll to handle each compensation type correctly for each role classification.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>RIA and broker-dealer employee classification</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Investment advisers commonly engage independent contractors alongside W-2 employees — financial planners, compliance consultants, research analysts, and registered representatives. The IRS 20-factor test, the ABC test in states that apply it, and FINRA guidance on associated persons create a complex framework for determining who must receive a W-2 versus a 1099. Misclassification of an employee as an independent contractor creates employment tax liability for the uncollected FICA, potential FINRA regulatory consequences, and exposure under state wage and hour laws. BEG reviews classification for each role type during the scope review and flags any arrangements that carry reclassification risk.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>IRC Section 162(m) and deductibility of executive compensation</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>For public finance companies, IRC Section 162(m) limits the corporate tax deduction for compensation paid to covered employees (CEO, CFO, and the three highest-paid other officers) above $1 million per year. While 162(m) is primarily a tax planning issue, the payroll records must be maintained in a way that allows your tax advisors to identify covered employees, calculate the deductible versus non-deductible portions of each compensation element, and make the necessary adjustments in the corporate return. BEG maintains compensation records at the individual level with enough detail to support this analysis.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Multi-state compliance for distributed advisor teams</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Finance firms with advisors or analysts in multiple states face the standard multi-state payroll compliance requirements — separate employer tax registrations, different withholding rates, different SUI rates, different new-hire reporting — plus additional considerations specific to financial services. Some states impose specific licensing and registration requirements on financial professionals working in those states. The employer tax registration in those states must be in place before the professional begins client-facing work. BEG manages state-by-state registration proactively as your team geography changes, so you are never operating in a state without the required employer registrations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WHO THIS SERVES */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Who This Serves</p>
+            <h2>Finance firms where payroll errors are an audit trigger</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+            {[
+              { title: 'Registered investment advisers (RIAs)', body: 'Complex compensation structures including grid pay, performance fees, and advisor deferred comp require payroll that understands the RIA compensation model.' },
+              { title: 'Broker-dealers', body: 'FINRA-regulated compensation, commission structures, associated person classification, and multi-state licensing make broker-dealer payroll unlike any other industry.' },
+              { title: 'Accounting and CPA firms', body: 'Partner distributions, senior manager bonus cycles, and multi-state professional staff require a payroll partner who understands partnership and professional service firm compensation.' },
+              { title: 'Hedge funds and private equity firms', body: 'Management company W-2 payroll alongside carried interest and incentive allocations requires payroll coordinated with fund administration and tax advisors.' },
+              { title: 'Wealth management firms', body: 'Advisor grid pay, client service associate compensation, and transition packages for recruited advisors are finance industry payroll scenarios that standard platforms handle poorly.' },
+              { title: 'Financial services firms at 15 to 200 employees', body: 'Large enough to have real compliance exposure from compensation complexity, too small to justify a dedicated payroll compliance specialist internally.' },
+            ].map((item, i) => (
+              <div key={i} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderLeft: '4px solid #ECAC60', borderRadius: '4px', padding: '1.25rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.95rem', marginBottom: '0.4rem' }}>{item.title}</strong>
+                <p style={{ margin: 0, fontSize: '0.88rem', color: '#666666', lineHeight: '1.55' }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* THREE BONUSES */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -184,6 +241,22 @@ export default function PayrollFinancePage() {
               <h3>What if our headcount changes?</h3>
               <p>Your rate adjusts with headcount. Adding or removing employees updates your monthly cost at the same per-employee rate. No contracts to renegotiate.</p>
             </div>
+            <div className="faq-item">
+              <h3>Are payroll records in scope for SOX Section 404 internal controls?</h3>
+              <p>Yes. Payroll represents a major category of operating expense, and the controls around payroll authorization, processing, and record retention are typically tested in a SOX 404 audit. BEG maintains payroll records with the access controls and audit trails appropriate for a SOX-sensitive environment.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How does BEG handle commission payroll for advisors on a grid model?</h3>
+              <p>BEG configures payroll to apply the correct grid percentage to each advisor based on their production level each period. Commission payouts are processed as supplemental wages with the appropriate federal and state withholding. W-2 reporting reflects the correct allocation between base salary and commission income.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What is the risk of misclassifying an investment professional as an independent contractor?</h3>
+              <p>Misclassification creates employment tax liability for the uncollected FICA on all payments made, potential state wage and hour violations, and — for FINRA-registered representatives — potential regulatory consequences. The IRS 20-factor test and FINRA guidance both create risk for arrangements that look more like employment than true independent contracting. BEG flags classification risk during the scope review.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Can BEG handle year-end W-2 complexity for finance professionals with multiple income types?</h3>
+              <p>Yes. Finance professionals often have base salary, discretionary bonus, commission, equity income, and fringe benefit imputed income all on the same W-2. BEG manages each income type with the correct withholding treatment throughout the year so year-end W-2 reconciliation is accurate and does not require restatement.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -198,12 +271,14 @@ export default function PayrollFinancePage() {
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
               { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
+              { '@type': 'Question', name: 'Are payroll records in scope for SOX Section 404?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Payroll controls are typically tested in a SOX 404 audit. BEG maintains payroll records with the access controls and audit trails appropriate for a SOX-sensitive environment.' } },
+              { '@type': 'Question', name: 'How does BEG handle advisor grid commission payroll?', acceptedAnswer: { '@type': 'Answer', text: 'BEG configures payroll to apply the correct grid percentage to each advisor based on their production level each period, processed as supplemental wages with appropriate withholding.' } },
             ],
           }),
         }}
       />
 
-    
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

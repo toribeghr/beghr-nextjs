@@ -89,6 +89,63 @@ export default function PayrollLegalPage() {
         </div>
       </section>
 
+      {/* COMPLIANCE DEEP DIVE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Compliance Requirements</p>
+            <h2>What law firm payroll actually requires — and what generic systems get wrong</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Partner draws versus W-2 compensation — getting the structure right</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Law firm compensation is not one-size-fits-all. Equity partners in a partnership or LLP typically receive guaranteed payments and profit distributions reported on Schedule K-1 — not W-2 wages. Non-equity partners and of-counsel attorneys at the same firm may receive fixed salaries on W-2s. Associate attorneys receive base salary plus merit or productivity-based bonuses on W-2. Law firms structured as professional corporations or professional associations issue W-2s to all attorney-shareholders. Managing multiple compensation structures in the same payroll system requires separate pay codes, separate tax treatment, and correct year-end reporting for each type — a configuration that most generic payroll systems are not designed to handle cleanly.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>IOLTA trust account segregation and payroll banking</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>IOLTA (Interest on Lawyer Trust Accounts) accounts hold client funds — retainers, settlement proceeds, advance cost deposits. State bar rules require strict separation between IOLTA accounts and the firm operating account. Payroll draws only from the operating account. A payroll processing error that creates an overdraft in the operating account — causing funds to be inadvertently drawn from a linked account structure — can trigger a misappropriation of client funds finding if any IOLTA account is in the banking relationship. BEG manages payroll banking integrations with full awareness of trust account segregation requirements and confirms operating account sufficiency before each payroll run.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Billing rate versus salary reconciliation</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Law firms track realization rates — the ratio of fees collected to fees billed, and fees billed to the theoretical value of hours worked. Managing attorney billing data against payroll cost per attorney is a core function in profitability analysis and discretionary bonus determination. BEG maintains payroll records at the individual attorney level in a format that supports this reconciliation: total compensation, hours worked, gross wages by period, and bonus amounts — structured so that finance and managing partners can calculate cost per billable hour without requiring custom payroll exports or manual data assembly.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Multi-office law firms and multi-state payroll compliance</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Law firms with offices in multiple states face the same multi-state employer tax compliance requirements as any other multi-state employer — separate registrations, different withholding rates, different SUI rates — plus some additional considerations. Remote attorneys who work from home states different from the office jurisdiction may create employer nexus in those states. Associates who relocate trigger new state registrations. Lateral hires from other states bring their own state compliance requirements. BEG manages state-by-state registration as your attorney roster changes, and monitors the states where your attorneys physically work so registrations are in place before the first payroll is run.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Year-end W-2 complexity at law firms with variable compensation</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Law firm year-end payroll includes several items that require careful handling: discretionary bonuses paid in December (the year-end bonus cycle at most firms), reimbursements that exceed the accountable plan limits and must be added to W-2 gross income, partner guaranteed payments that need K-1 coordination with the firm accountants, and any attorney who departed mid-year and received a separation payment. BEG manages each of these elements through the year-end process so W-2s are accurate on the first issuance and do not require corrections that create confusion for attorneys during tax season.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WHO THIS SERVES */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Who This Serves</p>
+            <h2>Law firms where payroll complexity matches the sophistication of the practice</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+            {[
+              { title: 'Mid-size regional law firms', body: 'Firms with 15 to 100 attorneys managing partners, associates, paralegals, and administrative staff across mixed compensation structures.' },
+              { title: 'Boutique specialty practices', body: 'Litigation boutiques, IP firms, transactional practices, and family law offices where billable hour tracking and bonus structures require payroll coordination.' },
+              { title: 'Multi-office law firms', body: 'Practices with attorneys in multiple states face multi-state registration, variable withholding rates, and remote attorney nexus questions that require proactive management.' },
+              { title: 'Plaintiff litigation firms', body: 'Contingency-based practices with large staff swings around active litigation cycles and settlement distributions that affect firm cash flow and payroll timing.' },
+              { title: 'Growing firms hiring lateral attorneys', body: 'Each lateral hire from another state may create new payroll tax registration requirements and compensation structure questions that need resolution before the first paycheck.' },
+              { title: 'Law firms at 11 to 200 attorneys', body: 'The sweet spot for managed payroll — large enough to have real compensation complexity, not large enough to justify a dedicated payroll compliance function internally.' },
+            ].map((item, i) => (
+              <div key={i} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderLeft: '4px solid #ECAC60', borderRadius: '4px', padding: '1.25rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.95rem', marginBottom: '0.4rem' }}>{item.title}</strong>
+                <p style={{ margin: 0, fontSize: '0.88rem', color: '#666666', lineHeight: '1.55' }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* THREE BONUSES */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -184,6 +241,22 @@ export default function PayrollLegalPage() {
               <h3>What if our headcount changes?</h3>
               <p>Your rate adjusts with headcount. Adding or removing employees updates your monthly cost at the same per-employee rate. No contracts to renegotiate.</p>
             </div>
+            <div className="faq-item">
+              <h3>How does BEG handle partner draws versus W-2 salaries at the same firm?</h3>
+              <p>BEG manages both compensation types within the same engagement. Equity partner guaranteed payments and distributions are documented and coordinated with the firm accountants for K-1 reporting. Non-equity partner and associate salaries are processed on W-2 with standard withholding. Each compensation type gets the correct tax treatment without requiring separate payroll relationships.</p>
+            </div>
+            <div className="faq-item">
+              <h3>What is the IOLTA risk in law firm payroll processing?</h3>
+              <p>An overdraft in the firm operating account — caused by a payroll timing error — can inadvertently cause funds to be drawn from a linked trust account, creating a potential client funds misappropriation issue under state bar rules. BEG confirms operating account sufficiency before each payroll run and manages banking integrations with full awareness of trust account segregation requirements.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Can BEG maintain payroll records in a format compatible with billing rate reconciliation?</h3>
+              <p>Yes. BEG maintains compensation data at the individual attorney level — total compensation, hours worked, bonus amounts by period — in a format that supports cost-per-billable-hour analysis without requiring custom exports. Managing partners and finance directors can run the reconciliation without pulling additional data from the payroll system.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How does BEG handle the year-end bonus cycle that most law firms run in December?</h3>
+              <p>BEG processes year-end bonus payrolls as supplemental payroll runs with the correct federal and state supplemental withholding rates. We coordinate the bonus payroll schedule with your normal payroll cycle so year-end tax deposits are made on time and W-2s reflect the full year compensation — including the December bonus — accurately on the first issuance.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -198,12 +271,14 @@ export default function PayrollLegalPage() {
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
               { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
+              { '@type': 'Question', name: 'How does BEG handle partner draws versus W-2 salaries at the same firm?', acceptedAnswer: { '@type': 'Answer', text: 'BEG manages both compensation types. Equity partner guaranteed payments coordinate with firm accountants for K-1 reporting. Non-equity partner and associate salaries are processed on W-2 with standard withholding. Each type gets correct tax treatment.' } },
+              { '@type': 'Question', name: 'What is the IOLTA risk in law firm payroll?', acceptedAnswer: { '@type': 'Answer', text: 'An operating account overdraft caused by a payroll timing error can inadvertently draw from a linked trust account, creating a client funds misappropriation issue under state bar rules. BEG confirms account sufficiency before each run.' } },
             ],
           }),
         }}
       />
 
-    
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

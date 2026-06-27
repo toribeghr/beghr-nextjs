@@ -89,6 +89,63 @@ export default function PayrollHealthcarePage() {
         </div>
       </section>
 
+      {/* COMPLIANCE DEEP DIVE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Compliance Requirements</p>
+            <h2>Healthcare payroll complexity that software listicles do not cover</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Shift differentials, on-call pay, and call-back calculations</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Healthcare organizations pay shift differentials to compensate clinical staff for working undesirable hours. A night differential of $3–$5 per hour, a weekend differential of $4–$6 per hour, and a holiday premium of 1.5x to 2.5x base pay are common structures — but rates vary by classification, and in unionized facilities they are set by collective bargaining agreement. On-call pay follows different rules: on-call time (waiting at home ready to be called in) may or may not be compensable under the FLSA depending on how severely the employer restricts the employee during that period. Call-back pay (hours actually worked after being called in) is always compensable and may trigger overtime calculations separately from the regular shift hours. Payroll must handle on-call and call-back correctly to avoid DOL wage and hour exposure.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Credential-based pay tiers and specialty certification differentials</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Many healthcare organizations pay differently based on education level and clinical certifications. A BSN-credentialed RN may earn a base wage premium over an ADN-credentialed RN in the same role. Specialty certifications — CCRN, CEN, PALS, CCP, and others — add hourly or salary differentials on top of base wages. Managing credential-based tiers requires the payroll system to be configured with each credential and its pay adjustment, updated when employees earn or renew credentials, and audited to ensure the correct tier is applied to each clinical staff member. When an employee lets a certification lapse, the differential must be removed promptly from payroll.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>HIPAA and payroll data security at healthcare organizations</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>HIPAA applies to payroll records at healthcare organizations because payroll files often contain or are linked to protected health information — employee names tied to medical leave records, ADA accommodation documentation, workers compensation injury records, and FMLA-related absence records. Payroll system access that is not appropriately restricted creates HIPAA exposure. BEG manages payroll under access protocols consistent with healthcare employer obligations, limiting access to designated personnel with legitimate need and maintaining records under policies appropriate for a HIPAA-covered or business-associate environment.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Per-diem clinical staff and travel nurses</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Per-diem clinical staff — nurses, technicians, and allied health workers called in on an as-needed basis — have variable hours, irregular pay periods, and may work across multiple facilities within the same organization. Travel nurses and allied health travelers engaged through staffing agencies are typically the agency employees — but some healthcare systems directly employ travel staff under a travel contract model. For directly employed travelers, the tax-home rules, per-diem reimbursement tax treatment, and state tax registration for temporary workers must all be managed correctly. BEG handles per-diem and travel staff payroll under the correct treatment for each employment arrangement.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Multi-facility healthcare organizations and rotating staff</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Hospital systems with multiple clinics, urgent care centers, and physician practices often have clinical staff who rotate between facilities in the same pay period. This creates questions about which cost center captures the labor expense, whether different union agreements or wage scales apply at different facilities, and whether multi-site work triggers any tax or licensure obligations. BEG configures payroll to track facility-level labor allocation so cost reports reconcile at the facility and cost-center level without requiring manual adjustments after each pay cycle.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WHO THIS SERVES */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Who This Serves</p>
+            <h2>Healthcare organizations where payroll runs 24/7 and errors have clinical consequences</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+            {[
+              { title: 'Medical practices and physician groups', body: 'Multi-provider practices with clinical and administrative staff, productivity-based physician compensation, and credential-based pay differentials for clinical support staff.' },
+              { title: 'Dental and specialty practices', body: 'Production-based associate dentist compensation, clinical staff shift differentials, and multi-location staff scheduling that affects payroll allocation.' },
+              { title: 'Outpatient clinics and surgery centers', body: 'Per-diem staff management, on-call scheduling for surgical cases, and credential-based RN and surgical tech compensation tiers.' },
+              { title: 'Home health agencies', body: 'Field-based clinical staff with variable hours, mileage reimbursement, and multi-county service area state payroll tax compliance.' },
+              { title: 'Behavioral health organizations', body: 'Clinical staff with varied licensure levels (LCSW, LPC, Psy.D., MD) that affect compensation tiers, billing rates, and supervision requirements.' },
+              { title: 'Healthcare organizations at 15 to 300 employees', body: 'Large enough to need specialized clinical payroll management, small enough that an internal payroll specialist who understands healthcare compliance is difficult to hire and retain.' },
+            ].map((item, i) => (
+              <div key={i} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderLeft: '4px solid #ECAC60', borderRadius: '4px', padding: '1.25rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.95rem', marginBottom: '0.4rem' }}>{item.title}</strong>
+                <p style={{ margin: 0, fontSize: '0.88rem', color: '#666666', lineHeight: '1.55' }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* THREE BONUSES */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -184,6 +241,22 @@ export default function PayrollHealthcarePage() {
               <h3>What if our headcount changes?</h3>
               <p>Your rate adjusts with headcount. Adding or removing employees updates your monthly cost at the same per-employee rate. No contracts to renegotiate.</p>
             </div>
+            <div className="faq-item">
+              <h3>How does BEG handle shift differential calculations for nursing and clinical staff?</h3>
+              <p>BEG configures shift differentials for each clinical role — night, weekend, and holiday rates — and applies them automatically based on the hours worked and shift schedule. In unionized facilities, differential rates are taken from the applicable collective bargaining agreement. Differential pay is included in the regular rate for overtime calculations per FLSA rules.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Does HIPAA apply to payroll data at a healthcare organization?</h3>
+              <p>Yes. Payroll files at healthcare employers often contain or are linked to protected health information — medical leave documentation, ADA accommodations, FMLA records, and workers compensation records. BEG manages payroll access under policies appropriate for a HIPAA-sensitive environment, limiting system access to designated personnel with a legitimate need.</p>
+            </div>
+            <div className="faq-item">
+              <h3>How are per-diem clinical staff handled differently from full-time employees?</h3>
+              <p>Per-diem staff have variable hours and may not work every pay period. BEG tracks per-diem staff hours correctly across irregular schedules, ensures ACA measurement period hours are tracked for eligibility purposes, and applies the correct tax treatment for any per-diem reimbursements paid alongside hourly wages.</p>
+            </div>
+            <div className="faq-item">
+              <h3>Can BEG manage payroll for clinical staff who rotate between multiple facilities?</h3>
+              <p>Yes. BEG configures payroll to track labor allocation by facility or cost center within the same organization. Clinical staff working at multiple locations in the same pay period are allocated correctly so facility-level cost reports reconcile without manual adjustments after each cycle.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -198,12 +271,14 @@ export default function PayrollHealthcarePage() {
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
               { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
+              { '@type': 'Question', name: 'How does BEG handle shift differentials for clinical staff?', acceptedAnswer: { '@type': 'Answer', text: 'BEG configures shift differentials for each clinical role and applies them automatically based on hours worked and shift schedule. In unionized facilities, rates come from the applicable CBA. Differential pay is included in the regular rate for overtime calculations.' } },
+              { '@type': 'Question', name: 'Does HIPAA apply to payroll data at a healthcare organization?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Payroll files at healthcare employers often contain or link to PHI — medical leave records, ADA accommodations, FMLA records. BEG manages payroll access under policies appropriate for a HIPAA-sensitive environment.' } },
             ],
           }),
         }}
       />
 
-    
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

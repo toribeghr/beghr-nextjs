@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Restaurant Payroll Outsourcing: Cost vs. Hiring In-House Manager',
-  description: 'Restaurant payroll outsourcing vs. hiring payroll manager. Save $60K-$90K annually. Handle tipped employees, tax <a href="https://www.dol.gov/agencies/whd/restaurants" target="_blank" rel="noopener noreferrer">compliance</a>, scheduling integration.',
+  description: 'Restaurant payroll outsourcing vs. hiring payroll manager. Save $60K-$90K annually. Handle tipped employees, tax compliance, scheduling integration.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/hospitality/restaurant' },
 };
 
@@ -106,7 +106,7 @@ export default function RestaurantPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Ready to Simplify Restaurant Payroll?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If you're spending $60,000–$100,000+ annually on in-house payroll management, outsourcing is worth exploring. We work with restaurants, bars, and hospitality businesses across the country. Our payroll solution handles tipped employees, multi-location complexity, POS integration, and compliance.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
 

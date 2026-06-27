@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Payroll Outsourcing: Cost vs. Hiring HR Staff',
-  description: 'Nonprofit payroll outsourcing vs. hiring in-house. Save $55K-$85K annually. Simplify tax-exempt <a href="https://www.irs.gov/charities-non-profits" target="_blank" rel="noopener noreferrer">compliance</a>.',
+  description: 'Nonprofit payroll outsourcing vs. hiring in-house. Save $55K-$85K annually. Simplify tax-exempt compliance.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/nonprofits/charity-payroll' },
 };
 
@@ -53,7 +53,7 @@ export default function NonprofitPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Nonprofit Payroll, Mission-Focused.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Keep more dollars in mission work. We handle tax-exempt compliance, grant-funded payroll tracking, and Form 990 reporting.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
         </div>
 
 

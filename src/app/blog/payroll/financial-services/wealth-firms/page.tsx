@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Financial Services Payroll Outsourcing: Cost vs. Hiring HR Manager',
-  description: 'Financial services payroll outsourcing vs. hiring in-house. Save $72K-$108K annually. Handle <a href="https://www.dol.gov/" target="_blank" rel="noopener noreferrer">compliance</a>, commissions, and regulatory requirements.',
+  description: 'Financial services payroll outsourcing vs. hiring in-house. Save $72K-$108K annually. Handle compliance, commissions, and regulatory requirements.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/financial-services/wealth-firms' },
 };
 
@@ -53,7 +53,7 @@ export default function FinancialServicesPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Financial Services Payroll, Regulated & Right.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Commission tracking, compliance reporting, regulatory filings. We handle the complexity so you can focus on client growth.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
         </div>
 
 

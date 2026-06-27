@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator',
-  description: 'Dental office payroll outsourcing vs. hiring in-house. Save $65K+ annually. Manage hygienist tips, <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">compliance</a>, scheduling easily.',
+  description: 'Dental office payroll outsourcing vs. hiring in-house. Save $65K+ annually. Manage hygienist tips, compliance, scheduling easily.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/dental' },
 };
 
@@ -87,7 +87,7 @@ export default function DentalPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Ready to Simplify Dental Office Payroll?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If you're spending $65,000–$100,000+ annually on in-house payroll management, outsourcing makes financial sense. We work with dental practices, orthodontic offices, and dental DSOs across the country. Our managed payroll solution handles everything: tipped employee management, multi-provider compensation, dental-specific compliance, and integration with your practice management system.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
 

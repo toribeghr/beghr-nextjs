@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Retail Payroll Outsourcing: Cost vs. Hiring HR Coordinator',
-  description: 'Retail payroll outsourcing vs. hiring in-house. Save $60K-$90K annually. Handle seasonal staffing and <a href="https://www.dol.gov/" target="_blank" rel="noopener noreferrer">compliance</a> easily.',
+  description: 'Retail payroll outsourcing vs. hiring in-house. Save $60K-$90K annually. Handle seasonal staffing and compliance easily.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/retail/staffing-payroll' },
 };
 
@@ -53,7 +53,7 @@ export default function RetailPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Multi-Store Payroll, Made Simple.</h3>
           <p style={{ marginBottom: '1.5rem' }}>One payroll provider for all locations, time zones, and seasonal staffing changes. Let us handle it so your stores can focus on sales.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
         </div>
 
 

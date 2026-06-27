@@ -197,7 +197,7 @@ export default function LawFirmPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Ready to Explore Outsourced Payroll for Your Firm?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If you're spending $60,000–$100,000+ annually to manage payroll in-house, it's worth having a conversation about outsourcing. We work with law firms across the country—solo practices to 200+ attorney firms. Our managed payroll solution handles everything: processing, compliance, benefits, reporting, and integration with your existing systems. Plus, you get support from actual payroll experts, not a single overworked coordinator.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>

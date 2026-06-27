@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Healthcare Clinic Payroll Outsourcing: Cost vs. Hiring HR Manager',
-  description: 'Healthcare clinic payroll outsourcing vs. hiring in-house. Save $68K-$102K annually. Handle HIPAA <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">compliance</a> and multi-location payroll.',
+  description: 'Healthcare clinic payroll outsourcing vs. hiring in-house. Save $68K-$102K annually. Handle HIPAA compliance and multi-location payroll.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare-general/clinics-payroll' },
 };
 
@@ -51,7 +51,7 @@ export default function HealthcareClinicPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Healthcare Payroll, HIPAA-Compliant.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Multi-location payroll, benefits coordination, HIPAA compliance. Let us handle it so you can focus on patient care.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
         </div>
 
 

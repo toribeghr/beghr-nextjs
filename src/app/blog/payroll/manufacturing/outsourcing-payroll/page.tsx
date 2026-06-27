@@ -3,7 +3,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager',
-  description: 'Manufacturing payroll outsourcing vs. hiring in-house. Save $65K-$100K annually. Handle shift work, overtime, and <a href="https://www.dol.gov/" target="_blank" rel="noopener noreferrer">compliance</a> easily.',
+  description: 'Manufacturing payroll outsourcing vs. hiring in-house. Save $65K-$100K annually. Handle shift work, overtime, and compliance easily.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll' },
 };
 
@@ -53,7 +53,7 @@ export default function ManufacturingPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Manufacturing Payroll, Handled.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Stop managing shift differentials and overtime rules. We handle the compliance, so you can focus on production and people.</p>
-          <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
         </div>
 
 

@@ -40,3 +40,6 @@ yarn-error.log*
 *.swp
 *.swo
 *~
+*.tmp
+.~lock.*
+weplacelawyers-migration-plan.*

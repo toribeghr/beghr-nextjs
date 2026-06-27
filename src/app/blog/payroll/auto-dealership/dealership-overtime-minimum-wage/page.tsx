@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Dealership Overtime and Minimum Wage: FLSA Rules for F&I, Service Advisors, and Technicians | BEG',
   description: 'How FLSA overtime and minimum wage rules apply to auto dealership employees — the F&I and service advisor exemptions, flat-rate technician minimum wage floor, and what dealers most often get wrong.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/dealership-overtime-minimum-wage' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/dealership-overtime-minimum-wage' },,
+  openGraph: {
+    title: 'Dealership Overtime and Minimum Wage: FLSA Rules for F&I, Service Advisors, and Technicians | BEG',
+    description: 'How FLSA overtime and minimum wage rules apply to auto dealership employees — the F&I and service advisor exemptions, flat-rate technician minimum wage ...',
+    url: 'https://beghr.com/blog/payroll/auto-dealership/dealership-overtime-minimum-wage',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Dealership Overtime and Minimum Wage: FLSA Rules for F&I, Service Advisors, and Technicians | BEG', description: 'How FLSA overtime and minimum wage rules apply to auto dealership employees — the F&I and service advisor exemptions, flat-rate technician minimum wage ...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

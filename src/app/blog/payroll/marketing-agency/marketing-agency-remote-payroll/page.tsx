@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG',
   description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations — state registration, withholding, unemployment insurance, and the most common compliance gaps.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll' },,
+  openGraph: {
+    title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG',
+    description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations — state registration, withholding, unemployment insurance, and t...',
+    url: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG', description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations — state registration, withholding, unemployment insurance, and t...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

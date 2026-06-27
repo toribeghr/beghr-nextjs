@@ -7,7 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG',
   description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/finance' },
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/finance' },,
+  openGraph: {
+    title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG',
+    description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.',
+    url: 'https://beghr.com/services/managed-payroll/finance',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG', description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('payroll-finance');

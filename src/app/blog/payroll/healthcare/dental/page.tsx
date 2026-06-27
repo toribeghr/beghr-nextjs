@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
   description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/dental' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/dental' },,
+  openGraph: {
+    title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
+    description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
+    url: 'https://beghr.com/blog/payroll/healthcare/dental',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)', description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

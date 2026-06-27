@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Childcare Center Payroll and FLSA Overtime: What Operators Need to Know | BEG',
   description: 'FLSA overtime rules for childcare staff — which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most common compliance mistakes.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime' },,
+  openGraph: {
+    title: 'Childcare Center Payroll and FLSA Overtime: What Operators Need to Know | BEG',
+    description: 'FLSA overtime rules for childcare staff — which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...',
+    url: 'https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Childcare Center Payroll and FLSA Overtime: What Operators Need to Know | BEG', description: 'FLSA overtime rules for childcare staff — which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Trucking Company Payroll Taxes: What Every Fleet Owner Needs to Know | BEG',
   description: 'A plain-English guide to payroll taxes for trucking companies — FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when drivers cross state lines.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes' },,
+  openGraph: {
+    title: 'Trucking Company Payroll Taxes: What Every Fleet Owner Needs to Know | BEG',
+    description: 'A plain-English guide to payroll taxes for trucking companies — FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...',
+    url: 'https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Trucking Company Payroll Taxes: What Every Fleet Owner Needs to Know | BEG', description: 'A plain-English guide to payroll taxes for trucking companies — FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

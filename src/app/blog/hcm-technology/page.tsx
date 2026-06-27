@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'HCM Technology & HR Software Guides | BEG Blog',
   description: 'HCM platform reviews, HR automation guides, and payroll compliance updates for growing businesses. Powered by isolved and managed by BEG.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology' },
+  alternates: { canonical: 'https://beghr.com/blog/hcm-technology' },,
+  openGraph: {
+    title: 'HCM Technology & HR Software Guides | BEG Blog',
+    description: 'HCM platform reviews, HR automation guides, and payroll compliance updates for growing businesses. Powered by isolved and managed by BEG.',
+    url: 'https://beghr.com/blog/hcm-technology',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'HCM Technology & HR Software Guides | BEG Blog', description: 'HCM platform reviews, HR automation guides, and payroll compliance updates for growing businesses. Powered by isolved and managed by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const posts = [

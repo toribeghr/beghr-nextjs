@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Franchise Owners | BEG',
   description: 'Franchise payroll outsourcing vs. hiring in-house. Real cost comparison for multi-location franchise operators. Multi-brand management, state minimum wage compliance, and employee transfers covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/managed-payroll-vs-in-house' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/managed-payroll-vs-in-house' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Hiring In-House for Franchise Owners | BEG',
+    description: 'Franchise payroll outsourcing vs. hiring in-house. Real cost comparison for multi-location franchise operators. Multi-brand management, state minimum wa...',
+    url: 'https://beghr.com/blog/payroll/franchise/managed-payroll-vs-in-house',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Franchise Owners | BEG', description: 'Franchise payroll outsourcing vs. hiring in-house. Real cost comparison for multi-location franchise operators. Multi-brand management, state minimum wa...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

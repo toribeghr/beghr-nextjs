@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Contact Business Executive Group | BEG HR Services',
-  description: 'Contact Business Executive Group. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement services nationwide.',
+  description: 'Contact BEG. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement services nationwide.',
   alternates: {
     canonical: 'https://beghr.com/contact',
   },

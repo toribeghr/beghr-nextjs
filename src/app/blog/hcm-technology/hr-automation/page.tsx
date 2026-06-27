@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
   description: 'HR automation guide for growing companies. Payroll, benefits, onboarding, and compliance workflows. Time savings by function, what to automate first, and when to outsource instead.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },
+  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },,
+  openGraph: {
+    title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+    description: 'HR automation guide for growing companies. Payroll, benefits, onboarding, and compliance workflows. Time savings by function, what to automate first, an...',
+    url: 'https://beghr.com/blog/hcm-technology/hr-automation',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', description: 'HR automation guide for growing companies. Payroll, benefits, onboarding, and compliance workflows. Time savings by function, what to automate first, an...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

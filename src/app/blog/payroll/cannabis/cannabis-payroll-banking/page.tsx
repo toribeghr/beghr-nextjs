@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Cannabis Payroll and Banking: How to Pay Employees When Banks Won\'t Help | BEG',
   description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees — from cannabis-friendly banks to cash payroll compliance.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking' },,
+  openGraph: {
+    title: 'Cannabis Payroll and Banking: How to Pay Employees When Banks Won\',
+    description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees — from cannabis-friendly bank...',
+    url: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll and Banking: How to Pay Employees When Banks Won\', description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees — from cannabis-friendly bank...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

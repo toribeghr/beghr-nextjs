@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Trucking Companies | BEG',
   description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10–200 drivers. Driver classification, per diem, and multi-state compliance included.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/managed-payroll-vs-in-house' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/managed-payroll-vs-in-house' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Hiring In-House for Trucking Companies | BEG',
+    description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10–200 drivers. Driver classification, per diem, ...',
+    url: 'https://beghr.com/blog/payroll/trucking/managed-payroll-vs-in-house',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Trucking Companies | BEG', description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10–200 drivers. Driver classification, per diem, ...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

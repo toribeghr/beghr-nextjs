@@ -5,9 +5,19 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Trucking Companies | Driver Pay & DOT Compliance | BEG',
-  description: 'Trucking payroll fully managed at $25–$45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/trucking' },
+  title: 'Trucking Company Managed Payroll | Driver Pay | BEG',
+  description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/trucking' },,
+  openGraph: {
+    title: 'Trucking Company Managed Payroll | Driver Pay | BEG',
+    description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
+    url: 'https://beghr.com/services/managed-payroll/trucking',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Trucking Company Managed Payroll | Driver Pay | BEG', description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('payroll-trucking');

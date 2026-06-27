@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Minister Housing Allowance: How to Set It Up in Payroll Correctly | BEG',
   description: 'A step-by-step guide to setting up minister housing allowance in payroll — designation requirements, IRS limits, what is excluded from income tax, and how to report it on a W-2.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/church/minister-housing-allowance-payroll' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/church/minister-housing-allowance-payroll' },,
+  openGraph: {
+    title: 'Minister Housing Allowance: How to Set It Up in Payroll Correctly | BEG',
+    description: 'A step-by-step guide to setting up minister housing allowance in payroll — designation requirements, IRS limits, what is excluded from income tax, and h...',
+    url: 'https://beghr.com/blog/payroll/church/minister-housing-allowance-payroll',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Minister Housing Allowance: How to Set It Up in Payroll Correctly | BEG', description: 'A step-by-step guide to setting up minister housing allowance in payroll — designation requirements, IRS limits, what is excluded from income tax, and h...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

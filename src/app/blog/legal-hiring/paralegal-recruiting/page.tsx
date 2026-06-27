@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Law Firm Paralegal Hiring: Finding the Right Paralegals for Your Practice Area (2026)',
   description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ones.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting' },
+  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting' },,
+  openGraph: {
+    title: 'Law Firm Paralegal Hiring: Finding the Right Paralegals for Your Practice Area (2026)',
+    description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...',
+    url: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Law Firm Paralegal Hiring: Finding the Right Paralegals for Your Practice Area (2026)', description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

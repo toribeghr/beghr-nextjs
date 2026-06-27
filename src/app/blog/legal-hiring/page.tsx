@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Legal Hiring & Recruiting | BEG Blog',
   description: 'Attorney market trends, law firm hiring strategies, and placement insights.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring' },
+  alternates: { canonical: 'https://beghr.com/blog/legal-hiring' },,
+  openGraph: {
+    title: 'Legal Hiring & Recruiting | BEG Blog',
+    description: 'Attorney market trends, law firm hiring strategies, and placement insights.',
+    url: 'https://beghr.com/blog/legal-hiring',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Legal Hiring & Recruiting | BEG Blog', description: 'Attorney market trends, law firm hiring strategies, and placement insights.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const posts = [

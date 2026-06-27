@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Solo Lawyer Expansion: When and How to Hire Your First Associate (2026)',
   description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year one.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/solo-firm-growth' },
+  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/solo-firm-growth' },,
+  openGraph: {
+    title: 'Solo Lawyer Expansion: When and How to Hire Your First Associate (2026)',
+    description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...',
+    url: 'https://beghr.com/blog/legal-hiring/solo-firm-growth',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Solo Lawyer Expansion: When and How to Hire Your First Associate (2026)', description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

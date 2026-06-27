@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Hiring a Payroll Manager vs. Outsourcing: Full Cost Comparison (2026)',
   description: 'What does a payroll manager actually cost vs. managed payroll? Side-by-side breakdown of salary, benefits, errors, and total cost for companies with 20–200 employees.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing' },
+  alternates: { canonical: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing' },,
+  openGraph: {
+    title: 'Hiring a Payroll Manager vs. Outsourcing: Full Cost Comparison (2026)',
+    description: 'What does a payroll manager actually cost vs. managed payroll? Side-by-side breakdown of salary, benefits, errors, and total cost for companies with 20–...',
+    url: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Hiring a Payroll Manager vs. Outsourcing: Full Cost Comparison (2026)', description: 'What does a payroll manager actually cost vs. managed payroll? Side-by-side breakdown of salary, benefits, errors, and total cost for companies with 20–...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

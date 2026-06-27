@@ -2,10 +2,20 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Sponsorship | Business Executive Group',
-  description: 'Sponsor Business Executive Group events and reach 1,500+ DFW entrepreneurs. Build brand visibility with decision-makers in the Dallas-Fort Worth business community.',
+  description: 'Sponsor BEG events and reach 1,500+ DFW entrepreneurs. Build brand visibility with decision-makers in the Dallas-Fort Worth business community.',
   alternates: {
     canonical: 'https://beghr.com/network/sponsorship',
+  },,
+  openGraph: {
+    title: 'Sponsorship | Business Executive Group',
+    description: 'Sponsor BEG events and reach 1,500+ DFW entrepreneurs. Build brand visibility with decision-makers in the Dallas-Fort Worth business community.',
+    url: 'https://beghr.com/network/sponsorship',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
   },
+  twitter: { card: 'summary_large_image', title: 'Sponsorship | Business Executive Group', description: 'Sponsor BEG events and reach 1,500+ DFW entrepreneurs. Build brand visibility with decision-makers in the Dallas-Fort Worth business community.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 export default function SponsorshipPage() {

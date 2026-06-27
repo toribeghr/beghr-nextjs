@@ -3,9 +3,19 @@ import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
-  title: 'iSolved vs Paylocity: Which HCM Platform Is Right for You? | BEG',
+  title: 'iSolved vs Paylocity: HCM Platform Comparison | BEG',
   description: 'Side-by-side comparison of iSolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paylocity' },
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paylocity' },,
+  openGraph: {
+    title: 'iSolved vs Paylocity: HCM Platform Comparison | BEG',
+    description: 'Side-by-side comparison of iSolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.',
+    url: 'https://beghr.com/services/hcm-software/isolved-vs-paylocity',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved vs Paylocity: HCM Platform Comparison | BEG', description: 'Side-by-side comparison of iSolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

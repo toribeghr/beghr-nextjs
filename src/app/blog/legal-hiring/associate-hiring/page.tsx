@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)',
   description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the playbook.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/associate-hiring' },
+  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/associate-hiring' },,
+  openGraph: {
+    title: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)',
+    description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...',
+    url: 'https://beghr.com/blog/legal-hiring/associate-hiring',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)', description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

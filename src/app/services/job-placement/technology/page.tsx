@@ -7,7 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'IT & Technology Job Placement | Dev & Data Recruiting | BEG',
   description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Book a discovery call.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/technology' },
+  alternates: { canonical: 'https://beghr.com/services/job-placement/technology' },,
+  openGraph: {
+    title: 'IT & Technology Job Placement | Dev & Data Recruiting | BEG',
+    description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Book a discovery call.',
+    url: 'https://beghr.com/services/job-placement/technology',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'IT & Technology Job Placement | Dev & Data Recruiting | BEG', description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Book a discovery call.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('placement-technology');

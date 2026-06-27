@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Nonprofit Payroll Outsourcing: Grant Allocation, 990 Reporting, and Compliance (2026)',
   description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/nonprofits/charity-payroll' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/nonprofits/charity-payroll' },,
+  openGraph: {
+    title: 'Nonprofit Payroll Outsourcing: Grant Allocation, 990 Reporting, and Compliance (2026)',
+    description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.',
+    url: 'https://beghr.com/blog/payroll/nonprofits/charity-payroll',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Payroll Outsourcing: Grant Allocation, 990 Reporting, and Compliance (2026)', description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

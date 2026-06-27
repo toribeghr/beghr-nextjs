@@ -5,11 +5,21 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Law Firm Recruiting & Attorney Placement Services | Fill Roles in 23-35 Days | BEG',
-  description: 'Specialized recruiting for law firms and businesses. Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
+  title: 'Attorney Placement | Roles Filled in 23-35 Days | BEG',
+  description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement',
+  },,
+  openGraph: {
+    title: 'Attorney Placement | Roles Filled in 23-35 Days | BEG',
+    description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
+    url: 'https://beghr.com/services/job-placement',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
   },
+  twitter: { card: 'summary_large_image', title: 'Attorney Placement | Roles Filled in 23-35 Days | BEG', description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('job-placement');

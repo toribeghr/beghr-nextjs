@@ -5,9 +5,19 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Engineering | Prevailing Wage & Payroll | BEG',
+  title: 'iSolved HCM for Engineering | Prevailing Wage | BEG',
   description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/engineering' },
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/engineering' },,
+  openGraph: {
+    title: 'iSolved HCM for Engineering | Prevailing Wage | BEG',
+    description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
+    url: 'https://beghr.com/services/hcm-software/engineering',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Engineering | Prevailing Wage | BEG', description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('hcm-engineering');

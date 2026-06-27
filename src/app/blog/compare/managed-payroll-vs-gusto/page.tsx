@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Gusto: Which Is Right for Your Business? (2026)',
   description: 'Gusto handles software. BEG managed payroll handles everything. Side-by-side comparison of cost, features, and what actually gets done for companies with 20–200 employees.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-gusto' },
+  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-gusto' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Gusto: Which Is Right for Your Business? (2026)',
+    description: 'Gusto handles software. BEG managed payroll handles everything. Side-by-side comparison of cost, features, and what actually gets done for companies wit...',
+    url: 'https://beghr.com/blog/compare/managed-payroll-vs-gusto',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Gusto: Which Is Right for Your Business? (2026)', description: 'Gusto handles software. BEG managed payroll handles everything. Side-by-side comparison of cost, features, and what actually gets done for companies wit...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

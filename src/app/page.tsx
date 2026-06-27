@@ -4,7 +4,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll, HCM Software & Job Placement | BEG',
-  description: 'Business Executive Group delivers fully managed payroll at $25-$45 PEPM, iSolved HCM software with BEG implementation and support, and specialized job placement in 23-35 days.',
+  description: 'BEG delivers fully managed payroll at $25-$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23-35 days.',
   alternates: {
     canonical: 'https://beghr.com',
   },

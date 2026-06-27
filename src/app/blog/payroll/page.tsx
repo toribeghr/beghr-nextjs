@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Payroll & HR Compliance | BEG Blog',
   description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll' },,
+  openGraph: {
+    title: 'Payroll & HR Compliance | BEG Blog',
+    description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.',
+    url: 'https://beghr.com/blog/payroll',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Payroll & HR Compliance | BEG Blog', description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const industryPosts = [

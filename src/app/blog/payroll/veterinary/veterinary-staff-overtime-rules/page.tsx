@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Veterinary Practice Payroll: FLSA Overtime Rules for Vet Staff | BEG',
   description: 'Which veterinary employees are exempt from FLSA overtime — and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common compliance mistakes.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules' },,
+  openGraph: {
+    title: 'Veterinary Practice Payroll: FLSA Overtime Rules for Vet Staff | BEG',
+    description: 'Which veterinary employees are exempt from FLSA overtime — and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...',
+    url: 'https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Veterinary Practice Payroll: FLSA Overtime Rules for Vet Staff | BEG', description: 'Which veterinary employees are exempt from FLSA overtime — and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Rippling vs. Managed Payroll: Is the All-in-One Platform Worth It? (2026)',
   description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled — not rebuilt — managed payroll may cost 60–70% less. Full comparison.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-rippling' },
+  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-rippling' },,
+  openGraph: {
+    title: 'Rippling vs. Managed Payroll: Is the All-in-One Platform Worth It? (2026)',
+    description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled — not rebuilt — managed payroll may cost 60–70% less. Full compar...',
+    url: 'https://beghr.com/blog/compare/managed-payroll-vs-rippling',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Rippling vs. Managed Payroll: Is the All-in-One Platform Worth It? (2026)', description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled — not rebuilt — managed payroll may cost 60–70% less. Full compar...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

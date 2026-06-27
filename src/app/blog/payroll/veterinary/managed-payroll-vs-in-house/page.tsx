@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Veterinary Practices | BEG',
   description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA compliance, and multi-location expansion covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Hiring In-House for Veterinary Practices | BEG',
+    description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...',
+    url: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Veterinary Practices | BEG', description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

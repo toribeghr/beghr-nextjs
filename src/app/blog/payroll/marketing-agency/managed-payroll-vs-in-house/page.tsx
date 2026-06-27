@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG',
   description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner salary, contractor vs. W-2 classification covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG',
+    description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner...',
+    url: 'https://beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG', description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Legal Staffing Agency vs. Attorney Placement Service: What\'s the Difference? (2026)',
   description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you sign an engagement.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/legal-staffing-vs-placement' },
+  alternates: { canonical: 'https://beghr.com/blog/compare/legal-staffing-vs-placement' },,
+  openGraph: {
+    title: 'Legal Staffing Agency vs. Attorney Placement Service: What\',
+    description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...',
+    url: 'https://beghr.com/blog/compare/legal-staffing-vs-placement',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Legal Staffing Agency vs. Attorney Placement Service: What\', description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

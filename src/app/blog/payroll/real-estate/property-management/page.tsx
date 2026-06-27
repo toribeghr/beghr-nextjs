@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Real Estate Payroll Outsourcing: Managing W-2 Staff and 1099 Agents (2026)',
   description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Save $45K–$80K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/real-estate/property-management' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/real-estate/property-management' },,
+  openGraph: {
+    title: 'Real Estate Payroll Outsourcing: Managing W-2 Staff and 1099 Agents (2026)',
+    description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...',
+    url: 'https://beghr.com/blog/payroll/real-estate/property-management',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Real Estate Payroll Outsourcing: Managing W-2 Staff and 1099 Agents (2026)', description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

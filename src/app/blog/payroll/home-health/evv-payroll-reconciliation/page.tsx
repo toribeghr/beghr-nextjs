@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Electronic Visit Verification and Payroll: How to Reconcile EVV Data | BEG',
   description: 'How to reconcile EVV system data with payroll for home health agencies — the most common discrepancy types, how to resolve them, and how to stay Medicaid-compliant.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation' },,
+  openGraph: {
+    title: 'Electronic Visit Verification and Payroll: How to Reconcile EVV Data | BEG',
+    description: 'How to reconcile EVV system data with payroll for home health agencies — the most common discrepancy types, how to resolve them, and how to stay Medicai...',
+    url: 'https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Electronic Visit Verification and Payroll: How to Reconcile EVV Data | BEG', description: 'How to reconcile EVV system data with payroll for home health agencies — the most common discrepancy types, how to resolve them, and how to stay Medicai...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

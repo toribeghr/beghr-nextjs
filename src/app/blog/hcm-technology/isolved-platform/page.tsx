@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It\'s Built For (2026)',
   description: 'Full isolved HCM platform review. Payroll, benefits, time and attendance, talent management, and the Connector for Claude. Who isolved fits best and how BEG manages it for you.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/isolved-platform' },
+  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/isolved-platform' },,
+  openGraph: {
+    title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It\',
+    description: 'Full isolved HCM platform review. Payroll, benefits, time and attendance, talent management, and the Connector for Claude. Who isolved fits best and how...',
+    url: 'https://beghr.com/blog/hcm-technology/isolved-platform',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It\', description: 'Full isolved HCM platform review. Payroll, benefits, time and attendance, talent management, and the Connector for Claude. Who isolved fits best and how...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

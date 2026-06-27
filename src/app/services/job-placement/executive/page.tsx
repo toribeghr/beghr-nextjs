@@ -5,9 +5,19 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Executive Search Services | C-Level & Director Recruiting | BEG',
+  title: 'Executive Search Services | C-Level Recruiting | BEG',
   description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/executive' },
+  alternates: { canonical: 'https://beghr.com/services/job-placement/executive' },,
+  openGraph: {
+    title: 'Executive Search Services | C-Level Recruiting | BEG',
+    description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.',
+    url: 'https://beghr.com/services/job-placement/executive',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Executive Search Services | C-Level Recruiting | BEG', description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('placement-executive');

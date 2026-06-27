@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup | BEG',
   description: 'How to structure per diem pay for truck drivers correctly — IRS accountable plan rules, the 2025 rate, how per diem reduces payroll taxes, and common setup mistakes.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers' },,
+  openGraph: {
+    title: 'Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup | BEG',
+    description: 'How to structure per diem pay for truck drivers correctly — IRS accountable plan rules, the 2025 rate, how per diem reduces payroll taxes, and common se...',
+    url: 'https://beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup | BEG', description: 'How to structure per diem pay for truck drivers correctly — IRS accountable plan rules, the 2025 rate, how per diem reduces payroll taxes, and common se...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

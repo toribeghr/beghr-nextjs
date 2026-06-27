@@ -5,7 +5,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 export const metadata: Metadata = {
   title: 'iSolved vs Paycom: Side-by-Side HCM Comparison | BEG',
   description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paycom' },
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paycom' },,
+  openGraph: {
+    title: 'iSolved vs Paycom: Side-by-Side HCM Comparison | BEG',
+    description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.',
+    url: 'https://beghr.com/services/hcm-software/isolved-vs-paycom',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved vs Paycom: Side-by-Side HCM Comparison | BEG', description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

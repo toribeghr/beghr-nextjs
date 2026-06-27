@@ -5,9 +5,19 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Churches & Faith-Based Organizations | Minister Housing Allowance | BEG',
-  description: 'Church and faith-based organization payroll fully managed at $25–$45 PEPM. Minister housing allowance, dual-status clergy tax treatment, and SECA elections handled. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/church' },
+  title: 'Church & Ministry Managed Payroll | Housing Allowance | BEG',
+  description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/church' },,
+  openGraph: {
+    title: 'Church & Ministry Managed Payroll | Housing Allowance | BEG',
+    description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
+    url: 'https://beghr.com/services/managed-payroll/church',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Church & Ministry Managed Payroll | Housing Allowance | BEG', description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('payroll-church');

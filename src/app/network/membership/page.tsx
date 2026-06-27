@@ -5,7 +5,17 @@ export const metadata: Metadata = {
   description: 'Join 1,500+ DFW entrepreneurs in the Business Executive Group network. Access events, resources, and a community built for business owners.',
   alternates: {
     canonical: 'https://beghr.com/network/membership',
+  },,
+  openGraph: {
+    title: 'Membership | Business Executive Group',
+    description: 'Join 1,500+ DFW entrepreneurs in the Business Executive Group network. Access events, resources, and a community built for business owners.',
+    url: 'https://beghr.com/network/membership',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
   },
+  twitter: { card: 'summary_large_image', title: 'Membership | Business Executive Group', description: 'Join 1,500+ DFW entrepreneurs in the Business Executive Group network. Access events, resources, and a community built for business owners.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 export default function MembershipPage() {

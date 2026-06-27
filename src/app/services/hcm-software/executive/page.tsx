@@ -5,9 +5,19 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Executive Teams | Deferred Comp Platform | BEG',
+  title: 'iSolved HCM for Executive Teams | Deferred Comp | BEG',
   description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/executive' },
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/executive' },,
+  openGraph: {
+    title: 'iSolved HCM for Executive Teams | Deferred Comp | BEG',
+    description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
+    url: 'https://beghr.com/services/hcm-software/executive',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Executive Teams | Deferred Comp | BEG', description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('hcm-executive');

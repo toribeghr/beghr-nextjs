@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Home Health Agency Payroll: How to Handle Travel Time Between Clients | BEG',
   description: 'FLSA rules on compensable travel time for home health aides and visiting nurses — what must be paid, what is excluded, and how to set up travel time tracking in payroll.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/home-health-travel-time' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/home-health-travel-time' },,
+  openGraph: {
+    title: 'Home Health Agency Payroll: How to Handle Travel Time Between Clients | BEG',
+    description: 'FLSA rules on compensable travel time for home health aides and visiting nurses — what must be paid, what is excluded, and how to set up travel time tra...',
+    url: 'https://beghr.com/blog/payroll/home-health/home-health-travel-time',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Home Health Agency Payroll: How to Handle Travel Time Between Clients | BEG', description: 'FLSA rules on compensable travel time for home health aides and visiting nurses — what must be paid, what is excluded, and how to set up travel time tra...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

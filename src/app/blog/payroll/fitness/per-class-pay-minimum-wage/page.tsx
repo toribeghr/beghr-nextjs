@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Per-Class Pay and Minimum Wage: Payroll Compliance for Fitness Studios | BEG',
   description: 'How to calculate minimum wage compliance for fitness instructors paid per class — what counts as compensable time, how to calculate the floor, and what happens when per-class pay falls short.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage' },,
+  openGraph: {
+    title: 'Per-Class Pay and Minimum Wage: Payroll Compliance for Fitness Studios | BEG',
+    description: 'How to calculate minimum wage compliance for fitness instructors paid per class — what counts as compensable time, how to calculate the floor, and what ...',
+    url: 'https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Per-Class Pay and Minimum Wage: Payroll Compliance for Fitness Studios | BEG', description: 'How to calculate minimum wage compliance for fitness instructors paid per class — what counts as compensable time, how to calculate the floor, and what ...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

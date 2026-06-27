@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Churches | BEG',
   description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Social Security opt-out, and dual-tax status covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/church/managed-payroll-vs-in-house' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/church/managed-payroll-vs-in-house' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Hiring In-House for Churches | BEG',
+    description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Soci...',
+    url: 'https://beghr.com/blog/payroll/church/managed-payroll-vs-in-house',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Churches | BEG', description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Soci...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'iSolved People Cloud Review: Features, Pricing, and What to Expect in 2026',
   description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Paylocity, and ADP.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/isolved-platform' },
+  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/isolved-platform' },,
+  openGraph: {
+    title: 'iSolved People Cloud Review: Features, Pricing, and What to Expect in 2026',
+    description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...',
+    url: 'https://beghr.com/blog/hcm-technology/isolved-platform',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved People Cloud Review: Features, Pricing, and What to Expect in 2026', description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

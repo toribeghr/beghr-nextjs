@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Paychex vs. Managed Payroll: Is Paychex Flex Right for Your Company? (2026)',
   description: 'Paychex Flex is powerful payroll software — but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–200 employees.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex' },
+  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex' },,
+  openGraph: {
+    title: 'Paychex vs. Managed Payroll: Is Paychex Flex Right for Your Company? (2026)',
+    description: 'Paychex Flex is powerful payroll software — but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...',
+    url: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Paychex vs. Managed Payroll: Is Paychex Flex Right for Your Company? (2026)', description: 'Paychex Flex is powerful payroll software — but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

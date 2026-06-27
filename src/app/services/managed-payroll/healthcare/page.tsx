@@ -5,9 +5,19 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Healthcare | Shift Differential & Compliance | BEG',
+  title: 'Healthcare Managed Payroll | Shift Differential | BEG',
   description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/healthcare' },
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/healthcare' },,
+  openGraph: {
+    title: 'Healthcare Managed Payroll | Shift Differential | BEG',
+    description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
+    url: 'https://beghr.com/services/managed-payroll/healthcare',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Managed Payroll | Shift Differential | BEG', description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('payroll-healthcare');

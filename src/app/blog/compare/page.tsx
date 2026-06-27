@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center',
   description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.',
-  alternates: { canonical: 'https://beghr.com/blog/compare' },
+  alternates: { canonical: 'https://beghr.com/blog/compare' },,
+  openGraph: {
+    title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center',
+    description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.',
+    url: 'https://beghr.com/blog/compare',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center', description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const INDUSTRY_COMPARISONS = [

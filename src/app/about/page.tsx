@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About Business Executive Group | BEG HR',
-  description: 'Business Executive Group is an established entrepreneur network with 1,500+ members. We deliver managed payroll, HCM software, and job placement services nationwide.',
+  description: 'Business Executive Group is an established network with 1,500+ members. We deliver managed payroll, HCM software, and job placement services nationwide.',
   alternates: {
     canonical: 'https://beghr.com/about',
   },

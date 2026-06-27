@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Childcare Centers | BEG',
   description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy documentation, FLSA compliance, and state subsidy programs covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Hiring In-House for Childcare Centers | BEG',
+    description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy documentati...',
+    url: 'https://beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Childcare Centers | BEG', description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy documentati...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

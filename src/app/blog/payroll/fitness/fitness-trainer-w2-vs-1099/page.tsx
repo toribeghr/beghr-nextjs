@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Fitness Trainer W-2 vs. 1099: IRS Classification Rules for Studios and Gyms | BEG',
   description: 'How to correctly classify fitness trainers as employees or independent contractors — the IRS factors, state law differences, and what happens if a studio gets it wrong.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099' },,
+  openGraph: {
+    title: 'Fitness Trainer W-2 vs. 1099: IRS Classification Rules for Studios and Gyms | BEG',
+    description: 'How to correctly classify fitness trainers as employees or independent contractors — the IRS factors, state law differences, and what happens if a studi...',
+    url: 'https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Fitness Trainer W-2 vs. 1099: IRS Classification Rules for Studios and Gyms | BEG', description: 'How to correctly classify fitness trainers as employees or independent contractors — the IRS factors, state law differences, and what happens if a studi...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

@@ -7,7 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG',
   description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/executive' },
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/executive' },,
+  openGraph: {
+    title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG',
+    description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
+    url: 'https://beghr.com/services/managed-payroll/executive',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG', description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('payroll-executive');

@@ -2,9 +2,19 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll Pricing | $25–$45 Per Employee Per Month | BEG',
-  description: 'BEG managed payroll pricing starts at $25 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See exactly what is included and get your exact quote.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/pricing' },
+  title: 'Managed Payroll Pricing | $25–45 PEPM | BEG',
+  description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.',
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/pricing' },,
+  openGraph: {
+    title: 'Managed Payroll Pricing | $25–45 PEPM | BEG',
+    description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.',
+    url: 'https://beghr.com/services/managed-payroll/pricing',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Pricing | $25–45 PEPM | BEG', description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

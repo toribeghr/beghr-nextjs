@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Deel: What Growing Companies Need to Know (2026)',
   description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually delivers.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-deel' },
+  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-deel' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Deel: What Growing Companies Need to Know (2026)',
+    description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually del...',
+    url: 'https://beghr.com/blog/compare/managed-payroll-vs-deel',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Deel: What Growing Companies Need to Know (2026)', description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually del...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

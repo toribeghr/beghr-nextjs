@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG',
   description: 'A practical guide to DVM compensation structures in payroll — base salary, production bonus calculation, associate vs. owner pay, and the most common setup errors.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll' },,
+  openGraph: {
+    title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG',
+    description: 'A practical guide to DVM compensation structures in payroll — base salary, production bonus calculation, associate vs. owner pay, and the most common se...',
+    url: 'https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG', description: 'A practical guide to DVM compensation structures in payroll — base salary, production bonus calculation, associate vs. owner pay, and the most common se...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

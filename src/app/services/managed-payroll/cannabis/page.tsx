@@ -5,9 +5,19 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Cannabis Companies & Dispensaries | 280E Compliance | BEG',
-  description: 'Cannabis and dispensary payroll fully managed at $25–$45 PEPM. 280E compliance, state licensing employment rules, and banking-adjacent payroll complexity handled. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/cannabis' },
+  title: 'Cannabis Managed Payroll | 280E Compliance | BEG',
+  description: 'Cannabis payroll fully managed at $25–45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.',
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/cannabis' },,
+  openGraph: {
+    title: 'Cannabis Managed Payroll | 280E Compliance | BEG',
+    description: 'Cannabis payroll fully managed at $25–45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.',
+    url: 'https://beghr.com/services/managed-payroll/cannabis',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Cannabis Managed Payroll | 280E Compliance | BEG', description: 'Cannabis payroll fully managed at $25–45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('payroll-cannabis');

@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Fitness Studios and Gyms | BEG',
   description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification, ACA threshold, and commission pay covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house' },
+  alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house' },,
+  openGraph: {
+    title: 'Managed Payroll vs. Hiring In-House for Fitness Studios and Gyms | BEG',
+    description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification, ...',
+    url: 'https://beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Fitness Studios and Gyms | BEG', description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification, ...', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const faqs = [

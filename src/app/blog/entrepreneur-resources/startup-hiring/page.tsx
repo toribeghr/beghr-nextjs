@@ -3,7 +3,17 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Startup Hiring 101: Building Your First Team',
   description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.',
-  alternates: { canonical: 'https://beghr.com/blog/entrepreneur-resources/startup-hiring' },
+  alternates: { canonical: 'https://beghr.com/blog/entrepreneur-resources/startup-hiring' },,
+  openGraph: {
+    title: 'Startup Hiring 101: Building Your First Team',
+    description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.',
+    url: 'https://beghr.com/blog/entrepreneur-resources/startup-hiring',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Startup Hiring 101: Building Your First Team', description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 export default function StartupHiringPage() {

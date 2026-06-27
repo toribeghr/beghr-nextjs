@@ -5,9 +5,19 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Veterinary Practices | Production Pay & Relief Vet Compliance | BEG',
-  description: 'Veterinary payroll fully managed at $25–$45 PEPM. Production-based associate pay, relief vet 1099 compliance, and mixed staff handled. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/veterinary' },
+  title: 'Veterinary Practice Managed Payroll | Production Pay | BEG',
+  description: 'Veterinary payroll fully managed at $25–45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.',
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/veterinary' },,
+  openGraph: {
+    title: 'Veterinary Practice Managed Payroll | Production Pay | BEG',
+    description: 'Veterinary payroll fully managed at $25–45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.',
+    url: 'https://beghr.com/services/managed-payroll/veterinary',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Veterinary Practice Managed Payroll | Production Pay | BEG', description: 'Veterinary payroll fully managed at $25–45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('payroll-veterinary');

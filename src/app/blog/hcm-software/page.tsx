@@ -4,7 +4,17 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'HCM Software & HR Tech | BEG Blog',
   description: 'iSolved features, HR automation, and software comparisons for growing businesses.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-software' },
+  alternates: { canonical: 'https://beghr.com/blog/hcm-software' },,
+  openGraph: {
+    title: 'HCM Software & HR Tech | BEG Blog',
+    description: 'iSolved features, HR automation, and software comparisons for growing businesses.',
+    url: 'https://beghr.com/blog/hcm-software',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'HCM Software & HR Tech | BEG Blog', description: 'iSolved features, HR automation, and software comparisons for growing businesses.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const posts = [

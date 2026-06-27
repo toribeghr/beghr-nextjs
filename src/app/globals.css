@@ -235,62 +235,101 @@ p {
   color: var(--gold-light);
 }
 
+/* Hamburger button */
 .nav-toggle {
   display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26px;
+  height: 20px;
   background: none;
   border: 0;
-  color: #fff;
-  font-size: 1.6rem;
   cursor: pointer;
+  padding: 0;
 }
 
-/* Mega-menu dropdowns */
+.nav-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+/* X animation when open */
+.nav-toggle.is-open span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+.nav-toggle.is-open span:nth-child(2) { opacity: 0; }
+.nav-toggle.is-open span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
+/* Dropdown wrapper */
 .nav-dd {
   position: relative;
 }
 
-.nav-dd > summary {
-  list-style: none;
+/* Trigger button (replaces <summary>) */
+.nav-dd-trigger {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 0;
   cursor: pointer;
   color: #D7DEEC;
   font-size: 0.95rem;
   font-weight: 500;
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  font-family: inherit;
   padding: 4px 0;
+  white-space: nowrap;
 }
 
-.nav-dd > summary::-webkit-details-marker {
-  display: none;
-}
-
-.nav-dd > summary::after {
-  content: '\25BE';
-  font-size: 0.7em;
-  opacity: 0.65;
-}
-
-.nav-dd[open] > summary {
+.nav-dd-trigger:hover {
   color: var(--gold-light);
 }
 
-.nav-dd[open] > summary::after {
+/* Chevron arrow */
+.nav-dd-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  opacity: 0.65;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-dd.open .nav-dd-arrow {
+  transform: rotate(180deg);
   opacity: 1;
 }
 
+.nav-dd.open .nav-dd-trigger {
+  color: var(--gold-light);
+}
+
+/* Dropdown panel — hidden by default, shown on hover OR .open */
 .nav-panel {
+  display: none;
   position: absolute;
-  top: 100%;
+  top: calc(100% + 8px);
   left: 0;
   background: var(--navy);
   border: 1px solid rgba(236, 172, 96, 0.15);
   border-radius: var(--radius);
   padding: 12px 0;
-  min-width: 180px;
-  margin-top: 8px;
-  display: flex;
+  min-width: 200px;
   flex-direction: column;
+  z-index: 200;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+}
+
+/* Desktop: show on hover OR keyboard/click (.open) */
+@media (min-width: 769px) {
+  .nav-dd:hover .nav-panel,
+  .nav-dd.open .nav-panel {
+    display: flex;
+  }
 }
 
 .nav-panel a {
@@ -298,6 +337,7 @@ p {
   color: #D7DEEC;
   font-size: 0.9rem;
   transition: color 0.15s ease, background 0.15s ease;
+  white-space: nowrap;
 }
 
 .nav-panel a:hover {
@@ -1068,20 +1108,35 @@ p {
   }
 
   .nav-toggle {
-    display: block;
+    display: flex;
+  }
+
+  /* Mobile: panel shown inline when .open — no absolute positioning */
+  .nav-dd.open .nav-panel {
+    display: flex;
   }
 
   .nav-panel {
     position: static;
     border: none;
-    background: rgba(236, 172, 96, 0.1);
-    margin: 0;
-    padding: 12px 0 12px 20px;
+    background: rgba(236, 172, 96, 0.08);
+    border-radius: 6px;
+    margin: 4px 0 8px 0;
+    padding: 8px 0 8px 16px;
+    box-shadow: none;
   }
 
-  .nav-dd > summary {
+  .nav-dd-trigger {
     width: 100%;
+    justify-content: space-between;
     padding: 12px 0;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+
+  /* Extra scroll room so CTA button is never clipped */
+  .nav-links {
+    padding-bottom: 100px;
   }
 
   .section {

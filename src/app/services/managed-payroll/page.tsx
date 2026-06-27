@@ -344,6 +344,56 @@ export default function ManagedPayrollPage() {
               <h3>Executive</h3>
               <p>Deferred compensation, executive benefits, and restricted-access payroll done right.</p>
             </Link>
+            <Link href="/services/managed-payroll/trucking" className="card-link reveal">
+              <span className="tag">Trucking</span>
+              <h3>Trucking &amp; Transportation</h3>
+              <p>W-2 vs. 1099 driver classification, per diem compliance, and multi-state DOT payroll handled.</p>
+            </Link>
+            <Link href="/services/managed-payroll/veterinary" className="card-link reveal">
+              <span className="tag">Veterinary</span>
+              <h3>Veterinary Practices</h3>
+              <p>Production-based associate pay, relief vet classification, and mixed staff payroll managed.</p>
+            </Link>
+            <Link href="/services/managed-payroll/auto-dealership" className="card-link reveal">
+              <span className="tag">Auto</span>
+              <h3>Auto Dealerships</h3>
+              <p>Commission draws, clawbacks, flat-rate technician FLSA, and demo vehicle tax reporting handled.</p>
+            </Link>
+            <Link href="/services/managed-payroll/cannabis" className="card-link reveal">
+              <span className="tag">Cannabis</span>
+              <h3>Cannabis &amp; Dispensaries</h3>
+              <p>280E compliance, banking-adjacent payroll complexity, and state licensing employment rules handled.</p>
+            </Link>
+            <Link href="/services/managed-payroll/childcare" className="card-link reveal">
+              <span className="tag">Childcare</span>
+              <h3>Childcare &amp; Daycares</h3>
+              <p>High-turnover staff processing, substitute classification, and CCAP subsidy compliance managed.</p>
+            </Link>
+            <Link href="/services/managed-payroll/home-health" className="card-link reveal">
+              <span className="tag">Home Health</span>
+              <h3>Home Health Agencies</h3>
+              <p>FLSA 2015 caregiver rules, live-in aide overtime, and Medicaid wage compliance handled.</p>
+            </Link>
+            <Link href="/services/managed-payroll/church" className="card-link reveal">
+              <span className="tag">Faith-Based</span>
+              <h3>Churches &amp; Faith-Based Orgs</h3>
+              <p>Minister housing allowance, dual-status clergy, and SECA elections managed correctly.</p>
+            </Link>
+            <Link href="/services/managed-payroll/marketing-agency" className="card-link reveal">
+              <span className="tag">Agency</span>
+              <h3>Marketing &amp; Creative Agencies</h3>
+              <p>Remote multi-state teams, W-2 and contractor mix, and AE commission payroll handled.</p>
+            </Link>
+            <Link href="/services/managed-payroll/fitness" className="card-link reveal">
+              <span className="tag">Fitness</span>
+              <h3>Fitness Studios &amp; Gyms</h3>
+              <p>Personal trainer classification, group instructor pay, and membership commission overtime managed.</p>
+            </Link>
+            <Link href="/services/managed-payroll/franchise" className="card-link reveal">
+              <span className="tag">Franchise</span>
+              <h3>Franchise Businesses</h3>
+              <p>Multi-location payroll, joint-employer documentation, and new location setup as you scale.</p>
+            </Link>
           </div>
         </div>
       </section>

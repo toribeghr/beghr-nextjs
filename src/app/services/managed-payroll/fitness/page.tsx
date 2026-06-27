@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -267,6 +268,29 @@ export default function PayrollFitnessPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'All our personal trainers are on 1099 — is that a problem?', acceptedAnswer: { '@type': 'Answer', text: 'Trainers who work exclusively at your studio on your schedule using your equipment almost certainly qualify as W-2 employees. We review each relationship and identify the risk.' } }, { '@type': 'Question', name: 'How do you handle commission on personal training packages?', acceptedAnswer: { '@type': 'Answer', text: 'Commission must be included in the regular rate of pay for overtime calculations. We fold your commission structure into overtime automatically each cycle.' } }, { '@type': 'Question', name: 'Do we have to change systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing systems. Migration is never a requirement.' } }] }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Fitness Studios & Gyms', item: 'https://beghr.com/services/managed-payroll/fitness' }] }) }} />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Fitness Trainer W-2 vs. 1099: IRS Classification Rules for Studios and Gyms',
+            excerpt: 'Most fitness studios misclassify instructors as contractors. Here is the IRS test, what it costs to get wrong, and how to fix it.',
+            href: '/blog/payroll/fitness/fitness-trainer-w2-vs-1099',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Per-Class Pay and Minimum Wage: Payroll Compliance for Fitness Studios',
+            excerpt: 'Per-class rates can fall below minimum wage when class attendance is low. What studios owe and how to structure pay to stay compliant.',
+            href: '/blog/payroll/fitness/per-class-pay-minimum-wage',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Fitness Studios and Gyms',
+            excerpt: 'What gym owners actually spend managing payroll in-house vs. what fully managed outsourcing costs per employee per month.',
+            href: '/blog/payroll/fitness/managed-payroll-vs-in-house',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

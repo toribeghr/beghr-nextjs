@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -292,6 +293,29 @@ export default function PayrollFinancePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll outsourcing',
+            title: 'Financial Services Payroll Outsourcing: Managing Commission, Deferred Comp, and Compliance (2026)',
+            excerpt: 'Grid pay, deferred bonuses, and RIA classification rules make financial services payroll more complex than most systems handle. Here is what outsourcing solves.',
+            href: '/blog/payroll/financial-services/wealth-firms',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+            excerpt: 'What professional services firms are paying for in-house payroll vs. fully managed outsourcing — and why most are making the switch.',
+            href: '/blog/payroll/professional-services/accounting',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'ADP vs. Managed Payroll: Is ADP Still Worth It for Mid-Size Companies? (2026)',
+            excerpt: 'ADP charges platform fees plus per-transaction fees. BEG charges one flat rate per employee. Here is what that difference looks like at 25, 50, and 100 employees.',
+            href: '/blog/compare/managed-payroll-vs-adp',
+          },
+        ]}
       />
     </ServicePage>
   );

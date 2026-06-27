@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -292,6 +293,29 @@ export default function PayrollTradesPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll outsourcing',
+            title: 'Construction Payroll Outsourcing: Cost vs. Hiring Payroll Manager (2026)',
+            excerpt: 'Certified payroll, prevailing wage tracking, and union fringe remittances are not standard payroll features. Here is what skilled trades contractors are outsourcing instead.',
+            href: '/blog/payroll/construction/contractors-payroll',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+            excerpt: 'Shift differentials, union rates, and overtime tiers make manufacturing payroll complex. The real cost of running it in-house vs. fully managed.',
+            href: '/blog/payroll/manufacturing/outsourcing-payroll',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'ADP vs. Managed Payroll: Is ADP Still Worth It for Mid-Size Companies? (2026)',
+            excerpt: 'ADP's per-transaction fees add up fast for contractors with variable crew sizes and certified payroll requirements. Here is the full cost comparison.',
+            href: '/blog/compare/managed-payroll-vs-adp',
+          },
+        ]}
       />
     </ServicePage>
   );

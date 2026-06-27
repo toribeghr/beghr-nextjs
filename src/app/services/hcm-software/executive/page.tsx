@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -220,6 +221,29 @@ export default function HCMExecutivePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)',
+            excerpt: 'Full isolved platform review covering payroll, deferred compensation, benefits, and executive access controls. Who it fits and how BEG manages it.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Executive teams want HCM data without managing the system. Here is what automation covers, what it frees up, and where to start.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: 'Executive compensation involves 409A elections, equity vest events, and imputed income. Here is what changed in 2026 and what your platform must handle.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
       />
     </ServicePage>
   );

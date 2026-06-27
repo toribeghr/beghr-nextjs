@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -294,6 +295,29 @@ export default function PlacementLegalPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Legal hiring',
+            title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
+            excerpt: 'The associate hiring market has tightened significantly. Here is the current timeline, what firms are doing differently, and how to compete for passive candidates.',
+            href: '/blog/legal-hiring/associate-hiring',
+          },
+          {
+            category: 'Legal hiring',
+            title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+            excerpt: 'Law school enrollment is down 30% since 2010. The best lateral candidates are passive. What the supply constraints mean for firm hiring strategies.',
+            href: '/blog/legal-hiring/attorney-market-trends',
+          },
+          {
+            category: 'Legal hiring',
+            title: 'Law Firm Paralegal Hiring: Finding the Right Paralegals for Your Practice Area (2026)',
+            excerpt: 'Paralegal skill sets vary sharply by practice area. How to define the role, where to find candidates, and what a 23-35 day fill actually looks like.',
+            href: '/blog/legal-hiring/paralegal-recruiting',
+          },
+        ]}
       />
     </ServicePage>
   );

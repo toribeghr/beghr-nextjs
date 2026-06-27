@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -292,6 +293,29 @@ export default function PayrollLegalPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll outsourcing',
+            title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+            excerpt: 'Partner draws, associate salaries, and paralegal hourly pay all run on different tracks. What managing partners are paying to handle this in-house vs. outsourced.',
+            href: '/blog/payroll/professional-services/law-firm-payroll-outsourcing',
+          },
+          {
+            category: 'Legal hiring',
+            title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+            excerpt: 'Law school enrollment is down 30% since 2010 and the best candidates are passive. What the talent market looks like and how firms are responding.',
+            href: '/blog/legal-hiring/attorney-market-trends',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'ADP vs. Managed Payroll: Is ADP Still Worth It for Mid-Size Companies? (2026)',
+            excerpt: 'ADP's per-transaction pricing adds up fast for firms processing partner draws, bonuses, and multi-office payroll. Here is the side-by-side cost comparison.',
+            href: '/blog/compare/managed-payroll-vs-adp',
+          },
+        ]}
       />
     </ServicePage>
   );

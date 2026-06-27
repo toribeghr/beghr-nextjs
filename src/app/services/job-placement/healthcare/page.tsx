@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -214,6 +215,29 @@ export default function PlacementHealthcarePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Hiring strategy',
+            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+            excerpt: 'The three recruiting fee structures explained — what each costs, what risk each carries, and when milestone-based placement makes the most sense.',
+            href: '/blog/compare/contingency-vs-retained-vs-milestone',
+          },
+          {
+            category: 'Hiring strategy',
+            title: 'How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)',
+            excerpt: 'Most firm searches that stall past 60 days are stuck for one of three reasons. Here is how to diagnose the problem and reset the search.',
+            href: '/blog/compare/how-long-should-attorney-placement-take',
+          },
+          {
+            category: 'Legal hiring',
+            title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+            excerpt: 'Passive candidates dominate the best talent pool. How the tightest hiring market in a decade is reshaping how firms approach professional placement.',
+            href: '/blog/legal-hiring/attorney-market-trends',
+          },
+        ]}
       />
     </ServicePage>
   );

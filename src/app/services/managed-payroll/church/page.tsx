@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -267,6 +268,29 @@ export default function PayrollChurchPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'How do you handle the minister housing allowance?', acceptedAnswer: { '@type': 'Answer', text: 'We set up W-2 Box 14 correctly, send pre-designation templates before year-end, and document the housing allowance throughout the year.' } }, { '@type': 'Question', name: 'Why does our pastor not have FICA withheld?', acceptedAnswer: { '@type': 'Answer', text: 'Ministers are self-employed for Social Security purposes regardless of employment status for income tax, and pay SECA rather than FICA.' } }, { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } }] }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Churches & Faith-Based Organizations', item: 'https://beghr.com/services/managed-payroll/church' }] }) }} />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Minister Housing Allowance: How to Set It Up in Payroll Correctly',
+            excerpt: 'The housing allowance exclusion saves ministers thousands annually — but it must be designated in advance. Here is how to do it right.',
+            href: '/blog/payroll/church/minister-housing-allowance-payroll',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Church Payroll and FICA: Which Employees Are Exempt and Which Are Not',
+            excerpt: 'Ministers who opt out of Social Security, staff who cannot, and the elections that must be filed with the IRS. A clear breakdown for church administrators.',
+            href: '/blog/payroll/church/church-employee-fica-payroll',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Churches',
+            excerpt: 'What small and mid-size churches actually spend on payroll administration vs. what fully managed outsourcing costs per month.',
+            href: '/blog/payroll/church/managed-payroll-vs-in-house',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -267,6 +268,29 @@ export default function PayrollFranchisePage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'Does the $25–$45 PEPM rate apply across all my locations?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The rate is per employee, not per location. No per-location setup fees or per-state surcharges.' } }, { '@type': 'Question', name: 'How quickly can you set up payroll for a new location?', acceptedAnswer: { '@type': 'Answer', text: 'Once onboarded, adding a new location takes 2–3 weeks for state registration and setup.' } }, { '@type': 'Question', name: 'What does $25–$45 PEPM include across all locations?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: multi-location payroll, state registrations, new location setup, year-end W-2s, and BEG support. One invoice, all locations.' } }] }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Franchise Businesses', item: 'https://beghr.com/services/managed-payroll/franchise' }] }) }} />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Multi-Location Payroll for Franchise Owners: How to Manage Across Locations',
+            excerpt: 'Running payroll across multiple franchise locations means multiple state registrations, tax IDs, and filing calendars. How to consolidate without losing visibility.',
+            href: '/blog/payroll/franchise/franchise-multi-location-payroll',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Franchise Minimum Wage Compliance: How to Stay Current Across Multiple Locations',
+            excerpt: 'State and local minimum wages change multiple times per year. What multi-location franchise operators need to track and how to automate it.',
+            href: '/blog/payroll/franchise/franchise-minimum-wage-compliance',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Franchise Owners',
+            excerpt: 'What franchise operators spend on internal payroll coordination vs. what outsourcing costs across all locations — including compliance coverage.',
+            href: '/blog/payroll/franchise/managed-payroll-vs-in-house',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -214,6 +215,29 @@ export default function PlacementExecutivePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Hiring strategy',
+            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+            excerpt: 'Executive searches are almost always retained or milestone-based. Here is how the three fee models compare and what each one signals to candidates.',
+            href: '/blog/compare/contingency-vs-retained-vs-milestone',
+          },
+          {
+            category: 'Hiring strategy',
+            title: 'How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)',
+            excerpt: 'Senior-level searches take longer, but not forever. What a realistic executive placement timeline looks like and the signals that a search has stalled.',
+            href: '/blog/compare/how-long-should-attorney-placement-take',
+          },
+          {
+            category: 'Legal hiring',
+            title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+            excerpt: 'Passive candidates dominate the top of the talent pool. What firm leaders need to understand about the current placement market before launching a search.',
+            href: '/blog/legal-hiring/attorney-market-trends',
+          },
+        ]}
       />
     </ServicePage>
   );

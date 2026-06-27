@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -220,6 +221,29 @@ export default function HCMEngineeringPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)',
+            excerpt: 'Full isolved platform review covering payroll, certified payroll tracking, benefits, and compliance modules. Who it fits and how BEG configures it.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Engineering firms with project-based billing spend too much time on manual HR. Here is what to automate first and what the time savings actually look like.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: 'Multi-state project work creates complex employer obligations. Here is what changed in 2026 and what your HCM platform needs to handle without manual intervention.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
       />
     </ServicePage>
   );

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -292,6 +293,29 @@ export default function PayrollExecutivePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll outsourcing',
+            title: 'Hiring a Payroll Manager vs. Outsourcing: Full Cost Comparison (2026)',
+            excerpt: 'A payroll manager costs $60K-$100K before benefits, PTO, and turnover risk. Here is the full comparison for leadership teams evaluating both options.',
+            href: '/blog/compare/payroll-manager-vs-outsourcing',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'PEO vs. Managed Payroll: What's the Difference and Which Do You Need? (2026)',
+            excerpt: 'PEOs co-employ your workforce and take on HR liability. Managed payroll runs your existing setup without a co-employment relationship.',
+            href: '/blog/compare/peo-vs-managed-payroll',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+            excerpt: 'What professional services firms are paying for in-house payroll vs. fully managed outsourcing — and why the math usually favors outsourcing.',
+            href: '/blog/payroll/professional-services/accounting',
+          },
+        ]}
       />
     </ServicePage>
   );

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -267,6 +268,29 @@ export default function PayrollMarketingAgencyPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'We have employees in 8 states but are only registered in 2. What happens?', acceptedAnswer: { '@type': 'Answer', text: 'We identify every state with payroll obligations and register you before the next pay cycle. Proactive correction is always less expensive than a state revenue audit.' } }, { '@type': 'Question', name: 'How do you determine if freelancers should be W-2 or 1099?', acceptedAnswer: { '@type': 'Answer', text: 'We review the working relationship against IRS common law factors — behavioral control, financial control, relationship type — and flag reclassification risk.' } }, { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } }] }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Marketing & Creative Agencies', item: 'https://beghr.com/services/managed-payroll/marketing-agency' }] }) }} />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Multi-State Payroll for Remote Marketing Agency Teams',
+            excerpt: 'Every state where a remote employee works requires a separate registration, tax ID, and filing schedule. What agency owners get wrong and how to fix it.',
+            href: '/blog/payroll/marketing-agency/marketing-agency-remote-payroll',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know',
+            excerpt: 'S-Corp owners must pay themselves a reasonable salary through payroll before taking distributions. Here is what reasonable means and how to set it up.',
+            href: '/blog/payroll/marketing-agency/scorp-owner-salary-payroll',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies',
+            excerpt: 'What agency principals spend managing payroll in-house vs. what fully managed outsourcing costs — especially for remote-first teams across multiple states.',
+            href: '/blog/payroll/marketing-agency/managed-payroll-vs-in-house',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

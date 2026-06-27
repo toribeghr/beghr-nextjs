@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -296,6 +297,29 @@ export default function PayrollCannabisPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Cannabis Business Payroll Under Section 280E: What You Can and Can't Deduct',
+            excerpt: 'Section 280E blocks most deductions for cannabis businesses — including payroll for non-COGS roles. Here is how to structure pay correctly.',
+            href: '/blog/payroll/cannabis/cannabis-payroll-280e',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Cannabis Payroll and Banking: How to Pay Employees When Banks Won't Help',
+            excerpt: 'Most banks will not serve cannabis businesses. Here are the payroll processing options that actually work for dispensaries and grow operations.',
+            href: '/blog/payroll/cannabis/cannabis-payroll-banking',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Cannabis Businesses',
+            excerpt: 'What cannabis operators actually spend on internal payroll vs. what outsourcing costs — including compliance risk on both sides.',
+            href: '/blog/payroll/cannabis/managed-payroll-vs-in-house',
+          },
+        ]}
       />
     </ServicePage>
   );

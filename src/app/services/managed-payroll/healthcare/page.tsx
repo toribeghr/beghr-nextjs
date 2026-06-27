@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -292,6 +293,29 @@ export default function PayrollHealthcarePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll outsourcing',
+            title: 'Medical Practice Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
+            excerpt: 'What physician practices, urgent care groups, and medical offices pay to run payroll in-house vs. what fully managed outsourcing costs.',
+            href: '/blog/payroll/healthcare/medical-practices',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
+            excerpt: 'Hygienist pay, provider bonuses, and part-time scheduling make dental payroll harder than it looks. Here is the in-house vs. outsourced cost breakdown.',
+            href: '/blog/payroll/healthcare/dental',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Healthcare Clinic Payroll Outsourcing: Managing Clinical Staff Pay (2026)',
+            excerpt: 'Credential-based pay, shift differentials, and HIPAA data requirements make healthcare payroll its own category. What growing clinic groups are doing.',
+            href: '/blog/payroll/healthcare-general/clinics-payroll',
+          },
+        ]}
       />
     </ServicePage>
   );

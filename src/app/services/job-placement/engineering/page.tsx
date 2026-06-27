@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -214,6 +215,29 @@ export default function PlacementEngineeringPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Hiring strategy',
+            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+            excerpt: 'Contingency means no placement, no fee. Retained means fees upfront. Milestone-based splits the risk. Here is how to choose.',
+            href: '/blog/compare/contingency-vs-retained-vs-milestone',
+          },
+          {
+            category: 'Hiring strategy',
+            title: 'Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)',
+            excerpt: 'Temps fill short-term gaps. Permanent placement builds the team. Here is why the distinction matters and how the two models compare on total cost.',
+            href: '/blog/compare/legal-staffing-vs-placement',
+          },
+          {
+            category: 'Legal hiring',
+            title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+            excerpt: 'The best candidates in any professional field are passive. How the current market dynamics are reshaping placement timelines and sourcing strategies.',
+            href: '/blog/legal-hiring/attorney-market-trends',
+          },
+        ]}
       />
     </ServicePage>
   );

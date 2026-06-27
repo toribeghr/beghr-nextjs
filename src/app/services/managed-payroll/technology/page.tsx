@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -292,6 +293,29 @@ export default function PayrollTechnologyPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll outsourcing',
+            title: 'SaaS Payroll Outsourcing: Cost vs. Hiring Payroll Ops Manager (2026)',
+            excerpt: 'A payroll operations manager costs $70K-$100K before benefits. Here is what SaaS companies are outsourcing instead — and what they pay per employee.',
+            href: '/blog/payroll/technology/saas-payroll-outsourcing',
+          },
+          {
+            category: 'Payroll comparison',
+            title: 'Managed Payroll vs. Deel: What Growing Companies Need to Know (2026)',
+            excerpt: 'Deel requires migrating your payroll to their platform. BEG runs in your existing system. Here is what that difference means for tech companies with distributed teams.',
+            href: '/blog/compare/managed-payroll-vs-deel',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'PEO vs. Managed Payroll: What's the Difference and Which Do You Need? (2026)',
+            excerpt: 'PEOs co-employ your team and take on employer liability. Managed payroll does not. For fast-growing tech companies, here is what each option actually delivers.',
+            href: '/blog/compare/peo-vs-managed-payroll',
+          },
+        ]}
       />
     </ServicePage>
   );

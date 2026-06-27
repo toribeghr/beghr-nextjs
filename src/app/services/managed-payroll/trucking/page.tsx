@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -296,6 +297,29 @@ export default function PayrollTruckingPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Trucking Company Payroll Taxes: What Every Fleet Owner Needs to Know',
+            excerpt: 'FUTA, SUTA, FICA, and state withholding rules for company drivers vs. owner-operators. What fleet operators get wrong and the penalties that follow.',
+            href: '/blog/payroll/trucking/truck-driver-payroll-taxes',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup',
+            excerpt: 'Per diem reduces taxable income for drivers but must be set up correctly to avoid IRS scrutiny. How to structure it in payroll and what the 2026 rates are.',
+            href: '/blog/payroll/trucking/per-diem-pay-truck-drivers',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Trucking Companies',
+            excerpt: 'What fleet operators spend managing payroll in-house — including HOS compliance, driver classification, and state filings — vs. what outsourcing costs.',
+            href: '/blog/payroll/trucking/managed-payroll-vs-in-house',
+          },
+        ]}
       />
     </ServicePage>
   );

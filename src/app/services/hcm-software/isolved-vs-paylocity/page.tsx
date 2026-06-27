@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'iSolved vs Paylocity: Which HCM Platform Is Right for You? | BEG',
@@ -153,6 +154,30 @@ export default function iSolvedVsPaylocityPage() {
           </Link>
         </div>
       </section>
+
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Payroll, onboarding, benefits enrollment, and compliance reporting are high-ROI automation targets. Here is what to prioritize and what to keep manual.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically — not manually.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
+      />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -296,6 +297,29 @@ export default function PayrollChildcarePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Childcare Center Payroll and FLSA Overtime: What Operators Need to Know',
+            excerpt: 'Split shifts, part-time ratios, and overtime for childcare workers. The FLSA rules most small centers get wrong and what it costs them.',
+            href: '/blog/payroll/childcare/childcare-payroll-overtime',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Childcare Subsidy and Payroll: Managing Mixed-Funding Compliance',
+            excerpt: 'Child Care Assistance Program, CCAP, and state vouchers all have different tracking requirements. How to keep payroll clean across funding sources.',
+            href: '/blog/payroll/childcare/childcare-subsidy-payroll',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Childcare Centers',
+            excerpt: 'What childcare directors actually spend managing payroll in-house vs. what outsourcing costs per employee per month.',
+            href: '/blog/payroll/childcare/managed-payroll-vs-in-house',
+          },
+        ]}
       />
     </ServicePage>
   );

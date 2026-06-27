@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -220,6 +221,29 @@ export default function HCMTradesPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)',
+            excerpt: 'Full isolved platform review covering payroll, time and attendance, union rate tracking, and compliance modules. Who it fits and how BEG manages it.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Skilled trades contractors spend hours on manual payroll and certified reporting. Here is what HCM automation covers and where the ROI is highest.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: 'Union fringes, multi-state work, and prevailing wage updates require a system that stays current automatically. Here is what changed in 2026.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
       />
     </ServicePage>
   );

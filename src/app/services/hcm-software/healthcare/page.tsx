@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -220,6 +221,29 @@ export default function HCMHealthcarePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)',
+            excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, credential tracking, and the Connector for Claude. Who it fits and who it does not.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Healthcare HR teams spend significant time on manual processes that can be automated. Here is what to prioritize and what to keep human.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: '2026 payroll compliance changes for healthcare employers. ACA thresholds, state requirements, and what your HCM platform should be tracking automatically.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
       />
     </ServicePage>
   );

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -290,6 +291,29 @@ export default function PayrollEngineeringPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll outsourcing',
+            title: 'Construction Payroll Outsourcing: Cost vs. Hiring Payroll Manager (2026)',
+            excerpt: 'Certified payroll, prevailing wage, and multi-project tracking are not standard payroll features. Here is what outsourcing actually costs vs. hiring.',
+            href: '/blog/payroll/construction/contractors-payroll',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+            excerpt: 'Shift differentials, overtime tiers, and union fringes make manufacturing payroll complex. The real cost of in-house vs. outsourced.',
+            href: '/blog/payroll/manufacturing/outsourcing-payroll',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'PEO vs. Managed Payroll: What's the Difference and Which Do You Need? (2026)',
+            excerpt: 'PEOs co-employ your team. Managed payroll does not. For engineering firms that want to keep control, here is what each actually delivers.',
+            href: '/blog/compare/peo-vs-managed-payroll',
+          },
+        ]}
       />
     </ServicePage>
   );

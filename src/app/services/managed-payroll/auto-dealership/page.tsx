@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -296,6 +297,29 @@ export default function PayrollAutoDealershipPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Auto Dealership Commission and Draw Payroll: How to Process It Correctly',
+            excerpt: 'Variable pay, dealer draws, and spiff bonuses each have different withholding rules. Here is how to process them without errors.',
+            href: '/blog/payroll/auto-dealership/dealer-commission-payroll',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Dealership Overtime and Minimum Wage: FLSA Rules for F&I, Service Advisors, and Technicians',
+            excerpt: 'Which dealership roles qualify for the 7(i) exemption and which do not. What misclassification costs in back pay and penalties.',
+            href: '/blog/payroll/auto-dealership/dealership-overtime-minimum-wage',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Auto Dealerships',
+            excerpt: 'The real cost of a payroll coordinator vs. outsourcing. What dealership groups are switching to and why.',
+            href: '/blog/payroll/auto-dealership/managed-payroll-vs-in-house',
+          },
+        ]}
       />
     </ServicePage>
   );

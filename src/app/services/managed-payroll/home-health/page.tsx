@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -267,6 +268,29 @@ export default function PayrollHomeHealthPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'Are our caregivers exempt from overtime under the companionship exemption?', acceptedAnswer: { '@type': 'Answer', text: 'No. The DOL eliminated the companionship exemption for third-party employers in 2015. Caregivers are entitled to minimum wage and overtime.' } }, { '@type': 'Question', name: 'How do you handle overtime for live-in aides?', acceptedAnswer: { '@type': 'Answer', text: 'We apply FLSA live-in employee rules, documenting sleep time and off-duty periods correctly, and apply state-specific rules where more protective.' } }, { '@type': 'Question', name: 'Do we have to change payroll or EVV systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } }] }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Home Health Agencies', item: 'https://beghr.com/services/managed-payroll/home-health' }] }) }} />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'Electronic Visit Verification and Payroll: How to Reconcile EVV Data',
+            excerpt: 'Medicaid EVV mandates require matching visit timestamps to payroll. Most home health agencies do this manually. Here is a better approach.',
+            href: '/blog/payroll/home-health/evv-payroll-reconciliation',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Home Health Agency Payroll: How to Handle Travel Time Between Clients',
+            excerpt: 'FLSA requires compensating home health aides for travel time between clients. What counts, what the rate should be, and how to track it in payroll.',
+            href: '/blog/payroll/home-health/home-health-travel-time',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies',
+            excerpt: 'What home health operators spend on internal payroll vs. what outsourcing costs — including EVV reconciliation, Medicaid reporting, and compliance coverage.',
+            href: '/blog/payroll/home-health/managed-payroll-vs-in-house',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -214,6 +215,29 @@ export default function PlacementFinancePage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Hiring strategy',
+            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+            excerpt: 'Contingency fees are paid on placement. Retained fees are paid upfront. Milestone fees are paid in stages. Here is what each model actually costs.',
+            href: '/blog/compare/contingency-vs-retained-vs-milestone',
+          },
+          {
+            category: 'Hiring strategy',
+            title: 'Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)',
+            excerpt: 'Staffing agencies place temps. Placement services find permanent hires. Here is why the distinction matters for firms building long-term teams.',
+            href: '/blog/compare/legal-staffing-vs-placement',
+          },
+          {
+            category: 'Hiring strategy',
+            title: 'How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)',
+            excerpt: 'Searches that stall past 60 days are usually stuck for fixable reasons. How to identify the problem and close the role faster.',
+            href: '/blog/compare/how-long-should-attorney-placement-take',
+          },
+        ]}
       />
     </ServicePage>
   );

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -296,6 +297,29 @@ export default function PayrollVeterinaryPage() {
             ],
           }),
         }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Payroll compliance',
+            title: 'How to Set Up DVM Salary and Production Bonuses in Payroll',
+            excerpt: 'DVM production bonuses are calculated as a percentage of collections, not revenue. Here is how to set up the formula in payroll and process it correctly each cycle.',
+            href: '/blog/payroll/veterinary/dvm-compensation-payroll',
+          },
+          {
+            category: 'Payroll compliance',
+            title: 'Veterinary Practice Payroll: FLSA Overtime Rules for Vet Staff',
+            excerpt: 'Most vet techs and support staff are non-exempt. DVMs may qualify for learned professional exemption. Here is how to classify each role and avoid back-pay claims.',
+            href: '/blog/payroll/veterinary/veterinary-staff-overtime-rules',
+          },
+          {
+            category: 'Payroll outsourcing',
+            title: 'Managed Payroll vs. Hiring In-House for Veterinary Practices',
+            excerpt: 'What single-location and multi-location practices spend managing payroll in-house vs. what fully managed outsourcing costs per employee per month.',
+            href: '/blog/payroll/veterinary/managed-payroll-vs-in-house',
+          },
+        ]}
       />
     </ServicePage>
   );

@@ -206,6 +206,21 @@ export default function HCMLegalPage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Legal', item: 'https://beghr.com/services/hcm-software/legal' },
+            ],
+          }),
+        }}
+      />
     </ServicePage>
   );
 }

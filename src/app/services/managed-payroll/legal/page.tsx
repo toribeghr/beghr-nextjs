@@ -203,6 +203,21 @@ export default function PayrollLegalPage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Legal', item: 'https://beghr.com/services/managed-payroll/legal' },
+            ],
+          }),
+        }}
+      />
     </ServicePage>
   );
 }

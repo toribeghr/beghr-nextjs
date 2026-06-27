@@ -40,14 +40,62 @@ export default function ParalegalHiringPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Find Qualified Paralegals in 14–21 Days.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Pre-screened, culture-fit paralegals who are ready to work. Skip the sorting—we handle matching.</p>
-          <a href="https://calendly.com/anthony-weplacelawyers/legal-hiring-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
+          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
         </div>
 
+
+        <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>
+          <p style={{ margin: '0 0 0.75rem', fontWeight: '700', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#666' }}>Related Resources</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
+            <a href="/services/job-placement/legal" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              BEG Legal Job Placement &rarr;
+            </a>
+            <a href="/blog/legal-hiring/associate-hiring" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              Law Firm Associate Hiring &rarr;
+            </a>
+          </div>
+        </div>
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
           <p>Anthony specializes in paralegal placement and support staff hiring for law firms nationwide.</p>
         </div>
       </section>
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: 'Paralegal Recruiting: Finding Qualified Candidates Fast',
+            description: 'Paralegal recruiting strategies and timelines for law firms',
+            datePublished: '2026-06-25',
+            dateModified: '2026-06-26',
+            author: {
+              '@type': 'Person',
+              name: 'Anthony Moretti',
+              jobTitle: 'VP of Sales',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Business Executive Group',
+              },
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'Business Executive Group',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://beghr.com/assets/beg-header-image.png',
+              },
+            },
+            url: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting',
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': 'https://beghr.com/blog/legal-hiring/paralegal-recruiting',
+            },
+          }),
+        }}
+      />
     </article>
   );
 }

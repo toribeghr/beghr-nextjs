@@ -31,7 +31,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/home.png" alt="Business Executive Group" />
+            <HeroImageBox src="/assets/hero-images/home.webp" alt="Business Executive Group" />
           </div>
           <div className="trust-row">
             <div><b>1,500+</b><small>Entrepreneur members</small></div>

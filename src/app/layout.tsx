@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Business Executive Group - Payroll, HCM Software & Job Placement',
   description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
   icons: {
-    icon: '/assets/beg-logo-gold.png',
+    icon: '/favicon.ico',
   },
   alternates: {
     canonical: 'https://beghr.com',
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     siteName: 'Business Executive Group',
     images: [
       {
-        url: 'https://beghr.com/assets/beg-header-image.png',
+        url: 'https://beghr.com/assets/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Business Executive Group',
+        alt: 'Business Executive Group — Managed Payroll, HCM Software & Job Placement',
       },
     ],
     type: 'website',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Business Executive Group',
     description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
-    images: ['https://beghr.com/assets/beg-header-image.png'],
+    images: ['https://beghr.com/assets/og-image.png'],
   },
 };
 
@@ -80,6 +80,17 @@ export default function RootLayout({
             }),
           }}
         />
+
+        {/* Meta Pixel */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','986930567552609');fbq('track','PageView');`,
+          }}
+        />
+        <noscript>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img height="1" width="1" style={{ display: 'none' }} src="https://www.facebook.com/tr?id=986930567552609&ev=PageView&noscript=1" alt="" />
+        </noscript>
 
         {/* Google Tag Manager */}
         <script

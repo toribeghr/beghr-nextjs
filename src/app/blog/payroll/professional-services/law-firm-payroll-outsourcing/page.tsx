@@ -214,6 +214,42 @@ export default function LawFirmPayrollPage() {
           </ul>
         </div>
       </section>
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: 'Law Firm Payroll Outsourcing: A Complete Guide',
+            description: 'Everything law firms need to know about outsourcing payroll',
+            datePublished: '2026-06-25',
+            dateModified: '2026-06-26',
+            author: {
+              '@type': 'Person',
+              name: 'Anthony Moretti',
+              jobTitle: 'VP of Sales',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Business Executive Group',
+              },
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'Business Executive Group',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://beghr.com/assets/beg-header-image.png',
+              },
+            },
+            url: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
+            },
+          }),
+        }}
+      />
     </article>
   );
 }

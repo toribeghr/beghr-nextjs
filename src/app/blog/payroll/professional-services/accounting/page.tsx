@@ -95,11 +95,59 @@ export default function AccountingPayrollPage() {
           <a href="https://calendly.com/tori-beghr?id=1" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
+
+        <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>
+          <p style={{ margin: '0 0 0.75rem', fontWeight: '700', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#666' }}>Related Resources</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
+            <a href="/services/managed-payroll" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              Managed Payroll &rarr;
+            </a>
+            <a href="/services/hcm-software" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              iSolved HCM Software &rarr;
+            </a>
+          </div>
+        </div>
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
           <p>Anthony is the VP of Sales for Business Executive Group (BEG), serving accounting firms, law firms, and professional services with managed payroll solutions.</p>
         </div>
       </section>
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: 'Payroll for Accounting Firms: Managing Staff Pay',
+            description: 'Outsourced payroll for CPA firms and accounting practices',
+            datePublished: '2026-06-25',
+            dateModified: '2026-06-26',
+            author: {
+              '@type': 'Person',
+              name: 'Anthony Moretti',
+              jobTitle: 'VP of Sales',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Business Executive Group',
+              },
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'Business Executive Group',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://beghr.com/assets/beg-header-image.png',
+              },
+            },
+            url: 'https://beghr.com/blog/payroll/professional-services/accounting',
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': 'https://beghr.com/blog/payroll/professional-services/accounting',
+            },
+          }),
+        }}
+      />
     </article>
   );
 }

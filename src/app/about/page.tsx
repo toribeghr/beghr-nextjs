@@ -14,37 +14,37 @@ const board = [
   {
     name: 'John Delao',
     title: 'CEO',
-    photo: '/assets/board/john-delao.png',
+    photo: '/assets/board/john-delao.webp',
     bio: 'As CEO, John provides strategic leadership, oversees operations, and drives initiatives that strengthen member engagement and community impact. He is responsible for guiding the organization\'s vision, managing partnerships, and ensuring compliance while fostering growth and advocacy for the business community.',
   },
   {
     name: 'Tori Wint',
     title: 'Human Resources',
-    photo: '/assets/board/tori-wint.png',
+    photo: '/assets/board/tori-wint.webp',
     bio: 'Tori consults clients on talent strategy, recruitment, employee development, compliance, payroll & benefits, and workforce engagement while fostering an inclusive environment that supports both staff and members.',
   },
   {
     name: 'Anthony Moretti',
     title: 'VP of Sales',
-    photo: '/assets/board/anthony-moretti.png',
+    photo: '/assets/board/anthony-moretti.webp',
     bio: 'Serial entrepreneur. Built 3 companies past $1M in sales. Now heading revenue growth as VP of Sales for BEG\'s HR and legal services division.',
   },
   {
     name: 'Bill Clawson',
     title: 'CFO',
-    photo: '/assets/board/bill-clawson.png',
+    photo: '/assets/board/bill-clawson.webp',
     bio: 'Bill consults on financial strategy, budgeting, and compliance to ensure the organization\'s fiscal health. He is responsible for managing resources, guiding investment decisions, and providing transparent reporting that supports long-term growth and member confidence.',
   },
   {
     name: 'Paxton Kelso',
     title: 'Property & Casualty',
-    photo: '/assets/board/paxton-kelso.png',
+    photo: '/assets/board/paxton-kelso.webp',
     bio: 'Paxton is a dedicated Property and Casualty Broker committed to helping individuals and businesses navigate the complex world of insurance. With 20+ years of experience, he specializes in crafting customized coverage solutions for home, auto, liability, and commercial risks.',
   },
   {
     name: 'Marissa Bybee',
     title: 'Cybersecurity',
-    photo: '/assets/board/marissa-bybee.png',
+    photo: '/assets/board/marissa-bybee.webp',
     bio: 'Marissa is a highly accomplished Cybersecurity Sales Executive specializing in delivering enterprise-grade security solutions that safeguard critical assets and drive business resilience across cloud security, network defense, and risk management.',
   },
 ];

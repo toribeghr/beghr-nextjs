@@ -32,12 +32,26 @@ const nextConfig = {
   },
   headers: async () => {
     return [
+      // Long-lived cache for static assets (images, fonts, icons)
+      {
+        source: '/assets/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+        ],
+      },
+      {
+        source: '/favicon.ico',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+        ],
+      },
+      // Pages: short cache + revalidation
       {
         source: '/:path*',
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=3600, stale-while-revalidate=86400',
+            value: 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400',
           },
           {
             key: 'X-Frame-Options',
@@ -58,6 +72,19 @@ const nextConfig = {
           {
             key: 'X-DNS-Prefetch-Control',
             value: 'on',
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://connect.facebook.net https://www.google-analytics.com https://fonts.googleapis.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' https://fonts.gstatic.com",
+              "img-src 'self' data: https://www.facebook.com https://www.google-analytics.com https://www.googletagmanager.com",
+              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://connect.facebook.net",
+              "frame-src https://www.googletagmanager.com https://calendly.com",
+              "frame-ancestors 'none'",
+            ].join('; '),
           },
         ],
       },

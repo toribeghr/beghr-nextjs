@@ -295,6 +295,29 @@ export default function JobPlacementPage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ProfessionalService',
+            name: 'Job Placement Services',
+            description: 'Specialized job placement in 23-35 days at roughly 50% less than contingency firms. 86% fill rate. 45-day replacement guarantee.',
+            url: 'https://beghr.com/services/job-placement',
+            provider: {
+              '@type': 'Organization',
+              name: 'Business Executive Group',
+              url: 'https://beghr.com',
+            },
+            areaServed: 'United States',
+            availableChannel: {
+              '@type': 'ServiceChannel',
+              serviceUrl: 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call',
+            },
+          }),
+        }}
+      />
     </ServicePage>
   );
 }

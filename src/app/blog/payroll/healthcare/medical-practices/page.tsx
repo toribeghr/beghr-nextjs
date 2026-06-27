@@ -178,6 +178,42 @@ export default function MedicalPracticesPage() {
           </ul>
         </div>
       </section>
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: 'Payroll for Medical Practices: Compliance and Efficiency',
+            description: 'Managed payroll services for independent medical practices',
+            datePublished: '2026-06-25',
+            dateModified: '2026-06-26',
+            author: {
+              '@type': 'Person',
+              name: 'Anthony Moretti',
+              jobTitle: 'VP of Sales',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Business Executive Group',
+              },
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'Business Executive Group',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://beghr.com/assets/beg-header-image.png',
+              },
+            },
+            url: 'https://beghr.com/blog/payroll/healthcare/medical-practices',
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': 'https://beghr.com/blog/payroll/healthcare/medical-practices',
+            },
+          }),
+        }}
+      />
     </article>
   );
 }

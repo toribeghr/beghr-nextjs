@@ -292,6 +292,29 @@ export default function ManagedPayrollPage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ProfessionalService',
+            name: 'Managed Payroll Services',
+            description: 'Fully managed payroll at $25-$35 per employee per month, all-inclusive. Taxes, filings, and compliance handled. All 50 states.',
+            url: 'https://beghr.com/services/managed-payroll',
+            provider: {
+              '@type': 'Organization',
+              name: 'Business Executive Group',
+              url: 'https://beghr.com',
+            },
+            areaServed: 'United States',
+            availableChannel: {
+              '@type': 'ServiceChannel',
+              serviceUrl: 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call',
+            },
+          }),
+        }}
+      />
     </ServicePage>
   );
 }

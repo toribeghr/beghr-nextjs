@@ -8,6 +8,33 @@ export const metadata: Metadata = {
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
+const faqs = [
+  {
+    question: 'What is the real reason most attorney searches take 60–120 days?',
+    answer: 'The structural cause is that most search models — job boards, contingency recruiters working non-exclusively, and internal posting — all reach the same active job-seeker pool. That pool is smaller and less qualified than the passive lateral pool. The passive pool (attorneys currently employed who would consider a move for the right opportunity) is only reachable through direct outreach. Models built on job postings are structurally slow because they are waiting for candidates to come to them rather than going to where the candidates are.',
+  },
+  {
+    question: 'Is 23–35 days realistic for niche or specialized practice areas?',
+    answer: 'Yes, for most practice areas within the 11–200 attorney firm segment. Niche sub-specialties — boutique IP prosecution, highly specialized tax controversy, maritime law — can extend the timeline depending on geography and candidate availability. When a role has unusual constraints, we say so at intake rather than take it on and miss the timeline. For the broad majority of associate and mid-level lateral searches in litigation, corporate, real estate, family law, and labor and employment, 23–35 days is achievable.',
+  },
+  {
+    question: 'How do I know if my current attorney search is on track or falling behind?',
+    answer: 'A search that has not produced a shortlist of 2–4 qualified candidates within 3 weeks is behind. A search that has produced candidates but has not resulted in an offer within 45 days typically has a process problem, not a sourcing problem — usually slow interview scheduling, committee deliberation delays, or offer approval bottlenecks. If you have been in search for 60 days and have not interviewed at least 3 qualified candidates, the model is the problem.',
+  },
+  {
+    question: 'What does the 45-day replacement guarantee cover exactly?',
+    answer: 'If a placed attorney leaves for any reason within 45 days of their start date — voluntary resignation, mutual separation, or termination — BEG replaces the role at no additional placement fee. For firms that hire for the same role description a second time, the repeat placement is priced at 50% of the original fee. The guarantee is designed to remove the risk that speed-to-fill trades off against fit quality — which it should not, given the screening process.',
+  },
+  {
+    question: 'Can you run a search while we still have a contingency recruiter working on it?',
+    answer: 'Yes. Non-exclusive contingency arrangements allow firms to work with multiple sources simultaneously. If you have a contingency recruiter already active on the role, BEG can run a parallel search accessing a different candidate pipeline — primarily passive laterals who the contingency recruiter may not be reaching. If BEG places the candidate, BEG earns the fee; if the contingency recruiter places the candidate, they earn their fee. No exclusivity is required from the firm.',
+  },
+  {
+    question: 'What happens if a candidate accepts our offer and backs out before their start date?',
+    answer: 'Counter-offer acceptance and late withdrawal are the most common failure modes in legal lateral placement. BEG actively manages the post-offer period — staying in contact with the candidate through their resignation and notice period to reduce counter-offer vulnerability and catch early signals of hesitation. The 45-day replacement guarantee covers start-date and early-tenure departures regardless of cause, so if a withdrawal or early exit does occur, the role is re-filled at no additional fee.',
+  },
+];
+
 export default function HowLongAttorneyPlacementPage() {
   return (
     <article className="blog-post">
@@ -153,6 +180,19 @@ export default function HowLongAttorneyPlacementPage() {
           Option 4 is what BEG offers. The 15-minute discovery call costs nothing. If we're not a fit for your situation, we'll tell you that directly.
         </p>
 
+        <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
+          FAQ: Attorney Search Timelines
+        </h2>
+
+        <div className="faq" style={{ marginTop: '1rem' }}>
+          {faqs.map((faq, i) => (
+            <div key={i} className="faq-item">
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Get your open role in front of passive candidates this week</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute discovery call. Tell us about the role, the timeline, and what you've tried. We'll tell you if BEG is the right fit — and what the process looks like if it is.</p>
@@ -168,6 +208,16 @@ export default function HowLongAttorneyPlacementPage() {
         </div>
 
       </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map(faq => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
+      }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',

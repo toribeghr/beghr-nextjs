@@ -32,7 +32,7 @@ export default function ManagedPayrollVsADPPage() {
     },
     {
       question: "How long does it take to switch from ADP to managed payroll?",
-      answer: "Transitioning from ADP to BEG managed payroll typically takes 3 to 5 weeks. We extract your payroll history and employee data from ADP, verify tax filings and state registrations, rebuild the configuration in your new system, and run a parallel payroll cycle before going live. One important timing note: plan your transition to avoid overlapping with your ADP auto-renewal window to prevent being locked into another annual contract."
+      answer: "Transitioning from ADP to BEG managed payroll typically takes 3–5 business days. We extract your payroll history and employee data from ADP, verify tax filings and state registrations, rebuild the configuration in your new system, and run a parallel payroll cycle before going live. One important timing note: plan your transition to avoid overlapping with your ADP auto-renewal window to prevent being locked into another annual contract."
     }
   ];
 
@@ -84,9 +84,9 @@ export default function ManagedPayrollVsADPPage() {
                 ['Who runs payroll', 'You (or your HR person)', 'BEG — hands off for you'],
                 ['Support quality', 'Tiered call center, varies widely', 'Dedicated team, direct contact'],
                 ['Contract requirements', 'Annual contracts, auto-renew', 'Month-to-month'],
-                ['Pricing transparency', 'Quoted, often opaque', 'Flat $25–$35 PEPM, all-in'],
+                ['Pricing transparency', 'Quoted, often opaque', 'Flat $25–$45 PEPM, all-in'],
                 ['Tax compliance', 'Software handles filings', 'BEG team monitors + executes'],
-                ['Implementation time', '4–12 weeks', '2–4 weeks'],
+                ['Implementation time', '4–12 weeks', '3–5 business days'],
                 ['Typical annual cost (50 employees)', '$12,000–$25,000+', '$15,000–$21,000'],
                 ['Payroll errors your responsibility', 'Yes', 'No — BEG takes responsibility'],
                 ['Works with existing system', 'Must use ADP platform', 'Yes — or move to iSolved'],
@@ -195,7 +195,7 @@ export default function ManagedPayrollVsADPPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          ADP cost range based on market data for Workforce Now at 50 employees. Actual costs vary by contract and module selection. BEG pricing is $25–$35 PEPM flat, all-in.
+          ADP cost range based on market data for Workforce Now at 50 employees. Actual costs vary by contract and module selection. BEG pricing is $25–$45 PEPM flat, all-in.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -214,7 +214,7 @@ export default function ManagedPayrollVsADPPage() {
           <li><strong>Notify state agencies of provider change.</strong> If ADP has been filing under your EIN as a reporting agent, you'll need to update the agent authorization with relevant state and federal agencies.</li>
         </ul>
         <p>
-          BEG handles this transition process for clients. We've done it enough times that the steps are systematized — typical transition time is 3 to 5 weeks from contract signing to live payroll in the new system.
+          BEG handles this transition process for clients. We've done it enough times that the steps are systematized — typical transition time is 3–5 business days from contract signing to live payroll in the new system.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>

@@ -5,8 +5,8 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll Services | $25-$35 PEPM | Outsource Payroll | BEG',
-  description: 'Fully managed payroll at $25-$35 per employee per month. All-inclusive: taxes, filings, and compliance. Works in your existing system. No migration. All 50 states.',
+  title: 'Managed Payroll Services | $25-$45 PEPM | Outsource Payroll | BEG',
+  description: 'Fully managed payroll at $25-$45 per employee per month. All-inclusive: taxes, filings, and compliance. Works in your existing system. No migration. All 50 states.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll',
   },
@@ -20,10 +20,10 @@ export default function ManagedPayrollPage() {
       imageSrc="/assets/hero-images/payroll.svg"
       eyebrow="Managed Payroll"
       title="Your payroll should not take half your week or cost six figures to get right."
-      description="A full-time payroll manager costs $60,000-$100,000 per year in salary and benefits alone. BEG runs your entire payroll operation at $25-$35 per employee per month, all-inclusive. Every cycle, every filing, every compliance update. Nothing for your team to touch."
+      description="A full-time payroll manager costs $60,000-$100,000 per year in salary and benefits alone. BEG runs your entire payroll operation at $25-$45 per employee per month, all-inclusive. Every cycle, every filing, every compliance update. Nothing for your team to touch."
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: '$25-$35', label: 'PEPM, all-inclusive' },
+        { value: '$25-$45', label: 'PEPM, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
         { value: '100%', label: 'Managed for you' },
       ]}
@@ -118,7 +118,7 @@ export default function ManagedPayrollPage() {
                 badge: 'Bonus 02',
                 title: 'One flat rate. All-inclusive. No module surprises.',
                 objection: 'Common objection: "Our last payroll vendor kept charging us for add-ons."',
-                body: '$25-$35 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, new hire reporting, and compliance updates. There is no base fee plus per-run charges plus filing fees. One number, every month. We tell you the exact rate on your discovery call before you commit to anything.',
+                body: '$25-$45 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, new hire reporting, and compliance updates. There is no base fee plus per-run charges plus filing fees. One number, every month. We tell you the exact rate on your discovery call before you commit to anything.',
               },
               {
                 badge: 'Bonus 03',
@@ -152,7 +152,7 @@ export default function ManagedPayrollPage() {
                 Every month you pay a payroll manager is a month you overpay.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                A payroll manager at $75,000 per year costs $6,250 per month before benefits, PTO, and overhead. BEG manages the same function at $25-$35 per employee per month. For a 50-person company, that is $1,250-$1,750 per month total. The difference goes back to your bottom line every single month.
+                A payroll manager at $75,000 per year costs $6,250 per month before benefits, PTO, and overhead. BEG manages the same function at $25-$45 per employee per month. For a 50-person company, that is $1,250-$1,750 per month total. The difference goes back to your bottom line every single month.
               </p>
             </div>
             <div>
@@ -247,10 +247,10 @@ export default function ManagedPayrollPage() {
             </div>
             <div className="faq-item">
               <h3>How long does onboarding take?</h3>
-              <p>Most clients are running cleanly within 2-4 weeks. We handle migration, configuration, and testing before processing your first managed cycle.</p>
+              <p>Most clients are running cleanly within 3–5 business days. We handle migration, configuration, and testing before processing your first managed cycle.</p>
             </div>
             <div className="faq-item">
-              <h3>What does the $25-$35 PEPM include?</h3>
+              <h3>What does the $25-$45 PEPM include?</h3>
               <p>Everything: payroll processing, direct deposit, tax filings, W-2s, new hire reporting, and ongoing compliance. No add-ons, no per-run charges.</p>
             </div>
             <div className="faq-item">
@@ -304,7 +304,7 @@ export default function ManagedPayrollPage() {
               },
               {
                 '@type': 'Question',
-                name: 'What does the $25-$35 PEPM include?',
+                name: 'What does the $25-$45 PEPM include?',
                 acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, direct deposit, tax filings, W-2s, new hire reporting, and ongoing compliance. No add-ons.' },
               },
               {
@@ -325,7 +325,7 @@ export default function ManagedPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'ProfessionalService',
             name: 'Managed Payroll Services',
-            description: 'Fully managed payroll at $25-$35 per employee per month, all-inclusive. Taxes, filings, and compliance handled. All 50 states.',
+            description: 'Fully managed payroll at $25-$45 per employee per month, all-inclusive. Taxes, filings, and compliance handled. All 50 states.',
             url: 'https://beghr.com/services/managed-payroll',
             provider: {
               '@type': 'Organization',

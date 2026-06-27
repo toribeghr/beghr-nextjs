@@ -4,7 +4,7 @@ import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll, HCM Software & Job Placement | BEG | All 50 States',
-  description: 'Business Executive Group delivers fully managed payroll at $25-$35 PEPM, iSolved HCM software with BEG implementation and support, and specialized job placement in 23-35 days.',
+  description: 'Business Executive Group delivers fully managed payroll at $25-$45 PEPM, iSolved HCM software with BEG implementation and support, and specialized job placement in 23-35 days.',
   alternates: {
     canonical: 'https://beghr.com',
   },
@@ -36,7 +36,7 @@ export default function Home() {
           <div className="trust-row">
             <div><b>1,500+</b><small>Entrepreneur members</small></div>
             <div><b>All 50 States</b><small>Nationwide coverage</small></div>
-            <div><b>$25-$35 PEPM</b><small>Fully managed payroll</small></div>
+            <div><b>$25-$45 PEPM</b><small>Fully managed payroll</small></div>
           </div>
         </div>
       </section>
@@ -53,7 +53,7 @@ export default function Home() {
               {
                 stat: '$60K-$100K/yr',
                 label: 'What an in-house payroll manager costs',
-                sub: 'Salary, benefits, and overhead just to run payroll. BEG manages everything at $25-$35 per employee per month, all-inclusive.',
+                sub: 'Salary, benefits, and overhead just to run payroll. BEG manages everything at $25-$45 per employee per month, all-inclusive.',
               },
               {
                 stat: '$8,000+/wk',
@@ -87,7 +87,7 @@ export default function Home() {
             <Link href="/services/managed-payroll" className="card-link reveal">
               <span className="tag">Managed Payroll</span>
               <h3>Payroll running your team ragged every cycle?</h3>
-              <p>Fully managed at $25-$35 PEPM. Taxes, filings, W-2s, and compliance handled. All 50 states. Works in your existing system. No migration required.</p>
+              <p>Fully managed at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. All 50 states. Works in your existing system. No migration required.</p>
               <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See managed payroll &rarr;</span>
             </Link>
             <Link href="/services/hcm-software" className="card-link reveal">
@@ -131,7 +131,7 @@ export default function Home() {
                 badge: 'Bonus 03',
                 title: 'Flat, transparent pricing. No annual surprises.',
                 objection: 'Common concern: "My last vendor kept adding fees at renewal."',
-                body: 'Managed Payroll is $25-$35 PEPM, all-inclusive. HCM Software is transparent PEPM with no surprise module add-ons. Job Placement is milestone-based, not a 20-25% contingency fee. You know what you pay before you sign.',
+                body: 'Managed Payroll is $25-$45 PEPM, all-inclusive. HCM Software is transparent PEPM with no surprise module add-ons. Job Placement is milestone-based, not a 20-25% contingency fee. You know what you pay before you sign.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>

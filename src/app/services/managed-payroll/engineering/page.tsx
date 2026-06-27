@@ -5,7 +5,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll for Engineering Firms | Certified Payroll | BEG',
-  description: 'Engineering payroll managed at $25–$35 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.',
+  description: 'Engineering payroll managed at $25–$45 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.',
   alternates: { canonical: 'https://beghr.com/services/managed-payroll/engineering' },
 };
 
@@ -18,10 +18,10 @@ export default function PayrollEngineeringPage() {
       imageAlt="Engineering firm with certified payroll managed service"
       eyebrow="Managed Payroll · Engineering"
       title="Certified payroll and prevailing wage should not consume your team."
-      description="Government projects require certified payroll reports. Davis-Bacon and state prevailing wage rules vary by project. One error in a certified payroll submission delays payment or triggers a compliance review. We manage all of it at $25–$35 per employee per month — fully managed, nothing to touch."
+      description="Government projects require certified payroll reports. Davis-Bacon and state prevailing wage rules vary by project. One error in a certified payroll submission delays payment or triggers a compliance review. We manage all of it at $25–$45 per employee per month — fully managed, nothing to touch."
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: '$25–$35', label: 'Per employee per month, all-inclusive' },
+        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -108,7 +108,7 @@ export default function PayrollEngineeringPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services always add fees for every little thing."',
-                body: 'The $25–$35 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. There are no per-run fees, no year-end surcharges, and no module upsells. One number, everything included.',
+                body: 'The $25–$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. There are no per-run fees, no year-end surcharges, and no module upsells. One number, everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -139,7 +139,7 @@ export default function PayrollEngineeringPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every month you wait is money you are not getting back.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your engineering firm costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$35 PEPM on a 50-person team costs $15,000–$21,000 per year. Every government project your team manages requires certified payroll compliance. One missed submission or calculation error puts your contract payment at risk.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your engineering firm costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$45 PEPM on a 50-person team costs $15,000–$21,000 per year. Every government project your team manages requires certified payroll compliance. One missed submission or calculation error puts your contract payment at risk.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
@@ -173,7 +173,7 @@ export default function PayrollEngineeringPage() {
               <p>No. We operate as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$35 PEPM include?</h3>
+              <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: payroll processing, federal and state tax filing, compliance updates, year-end W-2s, and dedicated BEG support. No add-on fees, no per-run charges, no year-end surcharges.</p>
             </div>
             <div className="faq-item">
@@ -196,7 +196,7 @@ export default function PayrollEngineeringPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$35 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
             ],
           }),

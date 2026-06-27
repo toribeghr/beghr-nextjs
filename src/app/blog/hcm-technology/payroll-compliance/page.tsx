@@ -176,7 +176,7 @@ export default function PayrollCompliancePage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Payroll Compliance, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages federal and multi-state compliance, tax filing, and year-end production at $25–$35 PEPM. If you have employees in multiple states or recent regulatory changes you are not sure about, let's talk.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages federal and multi-state compliance, tax filing, and year-end production at $25–$45 PEPM. If you have employees in multiple states or recent regulatory changes you are not sure about, let's talk.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
@@ -202,7 +202,7 @@ export default function PayrollCompliancePage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and compliance solutions at Business Executive Group. BEG manages multi-state payroll compliance, tax registration, ACA tracking, and year-end production for companies with 15–500 employees at $25–$35 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and compliance solutions at Business Executive Group. BEG manages multi-state payroll compliance, tax registration, ACA tracking, and year-end production for companies with 15–500 employees at $25–$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 

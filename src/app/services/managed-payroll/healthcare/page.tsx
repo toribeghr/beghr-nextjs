@@ -5,7 +5,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll for Healthcare | Shift Differential & Compliance | BEG',
-  description: 'Healthcare payroll fully managed at $25–$35 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
+  description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
   alternates: { canonical: 'https://beghr.com/services/managed-payroll/healthcare' },
 };
 
@@ -18,10 +18,10 @@ export default function PayrollHealthcarePage() {
       imageAlt="Healthcare organization with fully managed payroll"
       eyebrow="Managed Payroll · Healthcare"
       title="Healthcare payroll never stops. Neither do we."
-      description="24/7 schedules, shift differentials, clinical overtime rules, and multi-state licensure make healthcare payroll the most complex in any industry. We manage it all at $25–$35 per employee per month — fully managed, no migration required."
+      description="24/7 schedules, shift differentials, clinical overtime rules, and multi-state licensure make healthcare payroll the most complex in any industry. We manage it all at $25–$45 per employee per month — fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: '$25–$35', label: 'Per employee per month, all-inclusive' },
+        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -40,7 +40,7 @@ export default function PayrollHealthcarePage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$70K–$100K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of one internal healthcare payroll specialist</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Healthcare payroll specialists command premium salaries due to complexity. Fully managed service at $25–$35 PEPM replaces that headcount.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Healthcare payroll specialists command premium salaries due to complexity. Fully managed service at $25–$45 PEPM replaces that headcount.</div>
                 </div>
               ))()
             }
@@ -108,7 +108,7 @@ export default function PayrollHealthcarePage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services always add fees for every little thing."',
-                body: 'The $25–$35 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. There are no per-run fees, no year-end surcharges, and no module upsells. One number, everything included.',
+                body: 'The $25–$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. There are no per-run fees, no year-end surcharges, and no module upsells. One number, everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -139,7 +139,7 @@ export default function PayrollHealthcarePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every month you wait is money you are not getting back.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your healthcare organization costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$35 PEPM on a 50-person team costs $15,000–$21,000 per year. Every month your team handles payroll manually is a month of compliance exposure, corrections, and staff time that should be going to patient care — not spreadsheets.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your healthcare organization costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$45 PEPM on a 50-person team costs $15,000–$21,000 per year. Every month your team handles payroll manually is a month of compliance exposure, corrections, and staff time that should be going to patient care — not spreadsheets.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
@@ -173,7 +173,7 @@ export default function PayrollHealthcarePage() {
               <p>No. We operate as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$35 PEPM include?</h3>
+              <h3>What does $25–$45 PEPM include?</h3>
               <p>Everything: payroll processing, federal and state tax filing, compliance updates, year-end W-2s, and dedicated BEG support. No add-on fees, no per-run charges, no year-end surcharges.</p>
             </div>
             <div className="faq-item">
@@ -196,7 +196,7 @@ export default function PayrollHealthcarePage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$35 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
             ],
           }),

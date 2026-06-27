@@ -1,10 +1,37 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator',
-  description: 'Dental office payroll outsourcing vs. hiring in-house. Save $65K+ annually. Manage hygienist tips, compliance, scheduling easily.',
+  title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
+  description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/dental' },
 };
+
+const faqs = [
+  {
+    question: 'How do you handle tipped dental hygienists?',
+    answer: 'Hygienist tips are tracked and reported per state law. In states with a tip credit (where the employer can apply tips toward minimum wage), we calculate whether the tip credit applies and flag any pay periods where combined wages plus tips fall below minimum wage. In non-tip-credit states, tips are simply added to taxable wages and processed accordingly. We generate the correct W-2 treatment for all tipped staff.',
+  },
+  {
+    question: 'Can you manage production-based compensation for associate dentists?',
+    answer: 'Yes. Associate dentist production pay — where compensation is calculated as a percentage of collections or production — is processed within our payroll system. We receive the production figures from your practice management software (Dentrix, Eaglesoft, Open Dental), calculate the comp due, and include it in the regular payroll run. No manual calculation required.',
+  },
+  {
+    question: 'How does outsourced payroll work for a multi-location dental group or DSO?',
+    answer: 'Each location runs on the same payroll system with consolidated reporting. You can see labor costs by location, run payroll for all locations in a single cycle, and produce W-2s for all employees under the same entity or separate EINs depending on your corporate structure. DSOs with 5–30 locations are a common use case for BEG managed payroll.',
+  },
+  {
+    question: 'Does your system integrate with Dentrix or Eaglesoft for scheduling and time?',
+    answer: 'We can receive time and production data from major dental practice management platforms and incorporate it into payroll. Integration depth depends on the platform and your data export settings, but we work with your team to establish a clean data handoff each pay period so payroll is accurate without manual re-entry.',
+  },
+  {
+    question: 'What happens when a staff member has multiple roles — for example, a hygienist who also handles front desk hours?',
+    answer: 'Employees working multiple roles at different pay rates are set up with multiple pay rate codes in the payroll system. Hours are tracked by role, the correct rate is applied to each category, and the output is a clean pay stub showing both rates and hours. Overtime is calculated correctly across all hours worked in the week.',
+  },
+  {
+    question: 'What does BEG charge for dental office payroll?',
+    answer: 'BEG manages dental payroll at $25–$45 per employee per month, all-inclusive. For a 15-person dental office, that is $375–$525 per month. Included: payroll processing, tax filing, W-2 production, tip tracking, multi-rate pay, and compliance updates. No per-run fees or module add-ons.',
+  },
+];
 
 export default function DentalPayrollPage() {
   return (
@@ -13,81 +40,153 @@ export default function DentalPayrollPage() {
         <div className="container">
           <div className="hero-split">
             <div className="hero-split-text">
-          <p className="eyebrow">Blog · Payroll Management · Healthcare</p>
-          <h1>Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator</h1>
-          <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
-            <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
-            <span><strong>Published:</strong> June 25, 2026</span>
-          </div>
+              <p className="eyebrow">Blog · Payroll Management · Healthcare</p>
+              <h1>Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)</h1>
+              <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
+                <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
+                <span><strong>Published:</strong> June 25, 2026</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Running a dental practice means focusing on patient care, clinical excellence, and practice growth. Yet many dental offices waste 8–12 hours per week managing payroll, managing tipped hygienists, and handling tax compliance.</p>
+        <p>Running a dental practice means focusing on patient care, clinical outcomes, and practice growth. Yet most dental offices spend 8–12 hours per week managing payroll — tracking hygienist tips, processing associate dentist production pay, handling tax filings, and staying current on state compliance rules that change every year.</p>
 
-        <p>Dental payroll is uniquely complex. You're managing hygienist tips, assistant wages, dentist compensation, state licensing compliance, and dental-specific tax rules. One mistake costs you penalties, back taxes, and compliance headaches.</p>
+        <p>Dental payroll is more complex than most industries. You have tipped hygienists, production-based dentist compensation, multi-rate employees, dental-specific tax treatment, and practice management software that does not natively handle payroll. One miscalculation creates penalties. One missed tip credit rule creates back-pay liability. One incorrect W-2 creates an IRS inquiry.</p>
 
-        <p><strong>And if you hire someone in-house to manage it? You're looking at $65,000–$100,000+ annually—for a task that has nothing to do with dentistry.</strong></p>
+        <p>The question most practice owners face is whether to hire someone in-house to manage it — or outsource to a provider that already handles hundreds of dental payrolls and knows the rules cold.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Hidden Cost of In-House Dental Payroll</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Dental Payroll Coordinator</h2>
 
-        <p>A dental office HR coordinator or payroll specialist earns $45,000–$65,000 annually. Add benefits (~28%), taxes (~10%), training, software licenses, and workspace, and you're at $65,000–$95,000 per year.</p>
+        <p>A dental HR coordinator or payroll specialist earns $45,000–$65,000 in base salary. That is the number most practice owners compare against outsourcing. Here is the full picture:</p>
 
-        <p>That's money that could go toward new dental equipment, practice marketing, staff continuing education, or practice expansion. Instead, it's consumed by an operational distraction.</p>
+        <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
+            <thead>
+              <tr style={{ background: '#000', color: '#fff' }}>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Cost Category</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>Annual Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Base salary (payroll/HR coordinator)', '$45,000–$65,000'],
+                ['Benefits (health, dental, 401K) ~30%', '$13,500–$19,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,500–$6,500'],
+                ['Payroll software license', '$1,800–$4,200'],
+                ['Training & compliance updates', '$1,200–$2,500'],
+                ['Hiring & onboarding (amortized)', '$2,000–$4,000'],
+                ['Total loaded cost', '$68,000–$101,700'],
+              ].map(([label, cost], i) => (
+                <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 6 ? '700' : '400' }}>{label}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: i === 6 ? '700' : '400' }}>{cost}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>Why Dental Payroll Is Harder Than Most Industries</h2>
+        <p>This does not include the cost when that person makes a tip credit error, processes a production-based compensation cycle incorrectly, or leaves in the middle of a pay period.</p>
 
-        <p>Dental practices manage tipped hygienists & assistants (state tip laws vary), dentist vs. associate compensation (complex tax treatment), state licensing requirements (affects payroll reporting), multi-provider coordination (multiple dentists with different arrangements), and insurance deductions (PPO, HMO, Medicaid variations).</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
 
-        <p>Miss one detail, and you face penalties. Get it wrong twice, and penalties triple.</p>
+        <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
+            <thead>
+              <tr style={{ background: '#000', color: '#fff' }}>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Practice Size</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>Monthly</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>Annual</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>vs. In-House</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['10 employees', '$250–$350', '$3,000–$4,200', 'Save $64K–$97K/yr'],
+                ['20 employees', '$500–$700', '$6,000–$8,400', 'Save $60K–$93K/yr'],
+                ['40 employees', '$1,000–$1,400', '$12,000–$16,800', 'Save $51K–$85K/yr'],
+                ['80 employees (DSO/group practice)', '$2,000–$2,800', '$24,000–$33,600', 'Save $34K–$68K/yr'],
+              ].map(([size, monthly, annual, savings], i) => (
+                <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>{monthly}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>{annual}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>{savings}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Financial Reality</h2>
+        <p>All-inclusive: tip tracking, multi-rate pay, production comp processing, tax filing, W-2s, and compliance updates. No per-run fees, no add-on modules.</p>
 
-        <p>For a 12-person dental office (2 hygienists, 2 assistants, 2 receptionists, 1 office manager + doctors):</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Dental Practice Owners Miss in the Cost Calculation</h2>
+
+        <p><strong>Tip credit exposure.</strong> Hygienists in some states are treated as tipped employees. The tip credit rules are state-specific — some states have no tip credit at all. A practice that misapplies the tip credit pays below minimum wage in some states without knowing it. DOL audits in dental practices have resulted in significant back-pay orders in the last five years.</p>
+
+        <p><strong>Production comp miscalculation.</strong> When an associate dentist&apos;s production-based pay is calculated manually and the formula is wrong — even slightly — it compounds across every pay period. Correcting it mid-year requires amended returns, corrected W-2s, and a conversation with the associate about underpayment or overpayment.</p>
+
+        <p><strong>Multi-location state exposure.</strong> DSOs and group practices with locations in multiple states must file payroll taxes in each state where employees work. A 3-location group in Texas, Oklahoma, and New Mexico has three different state unemployment rates, three state withholding requirements, and different new hire reporting timelines.</p>
+
+        <p><strong>Turnover in support roles.</strong> Dental assistants and front desk staff have higher turnover than hygienists. High turnover creates W-2 volume and rehire processing that an in-house coordinator has to track manually. An outsourced provider handles this as standard process with no added cost per termination.</p>
+
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Dental Payroll Is More Complex Than It Looks</h2>
+
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-          <li><strong>In-house payroll coordinator:</strong> $75,000/year</li>
-          <li><strong>Outsourced payroll:</strong> $1,200/month × 12 = $14,400/year</li>
-          <li><strong>Savings:</strong> $60,600/year</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Tipped employees:</strong> Hygienists who receive tips require tip tracking, reporting, and correct W-2 treatment. State rules vary significantly and change when state minimum wages increase.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Production-based dentist compensation:</strong> Associate dentists on percentage-of-collections or percentage-of-production arrangements require a formula-based pay calculation every cycle, fed by practice management data.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Multi-rate employees:</strong> A hygienist who also handles front desk hours works at two different pay rates. Overtime is calculated across total hours, not per rate.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Owner-doctor compensation structure:</strong> Solo practitioner owners may take a salary plus S-corp distributions. The split has payroll tax implications that change annually based on reasonable compensation guidance.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Dental software data handoff:</strong> Dentrix, Eaglesoft, and Open Dental track production but don&apos;t produce payroll. Someone has to translate that data into compensation figures every pay period.</li>
         </ul>
 
-        <p>Plus, your office manager saves 8–10 hours/week = 400+ hours/year reclaimed for patient scheduling, insurance follow-up, and practice operations.</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Decision Framework: When to Outsource Dental Payroll</h2>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>How Dental Practices Are Shifting</h2>
-
-        <p>Smart dental offices outsource payroll to providers who understand dental-specific requirements. Complete solutions cover tipped employee management, multi-provider compensation tracking, state licensing compliance reporting, dental practice-specific tax treatment, employee self-service portal, benefits administration, and dedicated dental payroll expert.</p>
-
-        <div style={{ background: '#f7f7f7', padding: '1.5rem', borderRadius: '8px', margin: '2rem 0', borderLeft: '4px solid #c41e3a' }}>
-          <h3 style={{ marginTop: 0 }}>FAQ: Dental Office Payroll Outsourcing</h3>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: How do you handle tipped hygienists?</h4>
-            <p>A: Reputable providers understand tip tracking, state regulations on tip credits, and proper reporting. Transparency prevents disputes.</p>
-          </div>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: What about different doctor compensation structures?</h4>
-            <p>A: Experts handle salary, production-based, or hybrid compensation models seamlessly within one payroll run.</p>
-          </div>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: Can it integrate with our dental software?</h4>
-            <p>A: Yes. Most providers integrate with Dentrix, Eaglesoft, and other major dental practice management systems.</p>
-          </div>
-
-          <div style={{ marginBottom: 0 }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: How much time do we actually save?</h4>
-            <p>A: For a 12-person office, expect 8–10 hours per week saved. Your office manager focuses on patient operations instead of payroll administration.</p>
-          </div>
+        <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
+            <thead>
+              <tr style={{ background: '#000', color: '#fff' }}>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Practice Profile</th>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Recommendation</th>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Primary Reason</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Solo practice, 5–15 staff', 'Outsource', 'No justification for in-house hire at this size. Savings are immediate.'],
+                ['Single location, 15–40 staff', 'Outsource', 'Strongest ROI range. Compliance complexity warrants specialist coverage.'],
+                ['Multi-location group, 40–150 staff', 'Outsource', 'Multi-state, multi-EIN, and multi-rate complexity all argue for outsourcing.'],
+                ['DSO, 150+ staff', 'Outsource or hybrid', 'Volume may support an internal HR generalist, but payroll processing should still be outsourced.'],
+              ].map(([size, rec, why], i) => (
+                <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem', fontWeight: '600' }}>{size}</td>
+                  <td style={{ padding: '0.65rem 0.75rem' }}>{rec}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', color: '#555' }}>{why}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
-          <h3 style={{ color: '#000000', margin: 0 }}>Ready to Simplify Dental Office Payroll?</h3>
-          <p style={{ marginBottom: '1.5rem' }}>If you're spending $65,000–$100,000+ annually on in-house payroll management, outsourcing makes financial sense. We work with dental practices, orthodontic offices, and dental DSOs across the country. Our managed payroll solution handles everything: tipped employee management, multi-provider compensation, dental-specific compliance, and integration with your practice management system.</p>
+          <h3 style={{ color: '#000000', margin: 0 }}>Dental Payroll, Handled.</h3>
+          <p style={{ marginBottom: '1.5rem' }}>Hygienist tips, production comp, multi-rate pay, tax filing — all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Dental Office Payroll Outsourcing</h2>
+
+        <div className="faq" style={{ marginTop: '1rem' }}>
+          {faqs.map((faq, i) => (
+            <div key={i} className="faq-item">
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
 
         <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#666' }}>Related Resources</p>
@@ -95,49 +194,59 @@ export default function DentalPayrollPage() {
             <a href="/services/managed-payroll" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
               Managed Payroll &rarr;
             </a>
-            <a href="/services/hcm-software" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
-              iSolved HCM Software &rarr;
+            <a href="/blog/payroll/healthcare-general/clinics-payroll" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              Healthcare Clinic Payroll &rarr;
+            </a>
+            <a href="/blog/compare/managed-payroll-vs-gusto" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              Managed Payroll vs. Gusto &rarr;
             </a>
           </div>
         </div>
-        <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
+
+        <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a national HR and payroll solutions firm serving dental practices, medical offices, law firms, and professional services with managed payroll and HCM platform solutions.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving dental practices, DSOs, and healthcare groups. BEG manages payroll at $25–$45 PEPM, all-inclusive, with dental-specific expertise in tip tracking, production comp, and multi-location payroll.</p>
         </div>
       </section>
-    
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqs.map(faq => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+            })),
+          }),
+        }}
+      />
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: 'Payroll for Dental Practices: Managing Staff Pay',
-            description: 'Outsourced payroll for dental practices and dental groups',
+            headline: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
+            description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, production comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
             datePublished: '2026-06-25',
-            dateModified: '2026-06-26',
+            dateModified: '2026-06-27',
             author: {
               '@type': 'Person',
               name: 'Anthony Moretti',
               jobTitle: 'VP of Sales',
-              worksFor: {
-                '@type': 'Organization',
-                name: 'Business Executive Group',
-              },
+              worksFor: { '@type': 'Organization', name: 'Business Executive Group' },
             },
             publisher: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              logo: {
-                '@type': 'ImageObject',
-                url: 'https://beghr.com/assets/beg-header-image.png',
-              },
+              logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' },
             },
             url: 'https://beghr.com/blog/payroll/healthcare/dental',
-            mainEntityOfPage: {
-              '@type': 'WebPage',
-              '@id': 'https://beghr.com/blog/payroll/healthcare/dental',
-            },
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://beghr.com/blog/payroll/healthcare/dental' },
           }),
         }}
       />

@@ -105,7 +105,7 @@ export default function AboutPage() {
             <p style={{ marginBottom: '1.25rem' }}>
               Our core service is Managed Payroll. Not software. Not a login you have to manage. A fully managed
               service where our team runs payroll, taxes, and filings for you, end to end, in all 50 states. At $25 to
-              $35 per employee per month, all-inclusive, we replace what would otherwise cost a business $60,000 to
+              $45 per employee per month, all-inclusive, we replace what would otherwise cost a business $60,000 to
               $100,000 a year in a dedicated internal hire. You get accuracy, compliance, and a real person to call
               when something needs to be fixed. No call centers. No ticket queues.
             </p>

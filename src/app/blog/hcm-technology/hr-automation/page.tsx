@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: 'How long does it take to implement HR automation at a 50-person company?',
-    answer: 'For a company moving from manual processes or a basic payroll-only tool to a full HRIS with automation configured, the typical implementation timeline is 6–12 weeks. This includes data migration, workflow configuration, integration setup with benefits carriers and timekeeping tools, and employee self-service activation. The first payroll cycle on a new platform is usually the longest — subsequent cycles operate on the automated cadence. BEG manages the implementation process for clients moving onto iSolved as part of the managed payroll engagement.',
+    answer: 'For a company moving from manual processes or a basic payroll-only tool to a full HRIS with automation configured, BEG managed payroll is live in 3–5 business days — we handle configuration, run a parallel payroll cycle to verify accuracy, and go live. For clients moving onto isolved as a platform, data migration and full HRIS configuration typically adds 2–3 weeks on top of the payroll activation timeline.',
   },
   {
     question: 'What is the ROI on HR automation for a 30-person company?',
@@ -141,7 +141,7 @@ export default function HRAutomationPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Free Up Your HR Team. Start With Payroll.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25–$35 PEPM on isolved or your existing system. Book a 15-minute call to map your current time spend against what automation and managed payroll would recover.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25–$45 PEPM on isolved or your existing system. Book a 15-minute call to map your current time spend against what automation and managed payroll would recover.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 

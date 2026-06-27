@@ -1,28 +1,49 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager',
-  description: 'Compare law firm payroll outsourcing costs vs. hiring in-house. Save $60K-$100K+ annually. Real numbers on compliance, time savings, and ROI.',
+  title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+  description: 'Compare law firm payroll outsourcing vs. hiring in-house. Partner draws, IOLTA separation, billing integration, associate salary tiers. Save $55K–$90K at $25–$45 PEPM.',
   keywords: 'law firm payroll outsourcing, payroll outsourcing cost, hire payroll manager, law firm HR, professional services payroll',
   alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
   openGraph: {
-    title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager',
-    description: 'Compare law firm payroll outsourcing costs vs. hiring in-house. Save $60K-$100K+ annually.',
+    title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+    description: 'Partner draws, IOLTA separation, billing integration, associate salary tiers — handled at $25–$45 PEPM, all-inclusive.',
     type: 'article',
     url: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
-    images: [{
-      url: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing/image.webp',
-      width: 1200,
-      height: 630,
-      alt: 'Law firm payroll cost comparison'
-    }]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager',
-    description: 'Compare law firm payroll outsourcing costs vs. hiring in-house. Save $60K-$100K+ annually.'
-  }
+    title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+    description: 'Compare law firm payroll outsourcing vs. hiring in-house. Save $55K–$90K annually.',
+  },
 };
+
+const faqs = [
+  {
+    question: 'How do you handle equity partner distributions alongside W-2 associate payroll?',
+    answer: 'Equity partner distributions and W-2 associate payroll run as separate processes but on the same cycle. Partner draws are processed as guaranteed payments for tax purposes, or as partnership distributions depending on the firm\'s structure, and are recorded separately from employee W-2 wages. We work from the K-1 allocation schedule your CPA provides and coordinate the timing of draws to align with the firm\'s regular payroll calendar. Non-equity partners on W-2 salary run in the standard payroll cycle with no special handling required.',
+  },
+  {
+    question: 'Can you integrate with our billing and matter management system?',
+    answer: 'We integrate with the major legal billing platforms including Clio, MyCase, PracticePanther, and TimeMatters. Hours data from your timekeeping system can be used to confirm billable productivity benchmarks for associate reviews, and billing system data can inform compensation decisions at bonus time. At minimum, we accept a simple CSV export for any system we do not have a native connection to, with no disruption to your billing workflow.',
+  },
+  {
+    question: 'What about IOLTA and trust account compliance — does payroll processing touch those accounts?',
+    answer: 'No. Payroll processing is funded exclusively from the firm\'s operating account. We never initiate or touch trust account funds. All payroll ACH transactions debit your designated operating account only. We can provide bank instructions that make the segregation of trust vs. operating accounts explicit for your bookkeeper or controller.',
+  },
+  {
+    question: 'How do you handle bar dues reimbursements and CLE expense reimbursements?',
+    answer: 'Reimbursements can be run through the payroll system as non-taxable expense reimbursements or as separate reimbursement checks, depending on your firm\'s policy and the documentation received. Bar dues reimbursed under an accountable plan are non-taxable. We configure the expense reimbursement codes correctly at setup so these items are processed consistently and do not require manual correction at year-end.',
+  },
+  {
+    question: 'We have associates working remotely in multiple states. How do you handle multi-state withholding?',
+    answer: 'We register and maintain tax accounts in each state where you have employees working. Multi-state withholding is determined by the state where the work is physically performed, not the state where the firm is headquartered. For remote associates, we use work-state data to calculate state income tax withholding correctly, and we apply reciprocity agreements where they exist. This is an area where many firms have exposure — incorrect state withholding for remote staff creates back-filing liability.',
+  },
+  {
+    question: 'What does BEG charge for law firm payroll?',
+    answer: 'BEG manages law firm payroll at $25–$45 per employee per month, all-inclusive. For a 25-person firm, that is $625–$875 per month. Included: associate W-2 processing, partner draw coordination, multi-state withholding, bar dues and CLE reimbursement processing, billing system integration where applicable, tax filing, and W-2 production. No setup fees, no per-run charges.',
+  },
+];
 
 export default function LawFirmPayrollPage() {
   return (
@@ -31,220 +52,220 @@ export default function LawFirmPayrollPage() {
         <div className="container">
           <div className="hero-split">
             <div className="hero-split-text">
-          <p className="eyebrow">Blog · Payroll Management · Law Firms</p>
-          <h1>Law Firm Payroll Outsourcing: Cost vs. Hiring a Paralegal or HR Manager</h1>
-          <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
-            <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
-            <span><strong>Published:</strong> June 25, 2026</span>
-            <span><strong>Read time:</strong> 8 min</span>
-          </div>
+              <p className="eyebrow">Blog · Payroll Management · Law Firms</p>
+              <h1>Law Firm Payroll Outsourcing: Cost vs. Hiring a Payroll Manager (2026)</h1>
+              <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
+                <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
+                <span><strong>Published:</strong> June 25, 2026</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Running a law firm means staying laser-focused on billable hours and client relationships. Yet somewhere in your office, someone's spending 10–15 hours a week just processing payroll, managing tax filings, and dealing with compliance headaches.</p>
+        <p>Running a law firm means staying focused on billable hours, client relationships, and case outcomes. But somewhere in the firm, someone is spending 10–15 hours a week on payroll processing, tax filings, partner draw coordination, and compliance headaches that have nothing to do with practicing law.</p>
 
-        <p>Here's the thing: <strong>that person is costing you a lot more than you probably think.</strong></p>
+        <p>Law firm payroll is not straightforward. You have W-2 associates on salary tiers, non-equity partners on guaranteed payments, equity partners on capital account distributions, staff on hourly schedules, and potentially attorneys licensed in multiple states working remotely — all running through the same payroll cycle, with different tax treatment applying to each population.</p>
 
-        <p>If you're considering hiring a dedicated payroll coordinator or HR manager to handle it in-house, or you're already paying someone to do it, this post is for you. We're going to break down the real numbers—and show you why more law firms are making the shift to outsourced payroll management.</p>
+        <p>If you are considering hiring a dedicated payroll coordinator or HR manager to handle this in-house, or if you already have someone doing it, this post breaks down the real numbers — and what you give up by keeping payroll internal.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Hidden Cost of In-House Payroll at Your Law Firm</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of In-House Law Firm Payroll</h2>
 
-        <p>Let's start with the obvious number: <strong>salary.</strong></p>
+        <p>A payroll specialist or HR coordinator in the professional services industry earns $48,000–$72,000 in base salary. Here is what that role actually costs the firm annually:</p>
 
-        <p>According to the <a href="https://www.bls.gov/" target="_blank" rel="noopener noreferrer">Bureau of Labor Statistics</a>, a payroll specialist in the professional services industry makes between $45,000 and $65,000 annually. A dedicated HR coordinator runs $50,000–$70,000. In competitive markets where top talent has options, you're looking at the higher end.</p>
-
-        <p>But that's just the base salary.</p>
-
-        <p>Add in:</p>
-        <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-          <li><strong>Benefits:</strong> Health insurance, retirement contributions, paid time off (~25% of salary) = <strong>$11,250–$17,500</strong></li>
-          <li><strong>Payroll taxes:</strong> Social Security, Medicare, unemployment insurance (~10% of salary) = <strong>$4,500–$6,500</strong></li>
-          <li><strong>Training & certification:</strong> Payroll compliance changes every year. Budget <strong>$1,500–$3,000</strong> annually</li>
-          <li><strong>Software licenses:</strong> ADP, Gusto, or similar platforms = <strong>$500–$2,000/year</strong></li>
-          <li><strong>Workspace, equipment, IT support</strong> = <strong>$2,000–$4,000</strong></li>
-        </ul>
-
-        <p><strong>Total fully-loaded cost: $65,000–$100,000+ per year.</strong></p>
-
-        <p>And here's what most firms miss: that person needs backup coverage when they're sick, on vacation, or—let's be honest—tempted by a better opportunity at another firm.</p>
-
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Real Problem: It's Not Just About Cost</h2>
-
-        <p>Yes, the financial burden is substantial. But law firms tell us the bigger issue is <strong>what that person is NOT doing.</strong></p>
-
-        <p><strong>Question:</strong> When your payroll coordinator is knee-deep in spreadsheets, running year-end compliance reports, and wrestling with tax forms—what's happening to your practice?</p>
-
-        <p><strong>Answer:</strong> Opportunities are being missed.</p>
-
-        <p>An HR manager or payroll specialist should theoretically be a strategic partner—improving hiring processes, managing benefits, handling compliance proactively. Instead, they're buried in operational tasks that don't directly move the needle on profitability or firm growth.</p>
-
-        <p>And here's the uncomfortable truth: <strong>payroll isn't your core competency.</strong> You're a law firm. Your competitive advantage lies in practicing law, not managing W-4s and 941 forms.</p>
-
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>What Happens When Payroll Goes Wrong</h2>
-
-        <p><strong>Compliance Risk:</strong> Payroll mistakes aren't just embarrassing—they're expensive. Missing a tax deadline can trigger penalties ($100–$500 per infraction). Misclassifying contractors? The <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-tax-basics" target="_blank" rel="noopener noreferrer">IRS</a> can impose back taxes, penalties, and interest. For a firm with 20+ employees, a single classification error could cost $5,000–$25,000.</p>
-
-        <p><strong>Turnover Disruption:</strong> That payroll person leaves, and suddenly you're scrambling. Onboarding a replacement takes 3–6 months. In the interim, payroll processes slow down, errors increase, and staff morale suffers because paychecks are late or wrong.</p>
-
-        <p><strong>Time Sink:</strong> Your managing partner or HR director is spending 2–3 hours per week reviewing payroll, approving changes, answering employee questions about their paychecks. That's 100–150 hours per year—roughly 2–3 billable weeks—lost to payroll management.</p>
-
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Outsourcing Alternative: What Modern Law Firms Are Doing</h2>
-
-        <p>More law firms are making a strategic shift: <strong>outsource payroll to specialists, keep your team focused on what matters.</strong></p>
-
-        <p>Here's what outsourced payroll typically covers:</p>
-        <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-          <li><strong>Weekly, bi-weekly, or monthly payroll processing</strong> (accurate, on-time, every time)</li>
-          <li><strong>Tax filing & compliance</strong> (federal, state, local—all handled)</li>
-          <li><strong>Direct deposit setup & management</strong></li>
-          <li><strong>Benefits administration</strong> (health insurance, retirement plans)</li>
-          <li><strong>Reporting & analytics</strong> (who's costing you what, labor trends, headcount insights)</li>
-          <li><strong>Year-end processing</strong> (W-2s, 1099s, tax documents)</li>
-          <li><strong>Employee self-service portal</strong> (employees can view paychecks, update direct deposit, request time off—reducing your HR workload)</li>
-        </ul>
-
-        <p>The best part? <strong>You get dedicated support.</strong> When a question comes up, you call a payroll expert—not someone juggling 50 other tasks.</p>
-
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Numbers: What Outsourced Payroll Actually Costs</h2>
-
-        <p>Here's the typical pricing model:</p>
-
-        <p><strong>Setup fee:</strong> $500–$1,500 (one-time)</p>
-
-        <p><strong>Monthly recurring cost:</strong></p>
-        <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-          <li>Small firms (1–25 employees): $800–$1,500/month</li>
-          <li>Mid-size firms (25–100 employees): $1,500–$3,000/month</li>
-          <li>Larger firms (100+ employees): $3,000–$6,000/month</li>
-        </ul>
-
-        <p>Let's do the math for a firm with 30 attorneys and 50 total staff:</p>
-
-        <p><strong>In-house:</strong> $80,000/year (salary + benefits + taxes + training + software)</p>
-
-        <p><strong>Outsourced:</strong> $1,800/month × 12 = <strong>$21,600/year</strong> (includes everything)</p>
-
-        <p><strong>Annual savings: $58,400</strong></p>
-
-        <p>Even if your managing partner recovers just 50 hours of billable time at $400/hour = <strong>$20,000 in recovered revenue.</strong></p>
-
-        <p><strong>Total impact: $78,400 in year one.</strong></p>
-
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>How Law Firms Use Payroll Outsourcing + Technology</h2>
-
-        <p>The smart move isn't just outsourcing payroll—it's integrating payroll with your HR management system.</p>
-
-        <p><a href="https://www.isolvedhcm.com/industries" target="_blank" rel="noopener noreferrer">iSolved's HCM platform</a>, for example, combines payroll processing with talent management, benefits administration, and workforce analytics in a single system. Your team can run reports on labor costs by practice area, identify staffing gaps, and make data-driven hiring decisions—all from one dashboard.</p>
-
-        <p>This is especially valuable for growing firms. As you scale from 20 to 50 to 100+ employees, your HR needs evolve. An integrated system grows with you.</p>
-
-        <div style={{ background: '#f7f7f7', padding: '1.5rem', borderRadius: '8px', margin: '2rem 0', borderLeft: '4px solid #c41e3a' }}>
-          <h3 style={{ marginTop: 0 }}>FAQ: Law Firm Payroll Outsourcing</h3>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: Will we lose control over payroll decisions?</h4>
-            <p>A: No. You retain full control. Your outsourced payroll provider executes your decisions, but you determine salaries, bonuses, benefits, and policy changes. Think of them as your extended HR team.</p>
-          </div>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: What if we use a specific timekeeping or billing software?</h4>
-            <p>A: Reputable payroll providers integrate with most systems (iSolved, ADP, QuickBooks, Gusto, etc.). Ask about integrations before signing on.</p>
-          </div>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: How do we transition? Will there be downtime?</h4>
-            <p>A: Professional firms handle transitions carefully. Plan for 2–4 weeks of setup and data migration. Your payroll provider should offer hands-on support during this period—often called "hypercare"—to ensure zero disruption.</p>
-          </div>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: What about confidentiality? Are payroll records secure?</h4>
-            <p>A: Yes. Payroll providers are bound by legal confidentiality agreements and maintain SOC 2 compliance (security certification). Your data is more secure than an in-house spreadsheet managed by one person.</p>
-          </div>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: Can we scale up or down quickly?</h4>
-            <p>A: Absolutely. Need to adjust payroll frequency, add employees, or change benefits? Reputable providers can adjust in days, not months. This flexibility is a huge advantage for growing firms.</p>
-          </div>
-
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: What's the onboarding process like?</h4>
-            <p>A: Typically 2–4 weeks. Your provider will collect employee data (current pay rates, deductions, benefits), set up your company profile, tax IDs, and compliance settings, run a test payroll to verify accuracy, go live with your first processed payroll, and provide ongoing support and training for your team.</p>
-          </div>
-
-          <div style={{ marginBottom: 0 }}>
-            <h4 style={{ fontWeight: '600', color: '#1a1a2e', marginBottom: '0.5rem' }}>Q: How much time do we actually save?</h4>
-            <p>A: For a 50-person firm, expect 10–15 hours per week saved internally—freeing up your HR director or managing partner to focus on strategic priorities like hiring, culture, and firm growth.</p>
-          </div>
+        <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
+            <thead>
+              <tr style={{ background: '#000', color: '#fff' }}>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Cost Category</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>Annual Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Base salary (payroll specialist / HR coordinator)', '$48,000–$72,000'],
+                ['Benefits (health, dental, 401K, PTO) ~30%', '$14,400–$21,600'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,800–$7,200'],
+                ['Payroll software license (ADP, Gusto, or similar)', '$600–$2,500'],
+                ['Training & compliance updates (FLSA, state law changes)', '$1,500–$3,500'],
+                ['Recruiting & onboarding (amortized over 2.5 years)', '$1,800–$4,200'],
+                ['Total loaded cost', '$71,100–$111,000'],
+              ].map(([label, cost], i) => (
+                <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 6 ? '700' : '400' }}>{label}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: i === 6 ? '700' : '400' }}>{cost}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>The Strategic Question Your Firm Should Be Asking</h2>
+        <p>That is the cost when everything goes right. When that person makes a multi-state withholding error, misses a partner draw coordination deadline, or leaves the firm mid-quarter, the disruption and correction costs are substantially higher.</p>
 
-        <p>Here's the real question beneath all of this:</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
 
-        <p><strong>"Is managing payroll in-house a competitive advantage for our firm, or a distraction?"</strong></p>
+        <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
+            <thead>
+              <tr style={{ background: '#000', color: '#fff' }}>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Firm Size</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>Monthly</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>Annual</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>vs. In-House</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['10 employees (5 attorneys + 5 staff)', '$250–$350', '$3,000–$4,200', 'Save $67K–$107K/yr'],
+                ['25 employees', '$625–$875', '$7,500–$10,500', 'Save $61K–$101K/yr'],
+                ['50 employees', '$1,250–$1,750', '$15,000–$21,000', 'Save $50K–$90K/yr'],
+                ['100 employees', '$2,500–$3,500', '$30,000–$42,000', 'Save $29K–$69K/yr'],
+              ].map(([size, monthly, annual, savings], i) => (
+                <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>{monthly}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>{annual}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>{savings}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
 
-        <p>For most law firms, the honest answer is: it's a distraction.</p>
+        <p>All-inclusive: associate W-2 processing, partner draw coordination, multi-state withholding, bar dues and CLE reimbursement processing, billing system integration, tax filing in all applicable states, and W-2/1099 production. No setup fees, no per-run charges.</p>
 
-        <p>Your competitive advantage is your legal expertise, your client relationships, and your team's ability to win cases. Payroll is a necessary operational function—but it's not what sets you apart.</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Law Firms Get Wrong in Payroll</h2>
 
-        <p><strong>The firms that are scaling fastest</strong> are the ones that outsource the operational stuff and keep their internal team focused on business development, client service, and strategic growth.</p>
+        <p><strong>Multi-state withholding for remote attorneys is the most common compliance gap.</strong> When an associate works from a state other than the firm's headquarters, withholding must be calculated based on the state where the work is performed — not where the firm is located. Law firms with remote attorneys who have not registered in each work state face back-filing liability and potential penalties when those states audit. As attorney remote work has become standard, state revenue departments have become more aggressive about cross-border employer registration.</p>
+
+        <p><strong>Partner draw timing creates bookkeeping errors that surface at K-1 time.</strong> When partner distributions are processed inconsistently — sometimes through payroll, sometimes as direct transfers, sometimes as reimbursements — the K-1 reconciliation at year-end becomes a problem. Guaranteed payments treated as W-2 income, or distributions that do not reflect actual capital account activity, require significant CPA time to untangle. A consistent payroll process eliminates this.</p>
+
+        <p><strong>Lateral hire onboarding payroll errors create early attrition risk.</strong> A lateral attorney who receives an incorrect first paycheck — wrong start-date proration, incorrect benefit deductions, missing a signing bonus installment — is already questioning the firm's operational competence. For high-value laterals, this impression matters. Payroll errors during the first 90 days are more common at firms running manual processes.</p>
+
+        <p><strong>Bar dues and CLE reimbursements processed incorrectly become taxable income.</strong> Reimbursements under a non-accountable plan are treated as taxable compensation, increasing W-2 income and causing attorney complaints at tax time. Under an accountable plan with proper substantiation, the same reimbursement is non-taxable. Most in-house coordinators process these inconsistently, creating W-2 corrections and attorney frustration.</p>
+
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Law Firm Payroll Complexity by Employee Type</h2>
+
+        <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
+            <thead>
+              <tr style={{ background: '#000', color: '#fff' }}>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Employee Type</th>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Payroll Complexity</th>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Common Error</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Equity partners', 'Guaranteed payments, capital account draws, K-1 coordination', 'Distribution timing misaligned with capital account activity'],
+                ['Non-equity partners (W-2)', 'Salary + bonus, sometimes origination-based comp', 'Bonus processed as regular wages instead of supplemental rate'],
+                ['Associates', 'Salary tiers, bar exam bonuses, signing bonus tranches', 'Proration errors on mid-period start dates; signing bonus clawback tracking'],
+                ['Paralegals / legal assistants', 'Hourly or salary, overtime eligible under FLSA', 'Overtime misclassification; salary basis not maintained correctly'],
+                ['Contract / 1099 attorneys', 'Project-based, no withholding', 'Co-employment risk; 1099 threshold monitoring failures'],
+                ['Administrative staff', 'Hourly, overtime eligible', 'PTO accrual mismanagement; final pay timing on termination'],
+              ].map(([type, complexity, error], i) => (
+                <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem', fontWeight: '600' }}>{type}</td>
+                  <td style={{ padding: '0.65rem 0.75rem' }}>{complexity}</td>
+                  <td style={{ padding: '0.65rem 0.75rem', color: '#c00' }}>{error}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What a Complete Law Firm Payroll Solution Covers</h2>
+
+        <p>BEG's managed payroll solution for law firms handles the full payroll lifecycle:</p>
+
+        <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Weekly, bi-weekly, or semi-monthly processing</strong> — accurate, on-time, for all employee types</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Partner draw coordination</strong> — scheduled or on-demand, with guaranteed payment processing for equity partners</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Multi-state tax compliance</strong> — registration, withholding, and filing in all states where attorneys work</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Reimbursement processing</strong> — bar dues, CLE, client entertainment under accountable plans</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Billing system integration</strong> — connect time data from Clio, MyCase, PracticePanther, and others</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Benefits administration</strong> — health insurance, retirement plan coordination, open enrollment</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Year-end processing</strong> — W-2, 1099-NEC, corrected forms, state reconciliations</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Employee self-service portal</strong> — attorneys and staff access paystubs, W-2s, and benefit elections directly</li>
+        </ul>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
-          <h3 style={{ color: '#000000', margin: 0 }}>Ready to Explore Outsourced Payroll for Your Firm?</h3>
-          <p style={{ marginBottom: '1.5rem' }}>If you're spending $60,000–$100,000+ annually to manage payroll in-house, it's worth having a conversation about outsourcing. We work with law firms across the country—solo practices to 200+ attorney firms. Our managed payroll solution handles everything: processing, compliance, benefits, reporting, and integration with your existing systems. Plus, you get support from actual payroll experts, not a single overworked coordinator.</p>
+          <h3 style={{ color: '#000000', margin: 0 }}>Law Firm Payroll, Handled at $25–$45 PEPM.</h3>
+          <p style={{ marginBottom: '1.5rem' }}>Partner draws, associate salary tiers, multi-state withholding, billing system integration — all-inclusive with no setup fees. Book a 15-minute call to get a cost comparison for your firm size and structure.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
-        <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #c41e3a', margin: '2rem 0', borderRadius: '4px' }}>
-          <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p>Anthony is the VP of Sales for Business Executive Group (BEG), a national HR and payroll solutions firm serving law firms, healthcare practices, tech companies, and professional services firms. BEG partners with iSolved to deliver managed payroll, benefits administration, and HCM platform solutions.</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Law Firm Payroll Outsourcing</h2>
+
+        <div className="faq" style={{ marginTop: '1rem' }}>
+          {faqs.map((faq, i) => (
+            <div key={i} className="faq-item">
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
         </div>
 
-        <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '2px solid #e0e0e0' }}>
-          <h3>Related Resources</h3>
-          <ul style={{ marginLeft: '1.5rem' }}>
-            <li><a href="https://beghr.com/services/managed-payroll">Managed Payroll + Core HR Services for Law Firms</a> — Learn how BEG handles everything from processing to compliance</li>
-            <li><a href="https://www.isolvedhcm.com/industries/professional-services" target="_blank" rel="noopener noreferrer">How iSolved's HCM Platform Powers Payroll for Professional Services</a> — Deep dive into integrated payroll + HR management</li>
-            <li><a href="https://www.bls.gov/oes/current/oes131090.htm" target="_blank" rel="noopener noreferrer">Legal Industry Payroll Benchmarks & Salary Data</a> — Bureau of Labor Statistics on legal support salaries</li>
-          </ul>
+        <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>
+          <p style={{ margin: '0 0 0.75rem', fontWeight: '700', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#666' }}>Related Resources</p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
+            <a href="/services/managed-payroll" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              Managed Payroll &rarr;
+            </a>
+            <a href="/blog/payroll/professional-services/accounting" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              Accounting Firm Payroll &rarr;
+            </a>
+            <a href="/blog/compare/managed-payroll-vs-adp" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
+              BEG vs. ADP &rarr;
+            </a>
+          </div>
+        </div>
+
+        <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
+          <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving law firms, professional services practices, and healthcare organizations. BEG manages partner draw coordination, multi-state withholding, billing system integration, and all attorney-specific payroll complexity at $25–$45 PEPM, all-inclusive.</p>
         </div>
       </section>
-    
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqs.map(faq => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+            })),
+          }),
+        }}
+      />
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: 'Law Firm Payroll Outsourcing: A Complete Guide',
-            description: 'Everything law firms need to know about outsourcing payroll',
+            headline: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+            description: 'Partner draws, IOLTA separation, billing integration, multi-state withholding — law firm payroll outsourcing at $25–$45 PEPM all-inclusive.',
             datePublished: '2026-06-25',
-            dateModified: '2026-06-26',
+            dateModified: '2026-06-27',
             author: {
               '@type': 'Person',
               name: 'Anthony Moretti',
               jobTitle: 'VP of Sales',
-              worksFor: {
-                '@type': 'Organization',
-                name: 'Business Executive Group',
-              },
+              worksFor: { '@type': 'Organization', name: 'Business Executive Group' },
             },
             publisher: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              logo: {
-                '@type': 'ImageObject',
-                url: 'https://beghr.com/assets/beg-header-image.png',
-              },
+              logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' },
             },
             url: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
-            mainEntityOfPage: {
-              '@type': 'WebPage',
-              '@id': 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
-            },
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
           }),
         }}
       />

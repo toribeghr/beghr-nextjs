@@ -20,7 +20,7 @@ export default function ManagedPayrollVsRipplingPage() {
     },
     {
       question: "How long does Rippling implementation take?",
-      answer: "Rippling implementation typically takes 6 to 12 weeks for a full deployment. The payroll module alone can be live faster, but if you are configuring device management, SSO, and workflow automation — which is where Rippling's value comes from — expect 2 to 3 months of implementation work, often requiring IT involvement. In contrast, BEG managed payroll implementation typically takes 2 to 4 weeks."
+      answer: "Rippling implementation typically takes 6 to 12 weeks for a full deployment. The payroll module alone can be live faster, but if you are configuring device management, SSO, and workflow automation — which is where Rippling's value comes from — expect 2 to 3 months of implementation work, often requiring IT involvement. In contrast, BEG managed payroll implementation typically takes 3–5 business days."
     },
     {
       question: "Who is Rippling best for?",
@@ -83,9 +83,9 @@ export default function ManagedPayrollVsRipplingPage() {
                 ['Product type', 'All-in-one platform (payroll + HR + IT)', 'Managed payroll service'],
                 ['Who runs payroll', 'You (platform-assisted)', 'BEG — fully handled'],
                 ['Platform scope', 'Payroll, HR, device mgmt, identity, benefits', 'Payroll operations only'],
-                ['Implementation time', '6–12 weeks typically', '2–4 weeks'],
+                ['Implementation time', '6–12 weeks typically', '3–5 business days'],
                 ['Learning curve', 'Significant — complex platform', 'None — we handle it'],
-                ['Pricing model', '$8–$70+/employee/mo (modular)', '$25–$35 PEPM, all-in'],
+                ['Pricing model', '$8–$70+/employee/mo (modular)', '$25–$45 PEPM, all-in'],
                 ['Contract required', 'Annual, modular pricing', 'Month-to-month'],
                 ['Works with existing systems', 'Requires Rippling ecosystem', 'Yes — or move to iSolved'],
                 ['Employee questions', 'Self-service app', 'BEG handles directly'],
@@ -186,7 +186,7 @@ export default function ManagedPayrollVsRipplingPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          Rippling cost estimates based on full suite pricing at 50 employees. Payroll-only Rippling is less expensive but eliminates the platform value proposition. BEG pricing is flat $25–$35 PEPM, all-in with no setup fees.
+          Rippling cost estimates based on full suite pricing at 50 employees. Payroll-only Rippling is less expensive but eliminates the platform value proposition. BEG pricing is flat $25–$45 PEPM, all-in with no setup fees.
         </p>
         <p>
           If you genuinely need Rippling's IT and HR integration capabilities, those costs may be justified. If you primarily need payroll handled, you're paying for a significant amount of capability you won't use.

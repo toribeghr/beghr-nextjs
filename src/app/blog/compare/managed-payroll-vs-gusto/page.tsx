@@ -88,7 +88,7 @@ export default function ManagedPayrollVsGustoPage() {
                 ['Compliance monitoring', 'Alerts you to changes', 'We monitor + act'],
                 ['Error correction', 'You fix it', 'We fix it, our responsibility'],
                 ['Works with your existing system', 'Requires Gusto account', 'Yes — stay on your system'],
-                ['Monthly cost (50 employees)', '~$6–$12/employee/mo + base', '$25–$35/employee/mo, all-in'],
+                ['Monthly cost (50 employees)', '~$6–$12/employee/mo + base', '$25–$45/employee/mo, all-in'],
                 ['Internal time required', '3–10 hrs/month', 'Near zero'],
               ].map(([cap, gusto, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -222,7 +222,7 @@ export default function ManagedPayrollVsGustoPage() {
           The trigger usually isn't a disaster. It's someone doing a back-of-envelope calculation and realizing that payroll is consuming 10+ hours of HR time per month — hours that could go toward recruiting, culture, or operations. At that point, the question shifts from "which software should we use" to "should we be doing this ourselves at all?"
         </p>
         <p>
-          The switch to managed payroll typically takes 3 to 4 weeks. We pull data from Gusto (or your underlying payroll system), verify classifications, rebuild the payroll configuration, and run one parallel cycle before fully transitioning. Most companies report the transition being smoother than they expected.
+          The switch to managed payroll typically takes 3–5 business days. We pull data from Gusto (or your underlying payroll system), verify classifications, configure the new setup, and run a parallel cycle — all within 3–5 business days. Most companies report the transition being smoother than they expected.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>

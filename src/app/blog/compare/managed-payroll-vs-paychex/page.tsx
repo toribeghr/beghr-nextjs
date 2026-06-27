@@ -8,6 +8,33 @@ export const metadata: Metadata = {
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
+const faqs = [
+  {
+    question: 'Can BEG manage payroll within my existing Paychex account?',
+    answer: 'Yes. BEG can operate within your current Paychex setup. We take over the processing, compliance monitoring, tax filing execution, and employee question handling — you stay on the platform you already have, without any migration. This is one of the most common transitions: a company already on Paychex wants the operational burden removed without switching systems.',
+  },
+  {
+    question: 'How does BEG pricing compare to what we currently pay Paychex?',
+    answer: 'BEG managed payroll runs $25–$45 per employee per month, all-inclusive. Paychex pricing varies by tier and is typically quoted as a base fee plus a per-employee charge, with additional fees for add-on modules, year-end processing, and W-2 delivery. Most companies on Paychex are paying between $50 and $120 per employee per month fully loaded, and still running payroll internally. BEG replaces both the software cost and the internal labor cost with a single flat rate.',
+  },
+  {
+    question: 'Our Paychex contract is up for renewal. Should we switch to iSolved or stay on Paychex with BEG managing it?',
+    answer: 'It depends on what you want out of the HR platform. If Paychex\'s module suite — time and attendance, performance management, hiring tools — is working well for you, staying on Paychex and layering BEG managed payroll service on top is a valid path. If you want to consolidate to a single platform that BEG runs end-to-end, iSolved is typically a better fit and often lower total cost. We can run this comparison with your specific headcount and module needs in a 15-minute call.',
+  },
+  {
+    question: 'Is there anything BEG can\'t do that Paychex does as a platform?',
+    answer: 'Paychex Flex has a broader HR module suite than what BEG manages directly — things like performance reviews, learning management, and applicant tracking. BEG focuses on payroll, tax compliance, benefits coordination, and core HR operations. If your company depends heavily on Paychex\'s performance or learning modules, those would remain your responsibility to manage on the platform. Most companies in the 20–200 headcount range don\'t use those modules actively enough for it to be a meaningful constraint.',
+  },
+  {
+    question: 'How long does it take to transition from Paychex self-service to BEG managed payroll?',
+    answer: 'Typically 3–5 business days from kickoff to first processed payroll under BEG management. We run a parallel cycle to verify accuracy before going fully live. The transition requires no change to your Paychex setup — we handle onboarding, verify a parallel payroll cycle, and go live within 3–5 business days.',
+  },
+  {
+    question: 'We have HR staff who currently manage Paychex. What happens to their role?',
+    answer: 'Your HR staff are typically freed from payroll operations — the cycle processing, tax filing, employee paycheck questions, and compliance tracking. That time is reallocated to recruiting, onboarding, benefits management, employee relations, and strategic HR work. Most HR managers find this is what they wanted to be doing anyway. In some cases, companies right-size their HR function once payroll operations are removed; that is a separate decision for leadership.',
+  },
+];
+
 export default function ManagedPayrollVsPaychexPage() {
   return (
     <article className="blog-post">
@@ -58,7 +85,7 @@ export default function ManagedPayrollVsPaychexPage() {
                 ['Tax filings', 'Automated by platform', 'BEG team executes + verifies'],
                 ['Employee questions', 'Self-service portal, some support', 'Routes to BEG directly'],
                 ['Compliance monitoring', 'Alerts + some automation', 'Active monitoring by BEG team'],
-                ['Pricing', 'Quoted, typically $39–$150/mo base + per-employee', '$25–$35 PEPM all-in'],
+                ['Pricing', 'Quoted, typically $39–$150/mo base + per-employee', '$25–$45 PEPM all-in'],
                 ['Contract terms', 'Annual contracts common', 'Month-to-month'],
                 ['Migration required', 'Must use Paychex system', 'No — work in existing system, or iSolved'],
                 ['Internal time required', '5–15 hours/month depending on team size', 'Near zero'],
@@ -127,6 +154,19 @@ export default function ManagedPayrollVsPaychexPage() {
           <li><strong>Move to managed payroll if:</strong> Payroll is consuming more of your HR team's time than it should, you've had errors that required correction, or you want someone else responsible for compliance and processing.</li>
         </ul>
 
+        <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
+          FAQ: Paychex vs. Managed Payroll
+        </h2>
+
+        <div className="faq" style={{ marginTop: '1rem' }}>
+          {faqs.map((faq, i) => (
+            <div key={i} className="faq-item">
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>See what managed payroll looks like for your setup</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Whether you're on Paychex, ADP, or nothing at all — we'll show you exactly what BEG managed payroll costs and what changes for your team.</p>
@@ -142,6 +182,16 @@ export default function ManagedPayrollVsPaychexPage() {
         </div>
 
       </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map(faq => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
+      }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',

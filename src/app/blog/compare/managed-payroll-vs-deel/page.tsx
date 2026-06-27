@@ -8,6 +8,33 @@ export const metadata: Metadata = {
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
+const faqs = [
+  {
+    question: 'When does Deel make more sense than managed payroll?',
+    answer: 'Deel is the right choice when your primary payroll problem is international contractors or employees in countries where you do not have a legal entity. If you need to pay contractors in Brazil, the Philippines, Romania, or Canada and manage local compliance in each jurisdiction, Deel\'s Employer of Record infrastructure is purpose-built for that. Managed payroll is the right choice when your workforce is primarily domestic W-2 employees and you want to remove the operational burden of running payroll internally.',
+  },
+  {
+    question: 'We have 5 international contractors and 30 U.S. employees. Which service do we need?',
+    answer: 'You likely need both — and that is a legitimate setup. Deel handles your international contractor payments and compliance. BEG managed payroll handles your 30 domestic W-2 employees. The two services are not mutually exclusive. Many companies run this split model: a global contractor tool for the international population and a managed payroll service for the domestic W-2 workforce. BEG can take on the domestic side regardless of what you use for international.',
+  },
+  {
+    question: 'Can BEG work in our existing payroll system, or do we have to migrate?',
+    answer: 'We operate in your existing payroll system — ADP, Paychex, QuickBooks Payroll, and others. No migration required. We take over the operational work: processing, tax filing, compliance, employee questions, and year-end. If you want to consolidate onto iSolved (our preferred platform), we can manage that migration as well, but it is optional. The no-migration option is one of the primary reasons companies choose BEG over platform-based alternatives.',
+  },
+  {
+    question: 'How does Deel pricing compare to BEG for a 40-person U.S. team?',
+    answer: 'Deel\'s domestic payroll product (Deel HR) is free for basic features, but full payroll processing and compliance for U.S. employees carries additional per-seat costs depending on the modules used. More relevantly, Deel is still a self-service platform — you or someone on your team is running it. BEG managed payroll at $25–$45 PEPM for a 40-person team is $1,000–$1,400 per month, all-inclusive, with BEG handling all execution. The comparison is not just price — it is price plus the time cost of managing a platform internally.',
+  },
+  {
+    question: 'What is the biggest mistake companies make when evaluating Deel vs. managed payroll?',
+    answer: 'Treating them as equivalent alternatives when they solve different problems. Deel is evaluated for its international capabilities and then sometimes considered for domestic payroll as well, because the brand is familiar. But domestic payroll management — accurate W-2 processing, multi-state compliance, tax filing, employee question handling — is not Deel\'s primary use case. Companies that choose Deel for a domestic W-2 workforce often end up with a platform they are still operating themselves, without the service layer they actually needed.',
+  },
+  {
+    question: 'Is BEG a payroll software company like Deel, or a service company?',
+    answer: 'BEG is a managed service provider, not a software company. We do not sell a platform subscription. We take responsibility for running your payroll end-to-end — processing, compliance, tax filing, employee communications, and year-end production. The technology we use (iSolved or your existing system) is the infrastructure; the service is what you are actually buying. This is a fundamentally different model from any self-service platform, Deel included.',
+  },
+];
+
 export default function ManagedPayrollVsDeelPage() {
   return (
     <article className="blog-post">
@@ -59,7 +86,7 @@ export default function ManagedPayrollVsDeelPage() {
                 ['System migration required', 'Yes — must move to Deel', 'No — work in your existing system'],
                 ['Tax compliance', 'International / contractor 1099s', 'Federal + state W-2 + payroll tax'],
                 ['Employee questions handled', 'App-based self-service', 'BEG handles directly'],
-                ['Monthly cost range', '$49–$599+/contractor/mo or custom', '$25–$35 PEPM all-in'],
+                ['Monthly cost range', '$49–$599+/contractor/mo or custom', '$25–$45 PEPM all-in'],
                 ['Best for companies with...', 'Global remote contractors', 'U.S. W-2 employees, 20–200 headcount'],
               ].map(([factor, deel, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -130,6 +157,19 @@ export default function ManagedPayrollVsDeelPage() {
           Some companies legitimately need both: a managed payroll service for their domestic W-2 workforce AND a tool like Deel for international contractors. These aren't mutually exclusive. If that's your situation, BEG can handle the domestic side while Deel handles the global contractor payments.
         </p>
 
+        <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
+          FAQ: Deel vs. Managed Payroll
+        </h2>
+
+        <div className="faq" style={{ marginTop: '1rem' }}>
+          {faqs.map((faq, i) => (
+            <div key={i} className="faq-item">
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Let's figure out the right setup for you</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. No commitment. We'll look at your workforce structure and give you a straight answer on what actually makes sense.</p>
@@ -148,10 +188,20 @@ export default function ManagedPayrollVsDeelPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map(faq => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
+      }) }} />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Managed Payroll vs. Deel: What Growing Companies Need to Know',
         description: 'Full comparison of Deel vs. BEG managed payroll — use case, cost, migration, and which is right for your workforce.',
-        datePublished: '2026-06-27', dateModified: '2026-06-27',
+        datePublished: '2026-06-27', dateModified: '2026-06-27', description: 'Deel is built for global contractors and EOR. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and which is right for your workforce.',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
         url: 'https://beghr.com/blog/compare/managed-payroll-vs-deel',

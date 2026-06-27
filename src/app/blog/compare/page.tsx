@@ -11,7 +11,7 @@ const PAYROLL_COMPARISONS = [
   {
     href: '/blog/compare/payroll-manager-vs-outsourcing',
     title: 'Hiring a Payroll Manager vs. Outsourcing',
-    description: 'What does an in-house payroll manager actually cost — salary, benefits, errors, and replacement — vs. $25–$35 PEPM managed payroll?',
+    description: 'What does an in-house payroll manager actually cost — salary, benefits, errors, and replacement — vs. $25–$45 PEPM managed payroll?',
     time: '8 min read',
   },
   {

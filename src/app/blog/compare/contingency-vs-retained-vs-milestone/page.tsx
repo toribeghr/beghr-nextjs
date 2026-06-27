@@ -8,6 +8,33 @@ export const metadata: Metadata = {
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
+const faqs = [
+  {
+    question: 'What does "roughly 50% less than contingency" mean in actual dollars?',
+    answer: 'Contingency search for attorney roles is typically priced at 20–30% of first-year compensation. For a $175,000 associate, that is $35,000–$52,500. BEG milestone-based placement runs roughly 50% less than that benchmark — so in the same scenario, the placement fee would be in the range of $17,500–$26,000. The exact fee varies by role, practice area, and seniority. The iSolved platform infrastructure that powers BEG placement reduces the per-search overhead that traditional contingency recruiters build into their fees.',
+  },
+  {
+    question: 'Why would a firm ever use contingency search if milestone-based is cheaper and faster?',
+    answer: 'The primary reason is familiarity. Contingency is the default model — most managing partners have used it before and know how it works. There is also a perception that non-exclusive contingency is zero-risk because you only pay at hire, but this ignores the cost of an extended vacancy and the high likelihood of the search taking 60–120 days. For firms that have had good experiences with a specific contingency recruiter, the relationship may outweigh the cost and timeline advantages of a different model.',
+  },
+  {
+    question: 'Is there any situation where retained search is worth the upfront fee?',
+    answer: 'Yes. Retained search makes the most sense for senior partner hires, practice group leaders, and rainmaker searches where the role is high-stakes, the talent pool is narrow and specialized, and confidentiality in the market is important. In these situations, you want a dedicated firm running a systematic market map, not a shared-attention contingency effort. The upfront retainer is justified by the depth of work required. For standard associate and mid-level lateral searches, retained is typically more expensive and slower than the milestone model without meaningful benefit in fill rate or candidate quality.',
+  },
+  {
+    question: 'When exactly do milestone payments happen in BEG\'s model?',
+    answer: 'The milestone structure is defined at engagement. Payments are tied to defined process events — typically at candidate presentation and at attorney start date — rather than upfront. No payment is owed if no placement is made. The payment relationship is between your firm and iSolved directly; BEG earns a commission as the authorized reseller. The specific milestone structure is confirmed during the discovery call before any engagement begins.',
+  },
+  {
+    question: 'Can we run BEG alongside a contingency recruiter for the same role?',
+    answer: 'Yes. BEG does not require exclusivity for standard associate and lateral searches. If you already have a contingency recruiter working on a role, BEG can run a parallel search sourcing from a different candidate pipeline — primarily passive laterals. If BEG places the candidate, BEG earns the milestone fee. If the contingency recruiter places the candidate, they earn their fee. This non-exclusive structure lets firms access multiple candidate pools without committing to one source.',
+  },
+  {
+    question: 'What happens if BEG presents candidates and we decide not to hire any of them?',
+    answer: 'No fee is owed. The milestone model means payment is only triggered at defined placement milestones, typically when a candidate accepts an offer and starts. If a search produces candidates that do not result in a hire — whether due to fit, offer rejection, or the firm deciding to hold the search — no payment obligation arises. This is the same no-placement, no-fee structure as contingency, combined with a faster sourcing model and lower fee when placement does occur.',
+  },
+];
+
 export default function ContingencyVsRetainedVsMilestonePage() {
   return (
     <article className="blog-post">
@@ -170,6 +197,19 @@ export default function ContingencyVsRetainedVsMilestonePage() {
           </table>
         </div>
 
+        <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
+          FAQ: Contingency vs. Retained vs. Milestone
+        </h2>
+
+        <div className="faq" style={{ marginTop: '1rem' }}>
+          {faqs.map((faq, i) => (
+            <div key={i} className="faq-item">
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Find out if BEG placement is right for your open role</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll ask about your role, timeline, and what you've tried — and give you a straight answer on whether the milestone model fits.</p>
@@ -185,6 +225,16 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         </div>
 
       </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map(faq => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
+      }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',

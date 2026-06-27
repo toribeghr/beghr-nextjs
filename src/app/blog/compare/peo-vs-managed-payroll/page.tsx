@@ -184,7 +184,7 @@ export default function PEOVsManagedPayrollPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          PEO cost at 10% of gross payroll. BEG at $25–$35 PEPM. Note: PEO cost may be partially offset by benefits savings if your current benefits are significantly more expensive than PEO group rates.
+          PEO cost at 10% of gross payroll. BEG at $25–$45 PEPM. Note: PEO cost may be partially offset by benefits savings if your current benefits are significantly more expensive than PEO group rates.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>

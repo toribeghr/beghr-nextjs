@@ -3,11 +3,20 @@ import Link from 'next/link';
 import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll, HCM Software & Job Placement | BEG | All 50 States',
+  title: 'Managed Payroll, HCM Software & Job Placement | BEG',
   description: 'Business Executive Group delivers fully managed payroll at $25-$45 PEPM, iSolved HCM software with BEG implementation and support, and specialized job placement in 23-35 days.',
   alternates: {
     canonical: 'https://beghr.com',
   },
+  openGraph: {
+    title: 'Managed Payroll, HCM Software & Job Placement | BEG',
+    description: 'BEG delivers fully managed payroll at $25–$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23–35 days. All 50 states.',
+    url: 'https://beghr.com',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group — Managed Payroll, HCM Software & Job Placement' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll, HCM Software & Job Placement | BEG', description: 'BEG delivers fully managed payroll at $25–$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23–35 days.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

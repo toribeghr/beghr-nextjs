@@ -171,6 +171,17 @@ export default function LegalStaffingVsPlacementPage() {
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
         url: 'https://beghr.com/blog/compare/legal-staffing-vs-placement',
       }) }} />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: "What is the difference between legal staffing and legal placement?", acceptedAnswer: { '@type': 'Answer', text: "Legal staffing provides temporary or contract attorneys and paralegals, usually billed hourly. Legal placement is a permanent hire where a recruiter sources a full-time employee for a firm and earns a fee upon successful placement. BEG handles placement only — permanent, direct-hire attorney and staff positions." } },
+          { '@type': 'Question', name: "When should a law firm use staffing vs. placement?", acceptedAnswer: { '@type': 'Answer', text: "Use staffing for project overflow, trial support, or short-term capacity gaps. Use placement when you have an ongoing role to fill and need a long-term team member. Placement costs more upfront but is far more cost-effective over a multi-year employment relationship." } },
+          { '@type': 'Question', name: "Does BEG do legal staffing?", acceptedAnswer: { '@type': 'Answer', text: "No. BEG handles permanent placement only, through iSolved Job Placement Services. We do not provide temporary or contract staffing. Our model is milestone-based, meaning fees are structured across the engagement, shortlist, and placement stages." } },
+          { '@type': 'Question', name: "What is the cost difference between legal staffing and placement?", acceptedAnswer: { '@type': 'Answer', text: "Legal staffing markups typically run 40 to 60 percent above the contractor's hourly rate. Placement fees are typically 25 to 35 percent of first-year compensation on a contingency basis, or structured differently on milestone or retained models. BEG's milestone placement runs roughly 50 percent less than traditional contingency fees." } },
+        ]
+      }) }} />
     </article>
   );
 }

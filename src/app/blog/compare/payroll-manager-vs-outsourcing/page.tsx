@@ -251,6 +251,17 @@ export default function PayrollManagerVsOutsourcingPage() {
           }),
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: "How much does a payroll manager cost vs. outsourcing?", acceptedAnswer: { '@type': 'Answer', text: "A payroll manager costs $60,000 to $100,000 per year in salary alone, plus benefits, payroll taxes, PTO, and recruiting overhead — typically $80,000 to $130,000 total annual cost. BEG managed payroll runs $25 to $45 per employee per month. For a 50-person company, that is $15,000 to $27,000 per year. The savings at that headcount are typically $50,000 to $100,000 annually." } },
+          { '@type': 'Question', name: "What does a payroll manager do that outsourcing can't?", acceptedAnswer: { '@type': 'Answer', text: "Most internal payroll work — processing runs, tax filings, year-end forms, new hire setup, direct deposit management — is handled better and more cost-effectively by a managed service. Where an internal manager adds unique value is deep institutional knowledge of one-off compensation structures, equity, or highly customized benefit schemes. For standard payroll, outsourcing is consistently more cost-effective." } },
+          { '@type': 'Question', name: "When should a company hire an internal payroll manager instead of outsourcing?", acceptedAnswer: { '@type': 'Answer', text: "Companies with extremely complex equity compensation, multi-entity structures across many states, or more than 500 employees sometimes benefit from a dedicated internal head. Below that threshold, a managed payroll service provides the same coverage at significantly lower cost and without the recruiting, training, and turnover risk." } },
+          { '@type': 'Question', name: "Is outsourcing payroll risky?", acceptedAnswer: { '@type': 'Answer', text: "The main risk is choosing a vendor that does not take accountability for errors. BEG stands behind its work — we handle corrections, amendments, and compliance issues directly. The risk with self-serve software platforms is that errors still fall on your team. With a managed service, the responsibility transfers." } },
+        ]
+      }) }} />
     </article>
   );
 }

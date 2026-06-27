@@ -100,6 +100,17 @@ export default function StartupHiringPage() {
           }),
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: "When should a startup hire its first HR person?", acceptedAnswer: { '@type': 'Answer', text: "Most startups do not need a dedicated HR hire until 40 to 60 employees. Before that threshold, a founder or ops lead can manage HR administratively if they have the right tools. A managed payroll and HR service covers the compliance, payroll, and benefits infrastructure without an internal hire — which is particularly valuable when every headcount dollar counts." } },
+          { '@type': 'Question', name: "What payroll system should a startup use?", acceptedAnswer: { '@type': 'Answer', text: "For startups under 50 employees, you have two reasonable options: a self-serve platform you manage internally, or a fully managed payroll service. The self-serve route costs less upfront but requires internal time and creates compliance risk as you scale into new states. A managed service eliminates both problems. BEG runs $25 to $45 per employee per month and handles everything." } },
+          { '@type': 'Question', name: "What are the most common HR mistakes startups make?", acceptedAnswer: { '@type': 'Answer', text: "The most common startup HR mistakes are: misclassifying contractors as employees (creates significant tax and legal exposure), not registering in employee work states for remote hires, missing payroll tax deposit deadlines, and skipping employee offer letters and basic policy documentation. A managed payroll provider catches the first three automatically." } },
+          { '@type': 'Question', name: "How do startups handle payroll before they have an HR team?", acceptedAnswer: { '@type': 'Answer', text: "The most efficient path is a managed payroll service. The founder or CFO handles hiring decisions; the managed service handles all payroll processing, tax filings, direct deposit, and compliance. This keeps the founder out of payroll operations and creates no dependency on an internal hire the company is not yet ready to make." } },
+        ]
+      }) }} />
     </article>
   );
 }

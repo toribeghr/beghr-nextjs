@@ -153,6 +153,17 @@ export default function ManagedPayrollVsPaychexPage() {
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
         url: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex',
       }) }} />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: "What is the difference between Paychex and managed payroll?", acceptedAnswer: { '@type': 'Answer', text: "Paychex Flex is a payroll software platform your team operates. BEG managed payroll is a service where our team runs payroll for you. With Paychex, you still own the work — logging in, processing runs, managing tax issues. With managed payroll, that workload transfers entirely to BEG." } },
+          { '@type': 'Question', name: "How much does Paychex Flex cost per employee?", acceptedAnswer: { '@type': 'Answer', text: "Paychex does not publish pricing publicly. Based on market data, Paychex Flex typically runs $60 to $110 per month base plus $4 to $12 per employee per month depending on the plan tier and add-ons. Implementation fees, year-end processing, and HR add-ons increase the total cost." } },
+          { '@type': 'Question', name: "Is Paychex good for small businesses?", acceptedAnswer: { '@type': 'Answer', text: "Paychex serves small businesses but requires your team to own the payroll process. If your goal is to eliminate payroll as an internal responsibility, a managed service like BEG is a better fit. If you want software you control yourself, Paychex is a reasonable option for teams comfortable running payroll." } },
+          { '@type': 'Question', name: "How long does it take to switch from Paychex to managed payroll?", acceptedAnswer: { '@type': 'Answer', text: "Transitioning from Paychex to BEG managed payroll typically takes 3 to 5 business days from contract to live payroll. We handle the data migration, system configuration, and first parallel run. Plan the timing so it does not overlap with your Paychex auto-renewal window." } },
+        ]
+      }) }} />
     </article>
   );
 }

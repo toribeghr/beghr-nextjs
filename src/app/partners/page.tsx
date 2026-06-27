@@ -2,19 +2,21 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Partner with Business Executive Group | CPA & Broker Referral Program',
-  description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement services. No conflict of interest. Clean payroll data your clients will thank you for.',
+  title: 'BEG Partner Program | CPA & Broker Referrals',
+  description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest — clean payroll data and no lane-crossing.',
   alternates: { canonical: 'https://beghr.com/partners' },
+  openGraph: {
+    title: 'BEG Partner Program | CPA & Broker Referrals',
+    description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest — clean payroll data and no lane-crossing.',
+    url: 'https://beghr.com/partners',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Partner Program for CPAs and Insurance Brokers' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'BEG Partner Program | CPA & Broker Referrals', description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest — clean payroll data and no lane-crossing.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const partners = [
-  {
-    href: '/partners/cpa',
-    title: 'CPAs & Accounting Firms',
-    description: 'Your clients ask you for payroll vendor recommendations. Refer them to BEG and stop fielding those calls. We provide clean, audit-ready payroll data and stay out of your lane.',
-    cta: 'Learn more →',
-    icon: '📊',
-  },
   {
     href: '/partners/broker',
     title: 'Insurance & Benefits Brokers',

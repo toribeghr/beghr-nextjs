@@ -179,6 +179,17 @@ export default function HowLongAttorneyPlacementPage() {
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
         url: 'https://beghr.com/blog/compare/how-long-should-attorney-placement-take',
       }) }} />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: "How long does attorney placement typically take?", acceptedAnswer: { '@type': 'Answer', text: "The national average for attorney placement through traditional search is 90 to 120 days from brief to accepted offer. BEG completes placements in 23 to 35 days using iSolved Job Placement Services and a passive candidate network that most law firm hiring processes cannot reach." } },
+          { '@type': 'Question', name: "Why does attorney hiring take so long at most firms?", acceptedAnswer: { '@type': 'Answer', text: "Most law firm hiring processes are slow because they rely on job boards where only active candidates apply, require multiple partner rounds, and have no dedicated recruiter keeping the search moving. The best lateral candidates are passive — they are not browsing job boards — and only a recruiter with active relationships can surface them." } },
+          { '@type': 'Question', name: "What is a good benchmark for time-to-fill for attorney roles?", acceptedAnswer: { '@type': 'Answer', text: "A well-run attorney search should reach an accepted offer within 30 to 45 days. Anything beyond 60 days represents either a sourcing problem (not enough quality candidates), a process problem (too many approval layers), or both. BEG's 23–35 day average reflects a structured process with passive candidate access." } },
+          { '@type': 'Question', name: "Does a longer search mean a better hire?", acceptedAnswer: { '@type': 'Answer', text: "No. Extended searches typically mean the firm is either not reaching the right candidate pool or the internal approval process is a bottleneck. The quality of the placement depends on the recruiter's access to passive candidates and the depth of the role brief — not how long the search runs." } },
+        ]
+      }) }} />
     </article>
   );
 }

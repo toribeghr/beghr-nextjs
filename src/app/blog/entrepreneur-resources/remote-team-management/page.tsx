@@ -98,6 +98,17 @@ export default function RemoteTeamManagementPage() {
           }),
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: "How do you manage payroll for a fully remote team?", acceptedAnswer: { '@type': 'Answer', text: "Remote teams require multi-state payroll compliance because employees create nexus in each state where they work. You need a system that tracks state tax registrations, applies the correct withholding by state, and files returns in each employee's work state. A managed payroll service handles this automatically so your team does not track it manually." } },
+          { '@type': 'Question', name: "What payroll compliance issues arise with remote employees?", acceptedAnswer: { '@type': 'Answer', text: "Remote employees trigger state income tax withholding obligations, unemployment insurance registration, and sometimes local tax obligations in the state where they work — not where your company is headquartered. Failing to register in an employee's work state is a common compliance risk for growing remote teams." } },
+          { '@type': 'Question', name: "What HR tools are best for remote teams?", acceptedAnswer: { '@type': 'Answer', text: "For a growing remote team, prioritize: a cloud-based HCM platform for payroll, time, and benefits (iSolved handles all three); a documented onboarding process that works asynchronously; and clear communication norms. The HR infrastructure matters more at 20 remote employees than at 20 in-office employees because there is no physical presence to compensate for gaps." } },
+          { '@type': 'Question', name: "How many employees can a remote team have before they need dedicated HR?", acceptedAnswer: { '@type': 'Answer', text: "Most companies can handle HR administratively up to about 25 to 30 employees. Above that, the volume of compliance, onboarding, and employee relations work typically requires either a dedicated HR resource or a managed service that handles the operational layer. A managed payroll and HR provider eliminates the need for an internal hire in many cases." } },
+        ]
+      }) }} />
     </article>
   );
 }

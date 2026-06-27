@@ -196,6 +196,17 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
         url: 'https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone',
       }) }} />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: "What is the difference between contingency and retained attorney search?", acceptedAnswer: { '@type': 'Answer', text: "Contingency search means the firm only pays if a candidate is placed. Retained search requires an upfront fee before the search begins, often 30 to 33 percent of first-year compensation. Milestone-based is a hybrid: fees are split across defined stages such as engagement, shortlist, and placement. BEG uses a milestone model through iSolved Job Placement Services." } },
+          { '@type': 'Question', name: "Which attorney search model is fastest?", acceptedAnswer: { '@type': 'Answer', text: "Milestone-based search, like the model BEG uses, typically produces placements in 23 to 35 days because the recruiter is engaged and incentivized from day one. Pure contingency searches can drag on because the recruiter may prioritize retained clients instead." } },
+          { '@type': 'Question', name: "What is the typical contingency fee for attorney placement?", acceptedAnswer: { '@type': 'Answer', text: "Contingency fees for attorney placement typically run 25 to 35 percent of the placed candidate's first-year compensation. For a $120,000 associate, that is $30,000 to $42,000. BEG's milestone model runs roughly 50 percent less than that range." } },
+          { '@type': 'Question', name: "Is retained search worth it for law firms?", acceptedAnswer: { '@type': 'Answer', text: "Retained search makes sense for highly specialized or partner-level roles where market visibility matters and the search requires significant research investment. For associate and mid-level attorney roles, a milestone-based model delivers the same quality at substantially lower cost and typically faster." } },
+        ]
+      }) }} />
     </article>
   );
 }

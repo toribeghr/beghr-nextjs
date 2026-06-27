@@ -3,10 +3,19 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Contact Business Executive Group | BEG HR Services',
-  description: 'Contact Business Executive Group in Plano, TX. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement services nationwide.',
+  description: 'Contact Business Executive Group. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement services nationwide.',
   alternates: {
     canonical: 'https://beghr.com/contact',
   },
+  openGraph: {
+    title: 'Contact Business Executive Group | BEG',
+    description: 'Contact Business Executive Group. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement nationwide.',
+    url: 'https://beghr.com/contact',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Contact Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Contact Business Executive Group | BEG', description: 'Contact Business Executive Group. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement nationwide.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const FORM_EMBED_URL =

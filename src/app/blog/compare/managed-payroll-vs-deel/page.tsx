@@ -156,6 +156,17 @@ export default function ManagedPayrollVsDeelPage() {
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
         url: 'https://beghr.com/blog/compare/managed-payroll-vs-deel',
       }) }} />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: "What is the difference between Deel and managed payroll?", acceptedAnswer: { '@type': 'Answer', text: "Deel is primarily a global contractor and international payroll platform. BEG managed payroll is a domestic payroll service that runs payroll inside your existing system without requiring migration or a new platform. Deel is best for companies with international contractors or employees. BEG is best for U.S.-based companies with 10 to 300 employees who want payroll fully removed from their team." } },
+          { '@type': 'Question', name: "Does Deel handle W-2 domestic payroll?", acceptedAnswer: { '@type': 'Answer', text: "Yes, but Deel's core strength is international. For domestic U.S. W-2 payroll, BEG managed payroll is a more direct fit — we specialize in domestic compliance across all 50 states, run payroll in your existing system, and provide a dedicated team rather than a self-serve platform." } },
+          { '@type': 'Question', name: "How much does Deel cost compared to managed payroll?", acceptedAnswer: { '@type': 'Answer', text: "Deel's U.S. payroll product is priced per employee per month, typically in the $19 to $29 range for domestic employees. BEG managed payroll runs $25 per employee per month on your existing system or $45 PEPM all-in on iSolved. BEG is fully managed — your team does nothing. Deel still requires internal administration." } },
+          { '@type': 'Question', name: "Can BEG replace Deel for a U.S.-only team?", acceptedAnswer: { '@type': 'Answer', text: "Yes. If your workforce is entirely U.S.-based, BEG managed payroll handles everything Deel handles domestically — tax filings, direct deposit, year-end forms, compliance — and does it as a fully managed service so your team has no payroll workload at all." } },
+        ]
+      }) }} />
     </article>
   );
 }

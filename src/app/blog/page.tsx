@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://beghr.com/blog',
   },
+  openGraph: {
+    title: 'Blog | Business Executive Group',
+    description: 'Payroll compliance, legal hiring, HCM software, and entrepreneur resources from the BEG team.',
+    url: 'https://beghr.com/blog',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Blog — Payroll, HR & Legal Hiring Resources' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Blog | Business Executive Group', description: 'Payroll compliance, legal hiring, HCM software, and entrepreneur resources from the BEG team.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const categories = [

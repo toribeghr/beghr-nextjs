@@ -9,6 +9,33 @@ export const metadata: Metadata = {
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function ManagedPayrollVsGustoPage() {
+  const faqs = [
+    {
+      question: "Is Gusto worth it for a 50-person company?",
+      answer: "Gusto can work well for a 50-person company if you have an HR person or office manager with capacity to run payroll each cycle — typically 3 to 10 hours per month. Where Gusto falls short at that size is when your team is already stretched and payroll is adding to their load. At 50 employees, managed payroll costs roughly the same as Gusto plus internal time, with zero operational burden on your team."
+    },
+    {
+      question: "What does Gusto charge per employee in 2026?",
+      answer: "Gusto's Plus plan (their most popular for growing companies) is $80/month base plus $12/employee/month. At 50 employees that is $680/month or roughly $8,160/year in software fees alone — before accounting for the internal time your team spends running payroll each month."
+    },
+    {
+      question: "Can Gusto replace a payroll manager?",
+      answer: "No. Gusto automates tax filings and streamlines the payroll process, but someone still has to run it. If you are looking to eliminate the payroll function from your internal team entirely, that requires a managed service — not software. Gusto reduces the time burden; managed payroll eliminates it."
+    },
+    {
+      question: "Does Gusto handle multi-state payroll?",
+      answer: "Yes, Gusto handles multi-state payroll. However, as you add employees in new states, your compliance research burden grows — state registration, unemployment rates, local tax rules. Gusto surfaces compliance alerts, but your team is still responsible for acting on them. With managed payroll, multi-state compliance is handled entirely by your service provider."
+    },
+    {
+      question: "How long does it take to switch from Gusto to managed payroll?",
+      answer: "Transitioning from Gusto to BEG managed payroll typically takes 2 to 4 weeks. We gather your existing payroll data, employee information, and tax filings, then configure the new system and run a parallel payroll cycle before going live. Most clients experience zero payroll disruption during the switch."
+    },
+    {
+      question: "What is the real difference between Gusto and managed payroll?",
+      answer: "The core difference is who does the work. Gusto is software — it gives you the tools to run payroll yourself. BEG managed payroll is a service — our team runs payroll for you, handles compliance, answers employee questions, and takes responsibility for errors. For companies that want payroll off their plate entirely, software is not the answer."
+    }
+  ];
+
   return (
     <article className="blog-post">
       <section className="hero">
@@ -102,7 +129,7 @@ export default function ManagedPayrollVsGustoPage() {
           <li><strong>Compliance responsibility stays with you.</strong> Gusto automates filings but doesn't catch classification errors, state registration gaps, or overtime miscalculations before they happen.</li>
           <li><strong>Employee questions still route to you.</strong> "Why is my paycheck short?" still lands in your inbox.</li>
           <li><strong>Multi-state complexity increases burden.</strong> As you add employees in new states, your team's compliance research load grows.</li>
-          <li><strong>True cost rises with employee count.</strong> At 50 employees on Gusto's Plus plan, you're around $150–$200/month — but that doesn't include the internal time cost.</li>
+          <li><strong>True cost rises with employee count.</strong> At 50 employees on Gusto's Plus plan, you're around $680/month in software fees — but that doesn't include the internal time cost of running it.</li>
         </ul>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -146,11 +173,11 @@ export default function ManagedPayrollVsGustoPage() {
             </thead>
             <tbody>
               {[
-                ['Software/service fee', '~$1,800–$3,600/yr', '$15,000–$21,000/yr'],
-                ['Internal time (10 hrs/mo @ $40/hr)', '$4,800/yr', '~$0'],
-                ['Error correction (avg)', '$5,000–$15,000/yr', 'Included'],
-                ['Compliance research', 'Your team\'s time', 'Included'],
-                ['Total annual cost', '$11,000–$23,000+', '$15,000–$21,000'],
+                ['Software/service fee', '~$8,160/yr (Plus plan)', '$15,000–$21,000/yr'],
+                ['Internal time (8 hrs/mo @ $40/hr)', '$3,840/yr', '~$0'],
+                ['Error correction costs (avg)', '$3,000–$10,000/yr', 'Included'],
+                ['Compliance research burden', "Your team's time", 'Included'],
+                ['Total annual cost', '$15,000–$22,000+', '$15,000–$21,000'],
               ].map(([factor, gusto, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: i === 4 ? 700 : 400 }}>{factor}</td>
@@ -162,8 +189,54 @@ export default function ManagedPayrollVsGustoPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          The gap closes fast once you account for the actual internal time payroll requires each month. For teams already at capacity, managed payroll often costs less in practice.
+          The gap closes fast once you account for the actual internal time payroll requires each month. For teams already at capacity, managed payroll often costs the same or less in practice — with zero operational burden.
         </p>
+
+        <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
+          Gusto's Hidden Costs Most Buyers Miss
+        </h2>
+        <p>
+          Gusto's listed pricing is transparent — but there are costs that don't appear on the pricing page:
+        </p>
+        <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
+          <li><strong>State tax registration fees.</strong> When you expand to a new state, registering for state unemployment and withholding accounts takes time and sometimes money — and it falls on your team. Gusto handles the filings once you're registered, but not the registration itself.</li>
+          <li><strong>Off-cycle payroll runs.</strong> Terminations, bonuses, and corrections trigger off-cycle payrolls that can add to your processing time and sometimes fees depending on your plan tier.</li>
+          <li><strong>Year-end W-2 preparation time.</strong> Even on Gusto, W-2 review and distribution coordination takes your team time — typically 3 to 6 hours in January for a 50-person company.</li>
+          <li><strong>Error correction costs.</strong> Payroll errors — missed deductions, incorrect tax classifications, overtime miscalculations — carry real financial exposure. The IRS charges penalties for late or incorrect filings, and your team absorbs the correction work.</li>
+          <li><strong>Turnover in your payroll role.</strong> If the employee running Gusto leaves, you face immediate operational risk. The institutional knowledge of your payroll setup leaves with them.</li>
+        </ul>
+        <p>
+          None of these costs appear in Gusto's per-employee pricing. They're real costs that show up elsewhere on your P&L and in your team's workload.
+        </p>
+
+        <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
+          A Real Scenario: When Gusto Users Switch
+        </h2>
+        <p>
+          The typical Gusto-to-managed-payroll transition follows a predictable pattern. A company starts on Gusto at 10 to 15 employees — it's a great fit. Someone on the operations team runs it each pay period and it takes 2 hours. Easy.
+        </p>
+        <p>
+          By the time they reach 40 to 60 employees, two things have changed. First, payroll complexity has grown: multiple pay rates, benefits deductions, state registrations in 3 or 4 states, contractor payments layered in. Second, the operations team is no longer a small scrappy group — they have their own priorities, and payroll feels like a distraction.
+        </p>
+        <p>
+          The trigger usually isn't a disaster. It's someone doing a back-of-envelope calculation and realizing that payroll is consuming 10+ hours of HR time per month — hours that could go toward recruiting, culture, or operations. At that point, the question shifts from "which software should we use" to "should we be doing this ourselves at all?"
+        </p>
+        <p>
+          The switch to managed payroll typically takes 3 to 4 weeks. We pull data from Gusto (or your underlying payroll system), verify classifications, rebuild the payroll configuration, and run one parallel cycle before fully transitioning. Most companies report the transition being smoother than they expected.
+        </p>
+
+        <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
+          Frequently Asked Questions
+        </h2>
+
+        <div style={{ marginBottom: '2rem' }}>
+          {faqs.map((faq, i) => (
+            <div key={i} style={{ borderBottom: '1px solid #e5e5e5', paddingBottom: '1.25rem', marginBottom: '1.25rem' }}>
+              <h3 style={{ fontSize: '1.05rem', marginBottom: '0.5rem', color: '#000' }}>{faq.question}</h3>
+              <p style={{ margin: 0, color: '#444' }}>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>See if managed payroll makes sense for you</h2>
@@ -184,12 +257,22 @@ export default function ManagedPayrollVsGustoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
-        headline: 'Managed Payroll vs. Gusto: What\'s the Actual Difference?',
+        headline: "Managed Payroll vs. Gusto: What's the Actual Difference?",
         description: 'Side-by-side comparison of Gusto payroll software vs. BEG managed payroll service for companies with 20–200 employees.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
         url: 'https://beghr.com/blog/compare/managed-payroll-vs-gusto',
+      }) }} />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map(faq => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+        }))
       }) }} />
     </article>
   );

@@ -7,6 +7,59 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://beghr.com/blog/payroll' },
 };
 
+const industryPosts = [
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Trucking Companies',
+    description: 'Driver classification, per diem structuring, and multi-state DOT compliance. What a fully managed payroll service costs vs. a qualified in-house hire for fleets of 10–200 drivers.',
+    slug: '/blog/payroll/trucking/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Veterinary Practices',
+    description: 'DVM salaries, technician shift differentials, ACA FTE tracking, and multi-location expansion. Real cost comparison for practices with 10–100 staff.',
+    slug: '/blog/payroll/veterinary/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Auto Dealerships',
+    description: 'Draw-plus-commission reconciliation, F&I chargebacks, and flat-rate minimum wage floors. Full cost comparison for dealerships with 20–200 employees.',
+    slug: '/blog/payroll/auto-dealership/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Cannabis Businesses',
+    description: '280E-aware payroll structure, banking constraint setup, and state licensing compliance. What managed payroll costs for dispensaries, cultivators, and processors.',
+    slug: '/blog/payroll/cannabis/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Childcare Centers',
+    description: 'FLSA overtime for aides, state subsidy audit documentation, and high-turnover onboarding. Real numbers for centers with 10–80 staff.',
+    slug: '/blog/payroll/childcare/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies',
+    description: 'Inter-client travel time compensation, EVV data reconciliation, and multi-state operations. Full cost comparison for agencies with 15–150 staff.',
+    slug: '/blog/payroll/home-health/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Churches',
+    description: 'Minister housing allowance, dual tax status, Form 4361 Social Security opt-out, and FICA for non-ministerial staff. Full comparison for church payroll.',
+    slug: '/blog/payroll/church/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies',
+    description: 'Multi-state remote teams, S-corp owner salary processing, and contractor classification risk. Real cost comparison for agencies with 10–80 employees.',
+    slug: '/blog/payroll/marketing-agency/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Fitness Studios and Gyms',
+    description: 'Trainer W-2 vs. 1099 classification, per-class pay minimum wage floors, and ACA FTE tracking. Full cost comparison for studios with 10–80 staff.',
+    slug: '/blog/payroll/fitness/managed-payroll-vs-in-house',
+  },
+  {
+    title: 'Managed Payroll vs. Hiring In-House for Franchise Owners',
+    description: 'Multi-location cost centers, state minimum wage auto-updates, employee transfers, and multi-brand management. Full comparison for franchise operators.',
+    slug: '/blog/payroll/franchise/managed-payroll-vs-in-house',
+  },
+];
+
 const posts = [
   {
     title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring a Paralegal or HR Manager',
@@ -107,10 +160,32 @@ export default function BlogPayrollPage() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="container">
+          <div className="head center reveal">
+            <h2>Industry Cost Comparisons</h2>
+            <p>Managed payroll vs. hiring in-house, by industry. Real numbers for your specific business type.</p>
+          </div>
+          <div className="cards">
+            {industryPosts.map((post) => (
+              <article key={post.slug} className="card reveal">
+                <h3>
+                  <Link href={post.slug}>{post.title}</Link>
+                </h3>
+                <p>{post.description}</p>
+                <Link href={post.slug} className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
+                  Read Post
+                </Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section section--soft">
         <div className="container">
           <div className="head center reveal">
-            <h2>Featured Posts</h2>
+            <h2>More Payroll Resources</h2>
           </div>
           <div className="cards">
             {posts.map((post) => (

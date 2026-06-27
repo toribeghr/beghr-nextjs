@@ -7,6 +7,69 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://beghr.com/blog/compare' },
 };
 
+const INDUSTRY_COMPARISONS = [
+  {
+    href: '/blog/payroll/trucking/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Trucking Companies: In-House vs. Outsourced',
+    description: 'Driver classification, per diem, multi-state DOT compliance. What a managed service costs vs. a qualified in-house hire for fleets of 10–200 drivers.',
+    time: '8 min read',
+  },
+  {
+    href: '/blog/payroll/veterinary/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Veterinary Practices: In-House vs. Outsourced',
+    description: 'DVM production bonuses, technician shift differentials, ACA FTE tracking, and multi-location expansion. Real numbers for practices of 10–100 staff.',
+    time: '8 min read',
+  },
+  {
+    href: '/blog/payroll/auto-dealership/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Auto Dealerships: In-House vs. Outsourced',
+    description: 'Draw-plus-commission reconciliation, F&I chargebacks, flat-rate minimum wage floors. Full cost comparison for dealerships with 20–200 employees.',
+    time: '8 min read',
+  },
+  {
+    href: '/blog/payroll/cannabis/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Cannabis Businesses: In-House vs. Outsourced',
+    description: '280E-aware payroll, banking constraints, and state licensing compliance. What managed payroll costs for dispensaries, cultivators, and processors.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/payroll/childcare/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Childcare Centers: In-House vs. Outsourced',
+    description: 'FLSA overtime for aides, state subsidy documentation, high-turnover onboarding. Real numbers for centers with 10–80 staff.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/payroll/home-health/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Home Health Agencies: In-House vs. Outsourced',
+    description: 'Travel time between clients, EVV reconciliation, and multi-state operations. Full cost comparison for agencies with 15–150 staff.',
+    time: '8 min read',
+  },
+  {
+    href: '/blog/payroll/church/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Churches: In-House vs. Outsourced',
+    description: 'Minister housing allowance, dual tax status, Form 4361 opt-out, and FICA for non-ministerial staff. Full comparison for church and ministry payroll.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/payroll/marketing-agency/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Marketing Agencies: In-House vs. Outsourced',
+    description: 'Multi-state remote teams, S-corp owner salary, and contractor classification risk. Real cost comparison for agencies with 10–80 employees.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/payroll/fitness/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Fitness Studios: In-House vs. Outsourced',
+    description: 'Trainer W-2 vs. 1099 classification, per-class pay floors, and ACA FTE tracking. Full cost comparison for studios with 10–80 staff.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/payroll/franchise/managed-payroll-vs-in-house',
+    title: 'Managed Payroll for Franchise Owners: In-House vs. Outsourced',
+    description: 'Multi-location cost centers, state minimum wage auto-updates, employee transfers, and multi-brand management. Full comparison for franchise operators.',
+    time: '8 min read',
+  },
+];
+
 const PAYROLL_COMPARISONS = [
   {
     href: '/blog/compare/payroll-manager-vs-outsourcing',
@@ -91,6 +154,33 @@ export default function ComparePage() {
       </section>
 
       <section className="container" style={{ maxWidth: '900px', paddingTop: '3rem', paddingBottom: '4rem' }}>
+
+        {/* Industry Comparisons */}
+        <h2 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.5rem' }}>Industry Payroll Comparisons</h2>
+        <p style={{ color: '#555', marginBottom: '2rem' }}>
+          Managed payroll vs. hiring in-house, by industry. Real cost breakdowns, compliance specifics, and what changes when you outsource — for your exact business type.
+        </p>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1.25rem', marginBottom: '3.5rem' }}>
+          {INDUSTRY_COMPARISONS.map((post) => (
+            <Link key={post.href} href={post.href} style={{ textDecoration: 'none', color: 'inherit' }}>
+              <div style={{
+                border: '1px solid #e5e5e5',
+                borderRadius: '8px',
+                padding: '1.5rem',
+                height: '100%',
+                background: '#fff',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '0.75rem',
+              }}>
+                <h3 style={{ fontSize: '1rem', fontWeight: 600, lineHeight: 1.4, margin: 0 }}>{post.title}</h3>
+                <p style={{ fontSize: '0.9rem', color: '#555', lineHeight: 1.6, margin: 0, flex: 1 }}>{post.description}</p>
+                <span style={{ fontSize: '0.8rem', color: '#ECAC60', fontWeight: 600 }}>{post.time} →</span>
+              </div>
+            </Link>
+          ))}
+        </div>
 
         {/* Payroll */}
         <h2 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.5rem' }}>Managed Payroll Comparisons</h2>

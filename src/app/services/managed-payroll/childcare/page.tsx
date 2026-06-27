@@ -17,8 +17,8 @@ export default function PayrollChildcarePage() {
       imageSrc="/assets/hero-images/childcare.svg"
       imageAlt="Childcare center with fully managed payroll"
       eyebrow="Managed Payroll · Childcare & Daycare Centers"
-      title="High turnover, substitute staff, and state subsidy compliance — fully managed."
-      description="Childcare centers face some of the highest staff turnover rates of any industry, constant new hire onboarding, substitute teacher tracking, part-time and full-time FLSA complexity, and state childcare subsidy employment requirements. We manage all of it at $25–$45 per employee per month — so you focus on the children, not the payroll."
+      title="Managed Payroll for Childcare Centers and Daycares"
+      description="High turnover, substitute staff, and state subsidy compliance — fully managed. Childcare centers face some of the highest staff turnover rates of any industry, with constant new hire onboarding, substitute teacher tracking, FLSA complexity, and state childcare subsidy employment requirements. We manage all of it at $25–$45 per employee per month — so you focus on the children, not the payroll."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

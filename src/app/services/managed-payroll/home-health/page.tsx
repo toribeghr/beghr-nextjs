@@ -17,8 +17,8 @@ export default function PayrollHomeHealthPage() {
       imageSrc="/assets/hero-images/home-health.svg"
       imageAlt="Home health agency with fully managed caregiver payroll"
       eyebrow="Managed Payroll · Home Health Agencies"
-      title="Home care payroll has FLSA rules most agencies are still getting wrong."
-      description="In 2015, the DOL eliminated the companionship exemption for third-party home health employers — meaning most home care agencies can no longer exempt caregivers from minimum wage and overtime. Many agencies have not updated their payroll accordingly. We manage home health payroll correctly at $25–$45 per employee per month, including FLSA compliance, live-in aide rules, and Medicaid wage requirements."
+      title="Managed Payroll for Home Health Agencies"
+      description="Home care payroll has FLSA rules most agencies are still getting wrong. In 2015, the DOL eliminated the companionship exemption for third-party home health employers — meaning most home care agencies can no longer exempt caregivers from minimum wage and overtime. Many agencies have not updated their payroll accordingly. We manage home health payroll correctly at $25–$45 per employee per month, including FLSA compliance, live-in aide rules, and Medicaid wage requirements."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

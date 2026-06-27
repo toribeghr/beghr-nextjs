@@ -17,8 +17,8 @@ export default function PayrollTruckingPage() {
       imageSrc="/assets/hero-images/trucking.svg"
       imageAlt="Trucking company with fully managed driver payroll"
       eyebrow="Managed Payroll · Trucking & Transportation"
-      title="Trucking payroll is not like other payroll. We get it."
-      description="Per diem rules, W-2 versus owner-operator classification, DOT compliance, and routes crossing a dozen state lines create a payroll environment no generic provider is built to handle. We manage all of it at $25–$45 per employee per month — so you focus on moving freight, not managing payroll."
+      title="Managed Payroll for Trucking Companies"
+      description="Trucking payroll is not like other payroll. Per diem rules, W-2 versus owner-operator classification, DOT compliance, and routes crossing a dozen state lines create a payroll environment no generic provider is built to handle. We manage all of it at $25–$45 per employee per month — so you focus on moving freight, not managing payroll."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

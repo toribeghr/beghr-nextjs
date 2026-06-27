@@ -17,8 +17,8 @@ export default function PayrollCannabisPage() {
       imageSrc="/assets/hero-images/cannabis.svg"
       imageAlt="Cannabis dispensary with fully managed payroll compliance"
       eyebrow="Managed Payroll · Cannabis & Dispensaries"
-      title="Cannabis payroll has rules no generic payroll provider understands. We do."
-      description="IRC 280E, state licensing employment requirements, banking limitations, and multi-state operational complexity make cannabis and dispensary payroll unlike anything else. We manage all of it at $25–$45 per employee per month — so you focus on your operation, not on payroll compliance that can unravel a license."
+      title="Managed Payroll for Cannabis Dispensaries"
+      description="Cannabis payroll has rules no generic payroll provider understands. IRC 280E, state licensing employment requirements, banking limitations, and multi-state operational complexity make cannabis and dispensary payroll unlike anything else. We manage all of it at $25–$45 per employee per month — so you focus on your operation, not on payroll compliance that can unravel a license."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

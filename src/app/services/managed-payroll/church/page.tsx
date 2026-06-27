@@ -17,8 +17,8 @@ export default function PayrollChurchPage() {
       imageSrc="/assets/hero-images/church.svg"
       imageAlt="Church and faith-based organization with fully managed payroll"
       eyebrow="Managed Payroll · Churches & Faith-Based Organizations"
-      title="Minister housing allowance, dual-status clergy, and SECA elections — done right."
-      description="Church and faith-based organization payroll has no equivalent in any other industry: ministers operate as employees for income tax purposes but self-employed for Social Security, housing allowances must be pre-designated before the year they are paid, and FICA exemption elections for religious organizations carry their own requirements. We manage all of it at $25–$45 per employee per month."
+      title="Managed Payroll for Churches and Faith-Based Organizations"
+      description="Minister housing allowance, dual-status clergy, and SECA elections — done right. Church and faith-based organization payroll has no equivalent in any other industry: ministers operate as employees for income tax purposes but self-employed for Social Security, housing allowances must be pre-designated before the year they are paid, and FICA exemption elections for religious organizations carry their own requirements. We manage all of it at $25–$45 per employee per month."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

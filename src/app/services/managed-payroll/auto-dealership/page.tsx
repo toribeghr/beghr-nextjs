@@ -17,8 +17,8 @@ export default function PayrollAutoDealershipPage() {
       imageSrc="/assets/hero-images/auto-dealership.svg"
       imageAlt="Auto dealership with fully managed commission and flat-rate payroll"
       eyebrow="Managed Payroll · Auto Dealerships"
-      title="Commission draws, flat-rate techs, and finance clawbacks — fully managed."
-      description="Auto dealerships run one of the most complex compensation environments of any industry: sales commission draws with advances, flat-rate service writer pay, finance manager charge-backs, and demo vehicle tax implications — all on the same bi-weekly payroll. We manage all of it at $25–$45 per employee per month."
+      title="Managed Payroll for Auto Dealerships"
+      description="Commission draws, flat-rate techs, and finance clawbacks — fully managed. Auto dealerships run one of the most complex compensation environments of any industry: sales commission draws with advances, flat-rate service writer pay, finance manager charge-backs, and demo vehicle tax implications — all on the same bi-weekly payroll. We manage all of it at $25–$45 per employee per month."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

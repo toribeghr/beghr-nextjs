@@ -17,8 +17,8 @@ export default function PayrollMarketingAgencyPage() {
       imageSrc="/assets/hero-images/marketing-agency.svg"
       imageAlt="Marketing and creative agency with fully managed remote payroll"
       eyebrow="Managed Payroll · Marketing & Creative Agencies"
-      title="Remote team in 8 states, freelancers on W-2 or 1099, and AE commissions — managed."
-      description="Marketing and creative agencies scale fast and hire everywhere — which means multi-state tax nexus accumulates faster than most founders realize. Add in the blurry line between W-2 creatives and 1099 contractors, account manager commission structures, and the administrative overhead of a fully remote team, and payroll becomes a real operational drag. We manage all of it at $25–$45 per employee per month."
+      title="Managed Payroll for Marketing and Creative Agencies"
+      description="Remote teams across multiple states, freelancers on W-2 or 1099, and AE commissions — all managed. Marketing and creative agencies scale fast and hire everywhere, which means multi-state tax nexus accumulates faster than most founders realize. Add in the blurry line between W-2 creatives and 1099 contractors, account manager commission structures, and the administrative overhead of a fully remote team, and payroll becomes a real operational drag. We manage all of it at $25–$45 per employee per month."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

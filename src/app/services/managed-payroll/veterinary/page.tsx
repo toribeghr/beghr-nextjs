@@ -17,8 +17,8 @@ export default function PayrollVeterinaryPage() {
       imageSrc="/assets/hero-images/veterinary.svg"
       imageAlt="Veterinary practice with fully managed payroll"
       eyebrow="Managed Payroll · Veterinary Practices"
-      title="Production pay, relief vet 1099s, and tech overtime — all in one managed payroll."
-      description="Veterinary practices run one of the most complex mixed compensation environments in healthcare: production-based associate pay, a growing relief vet market, hourly technicians with overtime, and part-time front office staff — all on the same payroll. We manage all of it at $25–$45 per employee per month."
+      title="Managed Payroll for Veterinary Practices"
+      description="Production-based associate pay, relief vet 1099s, and technician overtime — all in one managed payroll. Veterinary practices run one of the most complex mixed compensation environments in healthcare, with a growing relief vet market, hourly technicians with overtime, and part-time front office staff all on the same payroll. We manage all of it at $25–$45 per employee per month."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

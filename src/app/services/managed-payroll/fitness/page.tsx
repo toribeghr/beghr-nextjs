@@ -17,8 +17,8 @@ export default function PayrollFitnessPage() {
       imageSrc="/assets/hero-images/fitness.svg"
       imageAlt="Fitness studio and gym with fully managed payroll"
       eyebrow="Managed Payroll · Fitness Studios & Gyms"
-      title="Personal trainer 1099 classification is the IRS's favorite audit target in fitness. Fix it."
-      description="Fitness studios and gyms routinely pay personal trainers as 1099 independent contractors when the working relationship — exclusive to one location, using studio equipment, following studio scheduling — legally qualifies them as W-2 employees. The IRS knows this and audits it regularly. We manage fitness payroll correctly at $25–$45 per employee per month, including trainer classification, group fitness instructor pay, and membership commission structures."
+      title="Managed Payroll for Fitness Studios and Gyms"
+      description="Personal trainer 1099 classification is the IRS's favorite audit target in fitness. Fitness studios and gyms routinely pay personal trainers as 1099 independent contractors when the working relationship — exclusive to one location, using studio equipment, following studio scheduling — legally qualifies them as W-2 employees. The IRS audits this regularly. We manage fitness payroll correctly at $25–$45 per employee per month, including trainer classification, instructor pay, and membership commission structures."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },

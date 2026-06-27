@@ -17,8 +17,8 @@ export default function PayrollFranchisePage() {
       imageSrc="/assets/hero-images/franchise.svg"
       imageAlt="Franchise business with fully managed multi-location payroll"
       eyebrow="Managed Payroll · Franchise Businesses"
-      title="Multi-location payroll that scales with every unit you add."
-      description="Franchise owners face a payroll environment that gets more complex with every location added: different state registrations, franchisor payroll requirements, joint-employer liability documentation, and the operational overhead of running payroll across multiple units simultaneously. We manage all of it at $25–$45 per employee per month — one flat rate regardless of how many locations you operate."
+      title="Managed Payroll for Franchise Businesses"
+      description="Multi-location payroll that scales with every unit you add. Franchise owners face a payroll environment that gets more complex with every location added: different state registrations, franchisor payroll requirements, joint-employer liability documentation, and the operational overhead of running payroll across multiple units simultaneously. We manage all of it at $25–$45 per employee per month — one flat rate regardless of how many locations you operate."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive across all locations' },

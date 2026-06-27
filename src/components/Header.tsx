@@ -32,8 +32,9 @@ const navGroups = [
   {
     label: 'About',
     items: [
-      { href: '/about',   label: 'About / Board of Directors', hub: true  },
-      { href: '/contact', label: 'Contact Us',                 hub: false },
+      { href: '/about',                label: 'About Us',            hub: true  },
+      { href: '/board-of-directors',   label: 'Board of Directors',  hub: false },
+      { href: '/contact',              label: 'Contact Us',          hub: false },
     ],
   },
 ];

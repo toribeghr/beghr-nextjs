@@ -2,51 +2,12 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'About Business Executive Group | Board of Directors | BEG HR',
-  description: 'Business Executive Group delivers managed payroll, HCM software, and specialized job placement for growing businesses nationwide. Meet our board and leadership team.',
+  title: 'About Business Executive Group | BEG HR',
+  description: 'Business Executive Group is an established entrepreneur network and professional services organization serving 1,500+ members in DFW with managed payroll, HCM software, and job placement.',
   alternates: {
     canonical: 'https://beghr.com/about',
   },
 };
-
-const board = [
-  {
-    name: 'John Delao',
-    title: 'CEO',
-    photo: '/assets/board/john-delao.webp',
-    bio: 'As CEO, John provides strategic leadership, oversees operations, and drives initiatives that strengthen member engagement and community impact. He is responsible for guiding the organization\'s vision, managing partnerships, and ensuring compliance while fostering growth and advocacy for the business community.',
-  },
-  {
-    name: 'Tori Wint',
-    title: 'Human Resources',
-    photo: '/assets/board/tori-wint.webp',
-    bio: 'Tori consults clients on talent strategy, recruitment, employee development, compliance, payroll & benefits, and workforce engagement while fostering an inclusive environment that supports both staff and members.',
-  },
-  {
-    name: 'Anthony Moretti',
-    title: 'VP of Sales',
-    photo: '/assets/board/anthony-moretti.webp',
-    bio: 'Serial entrepreneur. Built 3 companies past $1M in sales. Now heading revenue growth as VP of Sales for BEG\'s HR and legal services division.',
-  },
-  {
-    name: 'Bill Clawson',
-    title: 'CFO',
-    photo: '/assets/board/bill-clawson.webp',
-    bio: 'Bill consults on financial strategy, budgeting, and compliance to ensure the organization\'s fiscal health. He is responsible for managing resources, guiding investment decisions, and providing transparent reporting that supports long-term growth and member confidence.',
-  },
-  {
-    name: 'Paxton Kelso',
-    title: 'Property & Casualty',
-    photo: '/assets/board/paxton-kelso.webp',
-    bio: 'Paxton is a dedicated Property and Casualty Broker committed to helping individuals and businesses navigate the complex world of insurance. With 20+ years of experience, he specializes in crafting customized coverage solutions for home, auto, liability, and commercial risks.',
-  },
-  {
-    name: 'Marissa Bybee',
-    title: 'Cybersecurity',
-    photo: '/assets/board/marissa-bybee.webp',
-    bio: 'Marissa is a highly accomplished Cybersecurity Sales Executive specializing in delivering enterprise-grade security solutions that safeguard critical assets and drive business resilience across cloud security, network defense, and risk management.',
-  },
-];
 
 export default function AboutPage() {
   return (
@@ -141,67 +102,19 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Board of Directors */}
-      <section className="section" style={{ background: '#0a0a0a', padding: '80px 0' }}>
-        <div className="container">
-          <div className="head center reveal" style={{ marginBottom: '56px' }}>
-            <p className="eyebrow" style={{ color: 'var(--gold, #ECAC60)' }}>Leadership</p>
-            <h2 style={{ color: '#fff' }}>Board of Directors</h2>
-            <p className="lede center" style={{ color: '#9aa3b0', marginTop: '12px' }}>
-              Our board brings deep expertise across business operations, HR, finance, insurance, cybersecurity, and sales.
+      {/* Board teaser */}
+      <section className="section section--soft" style={{ padding: '48px 0' }}>
+        <div className="container" style={{ maxWidth: '860px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '20px' }}>
+          <div>
+            <p className="eyebrow">Leadership</p>
+            <h2 style={{ fontSize: '1.5rem', margin: '4px 0 8px' }}>Meet the Board of Directors</h2>
+            <p style={{ color: 'var(--clr-body)', margin: 0 }}>
+              Six leaders across HR, finance, sales, insurance, and cybersecurity guiding BEG and its 1,500+ member network.
             </p>
           </div>
-
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-              gap: '48px 32px',
-            }}
-          >
-            {board.map((member) => (
-              <div key={member.name} className="reveal" style={{ textAlign: 'center' }}>
-                {/* Photo */}
-                <div
-                  style={{
-                    width: '100%',
-                    maxWidth: 280,
-                    margin: '0 auto 20px',
-                    aspectRatio: '4/5',
-                    background: '#000',
-                    borderRadius: 12,
-                    overflow: 'hidden',
-                    display: 'flex',
-                    alignItems: 'flex-end',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <img
-                    src={member.photo}
-                    alt={member.name}
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                      objectPosition: 'top center',
-                      display: 'block',
-                    }}
-                  />
-                </div>
-
-                {/* Name & title */}
-                <h3 style={{ color: '#fff', fontSize: '1.15rem', margin: '0 0 4px', fontWeight: 600 }}>
-                  {member.name}
-                </h3>
-                <p style={{ color: 'var(--gold, #ECAC60)', fontSize: '.85rem', fontWeight: 600, letterSpacing: '.06em', textTransform: 'uppercase', margin: '0 0 14px' }}>
-                  {member.title}
-                </p>
-                <p style={{ color: '#9aa3b0', fontSize: '.9rem', lineHeight: 1.65, maxWidth: 300, margin: '0 auto' }}>
-                  {member.bio}
-                </p>
-              </div>
-            ))}
-          </div>
+          <Link href="/board-of-directors" className="btn btn--gold" style={{ flexShrink: 0 }}>
+            View the Board
+          </Link>
         </div>
       </section>
 

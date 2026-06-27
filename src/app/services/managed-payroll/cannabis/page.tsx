@@ -303,13 +303,13 @@ export default function PayrollCannabisPage() {
         posts={[
           {
             category: 'Payroll compliance',
-            title: 'Cannabis Business Payroll Under Section 280E: What You Can and Can't Deduct',
+            title: "Cannabis Business Payroll Under Section 280E: What You Can and Can't Deduct",
             excerpt: 'Section 280E blocks most deductions for cannabis businesses — including payroll for non-COGS roles. Here is how to structure pay correctly.',
             href: '/blog/payroll/cannabis/cannabis-payroll-280e',
           },
           {
             category: 'Payroll compliance',
-            title: 'Cannabis Payroll and Banking: How to Pay Employees When Banks Won't Help',
+            title: "Cannabis Payroll and Banking: How to Pay Employees When Banks Won't Help",
             excerpt: 'Most banks will not serve cannabis businesses. Here are the payroll processing options that actually work for dispensaries and grow operations.',
             href: '/blog/payroll/cannabis/cannabis-payroll-banking',
           },

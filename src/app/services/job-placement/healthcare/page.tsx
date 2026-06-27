@@ -227,7 +227,7 @@ export default function PlacementHealthcarePage() {
           },
           {
             category: 'Hiring strategy',
-            title: 'How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)',
+            title: "How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)",
             excerpt: 'Most firm searches that stall past 60 days are stuck for one of three reasons. Here is how to diagnose the problem and reset the search.',
             href: '/blog/compare/how-long-should-attorney-placement-take',
           },

@@ -227,13 +227,13 @@ export default function PlacementTechnologyPage() {
           },
           {
             category: 'Hiring strategy',
-            title: 'Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)',
+            title: "Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)",
             excerpt: 'Staffing agencies provide temps on W-2. Placement services find permanent full-time hires. Here is how the two models compare on cost and candidate quality.',
             href: '/blog/compare/legal-staffing-vs-placement',
           },
           {
             category: 'Hiring strategy',
-            title: 'How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)',
+            title: "How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)",
             excerpt: 'Most searches that stall have one of three root causes. How to identify which one applies and what to do about it before 90 days becomes the new normal.',
             href: '/blog/compare/how-long-should-attorney-placement-take',
           },

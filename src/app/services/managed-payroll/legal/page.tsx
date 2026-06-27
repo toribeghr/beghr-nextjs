@@ -312,7 +312,7 @@ export default function PayrollLegalPage() {
           {
             category: 'Payroll outsourcing',
             title: 'ADP vs. Managed Payroll: Is ADP Still Worth It for Mid-Size Companies? (2026)',
-            excerpt: 'ADP's per-transaction pricing adds up fast for firms processing partner draws, bonuses, and multi-office payroll. Here is the side-by-side cost comparison.',
+            excerpt: "ADP's per-transaction pricing adds up fast for firms processing partner draws, bonuses, and multi-office payroll. Here is the side-by-side cost comparison.",
             href: '/blog/compare/managed-payroll-vs-adp',
           },
         ]}

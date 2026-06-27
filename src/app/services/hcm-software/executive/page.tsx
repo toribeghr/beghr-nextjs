@@ -227,7 +227,7 @@ export default function HCMExecutivePage() {
         posts={[
           {
             category: 'HCM technology',
-            title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)',
+            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, deferred compensation, benefits, and executive access controls. Who it fits and how BEG manages it.',
             href: '/blog/hcm-technology/isolved-platform',
           },

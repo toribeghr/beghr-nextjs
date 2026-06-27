@@ -227,7 +227,7 @@ export default function PlacementEngineeringPage() {
           },
           {
             category: 'Hiring strategy',
-            title: 'Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)',
+            title: "Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)",
             excerpt: 'Temps fill short-term gaps. Permanent placement builds the team. Here is why the distinction matters and how the two models compare on total cost.',
             href: '/blog/compare/legal-staffing-vs-placement',
           },

@@ -309,7 +309,7 @@ export default function PayrollEngineeringPage() {
           },
           {
             category: 'Payroll outsourcing',
-            title: 'PEO vs. Managed Payroll: What's the Difference and Which Do You Need? (2026)',
+            title: "PEO vs. Managed Payroll: What's the Difference and Which Do You Need? (2026)",
             excerpt: 'PEOs co-employ your team. Managed payroll does not. For engineering firms that want to keep control, here is what each actually delivers.',
             href: '/blog/compare/peo-vs-managed-payroll',
           },

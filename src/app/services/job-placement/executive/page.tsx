@@ -227,7 +227,7 @@ export default function PlacementExecutivePage() {
           },
           {
             category: 'Hiring strategy',
-            title: 'How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)',
+            title: "How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)",
             excerpt: 'Senior-level searches take longer, but not forever. What a realistic executive placement timeline looks like and the signals that a search has stalled.',
             href: '/blog/compare/how-long-should-attorney-placement-take',
           },

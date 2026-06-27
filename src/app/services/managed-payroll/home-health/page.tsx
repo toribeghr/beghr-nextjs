@@ -155,6 +155,30 @@ export default function PayrollHomeHealthPage() {
         </div>
       </section>
 
+      {/* IMPLEMENTATION TIMELINE */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Getting Started</p>
+            <h2>From scope review to FLSA-compliant home health payroll in 3–5 business days</h2>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
+            {[
+              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your caregiver roster, live-in arrangements, travel time policies, and Medicaid client ratio — and give you a fixed monthly price.' },
+              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, EVV and scheduling access granted, caregiver roster and overtime practices reviewed.' },
+              { day: 'Days 2–4', title: 'Configuration', body: 'FLSA overtime corrections, live-in aide documentation, and Medicaid wage tracking configured in your existing system.' },
+              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed, FLSA-compliant home health pay run — BEG executes, your team approves.' },
+            ].map(({ day, title, body }) => (
+              <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
+                <div style={{ fontSize: '0.8rem', fontWeight: '700', color: '#ECAC60', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{day}</div>
+                <strong style={{ display: 'block', fontSize: '0.97rem', marginBottom: '0.4rem' }}>{title}</strong>
+                <p style={{ margin: 0, fontSize: '0.85rem', color: '#666666', lineHeight: '1.5' }}>{body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* SCARCITY */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>

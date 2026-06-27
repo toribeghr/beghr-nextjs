@@ -15,11 +15,43 @@ Every new page must pass all items before git push. Claude checks this automatic
 
 ## 2. Metadata (every page needs all of these)
 
-- [ ] `title` — unique, under 60 characters, includes primary keyword
-- [ ] `description` — unique, 140–160 characters, includes keyword + CTA signal
+- [ ] `title` — unique, **45–65 characters**, includes primary keyword
+- [ ] `description` — unique, 140–155 characters, includes keyword + CTA signal
 - [ ] `alternates.canonical` — exact URL, no trailing slash, uses `https://beghr.com`
-- [ ] OG title + description set (inherits from metadata — confirm they're not generic)
+- [ ] OG title + OG description set and match metadata title/description
+- [ ] Twitter card set and matches OG
 - [ ] Page does NOT use the fallback layout title ("Business Executive Group - Payroll…")
+
+### Title tag formula (always follow this)
+
+**Structure:** `[Primary keyword] | [Bold differentiating claim] | BEG`
+
+The differentiating claim must be something competitors literally cannot or do not publish. Generic modifiers ("fast", "affordable", "trusted") are NOT acceptable.
+
+**Approved claims by vertical:**
+
+| Vertical | Lead claim | Secondary options |
+|----------|------------|-------------------|
+| Managed Payroll | "We Run It. Not You." or "$25–$45 PEPM." | "Done For You. Not Software." / "3-5 Day Setup." |
+| Job Placement | "23-35 Days. Guaranteed." or "86% Fill Rate." | "45-Day Guarantee." / "Roles Filled 3× Faster." |
+| HCM Software | "Only Platform With Claude AI." or "330% ROI." | "BEG Implements." / "Claude AI Integration." |
+| Cannabis/Church/specialty | Industry-specific compliance win | e.g. "280E Handled." / "Housing Allowance Handled." |
+| Comparison pages | Direct outcome contrast | e.g. "We Cost Less. You Do Less Work." |
+
+**Examples of good vs. bad:**
+
+| Bad (generic) | Good (differentiating) |
+|---------------|----------------------|
+| "Managed Payroll Services \| BEG" | "Managed Payroll \| We Run It. Not You. $25–$45 PEPM. \| BEG" |
+| "Attorney Placement Services \| BEG" | "Job Placement \| 23-35 Days. 86% Fill Rate. Guaranteed. \| BEG" |
+| "iSolved HCM Software \| BEG" | "iSolved HCM \| Only Platform With Claude AI. 330% ROI. \| BEG" |
+
+**Rules:**
+- Primary keyword goes first (for ranking signal)
+- Claim uses a specific stat, guarantee, or direct contrast — never a vague adjective
+- `| BEG` at the end (brand recognition in SERP)
+- Hard cap: 65 characters
+- OG title and Twitter title must match the metadata title exactly
 
 ---
 

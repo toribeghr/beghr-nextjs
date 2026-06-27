@@ -17,19 +17,19 @@ const faqs = [
   },
   {
     question: 'We place workers in 25+ states. How does managed payroll handle multi-state filings?',
-    answer: 'BEG's managed payroll service handles all state withholding registrations, quarterly filings, and annual reconciliations across every state where you have placed workers. We track nexus thresholds, manage reciprocity agreements between states, and maintain compliance calendars for each jurisdiction, so your team does not need to monitor 25+ separate state tax requirements.',
+    answer: `BEG's managed payroll service handles all state withholding registrations, quarterly filings, and annual reconciliations across every state where you have placed workers. We track nexus thresholds, manage reciprocity agreements between states, and maintain compliance calendars for each jurisdiction, so your team does not need to monitor 25+ separate state tax requirements.`,
   },
   {
     question: 'What documentation does managed payroll provide for co-employment risk management?',
-    answer: 'Co-employment risk in staffing depends heavily on documentation showing the agency's employer-of-record role. BEG provides complete audit-ready payroll records, clear delineation of who controls what aspects of the employment relationship, and structured onboarding documentation that makes your position as employer of record defensible in any co-employment dispute.',
+    answer: `Co-employment risk in staffing depends heavily on documentation showing the agency's employer-of-record role. BEG provides complete audit-ready payroll records, clear delineation of who controls what aspects of the employment relationship, and structured onboarding documentation that makes your position as employer of record defensible in any co-employment dispute.`,
   },
   {
     question: 'How does BEG handle payroll when we need to scale headcount rapidly for a large contract?',
-    answer: 'BEG's managed payroll scales without the ramp-up time an in-house hire requires. When you win a contract requiring 40 new placed workers in 30 days, we handle onboarding, state registrations, payroll processing, and compliance from day one of placement, no hiring lag, no systems implementation project, no catch-up period.',
+    answer: `BEG's managed payroll scales without the ramp-up time an in-house hire requires. When you win a contract requiring 40 new placed workers in 30 days, we handle onboarding, state registrations, payroll processing, and compliance from day one of placement, no hiring lag, no systems implementation project, no catch-up period.`,
   },
   {
     question: 'What does BEG charge for managed payroll at a staffing agency?',
-    answer: 'BEG charges $25 PEPM if we work within your existing payroll system, or $45 PEPM on BEG's iSolved account. Both are all-inclusive, no per-run fees, no year-end add-ons, no hidden charges for state filings or W-2 production. At 75 employees, that is $2,625/month compared to an HR manager at $6,500+/month in fully loaded cost.',
+    answer: `BEG charges $25 PEPM if we work within your existing payroll system, or $45 PEPM on BEG's iSolved account. Both are all-inclusive, no per-run fees, no year-end add-ons, no hidden charges for state filings or W-2 production. At 75 employees, that is $2,625/month compared to an HR manager at $6,500+/month in fully loaded cost.`,
   },
 ];
 

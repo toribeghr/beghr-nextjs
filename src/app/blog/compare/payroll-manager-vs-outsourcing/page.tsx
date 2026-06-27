@@ -66,7 +66,7 @@ export default function PayrollManagerVsOutsourcingPage() {
                 ['Payroll error correction', '$5,000–$40,000/yr avg', 'Included'],
                 ['Employee question time', '15–25 hrs/month of HR time', 'Handled for you'],
                 ['Replacement cost when they leave', '$15,000–$30,000 per event', 'No risk'],
-                ['Year-end / compliance filings', 'Your team's time', 'Included'],
+                ['Year-end / compliance filings', "Your team's time", 'Included'],
                 ['Software license', '$1,200–$6,000/yr', 'Included'],
                 ['Total annual cost (50 people)', '$95,000–$140,000', '$15,000–$21,000'],
                 ['Contract required', 'Employment contract', 'Month-to-month'],

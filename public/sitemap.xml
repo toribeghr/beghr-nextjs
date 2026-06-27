@@ -1,126 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Core -->
   <url><loc>https://beghr.com/</loc><lastmod>2026-06-27</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://beghr.com/about</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/contact</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <!-- Managed Payroll -->
-  <url><loc>https://beghr.com/services/managed-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/legal</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/healthcare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/finance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/technology</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/engineering</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/trades</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/executive</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/trucking</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/veterinary</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/auto-dealership</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/cannabis</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/childcare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/home-health</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/church</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/marketing-agency</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/fitness</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/franchise</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/cost-calculator</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://beghr.com/services/managed-payroll/pricing</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-
-  <!-- HCM Software -->
-  <url><loc>https://beghr.com/services/hcm-software</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/legal</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/healthcare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/finance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/technology</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/engineering</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/trades</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/executive</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/alternatives-to-adp</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/isolved-vs-paycom</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/hcm-software/isolved-vs-paylocity</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <!-- Job Placement -->
-  <url><loc>https://beghr.com/services/job-placement</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://beghr.com/services/job-placement/legal</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/job-placement/healthcare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/job-placement/finance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/job-placement/technology</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/job-placement/engineering</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/job-placement/trades</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://beghr.com/services/job-placement/executive</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <!-- Network -->
-  <url><loc>https://beghr.com/network/membership</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/network/sponsorship</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Blog Hub -->
+  <url><loc>https://beghr.com/about</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://beghr.com/blog</loc><lastmod>2026-06-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-
-  <!-- Blog: Legal Hiring -->
-  <url><loc>https://beghr.com/blog/legal-hiring</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/legal-hiring/associate-hiring</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/legal-hiring/attorney-market-trends</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/legal-hiring/in-house-counsel</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/legal-hiring/paralegal-recruiting</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/legal-hiring/solo-firm-growth</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Blog: HCM Software -->
-  <url><loc>https://beghr.com/blog/hcm-software</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/hcm-software/hr-automation</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/hcm-software/isolved-platform</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/hcm-software/payroll-compliance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Blog: Payroll -->
-  <url><loc>https://beghr.com/blog/payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/construction/contractors-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/ecommerce/online-stores</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/financial-services/wealth-firms</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/healthcare-general/clinics-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/healthcare/dental</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/healthcare/medical-practices</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/hospitality-general/hotels-resorts</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/hospitality/restaurant</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/nonprofits/charity-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/professional-services-staffing/recruiting</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/professional-services/accounting</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/real-estate/property-management</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/retail/staffing-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/technology/saas-payroll-outsourcing</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-
-  <!-- Blog: Entrepreneur -->
-  <url><loc>https://beghr.com/blog/entrepreneur</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/blog/entrepreneur-resources/remote-team-management</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/entrepreneur-resources/startup-hiring</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-
-  <!-- Partner Pages -->
+  <url><loc>https://beghr.com/blog/compare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/how-long-should-attorney-placement-take</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/legal-staffing-vs-placement</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/managed-payroll-vs-adp</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/managed-payroll-vs-deel</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/managed-payroll-vs-gusto</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/managed-payroll-vs-paychex</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/managed-payroll-vs-rippling</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/payroll-manager-vs-outsourcing</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/compare/peo-vs-managed-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/entrepreneur</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beghr.com/blog/entrepreneur-resources/remote-team-management</loc><lastmod>2026-06-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/entrepreneur-resources/startup-hiring</loc><lastmod>2026-06-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/hcm-software</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://beghr.com/blog/hcm-technology</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/hcm-technology/hr-automation</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/hcm-technology/isolved-platform</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/hcm-technology/payroll-compliance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/legal-hiring</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/legal-hiring/associate-hiring</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/legal-hiring/attorney-market-trends</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/legal-hiring/in-house-counsel</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/legal-hiring/paralegal-recruiting</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/legal-hiring/solo-firm-growth</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/auto-dealership/dealership-overtime-minimum-wage</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/auto-dealership/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/cannabis/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/church/church-employee-fica-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/church/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/church/minister-housing-allowance-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/construction/contractors-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/ecommerce/online-stores</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/financial-services/wealth-firms</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/franchise/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/healthcare-general/clinics-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/healthcare/dental</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/healthcare/medical-practices</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/home-health/home-health-travel-time</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/home-health/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/hospitality-general/hotels-resorts</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/hospitality/restaurant</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/nonprofits/charity-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/professional-services-staffing/recruiting</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/professional-services/accounting</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/real-estate/property-management</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/retail/staffing-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/technology/saas-payroll-outsourcing</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/trucking/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/board-of-directors</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beghr.com/contact</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beghr.com/network/membership</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beghr.com/network/sponsorship</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beghr.com/partners</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://beghr.com/partners/cpa</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://beghr.com/partners/broker</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-
-  <!-- Blog: Industry Informational Posts -->
-  <url><loc>https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/auto-dealership/dealership-overtime-minimum-wage</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/home-health/home-health-travel-time</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/church/minister-housing-allowance-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/church/church-employee-fica-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-
+  <url><loc>https://beghr.com/partners/cpa</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beghr.com/privacy-policy</loc><lastmod>2026-06-27</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/alternatives-to-adp</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/engineering</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/executive</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/finance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/healthcare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/isolved-vs-paycom</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/isolved-vs-paylocity</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/legal</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/technology</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/hcm-software/trades</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/engineering</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/executive</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/finance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/healthcare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/legal</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/technology</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/job-placement/trades</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/auto-dealership</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/cannabis</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/childcare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/church</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/engineering</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/executive</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/finance</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/fitness</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/franchise</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/healthcare</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/home-health</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/legal</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/marketing-agency</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/pricing</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/technology</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/trades</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/trucking</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://beghr.com/services/managed-payroll/veterinary</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 </urlset>

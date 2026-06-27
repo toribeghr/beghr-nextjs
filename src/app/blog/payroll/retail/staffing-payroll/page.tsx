@@ -210,7 +210,7 @@ export default function RetailStaffingPayrollPage() {
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
             <a href="/services/managed-payroll" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>Managed Payroll &rarr;</a>
             <a href="/blog/payroll" style={{ display: 'inline-block', background: '#f0f0f0', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>Payroll by Industry &rarr;</a>
-            <a href="/compare/managed-payroll-vs-rippling" style={{ display: 'inline-block', background: '#f0f0f0', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>BEG vs. Rippling &rarr;</a>
+            <a href="/blog/compare/managed-payroll-vs-rippling" style={{ display: 'inline-block', background: '#f0f0f0', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>BEG vs. Rippling &rarr;</a>
           </div>
         </div>
 

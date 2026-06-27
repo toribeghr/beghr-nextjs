@@ -64,10 +64,16 @@ Every new page must pass all items before git push. Claude checks this automatic
 
 ## 7. Tracking
 
-- [ ] GTM fires on page (GTM-MVSLWC2S is in layout.tsx — no action needed per page)
-- [ ] Meta Pixel fires on page (986930567552609 is in layout.tsx — no action needed per page)
-- [ ] If page has a unique CTA button, confirm `book_call_click` or equivalent event fires
-- [ ] New service/landing pages: notify Anthony to check GA4 for traffic after deploy
+All three trackers fire automatically on every page — no per-page action needed:
+
+- GTM (GTM-MVSLWC2S) — in layout.tsx globally. Loads GA4 + LinkedIn Insight Tag on every page.
+- Meta Pixel (986930567552609) — in layout.tsx globally. PageView fires on every page.
+- LinkedIn Insight Tag (Partner ID: 548960913) — GTM Version 4, trigger: All Pages.
+- GA4 book_call_click — GTM fires on any click where URL contains calendly.com. Automatic on all pages.
+
+Only action required per page:
+- [ ] If the page has a NEW custom CTA that is NOT a Calendly link, add a GTM trigger + GA4 event tag for it
+- [ ] New service/landing page: notify Anthony to check GA4 for traffic after deploy
 
 ---
 

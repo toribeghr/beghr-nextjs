@@ -121,16 +121,16 @@ export default function RelatedPosts({ posts, heading = 'From the blog' }: Relat
         </div>
       </div>
 
-      <style jsx>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @media (max-width: 768px) {
           .related-posts-grid {
             grid-template-columns: 1fr !important;
           }
         }
         .related-post-card:hover {
-          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 16px rgba(0,0,0,0.08);
         }
-      `}</style>
+      ` }} />
     </section>
   );
 }

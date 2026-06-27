@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Insurance & Benefits Broker Partner Program | BEG Managed Payroll',
-  description: 'Refer clients to BEG for fully managed payroll. Clean data simplifies workers\' comp audits and benefits sync. $25–$45 PEPM, fully managed, no conflict of interest.',
+  description: 'Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers\' comp audits and benefits sync. $25–$45 PEPM, no conflict.',
   alternates: { canonical: 'https://beghr.com/partners/broker' },
 };
 

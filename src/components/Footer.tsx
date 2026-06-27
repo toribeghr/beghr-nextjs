@@ -71,6 +71,14 @@ export default function Footer() {
             <Link href="/services/job-placement/executive" className="footer-link">Executive &amp; Director+</Link>
           </div>
 
+          {/* Partners */}
+          <div className="footer-col">
+            <h5 className="footer-col-heading">Partners</h5>
+            <Link href="/partners" className="footer-link footer-link--overview">Partner Program</Link>
+            <Link href="/partners/cpa" className="footer-link">CPAs &amp; Accounting Firms</Link>
+            <Link href="/partners/broker" className="footer-link">Insurance &amp; Benefits Brokers</Link>
+          </div>
+
         </div>
 
         <div className="foot-bottom">

@@ -27,6 +27,7 @@ const navGroups = [
     items: [
       { href: '/network/membership',  label: 'Membership',  hub: true  },
       { href: '/network/sponsorship', label: 'Sponsorship', hub: false },
+      { href: '/partners',            label: 'Partners',    hub: false },
     ],
   },
   {

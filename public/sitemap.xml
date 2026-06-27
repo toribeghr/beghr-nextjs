@@ -96,4 +96,9 @@
   <url><loc>https://beghr.com/blog/entrepreneur-resources/remote-team-management</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beghr.com/blog/entrepreneur-resources/startup-hiring</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
+  <!-- Partner Pages -->
+  <url><loc>https://beghr.com/partners</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beghr.com/partners/cpa</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beghr.com/partners/broker</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
 </urlset>

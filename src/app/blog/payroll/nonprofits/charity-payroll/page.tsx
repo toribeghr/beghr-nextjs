@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Payroll Outsourcing: Cost vs. Hiring HR Staff',
@@ -21,7 +20,6 @@ export default function NonprofitPayrollPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/nonprofit.svg" alt="Nonprofit Payroll" />
           </div>
         </div>
       </section>

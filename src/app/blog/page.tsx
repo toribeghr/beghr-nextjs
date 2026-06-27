@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Blog | Business Executive Group',
@@ -46,7 +45,6 @@ export default function BlogPage() {
                 Payroll compliance, legal hiring, HCM software, and entrepreneur resources — straight from the BEG team.
               </p>
             </div>
-            <HeroImageBox src="/assets/hero-images/blog.svg" alt="BEG Blog" />
           </div>
         </div>
       </section>

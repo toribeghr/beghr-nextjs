@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'SaaS Payroll Outsourcing: Cost vs. Hiring Payroll Ops Manager',
@@ -21,7 +20,6 @@ export default function SaaSPayrollPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/cloud-saas.svg" alt="SaaS Payroll Outsourcing" />
           </div>
         </div>
       </section>

@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Business & Entrepreneur Resources | BEG Blog',
@@ -34,7 +33,6 @@ export default function BlogEntrepreneurPage() {
                 Entrepreneur tips, hiring strategies, and business community insights from the BEG network.
               </p>
             </div>
-            <HeroImageBox src="/assets/hero-images/entrepreneur.svg" alt="Entrepreneur Resources" />
           </div>
         </div>
       </section>

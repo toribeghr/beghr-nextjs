@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing for Medical Practices: Cost vs. Hiring HR Coordinator',
@@ -22,7 +21,6 @@ export default function MedicalPracticesPage() {
             <span><strong>Read time:</strong> 8 min</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/healthcare.svg" alt="Medical Practice Payroll" />
           </div>
         </div>
       </section>

@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Law Firm Paralegal Hiring: Skills to Look For',
@@ -21,7 +20,6 @@ export default function ParalegalHiringPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/legal.svg" alt="Paralegal Recruiting" />
           </div>
         </div>
       </section>

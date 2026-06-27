@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Startup Hiring 101: Building Your First Team',
@@ -21,7 +20,6 @@ export default function StartupHiringPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/startup.svg" alt="Startup Hiring" />
           </div>
         </div>
       </section>

@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Solo Lawyer Expansion: Hiring Your First Associate',
@@ -21,7 +20,6 @@ export default function SoloFirmGrowthPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/entrepreneur.svg" alt="Solo Firm Growth" />
           </div>
         </div>
       </section>

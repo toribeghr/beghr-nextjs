@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Payroll Tax Compliance: 2026 Updates & What Changed',
@@ -21,7 +20,6 @@ export default function PayrollCompliancePage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/compliance.svg" alt="Payroll Compliance" />
           </div>
         </div>
       </section>

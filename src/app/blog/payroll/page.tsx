@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Payroll & HR Compliance | BEG Blog',
@@ -104,7 +103,6 @@ export default function BlogPayrollPage() {
                 Tax law changes, payroll regulations, compliance tips, and best practices for businesses nationwide.
               </p>
             </div>
-            <HeroImageBox src="/assets/hero-images/payroll.svg" alt="Payroll & HR Compliance" />
           </div>
         </div>
       </section>

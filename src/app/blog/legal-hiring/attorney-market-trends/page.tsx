@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: '2026 Attorney Market Trends: What Law Firms Need to Know',
@@ -21,7 +20,6 @@ export default function AttorneyMarketTrendsPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/trends.svg" alt="Attorney Market Trends" />
           </div>
         </div>
       </section>

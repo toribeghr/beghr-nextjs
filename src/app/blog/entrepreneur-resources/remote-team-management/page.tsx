@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Managing Remote Teams: What Founders Need to Know',
@@ -21,7 +20,6 @@ export default function RemoteTeamManagementPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/remote-work.svg" alt="Remote Team Management" />
           </div>
         </div>
       </section>

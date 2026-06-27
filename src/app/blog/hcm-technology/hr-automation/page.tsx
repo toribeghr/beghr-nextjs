@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'HR Automation: Save 200+ Hours Per Year',
@@ -21,7 +20,6 @@ export default function HRAutomationPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/automation.svg" alt="HR Automation" />
           </div>
         </div>
       </section>

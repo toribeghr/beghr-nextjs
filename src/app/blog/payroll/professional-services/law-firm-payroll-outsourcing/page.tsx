@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager',
@@ -40,7 +39,6 @@ export default function LawFirmPayrollPage() {
             <span><strong>Read time:</strong> 8 min</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/legal.svg" alt="Law Firm Payroll" />
           </div>
         </div>
       </section>

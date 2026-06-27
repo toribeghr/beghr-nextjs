@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'HCM Software & HR Tech | BEG Blog',
@@ -39,7 +38,6 @@ export default function BlogHcmPage() {
                 iSolved guides, HR automation tips, and software comparisons for growing businesses.
               </p>
             </div>
-            <HeroImageBox src="/assets/hero-images/hcm-software.svg" alt="HCM Software & HR Tech" />
           </div>
         </div>
       </section>

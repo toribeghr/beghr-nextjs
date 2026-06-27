@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'iSolved HCM Platform: Cloud Payroll & HR for Growing Companies',
@@ -21,7 +20,6 @@ export default function iSolvedPlatformPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/hcm-software.svg" alt="iSolved HCM Platform" />
           </div>
         </div>
       </section>

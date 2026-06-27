@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'Real Estate Payroll Outsourcing: Cost vs. Hiring HR Coordinator',
@@ -21,7 +20,6 @@ export default function RealEstatePayrollPage() {
             <span><strong>Published:</strong> June 25, 2026</span>
           </div>
             </div>
-            <HeroImageBox src="/assets/hero-images/real-estate.svg" alt="Real Estate Payroll" />
           </div>
         </div>
       </section>

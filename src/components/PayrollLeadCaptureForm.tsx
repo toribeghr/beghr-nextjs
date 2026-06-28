@@ -3,13 +3,10 @@
 import { useState } from 'react';
 
 /**
- * BEG payroll-branded lead-capture form. Free backend via Web3Forms.
- * Submissions are emailed to tori.wint@beghr.com, tagged by the asset (toolName).
+ * BEG payroll-branded lead-capture form. Posts to /api/lead (Resend).
+ * The API route emails the lead to tori.wint@beghr.com AND auto-replies to the
+ * visitor with the exact asset they requested + a book-a-call nudge.
  * Brand each instance to the asset it gates by passing toolName / toolDescription / assetLabel.
- *
- * "Delivered via email": leads see the asset on-screen instantly AND, once the Web3Forms
- * autoresponder is enabled on the account (one-time dashboard setting), receive a branded
- * auto-reply with the asset link + a book-a-call nudge.
  *
  * Usage:
  *   <PayrollLeadCaptureForm
@@ -20,7 +17,6 @@ import { useState } from 'react';
  *   />
  */
 
-const WEB3FORMS_KEY = 'a5dc3398-f88a-4944-bafe-54bd85211f81'; // leads -> tori.wint@beghr.com
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 const GOLD = '#ECAC60';
 
@@ -46,9 +42,6 @@ export default function PayrollLeadCaptureForm({
     setStatus('sending');
     const form = e.currentTarget;
     const data = {
-      access_key: WEB3FORMS_KEY,
-      subject: `New payroll lead: ${toolName}`,
-      from_name: 'BEG Website',
       tool: toolName,
       asset_url: assetUrl || '',
       name: (form.elements.namedItem('name') as HTMLInputElement).value,
@@ -57,7 +50,7 @@ export default function PayrollLeadCaptureForm({
       botcheck: (form.elements.namedItem('botcheck') as HTMLInputElement).value,
     };
     try {
-      const res = await fetch('https://api.web3forms.com/submit', {
+      const res = await fetch('/api/lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(data),

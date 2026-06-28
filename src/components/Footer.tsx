@@ -68,6 +68,16 @@ export default function Footer() {
             <Link href="/services/hcm-software/engineering" className="footer-link">Engineering</Link>
             <Link href="/services/hcm-software/trades" className="footer-link">Skilled Trades &amp; Mfg</Link>
             <Link href="/services/hcm-software/executive" className="footer-link">Executive &amp; Leadership</Link>
+            <Link href="/services/hcm-software/manufacturing" className="footer-link">Manufacturing</Link>
+            <Link href="/services/hcm-software/construction" className="footer-link">Construction</Link>
+            <Link href="/services/hcm-software/restaurants" className="footer-link">Restaurants</Link>
+            <Link href="/services/hcm-software/retail" className="footer-link">Retail</Link>
+            <Link href="/services/hcm-software/nonprofit" className="footer-link">Nonprofit</Link>
+            <Link href="/services/hcm-software/professional-services" className="footer-link">Professional Services</Link>
+            <Link href="/services/hcm-software/staffing-agency" className="footer-link">Staffing Agencies</Link>
+            <Link href="/services/hcm-software/transportation" className="footer-link">Transportation</Link>
+            <Link href="/services/hcm-software/ai-connector" className="footer-link">Connector for Claude</Link>
+            <Link href="/services/hcm-software/roi-calculator" className="footer-link">ROI Calculator</Link>
           </div>
 
           {/* Job Placement */}

@@ -205,8 +205,9 @@ p {
 }
 
 .brand img {
-  width: 75px;
-  height: 75px;
+  width: auto;
+  height: 54px;
+  display: block;
 }
 
 .brand span {

@@ -1,12 +1,23 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Finance Firms | Bonus & Payroll Platform | BEG',
+  title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG',
   description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/finance' },
+  openGraph: {
+    title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG',
+    description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
+    url: 'https://beghr.com/services/hcm-software/finance',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG', description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('hcm-finance');
@@ -111,7 +122,7 @@ export default function HCMFinancePage() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets your HR or finance ops team run compensation reports, update employee data, and manage benefits enrollment — all through Claude AI. No system switching. No manual data pulls. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude lets your HR or finance ops team run compensation reports, update employee data, and manage benefits enrollment — all through Claude AI. No system switching. No manual data pulls. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
@@ -206,6 +217,44 @@ export default function HCMFinancePage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Finance', item: 'https://beghr.com/services/hcm-software/finance' },
+            ],
+          }),
+        }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            excerpt: 'Full isolved platform review covering payroll, compensation management, benefits, and compliance. How it handles commission structures and deferred compensation.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Finance firms waste hours on manual payroll and compliance tasks that modern HCM platforms handle automatically. Here is what to prioritize.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: '2026 payroll compliance for financial services firms. Federal changes, state requirements, multi-state advisor teams, and what your system must handle.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

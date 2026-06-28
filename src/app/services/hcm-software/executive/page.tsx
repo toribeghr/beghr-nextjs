@@ -1,12 +1,23 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Executive Teams | Deferred Comp Platform | BEG',
+  title: 'iSolved HCM for Exec Teams | Deferred Comp. Claude AI. | BEG',
   description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/executive' },
+  openGraph: {
+    title: 'iSolved HCM for Exec Teams | Deferred Comp. Claude AI. | BEG',
+    description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
+    url: 'https://beghr.com/services/hcm-software/executive',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Exec Teams | Deferred Comp. Claude AI. | BEG', description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('hcm-executive');
@@ -111,7 +122,7 @@ export default function HCMExecutivePage() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets authorized HR team members access executive compensation data, pull reports, and manage benefit events — through Claude AI, with full access controls intact. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude lets authorized HR team members access executive compensation data, pull reports, and manage benefit events — through Claude AI, with full access controls intact. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
@@ -206,6 +217,44 @@ export default function HCMExecutivePage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Executive', item: 'https://beghr.com/services/hcm-software/executive' },
+            ],
+          }),
+        }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            excerpt: 'Full isolved platform review covering payroll, deferred compensation, benefits, and executive access controls. Who it fits and how BEG manages it.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Executive teams want HCM data without managing the system. Here is what automation covers, what it frees up, and where to start.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: 'Executive compensation involves 409A elections, equity vest events, and imputed income. Here is what changed in 2026 and what your platform must handle.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

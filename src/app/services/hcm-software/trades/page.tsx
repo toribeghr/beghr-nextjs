@@ -1,12 +1,23 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Skilled Trades | Union & Multi-Site Payroll | BEG',
+  title: 'iSolved HCM for Skilled Trades | Union Payroll Built In | BEG',
   description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/trades' },
+  openGraph: {
+    title: 'iSolved HCM for Skilled Trades | Union Payroll Built In | BEG',
+    description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
+    url: 'https://beghr.com/services/hcm-software/trades',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Skilled Trades | Union Payroll Built In | BEG', description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('hcm-trades');
@@ -111,7 +122,7 @@ export default function HCMTradesPage() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets your HR and operations team pull workforce reports, verify union compliance documentation, and manage employee records — all through a Claude AI conversation. Less time in the system, more time running the operation. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude lets your HR and operations team pull workforce reports, verify union compliance documentation, and manage employee records — all through a Claude AI conversation. Less time in the system, more time running the operation. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
@@ -206,6 +217,44 @@ export default function HCMTradesPage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Trades', item: 'https://beghr.com/services/hcm-software/trades' },
+            ],
+          }),
+        }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            excerpt: 'Full isolved platform review covering payroll, time and attendance, union rate tracking, and compliance modules. Who it fits and how BEG manages it.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Skilled trades contractors spend hours on manual payroll and certified reporting. Here is what HCM automation covers and where the ROI is highest.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: 'Union fringes, multi-state work, and prevailing wage updates require a system that stays current automatically. Here is what changed in 2026.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

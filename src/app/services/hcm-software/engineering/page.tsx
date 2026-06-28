@@ -1,12 +1,23 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Engineering | Prevailing Wage & Payroll | BEG',
+  title: 'iSolved HCM for Engineering | Prevailing Wage Built In | BEG',
   description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/engineering' },
+  openGraph: {
+    title: 'iSolved HCM for Engineering | Prevailing Wage Built In | BEG',
+    description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
+    url: 'https://beghr.com/services/hcm-software/engineering',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Engineering | Prevailing Wage Built In | BEG', description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('hcm-engineering');
@@ -111,7 +122,7 @@ export default function HCMEngineeringPage() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets your project HR team pull labor reports, verify compliance documentation, and manage employee records — all through a Claude AI conversation. Less manual system work, more time managing projects. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude lets your project HR team pull labor reports, verify compliance documentation, and manage employee records — all through a Claude AI conversation. Less manual system work, more time managing projects. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
@@ -206,6 +217,44 @@ export default function HCMEngineeringPage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Engineering', item: 'https://beghr.com/services/hcm-software/engineering' },
+            ],
+          }),
+        }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'HCM technology',
+            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            excerpt: 'Full isolved platform review covering payroll, certified payroll tracking, benefits, and compliance modules. Who it fits and how BEG configures it.',
+            href: '/blog/hcm-technology/isolved-platform',
+          },
+          {
+            category: 'HCM technology',
+            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
+            excerpt: 'Engineering firms with project-based billing spend too much time on manual HR. Here is what to automate first and what the time savings actually look like.',
+            href: '/blog/hcm-technology/hr-automation',
+          },
+          {
+            category: 'HCM technology',
+            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+            excerpt: 'Multi-state project work creates complex employer obligations. Here is what changed in 2026 and what your HCM platform needs to handle without manual intervention.',
+            href: '/blog/hcm-technology/payroll-compliance',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

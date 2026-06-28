@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     q: 'Do I need to migrate to a new system?',
-    a: 'No. BEG can run payroll in your existing payroll system, including ADP, Paychex, QuickBooks Payroll, and others, or in BEG\'s own iSolved account if you prefer. Most clients do not migrate anything. We configure our process around your current setup and run from there. This is one of the reasons BEG clients switch quickly: there is no painful data migration, no employee re-training on new software, and no disruption to how your team works.',
+    a: `No. BEG can run payroll in your existing payroll system, including ADP, Paychex, QuickBooks Payroll, and others, or in BEG\'s own iSolved account if you prefer. Most clients do not migrate anything. We configure our process around your current setup and run from there. This is one of the reasons BEG clients switch quickly: there is no painful data migration, no employee re-training on new software, and no disruption to how your team works.`,
   },
   {
     q: 'What states do you cover?',
@@ -56,11 +56,11 @@ const faqs = [
   },
   {
     q: 'Can you handle multi-state payroll?',
-    a: 'Yes. Multi-state payroll is a standard part of BEG\'s managed service. This includes registering with each state\'s taxing authority, calculating and remitting state income tax withholding per each state\'s rules, filing state unemployment insurance (SUTA) returns, handling local payroll taxes where applicable, and staying current when state rates and thresholds change. If you operate in 10 states or 40 states, the process is the same. Your BEG contact manages all of it.',
+    a: `Yes. Multi-state payroll is a standard part of BEG\'s managed service. This includes registering with each state\'s taxing authority, calculating and remitting state income tax withholding per each state\'s rules, filing state unemployment insurance (SUTA) returns, handling local payroll taxes where applicable, and staying current when state rates and thresholds change. If you operate in 10 states or 40 states, the process is the same. Your BEG contact manages all of it.`,
   },
   {
     q: 'How is managed payroll different from a PEO?',
-    a: 'A Professional Employer Organization (PEO) co-employs your workers. Your employees technically become employees of the PEO, and the PEO takes on employer-of-record liability. This gives the PEO leverage over your payroll decisions and usually requires you to use their benefits, their workers\' comp carrier, and their systems. BEG managed payroll does not co-employ anyone. You remain the employer of record. BEG runs your payroll as a service provider, not as a co-employer. You keep full control of your employment decisions, benefits, and vendors. This distinction matters significantly for regulatory compliance and contractual flexibility.',
+    a: `A Professional Employer Organization (PEO) co-employs your workers. Your employees technically become employees of the PEO, and the PEO takes on employer-of-record liability. This gives the PEO leverage over your payroll decisions and usually requires you to use their benefits, their workers\' comp carrier, and their systems. BEG managed payroll does not co-employ anyone. You remain the employer of record. BEG runs your payroll as a service provider, not as a co-employer. You keep full control of your employment decisions, benefits, and vendors. This distinction matters significantly for regulatory compliance and contractual flexibility.`,
   },
   {
     q: 'Is managed payroll right for a small business?',
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: 'What payroll software do you work with?',
-    a: 'BEG can work within your existing payroll platform or run payroll in our iSolved account. Existing platforms BEG can work within include ADP Run, ADP Workforce Now, Paychex Flex, QuickBooks Payroll, Gusto, and other major platforms. If you prefer to move to iSolved, BEG handles the migration as part of onboarding. iSolved is BEG\'s preferred platform for new clients because of its compliance automation, SOC 2 Type II security posture, and comprehensive reporting capabilities. The choice is yours and does not affect your PEPM rate.',
+    a: `BEG can work within your existing payroll platform or run payroll in our iSolved account. Existing platforms BEG can work within include ADP Run, ADP Workforce Now, Paychex Flex, QuickBooks Payroll, Gusto, and other major platforms. If you prefer to move to iSolved, BEG handles the migration as part of onboarding. iSolved is BEG\'s preferred platform for new clients because of its compliance automation, SOC 2 Type II security posture, and comprehensive reporting capabilities. The choice is yours and does not affect your PEPM rate.`,
   },
   {
     q: 'How do I get started?',

@@ -28,7 +28,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 const faqs = [
   {
     q: 'What is payroll outsourcing?',
-    a: 'Payroll outsourcing means transferring the responsibility for running payroll to an outside service provider. The scope of what gets outsourced varies by provider. At the low end, a vendor processes payroll runs while you still handle tax filings, W-2s, and compliance. At the high end. BEG's managed service, for example, the provider handles everything: processing, tax withholding and remittance, quarterly filings, W-2 production, garnishments, new hire reporting, and year-end close. True payroll outsourcing eliminates internal labor from the payroll function entirely.',
+    a: `Payroll outsourcing means transferring the responsibility for running payroll to an outside service provider. The scope of what gets outsourced varies by provider. At the low end, a vendor processes payroll runs while you still handle tax filings, W-2s, and compliance. At the high end. BEG's managed service, for example, the provider handles everything: processing, tax withholding and remittance, quarterly filings, W-2 production, garnishments, new hire reporting, and year-end close. True payroll outsourcing eliminates internal labor from the payroll function entirely.`,
   },
   {
     q: 'How much does payroll outsourcing cost?',
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: 'What are the risks of outsourcing payroll?',
-    a: 'The main risk is choosing a vendor who delivers less than a full managed service. If your outsourcing provider processes payroll runs but leaves tax deposits, state filings, and compliance up to you, you have outsourced the easy part and kept the liability. Other risks include: poor support responsiveness (ticket queues instead of a dedicated contact), hidden fees that inflate the real monthly cost, and data security vulnerabilities if the provider does not maintain SOC 2 certification or equivalent controls. BEG mitigates these by providing a dedicated contact for every client, all-inclusive PEPM pricing with no hidden fees, and processing on iSolved\'s SOC 2 Type II certified infrastructure.',
+    a: `The main risk is choosing a vendor who delivers less than a full managed service. If your outsourcing provider processes payroll runs but leaves tax deposits, state filings, and compliance up to you, you have outsourced the easy part and kept the liability. Other risks include: poor support responsiveness (ticket queues instead of a dedicated contact), hidden fees that inflate the real monthly cost, and data security vulnerabilities if the provider does not maintain SOC 2 certification or equivalent controls. BEG mitigates these by providing a dedicated contact for every client, all-inclusive PEPM pricing with no hidden fees, and processing on iSolved\'s SOC 2 Type II certified infrastructure.`,
   },
   {
     q: 'What does a payroll outsourcing company handle?',
@@ -52,11 +52,11 @@ const faqs = [
   },
   {
     q: 'Can I outsource just tax filing?',
-    a: 'Some providers offer tax-only services for employers who run their own payroll but want filing handled externally. BEG does not offer filing-only services. BEG's model is fully managed payroll, meaning we run the entire function. If you are evaluating tax-only outsourcing because you want to minimize disruption or cost, consider that the labor required to run payroll yourself and then hand off data for filing often exceeds the cost of full managed payroll. BEG\'s discovery call can help you understand whether a full managed approach would actually be simpler and less expensive than a split arrangement.',
+    a: `Some providers offer tax-only services for employers who run their own payroll but want filing handled externally. BEG does not offer filing-only services. BEG's model is fully managed payroll, meaning we run the entire function. If you are evaluating tax-only outsourcing because you want to minimize disruption or cost, consider that the labor required to run payroll yourself and then hand off data for filing often exceeds the cost of full managed payroll. BEG\'s discovery call can help you understand whether a full managed approach would actually be simpler and less expensive than a split arrangement.`,
   },
   {
     q: 'What is the difference between outsourcing and a PEO?',
-    a: 'Payroll outsourcing keeps you as the employer of record. Your employees remain employed by your company. You outsource the administrative function of running payroll. A PEO (Professional Employer Organization) co-employs your workers. Your employees technically become employees of the PEO, giving the PEO control over which benefits carriers you use, how workers\' comp is structured, and sometimes how you handle terminations. A PEO can be valuable for very small employers who need access to better benefits packages. For most mid-size businesses, payroll outsourcing delivers the cost and compliance benefits without surrendering control over your employment decisions.',
+    a: `Payroll outsourcing keeps you as the employer of record. Your employees remain employed by your company. You outsource the administrative function of running payroll. A PEO (Professional Employer Organization) co-employs your workers. Your employees technically become employees of the PEO, giving the PEO control over which benefits carriers you use, how workers\' comp is structured, and sometimes how you handle terminations. A PEO can be valuable for very small employers who need access to better benefits packages. For most mid-size businesses, payroll outsourcing delivers the cost and compliance benefits without surrendering control over your employment decisions.`,
   },
   {
     q: 'What happens to my current payroll data?',

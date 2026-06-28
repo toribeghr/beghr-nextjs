@@ -35,7 +35,7 @@ const guides = [
   },
   {
     tag: 'Buyer\'s Guide',
-    title: 'Managed Payroll Buyer\'s Guide 2026',
+    title: `Managed Payroll Buyer\'s Guide 2026`,
     desc: 'Before you hire a managed payroll provider, know what to ask. This guide covers what managed payroll actually is, how pricing models work, what questions to ask providers, red flags to avoid, and a vendor comparison scorecard you can use in your evaluation.',
     what: ['What managed payroll is and what it covers', 'PEPM vs. flat fee vs. per-run pricing models', 'Questions to ask every provider before signing', 'Red flags: hidden fees, support quality, compliance coverage', 'Vendor comparison scorecard with weighted criteria', 'Implementation timeline expectations by provider type'],
     href: '/resources/guides/managed-payroll-buyers-guide',

@@ -115,7 +115,7 @@ export default function ResourcesPage() {
               },
               {
                 tag: 'Free Guide',
-                title: 'Managed Payroll Buyer\'s Guide',
+                title: `Managed Payroll Buyer\'s Guide`,
                 desc: 'What managed payroll actually is, how pricing models work, what questions to ask providers, red flags to avoid, and a vendor comparison scorecard.',
                 href: '/resources/guides/managed-payroll-buyers-guide',
                 cta: 'Download Free Guide',

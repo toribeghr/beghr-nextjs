@@ -33,6 +33,21 @@ const posts = [
     description: '2026 payroll compliance guide. Federal and state changes, FLSA thresholds, ACA requirements, multi-state employer obligations, and how managed payroll keeps you current.',
     slug: '/blog/hcm-technology/payroll-compliance',
   },
+  {
+    title: 'iSolved Connector for Claude: What It Is and What It Does',
+    description: 'The only HCM platform with a generally available Connector for Claude. What it does, how HR teams use it to complete real tasks, and why it matters in 2026.',
+    slug: '/blog/hcm-technology/isolved-connector-for-claude',
+  },
+  {
+    title: 'AI Payroll in 2026: What It Can and Cannot Do',
+    description: 'A practical look at AI in payroll and HR. What AI can reliably handle today, where humans are still required, and how the iSolved Connector for Claude fits in.',
+    slug: '/blog/hcm-technology/ai-payroll-what-it-can-do',
+  },
+  {
+    title: 'Chatbots Answer Questions. iSolved Completes the Task.',
+    description: 'Most HR chatbots only answer. The iSolved Connector for Claude completes the work. The difference between answering and doing, and why it changes HR admin.',
+    slug: '/blog/hcm-technology/chatbots-answer-isolved-does-the-task',
+  },
 ];
 
 export default function BlogHcmTechnologyPage() {

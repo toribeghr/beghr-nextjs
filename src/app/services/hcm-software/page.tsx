@@ -378,6 +378,46 @@ export default function HCMSoftwarePage() {
               <h3>Executive &amp; Leadership</h3>
               <p>Deferred comp, 409A compliance, and restricted-access executive payroll.</p>
             </Link>
+            <Link href="/services/hcm-software/manufacturing" className="card-link reveal">
+              <span className="tag">Manufacturing</span>
+              <h3>Manufacturing</h3>
+              <p>Shift differentials, labor cost by line, and multi-plant workforce tracking.</p>
+            </Link>
+            <Link href="/services/hcm-software/construction" className="card-link reveal">
+              <span className="tag">Construction</span>
+              <h3>Construction</h3>
+              <p>Certified payroll, prevailing wage, and multi-job cost allocation.</p>
+            </Link>
+            <Link href="/services/hcm-software/restaurants" className="card-link reveal">
+              <span className="tag">Restaurants</span>
+              <h3>Restaurants</h3>
+              <p>Tip handling, high-turnover onboarding, and multi-location scheduling.</p>
+            </Link>
+            <Link href="/services/hcm-software/retail" className="card-link reveal">
+              <span className="tag">Retail</span>
+              <h3>Retail</h3>
+              <p>Hourly and seasonal surges, multi-store labor, and fast onboarding.</p>
+            </Link>
+            <Link href="/services/hcm-software/nonprofit" className="card-link reveal">
+              <span className="tag">Nonprofit</span>
+              <h3>Nonprofit</h3>
+              <p>Grant and program allocation, board reporting, and funder compliance.</p>
+            </Link>
+            <Link href="/services/hcm-software/professional-services" className="card-link reveal">
+              <span className="tag">Professional Services</span>
+              <h3>Professional Services</h3>
+              <p>Billable utilization, salaried and exempt classification, and clean reporting.</p>
+            </Link>
+            <Link href="/services/hcm-software/staffing-agency" className="card-link reveal">
+              <span className="tag">Staffing</span>
+              <h3>Staffing Agencies</h3>
+              <p>High-volume onboarding and multi-client payroll by assignment.</p>
+            </Link>
+            <Link href="/services/hcm-software/transportation" className="card-link reveal">
+              <span className="tag">Transportation</span>
+              <h3>Transportation</h3>
+              <p>Driver pay models, per-diem handling, and multi-state tax.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -401,6 +441,82 @@ export default function HCMSoftwarePage() {
             <Link href="/services/hcm-software/alternatives-to-adp" className="card-link reveal">
               <h3>Alternatives to ADP</h3>
               <p>Why mid-market companies switch from ADP and what the iSolved transition looks like.</p>
+            </Link>
+            <Link href="/services/hcm-software/isolved-vs-gusto" className="card-link reveal">
+              <h3>iSolved vs Gusto</h3>
+              <p>Full managed platform versus small-business software, compared head to head.</p>
+            </Link>
+            <Link href="/services/hcm-software/isolved-vs-rippling" className="card-link reveal">
+              <h3>iSolved vs Rippling</h3>
+              <p>One connected HR platform versus a complex IT-first toolset.</p>
+            </Link>
+            <Link href="/services/hcm-software/isolved-vs-paychex" className="card-link reveal">
+              <h3>iSolved vs Paychex</h3>
+              <p>Modern single platform and local support versus a legacy provider.</p>
+            </Link>
+            <Link href="/services/hcm-software/isolved-vs-bamboohr" className="card-link reveal">
+              <h3>iSolved vs BambooHR</h3>
+              <p>Full payroll and HR in one platform versus people-first HR with add-on payroll.</p>
+            </Link>
+            <Link href="/services/hcm-software/alternatives-to-paychex" className="card-link reveal">
+              <h3>Alternatives to Paychex</h3>
+              <p>Why companies leave Paychex and what moving to iSolved looks like.</p>
+            </Link>
+            <Link href="/services/hcm-software/alternatives-to-gusto" className="card-link reveal">
+              <h3>Alternatives to Gusto</h3>
+              <p>When you outgrow Gusto and need a true mid-market HCM platform.</p>
+            </Link>
+            <Link href="/services/hcm-software/alternatives-to-rippling" className="card-link reveal">
+              <h3>Alternatives to Rippling</h3>
+              <p>A simpler, fully managed alternative to Rippling for HR and payroll.</p>
+            </Link>
+            <Link href="/services/hcm-software/alternatives-to-paylocity" className="card-link reveal">
+              <h3>Alternatives to Paylocity</h3>
+              <p>Why mid-market teams consider iSolved over Paylocity.</p>
+            </Link>
+          </div>
+          <div className="head center reveal" style={{ marginTop: '3rem' }}>
+            <p className="eyebrow">Switching Is Easier Than You Think</p>
+            <h2>BEG manages the move from your current provider</h2>
+          </div>
+          <div className="cards">
+            <Link href="/services/hcm-software/switch-from-adp-to-isolved" className="card-link reveal">
+              <h3>Switch from ADP to iSolved</h3>
+              <p>A BEG-managed migration off ADP, with no disruption to your team.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-paychex-to-isolved" className="card-link reveal">
+              <h3>Switch from Paychex to iSolved</h3>
+              <p>Move off Paychex onto one connected platform, managed by BEG.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-gusto-to-isolved" className="card-link reveal">
+              <h3>Switch from Gusto to iSolved</h3>
+              <p>Outgrowing Gusto? See how BEG handles the full transition.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-paylocity-to-isolved" className="card-link reveal">
+              <h3>Switch from Paylocity to iSolved</h3>
+              <p>Leave implementation and support headaches behind with BEG.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* TOOLS & AI */}
+      <section className="section">
+        <div className="container">
+          <div className="head center reveal">
+            <p className="eyebrow">Tools and the AI Advantage</p>
+            <h2>The only HCM platform with a Connector for Claude</h2>
+          </div>
+          <div className="cards">
+            <Link href="/services/hcm-software/ai-connector" className="card-link reveal">
+              <span className="tag">AI</span>
+              <h3>iSolved Connector for Claude</h3>
+              <p>Chatbots answer questions. iSolved completes the task. See what the only live HCM AI connector does.</p>
+            </Link>
+            <Link href="/services/hcm-software/roi-calculator" className="card-link reveal">
+              <span className="tag">Calculator</span>
+              <h3>HCM ROI Calculator</h3>
+              <p>Estimate the admin hours and dollars one connected platform gives back.</p>
             </Link>
           </div>
         </div>

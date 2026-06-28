@@ -5,7 +5,7 @@ import RelatedPosts from '@/components/RelatedPosts';
 export const metadata: Metadata = {
   title: 'Best ADP Alternative | iSolved Has Claude AI. ADP Doesn\'t. | BEG',
   description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including iSolved, managed by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/alternatives-to-adp' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/alternatives-to-adp' },
   openGraph: {
     title: 'Best ADP Alternative | iSolved Has Claude AI. ADP Doesn\'t. | BEG',
     description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including iSolved, managed by BEG.',

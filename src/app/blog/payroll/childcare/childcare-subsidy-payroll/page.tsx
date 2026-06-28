@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Childcare Subsidy and Payroll: Managing Mixed-Funding Compliance | BEG',
   description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition — documentation, audit trails, and cost allocation requirements.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll' },
   openGraph: {
     title: 'Childcare Subsidy and Payroll: Managing Mixed-Funding Compliance | BEG',
     description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition — documentati...',

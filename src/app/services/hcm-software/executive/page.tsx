@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Exec Teams | Deferred Comp. Claude AI. | BEG',
   description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/executive' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/executive' },
   openGraph: {
     title: 'iSolved HCM for Exec Teams | Deferred Comp. Claude AI. | BEG',
     description: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',

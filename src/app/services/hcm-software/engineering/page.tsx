@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Engineering | Prevailing Wage Built In | BEG',
   description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/engineering' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/engineering' },
   openGraph: {
     title: 'iSolved HCM for Engineering | Prevailing Wage Built In | BEG',
     description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',

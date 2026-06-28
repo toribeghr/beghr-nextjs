@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Auto Dealerships | BEG',
   description: 'Auto dealership payroll outsourcing vs. hiring a payroll manager. Real cost comparison for dealerships with 20–200 employees. Commission reconciliation, F&I chargebacks, and draw accounts covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/managed-payroll-vs-in-house' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House for Auto Dealerships | BEG',
     description: 'Auto dealership payroll outsourcing vs. hiring a payroll manager. Real cost comparison for dealerships with 20–200 employees. Commission reconciliation,...',

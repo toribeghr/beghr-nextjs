@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'How Long Should Attorney Placement Take? 23-35 Days. | BEG's Been 60 Days)',
   description: 'The average contingency attorney search takes 60–120 days. The BEG placement model fills in 23–35 days with an 86% fill rate. Here\'s why the gap exists and what to do about it.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/how-long-should-attorney-placement-take' },,
+  alternates: { canonical: 'https://beghr.com/blog/compare/how-long-should-attorney-placement-take' },
   openGraph: {
     title: 'How Long Should Attorney Placement Take? 23-35 Days. | BEG',
     description: 'The average contingency attorney search takes 60–120 days. The BEG placement model fills in 23–35 days with an 86% fill rate. Here\',

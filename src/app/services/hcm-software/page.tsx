@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
   alternates: {
     canonical: 'https://beghr.com/services/hcm-software',
-  },,
+  },
   openGraph: {
     title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
     description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',

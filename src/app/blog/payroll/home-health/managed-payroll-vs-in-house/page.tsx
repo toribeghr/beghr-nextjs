@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies | BEG',
   description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV compliance, multi-state operations, and FLSA covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/managed-payroll-vs-in-house' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies | BEG',
     description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV complianc...',

@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Trucking Payroll | Driver Pay & DOT Compliance. Handled. | BEG',
   description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/trucking' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/trucking' },
   openGraph: {
     title: 'Trucking Payroll | Driver Pay & DOT Compliance. Handled. | BEG',
     description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',

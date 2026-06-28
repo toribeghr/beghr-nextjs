@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
   description: '2026 payroll compliance guide. Federal and state changes, FLSA thresholds, ACA requirements, multi-state employer obligations, and how managed payroll keeps you current.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/payroll-compliance' },,
+  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/payroll-compliance' },
   openGraph: {
     title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
     description: '2026 payroll compliance guide. Federal and state changes, FLSA thresholds, ACA requirements, multi-state employer obligations, and how managed payroll k...',

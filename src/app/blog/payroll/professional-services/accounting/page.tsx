@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
   description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services/accounting' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services/accounting' },
   openGraph: {
     title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
     description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.',

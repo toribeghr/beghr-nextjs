@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement',
-  },,
+  },
   openGraph: {
     title: 'Job Placement | 23-35 Days. 86% Fill Rate. Guaranteed. | BEG',
     description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',

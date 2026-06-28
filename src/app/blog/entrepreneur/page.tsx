@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Business & Entrepreneur Resources | BEG Blog',
   description: 'BEG network content, entrepreneur tips, and business community updates.',
-  alternates: { canonical: 'https://beghr.com/blog/entrepreneur' },,
+  alternates: { canonical: 'https://beghr.com/blog/entrepreneur' },
   openGraph: {
     title: 'Business & Entrepreneur Resources | BEG Blog',
     description: 'BEG network content, entrepreneur tips, and business community updates.',

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Cannabis Business Payroll Under Section 280E: What You Can and Can\'t Deduct | BEG',
   description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to maximize allowable deductions.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e' },
   openGraph: {
     title: 'Cannabis Business Payroll Under Section 280E: What You Can and Can\',
     description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to ...',

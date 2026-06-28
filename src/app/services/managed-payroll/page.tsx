@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.',
   alternates: {
     canonical: 'https://beghr.com/services/managed-payroll',
-  },,
+  },
   openGraph: {
     title: 'Managed Payroll | We Run It. Not You. $25-$45 PEPM. | BEG',
     description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.',

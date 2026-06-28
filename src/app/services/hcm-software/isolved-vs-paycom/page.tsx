@@ -5,7 +5,7 @@ import RelatedPosts from '@/components/RelatedPosts';
 export const metadata: Metadata = {
   title: 'iSolved vs Paycom | Claude AI Integration. 330% ROI. | BEG',
   description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paycom' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paycom' },
   openGraph: {
     title: 'iSolved vs Paycom | Claude AI Integration. 330% ROI. | BEG',
     description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.',

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Veterinary Practices | BEG',
   description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA compliance, and multi-location expansion covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House for Veterinary Practices | BEG',
     description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...',

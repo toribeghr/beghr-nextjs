@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Cannabis Payroll | 280E Handled. No Compliance Surprises. | BEG',
   description: 'Cannabis payroll fully managed at $25–45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/cannabis' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/cannabis' },
   openGraph: {
     title: 'Cannabis Payroll | 280E Handled. No Compliance Surprises. | BEG',
     description: 'Cannabis payroll fully managed at $25–45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.',

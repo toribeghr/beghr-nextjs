@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Law Firm Paralegal Hiring: Finding the Right Paralegals for Your Practice Area (2026)',
   description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ones.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting' },,
+  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting' },
   openGraph: {
     title: 'Law Firm Paralegal Hiring: Finding the Right Paralegals for Your Practice Area (2026)',
     description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...',

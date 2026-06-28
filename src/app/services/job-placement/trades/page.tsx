@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Skilled Trades Placement | Roles Filled Fast. Guaranteed. | BEG',
   description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/trades' },,
+  alternates: { canonical: 'https://beghr.com/services/job-placement/trades' },
   openGraph: {
     title: 'Skilled Trades Placement | Roles Filled Fast. Guaranteed. | BEG',
     description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',

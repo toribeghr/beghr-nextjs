@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Franchise Minimum Wage Compliance: How to Stay Current Across Multiple Locations | BEG',
   description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what happens when an increase is missed.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance' },
   openGraph: {
     title: 'Franchise Minimum Wage Compliance: How to Stay Current Across Multiple Locations | BEG',
     description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what ...',

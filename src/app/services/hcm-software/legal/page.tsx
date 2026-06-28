@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Law Firms | Claude AI for Legal HR | BEG',
   description: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/legal' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/legal' },
   openGraph: {
     title: 'iSolved HCM for Law Firms | Claude AI for Legal HR | BEG',
     description: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',

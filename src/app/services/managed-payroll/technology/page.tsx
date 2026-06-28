@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG',
   description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/technology' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/technology' },
   openGraph: {
     title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG',
     description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.',

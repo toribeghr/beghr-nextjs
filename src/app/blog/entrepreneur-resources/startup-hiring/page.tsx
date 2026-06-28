@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Startup Hiring 101: Building Your First Team',
   description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.',
-  alternates: { canonical: 'https://beghr.com/blog/entrepreneur-resources/startup-hiring' },,
+  alternates: { canonical: 'https://beghr.com/blog/entrepreneur-resources/startup-hiring' },
   openGraph: {
     title: 'Startup Hiring 101: Building Your First Team',
     description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.',

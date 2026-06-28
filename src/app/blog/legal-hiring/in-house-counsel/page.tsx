@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'In-House Counsel Hiring: When to Bring Legal In-House and How to Find the Right GC (2026)',
   description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/in-house-counsel' },,
+  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/in-house-counsel' },
   openGraph: {
     title: 'In-House Counsel Hiring: When to Bring Legal In-House and How to Find the Right GC (2026)',
     description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.',

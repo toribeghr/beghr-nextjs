@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Church Payroll | Housing Allowance & Clergy Tax. Handled. | BEG',
   description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/church' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/church' },
   openGraph: {
     title: 'Church Payroll | Housing Allowance & Clergy Tax. Handled. | BEG',
     description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',

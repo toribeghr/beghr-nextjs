@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Join 1,500+ DFW entrepreneurs in the Business Executive Group network. Access events, resources, and a community built for business owners.',
   alternates: {
     canonical: 'https://beghr.com/network/membership',
-  },,
+  },
   openGraph: {
     title: 'Membership | Business Executive Group',
     description: 'Join 1,500+ DFW entrepreneurs in the Business Executive Group network. Access events, resources, and a community built for business owners.',

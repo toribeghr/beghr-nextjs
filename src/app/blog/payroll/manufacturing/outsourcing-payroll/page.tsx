@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
   description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll' },
   openGraph: {
     title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
     description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.',

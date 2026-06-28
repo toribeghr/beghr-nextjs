@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG',
   description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/fitness' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/fitness' },
   openGraph: {
     title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG',
     description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.',

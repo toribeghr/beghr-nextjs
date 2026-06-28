@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'HCM Software & HR Tech | BEG Blog',
   description: 'iSolved features, HR automation, and software comparisons for growing businesses.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-software' },,
+  alternates: { canonical: 'https://beghr.com/blog/hcm-software' },
   openGraph: {
     title: 'HCM Software & HR Tech | BEG Blog',
     description: 'iSolved features, HR automation, and software comparisons for growing businesses.',

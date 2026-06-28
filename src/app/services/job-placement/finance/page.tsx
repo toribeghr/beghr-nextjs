@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Finance Placement | Controllers & CPAs. 23-35 Days. | BEG',
   description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/finance' },,
+  alternates: { canonical: 'https://beghr.com/services/job-placement/finance' },
   openGraph: {
     title: 'Finance Placement | Controllers & CPAs. 23-35 Days. | BEG',
     description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.',

@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
   description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/dental' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/dental' },
   openGraph: {
     title: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
     description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG',
   description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/partners/cpa' },,
+  alternates: { canonical: 'https://beghr.com/partners/cpa' },
   openGraph: {
     title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG',
     description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...',

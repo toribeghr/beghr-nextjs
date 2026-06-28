@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Childcare Payroll | High Turnover. Zero Payroll Errors. | BEG',
   description: 'Childcare payroll fully managed at $25–45 PEPM. High-turnover staff, substitute tracking, and state subsidy compliance included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/childcare' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/childcare' },
   openGraph: {
     title: 'Childcare Payroll | High Turnover. Zero Payroll Errors. | BEG',
     description: 'Childcare payroll fully managed at $25–45 PEPM. High-turnover staff, substitute tracking, and state subsidy compliance included.',

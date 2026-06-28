@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Home Health Payroll | FLSA & Caregiver Pay. Handled. | BEG',
   description: 'Home health agency payroll fully managed at $25–45 PEPM. Caregiver classification, live-in aide FLSA rules, and Medicaid wage compliance handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/home-health' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/home-health' },
   openGraph: {
     title: 'Home Health Payroll | FLSA & Caregiver Pay. Handled. | BEG',
     description: 'Home health agency payroll fully managed at $25–45 PEPM. Caregiver classification, live-in aide FLSA rules, and Medicaid wage compliance handled.',

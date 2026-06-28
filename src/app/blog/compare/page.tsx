@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center',
   description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.',
-  alternates: { canonical: 'https://beghr.com/blog/compare' },,
+  alternates: { canonical: 'https://beghr.com/blog/compare' },
   openGraph: {
     title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center',
     description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.',

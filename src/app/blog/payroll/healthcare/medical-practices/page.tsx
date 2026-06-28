@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Medical Practice Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
   description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at $25–$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/medical-practices' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/medical-practices' },
   openGraph: {
     title: 'Medical Practice Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
     description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at $...',

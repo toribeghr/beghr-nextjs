@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG',
   description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/franchise' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/franchise' },
   openGraph: {
     title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG',
     description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',

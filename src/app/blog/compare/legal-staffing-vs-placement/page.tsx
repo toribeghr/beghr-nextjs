@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Legal Staffing vs Placement | The Real Difference | BEG's the Difference? (2026)',
   description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you sign an engagement.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/legal-staffing-vs-placement' },,
+  alternates: { canonical: 'https://beghr.com/blog/compare/legal-staffing-vs-placement' },
   openGraph: {
     title: 'Legal Staffing vs Placement | The Real Difference | BEG',
     description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...',

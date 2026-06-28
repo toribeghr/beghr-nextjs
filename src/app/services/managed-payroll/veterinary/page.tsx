@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Veterinary Payroll | Production Pay & Relief Vets. Handled. | BEG',
   description: 'Veterinary payroll fully managed at $25–45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/veterinary' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/veterinary' },
   openGraph: {
     title: 'Veterinary Payroll | Production Pay & Relief Vets. Handled. | BEG',
     description: 'Veterinary payroll fully managed at $25–45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.',

@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG',
   description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/finance' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/finance' },
   openGraph: {
     title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG',
     description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',

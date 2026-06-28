@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG',
   description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/auto-dealership' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/auto-dealership' },
   openGraph: {
     title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG',
     description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',

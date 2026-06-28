@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'HR Automation in 2026: What iSolved Actually Automates (And What It Does Not)',
   description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connector for Claude explained.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },,
+  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },
   openGraph: {
     title: 'HR Automation in 2026: What iSolved Actually Automates (And What It Does Not)',
     description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...',

@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Staffing Agency Payroll Outsourcing: Managing Commission, Contractors, and Multi-State (2026)',
   description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services-staffing/recruiting' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services-staffing/recruiting' },
   openGraph: {
     title: 'Staffing Agency Payroll Outsourcing: Managing Commission, Contractors, and Multi-State (2026)',
     description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',

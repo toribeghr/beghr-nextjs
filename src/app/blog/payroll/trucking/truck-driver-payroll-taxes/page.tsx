@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Trucking Company Payroll Taxes: What Every Fleet Owner Needs to Know | BEG',
   description: 'A plain-English guide to payroll taxes for trucking companies — FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when drivers cross state lines.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes' },
   openGraph: {
     title: 'Trucking Company Payroll Taxes: What Every Fleet Owner Needs to Know | BEG',
     description: 'A plain-English guide to payroll taxes for trucking companies — FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...',

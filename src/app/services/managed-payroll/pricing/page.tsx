@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll Pricing | $25-$45 PEPM. No Hidden Fees. | BEG',
   description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/pricing' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/pricing' },
   openGraph: {
     title: 'Managed Payroll Pricing | $25-$45 PEPM. No Hidden Fees. | BEG',
     description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.',

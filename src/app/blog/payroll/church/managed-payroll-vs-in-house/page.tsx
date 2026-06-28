@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Churches | BEG',
   description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Social Security opt-out, and dual-tax status covered.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/church/managed-payroll-vs-in-house' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/church/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House for Churches | BEG',
     description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Soci...',

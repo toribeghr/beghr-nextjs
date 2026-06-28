@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Real Estate Payroll Outsourcing: Managing W-2 Staff and 1099 Agents (2026)',
   description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Save $45K–$80K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/real-estate/property-management' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/real-estate/property-management' },
   openGraph: {
     title: 'Real Estate Payroll Outsourcing: Managing W-2 Staff and 1099 Agents (2026)',
     description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...',

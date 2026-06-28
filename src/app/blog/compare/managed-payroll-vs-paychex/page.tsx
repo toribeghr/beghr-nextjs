@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG',
   description: 'Paychex Flex is powerful payroll software — but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–200 employees.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex' },,
+  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex' },
   openGraph: {
     title: 'Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG',
     description: 'Paychex Flex is powerful payroll software — but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...',

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Legal Hiring & Recruiting | BEG Blog',
   description: 'Attorney market trends, law firm hiring strategies, and placement insights.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring' },,
+  alternates: { canonical: 'https://beghr.com/blog/legal-hiring' },
   openGraph: {
     title: 'Legal Hiring & Recruiting | BEG Blog',
     description: 'Attorney market trends, law firm hiring strategies, and placement insights.',

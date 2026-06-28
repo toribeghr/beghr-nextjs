@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Engineering Placement | Roles Filled Fast. Guaranteed. | BEG',
   description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/engineering' },,
+  alternates: { canonical: 'https://beghr.com/services/job-placement/engineering' },
   openGraph: {
     title: 'Engineering Placement | Roles Filled Fast. Guaranteed. | BEG',
     description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',

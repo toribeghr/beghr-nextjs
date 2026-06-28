@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Hotel and Resort Payroll Outsourcing: Managing Tips, Tipped Employees, and Seasonal Staff (2026)',
   description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/hospitality-general/hotels-resorts' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/hospitality-general/hotels-resorts' },
   openGraph: {
     title: 'Hotel and Resort Payroll Outsourcing: Managing Tips, Tipped Employees, and Seasonal Staff (2026)',
     description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.',

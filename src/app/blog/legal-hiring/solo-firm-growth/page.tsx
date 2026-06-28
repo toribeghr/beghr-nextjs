@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Solo Lawyer Expansion: When and How to Hire Your First Associate (2026)',
   description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year one.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/solo-firm-growth' },,
+  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/solo-firm-growth' },
   openGraph: {
     title: 'Solo Lawyer Expansion: When and How to Hire Your First Associate (2026)',
     description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...',

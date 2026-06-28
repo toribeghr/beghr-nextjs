@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Retail Payroll Outsourcing: Managing Variable Hours, Seasonal Staff, and Compliance (2026)',
   description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/retail/staffing-payroll' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/retail/staffing-payroll' },
   openGraph: {
     title: 'Retail Payroll Outsourcing: Managing Variable Hours, Seasonal Staff, and Compliance (2026)',
     description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',

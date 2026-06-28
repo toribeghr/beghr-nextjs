@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Executive Search | C-Suite Placed Fast. 45-Day Guarantee. | BEG',
   description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/executive' },,
+  alternates: { canonical: 'https://beghr.com/services/job-placement/executive' },
   openGraph: {
     title: 'Executive Search | C-Suite Placed Fast. 45-Day Guarantee. | BEG',
     description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.',

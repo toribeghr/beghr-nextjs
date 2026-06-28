@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
   description: 'HR automation guide for growing companies. Payroll, benefits, onboarding, and compliance workflows. Time savings by function, what to automate first, and when to outsource instead.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },,
+  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },
   openGraph: {
     title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
     description: 'HR automation guide for growing companies. Payroll, benefits, onboarding, and compliance workflows. Time savings by function, what to automate first, an...',

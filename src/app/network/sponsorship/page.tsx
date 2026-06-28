@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Sponsor BEG events and reach 1,500+ DFW entrepreneurs. Build brand visibility with decision-makers in the Dallas-Fort Worth business community.',
   alternates: {
     canonical: 'https://beghr.com/network/sponsorship',
-  },,
+  },
   openGraph: {
     title: 'Sponsorship | Business Executive Group',
     description: 'Sponsor BEG events and reach 1,500+ DFW entrepreneurs. Build brand visibility with decision-makers in the Dallas-Fort Worth business community.',

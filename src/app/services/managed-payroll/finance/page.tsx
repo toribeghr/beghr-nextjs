@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG',
   description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/finance' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/finance' },
   openGraph: {
     title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG',
     description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.',

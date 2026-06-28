@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Healthcare Placement | 23-35 Days. 45-Day Guarantee. | BEG',
   description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/healthcare' },,
+  alternates: { canonical: 'https://beghr.com/services/job-placement/healthcare' },
   openGraph: {
     title: 'Healthcare Placement | 23-35 Days. 45-Day Guarantee. | BEG',
     description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.',

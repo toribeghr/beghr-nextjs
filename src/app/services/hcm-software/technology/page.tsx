@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Tech | Claude AI + 330% ROI. | BEG',
   description: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/technology' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/technology' },
   openGraph: {
     title: 'iSolved HCM for Tech | Claude AI + 330% ROI. | BEG',
     description: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',

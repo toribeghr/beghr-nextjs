@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Church Payroll and FICA: Which Employees Are Exempt and Which Are Not | BEG',
   description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a church makes the FICA election.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/church/church-employee-fica-payroll' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/church/church-employee-fica-payroll' },
   openGraph: {
     title: 'Church Payroll and FICA: Which Employees Are Exempt and Which Are Not | BEG',
     description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...',

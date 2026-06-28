@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG',
   description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/marketing-agency' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/marketing-agency' },
   openGraph: {
     title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG',
     description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',

@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Financial Services Payroll Outsourcing: Managing Commission, Deferred Comp, and Compliance (2026)',
   description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save $70K–$120K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/financial-services/wealth-firms' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/financial-services/wealth-firms' },
   openGraph: {
     title: 'Financial Services Payroll Outsourcing: Managing Commission, Deferred Comp, and Compliance (2026)',
     description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save $70K...',

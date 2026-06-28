@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Gusto vs Managed Payroll | Software vs. Done For You | BEG',
   description: 'Gusto handles software. BEG managed payroll handles everything. Side-by-side comparison of cost, features, and what actually gets done for companies with 20–200 employees.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-gusto' },,
+  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-gusto' },
   openGraph: {
     title: 'Gusto vs Managed Payroll | Software vs. Done For You | BEG',
     description: 'Gusto handles software. BEG managed payroll handles everything. Side-by-side comparison of cost, features, and what actually gets done for companies wit...',

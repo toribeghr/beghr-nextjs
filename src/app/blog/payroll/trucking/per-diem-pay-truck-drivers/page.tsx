@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup | BEG',
   description: 'How to structure per diem pay for truck drivers correctly — IRS accountable plan rules, the 2025 rate, how per diem reduces payroll taxes, and common setup mistakes.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers' },
   openGraph: {
     title: 'Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup | BEG',
     description: 'How to structure per diem pay for truck drivers correctly — IRS accountable plan rules, the 2025 rate, how per diem reduces payroll taxes, and common se...',

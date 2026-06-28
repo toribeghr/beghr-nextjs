@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Payroll & HR Compliance | BEG Blog',
   description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll' },
   openGraph: {
     title: 'Payroll & HR Compliance | BEG Blog',
     description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.',

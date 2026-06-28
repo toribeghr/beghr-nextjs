@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',
   alternates: {
     canonical: 'https://beghr.com/services/job-placement/legal',
-  },,
+  },
   openGraph: {
     title: 'Attorney Placement | 23-35 Days. 45-Day Guarantee. | BEG',
     description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',

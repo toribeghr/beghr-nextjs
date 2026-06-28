@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG',
   description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/legal' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/legal' },
   openGraph: {
     title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG',
     description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',

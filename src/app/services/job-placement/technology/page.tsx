@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Tech Job Placement | Filled in 23-35 Days. Guaranteed. | BEG',
   description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Book a discovery call.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/technology' },,
+  alternates: { canonical: 'https://beghr.com/services/job-placement/technology' },
   openGraph: {
     title: 'Tech Job Placement | Filled in 23-35 Days. Guaranteed. | BEG',
     description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Book a discovery call.',

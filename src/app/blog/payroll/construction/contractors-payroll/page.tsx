@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Construction Payroll Outsourcing: Cost vs. Hiring Payroll Manager (2026)',
   description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costing. Save $55K–$95K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/construction/contractors-payroll' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/construction/contractors-payroll' },
   openGraph: {
     title: 'Construction Payroll Outsourcing: Cost vs. Hiring Payroll Manager (2026)',
     description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...',

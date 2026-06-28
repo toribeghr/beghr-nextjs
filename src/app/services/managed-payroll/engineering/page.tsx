@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Engineering Payroll | Certified Payroll Reports. Handled. | BEG',
   description: 'Engineering payroll managed at $25–$45 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/engineering' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/engineering' },
   openGraph: {
     title: 'Engineering Payroll | Certified Payroll Reports. Handled. | BEG',
     description: 'Engineering payroll managed at $25–$45 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.',

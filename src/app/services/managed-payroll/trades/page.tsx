@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG',
   description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/trades' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/trades' },
   openGraph: {
     title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG',
     description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',

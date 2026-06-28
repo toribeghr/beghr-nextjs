@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'E-Commerce Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
   description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/ecommerce/online-stores' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/ecommerce/online-stores' },
   openGraph: {
     title: 'E-Commerce Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
     description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',

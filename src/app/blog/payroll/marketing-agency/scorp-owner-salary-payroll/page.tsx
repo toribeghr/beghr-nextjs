@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know | BEG',
   description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner distributions work alongside payroll.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll' },
   openGraph: {
     title: 'S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know | BEG',
     description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner distri...',

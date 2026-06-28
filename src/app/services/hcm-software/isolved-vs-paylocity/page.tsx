@@ -5,7 +5,7 @@ import RelatedPosts from '@/components/RelatedPosts';
 export const metadata: Metadata = {
   title: 'iSolved vs Paylocity | Claude AI. 330% ROI. No Contest. | BEG',
   description: 'Side-by-side comparison of iSolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paylocity' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paylocity' },
   openGraph: {
     title: 'iSolved vs Paylocity | Claude AI. 330% ROI. No Contest. | BEG',
     description: 'Side-by-side comparison of iSolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.',

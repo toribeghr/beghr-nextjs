@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Healthcare Clinic Payroll Outsourcing: Managing Clinical Staff Pay (2026)',
   description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K annually.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare-general/clinics-payroll' },,
+  alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare-general/clinics-payroll' },
   openGraph: {
     title: 'Healthcare Clinic Payroll Outsourcing: Managing Clinical Staff Pay (2026)',
     description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K an...',

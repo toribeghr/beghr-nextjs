@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'HCM Technology & HR Software Guides | BEG Blog',
   description: 'HCM platform reviews, HR automation guides, and payroll compliance updates for growing businesses. Powered by isolved and managed by BEG.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology' },,
+  alternates: { canonical: 'https://beghr.com/blog/hcm-technology' },
   openGraph: {
     title: 'HCM Technology & HR Software Guides | BEG Blog',
     description: 'HCM platform reviews, HR automation guides, and payroll compliance updates for growing businesses. Powered by isolved and managed by BEG.',

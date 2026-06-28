@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Skilled Trades | Union Payroll Built In | BEG',
   description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/trades' },,
+  alternates: { canonical: 'https://beghr.com/services/hcm-software/trades' },
   openGraph: {
     title: 'iSolved HCM for Skilled Trades | Union Payroll Built In | BEG',
     description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',

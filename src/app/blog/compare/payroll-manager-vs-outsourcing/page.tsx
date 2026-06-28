@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG',
   description: 'What does a payroll manager actually cost vs. managed payroll? Side-by-side breakdown of salary, benefits, errors, and total cost for companies with 20–200 employees.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing' },,
+  alternates: { canonical: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing' },
   openGraph: {
     title: 'Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG',
     description: 'What does a payroll manager actually cost vs. managed payroll? Side-by-side breakdown of salary, benefits, errors, and total cost for companies with 20–...',

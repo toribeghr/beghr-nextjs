@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG',
   description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers for law firms.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone' },,
+  alternates: { canonical: 'https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone' },
   openGraph: {
     title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG',
     description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers f...',

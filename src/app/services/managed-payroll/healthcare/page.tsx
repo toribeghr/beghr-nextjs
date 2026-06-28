@@ -7,7 +7,7 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Healthcare Payroll | Shift Differential. Done Right. | BEG',
   description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/healthcare' },,
+  alternates: { canonical: 'https://beghr.com/services/managed-payroll/healthcare' },
   openGraph: {
     title: 'Healthcare Payroll | Shift Differential. Done Right. | BEG',
     description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',

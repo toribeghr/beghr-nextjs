@@ -1,23 +1,14 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Finance Placement | Controllers & CPAs. 23-35 Days. | BEG',
+  title: 'Finance & Accounting Job Placement | Controller & CPA Hiring | BEG',
   description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.',
   alternates: { canonical: 'https://beghr.com/services/job-placement/finance' },
-  openGraph: {
-    title: 'Finance Placement | Controllers & CPAs. 23-35 Days. | BEG',
-    description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.',
-    url: 'https://beghr.com/services/job-placement/finance',
-    siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
-    type: 'website',
-  },
-  twitter: { card: 'summary_large_image', title: 'Finance Placement | Controllers & CPAs. 23-35 Days. | BEG', description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.', images: ['https://beghr.com/assets/og-image.png'] },
-
+  openGraph: { title: 'Finance & Accounting Job Placement | Controller & CPA Hiring | BEG', description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.', url: 'https://beghr.com/services/job-placement/finance', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Finance & Accounting Job Placement | Controller & CPA Hiring | BEG', description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-finance');
@@ -29,7 +20,7 @@ export default function PlacementFinancePage() {
       imageAlt="Finance team with an open controller or CPA position"
       eyebrow="Job Placement · Finance"
       title="That controller vacancy is closing your books late."
-      description="An empty finance seat means delayed month-end close, stretched audits, and decisions made without clean numbers. We place controllers, CPAs, and senior accounting professionals in 23–35 days at roughly 50% less than contingency firms."
+      description="An empty finance seat means delayed month-end close, stretched audits, and decisions made without clean numbers. We place controllers, CPAs, and senior accounting professionals in 23-35 days at roughly 50% less than contingency firms."
       calendlyLink={CALENDLY}
       heroStats={[{"value":"23-35","label":"Days to fill on average"},{"value":"86%","label":"Fill rate on active searches"},{"value":"~50%","label":"Less than contingency pricing"}]}
     >
@@ -83,8 +74,8 @@ export default function PlacementFinancePage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Discovery call', body: 'We learn your organization, the role, and what a strong candidate actually looks like in your environment. 15 minutes. No fluff.' },
-              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates — professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
-              { num: '03', title: 'Shortlist review', body: 'You receive 3–5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
+              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates - professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
+              { num: '03', title: 'Shortlist review', body: 'You receive 3-5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -101,7 +92,7 @@ export default function PlacementFinancePage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">What You Get</p>
-            <h2>Three things every organization wants — and most placement firms do not offer</h2>
+            <h2>Three things every organization wants - and most placement firms do not offer</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem', marginTop: '2rem' }}>
             {[
@@ -109,7 +100,7 @@ export default function PlacementFinancePage() {
                 badge: 'Bonus 01',
                 title: 'No contingency fees. Ever.',
                 objection: 'Common objection: "We already work with contingency recruiters."',
-                body: 'Milestone-based pricing replaces the standard 20–25% contingency fee. Total cost is roughly 50% less. For a $130,000 controller placement, that difference is $13,000–$19,000 in your pocket versus a contingency arrangement.',
+                body: 'Milestone-based pricing replaces the standard 20-25% contingency fee. Total cost is roughly 50% less. For a $130,000 controller placement, that difference is $13,000-$19,000 in your pocket versus a contingency arrangement.',
               },
               {
                 badge: 'Bonus 02',
@@ -121,7 +112,7 @@ export default function PlacementFinancePage() {
                 badge: 'Bonus 03',
                 title: 'A curated shortlist. Not a resume stack.',
                 objection: 'Common objection: "We have used recruiters before and wasted time on bad candidates."',
-                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3–5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
+                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3-5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -146,7 +137,7 @@ export default function PlacementFinancePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every week that role stays open is a decision you are making.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A controller or senior finance manager at $130,000 per year costs roughly $11,000 per month in salary alone. Every month that role stays open, your team absorbs the work without the headcount — and your close process, audit readiness, and financial reporting accuracy all suffer.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A controller or senior finance manager at $130,000 per year costs roughly $11,000 per month in salary alone. Every month that role stays open, your team absorbs the work without the headcount - and your close process, audit readiness, and financial reporting accuracy all suffer.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Talent Window</p>
@@ -211,44 +202,6 @@ export default function PlacementFinancePage() {
         }}
       />
 
-    
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Job Placement', item: 'https://beghr.com/services/job-placement' },
-              { '@type': 'ListItem', position: 3, name: 'Finance', item: 'https://beghr.com/services/job-placement/finance' },
-            ],
-          }),
-        }}
-      />
-      <RelatedPosts
-        heading="From the blog"
-        posts={[
-          {
-            category: 'Hiring strategy',
-            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
-            excerpt: 'Contingency fees are paid on placement. Retained fees are paid upfront. Milestone fees are paid in stages. Here is what each model actually costs.',
-            href: '/blog/compare/contingency-vs-retained-vs-milestone',
-          },
-          {
-            category: 'Hiring strategy',
-            title: "Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)",
-            excerpt: 'Staffing agencies place temps. Placement services find permanent hires. Here is why the distinction matters for firms building long-term teams.',
-            href: '/blog/compare/legal-staffing-vs-placement',
-          },
-          {
-            category: 'Hiring strategy',
-            title: "How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)",
-            excerpt: 'Searches that stall past 60 days are usually stuck for fixable reasons. How to identify the problem and close the role faster.',
-            href: '/blog/compare/how-long-should-attorney-placement-take',
-          },
-        ]}
-      />
     </ServicePage>
   );
 }

@@ -31,7 +31,7 @@ export default function PlacementLegalPage() {
       imageAlt="Law firm with an open attorney role sitting unfilled"
       eyebrow="Job Placement · Legal"
       title="That attorney search has been open too long."
-      description="Every week that role sits empty, your firm absorbs the cost. Lost billable hours. Overloaded associates. Work going to the wrong desk. We place attorneys and legal professionals in 23-35 days — at roughly 50% less than contingency firms."
+      description="Every week that role sits empty, your firm absorbs the cost. Lost billable hours. Overloaded associates. Work going to the wrong desk. We place attorneys and legal professionals in 23-35 days - at roughly 50% less than contingency firms."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '23-35', label: 'Days to fill on average' },
@@ -40,7 +40,7 @@ export default function PlacementLegalPage() {
       ]}
     >
 
-      {/* PAIN — NEPQ problem amplification */}
+      {/* PAIN - NEPQ problem amplification */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
@@ -62,7 +62,7 @@ export default function PlacementLegalPage() {
               {
                 stat: '30%',
                 label: 'Decline in law school enrollment since 2010',
-                sub: 'The talent pool is shrinking. The best candidates are passive — not on job boards. You have to go find them.',
+                sub: 'The talent pool is shrinking. The best candidates are passive - not on job boards. You have to go find them.',
               },
             ].map(({ stat, label, sub }) => (
               <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -95,7 +95,7 @@ export default function PlacementLegalPage() {
               {
                 num: '02',
                 title: 'Active sourcing',
-                body: 'We go direct to passive candidates — attorneys who are not on job boards, not responding to LinkedIn InMails, but who are quietly open to the right opportunity. This is where most firm searches fail.',
+                body: 'We go direct to passive candidates - attorneys who are not on job boards, not responding to LinkedIn InMails, but who are quietly open to the right opportunity. This is where most firm searches fail.',
               },
               {
                 num: '03',
@@ -113,12 +113,12 @@ export default function PlacementLegalPage() {
         </div>
       </section>
 
-      {/* THREE BONUSES — objection handling */}
+      {/* THREE BONUSES - objection handling */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">What You Get</p>
-            <h2>Three things every firm wants — and most placement firms do not offer</h2>
+            <h2>Three things every firm wants - and most placement firms do not offer</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem', marginTop: '2rem' }}>
             {[
@@ -126,19 +126,19 @@ export default function PlacementLegalPage() {
                 badge: 'Bonus 01',
                 title: 'No contingency fees. Ever.',
                 objection: 'Common objection: "We already work with contingency recruiters."',
-                body: 'Contingency firms charge 20-25% of first-year salary — typically $40,000-$60,000 per placement. We use milestone-based pricing. You pay for results at defined stages, not a lump sum at the end. The total cost is roughly 50% less. And because our incentives are aligned with your timeline, not with billing volume, we move faster.',
+                body: 'Contingency firms charge 20-25% of first-year salary - typically $40,000-$60,000 per placement. We use milestone-based pricing. You pay for results at defined stages, not a lump sum at the end. The total cost is roughly 50% less. And because our incentives are aligned with your timeline, not with billing volume, we move faster.',
               },
               {
                 badge: 'Bonus 02',
                 title: '45-day replacement guarantee at no charge.',
                 objection: 'Common objection: "What if the placement doesn\'t work out?"',
-                body: 'If the hire does not work out within 45 days, we replace them at no additional cost. Contingency firms typically offer 30-day guarantees at best — and many charge again for replacements. Our guarantee is longer, cleaner, and built into every engagement. You are not starting over. You are using the guarantee.',
+                body: 'If the hire does not work out within 45 days, we replace them at no additional cost. Contingency firms typically offer 30-day guarantees at best - and many charge again for replacements. Our guarantee is longer, cleaner, and built into every engagement. You are not starting over. You are using the guarantee.',
               },
               {
                 badge: 'Bonus 03',
                 title: 'A curated shortlist. Not a resume stack.',
                 objection: 'Common objection: "We\'ve used recruiters before and wasted time on bad candidates."',
-                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated legal search specialist builds a shortlist of 3-5 candidates who have been screened against your specific criteria — practice area, bar admission, culture fit, and compensation range. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
+                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated legal search specialist builds a shortlist of 3-5 candidates who have been screened against your specific criteria - practice area, bar admission, culture fit, and compensation range. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -156,7 +156,7 @@ export default function PlacementLegalPage() {
         </div>
       </section>
 
-      {/* SCARCITY — cost of inaction + talent window */}
+      {/* SCARCITY - cost of inaction + talent window */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="beg-grid-2 reveal">
@@ -166,7 +166,7 @@ export default function PlacementLegalPage() {
                 Every week that role stays open is a decision you are making.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                One unfilled attorney seat billing 40 hours per week at $200 per hour is $8,000 in lost billable capacity — every week. At 12 weeks, that is $96,000 in absorbed cost, not counting the overload on your current team or the work that went unbilled.
+                One unfilled attorney seat billing 40 hours per week at $200 per hour is $8,000 in lost billable capacity - every week. At 12 weeks, that is $96,000 in absorbed cost, not counting the overload on your current team or the work that went unbilled.
               </p>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '0.75rem' }}>
                 A 23-35 day search closes that gap. A 90-day search using traditional methods does not.
@@ -178,7 +178,7 @@ export default function PlacementLegalPage() {
                 The best candidates are only available for a few weeks.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                Strong lateral attorneys are passive. They are not posting resumes or responding to LinkedIn InMails. When they decide they are open to a move, that window is typically 2-4 weeks before they accept an offer — usually from a firm that was already in front of them.
+                Strong lateral attorneys are passive. They are not posting resumes or responding to LinkedIn InMails. When they decide they are open to a move, that window is typically 2-4 weeks before they accept an offer - usually from a firm that was already in front of them.
               </p>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '0.75rem' }}>
                 A slow search process does not find the best candidates. It finds whoever is still available after the market has already moved.
@@ -216,11 +216,11 @@ export default function PlacementLegalPage() {
             </div>
             <div className="faq-item">
               <h3>How is this different from a staffing agency?</h3>
-              <p>We are not a staffing agency. We do not place temporary or contract workers. This is direct placement — milestone-based, with you hiring the candidate directly. Clients pay iSolved directly at defined milestones, not us on commission. We are a placement service, not a temp shop.</p>
+              <p>We are not a staffing agency. We do not place temporary or contract workers. This is direct placement - milestone-based, with you hiring the candidate directly. Clients pay iSolved directly at defined milestones, not us on commission. We are a placement service, not a temp shop.</p>
             </div>
             <div className="faq-item">
               <h3>What size firms do you work with?</h3>
-              <p>Firms with 11 to 200 attorneys are our core market. Smaller than 11 attorneys is typically too lean to support the search process. Above 200 attorneys tends to have in-house recruiting infrastructure that operates differently. If your firm falls outside that range, ask us — there are exceptions.</p>
+              <p>Firms with 11 to 200 attorneys are our core market. Smaller than 11 attorneys is typically too lean to support the search process. Above 200 attorneys tends to have in-house recruiting infrastructure that operates differently. If your firm falls outside that range, ask us - there are exceptions.</p>
             </div>
             <div className="faq-item">
               <h3>How does milestone-based pricing work?</h3>

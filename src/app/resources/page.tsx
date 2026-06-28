@@ -106,6 +106,20 @@ export default function ResourcesPage() {
                 href: '/services/managed-payroll/pricing',
                 cta: 'See Pricing',
               },
+              {
+                tag: 'Interactive Tool',
+                title: 'Payroll Tax Calendar 2026',
+                desc: 'Every federal and state payroll tax deadline for 2026 on one filterable page: 941, 940, W-2, 1099-NEC, ACA, and quarterly state returns. BEG tracks and files all of it.',
+                href: '/resources/payroll-tax-calendar',
+                cta: 'View the Calendar',
+              },
+              {
+                tag: 'Interactive Tool',
+                title: 'State Payroll Compliance Checker',
+                desc: 'Pick a state and see its 2026 minimum wage, paid leave mandate, income tax, payday frequency law, and new hire reporting deadline. All 50 states covered.',
+                href: '/resources/state-compliance-checker',
+                cta: 'Check a State',
+              },
             ].map(({ tag, title, desc, href, cta }) => (
               <div key={href} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.75rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }} className="reveal">
                 <span style={{ display: 'inline-block', background: '#000000', color: '#ECAC60', fontWeight: '700', fontSize: '0.72rem', padding: '0.2rem 0.6rem', borderRadius: '4px', letterSpacing: '0.06em', alignSelf: 'flex-start' }}>{tag}</span>

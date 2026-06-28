@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -560,6 +561,18 @@ export default function ManagedPayrollPage() {
         }}
       />
 
+
+      {/* PAYROLL FEE AUDITOR */}
+      <section className="section" style={{ paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Free Payroll Tool</p>
+            <h2>Think you are overpaying for payroll? Find out in 30 seconds.</h2>
+            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Most providers hide the real cost behind per-run, year-end, and add-on fees. Enter your numbers to see your true cost per employee, what you may be overpaying, and what to get in writing. Free, instant, and nothing leaves your browser.</p>
+          </div>
+        </div>
+      </section>
+      <HiddenFeeAuditor />
     </ServicePage>
   );
 }

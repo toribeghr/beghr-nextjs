@@ -1,5 +1,3 @@
-import React from 'react';
-
 export interface RelatedPost {
   category: string;
   title: string;

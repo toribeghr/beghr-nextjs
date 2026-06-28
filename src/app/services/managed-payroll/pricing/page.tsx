@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Pricing | $25-$45 PEPM. No Hidden Fees. | BEG',
@@ -152,8 +153,8 @@ export default function ManagedPayrollPricingPage() {
                 ].map(([feature, t1, t2], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #eee' }}>
                     <td style={{ padding: '11px 16px', color: '#333', fontWeight: typeof feature === 'string' && feature.includes('iSolved') ? '600' : '400' }}>{feature as string}</td>
-                    <td style={{ padding: '11px 16px', textAlign: 'center', fontSize: '1.1rem' }}>{t1 ? <span style={{ color: '#1a6e1a', fontWeight: 700 }}>✓</span> : <span style={{ color: '#ccc' }}>—</span>}</td>
-                    <td style={{ padding: '11px 16px', textAlign: 'center', fontSize: '1.1rem' }}>{t2 ? <span style={{ color: '#1a6e1a', fontWeight: 700 }}>✓</span> : <span style={{ color: '#ccc' }}>—</span>}</td>
+                    <td style={{ padding: '11px 16px', textAlign: 'center', fontSize: '1.1rem' }}>{t1 ? <span style={{ color: '#1a6e1a', fontWeight: 700 }}>✓</span> : <span style={{ color: '#ccc' }}>-</span>}</td>
+                    <td style={{ padding: '11px 16px', textAlign: 'center', fontSize: '1.1rem' }}>{t2 ? <span style={{ color: '#1a6e1a', fontWeight: 700 }}>✓</span> : <span style={{ color: '#ccc' }}>-</span>}</td>
                   </tr>
                 ))}
               </tbody>
@@ -354,6 +355,17 @@ export default function ManagedPayrollPricingPage() {
           }),
         }}
       />
+      {/* PAYROLL FEE AUDITOR */}
+      <section className="section" style={{ paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Free Payroll Tool</p>
+            <h2>Comparing our pricing to a quote you got? Audit it.</h2>
+            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>We are flat $25 to $45 PEPM, all-inclusive. Run any competitor quote through the auditor to see its real cost per employee and which add-on fees are hiding inside. Free, instant, and nothing leaves your browser.</p>
+          </div>
+        </div>
+      </section>
+      <HiddenFeeAuditor />
     </>
   );
 }

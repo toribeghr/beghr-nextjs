@@ -120,6 +120,34 @@ export default function ResourcesPage() {
                 href: '/resources/state-compliance-checker',
                 cta: 'Check a State',
               },
+              {
+                tag: 'Calculator',
+                title: 'Final Paycheck Calculator by State',
+                desc: 'Pick a state, choose fired or quit, and get the exact deadline to issue a final check plus whether unused PTO must be paid out. All 50 states and DC.',
+                href: '/resources/final-paycheck-calculator',
+                cta: 'Find the Deadline',
+              },
+              {
+                tag: 'Calculator',
+                title: 'FLSA Overtime Pay Calculator',
+                desc: 'Get the correct regular rate of pay including nondiscretionary bonuses and blended multiple pay rates, plus daily-overtime flags for states like California.',
+                href: '/resources/overtime-pay-calculator',
+                cta: 'Calculate Overtime',
+              },
+              {
+                tag: 'Calculator',
+                title: 'True Cost of an Employee Calculator',
+                desc: 'Add base pay, employer taxes, workers comp, benefits, and overhead to see the fully loaded annual and hourly cost of a hire, and the burden multiplier.',
+                href: '/resources/true-cost-of-an-employee-calculator',
+                cta: 'See the True Cost',
+              },
+              {
+                tag: 'Interactive Tool',
+                title: 'Payroll Fee Auditor',
+                desc: 'Enter your monthly bill and the add-on fees you are charged. See your real cost per employee, what you may be overpaying, and what to get in writing before you sign.',
+                href: '/resources/payroll-fee-auditor',
+                cta: 'Audit My Payroll Cost',
+              },
             ].map(({ tag, title, desc, href, cta }) => (
               <div key={href} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.75rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }} className="reveal">
                 <span style={{ display: 'inline-block', background: '#000000', color: '#ECAC60', fontWeight: '700', fontSize: '0.72rem', padding: '0.2rem 0.6rem', borderRadius: '4px', letterSpacing: '0.06em', alignSelf: 'flex-start' }}>{tag}</span>

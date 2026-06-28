@@ -124,6 +124,96 @@ export default function CalculatorsPage() {
                 Score My Payroll
               </Link>
             </div>
+
+            {/* Calculator 3 */}
+            <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '10px', padding: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }} className="reveal">
+              <div>
+                <span style={{ display: 'inline-block', background: '#000000', color: '#ECAC60', fontWeight: '700', fontSize: '0.72rem', padding: '0.2rem 0.6rem', borderRadius: '4px', letterSpacing: '0.06em', marginBottom: '0.75rem' }}>Calculator</span>
+                <h2 style={{ fontSize: '1.2rem', fontWeight: '700', lineHeight: '1.35', marginBottom: '0.75rem' }}>Final Paycheck Calculator by State</h2>
+                <p style={{ fontSize: '0.93rem', color: '#555555', lineHeight: '1.65', marginBottom: '1rem' }}>
+                  Pick a state, choose fired or quit, and get the exact deadline to issue the final check, plus whether unused PTO has to be paid out. All 50 states and DC, reviewed for 2026.
+                </p>
+              </div>
+              <div style={{ background: '#f9f9f9', borderRadius: '8px', padding: '1.25rem', fontSize: '0.88rem', color: '#444444' }}>
+                <strong style={{ display: 'block', marginBottom: '0.6rem', color: '#000000' }}>What this tool shows:</strong>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                  {[
+                    'The exact final-pay deadline by state and termination type',
+                    'Whether accrued PTO must be paid out',
+                    'An estimated PTO payout and total final check',
+                    'The penalty risk if you miss the deadline',
+                  ].map((item) => (
+                    <li key={item} style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start', lineHeight: '1.5' }}>
+                      <span style={{ color: '#ECAC60', fontWeight: '700', flexShrink: 0 }}>&#10003;</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <Link href="/resources/final-paycheck-calculator" className="btn btn--gold" style={{ alignSelf: 'flex-start', fontSize: '0.95rem', padding: '0.65rem 1.5rem' }}>
+                Find the Deadline
+              </Link>
+            </div>
+
+            {/* Calculator 4 */}
+            <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '10px', padding: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }} className="reveal">
+              <div>
+                <span style={{ display: 'inline-block', background: '#000000', color: '#ECAC60', fontWeight: '700', fontSize: '0.72rem', padding: '0.2rem 0.6rem', borderRadius: '4px', letterSpacing: '0.06em', marginBottom: '0.75rem' }}>Calculator</span>
+                <h2 style={{ fontSize: '1.2rem', fontWeight: '700', lineHeight: '1.35', marginBottom: '0.75rem' }}>FLSA Overtime Pay Calculator</h2>
+                <p style={{ fontSize: '0.93rem', color: '#555555', lineHeight: '1.65', marginBottom: '1rem' }}>
+                  Overtime is not just 1.5x the hourly rate. Fold in nondiscretionary bonuses and blended pay rates to get the regular rate right, and see exactly where employers underpay.
+                </p>
+              </div>
+              <div style={{ background: '#f9f9f9', borderRadius: '8px', padding: '1.25rem', fontSize: '0.88rem', color: '#444444' }}>
+                <strong style={{ display: 'block', marginBottom: '0.6rem', color: '#000000' }}>What this tool shows:</strong>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                  {[
+                    'The correct FLSA regular rate of pay',
+                    'Overtime premium and total gross owed for the week',
+                    'Bonus and blended (two-rate) overtime',
+                    'Daily-overtime flags for states like California',
+                  ].map((item) => (
+                    <li key={item} style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start', lineHeight: '1.5' }}>
+                      <span style={{ color: '#ECAC60', fontWeight: '700', flexShrink: 0 }}>&#10003;</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <Link href="/resources/overtime-pay-calculator" className="btn btn--gold" style={{ alignSelf: 'flex-start', fontSize: '0.95rem', padding: '0.65rem 1.5rem' }}>
+                Calculate Overtime
+              </Link>
+            </div>
+
+            {/* Calculator 5 */}
+            <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '10px', padding: '2rem', display: 'flex', flexDirection: 'column', gap: '1rem' }} className="reveal">
+              <div>
+                <span style={{ display: 'inline-block', background: '#000000', color: '#ECAC60', fontWeight: '700', fontSize: '0.72rem', padding: '0.2rem 0.6rem', borderRadius: '4px', letterSpacing: '0.06em', marginBottom: '0.75rem' }}>Calculator</span>
+                <h2 style={{ fontSize: '1.2rem', fontWeight: '700', lineHeight: '1.35', marginBottom: '0.75rem' }}>True Cost of an Employee Calculator</h2>
+                <p style={{ fontSize: '0.93rem', color: '#555555', lineHeight: '1.65', marginBottom: '1rem' }}>
+                  Salary is only the start. Add employer taxes, workers comp, benefits, and overhead to see what a hire actually costs per year and per hour, with every assumption adjustable.
+                </p>
+              </div>
+              <div style={{ background: '#f9f9f9', borderRadius: '8px', padding: '1.25rem', fontSize: '0.88rem', color: '#444444' }}>
+                <strong style={{ display: 'block', marginBottom: '0.6rem', color: '#000000' }}>What this tool shows:</strong>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                  {[
+                    'Fully loaded annual and true hourly cost',
+                    'Employer FICA, FUTA, and SUTA taxes',
+                    'Workers comp, benefits, retirement, and overhead',
+                    'Your burden multiplier over base pay',
+                  ].map((item) => (
+                    <li key={item} style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start', lineHeight: '1.5' }}>
+                      <span style={{ color: '#ECAC60', fontWeight: '700', flexShrink: 0 }}>&#10003;</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <Link href="/resources/true-cost-of-an-employee-calculator" className="btn btn--gold" style={{ alignSelf: 'flex-start', fontSize: '0.95rem', padding: '0.65rem 1.5rem' }}>
+                See the True Cost
+              </Link>
+            </div>
           </div>
         </div>
       </section>

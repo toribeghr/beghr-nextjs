@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "noEmit": true, "skipLibCheck": true },
+  "include": [
+    "src/components/RelatedPosts.tsx",
+    "src/components/TrueCostCalculator.tsx",
+    "src/components/OvertimePayCalculator.tsx",
+    "src/components/FinalPaycheckCalculator.tsx",
+    "src/lib/payrollLaws.ts",
+    "src/app/services/hcm-software/page.tsx",
+    "src/app/services/hcm-software/restaurants/page.tsx",
+    "src/app/services/hcm-software/best-hcm-software-for-healthcare/page.tsx",
+    "src/app/services/hcm-software/finance/page.tsx",
+    "src/app/services/hcm-software/technology/page.tsx",
+    "src/app/services/hcm-software/multi-state-payroll-software/page.tsx",
+    "src/app/services/hcm-software/pto-tracking-software/page.tsx",
+    "src/app/services/hcm-software/employee-scheduling-software/page.tsx",
+    "src/app/services/hcm-software/isolved-vs-gusto/page.tsx",
+    "src/app/services/hcm-software/switch-from-adp-to-isolved/page.tsx"
+  ]
+}

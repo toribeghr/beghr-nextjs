@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 import Link from 'next/link';
 import PayrollCalculator from '@/components/PayrollCalculator';
+import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
@@ -191,6 +192,17 @@ export default function PayrollCostCalculatorPage() {
           />
         </div>
       </section>
+      {/* PAYROLL FEE AUDITOR */}
+      <section className="section" style={{ paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Free Payroll Tool</p>
+            <h2>Already have a payroll bill? See what you are really paying.</h2>
+            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>The calculator above estimates BEG. This one audits what you pay now: enter your bill and the add-on fees you are charged to see your real cost per employee and what to get in writing. Free, instant, and nothing leaves your browser.</p>
+          </div>
+        </div>
+      </section>
+      <HiddenFeeAuditor />
     </>
   );
 }

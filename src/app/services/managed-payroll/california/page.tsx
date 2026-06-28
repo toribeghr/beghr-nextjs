@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -110,6 +111,18 @@ export default function PayrollCaliforniaPage() {
           })
         }}
       />
+
+      {/* PAYROLL FEE AUDITOR */}
+      <section className="section" style={{ paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Free Payroll Tool</p>
+            <h2>Paying for payroll in California? See what you are really paying.</h2>
+            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Enter your numbers to see your real cost per employee per month, how much you may be losing to add-on fees, and exactly what to get in writing before you sign. Free, instant, and nothing leaves your browser.</p>
+          </div>
+        </div>
+      </section>
+      <HiddenFeeAuditor />
     </ServicePage>
   );
 }

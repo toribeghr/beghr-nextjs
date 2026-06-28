@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -296,6 +297,18 @@ export default function PayrollAgriculturePage() {
           },
         ]}
       />
+
+      {/* PAYROLL FEE AUDITOR */}
+      <section className="section" style={{ paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Free Payroll Tool</p>
+            <h2>Running Agriculture payroll? See what you are really paying.</h2>
+            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Agriculture employers get nickel-and-dimed on per-run, off-cycle, and year-end fees. Enter your numbers to see your real cost per employee, what you may be overpaying, and what to get in writing. Free, instant, and nothing leaves your browser.</p>
+          </div>
+        </div>
+      </section>
+      <HiddenFeeAuditor />
     </ServicePage>
   );
 }

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
 import RelatedPosts from '@/components/RelatedPosts';
+import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'iSolved HCM for Construction | Certified Payroll | BEG',
@@ -253,6 +254,14 @@ export default function HCMConstructionPage() {
           },
         ]}
       />
+      <section className="section section--soft" style={{ paddingBottom: 0 }}>
+        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
+          <p className="eyebrow">Free Tool</p>
+          <h2 style={{ marginBottom: '0.5rem' }}>Free tool: calculate overtime the right way</h2>
+          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Bonuses and multiple pay rates change the math. Enter the week and see the correct FLSA overtime owed. Free, runs in your browser, no email required.</p>
+        </div>
+      </section>
+      <OvertimePayCalculator />
     </ServicePage>
   );
 }

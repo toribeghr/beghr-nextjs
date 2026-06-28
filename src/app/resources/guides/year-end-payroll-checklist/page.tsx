@@ -156,7 +156,7 @@ export default function YearEndChecklistPage() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2.5rem', marginTop: '2.5rem' }}>
             {checklist.map(({ phase, items }) => (
               <div key={phase} className="reveal">
-                <h3 style={{ fontSize: '1.05rem', fontWeight: '700', color: '#000000', background: '#000000', color: '#ECAC60', padding: '0.6rem 1rem', borderRadius: '6px', marginBottom: '1rem' }}>{phase}</h3>
+                <h3 style={{ fontSize: '1.05rem', fontWeight: '700', background: '#000000', color: '#ECAC60', padding: '0.6rem 1rem', borderRadius: '6px', marginBottom: '1rem' }}>{phase}</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
                   {items.map(({ task, detail }) => (
                     <div key={task} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '6px', padding: '1rem 1.25rem', display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '0.75rem', alignItems: 'flex-start' }}>

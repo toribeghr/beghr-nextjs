@@ -62,13 +62,13 @@ export default function VacantRoleCostCalculatorPage() {
         </div>
       </section>
 
-      <VacantRoleCostCalculator />
-
-      <section className="section section--soft">
+      <section className="section section--soft" style={{ paddingTop: '1.5rem' }}>
         <div className="container" style={{ maxWidth: '640px', display: 'flex', justifyContent: 'center' }}>
           <LeadCaptureForm toolName="Cost of a Vacant Role Calculator" toolDescription="Send me the full cost breakdown for my open role and how BEG fills it in 23-35 days." assetLabel="Email me the breakdown" calendlyLink={calendly} />
         </div>
       </section>
+
+      <VacantRoleCostCalculator />
 
       {/* CTA */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>

@@ -62,13 +62,13 @@ export default function RecruitingFeeCalculatorPage() {
         </div>
       </section>
 
-      <RecruitingFeeCalculator />
-
-      <section className="section section--soft">
+      <section className="section section--soft" style={{ paddingTop: '1.5rem' }}>
         <div className="container" style={{ maxWidth: '640px', display: 'flex', justifyContent: 'center' }}>
           <LeadCaptureForm toolName="Recruiting Fee Calculator" toolDescription="Send me a custom milestone-fee and savings estimate for my specific role." assetLabel="Email me my estimate" calendlyLink={calendly} />
         </div>
       </section>
+
+      <RecruitingFeeCalculator />
 
       {/* CTA */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>

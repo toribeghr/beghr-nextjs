@@ -44,10 +44,15 @@ function methodology() {
 }
 
 function leadForm() {
-  return `          <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Get the printable guide</h2>
-          <p style={{ marginBottom: '1.25rem' }}>Want the full BEG Salary and Hiring Guide as a clean, printable PDF covering every major industry? Grab it here.</p>
-          <LeadCaptureForm toolName={'Salary & Hiring Guide (PDF)'} toolDescription="The full 2026 guide across every major industry, printable and ready to download." assetUrl="/assets/beg-salary-guide-2026.pdf" assetLabel="Get the PDF" calendlyLink={CALENDLY} />
-`;
+  return `      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '760px', textAlign: 'center' }}>
+          <h2 style={{ marginBottom: '0.75rem' }}>Get the printable guide</h2>
+          <p style={{ marginBottom: '0.5rem', color: '#555' }}>Want the full BEG Salary and Hiring Guide as a clean, printable PDF covering every major industry? Grab it here.</p>
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
+            <LeadCaptureForm toolName={'Salary & Hiring Guide (PDF)'} toolDescription="The full 2026 guide across every major industry, printable and ready to download." assetUrl="/assets/beg-salary-guide-2026.pdf" assetLabel="Get the PDF" calendlyLink={CALENDLY} />
+          </div>
+        </div>
+      </section>`;
 }
 
 function ctaBlock() {
@@ -103,6 +108,7 @@ export default function SalaryGuide${cap(ind)}Page() {
           </div>
         </div>
       </section>
+${leadForm()}
       <section className="section">
         <div className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 ${kt(
@@ -110,7 +116,8 @@ ${kt(
     'These are indicative ranges from public data, not offers. Total comp shifts with bonus, commission, and equity.',
     'BEG fills permanent ' + L.toLowerCase() + ' roles in 23-35 days at roughly 50% less than contingency, with a 45-day guarantee.'
   )}
-          <table style={{ width: '100%', borderCollapse: 'collapse', margin: '0 0 1rem', fontSize: '0.97rem' }}>
+          <div style={{ overflowX: 'auto', margin: '0 0 1rem' }}>
+          <table style={{ width: '100%', minWidth: '440px', borderCollapse: 'collapse', fontSize: '0.97rem' }}>
             <thead>
               <tr style={{ background: '#000000', color: '#ECAC60' }}>
                 <th style={{ padding: '0.7rem 0.5rem', textAlign: 'left' }}>Role</th>
@@ -122,9 +129,9 @@ ${kt(
 ${salaryRows(ind, roles)}
             </tbody>
           </table>
+          </div>
           <p style={{ fontSize: '0.85rem', color: '#888' }}>Ranges are national and indicative. Click any role to see how we place it.</p>
 ${methodology()}
-${leadForm()}
 ${ctaBlock()}
           <p style={{ marginTop: '2rem' }}>See the full <Link href="/resources/salary-guide" style={{ color: '#000000', fontWeight: 600 }}>BEG Salary and Hiring Guide</Link> or our <Link href="/services/job-placement/${ind}" style={{ color: '#000000', fontWeight: 600 }}>${L.toLowerCase()} placement service</Link>.</p>
         </div>
@@ -179,6 +186,7 @@ export default function SalaryGuideHubPage() {
           </div>
         </div>
       </section>
+${leadForm()}
       <section className="section">
         <div className="container" style={{ maxWidth: '900px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 ${kt(
@@ -190,7 +198,6 @@ ${kt(
 ${cards}
           </div>
 ${methodology()}
-${leadForm()}
 ${ctaBlock()}
         </div>
       </section>

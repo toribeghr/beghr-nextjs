@@ -3,24 +3,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Franchise Minimum Wage Compliance | Stay Current. | BEG',
-  description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what.',
+  description: 'How franchise operators manage minimum wage compliance when rates differ by state and city -- automatic update systems, notification timelines, and what.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance' },
   openGraph: {
     title: 'Franchise Minimum Wage Compliance | Stay Current. | BEG',
-    description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what ...',
+    description: 'How franchise operators manage minimum wage compliance when rates differ by state and city -- automatic update systems, notification timelines, and what ...',
     url: 'https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Minimum Wage Compliance | Stay Current. | BEG', description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what ...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Minimum Wage Compliance | Stay Current. | BEG', description: 'How franchise operators manage minimum wage compliance when rates differ by state and city -- automatic update systems, notification timelines, and what ...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Is a franchise franchisee responsible for minimum wage compliance or is it the franchisor?',
-    a: 'The franchisee is responsible. The franchisee is the employer of record and is solely responsible for compliance with federal, state, and local wage and hour laws at their locations. The franchisor typically provides operational guidance but does not manage payroll compliance for individual franchisees. If a franchisee pays below the applicable minimum wage, the franchisee — not the franchisor — is liable for back wages, penalties, and interest.',
+    a: 'The franchisee is responsible. The franchisee is the employer of record and is solely responsible for compliance with federal, state, and local wage and hour laws at their locations. The franchisor typically provides operational guidance but does not manage payroll compliance for individual franchisees. If a franchisee pays below the applicable minimum wage, the franchisee -- not the franchisor -- is liable for back wages, penalties, and interest.',
   },
   {
     q: 'How often do state and local minimum wages change?',
@@ -28,17 +28,18 @@ const faqs = [
   },
   {
     q: 'What is the penalty for paying below minimum wage?',
-    a: 'Under the FLSA, employees can recover back wages for up to two years (three years if the violation is willful), plus an equal amount in liquidated damages. State law often provides additional remedies — some states allow treble damages on unpaid wages. Class action exposure exists when the same payroll system under-pays multiple employees at the same rate. In practice, a missed minimum wage increase that affects 10 employees for six months can generate a six-figure wage claim.',
+    a: 'Under the FLSA, employees can recover back wages for up to two years (three years if the violation is willful), plus an equal amount in liquidated damages. State law often provides additional remedies -- some states allow treble damages on unpaid wages. Class action exposure exists when the same payroll system under-pays multiple employees at the same rate. In practice, a missed minimum wage increase that affects 10 employees for six months can generate a six-figure wage claim.',
   },
   {
     q: 'Can the franchisor\'s payroll system be required to update minimum wages automatically?',
-    a: 'Most franchise brands encourage or require franchisees to use approved vendor payroll platforms. Not all of those platforms automatically update minimum wage configurations — some require a manual update to the wage setup. Regardless of what the platform does automatically, the franchisee is responsible for confirming that minimum wages are set correctly at each location. A managed payroll provider who monitors and updates minimum wages proactively is the most reliable safeguard for multi-location operators.',
+    a: 'Most franchise brands encourage or require franchisees to use approved vendor payroll platforms. Not all of those platforms automatically update minimum wage configurations -- some require a manual update to the wage setup. Regardless of what the platform does automatically, the franchisee is responsible for confirming that minimum wages are set correctly at each location. A managed payroll provider who monitors and updates minimum wages proactively is the most reliable safeguard for multi-location operators.',
   },
 ];
 
 export default function FranchiseMinimumWagePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Franchise Minimum Wage Compliance | Stay Current. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -56,7 +57,7 @@ export default function FranchiseMinimumWagePage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          Minimum wage compliance is not a one-time setup. It is an ongoing operational requirement. For franchise operators with a single location in a stable-minimum-wage state, staying current is straightforward. For multi-location operators across multiple states — or in states and cities with frequent inflation-indexed increases — it requires either a proactive monitoring system or a payroll partner who does that monitoring for you.
+          Minimum wage compliance is not a one-time setup. It is an ongoing operational requirement. For franchise operators with a single location in a stable-minimum-wage state, staying current is straightforward. For multi-location operators across multiple states -- or in states and cities with frequent inflation-indexed increases -- it requires either a proactive monitoring system or a payroll partner who does that monitoring for you.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The Minimum Wage Landscape for Franchises</h2>
@@ -65,7 +66,7 @@ export default function FranchiseMinimumWagePage() {
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '2rem' }}>
           {[
-            'Federal: $7.25/hour (unchanged since 2009 — typically overridden by state law in most markets)',
+            'Federal: $7.25/hour (unchanged since 2009 -- typically overridden by state law in most markets)',
             'State: ranges from $7.25 (states with no separate law) to $17.00+ (California, Washington, etc.)',
             'City or county: some cities set rates above state minimums (Seattle, Denver, Chicago, NYC)',
             'Industry-specific: California fast food sector rate (AB 1228) is separate from the general state rate',
@@ -92,13 +93,13 @@ export default function FranchiseMinimumWagePage() {
             </thead>
             <tbody>
               {[
-                ['California', 'Annual — indexed to CPI', 'Industry-specific rates (fast food, healthcare) add complexity'],
-                ['Colorado', 'Annual — indexed to CPI', 'Local municipalities may exceed state rate'],
-                ['Washington', 'Annual — indexed to CPI', 'Cities like Seattle have significantly higher rates'],
-                ['Oregon', 'Tiered — Portland Metro, Standard, Nonurban', 'Three rates within one state'],
+                ['California', 'Annual -- indexed to CPI', 'Industry-specific rates (fast food, healthcare) add complexity'],
+                ['Colorado', 'Annual -- indexed to CPI', 'Local municipalities may exceed state rate'],
+                ['Washington', 'Annual -- indexed to CPI', 'Cities like Seattle have significantly higher rates'],
+                ['Oregon', 'Tiered -- Portland Metro, Standard, Nonurban', 'Three rates within one state'],
                 ['Illinois', 'Annual scheduled increases through 2025', 'Chicago sets separate higher rate'],
                 ['New York', 'Different rates by region (NYC, Long Island, upstate)', 'Three effective rates within one state'],
-                ['Florida', 'Annual — indexed to CPI via Amendment 2', 'Scheduled increases toward $15, then indexed'],
+                ['Florida', 'Annual -- indexed to CPI via Amendment 2', 'Scheduled increases toward $15, then indexed'],
               ].map(([state, pattern, note], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '10px 14px', fontWeight: 600 }}>{state}</td>
@@ -140,9 +141,9 @@ export default function FranchiseMinimumWagePage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/franchise">Managed Payroll for Franchise Owners</Link> — full service details</li>
-            <li><Link href="/blog/payroll/franchise/franchise-multi-location-payroll">Multi-Location Payroll for Franchise Operators</Link> — cost center guide</li>
-            <li><Link href="/blog/payroll/franchise/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Franchise Operators</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/franchise">Managed Payroll for Franchise Owners</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/franchise/franchise-multi-location-payroll">Multi-Location Payroll for Franchise Operators</Link> -- cost center guide</li>
+            <li><Link href="/blog/payroll/franchise/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Franchise Operators</Link> -- cost comparison</li>
           </ul>
         </div>
 

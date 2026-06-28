@@ -18,23 +18,23 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "How do CBA wage schedules work in manufacturing and how often do they change?",
-    answer: "Collective bargaining agreements in manufacturing typically run for 3 to 5 years, with negotiated wage increases scheduled at specific dates during the contract term. A typical CBA might set a $22/hour rate for the first year, with a 3% increase in year two and another 2.5% increase in year three. The CBA also specifies job classifications with different wage rates — a first-class machinist earns more than a material handler. Wage increases are automatic on the scheduled dates under the CBA; missing them is a contract violation. We configure each classification's wage schedule and apply increases on the effective date automatically.",
+    answer: "Collective bargaining agreements in manufacturing typically run for 3 to 5 years, with negotiated wage increases scheduled at specific dates during the contract term. A typical CBA might set a $22/hour rate for the first year, with a 3% increase in year two and another 2.5% increase in year three. The CBA also specifies job classifications with different wage rates -- a first-class machinist earns more than a material handler. Wage increases are automatic on the scheduled dates under the CBA; missing them is a contract violation. We configure each classification's wage schedule and apply increases on the effective date automatically.",
   },
   {
     question: "What union fringe benefits must be remitted in manufacturing and how often?",
-    answer: "Manufacturing CBAs typically require contributions to health and welfare funds, pension or 401(k) funds, and training and apprenticeship funds on a per-hour-worked basis. Contribution rates vary by fund and by CBA. Remittance frequency is set in the agreement — typically monthly, sometimes within 10 days of each payroll. Late remittances trigger liquidated damages clauses in most CBA fringe fund agreements, often 20% of the amount due. We calculate fringe obligations per employee per pay period, prepare remittance reports for each fund, and alert you before remittance deadlines.",
+    answer: "Manufacturing CBAs typically require contributions to health and welfare funds, pension or 401(k) funds, and training and apprenticeship funds on a per-hour-worked basis. Contribution rates vary by fund and by CBA. Remittance frequency is set in the agreement -- typically monthly, sometimes within 10 days of each payroll. Late remittances trigger liquidated damages clauses in most CBA fringe fund agreements, often 20% of the amount due. We calculate fringe obligations per employee per pay period, prepare remittance reports for each fund, and alert you before remittance deadlines.",
   },
   {
     question: "Can a union employee's wages be garnished or have deductions taken?",
-    answer: "Legally required deductions — federal and state income tax withholding, FICA, court-ordered garnishments, and child support orders — apply to union employees the same as any other employee. The CBA may also authorize dues checkoff: with written authorization from the employee, the employer deducts union dues from each paycheck and remits them to the union. Dues checkoff is one of the most administratively important provisions in manufacturing CBAs — it is frequently audited by the union's financial officer. We configure authorized deductions per employee and remit union dues to the correct local on schedule.",
+    answer: "Legally required deductions -- federal and state income tax withholding, FICA, court-ordered garnishments, and child support orders -- apply to union employees the same as any other employee. The CBA may also authorize dues checkoff: with written authorization from the employee, the employer deducts union dues from each paycheck and remits them to the union. Dues checkoff is one of the most administratively important provisions in manufacturing CBAs -- it is frequently audited by the union's financial officer. We configure authorized deductions per employee and remit union dues to the correct local on schedule.",
   },
   {
     question: "What payroll records do we need to maintain for potential grievance proceedings?",
-    answer: "Grievance proceedings under a CBA often involve disputed pay calculations — an employee claims they were underpaid for overtime, were not given the correct classification rate, or were improperly assigned to a lower-paid job. Defending these grievances requires payroll records that show exact hours worked by day and shift, the classification assigned for each work period, the wage rate applied, all deductions, and all fringe contributions. We maintain detailed per-period payroll records and produce clean audit reports when grievances are filed.",
+    answer: "Grievance proceedings under a CBA often involve disputed pay calculations -- an employee claims they were underpaid for overtime, were not given the correct classification rate, or were improperly assigned to a lower-paid job. Defending these grievances requires payroll records that show exact hours worked by day and shift, the classification assigned for each work period, the wage rate applied, all deductions, and all fringe contributions. We maintain detailed per-period payroll records and produce clean audit reports when grievances are filed.",
   },
   {
     question: "What happens if we overpay an employee under the CBA by mistake?",
-    answer: "CBA overpayments are more complicated than overpayments in a non-union environment because the agreement may govern how and whether overpayments can be recovered. Some CBAs prohibit automatic paycheck deductions to recover overpayments; others require the union's consent before recovery. State wage payment laws may also restrict unilateral deductions to correct overpayments. Overpayment recovery should involve HR, the union, and potentially legal counsel before any deduction is made. We flag overpayments when we identify them and document the situation — recovery is a decision that requires human judgment.",
+    answer: "CBA overpayments are more complicated than overpayments in a non-union environment because the agreement may govern how and whether overpayments can be recovered. Some CBAs prohibit automatic paycheck deductions to recover overpayments; others require the union's consent before recovery. State wage payment laws may also restrict unilateral deductions to correct overpayments. Overpayment recovery should involve HR, the union, and potentially legal counsel before any deduction is made. We flag overpayments when we identify them and document the situation -- recovery is a decision that requires human judgment.",
   },
   {
     question: "What does BEG charge for union manufacturing payroll?",
@@ -45,6 +45,7 @@ const faqs = [
 export default function UnionManufacturingPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,12 +64,12 @@ export default function UnionManufacturingPayrollPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Union manufacturing payroll layers collective bargaining agreement obligations on top of standard payroll compliance. Every wage rate, every fringe contribution, every overtime calculation, and every deduction must align with the CBA. Diverging from the CBA — even by a small amount, even inadvertently — creates grievance exposure and potential arbitration costs that dwarf the original payroll error. The payroll function in a union plant is not just compliance; it is contract performance.
+          Union manufacturing payroll layers collective bargaining agreement obligations on top of standard payroll compliance. Every wage rate, every fringe contribution, every overtime calculation, and every deduction must align with the CBA. Diverging from the CBA -- even by a small amount, even inadvertently -- creates grievance exposure and potential arbitration costs that dwarf the original payroll error. The payroll function in a union plant is not just compliance; it is contract performance.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>CBA Wage Classification Structure in Manufacturing</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Manufacturing CBAs establish wage rates by job classification rather than by individual. Every employee is assigned a classification — machinist, welder, material handler, assembler — and earns the rate for that classification. When an employee moves to a different classification temporarily or permanently, the CBA governs which rate applies and for how long. Some agreements require a higher rate if an employee is temporarily assigned above their classification; others have a "temporary upgrade" provision that kicks in after a certain number of hours.
+          Manufacturing CBAs establish wage rates by job classification rather than by individual. Every employee is assigned a classification -- machinist, welder, material handler, assembler -- and earns the rate for that classification. When an employee moves to a different classification temporarily or permanently, the CBA governs which rate applies and for how long. Some agreements require a higher rate if an employee is temporarily assigned above their classification; others have a "temporary upgrade" provision that kicks in after a certain number of hours.
         </p>
         <div style={{ overflowX: "auto", marginBottom: "2.5rem" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.9rem" }}>
@@ -100,7 +101,7 @@ export default function UnionManufacturingPayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Fringe Benefit Fund Remittances: The Compliance Clock</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Union benefit fund administrators operate on strict remittance schedules. A CBA that requires contributions within 10 days of the payroll date means that if you process payroll on the 15th, remittances are due to the fund by the 25th. Missing that deadline triggers liquidated damages — typically 20% of the late amount — plus interest. Fund administrators run periodic audits comparing payroll records to remittance reports. Discrepancies result in assessments for underpaid contributions.
+          Union benefit fund administrators operate on strict remittance schedules. A CBA that requires contributions within 10 days of the payroll date means that if you process payroll on the 15th, remittances are due to the fund by the 25th. Missing that deadline triggers liquidated damages -- typically 20% of the late amount -- plus interest. Fund administrators run periodic audits comparing payroll records to remittance reports. Discrepancies result in assessments for underpaid contributions.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           The <a href="https://www.dol.gov/agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/reporting-and-filing" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>DOL Employee Benefits Security Administration</a> oversees multi-employer benefit plans and publishes compliance resources for contributing employers. We calculate contributions per fund per employee each pay period and generate remittance reports ready for submission.
@@ -108,7 +109,7 @@ export default function UnionManufacturingPayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Overtime Under the CBA vs. FLSA</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          The FLSA sets overtime minimums; CBAs can require more. Many manufacturing agreements require time-and-a-half after 8 hours in a day, after 40 hours in a week, and double-time for Sunday work or holidays — even in states where only weekly overtime is mandated by law. The CBA always governs when it provides greater compensation than the legal minimum. We configure overtime rules per the CBA terms, not just the federal or state floor, and apply them to every pay period automatically.
+          The FLSA sets overtime minimums; CBAs can require more. Many manufacturing agreements require time-and-a-half after 8 hours in a day, after 40 hours in a week, and double-time for Sunday work or holidays -- even in states where only weekly overtime is mandated by law. The CBA always governs when it provides greater compensation than the legal minimum. We configure overtime rules per the CBA terms, not just the federal or state floor, and apply them to every pay period automatically.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           See <a href="/services/managed-payroll" style={{ color: "#ECAC60" }}>BEG's managed payroll service</a> for full details on how CBA configurations are built and maintained.

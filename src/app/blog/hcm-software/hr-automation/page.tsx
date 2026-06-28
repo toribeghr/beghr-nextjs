@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
-  description: 'What HR automation actually looks like in 2026. How iSolved automates payroll, onboarding, compliance, and ACA tracking — plus the Connector for Claude.',
+  description: 'What HR automation actually looks like in 2026. How iSolved automates payroll, onboarding, compliance, and ACA tracking -- plus the Connector for Claude.',
   alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },
   openGraph: {
     title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Is the isolved Connector for Claude secure with employee data?',
-    answer: 'Yes. The isolved Connector for Claude operates within isolved\'s existing security and permissioning model. Access is scoped to the authenticated user\'s permissions within the isolved platform — the same controls that govern what that user can see and do in the platform directly. Data does not leave isolved\'s environment to train external models. BEG can walk through the technical security model on a discovery call.',
+    answer: 'Yes. The isolved Connector for Claude operates within isolved\'s existing security and permissioning model. Access is scoped to the authenticated user\'s permissions within the isolved platform -- the same controls that govern what that user can see and do in the platform directly. Data does not leave isolved\'s environment to train external models. BEG can walk through the technical security model on a discovery call.',
   },
   {
     question: 'How long does isolved implementation take?',
-    answer: 'Implementation with BEG runs 60-90 days from signed agreement to go-live, depending on company size, number of integrations, and data migration complexity. BEG handles configuration, data migration, training, and go-live support. Implementation is included in the engagement — no separate professional services invoice.',
+    answer: 'Implementation with BEG runs 60-90 days from signed agreement to go-live, depending on company size, number of integrations, and data migration complexity. BEG handles configuration, data migration, training, and go-live support. Implementation is included in the engagement -- no separate professional services invoice.',
   },
   {
     question: 'What needs configuration vs. what works out of the box?',
-    answer: 'Core payroll, time tracking, and PTO accrual rules require configuration to match your company\'s policies. Automated workflows — onboarding task routing, ACA measurement tracking, garnishment processing — are configured once and then run automatically. Year-end W-2 and 1099 production, tax table updates, and state new hire reporting are maintained by isolved automatically and require no ongoing configuration.',
+    answer: 'Core payroll, time tracking, and PTO accrual rules require configuration to match your company\'s policies. Automated workflows -- onboarding task routing, ACA measurement tracking, garnishment processing -- are configured once and then run automatically. Year-end W-2 and 1099 production, tax table updates, and state new hire reporting are maintained by isolved automatically and require no ongoing configuration.',
   },
   {
     question: 'How does isolved compare to Workday for automation depth?',
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'How much training is required for the HR team?',
-    answer: 'BEG includes training in the implementation. HR administrators typically need two to four hours of structured training for core platform use. The isolved Connector for Claude requires no training — it responds to natural language. The biggest adjustment is learning which tasks to route through the AI vs. handle directly in the platform. Most HR teams are fully operational within 30 days of go-live.',
+    answer: 'BEG includes training in the implementation. HR administrators typically need two to four hours of structured training for core platform use. The isolved Connector for Claude requires no training -- it responds to natural language. The biggest adjustment is learning which tasks to route through the AI vs. handle directly in the platform. Most HR teams are fully operational within 30 days of go-live.',
   },
   {
     question: 'What does BEG\'s implementation process include?',
@@ -55,7 +55,7 @@ const analyticsVsAutomationRows = [
 const automationListItems = [
   {
     title: 'New hire onboarding workflows',
-    detail: 'I-9 collection, background check trigger, direct deposit setup, benefits election routing, and equipment request forms — all routed automatically based on role and location.',
+    detail: 'I-9 collection, background check trigger, direct deposit setup, benefits election routing, and equipment request forms -- all routed automatically based on role and location.',
   },
   {
     title: 'Payroll processing and tax filing',
@@ -79,7 +79,7 @@ const automationListItems = [
   },
   {
     title: 'Benefits open enrollment routing',
-    detail: 'Sends enrollment reminders, routes elections to carrier feeds, and confirms coverage changes — without HR manually chasing each employee.',
+    detail: 'Sends enrollment reminders, routes elections to carrier feeds, and confirms coverage changes -- without HR manually chasing each employee.',
   },
   {
     title: 'Time and attendance approval routing',
@@ -107,6 +107,7 @@ const bestFitRows = [
 export default function HRAutomationPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation in 2026 | What iSolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/hr-automation"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -129,7 +130,7 @@ export default function HRAutomationPage() {
         </p>
 
         <p>
-          This guide covers what isolved People Cloud actually automates — step by step — versus what it reports on. It also covers the isolved Connector for Claude, which went generally available in June 2026 and represents the only HCM platform with a live Claude AI integration that completes tasks rather than just answering questions.
+          This guide covers what isolved People Cloud actually automates -- step by step -- versus what it reports on. It also covers the isolved Connector for Claude, which went generally available in June 2026 and represents the only HCM platform with a live Claude AI integration that completes tasks rather than just answering questions.
         </p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -184,7 +185,7 @@ export default function HRAutomationPage() {
         </h2>
 
         <p>
-          In June 2026, isolved launched the Connector for Claude — the only HCM platform with a generally available integration into Claude AI that executes HR tasks through natural language. This is not a chatbot that answers questions about policy. It completes work inside the isolved platform based on what the user types in Claude.
+          In June 2026, isolved launched the Connector for Claude -- the only HCM platform with a generally available integration into Claude AI that executes HR tasks through natural language. This is not a chatbot that answers questions about policy. It completes work inside the isolved platform based on what the user types in Claude.
         </p>
 
         <p>
@@ -213,7 +214,7 @@ export default function HRAutomationPage() {
         </div>
 
         <p>
-          For HR teams, this means the platform does the work and the human provides direction. Nothing to learn in terms of navigating the platform — the Connector handles it. This is particularly impactful for HR managers who are generalists, not platform specialists.
+          For HR teams, this means the platform does the work and the human provides direction. Nothing to learn in terms of navigating the platform -- the Connector handles it. This is particularly impactful for HR managers who are generalists, not platform specialists.
         </p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -245,7 +246,7 @@ export default function HRAutomationPage() {
         </p>
 
         <p>
-          <strong>Time savings per HR team member.</strong> HR administrators running automated workflows on isolved reported significant reductions in manual processing time — the equivalent of one to two full-time HR positions across organizations with 200-500 employees.
+          <strong>Time savings per HR team member.</strong> HR administrators running automated workflows on isolved reported significant reductions in manual processing time -- the equivalent of one to two full-time HR positions across organizations with 200-500 employees.
         </p>
 
         <p>
@@ -257,7 +258,7 @@ export default function HRAutomationPage() {
         </p>
 
         <p>
-          <strong>Turnover reduction.</strong> Employee experience improvements — faster onboarding, self-service PTO, mobile access to pay stubs and benefits — correlate with measurable retention improvements that carry their own financial value.
+          <strong>Turnover reduction.</strong> Employee experience improvements -- faster onboarding, self-service PTO, mobile access to pay stubs and benefits -- correlate with measurable retention improvements that carry their own financial value.
         </p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>

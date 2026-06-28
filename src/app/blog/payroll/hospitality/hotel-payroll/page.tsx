@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "We run banquets and events with staff who work irregular hours. How does overtime work?",
-    answer: "Banquet and event staff often work long single-day shifts followed by gaps. Overtime is calculated on a workweek basis under federal law — any hours over 40 in a 7-day period trigger time-and-a-half. Some states (California, Nevada) require daily overtime for shifts over 8 hours. We track hours at the individual employee level across all departments, apply the correct state rule, and calculate overtime accurately regardless of how irregular the schedule is.",
+    answer: "Banquet and event staff often work long single-day shifts followed by gaps. Overtime is calculated on a workweek basis under federal law -- any hours over 40 in a 7-day period trigger time-and-a-half. Some states (California, Nevada) require daily overtime for shifts over 8 hours. We track hours at the individual employee level across all departments, apply the correct state rule, and calculate overtime accurately regardless of how irregular the schedule is.",
   },
   {
     question: "Our hotel has a spa, restaurant, and event space with different pay structures. Can you handle all of them?",
@@ -46,6 +46,7 @@ const faqs = [
 export default function HotelPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,7 +65,7 @@ export default function HotelPayrollPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Hotel payroll is among the most complex in hospitality. You have tipped employees in food and beverage, non-tipped housekeeping and maintenance, salaried managers, and event staff who work irregular schedules. Add multi-state locations, resort fee tip pools, and banquet overtime calculations, and payroll becomes a full-time operational challenge — not just an administrative task.
+          Hotel payroll is among the most complex in hospitality. You have tipped employees in food and beverage, non-tipped housekeeping and maintenance, salaried managers, and event staff who work irregular schedules. Add multi-state locations, resort fee tip pools, and banquet overtime calculations, and payroll becomes a full-time operational challenge -- not just an administrative task.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Why Hotel Payroll Is Different From Other Industries</h2>
@@ -93,12 +94,12 @@ export default function HotelPayrollPage() {
             </thead>
             <tbody>
               {[
-                ["Food & Beverage (servers, bartenders)", "Yes — typically", "Verify state minimum cash wage"],
+                ["Food & Beverage (servers, bartenders)", "Yes -- typically", "Verify state minimum cash wage"],
                 ["Housekeeping", "Depends on state and tip practice", "Resort fee distributions may qualify"],
-                ["Bell staff / valet", "Yes — typically", "Tips must be customary and regular"],
+                ["Bell staff / valet", "Yes -- typically", "Tips must be customary and regular"],
                 ["Front desk", "Rarely", "Tips are incidental, not customary"],
                 ["Maintenance / engineering", "No", "Non-tipped occupation"],
-                ["Banquet staff", "Yes — typically", "Track per-event gratuity distributions"],
+                ["Banquet staff", "Yes -- typically", "Track per-event gratuity distributions"],
               ].map(([dept, eligible, notes], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? "#f9f9f9" : "#fff" }}>
                   <td style={{ padding: "10px 14px", borderBottom: "1px solid #eee" }}>{dept}</td>
@@ -175,7 +176,7 @@ export default function HotelPayrollPage() {
           <li>ACA tracking for hotels with 50+ full-time-equivalent employees</li>
           <li>Year-end W-2 production across all states and departments</li>
           <li>Compliance updates when state minimum wages change</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

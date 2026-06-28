@@ -19,19 +19,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How does outsourced payroll handle advisor commission and draw processing?',
-    answer: 'A managed payroll provider processes variable compensation — commission, draw against commission, and true-up payments — on whatever schedule your agreements require. The provider ingests production data from your CRM or commission tracking system, applies the correct calculations, and processes payroll accordingly. The goal is ensuring every advisor W-2 reconciles cleanly to their production statements, which matters both for employee trust and FINRA scrutiny.',
+    answer: 'A managed payroll provider processes variable compensation -- commission, draw against commission, and true-up payments -- on whatever schedule your agreements require. The provider ingests production data from your CRM or commission tracking system, applies the correct calculations, and processes payroll accordingly. The goal is ensuring every advisor W-2 reconciles cleanly to their production statements, which matters both for employee trust and FINRA scrutiny.',
   },
   {
     question: 'What are the real consequences of a 409A violation?',
-    answer: 'Section 409A violations on nonqualified deferred compensation plans are severe. The IRS imposes an additional 20% excise tax on all amounts deferred under the plan (not just the amounts that violated the rules), accelerates income recognition to the year of the violation, and adds interest at the underpayment rate plus 1%. For a plan with $500,000 in deferred compensation, a single violation can create $100,000 in additional tax liability on top of the principal. Most payroll managers are not 409A specialists — this is exactly the kind of risk that disappears when you have a payroll partner with financial services expertise.',
+    answer: 'Section 409A violations on nonqualified deferred compensation plans are severe. The IRS imposes an additional 20% excise tax on all amounts deferred under the plan (not just the amounts that violated the rules), accelerates income recognition to the year of the violation, and adds interest at the underpayment rate plus 1%. For a plan with $500,000 in deferred compensation, a single violation can create $100,000 in additional tax liability on top of the principal. Most payroll managers are not 409A specialists -- this is exactly the kind of risk that disappears when you have a payroll partner with financial services expertise.',
   },
   {
     question: 'What payroll records does FINRA require firms to retain?',
-    answer: 'FINRA Rule 4511 requires member firms to retain books and records for defined periods — generally 3–6 years depending on record type. Payroll records that tie to registered representative compensation must be organized to support regulatory exam requests. An outsourced payroll provider with structured record-keeping and audit trail capabilities makes FINRA exam preparation significantly faster. Disorganized payroll records are a common deficiency finding in FINRA exams of smaller broker-dealers.',
+    answer: 'FINRA Rule 4511 requires member firms to retain books and records for defined periods -- generally 3–6 years depending on record type. Payroll records that tie to registered representative compensation must be organized to support regulatory exam requests. An outsourced payroll provider with structured record-keeping and audit trail capabilities makes FINRA exam preparation significantly faster. Disorganized payroll records are a common deficiency finding in FINRA exams of smaller broker-dealers.',
   },
   {
     question: 'We have advisors who work from home in a different state than our main office. How does payroll handle that?',
-    answer: 'Each advisor working from a state other than your registered office creates payroll tax nexus in that state. Your firm needs to register for withholding and unemployment insurance in each state where a remote advisor is based. A managed payroll provider tracks this by employee location, handles the multi-state registrations, and ensures each advisor gets the correct state withholding applied — including states that require local tax filings like Ohio, Pennsylvania, and Kentucky.',
+    answer: 'Each advisor working from a state other than your registered office creates payroll tax nexus in that state. Your firm needs to register for withholding and unemployment insurance in each state where a remote advisor is based. A managed payroll provider tracks this by employee location, handles the multi-state registrations, and ensures each advisor gets the correct state withholding applied -- including states that require local tax filings like Ohio, Pennsylvania, and Kentucky.',
   },
   {
     question: 'How does outsourced payroll handle year-end bonus timing and tax treatment for financial professionals?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function WealthFirmsPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Wealth Firm Payroll | Commission & Deferred Comp. Handled. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/financial-services/wealth-firms"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -65,9 +66,9 @@ export default function WealthFirmsPayrollPage() {
 
         <p>Payroll at a wealth management firm, RIA, or broker-dealer is not standard payroll. You are managing advisor commissions that change every month, draw-against-commission structures, nonqualified deferred compensation plans with Section 409A implications, and regulatory recordkeeping requirements from both the SEC and FINRA. The HR Manager you hired to handle this has a general payroll certification. They do not have financial services compliance expertise.</p>
 
-        <p>The gap between what general payroll administrators know and what financial services payroll actually requires is where costly errors live — 409A violations that trigger 20% excise taxes, FINRA audit trail gaps that become exam deficiency findings, and multi-state advisor withholding errors that surface during state audits. The question is whether you want to discover those gaps through a regulatory notice or eliminate them through a managed payroll partner who knows this vertical.</p>
+        <p>The gap between what general payroll administrators know and what financial services payroll actually requires is where costly errors live -- 409A violations that trigger 20% excise taxes, FINRA audit trail gaps that become exam deficiency findings, and multi-state advisor withholding errors that surface during state audits. The question is whether you want to discover those gaps through a regulatory notice or eliminate them through a managed payroll partner who knows this vertical.</p>
 
-        <p>This post walks through the true cost of in-house HR payroll management for financial services firms versus outsourcing to a managed provider — and where the specific compliance risks sit that most firms do not see until they are already expensive.</p>
+        <p>This post walks through the true cost of in-house HR payroll management for financial services firms versus outsourcing to a managed provider -- and where the specific compliance risks sit that most firms do not see until they are already expensive.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House HR Manager for Financial Services</h2>
 
@@ -84,8 +85,8 @@ export default function WealthFirmsPayrollPage() {
             <tbody>
               {[
                 ['Base salary (HR Manager, financial services)', '$65,000 – $95,000'],
-                ['Benefits (health, dental, vision, 401k match) — 30% of salary', '$19,500 – $28,500'],
-                ['Payroll taxes (FICA, FUTA, SUTA) — 10% of salary', '$6,500 – $9,500'],
+                ['Benefits (health, dental, vision, 401k match) -- 30% of salary', '$19,500 – $28,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$6,500 – $9,500'],
                 ['Payroll software (commission-capable, multi-state)', '$3,600 – $7,200'],
                 ['Compliance training (409A, FLSA, multi-state)', '$2,000 – $4,000'],
                 ['Hiring cost amortized (recruiter, onboarding, ramp)', '$4,500 – $7,500'],
@@ -108,7 +109,7 @@ export default function WealthFirmsPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for Financial Services Firms</h2>
 
-        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. For financial services firms, that covers commission integration, multi-state advisor payroll, year-end W-2 and 1099 preparation, audit-trail recordkeeping, and HR support — with no add-on fees for complexity.</p>
+        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. For financial services firms, that covers commission integration, multi-state advisor payroll, year-end W-2 and 1099 preparation, audit-trail recordkeeping, and HR support -- with no add-on fees for complexity.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -142,7 +143,7 @@ export default function WealthFirmsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Section 409A Deferred Compensation Errors</p>
-          <p style={{ margin: 0 }}>Nonqualified deferred compensation is governed by IRC Section 409A, which imposes strict rules on when compensation can be deferred, when it can be distributed, and what constitutes a permissible payment trigger. Violations are immediately expensive: the IRS imposes a 20% excise tax on all amounts deferred under the affected plan (not just the violating amounts), accelerates income recognition, and charges interest. Most general payroll managers are not 409A specialists. When a payroll administrator configures deferred comp incorrectly and runs it through payroll, the error can go undetected for years — until a plan audit or IRS exam finds it.</p>
+          <p style={{ margin: 0 }}>Nonqualified deferred compensation is governed by IRC Section 409A, which imposes strict rules on when compensation can be deferred, when it can be distributed, and what constitutes a permissible payment trigger. Violations are immediately expensive: the IRS imposes a 20% excise tax on all amounts deferred under the affected plan (not just the violating amounts), accelerates income recognition, and charges interest. Most general payroll managers are not 409A specialists. When a payroll administrator configures deferred comp incorrectly and runs it through payroll, the error can go undetected for years -- until a plan audit or IRS exam finds it.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
@@ -157,7 +158,7 @@ export default function WealthFirmsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Multi-State Advisor Payroll Complexity</p>
-          <p style={{ margin: 0 }}>Advisors who live in one state, maintain their licenses in another, and serve clients across multiple states create withholding complexity that requires state-by-state analysis. A remote advisor in New Jersey who is registered under your New York broker-dealer may trigger New Jersey withholding obligations. An advisor who moved from Texas to Florida mid-year requires a mid-year withholding change. Getting this wrong means state notices, back withholding, and interest — none of which is visible until the state sends a letter.</p>
+          <p style={{ margin: 0 }}>Advisors who live in one state, maintain their licenses in another, and serve clients across multiple states create withholding complexity that requires state-by-state analysis. A remote advisor in New Jersey who is registered under your New York broker-dealer may trigger New Jersey withholding obligations. An advisor who moved from Texas to Florida mid-year requires a mid-year withholding change. Getting this wrong means state notices, back withholding, and interest -- none of which is visible until the state sends a letter.</p>
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Financial Services Payroll Requires Specialist Knowledge</h2>

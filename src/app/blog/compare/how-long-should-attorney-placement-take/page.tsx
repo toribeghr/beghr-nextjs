@@ -21,6 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function HowLongAttorneyPlacementPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How Long Should Attorney Placement Take? 23-35 Days. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/how-long-should-attorney-placement-take"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -28,7 +29,7 @@ export default function HowLongAttorneyPlacementPage() {
               <p className="eyebrow">Blog · Legal Recruiting · Hiring</p>
               <h1>How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>
-                If your attorney search has been open for 60 days or more, you're not unlucky. You're using a model that's structurally slow. Here's why — and what fills roles in 23–35 days instead.
+                If your attorney search has been open for 60 days or more, you're not unlucky. You're using a model that's structurally slow. Here's why -- and what fills roles in 23–35 days instead.
               </p>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
@@ -92,17 +93,17 @@ export default function HowLongAttorneyPlacementPage() {
 
         <h3 style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>1. The talent pool has shrunk significantly</h3>
         <p>
-          Law school enrollment has declined approximately 30% since 2010. Fewer new attorneys are entering the market each year, which means the pool of available lateral candidates is smaller than it was a decade ago — and it's getting more competitive every year. Active job seekers make up a fraction of qualified attorneys; the best candidates are almost always passive.
+          Law school enrollment has declined approximately 30% since 2010. Fewer new attorneys are entering the market each year, which means the pool of available lateral candidates is smaller than it was a decade ago -- and it's getting more competitive every year. Active job seekers make up a fraction of qualified attorneys; the best candidates are almost always passive.
         </p>
 
         <h3 style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>2. Passive candidates don't respond to job postings</h3>
         <p>
-          An attorney who is happy in their current role — but might consider a move for the right opportunity — will never see your job posting. They're not on Indeed. They're not checking LinkedIn job boards. They're only reachable through direct, targeted outreach. Most job boards and non-dedicated contingency recruiters don't reach this population.
+          An attorney who is happy in their current role -- but might consider a move for the right opportunity -- will never see your job posting. They're not on Indeed. They're not checking LinkedIn job boards. They're only reachable through direct, targeted outreach. Most job boards and non-dedicated contingency recruiters don't reach this population.
         </p>
 
         <h3 style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>3. Most law firm hiring processes are too slow</h3>
         <p>
-          When a passive candidate does get interested, they typically have a short decision window. If the hiring process involves multiple rounds of interviews stretched over weeks, committee deliberations, and slow turnarounds on offers — the candidate has often accepted another opportunity by the time a decision is made.
+          When a passive candidate does get interested, they typically have a short decision window. If the hiring process involves multiple rounds of interviews stretched over weeks, committee deliberations, and slow turnarounds on offers -- the candidate has often accepted another opportunity by the time a decision is made.
         </p>
         <p>
           Speed in the process matters as much as speed in sourcing. The firms that close the best lateral candidates move decisively.
@@ -112,10 +113,10 @@ export default function HowLongAttorneyPlacementPage() {
           What a 30-Day, 60-Day, and 90-Day Open Role Costs Your Firm
         </h2>
         <p>
-          Open attorney roles don't just delay capacity — they cost real money every day they stay open. Here's a quick way to think about it:
+          Open attorney roles don't just delay capacity -- they cost real money every day they stay open. Here's a quick way to think about it:
         </p>
         <p>
-          A billing attorney generating $350,000 in annual revenue produces approximately $29,000 in revenue per month. A role open for 90 days before it's filled costs your firm roughly $87,000 in foregone billables — before accounting for the cost of the search itself.
+          A billing attorney generating $350,000 in annual revenue produces approximately $29,000 in revenue per month. A role open for 90 days before it's filled costs your firm roughly $87,000 in foregone billables -- before accounting for the cost of the search itself.
         </p>
         <p>
           That's the cost of a slow search model. It's not visible in your accounts payable, but it's real.
@@ -137,18 +138,18 @@ export default function HowLongAttorneyPlacementPage() {
           BEG's placement program through iSolved Job Placement Services is built around two things the traditional search model isn't: speed and passive candidate access.
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
-          <li><strong>23–35 day average fill time.</strong> Not because we cut corners — because the sourcing pipeline operates continuously, not reactively. We're reaching passive candidates before you have an opening, not after.</li>
-          <li><strong>86% fill rate.</strong> Contingency search averages 40–60%. The gap comes from candidate quality and commitment — we only present candidates we're confident in.</li>
+          <li><strong>23–35 day average fill time.</strong> Not because we cut corners -- because the sourcing pipeline operates continuously, not reactively. We're reaching passive candidates before you have an opening, not after.</li>
+          <li><strong>86% fill rate.</strong> Contingency search averages 40–60%. The gap comes from candidate quality and commitment -- we only present candidates we're confident in.</li>
           <li><strong>Roughly 50% less than contingency fees.</strong> Not a bait-and-switch. The iSolved platform infrastructure reduces the sourcing overhead that traditional recruiters have to price in.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed attorney leaves within 45 days, we fill the role again at no additional fee.</li>
-          <li><strong>No upfront payment.</strong> Milestone-based — you pay at placement, not before.</li>
+          <li><strong>No upfront payment.</strong> Milestone-based -- you pay at placement, not before.</li>
         </ul>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
           What to Do If Your Search Has Been Open 60+ Days
         </h2>
         <p>
-          If your current attorney search has been open for 60 days or more, here's the honest assessment: the model you're using isn't working for this role. That's not a judgment of the recruiter or your firm — it's a data point.
+          If your current attorney search has been open for 60 days or more, here's the honest assessment: the model you're using isn't working for this role. That's not a judgment of the recruiter or your firm -- it's a data point.
         </p>
         <p>
           At this point, you have a few options:
@@ -165,7 +166,7 @@ export default function HowLongAttorneyPlacementPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Get your open role in front of passive candidates this week</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute discovery call. Tell us about the role, the timeline, and what you've tried. We'll tell you if BEG is the right fit — and what the process looks like if it is.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute discovery call. Tell us about the role, the timeline, and what you've tried. We'll tell you if BEG is the right fit -- and what the process looks like if it is.</p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
             Book a Discovery Call →
@@ -173,7 +174,7 @@ export default function HowLongAttorneyPlacementPage() {
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
-          <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales — Business Executive Group</strong>
+          <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales -- Business Executive Group</strong>
           <p style={{ margin: 0, color: '#444' }}>Anthony works with law firm managing partners and hiring partners to find and place attorneys faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
         </div>
 
@@ -183,7 +184,7 @@ export default function HowLongAttorneyPlacementPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'How Long Should an Attorney Search Take? (And What to Do If It\'s Been 60 Days)',
-        description: 'Attorney search timeline benchmarks by recruiting model — and what changes when you use a milestone-based placement approach with 23–35 day fill times.',
+        description: 'Attorney search timeline benchmarks by recruiting model -- and what changes when you use a milestone-based placement approach with 23–35 day fill times.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
@@ -195,9 +196,9 @@ export default function HowLongAttorneyPlacementPage() {
         '@type': 'FAQPage',
         mainEntity: [
           { '@type': 'Question', name: "How long does attorney placement typically take?", acceptedAnswer: { '@type': 'Answer', text: "The national average for attorney placement through traditional search is 90 to 120 days from brief to accepted offer. BEG completes placements in 23 to 35 days using iSolved Job Placement Services and a passive candidate network that most law firm hiring processes cannot reach." } },
-          { '@type': 'Question', name: "Why does attorney hiring take so long at most firms?", acceptedAnswer: { '@type': 'Answer', text: "Most law firm hiring processes are slow because they rely on job boards where only active candidates apply, require multiple partner rounds, and have no dedicated recruiter keeping the search moving. The best lateral candidates are passive — they are not browsing job boards — and only a recruiter with active relationships can surface them." } },
+          { '@type': 'Question', name: "Why does attorney hiring take so long at most firms?", acceptedAnswer: { '@type': 'Answer', text: "Most law firm hiring processes are slow because they rely on job boards where only active candidates apply, require multiple partner rounds, and have no dedicated recruiter keeping the search moving. The best lateral candidates are passive -- they are not browsing job boards -- and only a recruiter with active relationships can surface them." } },
           { '@type': 'Question', name: "What is a good benchmark for time-to-fill for attorney roles?", acceptedAnswer: { '@type': 'Answer', text: "A well-run attorney search should reach an accepted offer within 30 to 45 days. Anything beyond 60 days represents either a sourcing problem (not enough quality candidates), a process problem (too many approval layers), or both. BEG's 23–35 day average reflects a structured process with passive candidate access." } },
-          { '@type': 'Question', name: "Does a longer search mean a better hire?", acceptedAnswer: { '@type': 'Answer', text: "No. Extended searches typically mean the firm is either not reaching the right candidate pool or the internal approval process is a bottleneck. The quality of the placement depends on the recruiter's access to passive candidates and the depth of the role brief — not how long the search runs." } },
+          { '@type': 'Question', name: "Does a longer search mean a better hire?", acceptedAnswer: { '@type': 'Answer', text: "No. Extended searches typically mean the firm is either not reaching the right candidate pool or the internal approval process is a bottleneck. The quality of the placement depends on the recruiter's access to passive candidates and the depth of the role brief -- not how long the search runs." } },
         ]
       }) }} />
     </article>

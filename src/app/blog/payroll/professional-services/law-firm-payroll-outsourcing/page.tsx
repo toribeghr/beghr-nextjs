@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
   openGraph: {
     title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
-    description: 'Partner draws, IOLTA separation, billing integration, associate salary tiers — handled at $25–$45 PEPM, all-inclusive.',
+    description: 'Partner draws, IOLTA separation, billing integration, associate salary tiers -- handled at $25–$45 PEPM, all-inclusive.',
     type: 'article',
     url: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
   },
@@ -28,7 +28,7 @@ const faqs = [
     answer: 'We integrate with the major legal billing platforms including Clio, MyCase, PracticePanther, and TimeMatters. Hours data from your timekeeping system can be used to confirm billable productivity benchmarks for associate reviews, and billing system data can inform compensation decisions at bonus time. At minimum, we accept a simple CSV export for any system we do not have a native connection to, with no disruption to your billing workflow.',
   },
   {
-    question: 'What about IOLTA and trust account compliance — does payroll processing touch those accounts?',
+    question: 'What about IOLTA and trust account compliance -- does payroll processing touch those accounts?',
     answer: 'No. Payroll processing is funded exclusively from the firm\'s operating account. We never initiate or touch trust account funds. All payroll ACH transactions debit your designated operating account only. We can provide bank instructions that make the segregation of trust vs. operating accounts explicit for your bookkeeper or controller.',
   },
   {
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     question: 'We have associates working remotely in multiple states. How do you handle multi-state withholding?',
-    answer: 'We register and maintain tax accounts in each state where you have employees working. Multi-state withholding is determined by the state where the work is physically performed, not the state where the firm is headquartered. For remote associates, we use work-state data to calculate state income tax withholding correctly, and we apply reciprocity agreements where they exist. This is an area where many firms have exposure — incorrect state withholding for remote staff creates back-filing liability.',
+    answer: 'We register and maintain tax accounts in each state where you have employees working. Multi-state withholding is determined by the state where the work is physically performed, not the state where the firm is headquartered. For remote associates, we use work-state data to calculate state income tax withholding correctly, and we apply reciprocity agreements where they exist. This is an area where many firms have exposure -- incorrect state withholding for remote staff creates back-filing liability.',
   },
   {
     question: 'What does BEG charge for law firm payroll?',
@@ -48,6 +48,7 @@ const faqs = [
 export default function LawFirmPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing"}) }} />
       <section className="hero" style={{ paddingBottom: '40px' }}>
         <div className="container">
           <div className="hero-split">
@@ -66,9 +67,9 @@ export default function LawFirmPayrollPage() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
         <p>Running a law firm means staying focused on billable hours, client relationships, and case outcomes. But somewhere in the firm, someone is spending 10–15 hours a week on payroll processing, tax filings, partner draw coordination, and compliance headaches that have nothing to do with practicing law.</p>
 
-        <p>Law firm payroll is not straightforward. You have W-2 associates on salary tiers, non-equity partners on guaranteed payments, equity partners on capital account distributions, staff on hourly schedules, and potentially attorneys licensed in multiple states working remotely — all running through the same payroll cycle, with different tax treatment applying to each population.</p>
+        <p>Law firm payroll is not straightforward. You have W-2 associates on salary tiers, non-equity partners on guaranteed payments, equity partners on capital account distributions, staff on hourly schedules, and potentially attorneys licensed in multiple states working remotely -- all running through the same payroll cycle, with different tax treatment applying to each population.</p>
 
-        <p>If you are considering hiring a dedicated payroll coordinator or HR manager to handle this in-house, or if you already have someone doing it, this post breaks down the real numbers — and what you give up by keeping payroll internal.</p>
+        <p>If you are considering hiring a dedicated payroll coordinator or HR manager to handle this in-house, or if you already have someone doing it, this post breaks down the real numbers -- and what you give up by keeping payroll internal.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of In-House Law Firm Payroll</h2>
 
@@ -137,11 +138,11 @@ export default function LawFirmPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Law Firms Get Wrong in Payroll</h2>
 
-        <p><strong>Multi-state withholding for remote attorneys is the most common compliance gap.</strong> When an associate works from a state other than the firm's headquarters, withholding must be calculated based on the state where the work is performed — not where the firm is located. Law firms with remote attorneys who have not registered in each work state face back-filing liability and potential penalties when those states audit. As attorney remote work has become standard, state revenue departments have become more aggressive about cross-border employer registration.</p>
+        <p><strong>Multi-state withholding for remote attorneys is the most common compliance gap.</strong> When an associate works from a state other than the firm's headquarters, withholding must be calculated based on the state where the work is performed -- not where the firm is located. Law firms with remote attorneys who have not registered in each work state face back-filing liability and potential penalties when those states audit. As attorney remote work has become standard, state revenue departments have become more aggressive about cross-border employer registration.</p>
 
-        <p><strong>Partner draw timing creates bookkeeping errors that surface at K-1 time.</strong> When partner distributions are processed inconsistently — sometimes through payroll, sometimes as direct transfers, sometimes as reimbursements — the K-1 reconciliation at year-end becomes a problem. Guaranteed payments treated as W-2 income, or distributions that do not reflect actual capital account activity, require significant CPA time to untangle. A consistent payroll process eliminates this.</p>
+        <p><strong>Partner draw timing creates bookkeeping errors that surface at K-1 time.</strong> When partner distributions are processed inconsistently -- sometimes through payroll, sometimes as direct transfers, sometimes as reimbursements -- the K-1 reconciliation at year-end becomes a problem. Guaranteed payments treated as W-2 income, or distributions that do not reflect actual capital account activity, require significant CPA time to untangle. A consistent payroll process eliminates this.</p>
 
-        <p><strong>Lateral hire onboarding payroll errors create early attrition risk.</strong> A lateral attorney who receives an incorrect first paycheck — wrong start-date proration, incorrect benefit deductions, missing a signing bonus installment — is already questioning the firm's operational competence. For high-value laterals, this impression matters. Payroll errors during the first 90 days are more common at firms running manual processes.</p>
+        <p><strong>Lateral hire onboarding payroll errors create early attrition risk.</strong> A lateral attorney who receives an incorrect first paycheck -- wrong start-date proration, incorrect benefit deductions, missing a signing bonus installment -- is already questioning the firm's operational competence. For high-value laterals, this impression matters. Payroll errors during the first 90 days are more common at firms running manual processes.</p>
 
         <p><strong>Bar dues and CLE reimbursements processed incorrectly become taxable income.</strong> Reimbursements under a non-accountable plan are treated as taxable compensation, increasing W-2 income and causing attorney complaints at tax time. Under an accountable plan with proper substantiation, the same reimbursement is non-taxable. Most in-house coordinators process these inconsistently, creating W-2 corrections and attorney frustration.</p>
 
@@ -180,19 +181,19 @@ export default function LawFirmPayrollPage() {
         <p>BEG's managed payroll solution for law firms handles the full payroll lifecycle:</p>
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Weekly, bi-weekly, or semi-monthly processing</strong> — accurate, on-time, for all employee types</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Partner draw coordination</strong> — scheduled or on-demand, with guaranteed payment processing for equity partners</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Multi-state tax compliance</strong> — registration, withholding, and filing in all states where attorneys work</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Reimbursement processing</strong> — bar dues, CLE, client entertainment under accountable plans</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Billing system integration</strong> — connect time data from Clio, MyCase, PracticePanther, and others</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Benefits administration</strong> — health insurance, retirement plan coordination, open enrollment</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Year-end processing</strong> — W-2, 1099-NEC, corrected forms, state reconciliations</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Employee self-service portal</strong> — attorneys and staff access paystubs, W-2s, and benefit elections directly</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Weekly, bi-weekly, or semi-monthly processing</strong> -- accurate, on-time, for all employee types</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Partner draw coordination</strong> -- scheduled or on-demand, with guaranteed payment processing for equity partners</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Multi-state tax compliance</strong> -- registration, withholding, and filing in all states where attorneys work</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Reimbursement processing</strong> -- bar dues, CLE, client entertainment under accountable plans</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Billing system integration</strong> -- connect time data from Clio, MyCase, PracticePanther, and others</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Benefits administration</strong> -- health insurance, retirement plan coordination, open enrollment</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Year-end processing</strong> -- W-2, 1099-NEC, corrected forms, state reconciliations</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Employee self-service portal</strong> -- attorneys and staff access paystubs, W-2s, and benefit elections directly</li>
         </ul>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Law Firm Payroll, Handled at $25–$45 PEPM.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Partner draws, associate salary tiers, multi-state withholding, billing system integration — all-inclusive with no setup fees. Book a 15-minute call to get a cost comparison for your firm size and structure.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Partner draws, associate salary tiers, multi-state withholding, billing system integration -- all-inclusive with no setup fees. Book a 15-minute call to get a cost comparison for your firm size and structure.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
@@ -265,7 +266,7 @@ export default function LawFirmPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
-            description: 'Partner draws, IOLTA separation, billing integration, multi-state withholding — law firm payroll outsourcing at $25–$45 PEPM all-inclusive.',
+            description: 'Partner draws, IOLTA separation, billing integration, multi-state withholding -- law firm payroll outsourcing at $25–$45 PEPM all-inclusive.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

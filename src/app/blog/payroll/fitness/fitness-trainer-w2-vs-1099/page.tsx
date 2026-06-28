@@ -3,17 +3,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG',
-  description: 'How to correctly classify fitness trainers as employees or independent contractors — the IRS factors, state law differences, and what happens if a.',
+  description: 'How to correctly classify fitness trainers as employees or independent contractors -- the IRS factors, state law differences, and what happens if a.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099' },
   openGraph: {
     title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG',
-    description: 'How to correctly classify fitness trainers as employees or independent contractors — the IRS factors, state law differences, and what happens if a studi...',
+    description: 'How to correctly classify fitness trainers as employees or independent contractors -- the IRS factors, state law differences, and what happens if a studi...',
     url: 'https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG', description: 'How to correctly classify fitness trainers as employees or independent contractors — the IRS factors, state law differences, and what happens if a studi...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG', description: 'How to correctly classify fitness trainers as employees or independent contractors -- the IRS factors, state law differences, and what happens if a studi...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: 'Does having a trainer sign an independent contractor agreement make them a 1099?',
-    a: 'No. The IRS does not recognize the label an employer and worker attach to their relationship — it applies its own economic reality and behavioral control tests. A trainer who works a gym-set schedule, teaches the gym\'s branded classes, uses the gym\'s equipment, and is supervised by the gym\'s management is likely an employee regardless of what the contract says.',
+    a: 'No. The IRS does not recognize the label an employer and worker attach to their relationship -- it applies its own economic reality and behavioral control tests. A trainer who works a gym-set schedule, teaches the gym\'s branded classes, uses the gym\'s equipment, and is supervised by the gym\'s management is likely an employee regardless of what the contract says.',
   },
   {
     q: 'What states have stricter tests for contractor classification than the IRS?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function FitnessTrainerClassificationPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function FitnessTrainerClassificationPage() {
               <p className="eyebrow">Payroll · Fitness</p>
               <h1>Fitness Trainer W-2 vs. 1099: IRS Classification Rules for Studios and Gyms</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                Fitness studios and gyms frequently misclassify trainers as independent contractors. The IRS looks at behavioral control, financial control, and the type of relationship — not the paperwork.
+                Fitness studios and gyms frequently misclassify trainers as independent contractors. The IRS looks at behavioral control, financial control, and the type of relationship -- not the paperwork.
               </p>
             </div>
           </div>
@@ -56,12 +57,12 @@ export default function FitnessTrainerClassificationPage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Personal trainers are one of the most commonly misclassified worker categories in the fitness industry. Studios issue 1099s to trainers who work fixed schedules, teach the studio's branded classes, and have no real independence in how they operate — and hope no one looks closely. The IRS does look closely, particularly for businesses in industries with high contractor usage.
+          Personal trainers are one of the most commonly misclassified worker categories in the fitness industry. Studios issue 1099s to trainers who work fixed schedules, teach the studio's branded classes, and have no real independence in how they operate -- and hope no one looks closely. The IRS does look closely, particularly for businesses in industries with high contractor usage.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The IRS Classification Test: Behavioral Control</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
-          The most important IRS factor is whether the business controls how the worker does their job — not just the outcome. For fitness trainers, the behavioral control questions are:
+          The most important IRS factor is whether the business controls how the worker does their job -- not just the outcome. For fitness trainers, the behavioral control questions are:
         </p>
         <div style={{ overflowX: 'auto', marginBottom: '2.5rem' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
@@ -145,8 +146,8 @@ export default function FitnessTrainerClassificationPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/fitness">Managed Payroll for Fitness Studios</Link> — full service details</li>
-            <li><Link href="/blog/payroll/fitness/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Fitness Studios</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/fitness">Managed Payroll for Fitness Studios</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/fitness/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Fitness Studios</Link> -- cost comparison</li>
           </ul>
         </div>
 

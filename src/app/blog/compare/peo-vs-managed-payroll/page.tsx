@@ -22,11 +22,11 @@ export default function PEOVsManagedPayrollPage() {
   const faqs = [
     {
       question: "What is the difference between a PEO and managed payroll?",
-      answer: "The core difference is employment relationship. With a PEO, your employees are technically co-employed by the PEO — the PEO becomes the employer of record and assumes legal responsibility for HR compliance, benefits, and workers' compensation. With managed payroll, your employees remain entirely yours. A managed payroll provider handles the operational work of running payroll without changing who employs your staff or who makes HR decisions."
+      answer: "The core difference is employment relationship. With a PEO, your employees are technically co-employed by the PEO -- the PEO becomes the employer of record and assumes legal responsibility for HR compliance, benefits, and workers' compensation. With managed payroll, your employees remain entirely yours. A managed payroll provider handles the operational work of running payroll without changing who employs your staff or who makes HR decisions."
     },
     {
       question: "Is a PEO more expensive than outsourced payroll?",
-      answer: "Significantly more expensive in most cases. PEOs typically charge 8 to 12 percent of gross payroll. For a company with 50 employees and $3.5 million in annual payroll, that's $280,000 to $420,000 per year. BEG managed payroll for the same company is $15,000 to $21,000 per year — a difference of $260,000 to $400,000 annually. The PEO premium is sometimes justified by access to better group benefits rates, which can offset part of the cost difference for smaller companies."
+      answer: "Significantly more expensive in most cases. PEOs typically charge 8 to 12 percent of gross payroll. For a company with 50 employees and $3.5 million in annual payroll, that's $280,000 to $420,000 per year. BEG managed payroll for the same company is $15,000 to $21,000 per year -- a difference of $260,000 to $400,000 annually. The PEO premium is sometimes justified by access to better group benefits rates, which can offset part of the cost difference for smaller companies."
     },
     {
       question: "What happens to my employees when I leave a PEO?",
@@ -34,11 +34,11 @@ export default function PEOVsManagedPayrollPage() {
     },
     {
       question: "Does a PEO control my employees?",
-      answer: "A PEO does not control day-to-day work assignments, performance decisions, or who you hire and fire. You retain operational control of your workforce. However, the PEO does control significant HR policy decisions — benefits plans, certain compliance policies, and employee handbook requirements must conform to the PEO's standards across their entire co-employed client base. As your company grows and develops more specific culture and compensation needs, these PEO-standardized policies can become a constraint."
+      answer: "A PEO does not control day-to-day work assignments, performance decisions, or who you hire and fire. You retain operational control of your workforce. However, the PEO does control significant HR policy decisions -- benefits plans, certain compliance policies, and employee handbook requirements must conform to the PEO's standards across their entire co-employed client base. As your company grows and develops more specific culture and compensation needs, these PEO-standardized policies can become a constraint."
     },
     {
       question: "Do I need a PEO if I already have managed payroll?",
-      answer: "No — they solve different problems. Managed payroll handles the operational work of processing payroll and maintaining tax compliance. A PEO adds co-employment, group benefits access, and shared HR compliance liability. If your primary need is getting payroll off your team's plate, managed payroll solves that without the cost and complexity of co-employment. If your primary need is access to competitive group health insurance rates you cannot access independently, a PEO may be worth evaluating."
+      answer: "No -- they solve different problems. Managed payroll handles the operational work of processing payroll and maintaining tax compliance. A PEO adds co-employment, group benefits access, and shared HR compliance liability. If your primary need is getting payroll off your team's plate, managed payroll solves that without the cost and complexity of co-employment. If your primary need is access to competitive group health insurance rates you cannot access independently, a PEO may be worth evaluating."
     },
     {
       question: "How does PEO pricing work?",
@@ -46,7 +46,7 @@ export default function PEOVsManagedPayrollPage() {
     },
     {
       question: "Is a PEO worth it for a 30-person company?",
-      answer: "It depends almost entirely on your benefits situation. For a 30-person company that currently has poor or no group health insurance and wants to offer competitive benefits to attract talent, a PEO can be worth the premium — the benefits savings may offset or exceed the PEO markup. For a 30-person company that already has good benefits through a broker or benefits platform, a PEO adds cost without proportional value. In that case, managed payroll delivers the operational benefits at a fraction of the cost."
+      answer: "It depends almost entirely on your benefits situation. For a 30-person company that currently has poor or no group health insurance and wants to offer competitive benefits to attract talent, a PEO can be worth the premium -- the benefits savings may offset or exceed the PEO markup. For a 30-person company that already has good benefits through a broker or benefits platform, a PEO adds cost without proportional value. In that case, managed payroll delivers the operational benefits at a fraction of the cost."
     },
     {
       question: "What is co-employment and what are the risks?",
@@ -56,6 +56,7 @@ export default function PEOVsManagedPayrollPage() {
 
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/peo-vs-managed-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -77,10 +78,10 @@ export default function PEOVsManagedPayrollPage() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
         <p>
-          "PEO" and "managed payroll" get lumped together constantly in HR vendor conversations. They're not the same thing — and choosing the wrong one has consequences that go well beyond cost.
+          "PEO" and "managed payroll" get lumped together constantly in HR vendor conversations. They're not the same thing -- and choosing the wrong one has consequences that go well beyond cost.
         </p>
         <p>
-          Here's the clearest way to explain the difference: with a PEO, your employees are technically employed by the PEO and leased back to you. With managed payroll, your employees are entirely yours — a service provider just handles the payroll processing. That legal distinction has enormous practical implications for control, cost, flexibility, and what happens if you ever want to change providers.
+          Here's the clearest way to explain the difference: with a PEO, your employees are technically employed by the PEO and leased back to you. With managed payroll, your employees are entirely yours -- a service provider just handles the payroll processing. That legal distinction has enormous practical implications for control, cost, flexibility, and what happens if you ever want to change providers.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -98,7 +99,7 @@ export default function PEOVsManagedPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Employment relationship', 'Co-employment — PEO is also employer of record', 'No change — your employees stay yours'],
+                ['Employment relationship', 'Co-employment -- PEO is also employer of record', 'No change -- your employees stay yours'],
                 ['Who processes payroll', 'PEO processes it', 'BEG processes it'],
                 ['Who controls HR policies', 'Shared with PEO, often PEO-driven', 'Entirely you'],
                 ['Benefits access', 'PEO group plan (major advantage for small cos)', 'Stays with your current provider'],
@@ -123,17 +124,17 @@ export default function PEOVsManagedPayrollPage() {
           When a PEO Actually Makes Sense
         </h2>
         <p>
-          PEOs built their business model on one core value proposition: group buying power for benefits. A company with 15 employees cannot negotiate competitive health insurance rates on its own. Through a PEO, those 15 employees join a pool of tens of thousands — and the rates improve dramatically.
+          PEOs built their business model on one core value proposition: group buying power for benefits. A company with 15 employees cannot negotiate competitive health insurance rates on its own. Through a PEO, those 15 employees join a pool of tens of thousands -- and the rates improve dramatically.
         </p>
         <p>
-          If that's the problem you're solving — access to competitive group benefits that you couldn't otherwise afford — a PEO may be the right answer, despite the higher cost and complexity. Justworks, TriNet, and Insperity all serve this market well.
+          If that's the problem you're solving -- access to competitive group benefits that you couldn't otherwise afford -- a PEO may be the right answer, despite the higher cost and complexity. Justworks, TriNet, and Insperity all serve this market well.
         </p>
         <p>
           PEOs make sense when:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li>You have fewer than 30 employees and cannot access competitive group health insurance rates independently</li>
-          <li>You want HR compliance infrastructure — employee handbook, HR policy framework, workplace training — included as part of the service</li>
+          <li>You want HR compliance infrastructure -- employee handbook, HR policy framework, workplace training -- included as part of the service</li>
           <li>You're willing to accept shared employment and PEO policy frameworks in exchange for the benefits access and compliance support</li>
           <li>You're in an industry with high workers' compensation risk where pooling through a PEO meaningfully reduces your rates</li>
         </ul>
@@ -147,14 +148,14 @@ export default function PEOVsManagedPayrollPage() {
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Complex exits.</strong> When you leave a PEO, the transition is significantly more involved than leaving a payroll provider. Employees technically change employer relationships, benefits must be re-issued or transferred, open workers' comp claims require resolution, and state unemployment tax accounts must be re-established under your EIN. A well-managed PEO exit takes 60 to 90 days of careful planning.</li>
           <li><strong>Less control over HR decisions.</strong> PEOs have standard policies that all co-employed workers fall under. Customizing benefits packages, leave policies, or compensation structures outside PEO standards can be difficult or impossible without negotiating specific carve-outs.</li>
-          <li><strong>Cost at scale.</strong> PEO pricing is typically 8 to 12 percent of gross payroll. For a 50-person company with $3.5M in annual payroll, that's $280,000 to $420,000 per year. The cost-benefit calculation shifts dramatically as headcount grows — what made economic sense at 10 employees is prohibitively expensive at 75.</li>
-          <li><strong>Not solving the core problem for many companies.</strong> Companies that are primarily frustrated by the operational burden of running payroll — not by benefits access — often find that a PEO adds cost and complexity without addressing what's actually painful.</li>
+          <li><strong>Cost at scale.</strong> PEO pricing is typically 8 to 12 percent of gross payroll. For a 50-person company with $3.5M in annual payroll, that's $280,000 to $420,000 per year. The cost-benefit calculation shifts dramatically as headcount grows -- what made economic sense at 10 employees is prohibitively expensive at 75.</li>
+          <li><strong>Not solving the core problem for many companies.</strong> Companies that are primarily frustrated by the operational burden of running payroll -- not by benefits access -- often find that a PEO adds cost and complexity without addressing what's actually painful.</li>
           <li><strong>The co-employment label can complicate financing.</strong> Some investors and lenders ask questions when employees are technically employed by a third party. While this is rarely a blocking issue, it is something to be aware of during due diligence processes.</li>
         </ul>
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Evaluating PEO vs. managed payroll for your company?</h3>
-          <p style={{ marginBottom: '1.5rem' }}>We'll help you think through the tradeoffs for your specific situation — headcount, benefits needs, and what you're actually trying to solve. No sales pressure.</p>
+          <p style={{ marginBottom: '1.5rem' }}>We'll help you think through the tradeoffs for your specific situation -- headcount, benefits needs, and what you're actually trying to solve. No sales pressure.</p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
             Book a Free Discovery Call →
@@ -165,7 +166,7 @@ export default function PEOVsManagedPayrollPage() {
           The Cost Gap at Scale
         </h2>
         <p>
-          The cost difference between a PEO and managed payroll becomes significant quickly. The PEO's percentage-of-payroll pricing model means your cost grows automatically as you give raises and hire more expensive employees — you're essentially paying the PEO a portion of every salary increase forever.
+          The cost difference between a PEO and managed payroll becomes significant quickly. The PEO's percentage-of-payroll pricing model means your cost grows automatically as you give raises and hire more expensive employees -- you're essentially paying the PEO a portion of every salary increase forever.
         </p>
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
@@ -201,7 +202,7 @@ export default function PEOVsManagedPayrollPage() {
           The Co-Employment Risk Most Companies Miss
         </h2>
         <p>
-          The most significant risk of a PEO arrangement is not operational — it's what happens if you ever need to change. Companies that sign a PEO agreement at 15 employees often feel trapped at 60 employees when the cost has ballooned but the exit feels too complicated to manage.
+          The most significant risk of a PEO arrangement is not operational -- it's what happens if you ever need to change. Companies that sign a PEO agreement at 15 employees often feel trapped at 60 employees when the cost has ballooned but the exit feels too complicated to manage.
         </p>
         <p>
           Here's what a PEO exit actually involves:
@@ -213,7 +214,7 @@ export default function PEOVsManagedPayrollPage() {
           <li><strong>Employee notification and documentation.</strong> Employees must be formally notified of the employment change. New I-9 documentation may be required in some cases.</li>
         </ul>
         <p>
-          None of this is impossible, but it's a meaningful project — one that managers typically underestimate when they sign the original PEO agreement. With managed payroll, there is no co-employment to unwind. If you cancel, it's a straightforward provider transition.
+          None of this is impossible, but it's a meaningful project -- one that managers typically underestimate when they sign the original PEO agreement. With managed payroll, there is no co-employment to unwind. If you cancel, it's a straightforward provider transition.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -223,13 +224,13 @@ export default function PEOVsManagedPayrollPage() {
           Before deciding between a PEO and managed payroll, answer these three questions honestly:
         </p>
         <p>
-          <strong>1. Is benefits access your primary problem?</strong> If you are currently offering poor health insurance or no benefits — and losing candidates or employees because of it — a PEO's group purchasing power may be worth the premium. If you already have a solid benefits package through a broker, the PEO's core value proposition doesn't apply to you.
+          <strong>1. Is benefits access your primary problem?</strong> If you are currently offering poor health insurance or no benefits -- and losing candidates or employees because of it -- a PEO's group purchasing power may be worth the premium. If you already have a solid benefits package through a broker, the PEO's core value proposition doesn't apply to you.
         </p>
         <p>
           <strong>2. How much operational control do you want?</strong> PEOs require you to operate within their HR policy framework. If you have strong company culture, unique compensation structures, or specific leave policies that don't conform to standard PEO offerings, you will hit friction. Managed payroll leaves your HR policies entirely in your hands.
         </p>
         <p>
-          <strong>3. What is your likely headcount in 3 years?</strong> If you plan to grow from 20 to 75 employees over the next 3 years, model both the PEO cost at 75 employees and the exit cost you will incur when you eventually decide the PEO is too expensive. At $3 to $5M in payroll, the annual PEO premium often exceeds $300,000 — and the exit work adds another 2 to 3 months of internal effort.
+          <strong>3. What is your likely headcount in 3 years?</strong> If you plan to grow from 20 to 75 employees over the next 3 years, model both the PEO cost at 75 employees and the exit cost you will incur when you eventually decide the PEO is too expensive. At $3 to $5M in payroll, the annual PEO premium often exceeds $300,000 -- and the exit work adds another 2 to 3 months of internal effort.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -242,14 +243,14 @@ export default function PEOVsManagedPayrollPage() {
           What BEG does that a PEO also does:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
-          <li>Full payroll processing each pay cycle — we run it, you approve it</li>
+          <li>Full payroll processing each pay cycle -- we run it, you approve it</li>
           <li>Federal, state, and local tax filings and remittances</li>
           <li>Multi-state payroll compliance and registration</li>
           <li>Year-end W-2 and 1099 preparation</li>
           <li>Employee payroll question handling</li>
         </ul>
         <p>
-          What BEG does NOT do — and what only a PEO provides:
+          What BEG does NOT do -- and what only a PEO provides:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li>Group benefits plan access and administration through co-employment</li>
@@ -258,7 +259,7 @@ export default function PEOVsManagedPayrollPage() {
           <li>Employee handbook and HR policy templates provided under PEO framework</li>
         </ul>
         <p>
-          For companies whose problem is operational payroll burden — not benefits access — BEG managed payroll delivers more value at a fraction of the cost, with none of the co-employment complexity.
+          For companies whose problem is operational payroll burden -- not benefits access -- BEG managed payroll delivers more value at a fraction of the cost, with none of the co-employment complexity.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -276,7 +277,7 @@ export default function PEOVsManagedPayrollPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Figure out which model is right for your company</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll walk through your headcount, benefits situation, and what you're actually trying to solve — and give you a straight answer.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll walk through your headcount, benefits situation, and what you're actually trying to solve -- and give you a straight answer.</p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
             Book a Discovery Call →
@@ -284,7 +285,7 @@ export default function PEOVsManagedPayrollPage() {
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
-          <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales — Business Executive Group</strong>
+          <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales -- Business Executive Group</strong>
           <p style={{ margin: 0, color: '#444' }}>Anthony helps growing companies evaluate HR service models and build payroll operations that scale without co-employment complexity or enterprise-level pricing.</p>
         </div>
 
@@ -294,7 +295,7 @@ export default function PEOVsManagedPayrollPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: "PEO vs. Managed Payroll: What's the Difference and Which Do You Need?",
-        description: 'Full comparison of PEO co-employment model vs. BEG managed payroll service — cost, control, benefits, and which is right for your company.',
+        description: 'Full comparison of PEO co-employment model vs. BEG managed payroll service -- cost, control, benefits, and which is right for your company.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },

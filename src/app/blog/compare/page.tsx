@@ -84,7 +84,7 @@ const PAYROLL_COMPARISONS = [
   {
     href: '/blog/compare/payroll-manager-vs-outsourcing',
     title: 'Hiring a Payroll Manager vs. Outsourcing',
-    description: 'What does an in-house payroll manager actually cost — salary, benefits, errors, and replacement — vs. $25–$45 PEPM managed payroll?',
+    description: 'What does an in-house payroll manager actually cost -- salary, benefits, errors, and replacement -- vs. $25–$45 PEPM managed payroll?',
     time: '8 min read',
   },
   {
@@ -96,13 +96,13 @@ const PAYROLL_COMPARISONS = [
   {
     href: '/blog/compare/managed-payroll-vs-adp',
     title: 'ADP vs. Managed Payroll',
-    description: "ADP is powerful — and priced accordingly. Is it still worth it for companies with 20–200 employees, or is there a better fit?",
+    description: "ADP is powerful -- and priced accordingly. Is it still worth it for companies with 20–200 employees, or is there a better fit?",
     time: '7 min read',
   },
   {
     href: '/blog/compare/managed-payroll-vs-paychex',
     title: 'Paychex vs. Managed Payroll',
-    description: 'Already on Paychex? BEG can operate within your existing account — or transition you to iSolved. Full comparison inside.',
+    description: 'Already on Paychex? BEG can operate within your existing account -- or transition you to iSolved. Full comparison inside.',
     time: '6 min read',
   },
   {
@@ -129,7 +129,7 @@ const LEGAL_COMPARISONS = [
   {
     href: '/blog/compare/contingency-vs-retained-vs-milestone',
     title: 'Contingency vs. Retained vs. Milestone Recruiting',
-    description: 'Three ways to hire attorneys. One changes the cost equation entirely. Full breakdown of each model — fees, fill rates, and timelines.',
+    description: 'Three ways to hire attorneys. One changes the cost equation entirely. Full breakdown of each model -- fees, fill rates, and timelines.',
     time: '9 min read',
   },
   {
@@ -141,7 +141,7 @@ const LEGAL_COMPARISONS = [
   {
     href: '/blog/compare/legal-staffing-vs-placement',
     title: 'Legal Staffing Agency vs. Attorney Placement Service',
-    description: "These terms get used interchangeably — but they describe fundamentally different models. Know which you need before you engage.",
+    description: "These terms get used interchangeably -- but they describe fundamentally different models. Know which you need before you engage.",
     time: '7 min read',
   },
 ];
@@ -149,6 +149,7 @@ const LEGAL_COMPARISONS = [
 export default function ComparePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll & Legal Recruiting Comparisons | BEG Resource Center", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -156,7 +157,7 @@ export default function ComparePage() {
               <p className="eyebrow">Resource Center · Comparisons</p>
               <h1>Honest Comparisons: Payroll and Legal Recruiting</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                Side-by-side breakdowns of software, services, and recruiting models — written for buyers who want straight answers, not vendor marketing.
+                Side-by-side breakdowns of software, services, and recruiting models -- written for buyers who want straight answers, not vendor marketing.
               </p>
             </div>
           </div>
@@ -168,7 +169,7 @@ export default function ComparePage() {
         {/* Industry Comparisons */}
         <h2 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.5rem' }}>Industry Payroll Comparisons</h2>
         <p style={{ color: '#555', marginBottom: '2rem' }}>
-          Managed payroll vs. hiring in-house, by industry. Real cost breakdowns, compliance specifics, and what changes when you outsource — for your exact business type.
+          Managed payroll vs. hiring in-house, by industry. Real cost breakdowns, compliance specifics, and what changes when you outsource -- for your exact business type.
         </p>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1.25rem', marginBottom: '3.5rem' }}>
@@ -195,7 +196,7 @@ export default function ComparePage() {
         {/* Payroll */}
         <h2 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.5rem' }}>Managed Payroll Comparisons</h2>
         <p style={{ color: '#555', marginBottom: '2rem' }}>
-          Comparing managed payroll against self-service platforms and other HR service models — for companies with 20–200 employees.
+          Comparing managed payroll against self-service platforms and other HR service models -- for companies with 20–200 employees.
         </p>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1.25rem', marginBottom: '3.5rem' }}>
@@ -225,7 +226,7 @@ export default function ComparePage() {
         {/* Legal */}
         <h2 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.5rem' }}>Legal Recruiting Comparisons</h2>
         <p style={{ color: '#555', marginBottom: '2rem' }}>
-          Comparing attorney recruiting models for law firms with 11–200 attorneys — contingency, retained, and milestone-based placement.
+          Comparing attorney recruiting models for law firms with 11–200 attorneys -- contingency, retained, and milestone-based placement.
         </p>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1.25rem', marginBottom: '3.5rem' }}>

@@ -3,32 +3,32 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Trucking Payroll Taxes | What Fleet Owners Need to Know | BEG',
-  description: 'A plain-English guide to payroll taxes for trucking companies — FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when.',
+  description: 'A plain-English guide to payroll taxes for trucking companies -- FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes' },
   openGraph: {
     title: 'Trucking Payroll Taxes | What Fleet Owners Need to Know | BEG',
-    description: 'A plain-English guide to payroll taxes for trucking companies — FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...',
+    description: 'A plain-English guide to payroll taxes for trucking companies -- FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...',
     url: 'https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Trucking Payroll Taxes | What Fleet Owners Need to Know | BEG', description: 'A plain-English guide to payroll taxes for trucking companies — FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Trucking Payroll Taxes | What Fleet Owners Need to Know | BEG', description: 'A plain-English guide to payroll taxes for trucking companies -- FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Do I owe payroll taxes for drivers who only occasionally work in another state?',
-    a: 'It depends on the state and how long the driver works there. Many states use a threshold — often 30 days in a calendar year — before an employer must register and withhold that state\'s income tax. But some states require withholding from the first day. Multi-state trucking operations should audit driver routes and state exposure annually.',
+    a: 'It depends on the state and how long the driver works there. Many states use a threshold -- often 30 days in a calendar year -- before an employer must register and withhold that state\'s income tax. But some states require withholding from the first day. Multi-state trucking operations should audit driver routes and state exposure annually.',
   },
   {
     q: 'Are owner-operators subject to employer payroll taxes?',
-    a: 'No — owner-operators who are properly classified as independent contractors are responsible for their own self-employment taxes. You are not required to withhold or remit payroll taxes on their behalf. But misclassifying an employee as an owner-operator creates significant liability, including back taxes, penalties, and interest.',
+    a: 'No -- owner-operators who are properly classified as independent contractors are responsible for their own self-employment taxes. You are not required to withhold or remit payroll taxes on their behalf. But misclassifying an employee as an owner-operator creates significant liability, including back taxes, penalties, and interest.',
   },
   {
     q: 'What is FUTA and how much do trucking companies owe?',
-    a: 'FUTA (Federal Unemployment Tax Act) is paid by employers — not employees — at 6% on the first $7,000 of each employee\'s wages per year. Most employers receive a credit of up to 5.4% for paying state unemployment taxes, which brings the effective FUTA rate to 0.6%. Trucking companies operating in multiple states should confirm their state credit rates annually.',
+    a: 'FUTA (Federal Unemployment Tax Act) is paid by employers -- not employees -- at 6% on the first $7,000 of each employee\'s wages per year. Most employers receive a credit of up to 5.4% for paying state unemployment taxes, which brings the effective FUTA rate to 0.6%. Trucking companies operating in multiple states should confirm their state credit rates annually.',
   },
   {
     q: 'How does per diem pay affect payroll taxes?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function TruckingPayrollTaxesPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Trucking Payroll Taxes | What Fleet Owners Need to Know | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function TruckingPayrollTaxesPage() {
               <p className="eyebrow">Payroll · Trucking</p>
               <h1>Trucking Company Payroll Taxes: What Every Fleet Owner Needs to Know</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                Payroll taxes for trucking companies are not especially complicated — but the multi-state exposure that comes with interstate hauls creates layers most general payroll guides do not cover.
+                Payroll taxes for trucking companies are not especially complicated -- but the multi-state exposure that comes with interstate hauls creates layers most general payroll guides do not cover.
               </p>
             </div>
           </div>
@@ -96,10 +97,10 @@ export default function TruckingPayrollTaxesPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Multi-State Payroll Tax for Interstate Trucking</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          This is where trucking payroll gets complicated. When your drivers haul freight across state lines, you may owe payroll taxes in every state where they work — not just the state where your company is headquartered.
+          This is where trucking payroll gets complicated. When your drivers haul freight across state lines, you may owe payroll taxes in every state where they work -- not just the state where your company is headquartered.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Each state has its own rules about when employer payroll tax obligations begin. Some states require registration and withholding from the first day a driver works in the state. Others use a threshold — commonly 30 days in a calendar year — before withholding obligations kick in. And some states have specific reciprocity agreements with neighboring states that simplify compliance for drivers who regularly cross the border.
+          Each state has its own rules about when employer payroll tax obligations begin. Some states require registration and withholding from the first day a driver works in the state. Others use a threshold -- commonly 30 days in a calendar year -- before withholding obligations kick in. And some states have specific reciprocity agreements with neighboring states that simplify compliance for drivers who regularly cross the border.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
           The practical problem is that most fleet operators are not tracking driver days-worked by state. Without that data, you cannot determine whether you have crossed the withholding threshold in any given state. And without state registration, you cannot remit taxes even if you wanted to.
@@ -110,7 +111,7 @@ export default function TruckingPayrollTaxesPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Driver Classification and Payroll Tax Liability</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          How you classify your drivers has a direct impact on your payroll tax obligations. W-2 employee drivers trigger the full employer payroll tax stack described above. Owner-operators classified as independent contractors do not — the contractor is responsible for their own self-employment taxes.
+          How you classify your drivers has a direct impact on your payroll tax obligations. W-2 employee drivers trigger the full employer payroll tax stack described above. Owner-operators classified as independent contractors do not -- the contractor is responsible for their own self-employment taxes.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
           The classification decision is not arbitrary. The IRS, the DOL, and state labor agencies all have tests for distinguishing employees from independent contractors, and they do not always reach the same conclusion. A driver who owns their truck, sets their own schedule, works for multiple carriers, and negotiates their own rates generally qualifies as an independent contractor. A driver who hauls exclusively for you, uses your equipment, works assigned routes, and is subject to your operational control is very likely an employee regardless of what your contract says.
@@ -121,10 +122,10 @@ export default function TruckingPayrollTaxesPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>How a Managed Payroll Service Handles Trucking Tax Compliance</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Running payroll for a fleet means managing multi-state withholding, per diem structuring, driver classification documentation, quarterly tax deposits, and year-end W-2 preparation — on top of the day-to-day demands of running trucks.
+          Running payroll for a fleet means managing multi-state withholding, per diem structuring, driver classification documentation, quarterly tax deposits, and year-end W-2 preparation -- on top of the day-to-day demands of running trucks.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          BEG manages payroll for trucking companies at $25 per employee per month in your existing system or $45 PEPM in our iSolved account. That includes every state filing, every federal deposit, and year-end W-2s — at no extra charge. You are not buying software to learn; we run it for you.
+          BEG manages payroll for trucking companies at $25 per employee per month in your existing system or $45 PEPM in our iSolved account. That includes every state filing, every federal deposit, and year-end W-2s -- at no extra charge. You are not buying software to learn; we run it for you.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
           From signed agreement to first managed pay run is typically 3 to 5 business days.
@@ -152,8 +153,8 @@ export default function TruckingPayrollTaxesPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/trucking">Managed Payroll for Trucking Companies</Link> — full service details</li>
-            <li><Link href="/blog/payroll/trucking/managed-payroll-vs-in-house">Managed Payroll vs. Hiring In-House for Trucking</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/trucking">Managed Payroll for Trucking Companies</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/trucking/managed-payroll-vs-in-house">Managed Payroll vs. Hiring In-House for Trucking</Link> -- cost comparison</li>
             <li><Link href="/services/managed-payroll">Managed Payroll Overview</Link></li>
           </ul>
         </div>

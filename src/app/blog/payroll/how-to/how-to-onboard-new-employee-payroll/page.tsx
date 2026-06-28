@@ -41,6 +41,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Onboard a New Employee in Your Payroll System | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/how-to/how-to-onboard-new-employee-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -71,7 +72,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Step-by-Step Process</h2>
 
-        <p>The steps below apply to the scenario in this guide. Each step requires accuracy — errors made in setup compound across every subsequent pay cycle.</p>
+        <p>The steps below apply to the scenario in this guide. Each step requires accuracy -- errors made in setup compound across every subsequent pay cycle.</p>
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}><strong>Step 1: Verify employee information.</strong> Confirm legal name, address, and SSN match IRS records. Name/SSN mismatches on W-2s trigger IRS correspondence.</li>

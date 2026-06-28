@@ -37,6 +37,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Fitness Studio Payroll: Cost Calculator Guide | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/fitness/fitness-payroll-cost-calculator"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -147,7 +148,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>When Should Fitness Studios & Gyms Outsource Payroll?</h2>
 
-        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 — compared to a loaded in-house hire of $7,000–$9,000 per month. The math is clear at nearly any headcount below 100.</p>
+        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000–$9,000 per month. The math is clear at nearly any headcount below 100.</p>
 
         <p>The strongest case for outsourcing: trainer 1099 vs W-2 classification, commission-based training pay, which require specialized knowledge most in-house generalists do not have.</p>
 

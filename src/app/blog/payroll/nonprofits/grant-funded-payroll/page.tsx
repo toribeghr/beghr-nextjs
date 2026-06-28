@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What is cost allocation and why does it matter for grant-funded payroll?",
-    answer: "Cost allocation is the process of assigning shared costs — including employee compensation — to the appropriate funding sources based on actual use. For a nonprofit that receives three grants and has unrestricted funds, each employee's wages must be allocated to the grants and funds that benefited from that employee's work. Federal grant requirements (2 CFR Part 200, the Uniform Guidance) require that costs charged to federal awards be allowable, allocable, and reasonable. If an employee works 60% on a federal grant and 40% on a state grant, 60% of their wages must be charged to the federal grant and 40% to the state grant. Charging costs to a grant that the employee did not actually work on is a compliance violation.",
+    answer: "Cost allocation is the process of assigning shared costs -- including employee compensation -- to the appropriate funding sources based on actual use. For a nonprofit that receives three grants and has unrestricted funds, each employee's wages must be allocated to the grants and funds that benefited from that employee's work. Federal grant requirements (2 CFR Part 200, the Uniform Guidance) require that costs charged to federal awards be allowable, allocable, and reasonable. If an employee works 60% on a federal grant and 40% on a state grant, 60% of their wages must be charged to the federal grant and 40% to the state grant. Charging costs to a grant that the employee did not actually work on is a compliance violation.",
   },
   {
     question: "What time tracking documentation is required for employees who work on multiple grants?",
@@ -46,6 +46,7 @@ const faqs = [
 export default function GrantFundedPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -79,7 +80,7 @@ export default function GrantFundedPayrollPage() {
           <li>Budget-based estimates are only allowed if the organization has an approved system that generates estimates that are later reconciled to actual activity</li>
         </ul>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          The <a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-E/section-200.430" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>2 CFR 200.430 text</a> is the definitive reference for federal personnel cost requirements. State and private foundation grants may have additional or different standards — always check the specific grant agreement.
+          The <a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-E/section-200.430" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>2 CFR 200.430 text</a> is the definitive reference for federal personnel cost requirements. State and private foundation grants may have additional or different standards -- always check the specific grant agreement.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Cost Allocation: Splitting Employee Wages Across Funding Sources</h2>
@@ -114,7 +115,7 @@ export default function GrantFundedPayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Single Audit Preparation: What Auditors Look For in Payroll</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Organizations that expend $750,000 or more in federal awards in a fiscal year must undergo a Single Audit. Personnel costs are almost always a major program expenditure area — auditors will test whether payroll charges to federal programs are supported by time and effort documentation, are consistent with position descriptions, and reconcile to the general ledger and payroll registers.
+          Organizations that expend $750,000 or more in federal awards in a fiscal year must undergo a Single Audit. Personnel costs are almost always a major program expenditure area -- auditors will test whether payroll charges to federal programs are supported by time and effort documentation, are consistent with position descriptions, and reconcile to the general ledger and payroll registers.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           Common audit findings in the personnel cost area: timesheets that do not reflect actual activity distribution, periodic certifications missing supervisor signatures, compensation charged to a grant that exceeds the grant's allowable salary cap, and payroll records that do not reconcile to the amounts charged in the grant financial reports.
@@ -130,7 +131,7 @@ export default function GrantFundedPayrollPage() {
           <li>Clean records that support Single Audit personnel cost testing</li>
           <li>FUTA exemption configuration for 501(c)(3) entities</li>
           <li>Setup in 3 to 5 business days from contract signing</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

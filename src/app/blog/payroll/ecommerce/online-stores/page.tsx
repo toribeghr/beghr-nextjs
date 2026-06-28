@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Does selling in all 50 states mean I owe payroll taxes in all 50 states?',
-    answer: 'Not necessarily. Payroll tax nexus is created by where your employees physically work, not where your customers are located. However, if you have even one remote employee in a state, you have withholding obligations there. Many e-commerce operators discover multi-state payroll exposure only after receiving a state notice — often with penalties attached. A managed payroll provider tracks nexus by employee location automatically.',
+    answer: 'Not necessarily. Payroll tax nexus is created by where your employees physically work, not where your customers are located. However, if you have even one remote employee in a state, you have withholding obligations there. Many e-commerce operators discover multi-state payroll exposure only after receiving a state notice -- often with penalties attached. A managed payroll provider tracks nexus by employee location automatically.',
   },
   {
     question: 'We hire 30 extra people every October for Q4. How does outsourced payroll handle that kind of spike?',
-    answer: 'This is exactly the scenario outsourced payroll was built for. A managed provider handles onboarding, payroll configuration, tax withholding setup, and offboarding at scale — without you hiring temp HR staff to manage the surge. You add employees through a portal; the provider handles the compliance layer. No payroll configuration errors mean no W-2 correction filings in March.',
+    answer: 'This is exactly the scenario outsourced payroll was built for. A managed provider handles onboarding, payroll configuration, tax withholding setup, and offboarding at scale -- without you hiring temp HR staff to manage the surge. You add employees through a portal; the provider handles the compliance layer. No payroll configuration errors mean no W-2 correction filings in March.',
   },
   {
     question: 'We use influencers and content creators. Are they W-2 or 1099?',
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'How do we handle payroll when our income comes from Amazon, Shopify, and Walmart at different times?',
-    answer: 'Payroll is funded from your operating bank account on a schedule you set — bi-weekly is most common. Platform payout timing does not affect payroll. Your managed payroll provider debits your account before each pay run. The key is maintaining adequate operating cash, which a good CFO or bookkeeper tracks separately from platform payout timing.',
+    answer: 'Payroll is funded from your operating bank account on a schedule you set -- bi-weekly is most common. Platform payout timing does not affect payroll. Your managed payroll provider debits your account before each pay run. The key is maintaining adequate operating cash, which a good CFO or bookkeeper tracks separately from platform payout timing.',
   },
   {
     question: 'What does BEG managed payroll cost for an e-commerce business with 45 employees?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function EcommerceOnlineStoresPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "E-Commerce Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/ecommerce/online-stores"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,11 +64,11 @@ export default function EcommerceOnlineStoresPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
 
-        <p>You built a business that sells across the country — maybe across the world — but somewhere between managing inventory, running ad campaigns, and monitoring your ROAS, someone on your team is spending 12 hours a week processing payroll. And every Q4, that number doubles.</p>
+        <p>You built a business that sells across the country -- maybe across the world -- but somewhere between managing inventory, running ad campaigns, and monitoring your ROAS, someone on your team is spending 12 hours a week processing payroll. And every Q4, that number doubles.</p>
 
         <p>E-commerce payroll is not simple. Multi-state remote employees, seasonal workforce surges, gig worker classification, and platform-specific pay cycles create a compliance environment most small business HR coordinators are not equipped to manage. The question is not whether payroll is complicated. The question is whether you are paying the right price to handle that complexity.</p>
 
-        <p>This post breaks down exactly what it costs to hire an in-house HR coordinator to manage your e-commerce payroll versus outsourcing to a managed payroll provider — and where the hidden risks live that most e-commerce operators discover too late.</p>
+        <p>This post breaks down exactly what it costs to hire an in-house HR coordinator to manage your e-commerce payroll versus outsourcing to a managed payroll provider -- and where the hidden risks live that most e-commerce operators discover too late.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House HR Coordinator</h2>
 
@@ -84,8 +85,8 @@ export default function EcommerceOnlineStoresPage() {
             <tbody>
               {[
                 ['Base salary (HR Coordinator)', '$48,000 – $68,000'],
-                ['Benefits (health, dental, vision) — 30% of salary', '$14,400 – $20,400'],
-                ['Payroll taxes (FICA, FUTA, SUTA) — 10% of salary', '$4,800 – $6,800'],
+                ['Benefits (health, dental, vision) -- 30% of salary', '$14,400 – $20,400'],
+                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$4,800 – $6,800'],
                 ['Payroll software (multi-state capable)', '$2,400 – $4,800'],
                 ['Training and compliance updates', '$1,500 – $2,500'],
                 ['Hiring cost amortized (recruiting, onboarding)', '$3,000 – $5,000'],
@@ -104,7 +105,7 @@ export default function EcommerceOnlineStoresPage() {
           </table>
         </div>
 
-        <p>That is a meaningful capital commitment for a role that does not generate revenue. And if your HR coordinator leaves — which is not uncommon in e-commerce where staff turnover is high — you absorb another $3,000–$5,000 in recruiting costs and a 60–90 day gap in payroll continuity.</p>
+        <p>That is a meaningful capital commitment for a role that does not generate revenue. And if your HR coordinator leaves -- which is not uncommon in e-commerce where staff turnover is high -- you absorb another $3,000–$5,000 in recruiting costs and a 60–90 day gap in payroll continuity.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for E-Commerce</h2>
 
@@ -142,7 +143,7 @@ export default function EcommerceOnlineStoresPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What E-Commerce Operators Miss: Hidden Compliance Costs</h2>
 
-        <p>Most e-commerce founders think about payroll as a processing task. The actual risk is in the compliance layer — and the IRS enforcement patterns in e-commerce have changed materially in the last three years.</p>
+        <p>Most e-commerce founders think about payroll as a processing task. The actual risk is in the compliance layer -- and the IRS enforcement patterns in e-commerce have changed materially in the last three years.</p>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Multi-State Nexus From Remote Employees</p>
@@ -151,17 +152,17 @@ export default function EcommerceOnlineStoresPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Q4 Seasonal Surge: W-2 vs. 1099 Exposure</p>
-          <p style={{ margin: 0 }}>Bringing on 20–50 seasonal workers for Black Friday through January returns is operationally necessary. Getting payroll configured wrong for those workers — especially misclassifying them as 1099 contractors when they work set hours under your direction — creates exposure under both federal and state wage and hour laws. The IRS has specifically flagged e-commerce seasonal workforce classification as an audit area. A managed payroll provider handles onboarding, withholding, and worker classification during your highest-volume period without adding internal headcount.</p>
+          <p style={{ margin: 0 }}>Bringing on 20–50 seasonal workers for Black Friday through January returns is operationally necessary. Getting payroll configured wrong for those workers -- especially misclassifying them as 1099 contractors when they work set hours under your direction -- creates exposure under both federal and state wage and hour laws. The IRS has specifically flagged e-commerce seasonal workforce classification as an audit area. A managed payroll provider handles onboarding, withholding, and worker classification during your highest-volume period without adding internal headcount.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Gig Worker and Influencer Misclassification</p>
-          <p style={{ margin: 0 }}>The IRS has increased enforcement on e-commerce brands that misclassify content creators, pickers, and last-mile delivery contractors as 1099 workers when they legally qualify as employees under the behavioral and financial control tests. States like California, Massachusetts, and New Jersey apply the stricter ABC test, where misclassification penalties are compounded by state-level assessments. If you are paying creators on a recurring basis, directing their content schedule, and controlling their brand presentation, they may be employees — and the bill for getting this wrong arrives years later.</p>
+          <p style={{ margin: 0 }}>The IRS has increased enforcement on e-commerce brands that misclassify content creators, pickers, and last-mile delivery contractors as 1099 workers when they legally qualify as employees under the behavioral and financial control tests. States like California, Massachusetts, and New Jersey apply the stricter ABC test, where misclassification penalties are compounded by state-level assessments. If you are paying creators on a recurring basis, directing their content schedule, and controlling their brand presentation, they may be employees -- and the bill for getting this wrong arrives years later.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Platform-Specific Pay Cycles</p>
-          <p style={{ margin: 0 }}>Your Amazon payouts, Shopify deposits, and Walmart marketplace settlements arrive on different cycles. Payroll does not care about your platform schedule — employees expect their direct deposit on Friday regardless of when Amazon settled last week. Many e-commerce operators running thin on operating cash discover the hard way that payroll timing requires a dedicated operating reserve, not a judgment call each week. A payroll provider with automated debit scheduling removes the human error here entirely.</p>
+          <p style={{ margin: 0 }}>Your Amazon payouts, Shopify deposits, and Walmart marketplace settlements arrive on different cycles. Payroll does not care about your platform schedule -- employees expect their direct deposit on Friday regardless of when Amazon settled last week. Many e-commerce operators running thin on operating cash discover the hard way that payroll timing requires a dedicated operating reserve, not a judgment call each week. A payroll provider with automated debit scheduling removes the human error here entirely.</p>
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why E-Commerce Payroll Is Structurally More Complex</h2>

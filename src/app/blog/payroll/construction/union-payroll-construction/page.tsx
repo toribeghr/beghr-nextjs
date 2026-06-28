@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What is a collective bargaining agreement and how does it affect payroll?",
-    answer: "A collective bargaining agreement (CBA) is a negotiated contract between an employer and a union that sets wages, benefits, overtime rules, work classifications, shift differentials, and other employment terms. For payroll, every pay calculation must follow the CBA rather than federal or state minimums alone — the CBA terms are almost always higher. This includes base wages by classification and experience tier, overtime triggers and premiums, shift differentials for night or weekend work, fringe benefit contribution rates for health insurance, pension, and training funds, and any paid leave accrual rules specific to the agreement.",
+    answer: "A collective bargaining agreement (CBA) is a negotiated contract between an employer and a union that sets wages, benefits, overtime rules, work classifications, shift differentials, and other employment terms. For payroll, every pay calculation must follow the CBA rather than federal or state minimums alone -- the CBA terms are almost always higher. This includes base wages by classification and experience tier, overtime triggers and premiums, shift differentials for night or weekend work, fringe benefit contribution rates for health insurance, pension, and training funds, and any paid leave accrual rules specific to the agreement.",
   },
   {
     question: "What are union fringe benefit remittances and when are they due?",
-    answer: "Union contracts require employers to contribute to third-party benefit funds — typically health and welfare, pension, annuity, and apprenticeship training funds — on behalf of each covered employee. These contributions are called remittances. They are calculated as a dollar amount per hour worked (not per employee per month) and are submitted to the union benefit fund administrator, not withheld from the employee's paycheck. Remittance frequency varies by CBA — typically monthly, though some funds require payment within 10 days of each payroll. Late remittances trigger interest charges, liquidated damages, and can put the employer in breach of the CBA.",
+    answer: "Union contracts require employers to contribute to third-party benefit funds -- typically health and welfare, pension, annuity, and apprenticeship training funds -- on behalf of each covered employee. These contributions are called remittances. They are calculated as a dollar amount per hour worked (not per employee per month) and are submitted to the union benefit fund administrator, not withheld from the employee's paycheck. Remittance frequency varies by CBA -- typically monthly, though some funds require payment within 10 days of each payroll. Late remittances trigger interest charges, liquidated damages, and can put the employer in breach of the CBA.",
   },
   {
     question: "How do we handle employees who work on both union and non-union projects?",
@@ -34,17 +34,18 @@ const faqs = [
   },
   {
     question: "What happens if a certified payroll report is late on a union prevailing wage job?",
-    answer: "On prevailing wage jobs, the contracting agency requires weekly certified payroll reports (WH-347 or equivalent). Late submissions can result in stop-work notices, contract suspension, and ultimately contract termination. On union jobs, the CBA may have additional reporting requirements to the union itself. We run certified payroll reporting as part of our standard service — reports are generated weekly and submitted on schedule. You receive copies for your records.",
+    answer: "On prevailing wage jobs, the contracting agency requires weekly certified payroll reports (WH-347 or equivalent). Late submissions can result in stop-work notices, contract suspension, and ultimately contract termination. On union jobs, the CBA may have additional reporting requirements to the union itself. We run certified payroll reporting as part of our standard service -- reports are generated weekly and submitted on schedule. You receive copies for your records.",
   },
   {
     question: "Can BEG handle multi-union projects where different crews belong to different unions?",
-    answer: "Yes. Many large construction projects have crews covered by multiple CBAs — carpenters, electricians, plumbers, and operating engineers may each have separate agreements with different wage scales, fringe rates, and remittance funds. We configure each CBA as a separate pay rule set and assign employees to the correct agreement based on their classification. Fringe remittances are calculated and reported separately for each fund administrator. One payroll service, multiple CBAs, no confusion.",
+    answer: "Yes. Many large construction projects have crews covered by multiple CBAs -- carpenters, electricians, plumbers, and operating engineers may each have separate agreements with different wage scales, fringe rates, and remittance funds. We configure each CBA as a separate pay rule set and assign employees to the correct agreement based on their classification. Fringe remittances are calculated and reported separately for each fund administrator. One payroll service, multiple CBAs, no confusion.",
   },
 ];
 
 export default function UnionPayrollConstructionPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -68,10 +69,10 @@ export default function UnionPayrollConstructionPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>How CBA Wages Differ From Standard Payroll</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          In standard payroll, you set an employee's hourly rate and run it. In union construction payroll, the wage is determined by the employee's classification under the CBA, their years of service or apprenticeship tier, the type of project they are working on, and whether prevailing wage rules also apply. An electrician on year 3 of a 5-year apprenticeship program earns a different rate than a journeyman electrician — and both may earn different rates on a federally funded prevailing wage job than on private commercial work.
+          In standard payroll, you set an employee's hourly rate and run it. In union construction payroll, the wage is determined by the employee's classification under the CBA, their years of service or apprenticeship tier, the type of project they are working on, and whether prevailing wage rules also apply. An electrician on year 3 of a 5-year apprenticeship program earns a different rate than a journeyman electrician -- and both may earn different rates on a federally funded prevailing wage job than on private commercial work.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          CBAs also define overtime differently in some cases. While federal law requires overtime after 40 hours in a workweek, a CBA may require daily overtime after 8 hours, double-time on Sundays, or premium pay for holiday work. The CBA terms govern — they cannot be contracted away even if an employee agrees.
+          CBAs also define overtime differently in some cases. While federal law requires overtime after 40 hours in a workweek, a CBA may require daily overtime after 8 hours, double-time on Sundays, or premium pay for holiday work. The CBA terms govern -- they cannot be contracted away even if an employee agrees.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           The <a href="https://www.dol.gov/agencies/olms/laws/labormanagementreportingdisclosureact" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>Department of Labor's Office of Labor-Management Standards</a> oversees union reporting and compliance. Contractors on prevailing wage jobs also answer to the Wage and Hour Division for Davis-Bacon compliance.
@@ -111,7 +112,7 @@ export default function UnionPayrollConstructionPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Certified Payroll on Union Prevailing Wage Projects</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          When a union contractor wins a federal or state prevailing wage project, Davis-Bacon certified payroll requirements layer on top of the CBA obligations. In many cases the prevailing wage rates are lower than the CBA rates — in that case the CBA governs and the certified payroll report must reflect actual wages paid. The report still goes in weekly and must be signed under penalty of perjury.
+          When a union contractor wins a federal or state prevailing wage project, Davis-Bacon certified payroll requirements layer on top of the CBA obligations. In many cases the prevailing wage rates are lower than the CBA rates -- in that case the CBA governs and the certified payroll report must reflect actual wages paid. The report still goes in weekly and must be signed under penalty of perjury.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           See our guide to <a href="/services/managed-payroll" style={{ color: "#ECAC60" }}>managed payroll for construction</a> for more detail on prevailing wage compliance at the service level.

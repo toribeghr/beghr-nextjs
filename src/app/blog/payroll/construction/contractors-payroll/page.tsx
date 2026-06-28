@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: 'Can you run payroll by job code so we can track labor costs per project?',
-    answer: 'Yes. Job costing integration is a core capability for construction payroll. Each employee\'s hours are allocated to specific job codes, cost centers, or project numbers. This produces labor cost reports per project that your PM team and accountants can use — something that is difficult to maintain accurately with a manual in-house process.',
+    answer: 'Yes. Job costing integration is a core capability for construction payroll. Each employee\'s hours are allocated to specific job codes, cost centers, or project numbers. This produces labor cost reports per project that your PM team and accountants can use -- something that is difficult to maintain accurately with a manual in-house process.',
   },
   {
     question: 'How do you handle union and non-union employees on the same crew?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function ConstructionPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/construction/contractors-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -140,13 +141,13 @@ export default function ConstructionPayrollPage() {
 
         <p><strong>Overtime pyramid errors.</strong> California and several other states require daily overtime in addition to weekly. For construction workers on California projects or crossing state lines, this creates significant compliance exposure that general payroll managers frequently miss.</p>
 
-        <p><strong>Workforce size volatility.</strong> Construction crews scale up and down by project. An in-house payroll manager is a fixed cost whether you have 40 people on a job or 120. Outsourced payroll scales with your headcount — lower cost when crews are small, reasonable cost when they grow.</p>
+        <p><strong>Workforce size volatility.</strong> Construction crews scale up and down by project. An in-house payroll manager is a fixed cost whether you have 40 people on a job or 120. Outsourced payroll scales with your headcount -- lower cost when crews are small, reasonable cost when they grow.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Construction Payroll Requires That Generic Payroll Does Not</h2>
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}><strong>Certified payroll reports (WH-347):</strong> Required for any project receiving federal or state prevailing wage funding. Must be filed weekly, accurately, with correct wage determinations by job classification.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Job cost allocation:</strong> Labor costs must be allocated to specific projects, cost codes, and phases for accurate job costing. This feeds project management and accounting — it is not optional for profitability tracking.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Job cost allocation:</strong> Labor costs must be allocated to specific projects, cost codes, and phases for accurate job costing. This feeds project management and accounting -- it is not optional for profitability tracking.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Prevailing wage determinations:</strong> Wage rates vary by county, trade classification, and sometimes project type. These must be updated when federal or state agencies publish new determinations.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Multi-state payroll:</strong> Workers traveling to job sites in different states create withholding and unemployment obligations in each state they work in, even temporarily.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Union vs. non-union payroll:</strong> CBA-governed workers have different wage scales, benefit contributions, and reporting requirements that must run correctly in the same payroll cycle as non-union staff.</li>
@@ -182,7 +183,7 @@ export default function ConstructionPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Construction Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Certified payroll, Davis-Bacon, job costing, multi-state compliance — all at $25–$45 per employee per month. Book a 15-minute call to see what it costs for your crew size and project mix.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Certified payroll, Davis-Bacon, job costing, multi-state compliance -- all at $25–$45 per employee per month. Book a 15-minute call to see what it costs for your crew size and project mix.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 

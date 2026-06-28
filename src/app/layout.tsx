@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         url: 'https://beghr.com/assets/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Business Executive Group — Managed Payroll, HCM Software & Job Placement',
+        alt: 'Business Executive Group -- Managed Payroll, HCM Software & Job Placement',
       },
     ],
     type: 'website',
@@ -77,6 +77,21 @@ export default function RootLayout({
                 'https://instagram.com/thehrexecutivegroup',
                 'https://youtube.com/@TheHRExecutiveGroup',
               ],
+            }),
+          }}
+        />
+
+        {/* WebSite Schema (entity for AI search and sitelinks) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              name: 'Business Executive Group',
+              url: 'https://beghr.com',
+              publisher: { '@type': 'Organization', name: 'Business Executive Group' },
+              description: 'Managed payroll, iSolved HCM software, and job placement for growing companies. iSolved is the only HCM platform with a Connector for Claude.',
             }),
           }}
         />

@@ -3,24 +3,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG',
-  description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations — state registration, withholding, unemployment insurance, and.',
+  description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations -- state registration, withholding, unemployment insurance, and.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll' },
   openGraph: {
     title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG',
-    description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations — state registration, withholding, unemployment insurance, and t...',
+    description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations -- state registration, withholding, unemployment insurance, and t...',
     url: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG', description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations — state registration, withholding, unemployment insurance, and t...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG', description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations -- state registration, withholding, unemployment insurance, and t...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'When does hiring a remote employee in a new state trigger payroll tax obligations?',
-    a: 'Typically on the first day the employee starts working in that state. Most states require employer registration and payroll tax withholding from the moment you have an employee working within their borders — not after a threshold period. Some states have de minimis rules, but they are the exception. When you hire a remote employee in a new state, assume you have obligations in that state from day one.',
+    a: 'Typically on the first day the employee starts working in that state. Most states require employer registration and payroll tax withholding from the moment you have an employee working within their borders -- not after a threshold period. Some states have de minimis rules, but they are the exception. When you hire a remote employee in a new state, assume you have obligations in that state from day one.',
   },
   {
     q: 'What happens if we miss registering in a state where a remote employee works?',
@@ -32,13 +32,14 @@ const faqs = [
   },
   {
     q: 'Do we need to register in every state where our employees live, even if it is just one person?',
-    a: 'Yes. Having even one employee working from a state creates employer payroll tax obligations in that state. There is no minimum headcount threshold for most payroll tax purposes. The administrative burden of being registered in many states is real — which is why agencies with multi-state remote teams often switch to a managed payroll provider rather than managing it in-house.',
+    a: 'Yes. Having even one employee working from a state creates employer payroll tax obligations in that state. There is no minimum headcount threshold for most payroll tax purposes. The administrative burden of being registered in many states is real -- which is why agencies with multi-state remote teams often switch to a managed payroll provider rather than managing it in-house.',
   },
 ];
 
 export default function AgencyRemotePayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Multi-State Payroll for Remote Marketing Agency Teams | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -95,8 +96,8 @@ export default function AgencyRemotePayrollPage() {
                 ['New Jersey', 'Employer-paid SDI; FLI (Family Leave Insurance); unemployment wage base varies'],
                 ['Washington', 'Paid Family and Medical Leave (shared cost); Long-Term Care (WA Cares Fund employer contribution)'],
                 ['Oregon', 'Statewide Transit Tax; Paid Leave Oregon (shared employer/employee)'],
-                ['Massachusetts', 'PFML — Paid Family and Medical Leave (shared employer/employee)'],
-                ['Connecticut', 'Paid Leave Act — employer contribution required'],
+                ['Massachusetts', 'PFML -- Paid Family and Medical Leave (shared employer/employee)'],
+                ['Connecticut', 'Paid Leave Act -- employer contribution required'],
               ].map(([state, notes], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '10px 14px', fontWeight: 600 }}>{state}</td>
@@ -109,10 +110,10 @@ export default function AgencyRemotePayrollPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The Agency Contractor vs. Employee Question</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Many marketing agencies classify remote workers as 1099 contractors to sidestep multi-state registration. This avoids payroll complexity — but only if the classification is correct. Contractors who work exclusively for one agency, follow the agency's processes, and don't control how they deliver their work are often employees under IRS, DOL, and state labor tests, not contractors.
+          Many marketing agencies classify remote workers as 1099 contractors to sidestep multi-state registration. This avoids payroll complexity -- but only if the classification is correct. Contractors who work exclusively for one agency, follow the agency's processes, and don't control how they deliver their work are often employees under IRS, DOL, and state labor tests, not contractors.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Misclassifying employees as contractors does not eliminate payroll tax liability — it defers and compounds it. The IRS can reclassify workers and assess back FICA going back three years, plus penalties. California's AB5 and similar laws in other states have made misclassification even more expensive for agencies with California-based freelancers.
+          Misclassifying employees as contractors does not eliminate payroll tax liability -- it defers and compounds it. The IRS can reclassify workers and assess back FICA going back three years, plus penalties. California's AB5 and similar laws in other states have made misclassification even more expensive for agencies with California-based freelancers.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>
@@ -126,7 +127,7 @@ export default function AgencyRemotePayrollPage() {
         </div>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
-          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Multi-state remote payroll — let BEG handle it</h2>
+          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Multi-state remote payroll -- let BEG handle it</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages payroll for marketing agencies with remote teams in multiple states. 15-minute call to discuss your setup.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
@@ -137,8 +138,8 @@ export default function AgencyRemotePayrollPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/marketing-agency">Managed Payroll for Marketing Agencies</Link> — full service details</li>
-            <li><Link href="/blog/payroll/marketing-agency/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Agencies</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/marketing-agency">Managed Payroll for Marketing Agencies</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/marketing-agency/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Agencies</Link> -- cost comparison</li>
           </ul>
         </div>
 

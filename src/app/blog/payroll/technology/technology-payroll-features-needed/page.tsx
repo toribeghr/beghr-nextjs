@@ -37,6 +37,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Technology & SaaS Companies: Payroll Features Every {label} ", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/technology/technology-payroll-features-needed"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -70,7 +71,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Most Payroll Software Misses for Technology & SaaS Companies</h2>
 
-        <p>equity compensation handling, remote employee multi-state tax, contractor classification, commission payroll are rarely handled correctly out of the box in standard payroll software. These require configuration work — and if you do not know the correct rules, you configure them wrong.</p>
+        <p>equity compensation handling, remote employee multi-state tax, contractor classification, commission payroll are rarely handled correctly out of the box in standard payroll software. These require configuration work -- and if you do not know the correct rules, you configure them wrong.</p>
 
         <p>Managed payroll from BEG eliminates the configuration risk. We set up your pay codes based on what tech companies actually need, not generic defaults.</p>
 

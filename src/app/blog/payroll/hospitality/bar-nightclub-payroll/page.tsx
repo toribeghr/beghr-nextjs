@@ -42,6 +42,7 @@ const faqs = [
 export default function BarNightclubPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -60,7 +61,7 @@ export default function BarNightclubPayrollPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Bars and nightclubs share payroll complexity with restaurants but layer on top: late-night workday definitions, tip pools that often include barbacks and support staff, entertainment contractor questions, and high staff turnover that means constant onboarding. If your payroll is being run the same way a retail store runs payroll, you are almost certainly making errors — and those errors accumulate fast.
+          Bars and nightclubs share payroll complexity with restaurants but layer on top: late-night workday definitions, tip pools that often include barbacks and support staff, entertainment contractor questions, and high staff turnover that means constant onboarding. If your payroll is being run the same way a retail store runs payroll, you are almost certainly making errors -- and those errors accumulate fast.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Tip Credits and Tipped Minimum Wage for Bar Staff</h2>
@@ -83,7 +84,7 @@ export default function BarNightclubPayrollPage() {
               {[
                 ["Bartenders", "Yes", "Must verify tip minimum weekly"],
                 ["Cocktail servers", "Yes", "Split-shift premium may apply (state-specific)"],
-                ["Barbacks", "Possibly — as tip pool participants", "Cannot receive tip credit if not tipped directly"],
+                ["Barbacks", "Possibly -- as tip pool participants", "Cannot receive tip credit if not tipped directly"],
                 ["Bouncers / door staff", "Typically no", "Not a tipped occupation unless dual role"],
                 ["DJs / performers", "No (usually contractors)", "Verify classification carefully"],
                 ["Coat check / hosts", "State-specific", "May qualify if they receive tips customarily"],
@@ -103,7 +104,7 @@ export default function BarNightclubPayrollPage() {
           A bartender who starts at 9pm Thursday and works until 3am Friday is working a shift that crosses midnight. How their hours are assigned to a workday depends on how you have defined your workday.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Under the FLSA, a workday can be any fixed 24-consecutive-hour period. Most bars set their workday to start and end in the afternoon (say, 4pm to 3:59pm) so that a full closing shift falls within one workday. If you have not formally established a workday definition, the IRS and DOL will look at your practices to determine one — and they may not define it the way you assumed.
+          Under the FLSA, a workday can be any fixed 24-consecutive-hour period. Most bars set their workday to start and end in the afternoon (say, 4pm to 3:59pm) so that a full closing shift falls within one workday. If you have not formally established a workday definition, the IRS and DOL will look at your practices to determine one -- and they may not define it the way you assumed.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           Workweek definition matters for overtime: any fixed 7-consecutive-day period. Most bars run Tuesday through Monday or Sunday through Saturday. Getting this set correctly at payroll setup prevents overtime miscalculations that compound over time.
@@ -132,8 +133,8 @@ export default function BarNightclubPayrollPage() {
           <li>Split-shift premium tracking in states that require it</li>
           <li>Payroll tax filings and W-2 production</li>
           <li>Automatic updates when state minimum wages change</li>
-          <li>High-turnover onboarding support — fast setup for new hires</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+          <li>High-turnover onboarding support -- fast setup for new hires</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

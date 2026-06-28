@@ -19,19 +19,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How does outsourced payroll handle shift differentials for clinical staff?',
-    answer: 'A managed payroll provider configures differential rates by shift type — day, evening, night, weekend — and applies them automatically based on the hours submitted. Employees do not need to manually track or calculate differentials; the payroll system does it from time and attendance data. This eliminates the most common source of clinical payroll errors and removes the risk of year-end W-2 corrections due to accumulated differential miscalculations.',
+    answer: 'A managed payroll provider configures differential rates by shift type -- day, evening, night, weekend -- and applies them automatically based on the hours submitted. Employees do not need to manually track or calculate differentials; the payroll system does it from time and attendance data. This eliminates the most common source of clinical payroll errors and removes the risk of year-end W-2 corrections due to accumulated differential miscalculations.',
   },
   {
     question: 'Our physicians are paid on RVU-based bonuses. Can outsourced payroll handle that?',
-    answer: 'Yes, with the right setup. RVU-based compensation requires your billing or EMR system to produce a production report that translates RVUs to a dollar amount under your compensation model. The payroll provider then processes that bonus payment on the correct schedule — typically quarterly. What a managed provider adds is a clean audit trail showing the RVU calculation, the bonus amount, and the payroll run date, which is important when a physician questions their bonus or when you are onboarding a new provider who wants to verify past payments.',
+    answer: 'Yes, with the right setup. RVU-based compensation requires your billing or EMR system to produce a production report that translates RVUs to a dollar amount under your compensation model. The payroll provider then processes that bonus payment on the correct schedule -- typically quarterly. What a managed provider adds is a clean audit trail showing the RVU calculation, the bonus amount, and the payroll run date, which is important when a physician questions their bonus or when you are onboarding a new provider who wants to verify past payments.',
   },
   {
     question: 'What are the ACA penalties for getting measurement periods wrong at a clinic?',
-    answer: 'Under the ACA employer mandate (applicable to organizations with 50+ full-time equivalent employees), failing to offer affordable minimum essential coverage to full-time employees results in penalties under IRC Section 4980H. Section 4980H(a) — failing to offer coverage — carries a penalty of $2,880 per full-time employee annually (2026 rate). Section 4980H(b) — offering unaffordable coverage — carries $4,320 per affected employee annually. Clinics with variable-hours clinical support staff who cross the 30-hour threshold during a measurement period are at particular risk if measurement tracking is not automated.',
+    answer: 'Under the ACA employer mandate (applicable to organizations with 50+ full-time equivalent employees), failing to offer affordable minimum essential coverage to full-time employees results in penalties under IRC Section 4980H. Section 4980H(a) -- failing to offer coverage -- carries a penalty of $2,880 per full-time employee annually (2026 rate). Section 4980H(b) -- offering unaffordable coverage -- carries $4,320 per affected employee annually. Clinics with variable-hours clinical support staff who cross the 30-hour threshold during a measurement period are at particular risk if measurement tracking is not automated.',
   },
   {
     question: 'How does outsourced payroll reduce clinical staff turnover risk?',
-    answer: 'Pay errors are a leading driver of healthcare staff turnover, particularly among clinical support staff who operate on tight personal budgets. When shift differentials are wrong, when direct deposit is delayed, or when a pay stub cannot be understood, clinical staff lose confidence and begin looking elsewhere. A managed payroll provider with an employee self-service portal gives staff 24/7 access to pay stubs, W-2s, and time records — reducing pay-related HR inquiries and the trust erosion that precedes turnover.',
+    answer: 'Pay errors are a leading driver of healthcare staff turnover, particularly among clinical support staff who operate on tight personal budgets. When shift differentials are wrong, when direct deposit is delayed, or when a pay stub cannot be understood, clinical staff lose confidence and begin looking elsewhere. A managed payroll provider with an employee self-service portal gives staff 24/7 access to pay stubs, W-2s, and time records -- reducing pay-related HR inquiries and the trust erosion that precedes turnover.',
   },
   {
     question: 'Does payroll data at a clinic involve HIPAA-protected information?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function ClinicsPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Healthcare Clinic Payroll | Clinical Staff Pay. Done Right. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/healthcare-general/clinics-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,9 +64,9 @@ export default function ClinicsPayrollPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
 
-        <p>Running an urgent care clinic, outpatient practice, or specialty clinic means managing clinical operations with near-zero tolerance for error. Payroll at a healthcare clinic carries the same zero-tolerance expectation — but the complexity is substantially higher than most clinic administrators anticipate when they hire their first in-house HR Manager.</p>
+        <p>Running an urgent care clinic, outpatient practice, or specialty clinic means managing clinical operations with near-zero tolerance for error. Payroll at a healthcare clinic carries the same zero-tolerance expectation -- but the complexity is substantially higher than most clinic administrators anticipate when they hire their first in-house HR Manager.</p>
 
-        <p>Shift differentials that must be calculated correctly for every nurse and medical assistant, RVU-based physician compensation that changes quarterly, ACA measurement period tracking for variable-hours clinical support staff, and HIPAA-adjacent data handling requirements all create a payroll environment that a general HR credential does not fully prepare someone to manage. When those systems are wrong, the consequences range from ACA penalty notices to provider compensation disputes to clinical staff turnover — all of which are expensive and largely preventable.</p>
+        <p>Shift differentials that must be calculated correctly for every nurse and medical assistant, RVU-based physician compensation that changes quarterly, ACA measurement period tracking for variable-hours clinical support staff, and HIPAA-adjacent data handling requirements all create a payroll environment that a general HR credential does not fully prepare someone to manage. When those systems are wrong, the consequences range from ACA penalty notices to provider compensation disputes to clinical staff turnover -- all of which are expensive and largely preventable.</p>
 
         <p>This post walks through the true cost of in-house payroll management for healthcare clinics versus outsourcing, and identifies the specific compliance risks where clinic payroll errors are most common and most costly.</p>
 
@@ -84,8 +85,8 @@ export default function ClinicsPayrollPage() {
             <tbody>
               {[
                 ['Base salary (HR Manager, healthcare)', '$55,000 – $80,000'],
-                ['Benefits (health, dental, vision, 401k) — 30% of salary', '$16,500 – $24,000'],
-                ['Payroll taxes (FICA, FUTA, SUTA) — 10% of salary', '$5,500 – $8,000'],
+                ['Benefits (health, dental, vision, 401k) -- 30% of salary', '$16,500 – $24,000'],
+                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$5,500 – $8,000'],
                 ['Payroll/HR software (shift differential, ACA tracking)', '$3,000 – $6,000'],
                 ['Compliance training (ACA, FLSA, HIPAA-adjacent)', '$1,800 – $3,500'],
                 ['Hiring cost amortized (recruiter, onboarding, ramp)', '$3,500 – $6,000'],
@@ -104,11 +105,11 @@ export default function ClinicsPayrollPage() {
           </table>
         </div>
 
-        <p>This does not account for error exposure. One undetected ACA penalty at a 60-person clinic can cost $172,800 per year (60 employees x $2,880). A single provider RVU dispute that results in physician departure costs $200,000–$500,000 in lost revenue and recruitment expense. The financial case for specialist payroll management is not just salary savings — it is risk elimination.</p>
+        <p>This does not account for error exposure. One undetected ACA penalty at a 60-person clinic can cost $172,800 per year (60 employees x $2,880). A single provider RVU dispute that results in physician departure costs $200,000–$500,000 in lost revenue and recruitment expense. The financial case for specialist payroll management is not just salary savings -- it is risk elimination.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for Healthcare Clinics</h2>
 
-        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. For healthcare clinics, that covers shift differential processing, ACA measurement tracking, RVU bonus integration, year-end W-2 preparation, and HR support — with no extra fees for clinical complexity.</p>
+        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. For healthcare clinics, that covers shift differential processing, ACA measurement tracking, RVU bonus integration, year-end W-2 preparation, and HR support -- with no extra fees for clinical complexity.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -142,7 +143,7 @@ export default function ClinicsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>ACA Affordability Failures and Measurement Period Errors</p>
-          <p style={{ margin: 0 }}>Clinics frequently employ part-time clinical support staff — medical assistants, front desk coordinators, lab techs — whose hours fluctuate. The ACA employer mandate requires tracking hours over a defined measurement period (3–12 months) to determine full-time status and coverage eligibility. When measurement periods are tracked manually or not tracked at all, employers miss the offer-of-coverage window and expose themselves to Section 4980H penalties of $2,880 per full-time employee per year (2026). At a 60-person clinic with 15 variable-hours employees who cross the threshold, that is $43,200 in annual penalties — money that goes directly to the IRS instead of clinic operations.</p>
+          <p style={{ margin: 0 }}>Clinics frequently employ part-time clinical support staff -- medical assistants, front desk coordinators, lab techs -- whose hours fluctuate. The ACA employer mandate requires tracking hours over a defined measurement period (3–12 months) to determine full-time status and coverage eligibility. When measurement periods are tracked manually or not tracked at all, employers miss the offer-of-coverage window and expose themselves to Section 4980H penalties of $2,880 per full-time employee per year (2026). At a 60-person clinic with 15 variable-hours employees who cross the threshold, that is $43,200 in annual penalties -- money that goes directly to the IRS instead of clinic operations.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
@@ -152,12 +153,12 @@ export default function ClinicsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Provider RVU Miscalculation and Departure Risk</p>
-          <p style={{ margin: 0 }}>If a clinic pays physician or advanced practice provider bonuses based on relative value units and the RVU calculation is incorrect — whether due to a billing system export error or a manual translation mistake — the resulting compensation dispute can be irreparable. Physicians who believe they have been underpaid do not typically wait for a corrected run. They consult their employment agreement, contact an attorney, and begin an exit process. Losing a physician costs a clinic $200,000–$500,000 in revenue and $50,000–$150,000 in replacement recruitment. A payroll provider who builds a clean, auditable RVU-to-bonus calculation process eliminates this risk entirely.</p>
+          <p style={{ margin: 0 }}>If a clinic pays physician or advanced practice provider bonuses based on relative value units and the RVU calculation is incorrect -- whether due to a billing system export error or a manual translation mistake -- the resulting compensation dispute can be irreparable. Physicians who believe they have been underpaid do not typically wait for a corrected run. They consult their employment agreement, contact an attorney, and begin an exit process. Losing a physician costs a clinic $200,000–$500,000 in revenue and $50,000–$150,000 in replacement recruitment. A payroll provider who builds a clean, auditable RVU-to-bonus calculation process eliminates this risk entirely.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>HIPAA-Adjacent Data Handling in Payroll</p>
-          <p style={{ margin: 0 }}>Healthcare payroll data often includes provider IDs, clinical schedule information, and data elements that combine with patient identifiers to constitute protected health information under HIPAA. When a payroll provider processes data that touches clinical records — even indirectly — a Business Associate Agreement is required. Many clinics select payroll vendors without verifying BAA availability or reviewing data handling controls. A payroll audit finding under HIPAA carries penalty tiers from $100 to $50,000 per violation, with a maximum of $1.9 million per violation category per year.</p>
+          <p style={{ margin: 0 }}>Healthcare payroll data often includes provider IDs, clinical schedule information, and data elements that combine with patient identifiers to constitute protected health information under HIPAA. When a payroll provider processes data that touches clinical records -- even indirectly -- a Business Associate Agreement is required. Many clinics select payroll vendors without verifying BAA availability or reviewing data handling controls. A payroll audit finding under HIPAA carries penalty tiers from $100 to $50,000 per violation, with a maximum of $1.9 million per violation category per year.</p>
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Healthcare Clinic Payroll Is More Complex Than Standard Business Payroll</h2>

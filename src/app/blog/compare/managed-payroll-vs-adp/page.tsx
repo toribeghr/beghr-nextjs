@@ -22,7 +22,7 @@ export default function ManagedPayrollVsADPPage() {
   const faqs = [
     {
       question: "How much does ADP actually cost per employee per month?",
-      answer: "ADP does not publish pricing publicly — all plans are quoted. Based on market data, ADP RUN for small businesses typically costs $59 to $109/month base plus $4 to $9 per employee per month. ADP Workforce Now for mid-market is quoted separately and commonly runs $20 to $40+ per employee per month once all modules are included. Additional fees for year-end services, off-cycle runs, and implementation add to the total."
+      answer: "ADP does not publish pricing publicly -- all plans are quoted. Based on market data, ADP RUN for small businesses typically costs $59 to $109/month base plus $4 to $9 per employee per month. ADP Workforce Now for mid-market is quoted separately and commonly runs $20 to $40+ per employee per month once all modules are included. Additional fees for year-end services, off-cycle runs, and implementation add to the total."
     },
     {
       question: "What are ADP's hidden fees?",
@@ -30,7 +30,7 @@ export default function ManagedPayrollVsADPPage() {
     },
     {
       question: "Can I cancel my ADP contract early?",
-      answer: "ADP typically requires annual contracts, and early termination may result in penalty fees. The auto-renewal clause is particularly common — many businesses are unknowingly renewed for another year because they missed the cancellation window, often 60 to 90 days before the renewal date. Review your contract terms carefully before attempting to cancel."
+      answer: "ADP typically requires annual contracts, and early termination may result in penalty fees. The auto-renewal clause is particularly common -- many businesses are unknowingly renewed for another year because they missed the cancellation window, often 60 to 90 days before the renewal date. Review your contract terms carefully before attempting to cancel."
     },
     {
       question: "Is ADP better for large companies than small ones?",
@@ -38,7 +38,7 @@ export default function ManagedPayrollVsADPPage() {
     },
     {
       question: "What is the difference between ADP and managed payroll?",
-      answer: "ADP is a software platform you operate — your team logs in, processes payroll, and manages the system. BEG managed payroll is a service where our team runs payroll for you. With ADP, you still own the operational work. With managed payroll, that work transfers to an external team entirely. The key question is whether you want better tools to run payroll yourself, or whether you want payroll removed from your team's responsibilities."
+      answer: "ADP is a software platform you operate -- your team logs in, processes payroll, and manages the system. BEG managed payroll is a service where our team runs payroll for you. With ADP, you still own the operational work. With managed payroll, that work transfers to an external team entirely. The key question is whether you want better tools to run payroll yourself, or whether you want payroll removed from your team's responsibilities."
     },
     {
       question: "How long does it take to switch from ADP to managed payroll?",
@@ -48,6 +48,7 @@ export default function ManagedPayrollVsADPPage() {
 
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/managed-payroll-vs-adp"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -55,7 +56,7 @@ export default function ManagedPayrollVsADPPage() {
               <p className="eyebrow">Blog · Payroll · Comparison</p>
               <h1>ADP vs. Managed Payroll: Is ADP Still Worth the Cost for Your Company?</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>
-                ADP is the default choice for thousands of companies — but "default" doesn't mean "best." Here's an honest look at what ADP costs, what it actually delivers, and whether there's a better fit.
+                ADP is the default choice for thousands of companies -- but "default" doesn't mean "best." Here's an honest look at what ADP costs, what it actually delivers, and whether there's a better fit.
               </p>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
@@ -91,15 +92,15 @@ export default function ManagedPayrollVsADPPage() {
             <tbody>
               {[
                 ['Service model', 'Software + limited support', 'Fully managed service'],
-                ['Who runs payroll', 'You (or your HR person)', 'BEG — hands off for you'],
+                ['Who runs payroll', 'You (or your HR person)', 'BEG -- hands off for you'],
                 ['Support quality', 'Tiered call center, varies widely', 'Dedicated team, direct contact'],
                 ['Contract requirements', 'Annual contracts, auto-renew', 'Month-to-month'],
                 ['Pricing transparency', 'Quoted, often opaque', 'Flat $25–$35 PEPM, all-in'],
                 ['Tax compliance', 'Software handles filings', 'BEG team monitors + executes'],
                 ['Implementation time', '4–12 weeks', '2–4 weeks'],
                 ['Typical annual cost (50 employees)', '$12,000–$25,000+', '$15,000–$21,000'],
-                ['Payroll errors your responsibility', 'Yes', 'No — BEG takes responsibility'],
-                ['Works with existing system', 'Must use ADP platform', 'Yes — or move to iSolved'],
+                ['Payroll errors your responsibility', 'Yes', 'No -- BEG takes responsibility'],
+                ['Works with existing system', 'Must use ADP platform', 'Yes -- or move to iSolved'],
               ].map(([factor, adp, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: 600 }}>{factor}</td>
@@ -119,10 +120,10 @@ export default function ManagedPayrollVsADPPage() {
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Customer support quality is highly variable.</strong> ADP's support is tiered, and small-to-mid-size businesses often end up in general call center queues rather than dedicated service teams. Response times and issue resolution vary widely depending on which support tier your contract includes.</li>
-          <li><strong>Pricing isn't transparent.</strong> ADP prices by quote, and the total cost — including add-on modules, year-end filing fees, and per-transaction charges — is often higher than initial quotes suggest.</li>
-          <li><strong>Annual contracts with auto-renewal.</strong> Canceling ADP mid-year typically involves penalties. The auto-renewal clause catches companies off guard — the cancellation window is often 60 to 90 days before renewal, and missing it means another year locked in.</li>
+          <li><strong>Pricing isn't transparent.</strong> ADP prices by quote, and the total cost -- including add-on modules, year-end filing fees, and per-transaction charges -- is often higher than initial quotes suggest.</li>
+          <li><strong>Annual contracts with auto-renewal.</strong> Canceling ADP mid-year typically involves penalties. The auto-renewal clause catches companies off guard -- the cancellation window is often 60 to 90 days before renewal, and missing it means another year locked in.</li>
           <li><strong>You're still running payroll.</strong> ADP is software with service layers, not a fully managed service. Someone on your team still needs to process each payroll cycle, manage onboarding inputs, and administer the platform.</li>
-          <li><strong>Platform complexity is high.</strong> ADP Workforce Now is a powerful platform — and complex. For teams without a dedicated payroll or HRIS administrator, the learning curve and ongoing maintenance burden are real costs that don't show up in the pricing quote.</li>
+          <li><strong>Platform complexity is high.</strong> ADP Workforce Now is a powerful platform -- and complex. For teams without a dedicated payroll or HRIS administrator, the learning curve and ongoing maintenance burden are real costs that don't show up in the pricing quote.</li>
         </ul>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -138,7 +139,7 @@ export default function ManagedPayrollVsADPPage() {
           <li>You have multi-entity payroll across multiple EINs that needs centralized management</li>
         </ul>
         <p>
-          For most companies between 20 and 200 employees processing standard W-2 payroll, ADP's capabilities exceed what you need — and the cost and complexity follow accordingly.
+          For most companies between 20 and 200 employees processing standard W-2 payroll, ADP's capabilities exceed what you need -- and the cost and complexity follow accordingly.
         </p>
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
@@ -160,10 +161,10 @@ export default function ManagedPayrollVsADPPage() {
           With BEG:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
-          <li>Every payroll cycle is processed by our team — you review and approve, we do the work</li>
+          <li>Every payroll cycle is processed by our team -- you review and approve, we do the work</li>
           <li>Tax filings are monitored, prepared, and submitted by us across all states where you have employees</li>
           <li>Employee questions about paychecks, deductions, and tax forms route to us, not your team</li>
-          <li>Compliance changes — new state minimum wages, tax rate updates, ACA thresholds — are tracked and applied without you needing to act</li>
+          <li>Compliance changes -- new state minimum wages, tax rate updates, ACA thresholds -- are tracked and applied without you needing to act</li>
           <li>If there's an error, it's our responsibility to fix it, including any IRS or state agency correspondence</li>
         </ul>
         <p>
@@ -224,7 +225,7 @@ export default function ManagedPayrollVsADPPage() {
           <li><strong>Notify state agencies of provider change.</strong> If ADP has been filing under your EIN as a reporting agent, you'll need to update the agent authorization with relevant state and federal agencies.</li>
         </ul>
         <p>
-          BEG handles this transition process for clients. We've done it enough times that the steps are systematized — typical transition time is 3 to 5 weeks from contract signing to live payroll in the new system.
+          BEG handles this transition process for clients. We've done it enough times that the steps are systematized -- typical transition time is 3 to 5 weeks from contract signing to live payroll in the new system.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -250,7 +251,7 @@ export default function ManagedPayrollVsADPPage() {
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
-          <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales — Business Executive Group</strong>
+          <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales -- Business Executive Group</strong>
           <p style={{ margin: 0, color: '#444' }}>Anthony helps HR managers and CFOs evaluate payroll operations and implement managed solutions that eliminate operational overhead without disrupting existing workflows.</p>
         </div>
 

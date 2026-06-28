@@ -3,24 +3,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG',
-  description: 'Which veterinary employees are exempt from FLSA overtime — and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common.',
+  description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules' },
   openGraph: {
     title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG',
-    description: 'Which veterinary employees are exempt from FLSA overtime — and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...',
+    description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...',
     url: 'https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG', description: 'Which veterinary employees are exempt from FLSA overtime — and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG', description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Are licensed veterinary technicians exempt from overtime?',
-    a: 'Generally no. Most licensed veterinary technicians are non-exempt employees entitled to overtime pay at 1.5x their regular rate for hours over 40 per week. Unless a technician qualifies under the learned professional exemption — which requires an advanced degree, not just a licensure program — they should be treated as non-exempt. Misclassifying techs as exempt is a common and expensive mistake.',
+    a: 'Generally no. Most licensed veterinary technicians are non-exempt employees entitled to overtime pay at 1.5x their regular rate for hours over 40 per week. Unless a technician qualifies under the learned professional exemption -- which requires an advanced degree, not just a licensure program -- they should be treated as non-exempt. Misclassifying techs as exempt is a common and expensive mistake.',
   },
   {
     q: 'Are DVMs exempt from overtime under FLSA?',
@@ -28,17 +28,18 @@ const faqs = [
   },
   {
     q: 'What is the regular rate of pay for overtime purposes when a vet tech earns a shift differential?',
-    a: 'When calculating overtime, you must use the regular rate of pay — which includes shift differentials, non-discretionary bonuses, and other extra compensation, not just base pay. If a technician earns a shift differential on weekends, that differential must be included in the regular rate calculation for any overtime hours worked that week.',
+    a: 'When calculating overtime, you must use the regular rate of pay -- which includes shift differentials, non-discretionary bonuses, and other extra compensation, not just base pay. If a technician earns a shift differential on weekends, that differential must be included in the regular rate calculation for any overtime hours worked that week.',
   },
   {
     q: 'Can veterinary practices average hours across two weeks to avoid paying overtime?',
-    a: 'No. FLSA overtime is calculated on a fixed workweek basis — typically a fixed 7-day period. You cannot average hours across two weeks. If an employee works 50 hours in week one and 30 in week two, they are owed 10 hours of overtime for week one, regardless of what they worked the following week.',
+    a: 'No. FLSA overtime is calculated on a fixed workweek basis -- typically a fixed 7-day period. You cannot average hours across two weeks. If an employee works 50 hours in week one and 30 in week two, they are owed 10 hours of overtime for week one, regardless of what they worked the following week.',
   },
 ];
 
 export default function VeterinaryOvertimePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -56,10 +57,10 @@ export default function VeterinaryOvertimePage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          The Fair Labor Standards Act requires employers to pay non-exempt employees 1.5 times their regular rate for hours worked over 40 in a workweek. Veterinary practices employ a range of staff — from highly credentialed DVMs to veterinary technicians, assistants, and front desk staff — and the overtime exemption rules apply differently to each.
+          The Fair Labor Standards Act requires employers to pay non-exempt employees 1.5 times their regular rate for hours worked over 40 in a workweek. Veterinary practices employ a range of staff -- from highly credentialed DVMs to veterinary technicians, assistants, and front desk staff -- and the overtime exemption rules apply differently to each.
         </p>
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Most FLSA violations in veterinary practices stem from one of two mistakes: treating vet techs as exempt when they are not, or failing to include all forms of compensation when calculating the regular rate for overtime purposes. Both are fixable — if you know where to look.
+          Most FLSA violations in veterinary practices stem from one of two mistakes: treating vet techs as exempt when they are not, or failing to include all forms of compensation when calculating the regular rate for overtime purposes. Both are fixable -- if you know where to look.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>FLSA Exemption Status by Role</h2>
@@ -92,12 +93,12 @@ export default function VeterinaryOvertimePage() {
           </table>
         </div>
 
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The Learned Professional Exemption — and Why It Rarely Covers Techs</h2>
+        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The Learned Professional Exemption -- and Why It Rarely Covers Techs</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
           The FLSA learned professional exemption covers employees whose primary duty requires knowledge of an advanced type in a field of science or learning, customarily acquired by a prolonged course of specialized intellectual instruction. DVMs meet this standard. Veterinary technicians typically do not.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Most veterinary technician licensure programs are associate degree programs (two years), not advanced degrees. The DOL has historically not considered two-year programs sufficient to meet the "advanced degree" threshold for the learned professional exemption — and state licensure requirements alone do not substitute for that educational standard.
+          Most veterinary technician licensure programs are associate degree programs (two years), not advanced degrees. The DOL has historically not considered two-year programs sufficient to meet the "advanced degree" threshold for the learned professional exemption -- and state licensure requirements alone do not substitute for that educational standard.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
           The practical implication: if your vet techs are working more than 40 hours per week and you are not paying overtime, you are likely in violation of FLSA.
@@ -105,13 +106,13 @@ export default function VeterinaryOvertimePage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Calculating the Regular Rate When Bonuses Are Involved</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Many veterinary practices pay bonuses — production bonuses to DVMs, attendance bonuses, or holiday pay to techs and assistants. How you treat these payments in overtime calculations matters.
+          Many veterinary practices pay bonuses -- production bonuses to DVMs, attendance bonuses, or holiday pay to techs and assistants. How you treat these payments in overtime calculations matters.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Non-discretionary bonuses (bonuses that are promised in advance or tied to production metrics) must be included in the regular rate of pay for overtime calculation purposes. This means overtime is not simply 1.5 × hourly rate — it is 1.5 × (hourly rate plus the per-hour value of any non-discretionary bonus earned that week).
+          Non-discretionary bonuses (bonuses that are promised in advance or tied to production metrics) must be included in the regular rate of pay for overtime calculation purposes. This means overtime is not simply 1.5 × hourly rate -- it is 1.5 × (hourly rate plus the per-hour value of any non-discretionary bonus earned that week).
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Discretionary bonuses — truly spontaneous, unannounced bonuses that the employer had no prior obligation to pay — are excluded from the regular rate calculation. In practice, most production-linked bonuses are non-discretionary.
+          Discretionary bonuses -- truly spontaneous, unannounced bonuses that the employer had no prior obligation to pay -- are excluded from the regular rate calculation. In practice, most production-linked bonuses are non-discretionary.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>
@@ -136,8 +137,8 @@ export default function VeterinaryOvertimePage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/veterinary">Managed Payroll for Veterinary Practices</Link> — full service details</li>
-            <li><Link href="/blog/payroll/veterinary/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Veterinary Practices</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/veterinary">Managed Payroll for Veterinary Practices</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/veterinary/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Veterinary Practices</Link> -- cost comparison</li>
             <li><Link href="/services/managed-payroll">Managed Payroll Overview</Link></li>
           </ul>
         </div>

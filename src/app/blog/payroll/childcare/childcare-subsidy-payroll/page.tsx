@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll' },
   openGraph: {
     title: 'Childcare Subsidy Payroll | Managing Mixed-Funding Right | BEG',
-    description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition — documentati...',
+    description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition -- documentati...',
     url: 'https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Childcare Subsidy Payroll | Managing Mixed-Funding Right | BEG', description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition — documentati...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Childcare Subsidy Payroll | Managing Mixed-Funding Right | BEG', description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition -- documentati...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
@@ -28,17 +28,18 @@ const faqs = [
   },
   {
     q: 'Can we pay teachers different rates depending on which program they work in?',
-    a: 'Yes, but it creates complications. If a teacher works across Head Start and CCDF-funded classrooms and you pay different rates by program, payroll must track which hours were worked in which program at which rate. Most centers standardize pay rates by role and level to simplify allocation — then allocate time rather than rate differentials across funding sources.',
+    a: 'Yes, but it creates complications. If a teacher works across Head Start and CCDF-funded classrooms and you pay different rates by program, payroll must track which hours were worked in which program at which rate. Most centers standardize pay rates by role and level to simplify allocation -- then allocate time rather than rate differentials across funding sources.',
   },
   {
     q: 'What is the CCDF workforce registry and how does it affect payroll?',
-    a: 'Many states maintain a childcare workforce registry that tracks credentials, training hours, and compensation data for subsidized care providers. Some states tie subsidy reimbursement rates to registry-documented qualifications — meaning that staff credentialing directly affects how much the center earns per subsidized enrollment slot. Payroll accuracy (wages matching what is reported to the registry) is part of subsidy compliance in these states.',
+    a: 'Many states maintain a childcare workforce registry that tracks credentials, training hours, and compensation data for subsidized care providers. Some states tie subsidy reimbursement rates to registry-documented qualifications -- meaning that staff credentialing directly affects how much the center earns per subsidized enrollment slot. Payroll accuracy (wages matching what is reported to the registry) is part of subsidy compliance in these states.',
   },
 ];
 
 export default function ChildcareSubsidyPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Childcare Subsidy Payroll | Managing Mixed-Funding Right | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function ChildcareSubsidyPayrollPage() {
               <p className="eyebrow">Payroll · Childcare</p>
               <h1>Childcare Subsidy and Payroll: Managing Mixed-Funding Compliance</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                Childcare centers that accept government subsidies — CCDF, Head Start, state pre-K — face additional payroll documentation requirements. The records that protect against audit findings must be built into your payroll process, not reconstructed later.
+                Childcare centers that accept government subsidies -- CCDF, Head Start, state pre-K -- face additional payroll documentation requirements. The records that protect against audit findings must be built into your payroll process, not reconstructed later.
               </p>
             </div>
           </div>
@@ -56,7 +57,7 @@ export default function ChildcareSubsidyPayrollPage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          Most childcare centers operate on a mix of funding sources: private-pay tuition, state childcare subsidy vouchers (often routed through CCDF), Head Start or Early Head Start grants, state pre-K contracts, and in some cases CACFP reimbursement for meals. Each source carries its own compliance requirements — and when staff time and costs span multiple sources, the payroll system must track and document the allocation.
+          Most childcare centers operate on a mix of funding sources: private-pay tuition, state childcare subsidy vouchers (often routed through CCDF), Head Start or Early Head Start grants, state pre-K contracts, and in some cases CACFP reimbursement for meals. Each source carries its own compliance requirements -- and when staff time and costs span multiple sources, the payroll system must track and document the allocation.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The Core Problem: Mixed-Funding Cost Allocation</h2>
@@ -64,7 +65,7 @@ export default function ChildcareSubsidyPayrollPage() {
           Federal and state funding agencies require that costs charged to a grant or subsidy program reflect only the costs actually incurred in serving that program. When a teacher works in a classroom that serves both subsidized and private-pay children, the portion of her salary charged to the subsidy must match the portion of her time serving subsidized children.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          This seems simple but creates real administrative complexity: you need a defensible allocation methodology, time records that support it, and a payroll system that can code costs to the right funding source. Centers that use a single payroll account with no cost-center separation are allocating by worksheet after the fact — and those worksheets rarely survive a grantor audit.
+          This seems simple but creates real administrative complexity: you need a defensible allocation methodology, time records that support it, and a payroll system that can code costs to the right funding source. Centers that use a single payroll account with no cost-center separation are allocating by worksheet after the fact -- and those worksheets rarely survive a grantor audit.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>What Each Major Funding Source Requires</h2>
@@ -97,11 +98,11 @@ export default function ChildcareSubsidyPayrollPage() {
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Building an Audit-Ready Payroll Process</h2>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '2.5rem' }}>
           {[
-            'Use department or cost center codes in payroll that map to your funding sources — not just classroom location',
+            'Use department or cost center codes in payroll that map to your funding sources -- not just classroom location',
             'Require time sheets that capture hours by program for any employee whose time spans funding sources',
             'Document your allocation methodology in writing and apply it consistently each pay period',
             'Keep payroll registers, time sheets, and supporting schedules together in a per-pay-period file retained for at least 7 years',
-            'Reconcile subsidy billing to payroll costs quarterly — if you\'re billing the state for a teacher\'s time but her pay records show leave or absence, that\'s a billing discrepancy',
+            'Reconcile subsidy billing to payroll costs quarterly -- if you\'re billing the state for a teacher\'s time but her pay records show leave or absence, that\'s a billing discrepancy',
             'Train managers: a program director who approves timesheets must understand that their signature is the payroll audit\'s first line of defense',
           ].map((item, i) => (
             <div key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
@@ -133,9 +134,9 @@ export default function ChildcareSubsidyPayrollPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/childcare">Managed Payroll for Childcare Centers</Link> — full service details</li>
-            <li><Link href="/blog/payroll/childcare/childcare-payroll-overtime">Childcare Payroll and Overtime Rules</Link> — FLSA compliance guide</li>
-            <li><Link href="/blog/payroll/childcare/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Childcare</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/childcare">Managed Payroll for Childcare Centers</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/childcare/childcare-payroll-overtime">Childcare Payroll and Overtime Rules</Link> -- FLSA compliance guide</li>
+            <li><Link href="/blog/payroll/childcare/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Childcare</Link> -- cost comparison</li>
           </ul>
         </div>
 

@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: 'Can you manage production-based compensation for associate dentists?',
-    answer: 'Yes. Associate dentist production pay — where compensation is calculated as a percentage of collections or production — is processed within our payroll system. We receive the production figures from your practice management software (Dentrix, Eaglesoft, Open Dental), calculate the comp due, and include it in the regular payroll run. No manual calculation required.',
+    answer: 'Yes. Associate dentist production pay -- where compensation is calculated as a percentage of collections or production -- is processed within our payroll system. We receive the production figures from your practice management software (Dentrix, Eaglesoft, Open Dental), calculate the comp due, and include it in the regular payroll run. No manual calculation required.',
   },
   {
     question: 'How does outsourced payroll work for a multi-location dental group or DSO?',
@@ -34,7 +34,7 @@ const faqs = [
     answer: 'We can receive time and production data from major dental practice management platforms and incorporate it into payroll. Integration depth depends on the platform and your data export settings, but we work with your team to establish a clean data handoff each pay period so payroll is accurate without manual re-entry.',
   },
   {
-    question: 'What happens when a staff member has multiple roles — for example, a hygienist who also handles front desk hours?',
+    question: 'What happens when a staff member has multiple roles -- for example, a hygienist who also handles front desk hours?',
     answer: 'Employees working multiple roles at different pay rates are set up with multiple pay rate codes in the payroll system. Hours are tracked by role, the correct rate is applied to each category, and the output is a clean pay stub showing both rates and hours. Overtime is calculated correctly across all hours worked in the week.',
   },
   {
@@ -46,6 +46,7 @@ const faqs = [
 export default function DentalPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Dental Office Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/healthcare/dental"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -62,11 +63,11 @@ export default function DentalPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Running a dental practice means focusing on patient care, clinical outcomes, and practice growth. Yet most dental offices spend 8–12 hours per week managing payroll — tracking hygienist tips, processing associate dentist production pay, handling tax filings, and staying current on state compliance rules that change every year.</p>
+        <p>Running a dental practice means focusing on patient care, clinical outcomes, and practice growth. Yet most dental offices spend 8–12 hours per week managing payroll -- tracking hygienist tips, processing associate dentist production pay, handling tax filings, and staying current on state compliance rules that change every year.</p>
 
         <p>Dental payroll is more complex than most industries. You have tipped hygienists, production-based dentist compensation, multi-rate employees, dental-specific tax treatment, and practice management software that does not natively handle payroll. One miscalculation creates penalties. One missed tip credit rule creates back-pay liability. One incorrect W-2 creates an IRS inquiry.</p>
 
-        <p>The question most practice owners face is whether to hire someone in-house to manage it — or outsource to a provider that already handles hundreds of dental payrolls and knows the rules cold.</p>
+        <p>The question most practice owners face is whether to hire someone in-house to manage it -- or outsource to a provider that already handles hundreds of dental payrolls and knows the rules cold.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Dental Payroll Coordinator</h2>
 
@@ -135,9 +136,9 @@ export default function DentalPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Dental Practice Owners Miss in the Cost Calculation</h2>
 
-        <p><strong>Tip credit exposure.</strong> Hygienists in some states are treated as tipped employees. The tip credit rules are state-specific — some states have no tip credit at all. A practice that misapplies the tip credit pays below minimum wage in some states without knowing it. DOL audits in dental practices have resulted in significant back-pay orders in the last five years.</p>
+        <p><strong>Tip credit exposure.</strong> Hygienists in some states are treated as tipped employees. The tip credit rules are state-specific -- some states have no tip credit at all. A practice that misapplies the tip credit pays below minimum wage in some states without knowing it. DOL audits in dental practices have resulted in significant back-pay orders in the last five years.</p>
 
-        <p><strong>Production comp miscalculation.</strong> When an associate dentist&apos;s production-based pay is calculated manually and the formula is wrong — even slightly — it compounds across every pay period. Correcting it mid-year requires amended returns, corrected W-2s, and a conversation with the associate about underpayment or overpayment.</p>
+        <p><strong>Production comp miscalculation.</strong> When an associate dentist&apos;s production-based pay is calculated manually and the formula is wrong -- even slightly -- it compounds across every pay period. Correcting it mid-year requires amended returns, corrected W-2s, and a conversation with the associate about underpayment or overpayment.</p>
 
         <p><strong>Multi-location state exposure.</strong> DSOs and group practices with locations in multiple states must file payroll taxes in each state where employees work. A 3-location group in Texas, Oklahoma, and New Mexico has three different state unemployment rates, three state withholding requirements, and different new hire reporting timelines.</p>
 
@@ -183,7 +184,7 @@ export default function DentalPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Dental Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Hygienist tips, production comp, multi-rate pay, tax filing — all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Hygienist tips, production comp, multi-rate pay, tax filing -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 

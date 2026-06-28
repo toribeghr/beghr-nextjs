@@ -37,6 +37,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Nonprofit Payroll: Mistakes to Avoid | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/nonprofits/nonprofits-payroll-mistakes-to-avoid"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -55,7 +56,7 @@ export default function Page() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
         <p>Payroll mistakes in nonprofits are expensive. IRS penalties, back-pay orders, employee trust damage, and state audit exposure all stem from errors that a qualified managed payroll provider would catch before they compound.</p>
 
-        <p>Here are the most common payroll mistakes nonprofits make — and what to do about each.</p>
+        <p>Here are the most common payroll mistakes nonprofits make -- and what to do about each.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Most Costly Payroll Mistakes for Nonprofits & Religious Organizations</h2>
 
@@ -72,13 +73,13 @@ export default function Page() {
 
         <p>Nonprofits & Religious Organizations payroll has more complexity than basic payroll because of grant-funded payroll allocation, clergy housing allowance, FUTA exemptions, volunteer to employee transitions. Each additional variable adds a calculation layer where an error can cascade across every pay period.</p>
 
-        <p>The most common error source: using general-purpose payroll software without configuring it for the specific rules that apply to nonprofits. The software does not know your industry — you have to tell it, and if you configure it wrong, it runs wrong every cycle.</p>
+        <p>The most common error source: using general-purpose payroll software without configuring it for the specific rules that apply to nonprofits. The software does not know your industry -- you have to tell it, and if you configure it wrong, it runs wrong every cycle.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How to Avoid These Payroll Mistakes</h2>
 
         <p>The most reliable solution is managed payroll from a provider that handles the compliance layer as part of the service. Payroll tax deposits are made on time, withholding is calculated correctly, and compliance updates are applied without your intervention.</p>
 
-        <p>For nonprofits, managed payroll at $25–$45 PEPM provides full coverage of the scenarios above — including grant-funded payroll allocation and clergy housing allowance — at a fraction of the cost of an in-house hire.</p>
+        <p>For nonprofits, managed payroll at $25–$45 PEPM provides full coverage of the scenarios above -- including grant-funded payroll allocation and clergy housing allowance -- at a fraction of the cost of an in-house hire.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>

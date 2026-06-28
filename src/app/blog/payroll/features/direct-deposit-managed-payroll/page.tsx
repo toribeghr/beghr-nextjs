@@ -41,6 +41,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Direct Deposit in Managed Payroll: How It Works | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/features/direct-deposit-managed-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -57,11 +58,11 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Direct Deposit in Managed Payroll: How It Works — this is a question BEG managed payroll handles for businesses every week. Here is the practical answer.</p>
+        <p>Direct Deposit in Managed Payroll: How It Works -- this is a question BEG managed payroll handles for businesses every week. Here is the practical answer.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Context</h2>
 
-        <p>Payroll for most businesses involves more complexity than the basic guides address. Federal and state compliance, industry-specific pay types, multi-state filing, year-end reporting — each adds a layer that can generate errors if not handled correctly.</p>
+        <p>Payroll for most businesses involves more complexity than the basic guides address. Federal and state compliance, industry-specific pay types, multi-state filing, year-end reporting -- each adds a layer that can generate errors if not handled correctly.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What You Need to Know</h2>
 

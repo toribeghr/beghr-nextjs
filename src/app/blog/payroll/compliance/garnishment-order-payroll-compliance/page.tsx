@@ -41,6 +41,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Wage Garnishment Orders: Employer Compliance Guide | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/compliance/garnishment-order-payroll-compliance"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -77,7 +78,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How to Stay Compliant Without Hiring a Specialist</h2>
 
-        <p>The most cost-effective compliance path for businesses under 100 employees is managed payroll from a provider that monitors and applies compliance changes automatically. Tax table updates, minimum wage changes, state rule modifications, and new filing requirements are applied before they take effect — without your management team needing to track them.</p>
+        <p>The most cost-effective compliance path for businesses under 100 employees is managed payroll from a provider that monitors and applies compliance changes automatically. Tax table updates, minimum wage changes, state rule modifications, and new filing requirements are applied before they take effect -- without your management team needing to track them.</p>
 
         <p>BEG managed payroll handles this continuously for clients at $25–$45 PEPM, all-inclusive.</p>
 

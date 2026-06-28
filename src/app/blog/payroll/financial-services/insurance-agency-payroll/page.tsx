@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "How does payroll work for producers who earn commission rather than salary?",
-    answer: "Insurance producers are typically paid on commission — a percentage of the premium on each policy they write. Some agencies pay commission only; others provide a base salary or draw against future commissions. For commission-only producers, payroll runs when commissions are earned and paid, which may not follow a standard biweekly schedule. For draw-against-commission arrangements, the draw is treated as an advance and reconciled against earned commissions at set intervals. We configure the payment schedule, commission calculation method, and reconciliation rules at setup so every producer's earnings are calculated correctly and taxes withheld appropriately.",
+    answer: "Insurance producers are typically paid on commission -- a percentage of the premium on each policy they write. Some agencies pay commission only; others provide a base salary or draw against future commissions. For commission-only producers, payroll runs when commissions are earned and paid, which may not follow a standard biweekly schedule. For draw-against-commission arrangements, the draw is treated as an advance and reconciled against earned commissions at set intervals. We configure the payment schedule, commission calculation method, and reconciliation rules at setup so every producer's earnings are calculated correctly and taxes withheld appropriately.",
   },
   {
     question: "What is the difference between a W-2 producer and a 1099 independent contractor agent?",
-    answer: "A W-2 producer is an employee of the agency. The agency withholds income taxes, pays employer-side FICA, and provides any W-2-only benefits. A 1099 independent contractor agent sets their own schedule, works for multiple carriers or agencies, and receives a 1099 at year end with no withholding. The classification is not a choice — it depends on the actual working relationship: how much control the agency exerts, whether the agent works exclusively for the agency, and whether they are economically dependent on the agency. Misclassifying W-2 employees as 1099 contractors is one of the most common IRS audit triggers in the insurance sector.",
+    answer: "A W-2 producer is an employee of the agency. The agency withholds income taxes, pays employer-side FICA, and provides any W-2-only benefits. A 1099 independent contractor agent sets their own schedule, works for multiple carriers or agencies, and receives a 1099 at year end with no withholding. The classification is not a choice -- it depends on the actual working relationship: how much control the agency exerts, whether the agent works exclusively for the agency, and whether they are economically dependent on the agency. Misclassifying W-2 employees as 1099 contractors is one of the most common IRS audit triggers in the insurance sector.",
   },
   {
     question: "How do we handle commission splits between multiple producers on the same policy?",
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: "Can we deduct E&O insurance premiums and errors-and-omissions costs from producer pay?",
-    answer: "Yes, with proper documentation. Voluntary payroll deductions for E&O insurance contributions are legal provided the producer has authorized the deduction in writing. We configure authorized deductions per producer and apply them consistently each pay period. Required deductions must comply with your state's wage payment laws — some states limit or prohibit certain deductions from earned commissions. We flag state-specific restrictions at setup.",
+    answer: "Yes, with proper documentation. Voluntary payroll deductions for E&O insurance contributions are legal provided the producer has authorized the deduction in writing. We configure authorized deductions per producer and apply them consistently each pay period. Required deductions must comply with your state's wage payment laws -- some states limit or prohibit certain deductions from earned commissions. We flag state-specific restrictions at setup.",
   },
   {
     question: "We have producers licensed in multiple states. Does that affect payroll taxes?",
@@ -46,6 +46,7 @@ const faqs = [
 export default function InsuranceAgencyPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -69,7 +70,7 @@ export default function InsuranceAgencyPayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Commission-Based Pay Structures in Insurance Agencies</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Most insurance producers are compensated primarily on commission rather than a fixed salary. The commission rate varies by line of business, carrier, and the agency's own compensation plan. Some agencies layer a base salary on top of commissions; others use a draw — an advance against future commissions that is reconciled at monthly or quarterly intervals.
+          Most insurance producers are compensated primarily on commission rather than a fixed salary. The commission rate varies by line of business, carrier, and the agency's own compensation plan. Some agencies layer a base salary on top of commissions; others use a draw -- an advance against future commissions that is reconciled at monthly or quarterly intervals.
         </p>
         <div style={{ overflowX: "auto", marginBottom: "2.5rem" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.9rem" }}>
@@ -127,7 +128,7 @@ export default function InsuranceAgencyPayrollPage() {
           <li>W-2 production for employees and 1099 production for true contractors</li>
           <li>Payroll tax filings across all active states</li>
           <li>Automatic compliance updates for state minimum wage and tax rate changes</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

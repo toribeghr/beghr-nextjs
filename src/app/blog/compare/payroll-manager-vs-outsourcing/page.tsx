@@ -21,6 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function PayrollManagerVsOutsourcingPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/payroll-manager-vs-outsourcing"}) }} />
 
       {/* ── HERO ── */}
       <section className="hero">
@@ -49,7 +50,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           When a company starts thinking about managed payroll, the conversation usually goes one direction fast: <em>"It's cheaper to just keep someone in-house."</em>
         </p>
         <p>
-          That assumption is almost always wrong. Not because in-house payroll is badly run — but because the salary is never the full cost, and almost no one does the math on everything else.
+          That assumption is almost always wrong. Not because in-house payroll is badly run -- but because the salary is never the full cost, and almost no one does the math on everything else.
         </p>
         <p>
           This page does that math. If you're deciding between hiring a payroll manager and outsourcing to a managed service, here's every number you need.
@@ -107,12 +108,12 @@ export default function PayrollManagerVsOutsourcingPage() {
 
         <h3 style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>2. Payroll error rate</h3>
         <p>
-          The American Payroll Association estimates the average in-house payroll error rate at 1–8%. On a $3.5 million annual payroll (50 employees at $70K average), a 1% error rate is $35,000 in annual mistakes — underpayments, overpayments, missed deductions, incorrect tax withholding. These errors require correction cycles, sometimes amended filings, and occasionally penalties. A managed payroll provider with automated compliance validation runs error rates well below 0.5%.
+          The American Payroll Association estimates the average in-house payroll error rate at 1–8%. On a $3.5 million annual payroll (50 employees at $70K average), a 1% error rate is $35,000 in annual mistakes -- underpayments, overpayments, missed deductions, incorrect tax withholding. These errors require correction cycles, sometimes amended filings, and occasionally penalties. A managed payroll provider with automated compliance validation runs error rates well below 0.5%.
         </p>
 
         <h3 style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>3. Employee question time</h3>
         <p>
-          This is the hidden cost almost no one measures. For a 50-person company, payroll questions from employees — "why is my check short?", "can you resend my W-2?", "I changed my direct deposit, did it go through?" — consume between 15 and 25 hours of HR or operations time every month. That's time that comes from somewhere else in your business. In managed payroll, those questions route to the provider.
+          This is the hidden cost almost no one measures. For a 50-person company, payroll questions from employees -- "why is my check short?", "can you resend my W-2?", "I changed my direct deposit, did it go through?" -- consume between 15 and 25 hours of HR or operations time every month. That's time that comes from somewhere else in your business. In managed payroll, those questions route to the provider.
         </p>
 
         <h3 style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>4. Replacement cost when they leave</h3>
@@ -122,7 +123,7 @@ export default function PayrollManagerVsOutsourcingPage() {
 
         <h3 style={{ marginTop: '1.5rem', marginBottom: '0.5rem' }}>5. Compliance liability</h3>
         <p>
-          When your in-house payroll manager makes a compliance mistake — misclassifying an employee, missing a state filing deadline, incorrectly calculating overtime under new FLSA rules — the liability is yours. With a managed payroll provider, compliance errors are the provider's responsibility, and reputable providers carry the liability.
+          When your in-house payroll manager makes a compliance mistake -- misclassifying an employee, missing a state filing deadline, incorrectly calculating overtime under new FLSA rules -- the liability is yours. With a managed payroll provider, compliance errors are the provider's responsibility, and reputable providers carry the liability.
         </p>
 
         {/* ── CTA 1 ── */}
@@ -143,14 +144,14 @@ export default function PayrollManagerVsOutsourcingPage() {
           BEG's managed payroll service is priced at a flat per-employee-per-month (PEPM) rate with no hidden fees:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
-          <li><strong>$25/PEPM</strong> — if you stay on your existing payroll system (we run it for you)</li>
-          <li><strong>$35/PEPM</strong> — if you move to BEG's iSolved account (includes the software)</li>
+          <li><strong>$25/PEPM</strong> -- if you stay on your existing payroll system (we run it for you)</li>
+          <li><strong>$35/PEPM</strong> -- if you move to BEG's iSolved account (includes the software)</li>
         </ul>
         <p>
           For a 50-person company, that's <strong>$1,250–$1,750/month</strong>, or <strong>$15,000–$21,000/year</strong>, all-inclusive: payroll processing, tax filings, year-end W-2s and 1099s, compliance monitoring, and employee question handling.
         </p>
         <p>
-          That price doesn't change when your payroll manager has a busy week. It doesn't increase when there's a compliance update. It scales linearly with headcount — add 10 employees, add $250–$350/month.
+          That price doesn't change when your payroll manager has a busy week. It doesn't increase when there's a compliance update. It scales linearly with headcount -- add 10 employees, add $250–$350/month.
         </p>
 
         {/* ── SECTION 3: When In-House Makes Sense ── */}
@@ -161,10 +162,10 @@ export default function PayrollManagerVsOutsourcingPage() {
           Managed payroll isn't the right answer for every company. Here's when hiring in-house probably wins:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
-          <li><strong>You have 300+ employees</strong> — at scale, a dedicated payroll team is often more cost-effective than per-employee pricing</li>
-          <li><strong>Your payroll is highly custom</strong> — complex commission structures, equity compensation, or industry-specific union rules that require constant manual oversight</li>
-          <li><strong>You need payroll embedded in broader HR operations</strong> — if payroll is deeply integrated with benefits administration and you have a full HR team, the handoff overhead may outweigh the savings</li>
-          <li><strong>You're a public company</strong> — the reporting requirements and internal controls at public-company scale usually justify dedicated staff</li>
+          <li><strong>You have 300+ employees</strong> -- at scale, a dedicated payroll team is often more cost-effective than per-employee pricing</li>
+          <li><strong>Your payroll is highly custom</strong> -- complex commission structures, equity compensation, or industry-specific union rules that require constant manual oversight</li>
+          <li><strong>You need payroll embedded in broader HR operations</strong> -- if payroll is deeply integrated with benefits administration and you have a full HR team, the handoff overhead may outweigh the savings</li>
+          <li><strong>You're a public company</strong> -- the reporting requirements and internal controls at public-company scale usually justify dedicated staff</li>
         </ul>
         <p>
           If your company is between 20 and 200 employees and payroll is largely standard (salary, hourly, some commissions), managed payroll almost always beats in-house on total cost.
@@ -211,7 +212,7 @@ export default function PayrollManagerVsOutsourcingPage() {
         </h2>
         <p>Before you make this decision, get honest answers to these:</p>
         <ol style={{ marginLeft: '1.5rem', lineHeight: '2.2', marginBottom: '1rem' }}>
-          <li>What is your current payroll manager's total annual cost — salary, benefits, and overhead combined?</li>
+          <li>What is your current payroll manager's total annual cost -- salary, benefits, and overhead combined?</li>
           <li>How many hours per month does your HR or operations team spend answering payroll questions?</li>
           <li>When your payroll manager is on vacation or sick, what happens to payroll?</li>
           <li>How many payroll errors have required correction in the last 12 months?</li>
@@ -225,7 +226,7 @@ export default function PayrollManagerVsOutsourcingPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Run the numbers for your company</h2>
           <p style={{ marginBottom: '0.5rem', color: '#ddd' }}>
-            BEG offers a free 15-minute cost comparison call. We'll look at your current setup and show you exactly what managed payroll would cost — and save — for your headcount.
+            BEG offers a free 15-minute cost comparison call. We'll look at your current setup and show you exactly what managed payroll would cost -- and save -- for your headcount.
           </p>
           <p style={{ marginBottom: '1.5rem', color: '#ddd', fontSize: '0.9rem' }}>No contract required to start. Month-to-month. Cancel anytime.</p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
@@ -236,7 +237,7 @@ export default function PayrollManagerVsOutsourcingPage() {
 
         {/* ── AUTHOR ── */}
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
-          <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.05rem' }}>Anthony Moretti, VP of Sales — Business Executive Group</strong>
+          <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.05rem' }}>Anthony Moretti, VP of Sales -- Business Executive Group</strong>
           <p style={{ margin: 0, color: '#444' }}>
             Anthony works with HR managers and CFOs at growing companies to evaluate payroll operations, identify cost inefficiencies, and implement managed payroll solutions that scale without adding headcount.
           </p>
@@ -266,10 +267,10 @@ export default function PayrollManagerVsOutsourcingPage() {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
         mainEntity: [
-          { '@type': 'Question', name: "How much does a payroll manager cost vs. outsourcing?", acceptedAnswer: { '@type': 'Answer', text: "A payroll manager costs $60,000 to $100,000 per year in salary alone, plus benefits, payroll taxes, PTO, and recruiting overhead — typically $80,000 to $130,000 total annual cost. BEG managed payroll runs $25 to $45 per employee per month. For a 50-person company, that is $15,000 to $27,000 per year. The savings at that headcount are typically $50,000 to $100,000 annually." } },
-          { '@type': 'Question', name: "What does a payroll manager do that outsourcing can't?", acceptedAnswer: { '@type': 'Answer', text: "Most internal payroll work — processing runs, tax filings, year-end forms, new hire setup, direct deposit management — is handled better and more cost-effectively by a managed service. Where an internal manager adds unique value is deep institutional knowledge of one-off compensation structures, equity, or highly customized benefit schemes. For standard payroll, outsourcing is consistently more cost-effective." } },
+          { '@type': 'Question', name: "How much does a payroll manager cost vs. outsourcing?", acceptedAnswer: { '@type': 'Answer', text: "A payroll manager costs $60,000 to $100,000 per year in salary alone, plus benefits, payroll taxes, PTO, and recruiting overhead -- typically $80,000 to $130,000 total annual cost. BEG managed payroll runs $25 to $45 per employee per month. For a 50-person company, that is $15,000 to $27,000 per year. The savings at that headcount are typically $50,000 to $100,000 annually." } },
+          { '@type': 'Question', name: "What does a payroll manager do that outsourcing can't?", acceptedAnswer: { '@type': 'Answer', text: "Most internal payroll work -- processing runs, tax filings, year-end forms, new hire setup, direct deposit management -- is handled better and more cost-effectively by a managed service. Where an internal manager adds unique value is deep institutional knowledge of one-off compensation structures, equity, or highly customized benefit schemes. For standard payroll, outsourcing is consistently more cost-effective." } },
           { '@type': 'Question', name: "When should a company hire an internal payroll manager instead of outsourcing?", acceptedAnswer: { '@type': 'Answer', text: "Companies with extremely complex equity compensation, multi-entity structures across many states, or more than 500 employees sometimes benefit from a dedicated internal head. Below that threshold, a managed payroll service provides the same coverage at significantly lower cost and without the recruiting, training, and turnover risk." } },
-          { '@type': 'Question', name: "Is outsourcing payroll risky?", acceptedAnswer: { '@type': 'Answer', text: "The main risk is choosing a vendor that does not take accountability for errors. BEG stands behind its work — we handle corrections, amendments, and compliance issues directly. The risk with self-serve software platforms is that errors still fall on your team. With a managed service, the responsibility transfers." } },
+          { '@type': 'Question', name: "Is outsourcing payroll risky?", acceptedAnswer: { '@type': 'Answer', text: "The main risk is choosing a vendor that does not take accountability for errors. BEG stands behind its work -- we handle corrections, amendments, and compliance issues directly. The risk with self-serve software platforms is that errors still fall on your team. With a managed service, the responsibility transfers." } },
         ]
       }) }} />
     </article>

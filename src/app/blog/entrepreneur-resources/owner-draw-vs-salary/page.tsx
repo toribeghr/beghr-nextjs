@@ -22,11 +22,11 @@ const faqs = [
   },
   {
     question: "Which business structures allow owner draws instead of salary?",
-    answer: "Sole proprietors and single-member LLCs taxed as sole proprietors are not employees of their own businesses — they take draws, and all net profit is subject to self-employment tax regardless of how much they actually draw. Partners in partnerships and members of multi-member LLCs taxed as partnerships are similarly not employees — their compensation comes through guaranteed payments or allocations, and they pay self-employment tax on their share of partnership income. S-corporation shareholders who provide services to the corporation are required to pay themselves a reasonable salary before taking additional distributions. C-corporation owners who work in the business are treated as employees and must be on payroll.",
+    answer: "Sole proprietors and single-member LLCs taxed as sole proprietors are not employees of their own businesses -- they take draws, and all net profit is subject to self-employment tax regardless of how much they actually draw. Partners in partnerships and members of multi-member LLCs taxed as partnerships are similarly not employees -- their compensation comes through guaranteed payments or allocations, and they pay self-employment tax on their share of partnership income. S-corporation shareholders who provide services to the corporation are required to pay themselves a reasonable salary before taking additional distributions. C-corporation owners who work in the business are treated as employees and must be on payroll.",
   },
   {
     question: "Why do S-corp owners have to pay themselves a reasonable salary?",
-    answer: "An S-corporation shareholder who performs services for the corporation must be paid reasonable compensation for those services through payroll — not just distributions. This is because distributions from an S-corp are not subject to FICA taxes, while wages are. If a shareholder-employee took no salary and pulled all their compensation as distributions, they would pay no FICA on any of it. The IRS has consistently challenged and won against arrangements where the salary is set artificially low relative to the services provided. Reasonable compensation is defined as what you would pay a third party with the same skills and experience to perform the same services.",
+    answer: "An S-corporation shareholder who performs services for the corporation must be paid reasonable compensation for those services through payroll -- not just distributions. This is because distributions from an S-corp are not subject to FICA taxes, while wages are. If a shareholder-employee took no salary and pulled all their compensation as distributions, they would pay no FICA on any of it. The IRS has consistently challenged and won against arrangements where the salary is set artificially low relative to the services provided. Reasonable compensation is defined as what you would pay a third party with the same skills and experience to perform the same services.",
   },
   {
     question: "When should an owner switch from draws to formal payroll?",
@@ -34,17 +34,18 @@ const faqs = [
   },
   {
     question: "Do I still owe self-employment tax on draws even if I take a small draw?",
-    answer: "Yes. For sole proprietors and pass-through entities, self-employment tax is owed on net profit from the business — not on the amount you draw. If your business earns $120,000 in net profit and you only draw $50,000, you owe self-employment tax on the full $120,000, not just the $50,000 you took. The draw does not determine your taxable income; the net business profit does. This is one of the most common misconceptions among new business owners. The amount you draw affects your cash flow and personal income availability, but not your self-employment tax obligation.",
+    answer: "Yes. For sole proprietors and pass-through entities, self-employment tax is owed on net profit from the business -- not on the amount you draw. If your business earns $120,000 in net profit and you only draw $50,000, you owe self-employment tax on the full $120,000, not just the $50,000 you took. The draw does not determine your taxable income; the net business profit does. This is one of the most common misconceptions among new business owners. The amount you draw affects your cash flow and personal income availability, but not your self-employment tax obligation.",
   },
   {
     question: "What does BEG help with for owner payroll?",
-    answer: "BEG manages payroll for business owners who pay themselves a W-2 salary — typically S-corp shareholders. We configure the salary at a reasonable compensation level, run payroll through your existing system or BEG's iSolved platform, and produce W-2s at year end. The service is $25 per employee per month on your existing system, or $45 per employee per month on iSolved. For an S-corp owner running their own payroll, that is $25 to $45 per month, all-inclusive.",
+    answer: "BEG manages payroll for business owners who pay themselves a W-2 salary -- typically S-corp shareholders. We configure the salary at a reasonable compensation level, run payroll through your existing system or BEG's iSolved platform, and produce W-2s at year end. The service is $25 per employee per month on your existing system, or $45 per employee per month on iSolved. For an S-corp owner running their own payroll, that is $25 to $45 per month, all-inclusive.",
   },
 ];
 
 export default function OwnerDrawVsSalaryPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,7 +64,7 @@ export default function OwnerDrawVsSalaryPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          The owner draw vs. salary question is one of the first compensation decisions business owners make and one of the most frequently misunderstood. The answer depends almost entirely on your business structure — and in some cases, the IRS does not give you a choice. Understanding how each method works, what you owe regardless of which method you use, and when switching to formal payroll actually reduces your tax burden is foundational for running a business that pays you efficiently.
+          The owner draw vs. salary question is one of the first compensation decisions business owners make and one of the most frequently misunderstood. The answer depends almost entirely on your business structure -- and in some cases, the IRS does not give you a choice. Understanding how each method works, what you owe regardless of which method you use, and when switching to formal payroll actually reduces your tax burden is foundational for running a business that pays you efficiently.
         </p>
 
         <p style={{ fontSize: "0.85rem", color: "#666", marginBottom: "2.5rem", padding: "0.75rem 1rem", background: "#f9f9f9", borderLeft: "3px solid #ECAC60" }}>
@@ -83,11 +84,11 @@ export default function OwnerDrawVsSalaryPage() {
             </thead>
             <tbody>
               {[
-                ["Sole proprietor", "Owner draws", "Yes — on net profit", "No"],
-                ["Single-member LLC (default)", "Owner draws", "Yes — on net profit", "No"],
-                ["Partnership / multi-member LLC", "Guaranteed payments or allocations", "Yes — on SE income", "No (unless S-corp election)"],
-                ["S-corporation", "Reasonable salary + distributions", "On salary only (not distributions)", "Yes — W-2 required for shareholder-employees"],
-                ["C-corporation", "W-2 salary", "No SE tax — FICA applies", "Yes — owner-employees must be on payroll"],
+                ["Sole proprietor", "Owner draws", "Yes -- on net profit", "No"],
+                ["Single-member LLC (default)", "Owner draws", "Yes -- on net profit", "No"],
+                ["Partnership / multi-member LLC", "Guaranteed payments or allocations", "Yes -- on SE income", "No (unless S-corp election)"],
+                ["S-corporation", "Reasonable salary + distributions", "On salary only (not distributions)", "Yes -- W-2 required for shareholder-employees"],
+                ["C-corporation", "W-2 salary", "No SE tax -- FICA applies", "Yes -- owner-employees must be on payroll"],
               ].map(([entity, method, se, payroll], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? "#f9f9f9" : "#fff" }}>
                   <td style={{ padding: "10px 14px", borderBottom: "1px solid #eee" }}>{entity}</td>
@@ -102,7 +103,7 @@ export default function OwnerDrawVsSalaryPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>The S-Corp Advantage (and the Reasonable Salary Requirement)</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          The reason many profitable small businesses elect S-corp status is the opportunity to reduce self-employment tax. A sole proprietor pays 15.3% SE tax on all net profit up to the Social Security wage base ($168,600 in 2024). An S-corp shareholder-employee pays FICA only on wages — not on distributions. If your business nets $200,000, taking $100,000 as a salary and $100,000 as a distribution saves approximately $15,300 in SE tax compared to taking all $200,000 as a sole proprietor draw.
+          The reason many profitable small businesses elect S-corp status is the opportunity to reduce self-employment tax. A sole proprietor pays 15.3% SE tax on all net profit up to the Social Security wage base ($168,600 in 2024). An S-corp shareholder-employee pays FICA only on wages -- not on distributions. If your business nets $200,000, taking $100,000 as a salary and $100,000 as a distribution saves approximately $15,300 in SE tax compared to taking all $200,000 as a sole proprietor draw.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
           The catch is that the IRS requires the salary to be "reasonable." The <a href="https://www.irs.gov/businesses/small-businesses-self-employed/s-corporation-compensation-and-medical-insurance-issues" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>IRS guidance on S-corp reasonable compensation</a> lists factors they consider, including training and experience, time devoted to the business, what comparable businesses pay for similar services, and the business's dividend history. Setting an unreasonably low salary to maximize distributions is one of the most audited S-corp positions.

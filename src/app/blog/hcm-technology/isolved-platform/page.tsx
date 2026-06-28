@@ -19,33 +19,34 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is isolved and who is it built for?',
-    answer: 'isolved is a unified HCM (Human Capital Management) platform built for mid-market companies — typically 20 to 500 employees — that need more than a basic payroll processor but do not require the complexity or cost of enterprise platforms like Workday or Oracle. isolved consolidates payroll processing, benefits administration, time and attendance, talent management, and HR compliance into a single system. It is designed for companies that currently manage payroll and HR across multiple disconnected tools and want to eliminate the manual data transfer and reconciliation that creates between those systems.',
+    answer: 'isolved is a unified HCM (Human Capital Management) platform built for mid-market companies -- typically 20 to 500 employees -- that need more than a basic payroll processor but do not require the complexity or cost of enterprise platforms like Workday or Oracle. isolved consolidates payroll processing, benefits administration, time and attendance, talent management, and HR compliance into a single system. It is designed for companies that currently manage payroll and HR across multiple disconnected tools and want to eliminate the manual data transfer and reconciliation that creates between those systems.',
   },
   {
     question: 'What modules does isolved include?',
-    answer: 'isolved\'s core platform includes: payroll processing (federal and multi-state), benefits administration with carrier connectivity, time and attendance with scheduling, talent acquisition (applicant tracking and onboarding), performance management, learning management, HR compliance (ACA tracking, COBRA administration, FMLA tracking), and employee self-service via web and mobile. The platform is modular — companies can implement the full suite or start with payroll and add modules as needs grow. BEG configures and manages the platform for clients as part of the managed payroll engagement.',
+    answer: 'isolved\'s core platform includes: payroll processing (federal and multi-state), benefits administration with carrier connectivity, time and attendance with scheduling, talent acquisition (applicant tracking and onboarding), performance management, learning management, HR compliance (ACA tracking, COBRA administration, FMLA tracking), and employee self-service via web and mobile. The platform is modular -- companies can implement the full suite or start with payroll and add modules as needs grow. BEG configures and manages the platform for clients as part of the managed payroll engagement.',
   },
   {
     question: 'How does isolved compare to ADP and Paychex?',
-    answer: 'ADP and Paychex are both larger platforms with more name recognition and broader enterprise reach. isolved competes on mid-market fit, all-in-one integration depth, and total cost. ADP and Paychex both add fees for modules and services that isolved includes in the core platform. Both ADP and Paychex also have tiered support models where the quality of service correlates with spend tier — isolved clients working with BEG get dedicated managed service regardless of headcount. For companies in the 20–300 employee range, isolved consistently delivers comparable or superior functionality at lower total cost.',
+    answer: 'ADP and Paychex are both larger platforms with more name recognition and broader enterprise reach. isolved competes on mid-market fit, all-in-one integration depth, and total cost. ADP and Paychex both add fees for modules and services that isolved includes in the core platform. Both ADP and Paychex also have tiered support models where the quality of service correlates with spend tier -- isolved clients working with BEG get dedicated managed service regardless of headcount. For companies in the 20–300 employee range, isolved consistently delivers comparable or superior functionality at lower total cost.',
   },
   {
     question: 'What is isolved Connector for Claude?',
-    answer: 'isolved Connector for Claude is a generally available integration between isolved\'s HCM platform and Claude, Anthropic\'s AI assistant. The integration allows HR administrators to complete tasks within isolved using natural language instructions — running payroll, updating employee records, pulling compliance reports, generating analytics — rather than navigating platform menus. Competitors connect to AI tools for Q&A; isolved Connector for Claude completes the work. BEG is an authorized isolved reseller; clients using BEG managed payroll on isolved have access to this integration.',
+    answer: 'isolved Connector for Claude is a generally available integration between isolved\'s HCM platform and Claude, Anthropic\'s AI assistant. The integration allows HR administrators to complete tasks within isolved using natural language instructions -- running payroll, updating employee records, pulling compliance reports, generating analytics -- rather than navigating platform menus. Competitors connect to AI tools for Q&A; isolved Connector for Claude completes the work. BEG is an authorized isolved reseller; clients using BEG managed payroll on isolved have access to this integration.',
   },
   {
     question: 'Does switching to isolved require migrating from our current payroll system?',
-    answer: 'Moving to isolved involves a data migration from your current system — employee records, pay history, tax registrations, benefits elections. BEG manages this migration process as part of the implementation. Managed payroll activation typically takes 3–5 business days. Full isolved platform migration (data from a prior system, benefits carrier connectivity, integrations) adds 2–4 weeks depending on complexity. BEG also offers managed payroll within your existing system (ADP, Paychex, QuickBooks Payroll) if you prefer not to migrate — the migration to isolved is a separate decision from engaging BEG for managed payroll.',
+    answer: 'Moving to isolved involves a data migration from your current system -- employee records, pay history, tax registrations, benefits elections. BEG manages this migration process as part of the implementation. Managed payroll activation typically takes 3–5 business days. Full isolved platform migration (data from a prior system, benefits carrier connectivity, integrations) adds 2–4 weeks depending on complexity. BEG also offers managed payroll within your existing system (ADP, Paychex, QuickBooks Payroll) if you prefer not to migrate -- the migration to isolved is a separate decision from engaging BEG for managed payroll.',
   },
   {
     question: 'How does BEG fit into the isolved platform?',
-    answer: 'BEG is an authorized isolved reseller. Clients who want isolved managed under BEG\'s service model get the platform configured and operated by BEG — payroll processing, compliance monitoring, tax filing, benefits administration coordination, employee self-service setup, and ongoing platform management. The client\'s payment relationship is with BEG at $25–$45 PEPM all-inclusive. BEG handles the isolved relationship and platform management so the client interacts with BEG, not with isolved support queues.',
+    answer: 'BEG is an authorized isolved reseller. Clients who want isolved managed under BEG\'s service model get the platform configured and operated by BEG -- payroll processing, compliance monitoring, tax filing, benefits administration coordination, employee self-service setup, and ongoing platform management. The client\'s payment relationship is with BEG at $25–$45 PEPM all-inclusive. BEG handles the isolved relationship and platform management so the client interacts with BEG, not with isolved support queues.',
   },
 ];
 
 export default function iSolvedPlatformPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "iSolved HCM Platform Review: Modules, Pricing & Fit (2026)", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/isolved-platform"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -64,7 +65,7 @@ export default function iSolvedPlatformPage() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
         <p>Most growing companies reach the same inflection point somewhere between 25 and 75 employees: the payroll processor they started with no longer fits, benefits administration has outgrown a spreadsheet, and HR is spending more time reconciling data between disconnected systems than doing actual HR work.</p>
 
-        <p>isolved is the HCM platform designed for this moment. It consolidates payroll, benefits, time and attendance, and talent management into a single system — eliminating the manual data transfer and reconciliation that creates errors and absorbs HR time in multi-tool environments.</p>
+        <p>isolved is the HCM platform designed for this moment. It consolidates payroll, benefits, time and attendance, and talent management into a single system -- eliminating the manual data transfer and reconciliation that creates errors and absorbs HR time in multi-tool environments.</p>
 
         <p>This review covers what isolved includes, how it compares to the major alternatives, who it fits best, and how BEG manages it as an authorized reseller.</p>
 
@@ -118,11 +119,11 @@ export default function iSolvedPlatformPage() {
             <tbody>
               {[
                 ['Best for company size', '20–500 employees', '100–5,000+', '50–500+', '1–100 employees'],
-                ['Unified platform', 'Yes — all-in-one', 'Yes, with add-ons', 'Yes, with add-ons', 'Limited'],
+                ['Unified platform', 'Yes -- all-in-one', 'Yes, with add-ons', 'Yes, with add-ons', 'Limited'],
                 ['AI integration', 'Connector for Claude (GA)', 'ADP Assist (beta)', 'Limited', 'None announced'],
                 ['Multi-state payroll', 'All 50 states', 'All 50 states', 'All 50 states', 'All 50 states'],
                 ['Managed service option', 'Yes (via BEG)', 'ADP TotalSource (PEO)', 'HR outsourcing tiers', 'No'],
-                ['Pricing model', '$25–$45 PEPM via BEG', 'Quoted — $20–$60+ PEPM', 'Quoted — tiered', '$6–$12 PEPM base + add-ons'],
+                ['Pricing model', '$25–$45 PEPM via BEG', 'Quoted -- $20–$60+ PEPM', 'Quoted -- tiered', '$6–$12 PEPM base + add-ons'],
                 ['Contract terms', 'Month-to-month (BEG)', 'Annual', 'Annual', 'Monthly'],
                 ['Implementation', 'Managed by BEG', 'Self-guided or paid impl.', 'Self-guided or paid impl.', 'Self-guided'],
               ].map(([factor, isolved, adp, paychex, gusto], i) => (
@@ -142,13 +143,13 @@ export default function iSolvedPlatformPage() {
 
         <p>isolved launched its Connector for Claude in June 2026, making it generally available in Claude's connector directory. The integration addresses a limitation of AI-assisted HR tools that previously stopped at answering questions.</p>
 
-        <p>The distinction matters in practice: a chatbot that answers "What is the overtime threshold in California?" gives you information. isolved Connector for Claude can run the payroll cycle, update an employee's direct deposit, pull a compliance report, or adjust a benefits election — directly within isolved, triggered by a natural language instruction. The work happens in the platform, not in the conversation window.</p>
+        <p>The distinction matters in practice: a chatbot that answers "What is the overtime threshold in California?" gives you information. isolved Connector for Claude can run the payroll cycle, update an employee's direct deposit, pull a compliance report, or adjust a benefits election -- directly within isolved, triggered by a natural language instruction. The work happens in the platform, not in the conversation window.</p>
 
         <p>For HR teams using isolved, this means exception handling, one-off requests, and reporting tasks that previously required navigating platform menus can be completed conversationally. BEG clients on isolved have access to this integration as part of the platform configuration.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>isolved, Managed by BEG at $25–$45 PEPM.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Full platform — payroll, benefits, time, talent, Connector for Claude — configured and managed by BEG. No platform management on your team's plate. Book a 15-minute call to see what your company size costs.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Full platform -- payroll, benefits, time, talent, Connector for Claude -- configured and managed by BEG. No platform management on your team's plate. Book a 15-minute call to see what your company size costs.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
@@ -174,7 +175,7 @@ export default function iSolvedPlatformPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads HCM platform and managed payroll solutions at Business Executive Group. BEG is an authorized isolved reseller — configuring, implementing, and managing the full isolved platform for clients at $25–$45 PEPM all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads HCM platform and managed payroll solutions at Business Executive Group. BEG is an authorized isolved reseller -- configuring, implementing, and managing the full isolved platform for clients at $25–$45 PEPM all-inclusive.</p>
         </div>
       </section>
 
@@ -186,7 +187,7 @@ export default function iSolvedPlatformPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'BlogPosting',
         headline: 'iSolved HCM Platform Review: Modules, Pricing, and Who It\'s Built For (2026)',
-        description: 'Full isolved HCM platform review — modules, competitor comparison, Connector for Claude, and how BEG manages isolved at $25–$45 PEPM.',
+        description: 'Full isolved HCM platform review -- modules, competitor comparison, Connector for Claude, and how BEG manages isolved at $25–$45 PEPM.',
         datePublished: '2026-06-25', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
         publisher: { '@type': 'Organization', name: 'Business Executive Group', logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' } },

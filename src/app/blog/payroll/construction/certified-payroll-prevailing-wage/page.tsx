@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "What is prevailing wage and how is it determined?",
-    answer: "Prevailing wage is the minimum wage rate, including fringe benefits, that must be paid to workers on government-funded construction projects. Federal prevailing wages are set by the Department of Labor under the Davis-Bacon Act and vary by county and craft classification. State prevailing wage laws (sometimes called Little Davis-Bacon Acts) may set different rates for state-funded projects. Rates are updated periodically and vary significantly by location and trade — a carpenter in one county may have a different prevailing wage than a carpenter 50 miles away.",
+    answer: "Prevailing wage is the minimum wage rate, including fringe benefits, that must be paid to workers on government-funded construction projects. Federal prevailing wages are set by the Department of Labor under the Davis-Bacon Act and vary by county and craft classification. State prevailing wage laws (sometimes called Little Davis-Bacon Acts) may set different rates for state-funded projects. Rates are updated periodically and vary significantly by location and trade -- a carpenter in one county may have a different prevailing wage than a carpenter 50 miles away.",
   },
   {
     question: "We have workers who perform multiple trades on a project. How do we handle mixed classifications?",
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: "What happens if we make a mistake on certified payroll?",
-    answer: "Errors on certified payroll can result in back-wage assessments, contract suspension, debarment from future federal contracts, and civil or criminal penalties for knowingly false certifications. The severity depends on whether the error was inadvertent or deliberate. Inadvertent errors that are self-corrected quickly typically result in back-wage payments with minimal penalties. Deliberate underpayment or falsified certifications can result in debarment for up to 3 years under Davis-Bacon. Compliance is not optional — the certifying officer signs under penalty of perjury.",
+    answer: "Errors on certified payroll can result in back-wage assessments, contract suspension, debarment from future federal contracts, and civil or criminal penalties for knowingly false certifications. The severity depends on whether the error was inadvertent or deliberate. Inadvertent errors that are self-corrected quickly typically result in back-wage payments with minimal penalties. Deliberate underpayment or falsified certifications can result in debarment for up to 3 years under Davis-Bacon. Compliance is not optional -- the certifying officer signs under penalty of perjury.",
   },
   {
     question: "Can BEG handle both our commercial work payroll and our prevailing wage project payroll?",
@@ -46,6 +46,7 @@ const faqs = [
 export default function CertifiedPayrollPrevailingWagePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -93,7 +94,7 @@ export default function CertifiedPayrollPrevailingWagePage() {
           <li>Net pay</li>
         </ul>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          The contractor's certifying officer signs a statement declaring under penalty of perjury that wages and fringe benefits were paid as stated. This is not a formality — knowingly false certifications carry criminal penalties under federal law.
+          The contractor's certifying officer signs a statement declaring under penalty of perjury that wages and fringe benefits were paid as stated. This is not a formality -- knowingly false certifications carry criminal penalties under federal law.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Prevailing Wage Rates by Classification</h2>
@@ -137,7 +138,7 @@ export default function CertifiedPayrollPrevailingWagePage() {
           <li>Standard commercial payroll for non-public-works employees on the same roster</li>
           <li>Multi-state prevailing wage compliance for contractors working across state lines</li>
           <li>Audit support documentation</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

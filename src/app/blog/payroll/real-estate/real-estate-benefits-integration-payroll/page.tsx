@@ -37,6 +37,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Real Estate Payroll: Benefits Integration | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/real-estate/real-estate-benefits-integration-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -70,7 +71,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Most Payroll Software Misses for Real Estate Agencies</h2>
 
-        <p>commission-only agent payroll, agent contractor vs W-2 classification, split commission processing, draw-against-commission structures are rarely handled correctly out of the box in standard payroll software. These require configuration work — and if you do not know the correct rules, you configure them wrong.</p>
+        <p>commission-only agent payroll, agent contractor vs W-2 classification, split commission processing, draw-against-commission structures are rarely handled correctly out of the box in standard payroll software. These require configuration work -- and if you do not know the correct rules, you configure them wrong.</p>
 
         <p>Managed payroll from BEG eliminates the configuration risk. We set up your pay codes based on what real estate agencies actually need, not generic defaults.</p>
 

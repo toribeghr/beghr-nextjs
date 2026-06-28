@@ -3,17 +3,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG',
-  description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner.',
+  description: 'How to set a reasonable S-corp salary for a marketing agency owner -- what the IRS requires, what counts as reasonable compensation, and how owner.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll' },
   openGraph: {
     title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG',
-    description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner distri...',
+    description: 'How to set a reasonable S-corp salary for a marketing agency owner -- what the IRS requires, what counts as reasonable compensation, and how owner distri...',
     url: 'https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG', description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner distri...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG', description: 'How to set a reasonable S-corp salary for a marketing agency owner -- what the IRS requires, what counts as reasonable compensation, and how owner distri...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
@@ -28,17 +28,18 @@ const faqs = [
   },
   {
     q: 'Can the owner-salary be lower in slow revenue months?',
-    a: 'S-corp shareholders must be paid on a salary basis — meaning a set amount per pay period — not based on revenue fluctuations. If cash flow is the concern, the salary should reflect a sustainable floor and distributions (taken separately) can vary with agency cash position. Fluctuating "salaries" that mirror revenue look like distributions dressed up as wages to avoid FICA in reverse.',
+    a: 'S-corp shareholders must be paid on a salary basis -- meaning a set amount per pay period -- not based on revenue fluctuations. If cash flow is the concern, the salary should reflect a sustainable floor and distributions (taken separately) can vary with agency cash position. Fluctuating "salaries" that mirror revenue look like distributions dressed up as wages to avoid FICA in reverse.',
   },
   {
     q: 'How do owner draws differ from salary?',
-    a: 'An S-corp does not have "owner draws" in the same sense as a sole proprietorship. Owners take two types of payments: W-2 salary (processed through payroll, subject to FICA) and distributions (ownership distributions of profit, not subject to FICA, taken outside payroll). The strategy is to pay a reasonable salary and supplement income with distributions — not to avoid salary altogether.',
+    a: 'An S-corp does not have "owner draws" in the same sense as a sole proprietorship. Owners take two types of payments: W-2 salary (processed through payroll, subject to FICA) and distributions (ownership distributions of profit, not subject to FICA, taken outside payroll). The strategy is to pay a reasonable salary and supplement income with distributions -- not to avoid salary altogether.',
   },
 ];
 
 export default function SCorpOwnerSalaryPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function SCorpOwnerSalaryPage() {
               <p className="eyebrow">Payroll · Marketing Agencies</p>
               <h1>S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                Marketing agency owners operating as S-corps must pay themselves a reasonable salary through payroll — not just take distributions. The IRS is watching, and the penalties for getting it wrong are significant.
+                Marketing agency owners operating as S-corps must pay themselves a reasonable salary through payroll -- not just take distributions. The IRS is watching, and the penalties for getting it wrong are significant.
               </p>
             </div>
           </div>
@@ -56,7 +57,7 @@ export default function SCorpOwnerSalaryPage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          The S-corp structure is popular among marketing agency owners because it allows business profits to pass through to the owner without double taxation — and because S-corp distributions are not subject to self-employment (FICA) taxes. The tax savings are real. But the IRS requires that S-corp shareholders who work in the business pay themselves a "reasonable salary" through payroll before taking distributions. Owners who skip the salary to maximize FICA savings are creating significant audit exposure.
+          The S-corp structure is popular among marketing agency owners because it allows business profits to pass through to the owner without double taxation -- and because S-corp distributions are not subject to self-employment (FICA) taxes. The tax savings are real. But the IRS requires that S-corp shareholders who work in the business pay themselves a "reasonable salary" through payroll before taking distributions. Owners who skip the salary to maximize FICA savings are creating significant audit exposure.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>How S-Corp Compensation Works in Payroll</h2>
@@ -64,7 +65,7 @@ export default function SCorpOwnerSalaryPage() {
           {[
             { label: 'W-2 salary', body: 'The owner is added to payroll as a regular W-2 employee. A set salary amount is paid each pay period. Federal and state income tax is withheld. FICA (Social Security and Medicare) is withheld from the employee\'s wages and matched by the employer (the S-corp). The total FICA cost is 15.3% of salary.' },
             { label: 'Profit distributions', body: 'After the S-corp pays all business expenses, including the owner\'s salary, remaining profit can be distributed to shareholders in proportion to ownership. Distributions are not subject to FICA and are reported on Schedule K-1 for the shareholder\'s personal return.' },
-            { label: 'The FICA savings zone', body: 'The tax benefit of S-corp status comes from paying only FICA on salary — not on the entire profit. An owner earning $200K in net profit who takes a $100K salary saves FICA on the remaining $100K distributed. The key is that the salary must be "reasonable" for the actual work performed.' },
+            { label: 'The FICA savings zone', body: 'The tax benefit of S-corp status comes from paying only FICA on salary -- not on the entire profit. An owner earning $200K in net profit who takes a $100K salary saves FICA on the remaining $100K distributed. The key is that the salary must be "reasonable" for the actual work performed.' },
           ].map(({ label, body }) => (
             <div key={label} style={{ border: '1px solid #e5e5e5', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
               <strong style={{ display: 'block', marginBottom: '0.25rem' }}>{label}</strong>
@@ -75,7 +76,7 @@ export default function SCorpOwnerSalaryPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>What "Reasonable Compensation" Means for Agency Owners</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          The IRS defines reasonable compensation as the amount a similar business would pay for comparable services in an arm's-length transaction. For a marketing agency owner who actively manages the business, this is not a token salary — it is what the market pays for the actual work being performed.
+          The IRS defines reasonable compensation as the amount a similar business would pay for comparable services in an arm's-length transaction. For a marketing agency owner who actively manages the business, this is not a token salary -- it is what the market pays for the actual work being performed.
         </p>
         <div style={{ overflowX: 'auto', marginBottom: '2rem' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
@@ -131,9 +132,9 @@ export default function SCorpOwnerSalaryPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/marketing-agency">Managed Payroll for Marketing Agencies</Link> — full service details</li>
-            <li><Link href="/blog/payroll/marketing-agency/marketing-agency-remote-payroll">Multi-State Remote Payroll for Agencies</Link> — compliance guide</li>
-            <li><Link href="/blog/payroll/marketing-agency/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Agencies</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/marketing-agency">Managed Payroll for Marketing Agencies</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/marketing-agency/marketing-agency-remote-payroll">Multi-State Remote Payroll for Agencies</Link> -- compliance guide</li>
+            <li><Link href="/blog/payroll/marketing-agency/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Agencies</Link> -- cost comparison</li>
           </ul>
         </div>
 

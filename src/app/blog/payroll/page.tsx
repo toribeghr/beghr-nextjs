@@ -128,7 +128,7 @@ const informationalPosts = [
   },
   {
     title: 'EVV and Payroll Reconciliation: Resolving the Five Most Common Discrepancy Types',
-    description: 'Missed clock-outs, GPS flags, extended visits, travel gaps, and substitute aides — a step-by-step reconciliation workflow for home health agencies.',
+    description: 'Missed clock-outs, GPS flags, extended visits, travel gaps, and substitute aides -- a step-by-step reconciliation workflow for home health agencies.',
     slug: '/blog/payroll/home-health/evv-payroll-reconciliation',
   },
   {

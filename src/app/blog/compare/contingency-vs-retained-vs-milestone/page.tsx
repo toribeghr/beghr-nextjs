@@ -21,6 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function ContingencyVsRetainedVsMilestonePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Contingency vs Retained vs Milestone | 50% Less Cost. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -28,7 +29,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
               <p className="eyebrow">Blog · Legal Recruiting · Comparison</p>
               <h1>Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm?</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>
-                Most law firms know contingency. Fewer understand retained search. Almost none have heard of milestone-based placement — which happens to be the model that changes the cost equation entirely.
+                Most law firms know contingency. Fewer understand retained search. Almost none have heard of milestone-based placement -- which happens to be the model that changes the cost equation entirely.
               </p>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
@@ -42,7 +43,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
         <p>
-          When a law firm needs to hire an attorney, most managing partners reach for the same tool they've always used: call a recruiter, see who they surface, pay if someone starts. That's contingency. It works — until it doesn't, and when it doesn't, it's expensive.
+          When a law firm needs to hire an attorney, most managing partners reach for the same tool they've always used: call a recruiter, see who they surface, pay if someone starts. That's contingency. It works -- until it doesn't, and when it doesn't, it's expensive.
         </p>
         <p>
           This page breaks down how all three legal recruiting models work, what each one actually costs, and when each makes sense for a firm.
@@ -67,7 +68,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
                 ['When you pay', 'Only when candidate starts', 'Upfront + stages', 'Only at placement milestones'],
                 ['Typical fee', '20–35% of first-year comp', '25–35% + upfront retainer', 'Roughly 50% less than contingency'],
                 ['Exclusivity', 'Non-exclusive', 'Exclusive to recruiter', 'Non-exclusive'],
-                ['Search quality', 'Variable — active candidates', 'Dedicated, passive network', 'Passive candidate pipeline'],
+                ['Search quality', 'Variable -- active candidates', 'Dedicated, passive network', 'Passive candidate pipeline'],
                 ['Average time to fill', '60–120+ days', '45–90 days', '23–35 days'],
                 ['Fill rate', '40–60%', '70–85%', '86%'],
                 ['Risk if no placement', 'You owe nothing', 'You lose retainer', 'You owe nothing'],
@@ -97,7 +98,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Recruiters prioritize their highest-fee opportunities.</strong> If you're running a non-exclusive contingency search, your opening is competing for recruiter attention against every other client they have. Roles that are difficult to fill or lower-fee get deprioritized.</li>
-          <li><strong>Candidates presented are often already shopping.</strong> Active candidates — the ones willing to apply through multiple recruiters — are a fraction of the available market. The best lateral hires are passive candidates who aren't actively looking.</li>
+          <li><strong>Candidates presented are often already shopping.</strong> Active candidates -- the ones willing to apply through multiple recruiters -- are a fraction of the available market. The best lateral hires are passive candidates who aren't actively looking.</li>
           <li><strong>Fees are high relative to the service level.</strong> A 25–30% contingency fee on a $200,000 associate hire is $50,000–$60,000. For a search with no exclusivity, no dedicated effort, and a 50/50 chance of filling the role.</li>
           <li><strong>Searches drag on.</strong> Average time to fill for contingency legal searches runs 60–120+ days, partly because the recruiter isn't exclusively focused on your role.</li>
         </ul>
@@ -131,11 +132,11 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>You pay nothing upfront.</strong> No retainer. No commitment fees.</li>
-          <li><strong>Payments are tied to milestones</strong> — typically at candidate presentation and at start date.</li>
+          <li><strong>Payments are tied to milestones</strong> -- typically at candidate presentation and at start date.</li>
           <li><strong>Fees are roughly 50% less than standard contingency.</strong> This is possible because of the iSolved platform infrastructure, which reduces the manual sourcing overhead traditional recruiters face.</li>
-          <li><strong>The candidate pool is passive, not just active.</strong> BEG's pipeline sources candidates who aren't actively on job boards — the same pool retained firms access, at a fraction of the cost.</li>
-          <li><strong>45-day replacement guarantee</strong> — if the placed attorney leaves within 45 days, BEG fills the role again at no additional fee. 50% discount on repeat hires for the same role description.</li>
-          <li><strong>Payment goes to iSolved directly</strong> — BEG is the authorized reseller; your firm's payment relationship is with iSolved.</li>
+          <li><strong>The candidate pool is passive, not just active.</strong> BEG's pipeline sources candidates who aren't actively on job boards -- the same pool retained firms access, at a fraction of the cost.</li>
+          <li><strong>45-day replacement guarantee</strong> -- if the placed attorney leaves within 45 days, BEG fills the role again at no additional fee. 50% discount on repeat hires for the same role description.</li>
+          <li><strong>Payment goes to iSolved directly</strong> -- BEG is the authorized reseller; your firm's payment relationship is with iSolved.</li>
         </ul>
         <p>
           The average fill time in BEG's placement program is 23–35 days, with an 86% fill rate across completed searches.
@@ -143,7 +144,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>How long has your current attorney search been open?</h3>
-          <p style={{ marginBottom: '1.5rem' }}>If it's been more than 30 days, we should talk. We'll show you what the BEG placement model looks like for your specific role — cost, timeline, and what the process involves.</p>
+          <p style={{ marginBottom: '1.5rem' }}>If it's been more than 30 days, we should talk. We'll show you what the BEG placement model looks like for your specific role -- cost, timeline, and what the process involves.</p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
             Book a Free Discovery Call →
@@ -182,7 +183,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Find out if BEG placement is right for your open role</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll ask about your role, timeline, and what you've tried — and give you a straight answer on whether the milestone model fits.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll ask about your role, timeline, and what you've tried -- and give you a straight answer on whether the milestone model fits.</p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
             Book a Discovery Call →
@@ -190,7 +191,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
-          <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales — Business Executive Group</strong>
+          <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales -- Business Executive Group</strong>
           <p style={{ margin: 0, color: '#444' }}>Anthony works with law firm managing partners and hiring partners to evaluate attorney recruiting models and find placements that close faster at significantly lower cost than traditional contingency search.</p>
         </div>
 
@@ -200,7 +201,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm?',
-        description: 'Full comparison of contingency, retained, and milestone-based legal recruiting for law firms — cost, fill rates, timelines, and when each model makes sense.',
+        description: 'Full comparison of contingency, retained, and milestone-based legal recruiting for law firms -- cost, fill rates, timelines, and when each model makes sense.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
         publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },

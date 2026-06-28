@@ -19,19 +19,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What happens if we already missed a 2026 compliance change?',
-    answer: 'The IRS and most states allow employers to correct payroll compliance errors before penalties escalate, but the window is narrow. For tax withholding errors, filing an amended return (Form 941-X at the federal level, state equivalents) and paying the underpayment with interest typically resolves the issue. For minimum wage underpayments, back-pay liability accrues from the effective date of the change. The first step is identifying the gap — BEG can help you assess your current compliance posture on a discovery call.',
+    answer: 'The IRS and most states allow employers to correct payroll compliance errors before penalties escalate, but the window is narrow. For tax withholding errors, filing an amended return (Form 941-X at the federal level, state equivalents) and paying the underpayment with interest typically resolves the issue. For minimum wage underpayments, back-pay liability accrues from the effective date of the change. The first step is identifying the gap -- BEG can help you assess your current compliance posture on a discovery call.',
   },
   {
     question: 'How does multi-state payroll affect nexus and tax exposure?',
-    answer: 'When an employee works in a state, the employer typically has payroll tax nexus in that state — meaning they must withhold that state\'s income tax, pay state unemployment insurance, and comply with that state\'s paid leave laws. Remote-first companies with employees in 15-25 states have 15-25 separate payroll compliance obligations. Most small payroll systems are not built for this. isolved handles multi-state payroll natively, applying the correct rates and filing requirements for each employee\'s work state automatically.',
+    answer: 'When an employee works in a state, the employer typically has payroll tax nexus in that state -- meaning they must withhold that state\'s income tax, pay state unemployment insurance, and comply with that state\'s paid leave laws. Remote-first companies with employees in 15-25 states have 15-25 separate payroll compliance obligations. Most small payroll systems are not built for this. isolved handles multi-state payroll natively, applying the correct rates and filing requirements for each employee\'s work state automatically.',
   },
   {
     question: 'What is the ACA affordability threshold for 2026?',
-    answer: 'The IRS adjusts the ACA affordability percentage annually. For plan year 2026, employers should confirm the current threshold before open enrollment. The affordability test determines whether employer-sponsored coverage is considered affordable for ACA purposes — if employee cost exceeds the threshold, the employer may face Employer Shared Responsibility penalties. isolved tracks the current threshold and flags plans that may fail the affordability test.',
+    answer: 'The IRS adjusts the ACA affordability percentage annually. For plan year 2026, employers should confirm the current threshold before open enrollment. The affordability test determines whether employer-sponsored coverage is considered affordable for ACA purposes -- if employee cost exceeds the threshold, the employer may face Employer Shared Responsibility penalties. isolved tracks the current threshold and flags plans that may fail the affordability test.',
   },
   {
     question: 'How does isolved handle compliance updates when laws change?',
-    answer: 'isolved maintains tax tables and compliance configuration for all 50 states. When a state updates its minimum wage, withholding tables, unemployment rate, or paid leave requirements, isolved updates the platform. Employers receive notifications before effective dates for changes that require employer action (such as benefits adjustments or rate elections). For most changes — tax table updates, minimum wage increases, ACA threshold adjustments — isolved applies them automatically without requiring employer configuration.',
+    answer: 'isolved maintains tax tables and compliance configuration for all 50 states. When a state updates its minimum wage, withholding tables, unemployment rate, or paid leave requirements, isolved updates the platform. Employers receive notifications before effective dates for changes that require employer action (such as benefits adjustments or rate elections). For most changes -- tax table updates, minimum wage increases, ACA threshold adjustments -- isolved applies them automatically without requiring employer configuration.',
   },
   {
     question: 'What are the certified payroll requirements for government contractors?',
@@ -47,8 +47,8 @@ const complianceChangesRows = [
   ['State minimum wage increases', '1/1/2026 or 7/1/2026 (varies by state)', 'All employers with employees in affected states', 'CA $16.50, WA $16.66, CO $14.81, FL $14.00 (phased)'],
   ['Expanded paid leave mandates', 'Varies by state', 'Employers in CO, MA, MD, OR and others', 'New states adding programs; existing programs expanding'],
   ['1099-K reporting threshold', 'Tax year 2026 (file in 2027)', 'Payment platform users and payers', 'IRS phased threshold reduction continues'],
-  ['ACA affordability percentage', 'Plan year 2026', 'ALE employers (50+ FTEs)', 'IRS adjusts annually — confirm before open enrollment'],
-  ['FUTA credit reduction states', 'Year-end 2026', 'Employers in states with Title XII loans', 'Check IRS list annually — affects effective FUTA rate'],
+  ['ACA affordability percentage', 'Plan year 2026', 'ALE employers (50+ FTEs)', 'IRS adjusts annually -- confirm before open enrollment'],
+  ['FUTA credit reduction states', 'Year-end 2026', 'Employers in states with Title XII loans', 'Check IRS list annually -- affects effective FUTA rate'],
   ['State UI rate updates', '1/1/2026', 'All employers in each state', 'States reset unemployment insurance rates annually'],
 ];
 
@@ -71,15 +71,16 @@ const manualVsAutomatedRows = [
 ];
 
 const compliancePostureRows = [
-  ['Manual payroll, spreadsheets, or basic payroll-only tool', 'High risk — likely missing multi-state and paid leave updates'],
-  ['Mid-tier payroll platform (Gusto, Wave, basic ADP)', 'Moderate risk — core federal compliance but state gaps common'],
-  ['isolved People Cloud with BEG implementation', 'Low risk — automated updates, multi-state native, ACA tracking built in'],
-  ['Remote workforce in 10+ states', 'Elevated risk regardless of platform — audit compliance posture now'],
+  ['Manual payroll, spreadsheets, or basic payroll-only tool', 'High risk -- likely missing multi-state and paid leave updates'],
+  ['Mid-tier payroll platform (Gusto, Wave, basic ADP)', 'Moderate risk -- core federal compliance but state gaps common'],
+  ['isolved People Cloud with BEG implementation', 'Low risk -- automated updates, multi-state native, ACA tracking built in'],
+  ['Remote workforce in 10+ states', 'Elevated risk regardless of platform -- audit compliance posture now'],
 ];
 
 export default function PayrollCompliancePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/payroll-compliance"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -98,11 +99,11 @@ export default function PayrollCompliancePage() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
 
         <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>
-          33% of employers receive a payroll penalty from the IRS annually. The average penalty runs $845 to $5,000 per incident. In 2026, several compliance changes went into effect — state minimum wage updates, expanded paid leave mandates, ACA affordability threshold adjustments, and unemployment insurance rate resets — that many employers are still not handling correctly, particularly those with remote employees in multiple states.
+          33% of employers receive a payroll penalty from the IRS annually. The average penalty runs $845 to $5,000 per incident. In 2026, several compliance changes went into effect -- state minimum wage updates, expanded paid leave mandates, ACA affordability threshold adjustments, and unemployment insurance rate resets -- that many employers are still not handling correctly, particularly those with remote employees in multiple states.
         </p>
 
         <p>
-          This guide covers what changed in 2026, what the penalty exposure looks like when you get it wrong, and how HCM software — specifically isolved People Cloud — automates compliance so the system tracks the changes rather than your payroll administrator.
+          This guide covers what changed in 2026, what the penalty exposure looks like when you get it wrong, and how HCM software -- specifically isolved People Cloud -- automates compliance so the system tracks the changes rather than your payroll administrator.
         </p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -144,7 +145,7 @@ export default function PayrollCompliancePage() {
         </h2>
 
         <p>
-          Payroll compliance errors do not stay small. Penalties compound. IRS failure-to-deposit penalties increase based on how late the payment is — 2% for 1-5 days late, 5% for 6-15 days late, 10% for more than 15 days late, and 15% if the underpayment is not resolved after IRS notice. State penalties stack on top of federal.
+          Payroll compliance errors do not stay small. Penalties compound. IRS failure-to-deposit penalties increase based on how late the payment is -- 2% for 1-5 days late, 5% for 6-15 days late, 10% for more than 15 days late, and 15% if the underpayment is not resolved after IRS notice. State penalties stack on top of federal.
         </p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
@@ -226,15 +227,15 @@ export default function PayrollCompliancePage() {
         </p>
 
         <ul style={{ paddingLeft: '1.5rem', lineHeight: '2' }}>
-          <li><strong>Automated federal and state tax table updates</strong> — applied before effective dates without employer action</li>
-          <li><strong>ACA measurement period tracking</strong> — monitors employee hours across look-back periods and flags employees approaching full-time thresholds</li>
-          <li><strong>1095-C generation</strong> — produced automatically from ACA tracking data for IRS filing</li>
-          <li><strong>Wage garnishment processing</strong> — applies garnishment orders per state calculation rules, remits to appropriate agencies</li>
-          <li><strong>Audit trail generation</strong> — all payroll actions are logged with timestamps and user attribution for audit defense</li>
-          <li><strong>I-9 compliance</strong> — electronic I-9 collection and retention with re-verification reminders for expiring work authorization</li>
-          <li><strong>Year-end W-2 and 1099 production</strong> — generated from payroll data, distributed electronically or by mail</li>
-          <li><strong>State new hire reporting</strong> — submitted automatically per state requirements when new employees are added</li>
-          <li><strong>Multi-state unemployment insurance</strong> — correct rate application by work state with quarterly reporting</li>
+          <li><strong>Automated federal and state tax table updates</strong> -- applied before effective dates without employer action</li>
+          <li><strong>ACA measurement period tracking</strong> -- monitors employee hours across look-back periods and flags employees approaching full-time thresholds</li>
+          <li><strong>1095-C generation</strong> -- produced automatically from ACA tracking data for IRS filing</li>
+          <li><strong>Wage garnishment processing</strong> -- applies garnishment orders per state calculation rules, remits to appropriate agencies</li>
+          <li><strong>Audit trail generation</strong> -- all payroll actions are logged with timestamps and user attribution for audit defense</li>
+          <li><strong>I-9 compliance</strong> -- electronic I-9 collection and retention with re-verification reminders for expiring work authorization</li>
+          <li><strong>Year-end W-2 and 1099 production</strong> -- generated from payroll data, distributed electronically or by mail</li>
+          <li><strong>State new hire reporting</strong> -- submitted automatically per state requirements when new employees are added</li>
+          <li><strong>Multi-state unemployment insurance</strong> -- correct rate application by work state with quarterly reporting</li>
         </ul>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -261,11 +262,11 @@ export default function PayrollCompliancePage() {
         </div>
 
         <p>
-          The elevated risk for remote-first companies holds regardless of payroll platform quality. Multi-state compliance is a function of how many jurisdictions you operate in and whether your payroll system maintains compliance for each of them. Most platforms maintain federal compliance reliably. State compliance — particularly for paid leave, minimum wage patchwork, and UI rate accuracy — varies significantly by platform.
+          The elevated risk for remote-first companies holds regardless of payroll platform quality. Multi-state compliance is a function of how many jurisdictions you operate in and whether your payroll system maintains compliance for each of them. Most platforms maintain federal compliance reliably. State compliance -- particularly for paid leave, minimum wage patchwork, and UI rate accuracy -- varies significantly by platform.
         </p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
-          <h3 style={{ color: '#000000', margin: 0 }}>Book a Compliance Review — 15 Minutes</h3>
+          <h3 style={{ color: '#000000', margin: 0 }}>Book a Compliance Review -- 15 Minutes</h3>
           <p style={{ marginBottom: '1.5rem' }}>BEG will review your current payroll setup, identify compliance gaps by state, and show you how isolved People Cloud closes them. No obligation.</p>
           <a
             href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"

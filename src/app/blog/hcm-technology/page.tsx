@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const posts = [
   {
     title: 'iSolved HCM Platform: Cloud Payroll & HR for Growing Companies (2026)',
-    description: 'Full isolved platform review — payroll, benefits, time and attendance, talent management, and the Connector for Claude. Who isolved fits best and how BEG manages it for you.',
+    description: 'Full isolved platform review -- payroll, benefits, time and attendance, talent management, and the Connector for Claude. Who isolved fits best and how BEG manages it for you.',
     slug: '/blog/hcm-technology/isolved-platform',
   },
   {
@@ -103,7 +103,7 @@ export default function BlogHcmTechnologyPage() {
           <p className="eyebrow">Managed by BEG</p>
           <h2>You do not have to run isolved yourself.</h2>
           <p style={{ color: '#444', lineHeight: '1.7', marginBottom: '2rem' }}>
-            BEG configures and fully manages the isolved platform for your organization — payroll processing, benefits administration, compliance updates, and year-end filings. No system to learn, no implementation project to manage. We handle it at $25–$45 per employee per month, all-inclusive.
+            BEG configures and fully manages the isolved platform for your organization -- payroll processing, benefits administration, compliance updates, and year-end filings. No system to learn, no implementation project to manage. We handle it at $25–$45 per employee per month, all-inclusive.
           </p>
           <Link
             href="/services/managed-payroll"

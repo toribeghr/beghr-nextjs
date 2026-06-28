@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How do you handle shift differentials for clinical staff?',
-    answer: 'Shift differentials are configured per role and shift type — day, evening, night, weekend, on-call, and holiday rates are each set up separately. Hours are allocated by shift type each pay period and the correct rate is applied automatically. The output is a clean pay stub showing base hours and differential hours at the correct rates, with overtime calculated correctly across all hours worked in the week.',
+    answer: 'Shift differentials are configured per role and shift type -- day, evening, night, weekend, on-call, and holiday rates are each set up separately. Hours are allocated by shift type each pay period and the correct rate is applied automatically. The output is a clean pay stub showing base hours and differential hours at the correct rates, with overtime calculated correctly across all hours worked in the week.',
   },
   {
     question: 'Can you manage RVU-based compensation for physicians and advanced practice providers?',
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: 'What about ACA compliance for practices with part-time clinical support staff?',
-    answer: 'We track ACA measurement periods for all employees, including part-time clinical support staff who may cross the 30-hour full-time threshold. We alert you in advance of employees approaching full-time status under ACA, run the affordability calculation, and produce the 1095-C forms at year-end. ACA penalty exposure for mid-size practices can be $2,880–$4,320 per full-time equivalent — we prevent that.',
+    answer: 'We track ACA measurement periods for all employees, including part-time clinical support staff who may cross the 30-hour full-time threshold. We alert you in advance of employees approaching full-time status under ACA, run the affordability calculation, and produce the 1095-C forms at year-end. ACA penalty exposure for mid-size practices can be $2,880–$4,320 per full-time equivalent -- we prevent that.',
   },
   {
     question: 'How do you handle confidentiality for payroll data that may include provider credentials or license information?',
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'We have a mix of W-2 employees and 1099 contracted providers. Can you manage both?',
-    answer: 'We process W-2 payroll for employed staff and produce 1099-NEC forms for contracted providers at year-end. The two populations are tracked separately in the system. Threshold monitoring for 1099 reporting is automated — if a contracted provider crosses $600 in payments, they are flagged for year-end 1099 production automatically.',
+    answer: 'We process W-2 payroll for employed staff and produce 1099-NEC forms for contracted providers at year-end. The two populations are tracked separately in the system. Threshold monitoring for 1099 reporting is automated -- if a contracted provider crosses $600 in payments, they are flagged for year-end 1099 production automatically.',
   },
   {
     question: 'What does BEG charge for medical practice payroll?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function MedicalPracticesPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Medical Practice Payroll | $25 PEPM vs. $60K Hire | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/healthcare/medical-practices"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -62,9 +63,9 @@ export default function MedicalPracticesPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Running a medical practice means your focus belongs on patient care, clinical outcomes, and practice growth — not on shift differential calculations, RVU conversion factors, and ACA measurement periods. Yet most independent practices spend 8–12 hours per week on payroll administration, managed by an HR coordinator or office manager who is handling complexity that specialist providers handle every day.</p>
+        <p>Running a medical practice means your focus belongs on patient care, clinical outcomes, and practice growth -- not on shift differential calculations, RVU conversion factors, and ACA measurement periods. Yet most independent practices spend 8–12 hours per week on payroll administration, managed by an HR coordinator or office manager who is handling complexity that specialist providers handle every day.</p>
 
-        <p>Medical practice payroll is not general payroll. You have clinical staff on shift differentials, physicians on production-based comp structures, part-time support staff who may cross ACA full-time thresholds, and a mix of W-2 employees and 1099 contracted providers — all running in the same payroll cycle, with different rules applying to each population.</p>
+        <p>Medical practice payroll is not general payroll. You have clinical staff on shift differentials, physicians on production-based comp structures, part-time support staff who may cross ACA full-time thresholds, and a mix of W-2 employees and 1099 contracted providers -- all running in the same payroll cycle, with different rules applying to each population.</p>
 
         <p>The question most practice administrators face: is it cheaper and more reliable to hire someone in-house, or to outsource to a provider who runs this complexity for dozens of healthcare practices and carries the compliance liability?</p>
 
@@ -135,9 +136,9 @@ export default function MedicalPracticesPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Medical Practices Discover Too Late</h2>
 
-        <p><strong>ACA affordability penalties are the most common hidden cost.</strong> Practices with 50 or more full-time equivalent employees must offer affordable coverage to full-time staff or face penalties of $2,880–$4,320 per full-time equivalent per year. Practices with variable-hour clinical support staff — who may cross the 30-hour threshold during certain periods — frequently track this incorrectly and discover the exposure at IRS notice time.</p>
+        <p><strong>ACA affordability penalties are the most common hidden cost.</strong> Practices with 50 or more full-time equivalent employees must offer affordable coverage to full-time staff or face penalties of $2,880–$4,320 per full-time equivalent per year. Practices with variable-hour clinical support staff -- who may cross the 30-hour threshold during certain periods -- frequently track this incorrectly and discover the exposure at IRS notice time.</p>
 
-        <p><strong>RVU miscalculation affects provider relationships immediately.</strong> When a physician or APP receives a production-based payment that is calculated incorrectly — even slightly — it creates a trust problem that is difficult to repair. At billing rates of $250–$500 per RVU, a conversion factor error compounds quickly across a full quarter of production.</p>
+        <p><strong>RVU miscalculation affects provider relationships immediately.</strong> When a physician or APP receives a production-based payment that is calculated incorrectly -- even slightly -- it creates a trust problem that is difficult to repair. At billing rates of $250–$500 per RVU, a conversion factor error compounds quickly across a full quarter of production.</p>
 
         <p><strong>Shift differential overtime is routinely underprocessed.</strong> When a clinical staff member works day and evening shifts in the same week, overtime must be calculated across total hours, not per shift type. Practices using separate rate tracking for each shift type often miscalculate the regular rate for overtime purposes, creating back-pay liability under FLSA.</p>
 
@@ -150,7 +151,7 @@ export default function MedicalPracticesPage() {
           <li style={{ marginBottom: '0.5rem' }}><strong>Production-based provider compensation:</strong> Physicians and APPs on RVU or collections-based structures require a formula-driven calculation every cycle, fed by practice management data from systems like Epic, Athena, or eClinicalWorks.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>ACA measurement period tracking:</strong> Part-time and variable-hour staff require ongoing hour tracking against the look-back measurement period to determine coverage eligibility. Missing a full-time threshold triggers an employer mandate penalty.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Mixed W-2 and 1099 populations:</strong> Employed staff and contracted providers run in the same practice but under different payroll and reporting rules. The 1099-NEC threshold monitoring must be accurate.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>State licensing considerations:</strong> In some states, clinical licensing status affects employment classification. Changes in provider licensing — expirations, reinstatements, new state licenses — must be reflected in payroll records correctly.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>State licensing considerations:</strong> In some states, clinical licensing status affects employment classification. Changes in provider licensing -- expirations, reinstatements, new state licenses -- must be reflected in payroll records correctly.</li>
         </ul>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Decision Framework: When to Outsource Medical Practice Payroll</h2>
@@ -183,7 +184,7 @@ export default function MedicalPracticesPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Medical Practice Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, RVU comp, ACA tracking, W-2 and 1099 populations — all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size and provider mix.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, RVU comp, ACA tracking, W-2 and 1099 populations -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size and provider mix.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 

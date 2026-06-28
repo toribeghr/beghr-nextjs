@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "How does AUM-based compensation affect payroll for RIA advisors?",
-    answer: "RIA advisors who earn AUM-based fees receive compensation that varies with the size and performance of client portfolios. In most RIAs, the firm collects the advisory fee from clients and then pays the advisor a portion as W-2 wages or a draw. The payroll obligation runs on whatever schedule the firm uses — typically monthly — and the amount varies based on the prior period's AUM-based revenue. We configure the compensation calculation method and payment schedule at setup, so that each pay period's wages reflect the current AUM-based earnings correctly.",
+    answer: "RIA advisors who earn AUM-based fees receive compensation that varies with the size and performance of client portfolios. In most RIAs, the firm collects the advisory fee from clients and then pays the advisor a portion as W-2 wages or a draw. The payroll obligation runs on whatever schedule the firm uses -- typically monthly -- and the amount varies based on the prior period's AUM-based revenue. We configure the compensation calculation method and payment schedule at setup, so that each pay period's wages reflect the current AUM-based earnings correctly.",
   },
   {
     question: "What is deferred compensation and how does it work in an RIA payroll context?",
-    answer: "Deferred compensation plans allow advisors to defer a portion of current earnings to a future date, typically for tax deferral purposes. Non-qualified deferred compensation plans (NQDC) are common at RIAs. Unlike 401(k) plans, NQDC plans are unfunded promises by the employer — the deferred amount is still a liability on the firm's books. For payroll, deferred amounts must be correctly excluded from current-period wages for income tax withholding purposes while FICA taxes are generally due at vesting. We configure deferred compensation tracking per advisor and apply the correct tax treatment at each deferral and distribution event.",
+    answer: "Deferred compensation plans allow advisors to defer a portion of current earnings to a future date, typically for tax deferral purposes. Non-qualified deferred compensation plans (NQDC) are common at RIAs. Unlike 401(k) plans, NQDC plans are unfunded promises by the employer -- the deferred amount is still a liability on the firm's books. For payroll, deferred amounts must be correctly excluded from current-period wages for income tax withholding purposes while FICA taxes are generally due at vesting. We configure deferred compensation tracking per advisor and apply the correct tax treatment at each deferral and distribution event.",
   },
   {
     question: "How do we handle payroll for advisor-owners who take distributions rather than salary?",
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: "We have support staff who are not advisors. Is their payroll handled differently?",
-    answer: "Operations staff, compliance analysts, and administrative employees run on standard payroll rules — hourly or salary, standard tax withholding, standard benefits. Their payroll is simpler than advisor compensation. We handle both populations under one service: standard payroll for support staff, and the more complex compensation structures for advisors. One vendor, one invoice, one point of contact.",
+    answer: "Operations staff, compliance analysts, and administrative employees run on standard payroll rules -- hourly or salary, standard tax withholding, standard benefits. Their payroll is simpler than advisor compensation. We handle both populations under one service: standard payroll for support staff, and the more complex compensation structures for advisors. One vendor, one invoice, one point of contact.",
   },
   {
     question: "What does BEG charge for RIA payroll?",
@@ -46,6 +46,7 @@ const faqs = [
 export default function RegisteredInvestmentAdvisorPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,7 +65,7 @@ export default function RegisteredInvestmentAdvisorPayrollPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Registered investment advisors have payroll complexity that most payroll providers are not built for. AUM-based compensation that varies month to month, non-qualified deferred compensation plans, owner-advisor reasonable salary requirements, multi-state licensing, and compensation disclosure obligations under Form ADV — these are not standard inputs in a generic payroll system. Running RIA payroll correctly requires understanding both the tax rules and the regulatory environment your firm operates in.
+          Registered investment advisors have payroll complexity that most payroll providers are not built for. AUM-based compensation that varies month to month, non-qualified deferred compensation plans, owner-advisor reasonable salary requirements, multi-state licensing, and compensation disclosure obligations under Form ADV -- these are not standard inputs in a generic payroll system. Running RIA payroll correctly requires understanding both the tax rules and the regulatory environment your firm operates in.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Advisor Compensation Structures at RIAs</h2>
@@ -82,8 +83,8 @@ export default function RegisteredInvestmentAdvisorPayrollPage() {
             </thead>
             <tbody>
               {[
-                ["Fixed salary", "Associate advisors, operations staff", "Standard — withhold as earned"],
-                ["AUM-based payout", "Senior advisors, partner-track", "Variable monthly — calculate from prior period AUM"],
+                ["Fixed salary", "Associate advisors, operations staff", "Standard -- withhold as earned"],
+                ["AUM-based payout", "Senior advisors, partner-track", "Variable monthly -- calculate from prior period AUM"],
                 ["Revenue share", "Producing advisors with book of business", "Varies with revenue recognized; track by advisor"],
                 ["Performance bonus", "Any advisor", "Supplemental withholding rate or aggregate method"],
                 ["Deferred comp", "Senior partners, owners", "FICA at vesting, income tax at distribution"],
@@ -125,7 +126,7 @@ export default function RegisteredInvestmentAdvisorPayrollPage() {
           <li>Standard payroll for operations and support staff</li>
           <li>W-2 production and payroll tax filings</li>
           <li>Clean compensation records aligned with Form ADV disclosures</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

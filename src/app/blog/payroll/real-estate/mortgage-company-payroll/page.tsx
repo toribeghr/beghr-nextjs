@@ -18,15 +18,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "How is loan officer commission calculated for payroll purposes?",
-    answer: "Loan officer commission is typically a basis point amount applied to the loan amount — for example, 100 basis points (1%) on a $400,000 loan generates $4,000 gross commission. The LO's actual pay is their split of that gross commission after the firm's override. Commission is generally earned when the loan closes and funds, not when the application is submitted or approved. For payroll, the commission becomes a wage at closing and must be reported and withheld in that pay period, even if the cycle is irregular.",
+    answer: "Loan officer commission is typically a basis point amount applied to the loan amount -- for example, 100 basis points (1%) on a $400,000 loan generates $4,000 gross commission. The LO's actual pay is their split of that gross commission after the firm's override. Commission is generally earned when the loan closes and funds, not when the application is submitted or approved. For payroll, the commission becomes a wage at closing and must be reported and withheld in that pay period, even if the cycle is irregular.",
   },
   {
     question: "What is the Dodd-Frank LO compensation rule and how does it affect payroll?",
-    answer: "The Dodd-Frank Wall Street Reform Act includes specific restrictions on loan officer compensation through Regulation Z. LOs cannot be paid based on the terms of a loan (interest rate, fees, product type) — they can only be paid based on loan amount or flat fee per loan. They also cannot receive compensation from both the borrower and the lender on the same transaction. These restrictions apply to both the compensation plan design and the actual payroll calculation. Running payroll that reflects a non-compliant comp plan exposes the firm to CFPB enforcement.",
+    answer: "The Dodd-Frank Wall Street Reform Act includes specific restrictions on loan officer compensation through Regulation Z. LOs cannot be paid based on the terms of a loan (interest rate, fees, product type) -- they can only be paid based on loan amount or flat fee per loan. They also cannot receive compensation from both the borrower and the lender on the same transaction. These restrictions apply to both the compensation plan design and the actual payroll calculation. Running payroll that reflects a non-compliant comp plan exposes the firm to CFPB enforcement.",
   },
   {
     question: "How do draw programs work for loan officers?",
-    answer: "Many mortgage companies provide LOs a monthly draw — a guaranteed minimum payment each cycle — against future commission earnings. When loans close, the earned commission is applied against the outstanding draw balance. If the LO earns more than their draws, they receive the surplus. If they earn less, the shortfall either accumulates as a recoverable debt or is forgiven depending on the terms of the draw agreement. We track each LO's draw balance, apply closings against the balance, and produce clear statements showing current position.",
+    answer: "Many mortgage companies provide LOs a monthly draw -- a guaranteed minimum payment each cycle -- against future commission earnings. When loans close, the earned commission is applied against the outstanding draw balance. If the LO earns more than their draws, they receive the surplus. If they earn less, the shortfall either accumulates as a recoverable debt or is forgiven depending on the terms of the draw agreement. We track each LO's draw balance, apply closings against the balance, and produce clear statements showing current position.",
   },
   {
     question: "Loan officers need to be NMLS licensed. Does that affect how we classify them?",
@@ -45,6 +45,7 @@ const faqs = [
 export default function MortgageCompanyPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -76,12 +77,12 @@ export default function MortgageCompanyPayrollPage() {
           <li>Compensation can be based on loan amount, flat fee per loan, or firm performance (not individual loan terms)</li>
         </ul>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          The <a href="https://www.consumerfinance.gov/rules-policy/final-rules/loan-originator-compensation-requirements/" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>CFPB loan originator compensation guidance</a> governs plan design. If your compensation plan is non-compliant, the payroll reflects the violation — fixing payroll alone is not enough. We flag compensation plan issues at onboarding and recommend involving compliance counsel before launch.
+          The <a href="https://www.consumerfinance.gov/rules-policy/final-rules/loan-originator-compensation-requirements/" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>CFPB loan originator compensation guidance</a> governs plan design. If your compensation plan is non-compliant, the payroll reflects the violation -- fixing payroll alone is not enough. We flag compensation plan issues at onboarding and recommend involving compliance counsel before launch.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Commission Timing and Pay Cycle Design</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Mortgage commission is earned at loan closing, not at application or approval. This means commission income arrives irregularly — heavy months when pipelines close, thin months when they do not. Most mortgage companies address this with one of two approaches: paying commission as earned on the date each loan closes (irregular timing), or batching closings and paying on a regular cycle (biweekly or semimonthly).
+          Mortgage commission is earned at loan closing, not at application or approval. This means commission income arrives irregularly -- heavy months when pipelines close, thin months when they do not. Most mortgage companies address this with one of two approaches: paying commission as earned on the date each loan closes (irregular timing), or batching closings and paying on a regular cycle (biweekly or semimonthly).
         </p>
         <div style={{ overflowX: "auto", marginBottom: "2.5rem" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.9rem" }}>

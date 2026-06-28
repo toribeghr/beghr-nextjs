@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How does outsourced payroll handle shift differentials?',
-    answer: 'A managed payroll provider calculates shift differentials automatically based on your configured rules — night shift, weekend, holiday premiums. The math runs every cycle without manual entry. You set the rules once; we apply them correctly every time.',
+    answer: 'A managed payroll provider calculates shift differentials automatically based on your configured rules -- night shift, weekend, holiday premiums. The math runs every cycle without manual entry. You set the rules once; we apply them correctly every time.',
   },
   {
     question: 'Can you process union and non-union employees on the same payroll run?',
@@ -31,11 +31,11 @@ const faqs = [
   },
   {
     question: 'What if we have certified payroll requirements for government contracts?',
-    answer: 'Certified payroll (Davis-Bacon) is a specialty we handle for manufacturing clients with federal or state prevailing wage contracts. Every cycle produces the certified payroll report alongside standard payroll — in the required format for submission.',
+    answer: 'Certified payroll (Davis-Bacon) is a specialty we handle for manufacturing clients with federal or state prevailing wage contracts. Every cycle produces the certified payroll report alongside standard payroll -- in the required format for submission.',
   },
   {
     question: 'How long does it take to switch payroll providers at a manufacturing facility?',
-    answer: 'Most facilities transition in 3–5 business days. We handle data migration, configure shift rules and union CBAs, run a parallel test cycle, and go live — all within 3–5 business days. The best time to switch is mid-quarter, away from year-end and union contract renewal periods.',
+    answer: 'Most facilities transition in 3–5 business days. We handle data migration, configure shift rules and union CBAs, run a parallel test cycle, and go live -- all within 3–5 business days. The best time to switch is mid-quarter, away from year-end and union contract renewal periods.',
   },
   {
     question: 'What does BEG charge for manufacturing payroll?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function ManufacturingPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Manufacturing Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,9 +64,9 @@ export default function ManufacturingPayrollPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
 
-        <p>Manufacturing payroll is not general payroll. You are running shift differentials, overtime calculations, union CBA rules, workers&apos; comp classifications, and certified payroll for government contracts — all in the same cycle. Miss one rule and penalties stack. Miss two and you have a grievance.</p>
+        <p>Manufacturing payroll is not general payroll. You are running shift differentials, overtime calculations, union CBA rules, workers&apos; comp classifications, and certified payroll for government contracts -- all in the same cycle. Miss one rule and penalties stack. Miss two and you have a grievance.</p>
 
-        <p>Most manufacturers still handle this with an in-house HR manager. That person earns $55K–$75K in base salary. With benefits, payroll taxes, software licenses, training, and overhead, the real annual cost is $78K–$110K. And when they leave — HR managers in manufacturing turn over every 2–3 years — you restart the search while someone else scrambles to run payroll.</p>
+        <p>Most manufacturers still handle this with an in-house HR manager. That person earns $55K–$75K in base salary. With benefits, payroll taxes, software licenses, training, and overhead, the real annual cost is $78K–$110K. And when they leave -- HR managers in manufacturing turn over every 2–3 years -- you restart the search while someone else scrambles to run payroll.</p>
 
         <p>Outsourcing eliminates the dependency, reduces the compliance risk, and typically saves $55K–$100K annually for mid-size manufacturers. Here is what the math actually looks like.</p>
 
@@ -142,7 +143,7 @@ export default function ManufacturingPayrollPage() {
 
         <p><strong>Overtime calculation errors.</strong> FLSA overtime rules for shift work are not simple. Day-rate workers, piece-rate workers, and employees paid on fluctuating workweek schedules all have different overtime calculation methods. The average FLSA back-pay settlement for small manufacturers who get this wrong runs $12,000–$65,000 including penalties and attorney fees.</p>
 
-        <p><strong>Union grievance cost.</strong> If your CBA specifies a wage structure and your payroll runs it wrong, you have a grievance. Grievance resolution in manufacturing averages $3,000–$15,000 in management time, HR time, and legal fees — even when you win.</p>
+        <p><strong>Union grievance cost.</strong> If your CBA specifies a wage structure and your payroll runs it wrong, you have a grievance. Grievance resolution in manufacturing averages $3,000–$15,000 in management time, HR time, and legal fees -- even when you win.</p>
 
         <p><strong>Turnover replacement cost.</strong> When your payroll-focused HR manager leaves, you face 4–8 weeks of vacancy, $4,700 average cost-per-hire (SHRM), and 60–90 days before the new hire is fully competent on your specific shift and union rules. Outsourced payroll has no turnover.</p>
 
@@ -150,13 +151,13 @@ export default function ManufacturingPayrollPage() {
 
         <p>If you are running a 120-person facility, your payroll is managing more variables than most 500-person office environments:</p>
 
-        <p><strong>Shift differentials.</strong> Night shift, weekend, and holiday premiums vary by role, seniority, and sometimes by individual CBA provision. Most payroll software handles simple differentials. Complex differential stacking — night + weekend + holiday for the same shift — requires correct configuration or it breaks quietly.</p>
+        <p><strong>Shift differentials.</strong> Night shift, weekend, and holiday premiums vary by role, seniority, and sometimes by individual CBA provision. Most payroll software handles simple differentials. Complex differential stacking -- night + weekend + holiday for the same shift -- requires correct configuration or it breaks quietly.</p>
 
         <p><strong>Overtime pyramiding.</strong> Daily overtime (California, Alaska, some CBA contracts) stacks on top of weekly overtime. An employee working 10-hour shifts can trigger daily overtime even if they don&apos;t hit 40 hours in a week. HR managers without manufacturing experience routinely miss this.</p>
 
-        <p><strong>Certified payroll (Davis-Bacon).</strong> If your facility has any government contracts — defense, infrastructure, federally funded construction — prevailing wage and certified payroll requirements apply. These are separate from standard payroll and carry significant penalty risk if filed incorrectly.</p>
+        <p><strong>Certified payroll (Davis-Bacon).</strong> If your facility has any government contracts -- defense, infrastructure, federally funded construction -- prevailing wage and certified payroll requirements apply. These are separate from standard payroll and carry significant penalty risk if filed incorrectly.</p>
 
-        <p><strong>Multi-state compliance.</strong> If you operate facilities in more than one state — or employees cross state lines — each state has its own withholding requirements, unemployment rates, and sometimes minimum wage rules that interact with federal overtime.</p>
+        <p><strong>Multi-state compliance.</strong> If you operate facilities in more than one state -- or employees cross state lines -- each state has its own withholding requirements, unemployment rates, and sometimes minimum wage rules that interact with federal overtime.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Decision Framework: When to Outsource Manufacturing Payroll</h2>
 
@@ -200,7 +201,7 @@ export default function ManufacturingPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Manufacturing Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, overtime, union CBAs, certified payroll. We run it all at $25–$45 per employee per month — all-inclusive. Book a 15-minute call to see what it costs for your facility size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, overtime, union CBAs, certified payroll. We run it all at $25–$45 per employee per month -- all-inclusive. Book a 15-minute call to see what it costs for your facility size.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 

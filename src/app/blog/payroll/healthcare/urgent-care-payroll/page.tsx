@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     question: "We have a mix of full-time and per diem clinical staff. How does per diem payroll work?",
-    answer: "Per diem staff are employees who work variable schedules without a guaranteed number of hours. They are paid only for hours worked and are not guaranteed a minimum number of shifts. For payroll purposes, per diem employees are typically non-exempt hourly workers entitled to overtime if they work more than 40 hours in a workweek. If a per diem employee picks up enough shifts to exceed 40 hours in a week — which can happen during staffing shortages — they are owed overtime regardless of their per diem status. We track hours for all employees, including per diem, and flag overtime events.",
+    answer: "Per diem staff are employees who work variable schedules without a guaranteed number of hours. They are paid only for hours worked and are not guaranteed a minimum number of shifts. For payroll purposes, per diem employees are typically non-exempt hourly workers entitled to overtime if they work more than 40 hours in a workweek. If a per diem employee picks up enough shifts to exceed 40 hours in a week -- which can happen during staffing shortages -- they are owed overtime regardless of their per diem status. We track hours for all employees, including per diem, and flag overtime events.",
   },
   {
     question: "How do we handle on-call pay for clinical staff?",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "We have multiple clinic locations. Does each location need a separate payroll setup?",
-    answer: "No. We configure payroll at the company level with location codes for each clinic. Employees who float between clinics are assigned to their primary location for tax purposes but can clock in at any location. If your clinics are in different states — common for urgent care chains near state borders — each state requires separate withholding configuration and employer registration. We handle multi-location and multi-state configurations under one service.",
+    answer: "No. We configure payroll at the company level with location codes for each clinic. Employees who float between clinics are assigned to their primary location for tax purposes but can clock in at any location. If your clinics are in different states -- common for urgent care chains near state borders -- each state requires separate withholding configuration and employer registration. We handle multi-location and multi-state configurations under one service.",
   },
   {
     question: "What does BEG charge for urgent care payroll?",
@@ -45,6 +45,7 @@ const faqs = [
 export default function UrgentCarePayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -82,7 +83,7 @@ export default function UrgentCarePayrollPage() {
                 ["PA / NP", "Salary or hourly", "Exempt analysis; overtime if hourly non-exempt"],
                 ["RN / LVN", "Hourly non-exempt", "Overtime after 40 hours per week (or daily in CA)"],
                 ["Medical assistant (MA)", "Hourly non-exempt", "Minimum wage, overtime, break requirements"],
-                ["Per diem clinical staff", "Hourly — shifts only", "No guaranteed hours; still entitled to OT if >40 hours"],
+                ["Per diem clinical staff", "Hourly -- shifts only", "No guaranteed hours; still entitled to OT if >40 hours"],
                 ["Front desk / admin", "Hourly or salary", "Standard non-exempt if hourly; salary threshold if exempt"],
               ].map(([role, pay, issue], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? "#f9f9f9" : "#fff" }}>
@@ -97,7 +98,7 @@ export default function UrgentCarePayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>The 8-and-80 Rule: Does It Apply to Urgent Care?</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          The FLSA Section 7(j) 8-and-80 rule allows certain healthcare employers to use a 14-day work period instead of a 7-day workweek for overtime calculations, paying overtime only for hours over 8 in a day or 80 in the 14-day period. This option is available to hospitals and residential care establishments — but not all healthcare facilities qualify.
+          The FLSA Section 7(j) 8-and-80 rule allows certain healthcare employers to use a 14-day work period instead of a 7-day workweek for overtime calculations, paying overtime only for hours over 8 in a day or 80 in the 14-day period. This option is available to hospitals and residential care establishments -- but not all healthcare facilities qualify.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
           Urgent care facilities do not typically qualify as hospitals or residential care establishments under the FLSA definition. The standard 7-day workweek and 40-hour overtime threshold applies. If a consultant or payroll system has suggested the 8-and-80 rule for your urgent care operation, that needs to be reviewed with employment counsel.

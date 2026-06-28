@@ -37,6 +37,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Retail Payroll: For Small Business (<25 EE) | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/retail/retail-managed-payroll-small-business"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -90,7 +91,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Under 25 Employees: The Clearest ROI</h2>
 
-        <p>For retail businesses under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $50,000–$75,000 fully loaded — compared to $625–$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2–3 months.</p>
+        <p>For retail businesses under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $50,000–$75,000 fully loaded -- compared to $625–$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2–3 months.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25–75 Employees: Complexity Drives the Case</h2>
 

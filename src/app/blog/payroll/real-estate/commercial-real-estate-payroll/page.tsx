@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "Are commercial real estate brokers employees or independent contractors?",
-    answer: "This is the most common payroll question in commercial real estate, and the answer is: it depends on the actual working arrangement, not what the contract says. Many CRE brokers operate as true independent contractors — they set their own hours, work multiple deals with multiple firms, and bear their own expenses. Others work exclusively for one firm, use firm-provided tools and systems, and follow firm protocols. The latter are frequently misclassified. The IRS and many states use a multi-factor test that looks at behavioral control, financial control, and the type of relationship. Misclassification generates back taxes, penalties, and potential employment benefit claims.",
+    answer: "This is the most common payroll question in commercial real estate, and the answer is: it depends on the actual working arrangement, not what the contract says. Many CRE brokers operate as true independent contractors -- they set their own hours, work multiple deals with multiple firms, and bear their own expenses. Others work exclusively for one firm, use firm-provided tools and systems, and follow firm protocols. The latter are frequently misclassified. The IRS and many states use a multi-factor test that looks at behavioral control, financial control, and the type of relationship. Misclassification generates back taxes, penalties, and potential employment benefit claims.",
   },
   {
     question: "How do commission splits work in CRE payroll?",
-    answer: "Commission splits in CRE are negotiated between the brokerage and each broker and vary significantly. A senior producer might keep 70-80% of gross commission income; a newer broker might start at 50%. Team deals with multiple brokers involved add another split layer. For payroll purposes, the gross commission comes in, the house split is retained, and the broker's portion is paid — either as W-2 wages with withholding or as a 1099 payment to a contractor. We configure each broker's split schedule and calculate net payable amounts before running taxes.",
+    answer: "Commission splits in CRE are negotiated between the brokerage and each broker and vary significantly. A senior producer might keep 70-80% of gross commission income; a newer broker might start at 50%. Team deals with multiple brokers involved add another split layer. For payroll purposes, the gross commission comes in, the house split is retained, and the broker's portion is paid -- either as W-2 wages with withholding or as a 1099 payment to a contractor. We configure each broker's split schedule and calculate net payable amounts before running taxes.",
   },
   {
     question: "What is a draw program and how is it handled in payroll?",
@@ -45,6 +45,7 @@ const faqs = [
 export default function CommercialRealEstatePayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">

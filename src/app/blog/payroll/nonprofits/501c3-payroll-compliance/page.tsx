@@ -27,15 +27,15 @@ const faqs = [
   },
   {
     question: "How does Form 990 executive compensation disclosure affect our payroll records?",
-    answer: "Form 990 requires 501(c)(3) organizations to disclose compensation paid to officers, directors, trustees, key employees, and the five highest-compensated employees. The reported figures must include not just base salary but also bonuses, deferred compensation, and the value of fringe benefits that are reported as income. Payroll records must support the 990 disclosure — if your payroll system cannot produce a per-person compensation summary including all reportable elements, you may have a reconciliation problem at 990 preparation time. We produce compensation summaries that reconcile to W-2 boxes and support 990 Schedule J preparation.",
+    answer: "Form 990 requires 501(c)(3) organizations to disclose compensation paid to officers, directors, trustees, key employees, and the five highest-compensated employees. The reported figures must include not just base salary but also bonuses, deferred compensation, and the value of fringe benefits that are reported as income. Payroll records must support the 990 disclosure -- if your payroll system cannot produce a per-person compensation summary including all reportable elements, you may have a reconciliation problem at 990 preparation time. We produce compensation summaries that reconcile to W-2 boxes and support 990 Schedule J preparation.",
   },
   {
     question: "How do we handle volunteers who occasionally perform work that would otherwise be paid?",
-    answer: "Volunteers who freely provide services to a nonprofit without expectation of compensation are not employees and are not on payroll. However, a volunteer cannot do the same type of work for an organization as a paid employee — if the organization employs paid workers to do a task, it cannot also use volunteers for the same task without compensation. Additionally, 'volunteer stipends' or 'expense reimbursements' that are actually compensating volunteers for their time must be treated as wages subject to withholding if they exceed actual expenses incurred. The line between volunteer and employee is one of the most litigated areas in nonprofit employment law.",
+    answer: "Volunteers who freely provide services to a nonprofit without expectation of compensation are not employees and are not on payroll. However, a volunteer cannot do the same type of work for an organization as a paid employee -- if the organization employs paid workers to do a task, it cannot also use volunteers for the same task without compensation. Additionally, 'volunteer stipends' or 'expense reimbursements' that are actually compensating volunteers for their time must be treated as wages subject to withholding if they exceed actual expenses incurred. The line between volunteer and employee is one of the most litigated areas in nonprofit employment law.",
   },
   {
     question: "We have AmeriCorps members and intern stipends. How are those handled?",
-    answer: "AmeriCorps members receive education awards and living allowances that have specific tax treatment defined by the national service program rules — generally these are not treated as wages, though reporting requirements apply. Intern stipends are treated as wages subject to FICA and withholding if the intern is performing services as an employee of the organization. Unpaid internships must meet a strict six-factor test under the FLSA — most internships at nonprofits that provide substantive work do not qualify as unpaid. We help configure each population's payroll treatment correctly at setup.",
+    answer: "AmeriCorps members receive education awards and living allowances that have specific tax treatment defined by the national service program rules -- generally these are not treated as wages, though reporting requirements apply. Intern stipends are treated as wages subject to FICA and withholding if the intern is performing services as an employee of the organization. Unpaid internships must meet a strict six-factor test under the FLSA -- most internships at nonprofits that provide substantive work do not qualify as unpaid. We help configure each population's payroll treatment correctly at setup.",
   },
   {
     question: "What does BEG charge for nonprofit payroll?",
@@ -46,6 +46,7 @@ const faqs = [
 export default function Nonprofit501c3PayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,7 +65,7 @@ export default function Nonprofit501c3PayrollPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Nonprofits often assume their tax-exempt status extends to payroll taxes. It mostly does not. 501(c)(3) organizations are exempt from federal income tax and FUTA, but they are still required to withhold and remit FICA, comply with state unemployment insurance rules, meet state income tax withholding obligations, and navigate a distinct set of compensation disclosure requirements on Form 990. Running nonprofit payroll through a system built for for-profit businesses without understanding these distinctions creates compliance errors on both sides — missing genuine exemptions and failing to apply rules that do apply.
+          Nonprofits often assume their tax-exempt status extends to payroll taxes. It mostly does not. 501(c)(3) organizations are exempt from federal income tax and FUTA, but they are still required to withhold and remit FICA, comply with state unemployment insurance rules, meet state income tax withholding obligations, and navigate a distinct set of compensation disclosure requirements on Form 990. Running nonprofit payroll through a system built for for-profit businesses without understanding these distinctions creates compliance errors on both sides -- missing genuine exemptions and failing to apply rules that do apply.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>What Payroll Tax Exemptions Actually Apply to 501(c)(3) Organizations</h2>
@@ -79,11 +80,11 @@ export default function Nonprofit501c3PayrollPage() {
             </thead>
             <tbody>
               {[
-                ["Federal income tax (org)", "No — exempt", "This is the core 501(c)(3) benefit"],
-                ["FICA — employee share withholding", "Yes", "Must withhold Social Security and Medicare"],
-                ["FICA — employer match", "Yes", "Employer pays 7.65% match same as for-profit"],
-                ["FUTA", "No — exempt", "Section 501(c)(3) orgs are FUTA exempt"],
-                ["State unemployment insurance (SUI)", "Usually yes — check state", "Many states require SUI; some allow nonprofit self-insurance"],
+                ["Federal income tax (org)", "No -- exempt", "This is the core 501(c)(3) benefit"],
+                ["FICA -- employee share withholding", "Yes", "Must withhold Social Security and Medicare"],
+                ["FICA -- employer match", "Yes", "Employer pays 7.65% match same as for-profit"],
+                ["FUTA", "No -- exempt", "Section 501(c)(3) orgs are FUTA exempt"],
+                ["State unemployment insurance (SUI)", "Usually yes -- check state", "Many states require SUI; some allow nonprofit self-insurance"],
                 ["State income tax withholding", "Yes", "Must withhold per state rules same as any employer"],
                 ["Minister FICA exemption", "Available for qualifying ministers", "IRC 3121(w) election required; narrow"],
               ].map(([tax, applies, notes], i) => (
@@ -107,10 +108,10 @@ export default function Nonprofit501c3PayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Reasonable Compensation for Nonprofit Executives</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          The IRS can revoke 501(c)(3) status or impose excise taxes on "excess benefit transactions" — compensation paid to disqualified persons (executives, board members, substantial donors) that exceeds reasonable compensation for services rendered. To protect the organization, the board should establish and document a rebuttable presumption process: approve compensation based on comparability data, document the decision in board minutes, and maintain records.
+          The IRS can revoke 501(c)(3) status or impose excise taxes on "excess benefit transactions" -- compensation paid to disqualified persons (executives, board members, substantial donors) that exceeds reasonable compensation for services rendered. To protect the organization, the board should establish and document a rebuttable presumption process: approve compensation based on comparability data, document the decision in board minutes, and maintain records.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Payroll records that clearly show what each officer was paid — and when — provide the baseline documentation the board process requires. We flag executive compensation on a per-person basis in our reporting.
+          Payroll records that clearly show what each officer was paid -- and when -- provide the baseline documentation the board process requires. We flag executive compensation on a per-person basis in our reporting.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>What BEG Manages for 501(c)(3) Organizations</h2>
@@ -123,7 +124,7 @@ export default function Nonprofit501c3PayrollPage() {
           <li>Stipend and intern payroll treatment</li>
           <li>W-2 production and payroll tax filings</li>
           <li>Multi-state payroll for nonprofits operating across state lines</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

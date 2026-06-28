@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "We have locations in five states with different minimum wages. How do we manage that?",
-    answer: "Each employee's minimum wage is the highest applicable rate — federal, state, or local city minimum, whichever is greatest. We configure each location with the correct minimum wage floor and update it automatically when state or local minimum wages increase. Most states increase their minimum wages annually on January 1; California, some cities, and others have mid-year effective dates. We track scheduled increases and apply them before the effective date so you are never out of compliance.",
+    answer: "Each employee's minimum wage is the highest applicable rate -- federal, state, or local city minimum, whichever is greatest. We configure each location with the correct minimum wage floor and update it automatically when state or local minimum wages increase. Most states increase their minimum wages annually on January 1; California, some cities, and others have mid-year effective dates. We track scheduled increases and apply them before the effective date so you are never out of compliance.",
   },
   {
     question: "How do we handle overtime when employees work at multiple store locations in the same week?",
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: "Some states require predictive scheduling notice. Does that affect payroll?",
-    answer: "Predictive scheduling laws in cities like San Francisco, Seattle, Chicago, New York City, and Philadelphia require employers to provide advance notice of schedules and pay premiums for last-minute changes. These premiums are wages — they must be paid in the pay period when the schedule change occurs and are subject to withholding. We flag predictive scheduling premium payments when they appear in payroll data and process them as supplemental wages. The scheduling compliance itself is a management function, but we handle the payroll side correctly.",
+    answer: "Predictive scheduling laws in cities like San Francisco, Seattle, Chicago, New York City, and Philadelphia require employers to provide advance notice of schedules and pay premiums for last-minute changes. These premiums are wages -- they must be paid in the pay period when the schedule change occurs and are subject to withholding. We flag predictive scheduling premium payments when they appear in payroll data and process them as supplemental wages. The scheduling compliance itself is a management function, but we handle the payroll side correctly.",
   },
   {
     question: "What does BEG charge for retail chain payroll?",
@@ -46,6 +46,7 @@ const faqs = [
 export default function RetailChainPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -99,7 +100,7 @@ export default function RetailChainPayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Multi-Location Overtime: The Cross-Store Problem</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          FLSA overtime applies per employee per workweek — not per location. An employee who floats between stores and accumulates more than 40 hours in a workweek is owed overtime on those excess hours regardless of how many stores they worked in. When employees work at different locations with different pay rates (e.g., a shift lead earns $20 at their home store but picks up a shift at another store as a regular associate at $17), overtime is calculated using the weighted average of all hours worked at all rates during the week.
+          FLSA overtime applies per employee per workweek -- not per location. An employee who floats between stores and accumulates more than 40 hours in a workweek is owed overtime on those excess hours regardless of how many stores they worked in. When employees work at different locations with different pay rates (e.g., a shift lead earns $20 at their home store but picks up a shift at another store as a regular associate at $17), overtime is calculated using the weighted average of all hours worked at all rates during the week.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           The <a href="https://www.dol.gov/agencies/whd/overtime/workers" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>DOL Wage and Hour Division overtime resources</a> provide the calculation methodology. We configure multi-location overtime tracking per employee so that every cross-store payroll period is calculated correctly.
@@ -107,10 +108,10 @@ export default function RetailChainPayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Manager and Assistant Manager Classification</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Store managers and assistant managers are often classified as exempt salaried employees to avoid overtime obligations. To qualify for the executive exemption, they must: earn at least $684 per week (federal threshold; higher in some states), have management of the store or department as a primary duty, regularly direct the work of at least two full-time equivalent employees, and have authority to hire, fire, or give input that is given significant weight. Misclassifying managers who primarily perform the same tasks as hourly employees creates class action exposure — it is one of the most litigated areas in retail wage and hour law.
+          Store managers and assistant managers are often classified as exempt salaried employees to avoid overtime obligations. To qualify for the executive exemption, they must: earn at least $684 per week (federal threshold; higher in some states), have management of the store or department as a primary duty, regularly direct the work of at least two full-time equivalent employees, and have authority to hire, fire, or give input that is given significant weight. Misclassifying managers who primarily perform the same tasks as hourly employees creates class action exposure -- it is one of the most litigated areas in retail wage and hour law.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          We do not make classification decisions for you — those require HR and legal judgment. But we flag situations where someone classified as exempt earns below the salary threshold or appears to be misclassified based on their pay structure.
+          We do not make classification decisions for you -- those require HR and legal judgment. But we flag situations where someone classified as exempt earns below the salary threshold or appears to be misclassified based on their pay structure.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>What BEG Manages for Retail Chains</h2>
@@ -123,7 +124,7 @@ export default function RetailChainPayrollPage() {
           <li>Supplemental wage payments (predictive scheduling premiums, bonuses)</li>
           <li>Multi-state withholding and employer registration</li>
           <li>W-2 production and tax filings for all states</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

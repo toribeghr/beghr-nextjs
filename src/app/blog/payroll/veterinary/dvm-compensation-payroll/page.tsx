@@ -3,24 +3,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG',
-  description: 'A practical guide to DVM compensation structures in payroll — base salary, production bonus calculation, associate vs. owner pay, and the most common.',
+  description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll' },
   openGraph: {
     title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG',
-    description: 'A practical guide to DVM compensation structures in payroll — base salary, production bonus calculation, associate vs. owner pay, and the most common se...',
+    description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common se...',
     url: 'https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG', description: 'A practical guide to DVM compensation structures in payroll — base salary, production bonus calculation, associate vs. owner pay, and the most common se...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG', description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common se...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'How is a DVM production bonus typically calculated?',
-    a: 'Most production bonuses are calculated as a percentage of the DVM\'s gross production — the total fees billed and collected for services the doctor personally performed. The percentage varies by practice but commonly falls between 18% and 25% of collected production. The bonus is typically paid monthly or quarterly, not per paycheck.',
+    a: 'Most production bonuses are calculated as a percentage of the DVM\'s gross production -- the total fees billed and collected for services the doctor personally performed. The percentage varies by practice but commonly falls between 18% and 25% of collected production. The bonus is typically paid monthly or quarterly, not per paycheck.',
   },
   {
     q: 'Should DVM production bonuses be included in overtime calculations?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function DVMCompensationPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Set Up DVM Salary and Production Bonuses in Payroll | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -56,7 +57,7 @@ export default function DVMCompensationPage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          Most associate DVMs are paid on a hybrid model: a base salary that guarantees a minimum, plus a production bonus that kicks in when their earned production exceeds the guarantee. It is a straightforward concept but a surprisingly common source of payroll errors — particularly around timing, withholding, and year-end reconciliation.
+          Most associate DVMs are paid on a hybrid model: a base salary that guarantees a minimum, plus a production bonus that kicks in when their earned production exceeds the guarantee. It is a straightforward concept but a surprisingly common source of payroll errors -- particularly around timing, withholding, and year-end reconciliation.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The Standard DVM Compensation Structure</h2>
@@ -66,7 +67,7 @@ export default function DVMCompensationPage() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '2rem' }}>
           {[
             { label: 'Base salary', body: 'A guaranteed annual salary paid on a bi-weekly or semi-monthly schedule, regardless of production levels. Common ranges for associate DVMs are $90,000 to $130,000 depending on experience, specialty, and geography.' },
-            { label: 'Production percentage', body: 'A percentage of the doctor\'s gross collected production — typically 18% to 25% of net collected revenue from services the DVM personally performed. This is calculated monthly or quarterly from the practice management software.' },
+            { label: 'Production percentage', body: 'A percentage of the doctor\'s gross collected production -- typically 18% to 25% of net collected revenue from services the DVM personally performed. This is calculated monthly or quarterly from the practice management software.' },
             { label: 'The guarantee mechanism', body: 'The DVM earns the higher of the base salary or the production percentage. When production percentage exceeds the annualized salary amount for the period, the DVM earns the production amount. When it falls short, the base salary is the floor.' },
           ].map(({ label, body }) => (
             <div key={label} style={{ border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.25rem', borderLeft: '4px solid #ECAC60' }}>
@@ -78,7 +79,7 @@ export default function DVMCompensationPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Payroll Setup for Production Bonuses</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Production bonuses should be processed through payroll as a separate earnings code, not paid by check outside the payroll system. Running bonuses outside payroll bypasses withholding — creating a tax problem for the DVM at filing time and a recordkeeping problem for the practice.
+          Production bonuses should be processed through payroll as a separate earnings code, not paid by check outside the payroll system. Running bonuses outside payroll bypasses withholding -- creating a tax problem for the DVM at filing time and a recordkeeping problem for the practice.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
           In payroll, production bonuses are treated as supplemental wages. The IRS allows two methods for withholding on supplemental wages: a flat 22% federal withholding rate, or aggregating the bonus with regular wages and withholding at the blended rate. Most payroll systems use the flat rate by default. For high-earning DVMs who will owe more than 22% at their marginal rate, you may want to gross up or adjust.
@@ -89,10 +90,10 @@ export default function DVMCompensationPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Owner DVM Compensation: Different Setup, Same Mistakes</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Owner DVMs who operate as an S-corp or as a professional corporation must pay themselves a reasonable salary through payroll — subject to FICA — before taking owner distributions. Many owner DVMs minimize their salary to reduce FICA exposure, but the IRS has challenged arrangements where the salary is clearly below market for the work being performed.
+          Owner DVMs who operate as an S-corp or as a professional corporation must pay themselves a reasonable salary through payroll -- subject to FICA -- before taking owner distributions. Many owner DVMs minimize their salary to reduce FICA exposure, but the IRS has challenged arrangements where the salary is clearly below market for the work being performed.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          A "reasonable salary" for a working owner DVM is not a fixed number — it depends on what the practice would pay an associate for the same role, adjusted for the owner's specific responsibilities, productivity, and the local market. Getting this right matters because underpaying an owner salary increases S-corp audit risk and may result in FICA assessment on distributions that were treated as exempt.
+          A "reasonable salary" for a working owner DVM is not a fixed number -- it depends on what the practice would pay an associate for the same role, adjusted for the owner's specific responsibilities, productivity, and the local market. Getting this right matters because underpaying an owner salary increases S-corp audit risk and may result in FICA assessment on distributions that were treated as exempt.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
           Owner distributions are paid separately from payroll and are not subject to FICA. Only the salary component runs through payroll with withholding.
@@ -101,11 +102,11 @@ export default function DVMCompensationPage() {
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Common Setup Errors to Avoid</h2>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '2.5rem' }}>
           {[
-            'Paying production bonuses by check outside payroll — bypasses withholding and creates W-2 reconciliation problems.',
-            'Not separating production bonus pay from salary in the payroll system — makes year-end reporting and audit tracking harder.',
-            'Applying the wrong withholding rate to bonus payments — supplemental flat rate versus annualized rate affects how much the DVM owes at filing.',
-            'Failing to include the owner DVM\'s salary in the quarterly 941 and annual W-2 — all W-2 employees, including owners, must be included.',
-            'Miscalculating the guarantee payout period — if production is calculated monthly but salary is bi-weekly, the comparison periods must be aligned correctly.',
+            'Paying production bonuses by check outside payroll -- bypasses withholding and creates W-2 reconciliation problems.',
+            'Not separating production bonus pay from salary in the payroll system -- makes year-end reporting and audit tracking harder.',
+            'Applying the wrong withholding rate to bonus payments -- supplemental flat rate versus annualized rate affects how much the DVM owes at filing.',
+            'Failing to include the owner DVM\'s salary in the quarterly 941 and annual W-2 -- all W-2 employees, including owners, must be included.',
+            'Miscalculating the guarantee payout period -- if production is calculated monthly but salary is bi-weekly, the comparison periods must be aligned correctly.',
           ].map((item, i) => (
             <div key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
               <div style={{ width: '8px', height: '8px', background: '#ECAC60', borderRadius: '50%', flexShrink: 0, marginTop: '7px' }} />
@@ -136,9 +137,9 @@ export default function DVMCompensationPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/veterinary">Managed Payroll for Veterinary Practices</Link> — full service details</li>
-            <li><Link href="/blog/payroll/veterinary/veterinary-staff-overtime-rules">Veterinary Staff Overtime Rules</Link> — FLSA compliance guide</li>
-            <li><Link href="/blog/payroll/veterinary/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Vet Practices</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/veterinary">Managed Payroll for Veterinary Practices</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/veterinary/veterinary-staff-overtime-rules">Veterinary Staff Overtime Rules</Link> -- FLSA compliance guide</li>
+            <li><Link href="/blog/payroll/veterinary/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Vet Practices</Link> -- cost comparison</li>
           </ul>
         </div>
 

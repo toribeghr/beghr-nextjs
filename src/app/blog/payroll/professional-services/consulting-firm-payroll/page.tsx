@@ -22,19 +22,19 @@ const faqs = [
   },
   {
     question: "We pay annual bonuses tied to utilization rates. Do those bonuses affect overtime calculations for non-exempt employees?",
-    answer: "Yes. Non-discretionary bonuses — including utilization bonuses where the payout is determined by a formula (e.g., 'you receive $X for every point of utilization above 70%') — must be included in the employee's regular rate for the workweek in which they were earned or, if earned over a longer period, must be retroactively blended into each week's regular rate. For salaried exempt employees, bonus calculation is simpler since overtime does not apply. For any non-exempt consultants who receive non-discretionary bonuses, the bonus must be allocated back to the weeks it covered and the regular rate recalculated for each week. We handle this retroactive blending calculation when bonuses are paid.",
+    answer: "Yes. Non-discretionary bonuses -- including utilization bonuses where the payout is determined by a formula (e.g., 'you receive $X for every point of utilization above 70%') -- must be included in the employee's regular rate for the workweek in which they were earned or, if earned over a longer period, must be retroactively blended into each week's regular rate. For salaried exempt employees, bonus calculation is simpler since overtime does not apply. For any non-exempt consultants who receive non-discretionary bonuses, the bonus must be allocated back to the weeks it covered and the regular rate recalculated for each week. We handle this retroactive blending calculation when bonuses are paid.",
   },
   {
     question: "We have consultants who work at client sites in multiple states. How do we handle state withholding?",
-    answer: "Multi-state withholding for traveling consultants is one of the most administratively complex areas in professional services payroll. The general rule is that an employee owes income tax in the state where they perform the work. If a consultant spends 3 weeks in New York and 2 weeks in their home state of Texas, the New York wages are subject to New York state income tax. Some states have reciprocity agreements that simplify this — if the home and work states have reciprocity, only the home state withholds. Other states, like New York, have strict nexus rules. We track work location by state for each pay period and apply the correct withholding configuration per state.",
+    answer: "Multi-state withholding for traveling consultants is one of the most administratively complex areas in professional services payroll. The general rule is that an employee owes income tax in the state where they perform the work. If a consultant spends 3 weeks in New York and 2 weeks in their home state of Texas, the New York wages are subject to New York state income tax. Some states have reciprocity agreements that simplify this -- if the home and work states have reciprocity, only the home state withholds. Other states, like New York, have strict nexus rules. We track work location by state for each pay period and apply the correct withholding configuration per state.",
   },
   {
     question: "Can we pay our senior consultants as S-corp contractors to avoid FICA?",
-    answer: "The IRS scrutinizes S-corp arrangements where a shareholder-employee takes a low salary and high distributions to reduce FICA taxes. S-corp shareholder-employees who provide services to the corporation must receive reasonable compensation for those services — reasonable being defined as what you would pay a third party to do the same work. The IRS has a history of reclassifying S-corp distributions as wages when the salary is unreasonably low. Beyond the FICA question, consultants who work exclusively for one firm under its direction are generally employees regardless of their business structure. The contractor vs. employee analysis is based on economic reality, not the form of payment.",
+    answer: "The IRS scrutinizes S-corp arrangements where a shareholder-employee takes a low salary and high distributions to reduce FICA taxes. S-corp shareholder-employees who provide services to the corporation must receive reasonable compensation for those services -- reasonable being defined as what you would pay a third party to do the same work. The IRS has a history of reclassifying S-corp distributions as wages when the salary is unreasonably low. Beyond the FICA question, consultants who work exclusively for one firm under its direction are generally employees regardless of their business structure. The contractor vs. employee analysis is based on economic reality, not the form of payment.",
   },
   {
     question: "What is a 'nexus' and when does our consulting firm owe employer taxes in a state?",
-    answer: "Tax nexus is the connection between your business and a state that creates a legal obligation to register and pay taxes there. For consulting firms, nexus is typically established when an employee performs work in a state for an extended period (varies by state — some trigger at 1 day, others at 30 days). Once nexus exists, the firm must register as an employer in that state, withhold state income tax, and pay state unemployment insurance for that employee. We can configure multi-state payroll once you have registered, but employer registration is a step your firm must complete directly with each state's tax and unemployment agencies.",
+    answer: "Tax nexus is the connection between your business and a state that creates a legal obligation to register and pay taxes there. For consulting firms, nexus is typically established when an employee performs work in a state for an extended period (varies by state -- some trigger at 1 day, others at 30 days). Once nexus exists, the firm must register as an employer in that state, withhold state income tax, and pay state unemployment insurance for that employee. We can configure multi-state payroll once you have registered, but employer registration is a step your firm must complete directly with each state's tax and unemployment agencies.",
   },
   {
     question: "What does BEG charge for consulting firm payroll?",
@@ -45,6 +45,7 @@ const faqs = [
 export default function ConsultingFirmPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -82,7 +83,7 @@ export default function ConsultingFirmPayrollPage() {
                 ["Partner / Principal", "Salaried exempt (executive)", "Salary + profit share / K-1", "Reasonable comp for S-corp structures"],
                 ["Senior Manager", "Salaried exempt (professional)", "Salary + annual bonus", "Must still meet $684/week salary threshold"],
                 ["Manager / Consultant", "Salaried exempt (professional)", "Salary + utilization bonus", "Non-discretionary bonuses in regular rate if any non-exempt"],
-                ["Analyst / Junior Consultant", "Salaried exempt or hourly", "Salary or hourly", "May not meet exemption test — OT exposure if mis-exempt"],
+                ["Analyst / Junior Consultant", "Salaried exempt or hourly", "Salary or hourly", "May not meet exemption test -- OT exposure if mis-exempt"],
                 ["Contract / project staff", "1099 contractor", "Flat project fee or hourly", "Misclassification if they work like employees"],
               ].map(([role, classification, pay, risk], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? "#f9f9f9" : "#fff" }}>
@@ -98,7 +99,7 @@ export default function ConsultingFirmPayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Multi-State Withholding for Traveling Consultants</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          When your consultants travel to client sites in other states, they perform work in those states — and most states assert income tax jurisdiction over wages earned within their borders. A consultant based in Texas who spends the month of October at a client site in Illinois has October wages that are subject to Illinois income tax withholding, even though the firm's home state is Texas.
+          When your consultants travel to client sites in other states, they perform work in those states -- and most states assert income tax jurisdiction over wages earned within their borders. A consultant based in Texas who spends the month of October at a client site in Illinois has October wages that are subject to Illinois income tax withholding, even though the firm's home state is Texas.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
           State tax agencies track this through employer withholding filings. If your firm withholds only for the home state while consultants are working in other states, you have exposure for those other states. The <a href="https://www.calt.iastate.edu/article/multi-state-taxation-employers" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>multi-state employer tax guidance</a> from accounting and tax resources covers the general framework. We configure state withholding per employee location and update it when work location changes.

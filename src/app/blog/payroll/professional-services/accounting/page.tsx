@@ -23,14 +23,14 @@ const faqs = [
   },
   {
     question: 'Can you manage the seasonal overtime spike during tax season (January–April)?',
-    answer: 'Yes. Accounting firms that run extended hours from January through April 15 often see significant overtime for staff accountants and tax preparers. We process overtime correctly per state, handle any seasonal hires brought on for the rush, and manage offboarding at the end of tax season — all without any setup fee or surge pricing.',
+    answer: 'Yes. Accounting firms that run extended hours from January through April 15 often see significant overtime for staff accountants and tax preparers. We process overtime correctly per state, handle any seasonal hires brought on for the rush, and manage offboarding at the end of tax season -- all without any setup fee or surge pricing.',
   },
   {
     question: 'Do you integrate with QuickBooks, Xero, or Sage for GL posting?',
     answer: 'Yes. We produce a payroll journal entry in the format your GL requires each cycle. For QuickBooks and Xero, we can export a file that imports directly. This eliminates manual re-entry of payroll data into your accounting system and keeps your books accurate without additional work from your team.',
   },
   {
-    question: 'What about CPE training reimbursements and professional dues — do those go through payroll?',
+    question: 'What about CPE training reimbursements and professional dues -- do those go through payroll?',
     answer: 'It depends on the structure. CPE reimbursements paid as expense reimbursements under an accountable plan are not taxable and do not run through payroll. If structured as bonuses or additional comp, they do. We advise on the correct treatment and process accordingly. Professional dues paid directly by the firm are not payroll items.',
   },
   {
@@ -39,13 +39,14 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for accounting firm payroll?',
-    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 25-person CPA firm, that is $625–$875 per month — compared to $70,000–$100,000 loaded cost for an in-house HR manager. Included: payroll processing, partner W-2 coordination, GL export, multi-state filing, W-2 production, and compliance updates.',
+    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 25-person CPA firm, that is $625–$875 per month -- compared to $70,000–$100,000 loaded cost for an in-house HR manager. Included: payroll processing, partner W-2 coordination, GL export, multi-state filing, W-2 production, and compliance updates.',
   },
 ];
 
 export default function AccountingPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Accounting Firm Payroll | $25 PEPM vs. Hiring In-House | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/professional-services/accounting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -62,7 +63,7 @@ export default function AccountingPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Accounting firms bill for expertise. Every hour spent managing internal payroll is an hour that is not billed to a client. Yet most CPA firms and accounting practices still handle their own payroll in-house, paying an HR manager or office administrator $65,000–$100,000 per year to process W-2s, manage partner comp structures, handle the tax season overtime surge, and stay current on compliance changes — while the partners focus on client work.</p>
+        <p>Accounting firms bill for expertise. Every hour spent managing internal payroll is an hour that is not billed to a client. Yet most CPA firms and accounting practices still handle their own payroll in-house, paying an HR manager or office administrator $65,000–$100,000 per year to process W-2s, manage partner comp structures, handle the tax season overtime surge, and stay current on compliance changes -- while the partners focus on client work.</p>
 
         <p>The irony is not lost on anyone: the professionals who help clients optimize their financial operations often have the least optimized internal overhead structure in their own firm.</p>
 
@@ -99,7 +100,7 @@ export default function AccountingPayrollPage() {
           </table>
         </div>
 
-        <p>This does not account for the cost of errors — a misprocessed partner W-2 or incorrect withholding for a multi-state staff accountant creates correction work that is expensive and disruptive at any time of year, and catastrophic during tax season.</p>
+        <p>This does not account for the cost of errors -- a misprocessed partner W-2 or incorrect withholding for a multi-state staff accountant creates correction work that is expensive and disruptive at any time of year, and catastrophic during tax season.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
 
@@ -183,7 +184,7 @@ export default function AccountingPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Accounting Firm Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Partner W-2 coordination, tax season overtime, GL export, multi-state compliance — all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your firm size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Partner W-2 coordination, tax season overtime, GL export, multi-state compliance -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your firm size.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 

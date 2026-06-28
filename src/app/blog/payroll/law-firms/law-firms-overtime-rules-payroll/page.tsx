@@ -41,6 +41,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Law Firms: Overtime Rules and Payroll Compliance | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/law-firms/law-firms-overtime-rules-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,7 +64,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Key Payroll Compliance Requirements for Law Firms</h2>
 
-        <p><strong>Federal requirements.</strong> All law firms must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time — failure to deposit triggers a penalty of 2–15% of the unpaid amount depending on how many days late.</p>
+        <p><strong>Federal requirements.</strong> All law firms must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2–15% of the unpaid amount depending on how many days late.</p>
 
         <p><strong>State requirements.</strong> State bar payroll requirements, attorney overtime exemptions under FLSA, IOLTA trust accounting separation. State requirements vary and change frequently. Multi-location law firms face multiple sets of state rules simultaneously.</p>
 
@@ -72,11 +73,11 @@ export default function Page() {
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Common Compliance Mistakes in Law Firms Payroll</h2>
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Misclassifying employees</strong> — especially relevant for law firms where attorneys and paralegals may be paid differently depending on role structure</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> — the IRS charges 2–15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect state filings</strong> — law firms with employees in multiple states must file in each state and maintain separate records</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Failing to update payroll for rate changes</strong> — minimum wage, SUTA rates, and state withholding tables change annually in most states</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Year-end W-2 errors</strong> — incorrect box entries on W-2s require corrected W-2Cs filed with both the employee and the IRS</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Misclassifying employees</strong> -- especially relevant for law firms where attorneys and paralegals may be paid differently depending on role structure</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2–15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect state filings</strong> -- law firms with employees in multiple states must file in each state and maintain separate records</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Failing to update payroll for rate changes</strong> -- minimum wage, SUTA rates, and state withholding tables change annually in most states</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Year-end W-2 errors</strong> -- incorrect box entries on W-2s require corrected W-2Cs filed with both the employee and the IRS</li>
         </ul>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How Managed Payroll Handles Law Firms Compliance</h2>

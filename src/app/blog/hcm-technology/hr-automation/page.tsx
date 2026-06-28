@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is the difference between HR automation and managed payroll?',
-    answer: 'HR automation means configuring software so that certain HR tasks run automatically — benefits enrollment triggers, onboarding task sequences, PTO approval routing, payroll calculation. A person at your company still owns the system and monitors the outputs. Managed payroll means a service provider takes over the operational execution entirely — they configure and run the system, handle exceptions, answer employee questions, and take responsibility for accuracy and compliance. Automation reduces the manual effort inside your team. Managed payroll removes payroll from your team\'s responsibility altogether.',
+    answer: 'HR automation means configuring software so that certain HR tasks run automatically -- benefits enrollment triggers, onboarding task sequences, PTO approval routing, payroll calculation. A person at your company still owns the system and monitors the outputs. Managed payroll means a service provider takes over the operational execution entirely -- they configure and run the system, handle exceptions, answer employee questions, and take responsibility for accuracy and compliance. Automation reduces the manual effort inside your team. Managed payroll removes payroll from your team\'s responsibility altogether.',
   },
   {
     question: 'Which HR functions benefit most from automation?',
-    answer: 'By time-savings impact: (1) payroll processing — automation eliminates manual data entry, calculation, and approval routing; (2) benefits enrollment — employee self-service replaces HR-mediated enrollment conversations and paper forms; (3) onboarding — automated task sequences, document collection, and system provisioning replace the first-week checklist that HR coordinates manually; (4) PTO and time-off management — employee-initiated requests with automated approval routing eliminate back-and-forth scheduling. Compliance tracking and reporting also benefit significantly, particularly for ACA measurement period monitoring and multi-state withholding.',
+    answer: 'By time-savings impact: (1) payroll processing -- automation eliminates manual data entry, calculation, and approval routing; (2) benefits enrollment -- employee self-service replaces HR-mediated enrollment conversations and paper forms; (3) onboarding -- automated task sequences, document collection, and system provisioning replace the first-week checklist that HR coordinates manually; (4) PTO and time-off management -- employee-initiated requests with automated approval routing eliminate back-and-forth scheduling. Compliance tracking and reporting also benefit significantly, particularly for ACA measurement period monitoring and multi-state withholding.',
   },
   {
     question: 'Can HR automation replace an HR person?',
@@ -31,11 +31,11 @@ const faqs = [
   },
   {
     question: 'What is isolved Connector for Claude and how does it fit into HR automation?',
-    answer: 'isolved Connector for Claude is a generally available integration between isolved\'s HCM platform and Claude, Anthropic\'s AI assistant. While chatbot-based HR tools answer questions about HR data, isolved Connector for Claude completes tasks — running payroll, updating employee records, pulling compliance reports — directly within isolved based on natural language instructions. The distinction is between a system that informs HR staff and one that executes work. BEG is an authorized isolved reseller; clients using BEG managed payroll on the isolved platform have access to this integration.',
+    answer: 'isolved Connector for Claude is a generally available integration between isolved\'s HCM platform and Claude, Anthropic\'s AI assistant. While chatbot-based HR tools answer questions about HR data, isolved Connector for Claude completes tasks -- running payroll, updating employee records, pulling compliance reports -- directly within isolved based on natural language instructions. The distinction is between a system that informs HR staff and one that executes work. BEG is an authorized isolved reseller; clients using BEG managed payroll on the isolved platform have access to this integration.',
   },
   {
     question: 'How long does it take to implement HR automation at a 50-person company?',
-    answer: 'For a company moving from manual processes or a basic payroll-only tool to a full HRIS with automation configured, BEG managed payroll is live in 3–5 business days — we handle configuration, run a parallel payroll cycle to verify accuracy, and go live. For clients moving onto isolved as a platform, data migration and full HRIS configuration typically adds 2–3 weeks on top of the payroll activation timeline.',
+    answer: 'For a company moving from manual processes or a basic payroll-only tool to a full HRIS with automation configured, BEG managed payroll is live in 3–5 business days -- we handle configuration, run a parallel payroll cycle to verify accuracy, and go live. For clients moving onto isolved as a platform, data migration and full HRIS configuration typically adds 2–3 weeks on top of the payroll activation timeline.',
   },
   {
     question: 'What is the ROI on HR automation for a 30-person company?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function HRAutomationPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation 2026 | What to Automate vs. What to Skip | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/hr-automation"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -62,9 +63,9 @@ export default function HRAutomationPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>HR teams at growing companies spend more time on administrative processing than on the work that actually moves the business — recruiting, culture, development, and workforce planning. The administrative load is real: a 50-person company with a manual or partially automated HR function typically generates 25–40 hours per month of low-value processing work that could be handled by a well-configured HRIS.</p>
+        <p>HR teams at growing companies spend more time on administrative processing than on the work that actually moves the business -- recruiting, culture, development, and workforce planning. The administrative load is real: a 50-person company with a manual or partially automated HR function typically generates 25–40 hours per month of low-value processing work that could be handled by a well-configured HRIS.</p>
 
-        <p>HR automation is not about replacing HR staff. It is about redirecting their time from rules-based processing — data entry, routing, reminders, calculations — to judgment-based work that requires human context. This distinction matters because most HR teams are understaffed for the strategic work, not the administrative work.</p>
+        <p>HR automation is not about replacing HR staff. It is about redirecting their time from rules-based processing -- data entry, routing, reminders, calculations -- to judgment-based work that requires human context. This distinction matters because most HR teams are understaffed for the strategic work, not the administrative work.</p>
 
         <p>This guide covers what HR automation actually includes, where the time savings are, what to automate first, and when outsourcing is a better answer than automation alone.</p>
 
@@ -103,21 +104,21 @@ export default function HRAutomationPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What to Automate First: Priority Order</h2>
 
-        <p><strong>1. Payroll processing.</strong> Every pay cycle has a deadline and a direct financial consequence for errors. Manual payroll is the single highest-risk, highest-frequency administrative task in HR. It is also the most mature automation category — modern payroll automation is reliable and well-tested. This is where the time savings and error reduction are largest.</p>
+        <p><strong>1. Payroll processing.</strong> Every pay cycle has a deadline and a direct financial consequence for errors. Manual payroll is the single highest-risk, highest-frequency administrative task in HR. It is also the most mature automation category -- modern payroll automation is reliable and well-tested. This is where the time savings and error reduction are largest.</p>
 
-        <p><strong>2. Benefits enrollment.</strong> Open enrollment season creates a concentrated spike in HR workload that employee self-service absorbs entirely. Beyond annual enrollment, life event changes — new dependent, marriage, divorce — generate one-off HR interactions that self-service handles without HR involvement.</p>
+        <p><strong>2. Benefits enrollment.</strong> Open enrollment season creates a concentrated spike in HR workload that employee self-service absorbs entirely. Beyond annual enrollment, life event changes -- new dependent, marriage, divorce -- generate one-off HR interactions that self-service handles without HR involvement.</p>
 
-        <p><strong>3. Onboarding workflows.</strong> New hire onboarding involves a predictable sequence of tasks: paperwork collection, system access provisioning, training assignments, benefits enrollment initiation. These are ideal automation candidates because they follow a defined script. Manual onboarding at a 50-person company with 10 hires per year consumes roughly 40–60 hours of HR time annually — almost entirely eliminable with proper workflow automation.</p>
+        <p><strong>3. Onboarding workflows.</strong> New hire onboarding involves a predictable sequence of tasks: paperwork collection, system access provisioning, training assignments, benefits enrollment initiation. These are ideal automation candidates because they follow a defined script. Manual onboarding at a 50-person company with 10 hires per year consumes roughly 40–60 hours of HR time annually -- almost entirely eliminable with proper workflow automation.</p>
 
         <p><strong>4. Time and attendance.</strong> If employees track hours (hourly staff, overtime-eligible roles), manual timesheet collection and payroll import is a recurring friction point. Integration between time tracking and payroll processing eliminates the manual step entirely.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>AI-Augmented HR: isolved Connector for Claude</h2>
 
-        <p>The newest layer of HR automation is AI-driven task execution within HCM platforms. isolved's Connector for Claude — generally available as of 2026 in Claude's connector directory — extends automation beyond scheduled workflows into on-demand task completion.</p>
+        <p>The newest layer of HR automation is AI-driven task execution within HCM platforms. isolved's Connector for Claude -- generally available as of 2026 in Claude's connector directory -- extends automation beyond scheduled workflows into on-demand task completion.</p>
 
         <p>The distinction from chatbot-based HR tools is the action layer. Chatbot systems answer questions about HR data: "What is Jane's PTO balance?" isolved Connector for Claude executes tasks directly in the platform: process this payroll run, update this employee record, pull this compliance report. The action happens in isolved; Claude is the interface.</p>
 
-        <p>For HR teams using isolved as their HCM platform, this means natural language access to platform functions without navigating menu structures — reducing the time cost of one-off tasks and exception handling that falls outside automated workflows.</p>
+        <p>For HR teams using isolved as their HCM platform, this means natural language access to platform functions without navigating menu structures -- reducing the time cost of one-off tasks and exception handling that falls outside automated workflows.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Automation vs. Outsourcing: When to Choose Each</h2>
 
@@ -134,7 +135,7 @@ export default function HRAutomationPage() {
               {[
                 ['HR team with capacity to manage HRIS', 'Automate with self-service HRIS', 'Team can own the platform, configure workflows, monitor output'],
                 ['HR team already at capacity or overloaded', 'Managed payroll + automation', 'Remove operational ownership from HR entirely'],
-                ['No dedicated HR staff', 'Managed payroll outsourcing', 'No internal resource to run a platform — service model required'],
+                ['No dedicated HR staff', 'Managed payroll outsourcing', 'No internal resource to run a platform -- service model required'],
                 ['Payroll errors occurring regularly', 'Managed payroll', 'Compliance liability calls for expert ownership, not better software'],
                 ['Multi-state workforce (5+ states)', 'Managed payroll', 'State registration, withholding complexity exceeds typical in-house capacity'],
                 ['HR wants to focus on recruiting/culture', 'Automate admin + managed payroll', 'Eliminate all administrative processing from HR\'s plate'],

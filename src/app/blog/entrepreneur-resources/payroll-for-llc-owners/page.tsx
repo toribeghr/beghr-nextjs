@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "Does an LLC owner have to run payroll?",
-    answer: "It depends on the LLC's tax election. A single-member LLC taxed as a sole proprietor (the default) does not run payroll for the owner — the owner takes draws and pays self-employment tax on net profit. A multi-member LLC taxed as a partnership also does not run payroll for its members — they receive guaranteed payments or distributions. However, an LLC that has elected to be taxed as an S-corporation must put its working members on payroll with a reasonable salary. An LLC taxed as a C-corporation also requires owner-employees to be on payroll. The business structure determines the payroll obligation — the 'LLC' label itself does not tell you whether payroll is required.",
+    answer: "It depends on the LLC's tax election. A single-member LLC taxed as a sole proprietor (the default) does not run payroll for the owner -- the owner takes draws and pays self-employment tax on net profit. A multi-member LLC taxed as a partnership also does not run payroll for its members -- they receive guaranteed payments or distributions. However, an LLC that has elected to be taxed as an S-corporation must put its working members on payroll with a reasonable salary. An LLC taxed as a C-corporation also requires owner-employees to be on payroll. The business structure determines the payroll obligation -- the 'LLC' label itself does not tell you whether payroll is required.",
   },
   {
     question: "What is self-employment tax and how much is it for LLC members?",
@@ -30,21 +30,22 @@ const faqs = [
   },
   {
     question: "Can a multi-member LLC pay its members a salary?",
-    answer: "Members of a partnership or multi-member LLC taxed as a partnership cannot be employees of the entity for services they provide as a member. Instead, the operating agreement may provide for guaranteed payments — fixed amounts paid to members regardless of profitability, which are deductible by the LLC and taxable as ordinary income to the member, and are subject to self-employment tax. Members can be employees of an LLC for services they provide in a non-member capacity in limited circumstances, but this is a nuanced area that requires careful structuring. If the LLC elects S-corp status, members who provide services become employee-shareholders and must be on payroll.",
+    answer: "Members of a partnership or multi-member LLC taxed as a partnership cannot be employees of the entity for services they provide as a member. Instead, the operating agreement may provide for guaranteed payments -- fixed amounts paid to members regardless of profitability, which are deductible by the LLC and taxable as ordinary income to the member, and are subject to self-employment tax. Members can be employees of an LLC for services they provide in a non-member capacity in limited circumstances, but this is a nuanced area that requires careful structuring. If the LLC elects S-corp status, members who provide services become employee-shareholders and must be on payroll.",
   },
   {
     question: "I have an LLC with employees. Do I need payroll for my workers even if I do not?",
-    answer: "Yes. Employees of your LLC are always on payroll regardless of your own compensation method. If you have staff, contractors who are actually employees under the economic realities test, or anyone you pay wages to perform services, payroll obligations apply to those individuals. Your own compensation as an LLC member is a separate question from your obligation to pay your employees correctly. You can take draws while your employees receive W-2 wages — those are independent obligations.",
+    answer: "Yes. Employees of your LLC are always on payroll regardless of your own compensation method. If you have staff, contractors who are actually employees under the economic realities test, or anyone you pay wages to perform services, payroll obligations apply to those individuals. Your own compensation as an LLC member is a separate question from your obligation to pay your employees correctly. You can take draws while your employees receive W-2 wages -- those are independent obligations.",
   },
   {
     question: "What does BEG charge for LLC owner and employee payroll?",
-    answer: "BEG manages LLC payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For an S-corp LLC with the owner on salary plus 5 employees, that is 6 people at $25 to $45 each — $150 to $270 per month, all-inclusive. If you just need your own S-corp salary processed, that is $25 to $45 per month. All-inclusive: tax filings, W-2 production, and setup in 3 to 5 business days.",
+    answer: "BEG manages LLC payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For an S-corp LLC with the owner on salary plus 5 employees, that is 6 people at $25 to $45 each -- $150 to $270 per month, all-inclusive. If you just need your own S-corp salary processed, that is $25 to $45 per month. All-inclusive: tax filings, W-2 production, and setup in 3 to 5 business days.",
   },
 ];
 
 export default function PayrollForLLCOwnersPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,7 +64,7 @@ export default function PayrollForLLCOwnersPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          LLC owners ask two different payroll questions depending on their situation: "do I need to pay myself through payroll?" and "do I need payroll for my employees?" The second question always has the same answer (yes, if you have employees). The first depends entirely on how your LLC is taxed. Most LLC owners have more flexibility than they realize — and the ones who elect S-corp status have less than they think, because the IRS requires a formal payroll with a reasonable salary from the moment of election.
+          LLC owners ask two different payroll questions depending on their situation: "do I need to pay myself through payroll?" and "do I need payroll for my employees?" The second question always has the same answer (yes, if you have employees). The first depends entirely on how your LLC is taxed. Most LLC owners have more flexibility than they realize -- and the ones who elect S-corp status have less than they think, because the IRS requires a formal payroll with a reasonable salary from the moment of election.
         </p>
 
         <p style={{ fontSize: "0.85rem", color: "#666", marginBottom: "2.5rem", padding: "0.75rem 1rem", background: "#f9f9f9", borderLeft: "3px solid #ECAC60" }}>
@@ -83,10 +84,10 @@ export default function PayrollForLLCOwnersPage() {
             </thead>
             <tbody>
               {[
-                ["Single-member LLC (default)", "No — takes draws", "Yes — on net profit", "Schedule C (Form 1040)"],
-                ["Multi-member LLC (default)", "No — guaranteed payments", "Yes — on SE income", "Form 1065 + K-1s"],
-                ["LLC elected as S-corp", "Yes — reasonable salary required", "On salary only", "Form 1120-S + K-1s"],
-                ["LLC elected as C-corp", "Yes — wages required", "No — FICA applies", "Form 1120"],
+                ["Single-member LLC (default)", "No -- takes draws", "Yes -- on net profit", "Schedule C (Form 1040)"],
+                ["Multi-member LLC (default)", "No -- guaranteed payments", "Yes -- on SE income", "Form 1065 + K-1s"],
+                ["LLC elected as S-corp", "Yes -- reasonable salary required", "On salary only", "Form 1120-S + K-1s"],
+                ["LLC elected as C-corp", "Yes -- wages required", "No -- FICA applies", "Form 1120"],
               ].map(([type, payroll, se, form], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? "#f9f9f9" : "#fff" }}>
                   <td style={{ padding: "10px 14px", borderBottom: "1px solid #eee" }}>{type}</td>
@@ -101,7 +102,7 @@ export default function PayrollForLLCOwnersPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>The S-Corp Election: Timing and Payroll Startup</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          When an LLC files Form 2553 to elect S-corp status, payroll must begin immediately for any member who provides services to the business. The election does not allow a grace period for payroll setup. If you elect S-corp status in January and do not run your first payroll until June, the IRS can assess that the salary should have been paid starting in January — and may recharacterize the distributions taken in the interim as wages, with associated FICA and penalties.
+          When an LLC files Form 2553 to elect S-corp status, payroll must begin immediately for any member who provides services to the business. The election does not allow a grace period for payroll setup. If you elect S-corp status in January and do not run your first payroll until June, the IRS can assess that the salary should have been paid starting in January -- and may recharacterize the distributions taken in the interim as wages, with associated FICA and penalties.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           The <a href="https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>IRS S-corporation resource page</a> covers election requirements, timing, and the shareholder-employee compensation rules. Setting up payroll before the election becomes effective is the correct sequence.
@@ -109,7 +110,7 @@ export default function PayrollForLLCOwnersPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Self-Employment Tax on Member Draws: The Most Common Misunderstanding</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          LLC members who are active in the business pay self-employment tax on their allocable share of net income — not on what they actually draw or distribute from the account. If your LLC nets $150,000 and you draw only $60,000, your SE tax is calculated on $150,000 (minus any allowable deductions). Drawing less than the net profit defers cash flow but does not defer or reduce SE tax.
+          LLC members who are active in the business pay self-employment tax on their allocable share of net income -- not on what they actually draw or distribute from the account. If your LLC nets $150,000 and you draw only $60,000, your SE tax is calculated on $150,000 (minus any allowable deductions). Drawing less than the net profit defers cash flow but does not defer or reduce SE tax.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           The only way to reduce SE tax (not defer it) is through the S-corp election: by paying yourself a reasonable salary and taking the remainder as a distribution, you pay FICA only on the salary portion. The distribution portion is not subject to SE tax.

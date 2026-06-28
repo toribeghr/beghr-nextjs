@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "Do seasonal employees have to be rehired as new employees each year?",
-    answer: "It depends on how your payroll system handles returning workers and your state's employment rules. If you terminate seasonal employees at the end of each season and bring them back the following year, they are technically new hires for onboarding and new hire reporting purposes — though you can reuse their I-9 if it is still within the re-verification window (Employment Eligibility Verification rules allow re-use of an existing I-9 if the prior employment ended within the last three years). Some employers put seasonal employees on an inactive status rather than terminating them, which avoids the rehire paperwork but can affect SUI benefit eligibility rulings if a state considers them continuous employees.",
+    answer: "It depends on how your payroll system handles returning workers and your state's employment rules. If you terminate seasonal employees at the end of each season and bring them back the following year, they are technically new hires for onboarding and new hire reporting purposes -- though you can reuse their I-9 if it is still within the re-verification window (Employment Eligibility Verification rules allow re-use of an existing I-9 if the prior employment ended within the last three years). Some employers put seasonal employees on an inactive status rather than terminating them, which avoids the rehire paperwork but can affect SUI benefit eligibility rulings if a state considers them continuous employees.",
   },
   {
     question: "How does high seasonal turnover affect our SUI tax rate?",
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: "What is the fastest we can onboard a new seasonal hire and run their first paycheck?",
-    answer: "Once a seasonal hire completes their onboarding paperwork (I-9, W-4, state withholding form), we can add them to payroll and include them in the next pay run. For biweekly payroll, the turnaround from hire to first paycheck is typically one to two pay periods depending on when in the cycle they start. We do not require a waiting period. New hire reporting must be filed within 20 days of the employee's start date — we handle that as part of onboarding. In high-volume hiring seasons, we process new employee setups in batches to keep the pace manageable.",
+    answer: "Once a seasonal hire completes their onboarding paperwork (I-9, W-4, state withholding form), we can add them to payroll and include them in the next pay run. For biweekly payroll, the turnaround from hire to first paycheck is typically one to two pay periods depending on when in the cycle they start. We do not require a waiting period. New hire reporting must be filed within 20 days of the employee's start date -- we handle that as part of onboarding. In high-volume hiring seasons, we process new employee setups in batches to keep the pace manageable.",
   },
   {
     question: "Some of our peak-season employees live out of state. Does that complicate payroll?",
@@ -39,13 +39,14 @@ const faqs = [
   },
   {
     question: "What does BEG charge for seasonal retail payroll?",
-    answer: "BEG manages retail payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. You only pay for active employees in any given month — so headcount-based costs scale with your actual staffing, not a fixed fee. No per-run fees, no onboarding fees, no offboarding fees.",
+    answer: "BEG manages retail payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. You only pay for active employees in any given month -- so headcount-based costs scale with your actual staffing, not a fixed fee. No per-run fees, no onboarding fees, no offboarding fees.",
   },
 ];
 
 export default function SeasonalRetailPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -101,7 +102,7 @@ export default function SeasonalRetailPayrollPage() {
           Federal law requires employers to report all new hires to their state's new hire registry within 20 days of the employee's start date. States use this data to cross-reference child support orders and prevent fraud in unemployment insurance programs. Most states have their own reporting deadlines that align with or are shorter than the federal requirement.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          The <a href="https://www.acf.hhs.gov/css/employers/new-hire-reporting" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>federal new hire reporting guidance</a> covers the requirements and state-by-state directory. During high-volume hiring periods, retailers that onboard 30+ employees in a week must submit all of those new hire reports within 20 days — often by the time the employee has worked their first two weeks. We include new hire reporting as part of our standard onboarding processing.",
+          The <a href="https://www.acf.hhs.gov/css/employers/new-hire-reporting" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>federal new hire reporting guidance</a> covers the requirements and state-by-state directory. During high-volume hiring periods, retailers that onboard 30+ employees in a week must submit all of those new hire reports within 20 days -- often by the time the employee has worked their first two weeks. We include new hire reporting as part of our standard onboarding processing.",
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>SUI Experience Rating and Seasonal Workforce Strategy</h2>
@@ -122,7 +123,7 @@ export default function SeasonalRetailPayrollPage() {
           <li>Returning worker setup for prior-season rehires</li>
           <li>W-2 production and tax filings at year end</li>
           <li>Multi-state employer registration as seasonal locations are added</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

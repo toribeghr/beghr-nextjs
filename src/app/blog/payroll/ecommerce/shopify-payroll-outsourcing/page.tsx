@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "When does a Shopify seller actually need a payroll system?",
-    answer: "You need a proper payroll system the moment you pay anyone as a W-2 employee — including yourself if you are structured as an S-corporation or C-corporation. If you are a sole proprietor or single-member LLC taking owner draws, that is not payroll. But the moment you pay a warehouse worker, a part-time customer service rep, or a fulfillment assistant on a regular schedule, those payments are wages subject to withholding and employer payroll taxes. Running these through your personal bank account or paying cash without withholding creates significant IRS exposure.",
+    answer: "You need a proper payroll system the moment you pay anyone as a W-2 employee -- including yourself if you are structured as an S-corporation or C-corporation. If you are a sole proprietor or single-member LLC taking owner draws, that is not payroll. But the moment you pay a warehouse worker, a part-time customer service rep, or a fulfillment assistant on a regular schedule, those payments are wages subject to withholding and employer payroll taxes. Running these through your personal bank account or paying cash without withholding creates significant IRS exposure.",
   },
   {
     question: "We pay virtual assistants and overseas contractors. Do those go through payroll?",
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     question: "What payroll taxes does a Shopify store owner owe as an employer?",
-    answer: "As an employer, you pay the employer share of FICA — 7.65% on each employee's wages up to the Social Security wage base ($168,600 in 2024), plus 1.45% on all wages above that for Medicare. You also pay federal unemployment tax (FUTA) at 6% on the first $7,000 of each employee's wages, reduced by your state unemployment tax credit to typically 0.6%. State unemployment insurance (SUI) rates vary by state and by your claims history. You also match the employee's FICA withholding dollar for dollar. These employer costs add roughly 10-12% on top of each employee's gross wages.",
+    answer: "As an employer, you pay the employer share of FICA -- 7.65% on each employee's wages up to the Social Security wage base ($168,600 in 2024), plus 1.45% on all wages above that for Medicare. You also pay federal unemployment tax (FUTA) at 6% on the first $7,000 of each employee's wages, reduced by your state unemployment tax credit to typically 0.6%. State unemployment insurance (SUI) rates vary by state and by your claims history. You also match the employee's FICA withholding dollar for dollar. These employer costs add roughly 10-12% on top of each employee's gross wages.",
   },
   {
     question: "We are growing fast and might need to hire in multiple states soon. How do we prepare?",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "Can we use the same payroll system for both our Shopify operation and a brick-and-mortar retail location?",
-    answer: "Yes. Payroll does not need to be separate for different locations or business units. A single payroll service can cover all employees across your e-commerce and retail operations. The key is configuring each employee to the correct work location — because state and local withholding is based on where the employee physically works, not where the company is headquartered. We configure work locations at setup for each employee and adjust as your structure changes.",
+    answer: "Yes. Payroll does not need to be separate for different locations or business units. A single payroll service can cover all employees across your e-commerce and retail operations. The key is configuring each employee to the correct work location -- because state and local withholding is based on where the employee physically works, not where the company is headquartered. We configure work locations at setup for each employee and adjust as your structure changes.",
   },
   {
     question: "What does BEG charge for Shopify store payroll outsourcing?",
@@ -45,6 +45,7 @@ const faqs = [
 export default function ShopifyPayrollOutsourcingPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,15 +64,15 @@ export default function ShopifyPayrollOutsourcingPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Shopify sellers move fast: from solo founder to a team of five seemingly overnight. The platform makes selling easy — it does nothing for payroll compliance. Most e-commerce operators cobble together a payroll solution when they have to, using whatever was cheapest to get started. That approach works until you hire in a second state, add seasonal workers, and realize the app you chose cannot handle multi-state withholding without a painful upgrade process mid-year.
+          Shopify sellers move fast: from solo founder to a team of five seemingly overnight. The platform makes selling easy -- it does nothing for payroll compliance. Most e-commerce operators cobble together a payroll solution when they have to, using whatever was cheapest to get started. That approach works until you hire in a second state, add seasonal workers, and realize the app you chose cannot handle multi-state withholding without a painful upgrade process mid-year.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>When DIY Payroll Becomes a Liability</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Small e-commerce operations often start with a payroll app because the upfront cost is low. The problems surface over time: missed state registrations when hiring remote workers, incorrect overtime calculations for warehouse staff, W-2 errors that cause employee tax issues, and the annual panic when the in-house person who ran payroll leaves before year end. The cost of fixing these problems — amended returns, penalty payments, and the time spent dealing with it — almost always exceeds what a managed payroll service would have cost.
+          Small e-commerce operations often start with a payroll app because the upfront cost is low. The problems surface over time: missed state registrations when hiring remote workers, incorrect overtime calculations for warehouse staff, W-2 errors that cause employee tax issues, and the annual panic when the in-house person who ran payroll leaves before year end. The cost of fixing these problems -- amended returns, penalty payments, and the time spent dealing with it -- almost always exceeds what a managed payroll service would have cost.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          The <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-taxes-for-employers" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>IRS employer payroll tax guidance</a> outlines all federal obligations — withholding, deposits, filings — that apply from day one of having an employee. State obligations layer on top.
+          The <a href="https://www.irs.gov/businesses/small-businesses-self-employed/payroll-taxes-for-employers" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>IRS employer payroll tax guidance</a> outlines all federal obligations -- withholding, deposits, filings -- that apply from day one of having an employee. State obligations layer on top.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Common Shopify Business Workforce Configurations</h2>
@@ -103,7 +104,7 @@ export default function ShopifyPayrollOutsourcingPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Why Outsourcing Payroll Makes Sense at the Shopify Scale</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Shopify founders and operators are optimized for selling, product, and growth — not for quarterly 941 filings, state unemployment tax reconciliations, and W-2 corrections. Every hour spent on payroll administration is an hour not spent on your store. The payroll compliance landscape also changes constantly: minimum wage increases, state paid leave programs, local sick leave ordinances, and IRS deposit schedule changes all require updates to how payroll is run.
+          Shopify founders and operators are optimized for selling, product, and growth -- not for quarterly 941 filings, state unemployment tax reconciliations, and W-2 corrections. Every hour spent on payroll administration is an hour not spent on your store. The payroll compliance landscape also changes constantly: minimum wage increases, state paid leave programs, local sick leave ordinances, and IRS deposit schedule changes all require updates to how payroll is run.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           Managed payroll removes all of this from your plate. We configure it correctly, update it automatically, file everything on time, and let you focus on revenue. See <a href="/services/managed-payroll" style={{ color: "#ECAC60" }}>BEG's managed payroll service</a> for full details on what is included.

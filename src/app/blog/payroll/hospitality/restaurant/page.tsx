@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How do you handle tip credit calculations for tipped employees?',
-    answer: 'We configure each tipped employee with their applicable state minimum wage and tip credit. Each pay period, we verify that tips plus the tipped cash wage meet or exceed the applicable minimum wage for all hours worked. If they do not, we automatically gross up the cash wage to make up the difference. This happens automatically — no manual calculation needed from your managers.',
+    answer: 'We configure each tipped employee with their applicable state minimum wage and tip credit. Each pay period, we verify that tips plus the tipped cash wage meet or exceed the applicable minimum wage for all hours worked. If they do not, we automatically gross up the cash wage to make up the difference. This happens automatically -- no manual calculation needed from your managers.',
   },
   {
     question: 'Can you manage tip pools that include back-of-house staff?',
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: 'We have locations in California and Texas. How does multi-state tip compliance work?',
-    answer: 'Each state is configured separately. California has no tip credit — all employees receive full state minimum wage regardless of tips. Texas follows federal tip credit rules. The correct rules apply automatically to each employee based on their work state. If an employee works a shift at a different location, we handle the state allocation correctly.',
+    answer: 'Each state is configured separately. California has no tip credit -- all employees receive full state minimum wage regardless of tips. Texas follows federal tip credit rules. The correct rules apply automatically to each employee based on their work state. If an employee works a shift at a different location, we handle the state allocation correctly.',
   },
   {
     question: 'Our schedule changes every week. How do we submit hours?',
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'What happens when a tipped employee quits mid-pay-period?',
-    answer: 'Final pay rules vary by state — California requires same-day final pay for involuntary terminations, while most other states allow payment on the next scheduled payday. We handle the final pay calculation, tip allocation for the partial period, and issue the final check or direct deposit on the correct timeline for the relevant state. We flag terminations that trigger same-day pay requirements.',
+    answer: 'Final pay rules vary by state -- California requires same-day final pay for involuntary terminations, while most other states allow payment on the next scheduled payday. We handle the final pay calculation, tip allocation for the partial period, and issue the final check or direct deposit on the correct timeline for the relevant state. We flag terminations that trigger same-day pay requirements.',
   },
   {
     question: 'What does BEG charge for restaurant payroll?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function RestaurantPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Restaurant Payroll | Tipped Staff & Tip Pools. Handled. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/hospitality/restaurant"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -62,9 +63,9 @@ export default function RestaurantPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Restaurant payroll is one of the most compliance-heavy payroll environments in any industry. You are managing tipped employees under rules that change by state, tip pools that must be structured correctly under 2018 FLSA amendments, split-shift premiums in California and other states, and a workforce that turns over at 70%+ annually — meaning you are constantly onboarding, processing final pay, and re-onboarding at the same time.</p>
+        <p>Restaurant payroll is one of the most compliance-heavy payroll environments in any industry. You are managing tipped employees under rules that change by state, tip pools that must be structured correctly under 2018 FLSA amendments, split-shift premiums in California and other states, and a workforce that turns over at 70%+ annually -- meaning you are constantly onboarding, processing final pay, and re-onboarding at the same time.</p>
 
-        <p>One tip credit error, one incorrect tip pool structure, one missed split-shift premium — any of these creates back-pay liability, DOL audit exposure, and damage to employee relationships. The Department of Labor&apos;s restaurant enforcement division is active, and penalties have increased significantly since the FLSA tip pooling amendments took effect.</p>
+        <p>One tip credit error, one incorrect tip pool structure, one missed split-shift premium -- any of these creates back-pay liability, DOL audit exposure, and damage to employee relationships. The Department of Labor&apos;s restaurant enforcement division is active, and penalties have increased significantly since the FLSA tip pooling amendments took effect.</p>
 
         <p>For most restaurants, the real question is whether to build in-house payroll capacity or outsource to a provider that handles hundreds of restaurant payrolls, knows the state-by-state rules, and carries the compliance liability.</p>
 
@@ -135,7 +136,7 @@ export default function RestaurantPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Restaurant Operators Miss in the Compliance Calculation</h2>
 
-        <p><strong>Tip credit violations create significant back-pay exposure.</strong> If a tipped employee&apos;s cash wage plus tips does not meet minimum wage for every hour worked in a given week, the employer must make up the difference — and cannot retroactively apply the tip credit for that week. DOL audits in restaurant chains have produced seven-figure back-pay orders for systematic tip credit errors that compounded over years.</p>
+        <p><strong>Tip credit violations create significant back-pay exposure.</strong> If a tipped employee&apos;s cash wage plus tips does not meet minimum wage for every hour worked in a given week, the employer must make up the difference -- and cannot retroactively apply the tip credit for that week. DOL audits in restaurant chains have produced seven-figure back-pay orders for systematic tip credit errors that compounded over years.</p>
 
         <p><strong>Post-2018 tip pool violations carry per-employee civil penalties.</strong> The 2018 FLSA amendments added civil penalties up to $1,100 per violation for tip pool violations involving managers or supervisors. A restaurant with 8 managers taking from the tip pool has 8 violations per affected pay period. A two-year audit window creates significant exposure.</p>
 
@@ -183,7 +184,7 @@ export default function RestaurantPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Restaurant Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Tip credit rules, tip pools, split-shift premiums, high-turnover W-2s — all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your location count and staff size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Tip credit rules, tip pools, split-shift premiums, high-turnover W-2s -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your location count and staff size.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 

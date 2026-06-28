@@ -19,23 +19,23 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What is a shift differential and how is it included in overtime calculations?",
-    answer: "A shift differential is additional compensation paid to employees who work less desirable shifts — typically evening, overnight, or weekend shifts. Differentials may be expressed as a flat dollar add-on per hour (e.g., $2/hour for second shift) or as a percentage of the regular rate (e.g., 10% premium for night shift). For overtime calculations, shift differentials that are non-discretionary must be included in the employee's regular rate before computing overtime. If an employee earns $18/hour plus a $2 night differential and works 50 hours, their regular rate for overtime purposes is $20/hour, not $18/hour — and their overtime premium is 0.5x $20 for the 10 excess hours. Using $18 as the overtime base in this scenario underpays overtime.",
+    answer: "A shift differential is additional compensation paid to employees who work less desirable shifts -- typically evening, overnight, or weekend shifts. Differentials may be expressed as a flat dollar add-on per hour (e.g., $2/hour for second shift) or as a percentage of the regular rate (e.g., 10% premium for night shift). For overtime calculations, shift differentials that are non-discretionary must be included in the employee's regular rate before computing overtime. If an employee earns $18/hour plus a $2 night differential and works 50 hours, their regular rate for overtime purposes is $20/hour, not $18/hour -- and their overtime premium is 0.5x $20 for the 10 excess hours. Using $18 as the overtime base in this scenario underpays overtime.",
   },
   {
     question: "We run 12-hour shifts with rotating schedules. How do we define a workday and workweek for overtime purposes?",
-    answer: "Under the FLSA, the workday and workweek are defined by the employer and can be any fixed 24-hour and 7-day consecutive periods. For 12-hour shift operations, the workday definition matters for states with daily overtime requirements — California, Colorado, and Alaska require overtime after 8 hours in a workday, not just weekly. For federal FLSA purposes, only weekly overtime (over 40 hours) is required. Most manufacturers set workweeks to align with their shift rotation cycle to minimize overtime exposure. We configure workday and workweek definitions at setup and apply them consistently.",
+    answer: "Under the FLSA, the workday and workweek are defined by the employer and can be any fixed 24-hour and 7-day consecutive periods. For 12-hour shift operations, the workday definition matters for states with daily overtime requirements -- California, Colorado, and Alaska require overtime after 8 hours in a workday, not just weekly. For federal FLSA purposes, only weekly overtime (over 40 hours) is required. Most manufacturers set workweeks to align with their shift rotation cycle to minimize overtime exposure. We configure workday and workweek definitions at setup and apply them consistently.",
   },
   {
     question: "What is the 8 and 80 rule and can we use it for our plant operations?",
-    answer: "The Section 7(j) 8-and-80 rule is a FLSA exception that allows hospitals and residential care facilities to use an 80-hour/14-day period instead of a 7-day workweek for overtime calculations, paying overtime only for hours over 8 in a day or 80 in the 14-day period. The 8-and-80 rule applies ONLY to hospitals and residential care facilities — it does not apply to manufacturing. Manufacturing operations must use a standard 7-day workweek. If a consultant or payroll system suggests the 8-and-80 as a manufacturing solution, that is incorrect and creates overtime underpayment liability.",
+    answer: "The Section 7(j) 8-and-80 rule is a FLSA exception that allows hospitals and residential care facilities to use an 80-hour/14-day period instead of a 7-day workweek for overtime calculations, paying overtime only for hours over 8 in a day or 80 in the 14-day period. The 8-and-80 rule applies ONLY to hospitals and residential care facilities -- it does not apply to manufacturing. Manufacturing operations must use a standard 7-day workweek. If a consultant or payroll system suggests the 8-and-80 as a manufacturing solution, that is incorrect and creates overtime underpayment liability.",
   },
   {
     question: "Some of our employees are paid by piece-rate. How does overtime work?",
-    answer: "Piece-rate employees — workers paid per unit produced rather than per hour — are still entitled to overtime under the FLSA. For overtime, you must first calculate the employee's regular rate for the week by dividing their total piece-rate earnings by the total hours worked. Then overtime is the additional 0.5x of that regular rate for each hour over 40 in the workweek. This is often called the half-time method. If an employee produces 400 units at $0.50 each and works 50 hours, their regular rate is $200/50 = $4/hour, and they owe 10 hours of overtime at $2/hour additional premium.",
+    answer: "Piece-rate employees -- workers paid per unit produced rather than per hour -- are still entitled to overtime under the FLSA. For overtime, you must first calculate the employee's regular rate for the week by dividing their total piece-rate earnings by the total hours worked. Then overtime is the additional 0.5x of that regular rate for each hour over 40 in the workweek. This is often called the half-time method. If an employee produces 400 units at $0.50 each and works 50 hours, their regular rate is $200/50 = $4/hour, and they owe 10 hours of overtime at $2/hour additional premium.",
   },
   {
     question: "We provide meals to plant employees during long shifts. Are those taxable?",
-    answer: "Meals provided to employees on employer premises for the employer's convenience are excludable from wages under IRC Section 119. The key requirements: the meals must be provided on business premises (not cash reimbursements for meals off-site), and they must be provided for the convenience of the employer — i.e., there is a substantial business reason such as keeping employees on-site during shifts when no food options are available. If those conditions are met, the value of the meals is not included in wages and is not subject to withholding. We can configure the meal exclusion treatment at setup for employees who receive employer-provided meals on premises.",
+    answer: "Meals provided to employees on employer premises for the employer's convenience are excludable from wages under IRC Section 119. The key requirements: the meals must be provided on business premises (not cash reimbursements for meals off-site), and they must be provided for the convenience of the employer -- i.e., there is a substantial business reason such as keeping employees on-site during shifts when no food options are available. If those conditions are met, the value of the meals is not included in wages and is not subject to withholding. We can configure the meal exclusion treatment at setup for employees who receive employer-provided meals on premises.",
   },
   {
     question: "What does BEG charge for manufacturing shift work payroll?",
@@ -46,6 +46,7 @@ const faqs = [
 export default function ShiftWorkPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,12 +65,12 @@ export default function ShiftWorkPayrollPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Manufacturing payroll is not complicated because the headcount is large — it is complicated because the rules governing how those employees are paid are layered. Shift differentials that must be blended into overtime calculations. Rotating schedules that cross midnight and span multiple paydays. Piece-rate workers whose regular rate changes every week. 24/7 operations where workday definitions determine whether employees earn daily overtime. Run these incorrectly and you accumulate underpayment liability across every pay period.
+          Manufacturing payroll is not complicated because the headcount is large -- it is complicated because the rules governing how those employees are paid are layered. Shift differentials that must be blended into overtime calculations. Rotating schedules that cross midnight and span multiple paydays. Piece-rate workers whose regular rate changes every week. 24/7 operations where workday definitions determine whether employees earn daily overtime. Run these incorrectly and you accumulate underpayment liability across every pay period.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Shift Differentials and the Regular Rate Problem</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          The FLSA's "regular rate" is not the same as an employee's base hourly rate. It is the total compensation for the workweek divided by total hours worked. Non-discretionary bonuses and premiums — including shift differentials — must be included in the regular rate before computing overtime. This is one of the most common overtime calculation errors in manufacturing.
+          The FLSA's "regular rate" is not the same as an employee's base hourly rate. It is the total compensation for the workweek divided by total hours worked. Non-discretionary bonuses and premiums -- including shift differentials -- must be included in the regular rate before computing overtime. This is one of the most common overtime calculation errors in manufacturing.
         </p>
         <div style={{ overflowX: "auto", marginBottom: "2.5rem" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.9rem" }}>
@@ -86,7 +87,7 @@ export default function ShiftWorkPayrollPage() {
                 ["Shift differential (non-discretionary)", "Yes", "Must be included before OT calculation"],
                 ["Production bonuses", "Yes", "Non-discretionary production incentives are included"],
                 ["Attendance bonuses", "Yes", "If non-discretionary, included"],
-                ["Discretionary bonuses", "No", "Only if truly discretionary — employer decides after the fact"],
+                ["Discretionary bonuses", "No", "Only if truly discretionary -- employer decides after the fact"],
                 ["Overtime premium pay", "No", "The extra 0.5x itself is excluded from the regular rate"],
                 ["Employer benefit plan contributions", "No", "401k, health, HSA contributions excluded"],
               ].map(([component, included, notes], i) => (
@@ -102,10 +103,10 @@ export default function ShiftWorkPayrollPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Workday and Workweek Definitions for 24/7 Operations</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          For manufacturing plants running three shifts around the clock, workday and workweek definitions are not administrative formalities — they determine which employees earn overtime and how much. Most manufacturers establish workweeks that align with their shift rotation: a Sunday-to-Saturday workweek for a five-day operation; a rotating definition for a continuous 24/7 plant.
+          For manufacturing plants running three shifts around the clock, workday and workweek definitions are not administrative formalities -- they determine which employees earn overtime and how much. Most manufacturers establish workweeks that align with their shift rotation: a Sunday-to-Saturday workweek for a five-day operation; a rotating definition for a continuous 24/7 plant.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          The <a href="https://www.dol.gov/agencies/whd/flsa/overtime_worker_vs" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>DOL's overtime resources for manufacturing workers</a> cover the workweek definition rules and common calculation methods. We configure workday and workweek definitions at setup and do not change them without a documented business reason — retroactive changes to avoid overtime are prohibited under the FLSA.
+          The <a href="https://www.dol.gov/agencies/whd/flsa/overtime_worker_vs" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>DOL's overtime resources for manufacturing workers</a> cover the workweek definition rules and common calculation methods. We configure workday and workweek definitions at setup and do not change them without a documented business reason -- retroactive changes to avoid overtime are prohibited under the FLSA.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Piece-Rate Overtime: A Frequently Misunderstood Calculation</h2>
@@ -126,7 +127,7 @@ export default function ShiftWorkPayrollPage() {
           <li>Payroll tax filings and W-2 production</li>
           <li>Multi-location payroll for plants in multiple states</li>
           <li>Clean audit documentation for DOL wage and hour reviews</li>
-                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> -- fully managed payroll at $25-$45 PEPM, all 50 states</li>
             </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>

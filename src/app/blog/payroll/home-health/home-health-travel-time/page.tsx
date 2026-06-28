@@ -3,28 +3,28 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Home Health Payroll | How to Handle Travel Time Pay | BEG',
-  description: 'FLSA rules on compensable travel time for home health aides and visiting nurses — what must be paid, what is excluded, and how to set up travel time.',
+  description: 'FLSA rules on compensable travel time for home health aides and visiting nurses -- what must be paid, what is excluded, and how to set up travel time.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/home-health-travel-time' },
   openGraph: {
     title: 'Home Health Payroll | How to Handle Travel Time Pay | BEG',
-    description: 'FLSA rules on compensable travel time for home health aides and visiting nurses — what must be paid, what is excluded, and how to set up travel time tra...',
+    description: 'FLSA rules on compensable travel time for home health aides and visiting nurses -- what must be paid, what is excluded, and how to set up travel time tra...',
     url: 'https://beghr.com/blog/payroll/home-health/home-health-travel-time',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Health Payroll | How to Handle Travel Time Pay | BEG', description: 'FLSA rules on compensable travel time for home health aides and visiting nurses — what must be paid, what is excluded, and how to set up travel time tra...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Health Payroll | How to Handle Travel Time Pay | BEG', description: 'FLSA rules on compensable travel time for home health aides and visiting nurses -- what must be paid, what is excluded, and how to set up travel time tra...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Do I have to pay aides for travel from their home to the first client?',
-    a: 'Generally no. The normal commute from an employee\'s home to the first worksite of the day is not compensable under FLSA — it is ordinary home-to-work travel. However, if an aide is required to report to the agency\'s office first before going to the client, time spent traveling from the office to the first client is compensable.',
+    a: 'Generally no. The normal commute from an employee\'s home to the first worksite of the day is not compensable under FLSA -- it is ordinary home-to-work travel. However, if an aide is required to report to the agency\'s office first before going to the client, time spent traveling from the office to the first client is compensable.',
   },
   {
     q: 'What if a home health aide works only one client per day?',
-    a: 'If an aide travels from home directly to one client, works the assignment, and travels home, that is a normal commute situation — only the hours actually working with the client are compensable. But if that single assignment is at a location significantly further than the aide\'s normal place of business would be, the analysis can become more complex.',
+    a: 'If an aide travels from home directly to one client, works the assignment, and travels home, that is a normal commute situation -- only the hours actually working with the client are compensable. But if that single assignment is at a location significantly further than the aide\'s normal place of business would be, the analysis can become more complex.',
   },
   {
     q: 'How should travel time between clients be recorded and paid?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function HomeHealthTravelTimePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Home Health Payroll | How to Handle Travel Time Pay | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/home-health/home-health-travel-time"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function HomeHealthTravelTimePage() {
               <p className="eyebrow">Payroll · Home Health</p>
               <h1>Home Health Agency Payroll: How to Handle Travel Time Between Clients</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                FLSA requires home health agencies to pay aides for travel time between client locations — but not for commuting from home. The line between these two categories is where most agencies have compliance gaps.
+                FLSA requires home health agencies to pay aides for travel time between client locations -- but not for commuting from home. The line between these two categories is where most agencies have compliance gaps.
               </p>
             </div>
           </div>
@@ -56,7 +57,7 @@ export default function HomeHealthTravelTimePage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Home health aides often see multiple clients per day, traveling between locations between visits. Whether that travel time is compensable depends on where the aide starts, where they end, and how many clients they see. Getting this wrong is one of the most common wage-and-hour violations in home health — and the Department of Labor has actively enforced it.
+          Home health aides often see multiple clients per day, traveling between locations between visits. Whether that travel time is compensable depends on where the aide starts, where they end, and how many clients they see. Getting this wrong is one of the most common wage-and-hour violations in home health -- and the Department of Labor has actively enforced it.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The FLSA Travel Time Framework for Home Health</h2>
@@ -74,9 +75,9 @@ export default function HomeHealthTravelTimePage() {
                 ['Home to first client', 'No', 'Normal commute; not compensable'],
                 ['Between clients (back-to-back)', 'Yes', 'Must be paid at least minimum wage'],
                 ['Client to home after last visit', 'No', 'Normal commute; not compensable'],
-                ['Home to office, then to first client', 'Partial — office to client is compensable', 'If required to check in at office'],
+                ['Home to office, then to first client', 'Partial -- office to client is compensable', 'If required to check in at office'],
                 ['Travel during a continuous workday (lunch or break)', 'Depends', 'If travel is during bona fide meal break, generally no'],
-                ['Overnight travel for multi-day assignment', 'Partial — travel during work hours is compensable', 'Complex; consult counsel for specifics'],
+                ['Overnight travel for multi-day assignment', 'Partial -- travel during work hours is compensable', 'Complex; consult counsel for specifics'],
               ].map(([type, comp, notes], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '10px 14px', fontWeight: 500 }}>{type}</td>
@@ -94,7 +95,7 @@ export default function HomeHealthTravelTimePage() {
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '2rem' }}>
           {[
-            { label: 'EVV system timestamps', body: 'Many EVV platforms capture both clock-out from the prior client and clock-in at the next client. The gap between these timestamps is the inter-client travel time. This is the most reliable method — the data exists in the system and can be exported for payroll calculation.' },
+            { label: 'EVV system timestamps', body: 'Many EVV platforms capture both clock-out from the prior client and clock-in at the next client. The gap between these timestamps is the inter-client travel time. This is the most reliable method -- the data exists in the system and can be exported for payroll calculation.' },
             { label: 'Mobile timekeeping apps', body: 'Apps like When I Work, Homebase, or TSheets allow aides to log departure from one site and arrival at the next. Many home health agencies use their existing scheduling app for this purpose.' },
             { label: 'Paper travel logs', body: 'A simple paper form that aides complete showing departure time, mileage, and arrival time. Functional but creates a manual data-entry step in payroll. More prone to after-the-fact completion and accuracy issues.' },
           ].map(({ label, body }) => (
@@ -107,7 +108,7 @@ export default function HomeHealthTravelTimePage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Impact on Overtime</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Including inter-client travel in paid hours increases total weekly hours — and can push full-time aides over the 40-hour threshold for overtime. Agencies that do not track or pay travel time are typically also underreporting total hours, which means their overtime exposure is compounded.
+          Including inter-client travel in paid hours increases total weekly hours -- and can push full-time aides over the 40-hour threshold for overtime. Agencies that do not track or pay travel time are typically also underreporting total hours, which means their overtime exposure is compounded.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
           When the DOL investigates a home health agency for travel time violations, they typically look at records for two years back (three if willful). Back pay owed to all affected employees, plus an equal amount in liquidated damages, is the standard result of a sustained investigation. For agencies with 30 to 100 aides, this can be a material financial liability.
@@ -135,8 +136,8 @@ export default function HomeHealthTravelTimePage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/home-health">Managed Payroll for Home Health Agencies</Link> — full service details</li>
-            <li><Link href="/blog/payroll/home-health/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Home Health</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/home-health">Managed Payroll for Home Health Agencies</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/home-health/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Home Health</Link> -- cost comparison</li>
           </ul>
         </div>
 

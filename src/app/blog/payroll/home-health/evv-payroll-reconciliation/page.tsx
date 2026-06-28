@@ -3,17 +3,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'EVV and Payroll Reconciliation | How to Handle EVV Data | BEG',
-  description: 'How to reconcile EVV system data with payroll for home health agencies — the most common discrepancy types, how to resolve them, and how to stay.',
+  description: 'How to reconcile EVV system data with payroll for home health agencies -- the most common discrepancy types, how to resolve them, and how to stay.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation' },
   openGraph: {
     title: 'EVV and Payroll Reconciliation | How to Handle EVV Data | BEG',
-    description: 'How to reconcile EVV system data with payroll for home health agencies — the most common discrepancy types, how to resolve them, and how to stay Medicai...',
+    description: 'How to reconcile EVV system data with payroll for home health agencies -- the most common discrepancy types, how to resolve them, and how to stay Medicai...',
     url: 'https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'EVV and Payroll Reconciliation | How to Handle EVV Data | BEG', description: 'How to reconcile EVV system data with payroll for home health agencies — the most common discrepancy types, how to resolve them, and how to stay Medicai...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'EVV and Payroll Reconciliation | How to Handle EVV Data | BEG', description: 'How to reconcile EVV system data with payroll for home health agencies -- the most common discrepancy types, how to resolve them, and how to stay Medicai...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: 'Can we use EVV timestamps directly as payroll hours?',
-    a: 'EVV timestamps can be a useful starting point, but they typically need adjustment before payroll entry — rounding to the agency\'s time rounding policy, adding inter-client travel time, and removing device-on/off timestamps that do not reflect actual service delivery time. Treat EVV data as source material that requires review, not a direct feed to payroll.',
+    a: 'EVV timestamps can be a useful starting point, but they typically need adjustment before payroll entry -- rounding to the agency\'s time rounding policy, adding inter-client travel time, and removing device-on/off timestamps that do not reflect actual service delivery time. Treat EVV data as source material that requires review, not a direct feed to payroll.',
   },
   {
     q: 'What is the penalty for EVV non-compliance?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function EVVPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "EVV and Payroll Reconciliation | How to Handle EVV Data | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function EVVPayrollPage() {
               <p className="eyebrow">Payroll · Home Health</p>
               <h1>Electronic Visit Verification and Payroll: How to Reconcile EVV Data</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                EVV captures visit data for Medicaid compliance — but EVV timestamps and payroll hours do not always match. Here is how to reconcile them without creating billing or wage violations.
+                EVV captures visit data for Medicaid compliance -- but EVV timestamps and payroll hours do not always match. Here is how to reconcile them without creating billing or wage violations.
               </p>
             </div>
           </div>
@@ -56,7 +57,7 @@ export default function EVVPayrollPage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          The 21st Century Cures Act requires states to implement Electronic Visit Verification for Medicaid-funded personal care and home health services. EVV systems capture the date, time, location, and identity of each visit — creating a digital record that must align with claims submitted for reimbursement.
+          The 21st Century Cures Act requires states to implement Electronic Visit Verification for Medicaid-funded personal care and home health services. EVV systems capture the date, time, location, and identity of each visit -- creating a digital record that must align with claims submitted for reimbursement.
         </p>
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
           The challenge: EVV data and payroll often diverge. Aides who forget to clock out, visit verification timestamps that do not capture travel time, clients who ask for tasks outside the scheduled window, and system errors all create discrepancies that need to be resolved before both payroll and claims are finalized.
@@ -106,7 +107,7 @@ export default function EVVPayrollPage() {
         </div>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
-          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>EVV reconciliation adds hours to every payroll cycle — let BEG absorb it</h2>
+          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>EVV reconciliation adds hours to every payroll cycle -- let BEG absorb it</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages home health payroll including EVV data reconciliation, travel time, and year-end W-2s. 15-minute discovery call.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
@@ -117,9 +118,9 @@ export default function EVVPayrollPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/home-health">Managed Payroll for Home Health Agencies</Link> — full service details</li>
-            <li><Link href="/blog/payroll/home-health/home-health-travel-time">Inter-Client Travel Time</Link> — FLSA guide</li>
-            <li><Link href="/blog/payroll/home-health/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Home Health</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/home-health">Managed Payroll for Home Health Agencies</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/home-health/home-health-travel-time">Inter-Client Travel Time</Link> -- FLSA guide</li>
+            <li><Link href="/blog/payroll/home-health/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Home Health</Link> -- cost comparison</li>
           </ul>
         </div>
 

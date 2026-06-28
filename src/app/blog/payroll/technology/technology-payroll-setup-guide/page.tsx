@@ -37,6 +37,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Technology & SaaS Companies: Payroll Setup Guide | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/technology/technology-payroll-setup-guide"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -65,7 +66,7 @@ export default function Page() {
 
         <p>Technology & SaaS Companies have non-standard pay types that require specific configuration: equity compensation handling, remote employee multi-state tax, contractor classification, commission payroll. Each of these must be set up as a separate pay code in your payroll system with the correct tax treatment applied.</p>
 
-        <p>Missing this step means your system calculates overtime incorrectly, applies the wrong withholding rate, or misses required reporting — and you do not find out until you receive a penalty notice or employee complaint.</p>
+        <p>Missing this step means your system calculates overtime incorrectly, applies the wrong withholding rate, or misses required reporting -- and you do not find out until you receive a penalty notice or employee complaint.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Step 3: Set Up Compliance Tracking</h2>
 
@@ -77,7 +78,7 @@ export default function Page() {
 
         <p>With accounts set up and pay types configured, run payroll on your selected frequency. For tech companies, bi-weekly or semi-monthly works for most salaried staff. equity compensation handling may require different frequency or supplemental runs.</p>
 
-        <p>Tax deposits must be made on the IRS schedule — either semi-weekly (if your lookback period tax liability exceeds $50,000) or monthly (if less than $50,000). Missing the deposit date triggers the IRS failure-to-deposit penalty.</p>
+        <p>Tax deposits must be made on the IRS schedule -- either semi-weekly (if your lookback period tax liability exceeds $50,000) or monthly (if less than $50,000). Missing the deposit date triggers the IRS failure-to-deposit penalty.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Faster Path: Managed Payroll for Technology & SaaS Companies</h2>
 

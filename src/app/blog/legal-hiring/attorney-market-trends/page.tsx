@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How do we compete with BigLaw on salary as a mid-size firm?',
-    answer: 'Culture, quality of work, and work-life balance matter more than salary to many attorneys once they hit associate years 3-5. Mid-size firms win by offering meaningful client contact earlier, faster partnership tracks, and flexible arrangements that BigLaw cannot match structurally. Benchmark compensation to stay within 10-15% of market — but lead with the differentiators BigLaw cannot offer.',
+    answer: 'Culture, quality of work, and work-life balance matter more than salary to many attorneys once they hit associate years 3-5. Mid-size firms win by offering meaningful client contact earlier, faster partnership tracks, and flexible arrangements that BigLaw cannot match structurally. Benchmark compensation to stay within 10-15% of market -- but lead with the differentiators BigLaw cannot offer.',
   },
   {
     question: 'Which practice areas are hardest to fill right now?',
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: 'How does the passive candidate market work for attorneys?',
-    answer: 'Roughly 85-90% of employed attorneys are not actively searching job boards. They respond to targeted direct outreach that speaks to a specific opportunity. Passive candidates are the highest-quality pool — they are productive at their current firm, not job-hopping under pressure. Reaching them requires proactive sourcing, not posting and waiting.',
+    answer: 'Roughly 85-90% of employed attorneys are not actively searching job boards. They respond to targeted direct outreach that speaks to a specific opportunity. Passive candidates are the highest-quality pool -- they are productive at their current firm, not job-hopping under pressure. Reaching them requires proactive sourcing, not posting and waiting.',
   },
   {
     question: 'Why do attorney searches drag past 90 days at so many firms?',
@@ -35,11 +35,11 @@ const faqs = [
   },
   {
     question: 'Should we use LinkedIn or a placement service to hire attorneys?',
-    answer: 'LinkedIn works for active candidates — roughly 10-15% of the attorney market. A placement service reaches the 85-90% who are not applying to job postings. For roles that have been open 30+ days, direct sourcing into the passive market produces significantly higher candidate volume and fill rates.',
+    answer: 'LinkedIn works for active candidates -- roughly 10-15% of the attorney market. A placement service reaches the 85-90% who are not applying to job postings. For roles that have been open 30+ days, direct sourcing into the passive market produces significantly higher candidate volume and fill rates.',
   },
   {
     question: 'What are BEG\'s placement stats and what does the guarantee cover?',
-    answer: 'BEG places attorneys in 23-35 days with an 86% fill rate, at roughly 50% less than contingency firms. The 45-day replacement guarantee covers the placed attorney\'s first 45 days. If it is not working out, we replace the candidate at no additional charge. Pricing is milestone-based — you pay upon successful placement, not upfront retainer.',
+    answer: 'BEG places attorneys in 23-35 days with an 86% fill rate, at roughly 50% less than contingency firms. The 45-day replacement guarantee covers the placed attorney\'s first 45 days. If it is not working out, we replace the candidate at no additional charge. Pricing is milestone-based -- you pay upon successful placement, not upfront retainer.',
   },
 ];
 
@@ -59,14 +59,15 @@ const timelineRows = [
 ];
 
 const frameworkRows = [
-  ['1-3 hires/year, under 50 attorneys', 'Placement service — no internal recruiting infrastructure needed'],
-  ['4-10 hires/year, 50-150 attorneys', 'Hybrid — internal coordinator + placement service for specialized roles'],
+  ['1-3 hires/year, under 50 attorneys', 'Placement service -- no internal recruiting infrastructure needed'],
+  ['4-10 hires/year, 50-150 attorneys', 'Hybrid -- internal coordinator + placement service for specialized roles'],
   ['10+ hires/year, 150+ attorneys', 'In-house recruiter plus placement service for hard-to-fill or urgent roles'],
 ];
 
 export default function AttorneyMarketTrendsPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "2026 Attorney Market Trends: What Managing Partners Need to Know", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/legal-hiring/attorney-market-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -154,7 +155,7 @@ export default function AttorneyMarketTrendsPage() {
         </h2>
 
         <p>
-          Associate salaries at Am Law 100 firms have increased 15-25% since 2021. The Cravath scale — and its regional equivalents — has reset upward, and mid-size firms are now competing against a significantly higher floor than they faced before the pandemic.
+          Associate salaries at Am Law 100 firms have increased 15-25% since 2021. The Cravath scale -- and its regional equivalents -- has reset upward, and mid-size firms are now competing against a significantly higher floor than they faced before the pandemic.
         </p>
 
         <p>
@@ -215,7 +216,7 @@ export default function AttorneyMarketTrendsPage() {
         </div>
 
         <p>
-          The 90-120 day timeline for job board-only searches is not unusual — it reflects the sequential nature of posting, waiting for applications, screening an unqualified pool, scheduling interviews around partner availability, and then extending offers to candidates who have been talking to other firms the entire time.
+          The 90-120 day timeline for job board-only searches is not unusual -- it reflects the sequential nature of posting, waiting for applications, screening an unqualified pool, scheduling interviews around partner availability, and then extending offers to candidates who have been talking to other firms the entire time.
         </p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -305,7 +306,7 @@ export default function AttorneyMarketTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads attorney placement at Business Executive Group. BEG places attorneys in 23-35 days with an 86% fill rate, at roughly 50% less than contingency firms. BEG is not a staffing agency — placement is milestone-based, and clients pay upon successful placement.</p>
+          <p style={{ margin: 0 }}>Anthony leads attorney placement at Business Executive Group. BEG places attorneys in 23-35 days with an 86% fill rate, at roughly 50% less than contingency firms. BEG is not a staffing agency -- placement is milestone-based, and clients pay upon successful placement.</p>
         </div>
 
       </section>

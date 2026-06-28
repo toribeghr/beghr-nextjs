@@ -37,6 +37,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Marketing & PR Agencies: Payroll Software vs. Managed Payrol", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/marketing-agency/marketing-agency-payroll-software-vs-managed"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -92,7 +93,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Which Is Right for Marketing Agencies?</h2>
 
-        <p>For most marketing agencies under 100 employees, managed payroll wins on total cost and compliance coverage. The tradeoff — giving up direct software access — is outweighed by removing the compliance risk that comes with self-managing 1099 vs W-2 freelancer classification, project-based bonuses, multi-state remote teams, billable vs internal payroll allocation.</p>
+        <p>For most marketing agencies under 100 employees, managed payroll wins on total cost and compliance coverage. The tradeoff -- giving up direct software access -- is outweighed by removing the compliance risk that comes with self-managing 1099 vs W-2 freelancer classification, project-based bonuses, multi-state remote teams, billable vs internal payroll allocation.</p>
 
         <p>Payroll software makes sense if you have dedicated in-house HR staff with genuine expertise in Marketing Agencies payroll compliance, prefer hands-on control, and have a low tolerance for vendor dependency. These are real advantages, but they come with real responsibility.</p>
 

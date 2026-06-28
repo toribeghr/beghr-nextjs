@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What does benefits administration software actually do that a spreadsheet cannot?",
-    answer: "Benefits administration software handles the operational complexity that breaks spreadsheets: tracking employee elections across multiple plan types (medical, dental, vision, life, disability, FSA, HSA) and ensuring the correct deduction amounts flow to payroll for each employee every pay period. It manages enrollment windows with employee self-service portals, validates dependent eligibility, processes qualifying life events that trigger outside-open-enrollment changes, transmits elections to carriers via EDI files, and produces ACA 1094-C and 1095-C forms. Spreadsheets fail at scale because any change — a new hire, a mid-year life event, a carrier rate change — requires manual updates to every downstream system. Software connects those systems automatically.",
+    answer: "Benefits administration software handles the operational complexity that breaks spreadsheets: tracking employee elections across multiple plan types (medical, dental, vision, life, disability, FSA, HSA) and ensuring the correct deduction amounts flow to payroll for each employee every pay period. It manages enrollment windows with employee self-service portals, validates dependent eligibility, processes qualifying life events that trigger outside-open-enrollment changes, transmits elections to carriers via EDI files, and produces ACA 1094-C and 1095-C forms. Spreadsheets fail at scale because any change -- a new hire, a mid-year life event, a carrier rate change -- requires manual updates to every downstream system. Software connects those systems automatically.",
   },
   {
     question: "How does iSolved handle open enrollment?",
-    answer: "iSolved opens an enrollment event for a specified window (typically 30 days before the new plan year), grants employees access to a self-service portal where they can compare plans and make elections, and tracks completion status so HR can follow up with employees who have not enrolled. When the enrollment window closes, elections are locked, deduction schedules are updated in the payroll module, and EDI transmissions are generated for each carrier. HR does not need to manually enter elections from paper forms or email — the employee completes enrollment in the system and the data flows through automatically.",
+    answer: "iSolved opens an enrollment event for a specified window (typically 30 days before the new plan year), grants employees access to a self-service portal where they can compare plans and make elections, and tracks completion status so HR can follow up with employees who have not enrolled. When the enrollment window closes, elections are locked, deduction schedules are updated in the payroll module, and EDI transmissions are generated for each carrier. HR does not need to manually enter elections from paper forms or email -- the employee completes enrollment in the system and the data flows through automatically.",
   },
   {
     question: "What is a qualifying life event and how does iSolved process them?",
@@ -30,11 +30,11 @@ const faqs = [
   },
   {
     question: "How does iSolved handle ACA reporting (1094-C and 1095-C)?",
-    answer: "iSolved tracks offer-of-coverage data throughout the year: which employees were offered coverage, which plans were offered, whether coverage was minimum essential coverage and minimum value, and what the employee-only premium cost was. At year end, iSolved generates 1095-C forms for each employee and the 1094-C transmittal form for the IRS. The ACA reporting module uses the data already in the system — coverage offer history, enrollment records, payroll data for affordability calculations — rather than requiring you to reconstruct it at year end. Employers with 50 or more full-time equivalent employees are required to file.",
+    answer: "iSolved tracks offer-of-coverage data throughout the year: which employees were offered coverage, which plans were offered, whether coverage was minimum essential coverage and minimum value, and what the employee-only premium cost was. At year end, iSolved generates 1095-C forms for each employee and the 1094-C transmittal form for the IRS. The ACA reporting module uses the data already in the system -- coverage offer history, enrollment records, payroll data for affordability calculations -- rather than requiring you to reconstruct it at year end. Employers with 50 or more full-time equivalent employees are required to file.",
   },
   {
     question: "Can iSolved manage HSA and FSA accounts?",
-    answer: "iSolved can track FSA and HSA election amounts, deduct the correct amount from each payroll, and produce year-end data for W-2 reporting (FSA contributions appear in Box 10; HSA contributions appear in Box 12 with code W). For HSAs specifically, iSolved can interface with the employee's bank trustee account to transmit employer contributions. FSA and HSA management within iSolved does not typically replace a third-party FSA administrator for claims reimbursement — iSolved handles the payroll deduction and contribution side, while a benefits administrator handles the claims side. We can configure the integration with your existing FSA/HSA administrator.",
+    answer: "iSolved can track FSA and HSA election amounts, deduct the correct amount from each payroll, and produce year-end data for W-2 reporting (FSA contributions appear in Box 10; HSA contributions appear in Box 12 with code W). For HSAs specifically, iSolved can interface with the employee's bank trustee account to transmit employer contributions. FSA and HSA management within iSolved does not typically replace a third-party FSA administrator for claims reimbursement -- iSolved handles the payroll deduction and contribution side, while a benefits administrator handles the claims side. We can configure the integration with your existing FSA/HSA administrator.",
   },
   {
     question: "What does BEG charge for iSolved with benefits administration?",
@@ -45,6 +45,7 @@ const faqs = [
 export default function BenefitsAdministrationIsolvedPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -63,7 +64,7 @@ export default function BenefitsAdministrationIsolvedPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Benefits administration is the part of HR operations that looks simple from the outside and is surprisingly complex to run correctly. Enrollment windows, dependent eligibility rules, qualifying life event processing, carrier EDI transmissions, deduction schedule synchronization with payroll, and year-end ACA filings are all moving parts that must align across systems. iSolved handles this as a single integrated platform — enrollment data flows directly to payroll deductions, and coverage records feed directly into ACA reporting. The alternative is managing it across disconnected systems with manual reconciliation steps that multiply error risk.
+          Benefits administration is the part of HR operations that looks simple from the outside and is surprisingly complex to run correctly. Enrollment windows, dependent eligibility rules, qualifying life event processing, carrier EDI transmissions, deduction schedule synchronization with payroll, and year-end ACA filings are all moving parts that must align across systems. iSolved handles this as a single integrated platform -- enrollment data flows directly to payroll deductions, and coverage records feed directly into ACA reporting. The alternative is managing it across disconnected systems with manual reconciliation steps that multiply error risk.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>What iSolved Benefits Administration Covers</h2>
@@ -79,7 +80,7 @@ export default function BenefitsAdministrationIsolvedPage() {
             <tbody>
               {[
                 ["Self-service open enrollment", "Employee portal for plan comparison and election", "No paper forms; HR tracks completion status"],
-                ["New hire enrollment", "Triggered automatically on hire date with enrollment window", "Consistent onboarding — nothing falls through"],
+                ["New hire enrollment", "Triggered automatically on hire date with enrollment window", "Consistent onboarding -- nothing falls through"],
                 ["Qualifying life event processing", "Employee submits event + documentation in system", "Auditable trail; auto deduction update"],
                 ["Carrier EDI transmissions", "Sends elections directly to carriers electronically", "Eliminates manual data entry to carrier portals"],
                 ["ACA tracking and reporting", "Tracks offer data year-round; generates 1094-C / 1095-C", "Year-end filing without year-end data reconstruction"],
@@ -101,12 +102,12 @@ export default function BenefitsAdministrationIsolvedPage() {
           iSolved's open enrollment module creates a structured event with a defined window, employee communication templates, and a self-service portal where employees view their current coverage, compare plan options with side-by-side cost comparisons, and submit elections. HR monitors a dashboard showing enrollment completion by department. When the window closes, elections are locked, deduction records update automatically in the payroll module, and carrier EDI files are generated.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          The integration between enrollment and payroll is the key operational advantage. In a disconnected system, someone has to manually update payroll deductions after enrollment closes — and errors in that step cause incorrect deductions for the entire plan year. In iSolved, the enrollment module and payroll module share the same data. No manual handoff.
+          The integration between enrollment and payroll is the key operational advantage. In a disconnected system, someone has to manually update payroll deductions after enrollment closes -- and errors in that step cause incorrect deductions for the entire plan year. In iSolved, the enrollment module and payroll module share the same data. No manual handoff.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>ACA Compliance: Why Real-Time Data Collection Matters</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          Applicable Large Employers (50 or more full-time equivalents) must file ACA 1094-C and 1095-C forms annually. The data required — offer of coverage month by month, employee-only premium amount, whether coverage met minimum value — needs to be captured throughout the year, not reconstructed at year end. iSolved tracks this data continuously as part of normal HR operations, so 1095-C generation at year end is a report run rather than a data collection exercise.
+          Applicable Large Employers (50 or more full-time equivalents) must file ACA 1094-C and 1095-C forms annually. The data required -- offer of coverage month by month, employee-only premium amount, whether coverage met minimum value -- needs to be captured throughout the year, not reconstructed at year end. iSolved tracks this data continuously as part of normal HR operations, so 1095-C generation at year end is a report run rather than a data collection exercise.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           The <a href="https://www.irs.gov/affordable-care-act/employers/applicable-large-employer-ale-information-center" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>IRS ACA employer information center</a> covers the ALE thresholds, filing requirements, and penalty structures. We configure iSolved to track the required data points from the first employee's start date.
@@ -119,7 +120,7 @@ export default function BenefitsAdministrationIsolvedPage() {
           <li>Carrier EDI connection setup and transmission management</li>
           <li>Qualifying life event workflow configuration</li>
           <li>ACA data tracking and year-end 1094-C / 1095-C production</li>
-          <li>Payroll deduction synchronization — enrollment changes flow to payroll automatically</li>
+          <li>Payroll deduction synchronization -- enrollment changes flow to payroll automatically</li>
           <li>COBRA qualifying event tracking support</li>
           <li>All managed under BEG's fully managed payroll service at $45 PEPM on iSolved</li>
         </ul>
@@ -138,7 +139,7 @@ export default function BenefitsAdministrationIsolvedPage() {
         </div>
 
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem", color: "#666", fontSize: "0.9rem" }}>
-          Also see: <a href="/services/hcm-software" style={{ color: "#ECAC60" }}>BEG's iSolved HCM platform</a> — full capabilities overview, industries served, and how iSolved compares to legacy HR systems.
+          Also see: <a href="/services/hcm-software" style={{ color: "#ECAC60" }}>BEG's iSolved HCM platform</a> -- full capabilities overview, industries served, and how iSolved compares to legacy HR systems.
         </p>
 
         <div style={{ marginBottom: "2.5rem" }}>

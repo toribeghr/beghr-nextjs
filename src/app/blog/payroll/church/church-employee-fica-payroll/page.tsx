@@ -3,24 +3,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG',
-  description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a.',
+  description: 'A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/church/church-employee-fica-payroll' },
   openGraph: {
     title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG',
-    description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...',
+    description: 'A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...',
     url: 'https://beghr.com/blog/payroll/church/church-employee-fica-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG', description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG', description: 'A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Does a church have to withhold FICA from non-ministerial employees?',
-    a: 'Yes. FICA (Social Security and Medicare taxes) applies to wages paid to regular employees of a church, just as they apply to employees of any other employer. Only ordained ministers serving in ministerial capacity are exempt from standard FICA withholding — and only if the church has not made the Section 3121(w) FICA election. Custodians, office staff, childcare workers, bookkeepers, and music directors are generally subject to FICA.',
+    a: 'Yes. FICA (Social Security and Medicare taxes) applies to wages paid to regular employees of a church, just as they apply to employees of any other employer. Only ordained ministers serving in ministerial capacity are exempt from standard FICA withholding -- and only if the church has not made the Section 3121(w) FICA election. Custodians, office staff, childcare workers, bookkeepers, and music directors are generally subject to FICA.',
   },
   {
     q: 'What is Form 4361 and who can file it?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function ChurchFICAPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Church Payroll & FICA | Which Employees Are Exempt | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/church/church-employee-fica-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function ChurchFICAPage() {
               <p className="eyebrow">Payroll · Church</p>
               <h1>Church Payroll and FICA: Which Employees Are Exempt and Which Are Not</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                FICA rules for churches are genuinely different from other employers — ministers are in a dual-status category, non-ministerial staff are not. Getting this wrong creates IRS issues for both the church and the employees.
+                FICA rules for churches are genuinely different from other employers -- ministers are in a dual-status category, non-ministerial staff are not. Getting this wrong creates IRS issues for both the church and the employees.
               </p>
             </div>
           </div>
@@ -56,7 +57,7 @@ export default function ChurchFICAPage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Church payroll sits at the intersection of tax law and religious law in ways that create genuine complexity. The rules for ordained ministers differ from the rules for every other church employee — and the rules for churches that have made specific IRS elections differ from churches that have not. Here is a clear breakdown of who owes FICA and how.
+          Church payroll sits at the intersection of tax law and religious law in ways that create genuine complexity. The rules for ordained ministers differ from the rules for every other church employee -- and the rules for churches that have made specific IRS elections differ from churches that have not. Here is a clear breakdown of who owes FICA and how.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>FICA Status by Employee Type</h2>
@@ -72,9 +73,9 @@ export default function ChurchFICAPage() {
             </thead>
             <tbody>
               {[
-                ['Ordained minister (no 4361, no church FICA election)', 'None', 'Yes — minister pays SE tax', 'Dual status'],
+                ['Ordained minister (no 4361, no church FICA election)', 'None', 'Yes -- minister pays SE tax', 'Dual status'],
                 ['Ordained minister with Form 4361 approval', 'None', 'None', 'Exempt from both'],
-                ['Minister under church FICA election (§3121(w))', 'Yes — standard FICA', 'No', 'Uncommon'],
+                ['Minister under church FICA election (§3121(w))', 'Yes -- standard FICA', 'No', 'Uncommon'],
                 ['Secretary / Administrative Staff', 'Yes', 'No', 'Standard W-2 employee'],
                 ['Custodian / Maintenance', 'Yes', 'No', 'Standard W-2 employee'],
                 ['Childcare Worker (church daycare)', 'Yes', 'No', 'Standard W-2 employee'],
@@ -94,15 +95,15 @@ export default function ChurchFICAPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>The Minister Dual-Status Position Explained</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Ordained ministers serving in ministerial capacity occupy a unique dual status under the tax code. For federal income tax purposes, they are employees — the church reports their compensation on a W-2 and withholds federal and state income tax. For Social Security and Medicare purposes, they are treated as self-employed — they owe self-employment tax on their earnings (including housing allowance) and the church does not match or withhold FICA.
+          Ordained ministers serving in ministerial capacity occupy a unique dual status under the tax code. For federal income tax purposes, they are employees -- the church reports their compensation on a W-2 and withholds federal and state income tax. For Social Security and Medicare purposes, they are treated as self-employed -- they owe self-employment tax on their earnings (including housing allowance) and the church does not match or withhold FICA.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          This creates a payroll setup that looks incomplete to anyone not familiar with church payroll: a W-2 with wages in Box 1, federal withholding in Box 2, but no entries in Boxes 3, 4, 5, and 6 (FICA). That is correct — not an error.
+          This creates a payroll setup that looks incomplete to anyone not familiar with church payroll: a W-2 with wages in Box 1, federal withholding in Box 2, but no entries in Boxes 3, 4, 5, and 6 (FICA). That is correct -- not an error.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Non-Ministerial Employees: Standard FICA Applies</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Any church employee who is not an ordained minister serving in ministerial capacity is subject to standard FICA withholding. The church must withhold 7.65% from their wages (6.2% Social Security + 1.45% Medicare) and match it with an equal employer contribution. This applies to administrative staff, custodians, kitchen workers, childcare staff, and most music directors — even if they are deeply involved in the ministry of the church.
+          Any church employee who is not an ordained minister serving in ministerial capacity is subject to standard FICA withholding. The church must withhold 7.65% from their wages (6.2% Social Security + 1.45% Medicare) and match it with an equal employer contribution. This applies to administrative staff, custodians, kitchen workers, childcare staff, and most music directors -- even if they are deeply involved in the ministry of the church.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>
@@ -116,8 +117,8 @@ export default function ChurchFICAPage() {
         </div>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
-          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Church payroll is different — let BEG handle it correctly</h2>
-          <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Minister dual-status setup, housing allowance designation, FICA for non-ministerial staff — fully managed at $25–$45 PEPM. 15-minute call.</p>
+          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Church payroll is different -- let BEG handle it correctly</h2>
+          <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Minister dual-status setup, housing allowance designation, FICA for non-ministerial staff -- fully managed at $25–$45 PEPM. 15-minute call.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
             Book a Discovery Call
@@ -127,9 +128,9 @@ export default function ChurchFICAPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/church">Managed Payroll for Churches</Link> — full service details</li>
-            <li><Link href="/blog/payroll/church/minister-housing-allowance-payroll">Minister Housing Allowance Setup</Link> — complete guide</li>
-            <li><Link href="/blog/payroll/church/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Churches</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/church">Managed Payroll for Churches</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/church/minister-housing-allowance-payroll">Minister Housing Allowance Setup</Link> -- complete guide</li>
+            <li><Link href="/blog/payroll/church/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Churches</Link> -- cost comparison</li>
           </ul>
         </div>
 

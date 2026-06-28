@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is the tip credit rule and how do hotels get it wrong?',
-    answer: 'The federal tip credit allows employers to pay tipped employees as little as $2.13 per hour if tips bring total compensation to at least the federal minimum wage of $7.25 per hour. If a tipped employee has a slow shift where tips do not make up the difference, the employer must pay the gap. Many hotels discover they have not been tracking this by employee by shift — and a DOL audit can reach back two to three years of pay periods to calculate the shortfall. Several states do not allow a tip credit at all (California, Minnesota, Oregon, Washington, Alaska, Nevada, Montana) and require full minimum wage plus tips. Hotels operating across multiple states need jurisdiction-specific tip credit rules applied by property location.',
+    answer: 'The federal tip credit allows employers to pay tipped employees as little as $2.13 per hour if tips bring total compensation to at least the federal minimum wage of $7.25 per hour. If a tipped employee has a slow shift where tips do not make up the difference, the employer must pay the gap. Many hotels discover they have not been tracking this by employee by shift -- and a DOL audit can reach back two to three years of pay periods to calculate the shortfall. Several states do not allow a tip credit at all (California, Minnesota, Oregon, Washington, Alaska, Nevada, Montana) and require full minimum wage plus tips. Hotels operating across multiple states need jurisdiction-specific tip credit rules applied by property location.',
   },
   {
     question: 'Can non-tipped employees participate in our tip pool?',
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'With 70%+ annual turnover, do we really need to generate that many W-2s every year?',
-    answer: 'Yes — every employee who earned wages during the calendar year receives a W-2, regardless of whether they are still employed at year-end. For a 150-person resort with 70% turnover, you are generating approximately 250 W-2s per year. A managed payroll provider handles year-end W-2 generation, delivery (via self-service portal or mail), and electronic filing with the SSA as part of the all-inclusive fee. There is no per-W-2 charge at BEG and no year-end surprise fee.',
+    answer: 'Yes -- every employee who earned wages during the calendar year receives a W-2, regardless of whether they are still employed at year-end. For a 150-person resort with 70% turnover, you are generating approximately 250 W-2s per year. A managed payroll provider handles year-end W-2 generation, delivery (via self-service portal or mail), and electronic filing with the SSA as part of the all-inclusive fee. There is no per-W-2 charge at BEG and no year-end surprise fee.',
   },
   {
     question: 'What does BEG managed payroll cost for a 120-person hotel?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function HotelsResortsPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Hotel & Resort Payroll | Tips & Seasonal Staff. Done Right. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/hospitality-general/hotels-resorts"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -65,7 +66,7 @@ export default function HotelsResortsPayrollPage() {
 
         <p>Hotel and resort payroll is among the most complex payroll environments in any industry. You have tipped employees spread across front desk, food and beverage, and concierge departments, each with different tip credit rules depending on the state your property sits in. You have housekeeping and banquet staff on split shifts. You have a workforce that turns over at rates approaching 70–80% annually, generating W-2 volume that strains any manual system. And every summer or holiday season, you onboard dozens of temporary workers under time pressure.</p>
 
-        <p>The in-house HR Manager you hired to manage all of this earned a general HR certification. They learned tip credit rules from a Google search. When the Department of Labor comes calling — and DOL hospitality audits have increased materially since 2020 — the gap between what your HR manager thought they knew and what the regulation actually requires becomes very expensive very quickly.</p>
+        <p>The in-house HR Manager you hired to manage all of this earned a general HR certification. They learned tip credit rules from a Google search. When the Department of Labor comes calling -- and DOL hospitality audits have increased materially since 2020 -- the gap between what your HR manager thought they knew and what the regulation actually requires becomes very expensive very quickly.</p>
 
         <p>This post breaks down the true cost of in-house payroll management for hotels and resorts versus outsourcing to a managed provider, and identifies the specific compliance traps where hotel payroll errors are most common and most costly.</p>
 
@@ -84,8 +85,8 @@ export default function HotelsResortsPayrollPage() {
             <tbody>
               {[
                 ['Base salary (HR Manager, hotel/resort)', '$50,000 – $75,000'],
-                ['Benefits (health, dental, vision, 401k) — 30% of salary', '$15,000 – $22,500'],
-                ['Payroll taxes (FICA, FUTA, SUTA) — 10% of salary', '$5,000 – $7,500'],
+                ['Benefits (health, dental, vision, 401k) -- 30% of salary', '$15,000 – $22,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$5,000 – $7,500'],
                 ['Payroll software (tip credit, multi-state capable)', '$2,400 – $4,800'],
                 ['Compliance training (FLSA tip rules, state law updates)', '$1,500 – $3,000'],
                 ['Hiring cost amortized (recruiter, onboarding, ramp)', '$3,000 – $5,500'],
@@ -104,7 +105,7 @@ export default function HotelsResortsPayrollPage() {
           </table>
         </div>
 
-        <p>This figure does not include the cost of compliance failures. A DOL audit finding covering three years of tip credit violations at a 150-person property can produce back-pay liability exceeding $200,000 — plus liquidated damages that double the amount owed. The financial case for outsourced payroll in hospitality is not just about salary savings. It is about eliminating the compliance exposure that general HR practitioners routinely miss.</p>
+        <p>This figure does not include the cost of compliance failures. A DOL audit finding covering three years of tip credit violations at a 150-person property can produce back-pay liability exceeding $200,000 -- plus liquidated damages that double the amount owed. The financial case for outsourced payroll in hospitality is not just about salary savings. It is about eliminating the compliance exposure that general HR practitioners routinely miss.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for Hotels and Resorts</h2>
 
@@ -142,22 +143,22 @@ export default function HotelsResortsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Tip Credit Violations and DOL Back-Pay Liability</p>
-          <p style={{ margin: 0 }}>The federal tip credit allows hotels to pay tipped employees $2.13 per hour, relying on tips to bring compensation to the $7.25 federal minimum. If a tipped employee's shifts produce tips that, combined with the tip credit wage, fall below minimum wage for any hour worked, the employer owes the difference. Many hotels do not track this by employee by shift — they assume tips are always sufficient. A DOL audit reaches back two to three years. At 50 tipped employees over three years of bi-weekly pay periods, a systematic tracking failure creates liability that can exceed $150,000 before liquidated damages, which double it.</p>
+          <p style={{ margin: 0 }}>The federal tip credit allows hotels to pay tipped employees $2.13 per hour, relying on tips to bring compensation to the $7.25 federal minimum. If a tipped employee's shifts produce tips that, combined with the tip credit wage, fall below minimum wage for any hour worked, the employer owes the difference. Many hotels do not track this by employee by shift -- they assume tips are always sufficient. A DOL audit reaches back two to three years. At 50 tipped employees over three years of bi-weekly pay periods, a systematic tracking failure creates liability that can exceed $150,000 before liquidated damages, which double it.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Tip Pooling Compliance Errors After 2018 FLSA Amendments</p>
-          <p style={{ margin: 0 }}>The Consolidated Appropriations Act of 2018 amended FLSA tip pooling rules in ways that many hotels still have not fully implemented. Employers that do not take a tip credit may now include back-of-house employees (cooks, dishwashers) in tip pools — but managers and supervisors can never receive from a tip pool under any circumstances. Hotels that take the tip credit cannot include non-tipped employees in the pool. If your hotel restructured tip pools after 2018 without legal review and payroll reconfiguration, there is meaningful risk that your current pool structure violates FLSA. DOL enforcement of post-2018 tip pooling rules has been active.</p>
+          <p style={{ margin: 0 }}>The Consolidated Appropriations Act of 2018 amended FLSA tip pooling rules in ways that many hotels still have not fully implemented. Employers that do not take a tip credit may now include back-of-house employees (cooks, dishwashers) in tip pools -- but managers and supervisors can never receive from a tip pool under any circumstances. Hotels that take the tip credit cannot include non-tipped employees in the pool. If your hotel restructured tip pools after 2018 without legal review and payroll reconfiguration, there is meaningful risk that your current pool structure violates FLSA. DOL enforcement of post-2018 tip pooling rules has been active.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Split-Shift Premiums for Housekeeping and Food Service</p>
-          <p style={{ margin: 0 }}>California and Nevada — two of the largest hotel markets in the country — require split-shift premiums when employees work two separate shifts with a gap of more than one hour between them and earn at or near minimum wage for the day. Housekeeping staff who work morning room cleaning, break from noon to 3pm, and return for turndown service are in a split-shift pattern every day they work that schedule. Missing the premium calculation across a 30-person housekeeping team over three years produces back-pay liability well into five figures, plus waiting-time penalties in California that can add 30 additional days of pay per affected employee.</p>
+          <p style={{ margin: 0 }}>California and Nevada -- two of the largest hotel markets in the country -- require split-shift premiums when employees work two separate shifts with a gap of more than one hour between them and earn at or near minimum wage for the day. Housekeeping staff who work morning room cleaning, break from noon to 3pm, and return for turndown service are in a split-shift pattern every day they work that schedule. Missing the premium calculation across a 30-person housekeeping team over three years produces back-pay liability well into five figures, plus waiting-time penalties in California that can add 30 additional days of pay per affected employee.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>High Turnover and W-2 Volume at Year-End</p>
-          <p style={{ margin: 0 }}>The hotel industry averages 70–80% annual turnover. That means a 150-person resort generates 250+ W-2s per year — over 100 for employees who are no longer with the property and whose addresses must be tracked and updated. An in-house HR Manager manually managing year-end W-2 generation for a high-turnover workforce is a significant administrative burden that consumes January. An outsourced payroll provider handles all W-2 generation, delivery, and SSA filing as part of the all-inclusive fee — with no year-end add-on charge.</p>
+          <p style={{ margin: 0 }}>The hotel industry averages 70–80% annual turnover. That means a 150-person resort generates 250+ W-2s per year -- over 100 for employees who are no longer with the property and whose addresses must be tracked and updated. An in-house HR Manager manually managing year-end W-2 generation for a high-turnover workforce is a significant administrative burden that consumes January. An outsourced payroll provider handles all W-2 generation, delivery, and SSA filing as part of the all-inclusive fee -- with no year-end add-on charge.</p>
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Hotel and Resort Payroll Is Structurally Complex</h2>

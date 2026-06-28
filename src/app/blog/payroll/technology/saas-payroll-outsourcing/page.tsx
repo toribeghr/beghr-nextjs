@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How do you handle RSU vesting events and the payroll tax implications?',
-    answer: 'RSU vesting creates ordinary income for the employee on the vesting date. We process the supplemental wage withholding at the time of vesting, coordinate with your cap table management tool (Carta, Pulley, Morgan Stanley) to receive vesting schedules, and include the withholding in the applicable payroll cycle. FICA applies on RSU income — we handle both the employee and employer side automatically.',
+    answer: 'RSU vesting creates ordinary income for the employee on the vesting date. We process the supplemental wage withholding at the time of vesting, coordinate with your cap table management tool (Carta, Pulley, Morgan Stanley) to receive vesting schedules, and include the withholding in the applicable payroll cycle. FICA applies on RSU income -- we handle both the employee and employer side automatically.',
   },
   {
     question: 'We have remote employees in 12 states. How does multi-state payroll work?',
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: 'How do you assess whether our contractors should be reclassified as employees?',
-    answer: 'We can flag relationships that look like misclassification based on the facts you share — duration, control, integration into business operations. We are not legal counsel, so we will recommend you confirm with employment counsel in the relevant states, but we flag the patterns so you can address them proactively rather than at audit. California AB5, the ABC test, and the IRS 20-factor test are the primary frameworks we reference.',
+    answer: 'We can flag relationships that look like misclassification based on the facts you share -- duration, control, integration into business operations. We are not legal counsel, so we will recommend you confirm with employment counsel in the relevant states, but we flag the patterns so you can address them proactively rather than at audit. California AB5, the ABC test, and the IRS 20-factor test are the primary frameworks we reference.',
   },
   {
     question: 'We are growing from 30 to 100 employees in the next 12 months. Will your pricing scale?',
@@ -39,13 +39,14 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for SaaS company payroll?',
-    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 50-person SaaS company, that is $1,250–$1,750 per month — compared to $85,000–$120,000 for a Payroll Ops Manager at the salary and loaded cost typical in tech. Included: multi-state processing, RSU tax event handling, tax filing, W-2s, and compliance updates. No per-run fees.',
+    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 50-person SaaS company, that is $1,250–$1,750 per month -- compared to $85,000–$120,000 for a Payroll Ops Manager at the salary and loaded cost typical in tech. Included: multi-state processing, RSU tax event handling, tax filing, W-2s, and compliance updates. No per-run fees.',
   },
 ];
 
 export default function SaaSPayrollPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/technology/saas-payroll-outsourcing"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -62,9 +63,9 @@ export default function SaaSPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>SaaS companies scale fast. Payroll should scale with them — not become a bottleneck. Yet most early-stage and growth-stage SaaS companies hire a Payroll Ops Manager or HR Ops person at $85,000–$120,000 loaded cost to handle a task that a managed payroll provider handles better, faster, and for a fraction of the cost.</p>
+        <p>SaaS companies scale fast. Payroll should scale with them -- not become a bottleneck. Yet most early-stage and growth-stage SaaS companies hire a Payroll Ops Manager or HR Ops person at $85,000–$120,000 loaded cost to handle a task that a managed payroll provider handles better, faster, and for a fraction of the cost.</p>
 
-        <p>SaaS payroll is not simple. You have RSU vesting events, remote employees across 12–25 states, contractor vs. employee classification risk, and headcount growth that doubles your state tax filing obligations every 18 months. These are real compliance risks — not things to hand off to a part-time bookkeeper or the founder&apos;s CPA.</p>
+        <p>SaaS payroll is not simple. You have RSU vesting events, remote employees across 12–25 states, contractor vs. employee classification risk, and headcount growth that doubles your state tax filing obligations every 18 months. These are real compliance risks -- not things to hand off to a part-time bookkeeper or the founder&apos;s CPA.</p>
 
         <p>The question is whether to build in-house capacity or outsource to a provider that already processes payroll with this complexity for dozens of tech companies and handles the compliance burden at scale.</p>
 
@@ -99,7 +100,7 @@ export default function SaaSPayrollPage() {
           </table>
         </div>
 
-        <p>And when that person leaves — which happens frequently in SaaS as roles evolve — you restart the search while a founder or CFO fills in on payroll manually.</p>
+        <p>And when that person leaves -- which happens frequently in SaaS as roles evolve -- you restart the search while a founder or CFO fills in on payroll manually.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
 
@@ -135,9 +136,9 @@ export default function SaaSPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What SaaS Companies Discover Too Late</h2>
 
-        <p><strong>Contractor misclassification is IRS priority #1 in tech.</strong> SaaS companies rely heavily on contractors — engineers, designers, growth marketers, customer success. When those relationships look like employment (specific hours, integrated into the team, multi-year engagement), the IRS and state agencies classify them as employees retroactively. Back taxes, back FICA, and penalties can total tens of thousands per misclassified worker. California&apos;s AB5 enforcement has already produced significant liability for tech companies.</p>
+        <p><strong>Contractor misclassification is IRS priority #1 in tech.</strong> SaaS companies rely heavily on contractors -- engineers, designers, growth marketers, customer success. When those relationships look like employment (specific hours, integrated into the team, multi-year engagement), the IRS and state agencies classify them as employees retroactively. Back taxes, back FICA, and penalties can total tens of thousands per misclassified worker. California&apos;s AB5 enforcement has already produced significant liability for tech companies.</p>
 
-        <p><strong>RSU vesting creates payroll tax events most founders miss.</strong> When RSUs vest, the fair market value on the vesting date is ordinary income — subject to withholding. If the company fails to withhold correctly at vesting, the employee faces a tax bill at year-end with no cash to cover it, and the company faces an IRS inquiry into its supplemental wage withholding practices.</p>
+        <p><strong>RSU vesting creates payroll tax events most founders miss.</strong> When RSUs vest, the fair market value on the vesting date is ordinary income -- subject to withholding. If the company fails to withhold correctly at vesting, the employee faces a tax bill at year-end with no cash to cover it, and the company faces an IRS inquiry into its supplemental wage withholding practices.</p>
 
         <p><strong>Multi-state payroll requires state registration before the first hire.</strong> When you hire a remote employee in a new state, you must register for state income tax withholding and unemployment insurance before the first payroll run in that state. SaaS companies that skip this face retroactive penalties when discovered at audit. Most discover the gap 2–3 years after the fact.</p>
 
@@ -183,7 +184,7 @@ export default function SaaSPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Scale Without Payroll Overhead.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>RSU vesting, multi-state remote payroll, contractor classification — handled at $25–$45 per employee per month. Book a 15-minute call to see what it costs for your current headcount and where you are going.</p>
+          <p style={{ marginBottom: '1.5rem' }}>RSU vesting, multi-state remote payroll, contractor classification -- handled at $25–$45 per employee per month. Book a 15-minute call to see what it costs for your current headcount and where you are going.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 

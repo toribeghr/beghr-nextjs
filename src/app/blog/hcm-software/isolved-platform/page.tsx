@@ -19,15 +19,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How does isolved compare to Rippling?',
-    answer: 'Rippling is strong for IT-heavy companies that want device management alongside HR and payroll in one platform. isolved focuses on HR and payroll depth — compliance automation, ACA tracking, garnishment processing, and the Connector for Claude — without the IT infrastructure layer. For companies whose primary need is HR and payroll consolidation rather than IT management, isolved typically delivers more depth in those areas and faster implementation. Rippling is a better fit when device and app provisioning are a core requirement.',
+    answer: 'Rippling is strong for IT-heavy companies that want device management alongside HR and payroll in one platform. isolved focuses on HR and payroll depth -- compliance automation, ACA tracking, garnishment processing, and the Connector for Claude -- without the IT infrastructure layer. For companies whose primary need is HR and payroll consolidation rather than IT management, isolved typically delivers more depth in those areas and faster implementation. Rippling is a better fit when device and app provisioning are a core requirement.',
   },
   {
     question: 'What drives isolved pricing and what does it cost?',
-    answer: 'isolved is priced on a per employee per month model. The exact rate depends on which modules are included, company size, and contract term. BEG provides a transparent cost comparison against your current stack on the discovery call — most companies consolidating from 3+ tools find isolved is price-competitive or less expensive on a total-stack basis. Custom quotes require a brief conversation about your headcount and current tools.',
+    answer: 'isolved is priced on a per employee per month model. The exact rate depends on which modules are included, company size, and contract term. BEG provides a transparent cost comparison against your current stack on the discovery call -- most companies consolidating from 3+ tools find isolved is price-competitive or less expensive on a total-stack basis. Custom quotes require a brief conversation about your headcount and current tools.',
   },
   {
     question: 'What is the implementation timeline and what does BEG handle?',
-    answer: 'Implementation with BEG runs 60-90 days depending on company size, number of integrations, and data migration complexity. BEG manages configuration, data migration from your prior system, benefit carrier feed setup, HR team training, a parallel payroll run to validate accuracy, and go-live support. Implementation is included in the engagement — no separate professional services invoice.',
+    answer: 'Implementation with BEG runs 60-90 days depending on company size, number of integrations, and data migration complexity. BEG manages configuration, data migration from your prior system, benefit carrier feed setup, HR team training, a parallel payroll run to validate accuracy, and go-live support. Implementation is included in the engagement -- no separate professional services invoice.',
   },
   {
     question: 'How does the Connector for Claude handle data security?',
@@ -35,11 +35,11 @@ const faqs = [
   },
   {
     question: 'Who supports us after implementation is complete?',
-    answer: 'BEG provides ongoing support post-implementation. You have a dedicated BEG contact for platform questions, configuration changes, and compliance updates. isolved also provides its own support resources. You are not left to figure it out from a ticket queue — BEG is your first call for anything isolved-related.',
+    answer: 'BEG provides ongoing support post-implementation. You have a dedicated BEG contact for platform questions, configuration changes, and compliance updates. isolved also provides its own support resources. You are not left to figure it out from a ticket queue -- BEG is your first call for anything isolved-related.',
   },
   {
     question: 'How does data migration from our prior system work?',
-    answer: 'BEG handles data migration as part of implementation. This includes employee records, historical payroll data (typically last three years), benefits elections, and PTO balances. The migration process includes a validation step to confirm accuracy before go-live. Most migrations complete within the 60-90 day implementation window. Complex situations — multiple acquired entities, unusual payroll configurations — may extend the timeline.',
+    answer: 'BEG handles data migration as part of implementation. This includes employee records, historical payroll data (typically last three years), benefits elections, and PTO balances. The migration process includes a validation step to confirm accuracy before go-live. Most migrations complete within the 60-90 day implementation window. Complex situations -- multiple acquired entities, unusual payroll configurations -- may extend the timeline.',
   },
 ];
 
@@ -57,8 +57,8 @@ const modulesRows = [
 ];
 
 const comparisonRows = [
-  ['Single database architecture', 'Yes — one record per employee', 'Yes', 'Partial (some modules separate)', 'No — multiple systems integrated'],
-  ['Claude AI connector (task execution)', 'Yes — GA June 2026', 'No', 'No', 'No'],
+  ['Single database architecture', 'Yes -- one record per employee', 'Yes', 'Partial (some modules separate)', 'No -- multiple systems integrated'],
+  ['Claude AI connector (task execution)', 'Yes -- GA June 2026', 'No', 'No', 'No'],
   ['Implementation model', 'BEG-managed, included', 'In-house team required', 'In-house team required', 'Professional services extra'],
   ['Mid-market sweet spot (employees)', '50-2,000', '1-1,000', '50-2,000', '50-10,000+'],
   ['AI assistant type', 'Task execution via Claude', 'Proprietary chat (answers only)', 'Basic assistant', 'ADP Lyric (answers only)'],
@@ -67,7 +67,7 @@ const comparisonRows = [
 const comparisonHeaders = ['Feature', 'isolved', 'Paycom', 'Paylocity', 'ADP Workforce Now'];
 
 const situationRows = [
-  ['Currently on 1-2 integrated tools, no reconciliation pain', 'Evaluate carefully — switching costs may not be worth it'],
+  ['Currently on 1-2 integrated tools, no reconciliation pain', 'Evaluate carefully -- switching costs may not be worth it'],
   ['On 3+ tools, reconciling manually every pay period', 'Strong case for isolved consolidation'],
   ['Growing fast, adding states, compliance exposure building', 'isolved handles multi-state natively with automated compliance'],
   ['Want AI task execution, not just AI chat', 'Only isolved has the Claude Connector in GA'],
@@ -77,6 +77,7 @@ const situationRows = [
 export default function IsolvedPlatformPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "iSolved People Cloud Review 2026 | Features & Pricing | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/isolved-platform"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -107,7 +108,7 @@ export default function IsolvedPlatformPage() {
         </h2>
 
         <p>
-          isolved is a true single-database platform — one employee record that all modules read from and write to. When an employee is hired, their record populates payroll, benefits, time, and onboarding simultaneously. There is no sync, no data transfer, no reconciliation. Here is the full module list:
+          isolved is a true single-database platform -- one employee record that all modules read from and write to. When an employee is hired, their record populates payroll, benefits, time, and onboarding simultaneously. There is no sync, no data transfer, no reconciliation. Here is the full module list:
         </p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
@@ -161,7 +162,7 @@ export default function IsolvedPlatformPage() {
         </div>
 
         <p>
-          The single-database architecture is isolved&rsquo;s most durable structural advantage. Paylocity and ADP both operate with varying degrees of module separation — data moves between systems and reconciliation is part of the normal workflow. isolved eliminates that by design.
+          The single-database architecture is isolved&rsquo;s most durable structural advantage. Paylocity and ADP both operate with varying degrees of module separation -- data moves between systems and reconciliation is part of the normal workflow. isolved eliminates that by design.
         </p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -169,7 +170,7 @@ export default function IsolvedPlatformPage() {
         </h2>
 
         <p>
-          In June 2026, isolved launched the Connector for Claude — the first generally available AI integration in the HCM market that executes HR tasks through Claude rather than just answering questions about them.
+          In June 2026, isolved launched the Connector for Claude -- the first generally available AI integration in the HCM market that executes HR tasks through Claude rather than just answering questions about them.
         </p>
 
         <p>
@@ -181,7 +182,7 @@ export default function IsolvedPlatformPage() {
         </p>
 
         <p>
-          For HR managers who are generalists — not platform power users — this removes the navigation burden entirely. For HR directors managing large teams, it accelerates execution on routine tasks without requiring a deep platform specialist on staff.
+          For HR managers who are generalists -- not platform power users -- this removes the navigation burden entirely. For HR directors managing large teams, it accelerates execution on routine tasks without requiring a deep platform specialist on staff.
         </p>
 
         <p>
@@ -193,11 +194,11 @@ export default function IsolvedPlatformPage() {
         </h2>
 
         <p>
-          isolved is priced on a per employee per month basis. The rate varies by module selection, company size, and contract term. There is no publicly listed pricing — custom quotes require a brief conversation about headcount and current tool stack.
+          isolved is priced on a per employee per month basis. The rate varies by module selection, company size, and contract term. There is no publicly listed pricing -- custom quotes require a brief conversation about headcount and current tool stack.
         </p>
 
         <p>
-          The more relevant question for most buyers is not the isolved rate in isolation but the total stack comparison. Companies currently running three to five separate HR and payroll tools typically find that isolved is price-competitive or less expensive when the full stack is accounted for. BEG provides that comparison on the discovery call — your current tool costs versus consolidated isolved pricing — so you can make the decision with actual numbers.
+          The more relevant question for most buyers is not the isolved rate in isolation but the total stack comparison. Companies currently running three to five separate HR and payroll tools typically find that isolved is price-competitive or less expensive when the full stack is accounted for. BEG provides that comparison on the discovery call -- your current tool costs versus consolidated isolved pricing -- so you can make the decision with actual numbers.
         </p>
 
         <p>
@@ -209,7 +210,7 @@ export default function IsolvedPlatformPage() {
         </h2>
 
         <p>
-          BEG is an authorized isolved reseller. Implementation is included in the engagement — there is no separate professional services invoice.
+          BEG is an authorized isolved reseller. Implementation is included in the engagement -- there is no separate professional services invoice.
         </p>
 
         <p>

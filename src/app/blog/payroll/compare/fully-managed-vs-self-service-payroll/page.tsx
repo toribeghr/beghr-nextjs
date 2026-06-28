@@ -41,6 +41,7 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Fully Managed Payroll vs. Self-Service Payroll Softw.. | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/compare/fully-managed-vs-self-service-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,7 +64,7 @@ export default function Page() {
 
         <p><strong>Managed payroll service</strong> means a provider handles payroll for you. You submit hours and changes; they handle processing, tax deposits, compliance, and year-end forms. BEG charges $25–$45 PEPM, all-inclusive.</p>
 
-        <p><strong>The alternative</strong> (software, PEO, or in-house hire) puts the payroll work — and the compliance responsibility — in your hands or in a different cost structure.</p>
+        <p><strong>The alternative</strong> (software, PEO, or in-house hire) puts the payroll work -- and the compliance responsibility -- in your hands or in a different cost structure.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost Comparison</h2>
 

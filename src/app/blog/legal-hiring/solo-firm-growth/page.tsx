@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Which practice areas work best for a solo firm\'s first associate hire?',
-    answer: 'Practice areas with well-defined, transferable work units are the easiest to onboard a first associate into. Litigation (discovery, motions, client communication), real estate (closings, due diligence), and estate planning (drafting, client intake) all have clear task structures a new associate can absorb within 60-90 days. Practice areas requiring heavy supervised judgment early on — complex M&A, bet-the-company litigation — require more onboarding infrastructure than most solo firms have in place.',
+    answer: 'Practice areas with well-defined, transferable work units are the easiest to onboard a first associate into. Litigation (discovery, motions, client communication), real estate (closings, due diligence), and estate planning (drafting, client intake) all have clear task structures a new associate can absorb within 60-90 days. Practice areas requiring heavy supervised judgment early on -- complex M&A, bet-the-company litigation -- require more onboarding infrastructure than most solo firms have in place.',
   },
   {
     question: 'When should I raise the equity partnership track in the first conversation?',
@@ -31,11 +31,11 @@ const faqs = [
   },
   {
     question: 'What bar admission requirements should I check before making an offer?',
-    answer: 'Confirm the candidate is in good standing in any state where you have active matters. If you operate in multiple states, confirm their admission status in each. If they are not admitted in a key state, discuss whether reciprocity, bar examination, or pro hac vice admission is viable. Do not assume admission status — verify it before extending an offer.',
+    answer: 'Confirm the candidate is in good standing in any state where you have active matters. If you operate in multiple states, confirm their admission status in each. If they are not admitted in a key state, discuss whether reciprocity, bar examination, or pro hac vice admission is viable. Do not assume admission status -- verify it before extending an offer.',
   },
   {
     question: 'What exactly does the 45-day replacement guarantee cover?',
-    answer: 'If the attorney placed by BEG is not working out within the first 45 days — whether due to performance, fit, or circumstances on either side — BEG replaces the candidate at no additional placement charge. You do not restart the process from zero. The 45-day window begins on the attorney\'s first day. This is a risk mitigation mechanism for the most common failure point in any placement: the first two months.',
+    answer: 'If the attorney placed by BEG is not working out within the first 45 days -- whether due to performance, fit, or circumstances on either side -- BEG replaces the candidate at no additional placement charge. You do not restart the process from zero. The 45-day window begins on the attorney\'s first day. This is a risk mitigation mechanism for the most common failure point in any placement: the first two months.',
   },
   {
     question: 'How does BEG\'s process work for a solo firm specifically?',
@@ -64,14 +64,15 @@ const readinessRows = [
   ['Billing 50+ hrs/week for 6+ months', 'Strong readiness signal'],
   ['Losing repeat clients to capacity issues', 'Strong readiness signal'],
   ['Personal revenue over $400K-$500K/yr', 'Strong readiness signal'],
-  ['No clear work to assign immediately', 'Risk factor — resolve before hiring'],
-  ['Cannot supervise 6-8 hrs/week in months 1-3', 'Risk factor — plan for it'],
-  ['Practice area requires heavy early judgment calls', 'Risk factor — build onboarding structure first'],
+  ['No clear work to assign immediately', 'Risk factor -- resolve before hiring'],
+  ['Cannot supervise 6-8 hrs/week in months 1-3', 'Risk factor -- plan for it'],
+  ['Practice area requires heavy early judgment calls', 'Risk factor -- build onboarding structure first'],
 ];
 
 export default function SoloFirmGrowthPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Solo Firm Growth | When to Hire Your First Associate | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/legal-hiring/solo-firm-growth"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -90,7 +91,7 @@ export default function SoloFirmGrowthPage() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
 
         <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>
-          Solo practitioners turn away business because they have no capacity. They know they need to hire. But first-associate hires at solo firms fail at a high rate — and the failure rarely comes from the attorney. It comes from an unclear process, unrealistic expectations, and a hiring approach designed for large firms, applied to a practice that operates nothing like one.
+          Solo practitioners turn away business because they have no capacity. They know they need to hire. But first-associate hires at solo firms fail at a high rate -- and the failure rarely comes from the attorney. It comes from an unclear process, unrealistic expectations, and a hiring approach designed for large firms, applied to a practice that operates nothing like one.
         </p>
 
         <p>
@@ -111,7 +112,7 @@ export default function SoloFirmGrowthPage() {
           <li>Losing repeat clients because turnaround times are too long</li>
           <li>Personal revenue above $400,000-$500,000 per year in a billable practice</li>
           <li>Feeling burned out and recognizing that more volume without help is not sustainable</li>
-          <li>Growth opportunities — referrals, new client categories, expanded geography — that you are not pursuing because you do not have the bandwidth</li>
+          <li>Growth opportunities -- referrals, new client categories, expanded geography -- that you are not pursuing because you do not have the bandwidth</li>
         </ul>
 
         <p>
@@ -152,7 +153,7 @@ export default function SoloFirmGrowthPage() {
         </p>
 
         <p>
-          The harder question is whether you have the work to assign immediately. An associate at zero utilization in their first month is a cost, not an asset. The readiness check is not just financial — it is operational.
+          The harder question is whether you have the work to assign immediately. An associate at zero utilization in their first month is a cost, not an asset. The readiness check is not just financial -- it is operational.
         </p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -180,7 +181,7 @@ export default function SoloFirmGrowthPage() {
         </p>
 
         <p>
-          <strong>Hiring under capacity pressure without process discipline.</strong> Firms that hire in crisis mode — because they are overwhelmed right now and need help immediately — skip the selection steps that determine whether the hire will work. The 23-35 day placement process is fast. Use it to run a disciplined search, not to take the first available candidate.
+          <strong>Hiring under capacity pressure without process discipline.</strong> Firms that hire in crisis mode -- because they are overwhelmed right now and need help immediately -- skip the selection steps that determine whether the hire will work. The 23-35 day placement process is fast. Use it to run a disciplined search, not to take the first available candidate.
         </p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -225,7 +226,7 @@ export default function SoloFirmGrowthPage() {
         </p>
 
         <p>
-          <strong>Role brief.</strong> A 30-minute conversation to capture the practice area, the type of work the associate will handle immediately, the supervision model, and the culture of your practice. This shapes candidate targeting — sourcing a litigator for a transactional practice is a common mismatch that wastes everyone&rsquo;s time.
+          <strong>Role brief.</strong> A 30-minute conversation to capture the practice area, the type of work the associate will handle immediately, the supervision model, and the culture of your practice. This shapes candidate targeting -- sourcing a litigator for a transactional practice is a common mismatch that wastes everyone&rsquo;s time.
         </p>
 
         <p>
@@ -233,7 +234,7 @@ export default function SoloFirmGrowthPage() {
         </p>
 
         <p>
-          <strong>Pre-screening for independence and communication quality.</strong> Solo practitioners have less bandwidth to carry an associate through a long ramp. Screening criteria emphasize communication quality, the ability to work independently on defined tasks, and responsiveness — not just academic credentials.
+          <strong>Pre-screening for independence and communication quality.</strong> Solo practitioners have less bandwidth to carry an associate through a long ramp. Screening criteria emphasize communication quality, the ability to work independently on defined tasks, and responsiveness -- not just academic credentials.
         </p>
 
         <p>
@@ -292,7 +293,7 @@ export default function SoloFirmGrowthPage() {
         </div>
 
         <p>
-          Four or more strong readiness signals with no unresolved risk factors: start the search now. One or more risk factors present: resolve them before starting. Hiring into an unclear operational structure is the fastest path to a failed placement — even with the right candidate.
+          Four or more strong readiness signals with no unresolved risk factors: start the search now. One or more risk factors present: resolve them before starting. Hiring into an unclear operational structure is the fastest path to a failed placement -- even with the right candidate.
         </p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
@@ -331,7 +332,7 @@ export default function SoloFirmGrowthPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads attorney placement at Business Executive Group. BEG places attorneys in 23-35 days with an 86% fill rate, at roughly 50% less than contingency firms. BEG is not a staffing agency — placement is milestone-based, and clients pay upon successful placement.</p>
+          <p style={{ margin: 0 }}>Anthony leads attorney placement at Business Executive Group. BEG places attorneys in 23-35 days with an 86% fill rate, at roughly 50% less than contingency firms. BEG is not a staffing agency -- placement is milestone-based, and clients pay upon successful placement.</p>
         </div>
 
       </section>

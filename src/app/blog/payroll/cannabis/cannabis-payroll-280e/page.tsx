@@ -7,20 +7,20 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e' },
   openGraph: {
     title: 'Cannabis Payroll & Section 280E | What You Can Deduct | BEG',
-    description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to ...',
+    description: 'How IRC Section 280E affects cannabis business payroll tax deductions -- what is deductible as COGS, what is disallowed, and how to structure payroll to ...',
     url: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll & Section 280E | What You Can Deduct | BEG', description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to ...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll & Section 280E | What You Can Deduct | BEG', description: 'How IRC Section 280E affects cannabis business payroll tax deductions -- what is deductible as COGS, what is disallowed, and how to structure payroll to ...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Does 280E apply to cannabis businesses in states where marijuana is legal?',
-    a: 'Yes. Section 280E is a federal tax code provision and applies to all businesses that traffic in Schedule I or II controlled substances under federal law — regardless of state legalization status. Until cannabis is federally rescheduled or 280E is amended, cannabis businesses in legal states are still subject to its restrictions.',
+    a: 'Yes. Section 280E is a federal tax code provision and applies to all businesses that traffic in Schedule I or II controlled substances under federal law -- regardless of state legalization status. Until cannabis is federally rescheduled or 280E is amended, cannabis businesses in legal states are still subject to its restrictions.',
   },
   {
     q: 'What payroll costs are deductible through COGS under 280E?',
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: 'Can dispensaries deduct budtender wages under 280E?',
-    a: 'Budtender wages are generally considered selling expenses — not COGS — and are disallowed under 280E for federal tax purposes. Some dispensaries attempt to allocate a portion of budtender time to inventory management or quality control as a COGS argument, but this requires careful documentation and carries audit risk. This is an area where tax counsel is essential.',
+    a: 'Budtender wages are generally considered selling expenses -- not COGS -- and are disallowed under 280E for federal tax purposes. Some dispensaries attempt to allocate a portion of budtender time to inventory management or quality control as a COGS argument, but this requires careful documentation and carries audit risk. This is an area where tax counsel is essential.',
   },
   {
     q: 'What happens if a cannabis business takes deductions it is not entitled to?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function Cannabis280EPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Cannabis Payroll & Section 280E | What You Can Deduct | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function Cannabis280EPage() {
               <p className="eyebrow">Payroll · Cannabis</p>
               <h1>Cannabis Business Payroll Under Section 280E: What You Can and Can't Deduct</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                IRC Section 280E is the single most impactful federal tax rule for cannabis businesses. It disallows ordinary business deductions — but does not prohibit COGS deductions. Where payroll lands determines how much tax you owe.
+                IRC Section 280E is the single most impactful federal tax rule for cannabis businesses. It disallows ordinary business deductions -- but does not prohibit COGS deductions. Where payroll lands determines how much tax you owe.
               </p>
             </div>
           </div>
@@ -56,10 +57,10 @@ export default function Cannabis280EPage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          Section 280E of the Internal Revenue Code prohibits businesses that traffic in Schedule I or II controlled substances from deducting ordinary and necessary business expenses. Cannabis is federally classified as Schedule I. The result: cannabis businesses cannot deduct most expenses that every other business takes for granted — including most payroll costs.
+          Section 280E of the Internal Revenue Code prohibits businesses that traffic in Schedule I or II controlled substances from deducting ordinary and necessary business expenses. Cannabis is federally classified as Schedule I. The result: cannabis businesses cannot deduct most expenses that every other business takes for granted -- including most payroll costs.
         </p>
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          The exception is Cost of Goods Sold (COGS). Expenses included in COGS reduce gross income, not taxable income — and 280E only restricts deductions, not COGS calculations. Labor costs that qualify as COGS are therefore the primary way cannabis businesses reduce their federal tax liability.
+          The exception is Cost of Goods Sold (COGS). Expenses included in COGS reduce gross income, not taxable income -- and 280E only restricts deductions, not COGS calculations. Labor costs that qualify as COGS are therefore the primary way cannabis businesses reduce their federal tax liability.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>How 280E Affects Payroll Deductibility</h2>
@@ -95,7 +96,7 @@ export default function Cannabis280EPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Structuring Payroll to Maximize Allowable COGS</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Because COGS-classified labor is the main vehicle for reducing cannabis federal tax liability, how you code employees in your payroll system matters significantly. A dispensary with both a retail operation and an on-site processing or packaging operation can allocate a portion of certain employees' time to production activities — but this requires time-tracking documentation and a defensible allocation methodology.
+          Because COGS-classified labor is the main vehicle for reducing cannabis federal tax liability, how you code employees in your payroll system matters significantly. A dispensary with both a retail operation and an on-site processing or packaging operation can allocate a portion of certain employees' time to production activities -- but this requires time-tracking documentation and a defensible allocation methodology.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
           Vertically integrated cannabis companies (cultivator + processor + retailer) have the most flexibility because more of their total labor touches COGS-eligible activities. Pure retail dispensaries have the most restricted deductibility because their labor is almost entirely selling and administrative.
@@ -106,7 +107,7 @@ export default function Cannabis280EPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Payroll Taxes Are Still Owed in Full</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          280E restricts income tax deductions — it does not reduce your payroll tax obligations. Every cannabis employer still owes FICA, FUTA, SUTA, and state income tax withholding on all employees, regardless of whether those wages are deductible for income tax purposes. Cannabis businesses pay the full employer payroll tax stack on wages that produce no income tax deduction.
+          280E restricts income tax deductions -- it does not reduce your payroll tax obligations. Every cannabis employer still owes FICA, FUTA, SUTA, and state income tax withholding on all employees, regardless of whether those wages are deductible for income tax purposes. Cannabis businesses pay the full employer payroll tax stack on wages that produce no income tax deduction.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>
@@ -120,7 +121,7 @@ export default function Cannabis280EPage() {
         </div>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
-          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Cannabis payroll is complex — let BEG run it</h2>
+          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Cannabis payroll is complex -- let BEG run it</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages payroll for cannabis businesses including COGS allocation coding, multi-state withholding, and 280E-aware recordkeeping. 15-minute call.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
@@ -131,8 +132,8 @@ export default function Cannabis280EPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/cannabis">Managed Payroll for Cannabis Businesses</Link> — full service details</li>
-            <li><Link href="/blog/payroll/cannabis/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Cannabis</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/cannabis">Managed Payroll for Cannabis Businesses</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/cannabis/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Cannabis</Link> -- cost comparison</li>
           </ul>
         </div>
 

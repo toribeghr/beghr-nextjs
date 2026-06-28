@@ -19,23 +19,23 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What are the most common payroll compliance mistakes companies make?',
-    answer: 'The five most common: (1) worker misclassification — paying employees as 1099 contractors when the work relationship meets employee criteria under IRS and state law tests; (2) overtime miscalculation — incorrectly determining the regular rate of pay when employees receive bonuses, commissions, or shift differentials, which must be blended before calculating overtime; (3) state withholding gaps for remote employees — withholding for the company\'s home state rather than the state where the employee performs the work; (4) final pay timing violations — states have specific deadlines for final paychecks on termination and resignation that differ from regular pay cycles; (5) ACA measurement period errors — failing to correctly track variable-hour employee hours against the lookback window, resulting in missed coverage offerings.',
+    answer: 'The five most common: (1) worker misclassification -- paying employees as 1099 contractors when the work relationship meets employee criteria under IRS and state law tests; (2) overtime miscalculation -- incorrectly determining the regular rate of pay when employees receive bonuses, commissions, or shift differentials, which must be blended before calculating overtime; (3) state withholding gaps for remote employees -- withholding for the company\'s home state rather than the state where the employee performs the work; (4) final pay timing violations -- states have specific deadlines for final paychecks on termination and resignation that differ from regular pay cycles; (5) ACA measurement period errors -- failing to correctly track variable-hour employee hours against the lookback window, resulting in missed coverage offerings.',
   },
   {
     question: 'How do you handle payroll compliance for employees working in multiple states?',
-    answer: 'Multi-state compliance requires registration in each state where employees perform work — state income tax withholding accounts, unemployment insurance accounts, and sometimes local tax accounts. Withholding is based on the state of performance, not the employer\'s location. Reciprocity agreements exist between some state pairs and simplify the employee\'s tax filing (though employer obligations remain). We maintain active tax accounts in each state where BEG clients have employees and update withholding calculations when employees relocate.',
+    answer: 'Multi-state compliance requires registration in each state where employees perform work -- state income tax withholding accounts, unemployment insurance accounts, and sometimes local tax accounts. Withholding is based on the state of performance, not the employer\'s location. Reciprocity agreements exist between some state pairs and simplify the employee\'s tax filing (though employer obligations remain). We maintain active tax accounts in each state where BEG clients have employees and update withholding calculations when employees relocate.',
   },
   {
     question: 'What is the FLSA overtime threshold and who does it apply to?',
-    answer: 'The FLSA requires time-and-a-half pay for non-exempt employees who work more than 40 hours in a workweek. Employees classified as exempt from overtime must meet both a duties test (their job functions must qualify under executive, administrative, professional, outside sales, or computer employee exemptions) and a salary level test — they must earn at or above the salary threshold set by the Department of Labor. This threshold has been subject to significant regulatory activity; consult a qualified employment attorney or payroll compliance resource for the current threshold applicable to your jurisdiction and employee type.',
+    answer: 'The FLSA requires time-and-a-half pay for non-exempt employees who work more than 40 hours in a workweek. Employees classified as exempt from overtime must meet both a duties test (their job functions must qualify under executive, administrative, professional, outside sales, or computer employee exemptions) and a salary level test -- they must earn at or above the salary threshold set by the Department of Labor. This threshold has been subject to significant regulatory activity; consult a qualified employment attorney or payroll compliance resource for the current threshold applicable to your jurisdiction and employee type.',
   },
   {
     question: 'What are the ACA employer mandate requirements?',
-    answer: 'Applicable Large Employers (ALEs) — those with 50 or more full-time equivalent employees — must offer minimum essential coverage meeting affordability and minimum value standards to full-time employees and their dependents, or face potential penalties. Full-time is defined as 30 or more hours per week. Variable-hour employees are tracked through look-back measurement periods to determine coverage eligibility. The affordability threshold is updated annually by the IRS. ACA compliance also requires annual 1095-C reporting to both employees and the IRS.',
+    answer: 'Applicable Large Employers (ALEs) -- those with 50 or more full-time equivalent employees -- must offer minimum essential coverage meeting affordability and minimum value standards to full-time employees and their dependents, or face potential penalties. Full-time is defined as 30 or more hours per week. Variable-hour employees are tracked through look-back measurement periods to determine coverage eligibility. The affordability threshold is updated annually by the IRS. ACA compliance also requires annual 1095-C reporting to both employees and the IRS.',
   },
   {
     question: 'How does a managed payroll service handle compliance updates versus self-service software?',
-    answer: 'Self-service payroll software handles tax table updates automatically — the platform pushes updated rates when they change. What the software does not do is evaluate whether your specific payroll configurations, classifications, and practices remain compliant as laws change. Managed payroll adds the human layer: a payroll professional who monitors regulatory changes, reviews your account for classification risks, updates state registration requirements when employees move, and alerts you when a change in law affects your specific situation. The distinction is between a system that updates rates and a service that monitors compliance.',
+    answer: 'Self-service payroll software handles tax table updates automatically -- the platform pushes updated rates when they change. What the software does not do is evaluate whether your specific payroll configurations, classifications, and practices remain compliant as laws change. Managed payroll adds the human layer: a payroll professional who monitors regulatory changes, reviews your account for classification risks, updates state registration requirements when employees move, and alerts you when a change in law affects your specific situation. The distinction is between a system that updates rates and a service that monitors compliance.',
   },
   {
     question: 'What payroll records are required and how long must we keep them?',
@@ -46,6 +46,7 @@ const faqs = [
 export default function PayrollCompliancePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Tax Compliance 2026 | Changes & What to Fix | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/payroll-compliance"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -62,7 +63,7 @@ export default function PayrollCompliancePage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Payroll compliance is not a once-a-year task. Federal tax tables, state minimum wages, overtime thresholds, ACA affordability percentages, and unemployment wage bases change on their own schedules — and the penalty for missing an update ranges from a modest IRS notice to a significant back-payment and audit exposure.</p>
+        <p>Payroll compliance is not a once-a-year task. Federal tax tables, state minimum wages, overtime thresholds, ACA affordability percentages, and unemployment wage bases change on their own schedules -- and the penalty for missing an update ranges from a modest IRS notice to a significant back-payment and audit exposure.</p>
 
         <p>Most payroll software handles the mechanical updates: tax tables get pushed when rates change, and the system calculates the new figures. What software does not do is evaluate whether your overall payroll configuration and classification practices remain compliant as the regulatory environment shifts around them.</p>
 
@@ -83,14 +84,14 @@ export default function PayrollCompliancePage() {
             <tbody>
               {[
                 ['Federal income tax withholding', 'W-4 elections, bracket rates, standard deduction', 'Annual (IRS Pub. 15)', 'Back withholding, interest, penalties'],
-                ['FICA (Social Security + Medicare)', 'Tax rates, Social Security wage base', 'Annual (Social Security wage base)', 'Trust fund penalty — personal liability for payroll officers'],
-                ['Federal unemployment (FUTA)', 'Rate, wage base, credit reduction states', 'Annual — credit reduction varies', 'Back taxes, penalty, interest'],
-                ['State income tax withholding', 'Each state where employees work', 'Varies by state — some mid-year', 'State penalties vary; audit risk'],
+                ['FICA (Social Security + Medicare)', 'Tax rates, Social Security wage base', 'Annual (Social Security wage base)', 'Trust fund penalty -- personal liability for payroll officers'],
+                ['Federal unemployment (FUTA)', 'Rate, wage base, credit reduction states', 'Annual -- credit reduction varies', 'Back taxes, penalty, interest'],
+                ['State income tax withholding', 'Each state where employees work', 'Varies by state -- some mid-year', 'State penalties vary; audit risk'],
                 ['State unemployment insurance (SUI)', 'Each state where employees work, experience rating', 'Annual rate notice by state', 'Back SUI taxes, penalties'],
-                ['State minimum wage', 'Floor rate, tipped rates, sub-minimum rates', 'Varies by state — many July 1', 'Back pay, FLSA civil penalties up to $1,100/violation'],
+                ['State minimum wage', 'Floor rate, tipped rates, sub-minimum rates', 'Varies by state -- many July 1', 'Back pay, FLSA civil penalties up to $1,100/violation'],
                 ['FLSA overtime exemptions', 'Salary threshold, duties test, workweek definition', 'DOL regulatory changes', 'Back overtime, liquidated damages, attorney fees'],
                 ['ACA employer mandate', 'Coverage requirement, affordability, minimum value', 'Annual (affordability % from IRS)', '$2,880–$4,320 per FTE per year'],
-                ['Worker classification (1099 vs. W-2)', 'IRS common law test, state ABC tests', 'Ongoing — state law changes', 'Back taxes, penalties, benefit liability'],
+                ['Worker classification (1099 vs. W-2)', 'IRS common law test, state ABC tests', 'Ongoing -- state law changes', 'Back taxes, penalties, benefit liability'],
                 ['Final pay requirements', 'Timing of final check on termination/resignation', 'Varies by state', 'State penalties, civil suit risk'],
               ].map(([cat, covers, freq, penalty], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -113,7 +114,7 @@ export default function PayrollCompliancePage() {
           <li style={{ marginBottom: '0.5rem' }}>Register for a state unemployment insurance account in the employee's work state</li>
           <li style={{ marginBottom: '0.5rem' }}>Apply the correct withholding rates for that state, not the company's home state</li>
           <li style={{ marginBottom: '0.5rem' }}>Apply any applicable reciprocity agreements (which affect employee filing obligations but not employer registration)</li>
-          <li style={{ marginBottom: '0.5rem' }}>Comply with state-specific wage and hour laws for that employee — minimum wage, overtime rules, final pay timing</li>
+          <li style={{ marginBottom: '0.5rem' }}>Comply with state-specific wage and hour laws for that employee -- minimum wage, overtime rules, final pay timing</li>
           <li style={{ marginBottom: '0.5rem' }}>File quarterly and annual returns with that state's revenue and labor agencies</li>
         </ul>
 
@@ -224,7 +225,7 @@ export default function PayrollCompliancePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'BlogPosting',
         headline: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
-        description: '2026 payroll compliance guide — federal and state categories, multi-state obligations, FLSA, ACA, and how managed payroll handles compliance monitoring.',
+        description: '2026 payroll compliance guide -- federal and state categories, multi-state obligations, FLSA, ACA, and how managed payroll handles compliance monitoring.',
         datePublished: '2026-06-25', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
         publisher: { '@type': 'Organization', name: 'Business Executive Group', logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' } },

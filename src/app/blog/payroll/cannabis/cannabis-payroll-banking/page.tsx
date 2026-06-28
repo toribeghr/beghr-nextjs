@@ -7,20 +7,20 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking' },
   openGraph: {
     title: 'Cannabis Payroll & Banking | How to Pay When Banks Won\'t | BEG',
-    description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees — from cannabis-friendly bank...',
+    description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees -- from cannabis-friendly bank...',
     url: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll & Banking | How to Pay When Banks Won\'t | BEG', description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees — from cannabis-friendly bank...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll & Banking | How to Pay When Banks Won\'t | BEG', description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees -- from cannabis-friendly bank...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Can cannabis businesses use direct deposit for payroll?',
-    a: 'Yes, if the cannabis business has a banking relationship with a financial institution that serves the cannabis industry. Cannabis-friendly credit unions and state-chartered banks in legal states do offer business checking accounts, which allow ACH direct deposit for payroll. The challenge is finding and maintaining that banking relationship — many mainstream banks still decline cannabis accounts.',
+    a: 'Yes, if the cannabis business has a banking relationship with a financial institution that serves the cannabis industry. Cannabis-friendly credit unions and state-chartered banks in legal states do offer business checking accounts, which allow ACH direct deposit for payroll. The challenge is finding and maintaining that banking relationship -- many mainstream banks still decline cannabis accounts.',
   },
   {
     q: 'Is cash payroll legal for cannabis businesses?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function CannabisBankingPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Cannabis Payroll & Banking | How to Pay When Banks Won't | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -56,10 +57,10 @@ export default function CannabisBankingPage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          Most banks are federally chartered or insured — which means serving cannabis businesses creates regulatory risk under federal law, regardless of state legalization status. As a result, many cannabis businesses in legal states struggle to open and maintain business bank accounts. Without a bank account, running payroll through normal ACH direct deposit becomes impossible.
+          Most banks are federally chartered or insured -- which means serving cannabis businesses creates regulatory risk under federal law, regardless of state legalization status. As a result, many cannabis businesses in legal states struggle to open and maintain business bank accounts. Without a bank account, running payroll through normal ACH direct deposit becomes impossible.
         </p>
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Cannabis employers still have obligations to pay employees correctly and on time, withhold all required taxes, and deposit those taxes with state and federal agencies. The banking constraint does not remove the compliance obligation — it just makes fulfilling it harder.
+          Cannabis employers still have obligations to pay employees correctly and on time, withhold all required taxes, and deposit those taxes with state and federal agencies. The banking constraint does not remove the compliance obligation -- it just makes fulfilling it harder.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Banking Options for Cannabis Employers</h2>
@@ -67,7 +68,7 @@ export default function CannabisBankingPage() {
           {[
             {
               title: 'Cannabis-friendly credit unions and state-chartered banks',
-              body: 'In most legal states, there are credit unions and state-chartered banks that have developed compliant programs for cannabis business banking. These institutions charge premium fees and impose more reporting requirements than standard business banking — but they provide real bank accounts, ACH capability, and the ability to make federal tax deposits. This is the preferred option for any cannabis employer who can access it.',
+              body: 'In most legal states, there are credit unions and state-chartered banks that have developed compliant programs for cannabis business banking. These institutions charge premium fees and impose more reporting requirements than standard business banking -- but they provide real bank accounts, ACH capability, and the ability to make federal tax deposits. This is the preferred option for any cannabis employer who can access it.',
             },
             {
               title: 'Payroll cards',
@@ -75,7 +76,7 @@ export default function CannabisBankingPage() {
             },
             {
               title: 'Cash payroll',
-              body: 'Some cannabis businesses without banking access pay employees in cash. This is legal under FLSA — but requires meticulous documentation. Each employee must receive a pay stub showing gross wages, all deductions (federal and state income tax, FICA), and net pay. Cash distribution logs should be signed by employees and retained. Payroll tax obligations still apply and must be met through whatever banking access the employer has.',
+              body: 'Some cannabis businesses without banking access pay employees in cash. This is legal under FLSA -- but requires meticulous documentation. Each employee must receive a pay stub showing gross wages, all deductions (federal and state income tax, FICA), and net pay. Cash distribution logs should be signed by employees and retained. Payroll tax obligations still apply and must be met through whatever banking access the employer has.',
             },
             {
               title: 'Multi-state payment processors',
@@ -121,7 +122,7 @@ export default function CannabisBankingPage() {
         </div>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
-          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Cannabis payroll is solvable — let's talk</h2>
+          <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Cannabis payroll is solvable -- let's talk</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages payroll for cannabis businesses with experience navigating banking constraints. 15-minute discovery call.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
@@ -132,9 +133,9 @@ export default function CannabisBankingPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/cannabis">Managed Payroll for Cannabis Businesses</Link> — full service details</li>
-            <li><Link href="/blog/payroll/cannabis/cannabis-payroll-280e">Cannabis Payroll Under 280E</Link> — tax deductibility guide</li>
-            <li><Link href="/blog/payroll/cannabis/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Cannabis</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/cannabis">Managed Payroll for Cannabis Businesses</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/cannabis/cannabis-payroll-280e">Cannabis Payroll Under 280E</Link> -- tax deductibility guide</li>
+            <li><Link href="/blog/payroll/cannabis/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Cannabis</Link> -- cost comparison</li>
           </ul>
         </div>
 

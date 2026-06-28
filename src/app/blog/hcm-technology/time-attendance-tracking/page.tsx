@@ -18,19 +18,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What are the different ways employees can clock in with iSolved time tracking?",
-    answer: "iSolved supports multiple punch methods to match different work environments: web-based clock-in from a browser (for office workers), mobile app punch-in with GPS location capture (for field employees), physical time clock kiosks (for manufacturing or retail), and biometric authentication options. Employers can configure which methods are available by employee group — requiring kiosk punches for hourly plant workers while allowing mobile app punches for field service technicians. Each punch method captures the timestamp, the employee's identity, and optionally the GPS coordinates or device ID, creating a full audit trail for every time entry.",
+    answer: "iSolved supports multiple punch methods to match different work environments: web-based clock-in from a browser (for office workers), mobile app punch-in with GPS location capture (for field employees), physical time clock kiosks (for manufacturing or retail), and biometric authentication options. Employers can configure which methods are available by employee group -- requiring kiosk punches for hourly plant workers while allowing mobile app punches for field service technicians. Each punch method captures the timestamp, the employee's identity, and optionally the GPS coordinates or device ID, creating a full audit trail for every time entry.",
   },
   {
     question: "How does iSolved automatically calculate overtime?",
-    answer: "iSolved applies your configured overtime rules to each employee's time entries at the end of each workday and workweek. You define the workweek (start day and time), the overtime threshold (40 hours for most states; 8 hours per day for California and a few others), and any shift differential rules. When an employee's hours exceed the threshold, iSolved flags the overtime hours and calculates the premium pay automatically when the time is exported to payroll. The system prevents the overtime from being 'corrected away' without an audit trail — any time edits are logged with the editor's name and timestamp.",
+    answer: "iSolved applies your configured overtime rules to each employee's time entries at the end of each workday and workweek. You define the workweek (start day and time), the overtime threshold (40 hours for most states; 8 hours per day for California and a few others), and any shift differential rules. When an employee's hours exceed the threshold, iSolved flags the overtime hours and calculates the premium pay automatically when the time is exported to payroll. The system prevents the overtime from being 'corrected away' without an audit trail -- any time edits are logged with the editor's name and timestamp.",
   },
   {
     question: "What is geofencing and how does it work for field employees?",
-    answer: "Geofencing creates a virtual boundary around a physical location. When configured in iSolved's mobile time tracking, the system verifies that the employee's GPS coordinates are within the defined boundary (such as a client site or job site) before allowing a punch. If an employee tries to clock in from outside the geofence — for example, clocking in from home while claiming to be on a job site — the punch can be flagged or blocked depending on your configuration. Geofencing addresses the 'buddy punching' and time fraud problems common in field service, construction, and home care industries.",
+    answer: "Geofencing creates a virtual boundary around a physical location. When configured in iSolved's mobile time tracking, the system verifies that the employee's GPS coordinates are within the defined boundary (such as a client site or job site) before allowing a punch. If an employee tries to clock in from outside the geofence -- for example, clocking in from home while claiming to be on a job site -- the punch can be flagged or blocked depending on your configuration. Geofencing addresses the 'buddy punching' and time fraud problems common in field service, construction, and home care industries.",
   },
   {
     question: "How does time and attendance data get from iSolved to payroll?",
-    answer: "Because iSolved is a single integrated platform, time and attendance data does not need to be exported and imported between systems — it exists in the same database as payroll. When a pay period closes, managers approve time for their employees, and the approved hours flow directly into the payroll calculation. There is no file transfer, no manual re-entry, and no risk of data mismatch between the time system and the payroll system. Corrections made to time after approval are tracked in the audit log and reflected in the next payroll run or an off-cycle correction.",
+    answer: "Because iSolved is a single integrated platform, time and attendance data does not need to be exported and imported between systems -- it exists in the same database as payroll. When a pay period closes, managers approve time for their employees, and the approved hours flow directly into the payroll calculation. There is no file transfer, no manual re-entry, and no risk of data mismatch between the time system and the payroll system. Corrections made to time after approval are tracked in the audit log and reflected in the next payroll run or an off-cycle correction.",
   },
   {
     question: "Can iSolved handle scheduling, not just timekeeping?",
@@ -38,13 +38,14 @@ const faqs = [
   },
   {
     question: "What does BEG charge for iSolved time and attendance?",
-    answer: "Time and attendance is included in BEG's fully managed payroll service on iSolved at $45 per employee per month. For a 40-person company, that is $1,800 per month for managed payroll, iSolved time and attendance, benefits administration, and core HR — all integrated, no file transfers between systems. If you have your own iSolved account and want to manage it yourself, ask about the iSolved platform reselling option.",
+    answer: "Time and attendance is included in BEG's fully managed payroll service on iSolved at $45 per employee per month. For a 40-person company, that is $1,800 per month for managed payroll, iSolved time and attendance, benefits administration, and core HR -- all integrated, no file transfers between systems. If you have your own iSolved account and want to manage it yourself, ask about the iSolved platform reselling option.",
   },
 ];
 
 export default function TimeAttendanceTrackingPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -63,7 +64,7 @@ export default function TimeAttendanceTrackingPage() {
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
 
         <p style={{ fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          Time and attendance tracking is the foundational data layer for accurate payroll. Every hour recorded correctly or incorrectly cascades into overtime calculations, payroll tax remittances, labor cost reporting, and wage and hour compliance. The gap between standalone timekeeping tools that export to payroll and an integrated system where time data lives in the same platform as payroll is not just operational convenience — it is audit defensibility. When the DOL audits your wage records, a unified system with an immutable audit log is fundamentally stronger than reconciled exports across disconnected systems.
+          Time and attendance tracking is the foundational data layer for accurate payroll. Every hour recorded correctly or incorrectly cascades into overtime calculations, payroll tax remittances, labor cost reporting, and wage and hour compliance. The gap between standalone timekeeping tools that export to payroll and an integrated system where time data lives in the same platform as payroll is not just operational convenience -- it is audit defensibility. When the DOL audits your wage records, a unified system with an immutable audit log is fundamentally stronger than reconciled exports across disconnected systems.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>iSolved Time and Attendance Capability Overview</h2>
@@ -99,15 +100,15 @@ export default function TimeAttendanceTrackingPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>The FLSA Requirement: Accurate Timekeeping Is Not Optional</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          The FLSA requires employers to maintain accurate records of hours worked for non-exempt employees. The employer — not the employee — bears the burden of demonstrating accurate records in a wage dispute. The <a href="https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>DOL recordkeeping fact sheet</a> specifies that time records must be preserved for at least two years. A wage dispute that reaches the DOL or litigation without credible time records defaults in favor of the employee's recollection.
+          The FLSA requires employers to maintain accurate records of hours worked for non-exempt employees. The employer -- not the employee -- bears the burden of demonstrating accurate records in a wage dispute. The <a href="https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping" target="_blank" rel="noopener noreferrer" style={{ color: "#ECAC60" }}>DOL recordkeeping fact sheet</a> specifies that time records must be preserved for at least two years. A wage dispute that reaches the DOL or litigation without credible time records defaults in favor of the employee's recollection.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          iSolved's time records are stored with timestamp, user ID, method of entry, and any manager edits — creating a defensible log that documents both what was recorded and any changes made after the fact.
+          iSolved's time records are stored with timestamp, user ID, method of entry, and any manager edits -- creating a defensible log that documents both what was recorded and any changes made after the fact.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>Real-Time Overtime Alerts: Preventing the Problem Before the Payroll Run</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          One of the practical advantages of integrated time tracking is the ability to flag overtime exposure in real time rather than discovering it after the fact. iSolved can alert managers when an employee is approaching or has crossed the overtime threshold mid-week — giving the manager the option to adjust scheduling before more overtime accrues. This does not mean denying employees their earned overtime (employees must be paid for all hours worked), but it gives operations visibility to make informed scheduling decisions.
+          One of the practical advantages of integrated time tracking is the ability to flag overtime exposure in real time rather than discovering it after the fact. iSolved can alert managers when an employee is approaching or has crossed the overtime threshold mid-week -- giving the manager the option to adjust scheduling before more overtime accrues. This does not mean denying employees their earned overtime (employees must be paid for all hours worked), but it gives operations visibility to make informed scheduling decisions.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           See <a href="/services/managed-payroll" style={{ color: "#ECAC60" }}>BEG's managed payroll service</a> for how time data flows into payroll processing and how we configure overtime rules at setup.
@@ -122,7 +123,7 @@ export default function TimeAttendanceTrackingPage() {
           <li>Shift differential configuration and regular rate blending</li>
           <li>Manager approval workflow per department</li>
           <li>Scheduling templates and shift assignment</li>
-          <li>Payroll integration verification — approved hours to payroll with no manual steps</li>
+          <li>Payroll integration verification -- approved hours to payroll with no manual steps</li>
         </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
@@ -139,7 +140,7 @@ export default function TimeAttendanceTrackingPage() {
         </div>
 
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem", color: "#666", fontSize: "0.9rem" }}>
-          Also see: <a href="/services/hcm-software" style={{ color: "#ECAC60" }}>BEG's iSolved HCM platform overview</a> — full capabilities, industries served, and how the platform integrates time, payroll, and HR in a single system.
+          Also see: <a href="/services/hcm-software" style={{ color: "#ECAC60" }}>BEG's iSolved HCM platform overview</a> -- full capabilities, industries served, and how the platform integrates time, payroll, and HR in a single system.
         </p>
 
         <div style={{ marginBottom: "2.5rem" }}>

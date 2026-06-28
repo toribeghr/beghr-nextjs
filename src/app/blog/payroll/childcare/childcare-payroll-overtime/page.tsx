@@ -3,24 +3,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG',
-  description: 'FLSA overtime rules for childcare staff — which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most.',
+  description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime' },
   openGraph: {
     title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG',
-    description: 'FLSA overtime rules for childcare staff — which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...',
+    description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...',
     url: 'https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG', description: 'FLSA overtime rules for childcare staff — which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG', description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Are childcare directors exempt from FLSA overtime?',
-    a: 'Childcare directors may qualify for the executive exemption if their primary duty is managing the facility, they supervise two or more employees, and they have authority over hiring and termination decisions. They must also be paid on a salary basis of at least $684 per week. Directors who are primarily involved in classroom instruction or direct child supervision — even if they hold the "director" title — often do not meet the management primary duty test.',
+    a: 'Childcare directors may qualify for the executive exemption if their primary duty is managing the facility, they supervise two or more employees, and they have authority over hiring and termination decisions. They must also be paid on a salary basis of at least $684 per week. Directors who are primarily involved in classroom instruction or direct child supervision -- even if they hold the "director" title -- often do not meet the management primary duty test.',
   },
   {
     q: 'Can I average hours across multiple pay periods for childcare staff who work variable schedules?',
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: 'Do childcare employees who work split shifts owe overtime?',
-    a: 'Yes, if total hours worked in the workweek exceed 40. Split shifts do not change overtime calculations — only total hours matter. An aide who works 7am to 11am and then 3pm to 7pm has worked 8 hours that day and those hours count toward the 40-hour threshold like any others.',
+    a: 'Yes, if total hours worked in the workweek exceed 40. Split shifts do not change overtime calculations -- only total hours matter. An aide who works 7am to 11am and then 3pm to 7pm has worked 8 hours that day and those hours count toward the 40-hour threshold like any others.',
   },
   {
     q: 'What is the domestic service exemption and does it apply to nannies employed through a childcare center?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function ChildcareOvertimePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Childcare Payroll & FLSA Overtime | The Operator Guide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function ChildcareOvertimePage() {
               <p className="eyebrow">Payroll · Childcare</p>
               <h1>Childcare Center Payroll and FLSA Overtime: What Operators Need to Know</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                Most childcare staff are non-exempt — entitled to overtime for hours over 40 per week. Variable schedules, split shifts, and high turnover make childcare payroll one of the most compliance-intensive operations in the sector.
+                Most childcare staff are non-exempt -- entitled to overtime for hours over 40 per week. Variable schedules, split shifts, and high turnover make childcare payroll one of the most compliance-intensive operations in the sector.
               </p>
             </div>
           </div>
@@ -56,7 +57,7 @@ export default function ChildcareOvertimePage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          Childcare centers employ a mix of salaried directors, hourly teachers, part-time aides, and substitute staff — all of whom interact with FLSA differently. The high proportion of hourly, non-exempt workers, combined with variable scheduling and frequent coverage changes, creates a payroll environment where overtime errors are common and expensive.
+          Childcare centers employ a mix of salaried directors, hourly teachers, part-time aides, and substitute staff -- all of whom interact with FLSA differently. The high proportion of hourly, non-exempt workers, combined with variable scheduling and frequent coverage changes, creates a payroll environment where overtime errors are common and expensive.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Exemption Status by Role</h2>
@@ -91,15 +92,15 @@ export default function ChildcareOvertimePage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Variable Scheduling and Overtime Exposure</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Childcare staffing changes daily based on enrollment ratios, sick calls, and licensing requirements. Teachers who normally work 35 hours per week may regularly cover an additional shift when a colleague calls out — pushing them over 40 hours without a formal schedule change. That overtime is owed whether or not it was preapproved.
+          Childcare staffing changes daily based on enrollment ratios, sick calls, and licensing requirements. Teachers who normally work 35 hours per week may regularly cover an additional shift when a colleague calls out -- pushing them over 40 hours without a formal schedule change. That overtime is owed whether or not it was preapproved.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          FLSA does not require overtime to be approved in advance — it only requires that actual hours over 40 per workweek be compensated at 1.5x. If an employee works unapproved overtime, you can address the scheduling issue — but you cannot withhold the overtime pay.
+          FLSA does not require overtime to be approved in advance -- it only requires that actual hours over 40 per workweek be compensated at 1.5x. If an employee works unapproved overtime, you can address the scheduling issue -- but you cannot withhold the overtime pay.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>High Turnover and New Hire Payroll Compliance</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          Childcare has among the highest employee turnover rates of any industry. Frequent onboarding and offboarding means constant new hire paperwork, I-9 verification, state new hire reporting, and direct deposit setup — on a cycle that can repeat multiple times per month for larger centers.
+          Childcare has among the highest employee turnover rates of any industry. Frequent onboarding and offboarding means constant new hire paperwork, I-9 verification, state new hire reporting, and direct deposit setup -- on a cycle that can repeat multiple times per month for larger centers.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
           Centers that handle payroll in-house often fall behind on new hire state reporting (typically required within 20 days of hire) and may delay direct deposit setup while employees wait for their first paycheck. A managed payroll provider handles this as part of the standard onboarding process.
@@ -117,7 +118,7 @@ export default function ChildcareOvertimePage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Let BEG manage childcare payroll compliance</h2>
-          <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Overtime tracking, high-turnover onboarding, and year-end W-2s — fully managed at $25–$45 per employee per month. 15-minute call.</p>
+          <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Overtime tracking, high-turnover onboarding, and year-end W-2s -- fully managed at $25–$45 per employee per month. 15-minute call.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
             Book a Discovery Call
@@ -127,8 +128,8 @@ export default function ChildcareOvertimePage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/childcare">Managed Payroll for Childcare Centers</Link> — full service details</li>
-            <li><Link href="/blog/payroll/childcare/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Childcare</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/childcare">Managed Payroll for Childcare Centers</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/childcare/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Childcare</Link> -- cost comparison</li>
           </ul>
         </div>
 

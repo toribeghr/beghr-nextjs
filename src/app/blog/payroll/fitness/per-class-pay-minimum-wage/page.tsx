@@ -3,24 +3,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG',
-  description: 'How to calculate minimum wage compliance for fitness instructors paid per class — what counts as compensable time, how to calculate the floor, and what.',
+  description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage' },
   openGraph: {
     title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG',
-    description: 'How to calculate minimum wage compliance for fitness instructors paid per class — what counts as compensable time, how to calculate the floor, and what ...',
+    description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what ...',
     url: 'https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG', description: 'How to calculate minimum wage compliance for fitness instructors paid per class — what counts as compensable time, how to calculate the floor, and what ...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG', description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what ...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'Do instructors have to be paid for time spent preparing for a class?',
-    a: 'Preparation time is compensable if it is integral and indispensable to the principal activity — meaning the instructor cannot perform the class without it, and the preparation is primarily for the employer\'s benefit. A 5-minute equipment setup between classes is generally compensable. A 2-hour personal practice session an instructor chooses to do before their shift is generally not. The distinction often turns on whether the preparation is required by the employer.',
+    a: 'Preparation time is compensable if it is integral and indispensable to the principal activity -- meaning the instructor cannot perform the class without it, and the preparation is primarily for the employer\'s benefit. A 5-minute equipment setup between classes is generally compensable. A 2-hour personal practice session an instructor chooses to do before their shift is generally not. The distinction often turns on whether the preparation is required by the employer.',
   },
   {
     q: 'What counts as a compensable "hour worked" for an instructor paid per class?',
@@ -39,6 +39,7 @@ const faqs = [
 export default function PerClassPayMinimumWagePage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -46,7 +47,7 @@ export default function PerClassPayMinimumWagePage() {
               <p className="eyebrow">Payroll · Fitness</p>
               <h1>Per-Class Pay and Minimum Wage: Payroll Compliance for Fitness Studios</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                Fitness studios often pay instructors per class. When total per-class earnings divided by actual hours worked falls below minimum wage, the studio owes additional wages — whether or not it tracks those hours.
+                Fitness studios often pay instructors per class. When total per-class earnings divided by actual hours worked falls below minimum wage, the studio owes additional wages -- whether or not it tracks those hours.
               </p>
             </div>
           </div>
@@ -56,7 +57,7 @@ export default function PerClassPayMinimumWagePage() {
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>
 
         <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-          Paying instructors per class is simple from a scheduling standpoint — $25 for a 45-minute class, $40 for a 60-minute class, and so on. The problem is that "per class" pay triggers minimum wage compliance analysis: the total compensation paid divided by total hours worked must meet or exceed the applicable minimum wage. Most studios do not track this, which means they do not know whether they are in compliance.
+          Paying instructors per class is simple from a scheduling standpoint -- $25 for a 45-minute class, $40 for a 60-minute class, and so on. The problem is that "per class" pay triggers minimum wage compliance analysis: the total compensation paid divided by total hours worked must meet or exceed the applicable minimum wage. Most studios do not track this, which means they do not know whether they are in compliance.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>How to Calculate the Minimum Wage Floor for Per-Class Instructors</h2>
@@ -66,7 +67,7 @@ export default function PerClassPayMinimumWagePage() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '2rem' }}>
           {[
             'Add up all per-class earnings for the pay period.',
-            'Add up all compensable hours worked — including class time, required setup/cleanup, and required meeting time.',
+            'Add up all compensable hours worked -- including class time, required setup/cleanup, and required meeting time.',
             'Divide total earnings by total hours. This is the effective hourly rate.',
             'Compare the effective hourly rate to the applicable minimum wage (state or federal, whichever is higher).',
             'If the effective rate is below minimum wage, calculate the shortfall (minimum wage × hours worked − per-class earnings) and add it to the paycheck as a minimum wage supplement.',
@@ -95,9 +96,9 @@ export default function PerClassPayMinimumWagePage() {
                 ['Total compensable hours', '7.5 hours'],
                 ['Effective hourly rate', '$150 ÷ 7.5 hours = $20.00/hr'],
                 ['State minimum wage (California example)', '$16.50/hr'],
-                ['Shortfall?', 'No — $20.00 > $16.50 ✓'],
+                ['Shortfall?', 'No -- $20.00 > $16.50 ✓'],
                 ['Revised example: 6 classes × $18/class = $108', ''],
-                ['Effective rate: $108 ÷ 7.5 hours = $14.40/hr', 'Below $16.50 — shortfall: $1.65 × 7.5 = $12.38 owed'],
+                ['Effective rate: $108 ÷ 7.5 hours = $14.40/hr', 'Below $16.50 -- shortfall: $1.65 × 7.5 = $12.38 owed'],
               ].map(([label, val], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '10px 14px', fontWeight: i === 7 ? 700 : 400 }}>{label}</td>
@@ -110,12 +111,12 @@ export default function PerClassPayMinimumWagePage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Time That Must Be Tracked and Paid</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
-          For the calculation above to work, studios must track all compensable time — not just class time. The most commonly missed time categories:
+          For the calculation above to work, studios must track all compensable time -- not just class time. The most commonly missed time categories:
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '2.5rem' }}>
           {[
-            'Mandatory pre-class setup — equipment arrangement, microphone testing, class planning',
-            'Post-class cleanup — resetting equipment, sanitizing, returning items to storage',
+            'Mandatory pre-class setup -- equipment arrangement, microphone testing, class planning',
+            'Post-class cleanup -- resetting equipment, sanitizing, returning items to storage',
             'Required check-in time before the first class of the day',
             'Mandatory all-staff meetings or training sessions',
             'Time spent waiting between back-to-back classes if the studio requires the instructor to remain on premises',
@@ -149,9 +150,9 @@ export default function PerClassPayMinimumWagePage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/services/managed-payroll/fitness">Managed Payroll for Fitness Studios</Link> — full service details</li>
-            <li><Link href="/blog/payroll/fitness/fitness-trainer-w2-vs-1099">Fitness Trainer W-2 vs. 1099 Classification</Link> — IRS rules</li>
-            <li><Link href="/blog/payroll/fitness/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Fitness Studios</Link> — cost comparison</li>
+            <li><Link href="/services/managed-payroll/fitness">Managed Payroll for Fitness Studios</Link> -- full service details</li>
+            <li><Link href="/blog/payroll/fitness/fitness-trainer-w2-vs-1099">Fitness Trainer W-2 vs. 1099 Classification</Link> -- IRS rules</li>
+            <li><Link href="/blog/payroll/fitness/managed-payroll-vs-in-house">Managed Payroll vs. In-House for Fitness Studios</Link> -- cost comparison</li>
           </ul>
         </div>
 

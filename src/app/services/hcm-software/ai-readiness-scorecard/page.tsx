@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import AIReadinessScorecard from '@/components/AIReadinessScorecard';
+import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'AI HR Readiness Scorecard | Free Assessment | BEG',
@@ -35,6 +36,24 @@ export default function AIReadinessScorecardPage() {
       </section>
 
       <AIReadinessScorecard />
+
+      {/* OPTIONAL EMAIL OPT-IN */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '760px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Prefer It In Your Inbox?</p>
+            <h2>Want your score and action plan emailed to you?</h2>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
+            <LeadCaptureForm
+              toolName="AI HR Readiness Results"
+              toolDescription="Enter your details and we will send your readiness score with a tailored action plan for adopting AI in your HR."
+              assetLabel="Email me my results"
+              calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
+            />
+          </div>
+        </div>
+      </section>
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '780px' }}>

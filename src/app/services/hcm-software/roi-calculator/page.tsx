@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import HCMROICalculator from '@/components/HCMROICalculator';
+import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'iSolved HCM ROI Calculator | See Your Savings | BEG',
@@ -39,6 +40,24 @@ export default function HCMROICalculatorPage() {
 
       {/* CALCULATOR + SUPPORTING SECTIONS */}
       <HCMROICalculator />
+
+      {/* OPTIONAL EMAIL OPT-IN */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '760px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Prefer It In Your Inbox?</p>
+            <h2>Want your ROI summary emailed to you?</h2>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
+            <LeadCaptureForm
+              toolName="HCM ROI Summary"
+              toolDescription="Enter your details and we will send your iSolved HCM ROI summary plus a tailored breakdown for your company."
+              assetLabel="Email me my ROI summary"
+              calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
+            />
+          </div>
+        </div>
+      </section>
 
       {/* SCARCITY CTA */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>

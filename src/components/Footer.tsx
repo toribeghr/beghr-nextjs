@@ -76,6 +76,17 @@ export default function Footer() {
             <Link href="/services/hcm-software/professional-services" className="footer-link">Professional Services</Link>
             <Link href="/services/hcm-software/staffing-agency" className="footer-link">Staffing Agencies</Link>
             <Link href="/services/hcm-software/transportation" className="footer-link">Transportation</Link>
+            <Link href="/services/hcm-software/auto-dealership" className="footer-link">Auto Dealerships</Link>
+            <Link href="/services/hcm-software/senior-care" className="footer-link">Senior Care</Link>
+            <Link href="/services/hcm-software/home-health" className="footer-link">Home Health</Link>
+            <Link href="/services/hcm-software/childcare" className="footer-link">Childcare</Link>
+            <Link href="/services/hcm-software/property-management" className="footer-link">Property Management</Link>
+            <Link href="/services/hcm-software/franchise" className="footer-link">Franchise</Link>
+            <Link href="/services/hcm-software/fitness" className="footer-link">Fitness and Gyms</Link>
+            <Link href="/services/hcm-software/salon-spa" className="footer-link">Salon and Spa</Link>
+            <Link href="/services/hcm-software/cannabis" className="footer-link">Cannabis</Link>
+            <Link href="/services/hcm-software/government-contractor" className="footer-link">Government Contractors</Link>
+            <Link href="/services/hcm-software/education" className="footer-link">Education</Link>
             <Link href="/services/hcm-software/ai-connector" className="footer-link">Connector for Claude</Link>
             <Link href="/services/hcm-software/roi-calculator" className="footer-link">ROI Calculator</Link>
           </div>

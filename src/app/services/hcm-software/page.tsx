@@ -418,6 +418,17 @@ export default function HCMSoftwarePage() {
               <h3>Transportation</h3>
               <p>Driver pay models, per-diem handling, and multi-state tax.</p>
             </Link>
+            <Link href="/services/hcm-software/auto-dealership" className="card-link reveal"><span className="tag">Auto Dealership</span><h3>Auto Dealerships</h3><p>Commission and spiff pay across sales, service, and parts.</p></Link>
+            <Link href="/services/hcm-software/senior-care" className="card-link reveal"><span className="tag">Senior Care</span><h3>Senior Care</h3><p>24/7 shifts, differentials, and credential tracking.</p></Link>
+            <Link href="/services/hcm-software/home-health" className="card-link reveal"><span className="tag">Home Health</span><h3>Home Health</h3><p>Visit-based pay, EVV, travel time, and mileage.</p></Link>
+            <Link href="/services/hcm-software/childcare" className="card-link reveal"><span className="tag">Childcare</span><h3>Childcare</h3><p>Hourly staff, ratio compliance, and multi-center payroll.</p></Link>
+            <Link href="/services/hcm-software/property-management" className="card-link reveal"><span className="tag">Property Mgmt</span><h3>Property Management</h3><p>Multi-property staff, on-site managers, and leasing bonuses.</p></Link>
+            <Link href="/services/hcm-software/franchise" className="card-link reveal"><span className="tag">Franchise</span><h3>Franchise</h3><p>Multi-unit operations with location-specific wage rules.</p></Link>
+            <Link href="/services/hcm-software/fitness" className="card-link reveal"><span className="tag">Fitness</span><h3>Fitness and Gyms</h3><p>Per-class and commission trainer pay across studios.</p></Link>
+            <Link href="/services/hcm-software/salon-spa" className="card-link reveal"><span className="tag">Salon and Spa</span><h3>Salon and Spa</h3><p>Commission, booth rent, and tip handling.</p></Link>
+            <Link href="/services/hcm-software/cannabis" className="card-link reveal"><span className="tag">Cannabis</span><h3>Cannabis</h3><p>280E complexity, compliance, and retail plus cultivation roles.</p></Link>
+            <Link href="/services/hcm-software/government-contractor" className="card-link reveal"><span className="tag">Gov Contractor</span><h3>Government Contractors</h3><p>SCA and prevailing-wage compliance and certified payroll.</p></Link>
+            <Link href="/services/hcm-software/education" className="card-link reveal"><span className="tag">Education</span><h3>Education</h3><p>School-year cycles, substitute pay, and multiple schedules.</p></Link>
           </div>
         </div>
       </section>

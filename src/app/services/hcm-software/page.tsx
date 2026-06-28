@@ -255,7 +255,7 @@ export default function HCMSoftwarePage() {
             <p className="eyebrow">iSolved Connector for Claude</p>
             <h2>The only HCM platform that does not just answer HR questions. It does the work.</h2>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginTop: '2.5rem' }} className="reveal">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '2rem', marginTop: '2.5rem' }} className="reveal">
             <div>
               <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.75rem', color: '#000000' }}>What most HCM AI does</h3>
               <p style={{ fontSize: '0.95rem', color: '#444444', lineHeight: '1.7' }}>

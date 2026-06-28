@@ -75,7 +75,7 @@ export default function AIConnectorPage() {
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>Bottom Line Up Front</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
               <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>What makes iSolved different:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
@@ -122,7 +122,7 @@ export default function AIConnectorPage() {
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#ECAC60', marginBottom: '1.5rem', textAlign: 'center' }}>
             Chatbots answer questions. iSolved completes the task.
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#161616', border: '1px solid #333', padding: '1.5rem', borderRadius: '8px' }}>
               <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.75rem', color: '#cccccc' }}>A typical HR chatbot</strong>
               <p style={{ margin: 0, color: '#aaaaaa', lineHeight: '1.7' }}>

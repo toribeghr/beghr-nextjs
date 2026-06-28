@@ -72,8 +72,8 @@ export default function Page() {
           <li style={{ marginBottom: '0.5rem' }}>Pennsylvania SUTA registration and payments</li>
           <li style={{ marginBottom: '0.5rem' }}>Pennsylvania new hire reporting within the required timeframe</li>
           <li style={{ marginBottom: '0.5rem' }}>Federal tax deposits and quarterly/annual IRS filings</li>
-          <li style={{ marginBottom: '0.5rem' }}>Year-end W-2 production for all ${stateName} employees</li>
-          <li style={{ marginBottom: '0.5rem' }}>Compliance monitoring for ${stateName} payroll law changes</li>
+          <li style={{ marginBottom: '0.5rem' }}>Year-end W-2 production for all Pennsylvania employees</li>
+          <li style={{ marginBottom: '0.5rem' }}>Compliance monitoring for Pennsylvania payroll law changes</li>
         </ul>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Managed Payroll Cost for Pennsylvania Businesses</h2>

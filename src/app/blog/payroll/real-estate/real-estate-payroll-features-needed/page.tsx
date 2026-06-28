@@ -2,17 +2,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Real Estate Payroll: Must-Have Features | BEG',
-  description: 'Managed payroll for real estate. Payroll Features Every {label} Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for real estate. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/real-estate/real-estate-payroll-features-needed' },
   openGraph: {
     title: 'Real Estate Payroll: Must-Have Features | BEG',
-    description: 'Managed payroll for real estate. Payroll Features Every {label} Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+    description: 'Managed payroll for real estate. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
     url: 'https://beghr.com/blog/payroll/real-estate/real-estate-payroll-features-needed',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Real Estate Payroll: Must-Have Features | BEG', description: 'Managed payroll for real estate. Payroll Features Every {label} Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Real Estate Payroll: Must-Have Features | BEG', description: 'Managed payroll for real estate. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -42,7 +42,7 @@ export default function Page() {
           <div className="hero-split">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · Payroll Management · Real Estate</p>
-              <h1>Real Estate Agencies: Payroll Features Every {label} Business Needs (2026)</h1>
+              <h1>Real Estate Agencies: Payroll Features Every Business Needs (2026)</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 28, 2026</span>
@@ -135,14 +135,14 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Real Estate Agencies: Payroll Features Every {label} Business Needs (2026)","description":"Managed payroll for real estate. Payroll Features Every {label} Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"url":"https://beghr.com/blog/payroll/real-estate/real-estate-payroll-features-needed","mainEntityOfPage":{"@type":"WebPage","@id":"https://beghr.com/blog/payroll/real-estate/real-estate-payroll-features-needed"}}`,
+          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Real Estate Agencies: Payroll Features Every Business Needs (2026)","description":"Managed payroll for real estate. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"url":"https://beghr.com/blog/payroll/real-estate/real-estate-payroll-features-needed","mainEntityOfPage":{"@type":"WebPage","@id":"https://beghr.com/blog/payroll/real-estate/real-estate-payroll-features-needed"}}`,
         }}
       />
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Real Estate Agencies: Payroll Features Every {label} Business Needs (2026)","item":"https://beghr.com/blog/payroll/real-estate/real-estate-payroll-features-needed"}]}`,
+          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Real Estate Agencies: Payroll Features Every Business Needs (2026)","item":"https://beghr.com/blog/payroll/real-estate/real-estate-payroll-features-needed"}]}`,
         }}
       />
     </article>

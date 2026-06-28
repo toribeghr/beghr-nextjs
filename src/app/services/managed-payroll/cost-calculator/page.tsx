@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://beghr.com/services/managed-payroll/cost-calculator' },
   openGraph: {
     title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
-    description: 'Calculate what you\',
+    description: 'Calculate what you\'re paying for payroll now vs. BEG at $25\u2013$45 PEPM. See your exact annual savings in seconds.',
     url: 'https://beghr.com/services/managed-payroll/cost-calculator',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG', description: 'Calculate what you\', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG', description: 'Calculate what you\'re paying for payroll now vs. BEG at $25\u2013$45 PEPM. See your exact annual savings in seconds.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

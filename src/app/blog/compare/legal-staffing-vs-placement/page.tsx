@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Legal Staffing vs Placement | The Real Difference | BEG's the Difference? (2026)',
+  title: "Legal Staffing vs Attorney Placement | Real Difference | BEG",
   description: 'Legal staffing fills temporary gaps. Attorney placement finds permanent hires. Side-by-side breakdown of cost, speed, and fill rate for law firms.',
   alternates: { canonical: 'https://beghr.com/blog/compare/legal-staffing-vs-placement' },
   openGraph: {

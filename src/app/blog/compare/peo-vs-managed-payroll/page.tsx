@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG's the Difference and Which Do You Need? (2026)",
+  title: "PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG",
   description: 'PEOs co-employ your staff and control your HR. BEG managed payroll handles payroll without co-employment. Compare cost, control, and compliance risk.',
   alternates: { canonical: 'https://beghr.com/blog/compare/peo-vs-managed-payroll' },
   openGraph: {
-    title: 'PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG's the Difference and Which Do You Need? (2026)',
+    title: 'PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG',
     description: 'PEOs co-employ your staff and control your HR. Managed payroll handles payroll operations without touching your employment relationships. Full compariso...',
     url: 'https://beghr.com/blog/compare/peo-vs-managed-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG's the Difference and Which Do You Need? (2026)', description: 'PEOs co-employ your staff and control your HR. Managed payroll handles payroll operations without touching your employment relationships. Full compariso...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG', description: 'PEOs co-employ your staff and control your HR. Managed payroll handles payroll operations without touching your employment relationships. Full compariso...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

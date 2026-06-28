@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Cannabis Payroll & Banking | How to Pay When Banks Won\'t | BEG't Help | BEG',
-  description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees — from cannabis-friendly',
+  title: "Cannabis Payroll & Banking | Pay Employees When Banks Won't | BEG",
+  description: 'Cannabis payroll banking options: cannabis-friendly banks, payroll processors, and cash compliance when traditional banks won\'t open accounts.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-banking' },
   openGraph: {
     title: 'Cannabis Payroll & Banking | How to Pay When Banks Won\'t | BEG',

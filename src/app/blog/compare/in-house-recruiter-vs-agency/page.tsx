@@ -42,7 +42,16 @@ export default function InHouseRecruiterVsAgencyPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>BOTTOM LINE</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>An in-house recruiter pays off at steady, high hiring volume; the fixed salary is hard to justify for occasional senior roles.</li>
+            <li>An agency gives you reach and speed for specific searches without adding headcount.</li>
+            <li>BEG fills permanent roles in 23-35 days at roughly 50% less than contingency, with a 45-day guarantee and no fixed overhead.</li>
+          </ul>
+        </aside>
+
+                <p>
           When a key role has been open for a month, the cost of the vacancy starts to outweigh the cost of the fix, and leaders reach for one of two levers: build an in-house recruiting function or hand the search to an outside firm. Both are valid. They are also suited to very different situations, and choosing the wrong one is how you end up with an open role and a fixed cost.
         </p>
         <p>

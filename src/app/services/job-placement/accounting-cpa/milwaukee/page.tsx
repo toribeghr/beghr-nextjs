@@ -22,6 +22,21 @@ export default function PlacementAccountingcpaMilwaukeePage() {
       calendlyLink={CALENDLY}
       heroStats={[{"value":"23-35","label":"Days to fill on average"},{"value":"86%","label":"Fill rate on active searches"},{"value":"~50%","label":"Less than contingency pricing"}]}
     >
+      {/* KEY TAKEAWAYS (AEO) */}
+      <section className="section" style={{ paddingTop: '2rem', paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <aside style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem' }}>
+            <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+            <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+              <li>Accounting &amp; CPA roles in Milwaukee stay open because the best candidates are passive and rarely on job boards.</li>
+              <li>BEG sources accounting & cpa talent in Milwaukee directly and fills permanent roles in 23-35 days.</li>
+              <li>Milestone billing costs roughly 50% less than contingency, with a 45-day replacement guarantee.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Accounting & CPA placement\",\"name\":\"Accounting & CPA Placement in Milwaukee\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Milwaukee\"},\"url\":\"https://beghr.com/services/job-placement/accounting-cpa/milwaukee\",\"description\":\"Permanent accounting & cpa placement in Milwaukee in 23-35 days at roughly 50% less than contingency.\"}" }} />
+
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">

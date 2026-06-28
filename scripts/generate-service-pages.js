@@ -492,6 +492,7 @@ export default function Placement${cap(slug.replace(/[^a-zA-Z0-9]/g, ''))}Page()
       heroStats={${JSON.stringify(data.stats)}}
     >
 
+${ktHub(data)}
       {/* PAIN */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -1110,6 +1111,56 @@ function indName(data) {
 
 function esc(s) { return String(s).replace(/'/g, "\\'"); }
 
+// ── AEO build standard: Key Takeaways (TL;DR) block + Service schema ──────────
+function ktWrap(b1, b2, b3, schema) {
+  const json = JSON.stringify(schema);
+  return `      {/* KEY TAKEAWAYS (AEO) */}
+      <section className="section" style={{ paddingTop: '2rem', paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <aside style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem' }}>
+            <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+            <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+              <li>${b1}</li>
+              <li>${b2}</li>
+              <li>${b3}</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: ${JSON.stringify(json)} }} />
+`;
+}
+function svc(extra) {
+  return Object.assign({ "@context": "https://schema.org", "@type": "Service", provider: { "@type": "Organization", name: "Business Executive Group", url: "https://beghr.com" } }, extra);
+}
+function ktHub(data) {
+  const nm = indName(data), j = nm.replace(/&/g, '&amp;'), lo = nm.toLowerCase();
+  return ktWrap(
+    j + ' roles stay open because the strongest candidates are employed, passive, and rarely on job boards.',
+    'BEG sources them directly and fills permanent roles in 23-35 days, with an 86% fill rate.',
+    'Milestone billing costs roughly 50% less than contingency, with a 45-day replacement guarantee.',
+    svc({ serviceType: nm + ' placement', name: nm + ' Placement', areaServed: { "@type": "Country", name: "United States" }, url: data.canonical, description: 'Permanent ' + lo + ' placement in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.' })
+  );
+}
+function ktCity(name, metro, url) {
+  const j = name.replace(/&/g, '&amp;'), lo = name.toLowerCase();
+  return ktWrap(
+    j + ' roles in ' + metro.name + ' stay open because the best candidates are passive and rarely on job boards.',
+    'BEG sources ' + lo + ' talent in ' + metro.name + ' directly and fills permanent roles in 23-35 days.',
+    'Milestone billing costs roughly 50% less than contingency, with a 45-day replacement guarantee.',
+    svc({ serviceType: name + ' placement', name: name + ' Placement in ' + metro.name, areaServed: { "@type": "City", name: metro.name }, url: url, description: 'Permanent ' + lo + ' placement in ' + metro.name + ' in 23-35 days at roughly 50% less than contingency.' })
+  );
+}
+function ktRole(name, role, url) {
+  const rn = role.name, j = rn.replace(/&/g, '&amp;'), lo = rn.toLowerCase();
+  return ktWrap(
+    j + ' searches stall because the best candidates are passive and field multiple offers.',
+    'BEG sources them directly and places permanent hires in 23-35 days, with an 86% fill rate.',
+    'Milestone billing costs roughly 50% less than contingency, with a 45-day replacement guarantee.',
+    svc({ serviceType: rn + ' placement', name: rn + ' Placement', areaServed: { "@type": "Country", name: "United States" }, url: url, description: 'Permanent ' + lo + ' placement in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.' })
+  );
+}
+
 function genCityPage(industrySlug, data, metro) {
   const name = indName(data);
   const url = `https://beghr.com/services/job-placement/${industrySlug}/${metro.slug}`;
@@ -1145,6 +1196,7 @@ export default function Placement${cap(industrySlug.replace(/[^a-zA-Z0-9]/g, '')
       calendlyLink={CALENDLY}
       heroStats={${JSON.stringify(data.stats)}}
     >
+${ktCity(name, metro, url)}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
@@ -1243,6 +1295,7 @@ export default function Placement${cap(industrySlug.replace(/[^a-zA-Z0-9]/g, '')
       calendlyLink={CALENDLY}
       heroStats={${JSON.stringify(data.stats)}}
     >
+${ktRole(name, role, url)}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">

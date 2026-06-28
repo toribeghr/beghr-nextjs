@@ -42,7 +42,16 @@ export default function DirectHireVsContingencyPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>BOTTOM LINE</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Direct hire is the role type (a permanent employee). Contingency is the fee model (a recruiter paid 20-25% of salary only when a hire starts).</li>
+            <li>Both can produce a permanent hire, but the contingency structure rewards candidate volume over speed and fit.</li>
+            <li>BEG uses a milestone model: permanent hires in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           When a role has been open for a month, the question on the table is rarely &quot;direct hire or contingency.&quot; It is &quot;why is this taking so long, and what is it costing us.&quot; But understanding the terms matters, because the wrong pairing of role type and payment model is one of the most common reasons a search stalls.
         </p>
         <p>

@@ -42,7 +42,16 @@ export default function HowMuchDoRecruitersChargePage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>BOTTOM LINE</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Contingency recruiters typically charge 20-25% of first-year salary, paid only when a candidate starts.</li>
+            <li>Retained search costs a similar total but is billed in advance, regardless of outcome.</li>
+            <li>BEG milestone billing costs roughly 50% less than contingency, tied to defined search milestones. Use the fee calculator to compare your role.</li>
+          </ul>
+        </aside>
+
+                <p>
           When a role has been open for a month, cost stops being abstract. Every week the seat sits empty is lost output, and the recruiting fee is layered on top of that. So the real question is not just &quot;how much do recruiters charge&quot; but &quot;what am I getting for the fee, and is there a faster, cheaper way to fill this.&quot;
         </p>
         <p>

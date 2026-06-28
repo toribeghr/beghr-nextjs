@@ -40,6 +40,21 @@ export default function PlacementLegalPage() {
       ]}
     >
 
+      {/* KEY TAKEAWAYS (AEO) */}
+      <section className="section" style={{ paddingTop: '2rem', paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <aside style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem' }}>
+            <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+            <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+              <li>Attorney searches stall because the best lateral candidates are passive and rarely on job boards.</li>
+              <li>BEG sources them directly and places attorneys, paralegals, and counsel in 23-35 days, with an 86% fill rate.</li>
+              <li>Milestone billing costs roughly 50% less than contingency firms, with a 45-day replacement guarantee.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Service', serviceType: 'Attorney placement', name: 'Attorney Placement', provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' }, areaServed: { '@type': 'Country', name: 'United States' }, url: 'https://beghr.com/services/job-placement/legal', description: 'Permanent placement of attorneys, paralegals, and counsel in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.' }) }} />
+
       {/* PAIN - NEPQ problem amplification */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

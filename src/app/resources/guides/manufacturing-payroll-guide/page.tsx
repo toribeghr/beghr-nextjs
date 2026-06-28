@@ -105,6 +105,19 @@ export default function ManufacturingPayrollGuidePage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Manufacturing Payroll Guide"
+            toolDescription="Shift work, regular-rate overtime, union contracts, and piece-rate pay -- the full guide in your inbox."
+            assetUrl="/resources/guides/manufacturing-payroll-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+
       {/* KEY TAKEAWAYS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -197,16 +210,6 @@ export default function ManufacturingPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="Manufacturing Payroll Guide"
-            toolDescription="Shift work, regular-rate overtime, union contracts, and piece-rate pay -- the full guide in your inbox."
-            assetUrl="/resources/guides/manufacturing-payroll-guide"
-            assetLabel="Email me the guide"
-          />
         </div>
       </section>
     </>

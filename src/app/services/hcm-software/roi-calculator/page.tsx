@@ -38,10 +38,7 @@ export default function HCMROICalculatorPage() {
         </div>
       </section>
 
-      {/* CALCULATOR + SUPPORTING SECTIONS */}
-      <HCMROICalculator />
-
-      {/* OPTIONAL EMAIL OPT-IN */}
+      {/* EMAIL OPT-IN (under the H1) */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '760px' }}>
           <div className="head center reveal">
@@ -59,6 +56,9 @@ export default function HCMROICalculatorPage() {
           </div>
         </div>
       </section>
+
+      {/* CALCULATOR + SUPPORTING SECTIONS */}
+      <HCMROICalculator />
 
       {/* SCARCITY CTA */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>

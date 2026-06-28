@@ -111,6 +111,19 @@ export default function RestaurantPayrollGuidePage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Restaurant Payroll Guide"
+            toolDescription="Tip credits, the FICA tip credit, tip pooling, and multi-location runs -- the full guide in your inbox."
+            assetUrl="/resources/guides/restaurant-payroll-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+
       {/* KEY TAKEAWAYS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -203,16 +216,6 @@ export default function RestaurantPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="Restaurant Payroll Guide"
-            toolDescription="Tip credits, the FICA tip credit, tip pooling, and multi-location runs -- the full guide in your inbox."
-            assetUrl="/resources/guides/restaurant-payroll-guide"
-            assetLabel="Email me the guide"
-          />
         </div>
       </section>
     </>

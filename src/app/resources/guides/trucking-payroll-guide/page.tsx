@@ -105,6 +105,19 @@ export default function TruckingPayrollGuidePage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Trucking Payroll Guide"
+            toolDescription="Per-mile vs hourly pay, multi-state apportionment, per diem, and owner-operator rules -- the full guide in your inbox."
+            assetUrl="/resources/guides/trucking-payroll-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+
       {/* KEY TAKEAWAYS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -192,16 +205,6 @@ export default function TruckingPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="Trucking Payroll Guide"
-            toolDescription="Per-mile vs hourly pay, multi-state apportionment, per diem, and owner-operator rules -- the full guide in your inbox."
-            assetUrl="/resources/guides/trucking-payroll-guide"
-            assetLabel="Email me the guide"
-          />
         </div>
       </section>
     </>

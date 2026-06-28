@@ -111,6 +111,19 @@ export default function StaffingAgencyPayrollGuidePage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Staffing Agency Payroll Guide"
+            toolDescription="Weekly payroll, W-2 and 1099 splits, and client-billable reporting -- the full guide in your inbox."
+            assetUrl="/resources/guides/staffing-agency-payroll-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+
       {/* KEY TAKEAWAYS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -203,16 +216,6 @@ export default function StaffingAgencyPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="Staffing Agency Payroll Guide"
-            toolDescription="Weekly payroll, W-2 and 1099 splits, and client-billable reporting -- the full guide in your inbox."
-            assetUrl="/resources/guides/staffing-agency-payroll-guide"
-            assetLabel="Email me the guide"
-          />
         </div>
       </section>
     </>

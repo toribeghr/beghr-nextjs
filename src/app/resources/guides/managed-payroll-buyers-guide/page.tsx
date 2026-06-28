@@ -61,11 +61,22 @@ export default function BuyersGuidePage() {
         </div>
       </section>
 
-      {/* GUIDE CONTENT + DOWNLOAD */}
+      {/* LEAD CAPTURE */}
       <section className="section">
-        <div className="container" style={{ maxWidth: '860px' }}>
-          <div className="resource-split">
-            <div>
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Managed Payroll Buyer's Guide"
+            toolDescription="Vendor scorecard, red-flag checklist, and 25 questions to ask any provider -- emailed to you."
+            assetUrl="/resources/guides/managed-payroll-buyers-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+      {/* GUIDE CONTENT */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div>
               <h2 style={{ marginBottom: '0.75rem' }}>What this guide covers</h2>
               <p style={{ color: '#555555', lineHeight: '1.7', marginBottom: '1.5rem' }}>
                 Most employers evaluating managed payroll have the same questions: what does it actually include, how does the pricing work, and how do I know if a provider is legitimate. This guide answers all of it, including what to watch out for when vendors quote you a low base fee that explodes with add-ons.
@@ -119,16 +130,7 @@ export default function BuyersGuidePage() {
               </p>
             </div>
 
-            {/* DOWNLOAD CTA */}
-            <div style={{ position: 'sticky', top: '100px' }}>
-              <PayrollLeadCaptureForm
-                toolName="Managed Payroll Buyer's Guide"
-                toolDescription="Vendor scorecard, red-flag checklist, and 25 questions to ask any provider -- emailed to you."
-                assetUrl="/resources/guides/managed-payroll-buyers-guide"
-                assetLabel="Email me the guide"
-              />
-
-              <div style={{ marginTop: '1.5rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.25rem' }}>
+            <div style={{ marginTop: '2.5rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.25rem', maxWidth: '480px' }}>
                 <strong style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.6rem' }}>Also helpful:</strong>
                 {[
                   { label: 'Year-End Payroll Checklist', href: '/resources/guides/year-end-payroll-checklist' },
@@ -139,8 +141,6 @@ export default function BuyersGuidePage() {
                   <Link key={href} href={href} style={{ display: 'block', fontSize: '0.88rem', color: '#ECAC60', padding: '0.3rem 0', textDecoration: 'underline' }}>{label}</Link>
                 ))}
               </div>
-            </div>
-          </div>
         </div>
       </section>
 

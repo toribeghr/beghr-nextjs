@@ -118,6 +118,19 @@ export default function PayrollTaxCalendarPage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="2026 Payroll Tax Calendar"
+            toolDescription="Every federal and state payroll tax deadline for 2026 in one place -- emailed to you to keep."
+            assetUrl="/resources/payroll-tax-calendar"
+            assetLabel="Email me the calendar"
+          />
+        </div>
+      </section>
+
+
       <PayrollTaxCalendar />
 
       {/* CONTEXT + CONTEXTUAL LINK */}
@@ -132,16 +145,6 @@ export default function PayrollTaxCalendarPage() {
             <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>fully managed payroll service</Link>{' '}
             tracks, files, and deposits every item on this calendar for you, so the deadlines become our job instead of yours.
           </p>
-        </div>
-      </section>
-      <section className="section section--soft">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="2026 Payroll Tax Calendar"
-            toolDescription="Every federal and state payroll tax deadline for 2026 in one place -- emailed to you to keep."
-            assetUrl="/resources/payroll-tax-calendar"
-            assetLabel="Email me the calendar"
-          />
         </div>
       </section>
     </>

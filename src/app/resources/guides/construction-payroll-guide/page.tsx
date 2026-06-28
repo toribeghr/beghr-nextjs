@@ -111,6 +111,19 @@ export default function ConstructionPayrollGuidePage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Construction Payroll Guide"
+            toolDescription="Certified payroll, Davis-Bacon prevailing wage, multi-state crews, and union fringe -- the full guide in your inbox."
+            assetUrl="/resources/guides/construction-payroll-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+
       {/* KEY TAKEAWAYS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -203,16 +216,6 @@ export default function ConstructionPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="Construction Payroll Guide"
-            toolDescription="Certified payroll, Davis-Bacon prevailing wage, multi-state crews, and union fringe -- the full guide in your inbox."
-            assetUrl="/resources/guides/construction-payroll-guide"
-            assetLabel="Email me the guide"
-          />
         </div>
       </section>
     </>

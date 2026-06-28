@@ -3,17 +3,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Healthcare Hiring | BEG Blog',
-  description: 'Clinical talent shortage trends, nurse practitioner hiring, clinical staff recruiting, and healthcare comp insights for leaders who need to fill roles fast.',
+  description: 'Clinical talent shortage trends, nurse practitioner hiring, clinical staff recruiting, and healthcare comp insights for leaders who fill roles fast.',
   alternates: { canonical: 'https://beghr.com/blog/healthcare-hiring' },
   openGraph: {
     title: 'Healthcare Hiring | BEG Blog',
-    description: 'Clinical talent shortage trends, nurse practitioner hiring, clinical staff recruiting, and healthcare comp insights for leaders who need to fill roles fast.',
+    description: 'Clinical talent shortage trends, nurse practitioner hiring, clinical staff recruiting, and healthcare comp insights for leaders who fill roles fast.',
     url: 'https://beghr.com/blog/healthcare-hiring',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Hiring | BEG Blog', description: 'Clinical talent shortage trends, nurse practitioner hiring, clinical staff recruiting, and healthcare comp insights for leaders who need to fill roles fast.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Hiring | BEG Blog', description: 'Clinical talent shortage trends, nurse practitioner hiring, clinical staff recruiting, and healthcare comp insights for leaders who fill roles fast.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const posts = [

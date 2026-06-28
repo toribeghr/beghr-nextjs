@@ -105,6 +105,19 @@ export default function SeniorCarePayrollGuidePage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Senior Care Payroll Guide"
+            toolDescription="24/7 shifts, shift differentials, high turnover, and CNA compliance -- the full guide in your inbox."
+            assetUrl="/resources/guides/senior-care-payroll-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+
       {/* KEY TAKEAWAYS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -192,16 +205,6 @@ export default function SeniorCarePayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="Senior Care Payroll Guide"
-            toolDescription="24/7 shifts, shift differentials, high turnover, and CNA compliance -- the full guide in your inbox."
-            assetUrl="/resources/guides/senior-care-payroll-guide"
-            assetLabel="Email me the guide"
-          />
         </div>
       </section>
     </>

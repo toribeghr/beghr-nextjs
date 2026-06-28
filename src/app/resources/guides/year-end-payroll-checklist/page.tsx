@@ -101,11 +101,22 @@ export default function YearEndChecklistPage() {
         </div>
       </section>
 
-      {/* DOWNLOAD FORM */}
+      {/* LEAD CAPTURE */}
       <section className="section">
-        <div className="container" style={{ maxWidth: '860px' }}>
-          <div className="resource-split">
-            <div>
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="2026 Year-End Payroll Checklist"
+            toolDescription="W-2 deadlines, 941 reconciliation, ACA reporting, and state filings -- the full year-end checklist, emailed to you."
+            assetUrl="/resources/guides/year-end-payroll-checklist"
+            assetLabel="Email me the checklist"
+          />
+        </div>
+      </section>
+
+      {/* WHAT IT COVERS */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div>
               <h2 style={{ marginBottom: '0.5rem' }}>What this checklist covers</h2>
               <p style={{ color: '#555555', lineHeight: '1.7', marginBottom: '1.5rem' }}>
                 Year-end payroll is one of the highest-risk periods for employers. A missed W-2 deadline triggers IRS penalties starting at $60 per form. A 941 reconciliation error means amended returns. This checklist walks your team through every required task from October through January in the order they need to happen.
@@ -131,17 +142,6 @@ export default function YearEndChecklistPage() {
                 If your team is spending more than a few hours on year-end payroll tasks, that is a signal. <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>BEG managed payroll</Link> handles the full year-end process at $25-$45 PEPM, all-inclusive. No separate W-2 fee. No year-end surcharge.
               </p>
             </div>
-
-            {/* DOWNLOAD CTA */}
-            <div style={{ position: 'sticky', top: '100px' }}>
-              <PayrollLeadCaptureForm
-                toolName="2026 Year-End Payroll Checklist"
-                toolDescription="W-2 deadlines, 941 reconciliation, ACA reporting, and state filings -- the full year-end checklist, emailed to you."
-                assetUrl="/resources/guides/year-end-payroll-checklist"
-                assetLabel="Email me the checklist"
-              />
-            </div>
-          </div>
         </div>
       </section>
 

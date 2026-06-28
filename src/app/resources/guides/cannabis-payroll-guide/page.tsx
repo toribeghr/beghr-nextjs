@@ -105,6 +105,19 @@ export default function CannabisPayrollGuidePage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Cannabis Payroll Guide"
+            toolDescription="280E constraints, cash-heavy operations, and heavy compliance scrutiny -- the full guide in your inbox."
+            assetUrl="/resources/guides/cannabis-payroll-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+
       {/* KEY TAKEAWAYS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -192,16 +205,6 @@ export default function CannabisPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="Cannabis Payroll Guide"
-            toolDescription="280E constraints, cash-heavy operations, and heavy compliance scrutiny -- the full guide in your inbox."
-            assetUrl="/resources/guides/cannabis-payroll-guide"
-            assetLabel="Email me the guide"
-          />
         </div>
       </section>
     </>

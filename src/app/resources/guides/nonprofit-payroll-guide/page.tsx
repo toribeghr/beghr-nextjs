@@ -111,6 +111,19 @@ export default function NonprofitPayrollGuidePage() {
         </div>
       </section>
 
+      {/* LEAD CAPTURE */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Nonprofit Payroll Guide"
+            toolDescription="Grant-funded allocation, 403(b) administration, and worker classification -- the full guide in your inbox."
+            assetUrl="/resources/guides/nonprofit-payroll-guide"
+            assetLabel="Email me the guide"
+          />
+        </div>
+      </section>
+
+
       {/* KEY TAKEAWAYS */}
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -203,16 +216,6 @@ export default function NonprofitPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
-          <PayrollLeadCaptureForm
-            toolName="Nonprofit Payroll Guide"
-            toolDescription="Grant-funded allocation, 403(b) administration, and worker classification -- the full guide in your inbox."
-            assetUrl="/resources/guides/nonprofit-payroll-guide"
-            assetLabel="Email me the guide"
-          />
         </div>
       </section>
     </>

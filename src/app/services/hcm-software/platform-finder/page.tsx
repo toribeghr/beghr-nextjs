@@ -35,9 +35,7 @@ export default function PlatformFinderPage() {
         </div>
       </section>
 
-      <HCMPlatformFinder />
-
-      {/* OPTIONAL EMAIL OPT-IN */}
+      {/* EMAIL OPT-IN (under the H1) */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '760px' }}>
           <div className="head center reveal">
@@ -55,6 +53,8 @@ export default function PlatformFinderPage() {
           </div>
         </div>
       </section>
+
+      <HCMPlatformFinder />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '780px' }}>

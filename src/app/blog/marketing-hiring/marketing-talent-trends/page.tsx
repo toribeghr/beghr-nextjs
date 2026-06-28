@@ -61,7 +61,16 @@ export default function MarketingTalentTrendsPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Marketing roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong marketing candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent marketing hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           A marketing leader role that stays open stalls pipeline, brand, and growth all at once. A vacant demand gen or content seat pushes the work onto people who are already stretched, and the programs that drive revenue drift without an owner. In 2026, those roles are harder to fill than ever, not because there are fewer marketers, but because the marketers companies need have a rarer skill mix than the market easily supplies. Understanding what has changed is the first step to hiring through it.
         </p>
 

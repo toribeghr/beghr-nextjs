@@ -61,7 +61,16 @@ export default function CybersecuritySalaryTrendsPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Cybersecurity roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong cybersecurity candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent cybersecurity hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           Compensation is the first lever most teams reach for when a security search stalls. Raise the salary band, add a sign-on bonus, and the offers should start landing. Sometimes that helps. But the security leaders who lean entirely on pay keep losing candidates anyway, because in a talent gap the strongest professionals are weighing far more than the number. Understanding where security comp is heading, and where its limits are, is the difference between a search that closes and one that drags for months.
         </p>
 

@@ -1,25 +1,25 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)',
-  description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See.',
+  title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
+  description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See.',
   alternates: { canonical: 'https://beghr.com/blog/legal-hiring/associate-hiring' },
   openGraph: {
-    title: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)',
-    description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...',
+    title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
+    description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...',
     url: 'https://beghr.com/blog/legal-hiring/associate-hiring',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)', description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)', description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     question: 'What practice areas do you place associates in?',
-    answer: 'We place associates across litigation, corporate, M&A, real estate, intellectual property, family law, labor and employment, and bankruptcy. Our candidate database includes passive laterals with 1–10 years of post-bar experience across these practice areas. Practice-specific sub-niches -- for example, IP prosecution vs. IP litigation, or complex commercial litigation vs. insurance defense -- are within scope.',
+    answer: 'We place associates across litigation, corporate, M&A, real estate, intellectual property, family law, labor and employment, and bankruptcy. Our candidate database includes passive laterals with 1-10 years of post-bar experience across these practice areas. Practice-specific sub-niches -- for example, IP prosecution vs. IP litigation, or complex commercial litigation vs. insurance defense -- are within scope.',
   },
   {
     question: 'How is BEG different from a contingency recruiter?',
@@ -35,11 +35,11 @@ const faqs = [
   },
   {
     question: 'What is the typical timeline from search start to offer acceptance?',
-    answer: 'The typical timeline is 23–35 days from search kickoff to offer acceptance for roles filled within the first search cycle. This assumes a prompt intake call to align on candidate profile, available interview capacity of 4–5 business days from candidate submission, and a decision-ready hiring team. Searches that stall in the interview scheduling or offer approval stages extend the timeline; firms that move quickly consistently close in under 35 days.',
+    answer: 'The typical timeline is 23-35 days from search kickoff to offer acceptance for roles filled within the first search cycle. This assumes a prompt intake call to align on candidate profile, available interview capacity of 4-5 business days from candidate submission, and a decision-ready hiring team. Searches that stall in the interview scheduling or offer approval stages extend the timeline; firms that move quickly consistently close in under 35 days.',
   },
   {
     question: 'Our firm size is under 15 attorneys. Are we a fit?',
-    answer: 'Our target firm size is 11 to 200 attorneys. Firms below 11 attorneys typically have search needs that fall outside our volume threshold and may be better served by a boutique recruiter who specializes in very small firms. Firms in the 11–200 range are the sweet spot: large enough to have a defined role, structured enough to move through the hiring process at pace, and the right size to benefit most from speed-to-fill.',
+    answer: 'Our target firm size is 11 to 200 attorneys. Firms below 11 attorneys typically have search needs that fall outside our volume threshold and may be better served by a boutique recruiter who specializes in very small firms. Firms in the 11-200 range are the sweet spot: large enough to have a defined role, structured enough to move through the hiring process at pace, and the right size to benefit most from speed-to-fill.',
   },
 ];
 
@@ -52,7 +52,7 @@ export default function AssociateHiringPage() {
           <div className="hero-split">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · Legal Hiring &amp; Recruiting</p>
-              <h1>Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)</h1>
+              <h1>Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 25, 2026</span>
@@ -63,15 +63,24 @@ export default function AssociateHiringPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>The average law firm takes 60–90 days to fill an associate role. In that time, your existing attorneys are absorbing the workload, client work is delayed or delegated to less experienced staff, and the best lateral candidates -- who move quickly when they decide to make a change -- have already accepted offers elsewhere.</p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Legal roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong legal candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent legal hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
 
-        <p>The firms filling associate roles in 23–35 days are not posting jobs and waiting. They are running targeted passive lateral searches through networks that reach attorneys who are open to a move but not actively searching -- the population that produces the most qualified, most committed hires.</p>
+                <p>The average law firm takes 60-90 days to fill an associate role. In that time, your existing attorneys are absorbing the workload, client work is delayed or delegated to less experienced staff, and the best lateral candidates -- who move quickly when they decide to make a change -- have already accepted offers elsewhere.</p>
+
+        <p>The firms filling associate roles in 23-35 days are not posting jobs and waiting. They are running targeted passive lateral searches through networks that reach attorneys who are open to a move but not actively searching -- the population that produces the most qualified, most committed hires.</p>
 
         <p>This is the playbook those firms use.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Associate Hiring Is Getting Harder</h2>
 
-        <p>The structural supply problem in the attorney market is now well-documented. Law school enrollment declined roughly 30% between 2010 and 2015 and has not fully recovered. The cohorts that graduated in those lean years are now the 5–10 year associates that mid-size and specialty firms most want to hire -- and there are fewer of them.</p>
+        <p>The structural supply problem in the attorney market is now well-documented. Law school enrollment declined roughly 30% between 2010 and 2015 and has not fully recovered. The cohorts that graduated in those lean years are now the 5-10 year associates that mid-size and specialty firms most want to hire -- and there are fewer of them.</p>
 
         <p>At the same time, the attorneys in that experience band who do exist are largely employed. They are not browsing job boards. They are handling active caseloads and responding to direct outreach from people who contact them with a specific and compelling reason to consider a move.</p>
 
@@ -118,20 +127,20 @@ export default function AssociateHiringPage() {
             <thead>
               <tr style={{ background: '#000', color: '#fff' }}>
                 <th style={{ padding: '0.75rem', textAlign: 'left' }}>Practice Area</th>
-                <th style={{ padding: '0.75rem', textAlign: 'right' }}>2–4 Years PQE</th>
-                <th style={{ padding: '0.75rem', textAlign: 'right' }}>5–8 Years PQE</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>2-4 Years PQE</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>5-8 Years PQE</th>
                 <th style={{ padding: '0.75rem', textAlign: 'left' }}>Market Note</th>
               </tr>
             </thead>
             <tbody>
               {[
-                ['Corporate / M&A', '$135K–$195K', '$185K–$280K', 'Highest demand; lateral moves frequent at 4-yr mark'],
-                ['Intellectual Property (patent)', '$140K–$200K', '$190K–$285K', 'Technical degree premium; supply tighter than litigation'],
-                ['Litigation (complex commercial)', '$120K–$175K', '$165K–$240K', 'Broadest pool; varies widely by market and firm size'],
-                ['Real Estate / Land Use', '$110K–$160K', '$155K–$215K', 'Transaction volume drives demand cycle'],
-                ['Labor &amp; Employment', '$105K–$160K', '$150K–$210K', 'Plaintiff vs. defense comp can diverge significantly'],
-                ['Family Law', '$85K–$130K', '$120K–$175K', 'Most prevalent in boutique and solo-to-small firm market'],
-                ['Bankruptcy / Restructuring', '$130K–$185K', '$175K–$255K', 'Countercyclical; demand rises in economic downturns'],
+                ['Corporate / M&A', '$135K-$195K', '$185K-$280K', 'Highest demand; lateral moves frequent at 4-yr mark'],
+                ['Intellectual Property (patent)', '$140K-$200K', '$190K-$285K', 'Technical degree premium; supply tighter than litigation'],
+                ['Litigation (complex commercial)', '$120K-$175K', '$165K-$240K', 'Broadest pool; varies widely by market and firm size'],
+                ['Real Estate / Land Use', '$110K-$160K', '$155K-$215K', 'Transaction volume drives demand cycle'],
+                ['Labor &amp; Employment', '$105K-$160K', '$150K-$210K', 'Plaintiff vs. defense comp can diverge significantly'],
+                ['Family Law', '$85K-$130K', '$120K-$175K', 'Most prevalent in boutique and solo-to-small firm market'],
+                ['Bankruptcy / Restructuring', '$130K-$185K', '$175K-$255K', 'Countercyclical; demand rises in economic downturns'],
               ].map(([area, early, mid, note], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: '600' }}>{area}</td>
@@ -157,11 +166,11 @@ export default function AssociateHiringPage() {
             </thead>
             <tbody>
               {[
-                ['Fee structure', '20–30% of first-year salary, due at hire', 'Milestone-based; clients pay iSolved directly'],
+                ['Fee structure', '20-30% of first-year salary, due at hire', 'Milestone-based; clients pay iSolved directly'],
                 ['Incentive alignment', 'Paid to close; may push speed over fit', 'Milestone model aligns with quality and placement success'],
-                ['Replacement guarantee', 'Varies; often 60–90 days, limited conditions', '45 days, no conditions; 50% off repeat same-role hire'],
-                ['Fill rate', 'Industry average: ~60–70%', '86%'],
-                ['Time to fill', 'Industry average: 60–90 days', '23–35 days'],
+                ['Replacement guarantee', 'Varies; often 60-90 days, limited conditions', '45 days, no conditions; 50% off repeat same-role hire'],
+                ['Fill rate', 'Industry average: ~60-70%', '86%'],
+                ['Time to fill', 'Industry average: 60-90 days', '23-35 days'],
                 ['Cost vs. contingency', 'Full market rate', 'Roughly 50% less'],
                 ['Staffing agency model', 'Some operate as co-employer', 'NOT a staffing agency -- milestone-based placement only'],
               ].map(([factor, contingency, beg], i) => (
@@ -177,16 +186,16 @@ export default function AssociateHiringPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What BEG's Associate Hiring Process Looks Like</h2>
 
-        <p><strong>Intake (Day 1–2):</strong> We run a structured intake call to align on role requirements -- practice area, seniority, caseload type, compensation range, and any specific experience required. Firms with a defined candidate profile move faster. We will push back on requirements that are materially narrowing the candidate pool without a legitimate reason.</p>
+        <p><strong>Intake (Day 1-2):</strong> We run a structured intake call to align on role requirements -- practice area, seniority, caseload type, compensation range, and any specific experience required. Firms with a defined candidate profile move faster. We will push back on requirements that are materially narrowing the candidate pool without a legitimate reason.</p>
 
-        <p><strong>Sourcing (Days 2–10):</strong> We access our database of passive lateral candidates and run targeted outreach in the specific practice area and market. We are not blasting a job posting. We are contacting practicing attorneys individually with a specific reason the firm and role may be a fit for them.</p>
+        <p><strong>Sourcing (Days 2-10):</strong> We access our database of passive lateral candidates and run targeted outreach in the specific practice area and market. We are not blasting a job posting. We are contacting practicing attorneys individually with a specific reason the firm and role may be a fit for them.</p>
 
-        <p><strong>Screening (Days 7–18):</strong> Screened candidates are submitted to the firm with a summary of their experience, current situation, and fit rationale. We do not submit candidates we would not personally recommend. You receive a small number of well-qualified candidates -- not a stack of resumes to sift through.</p>
+        <p><strong>Screening (Days 7-18):</strong> Screened candidates are submitted to the firm with a summary of their experience, current situation, and fit rationale. We do not submit candidates we would not personally recommend. You receive a small number of well-qualified candidates -- not a stack of resumes to sift through.</p>
 
-        <p><strong>Interviews and offer (Days 15–30):</strong> Firms that move quickly at the interview stage consistently close in under 35 days. We support the offer stage and communicate with the candidate through the resignation and start process to reduce counter-offer risk and early attrition.</p>
+        <p><strong>Interviews and offer (Days 15-30):</strong> Firms that move quickly at the interview stage consistently close in under 35 days. We support the offer stage and communicate with the candidate through the resignation and start process to reduce counter-offer risk and early attrition.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
-          <h3 style={{ color: '#000000', margin: 0 }}>Fill Associate Roles in 23–35 Days.</h3>
+          <h3 style={{ color: '#000000', margin: 0 }}>Fill Associate Roles in 23-35 Days.</h3>
           <p style={{ marginBottom: '1.5rem' }}>86% fill rate. 45-day replacement guarantee. Roughly 50% less than contingency. Tell us the role -- we will tell you what our pipeline looks like in that practice area right now.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
@@ -219,7 +228,7 @@ export default function AssociateHiringPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads legal placement at Business Executive Group. BEG places associates, counsel, and senior attorneys at law firms with 11–200 attorneys through iSolved Job Placement Services -- a milestone-based model with an 86% fill rate, 23–35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0 }}>Anthony leads legal placement at Business Executive Group. BEG places associates, counsel, and senior attorneys at law firms with 11-200 attorneys through iSolved Job Placement Services -- a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
       </section>
 
@@ -244,8 +253,8 @@ export default function AssociateHiringPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)',
-            description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee.',
+            headline: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
+            description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

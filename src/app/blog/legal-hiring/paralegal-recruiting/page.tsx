@@ -64,7 +64,16 @@ export default function ParalegalRecruitingPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
 
-        <p>The wrong paralegal costs more than the right one costs to hire. When a paralegal misses a filing deadline, fails to catch a statute of limitations issue, or produces discovery that requires an attorney to re-do rather than review, the cost is measured in attorney time spent correcting problems, not just the paralegal's salary. Attorneys billing at $350 to $500 per hour who spend 6 to 10 hours per week supervising and correcting weak paralegal work are spending $100,000 to $260,000 per year in billable time on a problem that a well-matched hire would have eliminated.</p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Legal roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong legal candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent legal hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>The wrong paralegal costs more than the right one costs to hire. When a paralegal misses a filing deadline, fails to catch a statute of limitations issue, or produces discovery that requires an attorney to re-do rather than review, the cost is measured in attorney time spent correcting problems, not just the paralegal's salary. Attorneys billing at $350 to $500 per hour who spend 6 to 10 hours per week supervising and correcting weak paralegal work are spending $100,000 to $260,000 per year in billable time on a problem that a well-matched hire would have eliminated.</p>
 
         <p>Law firms typically underestimate how practice-area-specific paralegal skill is. A litigation paralegal from a personal injury firm is not equipped to support an IP prosecution practice. A corporate transactional paralegal with strong M&amp;A experience does not know real estate closing procedures. The knowledge base required to be genuinely useful in a practice area takes years to develop, and it does not transfer automatically when someone changes firms or practice areas. Hiring for fit with your specific practice area is not a preference; it is a functional requirement for the paralegal to be productive without a long ramp-up period your team does not have capacity to provide.</p>
 
@@ -84,12 +93,12 @@ export default function ParalegalRecruitingPage() {
             </thead>
             <tbody>
               {[
-                ['Attorney supervision time (6–10 hrs/week at $350–$500/hr)', '$100,000–$260,000/yr'],
+                ['Attorney supervision time (6-10 hrs/week at $350-$500/hr)', '$100,000-$260,000/yr'],
                 ['Malpractice exposure from missed deadlines (potential, not insured average)', 'Unlimited'],
                 ['Client dissatisfaction and relationship damage from slow or poor work product', 'Unquantifiable'],
-                ['Recruiting cost to replace', '$8,000–$15,000'],
-                ['Productivity gap during search and ramp-up (3–4 months typical)', '$18,000–$35,000'],
-                ['Total visible + attorney time cost', '$126,000–$310,000+'],
+                ['Recruiting cost to replace', '$8,000-$15,000'],
+                ['Productivity gap during search and ramp-up (3-4 months typical)', '$18,000-$35,000'],
+                ['Total visible + attorney time cost', '$126,000-$310,000+'],
               ].map(([cat, impact], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 5 ? '700' : 'normal' }}>{cat}</td>
@@ -114,14 +123,14 @@ export default function ParalegalRecruitingPage() {
             </thead>
             <tbody>
               {[
-                ['Litigation', '$50,000–$80,000'],
-                ['Real Estate / Closing', '$55,000–$90,000'],
-                ['Corporate / M&A', '$60,000–$95,000'],
-                ['IP / Patent Prosecution', '$65,000–$100,000'],
-                ['Bankruptcy', '$50,000–$75,000'],
-                ['Employment Law', '$48,000–$75,000'],
-                ['Criminal Defense', '$40,000–$65,000'],
-                ['Estate Planning / Probate', '$45,000–$72,000'],
+                ['Litigation', '$50,000-$80,000'],
+                ['Real Estate / Closing', '$55,000-$90,000'],
+                ['Corporate / M&A', '$60,000-$95,000'],
+                ['IP / Patent Prosecution', '$65,000-$100,000'],
+                ['Bankruptcy', '$50,000-$75,000'],
+                ['Employment Law', '$48,000-$75,000'],
+                ['Criminal Defense', '$40,000-$65,000'],
+                ['Estate Planning / Probate', '$45,000-$72,000'],
               ].map(([area, comp], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{area}</td>
@@ -174,9 +183,9 @@ export default function ParalegalRecruitingPage() {
             </thead>
             <tbody>
               {[
-                ['Solo or 2–3 attorney firm', '1 paralegal covering all support functions', 'Referral or BEG placement, volume too low to justify job board screening effort'],
-                ['4–10 attorney firm', '1–2 paralegals, likely practice-area-specific', 'Direct outreach to experienced laterals; BEG placement to save screening time'],
-                ['10–30 attorney firm', 'Paralegal team by practice group', 'Structured search with practice area filter; BEG or specialized legal recruiter'],
+                ['Solo or 2-3 attorney firm', '1 paralegal covering all support functions', 'Referral or BEG placement, volume too low to justify job board screening effort'],
+                ['4-10 attorney firm', '1-2 paralegals, likely practice-area-specific', 'Direct outreach to experienced laterals; BEG placement to save screening time'],
+                ['10-30 attorney firm', 'Paralegal team by practice group', 'Structured search with practice area filter; BEG or specialized legal recruiter'],
                 ['30+ attorney firm', 'Dedicated paralegal coordinator or manager', 'Combination of internal referrals, paralegal association postings, and BEG for specialist roles'],
                 ['High-volume practice (litigation, PI, real estate)', 'Higher paralegal-to-attorney ratio', 'Ongoing pipeline via BEG; do not wait for an open role to start the conversation'],
               ].map(([size, approach, method], i) => (
@@ -191,7 +200,7 @@ export default function ParalegalRecruitingPage() {
         </div>
 
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
-          <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Find a Practice-Area-Matched Paralegal in 23–35 Days</p>
+          <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Find a Practice-Area-Matched Paralegal in 23-35 Days</p>
           <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>BEG places litigation, real estate, corporate, IP, and bankruptcy paralegals with an 86% fill rate, at roughly 50% less than contingency search firms. We reach candidates who are not on job boards.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.85rem 2rem', borderRadius: '6px', fontWeight: '700', fontSize: '1rem', textDecoration: 'none' }}>
             Book a Free Discovery Call

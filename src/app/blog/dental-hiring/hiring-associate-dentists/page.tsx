@@ -61,7 +61,16 @@ export default function HiringAssociateDentistsPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Dental roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong dental candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent dental hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           The associate dentist is how a busy practice adds clinical capacity without the owner working more chairside hours. When the role sits empty, the work does not stop, it just lands on you and your schedule, and patients feel the strain through longer waits. That pressure is exactly why so many associate hires are rushed and regretted. The goal is to move fast without lowering the bar, and that is entirely possible with the right approach.
         </p>
 

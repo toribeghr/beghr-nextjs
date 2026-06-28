@@ -61,7 +61,16 @@ export default function HiringACisoPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Cybersecurity roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong cybersecurity candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent cybersecurity hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           The CISO sits at the intersection of technical depth and business judgment. They translate risk into terms the board can act on, build and retain a security team, own the compliance program, and lead the response when an incident hits. When that seat is empty or filled by the wrong person, the exposure is measured in risk, not just in workload. That is exactly why these hires are so often rushed under pressure and regretted. The goal is to move quickly without lowering the bar, and with the right approach that is achievable.
         </p>
 

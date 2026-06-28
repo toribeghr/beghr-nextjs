@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'At what point should a company hire in-house counsel instead of using outside firms?',
-    answer: 'The clearest trigger is annual outside legal spend. When you are spending $300,000 or more per year on outside counsel, the economics strongly favor hiring a General Counsel or senior corporate attorney at $200,000–$350,000 total compensation. Below $150,000 in annual legal spend, outside counsel typically remains more cost-effective. In the $150,000–$300,000 range, a part-time GC or fractional arrangement may bridge the gap. Beyond spend, recurring needs, contracts reviewed weekly, regulatory filings on a cycle, ongoing employment matters, are signals that in-house counsel pays for itself in responsiveness and institutional knowledge alone.',
+    answer: 'The clearest trigger is annual outside legal spend. When you are spending $300,000 or more per year on outside counsel, the economics strongly favor hiring a General Counsel or senior corporate attorney at $200,000-$350,000 total compensation. Below $150,000 in annual legal spend, outside counsel typically remains more cost-effective. In the $150,000-$300,000 range, a part-time GC or fractional arrangement may bridge the gap. Beyond spend, recurring needs, contracts reviewed weekly, regulatory filings on a cycle, ongoing employment matters, are signals that in-house counsel pays for itself in responsiveness and institutional knowledge alone.',
   },
   {
     question: 'What is the difference between a General Counsel and a Corporate Counsel role?',
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'What is the market compensation for a General Counsel in 2026?',
-    answer: 'GC compensation varies significantly by company stage, revenue, and industry. At a pre-IPO startup, base salary ranges from $250,000 to $400,000 with equity making up the majority of total compensation. At an established mid-market private company ($50M–$300M revenue), GC base salary typically runs $220,000–$350,000 with bonus of 15 to 25 percent. At a public company, total cash compensation for a GC runs $350,000–$600,000+ depending on market cap and scope. Any GC search that opens with a compensation band below market will attract candidates who could not clear those rates elsewhere, not the profile most companies are actually looking for.',
+    answer: 'GC compensation varies significantly by company stage, revenue, and industry. At a pre-IPO startup, base salary ranges from $250,000 to $400,000 with equity making up the majority of total compensation. At an established mid-market private company ($50M-$300M revenue), GC base salary typically runs $220,000-$350,000 with bonus of 15 to 25 percent. At a public company, total cash compensation for a GC runs $350,000-$600,000+ depending on market cap and scope. Any GC search that opens with a compensation band below market will attract candidates who could not clear those rates elsewhere, not the profile most companies are actually looking for.',
   },
   {
     question: 'How does BEG find in-house counsel candidates, and how fast can you place?',
@@ -64,7 +64,16 @@ export default function InHouseCounselPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
 
-        <p>At some point in a company's growth, the cost of not having a lawyer in-house starts to exceed the cost of having one. Outside counsel at $400 to $800 per hour handles discrete matters well, but when you are generating 1,000 or more hours of legal work per year, you are spending $400,000 to $800,000 annually on attorneys who do not know your business deeply, cannot be reached at 9pm before a board meeting, and charge you for every email that crosses their desk. A General Counsel at $200,000 to $350,000 in total compensation provides deeper institutional knowledge, faster turnaround, and proactive risk identification, and typically breaks even on cost within the first year at this usage level.</p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Legal roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong legal candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent legal hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>At some point in a company's growth, the cost of not having a lawyer in-house starts to exceed the cost of having one. Outside counsel at $400 to $800 per hour handles discrete matters well, but when you are generating 1,000 or more hours of legal work per year, you are spending $400,000 to $800,000 annually on attorneys who do not know your business deeply, cannot be reached at 9pm before a board meeting, and charge you for every email that crosses their desk. A General Counsel at $200,000 to $350,000 in total compensation provides deeper institutional knowledge, faster turnaround, and proactive risk identification, and typically breaks even on cost within the first year at this usage level.</p>
 
         <p>The decision to bring legal in-house is not about size alone. It is about legal spend, legal volume, and the nature of the work. A company with $5 million in annual revenue but high regulatory complexity, financial services, healthcare, government contracting, may need in-house counsel earlier than a $30 million company with straightforward commercial contracts. Conversely, a $50 million e-commerce company with predictable, repetitive legal needs may manage with outside counsel and well-structured templates well into its growth phase.</p>
 
@@ -86,8 +95,8 @@ export default function InHouseCounselPage() {
             <tbody>
               {[
                 ['Under $150,000', 'Stick with outside counsel', 'In-house GC salary exceeds the spend; not economical yet'],
-                ['$150,000–$300,000', 'Evaluate carefully', 'Part-time GC, fractional counsel, or senior corporate attorney may bridge the gap'],
-                ['$300,000–$600,000', 'Strong case for GC', 'Salary break-even typically achieved in year 1; responsiveness value is additional'],
+                ['$150,000-$300,000', 'Evaluate carefully', 'Part-time GC, fractional counsel, or senior corporate attorney may bridge the gap'],
+                ['$300,000-$600,000', 'Strong case for GC', 'Salary break-even typically achieved in year 1; responsiveness value is additional'],
                 ['Over $600,000', 'Almost certainly hire', 'Outside counsel cost exceeds GC comp; institutional knowledge loss compounds annually'],
                 ['High regulatory complexity (any spend level)', 'Evaluate early', 'Financial services, healthcare, gov\'t contracting may justify hire below spend thresholds'],
                 ['Frequent M&A or capital raises', 'Evaluate early', 'Transaction counsel is specialized, but having a GC coordinate outside counsel pays for itself'],
@@ -130,11 +139,11 @@ export default function InHouseCounselPage() {
             </thead>
             <tbody>
               {[
-                ['General Counsel', 'Owns the entire legal function; board and CEO-level access; manages outside counsel', '$250,000–$450,000'],
-                ['Deputy GC / VP Legal', 'Senior attorney in a larger legal department; handles complex matters, manages junior attorneys', '$180,000–$280,000'],
-                ['Corporate Counsel – General', 'Day-to-day contracts, employment, compliance; typically first in-house hire', '$140,000–$220,000'],
-                ['Privacy / Compliance Counsel', 'Regulatory compliance, data privacy, CCPA/GDPR; specialist role', '$130,000–$200,000'],
-                ['Commercial Contracts Counsel', 'High-volume commercial agreements, vendor contracts, NDAs', '$120,000–$180,000'],
+                ['General Counsel', 'Owns the entire legal function; board and CEO-level access; manages outside counsel', '$250,000-$450,000'],
+                ['Deputy GC / VP Legal', 'Senior attorney in a larger legal department; handles complex matters, manages junior attorneys', '$180,000-$280,000'],
+                ['Corporate Counsel - General', 'Day-to-day contracts, employment, compliance; typically first in-house hire', '$140,000-$220,000'],
+                ['Privacy / Compliance Counsel', 'Regulatory compliance, data privacy, CCPA/GDPR; specialist role', '$130,000-$200,000'],
+                ['Commercial Contracts Counsel', 'High-volume commercial agreements, vendor contracts, NDAs', '$120,000-$180,000'],
               ].map(([role, desc, comp], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: '600' }}>{role}</td>
@@ -177,8 +186,8 @@ export default function InHouseCounselPage() {
             <tbody>
               {[
                 ['Seed / Pre-Series A', 'Outside counsel only', 'Legal volume too low; outside counsel with startup focus is cost-effective'],
-                ['Series A–B ($5M–$20M revenue)', 'Consider fractional GC or first in-house hire if regulatory complexity is high', 'Equity makes in-house comp competitive; hiring earlier locks in better candidates'],
-                ['Series C+ or $20M–$100M revenue', 'Hire GC; time has come', 'Outside counsel spend likely at or above GC cost; institutional knowledge gap is growing'],
+                ['Series A-B ($5M-$20M revenue)', 'Consider fractional GC or first in-house hire if regulatory complexity is high', 'Equity makes in-house comp competitive; hiring earlier locks in better candidates'],
+                ['Series C+ or $20M-$100M revenue', 'Hire GC; time has come', 'Outside counsel spend likely at or above GC cost; institutional knowledge gap is growing'],
                 ['$100M+ revenue or pre-IPO', 'Build a legal team, not just one GC', 'Scope exceeds one attorney; GC needs support; Deputy GC and specialist roles follow'],
                 ['Acquisition target', 'Hire GC if you do not have one', 'GC is required for due diligence process management; absence signals immaturity to acquirers'],
               ].map(([stage, rec, reason], i) => (
@@ -193,7 +202,7 @@ export default function InHouseCounselPage() {
         </div>
 
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
-          <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Find In-House Counsel in 23–35 Days</p>
+          <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Find In-House Counsel in 23-35 Days</p>
           <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>BEG places General Counsels, Deputy GCs, and Corporate Counsel at an 86% fill rate. We reach candidates who are not on job boards, passive candidates currently doing the job you need done.</p>
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.85rem 2rem', borderRadius: '6px', fontWeight: '700', fontSize: '1rem', textDecoration: 'none' }}>
             Book a Free Discovery Call

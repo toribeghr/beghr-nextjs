@@ -40,6 +40,7 @@ const faqs = [
 export default function FieldEngineerRecruitingPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Field Engineer Recruiting: Filling the Roles That Keep Projects Moving","datePublished":"2026-06-25","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","url":"https://www.linkedin.com/in/theanthonymoretti"},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"mainEntityOfPage":"https://beghr.com/blog/energy-hiring/field-engineer-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -60,7 +61,16 @@ export default function FieldEngineerRecruitingPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Energy roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong energy candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent energy hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           The field engineer turns plans into progress on site. When the seat is empty, problems that should be solved in hours linger for days, crews work around the gap, and the project manager absorbs work that pulls them away from running the job. The cost of an open field engineer seat shows up directly in schedule and rework, which is why this is one role you cannot afford to leave vacant for long.
         </p>
 

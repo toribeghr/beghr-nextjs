@@ -40,6 +40,7 @@ const faqs = [
 export default function GovernmentSalaryTrendsPage() {
   return (
     <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Government Contractor Salary Trends 2026: Why Pay Alone Does Not Win Candidates","datePublished":"2026-06-25","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","url":"https://www.linkedin.com/in/theanthonymoretti"},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"mainEntityOfPage":"https://beghr.com/blog/government-hiring/government-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -60,7 +61,16 @@ export default function GovernmentSalaryTrendsPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Government roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong government candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent government hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           If you have priced a cleared hire recently, you already know compensation is up. The scarcity of professionals with active clearances has pushed base pay, bonuses, and total packages higher across nearly every GovCon role. But many contractors that meet or beat market pay still lose their top candidate, and understanding why is the key to hiring well in 2026.
         </p>
 

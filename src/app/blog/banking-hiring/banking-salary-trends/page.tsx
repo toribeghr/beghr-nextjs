@@ -61,7 +61,16 @@ export default function BankingSalaryTrendsPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Banking roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong banking candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent banking hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           Pay is up across banking, and that is real. Competition from fintech and private credit, a thinning pool of experienced talent, and steady demand have all pushed compensation higher for lenders, credit officers, and relationship managers. But here is the trap: leaders see rising salaries, assume the answer is to raise their offer, and then lose the candidate anyway. The number gets you into the conversation. It rarely closes the hire on its own.
         </p>
 

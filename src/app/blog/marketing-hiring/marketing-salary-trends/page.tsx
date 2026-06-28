@@ -61,7 +61,16 @@ export default function MarketingSalaryTrendsPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 
-        <p>
+        <aside className="key-takeaways" style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+          <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+          <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+            <li>Marketing roles are getting harder to fill: the strongest candidates are already employed, passive, and rarely on job boards.</li>
+            <li>A posting-and-waiting search misses them. The window to reach a strong marketing candidate is often just 2-4 weeks before they accept another offer.</li>
+            <li>BEG places permanent marketing hires in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+          </ul>
+        </aside>
+
+                <p>
           Compensation is the easiest part of a hire to benchmark and the easiest to overrate. Yes, marketing pay is up for the skills companies need, and yes, a lowball offer will sink you. But in a market where the best marketers are already employed and producing results, the offer that wins is rarely just the biggest one. Understanding what is driving comp, and what sits alongside it in a candidate&apos;s decision, is what separates the companies that fill roles from the ones that keep reopening them.
         </p>
 

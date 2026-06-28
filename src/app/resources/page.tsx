@@ -79,6 +79,13 @@ export default function ResourcesPage() {
                 cta: 'See the Cost',
               },
               {
+                tag: 'Guide',
+                title: 'Salary & Hiring Guide 2026',
+                desc: 'Indicative 2026 salary ranges across 19 industries, from public labor data. Benchmark a role, then fill the seat in 23-35 days at roughly 50% less than contingency.',
+                href: '/resources/salary-guide',
+                cta: 'View Salary Ranges',
+              },
+              {
                 tag: 'Calculator',
                 title: 'Managed Payroll Cost Calculator',
                 desc: 'Enter your employee count and current payroll cost. Get an instant estimate of what BEG managed payroll would cost you at $25-$45 PEPM versus what you pay today.',

@@ -262,3 +262,30 @@ Mobile: buttons stack single column, centered, max-width 280px.
 - `.hero-split` collapses to single column
 - `.hero-split-img` gets `order: 2` — image appears below CTA, never above text
 - All other sections stack naturally
+
+---
+
+## Voice + AEO Content Standard (REQUIRED on every new page)
+
+This is a build-process rule, not optional polish. The same answer-first structure that wins voice-assistant answers also wins AI-search citations (ChatGPT, Perplexity, Gemini, Google AI Overviews). Apply it to every new page.
+
+1. **Question-style headings.** Phrase key H2/H3s the way people ask out loud: "What is the best HCM software for restaurants?" not "Restaurant HCM."
+2. **A ~29-word direct answer first.** Immediately under each question heading, give one clear, self-contained answer of roughly 25 to 35 words before the longer prose. That short answer is what gets read aloud and pulled as a snippet or citation.
+3. **Conversational FAQs.** Keep the FAQ block on every page, phrased in natural spoken language, with `FAQPage` JSON-LD (already standard).
+4. **Speakable schema on key pages.** Add a `speakable` block to the page JSON-LD pointing at the answer passages, so assistants know what to read:
+
+```tsx
+{
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '.tldr', '.faq-item h3', '.faq-item p'],
+  },
+  url: 'https://beghr.com/your-slug',
+}
+```
+
+5. **TL;DR / key-takeaways block** near the top (class `tldr`) summarizing the page in 2 to 3 lines. Comparison pages already do this as "Bottom Line Up Front"; extend the pattern to all page types.
+
+Rules that still apply: no em-dashes, iSolved capitalized in display text, one clear claim per section backed by a fact.

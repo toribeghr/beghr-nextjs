@@ -40,6 +40,19 @@ export default function ServicePage({
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            speakable: {
+              '@type': 'SpeakableSpecification',
+              cssSelector: ['h1', '.lede', '.faq-item h3', '.faq-item p'],
+            },
+          }),
+        }}
+      />
       <section className="hero">
         <div className="container">
           {showHeroImage ? (

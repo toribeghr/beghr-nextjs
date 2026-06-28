@@ -583,6 +583,14 @@ export default function HCMSoftwarePage() {
             <Link href="/services/hcm-software/multi-state-payroll-software" className="card-link reveal"><h3>Multi-State Payroll</h3><p>Multi-state tax registration, filing, and remote teams.</p></Link>
             <Link href="/services/hcm-software/employee-self-service-software" className="card-link reveal"><h3>Employee Self-Service</h3><p>Employees manage info and PTO, cutting HR tickets.</p></Link>
             <Link href="/services/hcm-software/hr-compliance-software" className="card-link reveal"><h3>HR Compliance</h3><p>Tax filings, ACA, new-hire reporting, and audit trails.</p></Link>
+            <Link href="/services/hcm-software/applicant-tracking-software" className="card-link reveal"><h3>Applicant Tracking (ATS)</h3><p>Job postings, candidate pipeline, and offers into onboarding.</p></Link>
+            <Link href="/services/hcm-software/performance-management-software" className="card-link reveal"><h3>Performance Management</h3><p>Reviews, goals, and feedback tied to comp and records.</p></Link>
+            <Link href="/services/hcm-software/employee-scheduling-software" className="card-link reveal"><h3>Employee Scheduling</h3><p>Shift coverage and overtime control feeding payroll.</p></Link>
+            <Link href="/services/hcm-software/pto-tracking-software" className="card-link reveal"><h3>PTO and Time-Off Tracking</h3><p>Accruals, balances, and approvals with accurate payroll.</p></Link>
+            <Link href="/services/hcm-software/garnishment-management-software" className="card-link reveal"><h3>Garnishment Management</h3><p>Orders, calculations, and remittance handled correctly.</p></Link>
+            <Link href="/services/hcm-software/aca-compliance-software" className="card-link reveal"><h3>ACA Compliance</h3><p>ACA tracking, eligibility, and 1094/1095 filing.</p></Link>
+            <Link href="/services/hcm-software/cobra-administration-software" className="card-link reveal"><h3>COBRA Administration</h3><p>Notices, elections, payments, and compliance timelines.</p></Link>
+            <Link href="/services/hcm-software/workforce-analytics-software" className="card-link reveal"><h3>Workforce Analytics</h3><p>Headcount, turnover, and labor cost dashboards.</p></Link>
           </div>
         </div>
       </section>

@@ -47,7 +47,7 @@ export default function BenefitsAdministrationIsolvedPage() {
     <article className="blog-post">
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
+          <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Technology</p>
               <h1>Benefits Administration in iSolved: Open Enrollment, ACA Reporting, and Life Events (2026)</h1>

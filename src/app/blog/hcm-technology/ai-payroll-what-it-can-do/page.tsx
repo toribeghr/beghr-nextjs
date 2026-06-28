@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'AI Payroll in 2026: What It Can and Cannot Do | BEG',
@@ -47,7 +46,7 @@ export default function AIPayrollWhatItCanDoPage() {
     <article className="blog-post">
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
+          <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Technology</p>
               <h1>AI Payroll in 2026: What It Can and Cannot Do</h1>
@@ -57,10 +56,6 @@ export default function AIPayrollWhatItCanDoPage() {
                 <span><strong>Read time:</strong> 6 min</span>
               </div>
             </div>
-            <HeroImageBox
-              src="/assets/hero-images/payroll.svg"
-              alt="AI payroll in 2026"
-            />
           </div>
         </div>
       </section>

@@ -40,7 +40,7 @@ export default function BlogHcmPage() {
     <>
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
+          <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Software &amp; HR Tech</p>
               <h1>HCM Software &amp; HR Tech</h1>

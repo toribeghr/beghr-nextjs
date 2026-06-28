@@ -48,7 +48,7 @@ export default function PayrollCompliancePage() {
     <article className="blog-post">
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
+          <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Software &amp; HR Tech</p>
               <h1>Payroll Tax Compliance 2026: What Changed and What Your System Must Handle</h1>

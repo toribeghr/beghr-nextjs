@@ -109,7 +109,7 @@ export default function HRAutomationPage() {
     <article className="blog-post">
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
+          <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Software &amp; HR Tech</p>
               <h1>HR Automation in 2026: What iSolved Actually Automates (And What It Does Not)</h1>

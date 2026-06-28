@@ -1,23 +1,12 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Tech | Claude AI + 330% ROI. | BEG',
+  title: 'iSolved HCM for Tech Companies | HR & Equity Platform | BEG',
   description: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/technology' },
-  openGraph: {
-    title: 'iSolved HCM for Tech | Claude AI + 330% ROI. | BEG',
-    description: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
-    url: 'https://beghr.com/services/hcm-software/technology',
-    siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
-    type: 'website',
-  },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Tech | Claude AI + 330% ROI. | BEG', description: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
-
 };
 
 const CALENDLY = getCalendlyLink('hcm-technology');
@@ -122,7 +111,7 @@ export default function HCMTechnologyPage() {
                 badge: 'Bonus 02',
                 title: 'iSolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude is a natural fit for tech-forward teams. Your HR ops team can complete tasks — onboarding new hires, pulling headcount reports, managing PTO policies — directly through Claude AI. It is the most advanced HR AI integration available in any HCM platform today. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude is a natural fit for tech-forward teams. Your HR ops team can complete tasks — onboarding new hires, pulling headcount reports, managing PTO policies — directly through Claude AI. It is the most advanced HR AI integration available in any HCM platform today. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
@@ -217,44 +206,6 @@ export default function HCMTechnologyPage() {
         }}
       />
 
-    
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'Technology', item: 'https://beghr.com/services/hcm-software/technology' },
-            ],
-          }),
-        }}
-      />
-      <RelatedPosts
-        heading="From the blog"
-        posts={[
-          {
-            category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
-            excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits and how BEG manages it for you.',
-            href: '/blog/hcm-technology/isolved-platform',
-          },
-          {
-            category: 'HCM technology',
-            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
-            excerpt: 'Tech companies automate their products but often run HR manually. Here is what HCM automation actually saves and where the highest-ROI starting points are.',
-            href: '/blog/hcm-technology/hr-automation',
-          },
-          {
-            category: 'HCM technology',
-            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
-            excerpt: 'Remote engineering teams create multi-state payroll obligations. Here is what changed in 2026 and what your HCM system must handle automatically.',
-            href: '/blog/hcm-technology/payroll-compliance',
-          },
-        ]}
-      />
     </ServicePage>
   );
 }

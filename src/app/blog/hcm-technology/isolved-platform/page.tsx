@@ -48,7 +48,7 @@ export default function iSolvedPlatformPage() {
     <article className="blog-post">
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
+          <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Software &amp; HR Tech</p>
               <h1>iSolved HCM Platform Review: Modules, Pricing, and Who It&apos;s Built For (2026)</h1>

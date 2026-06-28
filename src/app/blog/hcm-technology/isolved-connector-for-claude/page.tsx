@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import HeroImageBox from '@/components/HeroImageBox';
 
 export const metadata: Metadata = {
   title: 'iSolved Connector for Claude: What It Does | BEG',
@@ -47,7 +46,7 @@ export default function iSolvedConnectorForClaudePage() {
     <article className="blog-post">
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
+          <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Technology</p>
               <h1>iSolved Connector for Claude: What It Is and What It Does</h1>
@@ -57,10 +56,6 @@ export default function iSolvedConnectorForClaudePage() {
                 <span><strong>Read time:</strong> 5 min</span>
               </div>
             </div>
-            <HeroImageBox
-              src="/assets/hero-images/automation.svg"
-              alt="iSolved Connector for Claude"
-            />
           </div>
         </div>
       </section>

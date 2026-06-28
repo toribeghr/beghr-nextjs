@@ -36,6 +36,8 @@ export default function Footer() {
           <div className="footer-col">
             <h5 className="footer-col-heading">Managed Payroll</h5>
             <Link href="/services/managed-payroll" className="footer-link footer-link--overview">Overview</Link>
+            <Link href="/services/managed-payroll/pricing" className="footer-link">Pricing</Link>
+            <Link href="/services/managed-payroll/cost-calculator" className="footer-link">Cost Calculator</Link>
             <Link href="/services/managed-payroll/legal" className="footer-link">Law Firms</Link>
             <Link href="/services/managed-payroll/healthcare" className="footer-link">Healthcare</Link>
             <Link href="/services/managed-payroll/finance" className="footer-link">Finance &amp; Accounting</Link>

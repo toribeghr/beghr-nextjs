@@ -29,7 +29,7 @@ export default function PayrollChildcarePage() {
       imageAlt="Childcare center with fully managed payroll"
       eyebrow="Managed Payroll · Childcare & Daycare Centers"
       title="Managed Payroll for Childcare Centers and Daycares"
-      description="High turnover, substitute staff, and state subsidy compliance — fully managed. Childcare centers face some of the highest staff turnover rates of any industry, with constant new hire onboarding, substitute teacher tracking, FLSA complexity, and state childcare subsidy employment requirements. We manage all of it at $25–$45 per employee per month — so you focus on the children, not the payroll."
+      description="High turnover, substitute staff, and state subsidy compliance -- fully managed. Childcare centers face some of the highest staff turnover rates of any industry, with constant new hire onboarding, substitute teacher tracking, FLSA complexity, and state childcare subsidy employment requirements. We manage all of it at $25–$45 per employee per month -- so you focus on the children, not the payroll."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -89,7 +89,7 @@ export default function PayrollChildcarePage() {
               { title: 'Lead and assistant teachers', body: 'Full-time and part-time salaried and hourly staff with PTO accrual, benefits eligibility tracking, and FLSA overtime calculations. ACA compliance reporting for centers with 50+ full-time equivalent employees.' },
               { title: 'Substitute and on-call teachers', body: 'W-2 payroll for on-call and substitute staff who meet the IRS employee classification standard. We flag your substitute arrangements that carry contractor risk before they become an audit issue.' },
               { title: 'Director and administrative staff', body: 'Exempt salary employees with proper FLSA exemption documentation. We ensure your center director and administrative staff are classified correctly under the executive, administrative, or professional exemptions.' },
-              { title: 'High-turnover new hire processing', body: 'New hire paperwork, I-9 verification, state new hire reporting, direct deposit setup, and benefits enrollment — managed by BEG every time you bring someone on. No backlog, no missed filings.' },
+              { title: 'High-turnover new hire processing', body: 'New hire paperwork, I-9 verification, state new hire reporting, direct deposit setup, and benefits enrollment -- managed by BEG every time you bring someone on. No backlog, no missed filings.' },
             ].map(({ title, body }) => (
               <div key={title} style={{ background: '#f9f9f9', borderRadius: '8px', padding: '1.5rem' }}>
                 <strong style={{ display: 'block', fontSize: '0.97rem', marginBottom: '0.5rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.4rem' }}>{title}</strong>
@@ -110,8 +110,8 @@ export default function PayrollChildcarePage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Scope review', body: 'We map your full-time and part-time staff roster, substitute arrangements, state subsidy programs, and reporting requirements. You get a fixed monthly cost before we start.' },
-              { num: '02', title: 'Payroll configuration', body: 'We review substitute classifications, configure FLSA exemption documentation, set up state subsidy payroll reporting, and handle new hire processing workflows. No migration required — we work in your existing system.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every new hire, every termination, every state filing, and every subsidy reporting requirement — fully managed by BEG. Your team approves, we execute.' },
+              { num: '02', title: 'Payroll configuration', body: 'We review substitute classifications, configure FLSA exemption documentation, set up state subsidy payroll reporting, and handle new hire processing workflows. No migration required -- we work in your existing system.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every new hire, every termination, every state filing, and every subsidy reporting requirement -- fully managed by BEG. Your team approves, we execute.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#ffffff', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -136,7 +136,7 @@ export default function PayrollChildcarePage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "We do not have time to switch payroll platforms while managing a center."',
-                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system. If you want to move to iSolved for better HR and payroll capabilities, we can manage that transition — but it is never a requirement to get started.',
+                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system. If you want to move to iSolved for better HR and payroll capabilities, we can manage that transition -- but it is never a requirement to get started.',
               },
               {
                 badge: 'Bonus 02',
@@ -148,7 +148,7 @@ export default function PayrollChildcarePage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact. Not a ticket queue.',
                 objection: 'Common objection: "We call our payroll company and get a different person every time who does not know our center."',
-                body: 'Your BEG payroll specialist is your ongoing point of contact. When a teacher gives two days notice, when you hire a substitute mid-cycle, or when your state sends a subsidy compliance request — one message to your BEG contact handles it. No explaining your center from scratch on every call.',
+                body: 'Your BEG payroll specialist is your ongoing point of contact. When a teacher gives two days notice, when you hire a substitute mid-cycle, or when your state sends a subsidy compliance request -- one message to your BEG contact handles it. No explaining your center from scratch on every call.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -175,10 +175,10 @@ export default function PayrollChildcarePage() {
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
-              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your full-time and part-time staff, substitute arrangements, and state subsidy requirements — and give you a fixed monthly price.' },
+              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your full-time and part-time staff, substitute arrangements, and state subsidy requirements -- and give you a fixed monthly price.' },
               { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, staff roster and substitute classification arrangements reviewed.' },
               { day: 'Days 2–4', title: 'Configuration', body: 'Substitute classification review, FLSA exemption documentation, and subsidy payroll reporting configured in your existing system.' },
-              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed childcare pay run — BEG executes, your team approves. New hire processing hands off to BEG on day one.' },
+              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed childcare pay run -- BEG executes, your team approves. New hire processing hands off to BEG on day one.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
                 <div style={{ fontSize: '0.8rem', fontWeight: '700', color: '#ECAC60', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{day}</div>
@@ -197,7 +197,7 @@ export default function PayrollChildcarePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every month of substitute misclassification is a month of compounding back-tax exposure.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A childcare center with 10 substitutes paid as 1099 contractors for three years carries significant reclassification exposure if the IRS or state audits the arrangement. Fully managed payroll at $25–$45 PEPM on a 20-person center costs under $11,000 per year — including proper classification review that eliminates the risk.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A childcare center with 10 substitutes paid as 1099 contractors for three years carries significant reclassification exposure if the IRS or state audits the arrangement. Fully managed payroll at $25–$45 PEPM on a 20-person center costs under $11,000 per year -- including proper classification review that eliminates the risk.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
@@ -209,7 +209,7 @@ export default function PayrollChildcarePage() {
             <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
               Request a Free Scope Review
             </Link>
-            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your staff structure, substitute arrangements, and subsidy requirements — and give you a fixed monthly cost.</p>
+            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your staff structure, substitute arrangements, and subsidy requirements -- and give you a fixed monthly cost.</p>
           </div>
         </div>
       </section>
@@ -248,11 +248,11 @@ export default function PayrollChildcarePage() {
             </div>
             <div className="faq-item">
               <h3>What documentation does a state childcare subsidy audit typically request?</h3>
-              <p>State CCAP, Head Start, and Child Care Development Fund auditors typically request payroll records showing staff names, job titles, hours worked, hourly rates, and total wages paid during the audit period. We maintain payroll records in the standard format state agencies expect — so when an auditor makes a documentation request, you can produce accurate records immediately rather than scrambling to reconstruct them.</p>
+              <p>State CCAP, Head Start, and Child Care Development Fund auditors typically request payroll records showing staff names, job titles, hours worked, hourly rates, and total wages paid during the audit period. We maintain payroll records in the standard format state agencies expect -- so when an auditor makes a documentation request, you can produce accurate records immediately rather than scrambling to reconstruct them.</p>
             </div>
             <div className="faq-item">
               <h3>How long does it take to set up managed payroll for a childcare center?</h3>
-              <p>From signed agreement to live payroll: 3–5 business days. We review your substitute classifications, configure FLSA exemption documentation, and set up your payroll in your existing system. High-turnover centers often see the most immediate relief — new hire processing and termination handling that used to consume hours each week hands off to BEG on day one.</p>
+              <p>From signed agreement to live payroll: 3–5 business days. We review your substitute classifications, configure FLSA exemption documentation, and set up your payroll in your existing system. High-turnover centers often see the most immediate relief -- new hire processing and termination handling that used to consume hours each week hands off to BEG on day one.</p>
             </div>
           </div>
         </div>

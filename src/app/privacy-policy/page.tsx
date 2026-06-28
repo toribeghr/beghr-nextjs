@@ -2,19 +2,19 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Business Executive Group',
-  description: 'Privacy policy for Business Executive Group — how we collect, use, and protect your information.',
+  description: 'Privacy policy for Business Executive Group -- how we collect, use, and protect your information.',
   alternates: {
     canonical: 'https://beghr.com/privacy-policy',
   },
   openGraph: {
     title: 'Privacy Policy | Business Executive Group',
-    description: 'Privacy policy for Business Executive Group — how we collect, use, and protect your information.',
+    description: 'Privacy policy for Business Executive Group -- how we collect, use, and protect your information.',
     url: 'https://beghr.com/privacy-policy',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Privacy Policy' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Privacy Policy | Business Executive Group', description: 'Privacy policy for Business Executive Group — how we collect, use, and protect your information.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Privacy Policy | Business Executive Group', description: 'Privacy policy for Business Executive Group -- how we collect, use, and protect your information.', images: ['https://beghr.com/assets/og-image.png'] },
   robots: { index: false },
 };
 

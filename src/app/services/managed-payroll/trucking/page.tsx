@@ -29,7 +29,7 @@ export default function PayrollTruckingPage() {
       imageAlt="Trucking company with fully managed driver payroll"
       eyebrow="Managed Payroll · Trucking & Transportation"
       title="Managed Payroll for Trucking Companies"
-      description="Trucking payroll is not like other payroll. Per diem rules, W-2 versus owner-operator classification, DOT compliance, and routes crossing a dozen state lines create a payroll environment no generic provider is built to handle. We manage all of it at $25–$45 per employee per month — so you focus on moving freight, not managing payroll."
+      description="Trucking payroll is not like other payroll. Per diem rules, W-2 versus owner-operator classification, DOT compliance, and routes crossing a dozen state lines create a payroll environment no generic provider is built to handle. We manage all of it at $25–$45 per employee per month -- so you focus on moving freight, not managing payroll."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -43,7 +43,7 @@ export default function PayrollTruckingPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">The Cost of Running It Yourself</p>
-            <h2>Where trucking payroll goes wrong — and how much it costs when it does.</h2>
+            <h2>Where trucking payroll goes wrong -- and how much it costs when it does.</h2>
           </div>
           <div className="beg-grid-3 reveal">
             {
@@ -60,7 +60,7 @@ export default function PayrollTruckingPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Per diem</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>IRS per diem rules for drivers must be applied exactly right or the payments become taxable wages</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>The IRS allows a per diem rate for long-haul drivers away from home. When it is structured incorrectly — wrong documentation, wrong amounts, or wrong pay code — the entire per diem gets reclassified as ordinary wages, triggering back payroll taxes plus interest.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>The IRS allows a per diem rate for long-haul drivers away from home. When it is structured incorrectly -- wrong documentation, wrong amounts, or wrong pay code -- the entire per diem gets reclassified as ordinary wages, triggering back payroll taxes plus interest.</div>
                 </div>
               ))()
             }
@@ -69,7 +69,7 @@ export default function PayrollTruckingPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Multi-state</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Routes crossing state lines create tax nexus in every state where drivers stop and work</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>A driver running from Texas to Ohio and back creates payroll tax obligations in every state along the route. Most carriers handle this incorrectly or not at all — until a state audit surfaces the exposure.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>A driver running from Texas to Ohio and back creates payroll tax obligations in every state along the route. Most carriers handle this incorrectly or not at all -- until a state audit surfaces the exposure.</div>
                 </div>
               ))()
             }
@@ -110,8 +110,8 @@ export default function PayrollTruckingPage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Scope review', body: 'We map your driver roster, owner-operator agreements, per diem structure, and multi-state route patterns. You get a fixed monthly cost before we start.' },
-              { num: '02', title: 'Payroll configuration', body: 'We configure your W-2 driver pay, per diem pay codes, owner-operator 1099 processing, and state registrations. No migration required — we work in your existing system.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every state filing, every per diem calculation, every year-end 1099 and W-2 — fully managed by BEG. Your team approves, we execute.' },
+              { num: '02', title: 'Payroll configuration', body: 'We configure your W-2 driver pay, per diem pay codes, owner-operator 1099 processing, and state registrations. No migration required -- we work in your existing system.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every state filing, every per diem calculation, every year-end 1099 and W-2 -- fully managed by BEG. Your team approves, we execute.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#ffffff', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -136,7 +136,7 @@ export default function PayrollTruckingPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Switching payroll systems disrupts dispatch and fleet management integrations."',
-                body: 'We do not require you to change TMS or payroll platforms. BEG operates as your managed payroll team inside your current system. If you want to upgrade to iSolved or a better platform, we can handle that transition — but it is never a prerequisite to getting started.',
+                body: 'We do not require you to change TMS or payroll platforms. BEG operates as your managed payroll team inside your current system. If you want to upgrade to iSolved or a better platform, we can handle that transition -- but it is never a prerequisite to getting started.',
               },
               {
                 badge: 'Bonus 02',
@@ -148,7 +148,7 @@ export default function PayrollTruckingPage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact who knows transportation payroll.',
                 objection: 'Common objection: "Generic payroll support does not understand per diem rules or owner-operator agreements."',
-                body: 'Your BEG payroll specialist is your ongoing contact — not a call center that routes you to whoever is available. When you add a driver, change a per diem structure, or register in a new state, one message to your BEG contact gets it handled.',
+                body: 'Your BEG payroll specialist is your ongoing contact -- not a call center that routes you to whoever is available. When you add a driver, change a per diem structure, or register in a new state, one message to your BEG contact gets it handled.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -175,10 +175,10 @@ export default function PayrollTruckingPage() {
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
-              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your driver roster, per diem structure, multi-state routes, and owner-operator agreements — and give you a fixed monthly price.' },
+              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your driver roster, per diem structure, multi-state routes, and owner-operator agreements -- and give you a fixed monthly price.' },
               { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, driver roster and classification structure reviewed.' },
               { day: 'Days 2–4', title: 'Configuration', body: 'Per diem pay codes, W-2 and 1099 classification, and multi-state tax registrations configured in your existing system.' },
-              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed trucking pay run — BEG executes, your team approves. No migration required.' },
+              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed trucking pay run -- BEG executes, your team approves. No migration required.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
                 <div style={{ fontSize: '0.8rem', fontWeight: '700', color: '#ECAC60', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{day}</div>
@@ -197,7 +197,7 @@ export default function PayrollTruckingPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>One IRS audit costs more than years of managed payroll.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Driver misclassification audits routinely result in back employment taxes, penalties, and interest covering three to five years. A single reclassification assessment on 20 misclassified drivers can exceed $200,000. Fully managed payroll at $25–$45 PEPM on a 50-driver operation costs $15,000–$21,000 per year — less than the interest on one audit settlement.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Driver misclassification audits routinely result in back employment taxes, penalties, and interest covering three to five years. A single reclassification assessment on 20 misclassified drivers can exceed $200,000. Fully managed payroll at $25–$45 PEPM on a 50-driver operation costs $15,000–$21,000 per year -- less than the interest on one audit settlement.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
@@ -209,7 +209,7 @@ export default function PayrollTruckingPage() {
             <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
               Request a Free Scope Review
             </Link>
-            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your driver roster, per diem structure, and multi-state exposure — and give you a fixed monthly cost.</p>
+            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your driver roster, per diem structure, and multi-state exposure -- and give you a fixed monthly cost.</p>
           </div>
         </div>
       </section>
@@ -244,7 +244,7 @@ export default function PayrollTruckingPage() {
             </div>
             <div className="faq-item">
               <h3>How do you handle payroll for lease-purchase drivers?</h3>
-              <p>Lease-purchase drivers occupy a gray zone between employee and independent contractor. The structure of the agreement — not the label — determines classification. We review your lease-purchase agreements, determine the correct tax treatment for each driver in the program, and process pay accurately. Misclassification of lease-purchase drivers is a frequent IRS and DOL enforcement target in the trucking industry.</p>
+              <p>Lease-purchase drivers occupy a gray zone between employee and independent contractor. The structure of the agreement -- not the label -- determines classification. We review your lease-purchase agreements, determine the correct tax treatment for each driver in the program, and process pay accurately. Misclassification of lease-purchase drivers is a frequent IRS and DOL enforcement target in the trucking industry.</p>
             </div>
             <div className="faq-item">
               <h3>Which states create the most payroll tax complexity for trucking companies?</h3>
@@ -326,7 +326,7 @@ export default function PayrollTruckingPage() {
           {
             category: 'Payroll outsourcing',
             title: 'Managed Payroll vs. Hiring In-House for Trucking Companies',
-            excerpt: 'What fleet operators spend managing payroll in-house — including HOS compliance, driver classification, and state filings — vs. what outsourcing costs.',
+            excerpt: 'What fleet operators spend managing payroll in-house -- including HOS compliance, driver classification, and state filings -- vs. what outsourcing costs.',
             href: '/blog/payroll/trucking/managed-payroll-vs-in-house',
           },
         ]}

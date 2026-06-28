@@ -29,7 +29,7 @@ export default function PayrollCannabisPage() {
       imageAlt="Cannabis dispensary with fully managed payroll compliance"
       eyebrow="Managed Payroll · Cannabis & Dispensaries"
       title="Managed Payroll for Cannabis Dispensaries"
-      description="Cannabis payroll has rules no generic payroll provider understands. IRC 280E, state licensing employment requirements, banking limitations, and multi-state operational complexity make cannabis and dispensary payroll unlike anything else. We manage all of it at $25–$45 per employee per month — so you focus on your operation, not on payroll compliance that can unravel a license."
+      description="Cannabis payroll has rules no generic payroll provider understands. IRC 280E, state licensing employment requirements, banking limitations, and multi-state operational complexity make cannabis and dispensary payroll unlike anything else. We manage all of it at $25–$45 per employee per month -- so you focus on your operation, not on payroll compliance that can unravel a license."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -50,8 +50,8 @@ export default function PayrollCannabisPage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>IRC 280E</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Cannabis companies cannot deduct ordinary business expenses — including most payroll — at the federal level</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>IRC 280E prohibits federal deductions for businesses trafficking Schedule I or II controlled substances. Cannabis operators can only deduct cost of goods sold (COGS). Misallocating payroll costs between COGS and non-COGS creates both tax exposure and audit risk. Proper payroll classification is not optional — it is the foundation of your federal tax position.</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Cannabis companies cannot deduct ordinary business expenses -- including most payroll -- at the federal level</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>IRC 280E prohibits federal deductions for businesses trafficking Schedule I or II controlled substances. Cannabis operators can only deduct cost of goods sold (COGS). Misallocating payroll costs between COGS and non-COGS creates both tax exposure and audit risk. Proper payroll classification is not optional -- it is the foundation of your federal tax position.</div>
                 </div>
               ))()
             }
@@ -68,7 +68,7 @@ export default function PayrollCannabisPage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>State licensing</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Employee licensing requirements vary by state and role — and non-compliance can affect your license</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Employee licensing requirements vary by state and role -- and non-compliance can affect your license</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Most cannabis states require dispensary agents, handlers, or key employees to hold state-issued badges or cards. Paying an employee whose credentials have lapsed creates regulatory exposure. Your payroll process needs to track and flag credential status alongside compensation.</div>
                 </div>
               ))()
@@ -88,7 +88,7 @@ export default function PayrollCannabisPage() {
             {[
               { title: '280E payroll allocation', body: 'We classify payroll costs between COGS-eligible (production, cultivation, processing) and non-COGS (dispensary sales, administration) roles to support your federal tax position. Proper classification is the single most important payroll decision a cannabis company makes.' },
               { title: 'Multi-state operations', body: 'Each state has different cannabis employment regulations, licensing requirements, and payroll tax rules. If you operate dispensaries in multiple states, we handle registrations, filings, and compliance in each jurisdiction as part of the managed service.' },
-              { title: 'Employee credential tracking', body: 'We maintain records of agent card, handler badge, and key employee license status alongside payroll records — so you have documentation ready for state audits and license renewals.' },
+              { title: 'Employee credential tracking', body: 'We maintain records of agent card, handler badge, and key employee license status alongside payroll records -- so you have documentation ready for state audits and license renewals.' },
               { title: 'Banking-compliant payroll processing', body: 'We work with your cannabis-friendly banking relationship to process payroll compliantly, with the audit trail your bank and state regulators require.' },
             ].map(({ title, body }) => (
               <div key={title} style={{ background: '#f9f9f9', borderRadius: '8px', padding: '1.5rem' }}>
@@ -111,7 +111,7 @@ export default function PayrollCannabisPage() {
             {[
               { num: '01', title: 'Scope review', body: 'We map your employee roster by role, your 280E COGS allocation structure, your banking relationship, and your state licensing requirements. You get a fixed monthly cost before we start.' },
               { num: '02', title: 'Payroll configuration', body: 'We configure your payroll cost allocation between COGS and non-COGS roles, set up state registrations, and document the process trail your regulators expect. No system migration required.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every state filing, every 280E allocation record, and every year-end W-2 — fully managed by BEG. Your team approves, we execute.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every state filing, every 280E allocation record, and every year-end W-2 -- fully managed by BEG. Your team approves, we execute.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#ffffff', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -136,7 +136,7 @@ export default function PayrollCannabisPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Most payroll platforms will not serve cannabis companies, so we are already on a limited system."',
-                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team within your existing system. If you want to move to iSolved for a more capable HCM platform that serves the cannabis industry, we can manage that transition — but it is never a prerequisite.',
+                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team within your existing system. If you want to move to iSolved for a more capable HCM platform that serves the cannabis industry, we can manage that transition -- but it is never a prerequisite.',
               },
               {
                 badge: 'Bonus 02',
@@ -148,7 +148,7 @@ export default function PayrollCannabisPage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact who understands cannabis payroll.',
                 objection: 'Common objection: "Generic payroll support does not understand 280E or state cannabis licensing requirements."',
-                body: 'Your BEG payroll specialist is your ongoing point of contact — not a call center rep who has never seen a cannabis operation. When you add a location, hire for a new license tier, or need to reallocate payroll costs for a tax filing, one message handles it.',
+                body: 'Your BEG payroll specialist is your ongoing point of contact -- not a call center rep who has never seen a cannabis operation. When you add a location, hire for a new license tier, or need to reallocate payroll costs for a tax filing, one message handles it.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -175,10 +175,10 @@ export default function PayrollCannabisPage() {
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
-              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your employee roster by role, 280E allocation structure, banking relationship, and state licensing requirements — and give you a fixed monthly price.' },
+              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your employee roster by role, 280E allocation structure, banking relationship, and state licensing requirements -- and give you a fixed monthly price.' },
               { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, employee roster and 280E cost allocation structure reviewed.' },
               { day: 'Days 2–4', title: 'Configuration', body: '280E payroll cost allocation, state registrations, and regulatory compliance documentation configured in your existing system.' },
-              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed cannabis pay run — BEG executes, your team approves. No migration required.' },
+              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed cannabis pay run -- BEG executes, your team approves. No migration required.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
                 <div style={{ fontSize: '0.8rem', fontWeight: '700', color: '#ECAC60', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{day}</div>
@@ -197,19 +197,19 @@ export default function PayrollCannabisPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>A 280E audit finding costs more than years of managed payroll.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>The IRS audits cannabis companies at significantly higher rates than other industries. An audit that finds improper 280E payroll cost allocation — moving non-COGS labor into COGS positions — can result in back taxes, penalties, and interest that threaten the viability of the business. Properly managed payroll with documented 280E allocation is your first line of defense.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>The IRS audits cannabis companies at significantly higher rates than other industries. An audit that finds improper 280E payroll cost allocation -- moving non-COGS labor into COGS positions -- can result in back taxes, penalties, and interest that threaten the viability of the business. Properly managed payroll with documented 280E allocation is your first line of defense.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix payroll compliance is before a license renewal audit.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>State cannabis regulators increasingly review payroll records during license renewals and compliance checks. Getting your payroll documentation in order before your next renewal window means the difference between a clean audit and a license condition. Start now — transitions take 30–60 days.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>State cannabis regulators increasingly review payroll records during license renewals and compliance checks. Getting your payroll documentation in order before your next renewal window means the difference between a clean audit and a license condition. Start now -- transitions take 30–60 days.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
             <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
               Request a Free Scope Review
             </Link>
-            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your 280E allocation structure, employee roster, and state licensing requirements — and give you a fixed monthly cost.</p>
+            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your 280E allocation structure, employee roster, and state licensing requirements -- and give you a fixed monthly cost.</p>
           </div>
         </div>
       </section>
@@ -244,7 +244,7 @@ export default function PayrollCannabisPage() {
             </div>
             <div className="faq-item">
               <h3>Are cannabis companies subject to the same state payroll tax rules as other businesses?</h3>
-              <p>Yes. Cannabis businesses pay state payroll taxes — state income tax withholding, unemployment insurance, and applicable local taxes — the same as any other employer. The federal complexity comes from IRC 280E limiting federal income tax deductions, not from payroll taxes themselves. State payroll tax compliance for cannabis is fully managed as part of our service.</p>
+              <p>Yes. Cannabis businesses pay state payroll taxes -- state income tax withholding, unemployment insurance, and applicable local taxes -- the same as any other employer. The federal complexity comes from IRC 280E limiting federal income tax deductions, not from payroll taxes themselves. State payroll tax compliance for cannabis is fully managed as part of our service.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle payroll if we have cash flow limitations from banking restrictions?</h3>
@@ -314,7 +314,7 @@ export default function PayrollCannabisPage() {
           {
             category: 'Payroll compliance',
             title: "Cannabis Business Payroll Under Section 280E: What You Can and Can't Deduct",
-            excerpt: 'Section 280E blocks most deductions for cannabis businesses — including payroll for non-COGS roles. Here is how to structure pay correctly.',
+            excerpt: 'Section 280E blocks most deductions for cannabis businesses -- including payroll for non-COGS roles. Here is how to structure pay correctly.',
             href: '/blog/payroll/cannabis/cannabis-payroll-280e',
           },
           {
@@ -326,7 +326,7 @@ export default function PayrollCannabisPage() {
           {
             category: 'Payroll outsourcing',
             title: 'Managed Payroll vs. Hiring In-House for Cannabis Businesses',
-            excerpt: 'What cannabis operators actually spend on internal payroll vs. what outsourcing costs — including compliance risk on both sides.',
+            excerpt: 'What cannabis operators actually spend on internal payroll vs. what outsourcing costs -- including compliance risk on both sides.',
             href: '/blog/payroll/cannabis/managed-payroll-vs-in-house',
           },
         ]}

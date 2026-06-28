@@ -29,7 +29,7 @@ export default function PayrollFinancePage() {
       imageAlt="Finance firm with fully managed payroll service"
       eyebrow="Managed Payroll · Finance"
       title="Finance firm payroll has zero tolerance for errors. Neither do we."
-      description="Bonus cycles, commission structures, deferred compensation, and performance-based pay make finance payroll a zero-error environment. One mistake in a filing is an audit trigger. We manage it all at $25–$45 per employee per month — fully managed, nothing to touch."
+      description="Bonus cycles, commission structures, deferred compensation, and performance-based pay make finance payroll a zero-error environment. One mistake in a filing is an audit trigger. We manage it all at $25–$45 per employee per month -- fully managed, nothing to touch."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -69,7 +69,7 @@ export default function PayrollFinancePage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Audit risk</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Every payroll filing error is a potential trigger</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Finance firms operate in a regulated environment. Payroll compliance is not optional — it is a fiduciary obligation.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Finance firms operate in a regulated environment. Payroll compliance is not optional -- it is a fiduciary obligation.</div>
                 </div>
               ))()
             }
@@ -86,9 +86,9 @@ export default function PayrollFinancePage() {
           </div>
           <div className="beg-grid-3 reveal">
             {[
-              { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost — no surprises.' },
-              { num: '02', title: 'We document your bonus structures, commission schedules, and deferred comp arrangements before your first managed payroll run.', body: 'We configure and run your first payroll cycles. No migration required — we work in your existing system. Transition takes 30–60 days.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update — fully managed by BEG. Your team touches nothing.' },
+              { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost -- no surprises.' },
+              { num: '02', title: 'We document your bonus structures, commission schedules, and deferred comp arrangements before your first managed payroll run.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30–60 days.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update -- fully managed by BEG. Your team touches nothing.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -105,20 +105,20 @@ export default function PayrollFinancePage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Compliance Requirements</p>
-            <h2>What finance firm payroll actually requires — and the risk of getting it wrong</h2>
+            <h2>What finance firm payroll actually requires -- and the risk of getting it wrong</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>SOX payroll controls and records retention</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>For public companies and companies preparing for a public offering, Sarbanes-Oxley Section 404 requires adequate internal controls over financial reporting — and payroll records are explicitly in scope. Payroll transactions represent a significant portion of operating expenses, and the controls around payroll authorization, processing, reconciliation, and record retention must be documented and testable. A managed payroll service that maintains compliant record-keeping, audit trails, and access controls supports your SOX 404 controls framework. BEG maintains payroll records with the access controls and retention policies appropriate for a SOX-sensitive environment.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>For public companies and companies preparing for a public offering, Sarbanes-Oxley Section 404 requires adequate internal controls over financial reporting -- and payroll records are explicitly in scope. Payroll transactions represent a significant portion of operating expenses, and the controls around payroll authorization, processing, reconciliation, and record retention must be documented and testable. A managed payroll service that maintains compliant record-keeping, audit trails, and access controls supports your SOX 404 controls framework. BEG maintains payroll records with the access controls and retention policies appropriate for a SOX-sensitive environment.</p>
             </div>
             <div>
-              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Advisor and analyst compensation structures — bonus, commission, and grid pay</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Finance firms pay their professionals in ways that standard payroll systems are not designed for. Financial advisors on a grid-based model receive commission payouts calculated against trailing production — the payroll system must pull from production reports and apply the correct grid percentage to each advisor's production level. Portfolio managers may receive performance fees paid as W-2 supplemental compensation or as partnership distributions. Traders may receive discretionary bonuses calculated by desk against P&L. Each of these compensation types has different withholding treatment, different payment timing, and different W-2 reporting requirements. BEG configures payroll to handle each compensation type correctly for each role classification.</p>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Advisor and analyst compensation structures -- bonus, commission, and grid pay</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Finance firms pay their professionals in ways that standard payroll systems are not designed for. Financial advisors on a grid-based model receive commission payouts calculated against trailing production -- the payroll system must pull from production reports and apply the correct grid percentage to each advisor's production level. Portfolio managers may receive performance fees paid as W-2 supplemental compensation or as partnership distributions. Traders may receive discretionary bonuses calculated by desk against P&L. Each of these compensation types has different withholding treatment, different payment timing, and different W-2 reporting requirements. BEG configures payroll to handle each compensation type correctly for each role classification.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>RIA and broker-dealer employee classification</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Investment advisers commonly engage independent contractors alongside W-2 employees — financial planners, compliance consultants, research analysts, and registered representatives. The IRS 20-factor test, the ABC test in states that apply it, and FINRA guidance on associated persons create a complex framework for determining who must receive a W-2 versus a 1099. Misclassification of an employee as an independent contractor creates employment tax liability for the uncollected FICA, potential FINRA regulatory consequences, and exposure under state wage and hour laws. BEG reviews classification for each role type during the scope review and flags any arrangements that carry reclassification risk.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Investment advisers commonly engage independent contractors alongside W-2 employees -- financial planners, compliance consultants, research analysts, and registered representatives. The IRS 20-factor test, the ABC test in states that apply it, and FINRA guidance on associated persons create a complex framework for determining who must receive a W-2 versus a 1099. Misclassification of an employee as an independent contractor creates employment tax liability for the uncollected FICA, potential FINRA regulatory consequences, and exposure under state wage and hour laws. BEG reviews classification for each role type during the scope review and flags any arrangements that carry reclassification risk.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>IRC Section 162(m) and deductibility of executive compensation</h3>
@@ -126,7 +126,7 @@ export default function PayrollFinancePage() {
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Multi-state compliance for distributed advisor teams</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Finance firms with advisors or analysts in multiple states face the standard multi-state payroll compliance requirements — separate employer tax registrations, different withholding rates, different SUI rates, different new-hire reporting — plus additional considerations specific to financial services. Some states impose specific licensing and registration requirements on financial professionals working in those states. The employer tax registration in those states must be in place before the professional begins client-facing work. BEG manages state-by-state registration proactively as your team geography changes, so you are never operating in a state without the required employer registrations.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Finance firms with advisors or analysts in multiple states face the standard multi-state payroll compliance requirements -- separate employer tax registrations, different withholding rates, different SUI rates, different new-hire reporting -- plus additional considerations specific to financial services. Some states impose specific licensing and registration requirements on financial professionals working in those states. The employer tax registration in those states must be in place before the professional begins client-facing work. BEG manages state-by-state registration proactively as your team geography changes, so you are never operating in a state without the required employer registrations.</p>
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ export default function PayrollFinancePage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Switching payroll systems is too disruptive."',
-                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team inside your current system. If you want to move to a better platform, we can handle that too — but it is never a requirement to get started.',
+                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team inside your current system. If you want to move to a better platform, we can handle that too -- but it is never a requirement to get started.',
               },
               {
                 badge: 'Bonus 02',
@@ -182,7 +182,7 @@ export default function PayrollFinancePage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact. Not a support queue.',
                 objection: 'Common objection: "Payroll vendors disappear after onboarding."',
-                body: 'Your BEG payroll specialist is your ongoing contact. When something changes — a new hire, a state registration, a compliance update — you send one message. There is no ticket queue, no chatbot, and no calling a 1-800 number. Your team has a real person who knows your account.',
+                body: 'Your BEG payroll specialist is your ongoing contact. When something changes -- a new hire, a state registration, a compliance update -- you send one message. There is no ticket queue, no chatbot, and no calling a 1-800 number. Your team has a real person who knows your account.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -212,7 +212,7 @@ export default function PayrollFinancePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before the next quarter starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 — the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -262,7 +262,7 @@ export default function PayrollFinancePage() {
             </div>
             <div className="faq-item">
               <h3>What is the risk of misclassifying an investment professional as an independent contractor?</h3>
-              <p>Misclassification creates employment tax liability for the uncollected FICA on all payments made, potential state wage and hour violations, and — for FINRA-registered representatives — potential regulatory consequences. The IRS 20-factor test and FINRA guidance both create risk for arrangements that look more like employment than true independent contracting. BEG flags classification risk during the scope review.</p>
+              <p>Misclassification creates employment tax liability for the uncollected FICA on all payments made, potential state wage and hour violations, and -- for FINRA-registered representatives -- potential regulatory consequences. The IRS 20-factor test and FINRA guidance both create risk for arrangements that look more like employment than true independent contracting. BEG flags classification risk during the scope review.</p>
             </div>
             <div className="faq-item">
               <h3>Can BEG handle year-end W-2 complexity for finance professionals with multiple income types?</h3>
@@ -316,7 +316,7 @@ export default function PayrollFinancePage() {
           {
             category: 'Payroll outsourcing',
             title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
-            excerpt: 'What professional services firms are paying for in-house payroll vs. fully managed outsourcing — and why most are making the switch.',
+            excerpt: 'What professional services firms are paying for in-house payroll vs. fully managed outsourcing -- and why most are making the switch.',
             href: '/blog/payroll/professional-services/accounting',
           },
           {

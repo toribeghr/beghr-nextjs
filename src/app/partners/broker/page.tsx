@@ -74,7 +74,7 @@ export default function BrokerPartnerPage() {
             },
             {
               title: 'HR complexity off your plate',
-              body: 'Clients asking their broker about payroll tax questions, state registration, or W-2 issues are asking the wrong person. Once BEG is managing their payroll, those questions go to us — not you.',
+              body: 'Clients asking their broker about payroll tax questions, state registration, or W-2 issues are asking the wrong person. Once BEG is managing their payroll, those questions go to us -- not you.',
             },
             {
               title: 'Add value without adding services',
@@ -88,7 +88,7 @@ export default function BrokerPartnerPage() {
           ))}
         </div>
 
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>What BEG Does — and Does Not Do</h2>
+        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>What BEG Does -- and Does Not Do</h2>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem', marginBottom: '2.5rem' }}>
           {[
             {
@@ -187,9 +187,9 @@ export default function BrokerPartnerPage() {
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>
           <p style={{ fontWeight: 600, marginBottom: '0.75rem' }}>Related</p>
           <ul style={{ paddingLeft: '1.25rem', lineHeight: '2' }}>
-            <li><Link href="/partners">Partner Program Overview</Link> — all partner types</li>
-            <li><Link href="/services/managed-payroll">Managed Payroll Services</Link> — full service details and pricing</li>
-            <li><Link href="/blog/compare/payroll-manager-vs-outsourcing">Hiring a Payroll Manager vs. Outsourcing</Link> — share with clients considering the switch</li>
+            <li><Link href="/partners">Partner Program Overview</Link> -- all partner types</li>
+            <li><Link href="/services/managed-payroll">Managed Payroll Services</Link> -- full service details and pricing</li>
+            <li><Link href="/blog/compare/payroll-manager-vs-outsourcing">Hiring a Payroll Manager vs. Outsourcing</Link> -- share with clients considering the switch</li>
           </ul>
         </div>
 

@@ -45,7 +45,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* About Us — 500-word section */}
+      {/* About Us -- 500-word section */}
       <section className="section">
         <div className="container" style={{ maxWidth: '860px' }}>
           <div className="head reveal">

@@ -35,7 +35,7 @@ export default function ContactPage() {
               name: 'Contact Business Executive Group',
               url: 'https://beghr.com/contact',
               description:
-                'Contact BEG for managed payroll, HCM software, and job placement services. Call, email, or complete the form — a real person responds the same business day.',
+                'Contact BEG for managed payroll, HCM software, and job placement services. Call, email, or complete the form -- a real person responds the same business day.',
             },
             {
               '@context': 'https://schema.org',

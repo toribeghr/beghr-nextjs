@@ -44,7 +44,7 @@ export default function ManagedPayrollPricingPage() {
             <p className="eyebrow">Your Two Options</p>
             <h2>Same full service. Two ways to run it.</h2>
             <p style={{ marginTop: '0.75rem', color: '#666666', maxWidth: '580px', margin: '0.75rem auto 0', fontSize: '0.97rem', lineHeight: '1.7' }}>
-              The difference is where payroll runs — in your existing system or in BEG's iSolved account. The service scope is identical either way.
+              The difference is where payroll runs -- in your existing system or in BEG's iSolved account. The service scope is identical either way.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function ManagedPayrollPricingPage() {
               <div style={{ fontSize: '0.88rem', color: '#777', marginBottom: '1.25rem' }}>per employee / month</div>
               <strong style={{ display: 'block', fontSize: '1.05rem', marginBottom: '0.6rem' }}>We work in your existing system</strong>
               <p style={{ fontSize: '0.92rem', color: '#555', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-                BEG operates as your managed payroll team inside your current platform — ADP, Gusto, Rippling, QuickBooks Payroll, Paychex, or other. No migration required. You keep your existing software. We run payroll for you from the inside.
+                BEG operates as your managed payroll team inside your current platform -- ADP, Gusto, Rippling, QuickBooks Payroll, Paychex, or other. No migration required. You keep your existing software. We run payroll for you from the inside.
               </p>
               <div style={{ background: '#f9f9f9', borderRadius: '8px', padding: '1rem', fontSize: '0.85rem', color: '#555', marginBottom: '1.5rem', lineHeight: '1.6' }}>
                 <strong style={{ display: 'block', marginBottom: '0.4rem', color: '#000' }}>Best for:</strong>
@@ -83,11 +83,11 @@ export default function ManagedPayrollPricingPage() {
               <div style={{ fontSize: '0.88rem', color: '#777', marginBottom: '1.25rem' }}>per employee / month</div>
               <strong style={{ display: 'block', fontSize: '1.05rem', marginBottom: '0.6rem' }}>We move you to iSolved</strong>
               <p style={{ fontSize: '0.92rem', color: '#555', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-                BEG migrates your payroll to iSolved — a full HCM platform with automated compliance updates, employee self-service, benefits administration, and time tracking beyond basic payroll. Onboarding: 3–5 business days from contract to live payroll.
+                BEG migrates your payroll to iSolved -- a full HCM platform with automated compliance updates, employee self-service, benefits administration, and time tracking beyond basic payroll. Onboarding: 3–5 business days from contract to live payroll.
               </p>
               <div style={{ background: '#fff9ee', border: '1px solid #f0d898', borderRadius: '8px', padding: '1rem', fontSize: '0.85rem', color: '#555', marginBottom: '1.5rem', lineHeight: '1.6' }}>
                 <strong style={{ display: 'block', marginBottom: '0.4rem', color: '#000' }}>Best for:</strong>
-                Companies ready to upgrade to a purpose-built HCM platform and get access to employee self-service, integrated benefits, and automated compliance — not just payroll processing.
+                Companies ready to upgrade to a purpose-built HCM platform and get access to employee self-service, integrated benefits, and automated compliance -- not just payroll processing.
               </div>
               <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ width: '100%', textAlign: 'center', display: 'block', padding: '0.85rem 1rem' }}>
                 Get My Exact Quote
@@ -132,7 +132,7 @@ export default function ManagedPayrollPricingPage() {
                   ['Direct deposit and pay stub delivery', true, true],
                   ['Federal and state tax withholding', true, true],
                   ['Quarterly 941, 940, and SUTA filings', true, true],
-                  ['New hire reporting — all 50 states', true, true],
+                  ['New hire reporting -- all 50 states', true, true],
                   ['Off-cycle and bonus payrolls', true, true],
                   ['Garnishment calculation and remittance', true, true],
                   ['W-2 preparation, filing, and delivery', true, true],
@@ -141,7 +141,7 @@ export default function ManagedPayrollPricingPage() {
                   ['IRS and state notice management', true, true],
                   ['Employee paycheck support (direct to BEG)', true, true],
                   ['Dedicated BEG payroll contact', true, true],
-                  ['Multi-state payroll — all 50 states', true, true],
+                  ['Multi-state payroll -- all 50 states', true, true],
                   ['New state registrations as you grow', true, true],
                   ['iSolved HCM platform access', false, true],
                   ['Employee self-service portal', false, true],
@@ -187,7 +187,7 @@ export default function ManagedPayrollPricingPage() {
                   ['Per-run fees', 'None', 'N/A', '$25–$150/run', 'None (in admin fee)'],
                   ['Year-end W-2 fees', 'None', 'N/A', '$3–$10/W-2', 'None (in admin fee)'],
                   ['State registration fees', 'None', 'N/A', '$150–$400/state', 'None (in admin fee)'],
-                  ['Who does the work', 'BEG — fully managed', 'Your employee', 'You and your team', 'Split between you and PEO'],
+                  ['Who does the work', 'BEG -- fully managed', 'Your employee', 'You and your team', 'Split between you and PEO'],
                   ['Time to first payroll', '3–5 business days', '6–12 weeks to hire', '4–8 weeks to configure', '30–60 days'],
                   ['Contract / lock-in', 'Month-to-month', 'At-will employment', 'Month-to-month or annual', 'Annual minimum'],
                 ].map(([factor, beg, inhouse, software, peo], i) => (
@@ -213,7 +213,7 @@ export default function ManagedPayrollPricingPage() {
               <p className="eyebrow">Run the Numbers</p>
               <h2 style={{ fontSize: '1.5rem', fontWeight: '800', marginBottom: '0.75rem' }}>See your savings before the call.</h2>
               <p style={{ color: '#555', lineHeight: '1.7', fontSize: '0.95rem' }}>
-                Enter your employee count and current payroll method. Get an instant estimate of what you are paying today vs. what BEG costs — and how much you would save annually.
+                Enter your employee count and current payroll method. Get an instant estimate of what you are paying today vs. what BEG costs -- and how much you would save annually.
               </p>
             </div>
             <div style={{ textAlign: 'center' }}>
@@ -236,7 +236,7 @@ export default function ManagedPayrollPricingPage() {
                 Every month you overpay for payroll is a month you do not get back.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.95rem' }}>
-                A payroll manager at $80,000 costs $104,000 per year fully loaded. BEG at $25–$45 PEPM for a 50-person company costs $15,000–$27,000 per year — all-inclusive. The difference compounds every month you stay on your current setup.
+                A payroll manager at $80,000 costs $104,000 per year fully loaded. BEG at $25–$45 PEPM for a 50-person company costs $15,000–$27,000 per year -- all-inclusive. The difference compounds every month you stay on your current setup.
               </p>
             </div>
             <div>
@@ -245,7 +245,7 @@ export default function ManagedPayrollPricingPage() {
                 Get your flat monthly cost in a 15-minute call.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.95rem' }}>
-                We review your headcount, states, pay schedules, and current setup. You walk away with a single number — your exact BEG monthly cost — with nothing excluded and no commitment required.
+                We review your headcount, states, pay schedules, and current setup. You walk away with a single number -- your exact BEG monthly cost -- with nothing excluded and no commitment required.
               </p>
               <Link
                 href={CALENDLY}
@@ -271,15 +271,15 @@ export default function ManagedPayrollPricingPage() {
           <div className="faq reveal">
             <div className="faq-item">
               <h3>Is there a minimum employee count?</h3>
-              <p>No hard minimum. BEG works with companies from 5 employees to several hundred. At very small headcounts the economics tighten, which is why your discovery call confirms the exact rate — we will tell you if a different approach makes more sense for your situation.</p>
+              <p>No hard minimum. BEG works with companies from 5 employees to several hundred. At very small headcounts the economics tighten, which is why your discovery call confirms the exact rate -- we will tell you if a different approach makes more sense for your situation.</p>
             </div>
             <div className="faq-item">
               <h3>Is there a setup fee?</h3>
-              <p>No. There is no onboarding fee, no setup charge, and no implementation fee. The monthly PEPM rate starts when your first live payroll runs. If you are migrating to iSolved (Tier 2), BEG handles the migration — no separate charge.</p>
+              <p>No. There is no onboarding fee, no setup charge, and no implementation fee. The monthly PEPM rate starts when your first live payroll runs. If you are migrating to iSolved (Tier 2), BEG handles the migration -- no separate charge.</p>
             </div>
             <div className="faq-item">
               <h3>Is there a contract or minimum commitment?</h3>
-              <p>BEG operates month-to-month. There is no annual contract requirement and no cancellation fee. Most clients stay because the service works — not because they are locked in.</p>
+              <p>BEG operates month-to-month. There is no annual contract requirement and no cancellation fee. Most clients stay because the service works -- not because they are locked in.</p>
             </div>
             <div className="faq-item">
               <h3>What if my headcount changes month to month?</h3>
@@ -295,11 +295,11 @@ export default function ManagedPayrollPricingPage() {
             </div>
             <div className="faq-item">
               <h3>What is not included?</h3>
-              <p>BEG does not administer health insurance or 401(k) contributions — those remain with your benefits broker and plan administrator. If you need benefits administration added, that is handled through the iSolved platform (Tier 2) as a separate engagement. Everything on the scope table above is included in the PEPM rate.</p>
+              <p>BEG does not administer health insurance or 401(k) contributions -- those remain with your benefits broker and plan administrator. If you need benefits administration added, that is handled through the iSolved platform (Tier 2) as a separate engagement. Everything on the scope table above is included in the PEPM rate.</p>
             </div>
             <div className="faq-item">
               <h3>How do I get my exact monthly cost?</h3>
-              <p>Book a 15-minute discovery call. Your BEG contact reviews your headcount, states, pay frequency, and any complexity (garnishments, commissions, multi-entity) and gives you a flat monthly number during the call. No follow-up proposal, no waiting — a straight number before you leave the call.</p>
+              <p>Book a 15-minute discovery call. Your BEG contact reviews your headcount, states, pay frequency, and any complexity (garnishments, commissions, multi-entity) and gives you a flat monthly number during the call. No follow-up proposal, no waiting -- a straight number before you leave the call.</p>
             </div>
           </div>
         </div>

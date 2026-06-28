@@ -32,7 +32,7 @@ export default function PayrollCostCalculatorPage() {
               Managed Payroll Cost Calculator
             </h1>
             <p style={{ color: '#cccccc', fontSize: '1.05rem', lineHeight: '1.75', maxWidth: '600px', margin: '0 auto' }}>
-              Enter your employee count and current payroll method. See what you are actually spending today — and what BEG's fully managed service costs at $25–$45 per employee per month.
+              Enter your employee count and current payroll method. See what you are actually spending today -- and what BEG's fully managed service costs at $25–$45 per employee per month.
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function PayrollCostCalculatorPage() {
               Get your exact monthly cost in 15 minutes.
             </h2>
             <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem', maxWidth: '560px', margin: '0 auto 2rem' }}>
-              The calculator uses industry averages. Your BEG contact will review your exact headcount, states, pay schedules, and complexity — and give you a flat monthly number with nothing excluded.
+              The calculator uses industry averages. Your BEG contact will review your exact headcount, states, pay schedules, and complexity -- and give you a flat monthly number with nothing excluded.
             </p>
             <Link
               href={CALENDLY}
@@ -82,7 +82,7 @@ export default function PayrollCostCalculatorPage() {
             </div>
             <div className="faq-item">
               <h3>Why is in-house so expensive compared to the calculator?</h3>
-              <p>The in-house estimate includes base salary, employer FICA (7.65%), health insurance contribution, PTO, overhead, and HR management time — all costs that are real but rarely tracked in a single line item. Most companies only see the salary. The total cost of the function is typically 1.25x to 1.4x base salary once all-in costs are included.</p>
+              <p>The in-house estimate includes base salary, employer FICA (7.65%), health insurance contribution, PTO, overhead, and HR management time -- all costs that are real but rarely tracked in a single line item. Most companies only see the salary. The total cost of the function is typically 1.25x to 1.4x base salary once all-in costs are included.</p>
             </div>
             <div className="faq-item">
               <h3>What is included in the $25–$45 PEPM rate?</h3>
@@ -94,7 +94,7 @@ export default function PayrollCostCalculatorPage() {
             </div>
             <div className="faq-item">
               <h3>Can the calculator handle multi-state payroll?</h3>
-              <p>The calculator does not differentiate by state count — BEG covers all 50 states at the same flat rate. Multi-state registrations, state-specific filings, and local tax handling are all included. If you have employees in multiple states, mention that on your discovery call so we can confirm all registrations are in place.</p>
+              <p>The calculator does not differentiate by state count -- BEG covers all 50 states at the same flat rate. Multi-state registrations, state-specific filings, and local tax handling are all included. If you have employees in multiple states, mention that on your discovery call so we can confirm all registrations are in place.</p>
             </div>
             <div className="faq-item">
               <h3>What if my company has more than 250 employees?</h3>

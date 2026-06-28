@@ -29,7 +29,7 @@ export default function PayrollVeterinaryPage() {
       imageAlt="Veterinary practice with fully managed payroll"
       eyebrow="Managed Payroll · Veterinary Practices"
       title="Managed Payroll for Veterinary Practices"
-      description="Production-based associate pay, relief vet 1099s, and technician overtime — all in one managed payroll. Veterinary practices run one of the most complex mixed compensation environments in healthcare, with a growing relief vet market, hourly technicians with overtime, and part-time front office staff all on the same payroll. We manage all of it at $25–$45 per employee per month."
+      description="Production-based associate pay, relief vet 1099s, and technician overtime -- all in one managed payroll. Veterinary practices run one of the most complex mixed compensation environments in healthcare, with a growing relief vet market, hourly technicians with overtime, and part-time front office staff all on the same payroll. We manage all of it at $25–$45 per employee per month."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -43,7 +43,7 @@ export default function PayrollVeterinaryPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">The Payroll Reality for Vet Practices</p>
-            <h2>Four compensation structures running simultaneously — any one of them can break payroll.</h2>
+            <h2>Four compensation structures running simultaneously -- any one of them can break payroll.</h2>
           </div>
           <div className="beg-grid-3 reveal">
             {
@@ -51,7 +51,7 @@ export default function PayrollVeterinaryPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Production pay</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Associate vet compensation requires integrating production data into every pay cycle</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Most associate vets earn a base salary plus a production percentage — typically 18–25% of revenue they generate. Calculating it correctly requires pulling production figures from your practice management software, applying the right percentage, and reconciling adjustments every cycle.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Most associate vets earn a base salary plus a production percentage -- typically 18–25% of revenue they generate. Calculating it correctly requires pulling production figures from your practice management software, applying the right percentage, and reconciling adjustments every cycle.</div>
                 </div>
               ))()
             }
@@ -110,8 +110,8 @@ export default function PayrollVeterinaryPage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Scope review', body: 'We map your associate production pay structure, relief vet agreements, tech overtime rules, and front office roster. You get a fixed monthly cost before we start.' },
-              { num: '02', title: 'Payroll configuration', body: 'We configure production pay data pulls, relief vet classification review, overtime calculations, and multi-state registrations if applicable. No migration required — we work in your existing system.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every state filing, every production percentage calculation, every 1099-NEC — fully managed by BEG. Your team approves, we execute.' },
+              { num: '02', title: 'Payroll configuration', body: 'We configure production pay data pulls, relief vet classification review, overtime calculations, and multi-state registrations if applicable. No migration required -- we work in your existing system.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every state filing, every production percentage calculation, every 1099-NEC -- fully managed by BEG. Your team approves, we execute.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#ffffff', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -136,7 +136,7 @@ export default function PayrollVeterinaryPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "We do not want to disrupt our practice management or payroll software."',
-                body: 'We do not require you to switch software. BEG operates as your managed payroll team inside your current system — whether that is AviMark, Cornerstone, ezyVet, or a standalone payroll platform. If you want to move to iSolved for a better experience, we can handle that transition, but it is never a requirement.',
+                body: 'We do not require you to switch software. BEG operates as your managed payroll team inside your current system -- whether that is AviMark, Cornerstone, ezyVet, or a standalone payroll platform. If you want to move to iSolved for a better experience, we can handle that transition, but it is never a requirement.',
               },
               {
                 badge: 'Bonus 02',
@@ -148,7 +148,7 @@ export default function PayrollVeterinaryPage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact who understands vet practice compensation.',
                 objection: 'Common objection: "Generic payroll support does not understand production pay or relief vet arrangements."',
-                body: 'Your BEG payroll specialist is your ongoing point of contact. When your production percentage changes, when you add a relief vet, or when you open a second location — one message to your BEG contact handles it. No call center, no ticket queue, no explaining your practice structure from scratch each time.',
+                body: 'Your BEG payroll specialist is your ongoing point of contact. When your production percentage changes, when you add a relief vet, or when you open a second location -- one message to your BEG contact handles it. No call center, no ticket queue, no explaining your practice structure from scratch each time.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -175,10 +175,10 @@ export default function PayrollVeterinaryPage() {
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
-              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your associate pay structure, relief vet arrangements, tech overtime, and multi-location setup — and give you a fixed monthly price.' },
+              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your associate pay structure, relief vet arrangements, tech overtime, and multi-location setup -- and give you a fixed monthly price.' },
               { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, staff roster and relief vet agreements reviewed.' },
               { day: 'Days 2–4', title: 'Configuration', body: 'Production pay integration, relief vet classification review, and overtime calculations configured in your existing system.' },
-              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed veterinary pay run — BEG executes, your team approves. No migration required.' },
+              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed veterinary pay run -- BEG executes, your team approves. No migration required.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
                 <div style={{ fontSize: '0.8rem', fontWeight: '700', color: '#ECAC60', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{day}</div>
@@ -197,19 +197,19 @@ export default function PayrollVeterinaryPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>A single relief vet reclassification audit costs more than years of managed payroll.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>IRS reclassification of independent contractors to W-2 employees triggers back payroll taxes, both the employer and employee share, plus penalties and interest. For a practice that has paid five relief vets as 1099 over three years, the exposure can easily exceed $50,000. Fully managed payroll at $25–$45 PEPM on a 15-person practice costs under $9,000 per year — including the protection.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>IRS reclassification of independent contractors to W-2 employees triggers back payroll taxes, both the employer and employee share, plus penalties and interest. For a practice that has paid five relief vets as 1099 over three years, the exposure can easily exceed $50,000. Fully managed payroll at $25–$45 PEPM on a 15-person practice costs under $9,000 per year -- including the protection.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix production pay calculations is before your next associate dispute.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Clean quarter-start cutovers require starting the scope review now. Every cycle you run production pay manually is a cycle where an error can create an associate compensation dispute — one of the top reasons veterinary associate turnover happens.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Clean quarter-start cutovers require starting the scope review now. Every cycle you run production pay manually is a cycle where an error can create an associate compensation dispute -- one of the top reasons veterinary associate turnover happens.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
             <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
               Request a Free Scope Review
             </Link>
-            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your production pay structure, relief vet situation, and staff roster — and give you a fixed monthly cost.</p>
+            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your production pay structure, relief vet situation, and staff roster -- and give you a fixed monthly cost.</p>
           </div>
         </div>
       </section>
@@ -224,7 +224,7 @@ export default function PayrollVeterinaryPage() {
           <div className="faq reveal">
             <div className="faq-item">
               <h3>Can you handle production-based compensation for associate vets?</h3>
-              <p>Yes. We integrate with your practice management system to pull production figures each pay cycle, apply the correct percentage, handle adjustments, and reconcile the calculation before payroll runs. Production pay errors are one of the most common associate retention issues — we eliminate them.</p>
+              <p>Yes. We integrate with your practice management system to pull production figures each pay cycle, apply the correct percentage, handle adjustments, and reconcile the calculation before payroll runs. Production pay errors are one of the most common associate retention issues -- we eliminate them.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle relief vet 1099 versus W-2 situations?</h3>
@@ -248,11 +248,11 @@ export default function PayrollVeterinaryPage() {
             </div>
             <div className="faq-item">
               <h3>What if we expand to a second clinic in a different state?</h3>
-              <p>Multi-state practice expansion is part of what we manage. We register in the new state, handle separate withholding requirements, and incorporate the new location into your existing managed payroll engagement. You get consolidated billing and reporting across all locations at the same per-employee rate — no new contracts, no additional setup fees.</p>
+              <p>Multi-state practice expansion is part of what we manage. We register in the new state, handle separate withholding requirements, and incorporate the new location into your existing managed payroll engagement. You get consolidated billing and reporting across all locations at the same per-employee rate -- no new contracts, no additional setup fees.</p>
             </div>
             <div className="faq-item">
               <h3>How long does it take to transition to managed veterinary payroll?</h3>
-              <p>From signed agreement to live payroll: 3–5 business days. We configure your production pay structure, review relief vet classifications, and set up everything in your existing system. The first payroll under BEG management runs the week after onboarding — no disruption to your practice schedule or your staff.</p>
+              <p>From signed agreement to live payroll: 3–5 business days. We configure your production pay structure, review relief vet classifications, and set up everything in your existing system. The first payroll under BEG management runs the week after onboarding -- no disruption to your practice schedule or your staff.</p>
             </div>
           </div>
         </div>

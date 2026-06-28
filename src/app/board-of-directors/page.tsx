@@ -2,19 +2,19 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Board of Directors | Business Executive Group',
-  description: 'Meet the BEG board — leaders in HR, finance, sales, insurance, and cybersecurity serving our 1,500+ member entrepreneur network in Dallas-Fort Worth.',
+  description: 'Meet the BEG board -- leaders in HR, finance, sales, insurance, and cybersecurity serving our 1,500+ member entrepreneur network in Dallas-Fort Worth.',
   alternates: {
     canonical: 'https://beghr.com/board-of-directors',
   },
   openGraph: {
     title: 'Board of Directors | Business Executive Group',
-    description: 'Meet the BEG board — leaders in HR, finance, sales, insurance, and cybersecurity serving our 1,500+ member entrepreneur network in Dallas-Fort Worth.',
+    description: 'Meet the BEG board -- leaders in HR, finance, sales, insurance, and cybersecurity serving our 1,500+ member entrepreneur network in Dallas-Fort Worth.',
     url: 'https://beghr.com/board-of-directors',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group Board of Directors' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Board of Directors | Business Executive Group', description: 'Meet the BEG board — leaders in HR, finance, sales, insurance, and cybersecurity serving our 1,500+ member entrepreneur network in Dallas-Fort Worth.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Board of Directors | Business Executive Group', description: 'Meet the BEG board -- leaders in HR, finance, sales, insurance, and cybersecurity serving our 1,500+ member entrepreneur network in Dallas-Fort Worth.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const board = [
@@ -66,7 +66,7 @@ export default function BoardOfDirectorsPage() {
             <p className="eyebrow">Leadership</p>
             <h1>Board of Directors</h1>
             <p className="lede" style={{ margin: '18px 0 0' }}>
-              Our board brings deep expertise across business operations, HR, finance, insurance, cybersecurity, and sales — united by a commitment to serving the DFW entrepreneur community.
+              Our board brings deep expertise across business operations, HR, finance, insurance, cybersecurity, and sales -- united by a commitment to serving the DFW entrepreneur community.
             </p>
           </div>
         </div>

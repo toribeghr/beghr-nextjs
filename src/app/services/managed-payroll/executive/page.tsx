@@ -29,7 +29,7 @@ export default function PayrollExecutivePage() {
       imageAlt="Organization with executive compensation managed payroll"
       eyebrow="Managed Payroll · Executive"
       title="Executive compensation requires discretion and precision."
-      description="Deferred compensation plans, executive benefit structures, non-qualified plans, and complex bonus arrangements require a payroll partner who understands how to handle them — accurately and discreetly. We manage executive payroll at $25–$45 per employee per month."
+      description="Deferred compensation plans, executive benefit structures, non-qualified plans, and complex bonus arrangements require a payroll partner who understands how to handle them -- accurately and discreetly. We manage executive payroll at $25–$45 per employee per month."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -86,9 +86,9 @@ export default function PayrollExecutivePage() {
           </div>
           <div className="beg-grid-3 reveal">
             {[
-              { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost — no surprises.' },
-              { num: '02', title: 'We document your NQDC plans, deferred comp elections, executive benefit structures, and access restrictions before processing a single payroll cycle.', body: 'We configure and run your first payroll cycles. No migration required — we work in your existing system. Transition takes 30–60 days.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update — fully managed by BEG. Your team touches nothing.' },
+              { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost -- no surprises.' },
+              { num: '02', title: 'We document your NQDC plans, deferred comp elections, executive benefit structures, and access restrictions before processing a single payroll cycle.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30–60 days.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update -- fully managed by BEG. Your team touches nothing.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -105,7 +105,7 @@ export default function PayrollExecutivePage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Compliance Requirements</p>
-            <h2>What executive compensation payroll actually requires — and where generic vendors fail</h2>
+            <h2>What executive compensation payroll actually requires -- and where generic vendors fail</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
             <div>
@@ -113,20 +113,20 @@ export default function PayrollExecutivePage() {
               <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Non-qualified deferred compensation (NQDC) plans allow executives to defer salary and bonus into a future tax year. IRC Section 409A governs these plans strictly: timing elections must be made before the calendar year in which the compensation is earned (with narrow exceptions), and distributions must follow a fixed schedule or triggering event specified in the plan document. If an election is missed, voided, or improperly structured, the entire deferred balance becomes immediately taxable plus a 20% excise tax plus interest. Payroll must coordinate with the NQDC plan document and the plan administrator on every deferral election and every distribution event to ensure the correct amounts are processed on the correct dates.</p>
             </div>
             <div>
-              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Equity compensation payroll — RSU vesting and option exercises</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When restricted stock units vest, the fair market value of the shares on the vest date is ordinary income subject to federal withholding, FICA, Medicare, and state income tax withholding. The company must withhold taxes at the time of vesting — typically through a sell-to-cover arrangement or flat supplemental rate withholding — and remit to the IRS with the next scheduled payroll deposit. Non-qualified stock option (NQSO) exercises create the same event: the spread between the exercise price and fair market value is ordinary income requiring immediate payroll withholding. Missing the withholding window or applying the wrong rate creates a payroll tax restatement and potential penalties.</p>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Equity compensation payroll -- RSU vesting and option exercises</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When restricted stock units vest, the fair market value of the shares on the vest date is ordinary income subject to federal withholding, FICA, Medicare, and state income tax withholding. The company must withhold taxes at the time of vesting -- typically through a sell-to-cover arrangement or flat supplemental rate withholding -- and remit to the IRS with the next scheduled payroll deposit. Non-qualified stock option (NQSO) exercises create the same event: the spread between the exercise price and fair market value is ordinary income requiring immediate payroll withholding. Missing the withholding window or applying the wrong rate creates a payroll tax restatement and potential penalties.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Executive fringe benefits and imputed income</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Several common executive benefits create taxable income that must be added to W-2 gross wages: group term life insurance above $50,000 face value (using IRS Table I rates), personal use of a company vehicle (calculated using the annual lease value or cents-per-mile method), employer-paid club memberships (fully imputed unless the club is used primarily for business), and certain supplemental executive retirement plan (SERP) benefits. Each of these has a different valuation method and a different inclusion timing. A payroll partner who does not understand the fringe benefit rules will either understate executive W-2 income — creating audit exposure — or handle them inconsistently across the executive team.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Several common executive benefits create taxable income that must be added to W-2 gross wages: group term life insurance above $50,000 face value (using IRS Table I rates), personal use of a company vehicle (calculated using the annual lease value or cents-per-mile method), employer-paid club memberships (fully imputed unless the club is used primarily for business), and certain supplemental executive retirement plan (SERP) benefits. Each of these has a different valuation method and a different inclusion timing. A payroll partner who does not understand the fringe benefit rules will either understate executive W-2 income -- creating audit exposure -- or handle them inconsistently across the executive team.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Change-of-control and golden parachute gross-up calculations</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>IRC Section 280G imposes a 20% excise tax on "excess parachute payments" — compensation paid in connection with a change of control that exceeds one times the executive's average annual compensation over the preceding five years. When a transaction is anticipated, payroll must coordinate with legal and tax advisors to calculate the 280G exposure for each covered executive, apply any gross-up provisions contained in their employment agreements, and ensure the correct withholding is applied to parachute payments when they are made. This is a low-frequency but high-dollar event where a payroll error has significant consequences.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>IRC Section 280G imposes a 20% excise tax on "excess parachute payments" -- compensation paid in connection with a change of control that exceeds one times the executive's average annual compensation over the preceding five years. When a transaction is anticipated, payroll must coordinate with legal and tax advisors to calculate the 280G exposure for each covered executive, apply any gross-up provisions contained in their employment agreements, and ensure the correct withholding is applied to parachute payments when they are made. This is a low-frequency but high-dollar event where a payroll error has significant consequences.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Access controls and discretion in executive payroll processing</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>C-suite and board member compensation should not flow through the same payroll system access that HR generalists use for regular employee records. Total compensation for senior executives — including base salary, deferred comp balances, equity grant values, and benefits — is sensitive information that should be restricted to a narrow group. BEG processes executive payroll under a restricted-access model, separate from general employee payroll workflows, with access limited to designated contacts on both sides.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>C-suite and board member compensation should not flow through the same payroll system access that HR generalists use for regular employee records. Total compensation for senior executives -- including base salary, deferred comp balances, equity grant values, and benefits -- is sensitive information that should be restricted to a narrow group. BEG processes executive payroll under a restricted-access model, separate from general employee payroll workflows, with access limited to designated contacts on both sides.</p>
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ export default function PayrollExecutivePage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Switching payroll systems is too disruptive."',
-                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team inside your current system. If you want to move to a better platform, we can handle that too — but it is never a requirement to get started.',
+                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team inside your current system. If you want to move to a better platform, we can handle that too -- but it is never a requirement to get started.',
               },
               {
                 badge: 'Bonus 02',
@@ -182,7 +182,7 @@ export default function PayrollExecutivePage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact. Not a support queue.',
                 objection: 'Common objection: "Payroll vendors disappear after onboarding."',
-                body: 'Your BEG payroll specialist is your ongoing contact. When something changes — a new hire, a state registration, a compliance update — you send one message. There is no ticket queue, no chatbot, and no calling a 1-800 number. Your team has a real person who knows your account.',
+                body: 'Your BEG payroll specialist is your ongoing contact. When something changes -- a new hire, a state registration, a compliance update -- you send one message. There is no ticket queue, no chatbot, and no calling a 1-800 number. Your team has a real person who knows your account.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -207,12 +207,12 @@ export default function PayrollExecutivePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every month you wait is money you are not getting back.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your executive team costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$45 PEPM on a 50-person team costs $15,000–$21,000 per year. Executive compensation errors — missed 409A elections, late NQDC distributions, or incorrect withholding on executive benefits — create significant tax liability and potential IRS scrutiny.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your executive team costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$45 PEPM on a 50-person team costs $15,000–$21,000 per year. Executive compensation errors -- missed 409A elections, late NQDC distributions, or incorrect withholding on executive benefits -- create significant tax liability and potential IRS scrutiny.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before the next quarter starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 — the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -254,19 +254,19 @@ export default function PayrollExecutivePage() {
             </div>
             <div className="faq-item">
               <h3>What happens if a 409A election is missed or improperly structured?</h3>
-              <p>Under IRC Section 409A, an improperly structured deferred compensation arrangement causes the entire deferred amount to become immediately taxable plus a 20% excise tax plus interest — regardless of whether the executive has received the funds. BEG coordinates every NQDC deferral and distribution event with your plan document and administrator to prevent timing errors.</p>
+              <p>Under IRC Section 409A, an improperly structured deferred compensation arrangement causes the entire deferred amount to become immediately taxable plus a 20% excise tax plus interest -- regardless of whether the executive has received the funds. BEG coordinates every NQDC deferral and distribution event with your plan document and administrator to prevent timing errors.</p>
             </div>
             <div className="faq-item">
               <h3>How does BEG handle payroll withholding on RSU vesting events?</h3>
-              <p>When shares vest, BEG processes the supplemental payroll withholding on the spread (shares times fair market value on vest date) as ordinary income. We coordinate the withholding method — sell-to-cover or flat supplemental rate — with your equity plan administrator and remit withholding with the next scheduled payroll deposit. The vesting income is reflected on the executive W-2.</p>
+              <p>When shares vest, BEG processes the supplemental payroll withholding on the spread (shares times fair market value on vest date) as ordinary income. We coordinate the withholding method -- sell-to-cover or flat supplemental rate -- with your equity plan administrator and remit withholding with the next scheduled payroll deposit. The vesting income is reflected on the executive W-2.</p>
             </div>
             <div className="faq-item">
               <h3>Can BEG process executive payroll separately from our general employee payroll?</h3>
-              <p>Yes. BEG manages executive payroll under a restricted-access model, separate from the general employee payroll workflow. Compensation details for C-suite and board members are handled with access limited to designated contacts on both sides — not routed through standard HR workflows.</p>
+              <p>Yes. BEG manages executive payroll under a restricted-access model, separate from the general employee payroll workflow. Compensation details for C-suite and board members are handled with access limited to designated contacts on both sides -- not routed through standard HR workflows.</p>
             </div>
             <div className="faq-item">
               <h3>Does BEG handle the imputed income calculation for executive fringe benefits?</h3>
-              <p>Yes. BEG calculates imputed income for common executive fringe benefits — group term life above $50K, personal vehicle use, club memberships, and SERP contributions — and adds them to W-2 gross wages using the correct IRS valuation method for each benefit type.</p>
+              <p>Yes. BEG calculates imputed income for common executive fringe benefits -- group term life above $50K, personal vehicle use, club memberships, and SERP contributions -- and adds them to W-2 gross wages using the correct IRS valuation method for each benefit type.</p>
             </div>
           </div>
         </div>
@@ -322,7 +322,7 @@ export default function PayrollExecutivePage() {
           {
             category: 'Payroll outsourcing',
             title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
-            excerpt: 'What professional services firms are paying for in-house payroll vs. fully managed outsourcing — and why the math usually favors outsourcing.',
+            excerpt: 'What professional services firms are paying for in-house payroll vs. fully managed outsourcing -- and why the math usually favors outsourcing.',
             href: '/blog/payroll/professional-services/accounting',
           },
         ]}

@@ -29,7 +29,7 @@ export default function PayrollHomeHealthPage() {
       imageAlt="Home health agency with fully managed caregiver payroll"
       eyebrow="Managed Payroll · Home Health Agencies"
       title="Managed Payroll for Home Health Agencies"
-      description="Home care payroll has FLSA rules most agencies are still getting wrong. In 2015, the DOL eliminated the companionship exemption for third-party home health employers — meaning most home care agencies can no longer exempt caregivers from minimum wage and overtime. Many agencies have not updated their payroll accordingly. We manage home health payroll correctly at $25–$45 per employee per month, including FLSA compliance, live-in aide rules, and Medicaid wage requirements."
+      description="Home care payroll has FLSA rules most agencies are still getting wrong. In 2015, the DOL eliminated the companionship exemption for third-party home health employers -- meaning most home care agencies can no longer exempt caregivers from minimum wage and overtime. Many agencies have not updated their payroll accordingly. We manage home health payroll correctly at $25–$45 per employee per month, including FLSA compliance, live-in aide rules, and Medicaid wage requirements."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -51,7 +51,7 @@ export default function PayrollHomeHealthPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>2015 DOL rule</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>The companionship exemption no longer applies to third-party home health employers</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Prior to 2015, home health agencies could exempt direct care workers from FLSA minimum wage and overtime using the companionship services exemption. That changed. Third-party employers — meaning agencies, not individual households — can no longer use this exemption. Caregivers must be paid minimum wage and overtime. Many agencies still have not updated their pay practices.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Prior to 2015, home health agencies could exempt direct care workers from FLSA minimum wage and overtime using the companionship services exemption. That changed. Third-party employers -- meaning agencies, not individual households -- can no longer use this exemption. Caregivers must be paid minimum wage and overtime. Many agencies still have not updated their pay practices.</div>
                 </div>
               ))()
             }
@@ -60,7 +60,7 @@ export default function PayrollHomeHealthPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Live-in rules</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Live-in domestic workers have different overtime calculations under FLSA</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Live-in aides are entitled to FLSA protections but overtime calculations differ: employers may exclude sleep time, meal breaks, and off-duty periods under specific FLSA rules if documented correctly. Applying standard overtime calculations to live-in employees — or ignoring their overtime entirely — both create wage exposure.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Live-in aides are entitled to FLSA protections but overtime calculations differ: employers may exclude sleep time, meal breaks, and off-duty periods under specific FLSA rules if documented correctly. Applying standard overtime calculations to live-in employees -- or ignoring their overtime entirely -- both create wage exposure.</div>
                 </div>
               ))()
             }
@@ -110,8 +110,8 @@ export default function PayrollHomeHealthPage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Scope review', body: 'We map your caregiver roster, live-in arrangements, travel time policies, Medicaid client ratio, and current overtime practices. You get a fixed monthly cost and a compliance gap report before we start.' },
-              { num: '02', title: 'Payroll configuration', body: 'We correct your FLSA overtime calculations, document live-in agreements, set up Medicaid wage tracking, and configure state registrations. No migration required — we work in your existing system.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every overtime calculation, every state filing, and every Medicaid wage record — fully managed by BEG. Your team approves, we execute.' },
+              { num: '02', title: 'Payroll configuration', body: 'We correct your FLSA overtime calculations, document live-in agreements, set up Medicaid wage tracking, and configure state registrations. No migration required -- we work in your existing system.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every overtime calculation, every state filing, and every Medicaid wage record -- fully managed by BEG. Your team approves, we execute.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#ffffff', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -148,7 +148,7 @@ export default function PayrollHomeHealthPage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact who understands home care payroll law.',
                 objection: 'Common objection: "Generic payroll support does not understand the 2015 DOL companionship rule change or live-in aide FLSA rules."',
-                body: 'Your BEG payroll specialist is your ongoing contact. When your state updates its Medicaid wage requirements, when you add live-in clients, or when a DOL inquiry arrives — one message to your BEG contact handles it.',
+                body: 'Your BEG payroll specialist is your ongoing contact. When your state updates its Medicaid wage requirements, when you add live-in clients, or when a DOL inquiry arrives -- one message to your BEG contact handles it.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -175,10 +175,10 @@ export default function PayrollHomeHealthPage() {
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
-              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your caregiver roster, live-in arrangements, travel time policies, and Medicaid client ratio — and give you a fixed monthly price.' },
+              { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your caregiver roster, live-in arrangements, travel time policies, and Medicaid client ratio -- and give you a fixed monthly price.' },
               { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, EVV and scheduling access granted, caregiver roster and overtime practices reviewed.' },
               { day: 'Days 2–4', title: 'Configuration', body: 'FLSA overtime corrections, live-in aide documentation, and Medicaid wage tracking configured in your existing system.' },
-              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed, FLSA-compliant home health pay run — BEG executes, your team approves.' },
+              { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed, FLSA-compliant home health pay run -- BEG executes, your team approves.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
                 <div style={{ fontSize: '0.8rem', fontWeight: '700', color: '#ECAC60', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{day}</div>
@@ -202,14 +202,14 @@ export default function PayrollHomeHealthPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix caregiver payroll is before a state licensing audit.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>State licensing renewals and Medicaid compliance reviews increasingly include payroll documentation. Getting compliant before your next renewal window requires starting now — transitions take 30–60 days and we do a compliance gap review as part of the scope process.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>State licensing renewals and Medicaid compliance reviews increasingly include payroll documentation. Getting compliant before your next renewal window requires starting now -- transitions take 30–60 days and we do a compliance gap review as part of the scope process.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
             <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
               Request a Free Scope Review
             </Link>
-            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your caregiver payroll, FLSA practices, and Medicaid compliance — and give you a fixed monthly cost.</p>
+            <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your caregiver payroll, FLSA practices, and Medicaid compliance -- and give you a fixed monthly cost.</p>
           </div>
         </div>
       </section>
@@ -224,11 +224,11 @@ export default function PayrollHomeHealthPage() {
           <div className="faq reveal">
             <div className="faq-item">
               <h3>Are our caregivers still exempt from overtime under the companionship exemption?</h3>
-              <p>If your agency is a third-party employer — meaning you employ the caregiver and place them with clients — then no. The DOL eliminated the companionship exemption for third-party employers in 2015. Your caregivers are entitled to federal minimum wage and overtime. We review your current practices and correct any gaps as part of onboarding.</p>
+              <p>If your agency is a third-party employer -- meaning you employ the caregiver and place them with clients -- then no. The DOL eliminated the companionship exemption for third-party employers in 2015. Your caregivers are entitled to federal minimum wage and overtime. We review your current practices and correct any gaps as part of onboarding.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle overtime for live-in aides?</h3>
-              <p>Live-in domestic workers have specific FLSA rules that allow exclusion of sleep time, meal periods, and off-duty time from compensable hours — if documented correctly with written agreements. We set up the correct documentation and apply the live-in overtime rules specific to your state, which may be more protective than federal law.</p>
+              <p>Live-in domestic workers have specific FLSA rules that allow exclusion of sleep time, meal periods, and off-duty time from compensable hours -- if documented correctly with written agreements. We set up the correct documentation and apply the live-in overtime rules specific to your state, which may be more protective than federal law.</p>
             </div>
             <div className="faq-item">
               <h3>Can you track Medicaid versus private-pay clients for wage compliance?</h3>
@@ -244,15 +244,15 @@ export default function PayrollHomeHealthPage() {
             </div>
             <div className="faq-item">
               <h3>How do you handle travel time pay between client visits?</h3>
-              <p>Travel time between client visits is compensable work time under FLSA and must be included in hours for overtime purposes. Many home health agencies exclude travel time from hourly calculations — that is an FLSA violation. We include travel time in your overtime calculations, set up the tracking process, and make sure every caregiver's total compensable hours are correctly calculated each pay cycle.</p>
+              <p>Travel time between client visits is compensable work time under FLSA and must be included in hours for overtime purposes. Many home health agencies exclude travel time from hourly calculations -- that is an FLSA violation. We include travel time in your overtime calculations, set up the tracking process, and make sure every caregiver's total compensable hours are correctly calculated each pay cycle.</p>
             </div>
             <div className="faq-item">
               <h3>What if our agency operates in multiple states?</h3>
-              <p>Multi-state home health agencies are managed as a single engagement. We handle state-specific wage requirements, Medicaid wage compliance for each state program, and payroll tax registrations and filings in every state you operate. Some states have home care wage requirements that exceed federal FLSA minimums — we apply whichever standard is higher for each caregiver in each state.</p>
+              <p>Multi-state home health agencies are managed as a single engagement. We handle state-specific wage requirements, Medicaid wage compliance for each state program, and payroll tax registrations and filings in every state you operate. Some states have home care wage requirements that exceed federal FLSA minimums -- we apply whichever standard is higher for each caregiver in each state.</p>
             </div>
             <div className="faq-item">
               <h3>How long does it take to correct FLSA issues and get started with managed home health payroll?</h3>
-              <p>From signed agreement to compliant managed payroll: 3–5 business days. The scope call identifies your current compliance gaps. Configuration corrects overtime calculations, sets up live-in aide documentation, and puts Medicaid wage tracking in place. Your first managed pay cycle runs correctly — fixing what was wrong without disrupting your caregiving operations.</p>
+              <p>From signed agreement to compliant managed payroll: 3–5 business days. The scope call identifies your current compliance gaps. Configuration corrects overtime calculations, sets up live-in aide documentation, and puts Medicaid wage tracking in place. Your first managed pay cycle runs correctly -- fixing what was wrong without disrupting your caregiving operations.</p>
             </div>
           </div>
         </div>
@@ -296,7 +296,7 @@ export default function PayrollHomeHealthPage() {
           {
             category: 'Payroll outsourcing',
             title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies',
-            excerpt: 'What home health operators spend on internal payroll vs. what outsourcing costs — including EVV reconciliation, Medicaid reporting, and compliance coverage.',
+            excerpt: 'What home health operators spend on internal payroll vs. what outsourcing costs -- including EVV reconciliation, Medicaid reporting, and compliance coverage.',
             href: '/blog/payroll/home-health/managed-payroll-vs-in-house',
           },
         ]}

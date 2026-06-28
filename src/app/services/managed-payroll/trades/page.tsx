@@ -29,7 +29,7 @@ export default function PayrollTradesPage() {
       imageAlt="Skilled trades or manufacturing operation with managed payroll"
       eyebrow="Managed Payroll · Skilled Trades"
       title="Union payroll and certified reporting should not slow your operation."
-      description="Union agreements, prevailing wage requirements, multi-site workforce management, and certified payroll reporting make trades payroll one of the most complex in any industry. We manage all of it at $25–$45 per employee per month — fully managed, nothing for your team to touch."
+      description="Union agreements, prevailing wage requirements, multi-site workforce management, and certified payroll reporting make trades payroll one of the most complex in any industry. We manage all of it at $25–$45 per employee per month -- fully managed, nothing for your team to touch."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -51,7 +51,7 @@ export default function PayrollTradesPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Union CBA</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Collective bargaining agreements create non-negotiable payroll rules</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Union contract terms — wage rates, overtime rules, fringe benefits — must be calculated exactly right on every pay cycle.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Union contract terms -- wage rates, overtime rules, fringe benefits -- must be calculated exactly right on every pay cycle.</div>
                 </div>
               ))()
             }
@@ -86,9 +86,9 @@ export default function PayrollTradesPage() {
           </div>
           <div className="beg-grid-3 reveal">
             {[
-              { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost — no surprises.' },
-              { num: '02', title: 'We review your union CBAs, prevailing wage schedules, and multi-site project roster before processing your first managed payroll cycle.', body: 'We configure and run your first payroll cycles. No migration required — we work in your existing system. Transition takes 30–60 days.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update — fully managed by BEG. Your team touches nothing.' },
+              { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost -- no surprises.' },
+              { num: '02', title: 'We review your union CBAs, prevailing wage schedules, and multi-site project roster before processing your first managed payroll cycle.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30–60 days.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update -- fully managed by BEG. Your team touches nothing.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -105,28 +105,28 @@ export default function PayrollTradesPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Compliance Requirements</p>
-            <h2>Union payroll, Davis-Bacon, and certified reporting — what skilled trades payroll actually involves</h2>
+            <h2>Union payroll, Davis-Bacon, and certified reporting -- what skilled trades payroll actually involves</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
             <div>
-              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Davis-Bacon wages and union CBA wages — these are different obligations</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Davis-Bacon prevailing wage rates are set by the Department of Labor for specific job classifications on federally funded or federally assisted construction projects. Union wages are set by collective bargaining agreements negotiated between the employer (or employer association) and the union local. These are independent obligations. On a federal project where workers are also union members, both requirements may apply simultaneously — and the higher of the two rates must be paid. On a non-federal project, only the union CBA rate applies. On a project without federal funding and without union workers, neither applies. Payroll must correctly identify which rate applies to each employee on each project and apply it without conflating the two frameworks.</p>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Davis-Bacon wages and union CBA wages -- these are different obligations</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Davis-Bacon prevailing wage rates are set by the Department of Labor for specific job classifications on federally funded or federally assisted construction projects. Union wages are set by collective bargaining agreements negotiated between the employer (or employer association) and the union local. These are independent obligations. On a federal project where workers are also union members, both requirements may apply simultaneously -- and the higher of the two rates must be paid. On a non-federal project, only the union CBA rate applies. On a project without federal funding and without union workers, neither applies. Payroll must correctly identify which rate applies to each employee on each project and apply it without conflating the two frameworks.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fringe benefit fund remittances to union trust funds</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Under most construction union CBAs, the employer owes separate contributions to the union trust funds for every hour worked by a union member: the health and welfare fund, the pension or annuity fund, the apprenticeship and training fund, and the industry promotion fund. These are calculated as a fixed dollar amount per hour worked — not as a percentage of wages — and must be remitted to the trust fund administrator on a schedule set by the CBA, typically monthly or weekly. Remittances must be accompanied by a detailed remittance report listing each member, their hours worked, and the contributions owed. Late remittances trigger interest charges and potential grievances. BEG manages fringe fund remittances separately from wage payroll and produces the required remittance reports for each trust fund on the required schedule.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Under most construction union CBAs, the employer owes separate contributions to the union trust funds for every hour worked by a union member: the health and welfare fund, the pension or annuity fund, the apprenticeship and training fund, and the industry promotion fund. These are calculated as a fixed dollar amount per hour worked -- not as a percentage of wages -- and must be remitted to the trust fund administrator on a schedule set by the CBA, typically monthly or weekly. Remittances must be accompanied by a detailed remittance report listing each member, their hours worked, and the contributions owed. Late remittances trigger interest charges and potential grievances. BEG manages fringe fund remittances separately from wage payroll and produces the required remittance reports for each trust fund on the required schedule.</p>
             </div>
             <div>
-              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Multi-local union scenarios — when work crosses jurisdictions</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When a contractor sends workers from one union local to a project in another local jurisdiction, the work may be covered by the host local agreement rather than the home local agreement. This can require the contractor to sign a letter of assent with the host local, pay the host local wage rates (which may differ from the home local rates), and contribute to the host local trust funds for hours worked in the jurisdiction. Managing multi-local obligations requires tracking not just where each worker is classified but where each hour of work is performed — and applying the correct agreement for that location. BEG tracks project location alongside hours worked to ensure the correct CBA applies to each worker on each project.</p>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Multi-local union scenarios -- when work crosses jurisdictions</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When a contractor sends workers from one union local to a project in another local jurisdiction, the work may be covered by the host local agreement rather than the home local agreement. This can require the contractor to sign a letter of assent with the host local, pay the host local wage rates (which may differ from the home local rates), and contribute to the host local trust funds for hours worked in the jurisdiction. Managing multi-local obligations requires tracking not just where each worker is classified but where each hour of work is performed -- and applying the correct agreement for that location. BEG tracks project location alongside hours worked to ensure the correct CBA applies to each worker on each project.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Apprentice-to-journeyman wage rate progression</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Union CBAs specify different wage rates for apprentices at each level of their apprenticeship program — typically expressed as a percentage of journeyman wages (40%, 50%, 60%, 70%, 80%, 90%) depending on completion of the program. When an apprentice progresses to the next level, their rate must be updated before the next payroll cycle. CBAs also set maximum ratios of apprentices to journeymen on any project, and violating the ratio creates a grievance exposure. BEG tracks each apprentice membership status, updates rates at each progression milestone, and monitors apprentice-to-journeyman ratios on active projects.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Union CBAs specify different wage rates for apprentices at each level of their apprenticeship program -- typically expressed as a percentage of journeyman wages (40%, 50%, 60%, 70%, 80%, 90%) depending on completion of the program. When an apprentice progresses to the next level, their rate must be updated before the next payroll cycle. CBAs also set maximum ratios of apprentices to journeymen on any project, and violating the ratio creates a grievance exposure. BEG tracks each apprentice membership status, updates rates at each progression milestone, and monitors apprentice-to-journeyman ratios on active projects.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Certified payroll report cadence and prevailing wage rate updates</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>On federal Davis-Bacon projects, the WH-347 Certified Payroll Report must be filed weekly — including weeks with no work performed, where a no-work certification is required. State prevailing wage projects follow their own reporting schedules, which vary by state. Prevailing wage rate determinations are updated periodically by the Department of Labor and by state prevailing wage agencies. A contract that begins at one wage determination may be subject to updated rates mid-project depending on the contract modification history and project type. BEG manages the certified payroll submission calendar for every active project and monitors wage determination updates that may affect your active contracts.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>On federal Davis-Bacon projects, the WH-347 Certified Payroll Report must be filed weekly -- including weeks with no work performed, where a no-work certification is required. State prevailing wage projects follow their own reporting schedules, which vary by state. Prevailing wage rate determinations are updated periodically by the Department of Labor and by state prevailing wage agencies. A contract that begins at one wage determination may be subject to updated rates mid-project depending on the contract modification history and project type. BEG manages the certified payroll submission calendar for every active project and monitors wage determination updates that may affect your active contracts.</p>
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ export default function PayrollTradesPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Switching payroll systems is too disruptive."',
-                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team inside your current system. If you want to move to a better platform, we can handle that too — but it is never a requirement to get started.',
+                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team inside your current system. If you want to move to a better platform, we can handle that too -- but it is never a requirement to get started.',
               },
               {
                 badge: 'Bonus 02',
@@ -182,7 +182,7 @@ export default function PayrollTradesPage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact. Not a support queue.',
                 objection: 'Common objection: "Payroll vendors disappear after onboarding."',
-                body: 'Your BEG payroll specialist is your ongoing contact. When something changes — a new hire, a state registration, a compliance update — you send one message. There is no ticket queue, no chatbot, and no calling a 1-800 number. Your team has a real person who knows your account.',
+                body: 'Your BEG payroll specialist is your ongoing contact. When something changes -- a new hire, a state registration, a compliance update -- you send one message. There is no ticket queue, no chatbot, and no calling a 1-800 number. Your team has a real person who knows your account.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -212,7 +212,7 @@ export default function PayrollTradesPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before the next quarter starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 — the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -254,11 +254,11 @@ export default function PayrollTradesPage() {
             </div>
             <div className="faq-item">
               <h3>What is the difference between Davis-Bacon wages and union CBA wages?</h3>
-              <p>Davis-Bacon rates are set by the Department of Labor for specific job classifications on federally funded projects. Union wages are set by collective bargaining agreements between the employer and the union local — independently of any federal requirement. On a federal project with union workers, both may apply simultaneously and the higher rate governs. BEG tracks which obligation applies to each worker on each project and applies the correct rate.</p>
+              <p>Davis-Bacon rates are set by the Department of Labor for specific job classifications on federally funded projects. Union wages are set by collective bargaining agreements between the employer and the union local -- independently of any federal requirement. On a federal project with union workers, both may apply simultaneously and the higher rate governs. BEG tracks which obligation applies to each worker on each project and applies the correct rate.</p>
             </div>
             <div className="faq-item">
               <h3>How does BEG handle fringe benefit fund remittances to union trust funds?</h3>
-              <p>BEG calculates union fringe contributions per hour worked for each member, produces the required remittance report listing each member and their hours, and remits to the appropriate trust funds on the schedule set by the CBA — typically monthly or weekly. Health and welfare, pension, apprenticeship, and industry promotion fund contributions are tracked and remitted separately from wage payroll.</p>
+              <p>BEG calculates union fringe contributions per hour worked for each member, produces the required remittance report listing each member and their hours, and remits to the appropriate trust funds on the schedule set by the CBA -- typically monthly or weekly. Health and welfare, pension, apprenticeship, and industry promotion fund contributions are tracked and remitted separately from wage payroll.</p>
             </div>
             <div className="faq-item">
               <h3>What happens when workers from different union locals work on the same project?</h3>
@@ -266,7 +266,7 @@ export default function PayrollTradesPage() {
             </div>
             <div className="faq-item">
               <h3>How does BEG track apprentice wage rate progressions?</h3>
-              <p>BEG tracks each apprentice membership status and program completion percentage, updates their rate at each CBA-specified progression milestone, and monitors the apprentice-to-journeyman ratio on active projects. When a progression milestone is reached, the updated rate takes effect before the next payroll cycle — no manual adjustment required from your team.</p>
+              <p>BEG tracks each apprentice membership status and program completion percentage, updates their rate at each CBA-specified progression milestone, and monitors the apprentice-to-journeyman ratio on active projects. When a progression milestone is reached, the updated rate takes effect before the next payroll cycle -- no manual adjustment required from your team.</p>
             </div>
           </div>
         </div>
@@ -283,7 +283,7 @@ export default function PayrollTradesPage() {
               { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
               { '@type': 'Question', name: 'What is the difference between Davis-Bacon wages and union CBA wages?', acceptedAnswer: { '@type': 'Answer', text: 'Davis-Bacon rates are set by the DOL for federally funded projects. Union wages are set by CBAs independent of any federal requirement. On a federal project with union workers, both may apply and the higher rate governs.' } },
-              { '@type': 'Question', name: 'How does BEG handle fringe fund remittances to union trust funds?', acceptedAnswer: { '@type': 'Answer', text: 'BEG calculates contributions per hour, produces remittance reports for each trust fund, and remits on the CBA-specified schedule — health and welfare, pension, apprenticeship, and industry promotion funds all handled separately.' } },
+              { '@type': 'Question', name: 'How does BEG handle fringe fund remittances to union trust funds?', acceptedAnswer: { '@type': 'Answer', text: 'BEG calculates contributions per hour, produces remittance reports for each trust fund, and remits on the CBA-specified schedule -- health and welfare, pension, apprenticeship, and industry promotion funds all handled separately.' } },
             ],
           }),
         }}

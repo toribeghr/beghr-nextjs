@@ -29,7 +29,7 @@ export default function PayrollEngineeringPage() {
       imageAlt="Engineering firm with certified payroll managed service"
       eyebrow="Managed Payroll · Engineering"
       title="Certified payroll and prevailing wage should not consume your team."
-      description="Government projects require certified payroll reports. Davis-Bacon and state prevailing wage rules vary by project. One error in a certified payroll submission delays payment or triggers a compliance review. We manage all of it at $25–$45 per employee per month — fully managed, nothing to touch."
+      description="Government projects require certified payroll reports. Davis-Bacon and state prevailing wage rules vary by project. One error in a certified payroll submission delays payment or triggers a compliance review. We manage all of it at $25–$45 per employee per month -- fully managed, nothing to touch."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
@@ -51,7 +51,7 @@ export default function PayrollEngineeringPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Certified</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Payroll reporting required on every government contract</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Weekly certified payroll reports, fringe benefit tracking, and compliance documentation — all required, all auditable.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Weekly certified payroll reports, fringe benefit tracking, and compliance documentation -- all required, all auditable.</div>
                 </div>
               ))()
             }
@@ -86,9 +86,9 @@ export default function PayrollEngineeringPage() {
           </div>
           <div className="beg-grid-3 reveal">
             {[
-              { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost — no surprises.' },
-              { num: '02', title: 'We document your active project roster, prevailing wage rates, fringe benefit structures, and certified payroll submission schedule before your first managed run.', body: 'We configure and run your first payroll cycles. No migration required — we work in your existing system. Transition takes 30–60 days.' },
-              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update — fully managed by BEG. Your team touches nothing.' },
+              { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost -- no surprises.' },
+              { num: '02', title: 'We document your active project roster, prevailing wage rates, fringe benefit structures, and certified payroll submission schedule before your first managed run.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30–60 days.' },
+              { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update -- fully managed by BEG. Your team touches nothing.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -105,24 +105,24 @@ export default function PayrollEngineeringPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Compliance Requirements</p>
-            <h2>What engineering firm payroll actually requires — and what most vendors miss</h2>
+            <h2>What engineering firm payroll actually requires -- and what most vendors miss</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Davis-Bacon Act and state prevailing wage laws</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When your engineering firm holds a federal or federally assisted contract — highways, bridges, federal buildings, water infrastructure — the Davis-Bacon Act requires you to pay workers at the prevailing wage rate set by the Department of Labor for each specific job classification in that specific county. Forty-three states have their own prevailing wage laws covering state-funded public works projects. The rates change by project type, by county, and by trade classification. A civil engineer on a federal highway project in one county may have a different required wage than the same classification on a water infrastructure project in an adjacent county. Managing prevailing wage manually across multiple active projects is where most engineering payroll errors originate.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>When your engineering firm holds a federal or federally assisted contract -- highways, bridges, federal buildings, water infrastructure -- the Davis-Bacon Act requires you to pay workers at the prevailing wage rate set by the Department of Labor for each specific job classification in that specific county. Forty-three states have their own prevailing wage laws covering state-funded public works projects. The rates change by project type, by county, and by trade classification. A civil engineer on a federal highway project in one county may have a different required wage than the same classification on a water infrastructure project in an adjacent county. Managing prevailing wage manually across multiple active projects is where most engineering payroll errors originate.</p>
             </div>
             <div>
-              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>WH-347 certified payroll reporting — weekly, auditable, no exceptions</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Federal contractors must submit a WH-347 Certified Payroll Report every week there are workers on a Davis-Bacon project — including weeks with no work performed, where a no-work certification is still required. The WH-347 lists every worker, their job classification, hours worked each day, gross wages paid, all deductions taken, and fringe benefits provided or paid in cash. One error — a misclassified worker, an incorrect fringe credit, or a missing submission week — can trigger a DOL compliance investigation, withholding of contract payments by the contracting agency, or debarment from future federal contracting. BEG manages the WH-347 submission schedule for every active government project in your roster.</p>
+              <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>WH-347 certified payroll reporting -- weekly, auditable, no exceptions</h3>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Federal contractors must submit a WH-347 Certified Payroll Report every week there are workers on a Davis-Bacon project -- including weeks with no work performed, where a no-work certification is still required. The WH-347 lists every worker, their job classification, hours worked each day, gross wages paid, all deductions taken, and fringe benefits provided or paid in cash. One error -- a misclassified worker, an incorrect fringe credit, or a missing submission week -- can trigger a DOL compliance investigation, withholding of contract payments by the contracting agency, or debarment from future federal contracting. BEG manages the WH-347 submission schedule for every active government project in your roster.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fringe benefit compliance under Davis-Bacon</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Davis-Bacon allows contractors to satisfy the fringe benefit component of prevailing wage through bona fide benefit plans — health insurance, pension contributions, apprenticeship training fund contributions. If your benefit plan provides less than the required fringe dollar amount per hour worked, the difference must be paid as additional cash wages on top of base pay. Miscalculating the fringe credit creates both underpayment liability and inaccuracy in your certified payroll report. BEG calculates the fringe credit value from your benefit plans against the required fringe rate for each classification on each project, and tracks whether additional cash fringe is owed each pay period.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Davis-Bacon allows contractors to satisfy the fringe benefit component of prevailing wage through bona fide benefit plans -- health insurance, pension contributions, apprenticeship training fund contributions. If your benefit plan provides less than the required fringe dollar amount per hour worked, the difference must be paid as additional cash wages on top of base pay. Miscalculating the fringe credit creates both underpayment liability and inaccuracy in your certified payroll report. BEG calculates the fringe credit value from your benefit plans against the required fringe rate for each classification on each project, and tracks whether additional cash fringe is owed each pay period.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Multi-state job site registration and tracking</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>An engineering firm with active projects in multiple states must maintain a separate employer tax registration in each state where employees work — even temporarily. Each state requires a distinct employer income tax withholding account, a state unemployment insurance (SUI) account, and new-hire reporting compliance. Missing a registration triggers automatic penalties from the date the first employee began working in that state — not from when the oversight was discovered. BEG handles state registration and keeps your payroll configuration current as your project map changes. When a project ends in one state and begins in another, we initiate the new registration before the first employee works on site.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>An engineering firm with active projects in multiple states must maintain a separate employer tax registration in each state where employees work -- even temporarily. Each state requires a distinct employer income tax withholding account, a state unemployment insurance (SUI) account, and new-hire reporting compliance. Missing a registration triggers automatic penalties from the date the first employee began working in that state -- not from when the oversight was discovered. BEG handles state registration and keeps your payroll configuration current as your project map changes. When a project ends in one state and begins in another, we initiate the new registration before the first employee works on site.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Project-based labor cost allocation</h3>
@@ -141,7 +141,7 @@ export default function PayrollEngineeringPage() {
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
             {[
-              { title: 'Civil and structural engineering firms', body: 'Public infrastructure projects — highways, bridges, water systems — carry Davis-Bacon and certified payroll requirements on every federally funded contract.' },
+              { title: 'Civil and structural engineering firms', body: 'Public infrastructure projects -- highways, bridges, water systems -- carry Davis-Bacon and certified payroll requirements on every federally funded contract.' },
               { title: 'MEP engineering contractors', body: 'Mechanical, electrical, and plumbing contractors on federally funded building projects must comply with Davis-Bacon wage determinations specific to each trade classification.' },
               { title: 'Environmental and geotechnical firms', body: 'Government agency contracts for site assessment, remediation, and geotechnical investigation typically carry prevailing wage requirements.' },
               { title: 'Survey and land development companies', body: 'Survey crews working on federal or state land projects operate under prevailing wage rules that vary by state and project type.' },
@@ -170,7 +170,7 @@ export default function PayrollEngineeringPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Switching payroll systems is too disruptive."',
-                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team inside your current system. If you want to move to a better platform, we can handle that too — but it is never a requirement to get started.',
+                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team inside your current system. If you want to move to a better platform, we can handle that too -- but it is never a requirement to get started.',
               },
               {
                 badge: 'Bonus 02',
@@ -182,7 +182,7 @@ export default function PayrollEngineeringPage() {
                 badge: 'Bonus 03',
                 title: 'A dedicated BEG contact. Not a support queue.',
                 objection: 'Common objection: "Payroll vendors disappear after onboarding."',
-                body: 'Your BEG payroll specialist is your ongoing contact. When something changes — a new hire, a state registration, a compliance update — you send one message. There is no ticket queue, no chatbot, and no calling a 1-800 number. Your team has a real person who knows your account.',
+                body: 'Your BEG payroll specialist is your ongoing contact. When something changes -- a new hire, a state registration, a compliance update -- you send one message. There is no ticket queue, no chatbot, and no calling a 1-800 number. Your team has a real person who knows your account.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -212,7 +212,7 @@ export default function PayrollEngineeringPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before the next quarter starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 — the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>

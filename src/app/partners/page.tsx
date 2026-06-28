@@ -3,17 +3,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'BEG Partner Program | Refer Clients. No Conflict. | BEG',
-  description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest — clean payroll data and no lane-crossing.',
+  description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest -- clean payroll data and no lane-crossing.',
   alternates: { canonical: 'https://beghr.com/partners' },
   openGraph: {
     title: 'BEG Partner Program | Refer Clients. No Conflict. | BEG',
-    description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest — clean payroll data and no lane-crossing.',
+    description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest -- clean payroll data and no lane-crossing.',
     url: 'https://beghr.com/partners',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Partner Program for CPAs and Insurance Brokers' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG Partner Program | Refer Clients. No Conflict. | BEG', description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest — clean payroll data and no lane-crossing.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG Partner Program | Refer Clients. No Conflict. | BEG', description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest -- clean payroll data and no lane-crossing.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const partners = [
@@ -36,7 +36,7 @@ export default function PartnersPage() {
               <p className="eyebrow">Partner Program</p>
               <h1>Refer Your Clients to a Payroll Service You Can Stand Behind</h1>
               <p className="lede" style={{ margin: '18px 0 0' }}>
-                BEG manages payroll for businesses nationwide at $25 to $45 per employee per month. We are fully managed, compliance-focused, and built to complement the advisory relationships you already have — not compete with them.
+                BEG manages payroll for businesses nationwide at $25 to $45 per employee per month. We are fully managed, compliance-focused, and built to complement the advisory relationships you already have -- not compete with them.
               </p>
             </div>
           </div>

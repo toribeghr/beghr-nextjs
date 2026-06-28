@@ -1,23 +1,14 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Executive Search | C-Suite Placed Fast. 45-Day Guarantee. | BEG',
+  title: 'Executive Search Services | C-Level & Director Recruiting | BEG',
   description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.',
   alternates: { canonical: 'https://beghr.com/services/job-placement/executive' },
-  openGraph: {
-    title: 'Executive Search | C-Suite Placed Fast. 45-Day Guarantee. | BEG',
-    description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.',
-    url: 'https://beghr.com/services/job-placement/executive',
-    siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
-    type: 'website',
-  },
-  twitter: { card: 'summary_large_image', title: 'Executive Search | C-Suite Placed Fast. 45-Day Guarantee. | BEG', description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.', images: ['https://beghr.com/assets/og-image.png'] },
-
+  openGraph: { title: 'Executive Search Services | C-Level & Director Recruiting | BEG', description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.', url: 'https://beghr.com/services/job-placement/executive', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Executive Search Services | C-Level & Director Recruiting | BEG', description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-executive');
@@ -29,7 +20,7 @@ export default function PlacementExecutivePage() {
       imageAlt="Organization with an open C-suite or director role"
       eyebrow="Job Placement · Executive"
       title="An empty leadership seat costs more than the salary."
-      description="Every month a C-suite or director role goes unfilled, decisions do not get made, strategies stall, and teams lose direction. We conduct confidential executive searches and place senior leaders in 23–35 days — discreetly, at roughly 50% less than traditional executive search firms."
+      description="Every month a C-suite or director role goes unfilled, decisions do not get made, strategies stall, and teams lose direction. We conduct confidential executive searches and place senior leaders in 23-35 days - discreetly, at roughly 50% less than traditional executive search firms."
       calendlyLink={CALENDLY}
       heroStats={[{"value":"23-35","label":"Days to fill on average"},{"value":"86%","label":"Fill rate on active searches"},{"value":"~50%","label":"Less than traditional executive search"}]}
     >
@@ -54,7 +45,7 @@ export default function PlacementExecutivePage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>6–9 months</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>6-9 months</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>What traditional executive search firms take on average</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Legacy retained search models were built for a different era. The best candidates do not wait 6 months.</div>
                 </div>
@@ -64,8 +55,8 @@ export default function PlacementExecutivePage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Confidential</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Every search — your competitors cannot know you are looking</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Executive vacancies signal instability. Discretion is not optional — it is the foundation of how we work.</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Every search - your competitors cannot know you are looking</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Executive vacancies signal instability. Discretion is not optional - it is the foundation of how we work.</div>
                 </div>
               ))()
             }
@@ -83,8 +74,8 @@ export default function PlacementExecutivePage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Discovery call', body: 'We learn your organization, the role, and what a strong candidate actually looks like in your environment. 15 minutes. No fluff.' },
-              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates — professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
-              { num: '03', title: 'Shortlist review', body: 'You receive 3–5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
+              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates - professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
+              { num: '03', title: 'Shortlist review', body: 'You receive 3-5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -101,7 +92,7 @@ export default function PlacementExecutivePage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">What You Get</p>
-            <h2>Three things every organization wants — and most placement firms do not offer</h2>
+            <h2>Three things every organization wants - and most placement firms do not offer</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem', marginTop: '2rem' }}>
             {[
@@ -109,7 +100,7 @@ export default function PlacementExecutivePage() {
                 badge: 'Bonus 01',
                 title: 'No contingency fees. Ever.',
                 objection: 'Common objection: "We already work with contingency recruiters."',
-                body: 'Traditional retained executive search firms charge 30–35% of first-year compensation — plus retainer fees regardless of outcome. Our milestone model totals roughly 50% less, with payment tied to defined progress rather than billed upfront.',
+                body: 'Traditional retained executive search firms charge 30-35% of first-year compensation - plus retainer fees regardless of outcome. Our milestone model totals roughly 50% less, with payment tied to defined progress rather than billed upfront.',
               },
               {
                 badge: 'Bonus 02',
@@ -121,7 +112,7 @@ export default function PlacementExecutivePage() {
                 badge: 'Bonus 03',
                 title: 'A curated shortlist. Not a resume stack.',
                 objection: 'Common objection: "We have used recruiters before and wasted time on bad candidates."',
-                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3–5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
+                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3-5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -146,12 +137,12 @@ export default function PlacementExecutivePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every week that role stays open is a decision you are making.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An empty C-suite seat rarely stays quiet. Organizations fill the gap with external consultants ($200–$400/hour), fractional executives, or board member time — all of which cost more than the role itself. Beyond the direct cost, strategic decisions get delayed, teams lose direction, and competitors gain ground. The longer the vacancy, the more expensive the outcome.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An empty C-suite seat rarely stays quiet. Organizations fill the gap with external consultants ($200-$400/hour), fractional executives, or board member time - all of which cost more than the role itself. Beyond the direct cost, strategic decisions get delayed, teams lose direction, and competitors gain ground. The longer the vacancy, the more expensive the outcome.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Talent Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best candidates are only available for a few weeks.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Senior executives are never on job boards. A CEO or VP who is open to a new opportunity is having private conversations, not submitting applications. Our sourcing approach is built around confidential outreach — proactively identifying and approaching passive candidates who would never surface through a posting.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Senior executives are never on job boards. A CEO or VP who is open to a new opportunity is having private conversations, not submitting applications. Our sourcing approach is built around confidential outreach - proactively identifying and approaching passive candidates who would never surface through a posting.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -211,44 +202,6 @@ export default function PlacementExecutivePage() {
         }}
       />
 
-    
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Job Placement', item: 'https://beghr.com/services/job-placement' },
-              { '@type': 'ListItem', position: 3, name: 'Executive', item: 'https://beghr.com/services/job-placement/executive' },
-            ],
-          }),
-        }}
-      />
-      <RelatedPosts
-        heading="From the blog"
-        posts={[
-          {
-            category: 'Hiring strategy',
-            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
-            excerpt: 'Executive searches are almost always retained or milestone-based. Here is how the three fee models compare and what each one signals to candidates.',
-            href: '/blog/compare/contingency-vs-retained-vs-milestone',
-          },
-          {
-            category: 'Hiring strategy',
-            title: "How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)",
-            excerpt: 'Senior-level searches take longer, but not forever. What a realistic executive placement timeline looks like and the signals that a search has stalled.',
-            href: '/blog/compare/how-long-should-attorney-placement-take',
-          },
-          {
-            category: 'Legal hiring',
-            title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
-            excerpt: 'Passive candidates dominate the top of the talent pool. What firm leaders need to understand about the current placement market before launching a search.',
-            href: '/blog/legal-hiring/attorney-market-trends',
-          },
-        ]}
-      />
     </ServicePage>
   );
 }

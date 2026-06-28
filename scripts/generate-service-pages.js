@@ -474,11 +474,13 @@ export const metadata: Metadata = {
   title: '${data.metaTitle}',
   description: '${data.metaDesc}',
   alternates: { canonical: '${data.canonical}' },
+  openGraph: { title: '${data.metaTitle}', description: '${data.metaDesc}', url: '${data.canonical}', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: '${data.metaTitle}', description: '${data.metaDesc}', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-${slug}');
 
-export default function Placement${cap(slug)}Page() {
+export default function Placement${cap(slug.replace(/[^a-zA-Z0-9]/g, ''))}Page() {
   return (
     <ServicePage
       imageSrc="${data.imageSrc}"
@@ -1053,6 +1055,10 @@ function cap(s) {
 }
 
 function write(filePath, content) {
+  // Brand rule: no em-dashes or en-dashes in the job-placement silo. Normalize to hyphens.
+  if (filePath.includes(path.sep + 'job-placement' + path.sep)) {
+    content = content.replace(/[—–]/g, '-');
+  }
   const dir = path.dirname(filePath);
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(filePath, content, 'utf8');
@@ -1077,3 +1083,255 @@ for (const [slug, data] of Object.entries(HCM_INDUSTRIES)) {
 }
 
 console.log('\nDone. All pages generated.');
+
+// ─── JOB PLACEMENT EXPANSION: extra industries, city grid, role pages ────────
+
+function loadOpt(p) { try { return require(p); } catch (e) { return null; } }
+
+const JP_EXTRA = require('./data/jp-industries-extra.js');
+const METROS = require('./data/metros.js');
+const JP_ROLES = require('./data/jp-roles.js');
+
+const PACK_FILES = ['./data/jp-pack-tier1.js', './data/jp-pack-tier2.js', './data/jp-pack-tier3.js'];
+const PACKS = PACK_FILES.map(loadOpt).filter(Boolean);
+const PACK_INDUSTRIES = Object.assign({}, ...PACKS.map(p => p.industries || {}));
+const PACK_ROLES = Object.assign({}, ...PACKS.map(p => p.roles || {}));
+
+const JP_NEW = Object.assign({}, JP_EXTRA, PACK_INDUSTRIES);
+const JP_ALL = Object.assign({}, JP_INDUSTRIES, JP_NEW);
+const ALL_ROLES = Object.assign({}, JP_ROLES, PACK_ROLES);
+
+const METRO_SLUGS = new Set(METROS.map(m => m.slug));
+
+function indName(data) {
+  const parts = String(data.eyebrow || '').split('·');
+  return parts.length > 1 ? parts[parts.length - 1].trim() : 'Professional';
+}
+
+function esc(s) { return String(s).replace(/'/g, "\\'"); }
+
+function genCityPage(industrySlug, data, metro) {
+  const name = indName(data);
+  const url = `https://beghr.com/services/job-placement/${industrySlug}/${metro.slug}`;
+  const nearby = (metro.nearby || []).filter(s => METRO_SLUGS.has(s)).slice(0, 3);
+  const nearbyLinks = nearby.length
+    ? nearby.map(s => {
+        const m = METROS.find(x => x.slug === s);
+        return `<Link href="/services/job-placement/${industrySlug}/${s}" style={{ color: '#000000', fontWeight: 600 }}>${m.name}</Link>`;
+      }).join(', ')
+    : '';
+  const nearbyClause = nearbyLinks ? `, or explore nearby markets: ${nearbyLinks}` : '';
+  return `import { Metadata } from 'next';
+import Link from 'next/link';
+import ServicePage from '@/components/ServicePage';
+import { getCalendlyLink } from '@/lib/services';
+
+export const metadata: Metadata = {
+  title: '${esc(name)} Recruiters in ${metro.name} | BEG',
+  description: '${esc(name)} placement in ${metro.name}. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
+  alternates: { canonical: '${url}' },
+  openGraph: { title: '${esc(name)} Recruiters in ${metro.name} | BEG', description: '${esc(name)} placement in ${metro.name} in 23-35 days at roughly 50% less than contingency.', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: '${esc(name)} Recruiters in ${metro.name} | BEG', description: '${esc(name)} placement in ${metro.name} in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+};
+
+const CALENDLY = getCalendlyLink('placement-${industrySlug}-${metro.slug}');
+
+export default function Placement${cap(industrySlug.replace(/[^a-zA-Z0-9]/g, ''))}${cap(metro.slug.replace(/[^a-zA-Z0-9]/g, ''))}Page() {
+  return (
+    <ServicePage
+      eyebrow="Job Placement · ${esc(name)} · ${metro.name}"
+      title="That open ${esc(name.toLowerCase())} role in ${metro.name} is costing you every week."
+      description="${esc(metro.name)} is ${esc(metro.blurb)}. We source passive ${esc(name.toLowerCase())} candidates directly and place permanent hires in 23-35 days at roughly 50% less than contingency firms."
+      calendlyLink={CALENDLY}
+      heroStats={${JSON.stringify(data.stats)}}
+    >
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">The ${esc(metro.name)} Talent Market</p>
+            <h2>Why ${esc(name.toLowerCase())} roles are hard to fill in ${esc(metro.name)}</h2>
+          </div>
+          <p className="reveal" style={{ fontSize: '1rem', color: '#444444', lineHeight: 1.8, marginTop: '1.5rem' }}>
+            ${esc(metro.name)} sits in the ${esc(metro.region)} and is ${esc(metro.blurb)}. The strongest ${esc(name.toLowerCase())} candidates here are already employed and are contacted constantly, which means a job posting reaches the people who are easiest to find, not the ones you actually want. We reach the passive ${esc(name.toLowerCase())} talent in ${esc(metro.name)} and the surrounding ${esc(metro.stateAbbr)} market directly, before they ever see a listing.
+          </p>
+        </div>
+      </section>
+
+      <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="beg-grid-2 reveal">
+            <div>
+              <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
+              <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: 800, marginBottom: '1rem' }}>Every week that ${esc(metro.name)} seat stays open is a choice.</h2>
+              <p style={{ color: '#cccccc', lineHeight: 1.7, fontSize: '0.97rem' }}>${esc(data.costLogic)}</p>
+            </div>
+            <div>
+              <p className="eyebrow" style={{ color: '#ECAC60' }}>The Talent Window</p>
+              <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: 800, marginBottom: '1rem' }}>The best candidates are available for a few weeks.</h2>
+              <p style={{ color: '#cccccc', lineHeight: 1.7, fontSize: '0.97rem' }}>${esc(data.talentContext)}</p>
+            </div>
+          </div>
+          <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
+            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
+              Book a 15-Minute Discovery Call
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '780px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Keep Exploring</p>
+            <h2>${esc(name)} placement near ${esc(metro.name)}</h2>
+          </div>
+          <p className="reveal" style={{ textAlign: 'center', marginTop: '1rem', color: '#444444' }}>
+            See our <Link href="/services/job-placement/${industrySlug}" style={{ color: '#000000', fontWeight: 600 }}>${esc(name.toLowerCase())} placement service</Link>${nearbyClause}.
+          </p>
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: 'Do you place ${esc(name.toLowerCase())} candidates in ${esc(metro.name)}?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We run permanent ${esc(name.toLowerCase())} searches in ${esc(metro.name)} and across ${esc(metro.state)}, sourcing passive candidates directly. Average time to fill is 23-35 days.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'What does it cost?', acceptedAnswer: { '@type': 'Answer', text: 'Roughly 50% less than a standard contingency arrangement, billed against defined milestones.' } },
+            ],
+          }),
+        }}
+      />
+    </ServicePage>
+  );
+}
+`;
+}
+
+function genRolePage(industrySlug, data, role) {
+  const name = indName(data);
+  const url = `https://beghr.com/services/job-placement/${industrySlug}/${role.slug}`;
+  const siblings = (ALL_ROLES[industrySlug] || []).filter(r => r.slug !== role.slug).slice(0, 4);
+  const sibLinks = siblings.length
+    ? siblings.map(r => `<Link href="/services/job-placement/${industrySlug}/${r.slug}" style={{ color: '#000000', fontWeight: 600 }}>${r.name}</Link>`).join(', ')
+    : '';
+  const sibClause = sibLinks ? `, or explore: ${sibLinks}` : '';
+  return `import { Metadata } from 'next';
+import Link from 'next/link';
+import ServicePage from '@/components/ServicePage';
+import { getCalendlyLink } from '@/lib/services';
+
+export const metadata: Metadata = {
+  title: '${esc(role.name)} Recruiters | 23-35 Days | BEG',
+  description: '${esc(role.name)} placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
+  alternates: { canonical: '${url}' },
+  openGraph: { title: '${esc(role.name)} Recruiters | 23-35 Days | BEG', description: '${esc(role.name)} placement in 23-35 days at roughly 50% less than contingency.', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: '${esc(role.name)} Recruiters | 23-35 Days | BEG', description: '${esc(role.name)} placement in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+};
+
+const CALENDLY = getCalendlyLink('placement-${industrySlug}-${role.slug}');
+
+export default function Placement${cap(industrySlug.replace(/[^a-zA-Z0-9]/g, ''))}${cap(role.slug.replace(/[^a-zA-Z0-9]/g, ''))}Page() {
+  return (
+    <ServicePage
+      eyebrow="Job Placement · ${esc(name)} · ${esc(role.name)}"
+      title="Your ${esc(role.name.toLowerCase())} search has been open too long."
+      description="${esc(role.note)} We place permanent ${esc(role.name.toLowerCase())} candidates in 23-35 days at roughly 50% less than contingency firms, with a 45-day replacement guarantee."
+      calendlyLink={CALENDLY}
+      heroStats={${JSON.stringify(data.stats)}}
+    >
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Why This Role Is Hard To Fill</p>
+            <h2>The best ${esc(role.name.toLowerCase())} candidates are not on job boards</h2>
+          </div>
+          <p className="reveal" style={{ fontSize: '1rem', color: '#444444', lineHeight: 1.8, marginTop: '1.5rem' }}>
+            ${esc(role.note)} That is why a posting-and-waiting search rarely fills a ${esc(role.name.toLowerCase())} seat with the right person. We source passive ${esc(role.name.toLowerCase())} candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
+          </p>
+        </div>
+      </section>
+
+      <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="beg-grid-2 reveal">
+            <div>
+              <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
+              <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: 800, marginBottom: '1rem' }}>Every week this seat is open has a cost.</h2>
+              <p style={{ color: '#cccccc', lineHeight: 1.7, fontSize: '0.97rem' }}>${esc(data.costLogic)}</p>
+            </div>
+            <div>
+              <p className="eyebrow" style={{ color: '#ECAC60' }}>The Talent Window</p>
+              <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: 800, marginBottom: '1rem' }}>The right candidate is available for a few weeks.</h2>
+              <p style={{ color: '#cccccc', lineHeight: 1.7, fontSize: '0.97rem' }}>${esc(data.talentContext)}</p>
+            </div>
+          </div>
+          <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
+            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
+              Book a 15-Minute Discovery Call
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '780px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Related Searches</p>
+            <h2>Other ${esc(name.toLowerCase())} roles we place</h2>
+          </div>
+          <p className="reveal" style={{ textAlign: 'center', marginTop: '1rem', color: '#444444' }}>
+            See our <Link href="/services/job-placement/${industrySlug}" style={{ color: '#000000', fontWeight: 600 }}>${esc(name.toLowerCase())} placement service</Link>${sibClause}.
+          </p>
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              { '@type': 'Question', name: 'How long does it take to place a ${esc(role.name.toLowerCase())}?', acceptedAnswer: { '@type': 'Answer', text: 'On average 23-35 days from discovery call to placed hire, with an 86% fill rate on active searches.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+            ],
+          }),
+        }}
+      />
+    </ServicePage>
+  );
+}
+`;
+}
+
+console.log('\n=== Job Placement: New Industry Hubs ===');
+for (const [slug, data] of Object.entries(JP_NEW)) {
+  write(path.join(BASE, 'job-placement', slug, 'page.tsx'), genJobPlacementPage(slug, data));
+}
+
+console.log('\n=== Job Placement: City Grid (industry x metro) ===');
+let cityCount = 0;
+for (const [slug, data] of Object.entries(JP_ALL)) {
+  for (const metro of METROS) {
+    write(path.join(BASE, 'job-placement', slug, metro.slug, 'page.tsx'), genCityPage(slug, data, metro));
+    cityCount++;
+  }
+}
+console.log('City pages: ' + cityCount);
+
+console.log('\n=== Job Placement: Role Pages (industry x role) ===');
+let roleCount = 0;
+for (const [slug, roles] of Object.entries(ALL_ROLES)) {
+  const data = JP_ALL[slug];
+  if (!data) { console.log('  ! skip roles for unknown industry: ' + slug); continue; }
+  for (const role of roles) {
+    write(path.join(BASE, 'job-placement', slug, role.slug, 'page.tsx'), genRolePage(slug, data, role));
+    roleCount++;
+  }
+}
+console.log('Role pages: ' + roleCount);
+console.log('\nExpansion complete. Industries: ' + Object.keys(JP_ALL).length);

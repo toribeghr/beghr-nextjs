@@ -334,6 +334,101 @@ export default function JobPlacementPage() {
               <h3>Executive &amp; Director+</h3>
               <p>Focused, confidential search for director and above leadership.</p>
             </Link>
+            <Link href="/services/job-placement/accounting-cpa" className="card-link reveal">
+              <span className="tag">Accounting</span>
+              <h3>Accounting &amp; CPA</h3>
+              <p>Controllers, tax, audit, and CPA talent placed through the shortage.</p>
+            </Link>
+            <Link href="/services/job-placement/sales" className="card-link reveal">
+              <span className="tag">Sales</span>
+              <h3>Sales</h3>
+              <p>Quota-carrying AEs, sales directors, and VPs sourced direct, not posted.</p>
+            </Link>
+            <Link href="/services/job-placement/cybersecurity" className="card-link reveal">
+              <span className="tag">Cybersecurity</span>
+              <h3>Cybersecurity</h3>
+              <p>CISOs, security engineers, and analysts filled in a tight market.</p>
+            </Link>
+            <Link href="/services/job-placement/insurance" className="card-link reveal">
+              <span className="tag">Insurance</span>
+              <h3>Insurance</h3>
+              <p>Underwriters, producers, and claims talent for an aging workforce.</p>
+            </Link>
+            <Link href="/services/job-placement/hr" className="card-link reveal">
+              <span className="tag">Human Resources</span>
+              <h3>Human Resources</h3>
+              <p>HR leaders, people ops, and talent acquisition placed fast.</p>
+            </Link>
+            <Link href="/services/job-placement/construction-management" className="card-link reveal">
+              <span className="tag">Construction</span>
+              <h3>Construction Management</h3>
+              <p>Project managers, estimators, and superintendents who deliver.</p>
+            </Link>
+            <Link href="/services/job-placement/supply-chain" className="card-link reveal">
+              <span className="tag">Supply Chain</span>
+              <h3>Supply Chain</h3>
+              <p>Planners, logistics, and procurement leaders for a hot market.</p>
+            </Link>
+            <Link href="/services/job-placement/marketing" className="card-link reveal">
+              <span className="tag">Marketing</span>
+              <h3>Marketing</h3>
+              <p>Directors, demand gen, and brand talent placed without the churn.</p>
+            </Link>
+            <Link href="/services/job-placement/banking" className="card-link reveal">
+              <span className="tag">Banking</span>
+              <h3>Banking</h3>
+              <p>Commercial lenders, credit, and compliance professionals.</p>
+            </Link>
+            <Link href="/services/job-placement/biotech" className="card-link reveal">
+              <span className="tag">Biotech</span>
+              <h3>Biotech &amp; Life Sciences</h3>
+              <p>Regulatory, clinical research, and QA talent for a regulated field.</p>
+            </Link>
+            <Link href="/services/job-placement/manufacturing" className="card-link reveal">
+              <span className="tag">Manufacturing</span>
+              <h3>Manufacturing</h3>
+              <p>Plant managers, quality, and operations leaders.</p>
+            </Link>
+            <Link href="/services/job-placement/dental" className="card-link reveal">
+              <span className="tag">Dental</span>
+              <h3>Dental</h3>
+              <p>Associate dentists, specialists, and practice managers.</p>
+            </Link>
+            <Link href="/services/job-placement/nonprofit" className="card-link reveal">
+              <span className="tag">Nonprofit</span>
+              <h3>Nonprofit</h3>
+              <p>Executive directors, development, and program leaders.</p>
+            </Link>
+            <Link href="/services/job-placement/real-estate" className="card-link reveal">
+              <span className="tag">Real Estate</span>
+              <h3>Real Estate</h3>
+              <p>Property, asset, and commercial real estate professionals.</p>
+            </Link>
+            <Link href="/services/job-placement/energy" className="card-link reveal">
+              <span className="tag">Energy</span>
+              <h3>Energy</h3>
+              <p>Project managers, field engineers, and operations leaders.</p>
+            </Link>
+            <Link href="/services/job-placement/architecture" className="card-link reveal">
+              <span className="tag">Architecture</span>
+              <h3>Architecture</h3>
+              <p>Project architects, design directors, and BIM managers.</p>
+            </Link>
+            <Link href="/services/job-placement/hospitality" className="card-link reveal">
+              <span className="tag">Hospitality</span>
+              <h3>Hospitality</h3>
+              <p>General managers, food and beverage, and operations leaders.</p>
+            </Link>
+            <Link href="/services/job-placement/veterinary" className="card-link reveal">
+              <span className="tag">Veterinary</span>
+              <h3>Veterinary</h3>
+              <p>Associate vets, specialists, and practice managers in a shortage.</p>
+            </Link>
+            <Link href="/services/job-placement/government" className="card-link reveal">
+              <span className="tag">Government</span>
+              <h3>Government Contracting</h3>
+              <p>Program managers, contracts, and compliance for cleared work.</p>
+            </Link>
           </div>
         </div>
       </section>

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import VacantRoleCostCalculator from '@/components/VacantRoleCostCalculator';
+import LeadCaptureForm from '@/components/LeadCaptureForm';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -62,6 +63,12 @@ export default function VacantRoleCostCalculatorPage() {
       </section>
 
       <VacantRoleCostCalculator />
+
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '640px', display: 'flex', justifyContent: 'center' }}>
+          <LeadCaptureForm toolName="Cost of a Vacant Role Calculator" toolDescription="Send me the full cost breakdown for my open role and how BEG fills it in 23-35 days." assetLabel="Email me the breakdown" calendlyLink={calendly} />
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>

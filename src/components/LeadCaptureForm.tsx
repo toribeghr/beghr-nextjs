@@ -17,7 +17,7 @@ import { useState } from 'react';
  *   />
  */
 
-const WEB3FORMS_KEY = 'YOUR_ACCESS_KEY_HERE'; // <-- paste your free Web3Forms key here
+const WEB3FORMS_KEY = 'a5dc3398-f88a-4944-bafe-54bd85211f81'; // Web3Forms key (leads -> tori.wint@beghr.com)
 
 const GOLD = '#ECAC60';
 
@@ -74,7 +74,11 @@ export default function LeadCaptureForm({
     return (
       <div style={{ background: '#FBF3E8', border: `1px solid ${GOLD}`, borderRadius: '10px', padding: '2rem', textAlign: 'center' }}>
         <p style={{ fontWeight: 800, fontSize: '1.15rem', color: '#000', margin: '0 0 0.5rem' }}>You are all set.</p>
-        <p style={{ color: '#444', margin: '0 0 1.25rem' }}>Thanks for requesting the {toolName}. A copy is on its way and our team has your details.</p>
+        <p style={{ color: '#444', margin: '0 0 1.25rem' }}>
+          {assetUrl
+            ? `Your ${toolName} is ready below. Our team also has your details and may follow up about your hiring needs.`
+            : `Thanks. Our team has your details and will follow up about your ${toolName} shortly.`}
+        </p>
         {assetUrl && (
           <a href={assetUrl} className="btn btn--gold" style={{ display: 'inline-block', marginBottom: calendlyLink ? '0.75rem' : 0 }}>{assetLabel}</a>
         )}

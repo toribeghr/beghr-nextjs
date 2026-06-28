@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import RecruitingFeeCalculator from '@/components/RecruitingFeeCalculator';
+import LeadCaptureForm from '@/components/LeadCaptureForm';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -62,6 +63,12 @@ export default function RecruitingFeeCalculatorPage() {
       </section>
 
       <RecruitingFeeCalculator />
+
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '640px', display: 'flex', justifyContent: 'center' }}>
+          <LeadCaptureForm toolName="Recruiting Fee Calculator" toolDescription="Send me a custom milestone-fee and savings estimate for my specific role." assetLabel="Email me my estimate" calendlyLink={calendly} />
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>

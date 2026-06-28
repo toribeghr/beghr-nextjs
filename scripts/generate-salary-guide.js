@@ -43,6 +43,13 @@ function methodology() {
           <p>These are indicative 2026 national ranges, not job offers. Actual compensation varies by metro, years of experience, certifications, company size, and total-comp structure (base, bonus, commission, and equity). Ranges were compiled from public labor data and published market salary guides, including the U.S. Bureau of Labor Statistics, Robert Half, BCG, Glassdoor, ZipRecruiter, and Payscale. For a market read on a specific role and location, book a call and we will share what we are seeing in live searches.</p>`;
 }
 
+function leadForm() {
+  return `          <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Get the printable guide</h2>
+          <p style={{ marginBottom: '1.25rem' }}>Want the full BEG Salary and Hiring Guide as a clean, printable PDF covering all 19 industries? Grab it here.</p>
+          <LeadCaptureForm toolName={'Salary & Hiring Guide (PDF)'} toolDescription="The full 2026 guide across 19 industries, printable and ready to download." assetUrl="/assets/beg-salary-guide-2026.pdf" assetLabel="Get the PDF" calendlyLink={CALENDLY} />
+`;
+}
+
 function ctaBlock() {
   return `          <div style={{ background: '#000000', color: '#ffffff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0 0', textAlign: 'center' }}>
             <h2 style={{ color: '#ffffff', fontSize: '1.4rem', fontWeight: 800, marginBottom: '0.75rem' }}>Hiring for one of these roles?</h2>
@@ -67,6 +74,7 @@ function indPage(ind, data) {
   const art = { "@context": "https://schema.org", "@type": "Article", headline: `${L} Salary Guide 2026`, datePublished: "2026-06-25", dateModified: "2026-06-28", author: { "@type": "Person", name: "Anthony Moretti", jobTitle: "VP of Sales", url: "https://www.linkedin.com/in/theanthonymoretti" }, publisher: { "@type": "Organization", name: "Business Executive Group", logo: { "@type": "ImageObject", url: "https://beghr.com/assets/beg-header-image.png" } }, mainEntityOfPage: url };
   return `import { Metadata } from 'next';
 import Link from 'next/link';
+import LeadCaptureForm from '@/components/LeadCaptureForm';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -116,6 +124,7 @@ ${salaryRows(ind, roles)}
           </table>
           <p style={{ fontSize: '0.85rem', color: '#888' }}>Ranges are national and indicative. Click any role to see how we place it.</p>
 ${methodology()}
+${leadForm()}
 ${ctaBlock()}
           <p style={{ marginTop: '2rem' }}>See the full <Link href="/resources/salary-guide" style={{ color: '#000000', fontWeight: 600 }}>BEG Salary and Hiring Guide</Link> or our <Link href="/services/job-placement/${ind}" style={{ color: '#000000', fontWeight: 600 }}>${L.toLowerCase()} placement service</Link>.</p>
         </div>
@@ -142,6 +151,7 @@ function hubPage() {
   const art = { "@context": "https://schema.org", "@type": "Article", headline: "BEG Salary and Hiring Guide 2026", datePublished: "2026-06-25", dateModified: "2026-06-28", author: { "@type": "Person", name: "Anthony Moretti", jobTitle: "VP of Sales", url: "https://www.linkedin.com/in/theanthonymoretti" }, publisher: { "@type": "Organization", name: "Business Executive Group", logo: { "@type": "ImageObject", url: "https://beghr.com/assets/beg-header-image.png" } }, mainEntityOfPage: url };
   return `import { Metadata } from 'next';
 import Link from 'next/link';
+import LeadCaptureForm from '@/components/LeadCaptureForm';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -180,6 +190,7 @@ ${kt(
 ${cards}
           </div>
 ${methodology()}
+${leadForm()}
 ${ctaBlock()}
         </div>
       </section>

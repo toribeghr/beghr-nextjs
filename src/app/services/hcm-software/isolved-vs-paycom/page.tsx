@@ -47,7 +47,7 @@ export default function iSolvedVsPaycomPage() {
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
               <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>iSolved wins on:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
-                <li>Claude AI integration — complete tasks, not just Q&A</li>
+                <li>Claude AI integration, complete tasks, not just Q&A</li>
                 <li>BEG-managed implementation and support</li>
                 <li>Mid-market pricing without enterprise markups</li>
                 <li>Industry-specific configurations (legal, healthcare, trades)</li>
@@ -85,7 +85,7 @@ export default function iSolvedVsPaycomPage() {
                   ['Benefits Administration', '✓ Built-in', '✓ Built-in'],
                   ['Time & Attendance', '✓ Native module', '✓ Native module'],
                   ['Talent & Recruiting', '✓ Included', '✓ Included'],
-                  ['AI Workforce Tools', '✓ iSolved Brainware AI', 'Beta — limited availability'],
+                  ['AI Workforce Tools', '✓ iSolved Brainware AI', 'Beta, limited availability'],
                   ['Claude AI Integration', '✓ iSolved Connector for Claude (GA)', '✗ Not available'],
                   ['Mid-market focus', '✓ 50-5,000 employees', 'Skews enterprise / large mid'],
                   ['Implementation', '✓ BEG-managed, dedicated support', 'Paycom direct (no reseller)'],
@@ -111,10 +111,10 @@ export default function iSolvedVsPaycomPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>What Paycom Cannot Offer</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a generally available integration with Claude by Anthropic. The iSolved Connector for Claude lets your team complete actual HR tasks through a conversation — not just get answers, but take action.
+            iSolved is the only HCM platform with a generally available integration with Claude by Anthropic. The iSolved Connector for Claude lets your team complete actual HR tasks through a conversation, not just get answers, but take action.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Run payroll, pull headcount reports, update employee data, and manage workflows — all through Claude. Paycom has announced no equivalent. This capability is available right now through BEG.
+            Run payroll, pull headcount reports, update employee data, and manage workflows, all through Claude. Paycom has announced no equivalent. This capability is available right now through BEG.
           </p>
         </div>
       </section>
@@ -182,7 +182,7 @@ export default function iSolvedVsPaycomPage() {
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
-            excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically — not manually.',
+            excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically, not manually.',
             href: '/blog/hcm-technology/payroll-compliance',
           },
         ]}

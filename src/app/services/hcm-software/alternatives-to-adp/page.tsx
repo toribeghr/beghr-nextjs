@@ -81,7 +81,7 @@ export default function AlternativesToADPPage() {
                   ['Benefits administration', '✓ Built-in, no add-on fee', 'Add-on module, extra cost'],
                   ['Time & attendance', '✓ Native, included', 'Add-on or separate product'],
                   ['Claude AI integration', '✓ Complete tasks via Claude', '✗ Not available'],
-                  ['Implementation support', '✓ BEG-dedicated contact', 'Varies — often minimal post-launch'],
+                  ['Implementation support', '✓ BEG-dedicated contact', 'Varies, often minimal post-launch'],
                   ['Ongoing support', '✓ BEG manages year-round', 'General support queue'],
                   ['Pricing', 'Transparent PEPM', 'Per module, often increases annually'],
                   ['Mid-market fit (50-500)', '✓ Core market', 'Core market is enterprise'],
@@ -105,13 +105,13 @@ export default function AlternativesToADPPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why iSolved + BEG Is the Right Move</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is purpose-built for companies your size. It&apos;s not a scaled-down enterprise tool. It&apos;s a full-featured HCM platform — payroll, benefits, time, talent, and AI — designed for 50 to 5,000 employees.
+            iSolved is purpose-built for companies your size. It&apos;s not a scaled-down enterprise tool. It&apos;s a full-featured HCM platform, payroll, benefits, time, talent, and AI, designed for 50 to 5,000 employees.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            BEG is an authorized iSolved reseller. We implement, train, and support your platform ongoing. When something changes, you call BEG — not a call center queue.
+            BEG is an authorized iSolved reseller. We implement, train, and support your platform ongoing. When something changes, you call BEG, not a call center queue.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            And only iSolved has the Claude AI Connector — the only HCM integration that lets your team complete HR tasks through a natural conversation. No equivalent exists at ADP, Paycom, or Paylocity.
+            And only iSolved has the Claude AI Connector, the only HCM integration that lets your team complete HR tasks through a natural conversation. No equivalent exists at ADP, Paycom, or Paylocity.
           </p>
         </div>
       </section>
@@ -153,7 +153,7 @@ export default function AlternativesToADPPage() {
             Ready to See What iSolved Costs vs. ADP?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We&apos;ll run a side-by-side cost comparison and show you what the switch looks like for your company — no commitment required.
+            15-minute call. We&apos;ll run a side-by-side cost comparison and show you what the switch looks like for your company, no commitment required.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -179,7 +179,7 @@ export default function AlternativesToADPPage() {
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
-            excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically — not manually.',
+            excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically, not manually.',
             href: '/blog/hcm-technology/payroll-compliance',
           },
         ]}

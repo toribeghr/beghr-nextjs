@@ -48,7 +48,7 @@ export default function iSolvedVsPaylocityPage() {
               <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>Choose iSolved if you want:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
                 <li>A true all-in-one platform (HR + payroll + benefits + talent + AI)</li>
-                <li>The iSolved Connector for Claude — complete HR tasks through AI</li>
+                <li>The iSolved Connector for Claude, complete HR tasks through AI</li>
                 <li>BEG-managed implementation and ongoing support</li>
                 <li>Documented 330% ROI (Forrester, 2024)</li>
                 <li>50 to 5,000 employees, any industry</li>
@@ -112,10 +112,10 @@ export default function iSolvedVsPaylocityPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>The Differentiator No Competitor Has</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            In June 2026, iSolved launched the iSolved Connector for Claude — the first HCM platform to be fully integrated with Anthropic&apos;s Claude AI. While competitors offer chatbots that answer questions, iSolved&apos;s Connector actually completes tasks.
+            In June 2026, iSolved launched the iSolved Connector for Claude, the first HCM platform to be fully integrated with Anthropic&apos;s Claude AI. While competitors offer chatbots that answer questions, iSolved&apos;s Connector actually completes tasks.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Run payroll, pull reports, update employee records, and manage HR workflows — all through a natural conversation with Claude. Paylocity has no equivalent. This is not a roadmap item. It is live and available today through BEG.
+            Run payroll, pull reports, update employee records, and manage HR workflows, all through a natural conversation with Claude. Paylocity has no equivalent. This is not a roadmap item. It is live and available today through BEG.
           </p>
         </div>
       </section>
@@ -183,7 +183,7 @@ export default function iSolvedVsPaylocityPage() {
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
-            excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically — not manually.',
+            excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically, not manually.',
             href: '/blog/hcm-technology/payroll-compliance',
           },
         ]}

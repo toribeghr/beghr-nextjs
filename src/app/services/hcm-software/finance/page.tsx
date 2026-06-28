@@ -1,23 +1,12 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG',
+  title: 'iSolved HCM for Finance Firms | Bonus & Payroll Platform | BEG',
   description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://beghr.com/services/hcm-software/finance' },
-  openGraph: {
-    title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG',
-    description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
-    url: 'https://beghr.com/services/hcm-software/finance',
-    siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
-    type: 'website',
-  },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Finance | Bonus & Equity Payroll Built In | BEG', description: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
-
 };
 
 const CALENDLY = getCalendlyLink('hcm-finance');
@@ -29,10 +18,10 @@ export default function HCMFinancePage() {
       imageAlt="Finance firm using iSolved HCM platform implemented by BEG"
       eyebrow="HCM Software · Finance"
       title="One HR platform for firms where compensation gets complicated."
-      description="Performance bonuses, commission tracking, deferred compensation, and equity events require an HCM platform that can handle complexity without a custom dev project. iSolved People Cloud does — implemented and supported by BEG."
+      description="Performance bonuses, commission tracking, deferred compensation, and equity events require an HCM platform that can handle complexity without a custom dev project. iSolved People Cloud does, implemented and supported by BEG."
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: 'iSolved', label: 'People Cloud — all-in-one HCM' },
+        { value: 'iSolved', label: 'People Cloud, all-in-one HCM' },
         { value: '330%', label: 'ROI documented by Forrester' },
         { value: 'BEG', label: 'Implements and supports your platform' },
       ]}
@@ -90,7 +79,7 @@ export default function HCMFinancePage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Platform assessment', body: 'BEG reviews your current HR stack, headcount, and compliance requirements. You get a clear implementation plan and timeline.' },
-              { num: '02', title: 'BEG-managed implementation', body: 'We configure iSolved for your specific structure — compensation, benefits, compliance, and workflows — and manage go-live.' },
+              { num: '02', title: 'BEG-managed implementation', body: 'We configure iSolved for your specific structure, compensation, benefits, compliance, and workflows, and manage go-live.' },
               { num: '03', title: 'Ongoing BEG support', body: 'Your BEG contact manages updates, configuration changes, and compliance adjustments year-round. You are never sent to a support queue.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -114,21 +103,21 @@ export default function HCMFinancePage() {
             {[
               {
                 badge: 'Bonus 01',
-                title: 'BEG implementation included — no professional services invoice.',
+                title: 'BEG implementation included, no professional services invoice.',
                 objection: 'Common objection: "HCM implementations are expensive and take forever."',
-                body: 'BEG manages your full iSolved implementation — configuration, data migration, training, and go-live — as part of the relationship. You are not paying a separate professional services team $50,000 to stand up the system. Implementation is what BEG does.',
+                body: 'BEG manages your full iSolved implementation, configuration, data migration, training, and go-live, as part of the relationship. You are not paying a separate professional services team $50,000 to stand up the system. Implementation is what BEG does.',
               },
               {
                 badge: 'Bonus 02',
-                title: 'iSolved Connector for Claude — HR tasks through AI.',
+                title: 'iSolved Connector for Claude, HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets your HR or finance ops team run compensation reports, update employee data, and manage benefits enrollment — all through Claude AI. No system switching. No manual data pulls. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today — not a roadmap item, not a beta feature.',
+                body: 'The iSolved Connector for Claude lets your HR or finance ops team run compensation reports, update employee data, and manage benefits enrollment, all through Claude AI. No system switching. No manual data pulls. No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
                 title: 'One BEG contact. Not a support ticket queue.',
                 objection: 'Common objection: "Software vendors disappear after you sign."',
-                body: 'Your BEG contact manages your iSolved platform ongoing. When compliance requirements change, when you add a new location, when you need a new workflow configured — you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact.',
+                body: 'Your BEG contact manages your iSolved platform ongoing. When compliance requirements change, when you add a new location, when you need a new workflow configured, you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -158,7 +147,7 @@ export default function HCMFinancePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Claude AI Advantage</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The only HCM platform with a live Claude AI integration.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>iSolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI — not just get answers, but take action. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation workflows around it now will compound that advantage over time.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>iSolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI, not just get answers, but take action. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation workflows around it now will compound that advantage over time.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -184,7 +173,7 @@ export default function HCMFinancePage() {
             </div>
             <div className="faq-item">
               <h3>Do we have to migrate away from our current platform?</h3>
-              <p>Yes — iSolved replaces your current HCM platform. BEG manages the full migration: data transfer, configuration, testing, and training. Most clients complete the transition in 60–90 days with zero payroll interruption.</p>
+              <p>Yes, iSolved replaces your current HCM platform. BEG manages the full migration: data transfer, configuration, testing, and training. Most clients complete the transition in 60–90 days with zero payroll interruption.</p>
             </div>
             <div className="faq-item">
               <h3>What is the iSolved Connector for Claude?</h3>
@@ -192,7 +181,7 @@ export default function HCMFinancePage() {
             </div>
             <div className="faq-item">
               <h3>How does BEG support us after implementation?</h3>
-              <p>Your BEG contact manages your iSolved platform year-round. Configuration changes, compliance updates, new hires, new locations — one contact, no ticket queue.</p>
+              <p>Your BEG contact manages your iSolved platform year-round. Configuration changes, compliance updates, new hires, new locations, one contact, no ticket queue.</p>
             </div>
             <div className="faq-item">
               <h3>What does iSolved cost?</h3>
@@ -217,44 +206,6 @@ export default function HCMFinancePage() {
         }}
       />
 
-    
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'Finance', item: 'https://beghr.com/services/hcm-software/finance' },
-            ],
-          }),
-        }}
-      />
-      <RelatedPosts
-        heading="From the blog"
-        posts={[
-          {
-            category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
-            excerpt: 'Full isolved platform review covering payroll, compensation management, benefits, and compliance. How it handles commission structures and deferred compensation.',
-            href: '/blog/hcm-technology/isolved-platform',
-          },
-          {
-            category: 'HCM technology',
-            title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
-            excerpt: 'Finance firms waste hours on manual payroll and compliance tasks that modern HCM platforms handle automatically. Here is what to prioritize.',
-            href: '/blog/hcm-technology/hr-automation',
-          },
-          {
-            category: 'HCM technology',
-            title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
-            excerpt: '2026 payroll compliance for financial services firms. Federal changes, state requirements, multi-state advisor teams, and what your system must handle.',
-            href: '/blog/hcm-technology/payroll-compliance',
-          },
-        ]}
-      />
     </ServicePage>
   );
 }

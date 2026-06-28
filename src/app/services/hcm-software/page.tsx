@@ -474,6 +474,19 @@ export default function HCMSoftwarePage() {
               <h3>Alternatives to Paylocity</h3>
               <p>Why mid-market teams consider iSolved over Paylocity.</p>
             </Link>
+            <Link href="/services/hcm-software/isolved-vs-ukg" className="card-link reveal"><h3>iSolved vs UKG</h3><p>Mid-market simplicity versus enterprise workforce management.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-dayforce" className="card-link reveal"><h3>iSolved vs Dayforce</h3><p>Right-sized HCM versus an enterprise single-app suite.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-workday" className="card-link reveal"><h3>iSolved vs Workday</h3><p>Faster, simpler, and right-sized versus enterprise scale and cost.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-trinet" className="card-link reveal"><h3>iSolved vs TriNet</h3><p>Own your HR on one platform versus PEO co-employment.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-justworks" className="card-link reveal"><h3>iSolved vs Justworks</h3><p>A scalable platform versus a small-business PEO.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-paycor" className="card-link reveal"><h3>iSolved vs Paycor</h3><p>Two mid-market platforms compared on support and AI.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-deel" className="card-link reveal"><h3>iSolved vs Deel</h3><p>One connected domestic platform versus global EOR.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-quickbooks-payroll" className="card-link reveal"><h3>iSolved vs QuickBooks Payroll</h3><p>A full HCM platform versus basic payroll on accounting.</p></Link>
+            <Link href="/services/hcm-software/alternatives-to-paycom" className="card-link reveal"><h3>Alternatives to Paycom</h3><p>A simpler, managed alternative to Paycom.</p></Link>
+            <Link href="/services/hcm-software/alternatives-to-bamboohr" className="card-link reveal"><h3>Alternatives to BambooHR</h3><p>When you need real payroll depth, not an add-on.</p></Link>
+            <Link href="/services/hcm-software/alternatives-to-workday" className="card-link reveal"><h3>Alternatives to Workday</h3><p>Mid-market power without enterprise cost and complexity.</p></Link>
+            <Link href="/services/hcm-software/alternatives-to-ukg" className="card-link reveal"><h3>Alternatives to UKG</h3><p>A right-sized alternative to enterprise UKG.</p></Link>
+            <Link href="/services/hcm-software/alternatives-to-trinet" className="card-link reveal"><h3>Alternatives to TriNet</h3><p>Keep control of HR without the PEO model.</p></Link>
           </div>
           <div className="head center reveal" style={{ marginTop: '3rem' }}>
             <p className="eyebrow">Switching Is Easier Than You Think</p>
@@ -495,6 +508,18 @@ export default function HCMSoftwarePage() {
             <Link href="/services/hcm-software/switch-from-paylocity-to-isolved" className="card-link reveal">
               <h3>Switch from Paylocity to iSolved</h3>
               <p>Leave implementation and support headaches behind with BEG.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-rippling-to-isolved" className="card-link reveal">
+              <h3>Switch from Rippling to iSolved</h3>
+              <p>Trade a complex IT-first toolset for one platform BEG runs for you.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-paycom-to-isolved" className="card-link reveal">
+              <h3>Switch from Paycom to iSolved</h3>
+              <p>A BEG-managed move off Paycom, configured for your team.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-quickbooks-to-isolved" className="card-link reveal">
+              <h3>Switch from QuickBooks to iSolved</h3>
+              <p>Outgrown QuickBooks Payroll? Move up to a full HCM platform.</p>
             </Link>
           </div>
         </div>
@@ -518,6 +543,65 @@ export default function HCMSoftwarePage() {
               <h3>HCM ROI Calculator</h3>
               <p>Estimate the admin hours and dollars one connected platform gives back.</p>
             </Link>
+            <Link href="/services/hcm-software/ai-readiness-scorecard" className="card-link reveal">
+              <span className="tag">Scorecard</span>
+              <h3>AI HR Readiness Scorecard</h3>
+              <p>Answer 8 questions to score how ready your HR is for AI that completes tasks.</p>
+            </Link>
+            <Link href="/services/hcm-software/platform-finder" className="card-link reveal">
+              <span className="tag">Finder</span>
+              <h3>Which HCM Fits You?</h3>
+              <p>Four questions, one tailored recommendation for your size and industry.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* BEST BY INDUSTRY */}
+      <section className="section section--soft">
+        <div className="container">
+          <div className="head center reveal">
+            <p className="eyebrow">Best HCM Software by Industry</p>
+            <h2>See why iSolved fits how your industry actually runs HR</h2>
+          </div>
+          <div className="cards">
+            <Link href="/services/hcm-software/best-hcm-software-for-manufacturing" className="card-link reveal"><h3>Manufacturing</h3><p>Shifts, differentials, and labor cost by line.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-construction" className="card-link reveal"><h3>Construction</h3><p>Certified payroll, prevailing wage, multi-job costing.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-restaurants" className="card-link reveal"><h3>Restaurants</h3><p>Tips, turnover, and multi-location scheduling.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-retail" className="card-link reveal"><h3>Retail</h3><p>Hourly and seasonal labor across stores.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-healthcare" className="card-link reveal"><h3>Healthcare</h3><p>Credentials, shift differentials, 24/7 staffing.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-nonprofits" className="card-link reveal"><h3>Nonprofits</h3><p>Grant allocation and funder reporting.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-professional-services" className="card-link reveal"><h3>Professional Services</h3><p>Billable utilization and exempt classification.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-staffing-agencies" className="card-link reveal"><h3>Staffing Agencies</h3><p>High-volume onboarding and multi-client payroll.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-transportation" className="card-link reveal"><h3>Transportation</h3><p>Driver pay, per-diem, and multi-state tax.</p></Link>
+            <Link href="/services/hcm-software/best-hcm-software-for-small-business" className="card-link reveal"><h3>Small Business</h3><p>Simple to run now, room to grow later.</p></Link>
+          </div>
+        </div>
+      </section>
+
+      {/* BY SIZE + ABOUT ISOLVED */}
+      <section className="section">
+        <div className="container">
+          <div className="head center reveal">
+            <p className="eyebrow">By Company Size</p>
+            <h2>The right fit for where you are now</h2>
+          </div>
+          <div className="cards">
+            <Link href="/services/hcm-software/hcm-software-for-50-employees" className="card-link reveal"><h3>50 employees</h3><p>Simple to run, with room to grow.</p></Link>
+            <Link href="/services/hcm-software/hcm-software-for-100-employees" className="card-link reveal"><h3>100 employees</h3><p>Consolidate a patchwork of systems.</p></Link>
+            <Link href="/services/hcm-software/hcm-software-for-250-employees" className="card-link reveal"><h3>250 employees</h3><p>Strategic, mid-market HR on one platform.</p></Link>
+            <Link href="/services/hcm-software/hcm-software-for-500-employees" className="card-link reveal"><h3>500 employees</h3><p>Platform as infrastructure at scale.</p></Link>
+          </div>
+          <div className="head center reveal" style={{ marginTop: '3rem' }}>
+            <p className="eyebrow">About iSolved and BEG</p>
+            <h2>Reseller, pricing, reviews, demo, and implementation</h2>
+          </div>
+          <div className="cards">
+            <Link href="/services/hcm-software/isolved-reseller" className="card-link reveal"><h3>iSolved Reseller</h3><p>Why buy iSolved through BEG, an authorized partner.</p></Link>
+            <Link href="/services/hcm-software/isolved-pricing" className="card-link reveal"><h3>iSolved Pricing</h3><p>How pricing works and how BEG scopes your cost.</p></Link>
+            <Link href="/services/hcm-software/isolved-reviews" className="card-link reveal"><h3>iSolved Reviews</h3><p>An honest look at strengths and considerations.</p></Link>
+            <Link href="/services/hcm-software/isolved-demo" className="card-link reveal"><h3>iSolved Demo</h3><p>What to expect in a demo with BEG.</p></Link>
+            <Link href="/services/hcm-software/isolved-implementation" className="card-link reveal"><h3>Implementation</h3><p>The BEG-managed setup process, start to finish.</p></Link>
           </div>
         </div>
       </section>

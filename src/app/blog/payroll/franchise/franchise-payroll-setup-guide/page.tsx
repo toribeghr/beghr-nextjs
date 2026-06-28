@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Franchise Payroll: Multi-Location Payroll Guide | BEG',
-  description: 'Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll' },
+  title: 'Franchise Payroll: Payroll Setup Guide | BEG',
+  description: 'Managed payroll for franchise. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-payroll-setup-guide' },
   openGraph: {
-    title: 'Franchise Payroll: Multi-Location Payroll Guide | BEG',
-    description: 'Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
-    url: 'https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll',
+    title: 'Franchise Payroll: Payroll Setup Guide | BEG',
+    description: 'Managed payroll for franchise. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+    url: 'https://beghr.com/blog/payroll/franchise/franchise-payroll-setup-guide',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Payroll: Multi-Location Payroll Guide | BEG', description: 'Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Payroll: Payroll Setup Guide | BEG', description: 'Managed payroll for franchise. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -42,7 +42,7 @@ export default function Page() {
           <div className="hero-split">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · Payroll Management · Franchise</p>
-              <h1>Franchise Operations: Multi-Location Payroll Guide (2026)</h1>
+              <h1>Franchise Operations: Payroll Setup Guide (2026)</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 28, 2026</span>
@@ -53,36 +53,35 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Franchise Operations payroll operations involve more moving parts than standard business payroll. joint employer liability, multi-entity payroll, franchisor reporting requirements, high turnover all create operational complexity that grows as your business scales.</p>
+        <p>Setting up or managing payroll for franchise operations involves more steps than the basic payroll guides cover. Joint employer rules under NLRB and FLSA, state minimum wage variance, franchisor payroll standards compliance applies on top of standard federal requirements.</p>
 
-        <p>This guide covers how to run Franchise Operations payroll operations efficiently, whether you have 10 employees or 100.</p>
+        <p>This guide covers the specific payroll setup and management requirements for franchise operations.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Key Operational Challenges in Franchise Operations Payroll</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Step 1: Get Your Employer Accounts Set Up</h2>
 
-        <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Joint employer liability.</strong> This affects franchise operations differently than businesses in other industries because of how work is structured and compensated.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Multi-entity payroll.</strong> This affects franchise operations differently than businesses in other industries because of how work is structured and compensated.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Franchisor reporting requirements.</strong> This affects franchise operations differently than businesses in other industries because of how work is structured and compensated.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>High turnover.</strong> This affects franchise operations differently than businesses in other industries because of how work is structured and compensated.</li>
-        </ul>
+        <p>Before running payroll for franchise operations, you need an Employer Identification Number (EIN) from the IRS, a state employer withholding account in each state where you have employees, and a state unemployment insurance (SUTA) account. For franchise operations operating in multiple states, this means separate registrations in each state.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Payroll Run Frequency for Franchise Operations</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Step 2: Configure Pay Types for Franchise Operations</h2>
 
-        <p>Most franchise operations run payroll bi-weekly or semi-monthly. The right choice depends on how your location managers and crew members are paid. Hourly staff often prefer bi-weekly for faster access to earnings. Salaried management often runs semi-monthly to align with accounting cycles.</p>
+        <p>Franchise Operations have non-standard pay types that require specific configuration: joint employer liability, multi-entity payroll, franchisor reporting requirements, high turnover. Each of these must be set up as a separate pay code in your payroll system with the correct tax treatment applied.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Managing Payroll Across Multiple Franchise Operations Locations</h2>
+        <p>Missing this step means your system calculates overtime incorrectly, applies the wrong withholding rate, or misses required reporting — and you do not find out until you receive a penalty notice or employee complaint.</p>
 
-        <p>For franchise operations with multiple locations, payroll operations must track hours, pay rates, and tax obligations by location. Multi-state operations add state withholding and unemployment filing requirements in each state where employees work.</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Step 3: Set Up Compliance Tracking</h2>
 
-        <p>The most efficient approach is a single payroll system with location-based cost centers. This gives you consolidated payroll processing in one cycle with per-location reporting for labor cost analysis.</p>
+        <p>Franchise Operations payroll compliance requires: Joint employer rules under NLRB and FLSA, state minimum wage variance, franchisor payroll standards compliance. Each of these has filing deadlines, rate requirements, or calculation rules that must be maintained current.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>New Hire Payroll Onboarding for Franchise Operations</h2>
+        <p>Set up a compliance calendar that tracks: tax deposit deadlines (semi-weekly or monthly based on your lookback period), quarterly Form 941 due dates, annual Form 940 due dates, state quarterly filings, and new hire reporting requirements.</p>
 
-        <p>New hire payroll onboarding for franchise operations requires: collecting the W-4 and state equivalent, I-9 verification, direct deposit authorization, benefit enrollment if applicable, and state new hire reporting within 20 days of the hire date. Setting up this process as a checklist prevents missed steps that create compliance exposure later.</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Step 4: Run Payroll and File on Time</h2>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How Managed Payroll Simplifies Franchise Operations Operations</h2>
+        <p>With accounts set up and pay types configured, run payroll on your selected frequency. For franchise operations, bi-weekly or semi-monthly works for most salaried staff. joint employer liability may require different frequency or supplemental runs.</p>
 
-        <p>BEG managed payroll at $25–$45 PEPM handles all of the above as part of the base service. Payroll operations run on your schedule without requiring your management team to maintain expertise in joint employer liability or multi-entity payroll.</p>
+        <p>Tax deposits must be made on the IRS schedule — either semi-weekly (if your lookback period tax liability exceeds $50,000) or monthly (if less than $50,000). Missing the deposit date triggers the IRS failure-to-deposit penalty.</p>
+
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Faster Path: Managed Payroll for Franchise Operations</h2>
+
+        <p>BEG managed payroll handles all of the above for franchise operations at $25–$45 PEPM, all-inclusive. Setup takes 3–5 business days. We configure your pay types, establish your tax accounts, and run your first payroll on schedule.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -132,14 +131,14 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Franchise Operations: Multi-Location Payroll Guide (2026)","description":"Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"url":"https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll","mainEntityOfPage":{"@type":"WebPage","@id":"https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll"}}`,
+          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Franchise Operations: Payroll Setup Guide (2026)","description":"Managed payroll for franchise. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"url":"https://beghr.com/blog/payroll/franchise/franchise-payroll-setup-guide","mainEntityOfPage":{"@type":"WebPage","@id":"https://beghr.com/blog/payroll/franchise/franchise-payroll-setup-guide"}}`,
         }}
       />
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Franchise Operations: Multi-Location Payroll Guide (2026)","item":"https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll"}]}`,
+          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Franchise Operations: Payroll Setup Guide (2026)","item":"https://beghr.com/blog/payroll/franchise/franchise-payroll-setup-guide"}]}`,
         }}
       />
     </article>

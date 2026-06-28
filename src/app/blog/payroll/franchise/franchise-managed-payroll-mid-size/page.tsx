@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Franchise Payroll: Multi-Location Payroll Guide | BEG',
-  description: 'Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll' },
+  title: 'Franchise Payroll: For Mid-Size Business (25-100 EE) | BEG',
+  description: 'Managed payroll for franchise. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-managed-payroll-mid-size' },
   openGraph: {
-    title: 'Franchise Payroll: Multi-Location Payroll Guide | BEG',
-    description: 'Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
-    url: 'https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll',
+    title: 'Franchise Payroll: For Mid-Size Business (25-100 EE) | BEG',
+    description: 'Managed payroll for franchise. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+    url: 'https://beghr.com/blog/payroll/franchise/franchise-managed-payroll-mid-size',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Payroll: Multi-Location Payroll Guide | BEG', description: 'Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Payroll: For Mid-Size Business (25-100 EE) | BEG', description: 'Managed payroll for franchise. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -42,7 +42,7 @@ export default function Page() {
           <div className="hero-split">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · Payroll Management · Franchise</p>
-              <h1>Franchise Operations: Multi-Location Payroll Guide (2026)</h1>
+              <h1>Franchise Operations: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 28, 2026</span>
@@ -53,36 +53,56 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Franchise Operations payroll operations involve more moving parts than standard business payroll. joint employer liability, multi-entity payroll, franchisor reporting requirements, high turnover all create operational complexity that grows as your business scales.</p>
+        <p>Managed payroll at $25–$45 PEPM all-inclusive makes economic sense at nearly every size for franchise operations, but the specific value drivers differ depending on headcount.</p>
 
-        <p>This guide covers how to run Franchise Operations payroll operations efficiently, whether you have 10 employees or 100.</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Payroll at Different Sizes for Franchise Operations</h2>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Key Operational Challenges in Franchise Operations Payroll</h2>
+        <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
+            <thead>
+              <tr style={{ background: '#000', color: '#fff' }}>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>Franchise Operations Size</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>Monthly Cost</th>
+                <th style={{ padding: '0.75rem', textAlign: 'right' }}>vs. In-House Hire</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem' }}>Single unit</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$250–$450/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K–$83K/yr</td>
+                </tr>
+                <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem' }}>3-5 unit franchisee</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$750–$2,250/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $45K–$73K/yr</td>
+                </tr>
+                <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
+                  <td style={{ padding: '0.65rem 0.75rem' }}>10+ unit franchisee</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$2,500–$9,000/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $20K+/yr</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Joint employer liability.</strong> This affects franchise operations differently than businesses in other industries because of how work is structured and compensated.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Multi-entity payroll.</strong> This affects franchise operations differently than businesses in other industries because of how work is structured and compensated.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Franchisor reporting requirements.</strong> This affects franchise operations differently than businesses in other industries because of how work is structured and compensated.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>High turnover.</strong> This affects franchise operations differently than businesses in other industries because of how work is structured and compensated.</li>
-        </ul>
+        <p>The comparison is against an in-house hire at $55,000–$85,000 fully loaded to $57K–$88K per year.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Payroll Run Frequency for Franchise Operations</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Under 25 Employees: The Clearest ROI</h2>
 
-        <p>Most franchise operations run payroll bi-weekly or semi-monthly. The right choice depends on how your location managers and crew members are paid. Hourly staff often prefer bi-weekly for faster access to earnings. Salaried management often runs semi-monthly to align with accounting cycles.</p>
+        <p>For franchise operations under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $55,000–$85,000 fully loaded — compared to $625–$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2–3 months.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Managing Payroll Across Multiple Franchise Operations Locations</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25–75 Employees: Complexity Drives the Case</h2>
 
-        <p>For franchise operations with multiple locations, payroll operations must track hours, pay rates, and tax obligations by location. Multi-state operations add state withholding and unemployment filing requirements in each state where employees work.</p>
+        <p>In the 25–75 employee range, franchise operations are dealing with more joint employer liability, multi-entity payroll, franchisor reporting requirements, high turnover. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
 
-        <p>The most efficient approach is a single payroll system with location-based cost centers. This gives you consolidated payroll processing in one cycle with per-location reporting for labor cost analysis.</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75–200 Employees: Hybrid Approaches Emerge</h2>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>New Hire Payroll Onboarding for Franchise Operations</h2>
+        <p>At 75+ employees, franchise operations often consider a hybrid approach: an HR generalist handles employee relations and benefits while a managed payroll provider handles the compliance-heavy payroll function. This keeps an internal HR presence while outsourcing the most technically complex piece.</p>
 
-        <p>New hire payroll onboarding for franchise operations requires: collecting the W-4 and state equivalent, I-9 verification, direct deposit authorization, benefit enrollment if applicable, and state new hire reporting within 20 days of the hire date. Setting up this process as a checklist prevents missed steps that create compliance exposure later.</p>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How to Get a Quote for Your Franchise Operations</h2>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How Managed Payroll Simplifies Franchise Operations Operations</h2>
-
-        <p>BEG managed payroll at $25–$45 PEPM handles all of the above as part of the base service. Payroll operations run on your schedule without requiring your management team to maintain expertise in joint employer liability or multi-entity payroll.</p>
+        <p>BEG quotes managed payroll based on your actual headcount and pay frequency. For most franchise operations, the first discovery call includes a custom cost comparison against your current setup.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -132,14 +152,14 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Franchise Operations: Multi-Location Payroll Guide (2026)","description":"Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"url":"https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll","mainEntityOfPage":{"@type":"WebPage","@id":"https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll"}}`,
+          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Franchise Operations: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)","description":"Managed payroll for franchise. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"url":"https://beghr.com/blog/payroll/franchise/franchise-managed-payroll-mid-size","mainEntityOfPage":{"@type":"WebPage","@id":"https://beghr.com/blog/payroll/franchise/franchise-managed-payroll-mid-size"}}`,
         }}
       />
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Franchise Operations: Multi-Location Payroll Guide (2026)","item":"https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll"}]}`,
+          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Franchise Operations: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)","item":"https://beghr.com/blog/payroll/franchise/franchise-managed-payroll-mid-size"}]}`,
         }}
       />
     </article>

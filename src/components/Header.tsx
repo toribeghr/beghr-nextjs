@@ -8,10 +8,10 @@ const navGroups = [
     label: 'Services',
     items: [
       { href: '/services/managed-payroll',                  label: 'Managed Payroll',    hub: true  },
-      { href: '/services/managed-payroll/pricing',          label: 'Payroll Pricing',    hub: false },
-      { href: '/services/managed-payroll/cost-calculator',  label: 'Cost Calculator',    hub: false },
       { href: '/services/job-placement',                    label: 'Job Placement',      hub: true  },
       { href: '/services/hcm-software',                     label: 'HCM Software',       hub: true  },
+      { href: '/services/managed-payroll/pricing',          label: 'Payroll Pricing',    hub: false },
+      { href: '/services/managed-payroll/cost-calculator',  label: 'Cost Calculator',    hub: false },
     ],
   },
   {

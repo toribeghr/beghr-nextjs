@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Payroll Tax Compliance in 2026: What Changed and How HCM Software Keeps You Current',
-  description: '2026 payroll compliance changes including OBBBA overtime rules, state minimum wages, new 1099-NEC thresholds, and expanded paid leave. How isolved People Cloud handles compliance automatically.',
+  title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG',
+  description: '2026 payroll compliance changes: overtime rules, minimum wages, 1099-NEC thresholds, and paid leave. How iSolved handles compliance automatically.',
   alternates: { canonical: 'https://beghr.com/blog/hcm-technology/payroll-compliance' },
   openGraph: {
-    title: 'Payroll Tax Compliance in 2026: What Changed and How HCM Software Keeps You Current',
+    title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG',
     description: '2026 payroll compliance changes including OBBBA overtime rules, state minimum wages, new 1099-NEC thresholds, and expanded paid leave. How isolved Peopl...',
     url: 'https://beghr.com/blog/hcm-technology/payroll-compliance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll Tax Compliance in 2026: What Changed and How HCM Software Keeps You Current', description: '2026 payroll compliance changes including OBBBA overtime rules, state minimum wages, new 1099-NEC thresholds, and expanded paid leave. How isolved Peopl...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG', description: '2026 payroll compliance changes including OBBBA overtime rules, state minimum wages, new 1099-NEC thresholds, and expanded paid leave. How isolved Peopl...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

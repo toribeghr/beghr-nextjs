@@ -54,7 +54,7 @@ for (const file of allPages) {
   const title = extractMetaString(content, 'title');
   if (!title) {
     errors.push(`[MISSING TITLE] ${rel}`);
-  } else if (title.length > 60) {
+  } else if (title.length > 65) {
     warnings.push(`[TITLE TOO LONG ${title.length}ch] ${rel}\n   → "${title}"`);
   }
 

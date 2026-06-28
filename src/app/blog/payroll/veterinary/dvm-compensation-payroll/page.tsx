@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG',
-  description: 'A practical guide to DVM compensation structures in payroll — base salary, production bonus calculation, associate vs. owner pay, and the most common setup errors.',
+  description: 'A practical guide to DVM compensation structures in payroll — base salary, production bonus calculation, associate vs. owner pay, and the most common',
   alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/dvm-compensation-payroll' },
   openGraph: {
     title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG',

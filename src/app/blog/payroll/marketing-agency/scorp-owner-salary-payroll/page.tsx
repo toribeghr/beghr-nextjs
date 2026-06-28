@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know | BEG',
-  description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner distributions work alongside payroll.',
+  title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG',
+  description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll' },
   openGraph: {
-    title: 'S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know | BEG',
+    title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG',
     description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner distri...',
     url: 'https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'S-Corp Owner Salary in Payroll: What Marketing Agency Owners Need to Know | BEG', description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner distri...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG', description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner distri...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

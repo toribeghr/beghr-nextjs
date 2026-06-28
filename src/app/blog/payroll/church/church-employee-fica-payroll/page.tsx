@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Church Payroll and FICA: Which Employees Are Exempt and Which Are Not | BEG',
-  description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a church makes the FICA election.',
+  title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG',
+  description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a',
   alternates: { canonical: 'https://beghr.com/blog/payroll/church/church-employee-fica-payroll' },
   openGraph: {
-    title: 'Church Payroll and FICA: Which Employees Are Exempt and Which Are Not | BEG',
+    title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG',
     description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...',
     url: 'https://beghr.com/blog/payroll/church/church-employee-fica-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Church Payroll and FICA: Which Employees Are Exempt and Which Are Not | BEG', description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG', description: 'A clear guide to FICA obligations for church employers — ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

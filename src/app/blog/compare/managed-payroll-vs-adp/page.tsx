@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG',
-  description: 'ADP is powerful but expensive and complex for 20–200 employee companies. Compare ADP total cost, service model, and capabilities against BEG managed payroll.',
+  description: 'ADP is powerful but expensive for 20-200 employee companies. Compare ADP total cost, service model, and support vs. BEG managed payroll at $25-$45 PEPM.',
   alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-adp' },
   openGraph: {
     title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG',

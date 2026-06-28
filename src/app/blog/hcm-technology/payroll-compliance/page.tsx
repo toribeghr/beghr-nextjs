@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
-  description: '2026 payroll compliance guide. Federal and state changes, FLSA thresholds, ACA requirements, multi-state employer obligations, and how managed payroll keeps you current.',
+  title: 'Payroll Tax Compliance 2026 | Changes & What to Fix | BEG',
+  description: '2026 payroll compliance guide. FLSA thresholds, ACA requirements, state changes, and how managed payroll keeps you compliant automatically.',
   alternates: { canonical: 'https://beghr.com/blog/hcm-technology/payroll-compliance' },
   openGraph: {
-    title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
+    title: 'Payroll Tax Compliance 2026 | Changes & What to Fix | BEG',
     description: '2026 payroll compliance guide. Federal and state changes, FLSA thresholds, ACA requirements, multi-state employer obligations, and how managed payroll k...',
     url: 'https://beghr.com/blog/hcm-technology/payroll-compliance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', description: '2026 payroll compliance guide. Federal and state changes, FLSA thresholds, ACA requirements, multi-state employer obligations, and how managed payroll k...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll Tax Compliance 2026 | Changes & What to Fix | BEG', description: '2026 payroll compliance guide. Federal and state changes, FLSA thresholds, ACA requirements, multi-state employer obligations, and how managed payroll k...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'HR Automation in 2026: What iSolved Actually Automates (And What It Does Not)',
-  description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connector for Claude explained.',
+  title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
+  description: 'What HR automation actually looks like in 2026. How iSolved automates payroll, onboarding, compliance, and ACA tracking — plus the Connector for Claude.',
   alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },
   openGraph: {
-    title: 'HR Automation in 2026: What iSolved Actually Automates (And What It Does Not)',
+    title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
     description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...',
     url: 'https://beghr.com/blog/hcm-technology/hr-automation',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HR Automation in 2026: What iSolved Actually Automates (And What It Does Not)', description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HR Automation in 2026 | What iSolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

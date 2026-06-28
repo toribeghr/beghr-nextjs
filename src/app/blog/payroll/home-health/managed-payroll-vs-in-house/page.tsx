@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies | BEG',
-  description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV compliance, multi-state operations, and FLSA covered.',
+  title: 'Home Health Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',
+  description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV',
   alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/managed-payroll-vs-in-house' },
   openGraph: {
-    title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies | BEG',
+    title: 'Home Health Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',
     description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV complianc...',
     url: 'https://beghr.com/blog/payroll/home-health/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies | BEG', description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV complianc...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Health Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG', description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV complianc...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

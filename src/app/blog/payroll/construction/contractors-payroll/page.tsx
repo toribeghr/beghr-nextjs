@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Construction Payroll Outsourcing: Cost vs. Hiring Payroll Manager (2026)',
-  description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costing. Save $55K–$95K annually.',
+  title: 'Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
+  description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job',
   alternates: { canonical: 'https://beghr.com/blog/payroll/construction/contractors-payroll' },
   openGraph: {
-    title: 'Construction Payroll Outsourcing: Cost vs. Hiring Payroll Manager (2026)',
+    title: 'Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
     description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...',
     url: 'https://beghr.com/blog/payroll/construction/contractors-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction Payroll Outsourcing: Cost vs. Hiring Payroll Manager (2026)', description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG', description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

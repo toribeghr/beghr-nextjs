@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Cannabis Business Payroll Under Section 280E: What You Can and Can\'t Deduct | BEG',
-  description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to maximize allowable deductions.',
+  title: 'Cannabis Payroll & Section 280E | What You Can Deduct | BEG't Deduct | BEG',
+  description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e' },
   openGraph: {
-    title: 'Cannabis Business Payroll Under Section 280E: What You Can and Can\',
+    title: 'Cannabis Payroll & Section 280E | What You Can Deduct | BEG',
     description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to ...',
     url: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Cannabis Business Payroll Under Section 280E: What You Can and Can\', description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to ...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll & Section 280E | What You Can Deduct | BEG', description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to ...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

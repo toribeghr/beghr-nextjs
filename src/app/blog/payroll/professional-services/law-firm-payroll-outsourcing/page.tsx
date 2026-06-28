@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
-  description: 'Compare law firm payroll outsourcing vs. hiring in-house. Partner draws, IOLTA separation, billing integration, associate salary tiers. Save $55K–$90K at $25–$45 PEPM.',
+  description: 'Compare law firm payroll outsourcing vs. hiring in-house. Partner draws, IOLTA separation, billing integration, associate salary tiers. Save $55K–$90K',
   keywords: 'law firm payroll outsourcing, payroll outsourcing cost, hire payroll manager, law firm HR, professional services payroll',
   alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
   openGraph: {

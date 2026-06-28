@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'SaaS Payroll Outsourcing: Cost vs. Hiring Payroll Ops Manager (2026)',
-  description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45 PEPM.',
+  title: 'SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
+  description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/technology/saas-payroll-outsourcing' },
   openGraph: {
-    title: 'SaaS Payroll Outsourcing: Cost vs. Hiring Payroll Ops Manager (2026)',
+    title: 'SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
     description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45...',
     url: 'https://beghr.com/blog/payroll/technology/saas-payroll-outsourcing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'SaaS Payroll Outsourcing: Cost vs. Hiring Payroll Ops Manager (2026)', description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG', description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

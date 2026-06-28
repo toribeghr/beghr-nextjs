@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG',
-  description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually delivers.',
+  description: 'Deel is built for global contractors. BEG is built for domestic W-2 teams. Compare pricing, compliance coverage, and which service fits your situation.',
   alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-deel' },
   openGraph: {
     title: 'Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG',

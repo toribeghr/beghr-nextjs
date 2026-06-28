@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Staffing Agency Payroll Outsourcing: Managing Commission, Contractors, and Multi-State (2026)',
+  title: 'Staffing Agency Payroll Outsourcing | Commission Done Right | BEG',
   description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services-staffing/recruiting' },
   openGraph: {
-    title: 'Staffing Agency Payroll Outsourcing: Managing Commission, Contractors, and Multi-State (2026)',
+    title: 'Staffing Agency Payroll Outsourcing | Commission Done Right | BEG',
     description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',
     url: 'https://beghr.com/blog/payroll/professional-services-staffing/recruiting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Outsourcing: Managing Commission, Contractors, and Multi-State (2026)', description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Outsourcing | Commission Done Right | BEG', description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

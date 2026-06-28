@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+  title: 'Accounting Firm Payroll | $25 PEPM vs. Hiring In-House | BEG',
   description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services/accounting' },
   openGraph: {
-    title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+    title: 'Accounting Firm Payroll | $25 PEPM vs. Hiring In-House | BEG',
     description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.',
     url: 'https://beghr.com/blog/payroll/professional-services/accounting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)', description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Accounting Firm Payroll | $25 PEPM vs. Hiring In-House | BEG', description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

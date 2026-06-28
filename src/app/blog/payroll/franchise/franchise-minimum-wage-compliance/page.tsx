@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Franchise Minimum Wage Compliance: How to Stay Current Across Multiple Locations | BEG',
-  description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what happens when an increase is missed.',
+  title: 'Franchise Minimum Wage Compliance | Stay Current. | BEG',
+  description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what',
   alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance' },
   openGraph: {
-    title: 'Franchise Minimum Wage Compliance: How to Stay Current Across Multiple Locations | BEG',
+    title: 'Franchise Minimum Wage Compliance | Stay Current. | BEG',
     description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what ...',
     url: 'https://beghr.com/blog/payroll/franchise/franchise-minimum-wage-compliance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Minimum Wage Compliance: How to Stay Current Across Multiple Locations | BEG', description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what ...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Minimum Wage Compliance | Stay Current. | BEG', description: 'How franchise operators manage minimum wage compliance when rates differ by state and city — automatic update systems, notification timelines, and what ...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

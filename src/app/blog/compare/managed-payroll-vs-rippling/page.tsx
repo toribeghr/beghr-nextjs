@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Rippling vs Managed Payroll | Not Software. A Service. | BEG',
-  description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled — not rebuilt — managed payroll may cost 60–70% less. Full comparison.',
+  description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled, not rebuilt, BEG managed payroll runs it for you at $25-$45 PEPM.',
   alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-rippling' },
   openGraph: {
     title: 'Rippling vs Managed Payroll | Not Software. A Service. | BEG',

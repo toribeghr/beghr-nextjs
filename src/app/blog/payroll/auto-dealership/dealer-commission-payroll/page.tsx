@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Auto Dealership Commission and Draw Payroll: How to Process It Correctly | BEG',
-  description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll — and how to avoid the most common compliance errors.',
+  title: 'Dealer Commission Payroll | How to Process Draw & Clawback | BEG',
+  description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll — and how to avoid the most common',
   alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll' },
   openGraph: {
-    title: 'Auto Dealership Commission and Draw Payroll: How to Process It Correctly | BEG',
+    title: 'Dealer Commission Payroll | How to Process Draw & Clawback | BEG',
     description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll — and how to avoid the most common co...',
     url: 'https://beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Auto Dealership Commission and Draw Payroll: How to Process It Correctly | BEG', description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll — and how to avoid the most common co...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Dealer Commission Payroll | How to Process Draw & Clawback | BEG', description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll — and how to avoid the most common co...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

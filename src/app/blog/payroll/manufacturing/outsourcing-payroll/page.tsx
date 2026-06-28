@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+  title: 'Manufacturing Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
   description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll' },
   openGraph: {
-    title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+    title: 'Manufacturing Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
     description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.',
     url: 'https://beghr.com/blog/payroll/manufacturing/outsourcing-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Manufacturing Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)', description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Manufacturing Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG', description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG',
-  description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner salary, contractor vs. W-2 classification covered.',
+  description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG',

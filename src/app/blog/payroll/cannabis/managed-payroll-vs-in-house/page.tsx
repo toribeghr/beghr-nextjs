@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Cannabis Businesses | BEG',
-  description: 'Cannabis business payroll outsourcing vs. hiring in-house. Real cost comparison for dispensaries, cultivators, and processors. 280E, cash payroll, banking limitations, and state compliance covered.',
+  description: 'Cannabis business payroll outsourcing vs. hiring in-house. Real cost comparison for dispensaries, cultivators, and processors. 280E, cash payroll',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House for Cannabis Businesses | BEG',

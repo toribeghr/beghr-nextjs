@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)',
-  description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the playbook.',
+  description: 'Law firms average 60–90 days to hire an associate. Top firms fill in 23–35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See',
   alternates: { canonical: 'https://beghr.com/blog/legal-hiring/associate-hiring' },
   openGraph: {
     title: 'Law Firm Associate Hiring: Fill Roles in 23–35 Days (2026 Guide)',

@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Financial Services Payroll Outsourcing: Managing Commission, Deferred Comp, and Compliance (2026)',
-  description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save $70K–$120K annually.',
+  title: 'Wealth Firm Payroll | Commission & Deferred Comp. Handled. | BEG',
+  description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save',
   alternates: { canonical: 'https://beghr.com/blog/payroll/financial-services/wealth-firms' },
   openGraph: {
-    title: 'Financial Services Payroll Outsourcing: Managing Commission, Deferred Comp, and Compliance (2026)',
+    title: 'Wealth Firm Payroll | Commission & Deferred Comp. Handled. | BEG',
     description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save $70K...',
     url: 'https://beghr.com/blog/payroll/financial-services/wealth-firms',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Financial Services Payroll Outsourcing: Managing Commission, Deferred Comp, and Compliance (2026)', description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save $70K...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Wealth Firm Payroll | Commission & Deferred Comp. Handled. | BEG', description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save $70K...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

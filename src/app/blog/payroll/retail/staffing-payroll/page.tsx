@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Retail Payroll Outsourcing: Managing Variable Hours, Seasonal Staff, and Compliance (2026)',
+  title: 'Retail Payroll Outsourcing | Seasonal Staff. Done Right. | BEG',
   description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/retail/staffing-payroll' },
   openGraph: {
-    title: 'Retail Payroll Outsourcing: Managing Variable Hours, Seasonal Staff, and Compliance (2026)',
+    title: 'Retail Payroll Outsourcing | Seasonal Staff. Done Right. | BEG',
     description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',
     url: 'https://beghr.com/blog/payroll/retail/staffing-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Retail Payroll Outsourcing: Managing Variable Hours, Seasonal Staff, and Compliance (2026)', description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Retail Payroll Outsourcing | Seasonal Staff. Done Right. | BEG', description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

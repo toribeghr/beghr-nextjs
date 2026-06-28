@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Medical Practice Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
-  description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at $25–$45 PEPM.',
+  title: 'Medical Practice Payroll | $25 PEPM vs. $60K Hire | BEG',
+  description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare/medical-practices' },
   openGraph: {
-    title: 'Medical Practice Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
+    title: 'Medical Practice Payroll | $25 PEPM vs. $60K Hire | BEG',
     description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at $...',
     url: 'https://beghr.com/blog/payroll/healthcare/medical-practices',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Medical Practice Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)', description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at $...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Medical Practice Payroll | $25 PEPM vs. $60K Hire | BEG', description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at $...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

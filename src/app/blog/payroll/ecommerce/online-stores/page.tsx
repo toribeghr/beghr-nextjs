@@ -1,18 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'E-Commerce Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
+  title: 'E-Commerce Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG',
   description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/ecommerce/online-stores' },
   openGraph: {
-    title: 'E-Commerce Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
+    title: 'E-Commerce Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG',
     description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',
     url: 'https://beghr.com/blog/payroll/ecommerce/online-stores',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'E-Commerce Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)', description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'E-Commerce Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG', description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

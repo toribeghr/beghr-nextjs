@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Childcare Subsidy and Payroll: Managing Mixed-Funding Compliance | BEG',
-  description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition — documentation, audit trails, and cost allocation requirements.',
+  title: 'Childcare Subsidy Payroll | Managing Mixed-Funding Right | BEG',
+  description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition —',
   alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll' },
   openGraph: {
-    title: 'Childcare Subsidy and Payroll: Managing Mixed-Funding Compliance | BEG',
+    title: 'Childcare Subsidy Payroll | Managing Mixed-Funding Right | BEG',
     description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition — documentati...',
     url: 'https://beghr.com/blog/payroll/childcare/childcare-subsidy-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Childcare Subsidy and Payroll: Managing Mixed-Funding Compliance | BEG', description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition — documentati...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Childcare Subsidy Payroll | Managing Mixed-Funding Right | BEG', description: 'How childcare centers manage payroll when staff costs are funded by a mix of state subsidies, CCDF, Head Start grants, and private tuition — documentati...', images: ['https://beghr.com/assets/og-image.png'] },
 
 };
 

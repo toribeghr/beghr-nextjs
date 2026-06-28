@@ -25,7 +25,7 @@ interface Fee {
 // Typical add-on fees billed on top of base by per-run / fee-stacking providers.
 // Ranges are illustrative industry typicals, not a quote.
 const FEES: Fee[] = [
-  { id: 'perrun', label: 'Per-payroll-run fee', note: 'A flat charge every time you run payroll. Weekly schedules pay it 52 times a year.', low: (n, r) => 3 * r, high: (n, r) => 10 * r },
+  { id: 'perrun', label: 'Per-payroll-run fee', note: 'A flat charge every time you run payroll. Weekly schedules pay it 52 times a year.', low: (_n, r) => 3 * r, high: (_n, r) => 10 * r },
   { id: 'percheck', label: 'Per-employee / per-check fee', note: 'Charged per person, per run. Scales with headcount and pay frequency.', low: (n, r) => 1.5 * n * r, high: (n, r) => 4 * n * r },
   { id: 'taxfiling', label: 'Tax filing surcharge', note: 'A monthly add-on to actually file the taxes they calculate.', low: () => 12 * 10, high: () => 12 * 25 },
   { id: 'yearend', label: 'Year-end / W-2 / 1099 fee', note: 'A seasonal charge to produce the forms you are legally required to file.', low: (n) => 50 + 4 * n, high: (n) => 90 + 8 * n },

@@ -289,3 +289,35 @@ This is a build-process rule, not optional polish. The same answer-first structu
 5. **TL;DR / key-takeaways block** near the top (class `tldr`) summarizing the page in 2 to 3 lines. Comparison pages already do this as "Bottom Line Up Front"; extend the pattern to all page types.
 
 Rules that still apply: no em-dashes, iSolved capitalized in display text, one clear claim per section backed by a fact.
+
+---
+
+## Lead Pages + Mobile Responsiveness (REQUIRED on every lead or landing page)
+
+Every page that captures a lead (forms, calculators, gated downloads, salary or resource pages) must be fully responsive and must never split or smush on mobile. These are build-process rules, not optional polish.
+
+1. **Always use the shared `LeadCaptureForm` component.** Never hand-build a form. Import it from `@/components/LeadCaptureForm`. It is responsive by default: `width: 100%` up to a `460px` max, centered with `margin: 0 auto`, `box-sizing: border-box`, single column on every screen. Props: `toolName`, `toolDescription`, optional `assetUrl`, `assetLabel`, `calendlyLink`, `followupText`.
+
+2. **Place the opt-in directly under the H1, not at the bottom.** Put the form in a centered container immediately after the hero so it is the first thing under the headline:
+   ```tsx
+   <section className="section section--soft">
+     <div className="container" style={{ maxWidth: '760px', textAlign: 'center' }}>
+       <h2>Get the [asset]</h2>
+       <p>One line on what they are requesting.</p>
+       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
+         <LeadCaptureForm toolName="..." toolDescription="..." />
+       </div>
+     </div>
+   </section>
+   ```
+
+3. **No fixed two-column layouts that do not stack.** Any side-by-side block must collapse to one column on mobile. Use `display: grid; gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))'` or `display: flex; flexWrap: 'wrap'`, or the site grid classes. Never use a fixed `'1fr 1fr'` / `'repeat(2, 1fr)'` without a wrap or breakpoint.
+
+4. **Wide tables scroll, not smush.** Wrap any data table in a scroll container and give the table a `min-width` so it scrolls horizontally on small screens instead of cramming:
+   ```tsx
+   <div style={{ overflowX: 'auto' }}>
+     <table style={{ width: '100%', minWidth: '440px' }}>...</table>
+   </div>
+   ```
+
+5. **Verify at 390px.** Before shipping a lead page, confirm at phone width that the form, tables, and any columns stack cleanly and the page itself has no horizontal scroll.

@@ -96,7 +96,7 @@ export default function LeadCaptureForm({
   }
 
   return (
-    <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: `4px solid ${GOLD}`, borderRadius: '10px', padding: '1.75rem', maxWidth: '460px' }}>
+    <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: `4px solid ${GOLD}`, borderRadius: '10px', padding: '1.75rem', width: '100%', maxWidth: '460px', boxSizing: 'border-box', margin: '0 auto' }}>
       <p style={{ display: 'inline-block', background: GOLD, color: '#000', fontWeight: 700, fontSize: '0.72rem', padding: '0.2rem 0.6rem', borderRadius: '4px', letterSpacing: '0.05em', margin: '0 0 0.75rem' }}>
         YOU ARE REQUESTING
       </p>

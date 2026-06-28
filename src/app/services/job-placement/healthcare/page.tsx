@@ -1,14 +1,23 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Healthcare Job Placement | Clinical & Nursing Recruiting | BEG',
+  title: 'Healthcare Placement | 23-35 Days. 45-Day Guarantee. | BEG',
   description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.',
   alternates: { canonical: 'https://beghr.com/services/job-placement/healthcare' },
-  openGraph: { title: 'Healthcare Job Placement | Clinical & Nursing Recruiting | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', url: 'https://beghr.com/services/job-placement/healthcare', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Job Placement | Clinical & Nursing Recruiting | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+  openGraph: {
+    title: 'Healthcare Placement | 23-35 Days. 45-Day Guarantee. | BEG',
+    description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.',
+    url: 'https://beghr.com/services/job-placement/healthcare',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Placement | 23-35 Days. 45-Day Guarantee. | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('placement-healthcare');
@@ -20,7 +29,7 @@ export default function PlacementHealthcarePage() {
       imageAlt="Healthcare organization with an unfilled clinical vacancy"
       eyebrow="Job Placement · Healthcare"
       title="Your clinical vacancy is a patient care problem."
-      description="Every unfilled nursing or clinical role increases burnout, inflates overtime, and puts patient ratios at risk. Travel nurse agencies charge $150-$200 per hour to paper over the gap. We place permanent clinical staff in 23-35 days at roughly 50% less than contingency firms."
+      description="Every unfilled nursing or clinical role increases burnout, inflates overtime, and puts patient ratios at risk. Travel nurse agencies charge $150–$200 per hour to paper over the gap. We place permanent clinical staff in 23–35 days at roughly 50% less than contingency firms."
       calendlyLink={CALENDLY}
       heroStats={[{"value":"23-35","label":"Days to fill on average"},{"value":"86%","label":"Fill rate on active searches"},{"value":"~50%","label":"Less than contingency pricing"}]}
     >
@@ -36,7 +45,7 @@ export default function PlacementHealthcarePage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$150-$200/hr</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$150–$200/hr</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>What travel agencies charge for the same role</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>A permanent placement through BEG costs a fraction of what you spend on travel staff over 12 months.</div>
                 </div>
@@ -47,7 +56,7 @@ export default function PlacementHealthcarePage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>1 in 5</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Nurses plan to leave the profession</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>The talent pool is shrinking. The best permanent candidates are passive - proactive sourcing is the only way to reach them.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>The talent pool is shrinking. The best permanent candidates are passive — proactive sourcing is the only way to reach them.</div>
                 </div>
               ))()
             }
@@ -74,8 +83,8 @@ export default function PlacementHealthcarePage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Discovery call', body: 'We learn your organization, the role, and what a strong candidate actually looks like in your environment. 15 minutes. No fluff.' },
-              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates - professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
-              { num: '03', title: 'Shortlist review', body: 'You receive 3-5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
+              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates — professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
+              { num: '03', title: 'Shortlist review', body: 'You receive 3–5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -92,7 +101,7 @@ export default function PlacementHealthcarePage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">What You Get</p>
-            <h2>Three things every organization wants - and most placement firms do not offer</h2>
+            <h2>Three things every organization wants — and most placement firms do not offer</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem', marginTop: '2rem' }}>
             {[
@@ -100,7 +109,7 @@ export default function PlacementHealthcarePage() {
                 badge: 'Bonus 01',
                 title: 'No contingency fees. Ever.',
                 objection: 'Common objection: "We already work with contingency recruiters."',
-                body: 'Instead of a lump-sum contingency fee, payments are tied to defined milestones in the search. Total cost is roughly 50% less than a contingency arrangement - and far less than continued travel nurse spend for the same seat.',
+                body: 'Instead of a lump-sum contingency fee, payments are tied to defined milestones in the search. Total cost is roughly 50% less than a contingency arrangement — and far less than continued travel nurse spend for the same seat.',
               },
               {
                 badge: 'Bonus 02',
@@ -112,7 +121,7 @@ export default function PlacementHealthcarePage() {
                 badge: 'Bonus 03',
                 title: 'A curated shortlist. Not a resume stack.',
                 objection: 'Common objection: "We have used recruiters before and wasted time on bad candidates."',
-                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3-5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
+                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3–5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -137,12 +146,12 @@ export default function PlacementHealthcarePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every week that role stays open is a decision you are making.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>One travel nurse covering a permanent vacancy costs $15,000-$30,000 per month more than a permanent hire. A 90-day vacancy managed with travel staff can cost your organization $45,000-$90,000 in excess spend before the search even closes.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>One travel nurse covering a permanent vacancy costs $15,000–$30,000 per month more than a permanent hire. A 90-day vacancy managed with travel staff can cost your organization $45,000–$90,000 in excess spend before the search even closes.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Talent Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best candidates are only available for a few weeks.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Strong clinical candidates are actively recruited by multiple health systems. A passive nurse who opens up to a new opportunity typically accepts an offer within 2-3 weeks. A search process that takes 90 days is not competing for those candidates - it is competing for whoever is left.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Strong clinical candidates are actively recruited by multiple health systems. A passive nurse who opens up to a new opportunity typically accepts an offer within 2–3 weeks. A search process that takes 90 days is not competing for those candidates — it is competing for whoever is left.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -202,6 +211,44 @@ export default function PlacementHealthcarePage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Job Placement', item: 'https://beghr.com/services/job-placement' },
+              { '@type': 'ListItem', position: 3, name: 'Healthcare', item: 'https://beghr.com/services/job-placement/healthcare' },
+            ],
+          }),
+        }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Hiring strategy',
+            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+            excerpt: 'The three recruiting fee structures explained — what each costs, what risk each carries, and when milestone-based placement makes the most sense.',
+            href: '/blog/compare/contingency-vs-retained-vs-milestone',
+          },
+          {
+            category: 'Hiring strategy',
+            title: "How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)",
+            excerpt: 'Most firm searches that stall past 60 days are stuck for one of three reasons. Here is how to diagnose the problem and reset the search.',
+            href: '/blog/compare/how-long-should-attorney-placement-take',
+          },
+          {
+            category: 'Legal hiring',
+            title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+            excerpt: 'Passive candidates dominate the best talent pool. How the tightest hiring market in a decade is reshaping how firms approach professional placement.',
+            href: '/blog/legal-hiring/attorney-market-trends',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

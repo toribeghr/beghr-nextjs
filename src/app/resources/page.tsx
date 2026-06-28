@@ -66,20 +66,6 @@ export default function ResourcesPage() {
             {[
               {
                 tag: 'Calculator',
-                title: 'Recruiting Fee Savings Calculator',
-                desc: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings instantly - BEG fills permanent roles at roughly 50% less than contingency.',
-                href: '/resources/recruiting-fee-calculator',
-                cta: 'Calculate My Savings',
-              },
-              {
-                tag: 'Calculator',
-                title: 'Cost of a Vacant Role Calculator',
-                desc: 'See what an open role costs you every week it stays empty, plus a 4-week projection. BEG fills roles in 23 to 35 days so the seat is not empty for long.',
-                href: '/resources/cost-of-vacant-role-calculator',
-                cta: 'See the Cost',
-              },
-              {
-                tag: 'Calculator',
                 title: 'Managed Payroll Cost Calculator',
                 desc: 'Enter your employee count and current payroll cost. Get an instant estimate of what BEG managed payroll would cost you at $25-$45 PEPM versus what you pay today.',
                 href: '/services/managed-payroll/cost-calculator',

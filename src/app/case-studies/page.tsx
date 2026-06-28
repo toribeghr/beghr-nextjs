@@ -16,49 +16,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'Managed Payroll Case Studies | BEG', description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated payroll overhead.', images: ['https://beghr.com/assets/og-image.png'] },
 };
 
-const placementCaseStudies = [
-  {
-    slug: 'placement-legal',
-    industry: 'Legal Placement',
-    title: 'How a Law Firm Filled an Open Associate Role in 26 Days',
-    result: 'BEG filled an open associate attorney seat in 26 days at roughly 50% less than contingency, backed by a 45-day replacement guarantee.',
-    role: 'Associate Attorney',
-    days: 26,
-  },
-  {
-    slug: 'placement-accounting',
-    industry: 'Accounting / CPA Placement',
-    title: 'How a CPA Firm Filled a Senior Accountant Role Before Busy Season',
-    result: 'BEG filled a senior accountant seat in 24 days at roughly 50% less than contingency, in place before tax season.',
-    role: 'Senior Accountant',
-    days: 24,
-  },
-  {
-    slug: 'placement-healthcare',
-    industry: 'Healthcare Placement',
-    title: 'How a Clinic Filled a Hard-to-Fill Nurse Practitioner Role in 29 Days',
-    result: 'BEG filled a nurse practitioner seat in 29 days at roughly 50% less than contingency, relieving a patient scheduling backlog.',
-    role: 'Nurse Practitioner',
-    days: 29,
-  },
-  {
-    slug: 'placement-technology',
-    industry: 'Technology Placement',
-    title: 'How a SaaS Company Filled a Senior Engineer Role in 31 Days',
-    result: 'BEG filled a senior software engineer seat in 31 days at roughly 50% less than contingency, getting the roadmap moving again.',
-    role: 'Senior Software Engineer',
-    days: 31,
-  },
-  {
-    slug: 'placement-sales',
-    industry: 'Sales Placement',
-    title: 'How a B2B Company Filled an Account Executive Role in 23 Days',
-    result: 'BEG filled a quota-carrying account executive seat in 23 days at roughly 50% less than contingency, covering the open territory.',
-    role: 'Account Executive',
-    days: 23,
-  },
-];
-
 const caseStudies = [
   {
     slug: 'restaurant',
@@ -142,54 +99,6 @@ export default function CaseStudiesPage() {
                 <div style={{ display: 'flex', gap: '2rem', fontSize: '0.88rem', color: '#666', marginBottom: '1.5rem' }}>
                   <span><strong>{cs.employees}</strong> employees</span>
                   <span><strong>{cs.locations}</strong> {cs.locations === 1 ? 'location' : 'locations'}</span>
-                </div>
-                <Link
-                  href={`/case-studies/${cs.slug}`}
-                  style={{
-                    display: 'inline-block',
-                    background: '#000',
-                    color: '#ECAC60',
-                    padding: '0.6rem 1.5rem',
-                    borderRadius: '4px',
-                    fontWeight: 700,
-                    textDecoration: 'none',
-                    fontSize: '0.9rem',
-                  }}
-                >
-                  Read the full story
-                </Link>
-              </div>
-            ))}
-          </div>
-
-          <h2 style={{ fontSize: '1.5rem', fontWeight: 800, margin: '3.5rem 0 0.5rem' }}>
-            Permanent placement case studies
-          </h2>
-          <p style={{ color: '#444', lineHeight: '1.65', margin: '0 0 2rem', fontSize: '0.97rem' }}>
-            How BEG fills open roles in 23 to 35 days at roughly 50% less than contingency. Representative outcomes from BEG&apos;s milestone-based placement model, delivered through its isolved Job Placement Services partnership.
-          </p>
-
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem' }}>
-            {placementCaseStudies.map((cs, i) => (
-              <div key={i} style={{
-                background: '#fff',
-                border: '1px solid #e5e5e5',
-                borderLeft: '4px solid #ECAC60',
-                borderRadius: '8px',
-                padding: '2rem',
-              }}>
-                <p style={{ fontSize: '0.82rem', fontWeight: 700, color: '#ECAC60', textTransform: 'uppercase', letterSpacing: '0.07em', margin: '0 0 0.5rem' }}>
-                  {cs.industry}
-                </p>
-                <h3 style={{ fontSize: '1.25rem', fontWeight: 700, margin: '0 0 0.75rem', lineHeight: '1.3' }}>
-                  {cs.title}
-                </h3>
-                <p style={{ color: '#444', lineHeight: '1.65', margin: '0 0 1.25rem', fontSize: '0.97rem' }}>
-                  {cs.result}
-                </p>
-                <div style={{ display: 'flex', gap: '2rem', fontSize: '0.88rem', color: '#666', marginBottom: '1.5rem' }}>
-                  <span><strong>{cs.role}</strong></span>
-                  <span><strong>{cs.days}</strong> days to fill</span>
                 </div>
                 <Link
                   href={`/case-studies/${cs.slug}`}

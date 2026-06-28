@@ -1,14 +1,23 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Engineering Job Placement | Technical Recruiting Services | BEG',
+  title: 'Engineering Placement | Roles Filled Fast. Guaranteed. | BEG',
   description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',
   alternates: { canonical: 'https://beghr.com/services/job-placement/engineering' },
-  openGraph: { title: 'Engineering Job Placement | Technical Recruiting Services | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', url: 'https://beghr.com/services/job-placement/engineering', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Engineering Job Placement | Technical Recruiting Services | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+  openGraph: {
+    title: 'Engineering Placement | Roles Filled Fast. Guaranteed. | BEG',
+    description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',
+    url: 'https://beghr.com/services/job-placement/engineering',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Engineering Placement | Roles Filled Fast. Guaranteed. | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('placement-engineering');
@@ -20,7 +29,7 @@ export default function PlacementEngineeringPage() {
       imageAlt="Engineering firm with an open licensed engineer position"
       eyebrow="Job Placement · Engineering"
       title="That open engineering role is putting projects behind."
-      description="An unfilled engineering seat does not pause your project timeline. It just means someone else absorbs the work - or the work does not get done. We place licensed engineers, PEs, and technical professionals in 23-35 days at roughly 50% less than contingency firms."
+      description="An unfilled engineering seat does not pause your project timeline. It just means someone else absorbs the work — or the work does not get done. We place licensed engineers, PEs, and technical professionals in 23–35 days at roughly 50% less than contingency firms."
       calendlyLink={CALENDLY}
       heroStats={[{"value":"23-35","label":"Days to fill on average"},{"value":"86%","label":"Fill rate on active searches"},{"value":"~50%","label":"Less than contingency pricing"}]}
     >
@@ -46,7 +55,7 @@ export default function PlacementEngineeringPage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>PE license</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Required for many roles - and the candidate pool is small</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Required for many roles — and the candidate pool is small</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>PE-licensed engineers are in high demand and low supply. Waiting for them to apply is not a strategy.</div>
                 </div>
               ))()
@@ -74,8 +83,8 @@ export default function PlacementEngineeringPage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Discovery call', body: 'We learn your organization, the role, and what a strong candidate actually looks like in your environment. 15 minutes. No fluff.' },
-              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates - professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
-              { num: '03', title: 'Shortlist review', body: 'You receive 3-5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
+              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates — professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
+              { num: '03', title: 'Shortlist review', body: 'You receive 3–5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -92,7 +101,7 @@ export default function PlacementEngineeringPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">What You Get</p>
-            <h2>Three things every organization wants - and most placement firms do not offer</h2>
+            <h2>Three things every organization wants — and most placement firms do not offer</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem', marginTop: '2rem' }}>
             {[
@@ -100,7 +109,7 @@ export default function PlacementEngineeringPage() {
                 badge: 'Bonus 01',
                 title: 'No contingency fees. Ever.',
                 objection: 'Common objection: "We already work with contingency recruiters."',
-                body: 'Milestone pricing replaces the standard contingency model. For a $100,000-$130,000 engineering role, contingency firms charge $20,000-$32,000 at close. Our total cost is roughly 50% less, structured across defined search milestones.',
+                body: 'Milestone pricing replaces the standard contingency model. For a $100,000–$130,000 engineering role, contingency firms charge $20,000–$32,000 at close. Our total cost is roughly 50% less, structured across defined search milestones.',
               },
               {
                 badge: 'Bonus 02',
@@ -112,7 +121,7 @@ export default function PlacementEngineeringPage() {
                 badge: 'Bonus 03',
                 title: 'A curated shortlist. Not a resume stack.',
                 objection: 'Common objection: "We have used recruiters before and wasted time on bad candidates."',
-                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3-5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
+                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3–5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -137,7 +146,7 @@ export default function PlacementEngineeringPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every week that role stays open is a decision you are making.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A vacant engineering seat does not just mean one person's workload goes uncovered - it means project milestones slip, client commitments get missed, and your firm's reputation takes the hit. For most engineering firms, a delayed project costs more per week than the annual salary of the role that needs to be filled.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A vacant engineering seat does not just mean one person's workload goes uncovered — it means project milestones slip, client commitments get missed, and your firm's reputation takes the hit. For most engineering firms, a delayed project costs more per week than the annual salary of the role that needs to be filled.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Talent Window</p>
@@ -202,6 +211,44 @@ export default function PlacementEngineeringPage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Job Placement', item: 'https://beghr.com/services/job-placement' },
+              { '@type': 'ListItem', position: 3, name: 'Engineering', item: 'https://beghr.com/services/job-placement/engineering' },
+            ],
+          }),
+        }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Hiring strategy',
+            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+            excerpt: 'Contingency means no placement, no fee. Retained means fees upfront. Milestone-based splits the risk. Here is how to choose.',
+            href: '/blog/compare/contingency-vs-retained-vs-milestone',
+          },
+          {
+            category: 'Hiring strategy',
+            title: "Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)",
+            excerpt: 'Temps fill short-term gaps. Permanent placement builds the team. Here is why the distinction matters and how the two models compare on total cost.',
+            href: '/blog/compare/legal-staffing-vs-placement',
+          },
+          {
+            category: 'Legal hiring',
+            title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+            excerpt: 'The best candidates in any professional field are passive. How the current market dynamics are reshaping placement timelines and sourcing strategies.',
+            href: '/blog/legal-hiring/attorney-market-trends',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

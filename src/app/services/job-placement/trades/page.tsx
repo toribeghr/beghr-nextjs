@@ -1,14 +1,23 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG',
+  title: 'Skilled Trades Placement | Roles Filled Fast. Guaranteed. | BEG',
   description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',
   alternates: { canonical: 'https://beghr.com/services/job-placement/trades' },
-  openGraph: { title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', url: 'https://beghr.com/services/job-placement/trades', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', images: ['https://beghr.com/assets/og-image.png'] },
+  openGraph: {
+    title: 'Skilled Trades Placement | Roles Filled Fast. Guaranteed. | BEG',
+    description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',
+    url: 'https://beghr.com/services/job-placement/trades',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Skilled Trades Placement | Roles Filled Fast. Guaranteed. | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', images: ['https://beghr.com/assets/og-image.png'] },
+
 };
 
 const CALENDLY = getCalendlyLink('placement-trades');
@@ -20,7 +29,7 @@ export default function PlacementTradesPage() {
       imageAlt="Manufacturing or trades operation with an open skilled position"
       eyebrow="Job Placement · Skilled Trades"
       title="An open trades seat is slowing your production."
-      description="One unfilled skilled trades position does not just leave a gap on the org chart - it shows up in overtime costs, missed production quotas, and equipment sitting idle. We place electricians, machinists, welders, and skilled production staff in 23-35 days at roughly 50% less than contingency firms."
+      description="One unfilled skilled trades position does not just leave a gap on the org chart — it shows up in overtime costs, missed production quotas, and equipment sitting idle. We place electricians, machinists, welders, and skilled production staff in 23–35 days at roughly 50% less than contingency firms."
       calendlyLink={CALENDLY}
       heroStats={[{"value":"23-35","label":"Days to fill on average"},{"value":"86%","label":"Fill rate on active searches"},{"value":"~50%","label":"Less than contingency pricing"}]}
     >
@@ -74,8 +83,8 @@ export default function PlacementTradesPage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Discovery call', body: 'We learn your organization, the role, and what a strong candidate actually looks like in your environment. 15 minutes. No fluff.' },
-              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates - professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
-              { num: '03', title: 'Shortlist review', body: 'You receive 3-5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
+              { num: '02', title: 'Active sourcing', body: 'We go direct to passive candidates — professionals who are not on job boards but are quietly open to the right opportunity. This is where most searches fail.' },
+              { num: '03', title: 'Shortlist review', body: 'You receive 3–5 pre-screened candidates. No stacks of resumes. No wasted interviews. You meet candidates who have already been qualified against your specific criteria.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
                 <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#ECAC60', lineHeight: 1, marginBottom: '0.75rem', opacity: 0.8 }}>{num}</div>
@@ -92,7 +101,7 @@ export default function PlacementTradesPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">What You Get</p>
-            <h2>Three things every organization wants - and most placement firms do not offer</h2>
+            <h2>Three things every organization wants — and most placement firms do not offer</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.25rem', marginTop: '2rem' }}>
             {[
@@ -100,7 +109,7 @@ export default function PlacementTradesPage() {
                 badge: 'Bonus 01',
                 title: 'No contingency fees. Ever.',
                 objection: 'Common objection: "We already work with contingency recruiters."',
-                body: 'Contingency firms charge 20-25% of first-year salary. For a $65,000 tradesperson, that is $13,000-$16,000. Milestone pricing brings the total cost down by roughly 50%, paid at defined stages rather than as a lump sum when the hire starts.',
+                body: 'Contingency firms charge 20–25% of first-year salary. For a $65,000 tradesperson, that is $13,000–$16,000. Milestone pricing brings the total cost down by roughly 50%, paid at defined stages rather than as a lump sum when the hire starts.',
               },
               {
                 badge: 'Bonus 02',
@@ -112,7 +121,7 @@ export default function PlacementTradesPage() {
                 badge: 'Bonus 03',
                 title: 'A curated shortlist. Not a resume stack.',
                 objection: 'Common objection: "We have used recruiters before and wasted time on bad candidates."',
-                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3-5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
+                body: 'You will not sort through 20 resumes hoping one sticks. Your dedicated search specialist builds a shortlist of 3–5 candidates who have been screened against your specific criteria. You only meet people who are genuinely qualified. The first interview is a real conversation, not a screening exercise.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -137,12 +146,12 @@ export default function PlacementTradesPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every week that role stays open is a decision you are making.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Overtime to cover one unfilled trades position costs $3,000-$5,000 per week at 1.5x base pay rates. At 12 weeks, that is $36,000-$60,000 in excess labor cost - before counting missed production quotas, reduced throughput, and equipment underutilization. A 23-35 day search eliminates the bulk of that exposure.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Overtime to cover one unfilled trades position costs $3,000–$5,000 per week at 1.5x base pay rates. At 12 weeks, that is $36,000–$60,000 in excess labor cost — before counting missed production quotas, reduced throughput, and equipment underutilization. A 23-35 day search eliminates the bulk of that exposure.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Talent Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best candidates are only available for a few weeks.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Licensed and certified tradespeople - electricians, HVAC techs, welders, machinists - are in short supply and high demand. When a certified tradesperson becomes available, multiple employers reach out immediately. A reactive search that waits for applications will consistently miss the most qualified candidates.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Licensed and certified tradespeople — electricians, HVAC techs, welders, machinists — are in short supply and high demand. When a certified tradesperson becomes available, multiple employers reach out immediately. A reactive search that waits for applications will consistently miss the most qualified candidates.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -202,6 +211,44 @@ export default function PlacementTradesPage() {
         }}
       />
 
+    
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Job Placement', item: 'https://beghr.com/services/job-placement' },
+              { '@type': 'ListItem', position: 3, name: 'Trades', item: 'https://beghr.com/services/job-placement/trades' },
+            ],
+          }),
+        }}
+      />
+      <RelatedPosts
+        heading="From the blog"
+        posts={[
+          {
+            category: 'Hiring strategy',
+            title: 'Contingency vs. Retained vs. Milestone: Which Legal Recruiting Model Is Right for Your Firm? (2026)',
+            excerpt: 'Three recruiting fee structures, three risk profiles. Which model fits your timeline and budget — and why milestone-based placement is gaining ground.',
+            href: '/blog/compare/contingency-vs-retained-vs-milestone',
+          },
+          {
+            category: 'Hiring strategy',
+            title: "Legal Staffing Agency vs. Attorney Placement Service: What's the Difference? (2026)",
+            excerpt: 'Staffing agencies place temps. Placement services find permanent hires. Here is the key difference and which model is right for filling full-time roles.',
+            href: '/blog/compare/legal-staffing-vs-placement',
+          },
+          {
+            category: 'Hiring strategy',
+            title: "How Long Should an Attorney Search Take? (And What to Do If It's Been 60 Days)",
+            excerpt: 'Most searches that stall past 60 days have a fixable root cause. How to diagnose the problem and get back on track.',
+            href: '/blog/compare/how-long-should-attorney-placement-take',
+          },
+        ]}
+      />
     </ServicePage>
   );
 }

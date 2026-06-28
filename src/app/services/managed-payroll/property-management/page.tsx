@@ -51,7 +51,7 @@ export default function PayrollPropertyManagementPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Housing allowance risk</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Resident manager housing allowances that are not handled correctly create taxable income errors and IRS issues</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Resident manager housing provided as a condition of employment and for the employer's convenience may be excludable from taxable income under IRC Section 119. The conditions for exclusion are strict - when they are not met, the housing value must be included in the employee's W-2. Many property management companies get this wrong for years before a payroll audit surfaces the issue.</div>
+                  <div style={{ fontSize: `0.88rem', color: '#666666', lineHeight: '1.5' }}>Resident manager housing provided as a condition of employment and for the employer's convenience may be excludable from taxable income under IRC Section 119. The conditions for exclusion are strict - when they are not met, the housing value must be included in the employee`s W-2. Many property management companies get this wrong for years before a payroll audit surfaces the issue.</div>
                 </div>
               ))()
             }

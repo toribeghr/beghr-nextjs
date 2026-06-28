@@ -568,6 +568,25 @@ export default function HCMSoftwarePage() {
         </div>
       </section>
 
+      {/* PLATFORM CAPABILITIES */}
+      <section className="section">
+        <div className="container">
+          <div className="head center reveal">
+            <p className="eyebrow">Platform Capabilities</p>
+            <h2>Everything on one connected platform, not four</h2>
+          </div>
+          <div className="cards">
+            <Link href="/services/hcm-software/all-in-one-hr-and-payroll-software" className="card-link reveal"><h3>All-in-One HR and Payroll</h3><p>Payroll, HR, time, and benefits on one connected system.</p></Link>
+            <Link href="/services/hcm-software/benefits-administration-software" className="card-link reveal"><h3>Benefits Administration</h3><p>Open enrollment, carrier connections, and deductions into payroll.</p></Link>
+            <Link href="/services/hcm-software/time-and-attendance-software" className="card-link reveal"><h3>Time and Attendance</h3><p>Time capture, scheduling, PTO, and overtime feeding payroll.</p></Link>
+            <Link href="/services/hcm-software/onboarding-software" className="card-link reveal"><h3>Onboarding</h3><p>New-hire workflows, e-signature, and first-day readiness.</p></Link>
+            <Link href="/services/hcm-software/multi-state-payroll-software" className="card-link reveal"><h3>Multi-State Payroll</h3><p>Multi-state tax registration, filing, and remote teams.</p></Link>
+            <Link href="/services/hcm-software/employee-self-service-software" className="card-link reveal"><h3>Employee Self-Service</h3><p>Employees manage info and PTO, cutting HR tickets.</p></Link>
+            <Link href="/services/hcm-software/hr-compliance-software" className="card-link reveal"><h3>HR Compliance</h3><p>Tax filings, ACA, new-hire reporting, and audit trails.</p></Link>
+          </div>
+        </div>
+      </section>
+
       {/* BEST BY INDUSTRY */}
       <section className="section section--soft">
         <div className="container">

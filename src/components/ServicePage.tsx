@@ -26,6 +26,20 @@ export default function ServicePage({
 }: ServicePageProps) {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            name: title,
+            description,
+            serviceType: title,
+            provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
+            areaServed: 'United States',
+          }),
+        }}
+      />
       <section className="hero">
         <div className="container">
           {showHeroImage ? (

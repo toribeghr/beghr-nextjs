@@ -76,7 +76,7 @@ export default function PayrollLeadCaptureForm({
 
   if (status === 'done') {
     return (
-      <div style={{ background: '#FBF3E8', border: `1px solid ${GOLD}`, borderRadius: '10px', padding: '2rem', textAlign: 'center', maxWidth: '460px' }}>
+      <div style={{ background: '#FBF3E8', border: `1px solid ${GOLD}`, borderRadius: '10px', padding: '2rem', textAlign: 'center', maxWidth: '460px', width: '100%', boxSizing: 'border-box' }}>
         <p style={{ fontWeight: 800, fontSize: '1.15rem', color: '#000', margin: '0 0 0.5rem' }}>Check your inbox.</p>
         <p style={{ color: '#444', margin: '0 0 1.25rem' }}>
           Your {toolName} is on its way to your email. Want to skip the reading and just hand payroll off? Book a 15-minute call.
@@ -94,7 +94,7 @@ export default function PayrollLeadCaptureForm({
   }
 
   return (
-    <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: `4px solid ${GOLD}`, borderRadius: '10px', padding: '1.75rem', maxWidth: '460px' }}>
+    <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: `4px solid ${GOLD}`, borderRadius: '10px', padding: '1.75rem', maxWidth: '460px', width: '100%', boxSizing: 'border-box' }}>
       <p style={{ display: 'inline-block', background: GOLD, color: '#000', fontWeight: 700, fontSize: '0.72rem', padding: '0.2rem 0.6rem', borderRadius: '4px', letterSpacing: '0.05em', margin: '0 0 0.75rem' }}>
         WANT THIS EMAILED TO YOU?
       </p>

@@ -64,7 +64,7 @@ export default function BuyersGuidePage() {
       {/* GUIDE CONTENT + DOWNLOAD */}
       <section className="section">
         <div className="container" style={{ maxWidth: '860px' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: '3rem', alignItems: 'start' }}>
+          <div className="resource-split">
             <div>
               <h2 style={{ marginBottom: '0.75rem' }}>What this guide covers</h2>
               <p style={{ color: '#555555', lineHeight: '1.7', marginBottom: '1.5rem' }}>

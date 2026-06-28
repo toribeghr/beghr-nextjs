@@ -45,8 +45,8 @@ function methodology() {
 
 function leadForm() {
   return `          <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Get the printable guide</h2>
-          <p style={{ marginBottom: '1.25rem' }}>Want the full BEG Salary and Hiring Guide as a clean, printable PDF covering all 19 industries? Grab it here.</p>
-          <LeadCaptureForm toolName={'Salary & Hiring Guide (PDF)'} toolDescription="The full 2026 guide across 19 industries, printable and ready to download." assetUrl="/assets/beg-salary-guide-2026.pdf" assetLabel="Get the PDF" calendlyLink={CALENDLY} />
+          <p style={{ marginBottom: '1.25rem' }}>Want the full BEG Salary and Hiring Guide as a clean, printable PDF covering every major industry? Grab it here.</p>
+          <LeadCaptureForm toolName={'Salary & Hiring Guide (PDF)'} toolDescription="The full 2026 guide across every major industry, printable and ready to download." assetUrl="/assets/beg-salary-guide-2026.pdf" assetLabel="Get the PDF" calendlyLink={CALENDLY} />
 `;
 }
 
@@ -139,7 +139,7 @@ function hubPage() {
   const inds = Object.keys(SAL);
   const url = 'https://beghr.com/resources/salary-guide';
   const title = 'Salary & Hiring Guide 2026 | BEG';
-  const desc = 'Free 2026 salary ranges across 19 industries, from public labor data. Benchmark pay, then fill permanent roles in 23-35 days at roughly 50% less.'.slice(0, 155);
+  const desc = 'Free 2026 salary ranges across every major industry, from public labor data. Benchmark pay, then fill permanent roles in 23-35 days at roughly 50% less.'.slice(0, 155);
   const cards = inds.map(ind => {
     const d = SAL[ind];
     const lo = Math.min(...d.roles.map(r => r.low)), hi = Math.max(...d.roles.map(r => r.high));
@@ -172,7 +172,7 @@ export default function SalaryGuideHubPage() {
         <div className="container">
           <p className="eyebrow">Resources &middot; Salary Guide</p>
           <h1>BEG Salary &amp; Hiring Guide (2026)</h1>
-          <p className="lede" style={{ margin: '18px 0 20px', maxWidth: '720px' }}>Indicative 2026 pay ranges across 19 industries, built from public labor data and market salary guides. Benchmark a role, then fill the seat in 23-35 days at roughly 50% less than contingency.</p>
+          <p className="lede" style={{ margin: '18px 0 20px', maxWidth: '720px' }}>Indicative 2026 pay ranges across every major industry, built from public labor data and market salary guides. Benchmark a role, then fill the seat in 23-35 days at roughly 50% less than contingency.</p>
           <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666' }}>
             <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
             <span><strong>Updated:</strong> June 2026</span>
@@ -182,7 +182,7 @@ export default function SalaryGuideHubPage() {
       <section className="section">
         <div className="container" style={{ maxWidth: '900px', lineHeight: '1.8', fontSize: '1.05rem' }}>
 ${kt(
-    'Salary ranges across 19 industries, from public labor data, refreshed for 2026.',
+    'Salary ranges across every major industry, from public labor data, refreshed for 2026.',
     'Ranges are indicative and national. Total comp shifts with bonus, commission, equity, and metro.',
     'When a number tells you the seat is worth filling, BEG fills it in 23-35 days at roughly 50% less than contingency.'
   )}

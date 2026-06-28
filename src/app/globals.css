@@ -1277,3 +1277,18 @@ p {
     gap: 0.75rem;
   }
 }
+
+/* Resource pages: content + capture form. Stacks on mobile. */
+.resource-split {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 3rem;
+  align-items: start;
+}
+
+@media (max-width: 880px) {
+  .resource-split {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

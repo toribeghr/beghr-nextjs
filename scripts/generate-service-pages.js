@@ -1100,7 +1100,8 @@ const PACK_ROLES = Object.assign({}, ...PACKS.map(p => p.roles || {}));
 
 const JP_NEW = Object.assign({}, JP_EXTRA, PACK_INDUSTRIES);
 const JP_ALL = Object.assign({}, JP_INDUSTRIES, JP_NEW);
-const ALL_ROLES = Object.assign({}, JP_ROLES, PACK_ROLES);
+const INLINE_ROLES = loadOpt('./data/jp-roles-inline.js') || {};
+const ALL_ROLES = Object.assign({}, JP_ROLES, PACK_ROLES, INLINE_ROLES);
 
 const METRO_SLUGS = new Set(METROS.map(m => m.slug));
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, type FormEvent, type CSSProperties } from 'react';
 
 /**
  * BEG-branded lead-capture form. Free backend via Web3Forms (https://web3forms.com).
@@ -40,7 +40,7 @@ export default function LeadCaptureForm({
 }: Props) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus('sending');
     const form = e.currentTarget;
@@ -67,7 +67,7 @@ export default function LeadCaptureForm({
     }
   }
 
-  const inputStyle: React.CSSProperties = {
+  const inputStyle: CSSProperties = {
     width: '100%', padding: '0.7rem 0.85rem', border: '1px solid #ccc', borderRadius: '6px',
     fontSize: '0.95rem', marginBottom: '0.75rem', boxSizing: 'border-box',
   };

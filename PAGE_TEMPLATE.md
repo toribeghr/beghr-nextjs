@@ -321,3 +321,31 @@ Every page that captures a lead (forms, calculators, gated downloads, salary or 
    ```
 
 5. **Verify at 390px.** Before shipping a lead page, confirm at phone width that the form, tables, and any columns stack cleanly and the page itself has no horizontal scroll.
+
+---
+
+## Job-Placement Service Pages: Embedded Job Description Grader (REQUIRED)
+
+Every job-placement service page (industry hub, industry x city, and role page) embeds the **Job Description Grader** mid-page, right before the final CTA. The goal is engagement: lower bounce and longer time on page. The tool is ungated (no email, no click) and interactive, and its own CTA funnels to a discovery call.
+
+1. **Generator-driven pages do this automatically.** `jdTool()` in `scripts/generate-service-pages.js` emits the grader inside `genJobPlacementPage`, `genCityPage`, and `genRolePage`. Add a new industry or role to the data and the grader ships with every page generated. No extra step, do not remove it.
+
+2. **The pitch above the tool is tailored per page.** Industry on hubs ("Hiring [Industry]? Grade your job description first."), industry + metro on city pages, role on role pages. Keep that pattern.
+
+3. **Hand-authored service pages must add the same block before the FAQ:**
+   ```tsx
+   import JobDescriptionGrader from '@/components/JobDescriptionGrader';
+   // ...mid-page, before the FAQ / final CTA:
+   <section className="section" style={{ paddingBottom: '0' }}>
+     <div className="container" style={{ maxWidth: '820px' }}>
+       <div className="head center reveal">
+         <p className="eyebrow">Free Hiring Tool</p>
+         <h2>Hiring [role or industry]? Grade your job description first.</h2>
+         <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>A weak posting quietly kills your pipeline. Paste your [noun] job description and get an instant 0 to 100 score, plus the exact fixes that get strong candidates to apply. Free, instant, and nothing you paste leaves your browser.</p>
+       </div>
+     </div>
+   </section>
+   <JobDescriptionGrader />
+   ```
+
+This applies to the job-placement silo. The grader component lives at `@/components/JobDescriptionGrader` and is client-side and self-contained.

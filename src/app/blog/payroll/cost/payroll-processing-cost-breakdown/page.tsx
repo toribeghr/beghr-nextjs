@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Processing Cost Breakdown by Business Size | BEG',
-  description: 'Payroll Processing Cost Breakdown by Business Size. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'Payroll Processing Cost Breakdown by Business Size. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/payroll-processing-cost-breakdown' },
   openGraph: {
     title: 'Payroll Processing Cost Breakdown by Business Size | BEG',

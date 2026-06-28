@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. PEO: Which Is Right for Small Bu.. | BEG',
-  description: 'Managed Payroll vs. PEO: Which Is Right for Small Business?. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.',
+  description: 'Managed Payroll vs. PEO: Which Is Right for Small Business?. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compare/managed-payroll-vs-peo' },
   openGraph: {
     title: 'Managed Payroll vs. PEO: Which Is Right for Small Bu.. | BEG',

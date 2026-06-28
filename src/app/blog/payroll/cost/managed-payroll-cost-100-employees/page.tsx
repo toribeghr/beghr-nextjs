@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Cost for 100-Employee Companies | BEG',
-  description: 'Managed Payroll Cost for 100-Employee Companies. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'Managed Payroll Cost for 100-Employee Companies. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/managed-payroll-cost-100-employees' },
   openGraph: {
     title: 'Managed Payroll Cost for 100-Employee Companies | BEG',

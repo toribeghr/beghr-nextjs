@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll for Businesses Under 10 Employees | BEG',
-  description: 'Managed Payroll for Businesses Under 10 Employees. BEG managed payroll at $25-$45 PEPM all-inclusive. Find out what it costs for your headcount at beghr.com.',
+  description: 'Managed Payroll for Businesses Under 10 Employees. BEG managed payroll at $25-$45 PEPM all-inclusive. Find out what it costs for your headcount at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/company-size/managed-payroll-small-business-under-10' },
   openGraph: {
     title: 'Managed Payroll for Businesses Under 10 Employees | BEG',

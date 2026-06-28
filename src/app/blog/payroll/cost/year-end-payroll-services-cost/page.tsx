@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Year-End Payroll Services Cost: W-2s, 1099s, and Fil.. | BEG',
-  description: 'Year-End Payroll Services Cost: W-2s, 1099s, and Filing. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'Year-End Payroll Services Cost: W-2s, 1099s, and Filing. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/year-end-payroll-services-cost' },
   openGraph: {
     title: 'Year-End Payroll Services Cost: W-2s, 1099s, and Fil.. | BEG',

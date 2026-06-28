@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Workers Comp and Payroll: Reporting Requirements | BEG',
-  description: 'Workers Comp and Payroll: Reporting Requirements. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'Workers Comp and Payroll: Reporting Requirements. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/workers-comp-payroll-reporting' },
   openGraph: {
     title: 'Workers Comp and Payroll: Reporting Requirements | BEG',

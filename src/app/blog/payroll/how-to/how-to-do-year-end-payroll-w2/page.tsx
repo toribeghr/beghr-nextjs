@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Handle Year-End Payroll and W-2 Preparation | BEG',
-  description: 'How to Handle Year-End Payroll and W-2 Preparation. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.',
+  description: 'How to Handle Year-End Payroll and W-2 Preparation. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/how-to/how-to-do-year-end-payroll-w2' },
   openGraph: {
     title: 'How to Handle Year-End Payroll and W-2 Preparation | BEG',

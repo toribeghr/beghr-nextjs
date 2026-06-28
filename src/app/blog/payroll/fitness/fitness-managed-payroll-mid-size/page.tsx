@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Fitness Studio Payroll: For Mid-Size Business (25-10.. | BEG',
-  description: 'Managed payroll for fitness. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for fitness. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/fitness-managed-payroll-mid-size' },
   openGraph: {
     title: 'Fitness Studio Payroll: For Mid-Size Business (25-10.. | BEG',

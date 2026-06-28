@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Service vs. CPA for Payroll: Cost Comparison | BEG',
-  description: 'Payroll Service vs. CPA for Payroll: Cost Comparison. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'Payroll Service vs. CPA for Payroll: Cost Comparison. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/payroll-service-vs-cpa-for-payroll' },
   openGraph: {
     title: 'Payroll Service vs. CPA for Payroll: Cost Comparison | BEG',

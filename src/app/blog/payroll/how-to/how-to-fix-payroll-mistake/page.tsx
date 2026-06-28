@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Fix a Payroll Mistake: Step-by-Step Guide | BEG',
-  description: 'How to Fix a Payroll Mistake: Step-by-Step Guide. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.',
+  description: 'How to Fix a Payroll Mistake: Step-by-Step Guide. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/how-to/how-to-fix-payroll-mistake' },
   openGraph: {
     title: 'How to Fix a Payroll Mistake: Step-by-Step Guide | BEG',

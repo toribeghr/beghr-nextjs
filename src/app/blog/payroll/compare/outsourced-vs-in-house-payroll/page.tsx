@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Outsourced vs. In-House Payroll: Total Cost of Owner.. | BEG',
-  description: 'Outsourced vs. In-House Payroll: Total Cost of Ownership. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.',
+  description: 'Outsourced vs. In-House Payroll: Total Cost of Ownership. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compare/outsourced-vs-in-house-payroll' },
   openGraph: {
     title: 'Outsourced vs. In-House Payroll: Total Cost of Owner.. | BEG',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Service vs. Paylocity: Which Fits Be.. | BEG',
-  description: 'Managed Payroll Service vs. Paylocity: Which Fits Better?. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.',
+  description: 'Managed Payroll Service vs. Paylocity: Which Fits Better?. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compare/managed-payroll-vs-paylocity' },
   openGraph: {
     title: 'Managed Payroll Service vs. Paylocity: Which Fits Be.. | BEG',

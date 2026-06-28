@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Auto Dealer Payroll: Software vs. Managed Service | BEG',
-  description: 'Managed payroll for auto dealerships. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for auto dealerships. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/auto-dealership-payroll-software-vs-managed' },
   openGraph: {
     title: 'Auto Dealer Payroll: Software vs. Managed Service | BEG',

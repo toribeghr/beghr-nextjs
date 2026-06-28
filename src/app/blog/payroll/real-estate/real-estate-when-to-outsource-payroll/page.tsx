@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Real Estate Payroll: When to Outsource | BEG',
-  description: 'Managed payroll for real estate. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for real estate. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/real-estate/real-estate-when-to-outsource-payroll' },
   openGraph: {
     title: 'Real Estate Payroll: When to Outsource | BEG',

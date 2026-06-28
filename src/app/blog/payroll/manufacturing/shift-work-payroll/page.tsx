@@ -125,7 +125,8 @@ export default function ShiftWorkPayrollPage() {
           <li>Payroll tax filings and W-2 production</li>
           <li>Multi-location payroll for plants in multiple states</li>
           <li>Clean audit documentation for DOL wage and hour reviews</li>
-        </ul>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+            </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Payroll That Handles Shifts, Not Just Paychecks</h3>

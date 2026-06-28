@@ -124,7 +124,8 @@ export default function RegisteredInvestmentAdvisorPayrollPage() {
           <li>Standard payroll for operations and support staff</li>
           <li>W-2 production and payroll tax filings</li>
           <li>Clean compensation records aligned with Form ADV disclosures</li>
-        </ul>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+            </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Payroll That Fits How RIAs Actually Pay People</h3>

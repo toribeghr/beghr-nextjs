@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Cost for Startups and New Businesses | BEG',
-  description: 'Managed Payroll Cost for Startups and New Businesses. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'Managed Payroll Cost for Startups and New Businesses. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/managed-payroll-startup-cost' },
   openGraph: {
     title: 'Managed Payroll Cost for Startups and New Businesses | BEG',

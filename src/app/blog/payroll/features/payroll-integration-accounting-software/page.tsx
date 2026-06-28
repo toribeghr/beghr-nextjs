@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Integration with QuickBooks and Accounting S.. | BEG',
-  description: 'Payroll Integration with QuickBooks and Accounting Software. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.',
+  description: 'Payroll Integration with QuickBooks and Accounting Software. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/features/payroll-integration-accounting-software' },
   openGraph: {
     title: 'Payroll Integration with QuickBooks and Accounting S.. | BEG',

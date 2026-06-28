@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Marketing & PR Agencies: Payroll Garnishments: What You Need',
-  description: 'Managed payroll for marketing agencies. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for marketing agencies. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-payroll-garnishments-guide' },
   openGraph: {
     title: 'Marketing & PR Agencies: Payroll Garnishments: What You Need',

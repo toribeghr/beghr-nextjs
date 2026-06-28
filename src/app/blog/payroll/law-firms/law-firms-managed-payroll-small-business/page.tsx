@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Law Firms: Managed Payroll for Small Businesses (Under 25 Em',
-  description: 'Managed payroll for law firms. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for law firms. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/law-firms/law-firms-managed-payroll-small-business' },
   openGraph: {
     title: 'Law Firms: Managed Payroll for Small Businesses (Under 25 Em',

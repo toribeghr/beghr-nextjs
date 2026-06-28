@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing in Florida: What to Know | BEG',
-  description: 'Payroll Outsourcing in Florida: What to Know. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at beghr.com.',
+  description: 'Payroll Outsourcing in Florida: What to Know. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements',
   alternates: { canonical: 'https://beghr.com/blog/payroll/state/payroll-outsourcing-florida' },
   openGraph: {
     title: 'Payroll Outsourcing in Florida: What to Know | BEG',

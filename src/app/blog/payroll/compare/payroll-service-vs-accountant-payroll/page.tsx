@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Service vs. Using Your Accountant for Payroll | BEG',
-  description: 'Payroll Service vs. Using Your Accountant for Payroll. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.',
+  description: 'Payroll Service vs. Using Your Accountant for Payroll. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compare/payroll-service-vs-accountant-payroll' },
   openGraph: {
     title: 'Payroll Service vs. Using Your Accountant for Payroll | BEG',

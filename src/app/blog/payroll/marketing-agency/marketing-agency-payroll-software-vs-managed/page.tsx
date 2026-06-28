@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Marketing & PR Agencies: Payroll Software vs. Managed Payrol',
-  description: 'Managed payroll for marketing agencies. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for marketing agencies. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-payroll-software-vs-managed' },
   openGraph: {
     title: 'Marketing & PR Agencies: Payroll Software vs. Managed Payrol',

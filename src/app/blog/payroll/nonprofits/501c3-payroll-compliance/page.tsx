@@ -122,7 +122,8 @@ export default function Nonprofit501c3PayrollPage() {
           <li>Stipend and intern payroll treatment</li>
           <li>W-2 production and payroll tax filings</li>
           <li>Multi-state payroll for nonprofits operating across state lines</li>
-        </ul>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+            </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Nonprofit Payroll That Knows What Exempt Actually Means</h3>

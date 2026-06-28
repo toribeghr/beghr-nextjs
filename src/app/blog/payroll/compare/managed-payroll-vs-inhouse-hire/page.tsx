@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House: Full Cost Compa.. | BEG',
-  description: 'Managed Payroll vs. Hiring In-House: Full Cost Comparison. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.',
+  description: 'Managed Payroll vs. Hiring In-House: Full Cost Comparison. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compare/managed-payroll-vs-inhouse-hire' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House: Full Cost Compa.. | BEG',

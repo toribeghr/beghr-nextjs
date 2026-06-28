@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'What a Payroll Error Actually Costs a Small Business | BEG',
-  description: 'What a Payroll Error Actually Costs a Small Business. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'What a Payroll Error Actually Costs a Small Business. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/cost-payroll-error-small-business' },
   openGraph: {
     title: 'What a Payroll Error Actually Costs a Small Business | BEG',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Service Fees Explained: What You Really Pay | BEG',
-  description: 'Payroll Service Fees Explained: What You Really Pay. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'Payroll Service Fees Explained: What You Really Pay. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/payroll-service-fees-explained' },
   openGraph: {
     title: 'Payroll Service Fees Explained: What You Really Pay | BEG',

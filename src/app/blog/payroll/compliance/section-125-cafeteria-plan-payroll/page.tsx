@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Section 125 Cafeteria Plans and Payroll Deductions | BEG',
-  description: 'Section 125 Cafeteria Plans and Payroll Deductions. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'Section 125 Cafeteria Plans and Payroll Deductions. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/section-125-cafeteria-plan-payroll' },
   openGraph: {
     title: 'Section 125 Cafeteria Plans and Payroll Deductions | BEG',

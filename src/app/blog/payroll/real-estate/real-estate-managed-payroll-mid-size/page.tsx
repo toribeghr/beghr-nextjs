@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Real Estate Payroll: For Mid-Size Business (25-100 EE) | BEG',
-  description: 'Managed payroll for real estate. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for real estate. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
   alternates: { canonical: 'https://beghr.com/blog/payroll/real-estate/real-estate-managed-payroll-mid-size' },
   openGraph: {
     title: 'Real Estate Payroll: For Mid-Size Business (25-100 EE) | BEG',

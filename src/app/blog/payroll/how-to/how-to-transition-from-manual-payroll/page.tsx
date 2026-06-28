@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Transition from Manual Payroll to Outsourcing | BEG',
-  description: 'How to Transition from Manual Payroll to Outsourcing. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.',
+  description: 'How to Transition from Manual Payroll to Outsourcing. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/how-to/how-to-transition-from-manual-payroll' },
   openGraph: {
     title: 'How to Transition from Manual Payroll to Outsourcing | BEG',

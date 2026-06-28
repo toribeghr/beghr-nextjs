@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'What Quarterly Payroll Tax Filing Should Cost You | BEG',
-  description: 'What Quarterly Payroll Tax Filing Should Cost You. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'What Quarterly Payroll Tax Filing Should Cost You. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/quarterly-payroll-tax-filing-cost' },
   openGraph: {
     title: 'What Quarterly Payroll Tax Filing Should Cost You | BEG',

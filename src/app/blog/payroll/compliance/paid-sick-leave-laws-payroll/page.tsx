@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Paid Sick Leave Laws and Payroll: State-by-State Guide | BEG',
-  description: 'Paid Sick Leave Laws and Payroll: State-by-State Guide. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'Paid Sick Leave Laws and Payroll: State-by-State Guide. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/paid-sick-leave-laws-payroll' },
   openGraph: {
     title: 'Paid Sick Leave Laws and Payroll: State-by-State Guide | BEG',

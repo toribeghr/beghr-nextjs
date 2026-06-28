@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'I-9 Verification and Payroll: What HR Needs to Know | BEG',
-  description: 'I-9 Verification and Payroll: What HR Needs to Know. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'I-9 Verification and Payroll: What HR Needs to Know. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/i9-verification-payroll-connection' },
   openGraph: {
     title: 'I-9 Verification and Payroll: What HR Needs to Know | BEG',

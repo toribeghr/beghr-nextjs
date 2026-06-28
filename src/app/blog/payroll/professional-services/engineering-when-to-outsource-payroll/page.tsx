@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Engineering Firm Payroll: When to Outsource | BEG',
-  description: 'Managed payroll for engineering. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for engineering. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services/engineering-when-to-outsource-payroll' },
   openGraph: {
     title: 'Engineering Firm Payroll: When to Outsource | BEG',

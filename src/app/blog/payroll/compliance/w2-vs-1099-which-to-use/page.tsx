@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'W-2 vs. 1099: Which to Use for Each Worker Type | BEG',
-  description: 'W-2 vs. 1099: Which to Use for Each Worker Type. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'W-2 vs. 1099: Which to Use for Each Worker Type. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/w2-vs-1099-which-to-use' },
   openGraph: {
     title: 'W-2 vs. 1099: Which to Use for Each Worker Type | BEG',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How Much Does Payroll Outsourcing Cost? (2026 Guide) | BEG',
-  description: 'How Much Does Payroll Outsourcing Cost? (2026 Guide). Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'How Much Does Payroll Outsourcing Cost? (2026 Guide). Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/how-much-does-payroll-outsourcing-cost' },
   openGraph: {
     title: 'How Much Does Payroll Outsourcing Cost? (2026 Guide) | BEG',

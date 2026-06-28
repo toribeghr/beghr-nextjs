@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Onboard a New Employee in Your Payroll System | BEG',
-  description: 'How to Onboard a New Employee in Your Payroll System. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.',
+  description: 'How to Onboard a New Employee in Your Payroll System. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/how-to/how-to-onboard-new-employee-payroll' },
   openGraph: {
     title: 'How to Onboard a New Employee in Your Payroll System | BEG',

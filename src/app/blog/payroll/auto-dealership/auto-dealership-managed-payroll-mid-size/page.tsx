@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Auto Dealer Payroll: For Mid-Size Business (25-100 EE) | BEG',
-  description: 'Managed payroll for auto dealerships. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for auto dealerships. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery',
   alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/auto-dealership-managed-payroll-mid-size' },
   openGraph: {
     title: 'Auto Dealer Payroll: For Mid-Size Business (25-100 EE) | BEG',

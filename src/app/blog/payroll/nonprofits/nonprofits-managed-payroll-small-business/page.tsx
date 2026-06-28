@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Payroll: For Small Business (<25 EE) | BEG',
-  description: 'Managed payroll for nonprofits. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for nonprofits. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
   alternates: { canonical: 'https://beghr.com/blog/payroll/nonprofits/nonprofits-managed-payroll-small-business' },
   openGraph: {
     title: 'Nonprofit Payroll: For Small Business (<25 EE) | BEG',

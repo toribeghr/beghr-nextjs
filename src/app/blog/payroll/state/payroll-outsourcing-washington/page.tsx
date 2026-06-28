@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing in Washington State | BEG',
-  description: 'Payroll Outsourcing in Washington State. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at beghr.com.',
+  description: 'Payroll Outsourcing in Washington State. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/state/payroll-outsourcing-washington' },
   openGraph: {
     title: 'Payroll Outsourcing in Washington State | BEG',

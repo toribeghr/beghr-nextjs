@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing in Minnesota: Employer Checklist | BEG',
-  description: 'Payroll Outsourcing in Minnesota: Employer Checklist. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at beghr.com.',
+  description: 'Payroll Outsourcing in Minnesota: Employer Checklist. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific',
   alternates: { canonical: 'https://beghr.com/blog/payroll/state/payroll-outsourcing-minnesota' },
   openGraph: {
     title: 'Payroll Outsourcing in Minnesota: Employer Checklist | BEG',

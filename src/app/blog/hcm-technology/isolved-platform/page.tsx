@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM Platform Review: Modules, Pricing, and Who It\'s Built For (2026)',
+  title: 'iSolved HCM Platform Review: Modules, Pricing & Fit (2026)',
   description: 'Full isolved HCM platform review: payroll, benefits, time tracking, talent management, and Connector for Claude. Who isolved fits and how BEG manages it.',
   alternates: { canonical: 'https://beghr.com/blog/hcm-technology/isolved-platform' },
   openGraph: {

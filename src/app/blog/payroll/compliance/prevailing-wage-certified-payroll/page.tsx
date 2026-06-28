@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Prevailing Wage and Certified Payroll: What Employer.. | BEG',
-  description: 'Prevailing Wage and Certified Payroll: What Employers Must Know. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'Prevailing Wage and Certified Payroll: What Employers Must Know. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/prevailing-wage-certified-payroll' },
   openGraph: {
     title: 'Prevailing Wage and Certified Payroll: What Employer.. | BEG',

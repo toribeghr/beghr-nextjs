@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Marketing & PR Agencies: Managed Payroll for Mid-Size Busine',
-  description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size' },
   openGraph: {
     title: 'Marketing & PR Agencies: Managed Payroll for Mid-Size Busine',

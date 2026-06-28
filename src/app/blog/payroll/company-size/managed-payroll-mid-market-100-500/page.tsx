@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll for Mid-Market Companies (100-500 Em.. | BEG',
-  description: 'Managed Payroll for Mid-Market Companies (100-500 Employees). BEG managed payroll at $25-$45 PEPM all-inclusive. Find out what it costs for your headcount at beghr.com.',
+  description: 'Managed Payroll for Mid-Market Companies (100-500 Employees). BEG managed payroll at $25-$45 PEPM all-inclusive. Find out what it costs for your headcount',
   alternates: { canonical: 'https://beghr.com/blog/payroll/company-size/managed-payroll-mid-market-100-500' },
   openGraph: {
     title: 'Managed Payroll for Mid-Market Companies (100-500 Em.. | BEG',

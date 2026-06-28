@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Employee vs. Contractor: IRS Classification Test Exp.. | BEG',
-  description: 'Employee vs. Contractor: IRS Classification Test Explained. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'Employee vs. Contractor: IRS Classification Test Explained. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/employee-vs-contractor-irs-test' },
   openGraph: {
     title: 'Employee vs. Contractor: IRS Classification Test Exp.. | BEG',

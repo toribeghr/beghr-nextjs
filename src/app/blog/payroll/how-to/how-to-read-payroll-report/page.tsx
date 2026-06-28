@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Read a Payroll Report: Guide for Business Own.. | BEG',
-  description: 'How to Read a Payroll Report: Guide for Business Owners. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.',
+  description: 'How to Read a Payroll Report: Guide for Business Owners. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/how-to/how-to-read-payroll-report' },
   openGraph: {
     title: 'How to Read a Payroll Report: Guide for Business Own.. | BEG',

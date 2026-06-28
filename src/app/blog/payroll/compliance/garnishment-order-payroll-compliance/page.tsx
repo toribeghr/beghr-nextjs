@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wage Garnishment Orders: Employer Compliance Guide | BEG',
-  description: 'Wage Garnishment Orders: Employer Compliance Guide. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'Wage Garnishment Orders: Employer Compliance Guide. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/garnishment-order-payroll-compliance' },
   openGraph: {
     title: 'Wage Garnishment Orders: Employer Compliance Guide | BEG',

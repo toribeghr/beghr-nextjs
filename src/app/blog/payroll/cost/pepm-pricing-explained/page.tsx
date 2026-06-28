@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'PEPM Pricing Explained: What Per-Employee-Per-Month.. | BEG',
-  description: 'PEPM Pricing Explained: What Per-Employee-Per-Month Means. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'PEPM Pricing Explained: What Per-Employee-Per-Month Means. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/pepm-pricing-explained' },
   openGraph: {
     title: 'PEPM Pricing Explained: What Per-Employee-Per-Month.. | BEG',

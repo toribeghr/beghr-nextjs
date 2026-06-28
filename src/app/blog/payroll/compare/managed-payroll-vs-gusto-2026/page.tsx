@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Service vs. Gusto: Which Is Right fo.. | BEG',
-  description: 'Managed Payroll Service vs. Gusto: Which Is Right for You?. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.',
+  description: 'Managed Payroll Service vs. Gusto: Which Is Right for You?. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compare/managed-payroll-vs-gusto-2026' },
   openGraph: {
     title: 'Managed Payroll Service vs. Gusto: Which Is Right fo.. | BEG',

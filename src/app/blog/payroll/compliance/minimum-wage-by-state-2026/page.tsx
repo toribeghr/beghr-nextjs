@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Minimum Wage by State in 2026: Payroll Update | BEG',
-  description: 'Minimum Wage by State in 2026: Payroll Update. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'Minimum Wage by State in 2026: Payroll Update. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/minimum-wage-by-state-2026' },
   openGraph: {
     title: 'Minimum Wage by State in 2026: Payroll Update | BEG',

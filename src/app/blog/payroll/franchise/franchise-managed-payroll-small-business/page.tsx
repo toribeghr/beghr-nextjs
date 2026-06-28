@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Franchise Payroll: For Small Business (<25 EE) | BEG',
-  description: 'Managed payroll for franchise. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for franchise. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-managed-payroll-small-business' },
   openGraph: {
     title: 'Franchise Payroll: For Small Business (<25 EE) | BEG',

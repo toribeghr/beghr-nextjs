@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Restaurant Payroll: When to Outsource | BEG',
-  description: 'Managed payroll for restaurants. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for restaurants. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/hospitality/restaurants-when-to-outsource-payroll' },
   openGraph: {
     title: 'Restaurant Payroll: When to Outsource | BEG',

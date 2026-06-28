@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Hidden Costs of In-House Payroll Most Businesses Miss | BEG',
-  description: 'Hidden Costs of In-House Payroll Most Businesses Miss. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'Hidden Costs of In-House Payroll Most Businesses Miss. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/hidden-costs-in-house-payroll' },
   openGraph: {
     title: 'Hidden Costs of In-House Payroll Most Businesses Miss | BEG',

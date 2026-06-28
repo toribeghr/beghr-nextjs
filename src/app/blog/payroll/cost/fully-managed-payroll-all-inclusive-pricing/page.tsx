@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'All-Inclusive Managed Payroll: What Is and Is Not In.. | BEG',
-  description: 'All-Inclusive Managed Payroll: What Is and Is Not Included. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'All-Inclusive Managed Payroll: What Is and Is Not Included. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/fully-managed-payroll-all-inclusive-pricing' },
   openGraph: {
     title: 'All-Inclusive Managed Payroll: What Is and Is Not In.. | BEG',

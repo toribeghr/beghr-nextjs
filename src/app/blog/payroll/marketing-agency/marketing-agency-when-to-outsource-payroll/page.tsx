@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Marketing & PR Agencies: Signs Your Business Needs to Outsou',
-  description: 'Managed payroll for marketing agencies. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+  description: 'Managed payroll for marketing agencies. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-when-to-outsource-payroll' },
   openGraph: {
     title: 'Marketing & PR Agencies: Signs Your Business Needs to Outsou',

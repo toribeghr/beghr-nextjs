@@ -126,7 +126,8 @@ export default function RemoteTechTeamPayrollPage() {
           <li>W-2 production for all employees, regardless of location</li>
           <li>1099 preparation for true independent contractors</li>
           <li>Classification documentation support for borderline worker relationships</li>
-        </ul>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+            </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Payroll That Scales With Your Team, Not Against It</h3>

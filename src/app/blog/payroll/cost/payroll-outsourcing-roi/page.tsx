@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'ROI of Outsourcing Payroll: What the Numbers Say | BEG',
-  description: 'ROI of Outsourcing Payroll: What the Numbers Say. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'ROI of Outsourcing Payroll: What the Numbers Say. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/payroll-outsourcing-roi' },
   openGraph: {
     title: 'ROI of Outsourcing Payroll: What the Numbers Say | BEG',

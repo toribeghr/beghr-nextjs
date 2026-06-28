@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Fully Managed Payroll vs. Self-Service Payroll Softw.. | BEG',
-  description: 'Fully Managed Payroll vs. Self-Service Payroll Software. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.',
+  description: 'Fully Managed Payroll vs. Self-Service Payroll Software. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compare/fully-managed-vs-self-service-payroll' },
   openGraph: {
     title: 'Fully Managed Payroll vs. Self-Service Payroll Softw.. | BEG',

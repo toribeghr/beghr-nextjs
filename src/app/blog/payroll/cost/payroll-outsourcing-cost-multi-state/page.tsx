@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Multi-State Payroll Outsourcing: What It Costs | BEG',
-  description: 'Multi-State Payroll Outsourcing: What It Costs. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at beghr.com.',
+  description: 'Multi-State Payroll Outsourcing: What It Costs. Managed payroll at $25-$45 PEPM all-inclusive. Get a free cost comparison for your business size at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cost/payroll-outsourcing-cost-multi-state' },
   openGraph: {
     title: 'Multi-State Payroll Outsourcing: What It Costs | BEG',

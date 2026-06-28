@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '401(k) Payroll Deductions: Employer Compliance Guide | BEG',
-  description: '401(k) Payroll Deductions: Employer Compliance Guide. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: '401(k) Payroll Deductions: Employer Compliance Guide. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/401k-payroll-deduction-compliance' },
   openGraph: {
     title: '401(k) Payroll Deductions: Employer Compliance Guide | BEG',

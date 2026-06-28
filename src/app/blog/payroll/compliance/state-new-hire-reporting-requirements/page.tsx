@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'State New Hire Reporting: Requirements by State | BEG',
-  description: 'State New Hire Reporting: Requirements by State. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
+  description: 'State New Hire Reporting: Requirements by State. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
   alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/state-new-hire-reporting-requirements' },
   openGraph: {
     title: 'State New Hire Reporting: Requirements by State | BEG',

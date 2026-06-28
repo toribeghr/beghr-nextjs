@@ -121,7 +121,8 @@ export default function SeasonalRetailPayrollPage() {
           <li>Returning worker setup for prior-season rehires</li>
           <li>W-2 production and tax filings at year end</li>
           <li>Multi-state employer registration as seasonal locations are added</li>
-        </ul>
+                    <li><Link href="/services/managed-payroll">BEG Managed Payroll</Link> — fully managed payroll at $25-$45 PEPM, all 50 states</li>
+            </ul>
 
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Payroll That Handles the Rush Without the Risk</h3>

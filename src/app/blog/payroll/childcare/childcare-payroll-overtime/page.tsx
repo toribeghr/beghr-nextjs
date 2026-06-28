@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG',
-  description: 'FLSA overtime rules for childcare staff — which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most',
+  description: 'FLSA overtime rules for childcare staff — which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/childcare-payroll-overtime' },
   openGraph: {
     title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG',

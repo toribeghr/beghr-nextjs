@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Real Estate Payroll | W-2 Staff and 1099 Agents. Handled. | BEG',
-  description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits',
+  description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/real-estate/property-management' },
   openGraph: {
     title: 'Real Estate Payroll | W-2 Staff and 1099 Agents. Handled. | BEG',

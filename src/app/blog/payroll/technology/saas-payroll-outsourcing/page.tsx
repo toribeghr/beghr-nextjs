@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
-  description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at',
+  description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/technology/saas-payroll-outsourcing' },
   openGraph: {
     title: 'SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',

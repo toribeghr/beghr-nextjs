@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'EVV and Payroll Reconciliation | How to Handle EVV Data | BEG',
-  description: 'How to reconcile EVV system data with payroll for home health agencies — the most common discrepancy types, how to resolve them, and how to stay',
+  description: 'How to reconcile EVV system data with payroll for home health agencies — the most common discrepancy types, how to resolve them, and how to stay.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/evv-payroll-reconciliation' },
   openGraph: {
     title: 'EVV and Payroll Reconciliation | How to Handle EVV Data | BEG',

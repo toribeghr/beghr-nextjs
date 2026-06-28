@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Trucking Companies | BEG',
-  description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10–200 drivers. Driver classification, per diem',
+  description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10–200 drivers. Driver classification, per diem.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/trucking/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House for Trucking Companies | BEG',

@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Cannabis Payroll & Section 280E | What You Can Deduct | BEG't Deduct | BEG',
-  description: 'How IRC Section 280E affects cannabis business payroll tax deductions — what is deductible as COGS, what is disallowed, and how to structure payroll to',
+  title: "Cannabis 280E & Payroll | What You Can and Can't Deduct | BEG",
+  description: 'How 280E affects cannabis payroll: COGS deductions, disallowed expenses, and how to structure compensation to minimize your tax exposure.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/cannabis/cannabis-payroll-280e' },
   openGraph: {
     title: 'Cannabis Payroll & Section 280E | What You Can Deduct | BEG',

@@ -82,7 +82,7 @@ export default function StartupHiringPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Startup Hiring: Building Your First Team',
-            description: 'Hiring strategies for early-stage startups and founders',
+            description: 'Hiring strategies for early-stage startups and founders.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-26',
             author: {

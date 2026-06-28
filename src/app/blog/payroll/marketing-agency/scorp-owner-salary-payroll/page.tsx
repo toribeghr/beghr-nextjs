@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG',
-  description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner',
+  description: 'How to set a reasonable S-corp salary for a marketing agency owner — what the IRS requires, what counts as reasonable compensation, and how owner.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/scorp-owner-salary-payroll' },
   openGraph: {
     title: 'S-Corp Owner Salary & Payroll | Agency Owner Guide | BEG',

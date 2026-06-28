@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
-  description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job',
+  description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/construction/contractors-payroll' },
   openGraph: {
     title: 'Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Healthcare Clinic Payroll | Clinical Staff Pay. Done Right. | BEG',
-  description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K',
+  description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/healthcare-general/clinics-payroll' },
   openGraph: {
     title: 'Healthcare Clinic Payroll | Clinical Staff Pay. Done Right. | BEG',

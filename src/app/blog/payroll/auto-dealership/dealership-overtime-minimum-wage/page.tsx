@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Dealership Overtime & Min Wage | FLSA Rules for Dealers | BEG',
-  description: 'How FLSA overtime and minimum wage rules apply to auto dealership employees — the F&I and service advisor exemptions, flat-rate technician minimum wage',
+  description: 'How FLSA overtime and minimum wage rules apply to auto dealership employees — the F&I and service advisor exemptions, flat-rate technician minimum wage.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/dealership-overtime-minimum-wage' },
   openGraph: {
     title: 'Dealership Overtime & Min Wage | FLSA Rules for Dealers | BEG',

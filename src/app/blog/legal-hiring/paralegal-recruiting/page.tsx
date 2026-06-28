@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG',
-  description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great',
+  description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great.',
   alternates: { canonical: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting' },
   openGraph: {
     title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG',

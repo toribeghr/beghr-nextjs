@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG',
-  description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations — state registration, withholding, unemployment insurance, and',
+  description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations — state registration, withholding, unemployment insurance, and.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll' },
   openGraph: {
     title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG',

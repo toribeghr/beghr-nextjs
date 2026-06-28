@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
-  description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are',
+  description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are.',
   alternates: { canonical: 'https://beghr.com/blog/legal-hiring/attorney-market-trends' },
   openGraph: {
     title: '2026 Attorney Market Trends: What Managing Partners Need to Know',

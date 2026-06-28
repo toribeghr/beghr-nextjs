@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG',
-  description: 'How to correctly classify fitness trainers as employees or independent contractors — the IRS factors, state law differences, and what happens if a',
+  description: 'How to correctly classify fitness trainers as employees or independent contractors — the IRS factors, state law differences, and what happens if a.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099' },
   openGraph: {
     title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG',

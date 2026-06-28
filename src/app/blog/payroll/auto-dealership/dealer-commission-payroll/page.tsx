@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Dealer Commission Payroll | How to Process Draw & Clawback | BEG',
-  description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll — and how to avoid the most common',
+  description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll — and how to avoid the most common.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll' },
   openGraph: {
     title: 'Dealer Commission Payroll | How to Process Draw & Clawback | BEG',

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Home Health Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',
-  description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV',
+  description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/home-health/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Home Health Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',

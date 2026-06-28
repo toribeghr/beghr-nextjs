@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wealth Firm Payroll | Commission & Deferred Comp. Handled. | BEG',
-  description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save',
+  description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/financial-services/wealth-firms' },
   openGraph: {
     title: 'Wealth Firm Payroll | Commission & Deferred Comp. Handled. | BEG',

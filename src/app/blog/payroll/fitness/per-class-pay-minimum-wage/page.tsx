@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG',
-  description: 'How to calculate minimum wage compliance for fitness instructors paid per class — what counts as compensable time, how to calculate the floor, and what',
+  description: 'How to calculate minimum wage compliance for fitness instructors paid per class — what counts as compensable time, how to calculate the floor, and what.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage' },
   openGraph: {
     title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG',

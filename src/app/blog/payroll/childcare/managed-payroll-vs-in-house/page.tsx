@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Hiring In-House for Childcare Centers | BEG',
-  description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy',
+  description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. Hiring In-House for Childcare Centers | BEG',

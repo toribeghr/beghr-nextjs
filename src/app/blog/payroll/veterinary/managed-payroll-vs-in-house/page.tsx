@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',
-  description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA',
+  description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',

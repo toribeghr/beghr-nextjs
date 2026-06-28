@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Fitness Studio Payroll | Managed vs. In-House. $25 PEPM. | BEG',
-  description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification',
+  description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Fitness Studio Payroll | Managed vs. In-House. $25 PEPM. | BEG',

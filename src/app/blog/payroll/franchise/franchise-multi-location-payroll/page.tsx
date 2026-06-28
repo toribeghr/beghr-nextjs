@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Multi-Location Franchise Payroll | How to Manage Them All | BEG',
-  description: 'How franchise operators manage payroll across multiple locations — cost center tracking, employee transfers, state minimum wage updates, and how to',
+  description: 'How franchise operators manage payroll across multiple locations — cost center tracking, employee transfers, state minimum wage updates, and how to.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/franchise/franchise-multi-location-payroll' },
   openGraph: {
     title: 'Multi-Location Franchise Payroll | How to Manage Them All | BEG',

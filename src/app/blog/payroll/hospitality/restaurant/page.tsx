@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Restaurant Payroll | Tipped Staff & Tip Pools. Handled. | BEG',
-  description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K',
+  description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K.',
   alternates: { canonical: 'https://beghr.com/blog/payroll/hospitality/restaurant' },
   openGraph: {
     title: 'Restaurant Payroll | Tipped Staff & Tip Pools. Handled. | BEG',

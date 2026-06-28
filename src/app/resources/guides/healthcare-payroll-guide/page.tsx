@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'Healthcare Payroll Guide | Shift Pay & On-Call | BEG',
@@ -202,6 +203,16 @@ export default function HealthcarePayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Healthcare Payroll Guide"
+            toolDescription="Shift differentials, 24/7 coverage, on-call pay, and clinical classifications -- the full guide in your inbox."
+            assetUrl="/resources/guides/healthcare-payroll-guide"
+            assetLabel="Email me the guide"
+          />
         </div>
       </section>
     </>

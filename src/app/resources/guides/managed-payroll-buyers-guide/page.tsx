@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 
 export const metadata: Metadata = {
   title: "Managed Payroll Buyer's Guide 2026 | Free Download | BEG",
@@ -120,14 +121,12 @@ export default function BuyersGuidePage() {
 
             {/* DOWNLOAD CTA */}
             <div style={{ position: 'sticky', top: '100px' }}>
-              <div className="resource-form-placeholder" style={{ background: '#f5f5f5', border: '1px solid #e0e0e0', borderRadius: '8px', padding: '2rem', textAlign: 'center' }}>
-                <p style={{ fontWeight: '600', marginBottom: '1rem', fontSize: '1rem', color: '#000000' }}>Download the Managed Payroll Buyer&apos;s Guide</p>
-                <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem', lineHeight: '1.6' }}>Includes vendor scorecard, red flag checklist, and 25 questions to ask any provider. Sent immediately. No spam.</p>
-                <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ display: 'block', textAlign: 'center', fontSize: '0.95rem', padding: '0.8rem 1.5rem' }}>
-                  Get Free Access + Book a Call
-                </Link>
-                <p style={{ color: '#888', fontSize: '0.8rem', marginTop: '1rem' }}>Free 15-minute call. No commitment required.</p>
-              </div>
+              <PayrollLeadCaptureForm
+                toolName="Managed Payroll Buyer's Guide"
+                toolDescription="Vendor scorecard, red-flag checklist, and 25 questions to ask any provider -- emailed to you."
+                assetUrl="/resources/guides/managed-payroll-buyers-guide"
+                assetLabel="Email me the guide"
+              />
 
               <div style={{ marginTop: '1.5rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.25rem' }}>
                 <strong style={{ display: 'block', fontSize: '0.85rem', marginBottom: '0.6rem' }}>Also helpful:</strong>

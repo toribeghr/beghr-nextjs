@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 import Link from 'next/link';
 import ComplexityQuiz from './ComplexityQuiz';
 
@@ -85,6 +86,16 @@ export default function ComplexityScorerPage() {
           <p style={{ textAlign: 'center', color: '#555555', fontSize: '0.92rem', lineHeight: '1.7', marginTop: '2rem' }}>
             Learn more about <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>BEG managed payroll services</Link> at $25-$45 PEPM, all-inclusive.
           </p>
+        </div>
+      </section>
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Payroll Complexity Score"
+            toolDescription="Get your payroll complexity score and what it means for your business -- emailed to you."
+            assetUrl="/resources/complexity-scorer"
+            assetLabel="Email me my score"
+          />
         </div>
       </section>
     </>

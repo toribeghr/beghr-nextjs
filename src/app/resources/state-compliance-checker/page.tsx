@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 import Link from 'next/link';
 import StateComplianceChecker from '@/components/StateComplianceChecker';
 
@@ -94,6 +95,16 @@ export default function StateComplianceCheckerPage() {
           <p style={{ marginTop: '1.25rem', fontSize: '1rem', lineHeight: '1.8', color: '#555555', textAlign: 'center' }}>
             When you hire across state lines, you take on each state&apos;s wage, leave, tax, and registration rules at once. Missing one quietly creates penalties and back pay. BEG&apos;s <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>fully managed payroll</Link> keeps every state filed and registered for you, so a new hire in a new state is not a new compliance project.
           </p>
+        </div>
+      </section>
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="State Payroll Compliance Checker"
+            toolDescription="Minimum wage, paid leave, income tax, and new hire rules for all 50 states -- emailed to you."
+            assetUrl="/resources/state-compliance-checker"
+            assetLabel="Email me the checker"
+          />
         </div>
       </section>
     </>

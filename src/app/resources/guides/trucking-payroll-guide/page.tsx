@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'Trucking Payroll Guide | Per-Mile & Multi-State | BEG',
@@ -191,6 +192,16 @@ export default function TruckingPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Trucking Payroll Guide"
+            toolDescription="Per-mile vs hourly pay, multi-state apportionment, per diem, and owner-operator rules -- the full guide in your inbox."
+            assetUrl="/resources/guides/trucking-payroll-guide"
+            assetLabel="Email me the guide"
+          />
         </div>
       </section>
     </>

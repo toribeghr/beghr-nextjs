@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
+import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'iSolved AI Connector for Claude | Complete HR Tasks | BEG',
@@ -216,6 +217,25 @@ export default function AIConnectorPage() {
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
           </Link>
+        </div>
+      </section>
+
+      {/* OPTIONAL EMAIL OPT-IN */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '760px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Prefer It In Your Inbox?</p>
+            <h2>Want the Connector for Claude one-pager?</h2>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
+            <LeadCaptureForm
+              toolName="iSolved Connector for Claude One-Pager"
+              toolDescription="Enter your details and we will send a one-page overview of what the iSolved Connector for Claude does and how BEG sets it up, ready to share with your team."
+              assetLabel="Email me the one-pager"
+              calendlyLink={CALENDLY}
+              followupText="your payroll and HR needs"
+            />
+          </div>
         </div>
       </section>
 

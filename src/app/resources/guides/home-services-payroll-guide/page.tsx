@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'Home Services Payroll Guide | Field Crews Handled | BEG',
@@ -191,6 +192,16 @@ export default function HomeServicesPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Home Services Payroll Guide"
+            toolDescription="Field crews, tool reimbursements, multi-state licensing, and dispatch overtime -- the full guide in your inbox."
+            assetUrl="/resources/guides/home-services-payroll-guide"
+            assetLabel="Email me the guide"
+          />
         </div>
       </section>
     </>

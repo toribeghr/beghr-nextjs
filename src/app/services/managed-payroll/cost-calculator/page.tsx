@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 import Link from 'next/link';
 import PayrollCalculator from '@/components/PayrollCalculator';
 
@@ -180,6 +181,16 @@ export default function PayrollCostCalculatorPage() {
           }),
         }}
       />
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Managed Payroll Cost Estimate"
+            toolDescription="Your estimated managed-payroll cost versus what you pay today -- emailed to you."
+            assetUrl="/services/managed-payroll/cost-calculator"
+            assetLabel="Email me my estimate"
+          />
+        </div>
+      </section>
     </>
   );
 }

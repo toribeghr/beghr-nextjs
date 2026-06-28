@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'Manufacturing Payroll Guide | Shift & Overtime Handled | BEG',
@@ -196,6 +197,16 @@ export default function ManufacturingPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Manufacturing Payroll Guide"
+            toolDescription="Shift work, regular-rate overtime, union contracts, and piece-rate pay -- the full guide in your inbox."
+            assetUrl="/resources/guides/manufacturing-payroll-guide"
+            assetLabel="Email me the guide"
+          />
         </div>
       </section>
     </>

@@ -54,6 +54,7 @@ export default function HCMROICalculatorPage() {
               toolDescription="Enter your details and we will send your iSolved HCM ROI summary plus a tailored breakdown for your company."
               assetLabel="Email me my ROI summary"
               calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
+              followupText="your payroll and HR needs"
             />
           </div>
         </div>

@@ -50,6 +50,7 @@ export default function AIReadinessScorecardPage() {
               toolDescription="Enter your details and we will send your readiness score with a tailored action plan for adopting AI in your HR."
               assetLabel="Email me my results"
               calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
+              followupText="your payroll and HR needs"
             />
           </div>
         </div>

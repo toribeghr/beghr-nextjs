@@ -3,22 +3,25 @@
 import { useState } from 'react';
 
 /**
- * BEG-branded lead-capture form. Free backend via Web3Forms (https://web3forms.com).
- * Setup: get a free access key at web3forms.com (enter your email, they send a key),
- * then paste it into WEB3FORMS_KEY below. Submissions are emailed to that address.
+ * BEG payroll-branded lead-capture form. Free backend via Web3Forms.
+ * Submissions are emailed to tori.wint@beghr.com, tagged by the asset (toolName).
+ * Brand each instance to the asset it gates by passing toolName / toolDescription / assetLabel.
+ *
+ * "Delivered via email": leads see the asset on-screen instantly AND, once the Web3Forms
+ * autoresponder is enabled on the account (one-time dashboard setting), receive a branded
+ * auto-reply with the asset link + a book-a-call nudge.
  *
  * Usage:
- *   <LeadCaptureForm
- *     toolName="Salary & Hiring Guide"
- *     toolDescription="Get the printable 2026 salary ranges across 19 industries."
- *     assetUrl="/resources/salary-guide"        // optional: shown as a button after submit
- *     assetLabel="Open the guide"                // optional
- *     calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
+ *   <PayrollLeadCaptureForm
+ *     toolName="Restaurant Payroll Guide"
+ *     toolDescription="Tip credits, the FICA tip credit, tip pooling, and multi-location runs -- the full guide."
+ *     assetUrl="/resources/guides/restaurant-payroll-guide"
+ *     assetLabel="Email me the guide"
  *   />
  */
 
-const WEB3FORMS_KEY = 'a5dc3398-f88a-4944-bafe-54bd85211f81'; // Web3Forms key (leads -> tori.wint@beghr.com)
-
+const WEB3FORMS_KEY = 'a5dc3398-f88a-4944-bafe-54bd85211f81'; // leads -> tori.wint@beghr.com
+const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 const GOLD = '#ECAC60';
 
 interface Props {
@@ -27,16 +30,14 @@ interface Props {
   assetUrl?: string;
   assetLabel?: string;
   calendlyLink?: string;
-  followupText?: string;
 }
 
-export default function LeadCaptureForm({
+export default function PayrollLeadCaptureForm({
   toolName,
   toolDescription,
   assetUrl,
-  assetLabel = 'Get instant access',
-  calendlyLink,
-  followupText = 'your hiring needs',
+  assetLabel = 'Email it to me',
+  calendlyLink = CALENDLY,
 }: Props) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
 
@@ -46,9 +47,10 @@ export default function LeadCaptureForm({
     const form = e.currentTarget;
     const data = {
       access_key: WEB3FORMS_KEY,
-      subject: `New lead: ${toolName}`,
+      subject: `New payroll lead: ${toolName}`,
       from_name: 'BEG Website',
       tool: toolName,
+      asset_url: assetUrl || '',
       name: (form.elements.namedItem('name') as HTMLInputElement).value,
       email: (form.elements.namedItem('email') as HTMLInputElement).value,
       company: (form.elements.namedItem('company') as HTMLInputElement).value,
@@ -74,23 +76,19 @@ export default function LeadCaptureForm({
 
   if (status === 'done') {
     return (
-      <div style={{ background: '#FBF3E8', border: `1px solid ${GOLD}`, borderRadius: '10px', padding: '2rem', textAlign: 'center' }}>
-        <p style={{ fontWeight: 800, fontSize: '1.15rem', color: '#000', margin: '0 0 0.5rem' }}>You are all set.</p>
+      <div style={{ background: '#FBF3E8', border: `1px solid ${GOLD}`, borderRadius: '10px', padding: '2rem', textAlign: 'center', maxWidth: '460px' }}>
+        <p style={{ fontWeight: 800, fontSize: '1.15rem', color: '#000', margin: '0 0 0.5rem' }}>Check your inbox.</p>
         <p style={{ color: '#444', margin: '0 0 1.25rem' }}>
-          {assetUrl
-            ? `Your ${toolName} is ready below. Our team also has your details and may follow up about ${followupText}.`
-            : `Thanks. Our team has your details and will follow up about your ${toolName} shortly.`}
+          Your {toolName} is on its way to your email. Want to skip the reading and just hand payroll off? Book a 15-minute call.
         </p>
         {assetUrl && (
-          <a href={assetUrl} className="btn btn--gold" style={{ display: 'inline-block', marginBottom: calendlyLink ? '0.75rem' : 0 }}>{assetLabel}</a>
+          <a href={assetUrl} className="btn btn--gold" style={{ display: 'inline-block', marginBottom: '0.75rem' }}>Open it now</a>
         )}
-        {calendlyLink && (
-          <div>
-            <a href={calendlyLink} target="_blank" rel="noopener noreferrer" style={{ color: '#000', fontWeight: 600, fontSize: '0.92rem' }}>
-              Or book a 15-minute discovery call
-            </a>
-          </div>
-        )}
+        <div>
+          <a href={calendlyLink} target="_blank" rel="noopener noreferrer" style={{ color: '#000', fontWeight: 600, fontSize: '0.92rem' }}>
+            Book a 15-minute discovery call
+          </a>
+        </div>
       </div>
     );
   }
@@ -98,7 +96,7 @@ export default function LeadCaptureForm({
   return (
     <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: `4px solid ${GOLD}`, borderRadius: '10px', padding: '1.75rem', maxWidth: '460px' }}>
       <p style={{ display: 'inline-block', background: GOLD, color: '#000', fontWeight: 700, fontSize: '0.72rem', padding: '0.2rem 0.6rem', borderRadius: '4px', letterSpacing: '0.05em', margin: '0 0 0.75rem' }}>
-        YOU ARE REQUESTING
+        WANT THIS EMAILED TO YOU?
       </p>
       <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#000', margin: '0 0 0.4rem' }}>{toolName}</h3>
       <p style={{ color: '#555', fontSize: '0.95rem', lineHeight: 1.55, margin: '0 0 1.25rem' }}>{toolDescription}</p>
@@ -120,7 +118,7 @@ export default function LeadCaptureForm({
           </p>
         )}
         <p style={{ color: '#999', fontSize: '0.78rem', marginTop: '0.85rem', lineHeight: 1.4 }}>
-          We will only use your details to send what you requested and follow up about {followupText}. No spam.
+          We will only use your details to send what you requested and follow up about your payroll. No spam.
         </p>
       </form>
     </div>

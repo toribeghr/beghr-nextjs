@@ -50,6 +50,7 @@ export default function PlatformFinderPage() {
               toolDescription="Enter your details and we will send your tailored HCM recommendation with the comparison links for your size and industry."
               assetLabel="Email me my recommendation"
               calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
+              followupText="your payroll and HR needs"
             />
           </div>
         </div>

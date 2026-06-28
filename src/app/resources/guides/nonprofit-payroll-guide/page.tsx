@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Payroll Guide | 403(b) & Grant Allocation | BEG',
@@ -202,6 +203,16 @@ export default function NonprofitPayrollGuidePage() {
               Book a Free 15-Minute Call
             </Link>
           </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container" style={{ maxWidth: '820px', display: 'flex', justifyContent: 'center' }}>
+          <PayrollLeadCaptureForm
+            toolName="Nonprofit Payroll Guide"
+            toolDescription="Grant-funded allocation, 403(b) administration, and worker classification -- the full guide in your inbox."
+            assetUrl="/resources/guides/nonprofit-payroll-guide"
+            assetLabel="Email me the guide"
+          />
         </div>
       </section>
     </>

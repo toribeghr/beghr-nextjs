@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'Year-End Payroll Checklist 2026 | Free Download | BEG',
@@ -133,14 +134,12 @@ export default function YearEndChecklistPage() {
 
             {/* DOWNLOAD CTA */}
             <div style={{ position: 'sticky', top: '100px' }}>
-              <div className="resource-form-placeholder" style={{ background: '#f5f5f5', border: '1px solid #e0e0e0', borderRadius: '8px', padding: '2rem', textAlign: 'center' }}>
-                <p style={{ fontWeight: '600', marginBottom: '1rem', fontSize: '1rem', color: '#000000' }}>Download the 2026 Year-End Payroll Checklist</p>
-                <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1.5rem', lineHeight: '1.6' }}>Sent immediately. No spam. Get the checklist and review it with a BEG payroll specialist on a free 15-minute call.</p>
-                <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ display: 'block', textAlign: 'center', fontSize: '0.95rem', padding: '0.8rem 1.5rem' }}>
-                  Get Free Access + Book a Call
-                </Link>
-                <p style={{ color: '#888', fontSize: '0.8rem', marginTop: '1rem' }}>Free 15-minute call. No commitment required.</p>
-              </div>
+              <PayrollLeadCaptureForm
+                toolName="2026 Year-End Payroll Checklist"
+                toolDescription="W-2 deadlines, 941 reconciliation, ACA reporting, and state filings -- the full year-end checklist, emailed to you."
+                assetUrl="/resources/guides/year-end-payroll-checklist"
+                assetLabel="Email me the checklist"
+              />
             </div>
           </div>
         </div>

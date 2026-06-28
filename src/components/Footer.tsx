@@ -17,7 +17,7 @@ export default function Footer() {
               <a href="tel:4694121204">469-412-1204</a><br />
               <a href="mailto:sales@beghr.com">sales@beghr.com</a>
             </div>
-            <Link href="/contact" className="footer-map-link" title="Get directions — opens contact page">
+            <Link href="/contact" className="footer-map-link" title="Get directions, opens contact page">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.0!2d-96.8252!3d33.0198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21b2a7f0adbd%3A0x4b5e76e94d6cb05!2s7700%20Windrose%20Ave%2C%20Plano%2C%20TX%2075024!5e0!3m2!1sen!2sus!4v1700000000000"
                 frameBorder="0"
@@ -102,6 +102,25 @@ export default function Footer() {
             <Link href="/services/job-placement/engineering" className="footer-link">Engineering</Link>
             <Link href="/services/job-placement/trades" className="footer-link">Skilled Trades &amp; Mfg</Link>
             <Link href="/services/job-placement/executive" className="footer-link">Executive &amp; Director+</Link>
+            <Link href="/services/job-placement/accounting-cpa" className="footer-link">Accounting &amp; CPA</Link>
+            <Link href="/services/job-placement/sales" className="footer-link">Sales</Link>
+            <Link href="/services/job-placement/cybersecurity" className="footer-link">Cybersecurity</Link>
+            <Link href="/services/job-placement/insurance" className="footer-link">Insurance</Link>
+            <Link href="/services/job-placement/hr" className="footer-link">Human Resources</Link>
+            <Link href="/services/job-placement/construction-management" className="footer-link">Construction Mgmt</Link>
+            <Link href="/services/job-placement/supply-chain" className="footer-link">Supply Chain</Link>
+            <Link href="/services/job-placement/marketing" className="footer-link">Marketing</Link>
+            <Link href="/services/job-placement/banking" className="footer-link">Banking</Link>
+            <Link href="/services/job-placement/biotech" className="footer-link">Biotech &amp; Life Sciences</Link>
+            <Link href="/services/job-placement/manufacturing" className="footer-link">Manufacturing</Link>
+            <Link href="/services/job-placement/dental" className="footer-link">Dental</Link>
+            <Link href="/services/job-placement/nonprofit" className="footer-link">Nonprofit</Link>
+            <Link href="/services/job-placement/real-estate" className="footer-link">Real Estate</Link>
+            <Link href="/services/job-placement/energy" className="footer-link">Energy</Link>
+            <Link href="/services/job-placement/architecture" className="footer-link">Architecture</Link>
+            <Link href="/services/job-placement/hospitality" className="footer-link">Hospitality</Link>
+            <Link href="/services/job-placement/veterinary" className="footer-link">Veterinary</Link>
+            <Link href="/services/job-placement/government" className="footer-link">Government Contracting</Link>
           </div>
 
           {/* Partners */}

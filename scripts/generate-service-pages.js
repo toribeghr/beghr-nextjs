@@ -468,6 +468,7 @@ function genJobPlacementPage(slug, data) {
   return `import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -580,6 +581,7 @@ ${ktHub(data)}
         </div>
       </section>
 
+${jdTool('Hiring ' + amp(indName(data)) + '? Grade your job description first.', amp(indName(data).toLowerCase()))}
       {/* SCARCITY */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -662,6 +664,7 @@ function genManagedPayrollPage(slug, data) {
   return `import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -856,6 +859,7 @@ function genHCMPage(slug, data) {
   return `import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -1112,6 +1116,24 @@ function indName(data) {
 
 function esc(s) { return String(s).replace(/'/g, "\\'"); }
 
+// ── Embedded Job Description Grader (engagement: lower bounce, longer time on page) ──
+function amp(s) { return String(s).replace(/&/g, '&amp;'); }
+function jdTool(heading, descNoun) {
+  const desc = 'A weak posting quietly kills your pipeline. Paste your ' + descNoun + ' job description and get an instant 0 to 100 score, plus the exact fixes that get strong candidates to apply. Free, instant, and nothing you paste leaves your browser.';
+  return `      {/* JOB DESCRIPTION GRADER */}
+      <section className="section" style={{ paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Free Hiring Tool</p>
+            <h2>${heading}</h2>
+            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>${desc}</p>
+          </div>
+        </div>
+      </section>
+      <JobDescriptionGrader />
+`;
+}
+
 // ── AEO build standard: Key Takeaways (TL;DR) block + Service schema ──────────
 function ktWrap(b1, b2, b3, schema) {
   const json = JSON.stringify(schema);
@@ -1176,6 +1198,7 @@ function genCityPage(industrySlug, data, metro) {
   return `import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -1209,6 +1232,7 @@ ${ktCity(name, metro, url)}
           </p>
         </div>
       </section>
+${jdTool('Hiring ' + amp(name) + ' in ' + metro.name + '? Grade your job description first.', amp(name.toLowerCase()))}
 
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>
@@ -1275,6 +1299,7 @@ function genRolePage(industrySlug, data, role) {
   return `import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -1308,6 +1333,7 @@ ${ktRole(name, role, url)}
           </p>
         </div>
       </section>
+${jdTool('Hiring a ' + amp(role.name) + '? Grade your job description first.', role.name.toLowerCase())}
 
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>

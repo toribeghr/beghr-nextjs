@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -216,6 +217,18 @@ export default function PlacementLegalPage() {
           </div>
         </div>
       </section>
+
+      {/* JOB DESCRIPTION GRADER */}
+      <section className="section" style={{ paddingBottom: '0' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Free Hiring Tool</p>
+            <h2>Hiring attorneys or paralegals? Grade your job description first.</h2>
+            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>A weak posting quietly kills your pipeline. Paste your legal job description and get an instant 0 to 100 score, plus the exact fixes that get strong candidates to apply. Free, instant, and nothing you paste leaves your browser.</p>
+          </div>
+        </div>
+      </section>
+      <JobDescriptionGrader />
 
       {/* FAQ with schema */}
       <section className="section section--soft">

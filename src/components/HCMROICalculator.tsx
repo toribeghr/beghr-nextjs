@@ -161,7 +161,7 @@ export default function HCMROICalculator() {
                   Get Your Custom ROI Review — Book a 15-Min Call
                 </Link>
                 <p style={{ color: '#555', fontSize: '0.75rem', marginTop: '0.8rem', marginBottom: 0, lineHeight: '1.5' }}>
-                  This calculator uses conservative industry averages. Forrester documented a 330% ROI for iSolved clients. BEG gives you an exact, configured ROI on your discovery call — no commitment required.
+                  This calculator uses conservative industry averages. Forrester documented a 330% ROI for isolved clients. BEG gives you an exact, configured ROI on your discovery call — no commitment required.
                 </p>
               </div>
             </div>
@@ -207,11 +207,11 @@ export default function HCMROICalculator() {
             <h2>The only HCM platform with a Connector for Claude.</h2>
           </div>
           <p style={{ marginTop: '1rem', color: '#555', textAlign: 'center', lineHeight: '1.75', maxWidth: '660px', margin: '1rem auto 0' }}>
-            Other platforms added a chatbot that answers questions. iSolved went further. The Connector for Claude, generally available since June 2026, lets your team complete real HR tasks through a Claude conversation. That is admin time your calculator above does not even count yet. No other platform on the market offers this.
+            Other platforms added a chatbot that answers questions. isolved went further. The Connector for Claude, generally available since June 2026, lets your team complete real HR tasks through a Claude conversation. That is admin time your calculator above does not even count yet. No other platform on the market offers this.
           </p>
           <div style={{ textAlign: 'center', marginTop: '2rem' }}>
             <Link href="/services/hcm-software" className="btn btn--gold" style={{ display: 'inline-block' }}>
-              See the Full iSolved Platform
+              See the Full isolved Platform
             </Link>
           </div>
         </div>

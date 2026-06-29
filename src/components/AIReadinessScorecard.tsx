@@ -85,7 +85,7 @@ function tierFor(score: number) {
       summary:
         'Your HR runs on disconnected systems and manual work. That is exactly the setup where one connected platform plus AI that completes tasks delivers the biggest, fastest return.',
       rec:
-        'Start by consolidating onto a single platform. iSolved brings payroll, HR, time, and benefits together, and the Connector for Claude lets your team complete tasks by conversation instead of clicking through screens. BEG implements and runs it for you.',
+        'Start by consolidating onto a single platform. The isolved platform brings payroll, HR, time, and benefits together, and the Connector for Claude lets your team complete tasks by conversation instead of clicking through screens. BEG implements and runs it for you.',
     };
   }
   if (score < 75) {
@@ -95,7 +95,7 @@ function tierFor(score: number) {
       summary:
         'You have made real progress, but gaps between systems and manual steps are still costing your team time. You are well positioned to add task-completing AI on top of a connected platform.',
       rec:
-        'Close the remaining gaps by consolidating on iSolved and turning on the Connector for Claude so routine work gets completed automatically. BEG configures it for your workflows and supports it year round.',
+        'Close the remaining gaps by consolidating on isolved and turning on the Connector for Claude so routine work gets completed automatically. BEG configures it for your workflows and supports it year round.',
     };
   }
   return {
@@ -104,7 +104,7 @@ function tierFor(score: number) {
     summary:
       'Your foundation is strong. The next gain comes from AI that completes tasks, not just answers questions. You are ready to adopt it now.',
     rec:
-      'iSolved is the only HCM platform with a generally available Connector for Claude. It completes real HR tasks through conversation. BEG can have it configured and live for your team quickly.',
+      'isolved is the only HCM platform with a generally available Connector for Claude. It completes real HR tasks through conversation. BEG can have it configured and live for your team quickly.',
   };
 }
 
@@ -196,7 +196,7 @@ export default function AIReadinessScorecard() {
                   Get Your Tailored AI HR Plan, Book a 15-Min Call
                 </Link>
                 <p style={{ color: '#555', fontSize: '0.74rem', marginTop: '0.8rem', marginBottom: 0 }}>
-                  BEG will map your exact systems and show you what the iSolved Connector for Claude completes for your team. No commitment.
+                  BEG will map your exact systems and show you what the isolved Connector for Claude completes for your team. No commitment.
                 </p>
               </div>
               <div style={{ textAlign: 'center', marginTop: '1rem' }}>
@@ -210,7 +210,7 @@ export default function AIReadinessScorecard() {
         </div>
         <p style={{ textAlign: 'center', fontSize: '0.8rem', color: '#999', marginTop: '1rem' }}>
           Learn more about the{' '}
-          <Link href="/services/hcm-software/ai-connector" style={{ color: '#ECAC60', fontWeight: 600 }}>iSolved Connector for Claude</Link>.
+          <Link href="/services/hcm-software/ai-connector" style={{ color: '#ECAC60', fontWeight: 600 }}>isolved Connector for Claude</Link>.
         </p>
       </div>
     </section>

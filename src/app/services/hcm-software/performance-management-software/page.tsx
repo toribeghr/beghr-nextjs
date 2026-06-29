@@ -4,17 +4,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Performance Management Software | BEG',
-  description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. iSolved on one platform, supported by BEG.',
+  description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. isolved on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/performance-management-software' },
   openGraph: {
     title: 'Performance Management Software | BEG',
-    description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. iSolved on one platform, supported by BEG.',
+    description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. isolved on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/performance-management-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Performance Management Software | BEG', description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. iSolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Performance Management Software | BEG', description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,16 +25,16 @@ const faqs = [
     a: 'Performance management software runs review cycles, tracks goals, and captures feedback between employees and managers. It keeps reviews on schedule, ties results to the employee record, and gives leaders a clear picture of who is performing and where development is needed.',
   },
   {
-    q: 'How does iSolved handle reviews and goals?',
-    a: 'iSolved runs review cycles on a schedule you set, with templates, ratings, and routing for self, manager, and multi-rater feedback. Goals are tracked against each employee and visible through the cycle, so progress and ratings sit together in one place.',
+    q: 'How does isolved handle reviews and goals?',
+    a: 'isolved runs review cycles on a schedule you set, with templates, ratings, and routing for self, manager, and multi-rater feedback. Goals are tracked against each employee and visible through the cycle, so progress and ratings sit together in one place.',
   },
   {
     q: 'Can performance results connect to compensation?',
-    a: 'Yes. Because iSolved is one connected platform, review outcomes sit alongside the same employee record that drives pay. That makes merit increases, promotions, and pay decisions easier to align with documented performance instead of separate spreadsheets.',
+    a: 'Yes. Because isolved is one connected platform, review outcomes sit alongside the same employee record that drives pay. That makes merit increases, promotions, and pay decisions easier to align with documented performance instead of separate spreadsheets.',
   },
   {
     q: 'How does feedback stay tied to the employee record?',
-    a: 'Reviews, goals, ratings, and notes all attach to the employee profile in iSolved. There is no separate review tool to reconcile, so a manager or HR can see performance history, role, and compensation context together without exporting anything.',
+    a: 'Reviews, goals, ratings, and notes all attach to the employee profile in isolved. There is no separate review tool to reconcile, so a manager or HR can see performance history, role, and compensation context together without exporting anything.',
   },
   {
     q: 'Why use BEG to implement performance management?',
@@ -81,7 +81,7 @@ export default function PerformanceManagementSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Performance Management</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>Performance Management Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Reviews, goals, and feedback cycles work best when they sit next to the employee record and the pay it drives. Here is what to look for and how iSolved plus BEG handles it.
+            Reviews, goals, and feedback cycles work best when they sit next to the employee record and the pay it drives. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function PerformanceManagementSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good performance management software runs review cycles on schedule, tracks goals, captures feedback, and ties results to compensation and the employee record. iSolved does all of this on one connected platform, and BEG configures and supports it around how your company actually evaluates people.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good performance management software runs review cycles on schedule, tracks goals, captures feedback, and ties results to compensation and the employee record. The isolved platform handles all of this on one connected platform, and BEG configures and supports it around how your company actually evaluates people.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is performance management software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function PerformanceManagementSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles performance as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles performance as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved runs performance management inside the same platform that holds your HR records and runs payroll. Review cycles follow a schedule you set, with templates, rating scales, and routing for self, manager, and multi-rater feedback. Goals are tracked against each employee and stay visible through the cycle, so progress and ratings sit together rather than in separate tools.
+            isolved runs performance management inside the same platform that holds your HR records and runs payroll. Review cycles follow a schedule you set, with templates, rating scales, and routing for self, manager, and multi-rater feedback. Goals are tracked against each employee and stay visible through the cycle, so progress and ratings sit together rather than in separate tools.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            Because everything attaches to the same employee record, review outcomes sit next to the data that drives compensation, which makes merit and promotion decisions easier to align with documented performance. Because more than 7 million employees are managed on iSolved, the review workflow is proven across the cycle structures and rating models employers of every size use.
+            Because everything attaches to the same employee record, review outcomes sit next to the data that drives compensation, which makes merit and promotion decisions easier to align with documented performance. Because more than 7 million employees are managed on isolved, the review workflow is proven across the cycle structures and rating models employers of every size use.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Performance management is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and a manager can check review status or pull a completion report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than clicking through screens.
+            Performance management is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and a manager can check review status or pull a completion report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than clicking through screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function PerformanceManagementSoftwarePage() {
             Performance processes are specific to each company. Review templates, rating scales, cycle timing, and the way feedback is routed all have to reflect how you evaluate people. BEG implements, configures, and supports the platform for your specific process, and stays with you as your evaluation approach evolves.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in performance management that return shows up where consistent, on-schedule reviews tied to records and pay reduce manual tracking and make compensation decisions cleaner. When you change a template, adjust a rating scale, or shift your cycle, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in performance management that return shows up where consistent, on-schedule reviews tied to records and pay reduce manual tracking and make compensation decisions cleaner. When you change a template, adjust a rating scale, or shift your cycle, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function PerformanceManagementSoftwarePage() {
             No single approach fits every employer, and an honest answer should say so. A very small team may run feedback informally and not need a structured cycle at all. The value of formal performance management grows with headcount, with the number of managers running reviews, and with how closely you want pay decisions tied to documented results.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how many people you review, whether managers grade consistently today, and whether you want performance results connected to compensation and records. iSolved is a strong fit when reviews need structure and you want them joined to the rest of your HCM with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are how many people you review, whether managers grade consistently today, and whether you want performance results connected to compensation and records. The isolved platform is a strong fit when reviews need structure and you want them joined to the rest of your HCM with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function PerformanceManagementSoftwarePage() {
       <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See performance management in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See performance management in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your review process, look at how performance connects to pay today, and show you what iSolved plus BEG looks like for your team.
+            15-minute call. We will walk through your review process, look at how performance connects to pay today, and show you what isolved plus BEG looks like for your team.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

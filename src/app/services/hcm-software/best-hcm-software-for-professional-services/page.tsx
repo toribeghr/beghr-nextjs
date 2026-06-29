@@ -5,17 +5,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Professional Services | BEG',
-  description: 'What to look for in professional services HCM software in 2026, the utilization and exempt classification challenges firms face, and why iSolved plus BEG fits.',
+  description: 'What to look for in professional services HCM software in 2026, the utilization and exempt classification challenges firms face, and why isolved plus BEG fits.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-professional-services' },
   openGraph: {
     title: 'Best HCM Software for Professional Services | BEG',
-    description: 'What to look for in professional services HCM software in 2026, the utilization and exempt classification challenges firms face, and why iSolved plus BEG fits.',
+    description: 'What to look for in professional services HCM software in 2026, the utilization and exempt classification challenges firms face, and why isolved plus BEG fits.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-professional-services',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Professional Services | BEG', description: 'What to look for in professional services HCM software in 2026, the utilization and exempt classification challenges firms face, and why iSolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Professional Services | BEG', description: 'What to look for in professional services HCM software in 2026, the utilization and exempt classification challenges firms face, and why isolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for clean handling of exempt and non-exempt classification, support for tracking utilization, strong talent and performance tools, and benefits administration that helps retain skilled people. The platform should fit a salaried, knowledge-worker workforce.',
   },
   {
-    q: 'Why is iSolved a strong pick for professional services?',
-    a: 'iSolved keeps payroll, HR, time, and benefits on a single connected platform, so classification, talent, and benefits are managed in one place. BEG configures it for your roles, pay structures, and growth plans.',
+    q: 'Why is isolved a strong pick for professional services?',
+    a: 'isolved keeps payroll, HR, time, and benefits on a single connected platform, so classification, talent, and benefits are managed in one place. BEG configures it for your roles, pay structures, and growth plans.',
   },
   {
-    q: 'Can iSolved help with exempt and non-exempt classification?',
-    a: 'iSolved supports the pay rules and structures that exempt and non-exempt workforces require, and keeps the data consistent across payroll and HR. BEG configures the setup so classification is applied correctly.',
+    q: 'Can isolved help with exempt and non-exempt classification?',
+    a: 'isolved supports the pay rules and structures that exempt and non-exempt workforces require, and keeps the data consistent across payroll and HR. BEG configures the setup so classification is applied correctly.',
   },
   {
-    q: 'Is iSolved right for every firm?',
+    q: 'Is isolved right for every firm?',
     a: 'It depends on your needs. A very small firm with a few salaried staff may do fine on a simpler tool. The value grows as you add headcount, manage utilization, and need stronger talent and benefits capabilities.',
   },
   {
     q: 'What does the Connector for Claude offer a firm?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Leaders can pull headcount and labor reports and update records through conversation rather than navigating screens.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Leaders can pull headcount and labor reports and update records through conversation rather than navigating screens.',
   },
 ];
 
@@ -102,15 +102,15 @@ export default function BestHCMProfessionalServicesPage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Firms</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Firms</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform, which suits a firm that needs classification, talent, and benefits to work together. Exempt and non-exempt employees are handled under the right rules, talent and performance tools live alongside payroll and benefits, and time can be captured against clients or projects where utilization matters. With more than 7 million employees managed on iSolved, the platform supports professional workforces as they grow.
+            isolved is a single connected platform, which suits a firm that needs classification, talent, and benefits to work together. Exempt and non-exempt employees are handled under the right rules, talent and performance tools live alongside payroll and benefits, and time can be captured against clients or projects where utilization matters. With more than 7 million employees managed on isolved, the platform supports professional workforces as they grow.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            BEG implements, configures, and supports the platform for your roles, pay structures, and talent programs, and stays with you as the firm scales. The Forrester-documented 330% ROI for iSolved tends to appear in professional services where consolidated talent, benefits, and payroll reduce administrative drag and support retention.
+            BEG implements, configures, and supports the platform for your roles, pay structures, and talent programs, and stays with you as the firm scales. The Forrester-documented 330% ROI for isolved tends to appear in professional services where consolidated talent, benefits, and payroll reduce administrative drag and support retention.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            For the firm-specific setup, see our <Link href="/services/hcm-software/professional-services" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM for professional services</Link> page.
+            For the firm-specific setup, see our <Link href="/services/hcm-software/professional-services" style={{ color: '#000', fontWeight: 600 }}>isolved HCM for professional services</Link> page.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BestHCMProfessionalServicesPage() {
             No platform is best for every firm, and a fair comparison should say so. A very small practice with a handful of salaried staff may be served well by a simpler tool. The case for a connected platform strengthens as you add headcount, formalize talent and performance processes, and need stronger benefits to retain people.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Ask how much you rely on utilization data, how important talent and benefits are to retention, how complex your classification is, and whether you want a partner managing the platform. iSolved is a strong choice for growing firms that want BEG running it. BEG will compare it fairly against your current setup.
+            Ask how much you rely on utilization data, how important talent and benefits are to retention, how complex your classification is, and whether you want a partner managing the platform. The isolved platform is a strong choice for growing firms that want BEG running it. BEG will compare it fairly against your current setup.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMProfessionalServicesPage() {
       <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Firm</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Firm</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through classification, talent, and benefits and show you what iSolved plus BEG looks like for your firm.
+            15-minute call. We will walk through classification, talent, and benefits and show you what isolved plus BEG looks like for your firm.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMProfessionalServicesPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, benefits, talent, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, benefits, talent, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Classification, onboarding, and benefits administration are high-ROI automation targets for firms.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'FLSA threshold updates, classification, and what your HCM platform should handle automatically.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

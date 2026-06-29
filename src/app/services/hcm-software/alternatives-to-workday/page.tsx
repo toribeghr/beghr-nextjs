@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best Workday Alternative | iSolved + Claude AI | BEG',
-  description: 'Workday too expensive and slow to implement for the mid-market? See the top Workday alternatives for 50-500 employees, including iSolved, managed by BEG.',
+  title: 'Best Workday Alternative | isolved + Claude AI | BEG',
+  description: 'Workday too expensive and slow to implement for the mid-market? See the top Workday alternatives for 50-500 employees, including isolved, managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-workday' },
   openGraph: {
-    title: 'Best Workday Alternative | iSolved + Claude AI | BEG',
-    description: 'Workday too expensive and slow to implement for the mid-market? See the top Workday alternatives for 50-500 employees, including iSolved, managed by BEG.',
+    title: 'Best Workday Alternative | isolved + Claude AI | BEG',
+    description: 'Workday too expensive and slow to implement for the mid-market? See the top Workday alternatives for 50-500 employees, including isolved, managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-workday',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best Workday Alternative | iSolved + Claude AI | BEG', description: 'Workday too expensive and slow to implement for the mid-market? See the top Workday alternatives for 50-500 employees, including iSolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best Workday Alternative | isolved + Claude AI | BEG', description: 'Workday too expensive and slow to implement for the mid-market? See the top Workday alternatives for 50-500 employees, including isolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,7 +23,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'How hard is it to switch from Workday to iSolved?',
+    q: 'How hard is it to switch from Workday to isolved?',
     a: 'BEG manages the full transition: data migration, configuration, training, and go-live. Moving to a mid-market platform is typically faster and lighter than an enterprise implementation, and most clients complete the switch in 60 to 90 days with no payroll interruption.',
   },
   {
@@ -31,12 +31,12 @@ const faqs = [
     a: 'No. BEG migrates your employee records, payroll history, and benefits information as part of implementation. Your data is preserved.',
   },
   {
-    q: 'Is iSolved a fit if Workday felt like overkill?',
-    a: 'Yes. Workday is built for large enterprises. iSolved is purpose-built for companies with 50 to 500 employees, so you get the capability you need without paying for and managing enterprise complexity you do not.',
+    q: 'Is isolved a fit if Workday felt like overkill?',
+    a: 'Yes. Workday is built for large enterprises. The isolved platform is purpose-built for companies with 50 to 500 employees, so you get the capability you need without paying for and managing enterprise complexity you do not.',
   },
   {
     q: 'How long does implementation take compared to Workday?',
-    a: 'Enterprise Workday rollouts can run for many months. A mid-market iSolved implementation managed by BEG is typically far shorter, often 60 to 90 days, because the scope fits your size.',
+    a: 'Enterprise Workday rollouts can run for many months. A mid-market isolved implementation managed by BEG is typically far shorter, often 60 to 90 days, because the scope fits your size.',
   },
 ];
 
@@ -77,7 +77,7 @@ export default function AlternativesToWorkdayPage() {
             Workday is the enterprise leader and a genuinely powerful system. For companies with 50 to 500 employees, it is often very expensive, slow to implement, and more than you need. Here is the honest comparison.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            See iSolved vs. Workday for Free
+            See isolved vs. Workday for Free
           </Link>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function AlternativesToWorkdayPage() {
               { title: 'Enterprise pricing', desc: 'Workday is priced for large enterprises, which makes it a heavy investment for companies under 500 employees.' },
               { title: 'Slow, complex implementation', desc: 'Rollouts can stretch across many months and require significant internal resources and consultants.' },
               { title: 'Overkill for the mid-market', desc: 'The breadth of configuration is powerful for enterprises but more than most mid-market teams need or can maintain.' },
-              { title: 'No AI that completes real tasks', desc: 'Workday has AI features, but none complete actual HR tasks the way the iSolved Connector for Claude does.' },
+              { title: 'No AI that completes real tasks', desc: 'Workday has AI features, but none complete actual HR tasks the way the isolved Connector for Claude does.' },
             ].map(({ title, desc }, i) => (
               <div key={i} style={{ background: '#f9f9f9', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #ECAC60' }}>
                 <strong style={{ display: 'block', marginBottom: '0.35rem' }}>{title}</strong>
@@ -108,13 +108,13 @@ export default function AlternativesToWorkdayPage() {
       {/* Comparison table */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>iSolved vs Workday: Head-to-Head</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>isolved vs Workday: Head-to-Head</h2>
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
               <thead>
                 <tr style={{ background: '#000000', color: '#ffffff' }}>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'left' }}>Category</th>
-                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>iSolved via BEG</th>
+                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>isolved via BEG</th>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'center' }}>Workday</th>
                 </tr>
               </thead>
@@ -143,18 +143,18 @@ export default function AlternativesToWorkdayPage() {
         </div>
       </section>
 
-      {/* Why iSolved + BEG */}
+      {/* Why isolved + BEG */}
       <section style={{ background: '#000000', color: '#ffffff', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why iSolved + BEG Is the Right Move</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why isolved + BEG Is the Right Move</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is a single connected platform purpose-built for companies with 50 to 500 employees. Payroll, benefits, time, and talent live together, so you get real capability without the cost and complexity of an enterprise suite designed for organizations many times your size.
+            isolved is a single connected platform purpose-built for companies with 50 to 500 employees. Payroll, benefits, time, and talent live together, so you get real capability without the cost and complexity of an enterprise suite designed for organizations many times your size.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
             BEG implements, configures, supports, and migrates for you. Instead of a multi-month enterprise rollout, you get a right-sized implementation and a dedicated contact who knows your setup. When something changes, you call BEG, not a general queue.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            And only iSolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
+            And only isolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
           </p>
         </div>
       </section>
@@ -184,7 +184,7 @@ export default function AlternativesToWorkdayPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Ready to See iSolved vs. Workday?
+            Ready to See isolved vs. Workday?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will run a side-by-side comparison and show you what a right-sized switch looks like for your company, with no commitment required.
@@ -200,7 +200,7 @@ export default function AlternativesToWorkdayPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best BambooHR Alternative | iSolved + Claude AI | BEG',
-  description: 'Outgrowing BambooHR payroll add-ons and per-employee costs? See the top BambooHR alternatives for 50-500 employees, including iSolved, managed by BEG.',
+  title: 'Best BambooHR Alternative | isolved + Claude AI | BEG',
+  description: 'Outgrowing BambooHR payroll add-ons and per-employee costs? See the top BambooHR alternatives for 50-500 employees, including isolved, managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-bamboohr' },
   openGraph: {
-    title: 'Best BambooHR Alternative | iSolved + Claude AI | BEG',
-    description: 'Outgrowing BambooHR payroll add-ons and per-employee costs? See the top BambooHR alternatives for 50-500 employees, including iSolved, managed by BEG.',
+    title: 'Best BambooHR Alternative | isolved + Claude AI | BEG',
+    description: 'Outgrowing BambooHR payroll add-ons and per-employee costs? See the top BambooHR alternatives for 50-500 employees, including isolved, managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-bamboohr',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best BambooHR Alternative | iSolved + Claude AI | BEG', description: 'Outgrowing BambooHR payroll add-ons and per-employee costs? See the top BambooHR alternatives for 50-500 employees, including iSolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best BambooHR Alternative | isolved + Claude AI | BEG', description: 'Outgrowing BambooHR payroll add-ons and per-employee costs? See the top BambooHR alternatives for 50-500 employees, including isolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,7 +23,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'How hard is it to switch from BambooHR to iSolved?',
+    q: 'How hard is it to switch from BambooHR to isolved?',
     a: 'Less painful than you think. BEG manages the full transition: data migration, configuration, training, and go-live. Most clients complete the switch in 60 to 90 days with zero payroll interruption.',
   },
   {
@@ -31,8 +31,8 @@ const faqs = [
     a: 'No. BEG migrates your employee records, payroll history, and benefits information as part of implementation. Your data is preserved.',
   },
   {
-    q: 'Is iSolved payroll deeper than the BambooHR payroll add-on?',
-    a: 'iSolved is built as a single connected platform where payroll, HR, time, and benefits work together natively. For multi-state payroll and more complex needs, that depth tends to fit better than a payroll add-on layered onto an HR product.',
+    q: 'Is isolved payroll deeper than the BambooHR payroll add-on?',
+    a: 'isolved is built as a single connected platform where payroll, HR, time, and benefits work together natively. For multi-state payroll and more complex needs, that depth tends to fit better than a payroll add-on layered onto an HR product.',
   },
   {
     q: 'What if my current BambooHR contract is not up yet?',
@@ -77,7 +77,7 @@ export default function AlternativesToBambooHRPage() {
             BambooHR is loved for its people-first design and great user experience. But payroll is an add-on rather than a core strength, and as headcount climbs the per-employee cost adds up. Here is the honest comparison.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            See iSolved vs. BambooHR for Free
+            See isolved vs. BambooHR for Free
           </Link>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function AlternativesToBambooHRPage() {
               { title: 'Payroll is an add-on, not a core strength', desc: 'BambooHR began as an HR product. Payroll is layered on and tends to be less deep than a platform built around it.' },
               { title: 'Costs escalate per employee', desc: 'As headcount grows, the per-employee model can climb faster than companies expect.' },
               { title: 'Complex needs strain a lightweight tool', desc: 'Multi-state payroll, deeper benefits, and richer time tracking can outpace a people-first design.' },
-              { title: 'No AI that completes real tasks', desc: 'BambooHR has helpful features, but none complete actual HR tasks the way the iSolved Connector for Claude does.' },
+              { title: 'No AI that completes real tasks', desc: 'BambooHR has helpful features, but none complete actual HR tasks the way the isolved Connector for Claude does.' },
             ].map(({ title, desc }, i) => (
               <div key={i} style={{ background: '#f9f9f9', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #ECAC60' }}>
                 <strong style={{ display: 'block', marginBottom: '0.35rem' }}>{title}</strong>
@@ -108,13 +108,13 @@ export default function AlternativesToBambooHRPage() {
       {/* Comparison table */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>iSolved vs BambooHR: Head-to-Head</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>isolved vs BambooHR: Head-to-Head</h2>
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
               <thead>
                 <tr style={{ background: '#000000', color: '#ffffff' }}>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'left' }}>Category</th>
-                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>iSolved via BEG</th>
+                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>isolved via BEG</th>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'center' }}>BambooHR</th>
                 </tr>
               </thead>
@@ -143,18 +143,18 @@ export default function AlternativesToBambooHRPage() {
         </div>
       </section>
 
-      {/* Why iSolved + BEG */}
+      {/* Why isolved + BEG */}
       <section style={{ background: '#000000', color: '#ffffff', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why iSolved + BEG Is the Right Move</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why isolved + BEG Is the Right Move</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is a single connected platform where payroll is a core capability, not a bolt-on. Payroll, benefits, time, and talent live together, so your data stays consistent as you scale into multi-state and more complex needs. It is built for the mid-market.
+            isolved is a single connected platform where payroll is a core capability, not a bolt-on. Payroll, benefits, time, and talent live together, so your data stays consistent as you scale into multi-state and more complex needs. It is built for the mid-market.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
             BEG implements, configures, supports, and migrates for you. You are not left to run the platform alone. When something changes, you call BEG, not a general queue. You keep the clean experience you liked about BambooHR while gaining real payroll depth.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            And only iSolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
+            And only isolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
           </p>
         </div>
       </section>
@@ -184,7 +184,7 @@ export default function AlternativesToBambooHRPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Ready to See iSolved vs. BambooHR?
+            Ready to See isolved vs. BambooHR?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will run a side-by-side comparison and show you what the switch looks like for your company, with no commitment required.
@@ -200,7 +200,7 @@ export default function AlternativesToBambooHRPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

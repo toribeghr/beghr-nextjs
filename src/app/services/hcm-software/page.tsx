@@ -6,20 +6,20 @@ import { getCalendlyLink } from '@/lib/services';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
-  description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
+  title: 'isolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
+  description: 'BEG is an authorized isolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
   alternates: {
     canonical: 'https://www.beghr.com/services/hcm-software',
   },
   openGraph: {
-    title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
-    description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
+    title: 'isolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
+    description: 'BEG is an authorized isolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
     url: 'https://www.beghr.com/services/hcm-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG', description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM | Only Platform With Claude AI. 330% ROI. | BEG', description: 'BEG is an authorized isolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -30,13 +30,13 @@ export default function HCMSoftwarePage() {
     <ServicePage
       imageSrc="/assets/hero-images/hcm-software.webp"
       showHeroImage={true}
-      eyebrow="HCM Software · Authorized iSolved Partner"
+      eyebrow="HCM Software · Authorized isolved Partner"
       title="You bought HR software to make life easier. Why is it creating more work?"
-      description="Most HR platforms require constant manual intervention, expensive add-on modules, and a support ticket every time something breaks. iSolved People Cloud puts payroll, HR, time, and benefits on one platform. BEG implements it, configures it for your industry, and supports you year-round."
+      description="Most HR platforms require constant manual intervention, expensive add-on modules, and a support ticket every time something breaks. isolved People Cloud puts payroll, HR, time, and benefits on one platform. BEG implements it, configures it for your industry, and supports you year-round."
       calendlyLink={CALENDLY}
       heroStats={[
         { value: '330%', label: 'ROI documented by Forrester' },
-        { value: '7M+', label: 'Employees on iSolved' },
+        { value: '7M+', label: 'Employees on isolved' },
         { value: 'BEG', label: 'Implements and supports' },
       ]}
     >
@@ -57,12 +57,12 @@ export default function HCMSoftwarePage() {
               },
               {
                 stat: '330%',
-                label: 'Average ROI documented by Forrester for iSolved clients',
+                label: 'Average ROI documented by Forrester for isolved clients',
                 sub: 'One connected platform eliminates data transfer errors, reduces HR admin time, and makes compliance trackable. The ROI compounds from the first quarter.',
               },
               {
                 stat: 'June 2026',
-                label: 'iSolved Connector for Claude went generally available',
+                label: 'isolved Connector for Claude went generally available',
                 sub: 'The only HCM platform with a live Claude AI integration. Your team can complete HR tasks through a Claude conversation. No competitor offers this yet.',
               },
             ].map(({ stat, label, sub }) => (
@@ -81,9 +81,9 @@ export default function HCMSoftwarePage() {
         <div className="container" style={{ maxWidth: '980px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Platform Coverage</p>
-            <h2>What iSolved People Cloud includes</h2>
+            <h2>What isolved People Cloud includes</h2>
             <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '660px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
-              iSolved is a single connected platform. No separate modules to purchase for core HR functions. Everything below is included and configured by BEG for your specific industry and workforce structure.
+              isolved is a single connected platform. No separate modules to purchase for core HR functions. Everything below is included and configured by BEG for your specific industry and workforce structure.
             </p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.25rem', marginTop: '2.5rem' }}>
@@ -146,7 +146,7 @@ export default function HCMSoftwarePage() {
               {
                 heading: 'AI and Automation',
                 items: [
-                  'iSolved Connector for Claude (GA June 2026)',
+                  'isolved Connector for Claude (GA June 2026)',
                   'Complete HR tasks via Claude AI',
                   'Automated compliance alerts',
                   'Predictive workforce analytics',
@@ -188,12 +188,12 @@ export default function HCMSoftwarePage() {
               {
                 num: '02',
                 title: 'BEG-managed implementation',
-                body: 'We configure iSolved for your specific structure: compensation, benefits, time, and compliance workflows. Data migration, testing, and training are all managed by BEG. You do not hire an implementation firm.',
+                body: 'We configure isolved for your specific structure: compensation, benefits, time, and compliance workflows. Data migration, testing, and training are all managed by BEG. You do not hire an implementation firm.',
               },
               {
                 num: '03',
                 title: 'Ongoing BEG support',
-                body: 'Your BEG contact manages your iSolved platform year-round. Compliance changes, new locations, configuration updates. One contact, no ticket queue, no re-explaining your setup every time.',
+                body: 'Your BEG contact manages your isolved platform year-round. Compliance changes, new locations, configuration updates. One contact, no ticket queue, no re-explaining your setup every time.',
               },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -219,19 +219,19 @@ export default function HCMSoftwarePage() {
                 badge: 'Bonus 01',
                 title: 'BEG implementation included. No separate professional services bill.',
                 objection: 'Common objection: "HCM implementations are expensive and take forever."',
-                body: 'BEG manages your full iSolved implementation as part of the relationship. Configuration, data migration, training, and go-live are handled by BEG. You are not paying a separate professional services team $30,000-$60,000 to stand up the system. Implementation is what we do, and it is included.',
+                body: 'BEG manages your full isolved implementation as part of the relationship. Configuration, data migration, training, and go-live are handled by BEG. You are not paying a separate professional services team $30,000-$60,000 to stand up the system. Implementation is what we do, and it is included.',
               },
               {
                 badge: 'Bonus 02',
-                title: 'iSolved Connector for Claude. HR tasks through AI.',
+                title: 'isolved Connector for Claude. HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'Most HCM AI chatbots answer questions. The iSolved Connector for Claude completes actual tasks. Your team can run payroll, pull headcount reports, update employee records, and manage workflows through a Claude AI conversation. No competitor offers this. It is generally available in the Claude directory today, not a roadmap item.',
+                body: 'Most HCM AI chatbots answer questions. The isolved Connector for Claude completes actual tasks. Your team can run payroll, pull headcount reports, update employee records, and manage workflows through a Claude AI conversation. No competitor offers this. It is generally available in the Claude directory today, not a roadmap item.',
               },
               {
                 badge: 'Bonus 03',
                 title: 'One BEG contact. Not a support ticket queue.',
                 objection: 'Common objection: "Our last vendor disappeared after we signed."',
-                body: 'Your BEG contact manages your iSolved platform year-round. When compliance requirements change, when you add a new location, when you need a new workflow configured, you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact, who knows your setup.',
+                body: 'Your BEG contact manages your isolved platform year-round. When compliance requirements change, when you add a new location, when you need a new workflow configured, you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact, who knows your setup.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -253,7 +253,7 @@ export default function HCMSoftwarePage() {
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
-            <p className="eyebrow">iSolved Connector for Claude</p>
+            <p className="eyebrow">isolved Connector for Claude</p>
             <h2>The only HCM platform that does not just answer HR questions. It does the work.</h2>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '2rem', marginTop: '2.5rem' }} className="reveal">
@@ -264,9 +264,9 @@ export default function HCMSoftwarePage() {
               </p>
             </div>
             <div>
-              <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.75rem', color: '#000000' }}>What iSolved Connector for Claude does</h3>
+              <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.75rem', color: '#000000' }}>What isolved Connector for Claude does</h3>
               <p style={{ fontSize: '0.95rem', color: '#444444', lineHeight: '1.7' }}>
-                The iSolved Connector for Claude completes actual HR tasks through a Claude AI conversation. Your team types what they need. iSolved does it. Run payroll, pull a headcount report, update an employee record, manage an open enrollment. No separate login required for the task.
+                The isolved Connector for Claude completes actual HR tasks through a Claude AI conversation. Your team types what they need. The platform does it. Run payroll, pull a headcount report, update an employee record, manage an open enrollment. No separate login required for the task.
               </p>
             </div>
           </div>
@@ -291,7 +291,7 @@ export default function HCMSoftwarePage() {
             </div>
           </div>
           <p style={{ marginTop: '1.5rem', fontSize: '0.93rem', color: '#555555', lineHeight: '1.7', textAlign: 'center' }} className="reveal">
-            The iSolved Connector for Claude went generally available in June 2026 and is live in the Claude directory today. No competitor, including Paycom, Paylocity, UKG, or ADP, has an equivalent integration. BEG clients on iSolved have access immediately after implementation.
+            The isolved Connector for Claude went generally available in June 2026 and is live in the Claude directory today. No competitor, including Paycom, Paylocity, UKG, or ADP, has an equivalent integration. BEG clients on isolved have access immediately after implementation.
           </p>
         </div>
       </section>
@@ -306,7 +306,7 @@ export default function HCMSoftwarePage() {
                 The best time to switch is before your current contract auto-renews.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                Most HCM contracts auto-renew 60-90 days before expiration. Miss that window and you are locked in for another year or paying for two platforms during a transition. BEG will time your iSolved implementation to align with your current renewal date so you switch cleanly and pay for one system at a time.
+                Most HCM contracts auto-renew 60-90 days before expiration. Miss that window and you are locked in for another year or paying for two platforms during a transition. BEG will time your isolved implementation to align with your current renewal date so you switch cleanly and pay for one system at a time.
               </p>
             </div>
             <div>
@@ -315,7 +315,7 @@ export default function HCMSoftwarePage() {
                 The only HCM platform with a live Claude AI integration.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                iSolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation around it now will compound that advantage as AI becomes standard across every function.
+                isolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation around it now will compound that advantage as AI becomes standard across every function.
               </p>
             </div>
           </div>
@@ -439,40 +439,40 @@ export default function HCMSoftwarePage() {
         <div className="container">
           <div className="head center reveal">
             <p className="eyebrow">Platform Comparisons</p>
-            <h2>See how iSolved stacks up against your current platform</h2>
+            <h2>See how isolved stacks up against your current platform</h2>
           </div>
           <div className="cards">
             <Link href="/services/hcm-software/isolved-vs-paylocity" className="card-link reveal">
-              <h3>iSolved vs Paylocity</h3>
+              <h3>isolved vs Paylocity</h3>
               <p>Side-by-side comparison on features, pricing, AI capabilities, and mid-market fit.</p>
             </Link>
             <Link href="/services/hcm-software/isolved-vs-paycom" className="card-link reveal">
-              <h3>iSolved vs Paycom</h3>
-              <p>How iSolved compares to Paycom on implementation, support, and the Claude AI integration.</p>
+              <h3>isolved vs Paycom</h3>
+              <p>How isolved compares to Paycom on implementation, support, and the Claude AI integration.</p>
             </Link>
             <Link href="/services/hcm-software/alternatives-to-adp" className="card-link reveal">
               <h3>Alternatives to ADP</h3>
-              <p>Why mid-market companies switch from ADP and what the iSolved transition looks like.</p>
+              <p>Why mid-market companies switch from ADP and what the isolved transition looks like.</p>
             </Link>
             <Link href="/services/hcm-software/isolved-vs-gusto" className="card-link reveal">
-              <h3>iSolved vs Gusto</h3>
+              <h3>isolved vs Gusto</h3>
               <p>Full managed platform versus small-business software, compared head to head.</p>
             </Link>
             <Link href="/services/hcm-software/isolved-vs-rippling" className="card-link reveal">
-              <h3>iSolved vs Rippling</h3>
+              <h3>isolved vs Rippling</h3>
               <p>One connected HR platform versus a complex IT-first toolset.</p>
             </Link>
             <Link href="/services/hcm-software/isolved-vs-paychex" className="card-link reveal">
-              <h3>iSolved vs Paychex</h3>
+              <h3>isolved vs Paychex</h3>
               <p>Modern single platform and local support versus a legacy provider.</p>
             </Link>
             <Link href="/services/hcm-software/isolved-vs-bamboohr" className="card-link reveal">
-              <h3>iSolved vs BambooHR</h3>
+              <h3>isolved vs BambooHR</h3>
               <p>Full payroll and HR in one platform versus people-first HR with add-on payroll.</p>
             </Link>
             <Link href="/services/hcm-software/alternatives-to-paychex" className="card-link reveal">
               <h3>Alternatives to Paychex</h3>
-              <p>Why companies leave Paychex and what moving to iSolved looks like.</p>
+              <p>Why companies leave Paychex and what moving to isolved looks like.</p>
             </Link>
             <Link href="/services/hcm-software/alternatives-to-gusto" className="card-link reveal">
               <h3>Alternatives to Gusto</h3>
@@ -484,16 +484,16 @@ export default function HCMSoftwarePage() {
             </Link>
             <Link href="/services/hcm-software/alternatives-to-paylocity" className="card-link reveal">
               <h3>Alternatives to Paylocity</h3>
-              <p>Why mid-market teams consider iSolved over Paylocity.</p>
+              <p>Why mid-market teams consider isolved over Paylocity.</p>
             </Link>
-            <Link href="/services/hcm-software/isolved-vs-ukg" className="card-link reveal"><h3>iSolved vs UKG</h3><p>Mid-market simplicity versus enterprise workforce management.</p></Link>
-            <Link href="/services/hcm-software/isolved-vs-dayforce" className="card-link reveal"><h3>iSolved vs Dayforce</h3><p>Right-sized HCM versus an enterprise single-app suite.</p></Link>
-            <Link href="/services/hcm-software/isolved-vs-workday" className="card-link reveal"><h3>iSolved vs Workday</h3><p>Faster, simpler, and right-sized versus enterprise scale and cost.</p></Link>
-            <Link href="/services/hcm-software/isolved-vs-trinet" className="card-link reveal"><h3>iSolved vs TriNet</h3><p>Own your HR on one platform versus PEO co-employment.</p></Link>
-            <Link href="/services/hcm-software/isolved-vs-justworks" className="card-link reveal"><h3>iSolved vs Justworks</h3><p>A scalable platform versus a small-business PEO.</p></Link>
-            <Link href="/services/hcm-software/isolved-vs-paycor" className="card-link reveal"><h3>iSolved vs Paycor</h3><p>Two mid-market platforms compared on support and AI.</p></Link>
-            <Link href="/services/hcm-software/isolved-vs-deel" className="card-link reveal"><h3>iSolved vs Deel</h3><p>One connected domestic platform versus global EOR.</p></Link>
-            <Link href="/services/hcm-software/isolved-vs-quickbooks-payroll" className="card-link reveal"><h3>iSolved vs QuickBooks Payroll</h3><p>A full HCM platform versus basic payroll on accounting.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-ukg" className="card-link reveal"><h3>isolved vs UKG</h3><p>Mid-market simplicity versus enterprise workforce management.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-dayforce" className="card-link reveal"><h3>isolved vs Dayforce</h3><p>Right-sized HCM versus an enterprise single-app suite.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-workday" className="card-link reveal"><h3>isolved vs Workday</h3><p>Faster, simpler, and right-sized versus enterprise scale and cost.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-trinet" className="card-link reveal"><h3>isolved vs TriNet</h3><p>Own your HR on one platform versus PEO co-employment.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-justworks" className="card-link reveal"><h3>isolved vs Justworks</h3><p>A scalable platform versus a small-business PEO.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-paycor" className="card-link reveal"><h3>isolved vs Paycor</h3><p>Two mid-market platforms compared on support and AI.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-deel" className="card-link reveal"><h3>isolved vs Deel</h3><p>One connected domestic platform versus global EOR.</p></Link>
+            <Link href="/services/hcm-software/isolved-vs-quickbooks-payroll" className="card-link reveal"><h3>isolved vs QuickBooks Payroll</h3><p>A full HCM platform versus basic payroll on accounting.</p></Link>
             <Link href="/services/hcm-software/alternatives-to-paycom" className="card-link reveal"><h3>Alternatives to Paycom</h3><p>A simpler, managed alternative to Paycom.</p></Link>
             <Link href="/services/hcm-software/alternatives-to-bamboohr" className="card-link reveal"><h3>Alternatives to BambooHR</h3><p>When you need real payroll depth, not an add-on.</p></Link>
             <Link href="/services/hcm-software/alternatives-to-workday" className="card-link reveal"><h3>Alternatives to Workday</h3><p>Mid-market power without enterprise cost and complexity.</p></Link>
@@ -506,32 +506,52 @@ export default function HCMSoftwarePage() {
           </div>
           <div className="cards">
             <Link href="/services/hcm-software/switch-from-adp-to-isolved" className="card-link reveal">
-              <h3>Switch from ADP to iSolved</h3>
+              <h3>Switch from ADP to isolved</h3>
               <p>A BEG-managed migration off ADP, with no disruption to your team.</p>
             </Link>
             <Link href="/services/hcm-software/switch-from-paychex-to-isolved" className="card-link reveal">
-              <h3>Switch from Paychex to iSolved</h3>
+              <h3>Switch from Paychex to isolved</h3>
               <p>Move off Paychex onto one connected platform, managed by BEG.</p>
             </Link>
             <Link href="/services/hcm-software/switch-from-gusto-to-isolved" className="card-link reveal">
-              <h3>Switch from Gusto to iSolved</h3>
+              <h3>Switch from Gusto to isolved</h3>
               <p>Outgrowing Gusto? See how BEG handles the full transition.</p>
             </Link>
             <Link href="/services/hcm-software/switch-from-paylocity-to-isolved" className="card-link reveal">
-              <h3>Switch from Paylocity to iSolved</h3>
+              <h3>Switch from Paylocity to isolved</h3>
               <p>Leave implementation and support headaches behind with BEG.</p>
             </Link>
             <Link href="/services/hcm-software/switch-from-rippling-to-isolved" className="card-link reveal">
-              <h3>Switch from Rippling to iSolved</h3>
+              <h3>Switch from Rippling to isolved</h3>
               <p>Trade a complex IT-first toolset for one platform BEG runs for you.</p>
             </Link>
             <Link href="/services/hcm-software/switch-from-paycom-to-isolved" className="card-link reveal">
-              <h3>Switch from Paycom to iSolved</h3>
+              <h3>Switch from Paycom to isolved</h3>
               <p>A BEG-managed move off Paycom, configured for your team.</p>
             </Link>
             <Link href="/services/hcm-software/switch-from-quickbooks-to-isolved" className="card-link reveal">
-              <h3>Switch from QuickBooks to iSolved</h3>
+              <h3>Switch from QuickBooks to isolved</h3>
               <p>Outgrown QuickBooks Payroll? Move up to a full HCM platform.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-paycor-to-isolved" className="card-link reveal">
+              <h3>Switch from Paycor to isolved</h3>
+              <p>Mid-market HCM with BEG managing the move and the platform.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-ukg-to-isolved" className="card-link reveal">
+              <h3>Switch from UKG to isolved</h3>
+              <p>Right-size from enterprise complexity to a platform built for your scale.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-bamboohr-to-isolved" className="card-link reveal">
+              <h3>Switch from BambooHR to isolved</h3>
+              <p>Close the payroll gap and put HR, payroll, and time on one platform.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-workday-to-isolved" className="card-link reveal">
+              <h3>Switch from Workday to isolved</h3>
+              <p>Move from enterprise overhead to a platform sized for mid-market.</p>
+            </Link>
+            <Link href="/services/hcm-software/switch-from-dayforce-to-isolved" className="card-link reveal">
+              <h3>Switch from Dayforce to isolved</h3>
+              <p>BEG manages the full Dayforce migration, from data to go-live.</p>
             </Link>
           </div>
         </div>
@@ -547,8 +567,8 @@ export default function HCMSoftwarePage() {
           <div className="cards">
             <Link href="/services/hcm-software/ai-connector" className="card-link reveal">
               <span className="tag">AI</span>
-              <h3>iSolved Connector for Claude</h3>
-              <p>Chatbots answer questions. iSolved completes the task. See what the only live HCM AI connector does.</p>
+              <h3>isolved Connector for Claude</h3>
+              <p>Chatbots answer questions - isolved completes the task. See what the only live HCM AI connector does.</p>
             </Link>
             <Link href="/services/hcm-software/roi-calculator" className="card-link reveal">
               <span className="tag">Calculator</span>
@@ -601,7 +621,7 @@ export default function HCMSoftwarePage() {
         <div className="container">
           <div className="head center reveal">
             <p className="eyebrow">Best HCM Software by Industry</p>
-            <h2>See why iSolved fits how your industry actually runs HR</h2>
+            <h2>See why isolved fits how your industry actually runs HR</h2>
           </div>
           <div className="cards">
             <Link href="/services/hcm-software/best-hcm-software-for-manufacturing" className="card-link reveal"><h3>Manufacturing</h3><p>Shifts, differentials, and labor cost by line.</p></Link>
@@ -632,14 +652,14 @@ export default function HCMSoftwarePage() {
             <Link href="/services/hcm-software/hcm-software-for-500-employees" className="card-link reveal"><h3>500 employees</h3><p>Platform as infrastructure at scale.</p></Link>
           </div>
           <div className="head center reveal" style={{ marginTop: '3rem' }}>
-            <p className="eyebrow">About iSolved and BEG</p>
+            <p className="eyebrow">About isolved and BEG</p>
             <h2>Reseller, pricing, reviews, demo, and implementation</h2>
           </div>
           <div className="cards">
-            <Link href="/services/hcm-software/isolved-reseller" className="card-link reveal"><h3>iSolved Reseller</h3><p>Why buy iSolved through BEG, an authorized partner.</p></Link>
-            <Link href="/services/hcm-software/isolved-pricing" className="card-link reveal"><h3>iSolved Pricing</h3><p>How pricing works and how BEG scopes your cost.</p></Link>
-            <Link href="/services/hcm-software/isolved-reviews" className="card-link reveal"><h3>iSolved Reviews</h3><p>An honest look at strengths and considerations.</p></Link>
-            <Link href="/services/hcm-software/isolved-demo" className="card-link reveal"><h3>iSolved Demo</h3><p>What to expect in a demo with BEG.</p></Link>
+            <Link href="/services/hcm-software/isolved-reseller" className="card-link reveal"><h3>isolved Reseller</h3><p>Why buy isolved through BEG, an authorized partner.</p></Link>
+            <Link href="/services/hcm-software/isolved-pricing" className="card-link reveal"><h3>isolved Pricing</h3><p>How pricing works and how BEG scopes your cost.</p></Link>
+            <Link href="/services/hcm-software/isolved-reviews" className="card-link reveal"><h3>isolved Reviews</h3><p>An honest look at strengths and considerations.</p></Link>
+            <Link href="/services/hcm-software/isolved-demo" className="card-link reveal"><h3>isolved Demo</h3><p>What to expect in a demo with BEG.</p></Link>
             <Link href="/services/hcm-software/isolved-implementation" className="card-link reveal"><h3>Implementation</h3><p>The BEG-managed setup process, start to finish.</p></Link>
           </div>
         </div>
@@ -650,12 +670,12 @@ export default function HCMSoftwarePage() {
         <div className="container" style={{ maxWidth: '780px' }}>
           <div className="head center reveal">
             <p className="eyebrow">FAQ</p>
-            <h2>Common questions about iSolved and BEG</h2>
+            <h2>Common questions about isolved and BEG</h2>
           </div>
           <div className="faq reveal">
             <div className="faq-item">
-              <h3>What does iSolved include?</h3>
-              <p>Payroll, HR, time and attendance, benefits administration, talent management, and the iSolved Connector for Claude, all in one platform. No separate modules required for the core HR stack. BEG configures every module for your specific industry, workforce structure, and compliance requirements during implementation.</p>
+              <h3>What does isolved include?</h3>
+              <p>Payroll, HR, time and attendance, benefits administration, talent management, and the isolved Connector for Claude, all in one platform. No separate modules required for the core HR stack. BEG configures every module for your specific industry, workforce structure, and compliance requirements during implementation.</p>
             </div>
             <div className="faq-item">
               <h3>Does BEG charge for implementation?</h3>
@@ -666,28 +686,28 @@ export default function HCMSoftwarePage() {
               <p>Most clients are live in 60-90 days. BEG times implementation to your current contract renewal so you are not paying for two systems at once. If you have a hard deadline, tell us on your discovery call and we will build a timeline that hits it.</p>
             </div>
             <div className="faq-item">
-              <h3>What is the iSolved Connector for Claude?</h3>
+              <h3>What is the isolved Connector for Claude?</h3>
               <p>The only live AI integration in any HCM platform that completes actual HR tasks rather than answering questions. Your team can run payroll, pull reports, update employee records, and manage workflows through a Claude AI conversation. It went generally available in June 2026 and is in the Claude directory today. No competitor has an equivalent integration.</p>
             </div>
             <div className="faq-item">
-              <h3>What does iSolved cost?</h3>
+              <h3>What does isolved cost?</h3>
               <p>Priced per employee per month based on your headcount and modules. BEG runs a transparent cost comparison against your current platform on your discovery call before you commit to anything. Most clients see meaningful cost savings compared to managing multiple point solutions, plus the time savings from consolidating onto one platform.</p>
             </div>
             <div className="faq-item">
-              <h3>How does iSolved compare to Paycom or Paylocity?</h3>
-              <p>iSolved competes directly with both in the mid-market. Key differences: iSolved is partner-supported through BEG, meaning you have one contact who knows your account rather than a direct-sales rep who hands you to a support queue after signing. iSolved is the only platform with a live Claude AI connector. And BEG implementation is included at no additional professional services cost. Full comparison pages are linked above.</p>
+              <h3>How does isolved compare to Paycom or Paylocity?</h3>
+              <p>isolved competes directly with both in the mid-market. Key differences: isolved is partner-supported through BEG, meaning you have one contact who knows your account rather than a direct-sales rep who hands you to a support queue after signing. The isolved platform is the only platform with a live Claude AI connector. And BEG implementation is included at no additional professional services cost. Full comparison pages are linked above.</p>
             </div>
             <div className="faq-item">
               <h3>What happens when my current HCM contract is up for renewal?</h3>
-              <p>Most HCM contracts auto-renew 60-90 days before the expiration date. If you miss that window, you are locked in for another year. BEG maps your current contract timeline on your discovery call and times the iSolved implementation so the switch is clean. You pay for one system at a time.</p>
+              <p>Most HCM contracts auto-renew 60-90 days before the expiration date. If you miss that window, you are locked in for another year. BEG maps your current contract timeline on your discovery call and times the isolved implementation so the switch is clean. You pay for one system at a time.</p>
             </div>
             <div className="faq-item">
               <h3>Does BEG own my HR data?</h3>
-              <p>No. Your employee and payroll data belongs to your organization. BEG manages the platform on your behalf but you retain full ownership and export rights to all your data at any time. If you ever leave iSolved, a complete data export is available.</p>
+              <p>No. Your employee and payroll data belongs to your organization. BEG manages the platform on your behalf but you retain full ownership and export rights to all your data at any time. If you ever leave isolved, a complete data export is available.</p>
             </div>
             <div className="faq-item">
-              <h3>Does iSolved handle ACA compliance?</h3>
-              <p>Yes. iSolved includes ACA tracking, reporting, and 1094/1095 filing as part of the core platform. It tracks employee hours for ACA eligibility, manages affordability calculations, generates the required forms, and submits them electronically to the IRS. BEG configures the ACA module during implementation and manages annual filing as part of ongoing support.</p>
+              <h3>Does isolved handle ACA compliance?</h3>
+              <p>Yes. The isolved platform includes ACA tracking, reporting, and 1094/1095 filing as part of the core platform. It tracks employee hours for ACA eligibility, manages affordability calculations, generates the required forms, and submits them electronically to the IRS. BEG configures the ACA module during implementation and manages annual filing as part of ongoing support.</p>
             </div>
           </div>
         </div>
@@ -698,14 +718,14 @@ export default function HCMSoftwarePage() {
         posts={[
           {
             category: 'HCM software',
-            title: 'HR Automation in 2025: What iSolved Actually Automates',
+            title: 'HR Automation in 2025: What isolved Actually Automates',
             excerpt: 'Most HR platforms promise automation but deliver report generation. Here is what genuine automation looks like and which tasks it eliminates.',
             href: '/blog/hcm-software/hr-automation',
           },
           {
             category: 'HCM software',
-            title: 'iSolved Platform Overview: Features, Pricing, and Who It Is For',
-            excerpt: 'A no-fluff breakdown of what iSolved covers, who it fits best, and how it compares to the platforms most mid-size companies are already running.',
+            title: 'isolved Platform Overview: Features, Pricing, and Who It Is For',
+            excerpt: 'A no-fluff breakdown of what isolved covers, who it fits best, and how it compares to the platforms most mid-size companies are already running.',
             href: '/blog/hcm-software/isolved-platform',
           },
           {
@@ -726,8 +746,8 @@ export default function HCMSoftwarePage() {
             mainEntity: [
               {
                 '@type': 'Question',
-                name: 'What does iSolved include?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Payroll, HR, time and attendance, benefits administration, talent management, and the iSolved Connector for Claude in one platform. BEG configures every module for your industry and structure.' },
+                name: 'What does isolved include?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Payroll, HR, time and attendance, benefits administration, talent management, and the isolved Connector for Claude in one platform. BEG configures every module for your industry and structure.' },
               },
               {
                 '@type': 'Question',
@@ -736,7 +756,7 @@ export default function HCMSoftwarePage() {
               },
               {
                 '@type': 'Question',
-                name: 'What is the iSolved Connector for Claude?',
+                name: 'What is the isolved Connector for Claude?',
                 acceptedAnswer: { '@type': 'Answer', text: 'The only live AI integration in any HCM platform that completes actual HR tasks through Claude AI. Generally available June 2026. No competitor has an equivalent.' },
               },
               {
@@ -746,8 +766,8 @@ export default function HCMSoftwarePage() {
               },
               {
                 '@type': 'Question',
-                name: 'How does iSolved compare to Paycom or Paylocity?',
-                acceptedAnswer: { '@type': 'Answer', text: 'iSolved is partner-supported through BEG (one contact, not a support queue), is the only platform with a live Claude AI connector, and includes BEG implementation at no additional professional services cost.' },
+                name: 'How does isolved compare to Paycom or Paylocity?',
+                acceptedAnswer: { '@type': 'Answer', text: 'isolved is partner-supported through BEG (one contact, not a support queue), is the only platform with a live Claude AI connector, and includes BEG implementation at no additional professional services cost.' },
               },
               {
                 '@type': 'Question',
@@ -761,8 +781,8 @@ export default function HCMSoftwarePage() {
               },
               {
                 '@type': 'Question',
-                name: 'Does iSolved handle ACA compliance?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Yes. iSolved includes ACA tracking, 1094/1095 filing, affordability calculations, and electronic IRS submission. BEG configures and manages annual ACA filing as part of ongoing support.' },
+                name: 'Does isolved handle ACA compliance?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Yes. The isolved platform includes ACA tracking, 1094/1095 filing, affordability calculations, and electronic IRS submission. BEG configures and manages annual ACA filing as part of ongoing support.' },
               },
             ],
           }),
@@ -775,8 +795,8 @@ export default function HCMSoftwarePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'ProfessionalService',
-            name: 'iSolved HCM Software',
-            description: 'BEG is an authorized iSolved reseller and implementation partner. iSolved People Cloud with BEG implementation included. Payroll, HR, time, benefits, and the iSolved Connector for Claude. 330% documented ROI.',
+            name: 'isolved HCM Software',
+            description: 'BEG is an authorized isolved reseller and implementation partner. isolved People Cloud with BEG implementation included. Payroll, HR, time, benefits, and the isolved Connector for Claude. 330% documented ROI.',
             url: 'https://www.beghr.com/services/hcm-software',
             provider: {
               '@type': 'Organization',

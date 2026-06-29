@@ -4,34 +4,34 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved Implementation by BEG | BEG',
-  description: 'How BEG manages iSolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.',
+  title: 'isolved Implementation by BEG | BEG',
+  description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-implementation' },
   openGraph: {
-    title: 'iSolved Implementation by BEG | BEG',
-    description: 'How BEG manages iSolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.',
+    title: 'isolved Implementation by BEG | BEG',
+    description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-implementation',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved Implementation by BEG | BEG', description: 'How BEG manages iSolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Implementation by BEG | BEG', description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'Who runs the iSolved implementation, my team or BEG?',
+    q: 'Who runs the isolved implementation, my team or BEG?',
     a: 'BEG runs it. BEG implements, configures, migrates, and supports the platform, while your team guides decisions and reviews the work. You are never left to stand up a complex platform on your own.',
   },
   {
-    q: 'How long does an iSolved implementation take?',
+    q: 'How long does an isolved implementation take?',
     a: 'Timelines depend on the modules you adopt, your headcount, and the state of your current data. Rather than quote a generic number, BEG scopes a realistic plan up front so you know what to expect for your specific situation.',
   },
   {
     q: 'What happens to my existing payroll and employee data?',
-    a: 'BEG migrates your payroll history, employee records, and benefits data as part of implementation. The migration is structured and validated so you start on iSolved with accurate, complete information.',
+    a: 'BEG migrates your payroll history, employee records, and benefits data as part of implementation. The migration is structured and validated so you start on isolved with accurate, complete information.',
   },
   {
     q: 'Will the platform reflect our specific policies?',
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: 'Is the AI part of implementation?',
-    a: 'Yes. iSolved includes the Connector for Claude, generally available in June 2026, which completes real HR tasks through conversation. BEG helps you put it to work as part of getting you fully up and running.',
+    a: 'Yes. The isolved platform includes the Connector for Claude, generally available in June 2026, which completes real HR tasks through conversation. BEG helps you put it to work as part of getting you fully up and running.',
   },
 ];
 
@@ -63,11 +63,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved Implementation', item: 'https://www.beghr.com/services/hcm-software/isolved-implementation' },
+    { '@type': 'ListItem', position: 3, name: 'isolved Implementation', item: 'https://www.beghr.com/services/hcm-software/isolved-implementation' },
   ],
 };
 
-export default function iSolvedImplementationPage() {
+export default function isolvedImplementationPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -78,10 +78,10 @@ export default function iSolvedImplementationPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Implementation</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            iSolved Implementation, Managed by BEG
+            isolved Implementation, Managed by BEG
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            The platform is only as good as the setup behind it. BEG manages your iSolved implementation end to end, from discovery and configuration through data migration and go-live, so the system works the way your business does.
+            The platform is only as good as the setup behind it. BEG manages your isolved implementation end to end, from discovery and configuration through data migration and go-live, so the system works the way your business does.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -97,7 +97,7 @@ export default function iSolvedImplementationPage() {
             The difference between an HCM platform that transforms your operations and one that frustrates your team is almost always the implementation. A capable system configured carelessly creates more work, not less. That is why BEG treats implementation as the heart of the engagement rather than an afterthought to a software sale.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With BEG, you do not buy a login and a stack of documentation. You get a partner who owns the work of standing up iSolved correctly. Your team stays in the driver seat on decisions, while BEG carries the technical load of turning a powerful platform into a system tailored to your business.
+            With BEG, you do not buy a login and a stack of documentation. You get a partner who owns the work of standing up isolved correctly. Your team stays in the driver seat on decisions, while BEG carries the technical load of turning a powerful platform into a system tailored to your business.
           </p>
         </div>
       </section>
@@ -107,10 +107,10 @@ export default function iSolvedImplementationPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>The BEG Implementation Process</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            Implementation begins with discovery. BEG learns how you run payroll, time, and benefits, what your policies are, and where your current setup falls short. From there, BEG scopes the right modules and configures iSolved to your pay rules, approval flows, PTO policies, and benefits structure, so the platform reflects how you actually operate.
+            Implementation begins with discovery. BEG learns how you run payroll, time, and benefits, what your policies are, and where your current setup falls short. From there, BEG scopes the right modules and configures isolved to your pay rules, approval flows, PTO policies, and benefits structure, so the platform reflects how you actually operate.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Next comes data migration. BEG moves your payroll history, employee records, and benefits data into iSolved with validation along the way, so you start on accurate, complete information. Before go-live, the configuration is tested against real scenarios. Then BEG manages the transition itself, so your first payroll on the new platform runs smoothly rather than anxiously.
+            Next comes data migration. BEG moves your payroll history, employee records, and benefits data into isolved with validation along the way, so you start on accurate, complete information. Before go-live, the configuration is tested against real scenarios. Then BEG manages the transition itself, so your first payroll on the new platform runs smoothly rather than anxiously.
           </p>
         </div>
       </section>
@@ -136,7 +136,7 @@ export default function iSolvedImplementationPage() {
             Once you are live, BEG stays on as your support partner. When a tax rule changes, you open a new location, or a question comes up, you reach a team that already knows your configuration instead of a queue with no context. That continuity keeps the platform healthy as your business evolves.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Implementation also sets you up to use the Connector for Claude, generally available in June 2026, the only AI of its kind in HCM, which completes real HR tasks through conversation. With more than 7 million employees managed on iSolved and a Forrester-documented 330% ROI, a well-run BEG implementation is how you reach that value.
+            Implementation also sets you up to use the Connector for Claude, generally available in June 2026, the only AI of its kind in HCM, which completes real HR tasks through conversation. With more than 7 million employees managed on isolved and a Forrester-documented 330% ROI, a well-run BEG implementation is how you reach that value.
           </p>
         </div>
       </section>
@@ -166,7 +166,7 @@ export default function iSolvedImplementationPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Plan a Smooth iSolved Implementation
+            Plan a Smooth isolved Implementation
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15-minute call. We will scope your modules, outline the implementation plan, and show you how BEG manages the move from start to finish.
@@ -182,7 +182,7 @@ export default function iSolvedImplementationPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

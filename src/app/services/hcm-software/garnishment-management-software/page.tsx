@@ -4,17 +4,17 @@ import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
   title: 'Garnishment Management Software | BEG',
-  description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. iSolved on one connected platform, supported by BEG.',
+  description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. isolved on one connected platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/garnishment-management-software' },
   openGraph: {
     title: 'Garnishment Management Software | BEG',
-    description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. iSolved on one connected platform, supported by BEG.',
+    description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. isolved on one connected platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/garnishment-management-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Garnishment Management Software | BEG', description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. iSolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Garnishment Management Software | BEG', description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,16 +25,16 @@ const faqs = [
     a: 'Garnishment management software handles wage garnishment orders from setup through deduction and remittance. It calculates the correct withholding under federal and state limits, applies it each pay period, and helps send payments to the right agency on time.',
   },
   {
-    q: 'How does iSolved calculate garnishment amounts?',
-    a: 'iSolved applies the garnishment rules and limits tied to each order, including disposable earnings calculations and priority when multiple orders exist. Because it runs inside payroll, the deduction is calculated against actual pay every cycle rather than estimated by hand.',
+    q: 'How does isolved calculate garnishment amounts?',
+    a: 'isolved applies the garnishment rules and limits tied to each order, including disposable earnings calculations and priority when multiple orders exist. Because it runs inside payroll, the deduction is calculated against actual pay every cycle rather than estimated by hand.',
   },
   {
-    q: 'Can iSolved handle remittance to agencies?',
-    a: 'Yes. iSolved supports the withholding and remittance side of garnishments so the money deducted is directed toward the correct court or agency. Keeping deduction and remittance in one payroll system reduces the chance of a missed or late payment.',
+    q: 'Can isolved handle remittance to agencies?',
+    a: 'Yes. The isolved platform supports the withholding and remittance side of garnishments so the money deducted is directed toward the correct court or agency. Keeping deduction and remittance in one payroll system reduces the chance of a missed or late payment.',
   },
   {
     q: 'How does it stay compliant across states?',
-    a: 'Garnishment limits and priority rules vary by type and state, and iSolved applies the appropriate rules to each order. BEG configures your orders correctly during setup, so withholding stays within legal limits and follows the right priority.',
+    a: 'Garnishment limits and priority rules vary by type and state, and isolved applies the appropriate rules to each order. BEG configures your orders correctly during setup, so withholding stays within legal limits and follows the right priority.',
   },
   {
     q: 'Why use BEG to implement garnishment management?',
@@ -81,7 +81,7 @@ export default function GarnishmentManagementSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Garnishment Management</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>Garnishment Management Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Garnishment orders, calculations, remittance, and compliance belong inside payroll, not in a side spreadsheet. Here is what to look for and how iSolved plus BEG handles it.
+            Garnishment orders, calculations, remittance, and compliance belong inside payroll, not in a side spreadsheet. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function GarnishmentManagementSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good garnishment management software calculates the correct withholding within legal limits, applies it every pay period, directs remittance to the right agency, and keeps you compliant. iSolved does all of this inside payroll on one connected platform, and BEG sets up each order correctly and supports you as new ones arrive.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good garnishment management software calculates the correct withholding within legal limits, applies it every pay period, directs remittance to the right agency, and keeps you compliant. The isolved platform handles all of this inside payroll on one connected platform, and BEG sets up each order correctly and supports you as new ones arrive.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is garnishment management software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function GarnishmentManagementSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles garnishments as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles garnishments as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved handles garnishments inside the same platform that runs your payroll, so deductions come straight off actual pay. It applies the rules and limits tied to each order, including disposable earnings calculations and priority when an employee has more than one order, and applies the withholding every pay period rather than relying on someone to remember it.
+            isolved handles garnishments inside the same platform that runs your payroll, so deductions come straight off actual pay. It applies the rules and limits tied to each order, including disposable earnings calculations and priority when an employee has more than one order, and applies the withholding every pay period rather than relying on someone to remember it.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved also supports the remittance side, directing withheld amounts toward the correct court or agency, which keeps deduction and payment in one system. Because more than 7 million employees are managed on iSolved, garnishment handling is proven across the order types, multi-state rules, and priority situations employers of every size encounter.
+            isolved also supports the remittance side, directing withheld amounts toward the correct court or agency, which keeps deduction and payment in one system. Because more than 7 million employees are managed on isolved, garnishment handling is proven across the order types, multi-state rules, and priority situations employers of every size encounter.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Garnishment management is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and your team can check an active order or pull a deduction report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than clicking through screens.
+            Garnishment management is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and your team can check an active order or pull a deduction report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than clicking through screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function GarnishmentManagementSoftwarePage() {
             Garnishment setup is unforgiving. Each order has its own type, limit, priority, and remittance destination, and a setup error becomes a compliance problem on the next pay run. BEG sets up each order correctly inside payroll, configures the limits and priority, and supports you when a new order arrives or an existing one changes.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in garnishments that return shows up where accurate, payroll-connected calculations and remittance reduce legal exposure and the time spent on manual deduction math. When a new order arrives or a balance is satisfied, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in garnishments that return shows up where accurate, payroll-connected calculations and remittance reduce legal exposure and the time spent on manual deduction math. When a new order arrives or a balance is satisfied, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function GarnishmentManagementSoftwarePage() {
             No single setup fits every employer, and an honest answer should say so. An employer who has never received a garnishment order may not feel the need today. But because even one mishandled order carries real liability, many employers want the calculation and remittance automated as soon as orders are a possibility at all.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how often you receive orders, whether you operate across multiple states with different rules, and how comfortable you are calculating disposable earnings and priority by hand. iSolved is a strong fit when accuracy and compliance matter and you want garnishments handled inside payroll with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are how often you receive orders, whether you operate across multiple states with different rules, and how comfortable you are calculating disposable earnings and priority by hand. The isolved platform is a strong fit when accuracy and compliance matter and you want garnishments handled inside payroll with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function GarnishmentManagementSoftwarePage() {
       <FinalPaycheckCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See garnishment management in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See garnishment management in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through how you handle orders today, look at your remittance process, and show you what iSolved plus BEG looks like for your team.
+            15-minute call. We will walk through how you handle orders today, look at your remittance process, and show you what isolved plus BEG looks like for your team.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

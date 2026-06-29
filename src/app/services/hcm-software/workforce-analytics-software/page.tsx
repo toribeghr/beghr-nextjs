@@ -4,17 +4,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Workforce Analytics Software | BEG',
-  description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. iSolved dashboards on one platform, supported by BEG.',
+  description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/workforce-analytics-software' },
   openGraph: {
     title: 'Workforce Analytics Software | BEG',
-    description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. iSolved dashboards on one platform, supported by BEG.',
+    description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/workforce-analytics-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Workforce Analytics Software | BEG', description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. iSolved dashboards on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Workforce Analytics Software | BEG', description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,16 +25,16 @@ const faqs = [
     a: 'Workforce analytics software turns your HR, time, and payroll data into dashboards and reports on headcount, turnover, labor cost, and overtime. It lets leaders see trends and answer staffing and cost questions without exporting data and rebuilding spreadsheets each month.',
   },
   {
-    q: 'What metrics can iSolved report on?',
-    a: 'iSolved reports on headcount, turnover, labor cost, overtime trends, and other measures drawn from your HR, time, and payroll data. Because everything lives on one platform, the numbers come from the same source rather than from separate exports that have to be reconciled.',
+    q: 'What metrics can isolved report on?',
+    a: 'isolved reports on headcount, turnover, labor cost, overtime trends, and other measures drawn from your HR, time, and payroll data. Because everything lives on one platform, the numbers come from the same source rather than from separate exports that have to be reconciled.',
   },
   {
-    q: 'How does iSolved deliver dashboards and reports?',
-    a: 'iSolved provides dashboards and reporting that read directly from your live HR, time, and payroll data. Leaders and managers can view trends and pull reports themselves, so workforce questions get answered in the platform instead of through a custom spreadsheet request.',
+    q: 'How does isolved deliver dashboards and reports?',
+    a: 'isolved provides dashboards and reporting that read directly from your live HR, time, and payroll data. Leaders and managers can view trends and pull reports themselves, so workforce questions get answered in the platform instead of through a custom spreadsheet request.',
   },
   {
     q: 'Why does single-platform data matter for analytics?',
-    a: 'Analytics is only as good as its data. Because iSolved keeps HR, time, and payroll on one connected platform, reports draw from a single source instead of stitched-together exports. That means headcount, turnover, and labor cost numbers actually agree with payroll.',
+    a: 'Analytics is only as good as its data. Because isolved keeps HR, time, and payroll on one connected platform, reports draw from a single source instead of stitched-together exports. That means headcount, turnover, and labor cost numbers actually agree with payroll.',
   },
   {
     q: 'Why use BEG to implement workforce analytics?',
@@ -81,7 +81,7 @@ export default function WorkforceAnalyticsSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Workforce Analytics</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>Workforce Analytics Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Headcount, turnover, labor cost, and overtime trends become clear when reporting reads from one source instead of stitched-together exports. Here is what to look for and how iSolved plus BEG handles it.
+            Headcount, turnover, labor cost, and overtime trends become clear when reporting reads from one source instead of stitched-together exports. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function WorkforceAnalyticsSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good workforce analytics software turns HR, time, and payroll data into dashboards and reports on headcount, turnover, labor cost, and overtime, all drawn from one source. iSolved does this on a single connected platform so the numbers agree with payroll, and BEG configures the reports your leadership actually uses.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good workforce analytics software turns HR, time, and payroll data into dashboards and reports on headcount, turnover, labor cost, and overtime, all drawn from one source. The isolved platform does this on a single connected platform so the numbers agree with payroll, and BEG configures the reports your leadership actually uses.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is workforce analytics software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function WorkforceAnalyticsSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles analytics as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles analytics as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved provides workforce analytics that read directly from the same platform running your HR, time, and payroll. Dashboards and reports cover headcount, turnover, labor cost, overtime trends, and related measures, and because everything sits on one platform the numbers come from a single source rather than from separate exports that have to be reconciled. Leaders and managers can view trends and pull reports themselves.
+            isolved provides workforce analytics that read directly from the same platform running your HR, time, and payroll. Dashboards and reports cover headcount, turnover, labor cost, overtime trends, and related measures, and because everything sits on one platform the numbers come from a single source rather than from separate exports that have to be reconciled. Leaders and managers can view trends and pull reports themselves.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            That single source is the whole point. When your labor cost report and your payroll come from the same data, they agree, and decisions rest on numbers nobody has to defend. Because more than 7 million employees are managed on iSolved, the reporting is proven across the headcount sizes, multi-location structures, and cost questions employers of every size bring to it.
+            That single source is the whole point. When your labor cost report and your payroll come from the same data, they agree, and decisions rest on numbers nobody has to defend. Because more than 7 million employees are managed on isolved, the reporting is proven across the headcount sizes, multi-location structures, and cost questions employers of every size bring to it.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Workforce analytics is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and a leader can ask for a turnover or labor cost figure through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than building a report by hand.
+            Workforce analytics is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and a leader can ask for a turnover or labor cost figure through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than building a report by hand.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function WorkforceAnalyticsSoftwarePage() {
             Analytics is only useful if it shows the right things and the data is clean. Which metrics belong on a leadership dashboard, how departments and locations roll up, and how reports are shared all have to match how your business makes decisions. BEG configures the dashboards and reports your leadership uses and makes sure the underlying data is structured to be trusted.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in analytics that return shows up where single-source reporting replaces manual reconciliation and surfaces cost trends early enough to act on. When you want a new dashboard, a different rollup, or a report for a new audience, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in analytics that return shows up where single-source reporting replaces manual reconciliation and surfaces cost trends early enough to act on. When you want a new dashboard, a different rollup, or a report for a new audience, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function WorkforceAnalyticsSoftwarePage() {
             No single setup fits every employer, and an honest answer should say so. A small company that checks headcount once in a while may not need dashboards at all. The value of workforce analytics grows with headcount, with the number of locations and departments you track, and with how often labor cost and overtime drive real decisions.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how you report today, whether your current numbers agree across systems, and whether trends in turnover and labor cost would change what you do. iSolved is a strong fit when reporting matters and you want it drawn from one source with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are how you report today, whether your current numbers agree across systems, and whether trends in turnover and labor cost would change what you do. The isolved platform is a strong fit when reporting matters and you want it drawn from one source with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function WorkforceAnalyticsSoftwarePage() {
       <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See workforce analytics in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See workforce analytics in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through the metrics your leadership watches, look at how you report today, and show you what iSolved plus BEG looks like for your team.
+            15-minute call. We will walk through the metrics your leadership watches, look at how you report today, and show you what isolved plus BEG looks like for your team.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

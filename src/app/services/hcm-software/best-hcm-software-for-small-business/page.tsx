@@ -5,17 +5,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Small Business 2026 | BEG',
-  description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why iSolved plus BEG is a done-for-you pick.',
+  description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you pick.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-small-business' },
   openGraph: {
     title: 'Best HCM Software for Small Business 2026 | BEG',
-    description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why iSolved plus BEG is a done-for-you pick.',
+    description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you pick.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-small-business',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Small Business 2026 | BEG', description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why iSolved plus BEG is a done-for-you pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Small Business 2026 | BEG', description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for simplicity now and room to grow later, accurate payroll and tax handling, and a way to avoid running it all alone. The right choice keeps things easy today without forcing a painful platform switch as you add headcount.',
   },
   {
-    q: 'Why is iSolved plus BEG a strong pick for small business?',
-    a: 'iSolved is a single connected platform that handles payroll, HR, time, and benefits, and BEG implements, configures, and supports it for you. That gives a small business a done-for-you setup that stays simple now and scales as you grow.',
+    q: 'Why is isolved plus BEG a strong pick for small business?',
+    a: 'isolved is a single connected platform that handles payroll, HR, time, and benefits, and BEG implements, configures, and supports it for you. That gives a small business a done-for-you setup that stays simple now and scales as you grow.',
   },
   {
-    q: 'Is iSolved overkill for a very small business?',
-    a: 'It can be, depending on your needs. A very small, simple operation may be served well by a lightweight payroll tool. iSolved plus BEG makes the most sense when you want room to grow and prefer a partner handling the platform rather than doing it yourself.',
+    q: 'Is isolved overkill for a very small business?',
+    a: 'It can be, depending on your needs. A very small, simple operation may be served well by a lightweight payroll tool. The isolved-plus-BEG combination makes the most sense when you want room to grow and prefer a partner handling the platform rather than doing it yourself.',
   },
   {
     q: 'Do I have to manage the platform myself?',
-    a: 'No. With BEG, you are not left to configure and run a system alone. BEG implements, configures, and supports iSolved for you, which is what many small businesses want most.',
+    a: 'No. With BEG, you are not left to configure and run a system alone. BEG implements, configures, and supports isolved for you, which is what many small businesses want most.',
   },
   {
     q: 'What does the Connector for Claude offer a small business?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. An owner or office manager can pull reports and update records through conversation, which is valuable when there is no dedicated HR team.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. An owner or office manager can pull reports and update records through conversation, which is valuable when there is no dedicated HR team.',
   },
 ];
 
@@ -102,12 +102,12 @@ export default function BestHCMSmallBusinessPage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Small Business</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Small Business</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform for payroll, HR, time, and benefits, which means you start with what you need and grow into the rest without changing systems. That directly answers the small-business worry about outgrowing a tool. With more than 7 million employees managed on iSolved, you are choosing a platform proven well beyond your current size.
+            isolved is a single connected platform for payroll, HR, time, and benefits, which means you start with what you need and grow into the rest without changing systems. That directly answers the small-business worry about outgrowing a tool. With more than 7 million employees managed on isolved, you are choosing a platform proven well beyond your current size.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            The bigger difference for a small business is that BEG implements, configures, and supports the platform for you. You are not handed software and left to figure it out. BEG sets it up for your business, manages the migration from your current system, and stays on as your contact for changes and questions, which is exactly the done-for-you support a small team needs. The Forrester-documented 330% ROI for iSolved reflects the kind of return that comes from accurate, consolidated HR rather than a patchwork of tools.
+            The bigger difference for a small business is that BEG implements, configures, and supports the platform for you. You are not handed software and left to figure it out. BEG sets it up for your business, manages the migration from your current system, and stays on as your contact for changes and questions, which is exactly the done-for-you support a small team needs. The Forrester-documented 330% ROI for isolved reflects the kind of return that comes from accurate, consolidated HR rather than a patchwork of tools.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
             To see the full platform, visit our <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>HCM software overview</Link>.
@@ -122,7 +122,7 @@ export default function BestHCMSmallBusinessPage() {
             No platform is right for every small business, and it is fair to be honest about that. If you are very small, expect to stay that way, and want the cheapest, simplest payroll possible, a lightweight tool may be the better fit. There is no need to over-buy.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            iSolved plus BEG makes the most sense when you value simplicity now but want room to grow, and when you would rather have a partner run the platform than do it yourself. Ask whether you expect to add headcount, hire across states, or offer benefits, and whether you want done-for-you support. BEG will compare iSolved fairly against simpler options for your situation.
+            isolved plus BEG makes the most sense when you value simplicity now but want room to grow, and when you would rather have a partner run the platform than do it yourself. Ask whether you expect to add headcount, hire across states, or offer benefits, and whether you want done-for-you support. BEG will compare isolved fairly against simpler options for your situation.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMSmallBusinessPage() {
       <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Business</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Business</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will look at where you are and where you are headed, run a cost comparison, and show you what iSolved plus BEG looks like for your business.
+            15-minute call. We will look at where you are and where you are headed, run a cost comparison, and show you what isolved plus BEG looks like for your business.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMSmallBusinessPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Payroll, onboarding, and compliance reporting are high-ROI automation targets for small teams.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'What changed in 2026 and what your HCM platform should be handling automatically for a small business.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

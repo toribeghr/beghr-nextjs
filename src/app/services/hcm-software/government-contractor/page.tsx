@@ -4,18 +4,18 @@ import ServicePage from '@/components/ServicePage';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Government Contractors | BEG',
-  description: 'iSolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.',
+  title: 'isolved HCM for Government Contractors | BEG',
+  description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/government-contractor' },
   openGraph: {
-    title: 'iSolved HCM for Government Contractors | BEG',
-    description: 'iSolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.',
+    title: 'isolved HCM for Government Contractors | BEG',
+    description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.',
     url: 'https://www.beghr.com/services/hcm-software/government-contractor',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Government Contractors | BEG', description: 'iSolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Government Contractors | BEG', description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -24,13 +24,13 @@ export default function HCMGovernmentContractorPage() {
   return (
     <ServicePage
       imageSrc="/assets/hero-images/compliance.svg"
-      imageAlt="Government contractor using iSolved HCM platform"
+      imageAlt="Government contractor using isolved HCM platform"
       eyebrow="HCM Software · Government Contractors"
       title="One platform for every contract, every wage rule, and every clearance."
-      description="Government contracting HR means Service Contract Act and prevailing-wage compliance, certified payroll, clearance tracking, and cost allocation by contract. iSolved People Cloud handles all of it in one connected platform. Implemented and supported by BEG."
+      description="Government contracting HR means Service Contract Act and prevailing-wage compliance, certified payroll, clearance tracking, and cost allocation by contract. isolved People Cloud handles all of it in one connected platform. Implemented and supported by BEG."
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: 'iSolved', label: 'People Cloud, all-in-one HCM' },
+        { value: 'isolved', label: 'People Cloud, all-in-one HCM' },
         { value: '330%', label: 'ROI documented by Forrester' },
         { value: 'BEG', label: 'Implements and supports your platform' },
       ]}
@@ -41,7 +41,7 @@ export default function HCMGovernmentContractorPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="tldr reveal" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>iSolved is the best HCM platform for government contractors because it supports Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and cost allocation by contract in one system. BEG configures and supports it for your contracts, so payroll, HR, time, and benefits all live in one place.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>isolved is the best HCM platform for government contractors because it supports Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and cost allocation by contract in one system. BEG configures and supports it for your contracts, so payroll, HR, time, and benefits all live in one place.</p>
           </div>
         </div>
       </section>
@@ -67,8 +67,8 @@ export default function HCMGovernmentContractorPage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>SCA</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>And prevailing-wage rules applied automatically in iSolved</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Service Contract Act wage and fringe rules are where manual payroll breaks. iSolved applies the right wage determination by contract and labor category.</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>And prevailing-wage rules applied automatically in isolved</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Service Contract Act wage and fringe rules are where manual payroll breaks. The isolved platform applies the right wage determination by contract and labor category.</div>
                 </div>
               ))()
             }
@@ -76,7 +76,7 @@ export default function HCMGovernmentContractorPage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>330%</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Average ROI documented by Forrester for iSolved clients</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Average ROI documented by Forrester for isolved clients</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Contractors see fast ROI when accurate certified payroll and contract cost allocation cut payroll corrections and audit exposure.</div>
                 </div>
               ))()
@@ -89,16 +89,16 @@ export default function HCMGovernmentContractorPage() {
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
-            <p className="eyebrow">Why iSolved + BEG</p>
+            <p className="eyebrow">Why isolved + BEG</p>
             <h2>What is the best HCM software for a government contractor?</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#444444', maxWidth: '700px', margin: '1.5rem auto' }}>
-            The best HCM software for a government contractor is one that applies Service Contract Act and prevailing-wage rules, produces certified payroll, and allocates cost by contract in a single system. iSolved for government contractors manages wage determinations, fringe tracking, certified payroll reporting, clearance documentation, contract cost allocation, benefits administration, and talent management in one connected platform. BEG implements and maintains it for your specific contract portfolio.
+            The best HCM software for a government contractor is one that applies Service Contract Act and prevailing-wage rules, produces certified payroll, and allocates cost by contract in a single system. The isolved platform for government contractors manages wage determinations, fringe tracking, certified payroll reporting, clearance documentation, contract cost allocation, benefits administration, and talent management in one connected platform. BEG implements and maintains it for your specific contract portfolio.
           </p>
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Platform assessment', body: 'BEG reviews your current HR stack, headcount, contracts, and wage determinations. You get a clear implementation plan and timeline.' },
-              { num: '02', title: 'BEG-managed implementation', body: 'We configure iSolved for your wage rules, fringe, certified payroll, and contract cost codes, and we manage go-live without interrupting payroll.' },
+              { num: '02', title: 'BEG-managed implementation', body: 'We configure isolved for your wage rules, fringe, certified payroll, and contract cost codes, and we manage go-live without interrupting payroll.' },
               { num: '03', title: 'Ongoing BEG support', body: 'Your BEG contact manages new contracts, wage determination changes, and new hires year-round. You are never sent to a support queue.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -124,19 +124,19 @@ export default function HCMGovernmentContractorPage() {
                 badge: 'Bonus 01',
                 title: 'BEG implementation included. No professional services invoice.',
                 objection: 'Common objection: "HCM implementations are expensive and take forever."',
-                body: 'BEG manages your full iSolved implementation, including configuration, data migration, training, and go-live, as part of the relationship. You are not paying a separate professional services team to stand up wage determinations and certified payroll. Implementation is what BEG does.',
+                body: 'BEG manages your full isolved implementation, including configuration, data migration, training, and go-live, as part of the relationship. You are not paying a separate professional services team to stand up wage determinations and certified payroll. Implementation is what BEG does.',
               },
               {
                 badge: 'Bonus 02',
-                title: 'iSolved Connector for Claude. HR tasks through AI.',
+                title: 'isolved Connector for Claude. HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets your team pull labor cost reports by contract, check clearance status, and update employee records all through a Claude AI conversation. Less time in the system, more time managing performance. The iSolved Connector for Claude is generally available in the Claude directory today, not a roadmap item, not a beta feature.',
+                body: 'The isolved Connector for Claude lets your team pull labor cost reports by contract, check clearance status, and update employee records all through a Claude AI conversation. Less time in the system, more time managing performance. The isolved Connector for Claude is generally available in the Claude directory today, not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
                 title: 'One BEG contact. Not a support ticket queue.',
                 objection: 'Common objection: "Software vendors disappear after you sign."',
-                body: 'Your BEG contact manages your iSolved platform ongoing. When you win a new contract, a wage determination changes, or you onboard cleared staff, you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact.',
+                body: 'Your BEG contact manages your isolved platform ongoing. When you win a new contract, a wage determination changes, or you onboard cleared staff, you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -161,12 +161,12 @@ export default function HCMGovernmentContractorPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Contract Renewal Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before your current contract auto-renews.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG times implementation to your current platform contract renewal. Most government contractors complete the iSolved transition in 60 to 90 days with zero payroll interruption. Miss that window and you are paying for two platforms or locked in for another year. BEG will help you plan around your renewal date.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG times implementation to your current platform contract renewal. Most government contractors complete the isolved transition in 60 to 90 days with zero payroll interruption. Miss that window and you are paying for two platforms or locked in for another year. BEG will help you plan around your renewal date.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Claude AI Advantage</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The only HCM platform with a live Claude AI integration.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>iSolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI, not just get answers, but take action. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation workflows around it now will compound that advantage over time.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>isolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI, not just get answers, but take action. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation workflows around it now will compound that advantage over time.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -187,28 +187,28 @@ export default function HCMGovernmentContractorPage() {
           </div>
           <div className="faq reveal">
             <div className="faq-item">
-              <h3>Can iSolved handle Service Contract Act and prevailing-wage rules?</h3>
-              <p>Yes. iSolved applies the correct wage determination and fringe by contract and labor category, so each employee is paid to the applicable Service Contract Act or prevailing-wage rule. BEG configures the determinations and keeps them current.</p>
+              <h3>Can isolved handle Service Contract Act and prevailing-wage rules?</h3>
+              <p>Yes. The isolved platform applies the correct wage determination and fringe by contract and labor category, so each employee is paid to the applicable Service Contract Act or prevailing-wage rule. BEG configures the determinations and keeps them current.</p>
             </div>
             <div className="faq-item">
-              <h3>Does iSolved produce certified payroll?</h3>
-              <p>Yes. iSolved captures the data certified payroll requires and produces the reports you submit, so compliance does not live in a spreadsheet. BEG configures certified payroll output to match your contract requirements.</p>
+              <h3>Does isolved produce certified payroll?</h3>
+              <p>Yes. The isolved platform captures the data certified payroll requires and produces the reports you submit, so compliance does not live in a spreadsheet. BEG configures certified payroll output to match your contract requirements.</p>
             </div>
             <div className="faq-item">
-              <h3>Can iSolved allocate labor cost by contract?</h3>
-              <p>Yes. iSolved codes time to contracts and cost centers so you can report true labor cost by contract for billing and audit. BEG configures the cost structure to match how you bill the government.</p>
+              <h3>Can isolved allocate labor cost by contract?</h3>
+              <p>Yes. The isolved platform codes time to contracts and cost centers so you can report true labor cost by contract for billing and audit. BEG configures the cost structure to match how you bill the government.</p>
             </div>
             <div className="faq-item">
-              <h3>What is the iSolved Connector for Claude?</h3>
+              <h3>What is the isolved Connector for Claude?</h3>
               <p>It is the only live AI integration in an HCM platform that completes actual HR tasks. Instead of just answering questions, your team can run payroll, pull contract cost reports, and update records through a Claude AI conversation. Available now in Claude&apos;s directory.</p>
             </div>
             <div className="faq-item">
               <h3>How does BEG support us after implementation?</h3>
-              <p>Your BEG contact manages your iSolved platform year-round. New contracts, wage determination changes, and new hires are all handled by one contact, with no ticket queue.</p>
+              <p>Your BEG contact manages your isolved platform year-round. New contracts, wage determination changes, and new hires are all handled by one contact, with no ticket queue.</p>
             </div>
             <div className="faq-item">
-              <h3>What does iSolved cost?</h3>
-              <p>iSolved is priced per employee per month based on your headcount and selected modules. BEG provides a transparent cost comparison against your current platform on your discovery call.</p>
+              <h3>What does isolved cost?</h3>
+              <p>isolved is priced per employee per month based on your headcount and selected modules. BEG provides a transparent cost comparison against your current platform on your discovery call.</p>
             </div>
           </div>
         </div>
@@ -221,10 +221,10 @@ export default function HCMGovernmentContractorPage() {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'Can iSolved handle Service Contract Act and prevailing-wage rules?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. iSolved applies the correct wage determination and fringe by contract and labor category. BEG configures the determinations and keeps them current.' } },
-              { '@type': 'Question', name: 'Does iSolved produce certified payroll?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. iSolved captures the data certified payroll requires and produces the reports you submit. BEG configures output to match your contracts.' } },
-              { '@type': 'Question', name: 'What is the iSolved Connector for Claude?', acceptedAnswer: { '@type': 'Answer', text: 'The only live AI integration in an HCM platform that completes actual HR tasks through Claude AI. Available now.' } },
-              { '@type': 'Question', name: 'How does BEG support us after implementation?', acceptedAnswer: { '@type': 'Answer', text: 'Your BEG contact manages your iSolved platform year-round. One contact, no ticket queue.' } },
+              { '@type': 'Question', name: 'Can isolved handle Service Contract Act and prevailing-wage rules?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The isolved platform applies the correct wage determination and fringe by contract and labor category. BEG configures the determinations and keeps them current.' } },
+              { '@type': 'Question', name: 'Does isolved produce certified payroll?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The isolved platform captures the data certified payroll requires and produces the reports you submit. BEG configures output to match your contracts.' } },
+              { '@type': 'Question', name: 'What is the isolved Connector for Claude?', acceptedAnswer: { '@type': 'Answer', text: 'The only live AI integration in an HCM platform that completes actual HR tasks through Claude AI. Available now.' } },
+              { '@type': 'Question', name: 'How does BEG support us after implementation?', acceptedAnswer: { '@type': 'Answer', text: 'Your BEG contact manages your isolved platform year-round. One contact, no ticket queue.' } },
             ],
           }),
         }}

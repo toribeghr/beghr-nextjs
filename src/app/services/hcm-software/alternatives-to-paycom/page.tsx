@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best Paycom Alternative | iSolved Has Claude AI | BEG',
-  description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including iSolved, a single connected platform managed by BEG.',
+  title: 'Best Paycom Alternative | isolved Has Claude AI | BEG',
+  description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including isolved, a single connected platform managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-paycom' },
   openGraph: {
-    title: 'Best Paycom Alternative | iSolved Has Claude AI | BEG',
-    description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including iSolved, a single connected platform managed by BEG.',
+    title: 'Best Paycom Alternative | isolved Has Claude AI | BEG',
+    description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including isolved, a single connected platform managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-paycom',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best Paycom Alternative | iSolved Has Claude AI | BEG', description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including iSolved, a single connected platform managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best Paycom Alternative | isolved Has Claude AI | BEG', description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including isolved, a single connected platform managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,7 +23,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'How hard is it to switch from Paycom to iSolved?',
+    q: 'How hard is it to switch from Paycom to isolved?',
     a: 'Less painful than you think. BEG manages the full transition: data migration, configuration, training, and go-live. Most clients complete the switch in 60 to 90 days with zero payroll interruption.',
   },
   {
@@ -31,8 +31,8 @@ const faqs = [
     a: 'No. BEG migrates your historical payroll data, employee records, and benefits information as part of implementation. Your records are preserved.',
   },
   {
-    q: 'How does iSolved compare to Paycom on support?',
-    a: 'With iSolved through BEG you get a dedicated contact who knows your setup year-round, rather than a general support queue. BEG implements, configures, and supports the platform for you.',
+    q: 'How does isolved compare to Paycom on support?',
+    a: 'With isolved through BEG you get a dedicated contact who knows your setup year-round, rather than a general support queue. BEG implements, configures, and supports the platform for you.',
   },
   {
     q: 'What if my current Paycom contract is not up yet?',
@@ -77,7 +77,7 @@ export default function AlternativesToPaycomPage() {
             Paycom is a capable single-database HCM with strong employee self-service. But for companies with 50 to 500 employees, the sales pressure and the complexity can outweigh the fit. Here is the honest comparison.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            See iSolved vs. Paycom for Free
+            See isolved vs. Paycom for Free
           </Link>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function AlternativesToPaycomPage() {
               { title: 'A reputation for aggressive sales', desc: 'Buyers often describe a high-pressure sales process and feel pushed toward a decision before they are ready.' },
               { title: 'Complexity that lands on HR', desc: 'The self-service model is powerful, but configuring and managing it well can demand more from a lean HR team than expected.' },
               { title: 'You administer it yourself', desc: 'Paycom is software. The day-to-day setup, optimization, and troubleshooting sit with your team.' },
-              { title: 'No AI that completes real tasks', desc: 'Paycom has automation features, but none complete actual HR tasks the way the iSolved Connector for Claude does.' },
+              { title: 'No AI that completes real tasks', desc: 'Paycom has automation features, but none complete actual HR tasks the way the isolved Connector for Claude does.' },
             ].map(({ title, desc }, i) => (
               <div key={i} style={{ background: '#f9f9f9', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #ECAC60' }}>
                 <strong style={{ display: 'block', marginBottom: '0.35rem' }}>{title}</strong>
@@ -108,13 +108,13 @@ export default function AlternativesToPaycomPage() {
       {/* Comparison table */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>iSolved vs Paycom: Head-to-Head</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>isolved vs Paycom: Head-to-Head</h2>
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
               <thead>
                 <tr style={{ background: '#000000', color: '#ffffff' }}>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'left' }}>Category</th>
-                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>iSolved via BEG</th>
+                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>isolved via BEG</th>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'center' }}>Paycom</th>
                 </tr>
               </thead>
@@ -143,18 +143,18 @@ export default function AlternativesToPaycomPage() {
         </div>
       </section>
 
-      {/* Why iSolved + BEG */}
+      {/* Why isolved + BEG */}
       <section style={{ background: '#000000', color: '#ffffff', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why iSolved + BEG Is the Right Move</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why isolved + BEG Is the Right Move</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is a single connected platform built for companies your size. Payroll, benefits, time, and talent live together, so your data stays consistent and your team stops reconciling separate tools. It is designed for the mid-market, not scaled down from an enterprise suite.
+            isolved is a single connected platform built for companies your size. Payroll, benefits, time, and talent live together, so your data stays consistent and your team stops reconciling separate tools. It is designed for the mid-market, not scaled down from an enterprise suite.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
             The difference with BEG is that you are not handed software and left to run it. BEG implements, configures, supports, and migrates for you. When something changes, you call BEG, not a call center queue. That is the gap many Paycom buyers feel once the sale is over.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            And only iSolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
+            And only isolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
           </p>
         </div>
       </section>
@@ -184,7 +184,7 @@ export default function AlternativesToPaycomPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Ready to See iSolved vs. Paycom?
+            Ready to See isolved vs. Paycom?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will run a side-by-side comparison and show you what the switch looks like for your company, with no commitment required.
@@ -200,7 +200,7 @@ export default function AlternativesToPaycomPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

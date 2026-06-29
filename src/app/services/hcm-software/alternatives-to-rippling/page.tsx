@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best Rippling Alternative | iSolved + Claude AI | BEG',
-  description: 'Looking for a Rippling alternative? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.',
+  title: 'Best Rippling Alternative | isolved + Claude AI | BEG',
+  description: 'Looking for a Rippling alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-rippling' },
   openGraph: {
-    title: 'Best Rippling Alternative | iSolved + Claude AI | BEG',
-    description: 'Looking for a Rippling alternative? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.',
+    title: 'Best Rippling Alternative | isolved + Claude AI | BEG',
+    description: 'Looking for a Rippling alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-rippling',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best Rippling Alternative | iSolved + Claude AI | BEG', description: 'Looking for a Rippling alternative? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best Rippling Alternative | isolved + Claude AI | BEG', description: 'Looking for a Rippling alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,7 +23,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'How hard is it to switch from Rippling to iSolved?',
+    q: 'How hard is it to switch from Rippling to isolved?',
     a: 'BEG manages the full transition, including data migration, configuration, training, and go-live. Most clients complete the switch in 60 to 90 days with no interruption to payroll.',
   },
   {
@@ -31,11 +31,11 @@ const faqs = [
     a: 'No. BEG migrates your historical payroll data, employee records, and benefits information as part of implementation. Your records are preserved on the new platform.',
   },
   {
-    q: 'Rippling is very IT centric. Is iSolved simpler for an HR team?',
-    a: 'iSolved is an HR-first platform that brings payroll, HR, time, and benefits into one connected system. BEG configures it and supports it for you, so your HR team does not have to manage it like an IT product.',
+    q: 'Rippling is very IT centric. Is isolved simpler for an HR team?',
+    a: 'isolved is an HR-first platform that brings payroll, HR, time, and benefits into one connected system. BEG configures it and supports it for you, so your HR team does not have to manage it like an IT product.',
   },
   {
-    q: 'Rippling bundles pricing. How does iSolved compare?',
+    q: 'Rippling bundles pricing. How does isolved compare?',
     a: 'BEG sets a clear scope with you up front rather than an opaque bundle. We provide a side-by-side comparison so you can see what you are paying for before deciding.',
   },
 ];
@@ -76,7 +76,7 @@ export default function AlternativesToRipplingPage() {
             Rippling is a powerful, modern all-in-one for HR, IT, and payroll. For companies that want an HR-first platform with a partner who runs it, rather than an IT centric tool to administer, there are better fit options. Here is the honest comparison.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            See iSolved vs. Rippling for Free
+            See isolved vs. Rippling for Free
           </Link>
         </div>
       </section>
@@ -107,13 +107,13 @@ export default function AlternativesToRipplingPage() {
       {/* Comparison table */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>iSolved vs Rippling: Head-to-Head</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>isolved vs Rippling: Head-to-Head</h2>
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
               <thead>
                 <tr style={{ background: '#000000', color: '#ffffff' }}>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'left' }}>Category</th>
-                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>iSolved via BEG</th>
+                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>isolved via BEG</th>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'center' }}>Rippling</th>
                 </tr>
               </thead>
@@ -147,23 +147,23 @@ export default function AlternativesToRipplingPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>The Broader Market</h2>
           <p style={{ color: '#444', lineHeight: '1.7' }}>
-            Rippling is one of several modern options. ADP and Paychex are the large established providers, Gusto is a small business favorite that stays software only, and Paylocity competes in the mid-market with strong engagement features. Each fits a different profile. For a 50 to 500 employee company that wants an HR-first connected platform plus a partner who configures and supports it, iSolved with BEG is the option we recommend.
+            Rippling is one of several modern options. ADP and Paychex are the large established providers, Gusto is a small business favorite that stays software only, and Paylocity competes in the mid-market with strong engagement features. Each fits a different profile. For a 50 to 500 employee company that wants an HR-first connected platform plus a partner who configures and supports it, isolved with BEG is the option we recommend.
           </p>
         </div>
       </section>
 
-      {/* Why iSolved + BEG */}
+      {/* Why isolved + BEG */}
       <section style={{ background: '#000000', color: '#ffffff', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why iSolved + BEG Is the Recommended Alternative</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why isolved + BEG Is the Recommended Alternative</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is a single connected platform that brings payroll, HR, time, and benefits together with an HR-first focus. It is built for the mid-market, so you get breadth without the weight of an IT centric system.
+            isolved is a single connected platform that brings payroll, HR, time, and benefits together with an HR-first focus. It is built for the mid-market, so you get breadth without the weight of an IT centric system.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
             The difference from a self-managed tool is the partnership. BEG implements, configures, and supports your platform, and manages the migration from Rippling. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            iSolved is also the only HCM platform with a Connector for Claude, generally available in June 2026, that completes real HR tasks through a conversation. No equivalent exists at Rippling.
+            isolved is also the only HCM platform with a Connector for Claude, generally available in June 2026, that completes real HR tasks through a conversation. No equivalent exists at Rippling.
           </p>
         </div>
       </section>
@@ -193,7 +193,7 @@ export default function AlternativesToRipplingPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Ready to Compare iSolved vs. Rippling?
+            Ready to Compare isolved vs. Rippling?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will run a side-by-side comparison and show you what the switch looks like for your company, with no commitment required.
@@ -209,7 +209,7 @@ export default function AlternativesToRipplingPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

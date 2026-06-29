@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best UKG Alternative | iSolved + Claude AI | BEG',
-  description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including iSolved, managed by BEG.',
+  title: 'Best UKG Alternative | isolved + Claude AI | BEG',
+  description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including isolved, managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-ukg' },
   openGraph: {
-    title: 'Best UKG Alternative | iSolved + Claude AI | BEG',
-    description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including iSolved, managed by BEG.',
+    title: 'Best UKG Alternative | isolved + Claude AI | BEG',
+    description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including isolved, managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-ukg',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best UKG Alternative | iSolved + Claude AI | BEG', description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including iSolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best UKG Alternative | isolved + Claude AI | BEG', description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including isolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,7 +23,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'How hard is it to switch from UKG to iSolved?',
+    q: 'How hard is it to switch from UKG to isolved?',
     a: 'BEG manages the full transition: data migration, configuration, training, and go-live. Moving to a mid-market platform is typically lighter than an enterprise rollout, and most clients complete the switch in 60 to 90 days with no payroll interruption.',
   },
   {
@@ -31,8 +31,8 @@ const faqs = [
     a: 'No. BEG migrates your employee records, payroll history, and benefits information as part of implementation. Your data is preserved.',
   },
   {
-    q: 'Is iSolved a fit if UKG felt too complex?',
-    a: 'Yes. UKG is built for large enterprises with deep workforce management needs. iSolved is purpose-built for companies with 50 to 500 employees, so you get the capability you need without the enterprise complexity.',
+    q: 'Is isolved a fit if UKG felt too complex?',
+    a: 'Yes. UKG is built for large enterprises with deep workforce management needs. The isolved platform is purpose-built for companies with 50 to 500 employees, so you get the capability you need without the enterprise complexity.',
   },
   {
     q: 'What if my current UKG contract is not up yet?',
@@ -77,7 +77,7 @@ export default function AlternativesToUKGPage() {
             UKG is a strong enterprise workforce management platform with powerful scheduling and time tools. For companies with 50 to 500 employees, it is often complex and enterprise-priced. Here is the honest comparison.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            See iSolved vs. UKG for Free
+            See isolved vs. UKG for Free
           </Link>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function AlternativesToUKGPage() {
               { title: 'Powerful but complex', desc: 'UKG offers deep workforce management, but that depth can be heavy to configure and maintain for a lean team.' },
               { title: 'Enterprise pricing', desc: 'Pricing reflects an enterprise platform, which can be a heavy investment for companies under 500 employees.' },
               { title: 'Built for large organizations', desc: 'UKG shines in big, shift-based enterprises. Mid-market companies often use only a fraction of its breadth.' },
-              { title: 'No AI that completes real tasks', desc: 'UKG has AI features, but none complete actual HR tasks the way the iSolved Connector for Claude does.' },
+              { title: 'No AI that completes real tasks', desc: 'UKG has AI features, but none complete actual HR tasks the way the isolved Connector for Claude does.' },
             ].map(({ title, desc }, i) => (
               <div key={i} style={{ background: '#f9f9f9', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #ECAC60' }}>
                 <strong style={{ display: 'block', marginBottom: '0.35rem' }}>{title}</strong>
@@ -108,13 +108,13 @@ export default function AlternativesToUKGPage() {
       {/* Comparison table */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>iSolved vs UKG: Head-to-Head</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>isolved vs UKG: Head-to-Head</h2>
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
               <thead>
                 <tr style={{ background: '#000000', color: '#ffffff' }}>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'left' }}>Category</th>
-                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>iSolved via BEG</th>
+                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>isolved via BEG</th>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'center' }}>UKG</th>
                 </tr>
               </thead>
@@ -143,18 +143,18 @@ export default function AlternativesToUKGPage() {
         </div>
       </section>
 
-      {/* Why iSolved + BEG */}
+      {/* Why isolved + BEG */}
       <section style={{ background: '#000000', color: '#ffffff', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why iSolved + BEG Is the Right Move</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why isolved + BEG Is the Right Move</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is a single connected platform purpose-built for companies with 50 to 500 employees. Payroll, benefits, time, and talent live together, so you get the workforce capability you need without paying for and managing enterprise depth built for far larger organizations.
+            isolved is a single connected platform purpose-built for companies with 50 to 500 employees. Payroll, benefits, time, and talent live together, so you get the workforce capability you need without paying for and managing enterprise depth built for far larger organizations.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
             BEG implements, configures, supports, and migrates for you. You get a right-sized implementation and a dedicated contact who knows your setup, rather than navigating an enterprise platform alone. When something changes, you call BEG, not a general queue.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            And only iSolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
+            And only isolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
           </p>
         </div>
       </section>
@@ -184,7 +184,7 @@ export default function AlternativesToUKGPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Ready to See iSolved vs. UKG?
+            Ready to See isolved vs. UKG?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will run a side-by-side comparison and show you what a right-sized switch looks like for your company, with no commitment required.
@@ -200,7 +200,7 @@ export default function AlternativesToUKGPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

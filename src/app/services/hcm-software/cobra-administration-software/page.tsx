@@ -4,17 +4,17 @@ import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
   title: 'COBRA Administration Software | BEG',
-  description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. iSolved on one connected platform, supported by BEG.',
+  description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/cobra-administration-software' },
   openGraph: {
     title: 'COBRA Administration Software | BEG',
-    description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. iSolved on one connected platform, supported by BEG.',
+    description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/cobra-administration-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'COBRA Administration Software | BEG', description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. iSolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'COBRA Administration Software | BEG', description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,16 +25,16 @@ const faqs = [
     a: 'COBRA administration software sends the required notices, tracks elections, collects premium payments, and manages the strict timelines COBRA imposes. It keeps an employer compliant when employees lose coverage, so notices go out on time and payments are recorded correctly.',
   },
   {
-    q: 'How does iSolved handle COBRA notices and elections?',
-    a: 'iSolved triggers COBRA notices from the qualifying events it already sees, such as a termination or reduction in hours, and tracks each qualified beneficiary through the election window. Because the event data comes from the same platform, notices are not missed when someone leaves.',
+    q: 'How does isolved handle COBRA notices and elections?',
+    a: 'isolved triggers COBRA notices from the qualifying events it already sees, such as a termination or reduction in hours, and tracks each qualified beneficiary through the election window. Because the event data comes from the same platform, notices are not missed when someone leaves.',
   },
   {
-    q: 'Can iSolved track COBRA payments?',
-    a: 'Yes. iSolved tracks premium payments against each participant, flags missed or late payments within the grace period, and records the status that determines whether coverage continues. That removes the manual ledger most employers keep for COBRA payments.',
+    q: 'Can isolved track COBRA payments?',
+    a: 'Yes. The isolved platform tracks premium payments against each participant, flags missed or late payments within the grace period, and records the status that determines whether coverage continues. That removes the manual ledger most employers keep for COBRA payments.',
   },
   {
     q: 'How does it keep us within COBRA timelines?',
-    a: 'COBRA runs on deadlines, from the notice window after a qualifying event to the election and payment periods. iSolved tracks these timelines per participant so the right notice goes out and the right status applies, which is exactly where manual COBRA administration tends to fail.',
+    a: 'COBRA runs on deadlines, from the notice window after a qualifying event to the election and payment periods. The isolved platform tracks these timelines per participant so the right notice goes out and the right status applies, which is exactly where manual COBRA administration tends to fail.',
   },
   {
     q: 'Why use BEG to implement COBRA administration?',
@@ -81,7 +81,7 @@ export default function CobraAdministrationSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · COBRA Administration</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>COBRA Administration Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            COBRA notices, elections, payments, and compliance timelines run more safely when qualifying events come straight from your HCM platform. Here is what to look for and how iSolved plus BEG handles it.
+            COBRA notices, elections, payments, and compliance timelines run more safely when qualifying events come straight from your HCM platform. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function CobraAdministrationSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good COBRA administration software sends required notices on time, tracks elections, collects premium payments, and keeps you inside strict compliance timelines. iSolved does this on the same connected platform that already sees your qualifying events, and BEG configures and supports it so notices are never missed when someone loses coverage.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good COBRA administration software sends required notices on time, tracks elections, collects premium payments, and keeps you inside strict compliance timelines. The isolved platform does this on the same connected platform that already sees your qualifying events, and BEG configures and supports it so notices are never missed when someone loses coverage.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is COBRA administration software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function CobraAdministrationSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles COBRA as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles COBRA as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved handles COBRA inside the same platform that runs your HR, benefits, and payroll, so it sees the qualifying events directly. A termination or reduction in hours triggers the required notices, and each qualified beneficiary is tracked through the election window without anyone having to remember to start the clock. That connection is the single biggest reason COBRA gets handled correctly.
+            isolved handles COBRA inside the same platform that runs your HR, benefits, and payroll, so it sees the qualifying events directly. A termination or reduction in hours triggers the required notices, and each qualified beneficiary is tracked through the election window without anyone having to remember to start the clock. That connection is the single biggest reason COBRA gets handled correctly.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved tracks premium payments against each participant, flags missed or late payments within the grace period, and records the status that determines whether coverage continues. Because more than 7 million employees are managed on iSolved, COBRA administration is proven across the qualifying events, plan structures, and timeline rules employers of every size face.
+            isolved tracks premium payments against each participant, flags missed or late payments within the grace period, and records the status that determines whether coverage continues. Because more than 7 million employees are managed on isolved, COBRA administration is proven across the qualifying events, plan structures, and timeline rules employers of every size face.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            COBRA administration is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and your team can check a participant status or pull a COBRA report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than clicking through screens.
+            COBRA administration is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and your team can check a participant status or pull a COBRA report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than clicking through screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function CobraAdministrationSoftwarePage() {
             COBRA setup has no room for guesswork. Qualifying event triggers, notice templates, the plans available for continuation, and payment tracking all have to be configured so the right notice goes out the moment an event occurs. BEG configures these settings, ties them to your event data, and supports you as plans and rules change.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in COBRA that return shows up where event-triggered notices and automated payment tracking remove the risk of a missed notice and the labor of a manual ledger. When you change plans, add a location, or face an unusual qualifying event, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in COBRA that return shows up where event-triggered notices and automated payment tracking remove the risk of a missed notice and the labor of a manual ledger. When you change plans, add a location, or face an unusual qualifying event, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function CobraAdministrationSoftwarePage() {
             No single setup fits every employer, and an honest answer should say so. Federal COBRA generally applies to employers with 20 or more employees, though some states extend similar continuation rules to smaller employers. A very small employer may not be subject to COBRA at all, and the value of automation rises with turnover and the number of plans you offer.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are whether COBRA or a state continuation rule applies to you, how often you have qualifying events, and whether your notices are tied to real HR events today. iSolved is a strong fit when COBRA applies and you want notices triggered from your own event data with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are whether COBRA or a state continuation rule applies to you, how often you have qualifying events, and whether your notices are tied to real HR events today. The isolved platform is a strong fit when COBRA applies and you want notices triggered from your own event data with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function CobraAdministrationSoftwarePage() {
       <FinalPaycheckCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See COBRA administration in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See COBRA administration in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through how you handle qualifying events today, look at your notice and payment tracking, and show you what iSolved plus BEG looks like for your team.
+            15-minute call. We will walk through how you handle qualifying events today, look at your notice and payment tracking, and show you what isolved plus BEG looks like for your team.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

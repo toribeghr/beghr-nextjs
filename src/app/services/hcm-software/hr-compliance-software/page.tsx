@@ -4,17 +4,17 @@ import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
   title: 'HR Compliance Software | BEG',
-  description: 'HR compliance software for tax filings, ACA, new-hire reporting, and audit trails that stay current. iSolved compliance configured and supported by BEG.',
+  description: 'HR compliance software for tax filings, ACA, new-hire reporting, and audit trails that stay current. isolved compliance configured and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/hr-compliance-software' },
   openGraph: {
     title: 'HR Compliance Software | BEG',
-    description: 'HR compliance software for tax filings, ACA, new-hire reporting, and audit trails that stay current. iSolved compliance configured and supported by BEG.',
+    description: 'HR compliance software for tax filings, ACA, new-hire reporting, and audit trails that stay current. isolved compliance configured and supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/hr-compliance-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HR Compliance Software | BEG', description: 'HR compliance software for tax filings, ACA, new-hire reporting, and audit trails that stay current. iSolved compliance configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HR Compliance Software | BEG', description: 'HR compliance software for tax filings, ACA, new-hire reporting, and audit trails that stay current. isolved compliance configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,16 +25,16 @@ const faqs = [
     a: 'HR compliance software handles the filings and records employers are legally required to maintain, including payroll tax filings, ACA reporting, new-hire reporting, and audit trails. It keeps these current as rules change, so compliance is routine rather than a scramble.',
   },
   {
-    q: 'How does iSolved support HR compliance?',
-    a: 'iSolved files payroll taxes, produces ACA forms, handles new-hire reporting, and keeps an audit trail of changes, all on one connected platform. Because the data lives in one place, the records that back up a filing or an audit are always consistent.',
+    q: 'How does isolved support HR compliance?',
+    a: 'isolved files payroll taxes, produces ACA forms, handles new-hire reporting, and keeps an audit trail of changes, all on one connected platform. Because the data lives in one place, the records that back up a filing or an audit are always consistent.',
   },
   {
-    q: 'Does iSolved handle ACA reporting?',
-    a: 'Yes. iSolved tracks hours, measures eligibility, and generates the 1094-C and 1095-C forms ACA requires. BEG configures your measurement periods and affordability settings so the reporting reflects how you actually staff.',
+    q: 'Does isolved handle ACA reporting?',
+    a: 'Yes. The isolved platform tracks hours, measures eligibility, and generates the 1094-C and 1095-C forms ACA requires. BEG configures your measurement periods and affordability settings so the reporting reflects how you actually staff.',
   },
   {
-    q: 'How does iSolved help with audits?',
-    a: 'iSolved keeps an audit trail of who changed what and when across payroll and HR records. When an auditor or agency asks for documentation, you can produce consistent records from one system instead of reassembling them from several tools.',
+    q: 'How does isolved help with audits?',
+    a: 'isolved keeps an audit trail of who changed what and when across payroll and HR records. When an auditor or agency asks for documentation, you can produce consistent records from one system instead of reassembling them from several tools.',
   },
   {
     q: 'How does compliance software stay current with changing rules?',
@@ -81,7 +81,7 @@ export default function HRComplianceSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · HR Compliance</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>HR Compliance Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Compliance is not a project you finish, it is a state you maintain. The right software keeps filings, ACA, reporting, and audit trails current. Here is what to look for and how iSolved plus BEG handles it.
+            Compliance is not a project you finish, it is a state you maintain. The right software keeps filings, ACA, reporting, and audit trails current. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function HRComplianceSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Strong HR compliance software handles payroll tax filings, ACA reporting, new-hire reporting, and audit trails, and keeps them current as rules change. iSolved delivers this on one connected platform where the records are consistent, and BEG configures and supports your compliance setup so deadlines and audits are routine.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Strong HR compliance software handles payroll tax filings, ACA reporting, new-hire reporting, and audit trails, and keeps them current as rules change. The isolved platform delivers this on one connected platform where the records are consistent, and BEG configures and supports your compliance setup so deadlines and audits are routine.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is HR compliance software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function HRComplianceSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles compliance as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles compliance as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved files payroll taxes, generates ACA forms, handles new-hire reporting, and maintains an audit trail across payroll and HR. Because it is one connected platform, the data behind every filing is the same data that runs payroll, so the records are consistent and the documentation an audit needs is already assembled.
+            isolved files payroll taxes, generates ACA forms, handles new-hire reporting, and maintains an audit trail across payroll and HR. Because it is one connected platform, the data behind every filing is the same data that runs payroll, so the records are consistent and the documentation an audit needs is already assembled.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            Central rule updates are what keep you current. Because more than 7 million employees are managed on iSolved, the platform is built to maintain compliance at scale across many jurisdictions and the changes that hit them throughout the year.
+            Central rule updates are what keep you current. Because more than 7 million employees are managed on isolved, the platform is built to maintain compliance at scale across many jurisdictions and the changes that hit them throughout the year.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            HR compliance is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and your team can check filing status or pull compliance records through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than digging through screens.
+            HR compliance is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and your team can check filing status or pull compliance records through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than digging through screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function HRComplianceSoftwarePage() {
             Compliance setup has to match your specific obligations. Which jurisdictions you file in, your ACA measurement periods, your reporting calendars, and the records you need to retain all require configuration. BEG implements, configures, and supports your compliance setup, and stays current with you as rules and your workforce change.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in compliance that return shows up where automated filings and clean records prevent penalties and the time lost to audits and corrections. When a rule changes or a deadline approaches, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in compliance that return shows up where automated filings and clean records prevent penalties and the time lost to audits and corrections. When a rule changes or a deadline approaches, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function HRComplianceSoftwarePage() {
             No single compliance setup fits every employer, and an honest answer should say so. A small single-state company has lighter obligations than an applicable large employer operating across many states. The value of full compliance automation grows with headcount, the number of jurisdictions you file in, and whether ACA applies to you.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how many jurisdictions you file in, whether you are an applicable large employer for ACA, how exposed you feel on audits and recordkeeping, and whether you want a partner managing compliance or prefer to handle it yourself. iSolved is a strong fit when compliance complexity is in the picture and you want BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are how many jurisdictions you file in, whether you are an applicable large employer for ACA, how exposed you feel on audits and recordkeeping, and whether you want a partner managing compliance or prefer to handle it yourself. The isolved platform is a strong fit when compliance complexity is in the picture and you want BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function HRComplianceSoftwarePage() {
       <FinalPaycheckCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See HR compliance in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See HR compliance in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your filing obligations, ACA status, and recordkeeping, and show you what iSolved plus BEG looks like for staying compliant.
+            15-minute call. We will walk through your filing obligations, ACA status, and recordkeeping, and show you what isolved plus BEG looks like for staying compliant.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

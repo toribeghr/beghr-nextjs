@@ -5,17 +5,17 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Construction 2026 | BEG',
-  description: 'What to look for in construction HCM software in 2026, the certified payroll and job costing challenges contractors face, and why iSolved plus BEG fits.',
+  description: 'What to look for in construction HCM software in 2026, the certified payroll and job costing challenges contractors face, and why isolved plus BEG fits.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-construction' },
   openGraph: {
     title: 'Best HCM Software for Construction 2026 | BEG',
-    description: 'What to look for in construction HCM software in 2026, the certified payroll and job costing challenges contractors face, and why iSolved plus BEG fits.',
+    description: 'What to look for in construction HCM software in 2026, the certified payroll and job costing challenges contractors face, and why isolved plus BEG fits.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-construction',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Construction 2026 | BEG', description: 'What to look for in construction HCM software in 2026, the certified payroll and job costing challenges contractors face, and why iSolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Construction 2026 | BEG', description: 'What to look for in construction HCM software in 2026, the certified payroll and job costing challenges contractors face, and why isolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for certified payroll support, prevailing wage handling, multi-job cost allocation, and the ability to track hours by job and class. Mobile time capture for field crews and clean compliance reporting matter just as much as the pay run itself.',
   },
   {
-    q: 'Why is iSolved a strong pick for contractors?',
-    a: 'iSolved keeps payroll, time, HR, and benefits on a single connected platform, so field hours flow into payroll and job costing without rekeying. BEG configures the prevailing wage rules, classes, and job structure to match your contracts.',
+    q: 'Why is isolved a strong pick for contractors?',
+    a: 'isolved keeps payroll, time, HR, and benefits on a single connected platform, so field hours flow into payroll and job costing without rekeying. BEG configures the prevailing wage rules, classes, and job structure to match your contracts.',
   },
   {
-    q: 'Can iSolved handle prevailing wage and certified payroll?',
-    a: 'iSolved supports the pay rules and reporting structure that prevailing wage and certified payroll require. BEG sets up the wage determinations, fringe handling, and reporting so compliance is built into the process, not bolted on after.',
+    q: 'Can isolved handle prevailing wage and certified payroll?',
+    a: 'isolved supports the pay rules and reporting structure that prevailing wage and certified payroll require. BEG sets up the wage determinations, fringe handling, and reporting so compliance is built into the process, not bolted on after.',
   },
   {
-    q: 'Is iSolved the right choice for every contractor?',
+    q: 'Is isolved the right choice for every contractor?',
     a: 'Not necessarily. A small residential builder with no public works has different needs than a commercial contractor running prevailing wage jobs across several states. The right fit depends on your job mix, compliance exposure, and crew size.',
   },
   {
     q: 'What does the Connector for Claude do for a construction office?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Office staff can pull job labor reports, check certified payroll status, and update records through conversation instead of navigating screens.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Office staff can pull job labor reports, check certified payroll status, and update records through conversation instead of navigating screens.',
   },
 ];
 
@@ -102,15 +102,15 @@ export default function BestHCMConstructionPage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Contractors</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Contractors</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform, which matters in construction because the same hours have to satisfy payroll, certified reporting, and job costing at once. When time is captured against the right job and class, the certified payroll report and the labor cost allocation come from the same source of truth rather than three reconciliations. With more than 7 million employees managed on the platform, iSolved is proven across complex, compliance-heavy environments.
+            isolved is a single connected platform, which matters in construction because the same hours have to satisfy payroll, certified reporting, and job costing at once. When time is captured against the right job and class, the certified payroll report and the labor cost allocation come from the same source of truth rather than three reconciliations. With more than 7 million employees managed on the platform, isolved is proven across complex, compliance-heavy environments.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            BEG is what makes the compliance side workable. BEG implements, configures, and supports the platform around your wage determinations, work classes, fringe handling, and job structure, and stays with you as you take on new contracts. The Forrester-documented 330% ROI for iSolved tends to land in construction where certified payroll moves from a manual scramble to a repeatable process.
+            BEG is what makes the compliance side workable. BEG implements, configures, and supports the platform around your wage determinations, work classes, fringe handling, and job structure, and stays with you as you take on new contracts. The Forrester-documented 330% ROI for isolved tends to land in construction where certified payroll moves from a manual scramble to a repeatable process.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            For the contractor-specific setup, see our <Link href="/services/hcm-software/construction" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM for construction</Link> page.
+            For the contractor-specific setup, see our <Link href="/services/hcm-software/construction" style={{ color: '#000', fontWeight: 600 }}>isolved HCM for construction</Link> page.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BestHCMConstructionPage() {
             The honest answer is that the best platform depends on the work you take. A residential remodeler with no public contracts may never need certified payroll and could run on a simpler product. A commercial or infrastructure contractor with prevailing wage jobs across several states needs the full compliance and job-costing stack.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Ask how much of your work is public versus private, how many jobs and classes you run at once, whether you need certified payroll reporting, and whether you want a partner handling the compliance configuration. iSolved is a strong pick when prevailing wage and job costing are central and you want BEG running it. BEG will compare it fairly against what you have today.
+            Ask how much of your work is public versus private, how many jobs and classes you run at once, whether you need certified payroll reporting, and whether you want a partner handling the compliance configuration. The isolved platform is a strong pick when prevailing wage and job costing are central and you want BEG running it. BEG will compare it fairly against what you have today.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMConstructionPage() {
       <OvertimePayCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Jobs</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Jobs</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your certified payroll and job costing needs and show you what iSolved plus BEG looks like for your company.
+            15-minute call. We will walk through your certified payroll and job costing needs and show you what isolved plus BEG looks like for your company.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMConstructionPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, time tracking, job costing, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, time tracking, job costing, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Certified payroll and job reporting are high-effort tasks. Here is what to automate and what to keep human.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'Prevailing wage, multi-state rules, and what your HCM platform should be tracking automatically.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

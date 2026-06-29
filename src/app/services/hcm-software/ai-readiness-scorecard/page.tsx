@@ -69,15 +69,15 @@ export default function AIReadinessScorecardPage() {
             </div>
             <div className="faq-item">
               <h3>Why does readiness depend on consolidating systems?</h3>
-              <p>AI delivers the most value when it can act across your whole HR operation from one place. If payroll, HR, time, and benefits live in separate tools, AI has to work around the gaps. A single connected platform like iSolved is what lets AI complete tasks end to end rather than just answer questions.</p>
+              <p>AI delivers the most value when it can act across your whole HR operation from one place. If payroll, HR, time, and benefits live in separate tools, AI has to work around the gaps. A single connected platform like isolved is what lets AI complete tasks end to end rather than just answer questions.</p>
             </div>
             <div className="faq-item">
-              <h3>What makes iSolved different on AI?</h3>
-              <p>iSolved is the only HCM platform with a generally available Connector for Claude, live since June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, updating records, and pulling reports. BEG implements, configures, and supports it for you.</p>
+              <h3>What makes isolved different on AI?</h3>
+              <p>isolved is the only HCM platform with a generally available Connector for Claude, live since June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, updating records, and pulling reports. BEG implements, configures, and supports it for you.</p>
             </div>
             <div className="faq-item">
               <h3>Is the scorecard free and is there any obligation?</h3>
-              <p>Yes, it is free, and there is no obligation. The discovery call is optional. If you book one, BEG will map your exact systems and show you what the iSolved Connector for Claude would complete for your team.</p>
+              <p>Yes, it is free, and there is no obligation. The discovery call is optional. If you book one, BEG will map your exact systems and show you what the isolved Connector for Claude would complete for your team.</p>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function AIReadinessScorecardPage() {
         <div className="container" style={{ maxWidth: '820px', textAlign: 'center' }}>
           <p style={{ color: '#666666', fontSize: '0.95rem' }}>
             See the platform behind your result:{' '}
-            <Link href="/services/hcm-software/ai-connector" style={{ color: '#ECAC60', fontWeight: '600' }}>the iSolved Connector for Claude</Link>
+            <Link href="/services/hcm-software/ai-connector" style={{ color: '#ECAC60', fontWeight: '600' }}>the isolved Connector for Claude</Link>
             {' '}or estimate the payback with the{' '}
             <Link href="/services/hcm-software/roi-calculator" style={{ color: '#ECAC60', fontWeight: '600' }}>HCM ROI calculator</Link>
             .
@@ -103,7 +103,7 @@ export default function AIReadinessScorecardPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'What does the AI HR readiness scorecard measure?', acceptedAnswer: { '@type': 'Answer', text: 'It measures how ready your HR and payroll operation is to benefit from AI that completes tasks, looking at how many systems you run, how manual your work is, how connected your data is, and how ready your team is. It returns a 0 to 100 score and a tailored recommendation.' } },
-              { '@type': 'Question', name: 'What makes iSolved different on AI?', acceptedAnswer: { '@type': 'Answer', text: 'iSolved is the only HCM platform with a generally available Connector for Claude, live since June 2026. It completes real HR tasks through conversation rather than just answering questions, and BEG implements, configures, and supports it.' } },
+              { '@type': 'Question', name: 'What makes isolved different on AI?', acceptedAnswer: { '@type': 'Answer', text: 'isolved is the only HCM platform with a generally available Connector for Claude, live since June 2026. It completes real HR tasks through conversation rather than just answering questions, and BEG implements, configures, and supports it.' } },
               { '@type': 'Question', name: 'Is the scorecard free?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The scorecard is free and there is no obligation. The discovery call is optional.' } },
             ],
           }),

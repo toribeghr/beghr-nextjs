@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
-  description: 'What HR automation actually looks like in 2026. How iSolved automates payroll, onboarding, compliance, and ACA tracking -- plus the Connector for Claude.',
+  title: 'HR Automation in 2026 | What isolved Actually Does | BEG',
+  description: 'What HR automation actually looks like in 2026. How isolved automates payroll, onboarding, compliance, and ACA tracking -- plus the Connector for Claude.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/hr-automation' },
   openGraph: {
-    title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
-    description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...',
+    title: 'HR Automation in 2026 | What isolved Actually Does | BEG',
+    description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connec...',
     url: 'https://www.beghr.com/blog/hcm-software/hr-automation',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HR Automation in 2026 | What iSolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HR Automation in 2026 | What isolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connec...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -108,13 +108,13 @@ const bestFitRows = [
 export default function HRAutomationPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation in 2026 | What iSolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/hr-automation"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation in 2026 | What isolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/hr-automation"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Software &amp; HR Tech</p>
-              <h1>HR Automation in 2026: What iSolved Actually Automates (And What It Does Not)</h1>
+              <h1>HR Automation in 2026: What isolved Actually Automates (And What It Does Not)</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 25, 2026</span>
@@ -190,7 +190,7 @@ export default function HRAutomationPage() {
         </p>
 
         <p>
-          The distinction matters: every major HCM vendor now has some form of AI assistant. Paycom has its own chat feature. ADP has Lyric. None of them complete tasks through Claude or any external AI agent. isolved is the only platform where a user can open Claude, describe what they need, and have the platform act on it.
+          The distinction matters: every major HCM vendor now has some form of AI assistant. Paycom has its own chat feature. ADP has Lyric. None of them complete tasks through Claude or any external AI agent. The isolved platform is the only platform where a user can open Claude, describe what they need, and have the platform act on it.
         </p>
 
         <p>Here is what that looks like in practice:</p>
@@ -314,7 +314,7 @@ export default function HRAutomationPage() {
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#666' }}>Related Resources</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
             <a href="/services/hcm-software" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>isolved HCM Software &rarr;</a>
-            <a href="/blog/hcm-software/isolved-platform" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>iSolved People Cloud Review &rarr;</a>
+            <a href="/blog/hcm-software/isolved-platform" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>isolved People Cloud Review &rarr;</a>
             <a href="/blog/hcm-software/payroll-compliance" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>Payroll Compliance 2026 &rarr;</a>
           </div>
         </div>
@@ -346,8 +346,8 @@ export default function HRAutomationPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: 'HR Automation in 2026: What iSolved Actually Automates (And What It Does Not)',
-            description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connector for Claude explained.',
+            headline: 'HR Automation in 2026: What isolved Actually Automates (And What It Does Not)',
+            description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connector for Claude explained.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

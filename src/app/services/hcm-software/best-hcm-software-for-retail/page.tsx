@@ -5,17 +5,17 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Retail 2026 | BEG',
-  description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why iSolved plus BEG is a strong pick.',
+  description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why isolved plus BEG is a strong pick.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-retail' },
   openGraph: {
     title: 'Best HCM Software for Retail 2026 | BEG',
-    description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why iSolved plus BEG is a strong pick.',
+    description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why isolved plus BEG is a strong pick.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-retail',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Retail 2026 | BEG', description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why iSolved plus BEG is a strong pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Retail 2026 | BEG', description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why isolved plus BEG is a strong pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for fast hourly onboarding, seasonal hiring that scales up and down without friction, store-level labor reporting, and scheduling tied to time and payroll. The platform should handle peaks without breaking the pay run.',
   },
   {
-    q: 'Why is iSolved a strong pick for retail?',
-    a: 'iSolved keeps payroll, time, scheduling, and HR on a single connected platform, so seasonal hires onboard quickly and store labor flows into payroll cleanly. BEG configures the pay rules and store structure to match your business.',
+    q: 'Why is isolved a strong pick for retail?',
+    a: 'isolved keeps payroll, time, scheduling, and HR on a single connected platform, so seasonal hires onboard quickly and store labor flows into payroll cleanly. BEG configures the pay rules and store structure to match your business.',
   },
   {
-    q: 'Can iSolved handle seasonal hiring spikes?',
-    a: 'Yes. iSolved is built to onboard and pay large groups of hourly staff, which is what seasonal retail demands. BEG sets up the workflows so ramping up for a peak and back down after is straightforward.',
+    q: 'Can isolved handle seasonal hiring spikes?',
+    a: 'Yes. The isolved platform is built to onboard and pay large groups of hourly staff, which is what seasonal retail demands. BEG sets up the workflows so ramping up for a peak and back down after is straightforward.',
   },
   {
-    q: 'Is iSolved right for a small single-store retailer?',
+    q: 'Is isolved right for a small single-store retailer?',
     a: 'It depends on your needs. A small shop with steady staffing may be fine on a simpler tool. The value of a connected platform grows as you add stores, hire seasonally, and need labor reporting across locations.',
   },
   {
     q: 'What does the Connector for Claude offer a retail team?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. District and store managers can pull labor reports, check overtime, and update records through conversation rather than menus.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. District and store managers can pull labor reports, check overtime, and update records through conversation rather than menus.',
   },
 ];
 
@@ -102,15 +102,15 @@ export default function BestHCMRetailPage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Retailers</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Retailers</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform, which is what the seasonal, multi-store retail problem requires. Hourly and seasonal hires onboard quickly, scheduling and time feed payroll from one data set, and labor is reportable by store. With more than 7 million employees managed on iSolved, the platform is proven for high-volume hourly workforces that scale up and down.
+            isolved is a single connected platform, which is what the seasonal, multi-store retail problem requires. Hourly and seasonal hires onboard quickly, scheduling and time feed payroll from one data set, and labor is reportable by store. With more than 7 million employees managed on isolved, the platform is proven for high-volume hourly workforces that scale up and down.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            BEG implements, configures, and supports the platform for your store structure, pay rules, and seasonal workflows, and stays with you as you open locations or prepare for a peak. The Forrester-documented 330% ROI for iSolved tends to show up in retail where faster onboarding and accurate store-level labor control reduce wasted time and pay corrections.
+            BEG implements, configures, and supports the platform for your store structure, pay rules, and seasonal workflows, and stays with you as you open locations or prepare for a peak. The Forrester-documented 330% ROI for isolved tends to show up in retail where faster onboarding and accurate store-level labor control reduce wasted time and pay corrections.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            For the retail-specific setup, see our <Link href="/services/hcm-software/retail" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM for retail</Link> page.
+            For the retail-specific setup, see our <Link href="/services/hcm-software/retail" style={{ color: '#000', fontWeight: 600 }}>isolved HCM for retail</Link> page.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BestHCMRetailPage() {
             No platform is best for every retailer, and a fair comparison will admit that. A single store with steady staffing may not need a full connected platform. The case for one strengthens as you add stores, lean on seasonal hiring, and need labor reporting and scheduling to work together across locations.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Ask how many stores you run, how large your seasonal swings are, whether you need store-level labor reporting, and whether you want a partner managing the platform. iSolved is a strong choice for multi-store and seasonal retailers who want BEG running it. BEG will compare it fairly against your current setup.
+            Ask how many stores you run, how large your seasonal swings are, whether you need store-level labor reporting, and whether you want a partner managing the platform. The isolved platform is a strong choice for multi-store and seasonal retailers who want BEG running it. BEG will compare it fairly against your current setup.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMRetailPage() {
       <OvertimePayCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Stores</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Stores</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through seasonal hiring, scheduling, and store reporting and show you what iSolved plus BEG looks like for your retail business.
+            15-minute call. We will walk through seasonal hiring, scheduling, and store reporting and show you what isolved plus BEG looks like for your retail business.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMRetailPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, scheduling, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, scheduling, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Seasonal onboarding is a high-volume retail task. Here is what to automate and what to keep human.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'Multi-state rules, overtime, and what your HCM platform should be tracking automatically.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

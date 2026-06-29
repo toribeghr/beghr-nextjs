@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved vs Paycor | One Platform + Claude AI | BEG',
-  description: 'iSolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.',
+  title: 'isolved vs Paycor | One Platform + Claude AI | BEG',
+  description: 'isolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycor' },
   openGraph: {
-    title: 'iSolved vs Paycor | One Platform + Claude AI | BEG',
-    description: 'iSolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.',
+    title: 'isolved vs Paycor | One Platform + Claude AI | BEG',
+    description: 'isolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycor',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved vs Paycor | One Platform + Claude AI | BEG', description: 'iSolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Paycor | One Platform + Claude AI | BEG', description: 'isolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -24,27 +24,27 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 const faqs = [
   {
     q: 'Is Paycor a good HCM platform?',
-    a: 'Yes. Paycor is a solid mid-market HCM with a broad set of features. It is a credible option for many growing companies, and it competes directly in the same space as iSolved.',
+    a: 'Yes. Paycor is a solid mid-market HCM with a broad set of features. It is a credible option for many growing companies, and it competes directly in the same space as isolved.',
   },
   {
-    q: 'When does it make sense to choose iSolved over Paycor?',
-    a: 'iSolved tends to fit better when you want a single connected platform with clear, scoped configuration and a partner who runs it for you. Paycor can involve add-on pricing for additional modules, and support experiences can vary, so the difference often comes down to predictability and the partner relationship.',
+    q: 'When does it make sense to choose isolved over Paycor?',
+    a: 'isolved tends to fit better when you want a single connected platform with clear, scoped configuration and a partner who runs it for you. Paycor can involve add-on pricing for additional modules, and support experiences can vary, so the difference often comes down to predictability and the partner relationship.',
   },
   {
-    q: 'How does pricing compare between iSolved and Paycor?',
-    a: 'Paycor often uses add-on pricing where modules are layered on, which can make the total harder to predict. With iSolved, BEG scopes your configuration up front so you get clarity on what you are buying. BEG will run a side-by-side cost comparison for your size and complexity.',
+    q: 'How does pricing compare between isolved and Paycor?',
+    a: 'Paycor often uses add-on pricing where modules are layered on, which can make the total harder to predict. With isolved, BEG scopes your configuration up front so you get clarity on what you are buying. BEG will run a side-by-side cost comparison for your size and complexity.',
   },
   {
-    q: 'What is the AI difference between iSolved and Paycor?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
+    q: 'What is the AI difference between isolved and Paycor?',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
   },
   {
-    q: 'Can I move my data from Paycor to iSolved?',
+    q: 'Can I move my data from Paycor to isolved?',
     a: 'Yes. BEG manages the migration of payroll history, employee records, and benefits data as part of implementation, so the transition is structured rather than something you handle on your own.',
   },
   {
-    q: 'Is iSolved proven to deliver a return on investment?',
-    a: 'Forrester documented a 330% ROI for iSolved. More than 7 million employees are managed on the iSolved platform, which speaks to its scale and reliability across many industries.',
+    q: 'Is isolved proven to deliver a return on investment?',
+    a: 'Forrester documented a 330% ROI for isolved. More than 7 million employees are managed on the isolved platform, which speaks to its scale and reliability across many industries.',
   },
 ];
 
@@ -64,11 +64,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved vs Paycor', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycor' },
+    { '@type': 'ListItem', position: 3, name: 'isolved vs Paycor', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycor' },
   ],
 };
 
-export default function iSolvedVsPaycorPage() {
+export default function isolvedVsPaycorPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -79,10 +79,10 @@ export default function iSolvedVsPaycorPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Comparison</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            iSolved vs Paycor: The Honest Comparison
+            isolved vs Paycor: The Honest Comparison
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            Paycor is a solid mid-market HCM that competes directly with iSolved. Both serve growing companies well, so the decision often comes down to pricing clarity, support, and the partner behind the platform. Here is how they compare.
+            Paycor is a solid mid-market HCM that competes directly with isolved. Both serve growing companies well, so the decision often comes down to pricing clarity, support, and the partner behind the platform. Here is how they compare.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -96,7 +96,7 @@ export default function iSolvedVsPaycorPage() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>Bottom Line Up Front</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
-              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>iSolved wins on:</strong>
+              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>isolved wins on:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
                 <li>A single connected platform for payroll, HR, time, and benefits</li>
                 <li>Connector for Claude that completes real HR tasks</li>
@@ -123,10 +123,10 @@ export default function iSolvedVsPaycorPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Platform and All-in-One Coverage</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            Paycor is a solid mid-market HCM with a broad feature set, and it competes directly with iSolved for growing companies. It is a credible platform, and many teams are well served by it.
+            Paycor is a solid mid-market HCM with a broad feature set, and it competes directly with isolved for growing companies. It is a credible platform, and many teams are well served by it.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is a single connected platform that brings payroll, HR, time, and benefits together, with configuration scoped to your needs. Because the platforms overlap so much in capability, the decision often comes down to pricing clarity, support, and the partner who runs it for you.
+            isolved is a single connected platform that brings payroll, HR, time, and benefits together, with configuration scoped to your needs. Because the platforms overlap so much in capability, the decision often comes down to pricing clarity, support, and the partner who runs it for you.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function iSolvedVsPaycorPage() {
             Paycor often uses add-on pricing, where additional modules are layered on as you need them. That flexibility can be useful, but it can also make the total cost harder to predict as your requirements grow.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is priced for the mid-market and bundles broad capability into one connected platform. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
+            isolved is priced for the mid-market and bundles broad capability into one connected platform. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function iSolvedVsPaycorPage() {
             Support experiences with mid-market platforms can vary depending on how you are routed and who you reach. For a growing company, consistent and knowledgeable support makes a real difference in how smoothly the platform runs day to day.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With iSolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who knows your setup, manages migration from your current system, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
+            With isolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who knows your setup, manages migration from your current system, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
           </p>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function iSolvedVsPaycorPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>AI Capabilities</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
+            isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
             For teams that want to move work forward through AI rather than just look things up, this is a meaningful difference, and it is available today through BEG.
@@ -178,7 +178,7 @@ export default function iSolvedVsPaycorPage() {
             Choose Paycor if you want a solid, broad mid-market HCM and are comfortable managing add-on modules and variable support as your needs evolve. It is a credible platform for many growing companies.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Choose iSolved if you want payroll, HR, time, and benefits to work together on one connected platform with scoped, predictable configuration and a partner who runs it for you. With more than 7 million employees on iSolved and a Forrester-documented 330% ROI, it is built to scale with you.
+            Choose isolved if you want payroll, HR, time, and benefits to work together on one connected platform with scoped, predictable configuration and a partner who runs it for you. With more than 7 million employees on isolved and a Forrester-documented 330% ROI, it is built to scale with you.
           </p>
         </div>
       </section>
@@ -208,10 +208,10 @@ export default function iSolvedVsPaycorPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            See iSolved vs. Your Current Platform
+            See isolved vs. Your Current Platform
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your setup, run a cost comparison, and show you what iSolved plus BEG looks like for your company.
+            15-minute call. We will walk through your setup, run a cost comparison, and show you what isolved plus BEG looks like for your company.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -224,7 +224,7 @@ export default function iSolvedVsPaycorPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

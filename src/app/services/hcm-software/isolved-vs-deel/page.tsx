@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved vs Deel | One Platform + Claude AI | BEG',
-  description: 'iSolved vs Deel compared on platform fit, pricing, implementation, support, and AI. See which fits a domestic single-platform need versus global payroll and EOR.',
+  title: 'isolved vs Deel | One Platform + Claude AI | BEG',
+  description: 'isolved vs Deel compared on platform fit, pricing, implementation, support, and AI. See which fits a domestic single-platform need versus global payroll and EOR.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-deel' },
   openGraph: {
-    title: 'iSolved vs Deel | One Platform + Claude AI | BEG',
-    description: 'iSolved vs Deel compared on platform fit, pricing, implementation, support, and AI. See which fits a domestic single-platform need versus global payroll and EOR.',
+    title: 'isolved vs Deel | One Platform + Claude AI | BEG',
+    description: 'isolved vs Deel compared on platform fit, pricing, implementation, support, and AI. See which fits a domestic single-platform need versus global payroll and EOR.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-deel',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved vs Deel | One Platform + Claude AI | BEG', description: 'iSolved vs Deel compared on platform fit, pricing, implementation, support, and AI. See which fits a domestic single-platform need versus global payroll and EOR.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Deel | One Platform + Claude AI | BEG', description: 'isolved vs Deel compared on platform fit, pricing, implementation, support, and AI. See which fits a domestic single-platform need versus global payroll and EOR.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -27,24 +27,24 @@ const faqs = [
     a: 'Yes. Deel is excellent for global payroll and employer of record needs, especially for international teams and contractor workforces. If your priority is hiring and paying people across many countries, Deel is a strong choice.',
   },
   {
-    q: 'What is the difference between Deel and iSolved?',
-    a: 'Deel focuses on global payroll and EOR for international and contractor workforces. iSolved is a single connected HCM platform well suited to domestic, mid-market companies that want payroll, HR, time, and benefits in one place. The core difference is global reach versus a connected domestic platform.',
+    q: 'What is the difference between Deel and isolved?',
+    a: 'Deel focuses on global payroll and EOR for international and contractor workforces. The isolved platform is a single connected HCM system well suited to domestic, mid-market companies that want payroll, HR, time, and benefits in one place. The core difference is global reach versus a connected domestic platform.',
   },
   {
-    q: 'When does it make sense to choose iSolved over Deel?',
-    a: 'iSolved tends to fit better when your workforce is primarily domestic and you want payroll, HR, time, and benefits to work together on one connected platform with a partner who runs it for you. Deel is built for global breadth, which is more than many domestic teams need.',
+    q: 'When does it make sense to choose isolved over Deel?',
+    a: 'isolved tends to fit better when your workforce is primarily domestic and you want payroll, HR, time, and benefits to work together on one connected platform with a partner who runs it for you. Deel is built for global breadth, which is more than many domestic teams need.',
   },
   {
-    q: 'What is the AI difference between iSolved and Deel?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
+    q: 'What is the AI difference between isolved and Deel?',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
   },
   {
-    q: 'Can I move my data to iSolved?',
+    q: 'Can I move my data to isolved?',
     a: 'Yes. BEG manages the migration of payroll history, employee records, and benefits data as part of implementation, so the transition is structured rather than something you handle on your own.',
   },
   {
-    q: 'Is iSolved proven to deliver a return on investment?',
-    a: 'Forrester documented a 330% ROI for iSolved. More than 7 million employees are managed on the iSolved platform, which speaks to its scale and reliability across many industries.',
+    q: 'Is isolved proven to deliver a return on investment?',
+    a: 'Forrester documented a 330% ROI for isolved. More than 7 million employees are managed on the isolved platform, which speaks to its scale and reliability across many industries.',
   },
 ];
 
@@ -64,11 +64,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved vs Deel', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-deel' },
+    { '@type': 'ListItem', position: 3, name: 'isolved vs Deel', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-deel' },
   ],
 };
 
-export default function iSolvedVsDeelPage() {
+export default function isolvedVsDeelPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -79,10 +79,10 @@ export default function iSolvedVsDeelPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Comparison</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            iSolved vs Deel: The Honest Comparison
+            isolved vs Deel: The Honest Comparison
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            Deel is built for global payroll and employer of record across international and contractor workforces. iSolved is a single connected platform well suited to domestic, mid-market companies. Here is how they compare.
+            Deel is built for global payroll and employer of record across international and contractor workforces. The platform is a single connected isolved system well suited to domestic, mid-market companies. Here is how they compare.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -96,7 +96,7 @@ export default function iSolvedVsDeelPage() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>Bottom Line Up Front</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
-              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>iSolved wins on:</strong>
+              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>isolved wins on:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
                 <li>A single connected platform for payroll, HR, time, and benefits</li>
                 <li>Connector for Claude that completes real HR tasks</li>
@@ -126,7 +126,7 @@ export default function iSolvedVsDeelPage() {
             Deel is excellent at global payroll and employer of record, making it a strong choice for international teams and contractor workforces. If your priority is hiring and paying people across many countries, Deel is built precisely for that, and it does it well.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is a single connected platform that brings payroll, HR, time, and benefits together for domestic, mid-market companies. For a team that is primarily based in one country and wants everything working together in one place, that connected platform is the better fit.
+            isolved is a single connected platform that brings payroll, HR, time, and benefits together for domestic, mid-market companies. For a team that is primarily based in one country and wants everything working together in one place, that connected platform is the better fit.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function iSolvedVsDeelPage() {
             Deel is priced around global payroll and EOR services, which reflects the value of operating across many jurisdictions. For a company that genuinely needs that global reach, the model fits. For a primarily domestic team, you may be paying for international capability you do not use.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is priced for the mid-market and bundles broad capability into one connected platform. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
+            isolved is priced for the mid-market and bundles broad capability into one connected platform. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function iSolvedVsDeelPage() {
             Adopting Deel for a domestic team means migrating onto a platform built around global operations, which may be more than a single-country company needs. For an international workforce, that scope is exactly the point. For a domestic team, it can add complexity without a clear return.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With iSolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who knows your setup, manages migration from your current system, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
+            With isolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who knows your setup, manages migration from your current system, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
           </p>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function iSolvedVsDeelPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>AI Capabilities</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
+            isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
             For teams that want to move work forward through AI rather than just look things up, this is a meaningful difference, and it is available today through BEG.
@@ -178,7 +178,7 @@ export default function iSolvedVsDeelPage() {
             Choose Deel if your workforce is international or contractor-heavy and your priority is global payroll and employer of record across many countries. For that profile, Deel is a strong and purpose-built choice.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Choose iSolved if your workforce is primarily domestic and you want payroll, HR, time, and benefits to work together on one connected platform with a partner who runs it for you. With more than 7 million employees on iSolved and a Forrester-documented 330% ROI, it is built to scale with you.
+            Choose isolved if your workforce is primarily domestic and you want payroll, HR, time, and benefits to work together on one connected platform with a partner who runs it for you. With more than 7 million employees on isolved and a Forrester-documented 330% ROI, it is built to scale with you.
           </p>
         </div>
       </section>
@@ -208,10 +208,10 @@ export default function iSolvedVsDeelPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            See iSolved vs. Your Current Platform
+            See isolved vs. Your Current Platform
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your setup, run a cost comparison, and show you what iSolved plus BEG looks like for your company.
+            15-minute call. We will walk through your setup, run a cost comparison, and show you what isolved plus BEG looks like for your company.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -224,7 +224,7 @@ export default function iSolvedVsDeelPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

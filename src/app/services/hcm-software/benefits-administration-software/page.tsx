@@ -4,17 +4,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Benefits Administration Software | BEG',
-  description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. iSolved on one platform, supported by BEG.',
+  description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. isolved on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/benefits-administration-software' },
   openGraph: {
     title: 'Benefits Administration Software | BEG',
-    description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. iSolved on one platform, supported by BEG.',
+    description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. isolved on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/benefits-administration-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Benefits Administration Software | BEG', description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. iSolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Benefits Administration Software | BEG', description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,20 +25,20 @@ const faqs = [
     a: 'Benefits administration software manages plan setup, open enrollment, employee elections, carrier feeds, and the deductions that flow into payroll. It keeps eligibility, life events, and ACA reporting accurate without spreadsheets or duplicate data entry.',
   },
   {
-    q: 'How does iSolved handle open enrollment?',
-    a: 'iSolved runs open enrollment as a guided online workflow where employees compare plans, make elections, and add dependents from any device. Elections then flow straight into payroll and out to carriers, so nothing is rekeyed by hand.',
+    q: 'How does isolved handle open enrollment?',
+    a: 'isolved runs open enrollment as a guided online workflow where employees compare plans, make elections, and add dependents from any device. Elections then flow straight into payroll and out to carriers, so nothing is rekeyed by hand.',
   },
   {
-    q: 'Does iSolved connect to insurance carriers?',
-    a: 'Yes. iSolved supports carrier connections that send enrollment and change data to your insurance providers electronically, which reduces enrollment errors and the back and forth that comes from emailing spreadsheets to each carrier.',
+    q: 'Does isolved connect to insurance carriers?',
+    a: 'Yes. The isolved platform supports carrier connections that send enrollment and change data to your insurance providers electronically, which reduces enrollment errors and the back and forth that comes from emailing spreadsheets to each carrier.',
   },
   {
     q: 'How do benefit deductions reach payroll?',
-    a: 'Because iSolved is one connected platform, the deductions tied to each employee election update payroll automatically. There is no export, import, or manual reconciliation between a separate benefits system and your payroll system.',
+    a: 'Because isolved is one connected platform, the deductions tied to each employee election update payroll automatically. There is no export, import, or manual reconciliation between a separate benefits system and your payroll system.',
   },
   {
-    q: 'Can iSolved handle ACA tracking and reporting?',
-    a: 'Yes. iSolved tracks hours, measures eligibility, and generates the 1094-C and 1095-C forms ACA requires. BEG configures your measurement periods and affordability settings so filings line up with how you actually staff.',
+    q: 'Can isolved handle ACA tracking and reporting?',
+    a: 'Yes. The isolved platform tracks hours, measures eligibility, and generates the 1094-C and 1095-C forms ACA requires. BEG configures your measurement periods and affordability settings so filings line up with how you actually staff.',
   },
   {
     q: 'Why use BEG to implement benefits administration?',
@@ -81,7 +81,7 @@ export default function BenefitsAdministrationSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Benefits Administration</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>Benefits Administration Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Open enrollment, carrier feeds, deductions, and ACA all live in one place when benefits sit inside your HCM platform. Here is what to look for and how iSolved plus BEG handles it.
+            Open enrollment, carrier feeds, deductions, and ACA all live in one place when benefits sit inside your HCM platform. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function BenefitsAdministrationSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good benefits administration software runs open enrollment online, sends elections to carriers, flows deductions into payroll without rekeying, and keeps ACA reporting accurate. iSolved does all of this on one connected platform, and BEG configures and supports it for your plans and eligibility rules.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good benefits administration software runs open enrollment online, sends elections to carriers, flows deductions into payroll without rekeying, and keeps ACA reporting accurate. The isolved platform handles all of this on one connected platform, and BEG configures and supports it for your plans and eligibility rules.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is benefits administration software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function BenefitsAdministrationSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles benefits as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles benefits as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved runs benefits administration inside the same platform that runs your payroll, HR, and time. Open enrollment is a guided workflow where employees compare plans, make elections, and add dependents online. Those elections drive carrier connections that send enrollment data to your insurers electronically, and they update payroll deductions automatically because there is no second system to sync.
+            isolved runs benefits administration inside the same platform that runs your payroll, HR, and time. Open enrollment is a guided workflow where employees compare plans, make elections, and add dependents online. Those elections drive carrier connections that send enrollment data to your insurers electronically, and they update payroll deductions automatically because there is no second system to sync.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            ACA is built in. iSolved measures hours, determines eligibility against your chosen measurement periods, and produces the 1094-C and 1095-C forms. Because more than 7 million employees are managed on iSolved, the platform is proven across the plan structures and compliance demands employers of every size face.
+            ACA is built in. The platform measures hours, determines eligibility against your chosen measurement periods, and produces the 1094-C and 1095-C forms. Because more than 7 million employees are managed on isolved, the platform is proven across the plan structures and compliance demands employers of every size face.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Benefits administration is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and your team can pull enrollment status or check deduction setup through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than digging through screens.
+            Benefits administration is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and your team can pull enrollment status or check deduction setup through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than digging through screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function BenefitsAdministrationSoftwarePage() {
             Benefits configuration is detailed work. Plan rules, eligibility waiting periods, contribution structures, carrier feed formats, and ACA measurement settings all have to match how your company actually operates. BEG implements, configures, and supports the platform for your specific plans and carriers, and stays with you through every enrollment cycle.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in benefits that return shows up where automated carrier feeds and payroll-connected deductions cut enrollment errors and correction runs. When you add a plan, change carriers, or update contributions, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in benefits that return shows up where automated carrier feeds and payroll-connected deductions cut enrollment errors and correction runs. When you add a plan, change carriers, or update contributions, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function BenefitsAdministrationSoftwarePage() {
             No single setup fits every employer, and an honest answer should say so. A small company with one medical plan and a handful of employees may not need carrier feeds at all. The value of full benefits administration grows with the number of plans you offer, the carriers you work with, and whether ACA reporting applies to you.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how many plans and carriers you manage, whether you are an applicable large employer for ACA, and whether you want a partner running enrollment or prefer to administer it yourself. iSolved is a strong fit when plan complexity and compliance are in the picture and you want BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are how many plans and carriers you manage, whether you are an applicable large employer for ACA, and whether you want a partner running enrollment or prefer to administer it yourself. The isolved platform is a strong fit when plan complexity and compliance are in the picture and you want BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function BenefitsAdministrationSoftwarePage() {
       <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See benefits administration in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See benefits administration in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your plans and carriers, look at your enrollment process, and show you what iSolved plus BEG looks like for your team.
+            15-minute call. We will walk through your plans and carriers, look at your enrollment process, and show you what isolved plus BEG looks like for your team.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

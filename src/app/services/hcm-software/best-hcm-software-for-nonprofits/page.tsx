@@ -5,17 +5,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Nonprofits 2026 | BEG',
-  description: 'What to look for in nonprofit HCM software in 2026, the grant allocation and funder reporting challenges nonprofits face, and why iSolved plus BEG fits.',
+  description: 'What to look for in nonprofit HCM software in 2026, the grant allocation and funder reporting challenges nonprofits face, and why isolved plus BEG fits.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-nonprofits' },
   openGraph: {
     title: 'Best HCM Software for Nonprofits 2026 | BEG',
-    description: 'What to look for in nonprofit HCM software in 2026, the grant allocation and funder reporting challenges nonprofits face, and why iSolved plus BEG fits.',
+    description: 'What to look for in nonprofit HCM software in 2026, the grant allocation and funder reporting challenges nonprofits face, and why isolved plus BEG fits.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-nonprofits',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Nonprofits 2026 | BEG', description: 'What to look for in nonprofit HCM software in 2026, the grant allocation and funder reporting challenges nonprofits face, and why iSolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Nonprofits 2026 | BEG', description: 'What to look for in nonprofit HCM software in 2026, the grant allocation and funder reporting challenges nonprofits face, and why isolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for the ability to allocate labor across grants and programs, reporting that satisfies funders and the board, and clean handling of payroll, benefits, and compliance on a limited administrative team. The platform should make stewardship of restricted funds defensible.',
   },
   {
-    q: 'Why is iSolved a strong pick for nonprofits?',
-    a: 'iSolved keeps payroll, time, HR, and benefits on a single connected platform, so staff time can be allocated to grants and programs from one source of truth. BEG configures the cost structure to match how you report to funders.',
+    q: 'Why is isolved a strong pick for nonprofits?',
+    a: 'isolved keeps payroll, time, HR, and benefits on a single connected platform, so staff time can be allocated to grants and programs from one source of truth. BEG configures the cost structure to match how you report to funders.',
   },
   {
-    q: 'Can iSolved allocate labor across grants and programs?',
-    a: 'Yes. iSolved captures time against cost centers, programs, and funding sources so labor can be allocated and reported accurately. BEG sets up the structure to match your grants and reporting requirements.',
+    q: 'Can isolved allocate labor across grants and programs?',
+    a: 'Yes. The isolved platform captures time against cost centers, programs, and funding sources so labor can be allocated and reported accurately. BEG sets up the structure to match your grants and reporting requirements.',
   },
   {
-    q: 'Is iSolved right for a small nonprofit?',
+    q: 'Is isolved right for a small nonprofit?',
     a: 'It depends on your needs. A very small organization with a single funding stream may do fine on a simpler tool. The value grows as you manage multiple grants, programs, and funder reports with a lean administrative team.',
   },
   {
     q: 'What does the Connector for Claude offer a nonprofit team?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Staff can pull allocation and labor reports and update records through conversation, which matters when administrative capacity is limited.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Staff can pull allocation and labor reports and update records through conversation, which matters when administrative capacity is limited.',
   },
 ];
 
@@ -102,15 +102,15 @@ export default function BestHCMNonprofitsPage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Nonprofits</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Nonprofits</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform, which is exactly what grant allocation and funder reporting need. Staff time is captured against programs and funding sources, and the allocation that drives payroll is the same data that supports your funder and board reporting. With more than 7 million employees managed on iSolved, the platform is dependable for organizations that must withstand scrutiny.
+            isolved is a single connected platform, which is exactly what grant allocation and funder reporting need. Staff time is captured against programs and funding sources, and the allocation that drives payroll is the same data that supports your funder and board reporting. With more than 7 million employees managed on isolved, the platform is dependable for organizations that must withstand scrutiny.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            BEG implements, configures, and supports the platform for your grants, programs, and reporting structure, and stays with you as funding changes. For a small administrative team, that managed approach removes a real burden. The Forrester-documented 330% ROI for iSolved tends to appear in nonprofits where accurate allocation and on-demand reporting replace hours of manual reconciliation.
+            BEG implements, configures, and supports the platform for your grants, programs, and reporting structure, and stays with you as funding changes. For a small administrative team, that managed approach removes a real burden. The Forrester-documented 330% ROI for isolved tends to appear in nonprofits where accurate allocation and on-demand reporting replace hours of manual reconciliation.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            For the nonprofit-specific setup, see our <Link href="/services/hcm-software/nonprofit" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM for nonprofits</Link> page.
+            For the nonprofit-specific setup, see our <Link href="/services/hcm-software/nonprofit" style={{ color: '#000', fontWeight: 600 }}>isolved HCM for nonprofits</Link> page.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BestHCMNonprofitsPage() {
             No platform is right for every nonprofit, and a fair comparison should say so. An organization with a single unrestricted funding stream and a handful of staff may be served well by a simpler tool. The case for a connected platform strengthens as you manage multiple grants, programs, and funder reporting obligations.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Ask how many funding sources and programs you allocate across, how demanding your funder reporting is, how much administrative capacity you have, and whether you want a partner managing the platform. iSolved is a strong choice for grant-funded organizations that want BEG running it. BEG will compare it fairly against your current setup.
+            Ask how many funding sources and programs you allocate across, how demanding your funder reporting is, how much administrative capacity you have, and whether you want a partner managing the platform. The isolved platform is a strong choice for grant-funded organizations that want BEG running it. BEG will compare it fairly against your current setup.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMNonprofitsPage() {
       <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Organization</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Organization</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through grant allocation and funder reporting and show you what iSolved plus BEG looks like for your nonprofit.
+            15-minute call. We will walk through grant allocation and funder reporting and show you what isolved plus BEG looks like for your nonprofit.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMNonprofitsPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, allocation, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, allocation, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Grant allocation and funder reporting are high-effort tasks for lean teams. Here is what to automate.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'What your HCM platform should be tracking automatically to keep compliance manageable for a small team.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

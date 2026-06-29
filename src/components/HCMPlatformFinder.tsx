@@ -9,15 +9,15 @@ const SIZES = ['Under 50', '50 to 250', '250 to 500', '500 plus'];
 
 const SYSTEMS: { label: string; compareHref?: string; compareLabel?: string }[] = [
   { label: 'None or manual / spreadsheets' },
-  { label: 'Gusto', compareHref: '/services/hcm-software/isolved-vs-gusto', compareLabel: 'iSolved vs Gusto' },
-  { label: 'ADP', compareHref: '/services/hcm-software/switch-from-adp-to-isolved', compareLabel: 'Switch from ADP to iSolved' },
-  { label: 'Paychex', compareHref: '/services/hcm-software/isolved-vs-paychex', compareLabel: 'iSolved vs Paychex' },
-  { label: 'Rippling', compareHref: '/services/hcm-software/isolved-vs-rippling', compareLabel: 'iSolved vs Rippling' },
-  { label: 'Paylocity', compareHref: '/services/hcm-software/isolved-vs-paylocity', compareLabel: 'iSolved vs Paylocity' },
-  { label: 'Paycom', compareHref: '/services/hcm-software/isolved-vs-paycom', compareLabel: 'iSolved vs Paycom' },
-  { label: 'BambooHR', compareHref: '/services/hcm-software/isolved-vs-bamboohr', compareLabel: 'iSolved vs BambooHR' },
-  { label: 'QuickBooks Payroll', compareHref: '/services/hcm-software/switch-from-quickbooks-to-isolved', compareLabel: 'Switch from QuickBooks to iSolved' },
-  { label: 'Workday or UKG', compareHref: '/services/hcm-software/isolved-vs-workday', compareLabel: 'iSolved vs Workday' },
+  { label: 'Gusto', compareHref: '/services/hcm-software/isolved-vs-gusto', compareLabel: 'isolved vs Gusto' },
+  { label: 'ADP', compareHref: '/services/hcm-software/switch-from-adp-to-isolved', compareLabel: 'Switch from ADP to isolved' },
+  { label: 'Paychex', compareHref: '/services/hcm-software/isolved-vs-paychex', compareLabel: 'isolved vs Paychex' },
+  { label: 'Rippling', compareHref: '/services/hcm-software/isolved-vs-rippling', compareLabel: 'isolved vs Rippling' },
+  { label: 'Paylocity', compareHref: '/services/hcm-software/isolved-vs-paylocity', compareLabel: 'isolved vs Paylocity' },
+  { label: 'Paycom', compareHref: '/services/hcm-software/isolved-vs-paycom', compareLabel: 'isolved vs Paycom' },
+  { label: 'BambooHR', compareHref: '/services/hcm-software/isolved-vs-bamboohr', compareLabel: 'isolved vs BambooHR' },
+  { label: 'QuickBooks Payroll', compareHref: '/services/hcm-software/switch-from-quickbooks-to-isolved', compareLabel: 'Switch from QuickBooks to isolved' },
+  { label: 'Workday or UKG', compareHref: '/services/hcm-software/isolved-vs-workday', compareLabel: 'isolved vs Workday' },
   { label: 'Other' },
 ];
 
@@ -146,7 +146,7 @@ export default function HCMPlatformFinder() {
                 Your recommendation
               </p>
               <div style={{ fontSize: '1.3rem', fontWeight: '900', color: '#ECAC60', marginBottom: '1rem' }}>
-                iSolved, implemented and managed by BEG
+                isolved, implemented and managed by BEG
               </div>
               <p style={{ color: '#ccc', fontSize: '0.92rem', lineHeight: 1.7, marginBottom: '0.85rem' }}>{size ? sizeLine(size) : ''}</p>
               <p style={{ color: '#ccc', fontSize: '0.92rem', lineHeight: 1.7, marginBottom: '1.25rem' }}>{priority ? PRIORITY_LINE[priority] : ''}</p>
@@ -159,7 +159,7 @@ export default function HCMPlatformFinder() {
                 )}
                 {industry && industry.href && (
                   <Link href={industry.href} style={{ color: '#ECAC60', fontWeight: 600, fontSize: '0.85rem', border: '1px solid #333', borderRadius: '8px', padding: '0.5rem 0.9rem' }}>
-                    iSolved for {industry.label} &rarr;
+                    isolved for {industry.label} &rarr;
                   </Link>
                 )}
                 <Link href="/services/hcm-software/roi-calculator" style={{ color: '#ECAC60', fontWeight: 600, fontSize: '0.85rem', border: '1px solid #333', borderRadius: '8px', padding: '0.5rem 0.9rem' }}>

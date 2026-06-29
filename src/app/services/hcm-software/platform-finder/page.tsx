@@ -68,12 +68,12 @@ export default function PlatformFinderPage() {
               <p>You answer four questions: your team size, your current payroll and HR system, your top priority, and your industry. Based on your answers, the finder gives you a tailored recommendation and links to the most relevant comparison and industry pages for your situation.</p>
             </div>
             <div className="faq-item">
-              <h3>Why does it recommend iSolved with BEG?</h3>
-              <p>For growing and mid-market companies that want one connected platform, managed support, and AI that completes tasks, iSolved plus BEG is a strong fit. iSolved brings payroll, HR, time, and benefits onto one platform, it is the only HCM with a Connector for Claude, and BEG implements and supports it for you. The right choice still depends on your needs, which is what the discovery call confirms.</p>
+              <h3>Why does it recommend isolved with BEG?</h3>
+              <p>For growing and mid-market companies that want one connected platform, managed support, and AI that completes tasks, isolved plus BEG is a strong fit. The isolved platform brings payroll, HR, time, and benefits onto one platform, it is the only HCM with a Connector for Claude, and BEG implements and supports it for you. The right choice still depends on your needs, which is what the discovery call confirms.</p>
             </div>
             <div className="faq-item">
               <h3>Is this an unbiased tool?</h3>
-              <p>BEG is an authorized iSolved partner, so the finder is built around where iSolved fits well. It is honest about that. The comparison pages it links to lay out competitor strengths fairly, so you can make your own informed decision.</p>
+              <p>BEG is an authorized isolved partner, so the finder is built around where isolved fits well. It is honest about that. The comparison pages it links to lay out competitor strengths fairly, so you can make your own informed decision.</p>
             </div>
             <div className="faq-item">
               <h3>What happens after I get a recommendation?</h3>
@@ -103,8 +103,8 @@ export default function PlatformFinderPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'How does the HCM platform finder work?', acceptedAnswer: { '@type': 'Answer', text: 'You answer four questions about your team size, current payroll and HR system, top priority, and industry. The finder returns a tailored recommendation and links to the most relevant comparison and industry pages.' } },
-              { '@type': 'Question', name: 'Why does it recommend iSolved with BEG?', acceptedAnswer: { '@type': 'Answer', text: 'For growing and mid-market companies wanting one connected platform, managed support, and AI that completes tasks, iSolved plus BEG fits well. iSolved unifies payroll, HR, time, and benefits, is the only HCM with a Connector for Claude, and BEG implements and supports it.' } },
-              { '@type': 'Question', name: 'Is the finder unbiased?', acceptedAnswer: { '@type': 'Answer', text: 'BEG is an authorized iSolved partner, so the finder is built around where iSolved fits well and is honest about that. The comparison pages it links to present competitor strengths fairly.' } },
+              { '@type': 'Question', name: 'Why does it recommend isolved with BEG?', acceptedAnswer: { '@type': 'Answer', text: 'For growing and mid-market companies wanting one connected platform, managed support, and AI that completes tasks, isolved plus BEG fits well. isolved unifies payroll, HR, time, and benefits, is the only HCM with a Connector for Claude, and BEG implements and supports it.' } },
+              { '@type': 'Question', name: 'Is the finder unbiased?', acceptedAnswer: { '@type': 'Answer', text: 'BEG is an authorized isolved partner, so the finder is built around where isolved fits well and is honest about that. The comparison pages it links to present competitor strengths fairly.' } },
             ],
           }),
         }}

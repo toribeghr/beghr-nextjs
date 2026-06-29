@@ -4,17 +4,17 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'Time and Attendance Software | BEG',
-  description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. iSolved configured and supported by BEG.',
+  description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. isolved configured and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/time-and-attendance-software' },
   openGraph: {
     title: 'Time and Attendance Software | BEG',
-    description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. iSolved configured and supported by BEG.',
+    description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. isolved configured and supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/time-and-attendance-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Time and Attendance Software | BEG', description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. iSolved configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Time and Attendance Software | BEG', description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. isolved configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,20 +25,20 @@ const faqs = [
     a: 'Time and attendance software captures when employees work, applies your overtime and rounding rules, tracks PTO accrual, and supports scheduling. It then sends approved hours straight into payroll so nobody rekeys a timecard.',
   },
   {
-    q: 'How does iSolved capture employee time?',
-    a: 'iSolved captures time through physical clocks, web punch, and mobile, with options like geofencing for remote and field staff. Punches land in one system in real time, so supervisors review and approve hours from a single screen.',
+    q: 'How does isolved capture employee time?',
+    a: 'isolved captures time through physical clocks, web punch, and mobile, with options like geofencing for remote and field staff. Punches land in one system in real time, so supervisors review and approve hours from a single screen.',
   },
   {
-    q: 'Can iSolved handle complex overtime rules?',
-    a: 'Yes. iSolved applies daily and weekly overtime, double time, shift differentials, and state-specific rules automatically. BEG configures these pay rules to match your policies so overtime is calculated correctly without manual splitting of timecards.',
+    q: 'Can isolved handle complex overtime rules?',
+    a: 'Yes. The isolved platform applies daily and weekly overtime, double time, shift differentials, and state-specific rules automatically. BEG configures these pay rules to match your policies so overtime is calculated correctly without manual splitting of timecards.',
   },
   {
-    q: 'Does iSolved track PTO accrual?',
-    a: 'Yes. iSolved accrues PTO, sick, and other leave balances by your accrual rules, shows employees their balances, and routes time off requests for approval. Approved time updates the schedule and the timecard automatically.',
+    q: 'Does isolved track PTO accrual?',
+    a: 'Yes. The isolved platform accrues PTO, sick, and other leave balances by your accrual rules, shows employees their balances, and routes time off requests for approval. Approved time updates the schedule and the timecard automatically.',
   },
   {
     q: 'How does time feed into payroll?',
-    a: 'Because iSolved is one connected platform, approved hours move directly from time and attendance into payroll. There is no export or import between systems, which removes the most common source of pay errors and correction runs.',
+    a: 'Because isolved is one connected platform, approved hours move directly from time and attendance into payroll. There is no export or import between systems, which removes the most common source of pay errors and correction runs.',
   },
   {
     q: 'Why use BEG to implement time and attendance?',
@@ -81,7 +81,7 @@ export default function TimeAndAttendanceSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Time and Attendance</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>Time and Attendance Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Accurate hours are the foundation of accurate pay. The right time and attendance system captures time, applies your rules, and feeds payroll clean. Here is what to look for and how iSolved plus BEG handles it.
+            Accurate hours are the foundation of accurate pay. The right time and attendance system captures time, applies your rules, and feeds payroll clean. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function TimeAndAttendanceSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Strong time and attendance software captures time accurately, applies overtime and accrual rules automatically, supports scheduling, and feeds approved hours straight into payroll. iSolved does all of this on one connected platform, and BEG configures and supports the pay rules to match how your team actually works.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Strong time and attendance software captures time accurately, applies overtime and accrual rules automatically, supports scheduling, and feeds approved hours straight into payroll. The isolved platform handles all of this on one connected platform, and BEG configures and supports the pay rules to match how your team actually works.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is time and attendance software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function TimeAndAttendanceSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles time as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles time as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved captures time through physical clocks, web punch, and mobile, applies your overtime, differential, and rounding rules automatically, and accrues PTO and other leave by your policies. Schedules, time off requests, and approvals all live in the same platform, and approved hours feed payroll directly with no export or import.
+            isolved captures time through physical clocks, web punch, and mobile, applies your overtime, differential, and rounding rules automatically, and accrues PTO and other leave by your policies. Schedules, time off requests, and approvals all live in the same platform, and approved hours feed payroll directly with no export or import.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            That single-platform design is the point. Because more than 7 million employees are managed on iSolved, the platform is proven across the shift patterns, accrual rules, and overtime structures that real workforces run on, from one site to many.
+            That single-platform design is the point. Because more than 7 million employees are managed on isolved, the platform is proven across the shift patterns, accrual rules, and overtime structures that real workforces run on, from one site to many.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Time and attendance is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and supervisors can check overtime exposure or pull hours reports through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than navigating screens.
+            Time and attendance is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and supervisors can check overtime exposure or pull hours reports through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than navigating screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function TimeAndAttendanceSoftwarePage() {
             Pay rules are where time and attendance projects succeed or fail. Daily overtime, blended rates, shift differentials, accrual schedules, and state-specific rules all have to be configured correctly. BEG implements, configures, and supports the platform for your specific policies and locations, and updates the rules when your workforce changes.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in time and attendance that return shows up where accurate capture cuts overtime leakage and the correction runs that follow bad timecards. When you add a location, change a rule, or onboard a new crew, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in time and attendance that return shows up where accurate capture cuts overtime leakage and the correction runs that follow bad timecards. When you add a location, change a rule, or onboard a new crew, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function TimeAndAttendanceSoftwarePage() {
             There is no single right setup for every employer, and an honest answer should say so. A small salaried team on a predictable schedule may not need a clock at all. The value of full time and attendance grows with hourly headcount, overtime complexity, multiple shifts, and the number of locations you run.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how many hourly employees you pay, how complex your overtime and accrual rules are, whether you need scheduling, and whether you want a partner running the configuration or prefer to manage it yourself. iSolved is a strong fit when hourly complexity is in the picture and you want BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are how many hourly employees you pay, how complex your overtime and accrual rules are, whether you need scheduling, and whether you want a partner running the configuration or prefer to manage it yourself. The isolved platform is a strong fit when hourly complexity is in the picture and you want BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function TimeAndAttendanceSoftwarePage() {
       <OvertimePayCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See time and attendance in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See time and attendance in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your shifts, overtime rules, and accruals, and show you what iSolved plus BEG looks like for your team.
+            15-minute call. We will walk through your shifts, overtime rules, and accruals, and show you what isolved plus BEG looks like for your team.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

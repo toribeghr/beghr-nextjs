@@ -5,17 +5,17 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Staffing Agencies | BEG',
-  description: 'What to look for in staffing agency HCM software in 2026, the high-volume onboarding and multi-client payroll challenges, and why iSolved plus BEG fits.',
+  description: 'What to look for in staffing agency HCM software in 2026, the high-volume onboarding and multi-client payroll challenges, and why isolved plus BEG fits.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-staffing-agencies' },
   openGraph: {
     title: 'Best HCM Software for Staffing Agencies | BEG',
-    description: 'What to look for in staffing agency HCM software in 2026, the high-volume onboarding and multi-client payroll challenges, and why iSolved plus BEG fits.',
+    description: 'What to look for in staffing agency HCM software in 2026, the high-volume onboarding and multi-client payroll challenges, and why isolved plus BEG fits.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-staffing-agencies',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Staffing Agencies | BEG', description: 'What to look for in staffing agency HCM software in 2026, the high-volume onboarding and multi-client payroll challenges, and why iSolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Staffing Agencies | BEG', description: 'What to look for in staffing agency HCM software in 2026, the high-volume onboarding and multi-client payroll challenges, and why isolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for high-volume onboarding, the ability to run payroll across many client assignments and locations, accurate multi-state tax handling, and clean compliance for a constantly changing placed workforce. Speed and scale are the core requirements.',
   },
   {
-    q: 'Why is iSolved a strong pick for staffing agencies?',
-    a: 'iSolved keeps payroll, time, and HR on a single connected platform built to onboard and pay large, shifting populations of workers across clients. BEG configures the client structure, pay rules, and onboarding flows to match your placements.',
+    q: 'Why is isolved a strong pick for staffing agencies?',
+    a: 'isolved keeps payroll, time, and HR on a single connected platform built to onboard and pay large, shifting populations of workers across clients. BEG configures the client structure, pay rules, and onboarding flows to match your placements.',
   },
   {
-    q: 'Can iSolved handle multi-client and multi-state payroll?',
-    a: 'Yes. iSolved supports payroll across many assignments, locations, and states, with the tax handling that placing workers in different jurisdictions requires. BEG configures the structure so each client and state is handled correctly.',
+    q: 'Can isolved handle multi-client and multi-state payroll?',
+    a: 'Yes. The isolved platform supports payroll across many assignments, locations, and states, with the tax handling that placing workers in different jurisdictions requires. BEG configures the structure so each client and state is handled correctly.',
   },
   {
-    q: 'Is iSolved right for every agency?',
+    q: 'Is isolved right for every agency?',
     a: 'It depends on your needs. A small agency placing a few workers locally has different needs than a high-volume agency placing across many clients and states. The right fit depends on your placement volume, geography, and growth plans.',
   },
   {
     q: 'What does the Connector for Claude offer an agency?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Agency staff can pull payroll and placement reports and update records through conversation, which helps when volume is high.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Agency staff can pull payroll and placement reports and update records through conversation, which helps when volume is high.',
   },
 ];
 
@@ -102,15 +102,15 @@ export default function BestHCMStaffingAgenciesPage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Agencies</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Agencies</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform, which is what high-volume, multi-client staffing demands. Workers onboard quickly through self-service, payroll runs across many clients, locations, and states from one source of data, and reporting is available by client. With more than 7 million employees managed on iSolved, the platform is proven at the volume and turnover agencies operate in.
+            isolved is a single connected platform, which is what high-volume, multi-client staffing demands. Workers onboard quickly through self-service, payroll runs across many clients, locations, and states from one source of data, and reporting is available by client. With more than 7 million employees managed on isolved, the platform is proven at the volume and turnover agencies operate in.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            BEG implements, configures, and supports the platform for your client structure, pay rules, onboarding flows, and multi-state setup, and stays with you as you add clients and expand into new states. The Forrester-documented 330% ROI for iSolved tends to show up in staffing where faster onboarding and accurate multi-client payroll reclaim back-office time and reduce corrections.
+            BEG implements, configures, and supports the platform for your client structure, pay rules, onboarding flows, and multi-state setup, and stays with you as you add clients and expand into new states. The Forrester-documented 330% ROI for isolved tends to show up in staffing where faster onboarding and accurate multi-client payroll reclaim back-office time and reduce corrections.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            For the agency-specific setup, see our <Link href="/services/hcm-software/staffing-agency" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM for staffing agencies</Link> page.
+            For the agency-specific setup, see our <Link href="/services/hcm-software/staffing-agency" style={{ color: '#000', fontWeight: 600 }}>isolved HCM for staffing agencies</Link> page.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BestHCMStaffingAgenciesPage() {
             No platform is best for every agency, and a fair comparison will say so. A small agency placing a few workers in one state may be served well by a simpler tool. The case for a connected platform strengthens as your placement volume rises and you operate across many clients and states.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Ask how high your onboarding volume is, how many clients and states you pay across, how heavy your compliance load is, and whether you want a partner managing the platform. iSolved is a strong choice for high-volume, multi-client agencies that want BEG running it. BEG will compare it fairly against your current setup.
+            Ask how high your onboarding volume is, how many clients and states you pay across, how heavy your compliance load is, and whether you want a partner managing the platform. The isolved platform is a strong choice for high-volume, multi-client agencies that want BEG running it. BEG will compare it fairly against your current setup.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMStaffingAgenciesPage() {
       <OvertimePayCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Agency</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Agency</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through onboarding volume and multi-client payroll and show you what iSolved plus BEG looks like for your agency.
+            15-minute call. We will walk through onboarding volume and multi-client payroll and show you what isolved plus BEG looks like for your agency.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMStaffingAgenciesPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, onboarding, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, onboarding, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'High-volume onboarding is the prime automation target for staffing agencies. Here is what to prioritize.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'Multi-state requirements and what your HCM platform should be tracking automatically across clients.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

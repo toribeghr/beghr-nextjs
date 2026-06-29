@@ -4,26 +4,26 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved Pricing Explained | BEG',
-  description: 'How iSolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.',
+  title: 'isolved Pricing Explained | BEG',
+  description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-pricing' },
   openGraph: {
-    title: 'iSolved Pricing Explained | BEG',
-    description: 'How iSolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.',
+    title: 'isolved Pricing Explained | BEG',
+    description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-pricing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved Pricing Explained | BEG', description: 'How iSolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Pricing Explained | BEG', description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'How does iSolved pricing work?',
-    a: 'iSolved pricing is scoped to your business. The two biggest drivers are the modules you choose, such as payroll, time, benefits, and talent, and your employee headcount. Because every company has a different mix, pricing is tailored rather than fixed on a public list.',
+    q: 'How does isolved pricing work?',
+    a: 'isolved pricing is scoped to your business. The two biggest drivers are the modules you choose, such as payroll, time, benefits, and talent, and your employee headcount. Because every company has a different mix, pricing is tailored rather than fixed on a public list.',
   },
   {
     q: 'Why is there no single published price?',
@@ -42,8 +42,8 @@ const faqs = [
     a: 'BEG scopes only the modules that fit your needs today, so you are not buying capability you will not touch. As you grow, you can add modules, and BEG helps you decide when that makes sense.',
   },
   {
-    q: 'Is iSolved worth the investment?',
-    a: 'Forrester documented a 330% ROI for iSolved, and more than 7 million employees are managed on the platform. The right way to judge value is against your current costs, which is exactly what the BEG cost comparison is designed to show.',
+    q: 'Is isolved worth the investment?',
+    a: 'Forrester documented a 330% ROI for isolved, and more than 7 million employees are managed on the platform. The right way to judge value is against your current costs, which is exactly what the BEG cost comparison is designed to show.',
   },
 ];
 
@@ -63,11 +63,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved Pricing', item: 'https://www.beghr.com/services/hcm-software/isolved-pricing' },
+    { '@type': 'ListItem', position: 3, name: 'isolved Pricing', item: 'https://www.beghr.com/services/hcm-software/isolved-pricing' },
   ],
 };
 
-export default function iSolvedPricingPage() {
+export default function isolvedPricingPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -78,10 +78,10 @@ export default function iSolvedPricingPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Pricing</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            How iSolved Pricing Works
+            How isolved Pricing Works
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            iSolved pricing is scoped to your business, not pulled from a one-size-fits-all list. It reflects the modules you choose and your headcount. BEG runs a custom cost comparison so you know exactly what you are buying and why.
+            isolved pricing is scoped to your business, not pulled from a one-size-fits-all list. It reflects the modules you choose and your headcount. BEG runs a custom cost comparison so you know exactly what you are buying and why.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -92,9 +92,9 @@ export default function iSolvedPricingPage() {
       {/* How pricing is structured */}
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What Drives iSolved Pricing</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What Drives isolved Pricing</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved pricing is built around two main factors. The first is the set of modules you choose. iSolved is a single connected platform covering payroll, HR, time, and benefits, and you select the capabilities that match how your business runs. A company that needs only payroll is scoped differently from one that needs payroll, time tracking, benefits administration, and talent tools.
+            isolved pricing is built around two main factors. The first is the set of modules you choose. The platform is a single connected isolved system covering payroll, HR, time, and benefits, and you select the capabilities that match how your business runs. A company that needs only payroll is scoped differently from one that needs payroll, time tracking, benefits administration, and talent tools.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
             The second factor is headcount. As the number of employees on the platform changes, so does the scope of what the system manages. Together, modules and headcount produce a price that reflects your actual usage rather than an arbitrary tier. This is why you will not find a meaningful published price online: a real number requires knowing your specific needs first.
@@ -120,10 +120,10 @@ export default function iSolvedPricingPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>The BEG Custom Cost Comparison</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            The most useful number is not the iSolved price in isolation. It is how that price compares to what you spend today across the tools and manual work you currently rely on. BEG runs a custom cost comparison that puts your current setup next to a scoped iSolved configuration, so you can judge value on real terms.
+            The most useful number is not the isolved price in isolation. It is how that price compares to what you spend today across the tools and manual work you currently rely on. BEG runs a custom cost comparison that puts your current setup next to a scoped isolved configuration, so you can judge value on real terms.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            That comparison also accounts for what BEG handles as your partner: implementation, configuration, data migration, and ongoing support. When you weigh iSolved against your current state, you are comparing a managed, single connected platform against a patchwork you maintain yourself. Forrester documented a 330% ROI for iSolved, and the cost comparison is how you see what that could mean for your business.
+            That comparison also accounts for what BEG handles as your partner: implementation, configuration, data migration, and ongoing support. When you weigh isolved against your current state, you are comparing a managed, single connected platform against a patchwork you maintain yourself. Forrester documented a 330% ROI for isolved, and the cost comparison is how you see what that could mean for your business.
           </p>
         </div>
       </section>
@@ -136,7 +136,7 @@ export default function iSolvedPricingPage() {
             Your investment buys a single connected platform for payroll, HR, time, and benefits, managed and supported by BEG. It also includes the Connector for Claude, generally available in June 2026, the only AI of its kind in HCM, which completes real HR tasks through conversation.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            With more than 7 million employees managed on iSolved, you are investing in a platform proven at scale. The custom cost comparison from BEG is the fastest way to see how that value lines up against what you spend now.
+            With more than 7 million employees managed on isolved, you are investing in a platform proven at scale. The custom cost comparison from BEG is the fastest way to see how that value lines up against what you spend now.
           </p>
         </div>
       </section>
@@ -166,10 +166,10 @@ export default function iSolvedPricingPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Get a Custom iSolved Cost Comparison
+            Get a Custom isolved Cost Comparison
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will scope the modules you need, factor in your headcount, and compare a tailored iSolved price against what you spend today.
+            15-minute call. We will scope the modules you need, factor in your headcount, and compare a tailored isolved price against what you spend today.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -182,7 +182,7 @@ export default function iSolvedPricingPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

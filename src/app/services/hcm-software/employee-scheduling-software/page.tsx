@@ -4,17 +4,17 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'Employee Scheduling Software | BEG',
-  description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. iSolved on one platform, supported by BEG.',
+  description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. isolved on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/employee-scheduling-software' },
   openGraph: {
     title: 'Employee Scheduling Software | BEG',
-    description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. iSolved on one platform, supported by BEG.',
+    description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. isolved on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/employee-scheduling-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Employee Scheduling Software | BEG', description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. iSolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Employee Scheduling Software | BEG', description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,16 +25,16 @@ const faqs = [
     a: 'Employee scheduling software builds shift schedules, checks coverage, manages swaps and availability, and flags overtime before it happens. It replaces paper schedules and spreadsheets with a single view of who is working when, and feeds those hours into time and payroll.',
   },
   {
-    q: 'How does iSolved handle shift scheduling and coverage?',
-    a: 'iSolved scheduling lets managers build shifts by role and location, see coverage gaps, and handle availability, swaps, and open shifts in one place. Employees view schedules and request changes from any device, so the schedule stays current.',
+    q: 'How does isolved handle shift scheduling and coverage?',
+    a: 'isolved scheduling lets managers build shifts by role and location, see coverage gaps, and handle availability, swaps, and open shifts in one place. Employees view schedules and request changes from any device, so the schedule stays current.',
   },
   {
-    q: 'Can iSolved help control overtime?',
-    a: 'Yes. Because scheduling, time, and payroll share one platform, iSolved can surface scheduled hours against thresholds so managers see potential overtime before the schedule is published, instead of finding it after the fact on the pay run.',
+    q: 'Can isolved help control overtime?',
+    a: 'Yes. Because scheduling, time, and payroll share one platform, isolved can surface scheduled hours against thresholds so managers see potential overtime before the schedule is published, instead of finding it after the fact on the pay run.',
   },
   {
     q: 'How do scheduled hours reach time and payroll?',
-    a: 'Because iSolved is one connected platform, scheduling, time tracking, and payroll share the same data. Worked hours flow from the clock into payroll without exporting or rekeying, so what you schedule and what you pay stay aligned.',
+    a: 'Because isolved is one connected platform, scheduling, time tracking, and payroll share the same data. Worked hours flow from the clock into payroll without exporting or rekeying, so what you schedule and what you pay stay aligned.',
   },
   {
     q: 'Why use BEG to implement scheduling?',
@@ -81,7 +81,7 @@ export default function EmployeeSchedulingSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Employee Scheduling</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>Employee Scheduling Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Shift scheduling, coverage, and overtime control work best when they feed time and payroll automatically. Here is what to look for and how iSolved plus BEG handles it.
+            Shift scheduling, coverage, and overtime control work best when they feed time and payroll automatically. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function EmployeeSchedulingSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good employee scheduling software builds shifts, shows coverage gaps, flags overtime before it happens, and feeds worked hours straight into time and payroll. iSolved does all of this on one connected platform, and BEG configures and supports it around how your business staffs each location.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good employee scheduling software builds shifts, shows coverage gaps, flags overtime before it happens, and feeds worked hours straight into time and payroll. The isolved platform handles all of this on one connected platform, and BEG configures and supports it around how your business staffs each location.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is employee scheduling software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function EmployeeSchedulingSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles scheduling as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles scheduling as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved runs scheduling inside the same platform that runs your time tracking, HR, and payroll. Managers build shifts by role and location, see coverage gaps, and handle availability, swaps, and open shifts in one place. Employees view their schedules and request changes from any device, so the published schedule stays current instead of drifting out of date.
+            isolved runs scheduling inside the same platform that runs your time tracking, HR, and payroll. Managers build shifts by role and location, see coverage gaps, and handle availability, swaps, and open shifts in one place. Employees view their schedules and request changes from any device, so the published schedule stays current instead of drifting out of date.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            Because scheduling, time, and payroll share one system, iSolved can surface scheduled hours against overtime thresholds before the schedule is published, and worked hours flow from the clock into payroll without rekeying. Because more than 7 million employees are managed on iSolved, the scheduling workflow is proven across the shift patterns and multi-location operations employers of every size run.
+            Because scheduling, time, and payroll share one system, isolved can surface scheduled hours against overtime thresholds before the schedule is published, and worked hours flow from the clock into payroll without rekeying. Because more than 7 million employees are managed on isolved, the scheduling workflow is proven across the shift patterns and multi-location operations employers of every size run.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Scheduling is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and a manager can check coverage or pull a labor report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than clicking through screens.
+            Scheduling is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and a manager can check coverage or pull a labor report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than clicking through screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function EmployeeSchedulingSoftwarePage() {
             Staffing rules are specific to each business. Shift definitions, roles, locations, availability rules, and overtime thresholds all have to match how you actually operate. BEG implements, configures, and supports the platform for your specific scheduling needs, and stays with you as locations and staffing patterns change.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in scheduling that return shows up where overtime visibility and a direct feed into payroll cut unplanned labor cost and payroll corrections. When you add a location, change a shift structure, or adjust an overtime rule, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in scheduling that return shows up where overtime visibility and a direct feed into payroll cut unplanned labor cost and payroll corrections. When you add a location, change a shift structure, or adjust an overtime rule, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function EmployeeSchedulingSoftwarePage() {
             No single setup fits every employer, and an honest answer should say so. A small team on a fixed weekly schedule may not need scheduling software at all. The value grows with how variable your shifts are, how many locations and roles you staff, and how much unplanned overtime is costing you today.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how often your schedule changes, whether overtime surprises you on the pay run, and whether you want scheduled hours to feed time and payroll automatically. iSolved is a strong fit when shifts are variable and you want scheduling joined to time and pay with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are how often your schedule changes, whether overtime surprises you on the pay run, and whether you want scheduled hours to feed time and payroll automatically. The isolved platform is a strong fit when shifts are variable and you want scheduling joined to time and pay with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function EmployeeSchedulingSoftwarePage() {
       <OvertimePayCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See scheduling in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See scheduling in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through how you staff your shifts, look at where overtime is leaking today, and show you what iSolved plus BEG looks like for your team.
+            15-minute call. We will walk through how you staff your shifts, look at where overtime is leaking today, and show you what isolved plus BEG looks like for your team.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

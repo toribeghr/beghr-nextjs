@@ -4,18 +4,18 @@ import HCMROICalculator from '@/components/HCMROICalculator';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM ROI Calculator | See Your Savings | BEG',
+  title: 'isolved HCM ROI Calculator | See Your Savings | BEG',
   description: 'Calculate the ROI of moving to one connected HCM platform. Estimate admin hours reclaimed, error costs avoided, and annual value vs. juggling separate HR and payroll systems.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/roi-calculator' },
   openGraph: {
-    title: 'iSolved HCM ROI Calculator | See Your Savings | BEG',
-    description: 'Estimate the ROI of consolidating onto one HCM platform: admin hours reclaimed, errors avoided, and annual value. Forrester documented 330% ROI for iSolved clients.',
+    title: 'isolved HCM ROI Calculator | See Your Savings | BEG',
+    description: 'Estimate the ROI of consolidating onto one HCM platform: admin hours reclaimed, errors avoided, and annual value. Forrester documented 330% ROI for isolved clients.',
     url: 'https://www.beghr.com/services/hcm-software/roi-calculator',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM ROI Calculator | See Your Savings | BEG', description: 'Estimate the ROI of consolidating onto one HCM platform. Forrester documented 330% ROI for iSolved clients.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM ROI Calculator | See Your Savings | BEG', description: 'Estimate the ROI of consolidating onto one HCM platform. Forrester documented 330% ROI for isolved clients.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -29,10 +29,10 @@ export default function HCMROICalculatorPage() {
           <div className="head center">
             <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · ROI Calculator</p>
             <h1 style={{ color: '#ffffff', fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', fontWeight: '900', lineHeight: '1.15', marginBottom: '1.25rem' }}>
-              iSolved HCM ROI Calculator
+              isolved HCM ROI Calculator
             </h1>
             <p style={{ color: '#cccccc', fontSize: '1.05rem', lineHeight: '1.75', maxWidth: '620px', margin: '0 auto' }}>
-              Every disconnected system is a reconciliation, a double entry, and another place for payroll to go wrong. Enter your headcount, how many systems you run, and your weekly admin hours to see what one connected platform could give back. Forrester documented a 330% ROI for iSolved clients.
+              Every disconnected system is a reconciliation, a double entry, and another place for payroll to go wrong. Enter your headcount, how many systems you run, and your weekly admin hours to see what one connected platform could give back. Forrester documented a 330% ROI for isolved clients.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function HCMROICalculatorPage() {
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1.5rem' }}>
             <LeadCaptureForm
               toolName="HCM ROI Summary"
-              toolDescription="Enter your details and we will send your iSolved HCM ROI summary plus a tailored breakdown for your company."
+              toolDescription="Enter your details and we will send your isolved HCM ROI summary plus a tailored breakdown for your company."
               assetLabel="Email me my ROI summary"
               calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
               followupText="your payroll and HR needs"
@@ -100,8 +100,8 @@ export default function HCMROICalculatorPage() {
               <p>The biggest returns from an HCM platform come from consolidation, not the software license. This calculator estimates three things: the admin hours reclaimed when payroll, HR, time, and benefits live on one connected platform instead of several disconnected tools, the dollar value of that reclaimed time at a loaded labor rate, and the error and double-entry cost avoided by removing manual data transfer between systems.</p>
             </div>
             <div className="faq-item">
-              <h3>What is the documented ROI of iSolved?</h3>
-              <p>Forrester documented an average 330% ROI for iSolved clients. The return comes from eliminating reconciliation between systems, reducing HR admin time, automating compliance, and cutting payroll errors. The exact figure for your business depends on your headcount, how many systems you run today, and how much manual work your team does now.</p>
+              <h3>What is the documented ROI of isolved?</h3>
+              <p>Forrester documented an average 330% ROI for isolved clients. The return comes from eliminating reconciliation between systems, reducing HR admin time, automating compliance, and cutting payroll errors. The exact figure for your business depends on your headcount, how many systems you run today, and how much manual work your team does now.</p>
             </div>
             <div className="faq-item">
               <h3>Why do separate HR and payroll systems cost so much?</h3>
@@ -109,11 +109,11 @@ export default function HCMROICalculatorPage() {
             </div>
             <div className="faq-item">
               <h3>Does BEG implement and support the platform, or just sell it?</h3>
-              <p>BEG is an authorized iSolved partner that implements the platform, configures it for your industry, and supports you year-round. You are not handed a login and left to figure it out, and you are never alone in a support ticket queue. This is the difference between buying software and getting a managed outcome.</p>
+              <p>BEG is an authorized isolved partner that implements the platform, configures it for your industry, and supports you year-round. You are not handed a login and left to figure it out, and you are never alone in a support ticket queue. This is the difference between buying software and getting a managed outcome.</p>
             </div>
             <div className="faq-item">
-              <h3>What makes iSolved different from ADP, Gusto, Paylocity, or Rippling?</h3>
-              <p>iSolved puts payroll, HR, time, and benefits on a single connected platform, and it is the only HCM platform with a generally available Connector for Claude, which lets your team complete real HR tasks through a Claude conversation. Combined with BEG-managed implementation and local support, that is a combination no competitor on this list currently offers.</p>
+              <h3>What makes isolved different from ADP, Gusto, Paylocity, or Rippling?</h3>
+              <p>isolved puts payroll, HR, time, and benefits on a single connected platform, and it is the only HCM platform with a generally available Connector for Claude, which lets your team complete real HR tasks through a Claude conversation. Combined with BEG-managed implementation and local support, that is a combination no competitor on this list currently offers.</p>
             </div>
             <div className="faq-item">
               <h3>How accurate is this estimate?</h3>
@@ -129,7 +129,7 @@ export default function HCMROICalculatorPage() {
           <p style={{ color: '#666666', fontSize: '0.95rem' }}>
             Want the full platform overview?{' '}
             <Link href="/services/hcm-software" style={{ color: '#ECAC60', fontWeight: '600' }}>
-              See all iSolved HCM software
+              See all isolved HCM software
             </Link>
             {' '}or compare your current payroll spend with the{' '}
             <Link href="/services/managed-payroll/cost-calculator" style={{ color: '#ECAC60', fontWeight: '600' }}>
@@ -158,26 +158,26 @@ export default function HCMROICalculatorPage() {
               },
               {
                 '@type': 'Question',
-                name: 'What is the documented ROI of iSolved?',
+                name: 'What is the documented ROI of isolved?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Forrester documented an average 330% ROI for iSolved clients, driven by eliminating reconciliation between systems, reducing HR admin time, automating compliance, and cutting payroll errors.',
+                  text: 'Forrester documented an average 330% ROI for isolved clients, driven by eliminating reconciliation between systems, reducing HR admin time, automating compliance, and cutting payroll errors.',
                 },
               },
               {
                 '@type': 'Question',
-                name: 'What makes iSolved different from ADP, Gusto, Paylocity, or Rippling?',
+                name: 'What makes isolved different from ADP, Gusto, Paylocity, or Rippling?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'iSolved puts payroll, HR, time, and benefits on one connected platform and is the only HCM platform with a generally available Connector for Claude. Combined with BEG-managed implementation and local support, that is a combination competitors do not currently offer.',
+                  text: 'isolved puts payroll, HR, time, and benefits on one connected platform and is the only HCM platform with a generally available Connector for Claude. Combined with BEG-managed implementation and local support, that is a combination competitors do not currently offer.',
                 },
               },
               {
                 '@type': 'Question',
-                name: 'Does BEG implement and support iSolved or just sell it?',
+                name: 'Does BEG implement and support isolved or just sell it?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'BEG is an authorized iSolved partner that implements the platform, configures it for your industry, and supports you year-round, so you get a managed outcome rather than just a software login.',
+                  text: 'BEG is an authorized isolved partner that implements the platform, configures it for your industry, and supports you year-round, so you get a managed outcome rather than just a software login.',
                 },
               },
             ],

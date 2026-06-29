@@ -4,33 +4,33 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved Reseller & Partner | BEG',
-  description: 'BEG is an authorized iSolved reseller and partner. Learn what that means and why buying iSolved through BEG includes implementation, migration, and support.',
+  title: 'isolved Reseller & Partner | BEG',
+  description: 'BEG is an authorized isolved reseller and partner. Learn what that means and why buying isolved through BEG includes implementation, migration, and support.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-reseller' },
   openGraph: {
-    title: 'iSolved Reseller & Partner | BEG',
-    description: 'BEG is an authorized iSolved reseller and partner. Learn what that means and why buying iSolved through BEG includes implementation, migration, and support.',
+    title: 'isolved Reseller & Partner | BEG',
+    description: 'BEG is an authorized isolved reseller and partner. Learn what that means and why buying isolved through BEG includes implementation, migration, and support.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-reseller',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved Reseller & Partner | BEG', description: 'BEG is an authorized iSolved reseller and partner. Learn what that means and why buying iSolved through BEG includes implementation, migration, and support.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Reseller & Partner | BEG', description: 'BEG is an authorized isolved reseller and partner. Learn what that means and why buying isolved through BEG includes implementation, migration, and support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'What does it mean that BEG is an iSolved reseller?',
-    a: 'As an authorized iSolved reseller and partner, BEG sells, implements, configures, and supports the iSolved platform directly. You get the same platform along with a local partner who is accountable for making it work for your business.',
+    q: 'What does it mean that BEG is an isolved reseller?',
+    a: 'As an authorized isolved reseller and partner, BEG sells, implements, configures, and supports the isolved platform directly. You get the same platform along with a local partner who is accountable for making it work for your business.',
   },
   {
-    q: 'Does buying iSolved through BEG cost more than going direct?',
+    q: 'Does buying isolved through BEG cost more than going direct?',
     a: 'Buying through BEG bundles implementation, configuration, migration, and ongoing support into your relationship rather than leaving you to source those separately. BEG will run a custom cost comparison so you can see exactly what is included for your size and needs.',
   },
   {
-    q: 'What is included when I buy iSolved from BEG?',
+    q: 'What is included when I buy isolved from BEG?',
     a: 'BEG implements the platform, configures it to your policies, migrates your existing payroll and employee data, and provides ongoing support. You are buying an outcome, not just a software license.',
   },
   {
@@ -39,11 +39,11 @@ const faqs = [
   },
   {
     q: 'Does the reseller relationship affect the AI capabilities?',
-    a: 'No. You get the full iSolved platform, including the Connector for Claude, generally available in June 2026, which completes real HR tasks through conversation. BEG helps you put that capability to work.',
+    a: 'No. You get the full isolved platform, including the Connector for Claude, generally available in June 2026, which completes real HR tasks through conversation. BEG helps you put that capability to work.',
   },
   {
-    q: 'Is iSolved a proven platform to buy into?',
-    a: 'Yes. More than 7 million employees are managed on the iSolved platform, and Forrester documented a 330% ROI. Buying through BEG pairs that proven platform with hands-on partnership.',
+    q: 'Is isolved a proven platform to buy into?',
+    a: 'Yes. More than 7 million employees are managed on the isolved platform, and Forrester documented a 330% ROI. Buying through BEG pairs that proven platform with hands-on partnership.',
   },
 ];
 
@@ -63,11 +63,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved Reseller', item: 'https://www.beghr.com/services/hcm-software/isolved-reseller' },
+    { '@type': 'ListItem', position: 3, name: 'isolved Reseller', item: 'https://www.beghr.com/services/hcm-software/isolved-reseller' },
   ],
 };
 
-export default function iSolvedResellerPage() {
+export default function isolvedResellerPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -76,12 +76,12 @@ export default function iSolvedResellerPage() {
       {/* Hero */}
       <section className="hero" style={{ background: '#000000', color: '#ffffff', padding: '4rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · iSolved Partner</p>
+          <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · isolved Partner</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            BEG Is an Authorized iSolved Reseller and Partner
+            BEG Is an Authorized isolved Reseller and Partner
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            You can buy iSolved as software. Or you can buy it from a partner who implements it, configures it, migrates your data, and stands behind it. That is what BEG does as an authorized iSolved reseller.
+            You can buy isolved as software. Or you can buy it from a partner who implements it, configures it, migrates your data, and stands behind it. That is what BEG does as an authorized isolved reseller.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -92,9 +92,9 @@ export default function iSolvedResellerPage() {
       {/* What a reseller is */}
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What an Authorized iSolved Reseller Actually Is</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What an Authorized isolved Reseller Actually Is</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            An authorized reseller is more than a sales channel. As an iSolved partner, BEG is licensed to sell the platform and is also responsible for delivering it well. That means BEG sits between you and a complex piece of software, translating your business needs into a working configuration and staying accountable for the result.
+            An authorized reseller is more than a sales channel. As an isolved partner, BEG is licensed to sell the platform and is also responsible for delivering it well. That means BEG sits between you and a complex piece of software, translating your business needs into a working configuration and staying accountable for the result.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
             The distinction matters because HCM software is only as valuable as its setup. A platform that is wrong for your policies, or half configured, creates more work than it removes. Buying through a partner means the people selling you the system are the same people making sure it fits.
@@ -105,9 +105,9 @@ export default function iSolvedResellerPage() {
       {/* Why buy through BEG */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why Buy iSolved Through BEG</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why Buy isolved Through BEG</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            When you buy iSolved through BEG, you are not buying a login and a manual. You are buying an outcome. BEG implements the platform, configures it to your policies and workflows, migrates your existing payroll history and employee records, and provides ongoing support. Each of those is a service you would otherwise have to source, manage, and pay for separately.
+            When you buy isolved through BEG, you are not buying a login and a manual. You are buying an outcome. BEG implements the platform, configures it to your policies and workflows, migrates your existing payroll history and employee records, and provides ongoing support. Each of those is a service you would otherwise have to source, manage, and pay for separately.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
             Because pricing depends on your headcount and the modules you need, BEG runs a custom cost comparison rather than quoting a one-size-fits-all number. You see what is included and why, so the decision is grounded in your actual requirements instead of a generic price sheet.
@@ -133,10 +133,10 @@ export default function iSolvedResellerPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>The Full Platform, Including AI</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            Buying through BEG gives you the complete iSolved platform: payroll, HR, time, and benefits on a single connected system. That includes the Connector for Claude, generally available in June 2026, which is the only AI of its kind in HCM and completes real HR tasks through conversation.
+            Buying through BEG gives you the complete isolved platform: payroll, HR, time, and benefits on a single connected system. That includes the Connector for Claude, generally available in June 2026, which is the only AI of its kind in HCM and completes real HR tasks through conversation.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            More than 7 million employees are managed on iSolved, and Forrester documented a 330% ROI. As your partner, BEG helps you turn that platform and its capabilities into real results, not just a subscription you have to figure out alone.
+            More than 7 million employees are managed on isolved, and Forrester documented a 330% ROI. As your partner, BEG helps you turn that platform and its capabilities into real results, not just a subscription you have to figure out alone.
           </p>
         </div>
       </section>
@@ -166,10 +166,10 @@ export default function iSolvedResellerPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Buy iSolved From a Partner Who Stands Behind It
+            Buy isolved From a Partner Who Stands Behind It
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will explain what buying through BEG includes, run a custom cost comparison, and show you what iSolved plus BEG looks like for your business.
+            15-minute call. We will explain what buying through BEG includes, run a custom cost comparison, and show you what isolved plus BEG looks like for your business.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -182,7 +182,7 @@ export default function iSolvedResellerPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

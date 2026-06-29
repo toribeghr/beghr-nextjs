@@ -5,17 +5,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'HCM Software for a 50-Employee Company | BEG',
-  description: 'HCM software for a 50-employee company. See why a single connected iSolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.',
+  description: 'HCM software for a 50-employee company. See why a single connected isolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/hcm-software-for-50-employees' },
   openGraph: {
     title: 'HCM Software for a 50-Employee Company | BEG',
-    description: 'HCM software for a 50-employee company. See why a single connected iSolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.',
+    description: 'HCM software for a 50-employee company. See why a single connected isolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.',
     url: 'https://www.beghr.com/services/hcm-software/hcm-software-for-50-employees',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for a 50-Employee Company | BEG', description: 'HCM software for a 50-employee company. See why a single connected iSolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for a 50-Employee Company | BEG', description: 'HCM software for a 50-employee company. See why a single connected isolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -30,12 +30,12 @@ const faqs = [
     a: 'Spreadsheets and disconnected apps start to create double entry and small errors that take real time to fix. PTO tracking, benefits changes, and new-hire paperwork are the most common pain points, and they are exactly what a connected platform is built to handle.',
   },
   {
-    q: 'Do I need a dedicated HR person to run iSolved at this size?',
-    a: 'No. Many 50-employee companies still split HR duties across a founder, an office manager, or a finance lead. Because BEG implements, configures, and supports iSolved for you, you do not need deep in-house HR expertise to run it well.',
+    q: 'Do I need a dedicated HR person to run isolved at this size?',
+    a: 'No. Many 50-employee companies still split HR duties across a founder, an office manager, or a finance lead. Because BEG implements, configures, and supports isolved for you, you do not need deep in-house HR expertise to run it well.',
   },
   {
-    q: 'Will iSolved still fit when we grow past 50?',
-    a: 'Yes. iSolved is built to scale into the mid-market, so the platform you set up at 50 employees can grow with you through 100, 250, and beyond without forcing another migration.',
+    q: 'Will isolved still fit when we grow past 50?',
+    a: 'Yes. The isolved platform is built to scale into the mid-market, so the platform you set up at 50 employees can grow with you through 100, 250, and beyond without forcing another migration.',
   },
   {
     q: 'How does BEG help a company our size specifically?',
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: 'Is the AI capability relevant for a 50-person team?',
-    a: 'Yes. iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. For a lean team, completing real HR tasks through conversation saves time that smaller companies rarely have to spare.',
+    a: 'Yes. The isolved platform is the only HCM platform with a Connector for Claude, generally available in June 2026. For a lean team, completing real HR tasks through conversation saves time that smaller companies rarely have to spare.',
   },
 ];
 
@@ -81,7 +81,7 @@ export default function HcmFor50EmployeesPage() {
             HCM Software for a 50-Employee Company
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            At 50 employees you have outgrown the basic payroll app, but you are not ready to be buried in enterprise complexity. iSolved gives you one connected platform, and BEG runs it for you so a lean team stays lean.
+            At 50 employees you have outgrown the basic payroll app, but you are not ready to be buried in enterprise complexity. The isolved platform gives you one connected platform, and BEG runs it for you so a lean team stays lean.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -102,15 +102,15 @@ export default function HcmFor50EmployeesPage() {
         </div>
       </section>
 
-      {/* Why iSolved fits */}
+      {/* Why isolved fits */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Fits a 50-Person Company</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Fits a 50-Person Company</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved brings payroll, HR, time, and benefits together on one connected platform, so your data lives in a single system instead of scattered across tools that do not talk to each other. For a 50-employee company, that consolidation is the difference between an HR function that runs in the background and one that constantly pulls people away from their actual jobs.
+            isolved brings payroll, HR, time, and benefits together on one connected platform, so your data lives in a single system instead of scattered across tools that do not talk to each other. For a 50-employee company, that consolidation is the difference between an HR function that runs in the background and one that constantly pulls people away from their actual jobs.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Just as important, you only buy what you need. BEG scopes your configuration to the modules that matter at your size today, so you are not paying for enterprise features you will not touch for years. With more than 7 million employees managed on iSolved and a Forrester-documented 330% ROI, you are choosing a platform built to perform, not just to check a box.
+            Just as important, you only buy what you need. BEG scopes your configuration to the modules that matter at your size today, so you are not paying for enterprise features you will not touch for years. With more than 7 million employees managed on isolved and a Forrester-documented 330% ROI, you are choosing a platform built to perform, not just to check a box.
           </p>
         </div>
       </section>
@@ -133,7 +133,7 @@ export default function HcmFor50EmployeesPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>AI That Does the Work, Not Just Answers Questions</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just look things up. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
+            isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just look things up. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
             For a 50-person team, time is the scarcest resource. Being able to move HR work forward by simply describing what you need is a genuine advantage, and it is available today through BEG.
@@ -166,10 +166,10 @@ export default function HcmFor50EmployeesPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            See What iSolved Looks Like at 50 Employees
+            See What isolved Looks Like at 50 Employees
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your current setup, scope the right modules, and show you what iSolved plus BEG looks like for a company your size.
+            15-minute call. We will walk through your current setup, scope the right modules, and show you what isolved plus BEG looks like for a company your size.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -182,7 +182,7 @@ export default function HcmFor50EmployeesPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

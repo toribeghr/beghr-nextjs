@@ -22,11 +22,11 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 const faqs = [
   {
     question: 'Can AI run payroll on its own?',
-    answer: 'AI can execute and assist with many payroll steps when it is connected to a real platform, but payroll still benefits from human review and approval, especially for exceptions and final sign off. The iSolved Connector for Claude can run a pay cycle inside the platform while respecting the permissions and approval steps your team configures.',
+    answer: 'AI can execute and assist with many payroll steps when it is connected to a real platform, but payroll still benefits from human review and approval, especially for exceptions and final sign off. The isolved Connector for Claude can run a pay cycle inside the platform while respecting the permissions and approval steps your team configures.',
   },
   {
     question: 'What can AI reliably do in payroll today?',
-    answer: 'AI is well suited to repetitive, rules based work: generating reports, flagging anomalies, answering policy questions, and, with a task completing connector, executing routine actions inside the platform. The iSolved Connector for Claude moves AI from answering questions to completing tasks like running payroll, updating records, and pulling reports.',
+    answer: 'AI is well suited to repetitive, rules based work: generating reports, flagging anomalies, answering policy questions, and, with a task completing connector, executing routine actions inside the platform. The isolved Connector for Claude moves AI from answering questions to completing tasks like running payroll, updating records, and pulling reports.',
   },
   {
     question: 'What should AI not do in payroll?',
@@ -34,11 +34,11 @@ const faqs = [
   },
   {
     question: 'How is a connector different from a payroll chatbot?',
-    answer: 'A chatbot answers questions about payroll. A connector completes the work inside the platform. Chatbots answer questions. iSolved completes the task. The iSolved Connector for Claude executes actions in iSolved rather than just describing how to do them.',
+    answer: 'A chatbot answers questions about payroll. A connector completes the work inside the platform. Chatbots answer questions. Chatbots answer. isolved completes the task. The isolved Connector for Claude executes actions in isolved rather than just describing how to do them.',
   },
   {
     question: 'Is AI driven payroll secure and compliant?',
-    answer: 'When AI operates within platform permissions and approval steps, it inherits the same controls your team already relies on. The iSolved Connector for Claude only does what the authorized user is allowed to do, and BEG configures roles and approvals so sensitive actions stay supervised.',
+    answer: 'When AI operates within platform permissions and approval steps, it inherits the same controls your team already relies on. The isolved Connector for Claude only does what the authorized user is allowed to do, and BEG configures roles and approvals so sensitive actions stay supervised.',
   },
 ];
 
@@ -65,7 +65,7 @@ export default function AIPayrollWhatItCanDoPage() {
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
         <p>There are two unhelpful ways to talk about AI in payroll. The first is the hype version, where AI quietly takes over the whole function and HR people are no longer needed. The second is the dismissive version, where AI is just a chatbot that wastes everyone&apos;s time. Neither one matches what is actually true in 2026.</p>
 
-        <p>The honest picture is more useful. AI is genuinely good at some parts of payroll, it is the wrong tool for others, and the gap between a payroll chatbot and a payroll connector is where most of the real value sits. Here is a clear breakdown of what AI can and cannot do, and where iSolved fits in.</p>
+        <p>The honest picture is more useful. AI is genuinely good at some parts of payroll, it is the wrong tool for others, and the gap between a payroll chatbot and a payroll connector is where most of the real value sits. Here is a clear breakdown of what AI can and cannot do, and where isolved fits in.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What AI Can Do Well in Payroll</h2>
 
@@ -84,7 +84,7 @@ export default function AIPayrollWhatItCanDoPage() {
 
         <p>Most AI in payroll software is a chatbot. You ask it how to process an off cycle payroll, and it tells you the steps. Then you go do those steps yourself. The chatbot saved you a search. It did not save you the work.</p>
 
-        <p>A connector is different. The iSolved Connector for Claude, generally available since June 2026, links the iSolved platform to Claude, the AI assistant from Anthropic. Instead of explaining how to run a pay cycle, it runs the pay cycle inside iSolved. Instead of telling you how to update a direct deposit, it updates the record. Chatbots answer questions. iSolved completes the task. That sentence is the entire difference, and it is the reason a connector saves time a chatbot never could.</p>
+        <p>A connector is different. The isolved Connector for Claude, generally available since June 2026, links the isolved platform to Claude, the AI assistant from Anthropic. Instead of explaining how to run a pay cycle, it runs the pay cycle inside isolved. Instead of telling you how to update a direct deposit, it updates the record. Chatbots answer questions. Chatbots answer. isolved completes the task. That sentence is the entire difference, and it is the reason a connector saves time a chatbot never could.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What AI Cannot and Should Not Do</h2>
 
@@ -97,13 +97,13 @@ export default function AIPayrollWhatItCanDoPage() {
           <li><strong>Anything with real legal or financial risk.</strong> When the cost of an error is high, oversight is not optional.</li>
         </ul>
 
-        <p>A good system does not pretend these limits do not exist. It keeps people in control of the moments that matter. The iSolved Connector for Claude operates within platform permissions and approval steps, so sensitive actions stay supervised rather than automated away.</p>
+        <p>A good system does not pretend these limits do not exist. It keeps people in control of the moments that matter. The isolved Connector for Claude operates within platform permissions and approval steps, so sensitive actions stay supervised rather than automated away.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Where iSolved Fits</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Where isolved Fits</h2>
 
-        <p>The practical question for a buyer is not whether AI is good or bad. It is whether the platform uses AI to remove real work while keeping people in charge of the decisions that count. iSolved does both. It is a single connected platform covering payroll, HR, time, and benefits, and the Connector for Claude adds task completion across all of it.</p>
+        <p>The practical question for a buyer is not whether AI is good or bad. It is whether the platform uses AI to remove real work while keeping people in charge of the decisions that count. isolved does both. It is a single connected platform covering payroll, HR, time, and benefits, and the Connector for Claude adds task completion across all of it.</p>
 
-        <p>The foundation underneath is proven. Forrester documented 330% ROI, and more than 7M employees run on iSolved. That scale matters because it means the platform handling your payroll is not an experiment. BEG implements, configures, and supports the platform and the connector, including the roles and approval steps that keep humans in the loop where they belong.</p>
+        <p>The foundation underneath is proven. Forrester documented 330% ROI, and more than 7M employees run on isolved. That scale matters because it means the platform handling your payroll is not an experiment. BEG implements, configures, and supports the platform and the connector, including the roles and approval steps that keep humans in the loop where they belong.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ</h2>
 
@@ -117,14 +117,14 @@ export default function AIPayrollWhatItCanDoPage() {
         </div>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
-          <h3 style={{ color: '#000000', margin: 0 }}>See what AI payroll actually looks like in iSolved.</h3>
+          <h3 style={{ color: '#000000', margin: 0 }}>See what AI payroll actually looks like in isolved.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Book a 15-minute call and we will show you the Connector for Claude completing real payroll tasks while keeping your team in control. Learn more on our <a href="/services/hcm-software/ai-connector" style={{ color: '#000000', textDecoration: 'underline' }}>AI Connector page</a>.</p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads HCM platform and managed payroll solutions at Business Executive Group. BEG is an authorized iSolved partner that implements, configures, and supports the full iSolved platform and the Connector for Claude for clients.</p>
+          <p style={{ margin: 0 }}>Anthony leads HCM platform and managed payroll solutions at Business Executive Group. BEG is an authorized isolved partner that implements, configures, and supports the full isolved platform and the Connector for Claude for clients.</p>
         </div>
       </section>
 

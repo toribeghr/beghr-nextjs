@@ -3,24 +3,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'HCM Software & HR Tech | BEG Blog',
-  description: 'iSolved features, HR automation, and software comparisons for growing businesses.',
+  description: 'isolved features, HR automation, and software comparisons for growing businesses.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software' },
   openGraph: {
     title: 'HCM Software & HR Tech | BEG Blog',
-    description: 'iSolved features, HR automation, and software comparisons for growing businesses.',
+    description: 'isolved features, HR automation, and software comparisons for growing businesses.',
     url: 'https://www.beghr.com/blog/hcm-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software & HR Tech | BEG Blog', description: 'iSolved features, HR automation, and software comparisons for growing businesses.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software & HR Tech | BEG Blog', description: 'isolved features, HR automation, and software comparisons for growing businesses.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
 const posts = [
   {
-    title: 'iSolved HCM Platform: Cloud Payroll & HR for Growing Companies',
-    description: 'iSolved payroll and HRIS solutions for mid-market companies. Centralized HR, payroll, benefits, and talent management in one platform.',
+    title: 'isolved HCM Platform: Cloud Payroll & HR for Growing Companies',
+    description: 'isolved payroll and HRIS solutions for mid-market companies. Centralized HR, payroll, benefits, and talent management in one platform.',
     slug: '/blog/hcm-software/isolved-platform',
   },
   {
@@ -45,7 +45,7 @@ export default function BlogHcmPage() {
               <p className="eyebrow">Blog · HCM Software &amp; HR Tech</p>
               <h1>HCM Software &amp; HR Tech</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>
-                iSolved guides, HR automation tips, and software comparisons for growing businesses.
+                isolved guides, HR automation tips, and software comparisons for growing businesses.
               </p>
             </div>
           </div>

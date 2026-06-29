@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best Paychex Alternative | iSolved + Claude AI | BEG',
-  description: 'Looking for a Paychex alternative? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.',
+  title: 'Best Paychex Alternative | isolved + Claude AI | BEG',
+  description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-paychex' },
   openGraph: {
-    title: 'Best Paychex Alternative | iSolved + Claude AI | BEG',
-    description: 'Looking for a Paychex alternative? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.',
+    title: 'Best Paychex Alternative | isolved + Claude AI | BEG',
+    description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-paychex',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best Paychex Alternative | iSolved + Claude AI | BEG', description: 'Looking for a Paychex alternative? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best Paychex Alternative | isolved + Claude AI | BEG', description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,7 +23,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'How hard is it to switch from Paychex to iSolved?',
+    q: 'How hard is it to switch from Paychex to isolved?',
     a: 'It is more manageable than most people expect. BEG manages the full transition, including data migration, configuration, training, and go-live. Most clients complete the switch in 60 to 90 days with no interruption to payroll.',
   },
   {
@@ -31,8 +31,8 @@ const faqs = [
     a: 'No. BEG migrates your historical payroll data, employee records, and benefits information as part of implementation. Your records are preserved on the new platform.',
   },
   {
-    q: 'Is iSolved a better fit than Paychex for a growing mid-market company?',
-    a: 'For companies between 50 and 500 employees, iSolved is purpose-built for the mid-market. It brings payroll, HR, time, and benefits into one connected platform, and BEG configures it for your industry and supports it year-round.',
+    q: 'Is isolved a better fit than Paychex for a growing mid-market company?',
+    a: 'For companies between 50 and 500 employees, isolved is purpose-built for the mid-market. It brings payroll, HR, time, and benefits into one connected platform, and BEG configures it for your industry and supports it year-round.',
   },
   {
     q: 'What if my current Paychex contract is not up yet?',
@@ -76,7 +76,7 @@ export default function AlternativesToPaychexPage() {
             Paychex is a long established payroll provider with a wide support network. For companies with 50 to 500 employees that want a modern, connected platform, there are better fit options. Here is the honest comparison.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            See iSolved vs. Paychex for Free
+            See isolved vs. Paychex for Free
           </Link>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function AlternativesToPaychexPage() {
               { title: 'Dated user experience', desc: 'Teams that compare modern HCM platforms often find the Paychex interface and reporting feel older than the alternatives.' },
               { title: 'Add-on and upsell pricing', desc: 'Capabilities you may expect to be standard can arrive as separate add-ons, which makes total cost harder to predict.' },
               { title: 'Modules that feel separate', desc: 'Companies want payroll, HR, time, and benefits in one connected platform rather than products that feel bolted together.' },
-              { title: 'No AI that completes tasks', desc: 'Paychex has no equivalent to the iSolved Connector for Claude, which completes real HR tasks through a conversation.' },
+              { title: 'No AI that completes tasks', desc: 'Paychex has no equivalent to the isolved Connector for Claude, which completes real HR tasks through a conversation.' },
             ].map(({ title, desc }, i) => (
               <div key={i} style={{ background: '#f9f9f9', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #ECAC60' }}>
                 <strong style={{ display: 'block', marginBottom: '0.35rem' }}>{title}</strong>
@@ -107,13 +107,13 @@ export default function AlternativesToPaychexPage() {
       {/* Comparison table */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>iSolved vs Paychex: Head-to-Head</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>isolved vs Paychex: Head-to-Head</h2>
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
               <thead>
                 <tr style={{ background: '#000000', color: '#ffffff' }}>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'left' }}>Category</th>
-                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>iSolved via BEG</th>
+                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>isolved via BEG</th>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'center' }}>Paychex</th>
                 </tr>
               </thead>
@@ -147,23 +147,23 @@ export default function AlternativesToPaychexPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>The Broader Market</h2>
           <p style={{ color: '#444', lineHeight: '1.7' }}>
-            Paychex is not the only name companies weigh. ADP is the large legacy enterprise option, Gusto is a small business favorite that stays software only, Rippling is a modern but IT centric all-in-one, and Paylocity competes in the mid-market with strong engagement features. Each fits a different profile. For a 50 to 500 employee company that wants one connected platform plus a partner who configures and supports it, iSolved with BEG is the option we recommend.
+            Paychex is not the only name companies weigh. ADP is the large legacy enterprise option, Gusto is a small business favorite that stays software only, Rippling is a modern but IT centric all-in-one, and Paylocity competes in the mid-market with strong engagement features. Each fits a different profile. For a 50 to 500 employee company that wants one connected platform plus a partner who configures and supports it, isolved with BEG is the option we recommend.
           </p>
         </div>
       </section>
 
-      {/* Why iSolved + BEG */}
+      {/* Why isolved + BEG */}
       <section style={{ background: '#000000', color: '#ffffff', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why iSolved + BEG Is the Recommended Alternative</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why isolved + BEG Is the Recommended Alternative</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is a single connected platform that brings payroll, HR, time, and benefits together. It is built for the mid-market, so you are not running a scaled down enterprise product or outgrowing a small business tool.
+            isolved is a single connected platform that brings payroll, HR, time, and benefits together. It is built for the mid-market, so you are not running a scaled down enterprise product or outgrowing a small business tool.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
             BEG implements, configures, and supports your platform, and manages the migration from Paychex. When something changes, you call BEG, not a general queue. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            iSolved is also the only HCM platform with a Connector for Claude, generally available in June 2026, that completes real HR tasks through a conversation. No equivalent exists at Paychex.
+            isolved is also the only HCM platform with a Connector for Claude, generally available in June 2026, that completes real HR tasks through a conversation. No equivalent exists at Paychex.
           </p>
         </div>
       </section>
@@ -193,7 +193,7 @@ export default function AlternativesToPaychexPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Ready to Compare iSolved vs. Paychex?
+            Ready to Compare isolved vs. Paychex?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will run a side-by-side comparison and show you what the switch looks like for your company, with no commitment required.
@@ -209,7 +209,7 @@ export default function AlternativesToPaychexPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

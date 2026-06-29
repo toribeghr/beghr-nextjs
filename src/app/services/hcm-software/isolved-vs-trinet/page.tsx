@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved vs TriNet | One Platform + Claude AI | BEG',
-  description: 'iSolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.',
+  title: 'isolved vs TriNet | One Platform + Claude AI | BEG',
+  description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-trinet' },
   openGraph: {
-    title: 'iSolved vs TriNet | One Platform + Claude AI | BEG',
-    description: 'iSolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.',
+    title: 'isolved vs TriNet | One Platform + Claude AI | BEG',
+    description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-trinet',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved vs TriNet | One Platform + Claude AI | BEG', description: 'iSolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs TriNet | One Platform + Claude AI | BEG', description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,28 +23,28 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'What is the difference between TriNet and iSolved?',
-    a: 'TriNet is a PEO that uses a co-employment model to bundle benefits and HR services. iSolved is a single connected HCM platform that you own and control, implemented and supported by BEG. The core difference is co-employment and a bundled service versus owning your own platform.',
+    q: 'What is the difference between TriNet and isolved?',
+    a: 'TriNet is a PEO that uses a co-employment model to bundle benefits and HR services. The isolved platform is a single connected HCM system that you own and control, implemented and supported by BEG. The core difference is co-employment and a bundled service versus owning your own platform.',
   },
   {
     q: 'Is a PEO like TriNet a good fit for my company?',
     a: 'A PEO can be a good fit for companies that want to outsource HR and access pooled benefits without building their own platform. The trade-offs are co-employment, less direct control, and a per-employee cost structure that can grow as you do.',
   },
   {
-    q: 'When does it make sense to choose iSolved over TriNet?',
-    a: 'iSolved tends to fit better when you want to own and control your HR systems on a single connected platform rather than rely on a co-employment model. With iSolved you keep direct control of payroll, HR, time, and benefits, and BEG supports you throughout.',
+    q: 'When does it make sense to choose isolved over TriNet?',
+    a: 'isolved tends to fit better when you want to own and control your HR systems on a single connected platform rather than rely on a co-employment model. With isolved you keep direct control of payroll, HR, time, and benefits, and BEG supports you throughout.',
   },
   {
-    q: 'What is the AI difference between iSolved and TriNet?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
+    q: 'What is the AI difference between isolved and TriNet?',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
   },
   {
-    q: 'Can I move off a PEO and onto iSolved?',
+    q: 'Can I move off a PEO and onto isolved?',
     a: 'Yes. BEG manages the migration of payroll history, employee records, and benefits data as part of implementation, so the transition off a co-employment model is structured rather than something you handle on your own.',
   },
   {
-    q: 'Is iSolved proven to deliver a return on investment?',
-    a: 'Forrester documented a 330% ROI for iSolved. More than 7 million employees are managed on the iSolved platform, which speaks to its scale and reliability across many industries.',
+    q: 'Is isolved proven to deliver a return on investment?',
+    a: 'Forrester documented a 330% ROI for isolved. More than 7 million employees are managed on the isolved platform, which speaks to its scale and reliability across many industries.',
   },
 ];
 
@@ -64,11 +64,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved vs TriNet', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-trinet' },
+    { '@type': 'ListItem', position: 3, name: 'isolved vs TriNet', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-trinet' },
   ],
 };
 
-export default function iSolvedVsTriNetPage() {
+export default function isolvedVsTriNetPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -79,10 +79,10 @@ export default function iSolvedVsTriNetPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Comparison</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            iSolved vs TriNet: The Honest Comparison
+            isolved vs TriNet: The Honest Comparison
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            TriNet is a PEO that bundles benefits and HR through a co-employment model. iSolved is a single connected platform you own and control. Here is how they compare.
+            TriNet is a PEO that bundles benefits and HR through a co-employment model. The platform is a single connected isolved system you own and control. Here is how they compare.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -96,7 +96,7 @@ export default function iSolvedVsTriNetPage() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>Bottom Line Up Front</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
-              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>iSolved wins on:</strong>
+              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>isolved wins on:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
                 <li>A single connected platform you own and control</li>
                 <li>Connector for Claude that completes real HR tasks</li>
@@ -126,7 +126,7 @@ export default function iSolvedVsTriNetPage() {
             TriNet is a PEO rather than a pure software platform. It bundles benefits and HR services through a co-employment model, which can be appealing for firms that want to hand off HR administration entirely. The trade-off is that you have less direct control over your systems and processes.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is a single connected platform that brings payroll, HR, time, and benefits together under your own control. You own the platform and the relationship with your employees, and BEG supports you in running it. For companies that want to keep control while still having a partner, that distinction matters.
+            isolved is a single connected platform that brings payroll, HR, time, and benefits together under your own control. You own the platform and the relationship with your employees, and BEG supports you in running it. For companies that want to keep control while still having a partner, that distinction matters.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function iSolvedVsTriNetPage() {
             PEOs like TriNet typically use a per-employee cost structure tied to the bundled service and pooled benefits. That can be reasonable for firms that value the hands-off model, but the per-employee cost can grow as your headcount grows, and the bundle can be harder to unbundle later.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is priced as a platform you own, with broad capability in one connected system. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
+            isolved is priced as a platform you own, with broad capability in one connected system. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function iSolvedVsTriNetPage() {
             With a PEO, the service is the support, and that can work well for firms that want HR off their plate. The trade-off is that the co-employment relationship shapes how you operate, and stepping away from it later means migrating off a bundled model.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With iSolved, BEG implements, configures, and supports the platform for you while you keep control. You get a dedicated partner who knows your setup, manages migration from your current arrangement, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
+            With isolved, BEG implements, configures, and supports the platform for you while you keep control. You get a dedicated partner who knows your setup, manages migration from your current arrangement, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
           </p>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function iSolvedVsTriNetPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>AI Capabilities</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
+            isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
             For teams that want to move work forward through AI rather than just look things up, this is a meaningful difference, and it is available today through BEG.
@@ -178,7 +178,7 @@ export default function iSolvedVsTriNetPage() {
             Choose TriNet if you want to fully outsource HR through a PEO co-employment model and value pooled benefits and a hands-off service, and you are comfortable with less direct control and a per-employee cost structure. For that profile, a PEO can be a reasonable choice.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Choose iSolved if you want to own and control your HR on one connected platform for payroll, HR, time, and benefits, with a partner who runs it for you. With more than 7 million employees on iSolved and a Forrester-documented 330% ROI, it is built to scale with you.
+            Choose isolved if you want to own and control your HR on one connected platform for payroll, HR, time, and benefits, with a partner who runs it for you. With more than 7 million employees on isolved and a Forrester-documented 330% ROI, it is built to scale with you.
           </p>
         </div>
       </section>
@@ -208,10 +208,10 @@ export default function iSolvedVsTriNetPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            See iSolved vs. Your Current Platform
+            See isolved vs. Your Current Platform
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your setup, run a cost comparison, and show you what iSolved plus BEG looks like for your company.
+            15-minute call. We will walk through your setup, run a cost comparison, and show you what isolved plus BEG looks like for your company.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -224,7 +224,7 @@ export default function iSolvedVsTriNetPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

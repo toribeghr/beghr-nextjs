@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved HCM for Restaurants | Tip + Scheduling | BEG',
-  description: 'iSolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.',
+  title: 'isolved HCM for Restaurants | Tip + Scheduling | BEG',
+  description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/restaurants' },
   openGraph: {
-    title: 'iSolved HCM for Restaurants | Tip + Scheduling | BEG',
-    description: 'iSolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.',
+    title: 'isolved HCM for Restaurants | Tip + Scheduling | BEG',
+    description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/restaurants',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Restaurants | Tip + Scheduling | BEG', description: 'iSolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Restaurants | Tip + Scheduling | BEG', description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -26,13 +26,13 @@ export default function HCMRestaurantsPage() {
   return (
     <ServicePage
       imageSrc="/assets/hero-images/restaurant.svg"
-      imageAlt="Restaurant group using iSolved HCM platform"
+      imageAlt="Restaurant group using isolved HCM platform"
       eyebrow="HCM Software · Restaurants"
       title="One platform for tips, turnover, scheduling, and every location."
-      description="Restaurant HR means constant hiring, tip reporting, shift scheduling, and payroll across multiple locations. iSolved People Cloud handles all of it in one connected platform. Implemented and supported by BEG."
+      description="Restaurant HR means constant hiring, tip reporting, shift scheduling, and payroll across multiple locations. isolved People Cloud handles all of it in one connected platform. Implemented and supported by BEG."
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: 'iSolved', label: 'People Cloud, all-in-one HCM' },
+        { value: 'isolved', label: 'People Cloud, all-in-one HCM' },
         { value: '330%', label: 'ROI documented by Forrester' },
         { value: 'BEG', label: 'Implements and supports your platform' },
       ]}
@@ -59,8 +59,8 @@ export default function HCMRestaurantsPage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Tips</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>And tip credit handled inside iSolved payroll</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Tip reporting and tip credit are where restaurant payroll gets risky. iSolved handles it inside payroll so the numbers and the records line up.</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>And tip credit handled inside isolved payroll</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Tip reporting and tip credit are where restaurant payroll gets risky. The platform handles it inside payroll so the numbers and the records line up.</div>
                 </div>
               ))()
             }
@@ -68,7 +68,7 @@ export default function HCMRestaurantsPage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>330%</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Average ROI documented by Forrester for iSolved clients</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Average ROI documented by Forrester for isolved clients</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Restaurant groups see fast ROI when onboarding, scheduling, and tip handling stop eating manager hours every single week.</div>
                 </div>
               ))()
@@ -81,16 +81,16 @@ export default function HCMRestaurantsPage() {
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
-            <p className="eyebrow">Why iSolved + BEG</p>
+            <p className="eyebrow">Why isolved + BEG</p>
             <h2>Everything your HR team needs. One platform. One contact.</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#444444', maxWidth: '700px', margin: '1.5rem auto' }}>
-            iSolved for restaurants manages fast mobile onboarding, tip reporting and tip credit, shift scheduling, multi-location time capture, benefits administration, and talent management in one connected platform. BEG implements and maintains it for your specific location and role structure.
+            isolved for restaurants manages fast mobile onboarding, tip reporting and tip credit, shift scheduling, multi-location time capture, benefits administration, and talent management in one connected platform. BEG implements and maintains it for your specific location and role structure.
           </p>
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Platform assessment', body: 'BEG reviews your current HR stack, headcount, turnover, and locations. You get a clear implementation plan and timeline.' },
-              { num: '02', title: 'BEG-managed implementation', body: 'We configure iSolved for your tip rules, roles, schedules, and locations, and we manage go-live without interrupting payroll.' },
+              { num: '02', title: 'BEG-managed implementation', body: 'We configure isolved for your tip rules, roles, schedules, and locations, and we manage go-live without interrupting payroll.' },
               { num: '03', title: 'Ongoing BEG support', body: 'Your BEG contact manages updates, new locations, and pay rule changes year-round. You are never sent to a support queue.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -116,19 +116,19 @@ export default function HCMRestaurantsPage() {
                 badge: 'Bonus 01',
                 title: 'BEG implementation included. No professional services invoice.',
                 objection: 'Common objection: "HCM implementations are expensive and take forever."',
-                body: 'BEG manages your full iSolved implementation, including configuration, data migration, training, and go-live, as part of the relationship. You are not paying a separate professional services team to stand up onboarding, tips, and scheduling. Implementation is what BEG does.',
+                body: 'BEG manages your full isolved implementation, including configuration, data migration, training, and go-live, as part of the relationship. You are not paying a separate professional services team to stand up onboarding, tips, and scheduling. Implementation is what BEG does.',
               },
               {
                 badge: 'Bonus 02',
-                title: 'iSolved Connector for Claude. HR tasks through AI.',
+                title: 'isolved Connector for Claude. HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: 'The iSolved Connector for Claude lets your team pull labor reports by location, update employee records, and check scheduling all through a Claude AI conversation. Less time in the back office, more time in the dining room. The iSolved Connector for Claude is generally available in the Claude directory today, not a roadmap item, not a beta feature.',
+                body: 'The isolved Connector for Claude lets your team pull labor reports by location, update employee records, and check scheduling all through a Claude AI conversation. Less time in the back office, more time in the dining room. The isolved Connector for Claude is generally available in the Claude directory today, not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
                 title: 'One BEG contact. Not a support ticket queue.',
                 objection: 'Common objection: "Software vendors disappear after you sign."',
-                body: 'Your BEG contact manages your iSolved platform ongoing. When you open a new location, add a concept, or need a new pay rule configured, you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact.',
+                body: 'Your BEG contact manages your isolved platform ongoing. When you open a new location, add a concept, or need a new pay rule configured, you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -153,12 +153,12 @@ export default function HCMRestaurantsPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Contract Renewal Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before your current contract auto-renews.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG times implementation to your current platform contract renewal. Most restaurant clients complete the iSolved transition in 60 to 90 days with zero payroll interruption. Miss that window and you are paying for two platforms or locked in for another year. BEG will help you plan around your renewal date.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG times implementation to your current platform contract renewal. Most restaurant clients complete the isolved transition in 60 to 90 days with zero payroll interruption. Miss that window and you are paying for two platforms or locked in for another year. BEG will help you plan around your renewal date.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Claude AI Advantage</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The only HCM platform with a live Claude AI integration.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>iSolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI, not just get answers, but take action. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation workflows around it now will compound that advantage over time.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>isolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI, not just get answers, but take action. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation workflows around it now will compound that advantage over time.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -179,24 +179,24 @@ export default function HCMRestaurantsPage() {
           </div>
           <div className="faq reveal">
             <div className="faq-item">
-              <h3>Does iSolved handle tips and tip credit?</h3>
-              <p>Yes. Tip reporting and tip credit are handled inside iSolved payroll so reported tips, wages, and records all line up. BEG configures it for the way your locations operate.</p>
+              <h3>Does isolved handle tips and tip credit?</h3>
+              <p>Yes. Tip reporting and tip credit are handled inside isolved payroll so reported tips, wages, and records all line up. BEG configures it for the way your locations operate.</p>
             </div>
             <div className="faq-item">
-              <h3>Can iSolved make onboarding faster with our turnover?</h3>
+              <h3>Can isolved make onboarding faster with our turnover?</h3>
               <p>Yes. New hires complete onboarding from their phone and flow straight into payroll and scheduling. With constant hiring, that removes a large recurring manager task.</p>
             </div>
             <div className="faq-item">
-              <h3>What is the iSolved Connector for Claude?</h3>
+              <h3>What is the isolved Connector for Claude?</h3>
               <p>It is the only live AI integration in an HCM platform that completes actual HR tasks. Instead of just answering questions, your team can run payroll, pull labor reports, and update records through a Claude AI conversation. Available now in Claude&apos;s directory.</p>
             </div>
             <div className="faq-item">
               <h3>How does BEG support us after implementation?</h3>
-              <p>Your BEG contact manages your iSolved platform year-round. New locations, new concepts, pay rule changes. One contact, no ticket queue.</p>
+              <p>Your BEG contact manages your isolved platform year-round. New locations, new concepts, pay rule changes. One contact, no ticket queue.</p>
             </div>
             <div className="faq-item">
-              <h3>What does iSolved cost?</h3>
-              <p>iSolved is priced per employee per month based on your headcount and selected modules. BEG provides a transparent cost comparison against your current platform on your discovery call.</p>
+              <h3>What does isolved cost?</h3>
+              <p>isolved is priced per employee per month based on your headcount and selected modules. BEG provides a transparent cost comparison against your current platform on your discovery call.</p>
             </div>
           </div>
         </div>
@@ -209,9 +209,9 @@ export default function HCMRestaurantsPage() {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'Does iSolved handle tips and tip credit?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Tip reporting and tip credit are handled inside iSolved payroll so tips, wages, and records line up. BEG configures it for your locations.' } },
-              { '@type': 'Question', name: 'Can iSolved make onboarding faster?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. New hires complete onboarding from their phone and flow straight into payroll and scheduling, removing a recurring manager task.' } },
-              { '@type': 'Question', name: 'What is the iSolved Connector for Claude?', acceptedAnswer: { '@type': 'Answer', text: 'The only live AI integration in an HCM platform that completes actual HR tasks through Claude AI. Available now.' } },
+              { '@type': 'Question', name: 'Does isolved handle tips and tip credit?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Tip reporting and tip credit are handled inside isolved payroll so tips, wages, and records line up. BEG configures it for your locations.' } },
+              { '@type': 'Question', name: 'Can isolved make onboarding faster?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. New hires complete onboarding from their phone and flow straight into payroll and scheduling, removing a recurring manager task.' } },
+              { '@type': 'Question', name: 'What is the isolved Connector for Claude?', acceptedAnswer: { '@type': 'Answer', text: 'The only live AI integration in an HCM platform that completes actual HR tasks through Claude AI. Available now.' } },
             ],
           }),
         }}
@@ -236,7 +236,7 @@ export default function HCMRestaurantsPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, tip handling, scheduling, onboarding, and the Connector for Claude. Who it fits and who it does not.',
             href: '/blog/hcm-software/isolved-platform',
           },

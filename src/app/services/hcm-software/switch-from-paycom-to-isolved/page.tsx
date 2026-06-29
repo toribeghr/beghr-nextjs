@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Switch From Paycom to iSolved | BEG Manages It',
-  description: 'Switching from Paycom to iSolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.',
+  title: 'Switch From Paycom to isolved | BEG Manages It',
+  description: 'Switching from Paycom to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-paycom-to-isolved' },
   openGraph: {
-    title: 'Switch From Paycom to iSolved | BEG Manages It',
-    description: 'Switching from Paycom to iSolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.',
+    title: 'Switch From Paycom to isolved | BEG Manages It',
+    description: 'Switching from Paycom to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-paycom-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Switch From Paycom to iSolved | BEG Manages It', description: 'Switching from Paycom to iSolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Switch From Paycom to isolved | BEG Manages It', description: 'Switching from Paycom to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,28 +23,28 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'Is switching from Paycom to iSolved really painless?',
+    q: 'Is switching from Paycom to isolved really painless?',
     a: 'It is far smoother than going it alone. BEG manages the migration end to end. We move your data, configure the platform, train your team, and support go-live so payroll never misses a beat.',
   },
   {
     q: 'Will I lose my Paycom payroll history when I switch?',
-    a: 'No. BEG migrates your historical payroll data, employee records, and benefits information into iSolved. Your records are preserved.',
+    a: 'No. BEG migrates your historical payroll data, employee records, and benefits information into isolved. Your records are preserved.',
   },
   {
-    q: 'How long does the switch from Paycom to iSolved take?',
+    q: 'How long does the switch from Paycom to isolved take?',
     a: 'Most clients complete the move in 60 to 90 days with no interruption to payroll. BEG plans the timeline around your pay calendar and your Paycom renewal date.',
   },
   {
-    q: 'We administer Paycom ourselves. Is iSolved different?',
-    a: 'Yes. With Paycom the day-to-day configuration and administration sit with your team. With iSolved, BEG implements, configures, and supports the platform for you, so the workload does not fall entirely on your HR team.',
+    q: 'We administer Paycom ourselves. Is isolved different?',
+    a: 'Yes. With Paycom the day-to-day configuration and administration sit with your team. With isolved, BEG implements, configures, and supports the platform for you, so the workload does not fall entirely on your HR team.',
   },
   {
     q: 'Who supports the platform after we switch?',
-    a: 'BEG does. You get a dedicated contact who supports, optimizes, and maintains your iSolved platform year-round, not a general queue.',
+    a: 'BEG does. You get a dedicated contact who supports, optimizes, and maintains your isolved platform year-round, not a general queue.',
   },
 ];
 
-export default function SwitchFromPaycomToiSolvedPage() {
+export default function SwitchFromPaycomToisolvedPage() {
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -60,7 +60,7 @@ export default function SwitchFromPaycomToiSolvedPage() {
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
       { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-      { '@type': 'ListItem', position: 3, name: 'Switch From Paycom to iSolved', item: 'https://www.beghr.com/services/hcm-software/switch-from-paycom-to-isolved' },
+      { '@type': 'ListItem', position: 3, name: 'Switch From Paycom to isolved', item: 'https://www.beghr.com/services/hcm-software/switch-from-paycom-to-isolved' },
     ],
   };
 
@@ -74,10 +74,10 @@ export default function SwitchFromPaycomToiSolvedPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Switch From Paycom</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            How to Switch From Paycom to iSolved
+            How to Switch From Paycom to isolved
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            The fear of switching providers keeps a lot of companies stuck. It does not have to. BEG manages the entire migration from Paycom to iSolved, so you move to one connected platform with a partner running it, without the disruption you are worried about.
+            The fear of switching providers keeps a lot of companies stuck. It does not have to. BEG manages the entire migration from Paycom to isolved, so you move to one connected platform with a partner running it, without the disruption you are worried about.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Plan Your Switch With BEG
@@ -94,8 +94,8 @@ export default function SwitchFromPaycomToiSolvedPage() {
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
             {[
-              { title: 'We manage the migration', desc: 'BEG moves your payroll history, employee records, and benefits data from Paycom into iSolved.' },
-              { title: 'We configure the platform', desc: 'BEG sets up iSolved for your pay rules, your states, and your industry before you go live.' },
+              { title: 'We manage the migration', desc: 'BEG moves your payroll history, employee records, and benefits data from Paycom into isolved.' },
+              { title: 'We configure the platform', desc: 'BEG sets up isolved for your pay rules, your states, and your industry before you go live.' },
               { title: 'We protect every pay run', desc: 'The timeline is planned around your pay calendar so payroll never misses a beat.' },
               { title: 'We support you year-round', desc: 'After go-live, BEG is your dedicated contact for optimization, compliance, and changes.' },
             ].map(({ title, desc }, i) => (
@@ -114,8 +114,8 @@ export default function SwitchFromPaycomToiSolvedPage() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>What the Switch Looks Like</h2>
           {[
             { step: '1. Discovery and plan', desc: 'We review your Paycom setup, your pay calendar, and your renewal date, then build a timeline that fits your business.' },
-            { step: '2. Data migration', desc: 'BEG moves your payroll history, employee records, and benefits information into iSolved and verifies it.' },
-            { step: '3. Configuration', desc: 'We configure iSolved for your states, pay rules, and industry, and connect payroll, HR, time, and benefits in one platform.' },
+            { step: '2. Data migration', desc: 'BEG moves your payroll history, employee records, and benefits information into isolved and verifies it.' },
+            { step: '3. Configuration', desc: 'We configure isolved for your states, pay rules, and industry, and connect payroll, HR, time, and benefits in one platform.' },
             { step: '4. Training and parallel checks', desc: 'Your team is trained on the platform and we validate output so there are no surprises at go-live.' },
             { step: '5. Go-live and ongoing support', desc: 'You go live with BEG beside you, and we support and optimize the platform year-round.' },
           ].map(({ step, desc }, i) => (
@@ -133,15 +133,15 @@ export default function SwitchFromPaycomToiSolvedPage() {
       {/* What you gain */}
       <section style={{ background: '#000000', color: '#ffffff', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>What You Gain by Moving to iSolved</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>What You Gain by Moving to isolved</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            You keep the single connected platform idea you liked about Paycom, but you stop carrying the configuration and administration alone. Payroll, HR, time, and benefits live together in iSolved, and BEG runs it with you so your data stays consistent and your team is supported.
+            You keep the single connected platform idea you liked about Paycom, but you stop carrying the configuration and administration alone. Payroll, HR, time, and benefits live together in isolved, and BEG runs it with you so your data stays consistent and your team is supported.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
             You also gain the only HCM platform with a Connector for Claude, generally available in June 2026, that completes real HR tasks through a conversation. Paycom has no equivalent.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            And you gain a partner. BEG implements, configures, supports, and optimizes iSolved for you. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
+            And you gain a partner. BEG implements, configures, supports, and optimizes isolved for you. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
           </p>
         </div>
       </section>
@@ -171,7 +171,7 @@ export default function SwitchFromPaycomToiSolvedPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Ready to Switch From Paycom to iSolved?
+            Ready to Switch From Paycom to isolved?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will map out your migration timeline and show you exactly what the move looks like for your company, with no commitment required.
@@ -187,7 +187,7 @@ export default function SwitchFromPaycomToiSolvedPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

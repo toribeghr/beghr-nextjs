@@ -4,17 +4,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Onboarding Software | BEG',
-  description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. iSolved onboarding on one platform, supported by BEG.',
+  description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. isolved onboarding on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/onboarding-software' },
   openGraph: {
     title: 'Onboarding Software | BEG',
-    description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. iSolved onboarding on one platform, supported by BEG.',
+    description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. isolved onboarding on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/onboarding-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Onboarding Software | BEG', description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. iSolved onboarding on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Onboarding Software | BEG', description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. isolved onboarding on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,16 +25,16 @@ const faqs = [
     a: 'Onboarding software guides new hires through everything that has to happen before day one, including offer acceptance, tax and eligibility forms, e-signatures, and policy acknowledgments. The completed data then populates payroll and HR with no rekeying.',
   },
   {
-    q: 'How does iSolved handle new-hire workflows?',
-    a: 'iSolved gives each new hire a guided online checklist that walks them through forms, documents, and acknowledgments at their own pace. HR sees progress in real time and gets alerted when anything is missing before the start date.',
+    q: 'How does isolved handle new-hire workflows?',
+    a: 'isolved gives each new hire a guided online checklist that walks them through forms, documents, and acknowledgments at their own pace. HR sees progress in real time and gets alerted when anything is missing before the start date.',
   },
   {
-    q: 'Does iSolved support e-signature for new hires?',
-    a: 'Yes. New hires review and sign documents electronically inside iSolved, from offer letters to policy acknowledgments. Signed records are stored with the employee file, so there is no chasing paper or filing PDFs by hand.',
+    q: 'Does isolved support e-signature for new hires?',
+    a: 'Yes. New hires review and sign documents electronically inside isolved, from offer letters to policy acknowledgments. Signed records are stored with the employee file, so there is no chasing paper or filing PDFs by hand.',
   },
   {
-    q: 'Can iSolved collect I-9 and W-4 forms?',
-    a: 'Yes. iSolved collects the I-9, W-4, and state withholding forms during onboarding with built-in validation, so the required fields are complete and accurate. The data flows into payroll, so the first paycheck is set up correctly.',
+    q: 'Can isolved collect I-9 and W-4 forms?',
+    a: 'Yes. The isolved platform collects the I-9, W-4, and state withholding forms during onboarding with built-in validation, so the required fields are complete and accurate. The data flows into payroll, so the first paycheck is set up correctly.',
   },
   {
     q: 'How does onboarding software ensure first-day readiness?',
@@ -81,7 +81,7 @@ export default function OnboardingSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Onboarding</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>Onboarding Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            A great first day starts before the start date. The right onboarding software moves new-hire paperwork online and gets data into payroll cleanly. Here is what to look for and how iSolved plus BEG handles it.
+            A great first day starts before the start date. The right onboarding software moves new-hire paperwork online and gets data into payroll cleanly. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function OnboardingSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good onboarding software runs new-hire workflows online, captures e-signatures, collects I-9 and W-4 forms accurately, and gets people ready for day one. iSolved does all of this on one connected platform, so onboarding data flows into payroll, and BEG configures and supports it for your hiring process.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good onboarding software runs new-hire workflows online, captures e-signatures, collects I-9 and W-4 forms accurately, and gets people ready for day one. The isolved platform handles all of this on one connected platform, so onboarding data flows into payroll, and BEG configures and supports it for your hiring process.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is onboarding software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function OnboardingSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles onboarding as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles onboarding as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved gives each new hire a guided online onboarding experience. They review and e-sign documents, complete the I-9, W-4, and state withholding forms, and acknowledge policies before day one. HR tracks progress in real time, and because iSolved is one connected platform, that information populates the employee record and payroll automatically.
+            isolved gives each new hire a guided online onboarding experience. They review and e-sign documents, complete the I-9, W-4, and state withholding forms, and acknowledge policies before day one. HR tracks progress in real time, and because isolved is one connected platform, that information populates the employee record and payroll automatically.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            That single-platform flow is what makes day one clean. Because more than 7 million employees are managed on iSolved, the onboarding process is proven across hiring volumes and role types, from a single new hire to a seasonal wave.
+            That single-platform flow is what makes day one clean. Because more than 7 million employees are managed on isolved, the onboarding process is proven across hiring volumes and role types, from a single new hire to a seasonal wave.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Onboarding is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and HR can check onboarding status or new-hire progress through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than clicking through screens.
+            Onboarding is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and HR can check onboarding status or new-hire progress through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than clicking through screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function OnboardingSoftwarePage() {
             A good onboarding flow reflects how you actually hire. The document packets, required forms, approval steps, and role-specific tasks all need configuring. BEG implements, configures, and supports your onboarding workflows to match your process, and updates them as roles, states, and policies change.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in onboarding that return shows up where accurate first-time data entry removes rework and keeps the first paycheck correct. When you add a role, open a location in a new state, or revise a form, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in onboarding that return shows up where accurate first-time data entry removes rework and keeps the first paycheck correct. When you add a role, open a location in a new state, or revise a form, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function OnboardingSoftwarePage() {
             No single onboarding setup fits every employer, and an honest answer should say so. A company that hires a few people a year has different needs than one running constant or seasonal hiring across several states. The value of automated onboarding grows with hiring volume and the complexity of your paperwork.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how often you hire, how many states you hire across, how many forms and acknowledgments each new hire needs, and whether you want a partner configuring the workflows or prefer to manage them yourself. iSolved is a strong fit when hiring volume and compliance are in the picture and you want BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are how often you hire, how many states you hire across, how many forms and acknowledgments each new hire needs, and whether you want a partner configuring the workflows or prefer to manage them yourself. The isolved platform is a strong fit when hiring volume and compliance are in the picture and you want BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function OnboardingSoftwarePage() {
       <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See onboarding in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See onboarding in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your hiring process and forms, and show you what iSolved plus BEG looks like for getting new hires ready before day one.
+            15-minute call. We will walk through your hiring process and forms, and show you what isolved plus BEG looks like for getting new hires ready before day one.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

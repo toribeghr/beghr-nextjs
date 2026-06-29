@@ -5,17 +5,17 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Healthcare 2026 | BEG',
-  description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why iSolved plus BEG fits.',
+  description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why isolved plus BEG fits.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-healthcare' },
   openGraph: {
     title: 'Best HCM Software for Healthcare 2026 | BEG',
-    description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why iSolved plus BEG fits.',
+    description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why isolved plus BEG fits.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-healthcare',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Healthcare 2026 | BEG', description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why iSolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Healthcare 2026 | BEG', description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why isolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for accurate shift differential and overtime handling for 24/7 coverage, credential and license tracking, and clean payroll across roles and locations. The platform should support continuous staffing without manual workarounds.',
   },
   {
-    q: 'Why is iSolved a strong pick for healthcare?',
-    a: 'iSolved keeps payroll, time, HR, and benefits on a single connected platform, so around-the-clock shifts and differentials feed payroll accurately. BEG configures the pay rules, roles, and credential tracking to match your operation.',
+    q: 'Why is isolved a strong pick for healthcare?',
+    a: 'isolved keeps payroll, time, HR, and benefits on a single connected platform, so around-the-clock shifts and differentials feed payroll accurately. BEG configures the pay rules, roles, and credential tracking to match your operation.',
   },
   {
-    q: 'Can iSolved track credentials and licenses?',
-    a: 'iSolved supports tracking of credentials, licenses, and expirations so HR can stay ahead of renewals. BEG configures the tracking and reminders to match the roles and requirements you manage.',
+    q: 'Can isolved track credentials and licenses?',
+    a: 'isolved supports tracking of credentials, licenses, and expirations so HR can stay ahead of renewals. BEG configures the tracking and reminders to match the roles and requirements you manage.',
   },
   {
-    q: 'Is iSolved right for every healthcare provider?',
+    q: 'Is isolved right for every healthcare provider?',
     a: 'Not always. A small clinic with daytime hours has different needs than a 24/7 facility with multiple credentialed roles. The right fit depends on your coverage model, credentialing load, and number of locations.',
   },
   {
     q: 'What does the Connector for Claude offer a healthcare team?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. HR can pull labor and credential reports and update records through conversation, which helps when coverage and compliance demand fast answers.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. HR can pull labor and credential reports and update records through conversation, which helps when coverage and compliance demand fast answers.',
   },
 ];
 
@@ -102,15 +102,15 @@ export default function BestHCMHealthcarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Healthcare</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Healthcare</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform, which is what continuous coverage and credentialing demand. Differentials and overtime are applied to the correct hours automatically, credentials and expirations are tracked alongside the rest of the employee record, and labor is reportable across roles and locations. With more than 7 million employees managed on iSolved, the platform is proven in demanding, compliance-heavy settings.
+            isolved is a single connected platform, which is what continuous coverage and credentialing demand. Differentials and overtime are applied to the correct hours automatically, credentials and expirations are tracked alongside the rest of the employee record, and labor is reportable across roles and locations. With more than 7 million employees managed on isolved, the platform is proven in demanding, compliance-heavy settings.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            BEG implements, configures, and supports the platform for your shift rules, differentials, roles, and credential requirements, and stays with you as coverage and staffing change. The Forrester-documented 330% ROI for iSolved tends to show up in healthcare where accurate differential pay and proactive credential tracking cut both correction runs and compliance risk.
+            BEG implements, configures, and supports the platform for your shift rules, differentials, roles, and credential requirements, and stays with you as coverage and staffing change. The Forrester-documented 330% ROI for isolved tends to show up in healthcare where accurate differential pay and proactive credential tracking cut both correction runs and compliance risk.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            For the healthcare-specific setup, see our <Link href="/services/hcm-software/healthcare" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM for healthcare</Link> page.
+            For the healthcare-specific setup, see our <Link href="/services/hcm-software/healthcare" style={{ color: '#000', fontWeight: 600 }}>isolved HCM for healthcare</Link> page.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BestHCMHealthcarePage() {
             No single platform is best for every healthcare organization, and a fair comparison will say so. A small daytime clinic with a few roles may be served well by a simpler tool. The case for a connected platform strengthens with 24/7 coverage, multiple credentialed roles, and several locations.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Ask how continuous your coverage is, how complex your differential and overtime rules are, how heavy your credentialing load is, and whether you want a partner managing the platform. iSolved is a strong choice for 24/7 and multi-site providers who want BEG running it. BEG will compare it fairly against your current setup.
+            Ask how continuous your coverage is, how complex your differential and overtime rules are, how heavy your credentialing load is, and whether you want a partner managing the platform. The isolved platform is a strong choice for 24/7 and multi-site providers who want BEG running it. BEG will compare it fairly against your current setup.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMHealthcarePage() {
       <OvertimePayCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Facility</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Facility</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through differentials, credentialing, and coverage and show you what iSolved plus BEG looks like for your organization.
+            15-minute call. We will walk through differentials, credentialing, and coverage and show you what isolved plus BEG looks like for your organization.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMHealthcarePage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, credentialing, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, credentialing, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Differential pay and credential tracking are high-stakes tasks in healthcare. Here is what to automate.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'Overtime, multi-state rules, and what your HCM platform should be tracking automatically.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

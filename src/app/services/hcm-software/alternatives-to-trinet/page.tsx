@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best TriNet Alternative | iSolved + Claude AI | BEG',
-  description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including iSolved, a connected platform managed by BEG.',
+  title: 'Best TriNet Alternative | isolved + Claude AI | BEG',
+  description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including isolved, a connected platform managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-trinet' },
   openGraph: {
-    title: 'Best TriNet Alternative | iSolved + Claude AI | BEG',
-    description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including iSolved, a connected platform managed by BEG.',
+    title: 'Best TriNet Alternative | isolved + Claude AI | BEG',
+    description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including isolved, a connected platform managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-trinet',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best TriNet Alternative | iSolved + Claude AI | BEG', description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including iSolved, a connected platform managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best TriNet Alternative | isolved + Claude AI | BEG', description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including isolved, a connected platform managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,8 +23,8 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
-    q: 'What is the difference between TriNet and iSolved?',
-    a: 'TriNet is a PEO, which means it co-employs your staff and bundles HR and benefits under its umbrella. iSolved is a connected HCM platform you own and run, with BEG implementing, configuring, and supporting it for you. You keep more control and direct ownership of your HR.',
+    q: 'What is the difference between TriNet and isolved?',
+    a: 'TriNet is a PEO, which means it co-employs your staff and bundles HR and benefits under its umbrella. The isolved platform is a connected HCM system you own and run, with BEG implementing, configuring, and supporting it for you. You keep more control and direct ownership of your HR.',
   },
   {
     q: 'Will I lose my employee and payroll data leaving a PEO?',
@@ -32,11 +32,11 @@ const faqs = [
   },
   {
     q: 'Is leaving a PEO complicated?',
-    a: 'Leaving co-employment takes planning, which is exactly why BEG manages it. We coordinate the timeline, set up your own benefits and payroll in iSolved, and support you through go-live so the move is structured rather than risky.',
+    a: 'Leaving co-employment takes planning, which is exactly why BEG manages it. We coordinate the timeline, set up your own benefits and payroll in isolved, and support you through go-live so the move is structured rather than risky.',
   },
   {
     q: 'Why would I move from a PEO to a platform?',
-    a: 'Many growing companies want more control over their benefits and HR decisions and lower per-employee cost than a PEO model carries. With iSolved and BEG you own your platform and still have a partner running it for you.',
+    a: 'Many growing companies want more control over their benefits and HR decisions and lower per-employee cost than a PEO model carries. With isolved and BEG you own your platform and still have a partner running it for you.',
   },
 ];
 
@@ -77,7 +77,7 @@ export default function AlternativesToTriNetPage() {
             TriNet is a PEO that bundles benefits and HR through co-employment, which works well for some companies. As you grow, many businesses want more control and lower per-employee cost than that model carries. Here is the honest comparison.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            See iSolved vs. TriNet for Free
+            See isolved vs. TriNet for Free
           </Link>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function AlternativesToTriNetPage() {
               { title: 'Co-employment means less control', desc: 'In a PEO model your provider co-employs your staff, so you have less direct control over benefits and HR decisions.' },
               { title: 'Higher per-employee cost', desc: 'PEO bundling tends to carry a higher per-employee cost than running your own connected platform.' },
               { title: 'Benefits tied to the PEO', desc: 'Your plans live inside the PEO. Choosing your own benefits requires moving off the model.' },
-              { title: 'No AI that completes real tasks', desc: 'A PEO service model does not give you an HCM platform with AI that completes HR tasks the way the iSolved Connector for Claude does.' },
+              { title: 'No AI that completes real tasks', desc: 'A PEO service model does not give you an HCM platform with AI that completes HR tasks the way the isolved Connector for Claude does.' },
             ].map(({ title, desc }, i) => (
               <div key={i} style={{ background: '#f9f9f9', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #ECAC60' }}>
                 <strong style={{ display: 'block', marginBottom: '0.35rem' }}>{title}</strong>
@@ -108,13 +108,13 @@ export default function AlternativesToTriNetPage() {
       {/* Comparison table */}
       <section style={{ background: '#f9f9f9', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>iSolved vs TriNet: Head-to-Head</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>isolved vs TriNet: Head-to-Head</h2>
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
               <thead>
                 <tr style={{ background: '#000000', color: '#ffffff' }}>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'left' }}>Category</th>
-                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>iSolved via BEG</th>
+                  <th style={{ padding: '0.9rem 1rem', textAlign: 'center', color: '#ECAC60' }}>isolved via BEG</th>
                   <th style={{ padding: '0.9rem 1rem', textAlign: 'center' }}>TriNet</th>
                 </tr>
               </thead>
@@ -143,18 +143,18 @@ export default function AlternativesToTriNetPage() {
         </div>
       </section>
 
-      {/* Why iSolved + BEG */}
+      {/* Why isolved + BEG */}
       <section style={{ background: '#000000', color: '#ffffff', padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why iSolved + BEG Is the Right Move</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>Why isolved + BEG Is the Right Move</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is a single connected platform that you own. Payroll, benefits, time, and talent live together, and you keep direct control over your benefits and HR decisions rather than handing them to a co-employer. It is purpose-built for the mid-market.
+            isolved is a single connected platform that you own. Payroll, benefits, time, and talent live together, and you keep direct control over your benefits and HR decisions rather than handing them to a co-employer. It is purpose-built for the mid-market.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
             The PEO concern is usually losing support if you leave. With BEG you do not. BEG implements, configures, supports, and migrates for you, so you gain control without losing the hands-on partner. When something changes, you call BEG, not a general queue.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            And only iSolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
+            And only isolved has the Connector for Claude, generally available in June 2026, the only HCM integration that completes real HR tasks through a conversation. The platform serves more than 7 million employees and Forrester documented a 330% ROI.
           </p>
         </div>
       </section>
@@ -184,7 +184,7 @@ export default function AlternativesToTriNetPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            Ready to See iSolved vs. TriNet?
+            Ready to See isolved vs. TriNet?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will run a side-by-side comparison and show you what moving off a PEO looks like for your company, with no commitment required.
@@ -200,7 +200,7 @@ export default function AlternativesToTriNetPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

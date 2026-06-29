@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved vs UKG | One Platform + Claude AI | BEG',
-  description: 'iSolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.',
+  title: 'isolved vs UKG | One Platform + Claude AI | BEG',
+  description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-ukg' },
   openGraph: {
-    title: 'iSolved vs UKG | One Platform + Claude AI | BEG',
-    description: 'iSolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.',
+    title: 'isolved vs UKG | One Platform + Claude AI | BEG',
+    description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-ukg',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved vs UKG | One Platform + Claude AI | BEG', description: 'iSolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs UKG | One Platform + Claude AI | BEG', description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -27,24 +27,24 @@ const faqs = [
     a: 'Yes. UKG is a powerful platform with deep workforce management capabilities, and it is a serious option for large, complex enterprises. Its strength in scheduling and labor management is well regarded across industries that run large hourly workforces.',
   },
   {
-    q: 'When does it make sense to choose iSolved over UKG?',
-    a: 'iSolved tends to fit better for mid-market companies that want a single connected platform without the complexity and long implementation cycles that often come with enterprise systems. If you do not need enterprise-scale workforce management, iSolved can deliver what you need with less overhead.',
+    q: 'When does it make sense to choose isolved over UKG?',
+    a: 'isolved tends to fit better for mid-market companies that want a single connected platform without the complexity and long implementation cycles that often come with enterprise systems. If you do not need enterprise-scale workforce management, isolved can deliver what you need with less overhead.',
   },
   {
-    q: 'Is UKG harder to implement than iSolved?',
-    a: 'Enterprise platforms like UKG are powerful, and that power often comes with longer, more involved implementations. With iSolved, BEG implements, configures, and supports the platform for you and manages migration, which keeps the process structured and manageable for a mid-market team.',
+    q: 'Is UKG harder to implement than isolved?',
+    a: 'Enterprise platforms like UKG are powerful, and that power often comes with longer, more involved implementations. With isolved, BEG implements, configures, and supports the platform for you and manages migration, which keeps the process structured and manageable for a mid-market team.',
   },
   {
-    q: 'What is the AI difference between iSolved and UKG?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
+    q: 'What is the AI difference between isolved and UKG?',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
   },
   {
-    q: 'Can I move my data to iSolved?',
+    q: 'Can I move my data to isolved?',
     a: 'Yes. BEG manages the migration of payroll history, employee records, and benefits data as part of implementation, so the transition is structured rather than something you handle on your own.',
   },
   {
-    q: 'Is iSolved proven to deliver a return on investment?',
-    a: 'Forrester documented a 330% ROI for iSolved. More than 7 million employees are managed on the iSolved platform, which speaks to its scale and reliability across many industries.',
+    q: 'Is isolved proven to deliver a return on investment?',
+    a: 'Forrester documented a 330% ROI for isolved. More than 7 million employees are managed on the isolved platform, which speaks to its scale and reliability across many industries.',
   },
 ];
 
@@ -64,11 +64,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved vs UKG', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-ukg' },
+    { '@type': 'ListItem', position: 3, name: 'isolved vs UKG', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-ukg' },
   ],
 };
 
-export default function iSolvedVsUkgPage() {
+export default function isolvedVsUkgPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -79,10 +79,10 @@ export default function iSolvedVsUkgPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Comparison</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            iSolved vs UKG: The Honest Comparison
+            isolved vs UKG: The Honest Comparison
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            UKG is a powerful enterprise workforce management platform built for large, complex organizations. iSolved is a single connected platform built for the mid-market. Here is how they compare.
+            UKG is a powerful enterprise workforce management platform built for large, complex organizations. The platform is a single connected isolved system built for the mid-market. Here is how they compare.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -96,7 +96,7 @@ export default function iSolvedVsUkgPage() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>Bottom Line Up Front</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
-              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>iSolved wins on:</strong>
+              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>isolved wins on:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
                 <li>A single connected platform for payroll, HR, time, and benefits</li>
                 <li>Connector for Claude that completes real HR tasks</li>
@@ -126,7 +126,7 @@ export default function iSolvedVsUkgPage() {
             UKG is a powerful enterprise platform with deep workforce management, especially around scheduling and labor management for large hourly workforces. That depth is genuinely valuable for the largest, most complex organizations, and UKG has earned its reputation in that space.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is a single connected platform that brings payroll, HR, time, and benefits together for the mid-market. You get the consolidation of one platform without taking on enterprise-scale tooling you may not need. For a growing company, that focus keeps the system practical to run.
+            isolved is a single connected platform that brings payroll, HR, time, and benefits together for the mid-market. You get the consolidation of one platform without taking on enterprise-scale tooling you may not need. For a growing company, that focus keeps the system practical to run.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function iSolvedVsUkgPage() {
             UKG is priced for the enterprise, which is appropriate for the scale and depth it delivers. For a large organization with the budget and the requirements to match, that investment can be justified. For a mid-market company, it can mean paying for capacity that goes unused.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is priced for the mid-market and bundles broad capability into one connected platform. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
+            isolved is priced for the mid-market and bundles broad capability into one connected platform. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function iSolvedVsUkgPage() {
             Enterprise platforms like UKG are powerful, and that power often comes with longer, more involved implementation timelines. For a large organization with a dedicated project team, that is part of the territory. For a leaner mid-market team, a long rollout can be a real strain.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With iSolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who knows your setup, manages migration from your current system, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
+            With isolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who knows your setup, manages migration from your current system, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
           </p>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function iSolvedVsUkgPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>AI Capabilities</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
+            isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
             For teams that want to move work forward through AI rather than just look things up, this is a meaningful difference, and it is available today through BEG.
@@ -178,7 +178,7 @@ export default function iSolvedVsUkgPage() {
             Choose UKG if you are a large, complex enterprise with deep workforce management needs, the budget for an enterprise platform, and a team ready to manage a longer implementation. For that profile, UKG is a strong and capable choice.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Choose iSolved if you are a mid-market company that wants payroll, HR, time, and benefits to work together on one connected platform, with a partner who runs it for you. With more than 7 million employees on iSolved and a Forrester-documented 330% ROI, it is built to scale with you.
+            Choose isolved if you are a mid-market company that wants payroll, HR, time, and benefits to work together on one connected platform, with a partner who runs it for you. With more than 7 million employees on isolved and a Forrester-documented 330% ROI, it is built to scale with you.
           </p>
         </div>
       </section>
@@ -208,10 +208,10 @@ export default function iSolvedVsUkgPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            See iSolved vs. Your Current Platform
+            See isolved vs. Your Current Platform
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your setup, run a cost comparison, and show you what iSolved plus BEG looks like for your company.
+            15-minute call. We will walk through your setup, run a cost comparison, and show you what isolved plus BEG looks like for your company.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -224,7 +224,7 @@ export default function iSolvedVsUkgPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

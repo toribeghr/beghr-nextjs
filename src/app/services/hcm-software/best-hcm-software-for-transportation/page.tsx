@@ -5,17 +5,17 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Transportation 2026 | BEG',
-  description: 'What to look for in transportation HCM software in 2026, the driver pay, per-diem, and multi-state challenges carriers face, and why iSolved plus BEG fits.',
+  description: 'What to look for in transportation HCM software in 2026, the driver pay, per-diem, and multi-state challenges carriers face, and why isolved plus BEG fits.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-transportation' },
   openGraph: {
     title: 'Best HCM Software for Transportation 2026 | BEG',
-    description: 'What to look for in transportation HCM software in 2026, the driver pay, per-diem, and multi-state challenges carriers face, and why iSolved plus BEG fits.',
+    description: 'What to look for in transportation HCM software in 2026, the driver pay, per-diem, and multi-state challenges carriers face, and why isolved plus BEG fits.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-transportation',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Transportation 2026 | BEG', description: 'What to look for in transportation HCM software in 2026, the driver pay, per-diem, and multi-state challenges carriers face, and why iSolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Transportation 2026 | BEG', description: 'What to look for in transportation HCM software in 2026, the driver pay, per-diem, and multi-state challenges carriers face, and why isolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for flexible driver pay models such as mileage and load-based pay, per-diem handling, and reliable multi-state tax across the regions drivers cross. The platform should also onboard drivers quickly and keep compliance straight.',
   },
   {
-    q: 'Why is iSolved a strong pick for transportation?',
-    a: 'iSolved keeps payroll, time, and HR on a single connected platform that can model varied driver pay structures and multi-state tax. BEG configures the pay rules, per-diem handling, and state setup to match how you pay drivers.',
+    q: 'Why is isolved a strong pick for transportation?',
+    a: 'isolved keeps payroll, time, and HR on a single connected platform that can model varied driver pay structures and multi-state tax. BEG configures the pay rules, per-diem handling, and state setup to match how you pay drivers.',
   },
   {
-    q: 'Can iSolved handle driver pay and per-diem?',
-    a: 'iSolved supports the pay structures transportation requires, including non-hourly driver pay models and per-diem handling. BEG configures the rules so each pay type is applied and reported correctly.',
+    q: 'Can isolved handle driver pay and per-diem?',
+    a: 'isolved supports the pay structures transportation requires, including non-hourly driver pay models and per-diem handling. BEG configures the rules so each pay type is applied and reported correctly.',
   },
   {
-    q: 'Is iSolved right for every carrier?',
+    q: 'Is isolved right for every carrier?',
     a: 'It depends on your needs. A small local carrier with hourly drivers in one state has different needs than an interstate fleet with mixed pay models. The right fit depends on your pay structures, routes, and geography.',
   },
   {
     q: 'What does the Connector for Claude offer a carrier?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Office staff can pull payroll and labor reports and update driver records through conversation rather than navigating screens.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Office staff can pull payroll and labor reports and update driver records through conversation rather than navigating screens.',
   },
 ];
 
@@ -102,15 +102,15 @@ export default function BestHCMTransportationPage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Carriers</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Carriers</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform, which suits the mix of varied pay and multi-state complexity that transportation lives with. Driver pay models and per-diem are configured to run consistently, multi-state tax is handled from one place, and labor is reportable across drivers and terminals. With more than 7 million employees managed on iSolved, the platform is dependable for distributed, mobile workforces.
+            isolved is a single connected platform, which suits the mix of varied pay and multi-state complexity that transportation lives with. Driver pay models and per-diem are configured to run consistently, multi-state tax is handled from one place, and labor is reportable across drivers and terminals. With more than 7 million employees managed on isolved, the platform is dependable for distributed, mobile workforces.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            BEG implements, configures, and supports the platform for your driver pay structures, per-diem rules, and multi-state setup, and stays with you as routes and pay models change. The Forrester-documented 330% ROI for iSolved tends to appear in transportation where accurate driver pay and reliable multi-state tax reduce manual calculation and correction runs.
+            BEG implements, configures, and supports the platform for your driver pay structures, per-diem rules, and multi-state setup, and stays with you as routes and pay models change. The Forrester-documented 330% ROI for isolved tends to appear in transportation where accurate driver pay and reliable multi-state tax reduce manual calculation and correction runs.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            For the carrier-specific setup, see our <Link href="/services/hcm-software/transportation" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM for transportation</Link> page.
+            For the carrier-specific setup, see our <Link href="/services/hcm-software/transportation" style={{ color: '#000', fontWeight: 600 }}>isolved HCM for transportation</Link> page.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BestHCMTransportationPage() {
             No platform is best for every carrier, and a fair comparison will say so. A small local carrier with hourly drivers in one state may be served well by a simpler tool. The case for a connected platform strengthens with mixed pay models, per-diem, and interstate operation.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Ask how your drivers are paid, whether you administer per-diem, how many states you operate across, and whether you want a partner managing the platform. iSolved is a strong choice for carriers with varied pay and multi-state routes who want BEG running it. BEG will compare it fairly against your current setup.
+            Ask how your drivers are paid, whether you administer per-diem, how many states you operate across, and whether you want a partner managing the platform. The isolved platform is a strong choice for carriers with varied pay and multi-state routes who want BEG running it. BEG will compare it fairly against your current setup.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMTransportationPage() {
       <OvertimePayCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Fleet</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Fleet</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through driver pay, per-diem, and multi-state tax and show you what iSolved plus BEG looks like for your carrier.
+            15-minute call. We will walk through driver pay, per-diem, and multi-state tax and show you what isolved plus BEG looks like for your carrier.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMTransportationPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, multi-state tax, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, multi-state tax, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Driver pay calculation and per-diem handling are high-effort tasks. Here is what to automate.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'Multi-state requirements for mobile workforces and what your HCM platform should handle automatically.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved vs Justworks | One Platform + Claude AI | BEG',
-  description: 'iSolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.',
+  title: 'isolved vs Justworks | One Platform + Claude AI | BEG',
+  description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-justworks' },
   openGraph: {
-    title: 'iSolved vs Justworks | One Platform + Claude AI | BEG',
-    description: 'iSolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.',
+    title: 'isolved vs Justworks | One Platform + Claude AI | BEG',
+    description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-justworks',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved vs Justworks | One Platform + Claude AI | BEG', description: 'iSolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Justworks | One Platform + Claude AI | BEG', description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -27,24 +27,24 @@ const faqs = [
     a: 'Yes. Justworks is a simple, well-liked PEO for small businesses that want easy HR and benefits through a co-employment model. For a small team that wants a clean, hands-off experience, it can serve well.',
   },
   {
-    q: 'What is the difference between Justworks and iSolved?',
-    a: 'Justworks is a PEO built on a co-employment model with limited customization. iSolved is a single connected HCM platform that you own and control, implemented and supported by BEG. The core difference is co-employment and simplicity versus owning a configurable platform.',
+    q: 'What is the difference between Justworks and isolved?',
+    a: 'Justworks is a PEO built on a co-employment model with limited customization. The isolved platform is a single connected HCM system that you own and control, implemented and supported by BEG. The core difference is co-employment and simplicity versus owning a configurable platform.',
   },
   {
-    q: 'When does it make sense to choose iSolved over Justworks?',
-    a: 'iSolved tends to fit better as you grow and need more customization and direct control than a small-business PEO offers. With iSolved you keep control of payroll, HR, time, and benefits on one connected platform, and BEG supports you throughout.',
+    q: 'When does it make sense to choose isolved over Justworks?',
+    a: 'isolved tends to fit better as you grow and need more customization and direct control than a small-business PEO offers. With isolved you keep control of payroll, HR, time, and benefits on one connected platform, and BEG supports you throughout.',
   },
   {
-    q: 'What is the AI difference between iSolved and Justworks?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
+    q: 'What is the AI difference between isolved and Justworks?',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. That capability is available today through BEG.',
   },
   {
-    q: 'Can I move off a PEO and onto iSolved?',
+    q: 'Can I move off a PEO and onto isolved?',
     a: 'Yes. BEG manages the migration of payroll history, employee records, and benefits data as part of implementation, so the transition off a co-employment model is structured rather than something you handle on your own.',
   },
   {
-    q: 'Is iSolved proven to deliver a return on investment?',
-    a: 'Forrester documented a 330% ROI for iSolved. More than 7 million employees are managed on the iSolved platform, which speaks to its scale and reliability across many industries.',
+    q: 'Is isolved proven to deliver a return on investment?',
+    a: 'Forrester documented a 330% ROI for isolved. More than 7 million employees are managed on the isolved platform, which speaks to its scale and reliability across many industries.',
   },
 ];
 
@@ -64,11 +64,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved vs Justworks', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-justworks' },
+    { '@type': 'ListItem', position: 3, name: 'isolved vs Justworks', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-justworks' },
   ],
 };
 
-export default function iSolvedVsJustworksPage() {
+export default function isolvedVsJustworksPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -79,10 +79,10 @@ export default function iSolvedVsJustworksPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Comparison</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            iSolved vs Justworks: The Honest Comparison
+            isolved vs Justworks: The Honest Comparison
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            Justworks is a simple PEO for small businesses built on a co-employment model. iSolved is a single connected platform you own and control. Here is how they compare.
+            Justworks is a simple PEO for small businesses built on a co-employment model. The platform is a single connected isolved system you own and control. Here is how they compare.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -96,7 +96,7 @@ export default function iSolvedVsJustworksPage() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>Bottom Line Up Front</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
-              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>iSolved wins on:</strong>
+              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>isolved wins on:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
                 <li>A single connected platform you own and control</li>
                 <li>Connector for Claude that completes real HR tasks</li>
@@ -126,7 +126,7 @@ export default function iSolvedVsJustworksPage() {
             Justworks is a PEO for small businesses that bundles HR and benefits through a co-employment model. It is intentionally simple, which is part of its appeal for small teams. The trade-offs are limited customization and less direct control over your systems.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is a single connected platform that brings payroll, HR, time, and benefits together under your own control. You own the platform and the relationship with your employees, and BEG supports you in running it. As you grow and need more configurability, that distinction matters.
+            isolved is a single connected platform that brings payroll, HR, time, and benefits together under your own control. You own the platform and the relationship with your employees, and BEG supports you in running it. As you grow and need more configurability, that distinction matters.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function iSolvedVsJustworksPage() {
             Justworks uses a per-employee PEO cost structure tied to the bundled service and pooled benefits. That can be reasonable for small teams that value simplicity, but the co-employment bundle can be harder to unbundle as your needs grow more specific.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is priced as a platform you own, with broad capability in one connected system. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
+            isolved is priced as a platform you own, with broad capability in one connected system. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function iSolvedVsJustworksPage() {
             With a PEO like Justworks, the service is the support, and that can work well for a small business that wants HR off its plate. The trade-off is that the co-employment relationship shapes how you operate, and stepping away from it later means migrating off a bundled model.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With iSolved, BEG implements, configures, and supports the platform for you while you keep control. You get a dedicated partner who knows your setup, manages migration from your current arrangement, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
+            With isolved, BEG implements, configures, and supports the platform for you while you keep control. You get a dedicated partner who knows your setup, manages migration from your current arrangement, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
           </p>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function iSolvedVsJustworksPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>AI Capabilities</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
+            isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
             For teams that want to move work forward through AI rather than just look things up, this is a meaningful difference, and it is available today through BEG.
@@ -178,7 +178,7 @@ export default function iSolvedVsJustworksPage() {
             Choose Justworks if you are a small business that wants a simple, hands-off PEO with easy HR and benefits, and you are comfortable with a co-employment model and limited customization. For that profile, Justworks is a genuinely good option, and there is no need to over-buy.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Choose iSolved if you want to own and control your HR on one connected platform for payroll, HR, time, and benefits, with a partner who runs it for you. With more than 7 million employees on iSolved and a Forrester-documented 330% ROI, it is built to scale with you.
+            Choose isolved if you want to own and control your HR on one connected platform for payroll, HR, time, and benefits, with a partner who runs it for you. With more than 7 million employees on isolved and a Forrester-documented 330% ROI, it is built to scale with you.
           </p>
         </div>
       </section>
@@ -208,10 +208,10 @@ export default function iSolvedVsJustworksPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            See iSolved vs. Your Current Platform
+            See isolved vs. Your Current Platform
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your setup, run a cost comparison, and show you what iSolved plus BEG looks like for your company.
+            15-minute call. We will walk through your setup, run a cost comparison, and show you what isolved plus BEG looks like for your company.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -224,7 +224,7 @@ export default function iSolvedVsJustworksPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

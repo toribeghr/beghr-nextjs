@@ -4,17 +4,17 @@ import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
   title: 'ACA Compliance Software | BEG',
-  description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. iSolved on one connected platform, supported by BEG.',
+  description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. isolved on one connected platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/aca-compliance-software' },
   openGraph: {
     title: 'ACA Compliance Software | BEG',
-    description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. iSolved on one connected platform, supported by BEG.',
+    description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. isolved on one connected platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/aca-compliance-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'ACA Compliance Software | BEG', description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. iSolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'ACA Compliance Software | BEG', description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,16 +25,16 @@ const faqs = [
     a: 'ACA compliance software tracks employee hours, measures eligibility against your measurement periods, checks affordability, and generates the 1094-C and 1095-C forms the IRS requires. It turns year-end filing from a manual scramble into a process that runs on the data you already capture.',
   },
   {
-    q: 'How does iSolved track ACA hours and eligibility?',
-    a: 'iSolved measures hours worked against the measurement, administrative, and stability periods you define, then flags which employees become eligible for an offer of coverage. Because hours come from the same platform that runs time and payroll, the measurement uses real data.',
+    q: 'How does isolved track ACA hours and eligibility?',
+    a: 'isolved measures hours worked against the measurement, administrative, and stability periods you define, then flags which employees become eligible for an offer of coverage. Because hours come from the same platform that runs time and payroll, the measurement uses real data.',
   },
   {
-    q: 'Can iSolved generate 1094-C and 1095-C forms?',
-    a: 'Yes. iSolved produces the 1094-C and 1095-C forms ACA reporting requires, populated from your coverage, eligibility, and affordability data. Keeping the forms on the same platform as the underlying data reduces the rekeying and reconciliation that cause filing errors.',
+    q: 'Can isolved generate 1094-C and 1095-C forms?',
+    a: 'Yes. The isolved platform produces the 1094-C and 1095-C forms ACA reporting requires, populated from your coverage, eligibility, and affordability data. Keeping the forms on the same platform as the underlying data reduces the rekeying and reconciliation that cause filing errors.',
   },
   {
     q: 'How does affordability checking work?',
-    a: 'iSolved compares the cost of your lowest-cost offer against the applicable affordability threshold using the safe harbor you choose. That lets you see whether an offer is affordable under ACA rules before filing, rather than discovering a problem after forms go out.',
+    a: 'isolved compares the cost of your lowest-cost offer against the applicable affordability threshold using the safe harbor you choose. That lets you see whether an offer is affordable under ACA rules before filing, rather than discovering a problem after forms go out.',
   },
   {
     q: 'Why use BEG to implement ACA compliance?',
@@ -81,7 +81,7 @@ export default function AcaComplianceSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · ACA Compliance</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>ACA Compliance Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            ACA hours tracking, eligibility, affordability, and 1094-C and 1095-C filing work best on the same platform that captures the hours. Here is what to look for and how iSolved plus BEG handles it.
+            ACA hours tracking, eligibility, affordability, and 1094-C and 1095-C filing work best on the same platform that captures the hours. Here is what to look for and how isolved plus BEG handles it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function AcaComplianceSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good ACA compliance software tracks hours, measures eligibility, checks affordability, and generates the 1094-C and 1095-C forms the IRS requires. iSolved does all of this on the same connected platform that runs time and payroll, and BEG configures your measurement periods and safe harbors so filings match how you staff.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>Good ACA compliance software tracks hours, measures eligibility, checks affordability, and generates the 1094-C and 1095-C forms the IRS requires. The isolved platform handles all of this on the same connected platform that runs time and payroll, and BEG configures your measurement periods and safe harbors so filings match how you staff.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is ACA compliance software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function AcaComplianceSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved handles ACA as part of one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved handles ACA as part of one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved runs ACA compliance inside the same platform that runs your time, payroll, and benefits. It measures hours against the measurement, administrative, and stability periods you define, flags which employees become eligible for an offer of coverage, and checks affordability against the applicable threshold using the safe harbor you choose. Because the hours come from the same system, the measurement uses real data.
+            isolved runs ACA compliance inside the same platform that runs your time, payroll, and benefits. It measures hours against the measurement, administrative, and stability periods you define, flags which employees become eligible for an offer of coverage, and checks affordability against the applicable threshold using the safe harbor you choose. Because the hours come from the same system, the measurement uses real data.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            At filing time iSolved produces the 1094-C and 1095-C forms, populated from your coverage, eligibility, and affordability data. Because more than 7 million employees are managed on iSolved, ACA tracking is proven across the staffing patterns, variable-hour workforces, and reporting demands employers of every size face.
+            At filing time isolved produces the 1094-C and 1095-C forms, populated from your coverage, eligibility, and affordability data. Because more than 7 million employees are managed on isolved, ACA tracking is proven across the staffing patterns, variable-hour workforces, and reporting demands employers of every size face.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            ACA compliance is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link>, and your team can check eligibility status or pull an ACA report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than clicking through screens.
+            ACA compliance is one capability of the broader <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link>, and your team can check eligibility status or pull an ACA report through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than clicking through screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function AcaComplianceSoftwarePage() {
             ACA configuration carries real consequences. Measurement period lengths, administrative and stability periods, affordability safe harbors, and how coverage offers are recorded all have to match how you actually staff and offer coverage. BEG configures these settings, validates your data, and supports you through each filing season so the forms are right the first time.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and in ACA that return shows up where continuous measurement from real hours and form generation from the same data cut filing labor and penalty risk. When your workforce shifts, you change a safe harbor, or filing season arrives, you call your BEG contact, not a ticket queue.
+            isolved carries a Forrester-documented 330% ROI, and in ACA that return shows up where continuous measurement from real hours and form generation from the same data cut filing labor and penalty risk. When your workforce shifts, you change a safe harbor, or filing season arrives, you call your BEG contact, not a ticket queue.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function AcaComplianceSoftwarePage() {
             No single setup fits every employer, and an honest answer should say so. ACA employer reporting generally applies to applicable large employers, those with 50 or more full-time and full-time-equivalent employees, so a smaller employer may not file at all. The value rises with variable-hour staff, seasonal swings, and how close you sit to the threshold.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are whether you are an applicable large employer, how much your hours fluctuate, and whether your hours data already lives where you track eligibility. iSolved is a strong fit when ACA applies to you and you want eligibility measured from real hours with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
+            The questions worth asking are whether you are an applicable large employer, how much your hours fluctuate, and whether your hours data already lives where you track eligibility. The isolved platform is a strong fit when ACA applies to you and you want eligibility measured from real hours with BEG managing it. BEG will run a fair comparison against your current process rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function AcaComplianceSoftwarePage() {
       <FinalPaycheckCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See ACA compliance in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See ACA compliance in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your measurement periods, look at how you file today, and show you what iSolved plus BEG looks like for your team.
+            15-minute call. We will walk through your measurement periods, look at how you file today, and show you what isolved plus BEG looks like for your team.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

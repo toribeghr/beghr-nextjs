@@ -3,7 +3,7 @@ import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
   title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG',
-  description: '2026 payroll compliance changes: overtime rules, minimum wages, 1099-NEC thresholds, and paid leave. How iSolved handles compliance automatically.',
+  description: '2026 payroll compliance changes: overtime rules, minimum wages, 1099-NEC thresholds, and paid leave. How isolved handles compliance automatically.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/payroll-compliance' },
   openGraph: {
     title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG',
@@ -24,11 +24,11 @@ const faqs = [
   },
   {
     question: 'How does multi-state payroll affect nexus and tax exposure?',
-    answer: 'When an employee works in a state, the employer typically has payroll tax nexus in that state -- meaning they must withhold that state\'s income tax, pay state unemployment insurance, and comply with that state\'s paid leave laws. Remote-first companies with employees in 15-25 states have 15-25 separate payroll compliance obligations. Most small payroll systems are not built for this. isolved handles multi-state payroll natively, applying the correct rates and filing requirements for each employee\'s work state automatically.',
+    answer: 'When an employee works in a state, the employer typically has payroll tax nexus in that state -- meaning they must withhold that state\'s income tax, pay state unemployment insurance, and comply with that state\'s paid leave laws. Remote-first companies with employees in 15-25 states have 15-25 separate payroll compliance obligations. Most small payroll systems are not built for this. The platform handles multi-state payroll natively, applying the correct rates and filing requirements for each employee\'s work state automatically.',
   },
   {
     question: 'What is the ACA affordability threshold for 2026?',
-    answer: 'The IRS adjusts the ACA affordability percentage annually. For plan year 2026, employers should confirm the current threshold before open enrollment. The affordability test determines whether employer-sponsored coverage is considered affordable for ACA purposes -- if employee cost exceeds the threshold, the employer may face Employer Shared Responsibility penalties. isolved tracks the current threshold and flags plans that may fail the affordability test.',
+    answer: 'The IRS adjusts the ACA affordability percentage annually. For plan year 2026, employers should confirm the current threshold before open enrollment. The affordability test determines whether employer-sponsored coverage is considered affordable for ACA purposes -- if employee cost exceeds the threshold, the employer may face Employer Shared Responsibility penalties. The isolved platform tracks the current threshold and flags plans that may fail the affordability test.',
   },
   {
     question: 'How does isolved handle compliance updates when laws change?',
@@ -296,7 +296,7 @@ export default function PayrollCompliancePage() {
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
             <a href="/services/hcm-software" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>isolved HCM Software &rarr;</a>
             <a href="/services/managed-payroll" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>Managed Payroll &rarr;</a>
-            <a href="/blog/hcm-software/isolved-platform" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>iSolved Platform Review &rarr;</a>
+            <a href="/blog/hcm-software/isolved-platform" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>isolved Platform Review &rarr;</a>
           </div>
         </div>
 

@@ -2,25 +2,25 @@ import { Metadata } from 'next';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved People Cloud Review 2026 | Features & Pricing | BEG',
-  description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom and ADP.',
+  title: 'isolved People Cloud Review 2026 | Features & Pricing | BEG',
+  description: 'Full isolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom and ADP.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/isolved-platform' },
   openGraph: {
-    title: 'iSolved People Cloud Review 2026 | Features & Pricing | BEG',
-    description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...',
+    title: 'isolved People Cloud Review 2026 | Features & Pricing | BEG',
+    description: 'Full isolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...',
     url: 'https://www.beghr.com/blog/hcm-software/isolved-platform',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved People Cloud Review 2026 | Features & Pricing | BEG', description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved People Cloud Review 2026 | Features & Pricing | BEG', description: 'Full isolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     question: 'How does isolved compare to Rippling?',
-    answer: 'Rippling is strong for IT-heavy companies that want device management alongside HR and payroll in one platform. isolved focuses on HR and payroll depth -- compliance automation, ACA tracking, garnishment processing, and the Connector for Claude -- without the IT infrastructure layer. For companies whose primary need is HR and payroll consolidation rather than IT management, isolved typically delivers more depth in those areas and faster implementation. Rippling is a better fit when device and app provisioning are a core requirement.',
+    answer: 'Rippling is strong for IT-heavy companies that want device management alongside HR and payroll in one platform. The isolved platform focuses on HR and payroll depth -- compliance automation, ACA tracking, garnishment processing, and the Connector for Claude -- without the IT infrastructure layer. For companies whose primary need is HR and payroll consolidation rather than IT management, isolved typically delivers more depth in those areas and faster implementation. Rippling is a better fit when device and app provisioning are a core requirement.',
   },
   {
     question: 'What drives isolved pricing and what does it cost?',
@@ -78,13 +78,13 @@ const situationRows = [
 export default function IsolvedPlatformPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "iSolved People Cloud Review 2026 | Features & Pricing | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/isolved-platform"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "isolved People Cloud Review 2026 | Features & Pricing | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/isolved-platform"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Software &amp; HR Tech</p>
-              <h1>iSolved People Cloud Review: Features, Pricing, and What to Expect in 2026</h1>
+              <h1>isolved People Cloud Review: Features, Pricing, and What to Expect in 2026</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 25, 2026</span>
@@ -307,8 +307,8 @@ export default function IsolvedPlatformPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: 'iSolved People Cloud Review: Features, Pricing, and What to Expect in 2026',
-            description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Paylocity, and ADP.',
+            headline: 'isolved People Cloud Review: Features, Pricing, and What to Expect in 2026',
+            description: 'Full isolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Paylocity, and ADP.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved vs BambooHR | One Platform + Claude AI | BEG',
-  description: 'iSolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.',
+  title: 'isolved vs BambooHR | One Platform + Claude AI | BEG',
+  description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr' },
   openGraph: {
-    title: 'iSolved vs BambooHR | One Platform + Claude AI | BEG',
-    description: 'iSolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.',
+    title: 'isolved vs BambooHR | One Platform + Claude AI | BEG',
+    description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved vs BambooHR | One Platform + Claude AI | BEG', description: 'iSolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs BambooHR | One Platform + Claude AI | BEG', description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -27,24 +27,24 @@ const faqs = [
     a: 'BambooHR is known for people-first HR, including onboarding, performance, and culture, delivered through an intuitive interface. For teams whose top priority is core HR experience, it is a popular choice.',
   },
   {
-    q: 'How does payroll compare between iSolved and BambooHR?',
-    a: 'With BambooHR, payroll is an add-on and is generally less deep than a payroll-first platform. iSolved brings payroll, HR, time, and benefits together on a single connected platform, so payroll is core rather than bolted on.',
+    q: 'How does payroll compare between isolved and BambooHR?',
+    a: 'With BambooHR, payroll is an add-on and is generally less deep than a payroll-first platform. The isolved platform brings payroll, HR, time, and benefits together on a single connected platform, so payroll is core rather than bolted on.',
   },
   {
     q: 'Will BambooHR costs increase as we grow?',
-    a: 'Per-employee costs with BambooHR can escalate as you add headcount and modules. With iSolved, BEG scopes your configuration up front and runs a side-by-side cost comparison so you can plan with clarity.',
+    a: 'Per-employee costs with BambooHR can escalate as you add headcount and modules. With isolved, BEG scopes your configuration up front and runs a side-by-side cost comparison so you can plan with clarity.',
   },
   {
-    q: 'What is the AI difference between iSolved and BambooHR?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. BambooHR does not offer an equivalent capability.',
+    q: 'What is the AI difference between isolved and BambooHR?',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. BambooHR does not offer an equivalent capability.',
   },
   {
-    q: 'Can BEG migrate us from BambooHR to iSolved?',
+    q: 'Can BEG migrate us from BambooHR to isolved?',
     a: 'Yes. BEG manages migration of employee records, payroll history, and benefits data as part of implementation, so the transition is structured and supported.',
   },
   {
-    q: 'Is iSolved proven at scale?',
-    a: 'Yes. More than 7 million employees are managed on the iSolved platform, and Forrester documented a 330% ROI. It is a proven mid-market platform.',
+    q: 'Is isolved proven at scale?',
+    a: 'Yes. More than 7 million employees are managed on the isolved platform, and Forrester documented a 330% ROI. It is a proven mid-market platform.',
   },
 ];
 
@@ -64,11 +64,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved vs BambooHR', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr' },
+    { '@type': 'ListItem', position: 3, name: 'isolved vs BambooHR', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr' },
   ],
 };
 
-export default function iSolvedVsBambooHRPage() {
+export default function isolvedVsBambooHRPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -79,10 +79,10 @@ export default function iSolvedVsBambooHRPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Comparison</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            iSolved vs BambooHR: The Honest Comparison
+            isolved vs BambooHR: The Honest Comparison
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            BambooHR is loved for people-first HR and an intuitive interface. iSolved is a single connected platform where payroll, HR, time, and benefits work together. Here is how they compare.
+            BambooHR is loved for people-first HR and an intuitive interface. The platform is a single connected isolved system where payroll, HR, time, and benefits work together. Here is how they compare.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -96,7 +96,7 @@ export default function iSolvedVsBambooHRPage() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>Bottom Line Up Front</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
-              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>iSolved wins on:</strong>
+              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>isolved wins on:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
                 <li>A single connected platform for payroll, HR, time, and benefits</li>
                 <li>Deep, core payroll rather than an add-on</li>
@@ -126,7 +126,7 @@ export default function iSolvedVsBambooHRPage() {
             BambooHR shines on people-first HR. Onboarding, performance, and culture are presented through an intuitive interface that teams adopt quickly. Payroll, however, is an add-on and is generally less deep than a payroll-first platform.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved treats payroll as core, not an extra. Payroll, HR, time, and benefits live together on a single connected platform, so the data flows in one place. For companies that need strong payroll alongside HR, that depth matters.
+            isolved treats payroll as core, not an extra. Payroll, HR, time, and benefits live together on a single connected platform, so the data flows in one place. For companies that need strong payroll alongside HR, that depth matters.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function iSolvedVsBambooHRPage() {
             With BambooHR, per-employee costs can escalate as you grow your headcount and add modules such as payroll. The starting price can look approachable while the full picture grows over time.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With iSolved, BEG scopes your configuration up front so cost is tied to what you use. BEG will run a side-by-side comparison so you can plan confidently as you scale.
+            With isolved, BEG scopes your configuration up front so cost is tied to what you use. BEG will run a side-by-side comparison so you can plan confidently as you scale.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function iSolvedVsBambooHRPage() {
             BambooHR is intuitive, which helps with adoption. When you extend into payroll and deeper operations, though, configuration and ongoing administration grow, and that work tends to sit with your team.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With iSolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who manages migration from BambooHR and stays with you for ongoing optimization and compliance updates.
+            With isolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who manages migration from BambooHR and stays with you for ongoing optimization and compliance updates.
           </p>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function iSolvedVsBambooHRPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>AI Capabilities</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data, rather than just answering questions.
+            isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data, rather than just answering questions.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
             BambooHR does not offer an equivalent capability. For teams that want AI to move work forward, this is a clear difference, and it is available today through BEG.
@@ -178,7 +178,7 @@ export default function iSolvedVsBambooHRPage() {
             Choose BambooHR if your top priority is people-first HR, you value an intuitive interface for onboarding, performance, and culture, and your payroll is well handled elsewhere or your needs are light.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Choose iSolved if you want payroll, HR, time, and benefits on one connected platform with deep payroll, clear pricing, and a partner who runs it for you. With more than 7 million employees on iSolved and a Forrester-documented 330% ROI, it is built for growing mid-market companies.
+            Choose isolved if you want payroll, HR, time, and benefits on one connected platform with deep payroll, clear pricing, and a partner who runs it for you. With more than 7 million employees on isolved and a Forrester-documented 330% ROI, it is built for growing mid-market companies.
           </p>
         </div>
       </section>
@@ -208,10 +208,10 @@ export default function iSolvedVsBambooHRPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            See iSolved vs. Your Current Platform
+            See isolved vs. Your Current Platform
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your setup, run a cost comparison, and show you what iSolved plus BEG looks like for your company.
+            15-minute call. We will walk through your setup, run a cost comparison, and show you what isolved plus BEG looks like for your company.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -224,7 +224,7 @@ export default function iSolvedVsBambooHRPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

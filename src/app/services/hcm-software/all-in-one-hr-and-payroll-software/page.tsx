@@ -4,17 +4,17 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'All-in-One HR and Payroll Software | BEG',
-  description: 'All-in-one HR and payroll software puts payroll, HR, time, and benefits on one connected platform, not stitched tools. iSolved, configured and supported by BEG.',
+  description: 'All-in-one HR and payroll software puts payroll, HR, time, and benefits on one connected platform, not stitched tools. isolved, configured and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/all-in-one-hr-and-payroll-software' },
   openGraph: {
     title: 'All-in-One HR and Payroll Software | BEG',
-    description: 'All-in-one HR and payroll software puts payroll, HR, time, and benefits on one connected platform, not stitched tools. iSolved, configured and supported by BEG.',
+    description: 'All-in-one HR and payroll software puts payroll, HR, time, and benefits on one connected platform, not stitched tools. isolved, configured and supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/all-in-one-hr-and-payroll-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'All-in-One HR and Payroll Software | BEG', description: 'All-in-one HR and payroll software puts payroll, HR, time, and benefits on one connected platform, not stitched tools. iSolved, configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'All-in-One HR and Payroll Software | BEG', description: 'All-in-one HR and payroll software puts payroll, HR, time, and benefits on one connected platform, not stitched tools. isolved, configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -25,8 +25,8 @@ const faqs = [
     a: 'All-in-one HR and payroll software brings payroll, HR, time and attendance, and benefits onto a single connected platform. Employee data is entered once and shared everywhere, so the systems stay in sync instead of being stitched together with integrations.',
   },
   {
-    q: 'How is iSolved an all-in-one platform?',
-    a: 'iSolved runs payroll, HR, time and attendance, benefits, onboarding, and self-service on one platform with one employee record. A change in one area updates the others automatically, because it is one system rather than several tools connected by feeds.',
+    q: 'How is isolved an all-in-one platform?',
+    a: 'isolved runs payroll, HR, time and attendance, benefits, onboarding, and self-service on one platform with one employee record. A change in one area updates the others automatically, because it is one system rather than several tools connected by feeds.',
   },
   {
     q: 'Why is one platform better than stitched-together tools?',
@@ -34,11 +34,11 @@ const faqs = [
   },
   {
     q: 'What does all-in-one HR and payroll software include?',
-    a: 'A true all-in-one platform includes payroll, HR records, time and attendance, benefits administration, onboarding, employee self-service, and compliance. iSolved covers all of these in one system, and BEG configures the modules you need for how you operate.',
+    a: 'A true all-in-one platform includes payroll, HR records, time and attendance, benefits administration, onboarding, employee self-service, and compliance. The platform covers all of these in one system, and BEG configures the modules you need for how you operate.',
   },
   {
     q: 'Does all-in-one mean I lose depth in any one area?',
-    a: 'Not with the right platform. iSolved delivers real depth in payroll, time, and benefits while keeping them connected, so you get capable tools in each area without the cost and fragility of running and integrating several separate systems.',
+    a: 'Not with the right platform. The isolved platform delivers real depth in payroll, time, and benefits while keeping them connected, so you get capable tools in each area without the cost and fragility of running and integrating several separate systems.',
   },
   {
     q: 'Why use BEG to implement an all-in-one platform?',
@@ -81,7 +81,7 @@ export default function AllInOneHRPayrollSoftwarePage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · All-in-One HR and Payroll</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>All-in-One HR and Payroll Software</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Payroll, HR, time, and benefits belong on one platform, not stitched together with brittle integrations. Here is what all-in-one really means and how iSolved plus BEG delivers it.
+            Payroll, HR, time, and benefits belong on one platform, not stitched together with brittle integrations. Here is what all-in-one really means and how isolved plus BEG delivers it.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -93,7 +93,7 @@ export default function AllInOneHRPayrollSoftwarePage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <div className="tldr" style={{ background: '#f9f9f9', borderLeft: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
             <p style={{ fontWeight: '700', margin: '0 0 0.5rem', color: '#000000', letterSpacing: '0.04em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Bottom line</p>
-            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>All-in-one HR and payroll software puts payroll, HR, time, and benefits on one connected platform with a single employee record, so data is entered once and stays in sync. iSolved is that platform, and BEG configures and supports the whole thing, so you work with one partner instead of juggling stitched-together tools.</p>
+            <p style={{ margin: 0, fontSize: '1.02rem', lineHeight: '1.7', color: '#333333' }}>All-in-one HR and payroll software puts payroll, HR, time, and benefits on one connected platform with a single employee record, so data is entered once and stays in sync. The isolved platform provides that, and BEG configures and supports the whole thing, so you work with one partner instead of juggling stitched-together tools.</p>
           </div>
 
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>What is all-in-one HR and payroll software and what should you look for?</h2>
@@ -120,15 +120,15 @@ export default function AllInOneHRPayrollSoftwarePage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How iSolved delivers one connected platform</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>How isolved delivers one connected platform</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved runs payroll, HR, time and attendance, benefits, onboarding, and employee self-service on one platform with a single employee record. Hours captured at the clock flow into payroll, benefits elections drive deductions, and a profile change updates everywhere at once, because it is one system, not several tools tied together by feeds.
+            isolved runs payroll, HR, time and attendance, benefits, onboarding, and employee self-service on one platform with a single employee record. Hours captured at the clock flow into payroll, benefits elections drive deductions, and a profile change updates everywhere at once, because it is one system, not several tools tied together by feeds.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            This is the all-in-one model proven at scale. Because more than 7 million employees are managed on iSolved, the connected platform is tested across the full range of payroll, time, and benefits complexity that growing employers face.
+            This is the all-in-one model proven at scale. Because more than 7 million employees are managed on isolved, the connected platform is tested across the full range of payroll, time, and benefits complexity that growing employers face.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            You can explore each capability from the <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM platform</Link> hub, and your team can run tasks across all of it through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>iSolved Connector for Claude</Link> rather than switching between screens.
+            You can explore each capability from the <Link href="/services/hcm-software" style={{ color: '#000', fontWeight: 600 }}>isolved HCM platform</Link> hub, and your team can run tasks across all of it through the <Link href="/services/hcm-software/ai-connector" style={{ color: '#000', fontWeight: 600 }}>isolved Connector for Claude</Link> rather than switching between screens.
           </p>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function AllInOneHRPayrollSoftwarePage() {
             An all-in-one platform is only as good as its setup. Configuring payroll, time, benefits, and HR to work together for your business is real work, and it is exactly what BEG does. BEG implements, configures, and supports the full platform, so the modules are tuned to how you operate and stay that way as you grow.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved carries a Forrester-documented 330% ROI, and on an all-in-one platform that return compounds, because every connected function removes the rework that disconnected tools create. Across payroll, HR, time, and benefits, you have one BEG contact who knows your whole setup, not a different support queue for each tool.
+            isolved carries a Forrester-documented 330% ROI, and on an all-in-one platform that return compounds, because every connected function removes the rework that disconnected tools create. Across payroll, HR, time, and benefits, you have one BEG contact who knows your whole setup, not a different support queue for each tool.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function AllInOneHRPayrollSoftwarePage() {
             All-in-one is not automatically the right answer for everyone, and an honest comparison should say so. A very small company with simple needs may be fine with a basic payroll tool for now. The value of one connected platform grows with headcount, with the number of HR functions you run, and with how much time you currently lose to reconciling separate systems.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            The questions worth asking are how many separate HR and payroll tools you run today, how much duplicate data entry and reconciliation that creates, whether your integrations are reliable, and whether you want one partner managing the platform or prefer to assemble and maintain your own stack. iSolved is a strong fit when consolidation and growth are in the picture and you want BEG managing it. BEG will run a fair comparison against your current stack rather than push you toward an answer.
+            The questions worth asking are how many separate HR and payroll tools you run today, how much duplicate data entry and reconciliation that creates, whether your integrations are reliable, and whether you want one partner managing the platform or prefer to assemble and maintain your own stack. The isolved platform is a strong fit when consolidation and growth are in the picture and you want BEG managing it. BEG will run a fair comparison against your current stack rather than push you toward an answer.
           </p>
         </div>
       </section>
@@ -181,9 +181,9 @@ export default function AllInOneHRPayrollSoftwarePage() {
       <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See the all-in-one platform in iSolved</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See the all-in-one platform in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will map the tools you run today and show you what payroll, HR, time, and benefits look like on one connected platform with iSolved plus BEG.
+            15-minute call. We will map the tools you run today and show you what payroll, HR, time, and benefits look like on one connected platform with isolved plus BEG.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call

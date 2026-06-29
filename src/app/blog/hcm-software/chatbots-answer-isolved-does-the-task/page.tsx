@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Chatbots Answer. iSolved Completes the Task. | BEG',
-  description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the iSolved Connector.',
+  title: 'Chatbots Answer. isolved Completes the Task. | BEG',
+  description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved Connector.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task' },
   openGraph: {
-    title: 'Chatbots Answer Questions. iSolved Completes the Task.',
-    description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the iSolved Connector.',
+    title: 'Chatbots Answer Questions. isolved Completes the Task.',
+    description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved Connector.',
     url: 'https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Chatbots Answer Questions. iSolved Completes the Task.', description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the iSolved Connector.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Chatbots Answer Questions. isolved Completes the Task.', description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved Connector.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -22,36 +22,36 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 const faqs = [
   {
     question: 'What is the difference between an HR chatbot and a connector?',
-    answer: 'A chatbot answers questions and explains how to do things. A connector completes the work inside the platform. Chatbots answer questions. iSolved completes the task. The iSolved Connector for Claude executes actions in iSolved rather than describing the steps for you to follow.',
+    answer: 'A chatbot answers questions and explains how to do things. A connector completes the work inside the platform. Chatbots answer questions. Chatbots answer. isolved completes the task. The isolved Connector for Claude executes actions in isolved rather than describing the steps for you to follow.',
   },
   {
     question: 'Why does completing the task matter more than answering?',
     answer: 'A chatbot saves you a search. A connector saves you the work itself. When AI completes the task inside the platform, your team stops doing the manual steps, which is where the meaningful time savings come from.',
   },
   {
-    question: 'What can the iSolved Connector for Claude complete?',
-    answer: 'It can run payroll cycles, update employee records, pull reports, generate workforce analytics, adjust benefits elections, and handle one off exceptions, all inside iSolved. It became generally available in June 2026.',
+    question: 'What can the isolved Connector for Claude complete?',
+    answer: 'It can run payroll cycles, update employee records, pull reports, generate workforce analytics, adjust benefits elections, and handle one off exceptions, all inside isolved. It became generally available in June 2026.',
   },
   {
     question: 'Does a task completing connector stay under our control?',
-    answer: 'Yes. The connector operates within iSolved permissions and approval steps. It only does what the authorized user is allowed to do, and BEG configures roles and approvals so sensitive actions remain supervised.',
+    answer: 'Yes. The connector operates within isolved permissions and approval steps. It only does what the authorized user is allowed to do, and BEG configures roles and approvals so sensitive actions remain supervised.',
   },
   {
     question: 'How do we see it work?',
-    answer: 'BEG is an authorized iSolved partner that implements, configures, and supports the platform and the Connector for Claude. Book a 15 minute discovery call and we will show the connector completing real HR tasks in context.',
+    answer: 'BEG is an authorized isolved partner that implements, configures, and supports the platform and the Connector for Claude. Book a 15 minute discovery call and we will show the connector completing real HR tasks in context.',
   },
 ];
 
 export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Chatbots Answer. iSolved Completes the Task. | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Chatbots Answer. isolved Completes the Task. | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Technology</p>
-              <h1>Chatbots Answer Questions. iSolved Completes the Task.</h1>
+              <h1>Chatbots Answer Questions. isolved Completes the Task.</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 28, 2026</span>
@@ -71,7 +71,7 @@ export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
 
         <p>Imagine a new employee needs to be added before Friday&apos;s payroll. With a chatbot, you ask how to add a new hire. The chatbot lists the steps. Then you close the chat, open the platform, and do every one of those steps yourself. The chatbot answered your question. You still did the job.</p>
 
-        <p>Now run the same scenario with the iSolved Connector for Claude. You say, add this new hire and include them in Friday&apos;s payroll. The work happens inside iSolved. The record is created, the details are set, and the employee is in the cycle. You did not get instructions. You got the outcome. Chatbots answer questions. iSolved completes the task.</p>
+        <p>Now run the same scenario with the isolved Connector for Claude. You say, add this new hire and include them in Friday&apos;s payroll. The work happens inside isolved. The record is created, the details are set, and the employee is in the cycle. You did not get instructions. You got the outcome. Chatbots answer questions. Chatbots answer. isolved completes the task.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why the Gap Is Bigger Than It Looks</h2>
 
@@ -81,10 +81,10 @@ export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What the Connector Completes</h2>
 
-        <p>The iSolved Connector for Claude became generally available in June 2026. It connects the iSolved platform to Claude, the AI assistant from Anthropic, and it completes work across the whole platform because iSolved is a single connected system covering payroll, HR, time, and benefits. Common tasks include:</p>
+        <p>The isolved Connector for Claude became generally available in June 2026. It connects the isolved platform to Claude, the AI assistant from Anthropic, and it completes work across the whole platform because isolved is a single connected system covering payroll, HR, time, and benefits. Common tasks include:</p>
 
         <ul>
-          <li><strong>Running a payroll cycle</strong> directly inside iSolved.</li>
+          <li><strong>Running a payroll cycle</strong> directly inside isolved.</li>
           <li><strong>Updating employee records,</strong> including direct deposit and status changes.</li>
           <li><strong>Pulling reports</strong> for headcount, compliance, and labor cost.</li>
           <li><strong>Generating workforce analytics</strong> such as overtime trends by department.</li>
@@ -95,13 +95,13 @@ export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Completing Tasks Without Losing Control</h2>
 
-        <p>A connector that takes action raises a fair question about oversight. The iSolved Connector for Claude answers it by operating within platform permissions and approval steps. It can only do what the authorized user is already allowed to do, and BEG configures the roles and approvals during setup so sensitive actions stay supervised. Completing the task does not mean removing the human from the decisions that matter.</p>
+        <p>A connector that takes action raises a fair question about oversight. The isolved Connector for Claude answers it by operating within platform permissions and approval steps. It can only do what the authorized user is already allowed to do, and BEG configures the roles and approvals during setup so sensitive actions stay supervised. Completing the task does not mean removing the human from the decisions that matter.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How to Use This When You Evaluate Platforms</h2>
 
         <p>The next time a vendor shows you an AI feature, ask one question: does it answer, or does it complete? If the demo ends with the AI explaining what you should go do, you are looking at a chatbot. If it ends with the work finished inside the platform, you are looking at something that will actually move your numbers.</p>
 
-        <p>iSolved sits on the second side of that line, and it does so on a foundation that is already proven. Forrester documented 330% ROI, more than 7M employees run on iSolved, and BEG implements, configures, and supports both the platform and the Connector for Claude. You get task completion, not just conversation, backed by a team that owns the setup.</p>
+        <p>isolved sits on the second side of that line, and it does so on a foundation that is already proven. Forrester documented 330% ROI, more than 7M employees run on isolved, and BEG implements, configures, and supports both the platform and the Connector for Claude. You get task completion, not just conversation, backed by a team that owns the setup.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ</h2>
 
@@ -116,13 +116,13 @@ export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Stop reading instructions. Start completing tasks.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Book a 15-minute call and we will show you the iSolved Connector for Claude completing real HR work. Learn more on our <a href="/services/hcm-software/ai-connector" style={{ color: '#000000', textDecoration: 'underline' }}>AI Connector page</a>.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Book a 15-minute call and we will show you the isolved Connector for Claude completing real HR work. Learn more on our <a href="/services/hcm-software/ai-connector" style={{ color: '#000000', textDecoration: 'underline' }}>AI Connector page</a>.</p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads HCM platform and managed payroll solutions at Business Executive Group. BEG is an authorized iSolved partner that implements, configures, and supports the full iSolved platform and the Connector for Claude for clients.</p>
+          <p style={{ margin: 0 }}>Anthony leads HCM platform and managed payroll solutions at Business Executive Group. BEG is an authorized isolved partner that implements, configures, and supports the full isolved platform and the Connector for Claude for clients.</p>
         </div>
       </section>
 
@@ -137,7 +137,7 @@ export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
           { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
           { '@type': 'ListItem', position: 3, name: 'HCM Technology', item: 'https://www.beghr.com/blog/hcm-software' },
-          { '@type': 'ListItem', position: 4, name: 'Chatbots Answer Questions. iSolved Completes the Task.', item: 'https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task' },
+          { '@type': 'ListItem', position: 4, name: 'Chatbots Answer Questions. isolved Completes the Task.', item: 'https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task' },
         ],
       }) }} />
       <section className="section section--soft" style={{ paddingBottom: 0 }}>

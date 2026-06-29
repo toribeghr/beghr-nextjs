@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'iSolved vs Gusto | One Platform + Claude AI | BEG',
-  description: 'iSolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.',
+  title: 'isolved vs Gusto | One Platform + Claude AI | BEG',
+  description: 'isolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-gusto' },
   openGraph: {
-    title: 'iSolved vs Gusto | One Platform + Claude AI | BEG',
-    description: 'iSolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.',
+    title: 'isolved vs Gusto | One Platform + Claude AI | BEG',
+    description: 'isolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-gusto',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved vs Gusto | One Platform + Claude AI | BEG', description: 'iSolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Gusto | One Platform + Claude AI | BEG', description: 'isolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -27,24 +27,24 @@ const faqs = [
     a: 'Yes. Gusto is a strong choice for very small or simple businesses that want easy, full-service payroll and a friendly interface. If your needs are basic and you do not expect heavy complexity, Gusto can serve you well.',
   },
   {
-    q: 'When does it make sense to choose iSolved over Gusto?',
-    a: 'iSolved tends to fit better as you grow into multi-state payroll, more complex benefits, time and attendance, and talent needs. iSolved brings payroll, HR, time, and benefits onto a single connected platform, which reduces the number of separate tools you have to manage.',
+    q: 'When does it make sense to choose isolved over Gusto?',
+    a: 'isolved tends to fit better as you grow into multi-state payroll, more complex benefits, time and attendance, and talent needs. The isolved platform brings payroll, HR, time, and benefits onto a single connected platform, which reduces the number of separate tools you have to manage.',
   },
   {
-    q: 'Does iSolved offer a managed service that Gusto does not?',
-    a: 'Yes. Gusto is software-only, so configuration and ongoing administration sit with your team. With iSolved, BEG implements, configures, and supports the platform for you, so you are not left to run a complex system alone.',
+    q: 'Does isolved offer a managed service that Gusto does not?',
+    a: 'Yes. Gusto is software-only, so configuration and ongoing administration sit with your team. With isolved, BEG implements, configures, and supports the platform for you, so you are not left to run a complex system alone.',
   },
   {
-    q: 'What is the AI difference between iSolved and Gusto?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. Gusto does not offer an equivalent capability.',
+    q: 'What is the AI difference between isolved and Gusto?',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It completes real HR tasks through conversation, not just answers questions. Gusto does not offer an equivalent capability.',
   },
   {
-    q: 'Can I move my data from Gusto to iSolved?',
+    q: 'Can I move my data from Gusto to isolved?',
     a: 'Yes. BEG manages the migration of payroll history, employee records, and benefits data as part of implementation, so the transition is structured rather than something you handle on your own.',
   },
   {
-    q: 'Is iSolved proven to deliver a return on investment?',
-    a: 'Forrester documented a 330% ROI for iSolved. More than 7 million employees are managed on the iSolved platform, which speaks to its scale and reliability across many industries.',
+    q: 'Is isolved proven to deliver a return on investment?',
+    a: 'Forrester documented a 330% ROI for isolved. More than 7 million employees are managed on the isolved platform, which speaks to its scale and reliability across many industries.',
   },
 ];
 
@@ -64,11 +64,11 @@ const breadcrumbJsonLd = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
     { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved vs Gusto', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-gusto' },
+    { '@type': 'ListItem', position: 3, name: 'isolved vs Gusto', item: 'https://www.beghr.com/services/hcm-software/isolved-vs-gusto' },
   ],
 };
 
-export default function iSolvedVsGustoPage() {
+export default function isolvedVsGustoPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -79,10 +79,10 @@ export default function iSolvedVsGustoPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Comparison</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-            iSolved vs Gusto: The Honest Comparison
+            isolved vs Gusto: The Honest Comparison
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
-            Gusto earned its reputation as a small-business favorite with an easy interface and full-service payroll. iSolved is built as a single connected platform for growing, more complex companies. Here is how they compare.
+            Gusto earned its reputation as a small-business favorite with an easy interface and full-service payroll. The isolved platform is built as a single connected platform for growing, more complex companies. Here is how they compare.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -96,7 +96,7 @@ export default function iSolvedVsGustoPage() {
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1.5rem' }}>Bottom Line Up Front</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#ECAC60', padding: '1.5rem', borderRadius: '8px' }}>
-              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>iSolved wins on:</strong>
+              <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.5rem' }}>isolved wins on:</strong>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', lineHeight: '1.8' }}>
                 <li>A single connected platform for payroll, HR, time, and benefits</li>
                 <li>Connector for Claude that completes real HR tasks</li>
@@ -126,7 +126,7 @@ export default function iSolvedVsGustoPage() {
             Gusto is a software-only product that does payroll and benefits very well for small or simple businesses. It is intentionally lightweight, which is part of its appeal. As your headcount grows and your needs spread across time and attendance, deeper benefits administration, and talent, a lightweight tool can start to feel thin.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is a single connected platform that brings payroll, HR, time, and benefits together. Instead of stitching point solutions together, your data lives in one place. For companies expecting to grow or already running complex operations, that consolidation matters.
+            isolved is a single connected platform that brings payroll, HR, time, and benefits together. Instead of stitching point solutions together, your data lives in one place. For companies expecting to grow or already running complex operations, that consolidation matters.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function iSolvedVsGustoPage() {
             Gusto is generally straightforward and transparent for small teams, which is one reason it is so well liked. The trade-off is that the simplicity reflects a narrower feature set, so as needs grow you may find yourself adding other tools alongside it.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            iSolved is priced for the mid-market and bundles more capability into one connected platform. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
+            isolved is priced for the mid-market and bundles more capability into one connected platform. Because BEG scopes your configuration up front, you get clarity on what you are buying and why. BEG will run a side-by-side cost comparison so you can make a fair decision for your size and complexity.
           </p>
         </div>
       </section>
@@ -152,7 +152,7 @@ export default function iSolvedVsGustoPage() {
             Because Gusto is software-only, setup and ongoing administration sit with your team. For a very small business with simple needs, that is often fine. For a company managing more complexity, doing it alone can become a burden.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            With iSolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who knows your setup, manages migration from your current system, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
+            With isolved, BEG implements, configures, and supports the platform for you. You get a dedicated partner who knows your setup, manages migration from your current system, and stays with you for ongoing optimization and compliance updates rather than routing you to a general queue.
           </p>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function iSolvedVsGustoPage() {
         <div className="container" style={{ maxWidth: '900px' }}>
           <h2 style={{ fontSize: '1.6rem', fontWeight: '700', color: '#ECAC60', marginBottom: '1rem' }}>AI Capabilities</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1rem' }}>
-            iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
+            isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. It does not just answer questions. It completes real HR tasks through conversation, such as running payroll, pulling reports, and updating employee data.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
             Gusto does not offer an equivalent capability. For teams that want to move work forward through AI rather than just look things up, this is a meaningful difference, and it is available today through BEG.
@@ -178,7 +178,7 @@ export default function iSolvedVsGustoPage() {
             Choose Gusto if you are a very small or simple business that wants easy, full-service payroll and benefits with minimal overhead. It is a genuinely good product for that profile, and there is no need to over-buy.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            Choose iSolved if you are growing, operate across multiple states, or need payroll, HR, time, and benefits to work together on one connected platform with a partner who runs it for you. With more than 7 million employees on iSolved and a Forrester-documented 330% ROI, it is built to scale with you.
+            Choose isolved if you are growing, operate across multiple states, or need payroll, HR, time, and benefits to work together on one connected platform with a partner who runs it for you. With more than 7 million employees on isolved and a Forrester-documented 330% ROI, it is built to scale with you.
           </p>
         </div>
       </section>
@@ -208,10 +208,10 @@ export default function iSolvedVsGustoPage() {
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
-            See iSolved vs. Your Current Platform
+            See isolved vs. Your Current Platform
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through your setup, run a cost comparison, and show you what iSolved plus BEG looks like for your company.
+            15-minute call. We will walk through your setup, run a cost comparison, and show you what isolved plus BEG looks like for your company.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -224,7 +224,7 @@ export default function iSolvedVsGustoPage() {
         posts={[
           {
             category: 'HCM technology',
-            title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
+            title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
             href: '/blog/hcm-software/isolved-platform',
           },

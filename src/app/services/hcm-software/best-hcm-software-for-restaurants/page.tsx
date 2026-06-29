@@ -5,17 +5,17 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Restaurants 2026 | BEG',
-  description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why iSolved plus BEG is a strong pick.',
+  description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong pick.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-restaurants' },
   openGraph: {
     title: 'Best HCM Software for Restaurants 2026 | BEG',
-    description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why iSolved plus BEG is a strong pick.',
+    description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong pick.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-restaurants',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Restaurants 2026 | BEG', description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why iSolved plus BEG is a strong pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Restaurants 2026 | BEG', description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -26,20 +26,20 @@ const faqs = [
     a: 'Look for tip handling that holds up to compliance, fast onboarding for a high-turnover workforce, scheduling that connects to time and payroll, and clean reporting across multiple locations. The platform should make hiring and paying hourly staff fast rather than tedious.',
   },
   {
-    q: 'Why is iSolved a strong pick for restaurants?',
-    a: 'iSolved keeps payroll, time, scheduling, and HR on a single connected platform, so tips and hours flow into payroll cleanly and new hires can be onboarded quickly. BEG configures tip rules, pay structures, and locations to match how you operate.',
+    q: 'Why is isolved a strong pick for restaurants?',
+    a: 'isolved keeps payroll, time, scheduling, and HR on a single connected platform, so tips and hours flow into payroll cleanly and new hires can be onboarded quickly. BEG configures tip rules, pay structures, and locations to match how you operate.',
   },
   {
-    q: 'Can iSolved handle tips and tip credits?',
-    a: 'iSolved supports the pay rules restaurants need for tipped wages, tip reporting, and tip credit handling. BEG sets up the configuration so the calculations are consistent and compliant across every location.',
+    q: 'Can isolved handle tips and tip credits?',
+    a: 'isolved supports the pay rules restaurants need for tipped wages, tip reporting, and tip credit handling. BEG sets up the configuration so the calculations are consistent and compliant across every location.',
   },
   {
-    q: 'Is iSolved right for a single-location restaurant?',
+    q: 'Is isolved right for a single-location restaurant?',
     a: 'It can be, but the fit depends on your needs. A single cafe with a handful of staff may do fine on a simpler tool. A multi-unit operator with constant hiring and complex tip rules gets more value from a connected platform.',
   },
   {
     q: 'What does the Connector for Claude offer a restaurant group?',
-    a: 'iSolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Managers can pull labor reports by location, check overtime, and update staff records through conversation rather than menus.',
+    a: 'isolved is the only HCM platform with a Connector for Claude, generally available in June 2026. Managers can pull labor reports by location, check overtime, and update staff records through conversation rather than menus.',
   },
 ];
 
@@ -65,7 +65,7 @@ export default function BestHCMRestaurantsPage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>HCM Software · Restaurants</p>
           <h1 style={{ fontSize: '2.5rem', fontWeight: '800', marginBottom: '1rem' }}>Best HCM Software for Restaurants in 2026</h1>
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
-            Tips, turnover, and scheduling define restaurant HR. The right HCM platform makes onboarding fast and pays tipped hourly staff correctly across every location. Here is what to look for and where iSolved plus BEG fits.
+            Tips, turnover, and scheduling define restaurant HR. The right HCM platform makes onboarding fast and pays tipped hourly staff correctly across every location. Here is what to look for and where isolved plus BEG fits.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
             Talk to a BEG HCM Specialist
@@ -102,15 +102,15 @@ export default function BestHCMRestaurantsPage() {
 
       <section style={{ padding: '3rem 0' }}>
         <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why iSolved Plus BEG Is a Top Pick for Restaurants</h2>
+          <h2 style={{ fontSize: '1.6rem', fontWeight: '700', marginBottom: '1rem' }}>Why isolved Plus BEG Is a Top Pick for Restaurants</h2>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            iSolved is a single connected platform, which directly answers the restaurant problem of data scattered across hiring, scheduling, time, and payroll. New hires onboard once, tipped wages and tip credits are configured to run consistently, and labor data is available by location. With more than 7 million employees managed on iSolved, the platform handles high-volume hourly workforces at scale.
+            isolved is a single connected platform, which directly answers the restaurant problem of data scattered across hiring, scheduling, time, and payroll. New hires onboard once, tipped wages and tip credits are configured to run consistently, and labor data is available by location. With more than 7 million employees managed on isolved, the platform handles high-volume hourly workforces at scale.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333', marginBottom: '1rem' }}>
-            BEG implements, configures, and supports the platform for your tip rules, pay structures, and locations, and stays with you as you open new units. The Forrester-documented 330% ROI for iSolved tends to surface in restaurants where faster onboarding and accurate tipped payroll reclaim hours from managers and reduce correction runs.
+            BEG implements, configures, and supports the platform for your tip rules, pay structures, and locations, and stays with you as you open new units. The Forrester-documented 330% ROI for isolved tends to surface in restaurants where faster onboarding and accurate tipped payroll reclaim hours from managers and reduce correction runs.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#333' }}>
-            For the restaurant-specific setup, see our <Link href="/services/hcm-software/restaurants" style={{ color: '#000', fontWeight: 600 }}>iSolved HCM for restaurants</Link> page.
+            For the restaurant-specific setup, see our <Link href="/services/hcm-software/restaurants" style={{ color: '#000', fontWeight: 600 }}>isolved HCM for restaurants</Link> page.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BestHCMRestaurantsPage() {
             The best platform is not the same for every operator, and it is fair to say so. A single independent restaurant with a small, stable team may be served well by a lighter payroll and scheduling tool. The value of a connected platform grows as you add locations, hire constantly, and manage more complex tip and overtime rules.
           </p>
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc' }}>
-            Ask how many locations you run, how heavy your turnover is, how complex your tip handling is, and whether you want a partner managing the platform. iSolved is a strong choice for growing and multi-unit operators who want BEG running it for them. BEG will compare it fairly against your current setup.
+            Ask how many locations you run, how heavy your turnover is, how complex your tip handling is, and whether you want a partner managing the platform. The isolved platform is a strong choice for growing and multi-unit operators who want BEG running it for them. BEG will compare it fairly against your current setup.
           </p>
         </div>
       </section>
@@ -149,9 +149,9 @@ export default function BestHCMRestaurantsPage() {
       <OvertimePayCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
-          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See iSolved for Your Restaurant</h2>
+          <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See isolved for Your Restaurant</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            15-minute call. We will walk through tips, onboarding, and scheduling and show you what iSolved plus BEG looks like for your restaurants.
+            15-minute call. We will walk through tips, onboarding, and scheduling and show you what isolved plus BEG looks like for your restaurants.
           </p>
           <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
             Book a Discovery Call
@@ -162,7 +162,7 @@ export default function BestHCMRestaurantsPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, scheduling, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: "isolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, scheduling, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
           { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Onboarding and tipped payroll are high-volume tasks in restaurants. Here is what to automate and what to keep human.', href: '/blog/hcm-software/hr-automation' },
           { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'Tip credit rules, overtime, and what your HCM platform should be tracking automatically.', href: '/blog/hcm-software/payroll-compliance' },
         ]}

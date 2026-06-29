@@ -3,6 +3,20 @@
 
 ---
 
+## STEP 0 — SERP Depth Check (REQUIRED before building ANY page)
+> Authority is half of ranking and we cannot move it quickly. Depth is the half we control, so every page must out-depth the current #1 result BEFORE we build it. No page gets built without this check.
+
+1. Identify the page's primary keyword (the commercial term it targets).
+2. Web-search that keyword. Record the current #1 organic result (ignore ads) and the other page-1 players.
+3. Fetch the #1 page and list every topic and subtopic it covers, its rough depth (sections, word count), its format, and the search intent.
+4. Our draft MUST cover every topic the #1 covers, PLUS at least one thing it does not (deeper compliance detail, a free tool, transparent pricing, better intent match). If we cannot beat the #1 on depth, the page is not ready to ship.
+5. Authority reality: if page 1 is dominated by high-authority established domains (ADP, Gusto, Deltek, Paychex, category leaders), do NOT expect to outrank them on the head term in the near term. Point the page at a realistically-winnable variant (managed/outsourced [x], [x] in [state], longer-tail intent) and note that in the build queue.
+6. Record the comparison (who is #1, what they cover, where we go deeper, the target keyword variant) before writing the page.
+
+This applies to the Content Forge agent and to every manual build.
+
+---
+
 ## Hero Section (required on every page)
 
 All pages use the **split hero layout**: text left, image right on desktop. Image stacks below CTA on mobile (≤880px breakpoint).
@@ -349,3 +363,22 @@ Every job-placement service page (industry hub, industry x city, and role page) 
    ```
 
 This applies to the job-placement silo. The grader component lives at `@/components/JobDescriptionGrader` and is client-side and self-contained.
+
+---
+
+## Every Service Page: Embedded Interactive Tool, Chosen by Relevance (REQUIRED)
+
+Every service page embeds ONE interactive tool plus a callout description tailored to that page. Ungated (no email, no click), client-side, with its own Calendly CTA. It lowers bounce, raises time on page, and is part of out-depthing the #1 result.
+
+**There is NO default tool.** Choose by relevance: picture the visitor who landed here from a Google search, ask what the page's content and intent say they are trying to do, and embed the ONE tool that genuinely helps with THAT task. The tool must match the page's topic, not just convert. Record the reasoning (page intent -> chosen tool) when you build.
+
+The analysis in practice:
+- A "construction payroll" page is about multi-state crews and compliance -> the State Compliance Checker is what that visitor needs.
+- A "what is my payroll provider really charging" page -> the Hidden-Fee Auditor.
+- A "cost to hire / loaded labor cost" page -> the True Cost of an Employee calculator.
+- An hourly / overtime-heavy page -> the Overtime Pay Calculator.
+- Job-placement pages -> the Job Description Grader (see section above).
+
+Available tools (all client-side, drop-in): HiddenFeeAuditor, TrueCostCalculator, OvertimePayCalculator, FinalPaycheckCalculator, PayrollTaxCalendar, StateComplianceChecker, PayrollCalculator, JobDescriptionGrader, RecruitingFeeCalculator, VacantRoleCostCalculator, SearchOverdueDiagnostic, HCMROICalculator, HCMPlatformFinder, AIReadinessScorecard. If none truly fits the page, flag the gap (a missing tool is a build idea) rather than forcing a mismatched one.
+
+Never ship a service page without a relevance-matched tool + tailored callout.

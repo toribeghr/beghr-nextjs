@@ -7,7 +7,12 @@ code and renders them to MP4. It lives inside the `beghr-nextjs` repo but is a
 
 **Purpose:** Produce original short-form video content (animated / "faceless"
 graphics, text animations, data visualizations) for BEG HR's social media
-accounts, often based on trending HR topics.
+accounts and on-page embeds, often based on trending HR topics.
+
+> 📐 **Before making any pitch/explainer video, read [`VIDEO-FRAMEWORK.md`](./VIDEO-FRAMEWORK.md).**
+> It is the living system for producing a video for any page — format/brand spec,
+> the curious-NEPQ script template, the per-page checklist, and a decision log
+> (with rationale). Add new decisions there as we make them.
 
 ## Owner context (read me first)
 

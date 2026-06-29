@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import RelatedTool from '@/components/RelatedTool';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -139,6 +140,14 @@ export default function MarketingTalentTrendsPage() {
           </a>
         </div>
 
+        <RelatedTool
+          variant="link"
+          eyebrow={`Free Tool`}
+          heading={`Has your marketing search been open longer than it should be?`}
+          description={`Answer a few quick questions and get an honest read on why the search has stalled and what to change. Free, instant, and built from how the strongest searches actually get filled.`}
+          href="/resources/search-overdue-diagnostic"
+          cta={`Run the free Search Diagnostic →`}
+        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Marketing Talent Trends</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

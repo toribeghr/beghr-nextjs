@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import RelatedTool from '@/components/RelatedTool';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -129,6 +130,14 @@ export default function VeterinarySalaryTrendsPage() {
           </a>
         </div>
 
+        <RelatedTool
+          variant="link"
+          eyebrow={`Free Tool`}
+          heading={`See real 2026 veterinary pay ranges before you post`}
+          description={`Get the free BEG Salary and Hiring Guide. Current 2026 pay ranges by role, plus what it takes to win the passive candidates who never apply to a job board. No cost and no sales pitch.`}
+          href="/resources/salary-guide"
+          cta={`Open the Salary and Hiring Guide →`}
+        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Veterinary Salary Trends</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

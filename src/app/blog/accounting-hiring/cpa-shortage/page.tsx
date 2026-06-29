@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import RelatedTool from '@/components/RelatedTool';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -139,6 +140,14 @@ export default function CpaShortagePage() {
           </a>
         </div>
 
+        <RelatedTool
+          variant="link"
+          eyebrow={`Free Tool`}
+          heading={`What is this open accounting role costing you right now?`}
+          description={`When the talent pool is this tight, the real cost is the seat sitting empty. Use the free calculator to put a dollar figure on the vacancy in lost output, overtime, and turnover risk. It takes about a minute.`}
+          href="/resources/cost-of-vacant-role-calculator"
+          cta={`Open the Cost of a Vacant Role Calculator →`}
+        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: The 2026 Accounting Shortage</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

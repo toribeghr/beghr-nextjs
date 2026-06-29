@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import RelatedTool from '@/components/RelatedTool';
 
 export const metadata: Metadata = {
   title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
@@ -200,6 +201,12 @@ export default function AssociateHiringPage() {
           <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
         </div>
 
+        <RelatedTool
+          variant="grader"
+          eyebrow={`Free Tool`}
+          heading={`Grade your legal job description in 30 seconds`}
+          description={`A weak posting quietly kills your pipeline before a single strong candidate sees it. Paste your job description below and get an instant 0 to 100 score, plus the exact fixes that get the best people to apply. Free, instant, and nothing you paste ever leaves your browser.`}
+        />
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Law Firm Associate Hiring</h2>
 
         <div className="faq" style={{ marginTop: '1rem' }}>

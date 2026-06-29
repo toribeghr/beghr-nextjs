@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import RelatedTool from '@/components/RelatedTool';
 
 export const metadata: Metadata = {
   title: 'Solo Firm Growth | When to Hire Your First Associate | BEG',
@@ -318,6 +319,14 @@ export default function SoloFirmGrowthPage() {
           </a>
         </div>
 
+        <RelatedTool
+          variant="link"
+          eyebrow={`Free Tool`}
+          heading={`Not sure why this legal hire is taking so long?`}
+          description={`Answer a few quick questions and get an honest read on what is slowing the search down and what to change. Free, instant, and built from how the strongest searches actually get filled.`}
+          href="/resources/search-overdue-diagnostic"
+          cta={`Run the free Search Diagnostic →`}
+        />
         <div className="faq" style={{ marginTop: '1rem' }}>
           <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
             Frequently Asked Questions

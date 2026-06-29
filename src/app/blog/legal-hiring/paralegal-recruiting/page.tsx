@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import RelatedTool from '@/components/RelatedTool';
 
 export const metadata: Metadata = {
   title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG',
@@ -207,6 +208,12 @@ export default function ParalegalRecruitingPage() {
           </a>
         </div>
 
+        <RelatedTool
+          variant="grader"
+          eyebrow={`Free Tool`}
+          heading={`Grade your legal job description in 30 seconds`}
+          description={`A weak posting quietly kills your pipeline before a single strong candidate sees it. Paste your job description below and get an instant 0 to 100 score, plus the exact fixes that get the best people to apply. Free, instant, and nothing you paste ever leaves your browser.`}
+        />
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>Frequently Asked Questions</h2>
 
         <div className="faq" style={{ marginTop: '1rem' }}>

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Chatbots Answer. iSolved Completes the Task. | BEG',
@@ -139,6 +140,14 @@ export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
           { '@type': 'ListItem', position: 4, name: 'Chatbots Answer Questions. iSolved Completes the Task.', item: 'https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task' },
         ],
       }) }} />
+      <section className="section section--soft" style={{ paddingBottom: 0 }}>
+        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
+          <p className="eyebrow">Free Tool</p>
+          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
+          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
+        </div>
+      </section>
+      <TrueCostCalculator />
     </article>
   );
 }

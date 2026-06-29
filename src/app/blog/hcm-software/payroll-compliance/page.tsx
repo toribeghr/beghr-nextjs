@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
   title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG',
@@ -349,6 +350,14 @@ export default function PayrollCompliancePage() {
           }),
         }}
       />
+      <section className="section section--soft" style={{ paddingBottom: 0 }}>
+        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
+          <p className="eyebrow">Free Tool</p>
+          <h2 style={{ marginBottom: '0.5rem' }}>Free tool: find the final paycheck deadline by state</h2>
+          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Pick a state, choose fired or quit, and get the exact deadline plus the PTO payout rule. All 50 states, free, runs in your browser.</p>
+        </div>
+      </section>
+      <FinalPaycheckCalculator />
     </article>
   );
 }

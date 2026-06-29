@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
@@ -368,6 +369,14 @@ export default function HRAutomationPage() {
           }),
         }}
       />
+      <section className="section section--soft" style={{ paddingBottom: 0 }}>
+        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
+          <p className="eyebrow">Free Tool</p>
+          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
+          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
+        </div>
+      </section>
+      <TrueCostCalculator />
     </article>
   );
 }

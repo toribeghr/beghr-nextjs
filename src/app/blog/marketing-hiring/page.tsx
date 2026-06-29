@@ -37,6 +37,11 @@ const posts = [
     description: 'Marketing comp is climbing, but the best marketers are passive and pay is only part of the decision. What actually closes a marketing hire.',
     slug: '/blog/marketing-hiring/marketing-salary-trends',
   },
+  {
+    title: 'Marketing Interview Questions That Reveal Revenue Impact and Executional Depth',
+    description: 'Every marketing candidate has a campaign story. These interview questions reveal whether that campaign moved pipeline, generated qualified leads, and had an ROI someone would defend to a CFO.',
+    slug: '/blog/marketing-hiring/marketing-interview-questions',
+  },
 ];
 
 export default function BlogMarketingHiringPage() {

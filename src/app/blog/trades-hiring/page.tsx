@@ -37,6 +37,11 @@ const posts = [
     description: 'Trades pay is climbing, but the best candidates are working and passive, and pay is only part of the decision. What actually closes a trades hire.',
     slug: '/blog/trades-hiring/trades-salary-trends',
   },
+  {
+    title: 'Trades Interview Questions for Electricians, HVAC Techs, and Production Supervisors',
+    description: 'A license proves minimum competency. These structured trades interview questions reveal whether a candidate works safely, troubleshoots independently, and can develop the next person on the crew.',
+    slug: '/blog/trades-hiring/trades-interview-questions',
+  },
 ];
 
 export default function BlogTradesHiringPage() {

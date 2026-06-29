@@ -37,6 +37,11 @@ const posts = [
     description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.',
     slug: '/blog/energy-hiring/energy-salary-trends',
   },
+  {
+    title: 'How to Write an Energy Sector Job Description That Attracts Experienced Candidates',
+    description: 'Energy JDs that list certifications and skip project context lose experienced candidates fast. How to write a job description for oil and gas, renewables, or power roles.',
+    slug: '/blog/energy-hiring/energy-job-description',
+  },
 ];
 
 export default function BlogEnergyHiringPage() {

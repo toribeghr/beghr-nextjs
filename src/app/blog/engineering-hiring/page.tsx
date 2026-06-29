@@ -37,6 +37,11 @@ const posts = [
     description: 'Engineering comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes an engineering hire.',
     slug: '/blog/engineering-hiring/engineering-salary-trends',
   },
+  {
+    title: 'Engineering Interview Questions That Reveal Real Problem-Solving Ability',
+    description: 'Whiteboard tests reveal one thing. These structured engineering interview questions surface design judgment, cross-functional collaboration, and real project delivery track record.',
+    slug: '/blog/engineering-hiring/engineering-interview-questions',
+  },
 ];
 
 export default function BlogEngineeringHiringPage() {

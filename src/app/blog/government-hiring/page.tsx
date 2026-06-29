@@ -37,6 +37,11 @@ const posts = [
     description: 'GovCon comp is climbing, especially for cleared talent, but pay is only part of the decision. What actually closes a government contractor hire.',
     slug: '/blog/government-hiring/government-salary-trends',
   },
+  {
+    title: 'How to Write a Government Contractor Job Description That Attracts Cleared Professionals',
+    description: 'Cleared professionals filter aggressively. A government contractor job description that buries clearance level and contract status loses the best candidates before they finish reading.',
+    slug: '/blog/government-hiring/government-job-description',
+  },
 ];
 
 export default function BlogGovernmentHiringPage() {

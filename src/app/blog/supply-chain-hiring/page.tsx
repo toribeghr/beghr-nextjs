@@ -37,6 +37,11 @@ const posts = [
     description: 'Supply chain comp is climbing, but the best operators are passive and pay is only part of the decision. What actually closes a supply chain hire.',
     slug: '/blog/supply-chain-hiring/supply-chain-salary-trends',
   },
+  {
+    title: 'Supply Chain Interview Questions for Logistics Managers, Planners, and Operations Leaders',
+    description: 'Supply chain candidates know the frameworks. These interview questions reveal whether they have managed through a real disruption, built supplier relationships that held, and improved forecast accuracy.',
+    slug: '/blog/supply-chain-hiring/supply-chain-interview-questions',
+  },
 ];
 
 export default function BlogSupplyChainHiringPage() {

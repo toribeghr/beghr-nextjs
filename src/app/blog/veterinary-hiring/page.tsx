@@ -37,6 +37,11 @@ const posts = [
     description: 'Veterinary comp is climbing, but the best DVMs are passive and pay is only part of the decision. What actually closes a veterinary hire.',
     slug: '/blog/veterinary-hiring/veterinary-salary-trends',
   },
+  {
+    title: 'Veterinary Interview Questions for Associate Vets, Practice Managers, and Lead Technicians',
+    description: 'The veterinary talent shortage makes every hiring decision more consequential. These interview questions surface clinical quality, client communication style, and the culture fit signals that predict retention.',
+    slug: '/blog/veterinary-hiring/veterinary-interview-questions',
+  },
 ];
 
 export default function BlogVeterinaryHiringPage() {

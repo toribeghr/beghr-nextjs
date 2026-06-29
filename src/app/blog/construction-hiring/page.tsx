@@ -37,6 +37,11 @@ const posts = [
     description: 'Construction management comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a hire.',
     slug: '/blog/construction-hiring/construction-salary-trends',
   },
+  {
+    title: 'How to Write a Construction Management Job Description That Attracts Top PMs',
+    description: 'The best construction PMs and superintendents are always employed. Here is what to write, and what to skip, in a construction job description to move your search faster.',
+    slug: '/blog/construction-hiring/construction-job-description',
+  },
 ];
 
 export default function BlogConstructionHiringPage() {

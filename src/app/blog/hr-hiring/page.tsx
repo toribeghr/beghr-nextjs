@@ -37,6 +37,11 @@ const posts = [
     description: 'HR comp is climbing, but the best candidates are passive and pay is only part of the decision. Why a fast process beats a bigger number.',
     slug: '/blog/hr-hiring/hr-salary-trends',
   },
+  {
+    title: 'HR Interview Questions That Reveal Strategic People Leadership',
+    description: 'HR directors and CHROs who can describe programs but not outcomes are administrators, not partners. These interview questions surface strategic impact, ER judgment, and retention track record.',
+    slug: '/blog/hr-hiring/hr-interview-questions',
+  },
 ];
 
 export default function BlogHrHiringPage() {

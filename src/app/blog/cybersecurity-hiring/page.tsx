@@ -37,6 +37,11 @@ const posts = [
     description: 'Security comp is climbing, but the best candidates weigh more than pay. What cyber salary trends mean for hiring and why speed wins the hire.',
     slug: '/blog/cybersecurity-hiring/cybersecurity-salary-trends',
   },
+  {
+    title: 'How to Write a Cybersecurity Job Description That Attracts Security Talent',
+    description: 'Listing 20 certifications as required scares off the best candidates. How to write a CISO, security engineer, or GRC analyst job description that actually works.',
+    slug: '/blog/cybersecurity-hiring/cybersecurity-job-description',
+  },
 ];
 
 export default function BlogCybersecurityHiringPage() {

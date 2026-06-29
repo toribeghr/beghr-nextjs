@@ -37,6 +37,11 @@ const posts = [
     description: 'Manufacturing comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a manufacturing hire.',
     slug: '/blog/manufacturing-hiring/manufacturing-salary-trends',
   },
+  {
+    title: 'Manufacturing Interview Questions for Plant Managers, Quality Leaders, and Ops Directors',
+    description: 'Every manufacturing candidate can discuss lean. These interview questions reveal whether they have actually improved OEE, reduced scrap, or turned around a struggling plant and sustained the gain.',
+    slug: '/blog/manufacturing-hiring/manufacturing-interview-questions',
+  },
 ];
 
 export default function BlogManufacturingHiringPage() {

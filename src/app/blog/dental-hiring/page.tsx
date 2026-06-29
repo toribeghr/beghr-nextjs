@@ -37,6 +37,11 @@ const posts = [
     description: 'Dental comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a dental hire.',
     slug: '/blog/dental-hiring/dental-salary-trends',
   },
+  {
+    title: 'Dental Interview Questions for Associate Dentists, Hygienists, and Practice Managers',
+    description: 'Production mindset, patient communication style, and culture fit are the signals that predict whether a dental hire will stay. The interview questions that reveal all three.',
+    slug: '/blog/dental-hiring/dental-interview-questions',
+  },
 ];
 
 export default function BlogDentalHiringPage() {

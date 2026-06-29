@@ -37,6 +37,11 @@ const posts = [
     description: 'Hospitality comp is climbing, but the best leaders are passive and pay is only part of the decision. What actually closes a hospitality hire.',
     slug: '/blog/hospitality-hiring/hospitality-salary-trends',
   },
+  {
+    title: 'Hospitality Interview Questions for GMs, F&B Directors, and Operations Managers',
+    description: 'The best hospitality leaders build culture, own the P&L, and handle a service failure at 7pm on a Saturday. These interview questions reveal who can do all three before the offer goes out.',
+    slug: '/blog/hospitality-hiring/hospitality-interview-questions',
+  },
 ];
 
 export default function BlogHospitalityHiringPage() {

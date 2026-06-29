@@ -37,6 +37,11 @@ const posts = [
     description: 'Clinical comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a healthcare hire.',
     slug: '/blog/healthcare-hiring/healthcare-salary-trends',
   },
+  {
+    title: 'Healthcare Interview Questions for Nurses, NPs, and Clinical Directors',
+    description: 'Clinical credentials are a starting point. These healthcare interview questions reveal patient safety judgment, communication style, and the retention signals that predict whether a hire will stay.',
+    slug: '/blog/healthcare-hiring/healthcare-interview-questions',
+  },
 ];
 
 export default function BlogHealthcareHiringPage() {

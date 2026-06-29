@@ -37,6 +37,11 @@ const posts = [
     description: 'Architecture comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a design hire.',
     slug: '/blog/architecture-hiring/architecture-salary-trends',
   },
+  {
+    title: 'Architecture Interview Questions That Reveal Real Talent',
+    description: 'A strong portfolio is a minimum bar, not a hire signal. The structured questions that surface design judgment, delivery record, and client management skill in an architecture interview.',
+    slug: '/blog/architecture-hiring/architecture-interview-questions',
+  },
 ];
 
 export default function BlogArchitectureHiringPage() {

@@ -37,6 +37,11 @@ const posts = [
     description: 'OTE is climbing, but the best reps weigh more than the number. What sales comp trends mean for hiring and what actually closes a sales candidate.',
     slug: '/blog/sales-hiring/sales-compensation-trends',
   },
+  {
+    title: 'Sales Interview Questions That Reveal Real Quota Attainment and Methodology',
+    description: 'Every sales candidate sounds good in an interview. These questions reveal whether they have actually hit quota consistently, handle a complex sales cycle, and will produce in your environment.',
+    slug: '/blog/sales-hiring/sales-interview-questions',
+  },
 ];
 
 export default function BlogSalesHiringPage() {

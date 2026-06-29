@@ -37,6 +37,11 @@ const posts = [
     description: 'Tech comp is high, but the best candidates are passive and pay is only part of the decision. What actually closes a technology hire.',
     slug: '/blog/technology-hiring/tech-salary-trends',
   },
+  {
+    title: 'Technology Interview Questions That Reveal Engineering Depth and Delivery Track Record',
+    description: 'LeetCode scores measure one thing. These technology interview questions reveal system design judgment, production reliability experience, and whether an engineer will deliver in a real environment.',
+    slug: '/blog/technology-hiring/technology-interview-questions',
+  },
 ];
 
 export default function BlogTechnologyHiringPage() {

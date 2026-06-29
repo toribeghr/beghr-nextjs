@@ -37,6 +37,11 @@ const posts = [
     description: 'Corporate finance comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a finance hire.',
     slug: '/blog/finance-hiring/finance-salary-trends',
   },
+  {
+    title: 'Finance Interview Questions That Go Beyond Technical Knowledge',
+    description: 'Most finance candidates know the mechanics. These interview questions reveal whether they can turn data into business insight, influence a CFO, and actually move a decision.',
+    slug: '/blog/finance-hiring/finance-interview-questions',
+  },
 ];
 
 export default function BlogFinanceHiringPage() {

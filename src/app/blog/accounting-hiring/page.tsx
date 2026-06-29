@@ -37,6 +37,11 @@ const posts = [
     description: 'Accounting comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes an accounting hire.',
     slug: '/blog/accounting-hiring/accounting-salary-trends',
   },
+  {
+    title: 'How to Write an Accounting Job Description That Attracts Qualified Candidates',
+    description: 'A vague accounting JD filters in weak candidates and filters out strong ones. What every accounting job description must include to bring in credentialed, passive talent.',
+    slug: '/blog/accounting-hiring/accounting-job-description',
+  },
 ];
 
 export default function BlogAccountingHiringPage() {

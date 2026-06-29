@@ -37,6 +37,11 @@ const posts = [
     description: 'Banking comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a banking hire.',
     slug: '/blog/banking-hiring/banking-salary-trends',
   },
+  {
+    title: 'Banking Interview Questions That Identify High-Performing Candidates',
+    description: 'Credit judgment, book-building track record, and regulatory awareness are what banking hires are really evaluated on. The interview questions that surface all three.',
+    slug: '/blog/banking-hiring/banking-interview-questions',
+  },
 ];
 
 export default function BlogBankingHiringPage() {

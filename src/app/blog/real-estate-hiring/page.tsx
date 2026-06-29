@@ -37,6 +37,11 @@ const posts = [
     description: 'Real estate comp is climbing and the best candidates are passive. What actually closes a real estate hire beyond the salary number.',
     slug: '/blog/real-estate-hiring/real-estate-salary-trends',
   },
+  {
+    title: 'Real Estate Interview Questions for Property Managers, Asset Managers, and Leasing Directors',
+    description: 'Real estate leadership hires are evaluated against NOI, occupancy, and portfolio performance. These interview questions surface the track record and judgment behind the resume before the offer.',
+    slug: '/blog/real-estate-hiring/real-estate-interview-questions',
+  },
 ];
 
 export default function BlogRealEstateHiringPage() {

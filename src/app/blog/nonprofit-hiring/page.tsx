@@ -37,6 +37,11 @@ const posts = [
     description: 'Nonprofit pay is climbing and the best candidates are passive. What actually closes a nonprofit leadership hire beyond the mission.',
     slug: '/blog/nonprofit-hiring/nonprofit-salary-trends',
   },
+  {
+    title: 'Nonprofit Interview Questions for Executive Directors, Development Directors, and Program Leaders',
+    description: 'Nonprofit leadership hires must balance mission credibility, donor relationships, and operational discipline. These interview questions surface the track record behind the resume.',
+    slug: '/blog/nonprofit-hiring/nonprofit-interview-questions',
+  },
 ];
 
 export default function BlogNonprofitHiringPage() {

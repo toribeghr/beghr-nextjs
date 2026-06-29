@@ -37,6 +37,11 @@ const posts = [
     description: 'Biotech comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a biotech hire.',
     slug: '/blog/biotech-hiring/biotech-salary-trends',
   },
+  {
+    title: 'Biotech Interview Questions for Regulatory, Clinical, and R&D Roles',
+    description: 'Publications and credentials are the starting point. The interview questions that reveal whether a biotech candidate can operate in a regulated environment and deliver under FDA scrutiny.',
+    slug: '/blog/biotech-hiring/biotech-interview-questions',
+  },
 ];
 
 export default function BlogBiotechHiringPage() {

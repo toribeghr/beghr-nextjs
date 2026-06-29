@@ -37,6 +37,11 @@ const posts = [
     description: 'Executive pay is rising and the package is more than base. What boards and CEOs need to offer to close senior leaders in a tight market.',
     slug: '/blog/executive-hiring/executive-compensation-trends',
   },
+  {
+    title: 'Executive Interview Questions That Reveal Leadership Track Record',
+    description: 'Every executive candidate can describe a vision. These interview questions reveal whether they have actually executed one, what the results were, and what happened when things went wrong.',
+    slug: '/blog/executive-hiring/executive-interview-questions',
+  },
 ];
 
 export default function BlogExecutiveHiringPage() {

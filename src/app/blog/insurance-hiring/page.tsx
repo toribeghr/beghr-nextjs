@@ -37,6 +37,11 @@ const posts = [
     description: 'Insurance comp is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes an insurance hire.',
     slug: '/blog/insurance-hiring/insurance-salary-trends',
   },
+  {
+    title: 'Insurance Interview Questions for Underwriters, Producers, and Claims Leaders',
+    description: 'Insurance hires carry long lead times before their full impact shows. These interview questions surface underwriting discipline, book portability, and claims leadership quality before the offer.',
+    slug: '/blog/insurance-hiring/insurance-interview-questions',
+  },
 ];
 
 export default function BlogInsuranceHiringPage() {

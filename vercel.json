@@ -9,6 +9,21 @@
   ],
   "redirects": [
     {
+      "source": "/services/hcm-:slug(engineering|executive|finance|healthcare|legal|technology|trades)",
+      "destination": "/services/hcm-software/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/services/payroll-:slug(engineering|executive|finance|healthcare|legal|technology|trades)",
+      "destination": "/services/managed-payroll/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/services/placement-:slug(engineering|executive|finance|healthcare|legal|technology|trades)",
+      "destination": "/services/job-placement/:slug",
+      "permanent": true
+    },
+    {
       "source": "/services/:slug.html",
       "destination": "/services/:slug",
       "permanent": true

@@ -6,20 +6,20 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll | We Run It. Not You. $25-$45 PEPM. | BEG',
-  description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.',
+  title: 'Managed Payroll Services | $25-$35 PEPM All-Inclusive | BEG',
+  description: 'Fully managed payroll at $25-$35 PEPM all-inclusive. Taxes, filings, W-2s, compliance handled. Works in your existing system. No migration. All 50 states.',
   alternates: {
     canonical: 'https://www.beghr.com/services/managed-payroll',
   },
   openGraph: {
-    title: 'Managed Payroll | We Run It. Not You. $25-$45 PEPM. | BEG',
-    description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.',
+    title: 'Managed Payroll Services | $25-$35 PEPM All-Inclusive | BEG',
+    description: 'Fully managed payroll at $25-$35 PEPM all-inclusive. Taxes, filings, W-2s, compliance handled. Works in your existing system. No migration. All 50 states.',
     url: 'https://www.beghr.com/services/managed-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll | We Run It. Not You. $25-$45 PEPM. | BEG', description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Services | $25-$35 PEPM All-Inclusive | BEG', description: 'Fully managed payroll at $25-$35 PEPM all-inclusive. Taxes, filings, W-2s, compliance handled. Works in your existing system. No migration. All 50 states.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -32,10 +32,10 @@ export default function ManagedPayrollPage() {
       showHeroImage={true}
       eyebrow="Managed Payroll Services"
       title="Your payroll should not take half your week or cost six figures to get right."
-      description="A full-time payroll manager costs $60,000-$100,000 per year in salary and benefits alone. BEG runs your entire payroll operation at $25-$45 per employee per month, all-inclusive. Every cycle, every filing, every compliance update. Nothing for your team to touch."
+      description="A full-time payroll manager costs $60,000-$100,000 per year in salary and benefits alone. BEG runs your entire payroll operation at $25-$35 per employee per month, all-inclusive. Every cycle, every filing, every compliance update. Nothing for your team to touch."
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: '$25-$45', label: 'PEPM, all-inclusive' },
+        { value: '$25-$35', label: 'PEPM, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
         { value: '3-5 Days', label: 'To live managed payroll' },
       ]}
@@ -203,7 +203,7 @@ export default function ManagedPayrollPage() {
                 badge: 'Bonus 02',
                 title: 'One flat rate. All-inclusive. No module surprises.',
                 objection: 'Common objection: "Our last payroll vendor kept charging us for add-ons."',
-                body: '$25-$45 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, new hire reporting, and compliance updates. There is no base fee plus per-run charges plus filing fees. One number, every month. We tell you the exact rate on your discovery call before you commit to anything.',
+                body: '$25-$35 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, new hire reporting, and compliance updates. There is no base fee plus per-run charges plus filing fees. One number, every month. We tell you the exact rate on your discovery call before you commit to anything.',
               },
               {
                 badge: 'Bonus 03',
@@ -249,7 +249,7 @@ export default function ManagedPayrollPage() {
               </thead>
               <tbody>
                 {[
-                  ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$6,000-$9,000+ (salary and benefits)', '$300-$600 plus your time'],
+                  ['Monthly cost (50 employees)', '$1,250-$1,750 all-in', '$6,000-$9,000+ (salary and benefits)', '$300-$600 plus your time'],
                   ['Who runs payroll', 'BEG: fully managed', 'Your employee', 'You or your team'],
                   ['Tax filings', 'All 50 states, fully handled', 'Depends on expertise', 'Platform-assisted; you verify'],
                   ['W-2s and year-end', 'Fully managed by BEG', 'Employee dependent', 'Generated; you distribute'],
@@ -282,16 +282,16 @@ export default function ManagedPayrollPage() {
                 Every month you pay a payroll manager is a month you overpay.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                A payroll manager at $75,000 per year costs $6,250 per month before benefits, PTO, and overhead. BEG manages the same function at $25-$45 per employee per month. For a 50-person company, that is $1,250-$2,250 per month total. The difference goes back to your bottom line every single month.
+                A payroll manager at $75,000 per year costs $6,250 per month before benefits, PTO, and overhead. BEG manages the same function at $25-$35 per employee per month. For a 50-person company, that is $1,250-$1,750 per month total -- versus a $70,000+ salary. The difference goes back to your bottom line every single month.
               </p>
             </div>
             <div>
-              <p className="eyebrow" style={{ color: '#ECAC60' }}>The Switching Window</p>
+              <p className="eyebrow" style={{ color: '#ECAC60' }}>Onboarding Capacity</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>
-                Q4 and year-end are the worst times to be mid-transition.
+                BEG onboards a maximum of 3 new payroll clients per month.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                The cleanest time to move payroll is before Q3 ends or at the start of a new year. Waiting until Q4 means transitioning during W-2 season, year-end filings, and bonus cycles at the same time. Starting now means a clean cutover and a smooth close.
+                To guarantee zero disruption to your first pay cycle, BEG limits new managed payroll onboards to 3 per month. The next available onboarding window is filling. Request a scope review this week to secure your slot before it closes.
               </p>
             </div>
           </div>
@@ -303,10 +303,10 @@ export default function ManagedPayrollPage() {
               className="btn btn--gold"
               style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}
             >
-              Book a 15-Minute Discovery Call
+              Request a Free Payroll Scope Review
             </Link>
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>
-              We will review your current payroll setup and give you an exact monthly cost before you commit to anything.
+              We audit your last quarter for errors at no cost and deliver your exact monthly rate within 24 hours. No commitment required.
             </p>
           </div>
         </div>
@@ -439,8 +439,53 @@ export default function ManagedPayrollPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* COMPETITOR COMPARISONS */}
       <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '980px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">BEG vs. the Competition</p>
+            <h2>Considering ADP, Gusto, Paychex, or Rippling? Read this first.</h2>
+            <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '640px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+              Every major payroll platform charges differently and leaves a different share of the work on your desk. See exactly how BEG compares before you decide.
+            </p>
+          </div>
+          <div className="cards reveal" style={{ marginTop: '2.5rem' }}>
+            <Link href="/services/managed-payroll/alternatives-to-adp" className="card-link">
+              <span className="tag">ADP</span>
+              <h3>BEG vs. ADP</h3>
+              <p>ADP TotalSource runs $150-$200+ PEPM with co-employment. BEG is $25-$35 PEPM, no PEO, no co-employer.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-gusto" className="card-link">
+              <span className="tag">Gusto</span>
+              <h3>BEG vs. Gusto</h3>
+              <p>Gusto is software you manage. BEG manages payroll for you -- at a comparable or lower effective PEPM.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-paychex" className="card-link">
+              <span className="tag">Paychex</span>
+              <h3>BEG vs. Paychex</h3>
+              <p>Paychex stacks per-run fees and filing surcharges. BEG is one flat rate, no add-ons, all-inclusive.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-deel" className="card-link">
+              <span className="tag">Deel</span>
+              <h3>BEG vs. Deel</h3>
+              <p>Deel is built for global teams. If your workforce is US-based, BEG delivers more for less with no global overhead.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-rippling" className="card-link">
+              <span className="tag">Rippling</span>
+              <h3>BEG vs. Rippling</h3>
+              <p>Rippling automates payroll software. BEG eliminates payroll work entirely -- no login, no approval, no exceptions to manage.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-trinet" className="card-link">
+              <span className="tag">TriNet</span>
+              <h3>BEG vs. TriNet</h3>
+              <p>TriNet co-employs your staff at $125-$200 PEPM. BEG manages payroll at $25-$35 PEPM with no PEO structure.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section">
         <div className="container" style={{ maxWidth: '780px' }}>
           <div className="head center reveal">
             <p className="eyebrow">FAQ</p>
@@ -460,7 +505,7 @@ export default function ManagedPayrollPage() {
               <p>Most clients are running cleanly within 3-5 business days. BEG handles data migration, system configuration, and a test cycle before processing your first live payroll. The 3-5 day window applies to clients moving to iSolved. If we work in your existing system, setup is often faster.</p>
             </div>
             <div className="faq-item">
-              <h3>What does the $25-$45 PEPM include?</h3>
+              <h3>What does the $25-$35 PEPM include?</h3>
               <p>Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2s, new hire reporting, garnishment processing, year-end close, and employee support for paycheck questions. No per-run charges, no filing fees, no module add-ons.</p>
             </div>
             <div className="faq-item">
@@ -535,7 +580,7 @@ export default function ManagedPayrollPage() {
               },
               {
                 '@type': 'Question',
-                name: 'What does the $25-$45 PEPM include?',
+                name: 'What does the $25-$35 PEPM include?',
                 acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2s, new hire reporting, garnishment processing, year-end close, and employee support. No per-run charges or add-ons.' },
               },
               {
@@ -575,7 +620,7 @@ export default function ManagedPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'ProfessionalService',
             name: 'Managed Payroll Services',
-            description: 'Fully managed payroll at $25-$45 per employee per month, all-inclusive. Taxes, filings, W-2s, garnishments, and compliance handled. All 50 states. 3-5 day onboarding.',
+            description: 'Fully managed payroll at $25-$35 per employee per month, all-inclusive. Taxes, filings, W-2s, garnishments, and compliance handled. All 50 states. 3-5 day onboarding.',
             url: 'https://www.beghr.com/services/managed-payroll',
             provider: {
               '@type': 'Organization',

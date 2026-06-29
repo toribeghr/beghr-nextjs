@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Trucking Payroll | Driver Pay & DOT Compliance. Handled. | BEG',
   description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/trucking' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/trucking' },
   openGraph: {
     title: 'Trucking Payroll | Driver Pay & DOT Compliance. Handled. | BEG',
     description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
-    url: 'https://beghr.com/services/managed-payroll/trucking',
+    url: 'https://www.beghr.com/services/managed-payroll/trucking',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Trucking Payroll | Driver Pay & DOT Compliance. Handled. | BEG', description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Trucking Payroll | Driver Pay & DOT Compliance. Handled. | BEG', description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -302,9 +302,9 @@ export default function PayrollTruckingPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Trucking & Transportation', item: 'https://beghr.com/services/managed-payroll/trucking' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Trucking & Transportation', item: 'https://www.beghr.com/services/managed-payroll/trucking' },
             ],
           }),
         }}

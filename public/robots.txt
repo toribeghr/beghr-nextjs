@@ -39,4 +39,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://beghr.com/sitemap.xml
+Sitemap: https://www.beghr.com/sitemap.xml

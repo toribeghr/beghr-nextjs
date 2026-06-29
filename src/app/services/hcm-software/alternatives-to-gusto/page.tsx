@@ -6,16 +6,16 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'Best Gusto Alternative | iSolved + Claude AI | BEG',
   description: 'Outgrowing Gusto? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Multi-state payroll, managed service, Claude AI, and 330% ROI.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/alternatives-to-gusto' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-gusto' },
   openGraph: {
     title: 'Best Gusto Alternative | iSolved + Claude AI | BEG',
     description: 'Outgrowing Gusto? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Multi-state payroll, managed service, Claude AI, and 330% ROI.',
-    url: 'https://beghr.com/services/hcm-software/alternatives-to-gusto',
+    url: 'https://www.beghr.com/services/hcm-software/alternatives-to-gusto',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best Gusto Alternative | iSolved + Claude AI | BEG', description: 'Outgrowing Gusto? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Multi-state payroll, managed service, Claude AI, and 330% ROI.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best Gusto Alternative | iSolved + Claude AI | BEG', description: 'Outgrowing Gusto? Compare iSolved, managed by BEG, for companies with 50 to 500 employees. Multi-state payroll, managed service, Claude AI, and 330% ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -54,9 +54,9 @@ export default function AlternativesToGustoPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-      { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-      { '@type': 'ListItem', position: 3, name: 'Alternatives to Gusto', item: 'https://beghr.com/services/hcm-software/alternatives-to-gusto' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+      { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+      { '@type': 'ListItem', position: 3, name: 'Alternatives to Gusto', item: 'https://www.beghr.com/services/hcm-software/alternatives-to-gusto' },
     ],
   };
 
@@ -211,19 +211,19 @@ export default function AlternativesToGustoPage() {
             category: 'HCM technology',
             title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
-            href: '/blog/hcm-technology/isolved-platform',
+            href: '/blog/hcm-software/isolved-platform',
           },
           {
             category: 'HCM technology',
             title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
             excerpt: 'Payroll, onboarding, benefits enrollment, and compliance reporting are high-ROI automation targets. Here is what to prioritize and what to keep manual.',
-            href: '/blog/hcm-technology/hr-automation',
+            href: '/blog/hcm-software/hr-automation',
           },
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
             excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically, not manually.',
-            href: '/blog/hcm-technology/payroll-compliance',
+            href: '/blog/hcm-software/payroll-compliance',
           },
         ]}
       />

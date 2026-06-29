@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. Deel: When Outsourcing Beats a P.. | BEG',
   description: 'Managed Payroll vs. Deel: When Outsourcing Beats a Platform. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/compare/managed-payroll-vs-deel' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/compare/managed-payroll-vs-deel' },
   openGraph: {
     title: 'Managed Payroll vs. Deel: When Outsourcing Beats a P.. | BEG',
     description: 'Managed Payroll vs. Deel: When Outsourcing Beats a Platform. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.',
-    url: 'https://beghr.com/blog/payroll/compare/managed-payroll-vs-deel',
+    url: 'https://www.beghr.com/blog/payroll/compare/managed-payroll-vs-deel',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Deel: When Outsourcing Beats a P.. | BEG', description: 'Managed Payroll vs. Deel: When Outsourcing Beats a Platform. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Deel: When Outsourcing Beats a P.. | BEG', description: 'Managed Payroll vs. Deel: When Outsourcing Beats a Platform. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -41,7 +41,17 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managed Payroll vs. Deel: When Outsourcing Beats a P.. | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/compare/managed-payroll-vs-deel"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>See what your payroll provider really charges</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Most providers hide per-run and add-on fees. Audit your real cost per employee in about 30 seconds, free.</p>
+          <a href="/resources/payroll-fee-auditor" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Run the Payroll Fee Auditor &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managed Payroll vs. Deel: When Outsourcing Beats a P.. | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/compare/managed-payroll-vs-deel"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -149,14 +159,14 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Managed Payroll vs. Deel: When Outsourcing Beats a Platform","description":"Managed Payroll vs. Deel: When Outsourcing Beats a Platform. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"url":"https://beghr.com/blog/payroll/compare/managed-payroll-vs-deel","mainEntityOfPage":{"@type":"WebPage","@id":"https://beghr.com/blog/payroll/compare/managed-payroll-vs-deel"}}`,
+          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Managed Payroll vs. Deel: When Outsourcing Beats a Platform","description":"Managed Payroll vs. Deel: When Outsourcing Beats a Platform. See how BEG managed payroll at $25-$45 PEPM compares. Get a side-by-side cost breakdown at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"url":"https://www.beghr.com/blog/payroll/compare/managed-payroll-vs-deel","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.beghr.com/blog/payroll/compare/managed-payroll-vs-deel"}}`,
         }}
       />
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Managed Payroll vs. Deel: When Outsourcing Beats a Platform","item":"https://beghr.com/blog/payroll/compare/managed-payroll-vs-deel"}]}`,
+          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Managed Payroll vs. Deel: When Outsourcing Beats a Platform","item":"https://www.beghr.com/blog/payroll/compare/managed-payroll-vs-deel"}]}`,
         }}
       />
     </article>

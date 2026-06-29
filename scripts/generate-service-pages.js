@@ -18,7 +18,7 @@ const JP_INDUSTRIES = {
     eyebrow: 'Job Placement · Healthcare',
     metaTitle: 'Healthcare Job Placement | Clinical & Nursing Recruiting | BEG',
     metaDesc: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.',
-    canonical: 'https://beghr.com/services/job-placement/healthcare',
+    canonical: 'https://www.beghr.com/services/job-placement/healthcare',
     title: 'Your clinical vacancy is a patient care problem.',
     description: 'Every unfilled nursing or clinical role increases burnout, inflates overtime, and puts patient ratios at risk. Travel nurse agencies charge $150–$200 per hour to paper over the gap. We place permanent clinical staff in 23–35 days at roughly 50% less than contingency firms.',
     imageSrc: '/assets/hero-images/healthcare.svg',
@@ -44,7 +44,7 @@ const JP_INDUSTRIES = {
     eyebrow: 'Job Placement · Finance',
     metaTitle: 'Finance & Accounting Job Placement | Controller & CPA Hiring | BEG',
     metaDesc: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.',
-    canonical: 'https://beghr.com/services/job-placement/finance',
+    canonical: 'https://www.beghr.com/services/job-placement/finance',
     title: 'That controller vacancy is closing your books late.',
     description: 'An empty finance seat means delayed month-end close, stretched audits, and decisions made without clean numbers. We place controllers, CPAs, and senior accounting professionals in 23–35 days at roughly 50% less than contingency firms.',
     imageSrc: '/assets/hero-images/finance.svg',
@@ -70,7 +70,7 @@ const JP_INDUSTRIES = {
     eyebrow: 'Job Placement · Technology',
     metaTitle: 'IT & Technology Job Placement | Dev & Data Recruiting | BEG',
     metaDesc: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Book a discovery call.',
-    canonical: 'https://beghr.com/services/job-placement/technology',
+    canonical: 'https://www.beghr.com/services/job-placement/technology',
     title: 'That open engineering seat is slipping your roadmap.',
     description: 'Every sprint without full headcount is a product commitment you cannot keep. Features slip. Technical debt compounds. The team carries the load until someone leaves too. We place software engineers, data scientists, and IT professionals in 23–35 days at roughly 50% less than contingency firms.',
     imageSrc: '/assets/hero-images/technology.svg',
@@ -96,7 +96,7 @@ const JP_INDUSTRIES = {
     eyebrow: 'Job Placement · Engineering',
     metaTitle: 'Engineering Job Placement | Technical Recruiting Services | BEG',
     metaDesc: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',
-    canonical: 'https://beghr.com/services/job-placement/engineering',
+    canonical: 'https://www.beghr.com/services/job-placement/engineering',
     title: 'That open engineering role is putting projects behind.',
     description: 'An unfilled engineering seat does not pause your project timeline. It just means someone else absorbs the work — or the work does not get done. We place licensed engineers, PEs, and technical professionals in 23–35 days at roughly 50% less than contingency firms.',
     imageSrc: '/assets/hero-images/engineering.svg',
@@ -122,7 +122,7 @@ const JP_INDUSTRIES = {
     eyebrow: 'Job Placement · Executive',
     metaTitle: 'Executive Search Services | C-Level & Director Recruiting | BEG',
     metaDesc: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.',
-    canonical: 'https://beghr.com/services/job-placement/executive',
+    canonical: 'https://www.beghr.com/services/job-placement/executive',
     title: 'An empty leadership seat costs more than the salary.',
     description: 'Every month a C-suite or director role goes unfilled, decisions do not get made, strategies stall, and teams lose direction. We conduct confidential executive searches and place senior leaders in 23–35 days — discreetly, at roughly 50% less than traditional executive search firms.',
     imageSrc: '/assets/hero-images/executive.svg',
@@ -148,7 +148,7 @@ const JP_INDUSTRIES = {
     eyebrow: 'Job Placement · Skilled Trades',
     metaTitle: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG',
     metaDesc: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',
-    canonical: 'https://beghr.com/services/job-placement/trades',
+    canonical: 'https://www.beghr.com/services/job-placement/trades',
     title: 'An open trades seat is slowing your production.',
     description: 'One unfilled skilled trades position does not just leave a gap on the org chart — it shows up in overtime costs, missed production quotas, and equipment sitting idle. We place electricians, machinists, welders, and skilled production staff in 23–35 days at roughly 50% less than contingency firms.',
     imageSrc: '/assets/hero-images/trades.svg',
@@ -179,7 +179,7 @@ const MP_INDUSTRIES = {
     eyebrow: 'Managed Payroll · Legal',
     metaTitle: 'Managed Payroll for Law Firms | $25–$35 PEPM | BEG',
     metaDesc: 'Outsource law firm payroll for $25–$35 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
-    canonical: 'https://beghr.com/services/managed-payroll/legal',
+    canonical: 'https://www.beghr.com/services/managed-payroll/legal',
     title: 'Law firm payroll is complex. Your team should not be running it.',
     description: 'Partner distributions, trust account tracking, IOLTA compliance, and multi-tier compensation structures make legal payroll unlike any other. We manage all of it as a fully managed service at $25–$35 per employee per month — less than the cost of one payroll specialist.',
     imageSrc: '/assets/hero-images/legal.svg',
@@ -200,7 +200,7 @@ const MP_INDUSTRIES = {
     eyebrow: 'Managed Payroll · Healthcare',
     metaTitle: 'Managed Payroll for Healthcare | Shift Differential & Compliance | BEG',
     metaDesc: 'Healthcare payroll fully managed at $25–$35 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
-    canonical: 'https://beghr.com/services/managed-payroll/healthcare',
+    canonical: 'https://www.beghr.com/services/managed-payroll/healthcare',
     title: 'Healthcare payroll never stops. Neither do we.',
     description: '24/7 schedules, shift differentials, clinical overtime rules, and multi-state licensure make healthcare payroll the most complex in any industry. We manage it all at $25–$35 per employee per month — fully managed, no migration required.',
     imageSrc: '/assets/hero-images/healthcare.svg',
@@ -221,7 +221,7 @@ const MP_INDUSTRIES = {
     eyebrow: 'Managed Payroll · Finance',
     metaTitle: 'Managed Payroll for Finance Firms | $25–$35 PEPM | BEG',
     metaDesc: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$35 PEPM. Request a scope review.',
-    canonical: 'https://beghr.com/services/managed-payroll/finance',
+    canonical: 'https://www.beghr.com/services/managed-payroll/finance',
     title: 'Finance firm payroll has zero tolerance for errors. Neither do we.',
     description: 'Bonus cycles, commission structures, deferred compensation, and performance-based pay make finance payroll a zero-error environment. One mistake in a filing is an audit trigger. We manage it all at $25–$35 per employee per month — fully managed, nothing to touch.',
     imageSrc: '/assets/hero-images/finance.svg',
@@ -242,7 +242,7 @@ const MP_INDUSTRIES = {
     eyebrow: 'Managed Payroll · Technology',
     metaTitle: 'Managed Payroll for Tech Companies | Remote Team Payroll | BEG',
     metaDesc: 'Tech company payroll managed at $25–$35 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.',
-    canonical: 'https://beghr.com/services/managed-payroll/technology',
+    canonical: 'https://www.beghr.com/services/managed-payroll/technology',
     title: 'Remote team payroll across 12 states should not be your problem.',
     description: 'Multi-state remote teams, equity compensation events, contractor vs. employee classification, and rapid headcount scaling make tech payroll a moving target. We manage all of it at $25–$35 per employee per month — so your team focuses on shipping, not spreadsheets.',
     imageSrc: '/assets/hero-images/technology.svg',
@@ -263,7 +263,7 @@ const MP_INDUSTRIES = {
     eyebrow: 'Managed Payroll · Engineering',
     metaTitle: 'Managed Payroll for Engineering Firms | Certified Payroll | BEG',
     metaDesc: 'Engineering payroll managed at $25–$35 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.',
-    canonical: 'https://beghr.com/services/managed-payroll/engineering',
+    canonical: 'https://www.beghr.com/services/managed-payroll/engineering',
     title: 'Certified payroll and prevailing wage should not consume your team.',
     description: 'Government projects require certified payroll reports. Davis-Bacon and state prevailing wage rules vary by project. One error in a certified payroll submission delays payment or triggers a compliance review. We manage all of it at $25–$35 per employee per month — fully managed, nothing to touch.',
     imageSrc: '/assets/hero-images/engineering.svg',
@@ -284,7 +284,7 @@ const MP_INDUSTRIES = {
     eyebrow: 'Managed Payroll · Executive',
     metaTitle: 'Executive Payroll Services | Deferred Comp & Benefits | BEG',
     metaDesc: 'Executive compensation managed discreetly at $25–$35 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
-    canonical: 'https://beghr.com/services/managed-payroll/executive',
+    canonical: 'https://www.beghr.com/services/managed-payroll/executive',
     title: 'Executive compensation requires discretion and precision.',
     description: 'Deferred compensation plans, executive benefit structures, non-qualified plans, and complex bonus arrangements require a payroll partner who understands how to handle them — accurately and discreetly. We manage executive payroll at $25–$35 per employee per month.',
     imageSrc: '/assets/hero-images/executive.svg',
@@ -305,7 +305,7 @@ const MP_INDUSTRIES = {
     eyebrow: 'Managed Payroll · Skilled Trades',
     metaTitle: 'Managed Payroll for Skilled Trades | Union & Certified Payroll | BEG',
     metaDesc: 'Trades and manufacturing payroll at $25–$35 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',
-    canonical: 'https://beghr.com/services/managed-payroll/trades',
+    canonical: 'https://www.beghr.com/services/managed-payroll/trades',
     title: 'Union payroll and certified reporting should not slow your operation.',
     description: 'Union agreements, prevailing wage requirements, multi-site workforce management, and certified payroll reporting make trades payroll one of the most complex in any industry. We manage all of it at $25–$35 per employee per month — fully managed, nothing for your team to touch.',
     imageSrc: '/assets/hero-images/trades.svg',
@@ -331,7 +331,7 @@ const HCM_INDUSTRIES = {
     eyebrow: 'HCM Software · Legal',
     metaTitle: 'iSolved HCM for Law Firms | Legal HR & Payroll Platform | BEG',
     metaDesc: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',
-    canonical: 'https://beghr.com/services/hcm-software/legal',
+    canonical: 'https://www.beghr.com/services/hcm-software/legal',
     title: 'One HR platform built for how law firms actually operate.',
     description: 'Partner compensation tiers, associate tracking, billable time integration, and IOLTA-adjacent payroll make law firm HR unlike any generic HCM setup. iSolved People Cloud handles all of it — implemented and supported by BEG.',
     imageSrc: '/assets/hero-images/legal.svg',
@@ -350,7 +350,7 @@ const HCM_INDUSTRIES = {
     eyebrow: 'HCM Software · Healthcare',
     metaTitle: 'iSolved HCM for Healthcare | Clinical HR & Payroll Platform | BEG',
     metaDesc: 'iSolved HCM for healthcare. Shift scheduling, compliance tracking, and clinical staff management on one platform. Implemented and supported by BEG.',
-    canonical: 'https://beghr.com/services/hcm-software/healthcare',
+    canonical: 'https://www.beghr.com/services/hcm-software/healthcare',
     title: 'One platform for every clinical schedule, shift, and compliance rule.',
     description: 'Healthcare HR means 24/7 scheduling, shift differentials, multi-site clinical staff, and compliance requirements that change constantly. iSolved People Cloud handles all of it in one platform — implemented and supported by BEG.',
     imageSrc: '/assets/hero-images/healthcare.svg',
@@ -369,7 +369,7 @@ const HCM_INDUSTRIES = {
     eyebrow: 'HCM Software · Finance',
     metaTitle: 'iSolved HCM for Finance Firms | Bonus & Payroll Platform | BEG',
     metaDesc: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
-    canonical: 'https://beghr.com/services/hcm-software/finance',
+    canonical: 'https://www.beghr.com/services/hcm-software/finance',
     title: 'One HR platform for firms where compensation gets complicated.',
     description: 'Performance bonuses, commission tracking, deferred compensation, and equity events require an HCM platform that can handle complexity without a custom dev project. iSolved People Cloud does — implemented and supported by BEG.',
     imageSrc: '/assets/hero-images/finance.svg',
@@ -388,7 +388,7 @@ const HCM_INDUSTRIES = {
     eyebrow: 'HCM Software · Technology',
     metaTitle: 'iSolved HCM for Tech Companies | HR & Equity Platform | BEG',
     metaDesc: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
-    canonical: 'https://beghr.com/services/hcm-software/technology',
+    canonical: 'https://www.beghr.com/services/hcm-software/technology',
     title: 'One HR platform that scales as fast as your headcount does.',
     description: 'Remote teams, equity events, contractor classification, and rapid headcount growth make tech company HR a moving target. iSolved People Cloud scales with you — implemented and supported by BEG, without ripping out your current system.',
     imageSrc: '/assets/hero-images/technology.svg',
@@ -407,7 +407,7 @@ const HCM_INDUSTRIES = {
     eyebrow: 'HCM Software · Engineering',
     metaTitle: 'iSolved HCM for Engineering | Prevailing Wage & Payroll | BEG',
     metaDesc: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
-    canonical: 'https://beghr.com/services/hcm-software/engineering',
+    canonical: 'https://www.beghr.com/services/hcm-software/engineering',
     title: 'One platform for certified payroll, prevailing wage, and project HR.',
     description: 'Government contracts require certified payroll documentation. Davis-Bacon and state prevailing wage rules differ by project. iSolved People Cloud handles all of it in one connected platform — implemented and maintained by BEG.',
     imageSrc: '/assets/hero-images/engineering.svg',
@@ -426,7 +426,7 @@ const HCM_INDUSTRIES = {
     eyebrow: 'HCM Software · Executive',
     metaTitle: 'iSolved HCM for Executive Teams | Deferred Comp Platform | BEG',
     metaDesc: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
-    canonical: 'https://beghr.com/services/hcm-software/executive',
+    canonical: 'https://www.beghr.com/services/hcm-software/executive',
     title: 'Executive compensation needs a platform — not a spreadsheet.',
     description: 'Deferred compensation plans, non-qualified benefits, 409A compliance, and restricted access requirements make executive HR a category of its own. iSolved People Cloud handles it correctly — implemented and maintained by BEG with full confidentiality controls.',
     imageSrc: '/assets/hero-images/executive.svg',
@@ -445,7 +445,7 @@ const HCM_INDUSTRIES = {
     eyebrow: 'HCM Software · Skilled Trades',
     metaTitle: 'iSolved HCM for Skilled Trades | Union & Multi-Site Payroll | BEG',
     metaDesc: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
-    canonical: 'https://beghr.com/services/hcm-software/trades',
+    canonical: 'https://www.beghr.com/services/hcm-software/trades',
     title: 'One platform for union compliance, multi-site payroll, and workforce tracking.',
     description: 'Union CBAs, prevailing wage by jurisdiction, multi-site workforce management, and certified payroll reporting require an HCM platform that can handle all of it without workarounds. iSolved People Cloud does — implemented and maintained by BEG.',
     imageSrc: '/assets/hero-images/trades.svg',
@@ -475,8 +475,8 @@ export const metadata: Metadata = {
   title: '${data.metaTitle}',
   description: '${data.metaDesc}',
   alternates: { canonical: '${data.canonical}' },
-  openGraph: { title: '${data.metaTitle}', description: '${data.metaDesc}', url: '${data.canonical}', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: '${data.metaTitle}', description: '${data.metaDesc}', images: ['https://beghr.com/assets/og-image.png'] },
+  openGraph: { title: '${data.metaTitle}', description: '${data.metaDesc}', url: '${data.canonical}', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: '${data.metaTitle}', description: '${data.metaDesc}', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-${slug}');
@@ -1154,7 +1154,7 @@ function ktWrap(b1, b2, b3, schema) {
 `;
 }
 function svc(extra) {
-  return Object.assign({ "@context": "https://schema.org", "@type": "Service", provider: { "@type": "Organization", name: "Business Executive Group", url: "https://beghr.com" } }, extra);
+  return Object.assign({ "@context": "https://schema.org", "@type": "Service", provider: { "@type": "Organization", name: "Business Executive Group", url: "https://www.beghr.com" } }, extra);
 }
 function ktHub(data) {
   const nm = indName(data), j = nm.replace(/&/g, '&amp;'), lo = nm.toLowerCase();
@@ -1186,7 +1186,7 @@ function ktRole(name, role, url) {
 
 function genCityPage(industrySlug, data, metro) {
   const name = indName(data);
-  const url = `https://beghr.com/services/job-placement/${industrySlug}/${metro.slug}`;
+  const url = `https://www.beghr.com/services/job-placement/${industrySlug}/${metro.slug}`;
   const nearby = (metro.nearby || []).filter(s => METRO_SLUGS.has(s)).slice(0, 3);
   const nearbyLinks = nearby.length
     ? nearby.map(s => {
@@ -1205,8 +1205,8 @@ export const metadata: Metadata = {
   title: '${esc(name)} Recruiters in ${metro.name} | BEG',
   description: '${esc(name)} placement in ${metro.name}. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
   alternates: { canonical: '${url}' },
-  openGraph: { title: '${esc(name)} Recruiters in ${metro.name} | BEG', description: '${esc(name)} placement in ${metro.name} in 23-35 days at roughly 50% less than contingency.', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: '${esc(name)} Recruiters in ${metro.name} | BEG', description: '${esc(name)} placement in ${metro.name} in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  openGraph: { title: '${esc(name)} Recruiters in ${metro.name} | BEG', description: '${esc(name)} placement in ${metro.name} in 23-35 days at roughly 50% less than contingency.', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: '${esc(name)} Recruiters in ${metro.name} | BEG', description: '${esc(name)} placement in ${metro.name} in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-${industrySlug}-${metro.slug}');
@@ -1290,7 +1290,7 @@ ${jdTool('Hiring ' + amp(name) + ' in ' + metro.name + '? Grade your job descrip
 
 function genRolePage(industrySlug, data, role) {
   const name = indName(data);
-  const url = `https://beghr.com/services/job-placement/${industrySlug}/${role.slug}`;
+  const url = `https://www.beghr.com/services/job-placement/${industrySlug}/${role.slug}`;
   const siblings = (ALL_ROLES[industrySlug] || []).filter(r => r.slug !== role.slug).slice(0, 4);
   const sibLinks = siblings.length
     ? siblings.map(r => `<Link href="/services/job-placement/${industrySlug}/${r.slug}" style={{ color: '#000000', fontWeight: 600 }}>${r.name}</Link>`).join(', ')
@@ -1306,8 +1306,8 @@ export const metadata: Metadata = {
   title: '${esc(role.name)} Recruiters | 23-35 Days | BEG',
   description: '${esc(role.name)} placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: '${url}' },
-  openGraph: { title: '${esc(role.name)} Recruiters | 23-35 Days | BEG', description: '${esc(role.name)} placement in 23-35 days at roughly 50% less than contingency.', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: '${esc(role.name)} Recruiters | 23-35 Days | BEG', description: '${esc(role.name)} placement in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  openGraph: { title: '${esc(role.name)} Recruiters | 23-35 Days | BEG', description: '${esc(role.name)} placement in 23-35 days at roughly 50% less than contingency.', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: '${esc(role.name)} Recruiters | 23-35 Days | BEG', description: '${esc(role.name)} placement in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-${industrySlug}-${role.slug}');

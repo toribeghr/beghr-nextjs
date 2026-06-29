@@ -6,16 +6,16 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Government Contractors | BEG',
   description: 'iSolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/government-contractor' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/government-contractor' },
   openGraph: {
     title: 'iSolved HCM for Government Contractors | BEG',
     description: 'iSolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.',
-    url: 'https://beghr.com/services/hcm-software/government-contractor',
+    url: 'https://www.beghr.com/services/hcm-software/government-contractor',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Government Contractors | BEG', description: 'iSolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Government Contractors | BEG', description: 'iSolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -237,9 +237,9 @@ export default function HCMGovernmentContractorPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'Government Contractors', item: 'https://beghr.com/services/hcm-software/government-contractor' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Government Contractors', item: 'https://www.beghr.com/services/hcm-software/government-contractor' },
             ],
           }),
         }}
@@ -252,7 +252,7 @@ export default function HCMGovernmentContractorPage() {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
             speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tldr', '.faq-item h3', '.faq-item p'] },
-            url: 'https://beghr.com/services/hcm-software/government-contractor',
+            url: 'https://www.beghr.com/services/hcm-software/government-contractor',
           }),
         }}
       />

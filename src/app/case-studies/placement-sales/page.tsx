@@ -5,16 +5,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Sales Placement Case Study | BEG',
   description: 'How BEG filled an account executive role in 23 days at roughly 50% less than contingency, using milestone-based permanent placement powered by isolved.',
-  alternates: { canonical: 'https://beghr.com/case-studies/placement-sales' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies/placement-sales' },
   openGraph: {
     title: 'Sales Placement Case Study | BEG',
     description: 'How BEG filled an account executive role in 23 days at roughly 50% less than contingency, using milestone-based permanent placement powered by isolved.',
-    url: 'https://beghr.com/case-studies/placement-sales',
+    url: 'https://www.beghr.com/case-studies/placement-sales',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Sales Placement Case Study | BEG', description: 'How BEG filled an account executive role in 23 days at roughly 50% less than contingency, using milestone-based permanent placement powered by isolved.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Sales Placement Case Study | BEG', description: 'How BEG filled an account executive role in 23 days at roughly 50% less than contingency, using milestone-based permanent placement powered by isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function PlacementSalesCaseStudyPage() {
@@ -139,18 +139,18 @@ export default function PlacementSalesCaseStudyPage() {
         description: 'BEG filled an account executive role in 23 days at roughly 50% less than contingency using milestone-based permanent placement powered by isolved.',
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/case-studies/placement-sales',
+        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/case-studies/placement-sales',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
-          { '@type': 'ListItem', position: 3, name: 'Sales Placement Case Study', item: 'https://beghr.com/case-studies/placement-sales' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 3, name: 'Sales Placement Case Study', item: 'https://www.beghr.com/case-studies/placement-sales' },
         ],
       }) }} />
     </article>

@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG',
   description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Breakdown of cost, timeline, and fill rate by method.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/contingency-vs-retained-vs-milestone' },
   openGraph: {
     title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG',
     description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers f...',
-    url: 'https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone',
+    url: 'https://www.beghr.com/blog/compare/contingency-vs-retained-vs-milestone',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG', description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers f...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Contingency vs Retained vs Milestone | 50% Less Cost. | BEG', description: 'Three ways to hire attorneys: contingency search, retained search, or milestone-based placement. Full comparison of cost, risk, and what each delivers f...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -21,7 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function ContingencyVsRetainedVsMilestonePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Contingency vs Retained vs Milestone | 50% Less Cost. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Contingency vs Retained vs Milestone | 50% Less Cost. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/contingency-vs-retained-vs-milestone"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -204,8 +204,8 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         description: 'Full comparison of contingency, retained, and milestone-based legal recruiting for law firms -- cost, fill rates, timelines, and when each model makes sense.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/contingency-vs-retained-vs-milestone',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/contingency-vs-retained-vs-milestone',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

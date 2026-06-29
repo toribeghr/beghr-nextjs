@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "School & Education Payroll Guides | Private + Charter | BEG",
   description: "Payroll guides for private schools, charter schools, and education employers. 403(b), substitute pay, salary spreads, and compliance at $25-$45 PEPM.",
-  alternates: { canonical: "https://beghr.com/blog/payroll/education" },
+  alternates: { canonical: "https://www.beghr.com/blog/payroll/education" },
   openGraph: {
     title: "School & Education Payroll Guides | Private + Charter | BEG",
     description: "Payroll guides for private schools, charter schools, and education employers. 403(b), substitute pay, salary spreads, and compliance at $25-$45 PEPM.",
-    url: "https://beghr.com/blog/payroll/education",
+    url: "https://www.beghr.com/blog/payroll/education",
     siteName: "Business Executive Group",
-    images: [{ url: "https://beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "School & Education Payroll Guides | Private + Charter | BEG", description: "Payroll guides for private schools, charter schools, and education employers. 403(b), substitute pay, salary spreads, and compliance.", images: ["https://beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "School & Education Payroll Guides | Private + Charter | BEG", description: "Payroll guides for private schools, charter schools, and education employers. 403(b), substitute pay, salary spreads, and compliance.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const posts = [
@@ -47,7 +47,7 @@ const posts = [
 export default function EducationPayrollHubPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -102,10 +102,10 @@ export default function EducationPayrollHubPage() {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beghr.com" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://beghr.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://beghr.com/blog/payroll" },
-          { "@type": "ListItem", "position": 4, "name": "Education", "item": "https://beghr.com/blog/payroll/education" },
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.beghr.com" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.beghr.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://www.beghr.com/blog/payroll" },
+          { "@type": "ListItem", "position": 4, "name": "Education", "item": "https://www.beghr.com/blog/payroll/education" },
         ]
       }) }} />
     </article>

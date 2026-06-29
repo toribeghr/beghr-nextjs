@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Government Contractor Hiring Trends 2026 | BEG',
   description: 'Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means and how to staff awards in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/government-hiring/government-contractor-hiring-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/government-hiring/government-contractor-hiring-trends' },
   openGraph: {
     title: 'Government Contractor Hiring Trends 2026 | BEG',
     description: 'Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means and how to staff awards in 23-35 days.',
-    url: 'https://beghr.com/blog/government-hiring/government-contractor-hiring-trends',
+    url: 'https://www.beghr.com/blog/government-hiring/government-contractor-hiring-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Government Contractor Hiring Trends 2026 | BEG', description: 'Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means and how to staff awards in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Government Contractor Hiring Trends 2026 | BEG', description: 'Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means and how to staff awards in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/government-hiring/government-contractor-hiring-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function GovernmentContractorHiringTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Government Contractor Hiring Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/government-hiring/government-contractor-hiring-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Government Contractor Hiring Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/government-hiring/government-contractor-hiring-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -174,8 +174,8 @@ export default function GovernmentContractorHiringTrendsPage() {
         description: 'The forces shaping the 2026 government contractor talent market and how GovCon leaders staff awards in 23-35 days despite a cleared-talent shortage.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/government-hiring/government-contractor-hiring-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/government-hiring/government-contractor-hiring-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

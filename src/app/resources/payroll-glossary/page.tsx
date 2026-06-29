@@ -4,20 +4,20 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Payroll Glossary | 150 Terms Explained | BEG',
   description: 'Complete payroll glossary with 150 terms explained for employers. W-2, FICA, garnishments, FUTA, exempt status, and more.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary' },
   openGraph: {
     title: 'Payroll Glossary | 150 Terms Explained | BEG',
     description: 'Complete payroll glossary with 150 terms explained for employers. W-2, FICA, garnishments, FUTA, exempt status, and more.',
-    url: 'https://beghr.com/resources/payroll-glossary',
+    url: 'https://www.beghr.com/resources/payroll-glossary',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Payroll Glossary | 150 Terms Explained | BEG',
     description: 'Complete payroll glossary with 150 terms explained for employers. W-2, FICA, garnishments, FUTA, exempt status, and more.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -26,9 +26,9 @@ export default function PayrollGlossaryPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-      { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+      { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
     ],
   };
 

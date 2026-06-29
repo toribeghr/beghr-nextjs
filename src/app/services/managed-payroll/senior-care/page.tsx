@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Senior Care Payroll | Memory Care. Skilled Nursing. Managed. | BEG',
   description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/senior-care' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/senior-care' },
   openGraph: {
     title: 'Senior Care Payroll | Memory Care. Skilled Nursing. Managed. | BEG',
     description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.',
-    url: 'https://beghr.com/services/managed-payroll/senior-care',
+    url: 'https://www.beghr.com/services/managed-payroll/senior-care',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll | Memory Care. Skilled Nursing. Managed. | BEG', description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll | Memory Care. Skilled Nursing. Managed. | BEG', description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('senior-care-payroll');
@@ -275,10 +275,10 @@ export default function PayrollSeniorCarePage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Senior Care', item: 'https://beghr.com/services/managed-payroll/senior-care' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Senior Care', item: 'https://www.beghr.com/services/managed-payroll/senior-care' },
             ],
           }),
         }}

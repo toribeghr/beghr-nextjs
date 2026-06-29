@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG',
   description: 'ADP is powerful but expensive for 20-200 employee companies. Compare ADP total cost, service model, and support vs. BEG managed payroll at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-adp' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/managed-payroll-vs-adp' },
   openGraph: {
     title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG',
     description: 'ADP is powerful but expensive and complex for 20–200 employee companies. Compare ADP total cost, service model, and capabilities against BEG managed pay...',
-    url: 'https://beghr.com/blog/compare/managed-payroll-vs-adp',
+    url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-adp',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG', description: 'ADP is powerful but expensive and complex for 20–200 employee companies. Compare ADP total cost, service model, and capabilities against BEG managed pay...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG', description: 'ADP is powerful but expensive and complex for 20–200 employee companies. Compare ADP total cost, service model, and capabilities against BEG managed pay...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -48,7 +48,7 @@ export default function ManagedPayrollVsADPPage() {
 
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/managed-payroll-vs-adp"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/managed-payroll-vs-adp"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -264,8 +264,8 @@ export default function ManagedPayrollVsADPPage() {
         description: 'Honest comparison of ADP payroll platform vs. BEG managed payroll service for companies with 20–200 employees.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/managed-payroll-vs-adp',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-adp',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

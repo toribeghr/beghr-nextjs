@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Food and Beverage Recruiting (2026 Guide) | BEG',
   description: 'A strong F&B leader protects guest experience and profit at once. How to recruit one in 23-35 days when the leadership pool is thin.',
-  alternates: { canonical: 'https://beghr.com/blog/hospitality-hiring/food-and-beverage-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/hospitality-hiring/food-and-beverage-recruiting' },
   openGraph: {
     title: 'Food and Beverage Recruiting (2026 Guide) | BEG',
     description: 'A strong F&B leader protects guest experience and profit at once. How to recruit one in 23-35 days when the leadership pool is thin.',
-    url: 'https://beghr.com/blog/hospitality-hiring/food-and-beverage-recruiting',
+    url: 'https://www.beghr.com/blog/hospitality-hiring/food-and-beverage-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Food and Beverage Recruiting (2026 Guide) | BEG', description: 'A strong F&B leader protects guest experience and profit at once. How to recruit one in 23-35 days when the leadership pool is thin.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Food and Beverage Recruiting (2026 Guide) | BEG', description: 'A strong F&B leader protects guest experience and profit at once. How to recruit one in 23-35 days when the leadership pool is thin.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/hospitality-hiring/food-and-beverage-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function FoodAndBeverageRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Food and Beverage Recruiting (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hospitality-hiring/food-and-beverage-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Food and Beverage Recruiting (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hospitality-hiring/food-and-beverage-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -167,8 +167,8 @@ export default function FoodAndBeverageRecruitingPage() {
         description: 'How to recruit a strong food and beverage director in 23-35 days when the leadership pool is thin, using passive candidate sourcing.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/hospitality-hiring/food-and-beverage-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/hospitality-hiring/food-and-beverage-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

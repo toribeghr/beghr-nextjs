@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   title: 'Attorney Placement | 23-35 Days. 45-Day Guarantee. | BEG',
   description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',
   alternates: {
-    canonical: 'https://beghr.com/services/job-placement/legal',
+    canonical: 'https://www.beghr.com/services/job-placement/legal',
   },
   openGraph: {
     title: 'Attorney Placement | 23-35 Days. 45-Day Guarantee. | BEG',
     description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',
-    url: 'https://beghr.com/services/job-placement/legal',
+    url: 'https://www.beghr.com/services/job-placement/legal',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Attorney Placement | 23-35 Days. 45-Day Guarantee. | BEG', description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Attorney Placement | 23-35 Days. 45-Day Guarantee. | BEG', description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -54,7 +54,7 @@ export default function PlacementLegalPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Service', serviceType: 'Attorney placement', name: 'Attorney Placement', provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' }, areaServed: { '@type': 'Country', name: 'United States' }, url: 'https://beghr.com/services/job-placement/legal', description: 'Permanent placement of attorneys, paralegals, and counsel in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.' }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Service', serviceType: 'Attorney placement', name: 'Attorney Placement', provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' }, areaServed: { '@type': 'Country', name: 'United States' }, url: 'https://www.beghr.com/services/job-placement/legal', description: 'Permanent placement of attorneys, paralegals, and counsel in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.' }) }} />
 
       {/* PAIN - NEPQ problem amplification */}
       <section className="section section--soft">
@@ -327,9 +327,9 @@ export default function PlacementLegalPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Job Placement', item: 'https://beghr.com/services/job-placement' },
-              { '@type': 'ListItem', position: 3, name: 'Legal', item: 'https://beghr.com/services/job-placement/legal' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Job Placement', item: 'https://www.beghr.com/services/job-placement' },
+              { '@type': 'ListItem', position: 3, name: 'Legal', item: 'https://www.beghr.com/services/job-placement/legal' },
             ],
           }),
         }}

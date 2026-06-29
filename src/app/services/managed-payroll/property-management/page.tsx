@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Property Management Payroll | Resident Managers. Commission. | BEG',
   description: 'Property management payroll fully managed at $25–$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/property-management' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/property-management' },
   openGraph: {
     title: 'Property Management Payroll | Resident Managers. Commission. | BEG',
     description: 'Property management payroll fully managed at $25–$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.',
-    url: 'https://beghr.com/services/managed-payroll/property-management',
+    url: 'https://www.beghr.com/services/managed-payroll/property-management',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Property Management Payroll | Resident Managers. Commission. | BEG', description: 'Property management payroll fully managed at $25–$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Property Management Payroll | Resident Managers. Commission. | BEG', description: 'Property management payroll fully managed at $25–$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('property-management-payroll');
@@ -271,10 +271,10 @@ export default function PayrollPropertyManagementPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Property Management', item: 'https://beghr.com/services/managed-payroll/property-management' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Property Management', item: 'https://www.beghr.com/services/managed-payroll/property-management' },
             ],
           }),
         }}

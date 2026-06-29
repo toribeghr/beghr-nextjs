@@ -7,21 +7,21 @@ export const metadata: Metadata = {
   title: 'State Payroll Compliance Checker | All 50 States | BEG',
   description: 'Check 2026 minimum wage, paid leave mandates, income tax, payday rules, and new hire reporting for any of the 50 states. Free, no email required.',
   alternates: {
-    canonical: 'https://beghr.com/resources/state-compliance-checker',
+    canonical: 'https://www.beghr.com/resources/state-compliance-checker',
   },
   openGraph: {
     title: 'State Payroll Compliance Checker | All 50 States | BEG',
     description: 'Check 2026 minimum wage, paid leave mandates, income tax, payday rules, and new hire reporting for any of the 50 states. Free, no email required.',
-    url: 'https://beghr.com/resources/state-compliance-checker',
+    url: 'https://www.beghr.com/resources/state-compliance-checker',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'State Payroll Compliance Checker | All 50 States | BEG',
     description: 'Check 2026 minimum wage, paid leave mandates, income tax, payday rules, and new hire reporting for any of the 50 states. Free, no email required.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -36,7 +36,7 @@ export default function StateComplianceCheckerPage() {
             '@graph': [
               {
                 '@type': 'WebPage',
-                url: 'https://beghr.com/resources/state-compliance-checker',
+                url: 'https://www.beghr.com/resources/state-compliance-checker',
                 name: 'State Payroll Compliance Checker | All 50 States | BEG',
                 datePublished: '2026-06-28',
                 dateModified: '2026-06-28',
@@ -48,15 +48,15 @@ export default function StateComplianceCheckerPage() {
                 publisher: {
                   '@type': 'Organization',
                   name: 'Business Executive Group',
-                  url: 'https://beghr.com',
+                  url: 'https://www.beghr.com',
                 },
               },
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-                  { '@type': 'ListItem', position: 3, name: 'State Payroll Compliance Checker', item: 'https://beghr.com/resources/state-compliance-checker' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+                  { '@type': 'ListItem', position: 3, name: 'State Payroll Compliance Checker', item: 'https://www.beghr.com/resources/state-compliance-checker' },
                 ],
               },
             ],

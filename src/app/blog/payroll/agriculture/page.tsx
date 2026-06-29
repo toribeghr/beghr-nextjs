@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Farm & Agriculture Payroll Guides | H-2A + Seasonal | BEG',
   description: 'Agriculture payroll guides covering H-2A workers, seasonal crews, piece rate compliance, MSPA requirements, and farm payroll outsourcing. BEG at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/agriculture' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/agriculture' },
   openGraph: {
     title: 'Farm & Agriculture Payroll Guides | H-2A + Seasonal | BEG',
     description: 'Agriculture payroll guides covering H-2A workers, seasonal crews, piece rate compliance, MSPA requirements, and farm payroll outsourcing. BEG at $25-$45 PEPM.',
-    url: 'https://beghr.com/blog/payroll/agriculture',
+    url: 'https://www.beghr.com/blog/payroll/agriculture',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Farm & Agriculture Payroll Guides | BEG', description: 'Agriculture payroll guides: H-2A workers, seasonal crews, piece rate, and farm payroll outsourcing.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Farm & Agriculture Payroll Guides | BEG', description: 'Agriculture payroll guides: H-2A workers, seasonal crews, piece rate, and farm payroll outsourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -99,10 +99,10 @@ export default function AgriculturePayrollHubPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-          { '@type': 'ListItem', position: 4, name: 'Agriculture', item: 'https://beghr.com/blog/payroll/agriculture' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+          { '@type': 'ListItem', position: 4, name: 'Agriculture', item: 'https://www.beghr.com/blog/payroll/agriculture' },
         ],
       }) }} />
     </>

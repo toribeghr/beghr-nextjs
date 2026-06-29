@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Legal Hiring & Recruiting | BEG Blog',
   description: 'Attorney market trends, law firm hiring strategies, and placement insights.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring' },
+  alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring' },
   openGraph: {
     title: 'Legal Hiring & Recruiting | BEG Blog',
     description: 'Attorney market trends, law firm hiring strategies, and placement insights.',
-    url: 'https://beghr.com/blog/legal-hiring',
+    url: 'https://www.beghr.com/blog/legal-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Legal Hiring & Recruiting | BEG Blog', description: 'Attorney market trends, law firm hiring strategies, and placement insights.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Legal Hiring & Recruiting | BEG Blog', description: 'Attorney market trends, law firm hiring strategies, and placement insights.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -90,9 +90,9 @@ export default function BlogLegalHiringPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Legal Hiring', item: 'https://beghr.com/blog/legal-hiring' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Legal Hiring', item: 'https://www.beghr.com/blog/legal-hiring' },
             ],
           }),
         }}

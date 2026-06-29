@@ -9,20 +9,20 @@ const DESC =
 export const metadata: Metadata = {
   title: 'FLSA Overtime Pay Calculator (Regular Rate, Bonuses, Blended) | BEG',
   description: DESC,
-  alternates: { canonical: 'https://beghr.com/resources/overtime-pay-calculator' },
+  alternates: { canonical: 'https://www.beghr.com/resources/overtime-pay-calculator' },
   openGraph: {
     title: 'FLSA Overtime Pay Calculator | BEG',
     description: DESC,
-    url: 'https://beghr.com/resources/overtime-pay-calculator',
+    url: 'https://www.beghr.com/resources/overtime-pay-calculator',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'FLSA Overtime Pay Calculator | BEG',
     description: DESC,
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -53,9 +53,9 @@ export default function OvertimePayCalculatorPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-          { '@type': 'ListItem', position: 3, name: 'Overtime Pay Calculator', item: 'https://beghr.com/resources/overtime-pay-calculator' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+          { '@type': 'ListItem', position: 3, name: 'Overtime Pay Calculator', item: 'https://www.beghr.com/resources/overtime-pay-calculator' },
         ],
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -65,13 +65,13 @@ export default function OvertimePayCalculatorPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'WebApplication', name: 'FLSA Overtime Pay Calculator',
         applicationCategory: 'BusinessApplication', operatingSystem: 'Web', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-        url: 'https://beghr.com/resources/overtime-pay-calculator', description: DESC,
-        provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
+        url: 'https://www.beghr.com/resources/overtime-pay-calculator', description: DESC,
+        provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'WebPage',
         speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tldr', '.faq-item h3', '.faq-item p'] },
-        url: 'https://beghr.com/resources/overtime-pay-calculator',
+        url: 'https://www.beghr.com/resources/overtime-pay-calculator',
       }) }} />
 
       {/* INTRO */}

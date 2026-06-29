@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG',
   description: 'What does a payroll manager cost vs. managed payroll? Breakdown of salary, benefits, time, and risk. Compare $60K-$100K per year vs. $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/payroll-manager-vs-outsourcing' },
   openGraph: {
     title: 'Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG',
     description: 'What does a payroll manager actually cost vs. managed payroll? Side-by-side breakdown of salary, benefits, errors, and total cost for companies with 20–...',
-    url: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing',
+    url: 'https://www.beghr.com/blog/compare/payroll-manager-vs-outsourcing',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG', description: 'What does a payroll manager actually cost vs. managed payroll? Side-by-side breakdown of salary, benefits, errors, and total cost for companies with 20–...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG', description: 'What does a payroll manager actually cost vs. managed payroll? Side-by-side breakdown of salary, benefits, errors, and total cost for companies with 20–...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -21,7 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function PayrollManagerVsOutsourcingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/payroll-manager-vs-outsourcing"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Manager vs Outsourcing | $60K-$100K vs. $25 PEPM | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/payroll-manager-vs-outsourcing"}) }} />
 
       {/* ── HERO ── */}
       <section className="hero">
@@ -256,9 +256,9 @@ export default function PayrollManagerVsOutsourcingPage() {
             datePublished: '2026-06-27',
             dateModified: '2026-06-27',
             author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-            publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-            url: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing',
-            mainEntityOfPage: 'https://beghr.com/blog/compare/payroll-manager-vs-outsourcing',
+            publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+            url: 'https://www.beghr.com/blog/compare/payroll-manager-vs-outsourcing',
+            mainEntityOfPage: 'https://www.beghr.com/blog/compare/payroll-manager-vs-outsourcing',
           }),
         }}
       />

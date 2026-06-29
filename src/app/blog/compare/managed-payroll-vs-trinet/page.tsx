@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'TriNet vs Managed Payroll | PEO vs. Done For You | BEG',
   description: 'TriNet is a PEO requiring co-employment. BEG managed payroll requires nothing. Compare model, cost, control, and what each handles.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-trinet' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/managed-payroll-vs-trinet' },
   openGraph: {
     title: 'TriNet vs Managed Payroll | PEO vs. Done For You | BEG',
     description: 'TriNet is a PEO requiring co-employment. BEG managed payroll requires nothing. Compare model, cost, control, and what each handles.',
-    url: 'https://beghr.com/blog/compare/managed-payroll-vs-trinet',
+    url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-trinet',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'TriNet vs Managed Payroll | PEO vs. Done For You | BEG', description: 'TriNet is a PEO requiring co-employment. BEG managed payroll requires nothing. Compare model, cost, control, and what each handles.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'TriNet vs Managed Payroll | PEO vs. Done For You | BEG', description: 'TriNet is a PEO requiring co-employment. BEG managed payroll requires nothing. Compare model, cost, control, and what each handles.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -43,7 +43,7 @@ export default function ManagedPayrollVsTriNetPage() {
 
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "TriNet vs Managed Payroll | PEO vs. Done For You | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/managed-payroll-vs-trinet"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "TriNet vs Managed Payroll | PEO vs. Done For You | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/managed-payroll-vs-trinet"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -296,8 +296,8 @@ export default function ManagedPayrollVsTriNetPage() {
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/managed-payroll-vs-trinet',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-trinet',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -314,10 +314,10 @@ export default function ManagedPayrollVsTriNetPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Compare', item: 'https://beghr.com/blog/compare' },
-          { '@type': 'ListItem', position: 4, name: 'TriNet vs Managed Payroll', item: 'https://beghr.com/blog/compare/managed-payroll-vs-trinet' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Compare', item: 'https://www.beghr.com/blog/compare' },
+          { '@type': 'ListItem', position: 4, name: 'TriNet vs Managed Payroll', item: 'https://www.beghr.com/blog/compare/managed-payroll-vs-trinet' },
         ],
       }) }} />
     </article>

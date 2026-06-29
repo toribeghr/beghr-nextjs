@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center',
   description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.',
-  alternates: { canonical: 'https://beghr.com/blog/compare' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare' },
   openGraph: {
     title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center',
     description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.',
-    url: 'https://beghr.com/blog/compare',
+    url: 'https://www.beghr.com/blog/compare',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center', description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll & Legal Recruiting Comparisons | BEG Resource Center', description: 'Honest side-by-side comparisons of payroll software, legal recruiting models, and managed service options. Research before you decide.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -149,7 +149,7 @@ const LEGAL_COMPARISONS = [
 export default function ComparePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll & Legal Recruiting Comparisons | BEG Resource Center", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll & Legal Recruiting Comparisons | BEG Resource Center", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">

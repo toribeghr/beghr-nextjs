@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Banking Placement | Lenders, Credit & Compliance | BEG',
   description: 'Fill commercial lender, credit, and compliance roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/banking' },
-  openGraph: { title: 'Banking Placement | Lenders, Credit & Compliance | BEG', description: 'Fill commercial lender, credit, and compliance roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://beghr.com/services/job-placement/banking', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Banking Placement | Lenders, Credit & Compliance | BEG', description: 'Fill commercial lender, credit, and compliance roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/banking' },
+  openGraph: { title: 'Banking Placement | Lenders, Credit & Compliance | BEG', description: 'Fill commercial lender, credit, and compliance roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/banking', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Banking Placement | Lenders, Credit & Compliance | BEG', description: 'Fill commercial lender, credit, and compliance roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-banking');
@@ -39,7 +39,7 @@ export default function PlacementBankingPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Banking placement\",\"name\":\"Banking Placement\",\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"url\":\"https://beghr.com/services/job-placement/banking\",\"description\":\"Permanent banking placement in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Banking placement\",\"name\":\"Banking Placement\",\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"url\":\"https://www.beghr.com/services/job-placement/banking\",\"description\":\"Permanent banking placement in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.\"}" }} />
 
       {/* PAIN */}
       <section className="section section--soft">

@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'How to Hire an Associate Dentist Fast | BEG',
   description: 'An empty operatory means lost production. A practical playbook to hire an associate dentist in 23-35 days with passive candidate sourcing.',
-  alternates: { canonical: 'https://beghr.com/blog/dental-hiring/hiring-associate-dentists' },
+  alternates: { canonical: 'https://www.beghr.com/blog/dental-hiring/hiring-associate-dentists' },
   openGraph: {
     title: 'How to Hire an Associate Dentist Fast | BEG',
     description: 'An empty operatory means lost production. A practical playbook to hire an associate dentist in 23-35 days with passive candidate sourcing.',
-    url: 'https://beghr.com/blog/dental-hiring/hiring-associate-dentists',
+    url: 'https://www.beghr.com/blog/dental-hiring/hiring-associate-dentists',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How to Hire an Associate Dentist Fast | BEG', description: 'An empty operatory means lost production. A practical playbook to hire an associate dentist in 23-35 days with passive candidate sourcing.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'How to Hire an Associate Dentist Fast | BEG', description: 'An empty operatory means lost production. A practical playbook to hire an associate dentist in 23-35 days with passive candidate sourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/dental-hiring/hiring-associate-dentists');
@@ -40,7 +40,7 @@ const faqs = [
 export default function HiringAssociateDentistsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Hire an Associate Dentist Fast | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/dental-hiring/hiring-associate-dentists"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Hire an Associate Dentist Fast | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/dental-hiring/hiring-associate-dentists"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -175,8 +175,8 @@ export default function HiringAssociateDentistsPage() {
         description: 'A practical playbook to define, source, and close a strong associate dentist hire in 23-35 days using passive candidate sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/dental-hiring/hiring-associate-dentists',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/dental-hiring/hiring-associate-dentists',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

@@ -5,21 +5,21 @@ export const metadata: Metadata = {
   title: 'Switching Payroll Providers FAQ | Transition Smoothly | BEG',
   description: 'How to switch payroll providers without disruption: timing, data migration, what to hand off, and what to expect from BEG\'s onboarding.',
   alternates: {
-    canonical: 'https://beghr.com/faq/switching-payroll-providers',
+    canonical: 'https://www.beghr.com/faq/switching-payroll-providers',
   },
   openGraph: {
     title: 'Switching Payroll Providers FAQ | Transition Smoothly | BEG',
     description: 'How to switch payroll providers without disruption: timing, data migration, what to hand off, and what to expect from BEG\'s onboarding.',
-    url: 'https://beghr.com/faq/switching-payroll-providers',
+    url: 'https://www.beghr.com/faq/switching-payroll-providers',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Switching Payroll Providers FAQ | Transition Smoothly | BEG',
     description: 'How to switch payroll providers without disruption: timing, data migration, what to hand off, and what to expect from BEG\'s onboarding.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -78,9 +78,9 @@ export default function SwitchingPayrollFaqPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://beghr.com/faq' },
-              { '@type': 'ListItem', position: 3, name: 'Switching Payroll Providers FAQ', item: 'https://beghr.com/faq/switching-payroll-providers' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://www.beghr.com/faq' },
+              { '@type': 'ListItem', position: 3, name: 'Switching Payroll Providers FAQ', item: 'https://www.beghr.com/faq/switching-payroll-providers' },
             ],
           }),
         }}

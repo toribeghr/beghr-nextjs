@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG',
   description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/marketing-agency' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/marketing-agency' },
   openGraph: {
     title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG',
     description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
-    url: 'https://beghr.com/services/managed-payroll/marketing-agency',
+    url: 'https://www.beghr.com/services/managed-payroll/marketing-agency',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG', description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Marketing Agency Payroll | Remote Teams Handled Right. | BEG', description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -278,7 +278,7 @@ export default function PayrollMarketingAgencyPage() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'We have employees in 8 states but are only registered in 2. What happens?', acceptedAnswer: { '@type': 'Answer', text: 'We identify every state with payroll obligations and register you before the next pay cycle. Proactive correction is always less expensive than a state revenue audit.' } }, { '@type': 'Question', name: 'How do you determine if freelancers should be W-2 or 1099?', acceptedAnswer: { '@type': 'Answer', text: 'We review the working relationship against IRS common law factors -- behavioral control, financial control, relationship type -- and flag reclassification risk.' } }, { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } }] }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Marketing & Creative Agencies', item: 'https://beghr.com/services/managed-payroll/marketing-agency' }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Marketing & Creative Agencies', item: 'https://www.beghr.com/services/managed-payroll/marketing-agency' }] }) }} />
       <RelatedPosts
         heading="From the blog"
         posts={[

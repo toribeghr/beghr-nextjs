@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Home Health Payroll | FLSA & Caregiver Pay. Handled. | BEG',
   description: 'Home health agency payroll fully managed at $25–45 PEPM. Caregiver classification, live-in aide FLSA rules, and Medicaid wage compliance handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/home-health' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/home-health' },
   openGraph: {
     title: 'Home Health Payroll | FLSA & Caregiver Pay. Handled. | BEG',
     description: 'Home health agency payroll fully managed at $25–45 PEPM. Caregiver classification, live-in aide FLSA rules, and Medicaid wage compliance handled.',
-    url: 'https://beghr.com/services/managed-payroll/home-health',
+    url: 'https://www.beghr.com/services/managed-payroll/home-health',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Health Payroll | FLSA & Caregiver Pay. Handled. | BEG', description: 'Home health agency payroll fully managed at $25–45 PEPM. Caregiver classification, live-in aide FLSA rules, and Medicaid wage compliance handled.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Health Payroll | FLSA & Caregiver Pay. Handled. | BEG', description: 'Home health agency payroll fully managed at $25–45 PEPM. Caregiver classification, live-in aide FLSA rules, and Medicaid wage compliance handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -278,7 +278,7 @@ export default function PayrollHomeHealthPage() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'Are our caregivers exempt from overtime under the companionship exemption?', acceptedAnswer: { '@type': 'Answer', text: 'No. The DOL eliminated the companionship exemption for third-party employers in 2015. Caregivers are entitled to minimum wage and overtime.' } }, { '@type': 'Question', name: 'How do you handle overtime for live-in aides?', acceptedAnswer: { '@type': 'Answer', text: 'We apply FLSA live-in employee rules, documenting sleep time and off-duty periods correctly, and apply state-specific rules where more protective.' } }, { '@type': 'Question', name: 'Do we have to change payroll or EVV systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } }] }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Home Health Agencies', item: 'https://beghr.com/services/managed-payroll/home-health' }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Home Health Agencies', item: 'https://www.beghr.com/services/managed-payroll/home-health' }] }) }} />
       <RelatedPosts
         heading="From the blog"
         posts={[

@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG',
   description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules' },
   openGraph: {
     title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG',
     description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...',
-    url: 'https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules',
+    url: 'https://www.beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG', description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG', description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -39,7 +39,17 @@ const faqs = [
 export default function VeterinaryOvertimePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>Calculate overtime the right way</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Get the correct FLSA regular rate of pay, including bonuses and blended pay rates.</p>
+          <a href="/resources/overtime-pay-calculator" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Open the Overtime Pay Calculator &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -148,10 +158,10 @@ export default function VeterinaryOvertimePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-          { '@type': 'ListItem', position: 4, name: 'Veterinary Overtime Rules', item: 'https://beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+          { '@type': 'ListItem', position: 4, name: 'Veterinary Overtime Rules', item: 'https://www.beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules' },
         ],
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

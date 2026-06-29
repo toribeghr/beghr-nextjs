@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Sales Hiring & Recruiting | BEG Blog',
   description: 'B2B sales hiring trends, VP of Sales and AE recruiting, comp insights, and turnover strategy for leaders who need to fill quota-carrying roles fast.',
-  alternates: { canonical: 'https://beghr.com/blog/sales-hiring' },
+  alternates: { canonical: 'https://www.beghr.com/blog/sales-hiring' },
   openGraph: {
     title: 'Sales Hiring & Recruiting | BEG Blog',
     description: 'B2B sales hiring trends, VP of Sales and AE recruiting, comp insights, and turnover strategy for leaders who need to fill quota-carrying roles fast.',
-    url: 'https://beghr.com/blog/sales-hiring',
+    url: 'https://www.beghr.com/blog/sales-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Sales Hiring & Recruiting | BEG Blog', description: 'B2B sales hiring trends, VP of Sales and AE recruiting, comp insights, and turnover strategy for leaders who need to fill quota-carrying roles fast.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Sales Hiring & Recruiting | BEG Blog', description: 'B2B sales hiring trends, VP of Sales and AE recruiting, comp insights, and turnover strategy for leaders who need to fill quota-carrying roles fast.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -89,9 +89,9 @@ export default function BlogSalesHiringPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Sales Hiring', item: 'https://beghr.com/blog/sales-hiring' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Sales Hiring', item: 'https://www.beghr.com/blog/sales-hiring' },
             ],
           }),
         }}

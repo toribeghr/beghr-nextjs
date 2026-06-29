@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Managed Payroll Case Studies | BEG',
   description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated payroll overhead.',
-  alternates: { canonical: 'https://beghr.com/case-studies' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies' },
   openGraph: {
     title: 'Managed Payroll Case Studies | BEG',
     description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated payroll overhead.',
-    url: 'https://beghr.com/case-studies',
+    url: 'https://www.beghr.com/case-studies',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll Case Studies | BEG', description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated payroll overhead.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Case Studies | BEG', description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated payroll overhead.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const placementCaseStudies = [
@@ -231,8 +231,8 @@ export default function CaseStudiesPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
         ],
       }) }} />
     </article>

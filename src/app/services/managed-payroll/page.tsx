@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   title: 'Managed Payroll | We Run It. Not You. $25-$45 PEPM. | BEG',
   description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.',
   alternates: {
-    canonical: 'https://beghr.com/services/managed-payroll',
+    canonical: 'https://www.beghr.com/services/managed-payroll',
   },
   openGraph: {
     title: 'Managed Payroll | We Run It. Not You. $25-$45 PEPM. | BEG',
     description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.',
-    url: 'https://beghr.com/services/managed-payroll',
+    url: 'https://www.beghr.com/services/managed-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll | We Run It. Not You. $25-$45 PEPM. | BEG', description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll | We Run It. Not You. $25-$45 PEPM. | BEG', description: 'Fully managed payroll at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. Works in your existing system. No migration. All 50 states.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -312,6 +312,36 @@ export default function ManagedPayrollPage() {
         </div>
       </section>
 
+      {/* BY STATE */}
+      <section className="section section--soft">
+        <div className="container">
+          <div className="head center reveal">
+            <p className="eyebrow">By State</p>
+            <h2>Managed payroll in all 50 states</h2>
+            <p className="lede" style={{ margin: '12px auto 0', maxWidth: '720px' }}>
+              State payroll tax, SUI, and compliance handled from one account. Find your state below.
+            </p>
+          </div>
+          <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', gap: '0.4rem 1.25rem', marginTop: '2rem' }}>
+            {[
+              'alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado', 'connecticut', 'delaware', 'florida', 'georgia',
+              'hawaii', 'idaho', 'illinois', 'indiana', 'iowa', 'kansas', 'kentucky', 'louisiana', 'maine', 'maryland',
+              'massachusetts', 'michigan', 'minnesota', 'mississippi', 'missouri', 'montana', 'nebraska', 'nevada', 'new-hampshire', 'new-jersey',
+              'new-mexico', 'new-york', 'north-carolina', 'north-dakota', 'ohio', 'oklahoma', 'oregon', 'pennsylvania', 'rhode-island', 'south-carolina',
+              'south-dakota', 'tennessee', 'texas', 'utah', 'vermont', 'virginia', 'washington', 'west-virginia', 'wisconsin', 'wyoming',
+            ].map((st) => (
+              <Link
+                key={st}
+                href={`/services/managed-payroll/${st}`}
+                style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}
+              >
+                {st.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* BY INDUSTRY */}
       <section className="section">
         <div className="container">
@@ -546,11 +576,11 @@ export default function ManagedPayrollPage() {
             '@type': 'ProfessionalService',
             name: 'Managed Payroll Services',
             description: 'Fully managed payroll at $25-$45 per employee per month, all-inclusive. Taxes, filings, W-2s, garnishments, and compliance handled. All 50 states. 3-5 day onboarding.',
-            url: 'https://beghr.com/services/managed-payroll',
+            url: 'https://www.beghr.com/services/managed-payroll',
             provider: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              url: 'https://beghr.com',
+              url: 'https://www.beghr.com',
             },
             areaServed: 'United States',
             availableChannel: {

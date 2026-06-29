@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Supply Chain Hiring | BEG Blog',
   description: 'Supply chain talent shortage trends, hiring a supply chain manager, logistics recruiting, and salary insights for operations leaders filling roles fast.',
-  alternates: { canonical: 'https://beghr.com/blog/supply-chain-hiring' },
+  alternates: { canonical: 'https://www.beghr.com/blog/supply-chain-hiring' },
   openGraph: {
     title: 'Supply Chain Hiring | BEG Blog',
     description: 'Supply chain talent shortage trends, hiring a supply chain manager, logistics recruiting, and salary insights for operations leaders filling roles fast.',
-    url: 'https://beghr.com/blog/supply-chain-hiring',
+    url: 'https://www.beghr.com/blog/supply-chain-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Supply Chain Hiring | BEG Blog', description: 'Supply chain talent shortage trends, hiring a supply chain manager, logistics recruiting, and salary insights for operations leaders filling roles fast.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Supply Chain Hiring | BEG Blog', description: 'Supply chain talent shortage trends, hiring a supply chain manager, logistics recruiting, and salary insights for operations leaders filling roles fast.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -89,9 +89,9 @@ export default function BlogSupplyChainHiringPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Supply Chain Hiring', item: 'https://beghr.com/blog/supply-chain-hiring' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Supply Chain Hiring', item: 'https://www.beghr.com/blog/supply-chain-hiring' },
             ],
           }),
         }}

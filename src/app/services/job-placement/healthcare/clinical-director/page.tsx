@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Clinical Director Recruiters | 23-35 Days | BEG',
   description: 'Clinical Director placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/healthcare/clinical-director' },
-  openGraph: { title: 'Clinical Director Recruiters | 23-35 Days | BEG', description: 'Clinical Director placement in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/healthcare/clinical-director', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Clinical Director Recruiters | 23-35 Days | BEG', description: 'Clinical Director placement in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/healthcare/clinical-director' },
+  openGraph: { title: 'Clinical Director Recruiters | 23-35 Days | BEG', description: 'Clinical Director placement in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/healthcare/clinical-director', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Clinical Director Recruiters | 23-35 Days | BEG', description: 'Clinical Director placement in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-healthcare-clinical-director');
@@ -36,7 +36,7 @@ export default function PlacementHealthcareClinicaldirectorPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Clinical Director placement\",\"name\":\"Clinical Director Placement\",\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"url\":\"https://beghr.com/services/job-placement/healthcare/clinical-director\",\"description\":\"Permanent clinical director placement in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Clinical Director placement\",\"name\":\"Clinical Director Placement\",\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"url\":\"https://www.beghr.com/services/job-placement/healthcare/clinical-director\",\"description\":\"Permanent clinical director placement in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

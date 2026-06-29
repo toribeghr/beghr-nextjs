@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Real Estate Talent Trends in 2026 | BEG',
   description: 'A thin bench of property and asset management talent is reshaping real estate hiring. What 2026 means and how to fill roles in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/real-estate-hiring/real-estate-talent-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/real-estate-hiring/real-estate-talent-trends' },
   openGraph: {
     title: 'Real Estate Talent Trends in 2026 | BEG',
     description: 'A thin bench of property and asset management talent is reshaping real estate hiring. What 2026 means and how to fill roles in 23-35 days.',
-    url: 'https://beghr.com/blog/real-estate-hiring/real-estate-talent-trends',
+    url: 'https://www.beghr.com/blog/real-estate-hiring/real-estate-talent-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Real Estate Talent Trends in 2026 | BEG', description: 'A thin bench of property and asset management talent is reshaping real estate hiring. What 2026 means and how to fill roles in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Real Estate Talent Trends in 2026 | BEG', description: 'A thin bench of property and asset management talent is reshaping real estate hiring. What 2026 means and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/real-estate-hiring/real-estate-talent-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function RealEstateTalentTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Real Estate Talent Trends in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/real-estate-hiring/real-estate-talent-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Real Estate Talent Trends in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/real-estate-hiring/real-estate-talent-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -174,8 +174,8 @@ export default function RealEstateTalentTrendsPage() {
         description: 'The structural forces behind the 2026 real estate talent shortage and how owners fill property and asset management roles in 23-35 days despite it.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/real-estate-hiring/real-estate-talent-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/real-estate-hiring/real-estate-talent-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

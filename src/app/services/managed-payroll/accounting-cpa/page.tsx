@@ -8,20 +8,20 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Accounting & CPA Firm Payroll | Partner Draws. Busy Season. | BEG',
   description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/accounting-cpa' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/accounting-cpa' },
   openGraph: {
     title: 'Accounting & CPA Firm Payroll | Partner Draws. Busy Season. | BEG',
     description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
-    url: 'https://beghr.com/services/managed-payroll/accounting-cpa',
+    url: 'https://www.beghr.com/services/managed-payroll/accounting-cpa',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Accounting & CPA Firm Payroll | Partner Draws. Busy Season. | BEG',
     description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -259,9 +259,9 @@ export default function PayrollAccountingCpaPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Accounting & CPA', item: 'https://beghr.com/services/managed-payroll/accounting-cpa' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Accounting & CPA', item: 'https://www.beghr.com/services/managed-payroll/accounting-cpa' },
             ],
           }),
         }}

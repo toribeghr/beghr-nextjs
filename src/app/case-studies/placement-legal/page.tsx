@@ -5,16 +5,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Legal Placement Case Study | BEG',
   description: 'How BEG filled an open associate attorney role in 26 days at roughly 50% less than contingency, with milestone-based placement powered by isolved.',
-  alternates: { canonical: 'https://beghr.com/case-studies/placement-legal' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies/placement-legal' },
   openGraph: {
     title: 'Legal Placement Case Study | BEG',
     description: 'How BEG filled an open associate attorney role in 26 days at roughly 50% less than contingency, with milestone-based placement powered by isolved.',
-    url: 'https://beghr.com/case-studies/placement-legal',
+    url: 'https://www.beghr.com/case-studies/placement-legal',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Legal Placement Case Study | BEG', description: 'How BEG filled an open associate attorney role in 26 days at roughly 50% less than contingency, with milestone-based placement powered by isolved.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Legal Placement Case Study | BEG', description: 'How BEG filled an open associate attorney role in 26 days at roughly 50% less than contingency, with milestone-based placement powered by isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function PlacementLegalCaseStudyPage() {
@@ -139,18 +139,18 @@ export default function PlacementLegalCaseStudyPage() {
         description: 'BEG filled an open associate attorney role in 26 days at roughly 50% less than contingency using milestone-based permanent placement powered by isolved.',
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/case-studies/placement-legal',
+        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/case-studies/placement-legal',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
-          { '@type': 'ListItem', position: 3, name: 'Legal Placement Case Study', item: 'https://beghr.com/case-studies/placement-legal' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 3, name: 'Legal Placement Case Study', item: 'https://www.beghr.com/case-studies/placement-legal' },
         ],
       }) }} />
     </article>

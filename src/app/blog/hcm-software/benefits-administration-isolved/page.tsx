@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Benefits Administration iSolved | Open Enrollment & ACA | BEG",
   description: "iSolved benefits administration: open enrollment, carrier connections, ACA tracking, FSA/HSA management, and life events. BEG at $25-$45 PEPM.",
-  alternates: { canonical: "https://beghr.com/blog/hcm-technology/benefits-administration-isolved" },
+  alternates: { canonical: "https://www.beghr.com/blog/hcm-software/benefits-administration-isolved" },
   openGraph: {
     title: "Benefits Administration iSolved | Open Enrollment & ACA | BEG",
     description: "iSolved benefits administration: open enrollment, carrier connections, ACA tracking, FSA/HSA management, and life events. BEG at $25-$45 PEPM.",
-    url: "https://beghr.com/blog/hcm-technology/benefits-administration-isolved",
+    url: "https://www.beghr.com/blog/hcm-software/benefits-administration-isolved",
     siteName: "Business Executive Group",
-    images: [{ url: "https://beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Benefits Administration with iSolved | Open Enrollment & ACA | BEG", description: "iSolved benefits admin: open enrollment, carrier connections, ACA, FSA/HSA, and life events. BEG at $25-$45 PEPM.", images: ["https://beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Benefits Administration with iSolved | Open Enrollment & ACA | BEG", description: "iSolved benefits admin: open enrollment, carrier connections, ACA, FSA/HSA, and life events. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -45,7 +45,7 @@ const faqs = [
 export default function BenefitsAdministrationIsolvedPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -164,19 +164,19 @@ export default function BenefitsAdministrationIsolvedPage() {
         "@type": "BlogPosting",
         "headline": "Benefits Administration in iSolved: Open Enrollment, ACA Reporting, and Life Events (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
-        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://beghr.com" },
+        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },
         "datePublished": "2026-06-27",
         "dateModified": "2026-06-27",
-        "url": "https://beghr.com/blog/hcm-technology/benefits-administration-isolved"
+        "url": "https://www.beghr.com/blog/hcm-software/benefits-administration-isolved"
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beghr.com" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://beghr.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "HCM Technology", "item": "https://beghr.com/blog/hcm-technology" },
-          { "@type": "ListItem", "position": 4, "name": "Benefits Administration with iSolved", "item": "https://beghr.com/blog/hcm-technology/benefits-administration-isolved" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.beghr.com" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.beghr.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "HCM Technology", "item": "https://www.beghr.com/blog/hcm-software" },
+          { "@type": "ListItem", "position": 4, "name": "Benefits Administration with iSolved", "item": "https://www.beghr.com/blog/hcm-software/benefits-administration-isolved" }
         ]
       }) }} />
     </article>

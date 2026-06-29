@@ -6,9 +6,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Hiring Manager Toolkit | Free Templates | BEG',
   description: 'Free hiring manager toolkit: interview scorecard, job description template, offer checklist, and a 30-60-90 onboarding plan. Download the PDF.',
-  alternates: { canonical: 'https://beghr.com/resources/hiring-manager-toolkit' },
-  openGraph: { title: 'Hiring Manager Toolkit | Free Templates | BEG', description: 'Interview scorecard, JD template, offer checklist, and a 30-60-90 onboarding plan. Free PDF.', url: 'https://beghr.com/resources/hiring-manager-toolkit', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'Hiring Manager Toolkit | Free Templates | BEG', description: 'Interview scorecard, JD template, offer checklist, and a 30-60-90 onboarding plan. Free PDF.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/resources/hiring-manager-toolkit' },
+  openGraph: { title: 'Hiring Manager Toolkit | Free Templates | BEG', description: 'Interview scorecard, JD template, offer checklist, and a 30-60-90 onboarding plan. Free PDF.', url: 'https://www.beghr.com/resources/hiring-manager-toolkit', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'Hiring Manager Toolkit | Free Templates | BEG', description: 'Interview scorecard, JD template, offer checklist, and a 30-60-90 onboarding plan. Free PDF.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const calendly = getCalendlyLink('hiring-manager-toolkit');

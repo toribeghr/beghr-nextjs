@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Home Services Payroll Costs | In-House vs Managed | BEG',
   description: 'How much does payroll cost for a home services company? Compare in-house payroll specialist ($60K-$100K) vs managed payroll at $25-$45 PEPM. Real numbers and ROI.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/home-services/home-services-payroll-cost' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost' },
   openGraph: {
     title: 'Home Services Payroll Costs | In-House vs Managed | BEG',
     description: 'How much does payroll cost for a home services company? Compare in-house payroll specialist vs managed payroll at $25-$45 PEPM with real numbers.',
-    url: 'https://beghr.com/blog/payroll/home-services/home-services-payroll-cost',
+    url: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Services Payroll Costs | In-House vs Managed | BEG', description: 'Real cost comparison of in-house vs managed payroll for home services companies.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Services Payroll Costs | In-House vs Managed | BEG', description: 'Real cost comparison of in-house vs managed payroll for home services companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -46,7 +46,17 @@ const faqs = [
 export default function HomeServicesPayrollCostPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Home Services Payroll Costs | In-House vs Managed | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/home-services/home-services-payroll-cost"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>Estimate your managed payroll cost</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Enter your headcount and current spend to see what fully managed payroll would cost at $25 to $45 PEPM.</p>
+          <a href="/services/managed-payroll/cost-calculator" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Open the Cost Calculator &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Home Services Payroll Costs | In-House vs Managed | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -157,20 +167,20 @@ export default function HomeServicesPayrollCostPage() {
         '@type': 'BlogPosting',
         headline: 'How Much Does It Cost to Run Payroll for a Home Services Company?',
         author: { '@type': 'Person', name: 'Anthony Moretti' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        url: 'https://beghr.com/blog/payroll/home-services/home-services-payroll-cost',
+        url: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost',
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-          { '@type': 'ListItem', position: 4, name: 'Home Services', item: 'https://beghr.com/blog/payroll/home-services' },
-          { '@type': 'ListItem', position: 5, name: 'Home Services Payroll Cost', item: 'https://beghr.com/blog/payroll/home-services/home-services-payroll-cost' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+          { '@type': 'ListItem', position: 4, name: 'Home Services', item: 'https://www.beghr.com/blog/payroll/home-services' },
+          { '@type': 'ListItem', position: 5, name: 'Home Services Payroll Cost', item: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost' },
         ]
       }) }} />
     </article>

@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: '1099 Contractor | Payroll Glossary | BEG',
   description: 'Independent contractor paid without payroll tax withholding -- businesses file 1099-NEC for payments of $600 or more.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/1099-contractor' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/1099-contractor' },
   openGraph: {
     title: '1099 Contractor | Payroll Glossary | BEG',
     description: 'Independent contractor paid without payroll tax withholding -- businesses file 1099-NEC for payments of $600 or more.',
-    url: 'https://beghr.com/resources/payroll-glossary/1099-contractor',
+    url: 'https://www.beghr.com/resources/payroll-glossary/1099-contractor',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '1099 Contractor | Payroll Glossary | BEG', description: 'Independent contractor paid without payroll tax withholding -- businesses file 1099-NEC for payments of $600 or more.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: '1099 Contractor | Payroll Glossary | BEG', description: 'Independent contractor paid without payroll tax withholding -- businesses file 1099-NEC for payments of $600 or more.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -79,14 +79,14 @@ export default function Form1099ContractorPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/1099-contractor', url: 'https://beghr.com/resources/payroll-glossary/1099-contractor', name: '1099 Contractor | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: '1099 Contractor', description: 'Independent contractor paid without payroll tax withholding -- businesses file 1099-NEC for payments of $600 or more.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/1099-contractor', url: 'https://www.beghr.com/resources/payroll-glossary/1099-contractor', name: '1099 Contractor | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: '1099 Contractor', description: 'Independent contractor paid without payroll tax withholding -- businesses file 1099-NEC for payments of $600 or more.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: '1099 Contractor', item: 'https://beghr.com/resources/payroll-glossary/1099-contractor' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: '1099 Contractor', item: 'https://www.beghr.com/resources/payroll-glossary/1099-contractor' },
             ]},
           ]
         }) }} />

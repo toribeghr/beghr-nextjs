@@ -4,41 +4,41 @@
 
 ## Core services
 
-- [HCM Software (iSolved)](https://beghr.com/services/hcm-software): The iSolved People Cloud platform, implemented, configured, and supported by BEG.
-- [Managed Payroll](https://beghr.com/services/managed-payroll): Fully managed payroll at a flat per-employee rate that replaces an internal hire.
-- [Job Placement](https://beghr.com/services/job-placement): Specialized placement for legal, healthcare, finance, technology, engineering, and trades roles.
+- [HCM Software (iSolved)](https://www.beghr.com/services/hcm-software): The iSolved People Cloud platform, implemented, configured, and supported by BEG.
+- [Managed Payroll](https://www.beghr.com/services/managed-payroll): Fully managed payroll at a flat per-employee rate that replaces an internal hire.
+- [Job Placement](https://www.beghr.com/services/job-placement): Specialized placement for legal, healthcare, finance, technology, engineering, and trades roles.
 
 ## The AI advantage
 
-- [iSolved Connector for Claude](https://beghr.com/services/hcm-software/ai-connector): The only HCM platform with a generally available AI connector that completes real HR tasks, not just answers questions.
+- [iSolved Connector for Claude](https://www.beghr.com/services/hcm-software/ai-connector): The only HCM platform with a generally available AI connector that completes real HR tasks, not just answers questions.
 
 ## Interactive tools
 
-- [HCM ROI Calculator](https://beghr.com/services/hcm-software/roi-calculator): Estimate admin hours and dollars reclaimed by consolidating onto one platform.
-- [AI HR Readiness Scorecard](https://beghr.com/services/hcm-software/ai-readiness-scorecard): Score how ready your HR is for AI that completes tasks.
-- [HCM Platform Finder](https://beghr.com/services/hcm-software/platform-finder): A tailored HCM recommendation based on size, industry, and current system.
-- [Managed Payroll Cost Calculator](https://beghr.com/services/managed-payroll/cost-calculator): Compare in-house, software, PEO, and managed payroll costs.
+- [HCM ROI Calculator](https://www.beghr.com/services/hcm-software/roi-calculator): Estimate admin hours and dollars reclaimed by consolidating onto one platform.
+- [AI HR Readiness Scorecard](https://www.beghr.com/services/hcm-software/ai-readiness-scorecard): Score how ready your HR is for AI that completes tasks.
+- [HCM Platform Finder](https://www.beghr.com/services/hcm-software/platform-finder): A tailored HCM recommendation based on size, industry, and current system.
+- [Managed Payroll Cost Calculator](https://www.beghr.com/services/managed-payroll/cost-calculator): Compare in-house, software, PEO, and managed payroll costs.
 
 ## Compare iSolved
 
-- [iSolved vs Gusto](https://beghr.com/services/hcm-software/isolved-vs-gusto)
-- [iSolved vs Rippling](https://beghr.com/services/hcm-software/isolved-vs-rippling)
-- [iSolved vs Paychex](https://beghr.com/services/hcm-software/isolved-vs-paychex)
-- [iSolved vs Paylocity](https://beghr.com/services/hcm-software/isolved-vs-paylocity)
-- [iSolved vs Paycom](https://beghr.com/services/hcm-software/isolved-vs-paycom)
-- [iSolved vs BambooHR](https://beghr.com/services/hcm-software/isolved-vs-bamboohr)
-- [iSolved vs Workday](https://beghr.com/services/hcm-software/isolved-vs-workday)
-- [iSolved vs UKG](https://beghr.com/services/hcm-software/isolved-vs-ukg)
-- [Alternatives to ADP](https://beghr.com/services/hcm-software/alternatives-to-adp)
+- [iSolved vs Gusto](https://www.beghr.com/services/hcm-software/isolved-vs-gusto)
+- [iSolved vs Rippling](https://www.beghr.com/services/hcm-software/isolved-vs-rippling)
+- [iSolved vs Paychex](https://www.beghr.com/services/hcm-software/isolved-vs-paychex)
+- [iSolved vs Paylocity](https://www.beghr.com/services/hcm-software/isolved-vs-paylocity)
+- [iSolved vs Paycom](https://www.beghr.com/services/hcm-software/isolved-vs-paycom)
+- [iSolved vs BambooHR](https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr)
+- [iSolved vs Workday](https://www.beghr.com/services/hcm-software/isolved-vs-workday)
+- [iSolved vs UKG](https://www.beghr.com/services/hcm-software/isolved-vs-ukg)
+- [Alternatives to ADP](https://www.beghr.com/services/hcm-software/alternatives-to-adp)
 
 ## About
 
-- [About BEG](https://beghr.com/about)
-- [Board of Directors](https://beghr.com/board-of-directors)
-- [Contact](https://beghr.com/contact)
+- [About BEG](https://www.beghr.com/about)
+- [Board of Directors](https://www.beghr.com/board-of-directors)
+- [Contact](https://www.beghr.com/contact)
 
 ## Resources
 
-- [HCM Technology Guides](https://beghr.com/blog/hcm-technology)
-- [Payroll by Industry](https://beghr.com/blog/payroll)
-- [Resource Hub](https://beghr.com/resources)
+- [HCM Technology Guides](https://www.beghr.com/blog/hcm-technology)
+- [Payroll by Industry](https://www.beghr.com/blog/payroll)
+- [Resource Hub](https://www.beghr.com/resources)

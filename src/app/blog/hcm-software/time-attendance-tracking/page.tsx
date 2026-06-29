@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Time & Attendance Tracking Software | iSolved Timekeeping | BEG",
   description: "iSolved time and attendance: punch methods, overtime alerts, geofencing, scheduling, and direct payroll integration. BEG at $25-$45 PEPM.",
-  alternates: { canonical: "https://beghr.com/blog/hcm-technology/time-attendance-tracking" },
+  alternates: { canonical: "https://www.beghr.com/blog/hcm-software/time-attendance-tracking" },
   openGraph: {
     title: "Time & Attendance Tracking Software | iSolved Timekeeping | BEG",
     description: "iSolved time and attendance: punch-in methods, overtime alerts, geofencing, scheduling, and payroll integration. BEG at $25-$45 PEPM.",
-    url: "https://beghr.com/blog/hcm-technology/time-attendance-tracking",
+    url: "https://www.beghr.com/blog/hcm-software/time-attendance-tracking",
     siteName: "Business Executive Group",
-    images: [{ url: "https://beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Time & Attendance Tracking Software | iSolved Timekeeping | BEG", description: "iSolved time and attendance: punch methods, overtime alerts, geofencing, and payroll integration. BEG at $25-$45 PEPM.", images: ["https://beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Time & Attendance Tracking Software | iSolved Timekeeping | BEG", description: "iSolved time and attendance: punch methods, overtime alerts, geofencing, and payroll integration. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -45,7 +45,7 @@ const faqs = [
 export default function TimeAttendanceTrackingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -165,19 +165,19 @@ export default function TimeAttendanceTrackingPage() {
         "@type": "BlogPosting",
         "headline": "Time and Attendance Tracking with iSolved: Punch Methods, Overtime Automation, and Payroll Integration (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
-        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://beghr.com" },
+        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },
         "datePublished": "2026-06-27",
         "dateModified": "2026-06-27",
-        "url": "https://beghr.com/blog/hcm-technology/time-attendance-tracking"
+        "url": "https://www.beghr.com/blog/hcm-software/time-attendance-tracking"
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beghr.com" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://beghr.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "HCM Technology", "item": "https://beghr.com/blog/hcm-technology" },
-          { "@type": "ListItem", "position": 4, "name": "Time and Attendance Tracking", "item": "https://beghr.com/blog/hcm-technology/time-attendance-tracking" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.beghr.com" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.beghr.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "HCM Technology", "item": "https://www.beghr.com/blog/hcm-software" },
+          { "@type": "ListItem", "position": 4, "name": "Time and Attendance Tracking", "item": "https://www.beghr.com/blog/hcm-software/time-attendance-tracking" }
         ]
       }) }} />
     </article>

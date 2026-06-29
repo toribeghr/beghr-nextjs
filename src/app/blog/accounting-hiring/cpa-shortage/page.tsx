@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'The Accounting Talent Shortage in 2026 | BEG',
   description: 'CPA candidates are down and retirements are up. What the 2026 accounting shortage means for hiring and how to fill roles in 23-35 days anyway.',
-  alternates: { canonical: 'https://beghr.com/blog/accounting-hiring/cpa-shortage' },
+  alternates: { canonical: 'https://www.beghr.com/blog/accounting-hiring/cpa-shortage' },
   openGraph: {
     title: 'The Accounting Talent Shortage in 2026 | BEG',
     description: 'CPA candidates are down and retirements are up. What the 2026 accounting shortage means for hiring and how to fill roles in 23-35 days anyway.',
-    url: 'https://beghr.com/blog/accounting-hiring/cpa-shortage',
+    url: 'https://www.beghr.com/blog/accounting-hiring/cpa-shortage',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'The Accounting Talent Shortage in 2026 | BEG', description: 'CPA candidates are down and retirements are up. What the 2026 accounting shortage means for hiring and how to fill roles in 23-35 days anyway.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'The Accounting Talent Shortage in 2026 | BEG', description: 'CPA candidates are down and retirements are up. What the 2026 accounting shortage means for hiring and how to fill roles in 23-35 days anyway.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/accounting-hiring/cpa-shortage');
@@ -40,7 +40,7 @@ const faqs = [
 export default function CpaShortagePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "The Accounting Talent Shortage in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/accounting-hiring/cpa-shortage"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "The Accounting Talent Shortage in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/accounting-hiring/cpa-shortage"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -173,8 +173,8 @@ export default function CpaShortagePage() {
         description: 'The structural causes of the 2026 accounting shortage and how finance leaders fill accounting and CPA roles in 23-35 days despite it.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/accounting-hiring/cpa-shortage',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/accounting-hiring/cpa-shortage',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

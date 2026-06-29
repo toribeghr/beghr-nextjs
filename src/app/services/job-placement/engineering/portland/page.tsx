@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Engineering Recruiters in Portland | BEG',
   description: 'Engineering placement in Portland. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/engineering/portland' },
-  openGraph: { title: 'Engineering Recruiters in Portland | BEG', description: 'Engineering placement in Portland in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/engineering/portland', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Engineering Recruiters in Portland | BEG', description: 'Engineering placement in Portland in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/engineering/portland' },
+  openGraph: { title: 'Engineering Recruiters in Portland | BEG', description: 'Engineering placement in Portland in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/engineering/portland', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Engineering Recruiters in Portland | BEG', description: 'Engineering placement in Portland in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-engineering-portland');
@@ -36,7 +36,7 @@ export default function PlacementEngineeringPortlandPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Engineering placement\",\"name\":\"Engineering Placement in Portland\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Portland\"},\"url\":\"https://beghr.com/services/job-placement/engineering/portland\",\"description\":\"Permanent engineering placement in Portland in 23-35 days at roughly 50% less than contingency.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Engineering placement\",\"name\":\"Engineering Placement in Portland\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Portland\"},\"url\":\"https://www.beghr.com/services/job-placement/engineering/portland\",\"description\":\"Permanent engineering placement in Portland in 23-35 days at roughly 50% less than contingency.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

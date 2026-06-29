@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'How to Hire a VP of Sales (2026 Guide) | BEG',
   description: 'A VP of Sales hire shapes revenue for years. What good looks like, why confidential search matters, and how to fill the seat in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/sales-hiring/hiring-vp-of-sales' },
+  alternates: { canonical: 'https://www.beghr.com/blog/sales-hiring/hiring-vp-of-sales' },
   openGraph: {
     title: 'How to Hire a VP of Sales (2026 Guide) | BEG',
     description: 'A VP of Sales hire shapes revenue for years. What good looks like, why confidential search matters, and how to fill the seat in 23-35 days.',
-    url: 'https://beghr.com/blog/sales-hiring/hiring-vp-of-sales',
+    url: 'https://www.beghr.com/blog/sales-hiring/hiring-vp-of-sales',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How to Hire a VP of Sales (2026 Guide) | BEG', description: 'A VP of Sales hire shapes revenue for years. What good looks like, why confidential search matters, and how to fill the seat in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'How to Hire a VP of Sales (2026 Guide) | BEG', description: 'A VP of Sales hire shapes revenue for years. What good looks like, why confidential search matters, and how to fill the seat in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/sales-hiring/hiring-vp-of-sales');
@@ -40,7 +40,7 @@ const faqs = [
 export default function HiringVpOfSalesPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Hire a VP of Sales (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/sales-hiring/hiring-vp-of-sales"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Hire a VP of Sales (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/sales-hiring/hiring-vp-of-sales"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -168,8 +168,8 @@ export default function HiringVpOfSalesPage() {
         description: 'A practical playbook to define, source, and close a strong VP of Sales hire in 23-35 days using confidential passive search and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/sales-hiring/hiring-vp-of-sales',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/sales-hiring/hiring-vp-of-sales',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

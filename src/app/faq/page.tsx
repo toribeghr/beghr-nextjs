@@ -5,21 +5,21 @@ export const metadata: Metadata = {
   title: 'Payroll FAQ | Common Questions Answered | BEG',
   description: 'Answers to the most common payroll questions: managed payroll, outsourcing, compliance, and switching providers. From Business Executive Group.',
   alternates: {
-    canonical: 'https://beghr.com/faq',
+    canonical: 'https://www.beghr.com/faq',
   },
   openGraph: {
     title: 'Payroll FAQ | Common Questions Answered | BEG',
     description: 'Answers to the most common payroll questions: managed payroll, outsourcing, compliance, and switching providers. From Business Executive Group.',
-    url: 'https://beghr.com/faq',
+    url: 'https://www.beghr.com/faq',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Payroll FAQ | Common Questions Answered | BEG',
     description: 'Answers to the most common payroll questions: managed payroll, outsourcing, compliance, and switching providers.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -66,8 +66,8 @@ export default function FaqHubPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://beghr.com/faq' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://www.beghr.com/faq' },
             ],
           }),
         }}

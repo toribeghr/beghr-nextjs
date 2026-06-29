@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Insurance Recruiters in Tulsa | BEG',
   description: 'Insurance placement in Tulsa. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/insurance/tulsa' },
-  openGraph: { title: 'Insurance Recruiters in Tulsa | BEG', description: 'Insurance placement in Tulsa in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/insurance/tulsa', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Insurance Recruiters in Tulsa | BEG', description: 'Insurance placement in Tulsa in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/insurance/tulsa' },
+  openGraph: { title: 'Insurance Recruiters in Tulsa | BEG', description: 'Insurance placement in Tulsa in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/insurance/tulsa', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Insurance Recruiters in Tulsa | BEG', description: 'Insurance placement in Tulsa in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-insurance-tulsa');
@@ -36,7 +36,7 @@ export default function PlacementInsuranceTulsaPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Insurance placement\",\"name\":\"Insurance Placement in Tulsa\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Tulsa\"},\"url\":\"https://beghr.com/services/job-placement/insurance/tulsa\",\"description\":\"Permanent insurance placement in Tulsa in 23-35 days at roughly 50% less than contingency.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Insurance placement\",\"name\":\"Insurance Placement in Tulsa\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Tulsa\"},\"url\":\"https://www.beghr.com/services/job-placement/insurance/tulsa\",\"description\":\"Permanent insurance placement in Tulsa in 23-35 days at roughly 50% less than contingency.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

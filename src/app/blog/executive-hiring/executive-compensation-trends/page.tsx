@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Executive Compensation Trends 2026 | BEG',
   description: 'Executive pay is rising and the package is more than base. What boards and CEOs need to offer to close senior leaders in a tight 2026 market.',
-  alternates: { canonical: 'https://beghr.com/blog/executive-hiring/executive-compensation-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/executive-hiring/executive-compensation-trends' },
   openGraph: {
     title: 'Executive Compensation Trends 2026 | BEG',
     description: 'Executive pay is rising and the package is more than base. What boards and CEOs need to offer to close senior leaders in a tight 2026 market.',
-    url: 'https://beghr.com/blog/executive-hiring/executive-compensation-trends',
+    url: 'https://www.beghr.com/blog/executive-hiring/executive-compensation-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Executive Compensation Trends 2026 | BEG', description: 'Executive pay is rising and the package is more than base. What boards and CEOs need to offer to close senior leaders in a tight 2026 market.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Executive Compensation Trends 2026 | BEG', description: 'Executive pay is rising and the package is more than base. What boards and CEOs need to offer to close senior leaders in a tight 2026 market.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/executive-hiring/executive-compensation-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function ExecutiveCompensationTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Executive Compensation Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/executive-hiring/executive-compensation-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Executive Compensation Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/executive-hiring/executive-compensation-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -163,8 +163,8 @@ export default function ExecutiveCompensationTrendsPage() {
         description: 'How executive pay is rising in 2026, why pay alone does not close a senior hire, and how to structure an offer that lands.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/executive-hiring/executive-compensation-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/executive-hiring/executive-compensation-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

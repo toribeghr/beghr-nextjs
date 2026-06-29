@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG',
   description: 'Deel is built for global contractors. BEG is built for domestic W-2 teams. Compare pricing, compliance coverage, and which service fits your situation.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-deel' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/managed-payroll-vs-deel' },
   openGraph: {
     title: 'Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG',
     description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually del...',
-    url: 'https://beghr.com/blog/compare/managed-payroll-vs-deel',
+    url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-deel',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG', description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually del...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG', description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually del...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -21,7 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function ManagedPayrollVsDeelPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/managed-payroll-vs-deel"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/managed-payroll-vs-deel"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -164,8 +164,8 @@ export default function ManagedPayrollVsDeelPage() {
         description: 'Full comparison of Deel vs. BEG managed payroll -- use case, cost, migration, and which is right for your workforce.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/managed-payroll-vs-deel',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-deel',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

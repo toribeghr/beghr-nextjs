@@ -5,23 +5,23 @@ import SocialFollow from '@/components/SocialFollow';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://beghr.com'),
+  metadataBase: new URL('https://www.beghr.com'),
   title: 'Business Executive Group - Payroll, HCM Software & Job Placement',
   description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
   icons: {
     icon: '/favicon.ico',
   },
   alternates: {
-    canonical: 'https://beghr.com',
+    canonical: 'https://www.beghr.com',
   },
   openGraph: {
     title: 'Business Executive Group',
     description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
-    url: 'https://beghr.com',
+    url: 'https://www.beghr.com',
     siteName: 'Business Executive Group',
     images: [
       {
-        url: 'https://beghr.com/assets/og-image.png',
+        url: 'https://www.beghr.com/assets/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Business Executive Group -- Managed Payroll, HCM Software & Job Placement',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Business Executive Group',
     description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -59,9 +59,9 @@ export default function RootLayout({
               name: 'Business Executive Group',
               legalName: 'Business Executive Group',
               alternateName: 'BEG',
-              url: 'https://beghr.com',
-              logo: 'https://beghr.com/assets/beg-header-image.png',
-              image: 'https://beghr.com/assets/og-image.png',
+              url: 'https://www.beghr.com',
+              logo: 'https://www.beghr.com/assets/beg-header-image.png',
+              image: 'https://www.beghr.com/assets/og-image.png',
               telephone: '469-412-1204',
               email: 'sales@beghr.com',
               slogan: 'Managed payroll, HCM software, and job placement for growing companies.',
@@ -112,7 +112,7 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
               name: 'Business Executive Group',
-              url: 'https://beghr.com',
+              url: 'https://www.beghr.com',
               publisher: { '@type': 'Organization', name: 'Business Executive Group' },
               description: 'Managed payroll, iSolved HCM software, and job placement for growing companies. iSolved is the only HCM platform with a Connector for Claude.',
             }),

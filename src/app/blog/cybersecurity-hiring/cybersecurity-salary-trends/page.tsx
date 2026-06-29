@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Cybersecurity Salary Trends 2026 | BEG',
   description: 'Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends mean for hiring and why speed beats salary.',
-  alternates: { canonical: 'https://beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends' },
   openGraph: {
     title: 'Cybersecurity Salary Trends 2026 | BEG',
     description: 'Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends mean for hiring and why speed beats salary.',
-    url: 'https://beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends',
+    url: 'https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Cybersecurity Salary Trends 2026 | BEG', description: 'Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends mean for hiring and why speed beats salary.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Cybersecurity Salary Trends 2026 | BEG', description: 'Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends mean for hiring and why speed beats salary.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/cybersecurity-hiring/cybersecurity-salary-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function CybersecuritySalaryTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Cybersecurity Salary Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Cybersecurity Salary Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -172,8 +172,8 @@ export default function CybersecuritySalaryTrendsPage() {
         description: 'What 2026 cybersecurity salary trends mean for hiring, why pay alone does not close the best candidates, and why speed and pipeline beat a higher number.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

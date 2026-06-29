@@ -66,7 +66,7 @@ function ctaBlock() {
 function indPage(ind, data) {
   const L = data.label, roles = data.roles;
   const lo = Math.min(...roles.map(r => r.low)), hi = Math.max(...roles.map(r => r.high));
-  const url = `https://beghr.com/resources/salary-guide/${ind}`;
+  const url = `https://www.beghr.com/resources/salary-guide/${ind}`;
   const title = `${L} Salary Guide 2026 | BEG`.slice(0, 60);
   const desc = `${L} salary ranges for 2026, by role. Indicative national pay from public data, plus how to hire permanent ${L.toLowerCase()} talent in 23-35 days.`.slice(0, 155);
   const faq = {
@@ -76,7 +76,7 @@ function indPage(ind, data) {
       { "@type": "Question", name: `How fast can BEG fill a ${L.toLowerCase()} role?`, acceptedAnswer: { "@type": "Answer", text: "On average 23-35 days from discovery call to placed hire, at roughly 50% less than contingency, with a 45-day replacement guarantee." } },
     ],
   };
-  const art = { "@context": "https://schema.org", "@type": "Article", headline: `${L} Salary Guide 2026`, datePublished: "2026-06-25", dateModified: "2026-06-28", author: { "@type": "Person", name: "Anthony Moretti", jobTitle: "VP of Sales", url: "https://www.linkedin.com/in/theanthonymoretti" }, publisher: { "@type": "Organization", name: "Business Executive Group", logo: { "@type": "ImageObject", url: "https://beghr.com/assets/beg-header-image.png" } }, mainEntityOfPage: url };
+  const art = { "@context": "https://schema.org", "@type": "Article", headline: `${L} Salary Guide 2026`, datePublished: "2026-06-25", dateModified: "2026-06-28", author: { "@type": "Person", name: "Anthony Moretti", jobTitle: "VP of Sales", url: "https://www.linkedin.com/in/theanthonymoretti" }, publisher: { "@type": "Organization", name: "Business Executive Group", logo: { "@type": "ImageObject", url: "https://www.beghr.com/assets/beg-header-image.png" } }, mainEntityOfPage: url };
   return `import { Metadata } from 'next';
 import Link from 'next/link';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
@@ -86,8 +86,8 @@ export const metadata: Metadata = {
   title: '${title}',
   description: '${desc}',
   alternates: { canonical: '${url}' },
-  openGraph: { title: '${title}', description: '${desc}', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: '${title}', description: '${desc}', images: ['https://beghr.com/assets/og-image.png'] },
+  openGraph: { title: '${title}', description: '${desc}', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: '${title}', description: '${desc}', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = ${CAL};
@@ -144,7 +144,7 @@ ${ctaBlock()}
 
 function hubPage() {
   const inds = Object.keys(SAL);
-  const url = 'https://beghr.com/resources/salary-guide';
+  const url = 'https://www.beghr.com/resources/salary-guide';
   const title = 'Salary & Hiring Guide 2026 | BEG';
   const desc = 'Free 2026 salary ranges across every major industry, from public labor data. Benchmark pay, then fill permanent roles in 23-35 days at roughly 50% less.'.slice(0, 155);
   const cards = inds.map(ind => {
@@ -155,7 +155,7 @@ function hubPage() {
               <span style={{ fontSize: '0.88rem', color: '#666' }}>${d.roles.length} roles &middot; ${money(lo)} - ${money(hi)}</span>
             </Link>`;
   }).join('\n');
-  const art = { "@context": "https://schema.org", "@type": "Article", headline: "BEG Salary and Hiring Guide 2026", datePublished: "2026-06-25", dateModified: "2026-06-28", author: { "@type": "Person", name: "Anthony Moretti", jobTitle: "VP of Sales", url: "https://www.linkedin.com/in/theanthonymoretti" }, publisher: { "@type": "Organization", name: "Business Executive Group", logo: { "@type": "ImageObject", url: "https://beghr.com/assets/beg-header-image.png" } }, mainEntityOfPage: url };
+  const art = { "@context": "https://schema.org", "@type": "Article", headline: "BEG Salary and Hiring Guide 2026", datePublished: "2026-06-25", dateModified: "2026-06-28", author: { "@type": "Person", name: "Anthony Moretti", jobTitle: "VP of Sales", url: "https://www.linkedin.com/in/theanthonymoretti" }, publisher: { "@type": "Organization", name: "Business Executive Group", logo: { "@type": "ImageObject", url: "https://www.beghr.com/assets/beg-header-image.png" } }, mainEntityOfPage: url };
   return `import { Metadata } from 'next';
 import Link from 'next/link';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
@@ -165,8 +165,8 @@ export const metadata: Metadata = {
   title: '${title}',
   description: '${desc}',
   alternates: { canonical: '${url}' },
-  openGraph: { title: '${title}', description: '${desc}', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: '${title}', description: '${desc}', images: ['https://beghr.com/assets/og-image.png'] },
+  openGraph: { title: '${title}', description: '${desc}', url: '${url}', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: '${title}', description: '${desc}', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = ${CAL};

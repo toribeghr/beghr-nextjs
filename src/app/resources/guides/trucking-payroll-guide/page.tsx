@@ -6,21 +6,21 @@ export const metadata: Metadata = {
   title: 'Trucking Payroll Guide | Per-Mile & Multi-State | BEG',
   description: 'Trucking payroll guide: per-mile vs hourly pay, multi-state apportionment, per diem, owner-operator 1099 vs employee, and DOT hours overlap, fully managed.',
   alternates: {
-    canonical: 'https://beghr.com/resources/guides/trucking-payroll-guide',
+    canonical: 'https://www.beghr.com/resources/guides/trucking-payroll-guide',
   },
   openGraph: {
     title: 'Trucking Payroll Guide | Per-Mile & Multi-State | BEG',
     description: 'Trucking payroll guide: per-mile vs hourly pay, multi-state apportionment, per diem, owner-operator 1099 vs employee, and DOT hours overlap, fully managed.',
-    url: 'https://beghr.com/resources/guides/trucking-payroll-guide',
+    url: 'https://www.beghr.com/resources/guides/trucking-payroll-guide',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Trucking Payroll Guide | Per-Mile & Multi-State | BEG',
     description: 'Trucking payroll guide: per-mile vs hourly pay, multi-state apportionment, per diem, owner-operator 1099 vs employee, and DOT hours overlap, fully managed.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -56,8 +56,8 @@ export default function TruckingPayrollGuidePage() {
             '@graph': [
               {
                 '@type': 'WebPage',
-                '@id': 'https://beghr.com/resources/guides/trucking-payroll-guide',
-                url: 'https://beghr.com/resources/guides/trucking-payroll-guide',
+                '@id': 'https://www.beghr.com/resources/guides/trucking-payroll-guide',
+                url: 'https://www.beghr.com/resources/guides/trucking-payroll-guide',
                 name: 'Trucking Payroll Guide',
                 datePublished: '2026-06-28',
                 dateModified: '2026-06-28',
@@ -75,10 +75,10 @@ export default function TruckingPayrollGuidePage() {
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://beghr.com/resources/guides' },
-                  { '@type': 'ListItem', position: 4, name: 'Trucking Payroll Guide', item: 'https://beghr.com/resources/guides/trucking-payroll-guide' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://www.beghr.com/resources/guides' },
+                  { '@type': 'ListItem', position: 4, name: 'Trucking Payroll Guide', item: 'https://www.beghr.com/resources/guides/trucking-payroll-guide' },
                 ],
               },
             ],

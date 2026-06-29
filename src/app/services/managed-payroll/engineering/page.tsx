@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Engineering Payroll | Certified Payroll Reports. Handled. | BEG',
   description: 'Engineering payroll managed at $25–$45 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/engineering' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/engineering' },
   openGraph: {
     title: 'Engineering Payroll | Certified Payroll Reports. Handled. | BEG',
     description: 'Engineering payroll managed at $25–$45 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.',
-    url: 'https://beghr.com/services/managed-payroll/engineering',
+    url: 'https://www.beghr.com/services/managed-payroll/engineering',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Engineering Payroll | Certified Payroll Reports. Handled. | BEG', description: 'Engineering payroll managed at $25–$45 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Engineering Payroll | Certified Payroll Reports. Handled. | BEG', description: 'Engineering payroll managed at $25–$45 PEPM. Prevailing wage, certified payroll, and project tracking all included. Request a scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -296,9 +296,9 @@ export default function PayrollEngineeringPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Engineering', item: 'https://beghr.com/services/managed-payroll/engineering' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Engineering', item: 'https://www.beghr.com/services/managed-payroll/engineering' },
             ],
           }),
         }}

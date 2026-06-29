@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: '401(k) Employer Match | Payroll Glossary | BEG',
   description: 'Employer 401(k) contribution matching employee deferrals -- not FICA-taxable when contributed but taxable upon distribution.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/401k-employer-match' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/401k-employer-match' },
   openGraph: {
     title: '401(k) Employer Match | Payroll Glossary | BEG',
     description: 'Employer 401(k) contribution matching employee deferrals -- not FICA-taxable when contributed but taxable upon distribution.',
-    url: 'https://beghr.com/resources/payroll-glossary/401k-employer-match',
+    url: 'https://www.beghr.com/resources/payroll-glossary/401k-employer-match',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '401(k) Employer Match | Payroll Glossary | BEG', description: 'Employer 401(k) contribution matching employee deferrals -- not FICA-taxable when contributed but taxable upon distribution.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: '401(k) Employer Match | Payroll Glossary | BEG', description: 'Employer 401(k) contribution matching employee deferrals -- not FICA-taxable when contributed but taxable upon distribution.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -79,14 +79,14 @@ export default function Plan401kEmployerMatchPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/401k-employer-match', url: 'https://beghr.com/resources/payroll-glossary/401k-employer-match', name: '401(k) Employer Match | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: '401(k) Employer Match', description: 'Employer 401(k) contribution matching employee deferrals -- not FICA-taxable when contributed but taxable upon distribution.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/401k-employer-match', url: 'https://www.beghr.com/resources/payroll-glossary/401k-employer-match', name: '401(k) Employer Match | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: '401(k) Employer Match', description: 'Employer 401(k) contribution matching employee deferrals -- not FICA-taxable when contributed but taxable upon distribution.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: '401(k) Employer Match', item: 'https://beghr.com/resources/payroll-glossary/401k-employer-match' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: '401(k) Employer Match', item: 'https://www.beghr.com/resources/payroll-glossary/401k-employer-match' },
             ]},
           ]
         }) }} />

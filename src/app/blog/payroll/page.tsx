@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Payroll & HR Compliance | BEG Blog',
   description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll' },
   openGraph: {
     title: 'Payroll & HR Compliance | BEG Blog',
     description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.',
-    url: 'https://beghr.com/blog/payroll',
+    url: 'https://www.beghr.com/blog/payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll & HR Compliance | BEG Blog', description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll & HR Compliance | BEG Blog', description: 'Tax law changes, payroll regulations, and compliance tips for businesses nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -345,9 +345,9 @@ export default function BlogPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
             ],
           }),
         }}

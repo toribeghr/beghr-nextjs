@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Outsource Home Services Payroll | BEG Guide',
   description: 'What outsourced payroll covers for home services companies, how it handles field tech overtime and drive time, and how BEG onboards home services companies in 3-5 days.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/home-services/outsource-home-services-payroll' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll' },
   openGraph: {
     title: 'Outsource Home Services Payroll | BEG Guide',
     description: 'What outsourced payroll covers for home services companies, how it handles field tech overtime and drive time, and how BEG onboards home services companies in 3-5 days.',
-    url: 'https://beghr.com/blog/payroll/home-services/outsource-home-services-payroll',
+    url: 'https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Outsource Home Services Payroll | BEG Guide', description: 'What outsourced payroll covers for home services companies and how BEG onboards in 3-5 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Outsource Home Services Payroll | BEG Guide', description: 'What outsourced payroll covers for home services companies and how BEG onboards in 3-5 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -46,7 +46,17 @@ const faqs = [
 export default function OutsourceHomeServicesPayrollPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Outsource Home Services Payroll | BEG Guide", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/home-services/outsource-home-services-payroll"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>See what your payroll provider really charges</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Most providers hide per-run and add-on fees. Audit your real cost per employee in about 30 seconds, free.</p>
+          <a href="/resources/payroll-fee-auditor" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Run the Payroll Fee Auditor &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Outsource Home Services Payroll | BEG Guide", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -160,20 +170,20 @@ export default function OutsourceHomeServicesPayrollPage() {
         '@type': 'BlogPosting',
         headline: 'Outsourcing Payroll for Home Services Companies: What to Expect',
         author: { '@type': 'Person', name: 'Anthony Moretti' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        url: 'https://beghr.com/blog/payroll/home-services/outsource-home-services-payroll',
+        url: 'https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll',
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-          { '@type': 'ListItem', position: 4, name: 'Home Services', item: 'https://beghr.com/blog/payroll/home-services' },
-          { '@type': 'ListItem', position: 5, name: 'Outsource Home Services Payroll', item: 'https://beghr.com/blog/payroll/home-services/outsource-home-services-payroll' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+          { '@type': 'ListItem', position: 4, name: 'Home Services', item: 'https://www.beghr.com/blog/payroll/home-services' },
+          { '@type': 'ListItem', position: 5, name: 'Outsource Home Services Payroll', item: 'https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll' },
         ]
       }) }} />
     </article>

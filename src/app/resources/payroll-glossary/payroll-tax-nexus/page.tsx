@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Payroll Tax Nexus | Payroll Glossary | BEG',
   description: 'Connection between employer and state triggering payroll tax obligations -- typically created by employees working or living in that state.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/payroll-tax-nexus' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/payroll-tax-nexus' },
   openGraph: {
     title: 'Payroll Tax Nexus | Payroll Glossary | BEG',
     description: 'Connection between employer and state triggering payroll tax obligations -- typically created by employees working or living in that state.',
-    url: 'https://beghr.com/resources/payroll-glossary/payroll-tax-nexus',
+    url: 'https://www.beghr.com/resources/payroll-glossary/payroll-tax-nexus',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll Tax Nexus | Payroll Glossary | BEG', description: 'Connection between employer and state triggering payroll tax obligations -- typically created by employees working or living in that state.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll Tax Nexus | Payroll Glossary | BEG', description: 'Connection between employer and state triggering payroll tax obligations -- typically created by employees working or living in that state.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -79,14 +79,14 @@ export default function PayrollTaxNexusPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/payroll-tax-nexus', url: 'https://beghr.com/resources/payroll-glossary/payroll-tax-nexus', name: 'Payroll Tax Nexus | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Payroll Tax Nexus', description: 'Connection between employer and state triggering payroll tax obligations -- typically created by employees working or living in that state.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/payroll-tax-nexus', url: 'https://www.beghr.com/resources/payroll-glossary/payroll-tax-nexus', name: 'Payroll Tax Nexus | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Payroll Tax Nexus', description: 'Connection between employer and state triggering payroll tax obligations -- typically created by employees working or living in that state.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Payroll Tax Nexus', item: 'https://beghr.com/resources/payroll-glossary/payroll-tax-nexus' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Payroll Tax Nexus', item: 'https://www.beghr.com/resources/payroll-glossary/payroll-tax-nexus' },
             ]},
           ]
         }) }} />

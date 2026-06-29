@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Home Services Payroll Guides | HVAC Plumbing Field Tech | BEG',
   description: 'Home services payroll guides for HVAC, plumbing, electrical, and field tech companies. Overtime, travel time, seasonal spikes, and outsourcing. BEG at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/home-services' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services' },
   openGraph: {
     title: 'Home Services Payroll Guides | HVAC Plumbing Field Tech | BEG',
     description: 'Home services payroll guides for HVAC, plumbing, electrical, and field tech companies. Overtime, travel time, seasonal spikes, and outsourcing. BEG at $25-$45 PEPM.',
-    url: 'https://beghr.com/blog/payroll/home-services',
+    url: 'https://www.beghr.com/blog/payroll/home-services',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Services Payroll Guides | BEG', description: 'Home services payroll guides: field tech overtime, travel time, seasonal spikes, and cost comparisons.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Services Payroll Guides | BEG', description: 'Home services payroll guides: field tech overtime, travel time, seasonal spikes, and cost comparisons.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -99,10 +99,10 @@ export default function HomeServicesPayrollHubPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-          { '@type': 'ListItem', position: 4, name: 'Home Services', item: 'https://beghr.com/blog/payroll/home-services' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+          { '@type': 'ListItem', position: 4, name: 'Home Services', item: 'https://www.beghr.com/blog/payroll/home-services' },
         ],
       }) }} />
     </>

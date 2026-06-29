@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG',
   description: 'Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers\' comp audits and benefits sync. $25–$45 PEPM, no conflict.',
-  alternates: { canonical: 'https://beghr.com/partners/broker' },
+  alternates: { canonical: 'https://www.beghr.com/partners/broker' },
   openGraph: {
     title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG',
     description: "Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers' comp audits and benefits sync. $25–$45 PEPM, no conflict.",
-    url: 'https://beghr.com/partners/broker',
+    url: 'https://www.beghr.com/partners/broker',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG', description: "Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers' comp audits and benefits sync.", images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG', description: "Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers' comp audits and benefits sync.", images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -202,9 +202,9 @@ export default function BrokerPartnerPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Partners', item: 'https://beghr.com/partners' },
-              { '@type': 'ListItem', position: 3, name: 'Insurance & Benefits Brokers', item: 'https://beghr.com/partners/broker' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Partners', item: 'https://www.beghr.com/partners' },
+              { '@type': 'ListItem', position: 3, name: 'Insurance & Benefits Brokers', item: 'https://www.beghr.com/partners/broker' },
             ],
           }),
         }}

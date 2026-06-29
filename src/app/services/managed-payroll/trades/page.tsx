@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG',
   description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/trades' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/trades' },
   openGraph: {
     title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG',
     description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',
-    url: 'https://beghr.com/services/managed-payroll/trades',
+    url: 'https://www.beghr.com/services/managed-payroll/trades',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG', description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Skilled Trades Payroll | Union & Certified Pay. Handled. | BEG', description: 'Trades and manufacturing payroll at $25–$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -298,9 +298,9 @@ export default function PayrollTradesPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Trades', item: 'https://beghr.com/services/managed-payroll/trades' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Trades', item: 'https://www.beghr.com/services/managed-payroll/trades' },
             ],
           }),
         }}

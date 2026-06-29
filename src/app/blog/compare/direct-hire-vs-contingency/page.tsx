@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Direct Hire vs Contingency Recruiting | BEG',
   description: 'Direct hire vs contingency recruiting compared on cost, speed, and risk. See where milestone-based placement fits and fills roles in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/direct-hire-vs-contingency' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/direct-hire-vs-contingency' },
   openGraph: {
     title: 'Direct Hire vs Contingency Recruiting | BEG',
     description: 'Direct hire vs contingency recruiting compared on cost, speed, and risk. See where milestone-based placement fits and fills roles in 23-35 days.',
-    url: 'https://beghr.com/blog/compare/direct-hire-vs-contingency',
+    url: 'https://www.beghr.com/blog/compare/direct-hire-vs-contingency',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Direct Hire vs Contingency Recruiting | BEG', description: 'Direct hire vs contingency recruiting compared on cost, speed, and risk. See where milestone-based placement fits and fills roles in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Direct Hire vs Contingency Recruiting | BEG', description: 'Direct hire vs contingency recruiting compared on cost, speed, and risk. See where milestone-based placement fits and fills roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/compare/direct-hire-vs-contingency');
@@ -21,7 +21,7 @@ const CALENDLY = getCalendlyLink('/blog/compare/direct-hire-vs-contingency');
 export default function DirectHireVsContingencyPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Direct Hire vs Contingency Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/direct-hire-vs-contingency"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Direct Hire vs Contingency Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/direct-hire-vs-contingency"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -184,8 +184,8 @@ export default function DirectHireVsContingencyPage() {
         description: 'Direct hire describes the role; contingency describes the fee. A breakdown of cost, speed, and risk, and where milestone-based placement fits.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/direct-hire-vs-contingency',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/direct-hire-vs-contingency',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

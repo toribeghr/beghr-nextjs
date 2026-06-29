@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG',
   description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/legal' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/legal' },
   openGraph: {
     title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG',
     description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
-    url: 'https://beghr.com/services/managed-payroll/legal',
+    url: 'https://www.beghr.com/services/managed-payroll/legal',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG', description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG', description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -298,9 +298,9 @@ export default function PayrollLegalPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Legal', item: 'https://beghr.com/services/managed-payroll/legal' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Legal', item: 'https://www.beghr.com/services/managed-payroll/legal' },
             ],
           }),
         }}

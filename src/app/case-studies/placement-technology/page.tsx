@@ -5,16 +5,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Technology Placement Case Study | BEG',
   description: 'How BEG filled a senior software engineer role in 31 days at roughly 50% less than contingency, with milestone-based placement powered by isolved.',
-  alternates: { canonical: 'https://beghr.com/case-studies/placement-technology' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies/placement-technology' },
   openGraph: {
     title: 'Technology Placement Case Study | BEG',
     description: 'How BEG filled a senior software engineer role in 31 days at roughly 50% less than contingency, with milestone-based placement powered by isolved.',
-    url: 'https://beghr.com/case-studies/placement-technology',
+    url: 'https://www.beghr.com/case-studies/placement-technology',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Technology Placement Case Study | BEG', description: 'How BEG filled a senior software engineer role in 31 days at roughly 50% less than contingency, with milestone-based placement powered by isolved.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Technology Placement Case Study | BEG', description: 'How BEG filled a senior software engineer role in 31 days at roughly 50% less than contingency, with milestone-based placement powered by isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function PlacementTechnologyCaseStudyPage() {
@@ -139,18 +139,18 @@ export default function PlacementTechnologyCaseStudyPage() {
         description: 'BEG filled a senior software engineer role in 31 days at roughly 50% less than contingency using milestone-based permanent placement powered by isolved.',
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/case-studies/placement-technology',
+        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/case-studies/placement-technology',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
-          { '@type': 'ListItem', position: 3, name: 'Technology Placement Case Study', item: 'https://beghr.com/case-studies/placement-technology' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 3, name: 'Technology Placement Case Study', item: 'https://www.beghr.com/case-studies/placement-technology' },
         ],
       }) }} />
     </article>

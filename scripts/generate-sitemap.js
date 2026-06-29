@@ -8,7 +8,7 @@ const path = require('path');
 
 const APP = path.join(__dirname, '..', 'src', 'app');
 const OUT = path.join(__dirname, '..', 'public', 'sitemap.xml');
-const BASE = 'https://beghr.com';
+const BASE = 'https://www.beghr.com';
 const today = new Date().toISOString().slice(0, 10);
 
 const routes = [];

@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'In-House Counsel Hiring | When to Hire a GC | BEG',
   description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/in-house-counsel' },
+  alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/in-house-counsel' },
   openGraph: {
     title: 'In-House Counsel Hiring | When to Hire a GC | BEG',
     description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.',
-    url: 'https://beghr.com/blog/legal-hiring/in-house-counsel',
+    url: 'https://www.beghr.com/blog/legal-hiring/in-house-counsel',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'In-House Counsel Hiring | When to Hire a GC | BEG', description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'In-House Counsel Hiring | When to Hire a GC | BEG', description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -46,7 +46,7 @@ const faqs = [
 export default function InHouseCounselPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "In-House Counsel Hiring | When to Hire a GC | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/legal-hiring/in-house-counsel"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "In-House Counsel Hiring | When to Hire a GC | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/in-house-counsel"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -254,9 +254,9 @@ export default function InHouseCounselPage() {
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' } },
-        url: 'https://beghr.com/blog/legal-hiring/in-house-counsel',
-        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://beghr.com/blog/legal-hiring/in-house-counsel' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', logo: { '@type': 'ImageObject', url: 'https://www.beghr.com/assets/beg-header-image.png' } },
+        url: 'https://www.beghr.com/blog/legal-hiring/in-house-counsel',
+        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/legal-hiring/in-house-counsel' },
       }) }} />
     </article>
   );

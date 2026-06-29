@@ -5,39 +5,47 @@ export const metadata: Metadata = {
   title: 'Blog | Business Executive Group',
   description: 'Payroll compliance, legal hiring, HCM software, and entrepreneur resources from the BEG team.',
   alternates: {
-    canonical: 'https://beghr.com/blog',
+    canonical: 'https://www.beghr.com/blog',
   },
   openGraph: {
     title: 'Blog | Business Executive Group',
     description: 'Payroll compliance, legal hiring, HCM software, and entrepreneur resources from the BEG team.',
-    url: 'https://beghr.com/blog',
+    url: 'https://www.beghr.com/blog',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Blog -- Payroll, HR & Legal Hiring Resources' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Blog -- Payroll, HR & Legal Hiring Resources' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Blog | Business Executive Group', description: 'Payroll compliance, legal hiring, HCM software, and entrepreneur resources from the BEG team.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Blog | Business Executive Group', description: 'Payroll compliance, legal hiring, HCM software, and entrepreneur resources from the BEG team.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const categories = [
+const labelize = (s: string) =>
+  s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+const topicGroups = [
   {
-    slug: 'payroll',
-    title: 'Payroll & HR Compliance',
-    description: 'Tax law changes, payroll regulations, compliance tips, and best practices for businesses nationwide.',
+    heading: 'Payroll, HCM & Compliance',
+    items: [
+      { slug: 'payroll', title: 'Payroll by Industry', description: 'Industry-by-industry guides to managed payroll, pricing, compliance, and cost calculators.' },
+      { slug: 'hcm-software', title: 'HCM Software & HR Tech', description: 'iSolved features, the Connector for Claude, HR automation, and platform comparisons.' },
+      { slug: 'compare', title: 'Compare Alternatives', description: 'Honest comparisons of BEG and iSolved against the major payroll, HCM, and recruiting alternatives.' },
+    ],
   },
   {
-    slug: 'legal-hiring',
-    title: 'Legal Hiring & Recruiting',
-    description: 'Attorney market trends, law firm hiring strategies, and placement insights.',
-  },
-  {
-    slug: 'hcm-software',
-    title: 'HCM Software & HR Tech',
-    description: 'iSolved features, HR automation, and software comparisons for growing businesses.',
-  },
-  {
-    slug: 'entrepreneur',
-    title: 'Business & Entrepreneur Resources',
-    description: 'BEG network content, entrepreneur tips, and business community updates.',
+    heading: 'Hiring & Recruiting by Industry',
+    items: [
+      'accounting', 'architecture', 'banking', 'biotech', 'construction',
+      'cybersecurity', 'dental', 'energy', 'engineering', 'executive',
+      'finance', 'government', 'healthcare', 'hospitality', 'hr',
+      'insurance', 'legal', 'manufacturing', 'marketing', 'nonprofit',
+      'real-estate', 'sales', 'supply-chain', 'technology', 'trades', 'veterinary',
+    ].map((k) => {
+      const label = k === 'hr' ? 'HR' : labelize(k);
+      return {
+        slug: `${k}-hiring`,
+        title: `${label} Hiring`,
+        description: `Market trends, salary data, and how to fill ${label.toLowerCase() === 'hr' ? 'HR' : label.toLowerCase()} roles faster.`,
+      };
+    }),
   },
 ];
 
@@ -58,24 +66,26 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <section className="section section--soft">
-        <div className="container">
-          <div className="head center reveal">
-            <h2>Browse by Topic</h2>
+      {topicGroups.map((group) => (
+        <section key={group.heading} className="section section--soft">
+          <div className="container">
+            <div className="head center reveal">
+              <h2>{group.heading}</h2>
+            </div>
+            <div className="cards">
+              {group.items.map((cat) => (
+                <article key={cat.slug} className="card reveal">
+                  <h3><Link href={`/blog/${cat.slug}`}>{cat.title}</Link></h3>
+                  <p>{cat.description}</p>
+                  <Link href={`/blog/${cat.slug}`} className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
+                    View Posts
+                  </Link>
+                </article>
+              ))}
+            </div>
           </div>
-          <div className="cards">
-            {categories.map((cat) => (
-              <article key={cat.slug} className="card reveal">
-                <h3><Link href={`/blog/${cat.slug}`}>{cat.title}</Link></h3>
-                <p>{cat.description}</p>
-                <Link href={`/blog/${cat.slug}`} className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
-                  View Posts
-                </Link>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+        </section>
+      ))}
     </>
   );
 }

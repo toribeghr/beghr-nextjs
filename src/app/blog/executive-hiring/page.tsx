@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Executive Search & Hiring | BEG Blog',
   description: 'Confidential executive search insights: hiring a COO, CEO succession, executive comp trends, and search strategy for leaders filling senior seats.',
-  alternates: { canonical: 'https://beghr.com/blog/executive-hiring' },
+  alternates: { canonical: 'https://www.beghr.com/blog/executive-hiring' },
   openGraph: {
     title: 'Executive Search & Hiring | BEG Blog',
     description: 'Confidential executive search insights: hiring a COO, CEO succession, executive comp trends, and search strategy for leaders filling senior seats.',
-    url: 'https://beghr.com/blog/executive-hiring',
+    url: 'https://www.beghr.com/blog/executive-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Executive Search & Hiring | BEG Blog', description: 'Confidential executive search insights: hiring a COO, CEO succession, executive comp trends, and search strategy for leaders filling senior seats.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Executive Search & Hiring | BEG Blog', description: 'Confidential executive search insights: hiring a COO, CEO succession, executive comp trends, and search strategy for leaders filling senior seats.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -89,9 +89,9 @@ export default function BlogExecutiveHiringPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Executive Hiring', item: 'https://beghr.com/blog/executive-hiring' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Executive Hiring', item: 'https://www.beghr.com/blog/executive-hiring' },
             ],
           }),
         }}

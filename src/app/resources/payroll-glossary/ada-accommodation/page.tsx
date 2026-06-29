@@ -4,20 +4,20 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'ADA Accommodation | Payroll Glossary | BEG',
   description: 'Understand ADA accommodation requirements, what qualifies as reasonable, and the payroll and HR implications of accommodation decisions.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/ada-accommodation' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/ada-accommodation' },
   openGraph: {
     title: 'ADA Accommodation | Payroll Glossary | BEG',
     description: 'Understand ADA accommodation requirements, what qualifies as reasonable, and the payroll and HR implications of accommodation decisions.',
-    url: 'https://beghr.com/resources/payroll-glossary/ada-accommodation',
+    url: 'https://www.beghr.com/resources/payroll-glossary/ada-accommodation',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ADA Accommodation | Payroll Glossary | BEG',
     description: 'Understand ADA accommodation requirements, what qualifies as reasonable, and the payroll and HR implications of accommodation decisions.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -80,14 +80,14 @@ export default function AdaAccommodationPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/ada-accommodation', url: 'https://beghr.com/resources/payroll-glossary/ada-accommodation', name: 'ADA Accommodation | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'ADA Accommodation', description: 'Understand ADA accommodation requirements, what qualifies as reasonable, and the payroll and HR implications of accommodation decisions.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/ada-accommodation', url: 'https://www.beghr.com/resources/payroll-glossary/ada-accommodation', name: 'ADA Accommodation | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'ADA Accommodation', description: 'Understand ADA accommodation requirements, what qualifies as reasonable, and the payroll and HR implications of accommodation decisions.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'ADA Accommodation', item: 'https://beghr.com/resources/payroll-glossary/ada-accommodation' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'ADA Accommodation', item: 'https://www.beghr.com/resources/payroll-glossary/ada-accommodation' },
             ]},
           ]
         }) }} />

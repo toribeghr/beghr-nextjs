@@ -7,7 +7,7 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Engineering | Prevailing Wage & Payroll | BEG',
   description: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/engineering' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/engineering' },
 };
 
 const CALENDLY = getCalendlyLink('hcm-engineering');

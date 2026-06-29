@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG',
   description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/trades' },
-  openGraph: { title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', url: 'https://beghr.com/services/job-placement/trades', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/trades' },
+  openGraph: { title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', url: 'https://www.beghr.com/services/job-placement/trades', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-trades');
@@ -39,7 +39,7 @@ export default function PlacementTradesPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Skilled Trades placement\",\"name\":\"Skilled Trades Placement\",\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"url\":\"https://beghr.com/services/job-placement/trades\",\"description\":\"Permanent skilled trades placement in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Skilled Trades placement\",\"name\":\"Skilled Trades Placement\",\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"url\":\"https://www.beghr.com/services/job-placement/trades\",\"description\":\"Permanent skilled trades placement in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.\"}" }} />
 
       {/* PAIN */}
       <section className="section section--soft">

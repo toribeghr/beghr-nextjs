@@ -5,21 +5,21 @@ export const metadata: Metadata = {
   title: 'Payroll Outsourcing FAQ | What You Need to Know | BEG',
   description: 'Everything employers need to know about outsourcing payroll: cost, risks, what to hand off, and how to choose a provider.',
   alternates: {
-    canonical: 'https://beghr.com/faq/payroll-outsourcing',
+    canonical: 'https://www.beghr.com/faq/payroll-outsourcing',
   },
   openGraph: {
     title: 'Payroll Outsourcing FAQ | What You Need to Know | BEG',
     description: 'Everything employers need to know about outsourcing payroll: cost, risks, what to hand off, and how to choose a provider.',
-    url: 'https://beghr.com/faq/payroll-outsourcing',
+    url: 'https://www.beghr.com/faq/payroll-outsourcing',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Payroll Outsourcing FAQ | What You Need to Know | BEG',
     description: 'Everything employers need to know about outsourcing payroll: cost, risks, what to hand off, and how to choose a provider.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -78,9 +78,9 @@ export default function PayrollOutsourcingFaqPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://beghr.com/faq' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Outsourcing FAQ', item: 'https://beghr.com/faq/payroll-outsourcing' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://www.beghr.com/faq' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Outsourcing FAQ', item: 'https://www.beghr.com/faq/payroll-outsourcing' },
             ],
           }),
         }}

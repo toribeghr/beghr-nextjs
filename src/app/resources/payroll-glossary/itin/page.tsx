@@ -4,9 +4,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'ITIN (Individual Taxpayer Identification Number) | Payroll Glossary | BEG',
   description: 'IRS tax processing number for individuals not eligible for a Social Security number, used for tax withholding and reporting purposes.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/itin' },
-  openGraph: { title: 'ITIN (Individual Taxpayer Identification Number) | Payroll Glossary | BEG', description: 'IRS tax processing number for individuals not eligible for a Social Security number, used for tax withholding and reporting purposes.', url: 'https://beghr.com/resources/payroll-glossary/itin', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'ITIN (Individual Taxpayer Identification Number) | Payroll Glossary | BEG', description: 'IRS tax processing number for individuals not eligible for a Social Security number, used for tax withholding and reporting purposes.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/itin' },
+  openGraph: { title: 'ITIN (Individual Taxpayer Identification Number) | Payroll Glossary | BEG', description: 'IRS tax processing number for individuals not eligible for a Social Security number, used for tax withholding and reporting purposes.', url: 'https://www.beghr.com/resources/payroll-glossary/itin', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'ITIN (Individual Taxpayer Identification Number) | Payroll Glossary | BEG', description: 'IRS tax processing number for individuals not eligible for a Social Security number, used for tax withholding and reporting purposes.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -63,14 +63,14 @@ export default function ItinPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/itin', url: 'https://beghr.com/resources/payroll-glossary/itin', name: 'ITIN (Individual Taxpayer Identification Number) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'ITIN (Individual Taxpayer Identification Number)', description: 'IRS tax processing number for individuals not eligible for a Social Security number, used for tax withholding and reporting purposes.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/itin', url: 'https://www.beghr.com/resources/payroll-glossary/itin', name: 'ITIN (Individual Taxpayer Identification Number) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'ITIN (Individual Taxpayer Identification Number)', description: 'IRS tax processing number for individuals not eligible for a Social Security number, used for tax withholding and reporting purposes.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'ITIN (Individual Taxpayer Identification Number)', item: 'https://beghr.com/resources/payroll-glossary/itin' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'ITIN (Individual Taxpayer Identification Number)', item: 'https://www.beghr.com/resources/payroll-glossary/itin' },
             ]},
           ]
         }) }} />

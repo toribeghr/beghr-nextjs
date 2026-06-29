@@ -4,7 +4,7 @@ import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 
 const TITLE = 'Payroll Fee Auditor | See What They Really Charge | BEG';
 const DESC = 'Free payroll fee auditor: enter your bill and the add-on fees you pay to see your real PEPM, whether you are overpaying, and what to get in writing before you sign.';
-const URL = 'https://beghr.com/resources/payroll-fee-auditor';
+const URL = 'https://www.beghr.com/resources/payroll-fee-auditor';
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     description: DESC,
     url: URL,
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: TITLE, description: DESC, images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: TITLE, description: DESC, images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -36,11 +36,11 @@ export default function PayrollFeeAuditorPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@graph': [
-              { '@type': 'WebPage', '@id': URL, url: URL, name: TITLE, datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
+              { '@type': 'WebPage', '@id': URL, url: URL, name: TITLE, datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
               { '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
               { '@type': 'BreadcrumbList', itemListElement: [
-                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-                { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+                { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
                 { '@type': 'ListItem', position: 3, name: 'Payroll Fee Auditor', item: URL },
               ] },
             ],

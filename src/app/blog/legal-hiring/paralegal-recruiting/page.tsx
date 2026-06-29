@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG',
   description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/paralegal-recruiting' },
   openGraph: {
     title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG',
     description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...',
-    url: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting',
+    url: 'https://www.beghr.com/blog/legal-hiring/paralegal-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG', description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG', description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -46,7 +46,7 @@ const faqs = [
 export default function ParalegalRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/legal-hiring/paralegal-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/paralegal-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -252,9 +252,9 @@ export default function ParalegalRecruitingPage() {
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' } },
-        url: 'https://beghr.com/blog/legal-hiring/paralegal-recruiting',
-        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://beghr.com/blog/legal-hiring/paralegal-recruiting' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', logo: { '@type': 'ImageObject', url: 'https://www.beghr.com/assets/beg-header-image.png' } },
+        url: 'https://www.beghr.com/blog/legal-hiring/paralegal-recruiting',
+        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/legal-hiring/paralegal-recruiting' },
       }) }} />
     </article>
   );

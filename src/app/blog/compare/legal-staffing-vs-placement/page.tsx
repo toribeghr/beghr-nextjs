@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Legal Staffing vs Attorney Placement | Real Difference | BEG",
   description: 'Legal staffing fills temporary gaps. Attorney placement finds permanent hires. Side-by-side breakdown of cost, speed, and fill rate for law firms.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/legal-staffing-vs-placement' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/legal-staffing-vs-placement' },
   openGraph: {
     title: 'Legal Staffing vs Placement | The Real Difference | BEG',
     description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...',
-    url: 'https://beghr.com/blog/compare/legal-staffing-vs-placement',
+    url: 'https://www.beghr.com/blog/compare/legal-staffing-vs-placement',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Legal Staffing vs Placement | The Real Difference | BEG', description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Legal Staffing vs Placement | The Real Difference | BEG', description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -21,7 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function LegalStaffingVsPlacementPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Legal Staffing vs Placement | The Real Difference | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/legal-staffing-vs-placement"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Legal Staffing vs Placement | The Real Difference | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/legal-staffing-vs-placement"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -179,8 +179,8 @@ export default function LegalStaffingVsPlacementPage() {
         description: 'Clear explanation of the difference between legal staffing agencies and attorney placement services -- and which model is right for your law firm\'s hiring needs.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/legal-staffing-vs-placement',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/legal-staffing-vs-placement',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

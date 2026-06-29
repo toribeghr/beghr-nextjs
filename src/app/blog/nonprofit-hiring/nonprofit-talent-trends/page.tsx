@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Nonprofit Talent Trends in 2026 | BEG',
   description: 'Burnout, turnover, and a thin leadership pipeline are reshaping nonprofit hiring. What the 2026 talent picture means and how to fill roles fast.',
-  alternates: { canonical: 'https://beghr.com/blog/nonprofit-hiring/nonprofit-talent-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/nonprofit-hiring/nonprofit-talent-trends' },
   openGraph: {
     title: 'Nonprofit Talent Trends in 2026 | BEG',
     description: 'Burnout, turnover, and a thin leadership pipeline are reshaping nonprofit hiring. What the 2026 talent picture means and how to fill roles fast.',
-    url: 'https://beghr.com/blog/nonprofit-hiring/nonprofit-talent-trends',
+    url: 'https://www.beghr.com/blog/nonprofit-hiring/nonprofit-talent-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Nonprofit Talent Trends in 2026 | BEG', description: 'Burnout, turnover, and a thin leadership pipeline are reshaping nonprofit hiring. What the 2026 talent picture means and how to fill roles fast.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Talent Trends in 2026 | BEG', description: 'Burnout, turnover, and a thin leadership pipeline are reshaping nonprofit hiring. What the 2026 talent picture means and how to fill roles fast.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/nonprofit-hiring/nonprofit-talent-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function NonprofitTalentTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Nonprofit Talent Trends in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/nonprofit-hiring/nonprofit-talent-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Nonprofit Talent Trends in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/nonprofit-hiring/nonprofit-talent-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -174,8 +174,8 @@ export default function NonprofitTalentTrendsPage() {
         description: 'The structural forces behind the 2026 nonprofit talent shortage and how boards and leaders fill nonprofit roles in 23-35 days despite it.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/nonprofit-hiring/nonprofit-talent-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/nonprofit-hiring/nonprofit-talent-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

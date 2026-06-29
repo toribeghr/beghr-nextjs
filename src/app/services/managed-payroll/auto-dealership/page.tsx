@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG',
   description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/auto-dealership' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/auto-dealership' },
   openGraph: {
     title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG',
     description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
-    url: 'https://beghr.com/services/managed-payroll/auto-dealership',
+    url: 'https://www.beghr.com/services/managed-payroll/auto-dealership',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG', description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Auto Dealership Payroll | Commission & Clawback. Handled. | BEG', description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -302,9 +302,9 @@ export default function PayrollAutoDealershipPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Auto Dealerships', item: 'https://beghr.com/services/managed-payroll/auto-dealership' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Auto Dealerships', item: 'https://www.beghr.com/services/managed-payroll/auto-dealership' },
             ],
           }),
         }}

@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Staffing Agency Payroll | Weekly Runs. Zero Burden. | BEG',
   description: 'Staffing agency payroll fully managed at $25–$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/staffing-agency' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/staffing-agency' },
   openGraph: {
     title: 'Staffing Agency Payroll | Weekly Runs. Zero Burden. | BEG',
     description: 'Staffing agency payroll fully managed at $25–$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.',
-    url: 'https://beghr.com/services/managed-payroll/staffing-agency',
+    url: 'https://www.beghr.com/services/managed-payroll/staffing-agency',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll | Weekly Runs. Zero Burden. | BEG', description: 'Staffing agency payroll fully managed at $25–$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll | Weekly Runs. Zero Burden. | BEG', description: 'Staffing agency payroll fully managed at $25–$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('staffing-agency-payroll');
@@ -275,10 +275,10 @@ export default function PayrollStaffingAgencyPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Staffing Agency', item: 'https://beghr.com/services/managed-payroll/staffing-agency' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Staffing Agency', item: 'https://www.beghr.com/services/managed-payroll/staffing-agency' },
             ],
           }),
         }}

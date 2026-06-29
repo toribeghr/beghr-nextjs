@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   title: 'Job Placement | 23-35 Days. 86% Fill Rate. Guaranteed. | BEG',
   description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
   alternates: {
-    canonical: 'https://beghr.com/services/job-placement',
+    canonical: 'https://www.beghr.com/services/job-placement',
   },
   openGraph: {
     title: 'Job Placement | 23-35 Days. 86% Fill Rate. Guaranteed. | BEG',
     description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
-    url: 'https://beghr.com/services/job-placement',
+    url: 'https://www.beghr.com/services/job-placement',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Job Placement | 23-35 Days. 86% Fill Rate. Guaranteed. | BEG', description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Job Placement | 23-35 Days. 86% Fill Rate. Guaranteed. | BEG', description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -54,7 +54,7 @@ export default function JobPlacementPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Service', serviceType: 'Job placement', name: 'Job Placement', provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' }, areaServed: { '@type': 'Country', name: 'United States' }, url: 'https://beghr.com/services/job-placement', description: 'Permanent placement of attorneys, clinicians, engineers, and finance professionals in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.' }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Service', serviceType: 'Job placement', name: 'Job Placement', provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' }, areaServed: { '@type': 'Country', name: 'United States' }, url: 'https://www.beghr.com/services/job-placement', description: 'Permanent placement of attorneys, clinicians, engineers, and finance professionals in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.' }) }} />
 
       {/* PAIN */}
       <section className="section section--soft">
@@ -577,11 +577,11 @@ export default function JobPlacementPage() {
             '@type': 'ProfessionalService',
             name: 'Job Placement Services',
             description: 'Specialized job placement and law firm recruiting in 23-35 days at roughly 50% less than contingency firms. 86% fill rate. 45-day replacement guarantee. Milestone billing.',
-            url: 'https://beghr.com/services/job-placement',
+            url: 'https://www.beghr.com/services/job-placement',
             provider: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              url: 'https://beghr.com',
+              url: 'https://www.beghr.com',
             },
             areaServed: 'United States',
             availableChannel: {

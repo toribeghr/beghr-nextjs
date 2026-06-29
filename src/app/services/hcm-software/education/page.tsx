@@ -6,16 +6,16 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Education | BEG',
   description: 'iSolved HCM for schools. Teacher and staff payroll, school-year pay cycles, substitute pay, 403(b), and multiple pay schedules on one connected platform.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/education' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/education' },
   openGraph: {
     title: 'iSolved HCM for Education | BEG',
     description: 'iSolved HCM for schools. Teacher and staff payroll, school-year pay cycles, substitute pay, 403(b), and multiple pay schedules on one connected platform.',
-    url: 'https://beghr.com/services/hcm-software/education',
+    url: 'https://www.beghr.com/services/hcm-software/education',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Education | BEG', description: 'iSolved HCM for schools. Teacher and staff payroll, school-year pay cycles, substitute pay, 403(b), and multiple pay schedules on one connected platform.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Education | BEG', description: 'iSolved HCM for schools. Teacher and staff payroll, school-year pay cycles, substitute pay, 403(b), and multiple pay schedules on one connected platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -237,9 +237,9 @@ export default function HCMEducationPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'Education', item: 'https://beghr.com/services/hcm-software/education' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Education', item: 'https://www.beghr.com/services/hcm-software/education' },
             ],
           }),
         }}
@@ -252,7 +252,7 @@ export default function HCMEducationPage() {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
             speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tldr', '.faq-item h3', '.faq-item p'] },
-            url: 'https://beghr.com/services/hcm-software/education',
+            url: 'https://www.beghr.com/services/hcm-software/education',
           }),
         }}
       />

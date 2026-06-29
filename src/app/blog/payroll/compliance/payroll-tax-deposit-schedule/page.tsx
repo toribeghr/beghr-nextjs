@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly | BEG',
   description: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule' },
   openGraph: {
     title: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly | BEG',
     description: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.',
-    url: 'https://beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule',
+    url: 'https://www.beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly | BEG', description: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly | BEG', description: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -41,7 +41,17 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>Never miss a payroll tax deadline</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Every 2026 federal and state payroll tax deadline on one filterable page.</p>
+          <a href="/resources/payroll-tax-calendar" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>View the Payroll Tax Calendar &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -130,14 +140,14 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly","description":"Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"url":"https://beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule","mainEntityOfPage":{"@type":"WebPage","@id":"https://beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule"}}`,
+          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly","description":"Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"url":"https://www.beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule"}}`,
         }}
       />
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly","item":"https://beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule"}]}`,
+          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly","item":"https://www.beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule"}]}`,
         }}
       />
     </article>

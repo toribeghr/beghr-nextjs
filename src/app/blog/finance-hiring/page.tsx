@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Finance & FP&A Hiring | BEG Blog',
   description: 'Corporate finance talent trends, FP&A recruiting, finance manager hiring, and comp insights for leaders who need to fill finance roles fast.',
-  alternates: { canonical: 'https://beghr.com/blog/finance-hiring' },
+  alternates: { canonical: 'https://www.beghr.com/blog/finance-hiring' },
   openGraph: {
     title: 'Finance & FP&A Hiring | BEG Blog',
     description: 'Corporate finance talent trends, FP&A recruiting, finance manager hiring, and comp insights for leaders who need to fill finance roles fast.',
-    url: 'https://beghr.com/blog/finance-hiring',
+    url: 'https://www.beghr.com/blog/finance-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Finance & FP&A Hiring | BEG Blog', description: 'Corporate finance talent trends, FP&A recruiting, finance manager hiring, and comp insights for leaders who need to fill finance roles fast.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Finance & FP&A Hiring | BEG Blog', description: 'Corporate finance talent trends, FP&A recruiting, finance manager hiring, and comp insights for leaders who need to fill finance roles fast.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -89,9 +89,9 @@ export default function BlogFinanceHiringPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Finance Hiring', item: 'https://beghr.com/blog/finance-hiring' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Finance Hiring', item: 'https://www.beghr.com/blog/finance-hiring' },
             ],
           }),
         }}

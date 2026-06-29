@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Clinical Research Recruiting Guide | BEG',
   description: 'Clinical research associates keep trials on track and they are scarce. How to source and close CRA talent in 23-35 days in a tight market.',
-  alternates: { canonical: 'https://beghr.com/blog/biotech-hiring/clinical-research-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/biotech-hiring/clinical-research-recruiting' },
   openGraph: {
     title: 'Clinical Research Recruiting Guide | BEG',
     description: 'Clinical research associates keep trials on track and they are scarce. How to source and close CRA talent in 23-35 days in a tight market.',
-    url: 'https://beghr.com/blog/biotech-hiring/clinical-research-recruiting',
+    url: 'https://www.beghr.com/blog/biotech-hiring/clinical-research-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Clinical Research Recruiting Guide | BEG', description: 'Clinical research associates keep trials on track and they are scarce. How to source and close CRA talent in 23-35 days in a tight market.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Clinical Research Recruiting Guide | BEG', description: 'Clinical research associates keep trials on track and they are scarce. How to source and close CRA talent in 23-35 days in a tight market.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/biotech-hiring/clinical-research-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function ClinicalResearchRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Clinical Research Recruiting Guide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/biotech-hiring/clinical-research-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Clinical Research Recruiting Guide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/biotech-hiring/clinical-research-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -175,8 +175,8 @@ export default function ClinicalResearchRecruitingPage() {
         description: 'How to source and close strong clinical research associate candidates in 23-35 days using passive candidate sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/biotech-hiring/clinical-research-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/biotech-hiring/clinical-research-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

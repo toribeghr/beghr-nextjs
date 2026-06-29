@@ -5,21 +5,21 @@ export const metadata: Metadata = {
   title: 'Payroll Cost Calculators | Free Tools | BEG',
   description: 'Free payroll cost calculators: compare managed payroll vs. in-house, estimate PEPM cost, and calculate total payroll burden.',
   alternates: {
-    canonical: 'https://beghr.com/resources/calculators',
+    canonical: 'https://www.beghr.com/resources/calculators',
   },
   openGraph: {
     title: 'Payroll Cost Calculators | Free Tools | BEG',
     description: 'Free payroll cost calculators: compare managed payroll vs. in-house, estimate PEPM cost, and calculate total payroll burden.',
-    url: 'https://beghr.com/resources/calculators',
+    url: 'https://www.beghr.com/resources/calculators',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Payroll Cost Calculators | Free Tools | BEG',
     description: 'Free payroll cost calculators: compare managed payroll vs. in-house, estimate PEPM cost, and calculate total payroll burden.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -35,9 +35,9 @@ export default function CalculatorsPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Calculators', item: 'https://beghr.com/resources/calculators' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Calculators', item: 'https://www.beghr.com/resources/calculators' },
             ],
           }),
         }}

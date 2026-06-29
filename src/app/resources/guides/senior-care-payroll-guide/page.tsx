@@ -6,21 +6,21 @@ export const metadata: Metadata = {
   title: 'Senior Care Payroll Guide | 24/7 Shifts Handled | BEG',
   description: 'Senior care payroll guide: 24/7 shifts, shift differentials, high turnover, CNA compliance, and memory care vs skilled nursing staffing, fully managed.',
   alternates: {
-    canonical: 'https://beghr.com/resources/guides/senior-care-payroll-guide',
+    canonical: 'https://www.beghr.com/resources/guides/senior-care-payroll-guide',
   },
   openGraph: {
     title: 'Senior Care Payroll Guide | 24/7 Shifts Handled | BEG',
     description: 'Senior care payroll guide: 24/7 shifts, shift differentials, high turnover, CNA compliance, and memory care vs skilled nursing staffing, fully managed.',
-    url: 'https://beghr.com/resources/guides/senior-care-payroll-guide',
+    url: 'https://www.beghr.com/resources/guides/senior-care-payroll-guide',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Senior Care Payroll Guide | 24/7 Shifts Handled | BEG',
     description: 'Senior care payroll guide: 24/7 shifts, shift differentials, high turnover, CNA compliance, and memory care vs skilled nursing staffing, fully managed.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -56,8 +56,8 @@ export default function SeniorCarePayrollGuidePage() {
             '@graph': [
               {
                 '@type': 'WebPage',
-                '@id': 'https://beghr.com/resources/guides/senior-care-payroll-guide',
-                url: 'https://beghr.com/resources/guides/senior-care-payroll-guide',
+                '@id': 'https://www.beghr.com/resources/guides/senior-care-payroll-guide',
+                url: 'https://www.beghr.com/resources/guides/senior-care-payroll-guide',
                 name: 'Senior Care Payroll Guide',
                 datePublished: '2026-06-28',
                 dateModified: '2026-06-28',
@@ -75,10 +75,10 @@ export default function SeniorCarePayrollGuidePage() {
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://beghr.com/resources/guides' },
-                  { '@type': 'ListItem', position: 4, name: 'Senior Care Payroll Guide', item: 'https://beghr.com/resources/guides/senior-care-payroll-guide' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://www.beghr.com/resources/guides' },
+                  { '@type': 'ListItem', position: 4, name: 'Senior Care Payroll Guide', item: 'https://www.beghr.com/resources/guides/senior-care-payroll-guide' },
                 ],
               },
             ],

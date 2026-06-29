@@ -7,7 +7,7 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Skilled Trades | Union & Multi-Site Payroll | BEG',
   description: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/trades' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/trades' },
 };
 
 const CALENDLY = getCalendlyLink('hcm-trades');

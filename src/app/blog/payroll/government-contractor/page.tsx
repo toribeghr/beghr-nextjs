@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Government Contractor Payroll Guides | SCA + Davis-Bacon | BEG',
   description: 'Government contractor payroll guides covering Davis-Bacon, Service Contract Act, fringe benefits, DoD requirements, and outsourcing. BEG at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/government-contractor' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor' },
   openGraph: {
     title: 'Government Contractor Payroll Guides | SCA + Davis-Bacon | BEG',
     description: 'Government contractor payroll guides covering Davis-Bacon, Service Contract Act, fringe benefits, DoD requirements, and outsourcing. BEG at $25-$45 PEPM.',
-    url: 'https://beghr.com/blog/payroll/government-contractor',
+    url: 'https://www.beghr.com/blog/payroll/government-contractor',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Government Contractor Payroll Guides | BEG', description: 'Government contractor payroll guides: SCA, Davis-Bacon, fringe benefits, DoD compliance, and outsourcing.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Government Contractor Payroll Guides | BEG', description: 'Government contractor payroll guides: SCA, Davis-Bacon, fringe benefits, DoD compliance, and outsourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -99,10 +99,10 @@ export default function GovernmentContractorPayrollHubPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-          { '@type': 'ListItem', position: 4, name: 'Government Contractor', item: 'https://beghr.com/blog/payroll/government-contractor' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+          { '@type': 'ListItem', position: 4, name: 'Government Contractor', item: 'https://www.beghr.com/blog/payroll/government-contractor' },
         ],
       }) }} />
     </>

@@ -6,9 +6,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: '45-Day Search Playbook | Free Download | BEG',
   description: 'The free 45-Day Search Playbook: how BEG fills permanent roles in 23-35 days, step by step, at roughly 50% less than contingency. Download the PDF.',
-  alternates: { canonical: 'https://beghr.com/resources/45-day-search-playbook' },
-  openGraph: { title: '45-Day Search Playbook | Free Download | BEG', description: 'How BEG fills permanent roles in 23-35 days, step by step. Free PDF.', url: 'https://beghr.com/resources/45-day-search-playbook', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: '45-Day Search Playbook | Free Download | BEG', description: 'How BEG fills permanent roles in 23-35 days, step by step. Free PDF.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/resources/45-day-search-playbook' },
+  openGraph: { title: '45-Day Search Playbook | Free Download | BEG', description: 'How BEG fills permanent roles in 23-35 days, step by step. Free PDF.', url: 'https://www.beghr.com/resources/45-day-search-playbook', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: '45-Day Search Playbook | Free Download | BEG', description: 'How BEG fills permanent roles in 23-35 days, step by step. Free PDF.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const calendly = getCalendlyLink('45-day-search-playbook');

@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Healthcare Payroll | Shift Differential. Done Right. | BEG',
   description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/healthcare' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/healthcare' },
   openGraph: {
     title: 'Healthcare Payroll | Shift Differential. Done Right. | BEG',
     description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
-    url: 'https://beghr.com/services/managed-payroll/healthcare',
+    url: 'https://www.beghr.com/services/managed-payroll/healthcare',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Payroll | Shift Differential. Done Right. | BEG', description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Payroll | Shift Differential. Done Right. | BEG', description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -298,9 +298,9 @@ export default function PayrollHealthcarePage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Healthcare', item: 'https://beghr.com/services/managed-payroll/healthcare' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Healthcare', item: 'https://www.beghr.com/services/managed-payroll/healthcare' },
             ],
           }),
         }}

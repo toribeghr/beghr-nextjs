@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'AI Payroll in 2026: What It Can and Cannot Do | BEG',
   description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/ai-payroll-what-it-can-do' },
+  alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do' },
   openGraph: {
     title: 'AI Payroll in 2026: What It Can and Cannot Do',
     description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.',
-    url: 'https://beghr.com/blog/hcm-technology/ai-payroll-what-it-can-do',
+    url: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'AI Payroll in 2026: What It Can and Cannot Do', description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'AI Payroll in 2026: What It Can and Cannot Do', description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -44,7 +44,7 @@ const faqs = [
 export default function AIPayrollWhatItCanDoPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "AI Payroll in 2026: What It Can and Cannot Do | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/ai-payroll-what-it-can-do"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "AI Payroll in 2026: What It Can and Cannot Do | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -135,10 +135,10 @@ export default function AIPayrollWhatItCanDoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'HCM Technology', item: 'https://beghr.com/blog/hcm-technology' },
-          { '@type': 'ListItem', position: 4, name: 'AI Payroll in 2026: What It Can and Cannot Do', item: 'https://beghr.com/blog/hcm-technology/ai-payroll-what-it-can-do' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'HCM Technology', item: 'https://www.beghr.com/blog/hcm-software' },
+          { '@type': 'ListItem', position: 4, name: 'AI Payroll in 2026: What It Can and Cannot Do', item: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do' },
         ],
       }) }} />
     </article>

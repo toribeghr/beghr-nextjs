@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Banking Recruiters in Long Beach | BEG',
   description: 'Banking placement in Long Beach. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/banking/long-beach' },
-  openGraph: { title: 'Banking Recruiters in Long Beach | BEG', description: 'Banking placement in Long Beach in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/banking/long-beach', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Banking Recruiters in Long Beach | BEG', description: 'Banking placement in Long Beach in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/banking/long-beach' },
+  openGraph: { title: 'Banking Recruiters in Long Beach | BEG', description: 'Banking placement in Long Beach in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/banking/long-beach', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Banking Recruiters in Long Beach | BEG', description: 'Banking placement in Long Beach in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-banking-long-beach');
@@ -36,7 +36,7 @@ export default function PlacementBankingLongbeachPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Banking placement\",\"name\":\"Banking Placement in Long Beach\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Long Beach\"},\"url\":\"https://beghr.com/services/job-placement/banking/long-beach\",\"description\":\"Permanent banking placement in Long Beach in 23-35 days at roughly 50% less than contingency.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Banking placement\",\"name\":\"Banking Placement in Long Beach\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Long Beach\"},\"url\":\"https://www.beghr.com/services/job-placement/banking/long-beach\",\"description\":\"Permanent banking placement in Long Beach in 23-35 days at roughly 50% less than contingency.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

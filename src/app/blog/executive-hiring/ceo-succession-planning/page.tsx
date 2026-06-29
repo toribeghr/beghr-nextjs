@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'CEO Succession Planning Guide | BEG',
   description: 'CEO transitions are the highest-stakes hire a board makes. How to plan succession early, confidentially, and without destabilizing the company.',
-  alternates: { canonical: 'https://beghr.com/blog/executive-hiring/ceo-succession-planning' },
+  alternates: { canonical: 'https://www.beghr.com/blog/executive-hiring/ceo-succession-planning' },
   openGraph: {
     title: 'CEO Succession Planning Guide | BEG',
     description: 'CEO transitions are the highest-stakes hire a board makes. How to plan succession early, confidentially, and without destabilizing the company.',
-    url: 'https://beghr.com/blog/executive-hiring/ceo-succession-planning',
+    url: 'https://www.beghr.com/blog/executive-hiring/ceo-succession-planning',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'CEO Succession Planning Guide | BEG', description: 'CEO transitions are the highest-stakes hire a board makes. How to plan succession early, confidentially, and without destabilizing the company.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'CEO Succession Planning Guide | BEG', description: 'CEO transitions are the highest-stakes hire a board makes. How to plan succession early, confidentially, and without destabilizing the company.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/executive-hiring/ceo-succession-planning');
@@ -40,7 +40,7 @@ const faqs = [
 export default function CeoSuccessionPlanningPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "CEO Succession Planning Guide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/executive-hiring/ceo-succession-planning"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "CEO Succession Planning Guide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/executive-hiring/ceo-succession-planning"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -161,8 +161,8 @@ export default function CeoSuccessionPlanningPage() {
         description: 'How boards plan CEO succession early and confidentially, develop the internal bench, and keep a discreet external pipeline ready.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/executive-hiring/ceo-succession-planning',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/executive-hiring/ceo-succession-planning',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

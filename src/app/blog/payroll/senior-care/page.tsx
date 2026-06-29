@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Senior Care Payroll Guides | CNA Overtime + Compliance | BEG',
   description: 'Senior care payroll guides covering CNA overtime, shift differentials, CMS compliance, memory care, assisted living, and outsourcing. BEG at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/senior-care' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/senior-care' },
   openGraph: {
     title: 'Senior Care Payroll Guides | CNA Overtime + Compliance | BEG',
     description: 'Senior care payroll guides covering CNA overtime, shift differentials, CMS compliance, memory care, assisted living, and outsourcing. BEG at $25-$45 PEPM.',
-    url: 'https://beghr.com/blog/payroll/senior-care',
+    url: 'https://www.beghr.com/blog/payroll/senior-care',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll Guides | BEG', description: 'Senior care payroll guides: CNA overtime, shift differentials, CMS compliance, and outsourcing.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll Guides | BEG', description: 'Senior care payroll guides: CNA overtime, shift differentials, CMS compliance, and outsourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -99,10 +99,10 @@ export default function SeniorCarePayrollHubPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-          { '@type': 'ListItem', position: 4, name: 'Senior Care', item: 'https://beghr.com/blog/payroll/senior-care' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+          { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+          { '@type': 'ListItem', position: 4, name: 'Senior Care', item: 'https://www.beghr.com/blog/payroll/senior-care' },
         ],
       }) }} />
     </>

@@ -35,7 +35,7 @@ export default function ServicePage({
             name: title,
             description,
             serviceType: title,
-            provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
+            provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             areaServed: 'United States',
           }),
         }}

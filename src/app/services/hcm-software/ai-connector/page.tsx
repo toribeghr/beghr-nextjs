@@ -6,16 +6,16 @@ import LeadCaptureForm from '@/components/LeadCaptureForm';
 export const metadata: Metadata = {
   title: 'iSolved AI Connector for Claude | Complete HR Tasks | BEG',
   description: 'iSolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions. iSolved completes the task. Run payroll and HR work by conversation.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/ai-connector' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/ai-connector' },
   openGraph: {
     title: 'iSolved AI Connector for Claude | Complete HR Tasks | BEG',
     description: 'iSolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions. iSolved completes the task. Run payroll and HR work by conversation.',
-    url: 'https://beghr.com/services/hcm-software/ai-connector',
+    url: 'https://www.beghr.com/services/hcm-software/ai-connector',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved AI Connector for Claude | Complete HR Tasks | BEG', description: 'iSolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions. iSolved completes the task. Run payroll and HR work by conversation.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved AI Connector for Claude | Complete HR Tasks | BEG', description: 'iSolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions. iSolved completes the task. Run payroll and HR work by conversation.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -246,19 +246,19 @@ export default function AIConnectorPage() {
             category: 'HCM technology',
             title: 'iSolved Connector for Claude: What It Is and What It Does',
             excerpt: 'A plain language guide to the iSolved Connector for Claude. What it is, what it does, and why completing tasks beats answering questions.',
-            href: '/blog/hcm-technology/isolved-connector-for-claude',
+            href: '/blog/hcm-software/isolved-connector-for-claude',
           },
           {
             category: 'HCM technology',
             title: 'AI Payroll in 2026: What It Can and Cannot Do',
             excerpt: 'An honest look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the work.',
-            href: '/blog/hcm-technology/ai-payroll-what-it-can-do',
+            href: '/blog/hcm-software/ai-payroll-what-it-can-do',
           },
           {
             category: 'HCM technology',
             title: 'Chatbots Answer Questions. iSolved Completes the Task.',
             excerpt: 'The difference between an HR chatbot and a platform that completes the work, and why that gap decides how much time your team actually saves.',
-            href: '/blog/hcm-technology/chatbots-answer-isolved-does-the-task',
+            href: '/blog/hcm-software/chatbots-answer-isolved-does-the-task',
           },
         ]}
       />
@@ -271,10 +271,10 @@ export default function AIConnectorPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-          { '@type': 'ListItem', position: 3, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-          { '@type': 'ListItem', position: 4, name: 'AI Connector for Claude', item: 'https://beghr.com/services/hcm-software/ai-connector' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+          { '@type': 'ListItem', position: 3, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+          { '@type': 'ListItem', position: 4, name: 'AI Connector for Claude', item: 'https://www.beghr.com/services/hcm-software/ai-connector' },
         ],
       }) }} />
     </main>

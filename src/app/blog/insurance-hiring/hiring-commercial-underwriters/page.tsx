@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'How to Hire Commercial Underwriters | BEG',
   description: 'Experienced underwriters are scarce and passive. A practical playbook to source and close commercial underwriters in 23-35 days without settling.',
-  alternates: { canonical: 'https://beghr.com/blog/insurance-hiring/hiring-commercial-underwriters' },
+  alternates: { canonical: 'https://www.beghr.com/blog/insurance-hiring/hiring-commercial-underwriters' },
   openGraph: {
     title: 'How to Hire Commercial Underwriters | BEG',
     description: 'Experienced underwriters are scarce and passive. A practical playbook to source and close commercial underwriters in 23-35 days without settling.',
-    url: 'https://beghr.com/blog/insurance-hiring/hiring-commercial-underwriters',
+    url: 'https://www.beghr.com/blog/insurance-hiring/hiring-commercial-underwriters',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How to Hire Commercial Underwriters | BEG', description: 'Experienced underwriters are scarce and passive. A practical playbook to source and close commercial underwriters in 23-35 days without settling.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'How to Hire Commercial Underwriters | BEG', description: 'Experienced underwriters are scarce and passive. A practical playbook to source and close commercial underwriters in 23-35 days without settling.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/insurance-hiring/hiring-commercial-underwriters');
@@ -40,7 +40,7 @@ const faqs = [
 export default function HiringCommercialUnderwritersPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Hire Commercial Underwriters | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/insurance-hiring/hiring-commercial-underwriters"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Hire Commercial Underwriters | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/insurance-hiring/hiring-commercial-underwriters"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -174,8 +174,8 @@ export default function HiringCommercialUnderwritersPage() {
         description: 'A practical playbook to define, source, and close a strong commercial underwriter hire in 23-35 days using passive candidate sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/insurance-hiring/hiring-commercial-underwriters',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/insurance-hiring/hiring-commercial-underwriters',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

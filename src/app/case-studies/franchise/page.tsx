@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Franchise Owner Scales Payroll Across 6 Units Without Added Burden | BEG',
   description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero. BEG scales with the units.',
-  alternates: { canonical: 'https://beghr.com/case-studies/franchise' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies/franchise' },
   openGraph: {
     title: 'Franchise Owner Scales Payroll Across 6 Units Without Added Burden | BEG',
     description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero. BEG scales with the units.',
-    url: 'https://beghr.com/case-studies/franchise',
+    url: 'https://www.beghr.com/case-studies/franchise',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Owner Scales Payroll Across 6 Units Without Added Burden | BEG', description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero. BEG scales with the units.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Owner Scales Payroll Across 6 Units Without Added Burden | BEG', description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero. BEG scales with the units.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function FranchiseCaseStudyPage() {
@@ -165,18 +165,18 @@ export default function FranchiseCaseStudyPage() {
         description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states eliminated 20+ hours/month of payroll work and is now scalable to 15+ units.',
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/case-studies/franchise',
+        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/case-studies/franchise',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
-          { '@type': 'ListItem', position: 3, name: 'Franchise Case Study', item: 'https://beghr.com/case-studies/franchise' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 3, name: 'Franchise Case Study', item: 'https://www.beghr.com/case-studies/franchise' },
         ],
       }) }} />
     </article>

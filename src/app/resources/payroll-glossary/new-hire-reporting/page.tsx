@@ -4,9 +4,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'New Hire Reporting | Payroll Glossary | BEG',
   description: 'Federal and state requirement to report all newly hired employees within 20 days of hire to state directories for child support enforcement.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/new-hire-reporting' },
-  openGraph: { title: 'New Hire Reporting | Payroll Glossary | BEG', description: 'Federal and state requirement to report all newly hired employees within 20 days of hire to state directories for child support enforcement.', url: 'https://beghr.com/resources/payroll-glossary/new-hire-reporting', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'New Hire Reporting | Payroll Glossary | BEG', description: 'Federal and state requirement to report all newly hired employees within 20 days of hire to state directories for child support enforcement.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/new-hire-reporting' },
+  openGraph: { title: 'New Hire Reporting | Payroll Glossary | BEG', description: 'Federal and state requirement to report all newly hired employees within 20 days of hire to state directories for child support enforcement.', url: 'https://www.beghr.com/resources/payroll-glossary/new-hire-reporting', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'New Hire Reporting | Payroll Glossary | BEG', description: 'Federal and state requirement to report all newly hired employees within 20 days of hire to state directories for child support enforcement.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -63,14 +63,14 @@ export default function NewHireReportingPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/new-hire-reporting', url: 'https://beghr.com/resources/payroll-glossary/new-hire-reporting', name: 'New Hire Reporting | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'New Hire Reporting', description: 'Federal and state requirement to report all newly hired employees within 20 days of hire to state directories for child support enforcement.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/new-hire-reporting', url: 'https://www.beghr.com/resources/payroll-glossary/new-hire-reporting', name: 'New Hire Reporting | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'New Hire Reporting', description: 'Federal and state requirement to report all newly hired employees within 20 days of hire to state directories for child support enforcement.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'New Hire Reporting', item: 'https://beghr.com/resources/payroll-glossary/new-hire-reporting' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'New Hire Reporting', item: 'https://www.beghr.com/resources/payroll-glossary/new-hire-reporting' },
             ]},
           ]
         }) }} />

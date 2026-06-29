@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'HR Talent Trends 2026: People-Ops Market | BEG',
   description: 'People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how to fill HR roles in 23-35 days anyway.',
-  alternates: { canonical: 'https://beghr.com/blog/hr-hiring/hr-talent-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/hr-hiring/hr-talent-trends' },
   openGraph: {
     title: 'HR Talent Trends 2026: People-Ops Market | BEG',
     description: 'People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how to fill HR roles in 23-35 days anyway.',
-    url: 'https://beghr.com/blog/hr-hiring/hr-talent-trends',
+    url: 'https://www.beghr.com/blog/hr-hiring/hr-talent-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HR Talent Trends 2026: People-Ops Market | BEG', description: 'People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how to fill HR roles in 23-35 days anyway.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HR Talent Trends 2026: People-Ops Market | BEG', description: 'People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how to fill HR roles in 23-35 days anyway.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/hr-hiring/hr-talent-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function HrTalentTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Talent Trends 2026: People-Ops Market | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hr-hiring/hr-talent-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Talent Trends 2026: People-Ops Market | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hr-hiring/hr-talent-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -174,8 +174,8 @@ export default function HrTalentTrendsPage() {
         description: 'How the people-ops function has changed in 2026 and how leaders fill HR roles in 23-35 days despite a scarce, specialized talent pool.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/hr-hiring/hr-talent-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/hr-hiring/hr-talent-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

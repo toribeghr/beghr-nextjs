@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'HCM Software & HR Tech | BEG Blog',
   description: 'iSolved features, HR automation, and software comparisons for growing businesses.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-software' },
+  alternates: { canonical: 'https://www.beghr.com/blog/hcm-software' },
   openGraph: {
     title: 'HCM Software & HR Tech | BEG Blog',
     description: 'iSolved features, HR automation, and software comparisons for growing businesses.',
-    url: 'https://beghr.com/blog/hcm-software',
+    url: 'https://www.beghr.com/blog/hcm-software',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software & HR Tech | BEG Blog', description: 'iSolved features, HR automation, and software comparisons for growing businesses.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software & HR Tech | BEG Blog', description: 'iSolved features, HR automation, and software comparisons for growing businesses.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -21,17 +21,17 @@ const posts = [
   {
     title: 'iSolved HCM Platform: Cloud Payroll & HR for Growing Companies',
     description: 'iSolved payroll and HRIS solutions for mid-market companies. Centralized HR, payroll, benefits, and talent management in one platform.',
-    slug: '/blog/hcm-technology/isolved-platform',
+    slug: '/blog/hcm-software/isolved-platform',
   },
   {
     title: 'HR Automation: Save 200+ Hours Per Year',
     description: 'Automate payroll, benefits, onboarding, and compliance. See how HR automation saves time and eliminates errors.',
-    slug: '/blog/hcm-technology/hr-automation',
+    slug: '/blog/hcm-software/hr-automation',
   },
   {
     title: 'Payroll Tax Compliance: 2026 Updates & What Changed',
     description: 'Tax law changes, new payroll requirements, and what HR teams need to know about payroll compliance in 2026.',
-    slug: '/blog/hcm-technology/payroll-compliance',
+    slug: '/blog/hcm-software/payroll-compliance',
   },
 ];
 
@@ -80,9 +80,9 @@ export default function BlogHcmPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'HCM Software', item: 'https://beghr.com/blog/hcm-software' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'HCM Software', item: 'https://www.beghr.com/blog/hcm-software' },
             ],
           }),
         }}

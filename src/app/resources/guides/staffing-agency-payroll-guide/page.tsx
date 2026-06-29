@@ -6,21 +6,21 @@ export const metadata: Metadata = {
   title: 'Staffing Agency Payroll Guide | Weekly Pay & W-2/1099 | BEG',
   description: 'Staffing agency payroll guide covering weekly payroll, W-2 and 1099 splits, client-billable reporting, high-volume onboarding, and multi-state temps.',
   alternates: {
-    canonical: 'https://beghr.com/resources/guides/staffing-agency-payroll-guide',
+    canonical: 'https://www.beghr.com/resources/guides/staffing-agency-payroll-guide',
   },
   openGraph: {
     title: 'Staffing Agency Payroll Guide | Weekly Pay & W-2/1099 | BEG',
     description: 'Staffing agency payroll guide covering weekly payroll, W-2 and 1099 splits, client-billable reporting, high-volume onboarding, and multi-state temps.',
-    url: 'https://beghr.com/resources/guides/staffing-agency-payroll-guide',
+    url: 'https://www.beghr.com/resources/guides/staffing-agency-payroll-guide',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Staffing Agency Payroll Guide | Weekly Pay & W-2/1099 | BEG',
     description: 'Staffing agency payroll guide covering weekly payroll, W-2 and 1099 splits, client-billable reporting, high-volume onboarding, and multi-state temps.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -56,7 +56,7 @@ export default function StaffingAgencyPayrollGuidePage() {
             '@graph': [
               {
                 '@type': 'WebPage',
-                url: 'https://beghr.com/resources/guides/staffing-agency-payroll-guide',
+                url: 'https://www.beghr.com/resources/guides/staffing-agency-payroll-guide',
                 name: 'Staffing Agency Payroll Guide',
                 datePublished: '2026-06-28',
                 dateModified: '2026-06-28',
@@ -81,10 +81,10 @@ export default function StaffingAgencyPayrollGuidePage() {
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://beghr.com/resources/guides' },
-                  { '@type': 'ListItem', position: 4, name: 'Staffing Agency Payroll Guide', item: 'https://beghr.com/resources/guides/staffing-agency-payroll-guide' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://www.beghr.com/resources/guides' },
+                  { '@type': 'ListItem', position: 4, name: 'Staffing Agency Payroll Guide', item: 'https://www.beghr.com/resources/guides/staffing-agency-payroll-guide' },
                 ],
               },
             ],

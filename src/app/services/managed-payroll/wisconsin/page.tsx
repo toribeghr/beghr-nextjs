@@ -7,16 +7,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Wisconsin Managed Payroll Services | BEG | $25-$45 PEPM',
   description: 'Fully managed payroll for Wisconsin employers at $25-$45 PEPM. State tax, SUI, and compliance handled. No migration required.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/wisconsin' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/wisconsin' },
   openGraph: {
     title: 'Wisconsin Managed Payroll Services | BEG | $25-$45 PEPM',
     description: 'Fully managed payroll for Wisconsin employers at $25-$45 PEPM. State tax, SUI, and compliance handled. No migration required.',
-    url: 'https://beghr.com/services/managed-payroll/wisconsin',
+    url: 'https://www.beghr.com/services/managed-payroll/wisconsin',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Wisconsin Managed Payroll Services | BEG | $25-$45 PEPM', description: 'Fully managed payroll for Wisconsin employers at $25-$45 PEPM. State tax, SUI, and compliance handled. No migration required.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Wisconsin Managed Payroll Services | BEG | $25-$45 PEPM', description: 'Fully managed payroll for Wisconsin employers at $25-$45 PEPM. State tax, SUI, and compliance handled. No migration required.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('wisconsin-payroll');
@@ -90,7 +90,7 @@ export default function PayrollWisconsinPage() {
             '@context': 'https://schema.org',
             '@type': 'Service',
             name: 'Wisconsin Managed Payroll Services',
-            provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
+            provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             areaServed: { '@type': 'State', name: 'Wisconsin' },
             description: 'Fully managed payroll for Wisconsin employers at $25-$45 PEPM.',
           })
@@ -103,10 +103,10 @@ export default function PayrollWisconsinPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Wisconsin', item: 'https://beghr.com/services/managed-payroll/wisconsin' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Wisconsin', item: 'https://www.beghr.com/services/managed-payroll/wisconsin' },
             ],
           })
         }}

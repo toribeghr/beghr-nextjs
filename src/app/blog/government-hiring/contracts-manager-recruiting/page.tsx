@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Recruiting a Government Contracts Manager | BEG',
   description: 'The right contracts manager protects your margin and compliance posture. How to find and hire a strong GovCon contracts manager in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/government-hiring/contracts-manager-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/government-hiring/contracts-manager-recruiting' },
   openGraph: {
     title: 'Recruiting a Government Contracts Manager | BEG',
     description: 'The right contracts manager protects your margin and compliance posture. How to find and hire a strong GovCon contracts manager in 23-35 days.',
-    url: 'https://beghr.com/blog/government-hiring/contracts-manager-recruiting',
+    url: 'https://www.beghr.com/blog/government-hiring/contracts-manager-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Recruiting a Government Contracts Manager | BEG', description: 'The right contracts manager protects your margin and compliance posture. How to find and hire a strong GovCon contracts manager in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Recruiting a Government Contracts Manager | BEG', description: 'The right contracts manager protects your margin and compliance posture. How to find and hire a strong GovCon contracts manager in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/government-hiring/contracts-manager-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function ContractsManagerRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Recruiting a Government Contracts Manager | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/government-hiring/contracts-manager-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Recruiting a Government Contracts Manager | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/government-hiring/contracts-manager-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -175,8 +175,8 @@ export default function ContractsManagerRecruitingPage() {
         description: 'How to define, source, and close a strong government contracts manager hire in 23-35 days using passive candidate sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/government-hiring/contracts-manager-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/government-hiring/contracts-manager-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

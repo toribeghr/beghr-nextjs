@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Accounting Firm Payroll Compliance 2026 | BEG Guide",
   description: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close coordination, FLSA requirements, and state-specific wage rules. BEG at $25-$45 PEPM.",
-  alternates: { canonical: "https://beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" },
+  alternates: { canonical: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" },
   openGraph: {
     title: "Accounting Firm Payroll Compliance 2026 | BEG Guide",
     description: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close coordination, FLSA requirements, and state-specific wage rules. BEG at $25-$45 PEPM.",
-    url: "https://beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance",
+    url: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance",
     siteName: "Business Executive Group",
-    images: [{ url: "https://beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Accounting Firm Payroll Compliance 2026 | BEG Guide", description: "CPA firm payroll compliance: remote staff, 401(k), year-end close. BEG at $25-$45 PEPM.", images: ["https://beghr.com/assets/og-image.org"] },
+  twitter: { card: "summary_large_image", title: "Accounting Firm Payroll Compliance 2026 | BEG Guide", description: "CPA firm payroll compliance: remote staff, 401(k), year-end close. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.org"] },
 };
 
 const faqs = [
@@ -46,7 +46,17 @@ const faqs = [
 export default function AccountingFirmPayrollCompliancePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>See what your payroll provider really charges</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Most providers hide per-run and add-on fees. Audit your real cost per employee in about 30 seconds, free.</p>
+          <a href="/resources/payroll-fee-auditor" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Run the Payroll Fee Auditor &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -184,20 +194,20 @@ export default function AccountingFirmPayrollCompliancePage() {
         "@type": "BlogPosting",
         "headline": "CPA Firm Payroll Compliance: Multi-State Remote Staff, 401(k), and Year-End Close",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
-        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://beghr.com" },
+        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },
         "datePublished": "2026-06-28",
         "dateModified": "2026-06-28",
-        "url": "https://beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance"
+        "url": "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance"
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beghr.com" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://beghr.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://beghr.com/blog/payroll" },
-          { "@type": "ListItem", "position": 4, "name": "Accounting / CPA", "item": "https://beghr.com/blog/payroll/accounting-cpa" },
-          { "@type": "ListItem", "position": 5, "name": "Payroll Compliance", "item": "https://beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.beghr.com" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.beghr.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://www.beghr.com/blog/payroll" },
+          { "@type": "ListItem", "position": 4, "name": "Accounting / CPA", "item": "https://www.beghr.com/blog/payroll/accounting-cpa" },
+          { "@type": "ListItem", "position": 5, "name": "Payroll Compliance", "item": "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" }
         ]
       }) }} />
     </article>

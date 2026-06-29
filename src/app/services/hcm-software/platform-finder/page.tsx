@@ -6,16 +6,16 @@ import LeadCaptureForm from '@/components/LeadCaptureForm';
 export const metadata: Metadata = {
   title: 'Which HCM Platform Fits You? | Free Finder | BEG',
   description: 'Answer 4 quick questions about your size, industry, current system, and priorities to get a tailored HCM software recommendation and your best next step from BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/platform-finder' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/platform-finder' },
   openGraph: {
     title: 'Which HCM Platform Fits You? | Free Finder | BEG',
     description: 'Four questions, one tailored HCM recommendation. Find the right fit for your size, industry, and current system.',
-    url: 'https://beghr.com/services/hcm-software/platform-finder',
+    url: 'https://www.beghr.com/services/hcm-software/platform-finder',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Which HCM Platform Fits You? | Free Finder | BEG', description: 'Four questions, one tailored HCM recommendation for your business.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Which HCM Platform Fits You? | Free Finder | BEG', description: 'Four questions, one tailored HCM recommendation for your business.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function PlatformFinderPage() {
@@ -116,9 +116,9 @@ export default function PlatformFinderPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'Platform Finder', item: 'https://beghr.com/services/hcm-software/platform-finder' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Platform Finder', item: 'https://www.beghr.com/services/hcm-software/platform-finder' },
             ],
           }),
         }}

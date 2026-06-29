@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG',
   description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/fitness' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/fitness' },
   openGraph: {
     title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG',
     description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.',
-    url: 'https://beghr.com/services/managed-payroll/fitness',
+    url: 'https://www.beghr.com/services/managed-payroll/fitness',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG', description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG', description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -278,7 +278,7 @@ export default function PayrollFitnessPage() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'All our personal trainers are on 1099 -- is that a problem?', acceptedAnswer: { '@type': 'Answer', text: 'Trainers who work exclusively at your studio on your schedule using your equipment almost certainly qualify as W-2 employees. We review each relationship and identify the risk.' } }, { '@type': 'Question', name: 'How do you handle commission on personal training packages?', acceptedAnswer: { '@type': 'Answer', text: 'Commission must be included in the regular rate of pay for overtime calculations. We fold your commission structure into overtime automatically each cycle.' } }, { '@type': 'Question', name: 'Do we have to change systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing systems. Migration is never a requirement.' } }] }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Fitness Studios & Gyms', item: 'https://beghr.com/services/managed-payroll/fitness' }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Fitness Studios & Gyms', item: 'https://www.beghr.com/services/managed-payroll/fitness' }] }) }} />
       <RelatedPosts
         heading="From the blog"
         posts={[

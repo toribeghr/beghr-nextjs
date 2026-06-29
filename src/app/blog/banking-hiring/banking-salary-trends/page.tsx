@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Banking Salary Trends 2026 | BEG',
   description: 'Banking pay is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a banking hire in 2026.',
-  alternates: { canonical: 'https://beghr.com/blog/banking-hiring/banking-salary-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/banking-hiring/banking-salary-trends' },
   openGraph: {
     title: 'Banking Salary Trends 2026 | BEG',
     description: 'Banking pay is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a banking hire in 2026.',
-    url: 'https://beghr.com/blog/banking-hiring/banking-salary-trends',
+    url: 'https://www.beghr.com/blog/banking-hiring/banking-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Banking Salary Trends 2026 | BEG', description: 'Banking pay is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a banking hire in 2026.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Banking Salary Trends 2026 | BEG', description: 'Banking pay is climbing, but the best candidates are passive and pay is only part of the decision. What actually closes a banking hire in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/banking-hiring/banking-salary-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function BankingSalaryTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Banking Salary Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/banking-hiring/banking-salary-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Banking Salary Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/banking-hiring/banking-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -167,8 +167,8 @@ export default function BankingSalaryTrendsPage() {
         description: 'Why banking pay is rising, why money alone does not close strong passive candidates, and what actually wins a banking hire in 2026.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/banking-hiring/banking-salary-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/banking-hiring/banking-salary-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

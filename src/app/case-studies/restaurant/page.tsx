@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Restaurant Group Eliminates Payroll Admin | BEG Case Study',
   description: 'A 4-location, 85-employee restaurant group cut payroll admin from 12 hours/week to zero. BEG handled tip compliance, multi-state taxes, and every pay cycle.',
-  alternates: { canonical: 'https://beghr.com/case-studies/restaurant' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies/restaurant' },
   openGraph: {
     title: 'Restaurant Group Eliminates Payroll Admin | BEG Case Study',
     description: 'A 4-location, 85-employee restaurant group cut payroll admin from 12 hours/week to zero. BEG handled tip compliance, multi-state taxes, and every pay cycle.',
-    url: 'https://beghr.com/case-studies/restaurant',
+    url: 'https://www.beghr.com/case-studies/restaurant',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Restaurant Group Eliminates Payroll Admin | BEG Case Study', description: 'A 4-location, 85-employee restaurant group cut payroll admin from 12 hours/week to zero. BEG handled tip compliance, multi-state taxes, and every pay cycle.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Restaurant Group Eliminates Payroll Admin | BEG Case Study', description: 'A 4-location, 85-employee restaurant group cut payroll admin from 12 hours/week to zero. BEG handled tip compliance, multi-state taxes, and every pay cycle.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function RestaurantCaseStudyPage() {
@@ -156,18 +156,18 @@ export default function RestaurantCaseStudyPage() {
         description: 'A 4-location, 85-employee restaurant group cut payroll admin from 12 hours/week to zero and resolved an $8K tip compliance liability after switching to BEG managed payroll.',
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/case-studies/restaurant',
+        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/case-studies/restaurant',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
-          { '@type': 'ListItem', position: 3, name: 'Restaurant Case Study', item: 'https://beghr.com/case-studies/restaurant' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 3, name: 'Restaurant Case Study', item: 'https://www.beghr.com/case-studies/restaurant' },
         ],
       }) }} />
     </article>

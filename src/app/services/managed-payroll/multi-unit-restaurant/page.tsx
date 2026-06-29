@@ -8,20 +8,20 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Multi-Location Restaurant Payroll | Consolidated. Tip Compliant. | BEG',
   description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/multi-unit-restaurant' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/multi-unit-restaurant' },
   openGraph: {
     title: 'Multi-Location Restaurant Payroll | Consolidated. Tip Compliant. | BEG',
     description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
-    url: 'https://beghr.com/services/managed-payroll/multi-unit-restaurant',
+    url: 'https://www.beghr.com/services/managed-payroll/multi-unit-restaurant',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Multi-Location Restaurant Payroll | Consolidated. Tip Compliant. | BEG',
     description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -259,9 +259,9 @@ export default function PayrollMultiUnitRestaurantPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Multi-Location Restaurant', item: 'https://beghr.com/services/managed-payroll/multi-unit-restaurant' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Multi-Location Restaurant', item: 'https://www.beghr.com/services/managed-payroll/multi-unit-restaurant' },
             ],
           }),
         }}

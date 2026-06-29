@@ -6,16 +6,16 @@ import LeadCaptureForm from '@/components/LeadCaptureForm';
 export const metadata: Metadata = {
   title: 'iSolved HCM ROI Calculator | See Your Savings | BEG',
   description: 'Calculate the ROI of moving to one connected HCM platform. Estimate admin hours reclaimed, error costs avoided, and annual value vs. juggling separate HR and payroll systems.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/roi-calculator' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/roi-calculator' },
   openGraph: {
     title: 'iSolved HCM ROI Calculator | See Your Savings | BEG',
     description: 'Estimate the ROI of consolidating onto one HCM platform: admin hours reclaimed, errors avoided, and annual value. Forrester documented 330% ROI for iSolved clients.',
-    url: 'https://beghr.com/services/hcm-software/roi-calculator',
+    url: 'https://www.beghr.com/services/hcm-software/roi-calculator',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM ROI Calculator | See Your Savings | BEG', description: 'Estimate the ROI of consolidating onto one HCM platform. Forrester documented 330% ROI for iSolved clients.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM ROI Calculator | See Your Savings | BEG', description: 'Estimate the ROI of consolidating onto one HCM platform. Forrester documented 330% ROI for iSolved clients.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -193,9 +193,9 @@ export default function HCMROICalculatorPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'ROI Calculator', item: 'https://beghr.com/services/hcm-software/roi-calculator' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'ROI Calculator', item: 'https://www.beghr.com/services/hcm-software/roi-calculator' },
             ],
           }),
         }}

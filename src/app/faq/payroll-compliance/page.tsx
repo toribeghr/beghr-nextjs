@@ -5,21 +5,21 @@ export const metadata: Metadata = {
   title: 'Payroll Compliance FAQ | Federal & State Rules Explained | BEG',
   description: 'Common payroll compliance questions: tax deadlines, W-2 rules, multi-state requirements, FLSA, and how managed payroll handles compliance.',
   alternates: {
-    canonical: 'https://beghr.com/faq/payroll-compliance',
+    canonical: 'https://www.beghr.com/faq/payroll-compliance',
   },
   openGraph: {
     title: 'Payroll Compliance FAQ | Federal & State Rules Explained | BEG',
     description: 'Common payroll compliance questions: tax deadlines, W-2 rules, multi-state requirements, FLSA, and how managed payroll handles compliance.',
-    url: 'https://beghr.com/faq/payroll-compliance',
+    url: 'https://www.beghr.com/faq/payroll-compliance',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Payroll Compliance FAQ | Federal & State Rules Explained | BEG',
     description: 'Common payroll compliance questions: tax deadlines, W-2 rules, multi-state requirements, FLSA, and how managed payroll handles compliance.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -78,9 +78,9 @@ export default function PayrollComplianceFaqPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://beghr.com/faq' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Compliance FAQ', item: 'https://beghr.com/faq/payroll-compliance' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://www.beghr.com/faq' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Compliance FAQ', item: 'https://www.beghr.com/faq/payroll-compliance' },
             ],
           }),
         }}

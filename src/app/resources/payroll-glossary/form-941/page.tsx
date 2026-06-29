@@ -4,20 +4,20 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Form 941 | Payroll Glossary | BEG',
   description: 'Learn how to complete Form 941, quarterly deadlines, how 941 deposits relate to the return, and common 941 errors.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/form-941' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/form-941' },
   openGraph: {
     title: 'Form 941 | Payroll Glossary | BEG',
     description: 'Learn how to complete Form 941, quarterly deadlines, how 941 deposits relate to the return, and common 941 errors.',
-    url: 'https://beghr.com/resources/payroll-glossary/form-941',
+    url: 'https://www.beghr.com/resources/payroll-glossary/form-941',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Form 941 | Payroll Glossary | BEG',
     description: 'Learn how to complete Form 941, quarterly deadlines, how 941 deposits relate to the return, and common 941 errors.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -80,14 +80,14 @@ export default function Form941Page() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/form-941', url: 'https://beghr.com/resources/payroll-glossary/form-941', name: 'Form 941 | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Form 941', description: 'Learn how to complete Form 941, quarterly deadlines, how 941 deposits relate to the return, and common 941 errors.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/form-941', url: 'https://www.beghr.com/resources/payroll-glossary/form-941', name: 'Form 941 | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Form 941', description: 'Learn how to complete Form 941, quarterly deadlines, how 941 deposits relate to the return, and common 941 errors.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Form 941', item: 'https://beghr.com/resources/payroll-glossary/form-941' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Form 941', item: 'https://www.beghr.com/resources/payroll-glossary/form-941' },
             ]},
           ]
         }) }} />

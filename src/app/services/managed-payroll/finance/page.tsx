@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG',
   description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/finance' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/finance' },
   openGraph: {
     title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG',
     description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.',
-    url: 'https://beghr.com/services/managed-payroll/finance',
+    url: 'https://www.beghr.com/services/managed-payroll/finance',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG', description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll for Finance Firms | $25–$45 PEPM | BEG', description: 'Finance and accounting payroll fully managed. Bonus structures, commission tracking, zero-error filings at $25–$45 PEPM. Request a scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -298,9 +298,9 @@ export default function PayrollFinancePage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Finance', item: 'https://beghr.com/services/managed-payroll/finance' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Finance', item: 'https://www.beghr.com/services/managed-payroll/finance' },
             ],
           }),
         }}

@@ -6,16 +6,16 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'iSolved Reseller & Partner | BEG',
   description: 'BEG is an authorized iSolved reseller and partner. Learn what that means and why buying iSolved through BEG includes implementation, migration, and support.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-reseller' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-reseller' },
   openGraph: {
     title: 'iSolved Reseller & Partner | BEG',
     description: 'BEG is an authorized iSolved reseller and partner. Learn what that means and why buying iSolved through BEG includes implementation, migration, and support.',
-    url: 'https://beghr.com/services/hcm-software/isolved-reseller',
+    url: 'https://www.beghr.com/services/hcm-software/isolved-reseller',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved Reseller & Partner | BEG', description: 'BEG is an authorized iSolved reseller and partner. Learn what that means and why buying iSolved through BEG includes implementation, migration, and support.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved Reseller & Partner | BEG', description: 'BEG is an authorized iSolved reseller and partner. Learn what that means and why buying iSolved through BEG includes implementation, migration, and support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -61,9 +61,9 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://beghr.com/services' },
-    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved Reseller', item: 'https://beghr.com/services/hcm-software/isolved-reseller' },
+    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
+    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+    { '@type': 'ListItem', position: 3, name: 'iSolved Reseller', item: 'https://www.beghr.com/services/hcm-software/isolved-reseller' },
   ],
 };
 
@@ -184,19 +184,19 @@ export default function iSolvedResellerPage() {
             category: 'HCM technology',
             title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
-            href: '/blog/hcm-technology/isolved-platform',
+            href: '/blog/hcm-software/isolved-platform',
           },
           {
             category: 'HCM technology',
             title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
             excerpt: 'Payroll, onboarding, benefits enrollment, and compliance reporting are high-ROI automation targets. Here is what to prioritize and what to keep manual.',
-            href: '/blog/hcm-technology/hr-automation',
+            href: '/blog/hcm-software/hr-automation',
           },
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
             excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically, not manually.',
-            href: '/blog/hcm-technology/payroll-compliance',
+            href: '/blog/hcm-software/payroll-compliance',
           },
         ]}
       />

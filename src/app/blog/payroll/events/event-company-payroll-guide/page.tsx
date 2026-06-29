@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Event Company Payroll Guide 2026 | Seasonal Crews | BEG",
   description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules. BEG at $25-$45 PEPM.",
-  alternates: { canonical: "https://beghr.com/blog/payroll/events/event-company-payroll-guide" },
+  alternates: { canonical: "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide" },
   openGraph: {
     title: "Event Company Payroll Guide 2026 | Seasonal Crews | BEG",
     description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules. BEG at $25-$45 PEPM.",
-    url: "https://beghr.com/blog/payroll/events/event-company-payroll-guide",
+    url: "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide",
     siteName: "Business Executive Group",
-    images: [{ url: "https://beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Event Company Payroll Guide 2026 | Seasonal Crews | BEG", description: "Event company payroll: seasonal crews, W-2 vs 1099, multi-state touring compliance, and AB5. BEG at $25-$45 PEPM.", images: ["https://beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Event Company Payroll Guide 2026 | Seasonal Crews | BEG", description: "Event company payroll: seasonal crews, W-2 vs 1099, multi-state touring compliance, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -46,7 +46,17 @@ const faqs = [
 export default function EventCompanyPayrollGuidePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>See what your payroll provider really charges</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Most providers hide per-run and add-on fees. Audit your real cost per employee in about 30 seconds, free.</p>
+          <a href="/resources/payroll-fee-auditor" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Run the Payroll Fee Auditor &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -183,20 +193,20 @@ export default function EventCompanyPayrollGuidePage() {
         "@type": "BlogPosting",
         "headline": "Event Company Payroll Guide: Seasonal Crews, 1099 vs W-2, and Multi-State Compliance (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
-        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://beghr.com" },
+        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },
         "datePublished": "2026-06-28",
         "dateModified": "2026-06-28",
-        "url": "https://beghr.com/blog/payroll/events/event-company-payroll-guide"
+        "url": "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide"
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beghr.com" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://beghr.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://beghr.com/blog/payroll" },
-          { "@type": "ListItem", "position": 4, "name": "Events", "item": "https://beghr.com/blog/payroll/events" },
-          { "@type": "ListItem", "position": 5, "name": "Event Company Payroll Guide", "item": "https://beghr.com/blog/payroll/events/event-company-payroll-guide" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.beghr.com" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.beghr.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://www.beghr.com/blog/payroll" },
+          { "@type": "ListItem", "position": 4, "name": "Events", "item": "https://www.beghr.com/blog/payroll/events" },
+          { "@type": "ListItem", "position": 5, "name": "Event Company Payroll Guide", "item": "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide" }
         ]
       }) }} />
     </article>

@@ -7,21 +7,21 @@ export const metadata: Metadata = {
   title: 'Payroll Tax Calendar 2026 | Every Deadline, One Page | BEG',
   description: 'Every 2026 federal and state payroll tax deadline in one filterable view. Form 941, FUTA, W-2, 1099, ACA, and state UI dates. Free, no email required.',
   alternates: {
-    canonical: 'https://beghr.com/resources/payroll-tax-calendar',
+    canonical: 'https://www.beghr.com/resources/payroll-tax-calendar',
   },
   openGraph: {
     title: 'Payroll Tax Calendar 2026 | Every Deadline, One Page | BEG',
     description: 'Every 2026 federal and state payroll tax deadline in one filterable view. Form 941, FUTA, W-2, 1099, ACA, and state UI dates. Free, no email required.',
-    url: 'https://beghr.com/resources/payroll-tax-calendar',
+    url: 'https://www.beghr.com/resources/payroll-tax-calendar',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Payroll Tax Calendar 2026 | Every Deadline, One Page | BEG',
     description: 'Every 2026 federal and state payroll tax deadline in one filterable view. Form 941, FUTA, W-2, 1099, ACA, and state UI dates. Free, no email required.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -30,8 +30,8 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'WebPage',
-      '@id': 'https://beghr.com/resources/payroll-tax-calendar#webpage',
-      url: 'https://beghr.com/resources/payroll-tax-calendar',
+      '@id': 'https://www.beghr.com/resources/payroll-tax-calendar#webpage',
+      url: 'https://www.beghr.com/resources/payroll-tax-calendar',
       name: 'Payroll Tax Calendar 2026',
       description: 'Every 2026 federal and state payroll tax deadline in one filterable view.',
       datePublished: '2026-06-28',
@@ -44,15 +44,15 @@ const jsonLd = {
       publisher: {
         '@type': 'Organization',
         name: 'Business Executive Group',
-        url: 'https://beghr.com',
+        url: 'https://www.beghr.com',
       },
     },
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-        { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-        { '@type': 'ListItem', position: 3, name: 'Payroll Tax Calendar', item: 'https://beghr.com/resources/payroll-tax-calendar' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+        { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+        { '@type': 'ListItem', position: 3, name: 'Payroll Tax Calendar', item: 'https://www.beghr.com/resources/payroll-tax-calendar' },
       ],
     },
     {

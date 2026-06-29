@@ -6,16 +6,16 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Property Management | BEG',
   description: 'iSolved HCM for property management. Multiple properties, on-site managers, housing allowances, and leasing commissions on one connected platform.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/property-management' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/property-management' },
   openGraph: {
     title: 'iSolved HCM for Property Management | BEG',
     description: 'iSolved HCM for property management. Multiple properties, on-site managers, housing allowances, and leasing commissions on one connected platform.',
-    url: 'https://beghr.com/services/hcm-software/property-management',
+    url: 'https://www.beghr.com/services/hcm-software/property-management',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Property Management | BEG', description: 'iSolved HCM for property management. Multiple properties, on-site managers, housing allowances, and leasing commissions on one connected platform.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Property Management | BEG', description: 'iSolved HCM for property management. Multiple properties, on-site managers, housing allowances, and leasing commissions on one connected platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -237,9 +237,9 @@ export default function HCMPropertyManagementPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'Property Management', item: 'https://beghr.com/services/hcm-software/property-management' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Property Management', item: 'https://www.beghr.com/services/hcm-software/property-management' },
             ],
           }),
         }}
@@ -252,7 +252,7 @@ export default function HCMPropertyManagementPage() {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
             speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tldr', '.faq-item h3', '.faq-item p'] },
-            url: 'https://beghr.com/services/hcm-software/property-management',
+            url: 'https://www.beghr.com/services/hcm-software/property-management',
           }),
         }}
       />

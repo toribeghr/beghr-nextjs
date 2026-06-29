@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG',
   description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/technology' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/technology' },
   openGraph: {
     title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG',
     description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.',
-    url: 'https://beghr.com/services/managed-payroll/technology',
+    url: 'https://www.beghr.com/services/managed-payroll/technology',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG', description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Tech Company Payroll | Remote Teams. Multi-State. Handled. | BEG', description: 'Tech company payroll managed at $25–$45 PEPM. Remote teams, multi-state compliance, and equity compensation included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -298,9 +298,9 @@ export default function PayrollTechnologyPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Technology', item: 'https://beghr.com/services/managed-payroll/technology' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Technology', item: 'https://www.beghr.com/services/managed-payroll/technology' },
             ],
           }),
         }}

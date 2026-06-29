@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Rippling vs Managed Payroll | Not Software. A Service. | BEG',
   description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled, not rebuilt, BEG managed payroll runs it for you at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-rippling' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/managed-payroll-vs-rippling' },
   openGraph: {
     title: 'Rippling vs Managed Payroll | Not Software. A Service. | BEG',
     description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled -- not rebuilt -- managed payroll may cost 60–70% less. Full compar...',
-    url: 'https://beghr.com/blog/compare/managed-payroll-vs-rippling',
+    url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-rippling',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Rippling vs Managed Payroll | Not Software. A Service. | BEG', description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled -- not rebuilt -- managed payroll may cost 60–70% less. Full compar...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Rippling vs Managed Payroll | Not Software. A Service. | BEG', description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled -- not rebuilt -- managed payroll may cost 60–70% less. Full compar...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -48,7 +48,7 @@ export default function ManagedPayrollVsRipplingPage() {
 
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Rippling vs Managed Payroll | Not Software. A Service. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/managed-payroll-vs-rippling"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Rippling vs Managed Payroll | Not Software. A Service. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/managed-payroll-vs-rippling"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -239,8 +239,8 @@ export default function ManagedPayrollVsRipplingPage() {
         description: 'Full comparison of Rippling all-in-one platform vs. BEG managed payroll service -- cost, capabilities, and which fits companies with 20–200 employees.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/managed-payroll-vs-rippling',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-rippling',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

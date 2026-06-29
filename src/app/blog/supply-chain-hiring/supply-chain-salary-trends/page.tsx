@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Supply Chain Salary Trends 2026 | BEG',
   description: 'Supply chain comp is climbing, but the best operators are passive and pay is only part of the decision. What actually closes a supply chain hire.',
-  alternates: { canonical: 'https://beghr.com/blog/supply-chain-hiring/supply-chain-salary-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/supply-chain-hiring/supply-chain-salary-trends' },
   openGraph: {
     title: 'Supply Chain Salary Trends 2026 | BEG',
     description: 'Supply chain comp is climbing, but the best operators are passive and pay is only part of the decision. What actually closes a supply chain hire.',
-    url: 'https://beghr.com/blog/supply-chain-hiring/supply-chain-salary-trends',
+    url: 'https://www.beghr.com/blog/supply-chain-hiring/supply-chain-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Supply Chain Salary Trends 2026 | BEG', description: 'Supply chain comp is climbing, but the best operators are passive and pay is only part of the decision. What actually closes a supply chain hire.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Supply Chain Salary Trends 2026 | BEG', description: 'Supply chain comp is climbing, but the best operators are passive and pay is only part of the decision. What actually closes a supply chain hire.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/supply-chain-hiring/supply-chain-salary-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function SupplyChainSalaryTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Supply Chain Salary Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/supply-chain-hiring/supply-chain-salary-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Supply Chain Salary Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/supply-chain-hiring/supply-chain-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -171,8 +171,8 @@ export default function SupplyChainSalaryTrendsPage() {
         description: 'What is driving supply chain compensation higher in 2026 and why scope, growth, and speed close the hire as much as the salary number.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/supply-chain-hiring/supply-chain-salary-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/supply-chain-hiring/supply-chain-salary-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

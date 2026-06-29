@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Solo Firm Growth | When to Hire Your First Associate | BEG',
   description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/solo-firm-growth' },
+  alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/solo-firm-growth' },
   openGraph: {
     title: 'Solo Firm Growth | When to Hire Your First Associate | BEG',
     description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...',
-    url: 'https://beghr.com/blog/legal-hiring/solo-firm-growth',
+    url: 'https://www.beghr.com/blog/legal-hiring/solo-firm-growth',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Solo Firm Growth | When to Hire Your First Associate | BEG', description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Solo Firm Growth | When to Hire Your First Associate | BEG', description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -72,7 +72,7 @@ const readinessRows = [
 export default function SoloFirmGrowthPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Solo Firm Growth | When to Hire Your First Associate | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/legal-hiring/solo-firm-growth"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Solo Firm Growth | When to Hire Your First Associate | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/solo-firm-growth"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -379,12 +379,12 @@ export default function SoloFirmGrowthPage() {
             publisher: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' },
+              logo: { '@type': 'ImageObject', url: 'https://www.beghr.com/assets/beg-header-image.png' },
             },
-            url: 'https://beghr.com/blog/legal-hiring/solo-firm-growth',
+            url: 'https://www.beghr.com/blog/legal-hiring/solo-firm-growth',
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id': 'https://beghr.com/blog/legal-hiring/solo-firm-growth',
+              '@id': 'https://www.beghr.com/blog/legal-hiring/solo-firm-growth',
             },
           }),
         }}

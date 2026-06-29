@@ -5,16 +5,16 @@ import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 export const metadata: Metadata = {
   title: 'ACA Compliance Software | BEG',
   description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. iSolved on one connected platform, supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/aca-compliance-software' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/aca-compliance-software' },
   openGraph: {
     title: 'ACA Compliance Software | BEG',
     description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. iSolved on one connected platform, supported by BEG.',
-    url: 'https://beghr.com/services/hcm-software/aca-compliance-software',
+    url: 'https://www.beghr.com/services/hcm-software/aca-compliance-software',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'ACA Compliance Software | BEG', description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. iSolved on one connected platform, supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'ACA Compliance Software | BEG', description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. iSolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -56,9 +56,9 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://beghr.com/services' },
-    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'ACA Compliance Software', item: 'https://beghr.com/services/hcm-software/aca-compliance-software' },
+    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
+    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+    { '@type': 'ListItem', position: 3, name: 'ACA Compliance Software', item: 'https://www.beghr.com/services/hcm-software/aca-compliance-software' },
   ],
 };
 
@@ -66,7 +66,7 @@ const webPageJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tldr', '.faq-item h3', '.faq-item p'] },
-  url: 'https://beghr.com/services/hcm-software/aca-compliance-software',
+  url: 'https://www.beghr.com/services/hcm-software/aca-compliance-software',
 };
 
 export default function AcaComplianceSoftwarePage() {

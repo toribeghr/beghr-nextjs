@@ -4,9 +4,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Health Savings Account (HSA) | Payroll Glossary | BEG',
   description: 'Tax-advantaged account paired with a high-deductible health plan allowing pre-tax contributions for qualified medical expenses.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/health-savings-account' },
-  openGraph: { title: 'Health Savings Account (HSA) | Payroll Glossary | BEG', description: 'Tax-advantaged account paired with a high-deductible health plan allowing pre-tax contributions for qualified medical expenses.', url: 'https://beghr.com/resources/payroll-glossary/health-savings-account', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Health Savings Account (HSA) | Payroll Glossary | BEG', description: 'Tax-advantaged account paired with a high-deductible health plan allowing pre-tax contributions for qualified medical expenses.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/health-savings-account' },
+  openGraph: { title: 'Health Savings Account (HSA) | Payroll Glossary | BEG', description: 'Tax-advantaged account paired with a high-deductible health plan allowing pre-tax contributions for qualified medical expenses.', url: 'https://www.beghr.com/resources/payroll-glossary/health-savings-account', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Health Savings Account (HSA) | Payroll Glossary | BEG', description: 'Tax-advantaged account paired with a high-deductible health plan allowing pre-tax contributions for qualified medical expenses.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -63,14 +63,14 @@ export default function HealthSavingsAccountPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/health-savings-account', url: 'https://beghr.com/resources/payroll-glossary/health-savings-account', name: 'Health Savings Account (HSA) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Health Savings Account (HSA)', description: 'Tax-advantaged account paired with a high-deductible health plan allowing pre-tax contributions for qualified medical expenses.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/health-savings-account', url: 'https://www.beghr.com/resources/payroll-glossary/health-savings-account', name: 'Health Savings Account (HSA) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Health Savings Account (HSA)', description: 'Tax-advantaged account paired with a high-deductible health plan allowing pre-tax contributions for qualified medical expenses.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Health Savings Account (HSA)', item: 'https://beghr.com/resources/payroll-glossary/health-savings-account' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Health Savings Account (HSA)', item: 'https://www.beghr.com/resources/payroll-glossary/health-savings-account' },
             ]},
           ]
         }) }} />

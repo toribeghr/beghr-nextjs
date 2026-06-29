@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Architecture Firm Payroll Guides | Project Billing + Partners | BEG',
   description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance. BEG managed payroll at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/architecture' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/architecture' },
   openGraph: {
     title: 'Architecture Firm Payroll Guides | Project Billing + Partners | BEG',
     description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance. BEG managed payroll at $25-$45 PEPM.',
-    url: 'https://beghr.com/blog/payroll/architecture',
+    url: 'https://www.beghr.com/blog/payroll/architecture',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Architecture Firm Payroll Guides | Project Billing + Partners | BEG', description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance. BEG managed payroll at $25-$45 PEPM.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Architecture Firm Payroll Guides | Project Billing + Partners | BEG', description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance. BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -98,10 +98,10 @@ export default function ArchitecturePayrollHubPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Architecture Firms', item: 'https://beghr.com/blog/payroll/architecture' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Architecture Firms', item: 'https://www.beghr.com/blog/payroll/architecture' },
             ],
           })
         }}

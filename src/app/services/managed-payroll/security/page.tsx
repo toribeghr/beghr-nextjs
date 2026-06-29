@@ -8,20 +8,20 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Security Company Payroll | Guard Shifts. Overtime. Managed. | BEG',
   description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/security' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/security' },
   openGraph: {
     title: 'Security Company Payroll | Guard Shifts. Overtime. Managed. | BEG',
     description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
-    url: 'https://beghr.com/services/managed-payroll/security',
+    url: 'https://www.beghr.com/services/managed-payroll/security',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Security Company Payroll | Guard Shifts. Overtime. Managed. | BEG',
     description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -259,9 +259,9 @@ export default function PayrollSecurityPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Security Companies', item: 'https://beghr.com/services/managed-payroll/security' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Security Companies', item: 'https://www.beghr.com/services/managed-payroll/security' },
             ],
           }),
         }}

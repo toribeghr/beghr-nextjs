@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Business & Entrepreneur Resources | BEG Blog',
   description: 'BEG network content, entrepreneur tips, and business community updates.',
-  alternates: { canonical: 'https://beghr.com/blog/entrepreneur' },
+  alternates: { canonical: 'https://www.beghr.com/blog/entrepreneur' },
   openGraph: {
     title: 'Business & Entrepreneur Resources | BEG Blog',
     description: 'BEG network content, entrepreneur tips, and business community updates.',
-    url: 'https://beghr.com/blog/entrepreneur',
+    url: 'https://www.beghr.com/blog/entrepreneur',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Business & Entrepreneur Resources | BEG Blog', description: 'BEG network content, entrepreneur tips, and business community updates.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Business & Entrepreneur Resources | BEG Blog', description: 'BEG network content, entrepreneur tips, and business community updates.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -75,9 +75,9 @@ export default function BlogEntrepreneurPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Entrepreneur', item: 'https://beghr.com/blog/entrepreneur' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Entrepreneur', item: 'https://www.beghr.com/blog/entrepreneur' },
             ],
           }),
         }}

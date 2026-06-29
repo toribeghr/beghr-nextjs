@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG',
   description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/franchise' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/franchise' },
   openGraph: {
     title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG',
     description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
-    url: 'https://beghr.com/services/managed-payroll/franchise',
+    url: 'https://www.beghr.com/services/managed-payroll/franchise',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG', description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG', description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -278,7 +278,7 @@ export default function PayrollFranchisePage() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'Does the $25–$45 PEPM rate apply across all my locations?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The rate is per employee, not per location. No per-location setup fees or per-state surcharges.' } }, { '@type': 'Question', name: 'How quickly can you set up payroll for a new location?', acceptedAnswer: { '@type': 'Answer', text: 'Once onboarded, adding a new location takes 2–3 weeks for state registration and setup.' } }, { '@type': 'Question', name: 'What does $25–$45 PEPM include across all locations?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: multi-location payroll, state registrations, new location setup, year-end W-2s, and BEG support. One invoice, all locations.' } }] }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Franchise Businesses', item: 'https://beghr.com/services/managed-payroll/franchise' }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Franchise Businesses', item: 'https://www.beghr.com/services/managed-payroll/franchise' }] }) }} />
       <RelatedPosts
         heading="From the blog"
         posts={[

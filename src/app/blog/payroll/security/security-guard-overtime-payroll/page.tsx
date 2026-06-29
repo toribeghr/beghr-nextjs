@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Security Guard Overtime Payroll | 24-7 Compliance | BEG",
   description: "FLSA overtime rules for security guards: 24/7 operations, shift differential regular rate, state daily overtime, and correct overtime calculation. BEG at $25-$45 PEPM.",
-  alternates: { canonical: "https://beghr.com/blog/payroll/security/security-guard-overtime-payroll" },
+  alternates: { canonical: "https://www.beghr.com/blog/payroll/security/security-guard-overtime-payroll" },
   openGraph: {
     title: "Security Guard Overtime Payroll | 24-7 Compliance | BEG",
     description: "Overtime rules for security guards: 24/7 shift operations, shift differentials in the regular rate, state daily overtime laws, and correct calculation. BEG at $25-$45 PEPM.",
-    url: "https://beghr.com/blog/payroll/security/security-guard-overtime-payroll",
+    url: "https://www.beghr.com/blog/payroll/security/security-guard-overtime-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Security Guard Overtime Payroll | 24-7 Compliance | BEG", description: "FLSA overtime rules for security guards working 24/7 operations: regular rate, shift differentials, and state rules.", images: ["https://beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Security Guard Overtime Payroll | 24-7 Compliance | BEG", description: "FLSA overtime rules for security guards working 24/7 operations: regular rate, shift differentials, and state rules.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -46,7 +46,17 @@ const faqs = [
 export default function SecurityGuardOvertimePayrollPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>Calculate overtime the right way</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Get the correct FLSA regular rate of pay, including bonuses and blended pay rates.</p>
+          <a href="/resources/overtime-pay-calculator" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Open the Overtime Pay Calculator &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -174,20 +184,20 @@ export default function SecurityGuardOvertimePayrollPage() {
         "@type": "BlogPosting",
         "headline": "Security Guard Overtime and Shift Payroll: FLSA Rules for 24/7 Operations",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
-        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://beghr.com" },
+        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },
         "datePublished": "2026-06-28",
         "dateModified": "2026-06-28",
-        "url": "https://beghr.com/blog/payroll/security/security-guard-overtime-payroll"
+        "url": "https://www.beghr.com/blog/payroll/security/security-guard-overtime-payroll"
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beghr.com" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://beghr.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://beghr.com/blog/payroll" },
-          { "@type": "ListItem", "position": 4, "name": "Security", "item": "https://beghr.com/blog/payroll/security" },
-          { "@type": "ListItem", "position": 5, "name": "Security Guard Overtime", "item": "https://beghr.com/blog/payroll/security/security-guard-overtime-payroll" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.beghr.com" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.beghr.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://www.beghr.com/blog/payroll" },
+          { "@type": "ListItem", "position": 4, "name": "Security", "item": "https://www.beghr.com/blog/payroll/security" },
+          { "@type": "ListItem", "position": 5, "name": "Security Guard Overtime", "item": "https://www.beghr.com/blog/payroll/security/security-guard-overtime-payroll" }
         ]
       }) }} />
     </article>

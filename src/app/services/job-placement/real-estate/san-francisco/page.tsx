@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Real Estate Recruiters in San Francisco | BEG',
   description: 'Real Estate placement in San Francisco. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/real-estate/san-francisco' },
-  openGraph: { title: 'Real Estate Recruiters in San Francisco | BEG', description: 'Real Estate placement in San Francisco in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/real-estate/san-francisco', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Real Estate Recruiters in San Francisco | BEG', description: 'Real Estate placement in San Francisco in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/real-estate/san-francisco' },
+  openGraph: { title: 'Real Estate Recruiters in San Francisco | BEG', description: 'Real Estate placement in San Francisco in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/real-estate/san-francisco', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Real Estate Recruiters in San Francisco | BEG', description: 'Real Estate placement in San Francisco in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-real-estate-san-francisco');
@@ -36,7 +36,7 @@ export default function PlacementRealestateSanfranciscoPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Real Estate placement\",\"name\":\"Real Estate Placement in San Francisco\",\"areaServed\":{\"@type\":\"City\",\"name\":\"San Francisco\"},\"url\":\"https://beghr.com/services/job-placement/real-estate/san-francisco\",\"description\":\"Permanent real estate placement in San Francisco in 23-35 days at roughly 50% less than contingency.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Real Estate placement\",\"name\":\"Real Estate Placement in San Francisco\",\"areaServed\":{\"@type\":\"City\",\"name\":\"San Francisco\"},\"url\":\"https://www.beghr.com/services/job-placement/real-estate/san-francisco\",\"description\":\"Permanent real estate placement in San Francisco in 23-35 days at roughly 50% less than contingency.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

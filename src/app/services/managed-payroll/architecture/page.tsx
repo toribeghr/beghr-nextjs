@@ -8,20 +8,20 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Architecture & Design Firm Payroll | Project Billing. PE Staff. | BEG',
   description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/architecture' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/architecture' },
   openGraph: {
     title: 'Architecture & Design Firm Payroll | Project Billing. PE Staff. | BEG',
     description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
-    url: 'https://beghr.com/services/managed-payroll/architecture',
+    url: 'https://www.beghr.com/services/managed-payroll/architecture',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Architecture & Design Firm Payroll | Project Billing. PE Staff. | BEG',
     description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -259,9 +259,9 @@ export default function PayrollArchitecturePage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Architecture & Design', item: 'https://beghr.com/services/managed-payroll/architecture' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Architecture & Design', item: 'https://www.beghr.com/services/managed-payroll/architecture' },
             ],
           }),
         }}

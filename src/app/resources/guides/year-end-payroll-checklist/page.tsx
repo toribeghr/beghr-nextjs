@@ -6,21 +6,21 @@ export const metadata: Metadata = {
   title: 'Year-End Payroll Checklist 2026 | Free Download | BEG',
   description: 'Free year-end payroll checklist: W-2 deadlines, 941 reconciliation, ACA reporting, state filings, and benefit changes.',
   alternates: {
-    canonical: 'https://beghr.com/resources/guides/year-end-payroll-checklist',
+    canonical: 'https://www.beghr.com/resources/guides/year-end-payroll-checklist',
   },
   openGraph: {
     title: 'Year-End Payroll Checklist 2026 | Free Download | BEG',
     description: 'Free year-end payroll checklist: W-2 deadlines, 941 reconciliation, ACA reporting, state filings, and benefit changes.',
-    url: 'https://beghr.com/resources/guides/year-end-payroll-checklist',
+    url: 'https://www.beghr.com/resources/guides/year-end-payroll-checklist',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Year-End Payroll Checklist 2026 | Free Download | BEG',
     description: 'Free year-end payroll checklist: W-2 deadlines, 941 reconciliation, ACA reporting, state filings, and benefit changes.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -76,10 +76,10 @@ export default function YearEndChecklistPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://beghr.com/resources/guides' },
-              { '@type': 'ListItem', position: 4, name: 'Year-End Payroll Checklist', item: 'https://beghr.com/resources/guides/year-end-payroll-checklist' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://www.beghr.com/resources/guides' },
+              { '@type': 'ListItem', position: 4, name: 'Year-End Payroll Checklist', item: 'https://www.beghr.com/resources/guides/year-end-payroll-checklist' },
             ],
           }),
         }}

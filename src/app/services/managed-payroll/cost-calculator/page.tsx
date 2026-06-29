@@ -7,16 +7,16 @@ import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 export const metadata: Metadata = {
   title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
   description: 'Calculate what you\'re paying for payroll today vs. BEG managed payroll at $25–$45 PEPM. Compare in-house, software, PEO, and accountant costs. See your estimated annual savings instantly.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/cost-calculator' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/cost-calculator' },
   openGraph: {
     title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
     description: 'Calculate what you\'re paying for payroll now vs. BEG at $25\u2013$45 PEPM. See your exact annual savings in seconds.',
-    url: 'https://beghr.com/services/managed-payroll/cost-calculator',
+    url: 'https://www.beghr.com/services/managed-payroll/cost-calculator',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG', description: 'Calculate what you\'re paying for payroll now vs. BEG at $25\u2013$45 PEPM. See your exact annual savings in seconds.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG', description: 'Calculate what you\'re paying for payroll now vs. BEG at $25\u2013$45 PEPM. See your exact annual savings in seconds.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -175,9 +175,9 @@ export default function PayrollCostCalculatorPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Cost Calculator', item: 'https://beghr.com/services/managed-payroll/cost-calculator' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Cost Calculator', item: 'https://www.beghr.com/services/managed-payroll/cost-calculator' },
             ],
           }),
         }}

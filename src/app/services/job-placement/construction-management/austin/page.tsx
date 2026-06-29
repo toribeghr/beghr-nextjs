@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Construction Management Recruiters in Austin | BEG',
   description: 'Construction Management placement in Austin. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/construction-management/austin' },
-  openGraph: { title: 'Construction Management Recruiters in Austin | BEG', description: 'Construction Management placement in Austin in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/construction-management/austin', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Construction Management Recruiters in Austin | BEG', description: 'Construction Management placement in Austin in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/construction-management/austin' },
+  openGraph: { title: 'Construction Management Recruiters in Austin | BEG', description: 'Construction Management placement in Austin in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/construction-management/austin', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Construction Management Recruiters in Austin | BEG', description: 'Construction Management placement in Austin in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-construction-management-austin');
@@ -36,7 +36,7 @@ export default function PlacementConstructionmanagementAustinPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Construction Management placement\",\"name\":\"Construction Management Placement in Austin\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Austin\"},\"url\":\"https://beghr.com/services/job-placement/construction-management/austin\",\"description\":\"Permanent construction management placement in Austin in 23-35 days at roughly 50% less than contingency.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Construction Management placement\",\"name\":\"Construction Management Placement in Austin\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Austin\"},\"url\":\"https://www.beghr.com/services/job-placement/construction-management/austin\",\"description\":\"Permanent construction management placement in Austin in 23-35 days at roughly 50% less than contingency.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

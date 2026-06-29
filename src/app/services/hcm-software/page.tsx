@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
   description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
   alternates: {
-    canonical: 'https://beghr.com/services/hcm-software',
+    canonical: 'https://www.beghr.com/services/hcm-software',
   },
   openGraph: {
     title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
     description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
-    url: 'https://beghr.com/services/hcm-software',
+    url: 'https://www.beghr.com/services/hcm-software',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG', description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM | Only Platform With Claude AI. 330% ROI. | BEG', description: 'BEG is an authorized iSolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -700,19 +700,19 @@ export default function HCMSoftwarePage() {
             category: 'HCM software',
             title: 'HR Automation in 2025: What iSolved Actually Automates',
             excerpt: 'Most HR platforms promise automation but deliver report generation. Here is what genuine automation looks like and which tasks it eliminates.',
-            href: '/blog/hcm-technology/hr-automation',
+            href: '/blog/hcm-software/hr-automation',
           },
           {
             category: 'HCM software',
             title: 'iSolved Platform Overview: Features, Pricing, and Who It Is For',
             excerpt: 'A no-fluff breakdown of what iSolved covers, who it fits best, and how it compares to the platforms most mid-size companies are already running.',
-            href: '/blog/hcm-technology/isolved-platform',
+            href: '/blog/hcm-software/isolved-platform',
           },
           {
             category: 'HCM software',
             title: 'Payroll Compliance in 2025: What Changes and How HCM Software Keeps You Current',
             excerpt: 'Tax law changes, multi-state filings, and new reporting requirements. How the right HCM platform handles compliance so your team does not have to.',
-            href: '/blog/hcm-technology/payroll-compliance',
+            href: '/blog/hcm-software/payroll-compliance',
           },
         ]}
       />
@@ -777,11 +777,11 @@ export default function HCMSoftwarePage() {
             '@type': 'ProfessionalService',
             name: 'iSolved HCM Software',
             description: 'BEG is an authorized iSolved reseller and implementation partner. iSolved People Cloud with BEG implementation included. Payroll, HR, time, benefits, and the iSolved Connector for Claude. 330% documented ROI.',
-            url: 'https://beghr.com/services/hcm-software',
+            url: 'https://www.beghr.com/services/hcm-software',
             provider: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              url: 'https://beghr.com',
+              url: 'https://www.beghr.com',
             },
             areaServed: 'United States',
             availableChannel: {

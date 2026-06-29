@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Attorney Placement Timeline | 23-35 Days. Not 60-120. | BEG",
   description: 'The average contingency attorney search takes 60–120 days. The BEG placement model fills in 23–35 days with an 86% fill rate. Here\'s why the gap exists and what to do about it.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/how-long-should-attorney-placement-take' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/how-long-should-attorney-placement-take' },
   openGraph: {
     title: 'How Long Should Attorney Placement Take? 23-35 Days. | BEG',
     description: 'The average contingency attorney search takes 60\u201390 days. BEG fills attorney roles in 23\u201335 days with an 86% fill rate. Here is why the gap exists.',
-    url: 'https://beghr.com/blog/compare/how-long-should-attorney-placement-take',
+    url: 'https://www.beghr.com/blog/compare/how-long-should-attorney-placement-take',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How Long Should Attorney Placement Take? 23-35 Days. | BEG', description: 'The average contingency attorney search takes 60\u201390 days. BEG fills attorney roles in 23\u201335 days with an 86% fill rate. Here is why the gap exists.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'How Long Should Attorney Placement Take? 23-35 Days. | BEG', description: 'The average contingency attorney search takes 60\u201390 days. BEG fills attorney roles in 23\u201335 days with an 86% fill rate. Here is why the gap exists.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -21,7 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function HowLongAttorneyPlacementPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How Long Should Attorney Placement Take? 23-35 Days. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/how-long-should-attorney-placement-take"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How Long Should Attorney Placement Take? 23-35 Days. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/how-long-should-attorney-placement-take"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -187,8 +187,8 @@ export default function HowLongAttorneyPlacementPage() {
         description: 'Attorney search timeline benchmarks by recruiting model -- and what changes when you use a milestone-based placement approach with 23–35 day fill times.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/how-long-should-attorney-placement-take',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/how-long-should-attorney-placement-take',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

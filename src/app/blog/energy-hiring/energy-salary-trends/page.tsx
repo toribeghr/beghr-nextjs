@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Energy Salary Trends 2026 | BEG',
   description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.',
-  alternates: { canonical: 'https://beghr.com/blog/energy-hiring/energy-salary-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/energy-hiring/energy-salary-trends' },
   openGraph: {
     title: 'Energy Salary Trends 2026 | BEG',
     description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.',
-    url: 'https://beghr.com/blog/energy-hiring/energy-salary-trends',
+    url: 'https://www.beghr.com/blog/energy-hiring/energy-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Energy Salary Trends 2026 | BEG', description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Energy Salary Trends 2026 | BEG', description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/energy-hiring/energy-salary-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function EnergySalaryTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Energy Salary Trends 2026: Why Pay Alone Does Not Close Hires","datePublished":"2026-06-25","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","url":"https://www.linkedin.com/in/theanthonymoretti"},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"mainEntityOfPage":"https://beghr.com/blog/energy-hiring/energy-salary-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Energy Salary Trends 2026: Why Pay Alone Does Not Close Hires","datePublished":"2026-06-25","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","url":"https://www.linkedin.com/in/theanthonymoretti"},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"mainEntityOfPage":"https://www.beghr.com/blog/energy-hiring/energy-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -170,8 +170,8 @@ export default function EnergySalaryTrendsPage() {
         description: 'Where energy pay is heading in 2026 and why a competitive package alone does not close passive engineering and project management candidates.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/energy-hiring/energy-salary-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/energy-hiring/energy-salary-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

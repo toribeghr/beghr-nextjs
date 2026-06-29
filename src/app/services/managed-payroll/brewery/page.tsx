@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Brewery & Distillery Payroll | Taproom Tips. Production Staff. | BEG',
   description: 'Brewery and distillery payroll fully managed at $25–$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/brewery' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/brewery' },
   openGraph: {
     title: 'Brewery & Distillery Payroll | Taproom Tips. Production Staff. | BEG',
     description: 'Brewery and distillery payroll fully managed at $25–$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.',
-    url: 'https://beghr.com/services/managed-payroll/brewery',
+    url: 'https://www.beghr.com/services/managed-payroll/brewery',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Brewery & Distillery Payroll | Taproom Tips. Production Staff. | BEG', description: 'Brewery and distillery payroll fully managed at $25–$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Brewery & Distillery Payroll | Taproom Tips. Production Staff. | BEG', description: 'Brewery and distillery payroll fully managed at $25–$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('brewery-payroll');
@@ -271,10 +271,10 @@ export default function PayrollBreweryPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Brewery', item: 'https://beghr.com/services/managed-payroll/brewery' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Brewery', item: 'https://www.beghr.com/services/managed-payroll/brewery' },
             ],
           }),
         }}

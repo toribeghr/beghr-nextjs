@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Government Contractor Payroll | Certified Payroll. Davis-Bacon. | BEG',
   description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/government-contractor' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/government-contractor' },
   openGraph: {
     title: 'Government Contractor Payroll | Certified Payroll. Davis-Bacon. | BEG',
     description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.',
-    url: 'https://beghr.com/services/managed-payroll/government-contractor',
+    url: 'https://www.beghr.com/services/managed-payroll/government-contractor',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Government Contractor Payroll | Certified Payroll. Davis-Bacon. | BEG', description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Government Contractor Payroll | Certified Payroll. Davis-Bacon. | BEG', description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('government-contractor-payroll');
@@ -275,10 +275,10 @@ export default function PayrollGovernmentContractorPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Government Contractor', item: 'https://beghr.com/services/managed-payroll/government-contractor' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Government Contractor', item: 'https://www.beghr.com/services/managed-payroll/government-contractor' },
             ],
           }),
         }}

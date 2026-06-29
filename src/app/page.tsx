@@ -6,17 +6,17 @@ export const metadata: Metadata = {
   title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG',
   description: 'BEG delivers fully managed payroll at $25-$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23-35 days.',
   alternates: {
-    canonical: 'https://beghr.com',
+    canonical: 'https://www.beghr.com',
   },
   openGraph: {
     title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG',
     description: 'BEG delivers fully managed payroll at $25–$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23–35 days. All 50 states.',
-    url: 'https://beghr.com',
+    url: 'https://www.beghr.com',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group -- Managed Payroll, HCM Software & Job Placement' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group -- Managed Payroll, HCM Software & Job Placement' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG', description: 'BEG delivers fully managed payroll at $25–$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23–35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG', description: 'BEG delivers fully managed payroll at $25–$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23–35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

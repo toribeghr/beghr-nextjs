@@ -6,23 +6,13 @@ const nextConfig = {
   },
   redirects: async () => {
     return [
-      // Blog: hcm-technology → hcm-software (301 permanent)
+      // Blog taxonomy consolidated: all HCM articles now live under /blog/hcm-software.
+      // These 301s preserve any old /blog/hcm-technology URLs that were indexed or linked externally.
       {
-        source: '/blog/hcm-technology/hr-automation',
-        destination: '/blog/hcm-software/hr-automation',
+        source: '/blog/hcm-technology',
+        destination: '/blog/hcm-software',
         permanent: true,
       },
-      {
-        source: '/blog/hcm-technology/isolved-platform',
-        destination: '/blog/hcm-software/isolved-platform',
-        permanent: true,
-      },
-      {
-        source: '/blog/hcm-technology/payroll-compliance',
-        destination: '/blog/hcm-software/payroll-compliance',
-        permanent: true,
-      },
-      // Catch-all for any future hcm-technology blog URLs
       {
         source: '/blog/hcm-technology/:slug*',
         destination: '/blog/hcm-software/:slug*',

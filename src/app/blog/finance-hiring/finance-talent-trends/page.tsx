@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Finance Talent Trends 2026 | BEG',
   description: 'FP&A demand is rising while analytical finance talent stays tight. The 2026 trends shaping corporate finance hiring and how to fill roles in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/finance-hiring/finance-talent-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/finance-hiring/finance-talent-trends' },
   openGraph: {
     title: 'Finance Talent Trends 2026 | BEG',
     description: 'FP&A demand is rising while analytical finance talent stays tight. The 2026 trends shaping corporate finance hiring and how to fill roles in 23-35 days.',
-    url: 'https://beghr.com/blog/finance-hiring/finance-talent-trends',
+    url: 'https://www.beghr.com/blog/finance-hiring/finance-talent-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Finance Talent Trends 2026 | BEG', description: 'FP&A demand is rising while analytical finance talent stays tight. The 2026 trends shaping corporate finance hiring and how to fill roles in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Finance Talent Trends 2026 | BEG', description: 'FP&A demand is rising while analytical finance talent stays tight. The 2026 trends shaping corporate finance hiring and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/finance-hiring/finance-talent-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function FinanceTalentTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Finance Talent Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/finance-hiring/finance-talent-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Finance Talent Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/finance-hiring/finance-talent-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -161,8 +161,8 @@ export default function FinanceTalentTrendsPage() {
         description: 'The trends shaping corporate finance and FP&A hiring in 2026 and how leaders fill finance roles in 23-35 days despite a tight talent market.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/finance-hiring/finance-talent-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/finance-hiring/finance-talent-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

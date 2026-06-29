@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Marketing Talent Trends 2026 | BEG',
   description: 'The marketing skill set is shifting and the best people are passive. What the 2026 talent market means for hiring and how to fill roles in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/marketing-hiring/marketing-talent-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/marketing-hiring/marketing-talent-trends' },
   openGraph: {
     title: 'Marketing Talent Trends 2026 | BEG',
     description: 'The marketing skill set is shifting and the best people are passive. What the 2026 talent market means for hiring and how to fill roles in 23-35 days.',
-    url: 'https://beghr.com/blog/marketing-hiring/marketing-talent-trends',
+    url: 'https://www.beghr.com/blog/marketing-hiring/marketing-talent-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Marketing Talent Trends 2026 | BEG', description: 'The marketing skill set is shifting and the best people are passive. What the 2026 talent market means for hiring and how to fill roles in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Marketing Talent Trends 2026 | BEG', description: 'The marketing skill set is shifting and the best people are passive. What the 2026 talent market means for hiring and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/marketing-hiring/marketing-talent-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function MarketingTalentTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Marketing Talent Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/marketing-hiring/marketing-talent-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Marketing Talent Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/marketing-hiring/marketing-talent-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -174,8 +174,8 @@ export default function MarketingTalentTrendsPage() {
         description: 'How the marketing skill set is shifting in 2026 and how hiring leaders fill marketing roles in 23-35 days by reaching passive candidates.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/marketing-hiring/marketing-talent-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/marketing-hiring/marketing-talent-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

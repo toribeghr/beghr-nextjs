@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Banking Talent Trends in 2026 | BEG',
   description: 'Retirements rise and fintech competes for talent. What the 2026 banking labor market means for hiring and how to fill roles in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/banking-hiring/banking-talent-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/banking-hiring/banking-talent-trends' },
   openGraph: {
     title: 'Banking Talent Trends in 2026 | BEG',
     description: 'Retirements rise and fintech competes for talent. What the 2026 banking labor market means for hiring and how to fill roles in 23-35 days.',
-    url: 'https://beghr.com/blog/banking-hiring/banking-talent-trends',
+    url: 'https://www.beghr.com/blog/banking-hiring/banking-talent-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Banking Talent Trends in 2026 | BEG', description: 'Retirements rise and fintech competes for talent. What the 2026 banking labor market means for hiring and how to fill roles in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Banking Talent Trends in 2026 | BEG', description: 'Retirements rise and fintech competes for talent. What the 2026 banking labor market means for hiring and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/banking-hiring/banking-talent-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function BankingTalentTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Banking Talent Trends in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/banking-hiring/banking-talent-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Banking Talent Trends in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/banking-hiring/banking-talent-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -173,8 +173,8 @@ export default function BankingTalentTrendsPage() {
         description: 'The forces tightening the 2026 banking talent market and how hiring leaders fill commercial lender and credit roles in 23-35 days despite it.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/banking-hiring/banking-talent-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/banking-hiring/banking-talent-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

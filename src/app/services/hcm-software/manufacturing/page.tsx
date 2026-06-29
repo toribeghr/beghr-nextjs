@@ -7,16 +7,16 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Manufacturing | Shift Payroll | BEG',
   description: 'iSolved HCM for manufacturers. Shift work, labor cost tracking, multi-location time, and overtime on one connected platform. Implemented and supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/manufacturing' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/manufacturing' },
   openGraph: {
     title: 'iSolved HCM for Manufacturing | Shift Payroll | BEG',
     description: 'iSolved HCM for manufacturers. Shift work, labor cost tracking, multi-location time, and overtime on one connected platform. Implemented and supported by BEG.',
-    url: 'https://beghr.com/services/hcm-software/manufacturing',
+    url: 'https://www.beghr.com/services/hcm-software/manufacturing',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Manufacturing | Shift Payroll | BEG', description: 'iSolved HCM for manufacturers. Shift work, labor cost tracking, multi-location time, and overtime on one connected platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Manufacturing | Shift Payroll | BEG', description: 'iSolved HCM for manufacturers. Shift work, labor cost tracking, multi-location time, and overtime on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -224,9 +224,9 @@ export default function HCMManufacturingPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'Manufacturing', item: 'https://beghr.com/services/hcm-software/manufacturing' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Manufacturing', item: 'https://www.beghr.com/services/hcm-software/manufacturing' },
             ],
           }),
         }}
@@ -238,19 +238,19 @@ export default function HCMManufacturingPage() {
             category: 'HCM technology',
             title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, labor cost reporting, and the Connector for Claude. Who it fits and who it does not.',
-            href: '/blog/hcm-technology/isolved-platform',
+            href: '/blog/hcm-software/isolved-platform',
           },
           {
             category: 'HCM technology',
             title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
             excerpt: 'Manufacturing HR teams spend significant time on manual time correction and labor reporting. Here is what to prioritize and what to keep human.',
-            href: '/blog/hcm-technology/hr-automation',
+            href: '/blog/hcm-software/hr-automation',
           },
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
             excerpt: '2026 payroll compliance changes for manufacturers. Multi-state requirements, overtime rules, and what your HCM platform should be tracking automatically.',
-            href: '/blog/hcm-technology/payroll-compliance',
+            href: '/blog/hcm-software/payroll-compliance',
           },
         ]}
       />

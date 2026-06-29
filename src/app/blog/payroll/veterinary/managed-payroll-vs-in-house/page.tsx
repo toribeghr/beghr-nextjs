@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',
   description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',
     description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...',
-    url: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house',
+    url: 'https://www.beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG', description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG', description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -39,7 +39,17 @@ const faqs = [
 export default function VeterinaryComparisonPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>Should you outsource payroll?</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Answer 10 quick questions and get a complexity score with a clear recommendation.</p>
+          <a href="/resources/complexity-scorer" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Take the Payroll Complexity Scorer &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -167,10 +177,10 @@ export default function VeterinaryComparisonPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Managed Payroll vs. In-House for Veterinary Practices', item: 'https://beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Managed Payroll vs. In-House for Veterinary Practices', item: 'https://www.beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
             ],
           }),
         }}

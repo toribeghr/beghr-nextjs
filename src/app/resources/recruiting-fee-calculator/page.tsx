@@ -8,21 +8,21 @@ export const metadata: Metadata = {
   title: 'Recruiting Fee Savings Calculator | BEG',
   description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds. No email required.',
   alternates: {
-    canonical: 'https://beghr.com/resources/recruiting-fee-calculator',
+    canonical: 'https://www.beghr.com/resources/recruiting-fee-calculator',
   },
   openGraph: {
     title: 'Recruiting Fee Savings Calculator | BEG',
     description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds. No email required.',
-    url: 'https://beghr.com/resources/recruiting-fee-calculator',
+    url: 'https://www.beghr.com/resources/recruiting-fee-calculator',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Recruiting Fee Savings Calculator | BEG',
     description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds. No email required.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -38,9 +38,9 @@ export default function RecruitingFeeCalculatorPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Recruiting Fee Calculator', item: 'https://beghr.com/resources/recruiting-fee-calculator' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Recruiting Fee Calculator', item: 'https://www.beghr.com/resources/recruiting-fee-calculator' },
             ],
           }),
         }}

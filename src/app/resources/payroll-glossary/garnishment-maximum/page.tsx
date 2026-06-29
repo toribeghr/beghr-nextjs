@@ -4,9 +4,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Garnishment Maximum (Title III) | Payroll Glossary | BEG',
   description: 'Federal CCPA cap limiting wage garnishments to 25% of disposable earnings or the amount above 30x the federal minimum wage, whichever is less.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/garnishment-maximum' },
-  openGraph: { title: 'Garnishment Maximum (Title III) | Payroll Glossary | BEG', description: 'Federal CCPA cap limiting wage garnishments to 25% of disposable earnings or the amount above 30x the federal minimum wage, whichever is less.', url: 'https://beghr.com/resources/payroll-glossary/garnishment-maximum', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Garnishment Maximum (Title III) | Payroll Glossary | BEG', description: 'Federal CCPA cap limiting wage garnishments to 25% of disposable earnings or the amount above 30x the federal minimum wage, whichever is less.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/garnishment-maximum' },
+  openGraph: { title: 'Garnishment Maximum (Title III) | Payroll Glossary | BEG', description: 'Federal CCPA cap limiting wage garnishments to 25% of disposable earnings or the amount above 30x the federal minimum wage, whichever is less.', url: 'https://www.beghr.com/resources/payroll-glossary/garnishment-maximum', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Garnishment Maximum (Title III) | Payroll Glossary | BEG', description: 'Federal CCPA cap limiting wage garnishments to 25% of disposable earnings or the amount above 30x the federal minimum wage, whichever is less.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -62,14 +62,14 @@ export default function GarnishmentMaximumPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/garnishment-maximum', url: 'https://beghr.com/resources/payroll-glossary/garnishment-maximum', name: 'Garnishment Maximum (Title III) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Garnishment Maximum (Title III)', description: 'Federal CCPA cap limiting wage garnishments to 25% of disposable earnings or the amount above 30x the federal minimum wage, whichever is less.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/garnishment-maximum', url: 'https://www.beghr.com/resources/payroll-glossary/garnishment-maximum', name: 'Garnishment Maximum (Title III) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Garnishment Maximum (Title III)', description: 'Federal CCPA cap limiting wage garnishments to 25% of disposable earnings or the amount above 30x the federal minimum wage, whichever is less.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Garnishment Maximum (Title III)', item: 'https://beghr.com/resources/payroll-glossary/garnishment-maximum' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Garnishment Maximum (Title III)', item: 'https://www.beghr.com/resources/payroll-glossary/garnishment-maximum' },
             ]},
           ]
         }) }} />

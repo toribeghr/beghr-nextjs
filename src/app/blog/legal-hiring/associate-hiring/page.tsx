@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
   description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/associate-hiring' },
+  alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/associate-hiring' },
   openGraph: {
     title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
     description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...',
-    url: 'https://beghr.com/blog/legal-hiring/associate-hiring',
+    url: 'https://www.beghr.com/blog/legal-hiring/associate-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)', description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)', description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -46,7 +46,7 @@ const faqs = [
 export default function AssociateHiringPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Law Firm Associate Hiring: Fill Roles in 23\u201335 Days (2026 Guide)", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/legal-hiring/associate-hiring"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Law Firm Associate Hiring: Fill Roles in 23\u201335 Days (2026 Guide)", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/associate-hiring"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -266,10 +266,10 @@ export default function AssociateHiringPage() {
             publisher: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' },
+              logo: { '@type': 'ImageObject', url: 'https://www.beghr.com/assets/beg-header-image.png' },
             },
-            url: 'https://beghr.com/blog/legal-hiring/associate-hiring',
-            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://beghr.com/blog/legal-hiring/associate-hiring' },
+            url: 'https://www.beghr.com/blog/legal-hiring/associate-hiring',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/legal-hiring/associate-hiring' },
           }),
         }}
       />

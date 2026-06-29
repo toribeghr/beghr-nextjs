@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'BEG vs a Traditional Search Firm | BEG',
   description: 'BEG vs a traditional search firm compared on fee model, cost, speed, and risk. See where milestone-based placement saves roughly 50% on permanent hires.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/beg-vs-traditional-search-firm' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/beg-vs-traditional-search-firm' },
   openGraph: {
     title: 'BEG vs a Traditional Search Firm | BEG',
     description: 'BEG vs a traditional search firm compared on fee model, cost, speed, and risk. See where milestone-based placement saves roughly 50% on permanent hires.',
-    url: 'https://beghr.com/blog/compare/beg-vs-traditional-search-firm',
+    url: 'https://www.beghr.com/blog/compare/beg-vs-traditional-search-firm',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG vs a Traditional Search Firm | BEG', description: 'BEG vs a traditional search firm compared on fee model, cost, speed, and risk. See where milestone-based placement saves roughly 50% on permanent hires.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG vs a Traditional Search Firm | BEG', description: 'BEG vs a traditional search firm compared on fee model, cost, speed, and risk. See where milestone-based placement saves roughly 50% on permanent hires.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/compare/beg-vs-traditional-search-firm');
@@ -21,7 +21,7 @@ const CALENDLY = getCalendlyLink('/blog/compare/beg-vs-traditional-search-firm')
 export default function BegVsTraditionalSearchFirmPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "BEG vs a Traditional Search Firm | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/beg-vs-traditional-search-firm"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "BEG vs a Traditional Search Firm | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/beg-vs-traditional-search-firm"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -165,8 +165,8 @@ export default function BegVsTraditionalSearchFirmPage() {
         description: 'A fair side-by-side of BEG milestone placement and traditional contingency or retained search on cost, speed, and risk.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/beg-vs-traditional-search-firm',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/beg-vs-traditional-search-firm',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

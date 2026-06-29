@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Accounting Salary Trends 2026: Pay Is Not Enough | BEG',
   description: 'Accounting comp is climbing in 2026, but the best candidates are passive and pay is only part of the decision. What actually closes an accounting hire.',
-  alternates: { canonical: 'https://beghr.com/blog/accounting-hiring/accounting-salary-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/accounting-hiring/accounting-salary-trends' },
   openGraph: {
     title: 'Accounting Salary Trends 2026: Pay Is Not Enough | BEG',
     description: 'Accounting comp is climbing in 2026, but the best candidates are passive and pay is only part of the decision. What actually closes an accounting hire.',
-    url: 'https://beghr.com/blog/accounting-hiring/accounting-salary-trends',
+    url: 'https://www.beghr.com/blog/accounting-hiring/accounting-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Accounting Salary Trends 2026: Pay Is Not Enough | BEG', description: 'Accounting comp is climbing in 2026, but the best candidates are passive and pay is only part of the decision. What actually closes an accounting hire.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Accounting Salary Trends 2026: Pay Is Not Enough | BEG', description: 'Accounting comp is climbing in 2026, but the best candidates are passive and pay is only part of the decision. What actually closes an accounting hire.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/accounting-hiring/accounting-salary-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function AccountingSalaryTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Accounting Salary Trends 2026: Pay Is Not Enough | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/accounting-hiring/accounting-salary-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Accounting Salary Trends 2026: Pay Is Not Enough | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/accounting-hiring/accounting-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -198,8 +198,8 @@ export default function AccountingSalaryTrendsPage() {
         description: '2026 accounting compensation is rising, but passive candidates decide on more than salary. What actually closes an accounting hire and how BEG positions it.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/accounting-hiring/accounting-salary-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/accounting-hiring/accounting-salary-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

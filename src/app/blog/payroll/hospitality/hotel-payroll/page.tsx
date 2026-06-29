@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "Hotel Payroll | Tipped Staff, Shifts & Multi-State | BEG",
   description: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification, multi-state compliance. BEG manages it all at $25-$45 PEPM.",
-  alternates: { canonical: "https://beghr.com/blog/payroll/hospitality/hotel-payroll" },
+  alternates: { canonical: "https://www.beghr.com/blog/payroll/hospitality/hotel-payroll" },
   openGraph: {
     title: "Hotel Payroll | Tipped Staff, Shifts & Multi-State | BEG",
     description: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification, multi-state compliance. BEG manages it all at $25-$45 PEPM.",
-    url: "https://beghr.com/blog/payroll/hospitality/hotel-payroll",
+    url: "https://www.beghr.com/blog/payroll/hospitality/hotel-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Hotel Payroll | Tipped Staff, Shifts & Multi-State. Handled. | BEG", description: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification. BEG at $25-$45 PEPM.", images: ["https://beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Hotel Payroll | Tipped Staff, Shifts & Multi-State. Handled. | BEG", description: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -46,7 +46,17 @@ const faqs = [
 export default function HotelPayrollPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>See what your payroll provider really charges</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Most providers hide per-run and add-on fees. Audit your real cost per employee in about 30 seconds, free.</p>
+          <a href="/resources/payroll-fee-auditor" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Run the Payroll Fee Auditor &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Business Executive Group", "datePublished": "2026-06-27", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -214,20 +224,20 @@ export default function HotelPayrollPage() {
         "@type": "BlogPosting",
         "headline": "Hotel Payroll Outsourcing: Tipped Staff, Banquet Overtime, and Multi-State Compliance (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
-        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://beghr.com" },
+        "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },
         "datePublished": "2026-06-27",
         "dateModified": "2026-06-27",
-        "url": "https://beghr.com/blog/payroll/hospitality/hotel-payroll"
+        "url": "https://www.beghr.com/blog/payroll/hospitality/hotel-payroll"
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://beghr.com" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://beghr.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://beghr.com/blog/payroll" },
-          { "@type": "ListItem", "position": 4, "name": "Hospitality", "item": "https://beghr.com/blog/payroll/hospitality" },
-          { "@type": "ListItem", "position": 5, "name": "Hotel Payroll", "item": "https://beghr.com/blog/payroll/hospitality/hotel-payroll" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.beghr.com" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.beghr.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Payroll", "item": "https://www.beghr.com/blog/payroll" },
+          { "@type": "ListItem", "position": 4, "name": "Hospitality", "item": "https://www.beghr.com/blog/payroll/hospitality" },
+          { "@type": "ListItem", "position": 5, "name": "Hotel Payroll", "item": "https://www.beghr.com/blog/payroll/hospitality/hotel-payroll" }
         ]
       }) }} />
     </article>

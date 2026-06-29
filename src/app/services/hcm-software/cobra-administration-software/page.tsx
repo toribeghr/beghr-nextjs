@@ -5,16 +5,16 @@ import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 export const metadata: Metadata = {
   title: 'COBRA Administration Software | BEG',
   description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. iSolved on one connected platform, supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/cobra-administration-software' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/cobra-administration-software' },
   openGraph: {
     title: 'COBRA Administration Software | BEG',
     description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. iSolved on one connected platform, supported by BEG.',
-    url: 'https://beghr.com/services/hcm-software/cobra-administration-software',
+    url: 'https://www.beghr.com/services/hcm-software/cobra-administration-software',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'COBRA Administration Software | BEG', description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. iSolved on one connected platform, supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'COBRA Administration Software | BEG', description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. iSolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -56,9 +56,9 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://beghr.com/services' },
-    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'COBRA Administration Software', item: 'https://beghr.com/services/hcm-software/cobra-administration-software' },
+    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
+    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+    { '@type': 'ListItem', position: 3, name: 'COBRA Administration Software', item: 'https://www.beghr.com/services/hcm-software/cobra-administration-software' },
   ],
 };
 
@@ -66,7 +66,7 @@ const webPageJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tldr', '.faq-item h3', '.faq-item p'] },
-  url: 'https://beghr.com/services/hcm-software/cobra-administration-software',
+  url: 'https://www.beghr.com/services/hcm-software/cobra-administration-software',
 };
 
 export default function CobraAdministrationSoftwarePage() {

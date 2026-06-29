@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Contractor Passes DOL Audit After Switching to BEG | Case Study',
   description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage reporting.',
-  alternates: { canonical: 'https://beghr.com/case-studies/construction' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies/construction' },
   openGraph: {
     title: 'Contractor Passes DOL Audit After Switching to BEG | Case Study',
     description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage reporting.',
-    url: 'https://beghr.com/case-studies/construction',
+    url: 'https://www.beghr.com/case-studies/construction',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Contractor Passes DOL Audit After Switching to BEG | Case Study', description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage reporting.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Contractor Passes DOL Audit After Switching to BEG | Case Study', description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage reporting.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function ConstructionCaseStudyPage() {
@@ -156,18 +156,18 @@ export default function ConstructionCaseStudyPage() {
         description: 'A 60-employee commercial contractor with 3 concurrent federal projects passed a DOL compliance review after BEG implemented certified payroll and prevailing wage tracking.',
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/case-studies/construction',
+        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/case-studies/construction',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
-          { '@type': 'ListItem', position: 3, name: 'Construction Case Study', item: 'https://beghr.com/case-studies/construction' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 3, name: 'Construction Case Study', item: 'https://www.beghr.com/case-studies/construction' },
         ],
       }) }} />
     </article>

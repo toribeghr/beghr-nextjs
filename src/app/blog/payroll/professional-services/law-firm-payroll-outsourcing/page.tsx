@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
   description: 'Compare law firm payroll outsourcing vs. hiring in-house. Partner draws, IOLTA separation, billing integration, associate salary tiers. Save $55K–$90K.',
   keywords: 'law firm payroll outsourcing, payroll outsourcing cost, hire payroll manager, law firm HR, professional services payroll',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
   openGraph: {
     title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
     description: 'Partner draws, IOLTA separation, billing integration, associate salary tiers -- handled at $25–$45 PEPM, all-inclusive.',
     type: 'article',
-    url: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
+    url: 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
   },
   twitter: {
     card: 'summary_large_image',
@@ -48,7 +48,17 @@ const faqs = [
 export default function LawFirmPayrollPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing"}) }} />
+      {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
+        <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
+          <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>
+          <p style={{ fontWeight: '700', fontSize: '1.1rem', color: '#000', margin: '0 0 0.4rem' }}>See what your payroll provider really charges</p>
+          <p style={{ color: '#555', fontSize: '0.93rem', lineHeight: '1.6', margin: '0 0 0.9rem' }}>Most providers hide per-run and add-on fees. Audit your real cost per employee in about 30 seconds, free.</p>
+          <a href="/resources/payroll-fee-auditor" style={{ color: '#9a6b1f', fontWeight: '700', fontSize: '0.93rem', textDecoration: 'none' }}>Run the Payroll Fee Auditor &rarr;</a>
+        </div>
+      </section>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing"}) }} />
       <section className="hero" style={{ paddingBottom: '40px' }}>
         <div className="container">
           <div className="hero-split">
@@ -236,10 +246,10 @@ export default function LawFirmPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Law Firm Payroll Outsourcing', item: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Law Firm Payroll Outsourcing', item: 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
             ],
           }),
         }}
@@ -278,10 +288,10 @@ export default function LawFirmPayrollPage() {
             publisher: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' },
+              logo: { '@type': 'ImageObject', url: 'https://www.beghr.com/assets/beg-header-image.png' },
             },
-            url: 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
-            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
+            url: 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
+            mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
           }),
         }}
       />

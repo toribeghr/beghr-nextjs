@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: 'Contact Business Executive Group | BEG HR Services',
   description: 'Contact BEG. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement services nationwide.',
   alternates: {
-    canonical: 'https://beghr.com/contact',
+    canonical: 'https://www.beghr.com/contact',
   },
   openGraph: {
     title: 'Contact Business Executive Group | BEG',
     description: 'Contact Business Executive Group. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement nationwide.',
-    url: 'https://beghr.com/contact',
+    url: 'https://www.beghr.com/contact',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Contact Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Contact Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Contact Business Executive Group | BEG', description: 'Contact Business Executive Group. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement nationwide.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Contact Business Executive Group | BEG', description: 'Contact Business Executive Group. Book a discovery call, call 469-412-1204, or send a message. Managed payroll, HCM software, and job placement nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const FORM_EMBED_URL =
@@ -33,7 +33,7 @@ export default function ContactPage() {
               '@context': 'https://schema.org',
               '@type': 'ContactPage',
               name: 'Contact Business Executive Group',
-              url: 'https://beghr.com/contact',
+              url: 'https://www.beghr.com/contact',
               description:
                 'Contact BEG for managed payroll, HCM software, and job placement services. Call, email, or complete the form -- a real person responds the same business day.',
             },
@@ -41,7 +41,7 @@ export default function ContactPage() {
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
               name: 'Business Executive Group',
-              url: 'https://beghr.com',
+              url: 'https://www.beghr.com',
               telephone: '469-412-1204',
               email: 'sales@beghr.com',
               address: {

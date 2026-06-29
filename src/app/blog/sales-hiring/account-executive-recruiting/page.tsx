@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Account Executive Recruiting (2026 Guide) | BEG',
   description: 'Strong AEs field multiple offers and ignore postings. How to source, screen, and close quota-carrying account executives in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/sales-hiring/account-executive-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/sales-hiring/account-executive-recruiting' },
   openGraph: {
     title: 'Account Executive Recruiting (2026 Guide) | BEG',
     description: 'Strong AEs field multiple offers and ignore postings. How to source, screen, and close quota-carrying account executives in 23-35 days.',
-    url: 'https://beghr.com/blog/sales-hiring/account-executive-recruiting',
+    url: 'https://www.beghr.com/blog/sales-hiring/account-executive-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Account Executive Recruiting (2026 Guide) | BEG', description: 'Strong AEs field multiple offers and ignore postings. How to source, screen, and close quota-carrying account executives in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Account Executive Recruiting (2026 Guide) | BEG', description: 'Strong AEs field multiple offers and ignore postings. How to source, screen, and close quota-carrying account executives in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/sales-hiring/account-executive-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function AccountExecutiveRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Account Executive Recruiting (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/sales-hiring/account-executive-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Account Executive Recruiting (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/sales-hiring/account-executive-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -161,8 +161,8 @@ export default function AccountExecutiveRecruitingPage() {
         description: 'How to source, screen, and close quota-carrying account executives in a poaching market in 23-35 days using passive sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/sales-hiring/account-executive-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/sales-hiring/account-executive-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

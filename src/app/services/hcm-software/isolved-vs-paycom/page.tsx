@@ -6,16 +6,16 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'iSolved vs Paycom | Claude AI Integration. 330% ROI. | BEG',
   description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-vs-paycom' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycom' },
   openGraph: {
     title: 'iSolved vs Paycom | Claude AI Integration. 330% ROI. | BEG',
     description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.',
-    url: 'https://beghr.com/services/hcm-software/isolved-vs-paycom',
+    url: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycom',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved vs Paycom | Claude AI Integration. 330% ROI. | BEG', description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved vs Paycom | Claude AI Integration. 330% ROI. | BEG', description: 'iSolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -180,19 +180,19 @@ export default function iSolvedVsPaycomPage() {
             category: 'HCM technology',
             title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
-            href: '/blog/hcm-technology/isolved-platform',
+            href: '/blog/hcm-software/isolved-platform',
           },
           {
             category: 'HCM technology',
             title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
             excerpt: 'Payroll, onboarding, benefits enrollment, and compliance reporting are high-ROI automation targets. Here is what to prioritize and what to keep manual.',
-            href: '/blog/hcm-technology/hr-automation',
+            href: '/blog/hcm-software/hr-automation',
           },
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
             excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically, not manually.',
-            href: '/blog/hcm-technology/payroll-compliance',
+            href: '/blog/hcm-software/payroll-compliance',
           },
         ]}
       />

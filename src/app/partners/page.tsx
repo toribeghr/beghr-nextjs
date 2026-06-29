@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'BEG Partner Program | Refer Clients. No Conflict. | BEG',
   description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest -- clean payroll data and no lane-crossing.',
-  alternates: { canonical: 'https://beghr.com/partners' },
+  alternates: { canonical: 'https://www.beghr.com/partners' },
   openGraph: {
     title: 'BEG Partner Program | Refer Clients. No Conflict. | BEG',
     description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest -- clean payroll data and no lane-crossing.',
-    url: 'https://beghr.com/partners',
+    url: 'https://www.beghr.com/partners',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Partner Program for CPAs and Insurance Brokers' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Partner Program for CPAs and Insurance Brokers' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG Partner Program | Refer Clients. No Conflict. | BEG', description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest -- clean payroll data and no lane-crossing.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG Partner Program | Refer Clients. No Conflict. | BEG', description: 'Refer your clients to BEG for managed payroll, HCM software, and job placement. No conflict of interest -- clean payroll data and no lane-crossing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const partners = [
@@ -134,8 +134,8 @@ export default function PartnersPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Partners', item: 'https://beghr.com/partners' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Partners', item: 'https://www.beghr.com/partners' },
             ],
           }),
         }}

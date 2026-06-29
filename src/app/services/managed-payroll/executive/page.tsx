@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG',
   description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/executive' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/executive' },
   openGraph: {
     title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG',
     description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
-    url: 'https://beghr.com/services/managed-payroll/executive',
+    url: 'https://www.beghr.com/services/managed-payroll/executive',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG', description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG', description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -298,9 +298,9 @@ export default function PayrollExecutivePage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Executive', item: 'https://beghr.com/services/managed-payroll/executive' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Executive', item: 'https://www.beghr.com/services/managed-payroll/executive' },
             ],
           }),
         }}

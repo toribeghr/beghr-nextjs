@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Multi-Location Restaurant Payroll Guides | Tip Credit + Compliance | BEG',
   description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/multi-unit-restaurant' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/multi-unit-restaurant' },
   openGraph: {
     title: 'Multi-Location Restaurant Payroll Guides | Tip Credit + Compliance | BEG',
     description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.',
-    url: 'https://beghr.com/blog/payroll/multi-unit-restaurant',
+    url: 'https://www.beghr.com/blog/payroll/multi-unit-restaurant',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Multi-Location Restaurant Payroll Guides | Tip Credit + Compliance | BEG', description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Multi-Location Restaurant Payroll Guides | Tip Credit + Compliance | BEG', description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -98,10 +98,10 @@ export default function MultiUnitRestaurantPayrollHubPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Multi-Unit Restaurants', item: 'https://beghr.com/blog/payroll/multi-unit-restaurant' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Multi-Unit Restaurants', item: 'https://www.beghr.com/blog/payroll/multi-unit-restaurant' },
             ],
           })
         }}

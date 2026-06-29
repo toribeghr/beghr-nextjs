@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Alternatives to Contingency Recruiting | BEG',
   description: 'Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on cost, speed, and risk to find a better fit.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/alternatives-to-contingency-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/alternatives-to-contingency-recruiting' },
   openGraph: {
     title: 'Alternatives to Contingency Recruiting | BEG',
     description: 'Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on cost, speed, and risk to find a better fit.',
-    url: 'https://beghr.com/blog/compare/alternatives-to-contingency-recruiting',
+    url: 'https://www.beghr.com/blog/compare/alternatives-to-contingency-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Alternatives to Contingency Recruiting | BEG', description: 'Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on cost, speed, and risk to find a better fit.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Alternatives to Contingency Recruiting | BEG', description: 'Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on cost, speed, and risk to find a better fit.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/compare/alternatives-to-contingency-recruiting');
@@ -21,7 +21,7 @@ const CALENDLY = getCalendlyLink('/blog/compare/alternatives-to-contingency-recr
 export default function AlternativesToContingencyRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Alternatives to Contingency Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/alternatives-to-contingency-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Alternatives to Contingency Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/alternatives-to-contingency-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -160,8 +160,8 @@ export default function AlternativesToContingencyRecruitingPage() {
         description: 'Retained search, RPO, in-house, and milestone-based placement compared with contingency on cost, speed, and risk.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/alternatives-to-contingency-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/alternatives-to-contingency-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

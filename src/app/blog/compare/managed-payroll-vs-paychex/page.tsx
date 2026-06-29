@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG',
   description: 'Paychex Flex is powerful payroll software, but you still run it yourself. BEG managed payroll runs it for you. Compare cost, service model, and support.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/managed-payroll-vs-paychex' },
   openGraph: {
     title: 'Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG',
     description: 'Paychex Flex is powerful payroll software -- but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...',
-    url: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex',
+    url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-paychex',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG', description: 'Paychex Flex is powerful payroll software -- but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG', description: 'Paychex Flex is powerful payroll software -- but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -21,7 +21,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 export default function ManagedPayrollVsPaychexPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/managed-payroll-vs-paychex"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/managed-payroll-vs-paychex"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -161,8 +161,8 @@ export default function ManagedPayrollVsPaychexPage() {
         description: 'Comparison of Paychex Flex payroll platform vs. BEG managed payroll service for companies with 20–200 employees.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/managed-payroll-vs-paychex',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-paychex',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

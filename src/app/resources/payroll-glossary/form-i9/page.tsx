@@ -4,20 +4,20 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Form I-9 | Payroll Glossary | BEG',
   description: 'Learn how to complete Form I-9, what documents are acceptable, the 3-day deadline, and penalties for I-9 violations.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/form-i9' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/form-i9' },
   openGraph: {
     title: 'Form I-9 | Payroll Glossary | BEG',
     description: 'Learn how to complete Form I-9, what documents are acceptable, the 3-day deadline, and penalties for I-9 violations.',
-    url: 'https://beghr.com/resources/payroll-glossary/form-i9',
+    url: 'https://www.beghr.com/resources/payroll-glossary/form-i9',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Form I-9 | Payroll Glossary | BEG',
     description: 'Learn how to complete Form I-9, what documents are acceptable, the 3-day deadline, and penalties for I-9 violations.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -80,14 +80,14 @@ export default function FormI9Page() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/form-i9', url: 'https://beghr.com/resources/payroll-glossary/form-i9', name: 'Form I-9 | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Form I-9', description: 'Learn how to complete Form I-9, what documents are acceptable, the 3-day deadline, and penalties for I-9 violations.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/form-i9', url: 'https://www.beghr.com/resources/payroll-glossary/form-i9', name: 'Form I-9 | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Form I-9', description: 'Learn how to complete Form I-9, what documents are acceptable, the 3-day deadline, and penalties for I-9 violations.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Form I-9', item: 'https://beghr.com/resources/payroll-glossary/form-i9' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Form I-9', item: 'https://www.beghr.com/resources/payroll-glossary/form-i9' },
             ]},
           ]
         }) }} />

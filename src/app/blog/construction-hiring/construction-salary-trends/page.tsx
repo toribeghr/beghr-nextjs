@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Construction Salary Trends 2026: Pay Is Not Enough | BEG',
   description: 'Construction management comp is climbing in 2026, but the best candidates are passive and pay is only part of the decision. What closes a hire.',
-  alternates: { canonical: 'https://beghr.com/blog/construction-hiring/construction-salary-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/construction-hiring/construction-salary-trends' },
   openGraph: {
     title: 'Construction Salary Trends 2026: Pay Is Not Enough | BEG',
     description: 'Construction management comp is climbing in 2026, but the best candidates are passive and pay is only part of the decision. What closes a hire.',
-    url: 'https://beghr.com/blog/construction-hiring/construction-salary-trends',
+    url: 'https://www.beghr.com/blog/construction-hiring/construction-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction Salary Trends 2026: Pay Is Not Enough | BEG', description: 'Construction management comp is climbing in 2026, but the best candidates are passive and pay is only part of the decision. What closes a hire.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction Salary Trends 2026: Pay Is Not Enough | BEG', description: 'Construction management comp is climbing in 2026, but the best candidates are passive and pay is only part of the decision. What closes a hire.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/construction-hiring/construction-salary-trends');
@@ -40,7 +40,7 @@ const faqs = [
 export default function ConstructionSalaryTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Construction Salary Trends 2026: Pay Is Not Enough | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/construction-hiring/construction-salary-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Construction Salary Trends 2026: Pay Is Not Enough | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/construction-hiring/construction-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -199,8 +199,8 @@ export default function ConstructionSalaryTrendsPage() {
         description: '2026 construction management compensation is rising, but passive candidates decide on more than salary. What actually closes a construction hire and how BEG positions it.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/construction-hiring/construction-salary-trends',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/construction-hiring/construction-salary-trends',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

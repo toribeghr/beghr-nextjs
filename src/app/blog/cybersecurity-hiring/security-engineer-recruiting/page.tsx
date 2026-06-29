@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Security Engineer Recruiting (2026 Guide) | BEG',
   description: 'Strong security engineers field multiple offers and ignore postings. How to source, screen, and close them in 23-35 days before a competitor does.',
-  alternates: { canonical: 'https://beghr.com/blog/cybersecurity-hiring/security-engineer-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/cybersecurity-hiring/security-engineer-recruiting' },
   openGraph: {
     title: 'Security Engineer Recruiting (2026 Guide) | BEG',
     description: 'Strong security engineers field multiple offers and ignore postings. How to source, screen, and close them in 23-35 days before a competitor does.',
-    url: 'https://beghr.com/blog/cybersecurity-hiring/security-engineer-recruiting',
+    url: 'https://www.beghr.com/blog/cybersecurity-hiring/security-engineer-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Security Engineer Recruiting (2026 Guide) | BEG', description: 'Strong security engineers field multiple offers and ignore postings. How to source, screen, and close them in 23-35 days before a competitor does.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Security Engineer Recruiting (2026 Guide) | BEG', description: 'Strong security engineers field multiple offers and ignore postings. How to source, screen, and close them in 23-35 days before a competitor does.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/cybersecurity-hiring/security-engineer-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function SecurityEngineerRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Security Engineer Recruiting (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/cybersecurity-hiring/security-engineer-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Security Engineer Recruiting (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/cybersecurity-hiring/security-engineer-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -161,8 +161,8 @@ export default function SecurityEngineerRecruitingPage() {
         description: 'How to source, screen, and close strong security engineers who field multiple offers in 23-35 days using passive sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/cybersecurity-hiring/security-engineer-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/cybersecurity-hiring/security-engineer-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

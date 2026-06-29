@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Logistics Recruiting: Fill Roles Fast | BEG',
   description: 'Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics managers in 23-35 days when the market is this tight.',
-  alternates: { canonical: 'https://beghr.com/blog/supply-chain-hiring/logistics-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/supply-chain-hiring/logistics-recruiting' },
   openGraph: {
     title: 'Logistics Recruiting: Fill Roles Fast | BEG',
     description: 'Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics managers in 23-35 days when the market is this tight.',
-    url: 'https://beghr.com/blog/supply-chain-hiring/logistics-recruiting',
+    url: 'https://www.beghr.com/blog/supply-chain-hiring/logistics-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Logistics Recruiting: Fill Roles Fast | BEG', description: 'Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics managers in 23-35 days when the market is this tight.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Logistics Recruiting: Fill Roles Fast | BEG', description: 'Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics managers in 23-35 days when the market is this tight.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/supply-chain-hiring/logistics-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function LogisticsRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Logistics Recruiting: Fill Roles Fast | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/supply-chain-hiring/logistics-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Logistics Recruiting: Fill Roles Fast | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/supply-chain-hiring/logistics-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -170,8 +170,8 @@ export default function LogisticsRecruitingPage() {
         description: 'Why logistics roles stay open longer and how to recruit distribution and transportation leaders in 23-35 days using passive candidate sourcing.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/supply-chain-hiring/logistics-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/supply-chain-hiring/logistics-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

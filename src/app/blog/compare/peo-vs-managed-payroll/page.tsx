@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: "PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG",
   description: 'PEOs co-employ your staff and control your HR. BEG managed payroll handles payroll without co-employment. Compare cost, control, and compliance risk.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/peo-vs-managed-payroll' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/peo-vs-managed-payroll' },
   openGraph: {
     title: 'PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG',
     description: 'PEOs co-employ your staff and control your HR. Managed payroll handles payroll operations without touching your employment relationships. Full compariso...',
-    url: 'https://beghr.com/blog/compare/peo-vs-managed-payroll',
+    url: 'https://www.beghr.com/blog/compare/peo-vs-managed-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG', description: 'PEOs co-employ your staff and control your HR. Managed payroll handles payroll operations without touching your employment relationships. Full compariso...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG', description: 'PEOs co-employ your staff and control your HR. Managed payroll handles payroll operations without touching your employment relationships. Full compariso...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -56,7 +56,7 @@ export default function PEOVsManagedPayrollPage() {
 
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/peo-vs-managed-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "PEO vs Managed Payroll | Why PEOs Cost 3x More | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/peo-vs-managed-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -298,8 +298,8 @@ export default function PEOVsManagedPayrollPage() {
         description: 'Full comparison of PEO co-employment model vs. BEG managed payroll service -- cost, control, benefits, and which is right for your company.',
         datePublished: '2026-06-27', dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/peo-vs-managed-payroll',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/peo-vs-managed-payroll',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

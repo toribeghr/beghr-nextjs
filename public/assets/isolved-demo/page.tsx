@@ -5,16 +5,16 @@ import RelatedPosts from '@/components/RelatedPosts';
 export const metadata: Metadata = {
   title: 'iSolved Demo: What to Expect | BEG',
   description: 'Book an iSolved demo with BEG. See what a tailored walkthrough covers, how BEG maps the platform to your real workflows, and how to prepare to get the most.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/isolved-demo' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-demo' },
   openGraph: {
     title: 'iSolved Demo: What to Expect | BEG',
     description: 'Book an iSolved demo with BEG. See what a tailored walkthrough covers, how BEG maps the platform to your real workflows, and how to prepare to get the most.',
-    url: 'https://beghr.com/services/hcm-software/isolved-demo',
+    url: 'https://www.beghr.com/services/hcm-software/isolved-demo',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved Demo: What to Expect | BEG', description: 'Book an iSolved demo with BEG. See what a tailored walkthrough covers, how BEG maps the platform to your real workflows, and how to prepare to get the most.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved Demo: What to Expect | BEG', description: 'Book an iSolved demo with BEG. See what a tailored walkthrough covers, how BEG maps the platform to your real workflows, and how to prepare to get the most.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -60,9 +60,9 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://beghr.com/services' },
-    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'iSolved Demo', item: 'https://beghr.com/services/hcm-software/isolved-demo' },
+    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
+    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+    { '@type': 'ListItem', position: 3, name: 'iSolved Demo', item: 'https://www.beghr.com/services/hcm-software/isolved-demo' },
   ],
 };
 

@@ -6,21 +6,21 @@ export const metadata: Metadata = {
   title: 'Nonprofit Payroll Guide | 403(b) & Grant Allocation | BEG',
   description: 'Nonprofit payroll guide covering 403(b) plans, grant-funded payroll allocation, clergy housing allowance, and volunteer vs employee rules.',
   alternates: {
-    canonical: 'https://beghr.com/resources/guides/nonprofit-payroll-guide',
+    canonical: 'https://www.beghr.com/resources/guides/nonprofit-payroll-guide',
   },
   openGraph: {
     title: 'Nonprofit Payroll Guide | 403(b) & Grant Allocation | BEG',
     description: 'Nonprofit payroll guide covering 403(b) plans, grant-funded payroll allocation, clergy housing allowance, and volunteer vs employee rules.',
-    url: 'https://beghr.com/resources/guides/nonprofit-payroll-guide',
+    url: 'https://www.beghr.com/resources/guides/nonprofit-payroll-guide',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Nonprofit Payroll Guide | 403(b) & Grant Allocation | BEG',
     description: 'Nonprofit payroll guide covering 403(b) plans, grant-funded payroll allocation, clergy housing allowance, and volunteer vs employee rules.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -56,7 +56,7 @@ export default function NonprofitPayrollGuidePage() {
             '@graph': [
               {
                 '@type': 'WebPage',
-                url: 'https://beghr.com/resources/guides/nonprofit-payroll-guide',
+                url: 'https://www.beghr.com/resources/guides/nonprofit-payroll-guide',
                 name: 'Nonprofit Payroll Guide',
                 datePublished: '2026-06-28',
                 dateModified: '2026-06-28',
@@ -81,10 +81,10 @@ export default function NonprofitPayrollGuidePage() {
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://beghr.com/resources/guides' },
-                  { '@type': 'ListItem', position: 4, name: 'Nonprofit Payroll Guide', item: 'https://beghr.com/resources/guides/nonprofit-payroll-guide' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://www.beghr.com/resources/guides' },
+                  { '@type': 'ListItem', position: 4, name: 'Nonprofit Payroll Guide', item: 'https://www.beghr.com/resources/guides/nonprofit-payroll-guide' },
                 ],
               },
             ],

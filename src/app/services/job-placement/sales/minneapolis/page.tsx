@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Sales Recruiters in Minneapolis | BEG',
   description: 'Sales placement in Minneapolis. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/sales/minneapolis' },
-  openGraph: { title: 'Sales Recruiters in Minneapolis | BEG', description: 'Sales placement in Minneapolis in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/sales/minneapolis', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Sales Recruiters in Minneapolis | BEG', description: 'Sales placement in Minneapolis in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/sales/minneapolis' },
+  openGraph: { title: 'Sales Recruiters in Minneapolis | BEG', description: 'Sales placement in Minneapolis in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/sales/minneapolis', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Sales Recruiters in Minneapolis | BEG', description: 'Sales placement in Minneapolis in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-sales-minneapolis');
@@ -36,7 +36,7 @@ export default function PlacementSalesMinneapolisPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Sales placement\",\"name\":\"Sales Placement in Minneapolis\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Minneapolis\"},\"url\":\"https://beghr.com/services/job-placement/sales/minneapolis\",\"description\":\"Permanent sales placement in Minneapolis in 23-35 days at roughly 50% less than contingency.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Sales placement\",\"name\":\"Sales Placement in Minneapolis\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Minneapolis\"},\"url\":\"https://www.beghr.com/services/job-placement/sales/minneapolis\",\"description\":\"Permanent sales placement in Minneapolis in 23-35 days at roughly 50% less than contingency.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

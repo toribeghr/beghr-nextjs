@@ -8,20 +8,20 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Insurance Agency Payroll | Producer Commission. Draws. Managed. | BEG',
   description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/insurance-agency' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/insurance-agency' },
   openGraph: {
     title: 'Insurance Agency Payroll | Producer Commission. Draws. Managed. | BEG',
     description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
-    url: 'https://beghr.com/services/managed-payroll/insurance-agency',
+    url: 'https://www.beghr.com/services/managed-payroll/insurance-agency',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Insurance Agency Payroll | Producer Commission. Draws. Managed. | BEG',
     description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -259,9 +259,9 @@ export default function PayrollInsuranceAgencyPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Insurance Agency', item: 'https://beghr.com/services/managed-payroll/insurance-agency' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Insurance Agency', item: 'https://www.beghr.com/services/managed-payroll/insurance-agency' },
             ],
           }),
         }}

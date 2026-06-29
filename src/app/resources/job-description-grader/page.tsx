@@ -8,21 +8,21 @@ export const metadata: Metadata = {
   title: 'Job Description Grader | BEG',
   description: 'Paste your job description and get an instant 0 to 100 score plus specific tips to attract better candidates faster. Free, no email required.',
   alternates: {
-    canonical: 'https://beghr.com/resources/job-description-grader',
+    canonical: 'https://www.beghr.com/resources/job-description-grader',
   },
   openGraph: {
     title: 'Job Description Grader | BEG',
     description: 'Paste your job description and get an instant 0 to 100 score plus specific tips to attract better candidates faster. Free, no email required.',
-    url: 'https://beghr.com/resources/job-description-grader',
+    url: 'https://www.beghr.com/resources/job-description-grader',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Job Description Grader | BEG',
     description: 'Paste your job description and get an instant 0 to 100 score plus specific tips to attract better candidates faster. Free, no email required.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -38,9 +38,9 @@ export default function JobDescriptionGraderPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Job Description Grader', item: 'https://beghr.com/resources/job-description-grader' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Job Description Grader', item: 'https://www.beghr.com/resources/job-description-grader' },
             ],
           }),
         }}

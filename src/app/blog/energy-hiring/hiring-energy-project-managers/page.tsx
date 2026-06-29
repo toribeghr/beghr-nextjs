@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'How to Hire Energy Project Managers | BEG',
   description: 'A vacant project manager seat puts schedule, budget, and safety at risk. A playbook to hire energy project managers in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/energy-hiring/hiring-energy-project-managers' },
+  alternates: { canonical: 'https://www.beghr.com/blog/energy-hiring/hiring-energy-project-managers' },
   openGraph: {
     title: 'How to Hire Energy Project Managers | BEG',
     description: 'A vacant project manager seat puts schedule, budget, and safety at risk. A playbook to hire energy project managers in 23-35 days.',
-    url: 'https://beghr.com/blog/energy-hiring/hiring-energy-project-managers',
+    url: 'https://www.beghr.com/blog/energy-hiring/hiring-energy-project-managers',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How to Hire Energy Project Managers | BEG', description: 'A vacant project manager seat puts schedule, budget, and safety at risk. A playbook to hire energy project managers in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'How to Hire Energy Project Managers | BEG', description: 'A vacant project manager seat puts schedule, budget, and safety at risk. A playbook to hire energy project managers in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/energy-hiring/hiring-energy-project-managers');
@@ -40,7 +40,7 @@ const faqs = [
 export default function HiringEnergyProjectManagersPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Hire Energy Project Managers Fast (Without Settling)","datePublished":"2026-06-25","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","url":"https://www.linkedin.com/in/theanthonymoretti"},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://beghr.com/assets/beg-header-image.png"}},"mainEntityOfPage":"https://beghr.com/blog/energy-hiring/hiring-energy-project-managers"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Hire Energy Project Managers Fast (Without Settling)","datePublished":"2026-06-25","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","url":"https://www.linkedin.com/in/theanthonymoretti"},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"mainEntityOfPage":"https://www.beghr.com/blog/energy-hiring/hiring-energy-project-managers"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -175,8 +175,8 @@ export default function HiringEnergyProjectManagersPage() {
         description: 'A practical playbook to define, source, and close a strong energy project manager hire in 23-35 days using passive candidate sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/energy-hiring/hiring-energy-project-managers',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/energy-hiring/hiring-energy-project-managers',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

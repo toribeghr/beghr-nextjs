@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Veterinary Hiring | BEG Blog',
   description: 'Veterinary talent shortage trends, associate and practice manager hiring strategies, and vet comp insights for practice owners who need to fill roles fast.',
-  alternates: { canonical: 'https://beghr.com/blog/veterinary-hiring' },
+  alternates: { canonical: 'https://www.beghr.com/blog/veterinary-hiring' },
   openGraph: {
     title: 'Veterinary Hiring | BEG Blog',
     description: 'Veterinary talent shortage trends, associate and practice manager hiring strategies, and vet comp insights for practice owners who need to fill roles fast.',
-    url: 'https://beghr.com/blog/veterinary-hiring',
+    url: 'https://www.beghr.com/blog/veterinary-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Veterinary Hiring | BEG Blog', description: 'Veterinary talent shortage trends, associate and practice manager hiring strategies, and vet comp insights for practice owners who need to fill roles fast.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Veterinary Hiring | BEG Blog', description: 'Veterinary talent shortage trends, associate and practice manager hiring strategies, and vet comp insights for practice owners who need to fill roles fast.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -89,9 +89,9 @@ export default function BlogVeterinaryHiringPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Veterinary Hiring', item: 'https://beghr.com/blog/veterinary-hiring' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Veterinary Hiring', item: 'https://www.beghr.com/blog/veterinary-hiring' },
             ],
           }),
         }}

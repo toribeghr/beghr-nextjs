@@ -5,16 +5,16 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'Onboarding Software | BEG',
   description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. iSolved onboarding on one platform, supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/onboarding-software' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/onboarding-software' },
   openGraph: {
     title: 'Onboarding Software | BEG',
     description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. iSolved onboarding on one platform, supported by BEG.',
-    url: 'https://beghr.com/services/hcm-software/onboarding-software',
+    url: 'https://www.beghr.com/services/hcm-software/onboarding-software',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Onboarding Software | BEG', description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. iSolved onboarding on one platform, supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Onboarding Software | BEG', description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. iSolved onboarding on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -56,9 +56,9 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://beghr.com/services' },
-    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'Onboarding Software', item: 'https://beghr.com/services/hcm-software/onboarding-software' },
+    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
+    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+    { '@type': 'ListItem', position: 3, name: 'Onboarding Software', item: 'https://www.beghr.com/services/hcm-software/onboarding-software' },
   ],
 };
 
@@ -66,7 +66,7 @@ const webPageJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tldr', '.faq-item h3', '.faq-item p'] },
-  url: 'https://beghr.com/services/hcm-software/onboarding-software',
+  url: 'https://www.beghr.com/services/hcm-software/onboarding-software',
 };
 
 export default function OnboardingSoftwarePage() {

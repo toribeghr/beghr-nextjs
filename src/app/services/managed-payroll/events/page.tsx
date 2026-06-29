@@ -8,20 +8,20 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Event Company Payroll | Seasonal Crews. 1099 vs W-2. Managed. | BEG',
   description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/events' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/events' },
   openGraph: {
     title: 'Event Company Payroll | Seasonal Crews. 1099 vs W-2. Managed. | BEG',
     description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
-    url: 'https://beghr.com/services/managed-payroll/events',
+    url: 'https://www.beghr.com/services/managed-payroll/events',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Event Company Payroll | Seasonal Crews. 1099 vs W-2. Managed. | BEG',
     description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -259,9 +259,9 @@ export default function PayrollEventsPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Event Companies', item: 'https://beghr.com/services/managed-payroll/events' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Event Companies', item: 'https://www.beghr.com/services/managed-payroll/events' },
             ],
           }),
         }}

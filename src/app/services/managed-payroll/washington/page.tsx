@@ -7,16 +7,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Washington Managed Payroll Services | BEG | $25-$45 PEPM',
   description: 'Fully managed payroll for Washington employers at $25-$45 PEPM. Washington L&I, PFML, and SDI all handled. No migration required.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/washington' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/washington' },
   openGraph: {
     title: 'Washington Managed Payroll Services | BEG | $25-$45 PEPM',
     description: 'Fully managed payroll for Washington employers at $25-$45 PEPM. Washington L&I, PFML, and SDI all handled. No migration required.',
-    url: 'https://beghr.com/services/managed-payroll/washington',
+    url: 'https://www.beghr.com/services/managed-payroll/washington',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Washington Managed Payroll Services | BEG | $25-$45 PEPM', description: 'Fully managed payroll for Washington employers at $25-$45 PEPM. Washington L&I, PFML, and SDI all handled. No migration required.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Washington Managed Payroll Services | BEG | $25-$45 PEPM', description: 'Fully managed payroll for Washington employers at $25-$45 PEPM. Washington L&I, PFML, and SDI all handled. No migration required.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('washington-payroll');
@@ -90,7 +90,7 @@ export default function PayrollWashingtonPage() {
             '@context': 'https://schema.org',
             '@type': 'Service',
             name: 'Washington Managed Payroll Services',
-            provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
+            provider: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             areaServed: { '@type': 'State', name: 'Washington' },
             description: 'Fully managed payroll for Washington employers at $25-$45 PEPM.',
           })
@@ -103,10 +103,10 @@ export default function PayrollWashingtonPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Washington', item: 'https://beghr.com/services/managed-payroll/washington' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Washington', item: 'https://www.beghr.com/services/managed-payroll/washington' },
             ],
           })
         }}

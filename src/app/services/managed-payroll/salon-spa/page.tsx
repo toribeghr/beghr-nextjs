@@ -8,20 +8,20 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Salon & Spa Payroll | Booth Rental. Commission. Tips. Managed. | BEG',
   description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/salon-spa' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/salon-spa' },
   openGraph: {
     title: 'Salon & Spa Payroll | Booth Rental. Commission. Tips. Managed. | BEG',
     description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
-    url: 'https://beghr.com/services/managed-payroll/salon-spa',
+    url: 'https://www.beghr.com/services/managed-payroll/salon-spa',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Salon & Spa Payroll | Booth Rental. Commission. Tips. Managed. | BEG',
     description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -259,9 +259,9 @@ export default function PayrollSalonSpaPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Salon & Spa', item: 'https://beghr.com/services/managed-payroll/salon-spa' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Salon & Spa', item: 'https://www.beghr.com/services/managed-payroll/salon-spa' },
             ],
           }),
         }}

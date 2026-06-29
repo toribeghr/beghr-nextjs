@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Tipped Employee | Payroll Glossary | BEG',
   description: 'Employee receiving over $30/month in tips who qualifies for the employer FLSA tip credit toward minimum wage.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/tipped-employee' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/tipped-employee' },
   openGraph: {
     title: 'Tipped Employee | Payroll Glossary | BEG',
     description: 'Employee receiving over $30/month in tips who qualifies for the employer FLSA tip credit toward minimum wage.',
-    url: 'https://beghr.com/resources/payroll-glossary/tipped-employee',
+    url: 'https://www.beghr.com/resources/payroll-glossary/tipped-employee',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Tipped Employee | Payroll Glossary | BEG', description: 'Employee receiving over $30/month in tips who qualifies for the employer FLSA tip credit toward minimum wage.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Tipped Employee | Payroll Glossary | BEG', description: 'Employee receiving over $30/month in tips who qualifies for the employer FLSA tip credit toward minimum wage.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -79,14 +79,14 @@ export default function TippedEmployeePage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/tipped-employee', url: 'https://beghr.com/resources/payroll-glossary/tipped-employee', name: 'Tipped Employee | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Tipped Employee', description: 'Employee receiving over $30/month in tips who qualifies for the employer FLSA tip credit toward minimum wage.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/tipped-employee', url: 'https://www.beghr.com/resources/payroll-glossary/tipped-employee', name: 'Tipped Employee | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Tipped Employee', description: 'Employee receiving over $30/month in tips who qualifies for the employer FLSA tip credit toward minimum wage.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Tipped Employee', item: 'https://beghr.com/resources/payroll-glossary/tipped-employee' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Tipped Employee', item: 'https://www.beghr.com/resources/payroll-glossary/tipped-employee' },
             ]},
           ]
         }) }} />

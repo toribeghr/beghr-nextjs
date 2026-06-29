@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Executive Recruiters in Washington | BEG',
   description: 'Executive placement in Washington. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/executive/washington-dc' },
-  openGraph: { title: 'Executive Recruiters in Washington | BEG', description: 'Executive placement in Washington in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/executive/washington-dc', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Executive Recruiters in Washington | BEG', description: 'Executive placement in Washington in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/executive/washington-dc' },
+  openGraph: { title: 'Executive Recruiters in Washington | BEG', description: 'Executive placement in Washington in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/executive/washington-dc', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Executive Recruiters in Washington | BEG', description: 'Executive placement in Washington in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-executive-washington-dc');
@@ -36,7 +36,7 @@ export default function PlacementExecutiveWashingtondcPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"Executive placement\",\"name\":\"Executive Placement in Washington\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Washington\"},\"url\":\"https://beghr.com/services/job-placement/executive/washington-dc\",\"description\":\"Permanent executive placement in Washington in 23-35 days at roughly 50% less than contingency.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"Executive placement\",\"name\":\"Executive Placement in Washington\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Washington\"},\"url\":\"https://www.beghr.com/services/job-placement/executive/washington-dc\",\"description\":\"Permanent executive placement in Washington in 23-35 days at roughly 50% less than contingency.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

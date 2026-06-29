@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'BEG vs Robert Half: Placement Compared | BEG',
   description: 'BEG vs Robert Half on permanent placement: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.',
-  alternates: { canonical: 'https://beghr.com/blog/compare/beg-vs-robert-half' },
+  alternates: { canonical: 'https://www.beghr.com/blog/compare/beg-vs-robert-half' },
   openGraph: {
     title: 'BEG vs Robert Half: Placement Compared | BEG',
     description: 'BEG vs Robert Half on permanent placement: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.',
-    url: 'https://beghr.com/blog/compare/beg-vs-robert-half',
+    url: 'https://www.beghr.com/blog/compare/beg-vs-robert-half',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG vs Robert Half: Placement Compared | BEG', description: 'BEG vs Robert Half on permanent placement: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG vs Robert Half: Placement Compared | BEG', description: 'BEG vs Robert Half on permanent placement: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/compare/beg-vs-robert-half');
@@ -21,7 +21,7 @@ const CALENDLY = getCalendlyLink('/blog/compare/beg-vs-robert-half');
 export default function BegVsRobertHalfPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "BEG vs Robert Half: Permanent Placement Compared | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/compare/beg-vs-robert-half"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "BEG vs Robert Half: Permanent Placement Compared | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/beg-vs-robert-half"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -167,8 +167,8 @@ export default function BegVsRobertHalfPage() {
         description: 'A fair, factual comparison of BEG milestone placement and Robert Half on scope, fee model, cost, and speed for permanent hiring.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/compare/beg-vs-robert-half',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/compare/beg-vs-robert-half',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

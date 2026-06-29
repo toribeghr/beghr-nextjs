@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Data Science Recruiting (2026 Guide) | BEG',
   description: 'The strongest data scientists are employed and passive. How to recruit data and ML talent without relying on job boards.',
-  alternates: { canonical: 'https://beghr.com/blog/technology-hiring/data-science-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/technology-hiring/data-science-recruiting' },
   openGraph: {
     title: 'Data Science Recruiting (2026 Guide) | BEG',
     description: 'The strongest data scientists are employed and passive. How to recruit data and ML talent without relying on job boards.',
-    url: 'https://beghr.com/blog/technology-hiring/data-science-recruiting',
+    url: 'https://www.beghr.com/blog/technology-hiring/data-science-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Data Science Recruiting (2026 Guide) | BEG', description: 'The strongest data scientists are employed and passive. How to recruit data and ML talent without relying on job boards.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Data Science Recruiting (2026 Guide) | BEG', description: 'The strongest data scientists are employed and passive. How to recruit data and ML talent without relying on job boards.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/technology-hiring/data-science-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function DataScienceRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Data Science Recruiting (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/technology-hiring/data-science-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Data Science Recruiting (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/technology-hiring/data-science-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -171,8 +171,8 @@ export default function DataScienceRecruitingPage() {
         description: 'Why job postings miss the strongest data scientists and how direct sourcing of passive practitioners fills data roles in 23-35 days.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/technology-hiring/data-science-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/technology-hiring/data-science-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

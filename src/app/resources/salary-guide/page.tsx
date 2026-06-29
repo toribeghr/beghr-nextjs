@@ -6,9 +6,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Salary & Hiring Guide 2026 | BEG',
   description: 'Free 2026 salary ranges across every major industry, from public labor data. Benchmark pay, then fill permanent roles in 23-35 days at roughly 50% less.',
-  alternates: { canonical: 'https://beghr.com/resources/salary-guide' },
-  openGraph: { title: 'Salary & Hiring Guide 2026 | BEG', description: 'Free 2026 salary ranges across every major industry, from public labor data. Benchmark pay, then fill permanent roles in 23-35 days at roughly 50% less.', url: 'https://beghr.com/resources/salary-guide', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'Salary & Hiring Guide 2026 | BEG', description: 'Free 2026 salary ranges across every major industry, from public labor data. Benchmark pay, then fill permanent roles in 23-35 days at roughly 50% less.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/resources/salary-guide' },
+  openGraph: { title: 'Salary & Hiring Guide 2026 | BEG', description: 'Free 2026 salary ranges across every major industry, from public labor data. Benchmark pay, then fill permanent roles in 23-35 days at roughly 50% less.', url: 'https://www.beghr.com/resources/salary-guide', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'Salary & Hiring Guide 2026 | BEG', description: 'Free 2026 salary ranges across every major industry, from public labor data. Benchmark pay, then fill permanent roles in 23-35 days at roughly 50% less.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('salary-guide');
@@ -16,7 +16,7 @@ const CALENDLY = getCalendlyLink('salary-guide');
 export default function SalaryGuideHubPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"BEG Salary and Hiring Guide 2026\",\"datePublished\":\"2026-06-25\",\"dateModified\":\"2026-06-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Anthony Moretti\",\"jobTitle\":\"VP of Sales\",\"url\":\"https://www.linkedin.com/in/theanthonymoretti\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://beghr.com/assets/beg-header-image.png\"}},\"mainEntityOfPage\":\"https://beghr.com/resources/salary-guide\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"BEG Salary and Hiring Guide 2026\",\"datePublished\":\"2026-06-25\",\"dateModified\":\"2026-06-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Anthony Moretti\",\"jobTitle\":\"VP of Sales\",\"url\":\"https://www.linkedin.com/in/theanthonymoretti\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.beghr.com/assets/beg-header-image.png\"}},\"mainEntityOfPage\":\"https://www.beghr.com/resources/salary-guide\"}" }} />
       <section className="hero">
         <div className="container">
           <p className="eyebrow">Resources &middot; Salary Guide</p>

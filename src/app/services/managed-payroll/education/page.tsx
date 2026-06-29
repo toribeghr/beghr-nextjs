@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Private School Payroll | 10-Month Pay. Part-Time Staff. Managed. | BEG',
   description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/education' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/education' },
   openGraph: {
     title: 'Private School Payroll | 10-Month Pay. Part-Time Staff. Managed. | BEG',
     description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.',
-    url: 'https://beghr.com/services/managed-payroll/education',
+    url: 'https://www.beghr.com/services/managed-payroll/education',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Private School Payroll | 10-Month Pay. Part-Time Staff. Managed. | BEG', description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Private School Payroll | 10-Month Pay. Part-Time Staff. Managed. | BEG', description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('education-payroll');
@@ -271,10 +271,10 @@ export default function PayrollEducationPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://beghr.com/services' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Education', item: 'https://beghr.com/services/managed-payroll/education' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.beghr.com/services' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Education', item: 'https://www.beghr.com/services/managed-payroll/education' },
             ],
           }),
         }}

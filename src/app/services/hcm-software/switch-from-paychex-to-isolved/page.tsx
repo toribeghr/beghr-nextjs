@@ -6,16 +6,16 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'Switch From Paychex to iSolved | BEG Manages It',
   description: 'Switching from Paychex to iSolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/switch-from-paychex-to-isolved' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-paychex-to-isolved' },
   openGraph: {
     title: 'Switch From Paychex to iSolved | BEG Manages It',
     description: 'Switching from Paychex to iSolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.',
-    url: 'https://beghr.com/services/hcm-software/switch-from-paychex-to-isolved',
+    url: 'https://www.beghr.com/services/hcm-software/switch-from-paychex-to-isolved',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Switch From Paychex to iSolved | BEG Manages It', description: 'Switching from Paychex to iSolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Switch From Paychex to iSolved | BEG Manages It', description: 'Switching from Paychex to iSolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -58,9 +58,9 @@ export default function SwitchFromPaychexToiSolvedPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-      { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-      { '@type': 'ListItem', position: 3, name: 'Switch From Paychex to iSolved', item: 'https://beghr.com/services/hcm-software/switch-from-paychex-to-isolved' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+      { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+      { '@type': 'ListItem', position: 3, name: 'Switch From Paychex to iSolved', item: 'https://www.beghr.com/services/hcm-software/switch-from-paychex-to-isolved' },
     ],
   };
 
@@ -189,19 +189,19 @@ export default function SwitchFromPaychexToiSolvedPage() {
             category: 'HCM technology',
             title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, benefits, time tracking, and the Connector for Claude. Who it fits best and how BEG manages it for you.',
-            href: '/blog/hcm-technology/isolved-platform',
+            href: '/blog/hcm-software/isolved-platform',
           },
           {
             category: 'HCM technology',
             title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
             excerpt: 'Payroll, onboarding, benefits enrollment, and compliance reporting are high-ROI automation targets. Here is what to prioritize and what to keep manual.',
-            href: '/blog/hcm-technology/hr-automation',
+            href: '/blog/hcm-software/hr-automation',
           },
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
             excerpt: 'Federal and state payroll tax changes in 2026, FLSA threshold updates, and what your HCM platform should be handling automatically, not manually.',
-            href: '/blog/hcm-technology/payroll-compliance',
+            href: '/blog/hcm-software/payroll-compliance',
           },
         ]}
       />

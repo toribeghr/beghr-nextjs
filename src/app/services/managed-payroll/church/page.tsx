@@ -8,16 +8,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Church Payroll | Housing Allowance & Clergy Tax. Handled. | BEG',
   description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/church' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/church' },
   openGraph: {
     title: 'Church Payroll | Housing Allowance & Clergy Tax. Handled. | BEG',
     description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
-    url: 'https://beghr.com/services/managed-payroll/church',
+    url: 'https://www.beghr.com/services/managed-payroll/church',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Church Payroll | Housing Allowance & Clergy Tax. Handled. | BEG', description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Church Payroll | Housing Allowance & Clergy Tax. Handled. | BEG', description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -278,7 +278,7 @@ export default function PayrollChurchPage() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'How do you handle the minister housing allowance?', acceptedAnswer: { '@type': 'Answer', text: 'We set up W-2 Box 14 correctly, send pre-designation templates before year-end, and document the housing allowance throughout the year.' } }, { '@type': 'Question', name: 'Why does our pastor not have FICA withheld?', acceptedAnswer: { '@type': 'Answer', text: 'Ministers are self-employed for Social Security purposes regardless of employment status for income tax, and pay SECA rather than FICA.' } }, { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } }] }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Churches & Faith-Based Organizations', item: 'https://beghr.com/services/managed-payroll/church' }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Churches & Faith-Based Organizations', item: 'https://www.beghr.com/services/managed-payroll/church' }] }) }} />
       <RelatedPosts
         heading="From the blog"
         posts={[

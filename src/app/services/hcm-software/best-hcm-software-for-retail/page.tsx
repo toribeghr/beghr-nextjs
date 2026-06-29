@@ -6,16 +6,16 @@ import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 export const metadata: Metadata = {
   title: 'Best HCM Software for Retail 2026 | BEG',
   description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why iSolved plus BEG is a strong pick.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/best-hcm-software-for-retail' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-retail' },
   openGraph: {
     title: 'Best HCM Software for Retail 2026 | BEG',
     description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why iSolved plus BEG is a strong pick.',
-    url: 'https://beghr.com/services/hcm-software/best-hcm-software-for-retail',
+    url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-retail',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Retail 2026 | BEG', description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why iSolved plus BEG is a strong pick.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Retail 2026 | BEG', description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why iSolved plus BEG is a strong pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
@@ -48,9 +48,9 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://beghr.com/services' },
-    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-    { '@type': 'ListItem', position: 3, name: 'Best HCM Software for Retail', item: 'https://beghr.com/services/hcm-software/best-hcm-software-for-retail' },
+    { '@type': 'ListItem', position: 1, name: 'Services', item: 'https://www.beghr.com/services' },
+    { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+    { '@type': 'ListItem', position: 3, name: 'Best HCM Software for Retail', item: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-retail' },
   ],
 };
 
@@ -162,9 +162,9 @@ export default function BestHCMRetailPage() {
       <RelatedPosts
         heading="From the blog"
         posts={[
-          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, scheduling, time tracking, and the Connector for Claude.', href: '/blog/hcm-technology/isolved-platform' },
-          { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Seasonal onboarding is a high-volume retail task. Here is what to automate and what to keep human.', href: '/blog/hcm-technology/hr-automation' },
-          { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'Multi-state rules, overtime, and what your HCM platform should be tracking automatically.', href: '/blog/hcm-technology/payroll-compliance' },
+          { category: 'HCM technology', title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)", excerpt: 'Full isolved platform review covering payroll, scheduling, time tracking, and the Connector for Claude.', href: '/blog/hcm-software/isolved-platform' },
+          { category: 'HCM technology', title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)', excerpt: 'Seasonal onboarding is a high-volume retail task. Here is what to automate and what to keep human.', href: '/blog/hcm-software/hr-automation' },
+          { category: 'HCM technology', title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle', excerpt: 'Multi-state rules, overtime, and what your HCM platform should be tracking automatically.', href: '/blog/hcm-software/payroll-compliance' },
         ]}
       />
     </main>

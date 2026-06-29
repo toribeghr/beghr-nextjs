@@ -104,7 +104,7 @@ const pageUrls = allPages
 
 let sitemapMissing = 0;
 for (const u of pageUrls) {
-  const url = u === '' ? 'https://beghr.com' : `https://beghr.com/${u}`;
+  const url = u === '' ? 'https://www.beghr.com' : `https://www.beghr.com/${u}`;
   if (!sitemap.includes(url)) sitemapMissing++;
 }
 if (sitemapMissing > 0) {

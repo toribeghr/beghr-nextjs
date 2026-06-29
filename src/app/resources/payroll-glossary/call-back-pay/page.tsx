@@ -4,20 +4,20 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Call-Back Pay | Payroll Glossary | BEG',
   description: 'Learn what call-back pay is, when it is required, and how it affects overtime calculations under the FLSA.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/call-back-pay' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/call-back-pay' },
   openGraph: {
     title: 'Call-Back Pay | Payroll Glossary | BEG',
     description: 'Learn what call-back pay is, when it is required, and how it affects overtime calculations under the FLSA.',
-    url: 'https://beghr.com/resources/payroll-glossary/call-back-pay',
+    url: 'https://www.beghr.com/resources/payroll-glossary/call-back-pay',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Call-Back Pay | Payroll Glossary | BEG',
     description: 'Learn what call-back pay is, when it is required, and how it affects overtime calculations under the FLSA.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -80,14 +80,14 @@ export default function CallBackPayPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/call-back-pay', url: 'https://beghr.com/resources/payroll-glossary/call-back-pay', name: 'Call-Back Pay | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Call-Back Pay', description: 'Learn what call-back pay is, when it is required, and how it affects overtime calculations under the FLSA.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/call-back-pay', url: 'https://www.beghr.com/resources/payroll-glossary/call-back-pay', name: 'Call-Back Pay | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Call-Back Pay', description: 'Learn what call-back pay is, when it is required, and how it affects overtime calculations under the FLSA.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Call-Back Pay', item: 'https://beghr.com/resources/payroll-glossary/call-back-pay' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Call-Back Pay', item: 'https://www.beghr.com/resources/payroll-glossary/call-back-pay' },
             ]},
           ]
         }) }} />

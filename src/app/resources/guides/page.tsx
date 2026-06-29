@@ -5,21 +5,21 @@ export const metadata: Metadata = {
   title: 'Payroll Guides & Downloads | Free Resources | BEG',
   description: 'Free managed payroll guides including the year-end payroll checklist, buyer\'s guide, compliance checklist, and new hire checklist.',
   alternates: {
-    canonical: 'https://beghr.com/resources/guides',
+    canonical: 'https://www.beghr.com/resources/guides',
   },
   openGraph: {
     title: 'Payroll Guides & Downloads | Free Resources | BEG',
     description: 'Free managed payroll guides including the year-end payroll checklist, buyer\'s guide, compliance checklist, and new hire checklist.',
-    url: 'https://beghr.com/resources/guides',
+    url: 'https://www.beghr.com/resources/guides',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Payroll Guides & Downloads | Free Resources | BEG',
     description: 'Free managed payroll guides including the year-end payroll checklist, buyer\'s guide, compliance checklist, and new hire checklist.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -136,9 +136,9 @@ export default function GuidesPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://beghr.com/resources/guides' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://www.beghr.com/resources/guides' },
             ],
           }),
         }}

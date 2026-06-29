@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Healthcare Practice Cuts Payroll Processing to Zero | BEG Case Study',
   description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and multi-state compliance.',
-  alternates: { canonical: 'https://beghr.com/case-studies/healthcare' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies/healthcare' },
   openGraph: {
     title: 'Healthcare Practice Cuts Payroll Processing to Zero | BEG Case Study',
     description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and multi-state compliance.',
-    url: 'https://beghr.com/case-studies/healthcare',
+    url: 'https://www.beghr.com/case-studies/healthcare',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Practice Cuts Payroll Processing to Zero | BEG Case Study', description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and multi-state compliance.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Practice Cuts Payroll Processing to Zero | BEG Case Study', description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and multi-state compliance.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function HealthcareCaseStudyPage() {
@@ -155,18 +155,18 @@ export default function HealthcareCaseStudyPage() {
         description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG configured shift differentials and took over all payroll management.',
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/case-studies/healthcare',
+        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/case-studies/healthcare',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
-          { '@type': 'ListItem', position: 3, name: 'Healthcare Case Study', item: 'https://beghr.com/case-studies/healthcare' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 3, name: 'Healthcare Case Study', item: 'https://www.beghr.com/case-studies/healthcare' },
         ],
       }) }} />
     </article>

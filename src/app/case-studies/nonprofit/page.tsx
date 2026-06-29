@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Nonprofit Eliminates Payroll Risk on Grant-Funded Programs | BEG',
   description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation and took over payroll.',
-  alternates: { canonical: 'https://beghr.com/case-studies/nonprofit' },
+  alternates: { canonical: 'https://www.beghr.com/case-studies/nonprofit' },
   openGraph: {
     title: 'Nonprofit Eliminates Payroll Risk on Grant-Funded Programs | BEG',
     description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation and took over payroll.',
-    url: 'https://beghr.com/case-studies/nonprofit',
+    url: 'https://www.beghr.com/case-studies/nonprofit',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Nonprofit Eliminates Payroll Risk on Grant-Funded Programs | BEG', description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation and took over payroll.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Eliminates Payroll Risk on Grant-Funded Programs | BEG', description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation and took over payroll.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function NonprofitCaseStudyPage() {
@@ -158,18 +158,18 @@ export default function NonprofitCaseStudyPage() {
         description: 'A 38-employee nonprofit with 60% grant-funded payroll passed its first clean single audit after BEG configured program-code cost allocation and took over all payroll management.',
         datePublished: '2026-06-28',
         dateModified: '2026-06-28',
-        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/case-studies/nonprofit',
+        author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/case-studies/nonprofit',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://beghr.com/case-studies' },
-          { '@type': 'ListItem', position: 3, name: 'Nonprofit Case Study', item: 'https://beghr.com/case-studies/nonprofit' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+          { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.beghr.com/case-studies' },
+          { '@type': 'ListItem', position: 3, name: 'Nonprofit Case Study', item: 'https://www.beghr.com/case-studies/nonprofit' },
         ],
       }) }} />
     </article>

@@ -6,21 +6,21 @@ export const metadata: Metadata = {
   title: 'Cannabis Payroll Guide | 280E & Compliance Handled | BEG',
   description: 'Cannabis payroll guide: 280E tax constraints, cash-heavy operations, banking limits, seed-to-sale staffing, and high compliance scrutiny, fully managed.',
   alternates: {
-    canonical: 'https://beghr.com/resources/guides/cannabis-payroll-guide',
+    canonical: 'https://www.beghr.com/resources/guides/cannabis-payroll-guide',
   },
   openGraph: {
     title: 'Cannabis Payroll Guide | 280E & Compliance Handled | BEG',
     description: 'Cannabis payroll guide: 280E tax constraints, cash-heavy operations, banking limits, seed-to-sale staffing, and high compliance scrutiny, fully managed.',
-    url: 'https://beghr.com/resources/guides/cannabis-payroll-guide',
+    url: 'https://www.beghr.com/resources/guides/cannabis-payroll-guide',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cannabis Payroll Guide | 280E & Compliance Handled | BEG',
     description: 'Cannabis payroll guide: 280E tax constraints, cash-heavy operations, banking limits, seed-to-sale staffing, and high compliance scrutiny, fully managed.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -56,8 +56,8 @@ export default function CannabisPayrollGuidePage() {
             '@graph': [
               {
                 '@type': 'WebPage',
-                '@id': 'https://beghr.com/resources/guides/cannabis-payroll-guide',
-                url: 'https://beghr.com/resources/guides/cannabis-payroll-guide',
+                '@id': 'https://www.beghr.com/resources/guides/cannabis-payroll-guide',
+                url: 'https://www.beghr.com/resources/guides/cannabis-payroll-guide',
                 name: 'Cannabis Payroll Guide',
                 datePublished: '2026-06-28',
                 dateModified: '2026-06-28',
@@ -75,10 +75,10 @@ export default function CannabisPayrollGuidePage() {
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://beghr.com/resources/guides' },
-                  { '@type': 'ListItem', position: 4, name: 'Cannabis Payroll Guide', item: 'https://beghr.com/resources/guides/cannabis-payroll-guide' },
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+                  { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+                  { '@type': 'ListItem', position: 3, name: 'Guides', item: 'https://www.beghr.com/resources/guides' },
+                  { '@type': 'ListItem', position: 4, name: 'Cannabis Payroll Guide', item: 'https://www.beghr.com/resources/guides/cannabis-payroll-guide' },
                 ],
               },
             ],

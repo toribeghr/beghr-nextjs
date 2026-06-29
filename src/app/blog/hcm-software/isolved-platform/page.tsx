@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'iSolved People Cloud Review 2026 | Features & Pricing | BEG',
   description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom and ADP.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/isolved-platform' },
+  alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/isolved-platform' },
   openGraph: {
     title: 'iSolved People Cloud Review 2026 | Features & Pricing | BEG',
     description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...',
-    url: 'https://beghr.com/blog/hcm-technology/isolved-platform',
+    url: 'https://www.beghr.com/blog/hcm-software/isolved-platform',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved People Cloud Review 2026 | Features & Pricing | BEG', description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved People Cloud Review 2026 | Features & Pricing | BEG', description: 'Full iSolved People Cloud review for 2026. Modules, pricing model, implementation timeline, Connector for Claude, and how it compares to Paycom, Payloci...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -77,7 +77,7 @@ const situationRows = [
 export default function IsolvedPlatformPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "iSolved People Cloud Review 2026 | Features & Pricing | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/isolved-platform"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "iSolved People Cloud Review 2026 | Features & Pricing | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/isolved-platform"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -319,12 +319,12 @@ export default function IsolvedPlatformPage() {
             publisher: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' },
+              logo: { '@type': 'ImageObject', url: 'https://www.beghr.com/assets/beg-header-image.png' },
             },
-            url: 'https://beghr.com/blog/hcm-software/isolved-platform',
+            url: 'https://www.beghr.com/blog/hcm-software/isolved-platform',
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id': 'https://beghr.com/blog/hcm-software/isolved-platform',
+              '@id': 'https://www.beghr.com/blog/hcm-software/isolved-platform',
             },
           }),
         }}

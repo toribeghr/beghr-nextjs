@@ -6,7 +6,7 @@ module.exports = {
     eyebrow: 'Job Placement · Accounting & CPA',
     metaTitle: 'Accounting & CPA Placement | Controllers, Tax & Audit | BEG',
     metaDesc: 'Fill controller, tax, audit, and CPA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.',
-    canonical: 'https://beghr.com/services/job-placement/accounting-cpa',
+    canonical: 'https://www.beghr.com/services/job-placement/accounting-cpa',
     title: 'The CPA shortage is now your hiring problem.',
     description: 'The pipeline of new accountants has thinned for a decade, and the people you need are already employed and quietly fielding offers. We place controllers, tax managers, auditors, and senior accountants in 23-35 days at roughly 50% less than contingency firms.',
     imageSrc: '/assets/hero-images/finance.svg',

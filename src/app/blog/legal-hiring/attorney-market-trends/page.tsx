@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
   description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are.',
-  alternates: { canonical: 'https://beghr.com/blog/legal-hiring/attorney-market-trends' },
+  alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/attorney-market-trends' },
   openGraph: {
     title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
     description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...',
-    url: 'https://beghr.com/blog/legal-hiring/attorney-market-trends',
+    url: 'https://www.beghr.com/blog/legal-hiring/attorney-market-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '2026 Attorney Market Trends: What Managing Partners Need to Know', description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: '2026 Attorney Market Trends: What Managing Partners Need to Know', description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -67,7 +67,7 @@ const frameworkRows = [
 export default function AttorneyMarketTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "2026 Attorney Market Trends: What Managing Partners Need to Know", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/legal-hiring/attorney-market-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "2026 Attorney Market Trends: What Managing Partners Need to Know", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/attorney-market-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -353,12 +353,12 @@ export default function AttorneyMarketTrendsPage() {
             publisher: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' },
+              logo: { '@type': 'ImageObject', url: 'https://www.beghr.com/assets/beg-header-image.png' },
             },
-            url: 'https://beghr.com/blog/legal-hiring/attorney-market-trends',
+            url: 'https://www.beghr.com/blog/legal-hiring/attorney-market-trends',
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id': 'https://beghr.com/blog/legal-hiring/attorney-market-trends',
+              '@id': 'https://www.beghr.com/blog/legal-hiring/attorney-market-trends',
             },
           }),
         }}

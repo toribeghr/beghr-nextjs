@@ -7,16 +7,16 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Nonprofits | Grant Allocation | BEG',
   description: 'iSolved HCM for nonprofits. Grant-funded labor allocation, board reporting, and benefits on one connected platform. Implemented and supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/nonprofit' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/nonprofit' },
   openGraph: {
     title: 'iSolved HCM for Nonprofits | Grant Allocation | BEG',
     description: 'iSolved HCM for nonprofits. Grant-funded labor allocation, board reporting, and benefits on one connected platform. Implemented and supported by BEG.',
-    url: 'https://beghr.com/services/hcm-software/nonprofit',
+    url: 'https://www.beghr.com/services/hcm-software/nonprofit',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Nonprofits | Grant Allocation | BEG', description: 'iSolved HCM for nonprofits. Grant-funded labor allocation, board reporting, and benefits on one connected platform. Implemented and supported by BEG.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'iSolved HCM for Nonprofits | Grant Allocation | BEG', description: 'iSolved HCM for nonprofits. Grant-funded labor allocation, board reporting, and benefits on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -224,9 +224,9 @@ export default function HCMNonprofitPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://beghr.com/services/hcm-software' },
-              { '@type': 'ListItem', position: 3, name: 'Nonprofit', item: 'https://beghr.com/services/hcm-software/nonprofit' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'HCM Software', item: 'https://www.beghr.com/services/hcm-software' },
+              { '@type': 'ListItem', position: 3, name: 'Nonprofit', item: 'https://www.beghr.com/services/hcm-software/nonprofit' },
             ],
           }),
         }}
@@ -238,19 +238,19 @@ export default function HCMNonprofitPage() {
             category: 'HCM technology',
             title: "iSolved HCM Platform Review: Modules, Pricing, and Who It's Built For (2026)",
             excerpt: 'Full isolved platform review covering payroll, labor allocation, benefits, reporting, and the Connector for Claude. Who it fits and who it does not.',
-            href: '/blog/hcm-technology/isolved-platform',
+            href: '/blog/hcm-software/isolved-platform',
           },
           {
             category: 'HCM technology',
             title: 'HR Automation: What to Automate, What Not To, and How Much Time You Save (2026)',
             excerpt: 'Nonprofit teams spend significant time on grant allocation and reporting. Here is what to prioritize and what to keep human.',
-            href: '/blog/hcm-technology/hr-automation',
+            href: '/blog/hcm-software/hr-automation',
           },
           {
             category: 'HCM technology',
             title: 'Payroll Tax Compliance 2026: What Changed and What Your System Must Handle',
             excerpt: '2026 payroll compliance changes for nonprofit employers. Allocation, reporting, and what your HCM platform should be tracking automatically.',
-            href: '/blog/hcm-technology/payroll-compliance',
+            href: '/blog/hcm-software/payroll-compliance',
           },
         ]}
       />

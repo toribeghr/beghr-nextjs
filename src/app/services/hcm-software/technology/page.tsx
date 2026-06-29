@@ -7,7 +7,7 @@ import TrueCostCalculator from '@/components/TrueCostCalculator';
 export const metadata: Metadata = {
   title: 'iSolved HCM for Tech Companies | HR & Equity Platform | BEG',
   description: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
-  alternates: { canonical: 'https://beghr.com/services/hcm-software/technology' },
+  alternates: { canonical: 'https://www.beghr.com/services/hcm-software/technology' },
 };
 
 const CALENDLY = getCalendlyLink('hcm-technology');

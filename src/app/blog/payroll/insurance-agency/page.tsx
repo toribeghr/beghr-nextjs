@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Insurance Agency Payroll Guides | Commission + Producer Pay | BEG',
   description: 'Insurance agency payroll guides covering producer commission, W-2 vs 1099 agents, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/insurance-agency' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/insurance-agency' },
   openGraph: {
     title: 'Insurance Agency Payroll Guides | Commission + Producer Pay | BEG',
     description: 'Insurance agency payroll guides covering producer commission, W-2 vs 1099 agents, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.',
-    url: 'https://beghr.com/blog/payroll/insurance-agency',
+    url: 'https://www.beghr.com/blog/payroll/insurance-agency',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Insurance Agency Payroll Guides | Commission + Producer Pay | BEG', description: 'Insurance agency payroll guides covering producer commission, W-2 vs 1099 agents, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Insurance Agency Payroll Guides | Commission + Producer Pay | BEG', description: 'Insurance agency payroll guides covering producer commission, W-2 vs 1099 agents, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -98,10 +98,10 @@ export default function InsuranceAgencyPayrollHubPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-              { '@type': 'ListItem', position: 4, name: 'Insurance Agencies', item: 'https://beghr.com/blog/payroll/insurance-agency' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Insurance Agencies', item: 'https://www.beghr.com/blog/payroll/insurance-agency' },
             ],
           })
         }}

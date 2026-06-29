@@ -4,20 +4,20 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Earned Sick Leave | Payroll Glossary | BEG',
   description: 'Learn how earned sick leave laws work, which states require it, typical accrual rules, and what employers must do to comply.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/earned-sick-leave' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/earned-sick-leave' },
   openGraph: {
     title: 'Earned Sick Leave | Payroll Glossary | BEG',
     description: 'Learn how earned sick leave laws work, which states require it, typical accrual rules, and what employers must do to comply.',
-    url: 'https://beghr.com/resources/payroll-glossary/earned-sick-leave',
+    url: 'https://www.beghr.com/resources/payroll-glossary/earned-sick-leave',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Earned Sick Leave | Payroll Glossary | BEG',
     description: 'Learn how earned sick leave laws work, which states require it, typical accrual rules, and what employers must do to comply.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -80,14 +80,14 @@ export default function EarnedSickLeavePage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/earned-sick-leave', url: 'https://beghr.com/resources/payroll-glossary/earned-sick-leave', name: 'Earned Sick Leave | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Earned Sick Leave', description: 'Learn how earned sick leave laws work, which states require it, typical accrual rules, and what employers must do to comply.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/earned-sick-leave', url: 'https://www.beghr.com/resources/payroll-glossary/earned-sick-leave', name: 'Earned Sick Leave | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Earned Sick Leave', description: 'Learn how earned sick leave laws work, which states require it, typical accrual rules, and what employers must do to comply.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Earned Sick Leave', item: 'https://beghr.com/resources/payroll-glossary/earned-sick-leave' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Earned Sick Leave', item: 'https://www.beghr.com/resources/payroll-glossary/earned-sick-leave' },
             ]},
           ]
         }) }} />

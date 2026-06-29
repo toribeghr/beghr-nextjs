@@ -4,16 +4,16 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG',
   description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45.',
-  alternates: { canonical: 'https://beghr.com/partners/cpa' },
+  alternates: { canonical: 'https://www.beghr.com/partners/cpa' },
   openGraph: {
     title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG',
     description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...',
-    url: 'https://beghr.com/partners/cpa',
+    url: 'https://www.beghr.com/partners/cpa',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG', description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG', description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -184,9 +184,9 @@ export default function CPAPartnerPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Partners', item: 'https://beghr.com/partners' },
-              { '@type': 'ListItem', position: 3, name: 'CPAs & Accounting Firms', item: 'https://beghr.com/partners/cpa' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Partners', item: 'https://www.beghr.com/partners' },
+              { '@type': 'ListItem', position: 3, name: 'CPAs & Accounting Firms', item: 'https://www.beghr.com/partners/cpa' },
             ],
           }),
         }}

@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Dental Practice Manager Recruiting | BEG',
   description: 'A strong practice manager runs the business so you can run the chair. How to source and close practice management talent in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/dental-hiring/practice-manager-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/dental-hiring/practice-manager-recruiting' },
   openGraph: {
     title: 'Dental Practice Manager Recruiting | BEG',
     description: 'A strong practice manager runs the business so you can run the chair. How to source and close practice management talent in 23-35 days.',
-    url: 'https://beghr.com/blog/dental-hiring/practice-manager-recruiting',
+    url: 'https://www.beghr.com/blog/dental-hiring/practice-manager-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Dental Practice Manager Recruiting | BEG', description: 'A strong practice manager runs the business so you can run the chair. How to source and close practice management talent in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Dental Practice Manager Recruiting | BEG', description: 'A strong practice manager runs the business so you can run the chair. How to source and close practice management talent in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/dental-hiring/practice-manager-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function PracticeManagerRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Dental Practice Manager Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/dental-hiring/practice-manager-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Dental Practice Manager Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/dental-hiring/practice-manager-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -175,8 +175,8 @@ export default function PracticeManagerRecruitingPage() {
         description: 'A practical playbook to define, source, and close a strong dental practice manager hire in 23-35 days using passive candidate sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/dental-hiring/practice-manager-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/dental-hiring/practice-manager-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

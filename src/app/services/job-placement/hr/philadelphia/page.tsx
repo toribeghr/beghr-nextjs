@@ -7,9 +7,9 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'HR Recruiters in Philadelphia | BEG',
   description: 'HR placement in Philadelphia. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.',
-  alternates: { canonical: 'https://beghr.com/services/job-placement/hr/philadelphia' },
-  openGraph: { title: 'HR Recruiters in Philadelphia | BEG', description: 'HR placement in Philadelphia in 23-35 days at roughly 50% less than contingency.', url: 'https://beghr.com/services/job-placement/hr/philadelphia', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'HR Recruiters in Philadelphia | BEG', description: 'HR placement in Philadelphia in 23-35 days at roughly 50% less than contingency.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/services/job-placement/hr/philadelphia' },
+  openGraph: { title: 'HR Recruiters in Philadelphia | BEG', description: 'HR placement in Philadelphia in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/hr/philadelphia', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'HR Recruiters in Philadelphia | BEG', description: 'HR placement in Philadelphia in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-hr-philadelphia');
@@ -36,7 +36,7 @@ export default function PlacementHrPhiladelphiaPage() {
           </aside>
         </div>
       </section>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://beghr.com\"},\"serviceType\":\"HR placement\",\"name\":\"HR Placement in Philadelphia\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Philadelphia\"},\"url\":\"https://beghr.com/services/job-placement/hr/philadelphia\",\"description\":\"Permanent hr placement in Philadelphia in 23-35 days at roughly 50% less than contingency.\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Business Executive Group\",\"url\":\"https://www.beghr.com\"},\"serviceType\":\"HR placement\",\"name\":\"HR Placement in Philadelphia\",\"areaServed\":{\"@type\":\"City\",\"name\":\"Philadelphia\"},\"url\":\"https://www.beghr.com/services/job-placement/hr/philadelphia\",\"description\":\"Permanent hr placement in Philadelphia in 23-35 days at roughly 50% less than contingency.\"}" }} />
 
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>

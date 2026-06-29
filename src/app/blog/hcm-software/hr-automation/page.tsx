@@ -3,16 +3,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
   description: 'What HR automation actually looks like in 2026. How iSolved automates payroll, onboarding, compliance, and ACA tracking -- plus the Connector for Claude.',
-  alternates: { canonical: 'https://beghr.com/blog/hcm-technology/hr-automation' },
+  alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/hr-automation' },
   openGraph: {
     title: 'HR Automation in 2026 | What iSolved Actually Does | BEG',
     description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...',
-    url: 'https://beghr.com/blog/hcm-technology/hr-automation',
+    url: 'https://www.beghr.com/blog/hcm-software/hr-automation',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HR Automation in 2026 | What iSolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HR Automation in 2026 | What iSolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How iSolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The iSolved Connec...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -107,7 +107,7 @@ const bestFitRows = [
 export default function HRAutomationPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation in 2026 | What iSolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/hcm-technology/hr-automation"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation in 2026 | What iSolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/hr-automation"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -358,12 +358,12 @@ export default function HRAutomationPage() {
             publisher: {
               '@type': 'Organization',
               name: 'Business Executive Group',
-              logo: { '@type': 'ImageObject', url: 'https://beghr.com/assets/beg-header-image.png' },
+              logo: { '@type': 'ImageObject', url: 'https://www.beghr.com/assets/beg-header-image.png' },
             },
-            url: 'https://beghr.com/blog/hcm-software/hr-automation',
+            url: 'https://www.beghr.com/blog/hcm-software/hr-automation',
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id': 'https://beghr.com/blog/hcm-software/hr-automation',
+              '@id': 'https://www.beghr.com/blog/hcm-software/hr-automation',
             },
           }),
         }}

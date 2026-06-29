@@ -21,7 +21,7 @@ const navGroups = [
       { href: '/blog/compare',        label: 'Compare Alternatives', hub: false },
       { href: '/blog/legal-hiring',   label: 'Legal Hiring Guides',  hub: false },
       { href: '/blog/payroll',        label: 'Payroll by Industry',  hub: false },
-      { href: '/blog/hcm-technology', label: 'HCM Technology',       hub: false },
+      { href: '/blog/hcm-software', label: 'HCM Technology',       hub: false },
     ],
   },
   {

@@ -4,16 +4,16 @@ import { getCalendlyLink } from '@/lib/services';
 export const metadata: Metadata = {
   title: 'Project Engineer Recruiting | BEG',
   description: 'Strong project engineers are passive and rarely on job boards. How to source and close the people who keep projects on time and on budget, in 23-35 days.',
-  alternates: { canonical: 'https://beghr.com/blog/engineering-hiring/project-engineer-recruiting' },
+  alternates: { canonical: 'https://www.beghr.com/blog/engineering-hiring/project-engineer-recruiting' },
   openGraph: {
     title: 'Project Engineer Recruiting | BEG',
     description: 'Strong project engineers are passive and rarely on job boards. How to source and close the people who keep projects on time and on budget, in 23-35 days.',
-    url: 'https://beghr.com/blog/engineering-hiring/project-engineer-recruiting',
+    url: 'https://www.beghr.com/blog/engineering-hiring/project-engineer-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Project Engineer Recruiting | BEG', description: 'Strong project engineers are passive and rarely on job boards. How to source and close the people who keep projects on time and on budget, in 23-35 days.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Project Engineer Recruiting | BEG', description: 'Strong project engineers are passive and rarely on job boards. How to source and close the people who keep projects on time and on budget, in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/engineering-hiring/project-engineer-recruiting');
@@ -40,7 +40,7 @@ const faqs = [
 export default function ProjectEngineerRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Project Engineer Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://beghr.com/blog/engineering-hiring/project-engineer-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Project Engineer Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/engineering-hiring/project-engineer-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -164,8 +164,8 @@ export default function ProjectEngineerRecruitingPage() {
         description: 'How to define, source, and close strong project engineers who keep projects on time and on budget, using passive sourcing and a milestone-based model.',
         datePublished: '2026-06-28', dateModified: '2026-06-28',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },
-        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' },
-        url: 'https://beghr.com/blog/engineering-hiring/project-engineer-recruiting',
+        publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
+        url: 'https://www.beghr.com/blog/engineering-hiring/project-engineer-recruiting',
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

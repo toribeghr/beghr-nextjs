@@ -4,16 +4,16 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'CPA Firm Payroll Guides | Partner Draws + Busy Season | BEG',
   description: 'CPA and accounting firm payroll guides covering partner draws, busy season overtime, remote staff, and outsourcing. BEG managed payroll at $25-$45 PEPM.',
-  alternates: { canonical: 'https://beghr.com/blog/payroll/accounting-cpa' },
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/accounting-cpa' },
   openGraph: {
     title: 'CPA Firm Payroll Guides | Partner Draws + Busy Season | BEG',
     description: 'CPA and accounting firm payroll guides covering partner draws, busy season overtime, remote staff, and outsourcing. BEG managed payroll at $25-$45 PEPM.',
-    url: 'https://beghr.com/blog/payroll/accounting-cpa',
+    url: 'https://www.beghr.com/blog/payroll/accounting-cpa',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'CPA Firm Payroll Guides | Partner Draws + Busy Season | BEG', description: 'CPA and accounting firm payroll guides covering partner draws, busy season overtime, remote staff, and outsourcing. BEG managed payroll at $25-$45 PEPM.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'CPA Firm Payroll Guides | Partner Draws + Busy Season | BEG', description: 'CPA and accounting firm payroll guides covering partner draws, busy season overtime, remote staff, and outsourcing. BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [
@@ -98,10 +98,10 @@ export default function AccountingCpaPayrollHubPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://beghr.com/blog' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://beghr.com/blog/payroll' },
-              { '@type': 'ListItem', position: 4, name: 'CPA and Accounting Firms', item: 'https://beghr.com/blog/payroll/accounting-cpa' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+              { '@type': 'ListItem', position: 4, name: 'CPA and Accounting Firms', item: 'https://www.beghr.com/blog/payroll/accounting-cpa' },
             ],
           })
         }}

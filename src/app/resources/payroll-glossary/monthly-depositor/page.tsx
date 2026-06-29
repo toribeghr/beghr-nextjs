@@ -4,9 +4,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Monthly Depositor | Payroll Glossary | BEG',
   description: 'Employer whose lookback period payroll tax liability was $50,000 or less, required to deposit taxes by the 15th of the following month.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/monthly-depositor' },
-  openGraph: { title: 'Monthly Depositor | Payroll Glossary | BEG', description: 'Employer whose lookback period payroll tax liability was $50,000 or less, required to deposit taxes by the 15th of the following month.', url: 'https://beghr.com/resources/payroll-glossary/monthly-depositor', siteName: 'Business Executive Group', images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Monthly Depositor | Payroll Glossary | BEG', description: 'Employer whose lookback period payroll tax liability was $50,000 or less, required to deposit taxes by the 15th of the following month.', images: ['https://beghr.com/assets/og-image.png'] },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/monthly-depositor' },
+  openGraph: { title: 'Monthly Depositor | Payroll Glossary | BEG', description: 'Employer whose lookback period payroll tax liability was $50,000 or less, required to deposit taxes by the 15th of the following month.', url: 'https://www.beghr.com/resources/payroll-glossary/monthly-depositor', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Monthly Depositor | Payroll Glossary | BEG', description: 'Employer whose lookback period payroll tax liability was $50,000 or less, required to deposit taxes by the 15th of the following month.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -63,14 +63,14 @@ export default function MonthlyDepositorPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/monthly-depositor', url: 'https://beghr.com/resources/payroll-glossary/monthly-depositor', name: 'Monthly Depositor | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Monthly Depositor', description: 'Employer whose lookback period payroll tax liability was $50,000 or less, required to deposit taxes by the 15th of the following month.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/monthly-depositor', url: 'https://www.beghr.com/resources/payroll-glossary/monthly-depositor', name: 'Monthly Depositor | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Monthly Depositor', description: 'Employer whose lookback period payroll tax liability was $50,000 or less, required to deposit taxes by the 15th of the following month.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Monthly Depositor', item: 'https://beghr.com/resources/payroll-glossary/monthly-depositor' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Monthly Depositor', item: 'https://www.beghr.com/resources/payroll-glossary/monthly-depositor' },
             ]},
           ]
         }) }} />

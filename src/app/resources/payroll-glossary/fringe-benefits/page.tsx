@@ -4,20 +4,20 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Fringe Benefits | Payroll Glossary | BEG',
   description: 'Learn which fringe benefits are taxable and which are excluded from income, how they appear on the W-2, and IRS rules for common fringe benefits.',
-  alternates: { canonical: 'https://beghr.com/resources/payroll-glossary/fringe-benefits' },
+  alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/fringe-benefits' },
   openGraph: {
     title: 'Fringe Benefits | Payroll Glossary | BEG',
     description: 'Learn which fringe benefits are taxable and which are excluded from income, how they appear on the W-2, and IRS rules for common fringe benefits.',
-    url: 'https://beghr.com/resources/payroll-glossary/fringe-benefits',
+    url: 'https://www.beghr.com/resources/payroll-glossary/fringe-benefits',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Fringe Benefits | Payroll Glossary | BEG',
     description: 'Learn which fringe benefits are taxable and which are excluded from income, how they appear on the W-2, and IRS rules for common fringe benefits.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -80,14 +80,14 @@ export default function FringeBenefitsPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://beghr.com/resources/payroll-glossary/fringe-benefits', url: 'https://beghr.com/resources/payroll-glossary/fringe-benefits', name: 'Fringe Benefits | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Fringe Benefits', description: 'Learn which fringe benefits are taxable and which are excluded from income, how they appear on the W-2, and IRS rules for common fringe benefits.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://beghr.com/resources/payroll-glossary' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/fringe-benefits', url: 'https://www.beghr.com/resources/payroll-glossary/fringe-benefits', name: 'Fringe Benefits | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'DefinedTerm', name: 'Fringe Benefits', description: 'Learn which fringe benefits are taxable and which are excluded from income, how they appear on the W-2, and IRS rules for common fringe benefits.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://beghr.com/resources' },
-              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://beghr.com/resources/payroll-glossary' },
-              { '@type': 'ListItem', position: 4, name: 'Fringe Benefits', item: 'https://beghr.com/resources/payroll-glossary/fringe-benefits' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.beghr.com/resources' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll Glossary', item: 'https://www.beghr.com/resources/payroll-glossary' },
+              { '@type': 'ListItem', position: 4, name: 'Fringe Benefits', item: 'https://www.beghr.com/resources/payroll-glossary/fringe-benefits' },
             ]},
           ]
         }) }} />

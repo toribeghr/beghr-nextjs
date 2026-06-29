@@ -38,7 +38,7 @@ export async function POST(req: Request) {
   const company = (data.company || '').trim();
   const tool = (data.tool || 'BEG payroll resource').trim();
   const assetUrl = (data.asset_url || '').trim();
-  const fullUrl = assetUrl.startsWith('/') ? `https://beghr.com${assetUrl}` : 'https://beghr.com/resources';
+  const fullUrl = assetUrl.startsWith('/') ? `https://www.beghr.com${assetUrl}` : 'https://www.beghr.com/resources';
 
   if (!email || !email.includes('@')) {
     return NextResponse.json({ success: false, error: 'invalid email' }, { status: 400 });
@@ -75,7 +75,7 @@ export async function POST(req: Request) {
       <p style="margin-top:24px">Talk soon,<br>
         Tori Wint<br>
         Business Executive Group<br>
-        <a href="https://beghr.com" style="color:#9a6b1f">beghr.com</a>
+        <a href="https://www.beghr.com" style="color:#9a6b1f">beghr.com</a>
       </p>
     </div>`;
 

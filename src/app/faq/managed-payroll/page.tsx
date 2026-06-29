@@ -5,21 +5,21 @@ export const metadata: Metadata = {
   title: 'Managed Payroll FAQ | Common Questions Answered | BEG',
   description: 'Answers to the most common questions about managed payroll: cost, implementation, what\'s included, compliance, and how it works.',
   alternates: {
-    canonical: 'https://beghr.com/faq/managed-payroll',
+    canonical: 'https://www.beghr.com/faq/managed-payroll',
   },
   openGraph: {
     title: 'Managed Payroll FAQ | Common Questions Answered | BEG',
     description: 'Answers to the most common questions about managed payroll: cost, implementation, what\'s included, compliance, and how it works.',
-    url: 'https://beghr.com/faq/managed-payroll',
+    url: 'https://www.beghr.com/faq/managed-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Managed Payroll FAQ | Common Questions Answered | BEG',
     description: 'Answers to the most common questions about managed payroll: cost, implementation, what\'s included, compliance, and how it works.',
-    images: ['https://beghr.com/assets/og-image.png'],
+    images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
@@ -86,9 +86,9 @@ export default function ManagedPayrollFaqPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://beghr.com/faq' },
-              { '@type': 'ListItem', position: 3, name: 'Managed Payroll FAQ', item: 'https://beghr.com/faq/managed-payroll' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://www.beghr.com/faq' },
+              { '@type': 'ListItem', position: 3, name: 'Managed Payroll FAQ', item: 'https://www.beghr.com/faq/managed-payroll' },
             ],
           }),
         }}

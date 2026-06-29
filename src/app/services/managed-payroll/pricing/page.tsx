@@ -5,16 +5,16 @@ import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 export const metadata: Metadata = {
   title: 'Managed Payroll Pricing | $25-$45 PEPM. No Hidden Fees. | BEG',
   description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.',
-  alternates: { canonical: 'https://beghr.com/services/managed-payroll/pricing' },
+  alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/pricing' },
   openGraph: {
     title: 'Managed Payroll Pricing | $25-$45 PEPM. No Hidden Fees. | BEG',
     description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.',
-    url: 'https://beghr.com/services/managed-payroll/pricing',
+    url: 'https://www.beghr.com/services/managed-payroll/pricing',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll Pricing | $25-$45 PEPM. No Hidden Fees. | BEG', description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.', images: ['https://beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Pricing | $25-$45 PEPM. No Hidden Fees. | BEG', description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -348,9 +348,9 @@ export default function ManagedPayrollPricingPage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://beghr.com' },
-              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://beghr.com/services/managed-payroll' },
-              { '@type': 'ListItem', position: 3, name: 'Pricing', item: 'https://beghr.com/services/managed-payroll/pricing' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' },
+              { '@type': 'ListItem', position: 3, name: 'Pricing', item: 'https://www.beghr.com/services/managed-payroll/pricing' },
             ],
           }),
         }}

@@ -144,6 +144,42 @@ const LEGAL_COMPARISONS = [
     description: "These terms get used interchangeably -- but they describe fundamentally different models. Know which you need before you engage.",
     time: '7 min read',
   },
+  {
+    href: '/blog/compare/legal-recruiter-vs-placement-service',
+    title: 'Legal Recruiter vs. Placement Service',
+    description: 'What separates a traditional legal recruiter from a milestone placement service, and which one actually fills your open attorney role faster.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/compare/beg-vs-major-lindsey-africa',
+    title: 'BEG vs. Major, Lindsey & Africa',
+    description: 'MLA runs a retained legal search at premium fees. BEG places attorneys in 23 to 35 days at roughly 50% less, billed by milestone with a 45-day guarantee.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/compare/beg-vs-michael-page',
+    title: 'BEG vs. Michael Page',
+    description: 'Michael Page bills contingency as a percentage of salary. See how milestone placement fills the same roles at roughly 50% less, with an 86% fill rate.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/compare/beg-vs-kforce',
+    title: 'BEG vs. Kforce',
+    description: 'Kforce is a contingency and contract staffing firm. Milestone placement fills the same permanent roles in 23 to 35 days at roughly 50% less.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/compare/beg-vs-vaco',
+    title: 'BEG vs. Vaco',
+    description: 'Vaco staffs contract and contingency roles. BEG places permanent legal and professional hires by milestone at roughly 50% less, with a 45-day guarantee.',
+    time: '7 min read',
+  },
+  {
+    href: '/blog/compare/beg-vs-insight-global',
+    title: 'BEG vs. Insight Global',
+    description: 'Insight Global focuses on contract staffing volume. BEG places permanent professional and legal hires on a milestone model with a 45-day replacement guarantee.',
+    time: '7 min read',
+  },
 ];
 
 export default function ComparePage() {

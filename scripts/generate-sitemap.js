@@ -25,6 +25,18 @@ function walk(dir, rel) {
 }
 walk(APP, '');
 
+// ISR data-routes live under dynamic [slug] dirs, which the walker skips. Add their
+// generated URLs explicitly so the new high-intent pages are in the sitemap.
+const EXTRA_ROUTES = [
+  '/services/managed-payroll/alternatives-to-adp',
+  '/services/managed-payroll/alternatives-to-gusto',
+  '/services/managed-payroll/alternatives-to-paychex',
+  '/services/managed-payroll/alternatives-to-deel',
+  '/services/managed-payroll/alternatives-to-rippling',
+  '/services/managed-payroll/alternatives-to-trinet',
+];
+for (const r of EXTRA_ROUTES) if (!routes.includes(r)) routes.push(r);
+
 function priority(route) {
   if (route === '/') return '1.0';
   const segs = route.split('/').filter(Boolean);

@@ -2,12 +2,31 @@ import "./index.css";
 import { Composition } from "remotion";
 import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
+import {
+  PitchVideo,
+  pitchVideoSchema,
+  hcmBeats,
+  totalDuration,
+} from "./PitchVideo";
 
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* BEG curious-NEPQ pitch video — vertical 1080x1920 (Reels/Shorts/TikTok).
+          Render: npx remotion render PitchHCM out/pitch-hcm.mp4 */}
+      <Composition
+        id="PitchHCM"
+        component={PitchVideo}
+        durationInFrames={totalDuration(hcmBeats)}
+        fps={30}
+        width={1080}
+        height={1920}
+        schema={pitchVideoSchema}
+        defaultProps={{ beats: hcmBeats }}
+      />
+
       <Composition
         // You can take the "id" to render a video:
         // npx remotion render HelloWorld

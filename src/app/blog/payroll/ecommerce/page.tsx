@@ -1,0 +1,226 @@
+import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Ecommerce Payroll Guides | BEG Blog',
+  description: 'Payroll guides, compliance resources, and managed payroll insights for ecommerce brand nationwide. BEG managed payroll at $25-$45 PEPM.',
+  alternates: { canonical: 'https://www.beghr.com/blog/payroll/ecommerce' },
+  openGraph: {
+    title: 'Ecommerce Payroll Guides | BEG Blog',
+    description: 'Payroll guides, compliance resources, and managed payroll insights for ecommerce brand nationwide. BEG managed payroll at $25-$45 PEPM.',
+    url: 'https://www.beghr.com/blog/payroll/ecommerce',
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: 'Ecommerce Payroll Guides | BEG Blog', description: 'Payroll guides, compliance resources, and managed payroll insights for ecommerce brand nationwide. BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+};
+
+const posts = [
+  {
+    "title": "DTC Brand Payroll | Warehouse, Fulfillment & Remote Teams",
+    "description": "DTC brand payroll: warehouse staff, remote marketing teams, variable headcount, contractor classification, and multi-state compliance. BEG at $25-$45 PEPM.",
+    "slug": "/blog/payroll/ecommerce/dtc-brand-payroll"
+  },
+  {
+    "title": "E-Commerce Payroll: Benefits Integration",
+    "description": "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll"
+  },
+  {
+    "title": "E-Commerce Payroll: Direct Deposit Setup",
+    "description": "Managed payroll for e-commerce. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-direct-deposit-setup"
+  },
+  {
+    "title": "E-Commerce Payroll: Employee Classification Guide",
+    "description": "Managed payroll for e-commerce. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-employee-classification-guide"
+  },
+  {
+    "title": "E-Commerce Payroll: Hourly vs. Salaried Guide",
+    "description": "Managed payroll for e-commerce. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-hourly-vs-salaried-payroll"
+  },
+  {
+    "title": "E-Commerce Payroll: How to Switch Providers",
+    "description": "Managed payroll for e-commerce. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-how-to-switch-payroll-providers"
+  },
+  {
+    "title": "E-Commerce Payroll: For Mid-Size Business (25-100 EE)",
+    "description": "Managed payroll for e-commerce. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "slug": "/blog/payroll/ecommerce/ecommerce-managed-payroll-mid-size"
+  },
+  {
+    "title": "E-Commerce Payroll: For Small Business (<25 EE)",
+    "description": "Managed payroll for e-commerce. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "slug": "/blog/payroll/ecommerce/ecommerce-managed-payroll-small-business"
+  },
+  {
+    "title": "E-Commerce Payroll: Multi-Location Payroll Guide",
+    "description": "Managed payroll for e-commerce. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-multi-location-payroll"
+  },
+  {
+    "title": "E-Commerce Payroll: New Hire Onboarding",
+    "description": "Managed payroll for e-commerce. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-new-hire-payroll-onboarding"
+  },
+  {
+    "title": "E-Commerce Payroll: Overtime Rules 2026",
+    "description": "Managed payroll for e-commerce. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-overtime-rules-payroll"
+  },
+  {
+    "title": "E-Commerce Payroll: Part-Time Workers",
+    "description": "Managed payroll for e-commerce. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-part-time-worker-payroll"
+  },
+  {
+    "title": "E-Commerce Payroll: Compliance Guide 2026",
+    "description": "Managed payroll for e-commerce. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-compliance-guide"
+  },
+  {
+    "title": "E-Commerce Payroll: Cost Calculator Guide",
+    "description": "Managed payroll for e-commerce. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-cost-calculator"
+  },
+  {
+    "title": "E-Commerce Payroll: Must-Have Features",
+    "description": "Managed payroll for e-commerce. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-features-needed"
+  },
+  {
+    "title": "E-Commerce Payroll: Garnishments Guide",
+    "description": "Managed payroll for e-commerce. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-garnishments-guide"
+  },
+  {
+    "title": "E-Commerce Payroll: Mistakes to Avoid",
+    "description": "Managed payroll for e-commerce. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-mistakes-to-avoid"
+  },
+  {
+    "title": "E-Commerce Payroll: Outsourcing Cost vs. In-House",
+    "description": "Managed payroll for e-commerce. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-outsourcing-cost"
+  },
+  {
+    "title": "E-Commerce Payroll: Managing Peak Season Payroll",
+    "description": "Managed payroll for e-commerce. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-peak-season"
+  },
+  {
+    "title": "E-Commerce Payroll: Recordkeeping Requirements",
+    "description": "Managed payroll for e-commerce. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-recordkeeping"
+  },
+  {
+    "title": "E-Commerce Payroll: Payroll Setup Guide",
+    "description": "Managed payroll for e-commerce. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-setup-guide"
+  },
+  {
+    "title": "E-Commerce Payroll: Software vs. Managed Service",
+    "description": "Managed payroll for e-commerce. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-software-vs-managed"
+  },
+  {
+    "title": "E-Commerce Payroll: Payroll Tax Guide 2026",
+    "description": "Managed payroll for e-commerce. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-payroll-tax-guide"
+  },
+  {
+    "title": "E-Commerce Payroll: State Compliance Guide",
+    "description": "Managed payroll for e-commerce. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-state-payroll-compliance"
+  },
+  {
+    "title": "E-Commerce Payroll: When to Outsource",
+    "description": "Managed payroll for e-commerce. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-when-to-outsource-payroll"
+  },
+  {
+    "title": "E-Commerce Payroll: Year-End Checklist",
+    "description": "Managed payroll for e-commerce. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "slug": "/blog/payroll/ecommerce/ecommerce-year-end-payroll-checklist"
+  },
+  {
+    "title": "E-Commerce Payroll Outsourcing | $25 PEPM vs. $60K Hire",
+    "description": "E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K-$90K annually.",
+    "slug": "/blog/payroll/ecommerce/online-stores"
+  },
+  {
+    "title": "Shopify Payroll Outsourcing | Scale Without the Headache",
+    "description": "Shopify payroll outsourcing: staff classification, multi-state compliance, and tax filings as your store grows. BEG at $25-$45 PEPM.",
+    "slug": "/blog/payroll/ecommerce/shopify-payroll-outsourcing"
+  }
+];
+
+export default function EcommercePayrollHubPage() {
+  return (
+    <>
+      <section className="hero">
+        <div className="container">
+          <div className="hero-split">
+            <div className="hero-split-text">
+              <p className="eyebrow">Blog &middot; Payroll Management &middot; Ecommerce and DTC Brands</p>
+              <h1>Ecommerce Payroll Guides</h1>
+              <p className="lede" style={{ margin: '18px 0 28px' }}>
+                Payroll guides, compliance resources, and managed payroll insights for ecommerce brand nationwide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="head center reveal">
+            <h2>Ecommerce Payroll Guides</h2>
+            <p>Guides covering payroll compliance, cost comparisons, and best practices for ecommerce brand.</p>
+          </div>
+          <div className="cards">
+            {posts.map((post) => (
+              <article key={post.slug} className="card reveal">
+                <h3>
+                  <Link href={post.slug}>{post.title}</Link>
+                </h3>
+                <p>{post.description}</p>
+                <Link href={post.slug} className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
+                  Read Post
+                </Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '700px', textAlign: 'center' }}>
+          <h2>Hand off payroll. Keep your focus where it belongs.</h2>
+          <p style={{ marginBottom: '1.5rem' }}>BEG Managed Payroll handles everything at $25-$45 per employee per month. Implementation in 3-5 business days. No system migration required.</p>
+          <Link href="/services/managed-payroll" className="btn btn--gold">Learn About BEG Managed Payroll</Link>
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
+              { '@type': 'ListItem', position: 3, name: 'Payroll', item: 'https://www.beghr.com/blog/payroll' },
+              { '@type': 'ListItem', position: 4, name: 'Ecommerce and DTC Brands', item: 'https://www.beghr.com/blog/payroll/ecommerce' },
+            ],
+          })
+        }}
+      />
+    </>
+  );
+}

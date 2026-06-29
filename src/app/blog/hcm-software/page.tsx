@@ -33,6 +33,31 @@ const posts = [
     description: 'Tax law changes, new payroll requirements, and what HR teams need to know about payroll compliance in 2026.',
     slug: '/blog/hcm-software/payroll-compliance',
   },
+  {
+    title: 'AI Payroll in 2026: What It Can and Cannot Do',
+    description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task-completing connectors change the daily HR workflow.',
+    slug: '/blog/hcm-software/ai-payroll-what-it-can-do',
+  },
+  {
+    title: 'Benefits Administration with isolved: Open Enrollment and ACA',
+    description: 'isolved benefits administration covers open enrollment, carrier connections, ACA tracking, FSA/HSA management, and life events. BEG at $25-$45 PEPM.',
+    slug: '/blog/hcm-software/benefits-administration-isolved',
+  },
+  {
+    title: 'Chatbots Answer. isolved Completes the Task.',
+    description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved Connector.',
+    slug: '/blog/hcm-software/chatbots-answer-isolved-does-the-task',
+  },
+  {
+    title: 'isolved Connector for Claude: What It Is and What It Does',
+    description: 'A plain-language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for your team.',
+    slug: '/blog/hcm-software/isolved-connector-for-claude',
+  },
+  {
+    title: 'Time and Attendance Tracking Software: isolved Timekeeping',
+    description: 'isolved time and attendance: punch methods, overtime alerts, geofencing, scheduling, and direct payroll integration. BEG at $25-$45 PEPM.',
+    slug: '/blog/hcm-software/time-attendance-tracking',
+  },
 ];
 
 export default function BlogHcmPage() {

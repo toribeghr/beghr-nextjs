@@ -4,6 +4,20 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // $0-budget OOM mitigation. This site statically generates 2,800+ pages on an
+  // 8GB Vercel build machine, which intermittently gets OOM-killed (SIGKILL).
+  // Lowering build concurrency reduces peak memory at the cost of some build time.
+  experimental: {
+    cpus: 1,
+    workerThreads: false,
+  },
+  webpack: (config) => {
+    // The persistent filesystem cache serializes very large strings during this
+    // build (see "PackFileCacheStrategy" build warnings) and inflates memory.
+    // Disabling it trades a little CPU for materially lower peak RAM.
+    config.cache = false;
+    return config;
+  },
   redirects: async () => {
     return [
       // Blog: hcm-technology → hcm-software (301 permanent)

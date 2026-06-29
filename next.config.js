@@ -4,6 +4,13 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    // Site has 2,800+ statically generated pages. Scale the number of static-generation
+    // worker processes to available RAM so the Vercel build does not exceed the 8GB
+    // container and get OOM-killed (SIGKILL). Also disable worker threads to lower peak memory.
+    memoryBasedWorkersCount: true,
+    workerThreads: false,
+  },
   redirects: async () => {
     return [
       // Blog taxonomy consolidated: all HCM articles now live under /blog/hcm-software.

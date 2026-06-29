@@ -1,5 +1,10 @@
 import { type CSSProperties } from 'react';
-import JobDescriptionGrader from './JobDescriptionGrader';
+import dynamic from 'next/dynamic';
+
+// Lazy-load the heavy interactive grader so it is only bundled on pages that actually
+// render the 'grader' variant. Most usages are the lightweight 'link' variant, which
+// previously still pulled the full grader into every page's bundle (build OOM risk).
+const JobDescriptionGrader = dynamic(() => import('./JobDescriptionGrader'));
 
 type RelatedToolProps = {
   variant: 'link' | 'grader';

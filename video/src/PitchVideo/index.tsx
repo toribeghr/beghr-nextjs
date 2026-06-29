@@ -325,7 +325,7 @@ export const PitchVideo: React.FC<PitchVideoProps> = ({ scenes }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: BRAND.black }}>
       <Background />
-      <Audio src={staticFile(MUSIC)} volume={0.85} endAt={durationInFrames} />
+      <Audio src={staticFile(MUSIC)} volume={0.7} endAt={durationInFrames} />
       <TransitionSeries>
         {scenes.flatMap((scene, i) => {
           const seq = (

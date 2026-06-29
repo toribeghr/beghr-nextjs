@@ -1,0 +1,38 @@
+{
+  "name": "Transparent Video Overlay",
+  "author": "@Remotion",
+  "authorUrl": "https://x.com/Remotion",
+  "tweetUrl": "https://x.com/Remotion/status/2020677844044734695",
+  "category": "UI Demos",
+  "tags": [
+    "transparent",
+    "alpha-channel",
+    "overlay",
+    "lower-third",
+    "cta",
+    "call-to-action",
+    "youtube",
+    "subscribe",
+    "prores",
+    "web-scraping",
+    "button-animation",
+    "spring-animation"
+  ],
+  "description": "Create call-to-action overlays with transparent backgrounds for compositing over videos",
+  "difficulty": "intermediate",
+  "requirements": [
+    "remotion-transparent-videos-skill",
+    "prores-codec",
+    "internet-connection"
+  ],
+  "features": [
+    "transparent background",
+    "web scraping",
+    "lower third animation",
+    "interactive button states",
+    "spring physics",
+    "ease-out animations",
+    "prores alpha export"
+  ],
+  "outputFormat": "ProRes with alpha channel"
+}

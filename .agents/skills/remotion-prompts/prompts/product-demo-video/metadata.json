@@ -1,0 +1,33 @@
+{
+  "name": "Product Demo Video",
+  "author": "@Shpigford",
+  "authorUrl": "https://x.com/Shpigford",
+  "tweetUrl": "https://x.com/Shpigford/status/2015250030815584647",
+  "category": "UI Demos",
+  "tags": [
+    "product-demo",
+    "ui-replication",
+    "react-components",
+    "voiceover",
+    "music",
+    "sound-effects",
+    "elevenlabs",
+    "marketing"
+  ],
+  "description": "Generate complete product demo videos using existing codebase and UI components",
+  "difficulty": "advanced",
+  "requirements": [
+    "existing React codebase",
+    "marketing/landing page",
+    "remotion skill"
+  ],
+  "optionalRequirements": [
+    "ElevenLabs API (via MCP)",
+    "claude-code-20x-max-plan"
+  ],
+  "estimatedTime": "2-3 hours",
+  "estimatedCost": {
+    "tokens": "$700 (Opus 4.5)",
+    "elevenlabs": "~12,000 credits"
+  }
+}

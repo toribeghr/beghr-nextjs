@@ -1,0 +1,30 @@
+{
+  "name": "Arabic News Animation",
+  "author": "@Abdullah4AI",
+  "authorUrl": "https://x.com/Abdullah4AI",
+  "tweetUrl": "https://x.com/Abdullah4AI/status/2017934500773101973",
+  "category": "Image Animation",
+  "tags": [
+    "ocr",
+    "screenshot",
+    "3d-rotation",
+    "blur",
+    "highlight",
+    "tesseract",
+    "rough.js",
+    "arabic",
+    "rtl"
+  ],
+  "description": "Animates news screenshots with Arabic text support, featuring OCR, 3D effects, and customizable highlighting",
+  "difficulty": "intermediate",
+  "requirements": [
+    "tesseract-cli",
+    "tesseract-ara",
+    "rough.js"
+  ],
+  "duration": "5 seconds",
+  "resolution": "1920x1080",
+  "languages": [
+    "arabic"
+  ]
+}

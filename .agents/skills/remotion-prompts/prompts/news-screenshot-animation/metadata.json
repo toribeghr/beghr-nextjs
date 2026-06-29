@@ -1,0 +1,24 @@
+{
+  "name": "News Screenshot Animation",
+  "author": "@Remotion",
+  "authorUrl": "https://x.com/Remotion",
+  "tweetUrl": "https://x.com/Remotion/status/2017915342022979923",
+  "category": "Image Animation",
+  "tags": [
+    "ocr",
+    "screenshot",
+    "3d-rotation",
+    "blur",
+    "highlight",
+    "tesseract",
+    "rough.js"
+  ],
+  "description": "Animates a news screenshot with OCR, subtle zoom, 3D rotation, blur effects, and highlighted text",
+  "difficulty": "intermediate",
+  "requirements": [
+    "tesseract-cli",
+    "rough.js"
+  ],
+  "duration": "5 seconds",
+  "resolution": "1920x1080"
+}

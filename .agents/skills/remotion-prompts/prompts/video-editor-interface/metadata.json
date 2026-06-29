@@ -1,0 +1,27 @@
+{
+  "name": "Video Editor Interface",
+  "author": "@rileybrown",
+  "authorUrl": "https://x.com/rileybrown",
+  "tweetUrl": "https://x.com/rileybrown/status/2014812672962003025",
+  "category": "Tools & Workflows",
+  "tags": [
+    "interface",
+    "canvas",
+    "editor",
+    "workflow",
+    "interactive",
+    "scene-management",
+    "asset-management"
+  ],
+  "description": "Create a canvas-based video editing interface using the Remotion skill for interactive video creation",
+  "difficulty": "advanced",
+  "requirements": [
+    "remotion skill",
+    "web browser (for Vibe Code)",
+    "asset files"
+  ],
+  "platform": [
+    "vibecode.dev",
+    "local"
+  ]
+}

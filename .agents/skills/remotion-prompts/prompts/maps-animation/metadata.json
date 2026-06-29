@@ -1,0 +1,32 @@
+{
+  "name": "Maps Animation",
+  "author": "@JNYBGR",
+  "authorUrl": "https://x.com/JNYBGR",
+  "tweetUrl": "https://x.com/JNYBGR/status/1882959335847657892",
+  "category": "Image Animation",
+  "tags": [
+    "maps",
+    "mapbox",
+    "3d",
+    "camera-movement",
+    "data-visualization",
+    "geographic",
+    "location",
+    "lower-third",
+    "animation"
+  ],
+  "description": "Create dynamic map animations with camera movements, 3D buildings, and data overlays",
+  "difficulty": "intermediate",
+  "requirements": [
+    "mapbox-api-token",
+    "remotion-maps-skill"
+  ],
+  "features": [
+    "360-degree camera rotation",
+    "zoom transitions",
+    "fly-between locations",
+    "3D buildings",
+    "lower third overlays",
+    "data-driven content"
+  ]
+}

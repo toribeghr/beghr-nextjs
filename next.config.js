@@ -26,6 +26,34 @@ const nextConfig = {
     workerThreads: false,
   },
   redirects: async () => {
+    // Legacy .html service URLs from the old site are still indexed in Google
+    // (e.g. /services/hcm-healthcare.html, /services/payroll-legal.html). The new app serves
+    // those topics under nested clean URLs, so 301 the legacy .html paths to the live nested
+    // pages to recapture the existing search equity instead of 404ing. Sources are fixed literal
+    // paths (built in a loop) to avoid any path-matching ambiguity.
+    const verticals = ['engineering', 'executive', 'finance', 'healthcare', 'legal', 'technology', 'trades'];
+    const lines = [
+      { flat: 'hcm', nested: 'hcm-software' },
+      { flat: 'payroll', nested: 'managed-payroll' },
+      { flat: 'placement', nested: 'job-placement' },
+    ];
+    const legacyHtmlRedirects = [];
+    for (const { flat, nested } of lines) {
+      for (const v of verticals) {
+        legacyHtmlRedirects.push({
+          source: `/services/${flat}-${v}.html`,
+          destination: `/services/${nested}/${v}`,
+          permanent: true,
+        });
+      }
+    }
+    // Legacy hub .html pages -> clean hub URLs.
+    legacyHtmlRedirects.push(
+      { source: '/services/hcm-software.html', destination: '/services/hcm-software', permanent: true },
+      { source: '/services/managed-payroll.html', destination: '/services/managed-payroll', permanent: true },
+      { source: '/services/job-placement.html', destination: '/services/job-placement', permanent: true },
+    );
+
     return [
       // Blog taxonomy consolidated: all HCM articles now live under /blog/hcm-software.
       // These 301s preserve any old /blog/hcm-technology URLs that were indexed or linked externally.
@@ -39,6 +67,7 @@ const nextConfig = {
         destination: '/blog/hcm-software/:slug*',
         permanent: true,
       },
+      ...legacyHtmlRedirects,
     ];
   },
   headers: async () => {

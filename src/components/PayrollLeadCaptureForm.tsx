@@ -56,7 +56,17 @@ export default function PayrollLeadCaptureForm({
         body: JSON.stringify(data),
       });
       const json = await res.json();
-      setStatus(json.success ? 'done' : 'error');
+      if (json.success) {
+        // Conversion event for GTM/GA4 (and any pixel mapped off it).
+        if (typeof window !== 'undefined') {
+          const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
+          w.dataLayer = w.dataLayer || [];
+          w.dataLayer.push({ event: 'generate_lead', form_type: 'payroll_resource', tool: toolName });
+        }
+        setStatus('done');
+      } else {
+        setStatus('error');
+      }
     } catch {
       setStatus('error');
     }

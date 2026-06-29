@@ -1,0 +1,107 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+import { getCalendlyLink } from '@/lib/services';
+
+export const metadata: Metadata = {
+  title: 'The 2026 Sales Talent Shortage Report | BEG',
+  description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and enterprise sales roles.',
+  alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/sales' },
+  openGraph: { title: 'The 2026 Sales Talent Shortage Report | BEG', description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and enterprise sales roles.', url: 'https://www.beghr.com/resources/talent-shortage-report/sales', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Sales Talent Shortage Report | BEG', description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and enterprise sales roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
+};
+
+const CALENDLY = getCalendlyLink('resources/talent-shortage-report/sales');
+
+const faqs = [
+      {
+            "question": "Why is it hard to hire experienced salespeople in 2026?",
+            "answer": "The best salespeople are employed and producing. They are not looking. Reaching them requires direct outreach, a compelling story about the opportunity, and a fast process. Job postings reach the portion of the market that is actively searching, which tends to be lower-producing or recently exited talent."
+      },
+      {
+            "question": "What sales roles are hardest to fill?",
+            "answer": "Enterprise account executives with a documented quota attainment history, VP of Sales candidates who have built and managed a team, and sales engineers with deep technical domain knowledge are consistently the hardest to place. SDR managers with a track record of building pipeline function are also increasingly competitive."
+      },
+      {
+            "question": "How long does it take to fill a VP of Sales or AE role in 2026?",
+            "answer": "Sales leadership roles filled through job postings commonly take 90-120 days. BEG fills VP of Sales, AE, and sales director roles in 23-35 days using direct outreach to passive candidates with verified attainment histories."
+      }
+];
+
+export default function Page() {
+  return (
+    <article className="blog-post">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"The 2026 Sales Talent Shortage Report","datePublished":"2026-06-29","dateModified":"2026-06-29","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","url":"https://www.linkedin.com/in/theanthonymoretti"},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"mainEntityOfPage":"https://www.beghr.com/resources/talent-shortage-report/sales"}) }} />
+      <section className="hero">
+        <div className="container">
+          <p className="eyebrow">Resource &middot; Industry Report</p>
+          <h1>The 2026 Sales Talent Shortage Report</h1>
+          <p className="lede" style={{ margin: '18px 0 20px', maxWidth: '720px' }}>
+            The supply of quota-carrying, experienced B2B sales professionals has not kept pace with demand for years. In 2026, revenue leaders are finding that the sales reps and leaders who actually hit number are almost never available through a job posting.
+          </p>
+          <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666' }}>
+            <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
+            <span><strong>Updated:</strong> June 2026</span>
+          </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>
+          <aside style={{ background: '#FBF3E8', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.25rem 1.5rem', margin: '0 0 2rem' }}>
+            <p style={{ fontWeight: 800, color: '#000000', margin: '0 0 0.5rem', fontSize: '0.9rem', letterSpacing: '0.04em' }}>KEY TAKEAWAYS</p>
+            <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
+              <li>The shortage is structural: qualified candidates are in short supply while demand continues to grow.</li>
+              <li>The best candidates are passive, employed, and not responding to job postings. Reaching them requires direct outreach.</li>
+              <li>BEG fills permanent roles in 23-35 days at roughly 50% less than contingency, with an 86% fill rate and a 45-day replacement guarantee.</li>
+            </ul>
+          </aside>
+
+          <h2 style={{ marginTop: '2.5rem', marginBottom: '0.5rem' }}>The Scale of the Shortage</h2>
+          <p style={{ marginTop: 0 }}>Experienced B2B sales talent, particularly account executives with a track record of quota attainment in complex sales environments, VP of Sales candidates who have built teams rather than just managed them, and enterprise sellers with a portable book of relationships, is chronically underemployed in one place and chronically in demand everywhere else. Sales turnover is high, the cost of a bad hire is immediate and visible, and the producers worth hiring are almost always already producing somewhere.</p>
+
+          <h2 style={{ marginTop: '2.5rem', marginBottom: '0.5rem' }}>Why Standard Job Postings Fail</h2>
+          <p style={{ marginTop: 0 }}>A salesperson who is currently hitting quota and is worth recruiting is not browsing job boards. They are in the field, managing a pipeline, and receiving recruiter messages they mostly ignore. A job posting reaches the sellers who are available, which often means those who have recently been let go, those whose performance has declined, or those who are on the way out of their current role. The highest-producing sales professional you want to hire is a passive candidate.</p>
+
+          <h2 style={{ marginTop: '2.5rem', marginBottom: '0.5rem' }}>The Revenue Cost of an Open Sales Seat</h2>
+          <p style={{ marginTop: 0 }}>An open sales seat is not just an HR problem. It is a revenue gap. A vacant AE position at a $1.2M quota means roughly $100,000 per month of uncaptured potential. For a VP of Sales seat, the compounding effects, no leadership for the team, slippage in the pipeline, a culture that starts to drift, are harder to quantify but more expensive. Organizations that track the fully loaded cost of a vacant sales role typically find that a 60-day search pays for itself many times over in recovered pipeline.</p>
+
+          <h2 style={{ marginTop: '2.5rem', marginBottom: '0.5rem' }}>What Effective Sales Hiring Looks Like in 2026</h2>
+          <p style={{ marginTop: 0 }}>Revenue leaders who fill sales roles in 23-35 days are reaching passive candidates directly, moving fast once they find a strong match, and building a compelling story about the territory, product, and earnings potential before the first conversation. They verify quota attainment through references before extending an offer and they make the process efficient enough that a top performer with three other options stays engaged through to acceptance.</p>
+
+
+
+          <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Methodology and Sources</h2>
+          <p>This report draws on public labor-market data and published industry studies, including the U.S. Bureau of Labor Statistics, SHRM, and industry-specific workforce research. Figures are framed as indicative reads on direction and severity, not precise counts, and conditions vary by metro, role, and specialization. For a read on a specific role and market, book a discovery call and we will share what we are seeing in live searches.</p>
+
+          <div style={{ background: '#000000', color: '#ffffff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0 0', textAlign: 'center' }}>
+            <h2 style={{ color: '#ffffff', fontSize: '1.4rem', fontWeight: 800, marginBottom: '0.75rem' }}>Hiring into this shortage?</h2>
+            <p style={{ color: '#cccccc', marginBottom: '1.25rem' }}>BEG reaches the passive candidates a posting never will, and fills permanent roles in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.</p>
+            <a href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>Book a 15-Minute Discovery Call</a>
+          </div>
+
+          <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Frequently Asked Questions</h2>
+          <div className="faq" style={{ marginTop: '1rem' }}>
+            {faqs.map((faq, i) => (
+              <div key={i} className="faq-item">
+                <h3>{faq.question}</h3>
+                <p>{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+
+          <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>
+            <p style={{ margin: '0 0 0.75rem', fontWeight: 700, fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#666' }}>Related Resources</p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
+              <Link href="/services/job-placement/sales" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: 600, fontSize: '0.9rem', textDecoration: 'none' }}>BEG Sales Placement &rarr;</Link>
+              <Link href="/blog/sales-hiring" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: 600, fontSize: '0.9rem', textDecoration: 'none' }}>Sales Hiring Guides &rarr;</Link>
+              <Link href="/blog/sales-hiring/sales-talent-shortage" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: 600, fontSize: '0.9rem', textDecoration: 'none' }}>The Sales Talent Shortage in 2026 &rarr;</Link>
+              <Link href="/resources/talent-shortage-report" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: 600, fontSize: '0.9rem', textDecoration: 'none' }}>2026 Talent Shortage Report &rarr;</Link>
+            </div>
+          </div>
+
+          <p style={{ marginTop: '2rem' }}>See the full <Link href="/resources/talent-shortage-report" style={{ color: '#000000', fontWeight: 600 }}>2026 Talent Shortage Report</Link> covering all industries, or benchmark hiring speed with the <Link href="/resources/time-to-fill-report" style={{ color: '#000000', fontWeight: 600 }}>2026 Time-to-Fill Benchmark Report</Link>.</p>
+        </div>
+      </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
+    </article>
+  );
+}

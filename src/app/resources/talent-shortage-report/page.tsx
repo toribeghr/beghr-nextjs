@@ -65,6 +65,25 @@ export default function TalentShortageReportPage() {
           <h2 style={{ marginTop: '2.5rem', marginBottom: '0.75rem' }}>Why do so many job postings fail to fill?</h2>
           <p style={{ marginTop: 0 }}>The common thread across every shortage industry is the same. The best candidates are passive, they are employed and not looking, so they never see your posting. The process moves too slowly, and the few who do apply get a faster offer elsewhere. And demand for the skill simply outruns supply. A job board cannot reach people who are not searching, which is exactly why postings stall in tight markets. The fix is a direct, milestone-driven search that engages passive talent and keeps moving.</p>
 
+          <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Industry Deep-Dive Reports</h2>
+          <p style={{ marginTop: 0, marginBottom: '1.25rem' }}>Each report below covers the scope of the shortage, why standard postings fail in that market, the real cost of an open seat, and what employers are doing to fill roles in 23-35 days.</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '0.75rem', marginBottom: '1rem' }}>
+            {[
+              { href: '/resources/talent-shortage-report/accounting-cpa', label: 'Accounting and CPA Shortage Report' },
+              { href: '/resources/talent-shortage-report/cybersecurity', label: 'Cybersecurity Shortage Report' },
+              { href: '/resources/talent-shortage-report/engineering', label: 'Engineering Shortage Report' },
+              { href: '/resources/talent-shortage-report/healthcare', label: 'Healthcare and Nursing Shortage Report' },
+              { href: '/resources/talent-shortage-report/legal', label: 'Legal Talent Shortage Report' },
+              { href: '/resources/talent-shortage-report/sales', label: 'Sales Talent Shortage Report' },
+              { href: '/resources/talent-shortage-report/technology', label: 'Technology Shortage Report' },
+              { href: '/resources/talent-shortage-report/trades', label: 'Skilled Trades Shortage Report' },
+            ].map(({ href, label }) => (
+              <Link key={href} href={href} style={{ display: 'block', background: '#fff', border: '1px solid #ECAC60', borderLeft: '4px solid #ECAC60', borderRadius: '6px', padding: '0.85rem 1rem', fontWeight: 600, fontSize: '0.92rem', color: '#000', textDecoration: 'none', lineHeight: 1.35 }}>
+                {label} &rarr;
+              </Link>
+            ))}
+          </div>
+
           <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Methodology and sources</h2>
           <p>This report draws on public labor-market data and published industry studies, including the U.S. Bureau of Labor Statistics, SHRM, AICPA, ISC2, and healthcare and trades workforce reports. Figures are framed as indicative reads on direction and severity, not precise counts, and conditions vary by metro and role. For a read on a specific role and market, book a call and we will share what we are seeing in live searches.</p>
 

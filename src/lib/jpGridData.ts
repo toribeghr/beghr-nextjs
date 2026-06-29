@@ -1089,5 +1089,24 @@ export const jpIndustries: Record<string, JpIndustry> = {
     ],
     "costLogic": "A vacant program or contracts seat does not just slow paperwork. It puts deliverables behind schedule, opens compliance and reporting gaps, and exposes an award to penalties or loss. A program manager seat open for 90 days can cost an organization a missed milestone, an audit finding, and roughly $31,500 in absorbed overhead before the search closes.",
     "talentContext": "The best government and contracts professionals are employed, managing active awards, and recruited regularly across primes and agencies. When one opens up to a move, the decision window is two to three weeks, and the offer usually comes from whoever reached them first. A posting-and-waiting search misses that person every time."
+  },
+  "legal": {
+    "name": "Legal",
+    "stats": [
+      {
+        "value": "23-35",
+        "label": "Days to fill on average"
+      },
+      {
+        "value": "86%",
+        "label": "Fill rate on active searches"
+      },
+      {
+        "value": "~50%",
+        "label": "Less than contingency pricing"
+      }
+    ],
+    "costLogic": "One unfilled attorney seat billing 40 hours per week at $200 per hour is $8,000 in lost billable capacity every week. At 12 weeks, that is $96,000 in absorbed cost, not counting the overload on your current team or the work that went unbilled. A 23-35 day search closes that gap. A 90-day search using traditional methods does not.",
+    "talentContext": "Strong lateral attorneys are passive. They are not posting resumes or responding to LinkedIn InMails. When they decide they are open to a move, that window is typically two to four weeks before they accept an offer, usually from a firm that was already in front of them. A slow search process does not find the best candidates. It finds whoever is still available after the market has already moved."
   }
 };

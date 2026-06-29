@@ -126,18 +126,6 @@ export default function ServicePage({
         </div>
       </section>
 
-      <div className="sticky-cta" id="stickyCta">
-        <span>Ready to get started?</span>
-        <a
-          className="btn btn--gold"
-          href={calendlyLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Book a Discovery Call
-        </a>
-      </div>
-
     </>
   );
 }

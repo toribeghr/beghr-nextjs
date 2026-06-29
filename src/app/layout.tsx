@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SocialFollow from '@/components/SocialFollow';
+import ConsentBanner from '@/components/ConsentBanner';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -119,10 +120,19 @@ export default function RootLayout({
           }}
         />
 
-        {/* Meta Pixel */}
+        {/* Consent Mode v2 defaults (denied until the visitor accepts via the banner). Must load before GTM/GA/pixels. */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','986930567552609');fbq('track','PageView');`,
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});
+try{if(document.cookie.indexOf('beg_consent=granted')>-1){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}`,
+          }}
+        />
+
+        {/* Meta Pixel (consent revoked by default; granted only after the visitor accepts) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('consent','revoke');fbq('init','986930567552609');fbq('track','PageView');try{if(document.cookie.indexOf('beg_consent=granted')>-1){fbq('consent','grant');}}catch(e){}`,
           }}
         />
         <noscript>
@@ -156,13 +166,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {children}
         <SocialFollow />
         <Footer />
+        <ConsentBanner />
 
         <script
           dangerouslySetInnerHTML={{
             __html: `document.querySelectorAll('.reveal').forEach(el=>el.classList.add('will-animate'));
 const io=new IntersectionObserver((es)=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-(function(){var s=document.getElementById("stickyCta");var hero=document.querySelector(".hero");if(!s||!hero)return;var io=new IntersectionObserver(function(es){es.forEach(function(e){s.classList.toggle("show",!e.isIntersecting)})},{threshold:0});io.observe(hero);})();`,
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));`,
           }}
         />
       </body>

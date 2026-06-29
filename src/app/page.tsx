@@ -306,18 +306,6 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="sticky-cta" id="stickyCta">
-        <span>Ready to get started?</span>
-        <a
-          className="btn btn--gold"
-          href={CALENDLY}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Book a Discovery Call
-        </a>
-      </div>
-
       <script
         dangerouslySetInnerHTML={{
           __html: `document.querySelectorAll(".nav-dd").forEach(function(d){d.addEventListener("toggle",function(){if(d.open){document.querySelectorAll(".nav-dd[open]").forEach(function(o){if(o!==d)o.open=false})}})});`,

@@ -2,21 +2,24 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Business Executive Group',
-  description: 'Privacy policy for Business Executive Group -- how we collect, use, and protect your information.',
+  description: 'Privacy policy for Business Executive Group: how we collect, use, share, and protect your information, including cookies, analytics, and advertising.',
   alternates: {
     canonical: 'https://www.beghr.com/privacy-policy',
   },
   openGraph: {
     title: 'Privacy Policy | Business Executive Group',
-    description: 'Privacy policy for Business Executive Group -- how we collect, use, and protect your information.',
+    description: 'How Business Executive Group collects, uses, shares, and protects your information.',
     url: 'https://www.beghr.com/privacy-policy',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'BEG Privacy Policy' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Privacy Policy | Business Executive Group', description: 'Privacy policy for Business Executive Group -- how we collect, use, and protect your information.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Privacy Policy | Business Executive Group', description: 'How Business Executive Group collects, uses, shares, and protects your information.', images: ['https://www.beghr.com/assets/og-image.png'] },
   robots: { index: false },
 };
+
+const h2 = { marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' } as const;
+const gold = { color: 'var(--gold)' } as const;
 
 export default function PrivacyPolicyPage() {
   return (
@@ -27,23 +30,43 @@ export default function PrivacyPolicyPage() {
         <p style={{ color: 'var(--slate)', marginTop: '8px', marginBottom: '40px' }}>Last updated: June 2026</p>
 
         <div style={{ lineHeight: 1.8, fontSize: '1rem' }}>
-          <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>1. Information We Collect</h2>
-          <p>When you submit a form or book a discovery call on this site, we collect your name, email address, phone number, and company name. We also collect standard analytics data (page views, session duration) through Google Analytics.</p>
+          <p>Business Executive Group (&quot;BEG,&quot; &quot;we,&quot; &quot;us&quot;) operates beghr.com. This policy explains what information we collect, how we use and share it, and the choices you have. Questions: <a href="mailto:sales@beghr.com" style={gold}>sales@beghr.com</a> or 469-412-1204, 7700 Windrose Ave, Plano, TX 75024.</p>
 
-          <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>2. How We Use Your Information</h2>
-          <p>We use your contact information solely to respond to your inquiry, schedule discovery calls, and follow up regarding our services (managed payroll, HCM software, and job placement). We do not sell your information to third parties.</p>
+          <h2 style={h2}>1. Information We Collect</h2>
+          <p>When you submit a form or book a discovery call, we collect the details you provide: name, email address, company, and (if you book a call) phone number. We also automatically collect standard usage data through cookies and similar technologies, such as pages viewed, session activity, device and browser type, approximate location derived from IP address, and the referring site.</p>
 
-          <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>3. Google Analytics & GTM</h2>
-          <p>This site uses Google Tag Manager and Google Analytics 4 to understand how visitors interact with our pages. These tools may set cookies on your device. You can opt out at any time via <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)' }}>Google&apos;s opt-out tool</a>.</p>
+          <h2 style={h2}>2. How We Use Your Information</h2>
+          <p>We use your information to respond to your inquiry, deliver the resource you requested, schedule and conduct discovery calls, follow up about our services (managed payroll, HCM software, and job placement), measure and improve our website and marketing, and meet legal obligations. We do not sell your personal information.</p>
 
-          <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>4. Data Retention</h2>
-          <p>We retain contact information for as long as needed to service your inquiry or as required by law. You may request deletion of your data at any time by emailing <a href="mailto:sales@beghr.com" style={{ color: 'var(--gold)' }}>sales@beghr.com</a>.</p>
+          <h2 style={h2}>3. Cookies, Analytics, and Advertising</h2>
+          <p>We use cookies and tags for analytics and advertising, including <strong>Google Analytics 4 and Google Tag Manager</strong>, the <strong>Meta (Facebook) Pixel</strong>, and the <strong>LinkedIn Insight Tag</strong>. These help us understand site usage and measure and optimize advertising, and they may be used for <strong>remarketing/personalized advertising</strong> (showing you BEG ads on Google, Meta, or LinkedIn after you visit). Non-essential cookies load only after you consent through our cookie banner, and you can decline or change your choice at any time. You can also opt out via the{' '}
+            <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" style={gold}>Google Analytics opt-out</a>,{' '}
+            <a href="https://myadcenter.google.com" target="_blank" rel="noopener noreferrer" style={gold}>Google Ad Settings</a>, your{' '}
+            <a href="https://www.facebook.com/adpreferences" target="_blank" rel="noopener noreferrer" style={gold}>Meta ad preferences</a>, and the{' '}
+            <a href="https://optout.aboutads.info" target="_blank" rel="noopener noreferrer" style={gold}>DAA opt-out tools</a>.</p>
 
-          <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>5. Third-Party Services</h2>
-          <p>We use Calendly for scheduling, which has its own privacy policy. Links to third-party sites are provided for convenience and do not constitute an endorsement.</p>
+          <h2 style={h2}>4. How We Share Information</h2>
+          <p>We do not sell your personal information. We share it only with service providers that help us operate, and only as needed for them to perform their service: Google Workspace, Google Sheets, and Gmail (lead storage and notifications); Calendly (scheduling); and the analytics and advertising providers named above. We may also disclose information if required by law or to protect our rights.</p>
 
-          <h2 style={{ marginTop: '32px', marginBottom: '12px', fontSize: '1.2rem' }}>6. Contact</h2>
-          <p>Questions about this policy? Reach us at <a href="mailto:sales@beghr.com" style={{ color: 'var(--gold)' }}>sales@beghr.com</a> or call <a href="tel:4694121204" style={{ color: 'var(--gold)' }}>469-412-1204</a>.</p>
+          <h2 style={h2}>5. Your Privacy Rights</h2>
+          <p><strong>California (CCPA/CPRA):</strong> you have the right to know the categories and specific pieces of personal information we collect (identifiers and internet activity), to request deletion or correction, and to opt out of the &quot;sale&quot; or &quot;sharing&quot; of personal information. We do not sell personal information; declining cookies through our banner opts you out of cross-context behavioral advertising. We will not discriminate against you for exercising these rights.</p>
+          <p><strong>EU/UK (GDPR):</strong> where applicable, our legal bases are your consent (cookies/marketing) and our legitimate interests and steps taken at your request (responding to inquiries). You may request access, correction, deletion, restriction, portability, or object to processing, and you may withdraw consent at any time.</p>
+          <p>To exercise any right, email <a href="mailto:sales@beghr.com" style={gold}>sales@beghr.com</a>.</p>
+
+          <h2 style={h2}>6. Data Retention</h2>
+          <p>We keep contact information for as long as needed to service your inquiry and for our legitimate business and legal purposes, then delete or de-identify it. You may request deletion at any time.</p>
+
+          <h2 style={h2}>7. Security</h2>
+          <p>We use reasonable administrative and technical measures to protect your information. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+
+          <h2 style={h2}>8. Children</h2>
+          <p>This site is intended for businesses and is not directed to children under 16, and we do not knowingly collect their information.</p>
+
+          <h2 style={h2}>9. Changes</h2>
+          <p>We may update this policy from time to time. Material changes will be reflected by the &quot;Last updated&quot; date above.</p>
+
+          <h2 style={h2}>10. Contact</h2>
+          <p>Business Executive Group, 7700 Windrose Ave, Plano, TX 75024. Email <a href="mailto:sales@beghr.com" style={gold}>sales@beghr.com</a> or call <a href="tel:4694121204" style={gold}>469-412-1204</a>.</p>
         </div>
       </div>
     </section>

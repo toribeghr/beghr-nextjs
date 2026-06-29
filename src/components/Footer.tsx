@@ -135,6 +135,11 @@ export default function Footer() {
 
         <div className="foot-bottom">
           <span>&copy; 2026 Business Executive Group. All rights reserved.</span>
+          <span>
+            <Link href="/privacy-policy" className="footer-link">Privacy Policy</Link>
+            {' '}&middot;{' '}
+            <Link href="/terms" className="footer-link">Terms of Service</Link>
+          </span>
           <span>Serving businesses nationwide &middot; Plano, TX &middot; 469-412-1204</span>
         </div>
 

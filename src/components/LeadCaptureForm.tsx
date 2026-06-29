@@ -17,8 +17,6 @@ import { useState, type FormEvent, type CSSProperties } from 'react';
  *   />
  */
 
-const WEB3FORMS_KEY = 'a5dc3398-f88a-4944-bafe-54bd85211f81'; // Web3Forms key (leads -> tori.wint@beghr.com)
-
 const GOLD = '#ECAC60';
 
 interface Props {
@@ -45,17 +43,16 @@ export default function LeadCaptureForm({
     setStatus('sending');
     const form = e.currentTarget;
     const data = {
-      access_key: WEB3FORMS_KEY,
-      subject: `New lead: ${toolName}`,
-      from_name: 'BEG Website',
       tool: toolName,
+      asset_url: assetUrl || '',
+      page: typeof window !== 'undefined' ? window.location.pathname : '',
       name: (form.elements.namedItem('name') as HTMLInputElement).value,
       email: (form.elements.namedItem('email') as HTMLInputElement).value,
       company: (form.elements.namedItem('company') as HTMLInputElement).value,
       botcheck: (form.elements.namedItem('botcheck') as HTMLInputElement).value,
     };
     try {
-      const res = await fetch('https://api.web3forms.com/submit', {
+      const res = await fetch('/api/lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(data),

@@ -114,6 +114,7 @@ Newest at top. Each entry: the decision, and **why**.
 
 | ID | Decision | Why |
 |----|----------|-----|
+| D10 | Look = **luxury / bold / punchy**, mixing real imagery (Ken Burns hero) + motion-graphics (count-up stats) + kinetic type, with transitions, gold bezel & vignette | Audience is **C-suite**; needs to feel premium and hold attention. Scene-based `scenes` config (hero/type/stat/brand) is the reusable engine |
 | D9 | Logo: persistent small lion mark (top) + full lockup outro | Brand presence throughout; uses the real site logo (`beg-logo.png`) |
 | D8 | Music is **synthesized offline** (`scripts/gen-music.js` → `public/music-bed.wav`) | The cloud network policy blocks all external music sites (403). Synthesizing is 100% royalty-free and needs no network. Swap in a downloaded track anytime by replacing `public/music-bed.wav` |
 | D7 | Track all of this in this living framework doc | So new pages have a consistent pattern to build videos from as the site grows |

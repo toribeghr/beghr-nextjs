@@ -5,7 +5,7 @@ import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
 import {
   PitchVideo,
   pitchVideoSchema,
-  hcmBeats,
+  hcmScenes,
   totalDuration,
 } from "./PitchVideo";
 
@@ -19,12 +19,12 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="PitchHCM"
         component={PitchVideo}
-        durationInFrames={totalDuration(hcmBeats)}
+        durationInFrames={totalDuration(hcmScenes)}
         fps={30}
         width={1080}
         height={1920}
         schema={pitchVideoSchema}
-        defaultProps={{ beats: hcmBeats }}
+        defaultProps={{ scenes: hcmScenes }}
       />
 
       <Composition

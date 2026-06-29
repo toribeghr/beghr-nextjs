@@ -1,59 +1,62 @@
-# BEG Lead-Capture Form — Setup (Free, ~3 minutes)
+# BEG Lead-Capture — Setup (Free, Google Sheet)
 
-This is a BEG-branded form that lives on your website and emails every lead straight to your inbox. It costs $0, has no monthly limit, and needs no credit card. It uses a free service called **Web3Forms** just to deliver the emails.
+Every form on the site captures leads into a **Google Sheet you own**, at $0, no monthly limit, no API key, nothing to configure in Vercel. Leads also trigger an email notification.
 
-## What you get
-- A form on your site (black + gold, on brand) that says exactly which tool the person is requesting.
-- Every submission (name, email, company) emailed to you automatically.
-- A "you're all set" thank-you screen that can show a download button and a "book a call" link.
+## How it works
+1. A form (`LeadCaptureForm` or `PayrollLeadCaptureForm`) posts to the same-origin route **`/api/lead`**.
+2. `/api/lead` (`src/app/api/lead/route.ts`) forwards the lead server-side to a **Google Apps Script web app** (the `LEAD_WEBHOOK` constant in that file).
+3. Apps Script appends a row to the **BEG Leads** Google Sheet and emails the address set in `NOTIFY`.
+
+Posting same-origin to `/api/lead` (then server-to-server to Apps Script) avoids browser CORS entirely. A successful submit also pushes a `generate_lead` event into `dataLayer` for analytics.
 
 ---
 
-## Step 1 — Get your free key (30 seconds)
-1. Go to **https://web3forms.com**
-2. Type the email address where you want leads to arrive (e.g. anthony@beghr.com).
-3. They email you an **Access Key** (a string of letters and numbers). Copy it.
+## The Apps Script (the free backend)
 
-That's the only signup. No password, no billing.
+Lives in the **BEG Leads** Google Sheet → Extensions → Apps Script. Current code is mirrored in `BEG_Lead_Capture.gs` at the repo root. Summary:
 
-## Step 2 — Paste the key into the form (1 line)
-Open this file in the project:
-
-`src/components/LeadCaptureForm.tsx`
-
-Near the top you'll see this line:
-
+```javascript
+const SHEET_ID = '...';                 // the BEG Leads sheet ID
+const NOTIFY  = 'theanthony.moretti@gmail.com';
+function doPost(e) {
+  const d = JSON.parse(e.postData.contents);
+  SpreadsheetApp.openById(SHEET_ID).getSheets()[0]
+    .appendRow([new Date(), d.name, d.email, d.company, d.tool, d.page || d.asset_url]);
+  MailApp.sendEmail(NOTIFY, 'New BEG lead: ' + d.tool, /* details */);
+  return ContentService.createTextOutput(JSON.stringify({ success: true }))
+    .setMimeType(ContentService.MimeType.JSON);
+}
 ```
-const WEB3FORMS_KEY = 'YOUR_ACCESS_KEY_HERE';
-```
 
-Replace `YOUR_ACCESS_KEY_HERE` with the key from Step 1. Save. Done — the form now works everywhere it's used.
+### Re-deploying the Apps Script (only if the script changes)
+1. In the Apps Script editor: **Deploy → New deployment → Web app**, Execute as **Me**, Who has access **Anyone**.
+2. Copy the **Web app URL** (ends in `/exec`).
+3. Paste it into `LEAD_WEBHOOK` in `src/app/api/lead/route.ts`, commit, and ship.
 
-## Step 3 — Put the form on any page
-Drop this onto any page where you want to capture a lead (I can wire it in for you on whichever pages you choose):
+> Editing an existing deployment instead of creating a new one keeps the same `/exec` URL, so the route doesn't need updating.
 
-```
+---
+
+## Putting a form on a page
+
+```tsx
 import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 <LeadCaptureForm
   toolName="Salary & Hiring Guide"
-  toolDescription="Get the 2026 salary ranges across 19 industries, sent to your inbox."
-  assetUrl="/resources/salary-guide"
-  assetLabel="Get the guide"
-  calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
+  toolDescription="Get the 2026 salary ranges across 19 industries."
+  assetUrl="/resources/salary-guide"   // optional: button shown after submit
+  assetLabel="Get the guide"           // optional
+  calendlyLink="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"  // optional
 />
 ```
 
-Change `toolName` and `toolDescription` per tool so the messaging matches what they're opting into. `assetUrl`/`assetLabel` are optional (the button shown after they submit). `calendlyLink` is optional.
+`PayrollLeadCaptureForm` is the payroll-branded variant; both post to `/api/lead`, so both land in the same sheet. Change `toolName`/`toolDescription` per tool so the opt-in messaging matches the asset.
 
 ---
 
-## Want leads in a Google Sheet instead of your email?
-Same form, different free backend. Tell me and I'll switch it to **Google Apps Script**, which drops every lead into a Google Sheet you own. Setup is a little longer (about 10 minutes: create a Sheet, paste a short script I give you, click Deploy, copy the link). Both are free — email delivery is just the simplest to start.
-
 ## Notes
-- The form has a hidden anti-spam field, so bots get filtered automatically.
-- Nothing here costs money at any volume.
-- Once your key is pasted and the form is on a page, just push the change live like any other update and it's working.
-
-Just say the word and I'll wire the form onto the specific pages you want to gate (for example a printable Salary Guide PDF, the Hiring Manager Toolkit, or the 45-Day Search Playbook once we build those).
+- Hidden honeypot field filters bots automatically.
+- $0 at any volume; data persists in a sheet you own (recoverable, queryable, readable for reporting).
+- **Deferred (needs budget):** a branded autoresponder that emails the visitor the requested asset. When funded, that can be added in Apps Script (free `MailApp` reply) or via Resend.
+- Old web3forms email-only flow is retired — it had no data store, so leads couldn't be recovered if an email failed.

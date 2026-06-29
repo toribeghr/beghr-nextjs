@@ -1,278 +1,125 @@
-# Business Executive Group (BEG) - Next.js Website
+# Business Executive Group (BEG) — beghr.com
 
-Production-ready Next.js 14+ website for Business Executive Group with clean URLs, full SEO optimization, and Google Tag Manager integration.
+Next.js 14 (App Router) site for Business Executive Group, deployed on Vercel. This is a large programmatic-SEO site (~1,685 page routes) whose job is to book managed-payroll discovery calls and grow organic traffic, running as always-on air cover behind the cold-call team.
 
-## Overview
+> **Source of truth.** This README reflects the site as of June 2026. If something here is wrong, fix it here in the same commit — drift in this file has already caused real incidents (a missing env var, a branch mix-up). Older docs (`PROJECT_SUMMARY.md`, `QUICKSTART.md`) predate the programmatic build and are not authoritative.
 
-This is a complete rebuild of beghr.com as a modern Next.js application with:
+---
 
-- **24 Service Pages** organized across 3 verticals (Managed Payroll, HCM Software, Job Placement)
-- **Clean URLs** with no .html or .php extensions
-- **Professional Branding** - Navy (#0A0E27) + Gold (#D4AF37)
-- **Mobile-First Responsive Design**
-- **SEO-Ready** with metadata, canonical URLs, and JSON-LD schemas
-- **Google Tag Manager** integration
-- **Calendly** booking links for each service tier
-- **Production Deployment** ready for Vercel free tier
+## What the business sells (so content stays on-message)
 
-## Project Structure
+- **Managed Payroll + Core HR** — the OWNED product and the economic engine. $25 PEPM (run inside the client's existing platform) or $45 PEPM (run in BEG's isolved HCM). All-inclusive, no per-run or add-on fees, delivered remotely nationwide. **The machine points its firepower here.**
+- **iSolved HCM reselling** and **Job Placement** — secondary, affiliate-commission verticals. They get content, not the priority.
+- **Core belief preached site-wide:** payroll/HR busywork is a tax on growth; BEG makes it invisible and handled for a fraction of a $60–100k internal hire.
+- Primary CTA everywhere: book a 15-minute discovery call — `https://calendly.com/tori-beghr/15-minute-beg-discovery-call`.
+
+---
+
+## Branch & deploy workflow (READ THIS FIRST)
+
+- **`master` is production.** Vercel builds `master` and serves it on `beghr.com`. Only `master` deploys are `target: production`.
+- **`wave2/buildout` is the active build branch.** Pushing it builds a Vercel **preview** only (`beghr-nextjs-git-wave2-buildout-beghr.vercel.app`), NOT the live site.
+- **To ship to production**, promote the build branch to master (fast-forward):
+  ```bash
+  git push origin wave2/buildout:master
+  ```
+- A failed build never takes down the live site: Vercel only swaps the production alias to a build that succeeds.
+- Repo: `github.com/toribeghr/beghr-nextjs`. Auto-deploy is wired via GitHub → Vercel (team `beghr`).
+
+## Vercel 8GB build ceiling (the constraint that shapes everything)
+
+The free-tier build container is memory-bound at ~1,500+ pages. Mitigations already in `next.config.js`:
+- City/large matrices render via **ISR `generateStaticParams`** instead of full static generation.
+- `webpackBuildWorker: true`, `memoryBasedWorkersCount: true`, `workerThreads: false`.
+- `typescript.ignoreBuildErrors` + `eslint.ignoreDuringBuilds` (type/lint are validated separately, not during the prod build).
+
+**Rules going forward:**
+1. New large programmatic matrices use ISR, not full static.
+2. Commit and push in **small batches** (a dozen or two pages), never one giant push.
+3. Validate types/lint locally (`npm run lint`), since the build skips them.
+
+---
+
+## Scale & structure
+
+~1,685 `page.tsx` routes; sitemap lists ~2,974 URLs (ISR city routes expand beyond their single file).
 
 ```
-beghr-nextjs/
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx              # Root layout with GTM & fonts
-│   │   ├── page.tsx                # Home page
-│   │   ├── globals.css             # Global styles
-│   │   └── services/               # Service pages
-│   │       ├── managed-payroll/
-│   │       ├── payroll-legal/
-│   │       ├── payroll-healthcare/
-│   │       ├── payroll-finance/
-│   │       ├── payroll-technology/
-│   │       ├── payroll-engineering/
-│   │       ├── payroll-trades/
-│   │       ├── payroll-executive/
-│   │       ├── hcm-software/
-│   │       ├── hcm-legal/
-│   │       ├── hcm-healthcare/
-│   │       ├── hcm-finance/
-│   │       ├── hcm-technology/
-│   │       ├── hcm-engineering/
-│   │       ├── hcm-trades/
-│   │       ├── hcm-executive/
-│   │       ├── job-placement/
-│   │       ├── placement-legal/
-│   │       ├── placement-healthcare/
-│   │       ├── placement-finance/
-│   │       ├── placement-technology/
-│   │       ├── placement-engineering/
-│   │       ├── placement-trades/
-│   │       └── placement-executive/
-│   ├── components/
-│   │   ├── Header.tsx              # Main navigation
-│   │   ├── Footer.tsx              # Footer with sitemap
-│   │   └── ServicePage.tsx         # Reusable service page template
-│   └── lib/
-│       └── services.ts             # Calendly link mappings
-├── public/
-│   └── assets/                     # Logo and images
-├── next.config.js                  # Next.js configuration
-├── tsconfig.json                   # TypeScript configuration
-├── vercel.json                     # Vercel deployment config
-└── package.json
+src/app/
+├── layout.tsx              # GTM, Facebook Pixel, fonts, Organization schema
+├── page.tsx                # Home
+├── services/
+│   ├── managed-payroll/     # hub + 50 states + ~32 industries + [competitor] + pricing/cost-calculator
+│   ├── hcm-software/        # hub + alternatives-to-X, isolved-vs-X, switch-from-X, industries, size pages
+│   └── job-placement/       # hub + industries + [city] ISR grid
+├── blog/                    # 32 industry/topic clusters (hand-built ~1,800w posts) + /compare
+├── resources/               # tools/calculators, payroll-glossary (151), guides (13), salary-guide (27), reports
+└── api/lead/route.ts        # lead capture endpoint (see below)
+
+src/components/   # ServicePage.tsx (service template), Header, Footer, ~15 interactive tools, lead forms
+src/lib/          # services.ts (getCalendlyLink), jpGridData.ts (city × industry grid for ISR)
+scripts/          # generate-sitemap.js, validate-pages.js
 ```
 
-## Calendly Link Mapping
+> Note: the flat service folders some old docs reference (`services/payroll-legal`, etc.) are **empty/retired**. Live service pages are nested (`services/managed-payroll/legal`, `services/hcm-software/healthcare`). Legacy flat `.html` URLs are 301-redirected to the nested pages in `next.config.js`.
 
-Each service page uses industry-specific Calendly links:
+---
 
-- **Managed Payroll**: `15-minute-beg-discovery-call`, `15-minute-legal-payroll-discovery-call`, etc.
-- **HCM Software**: `15-minute-beg-discovery-call`, `15-minute-legal-hcm-software-demo`, etc.
-- **Job Placement**: `15-minute-beg-discovery-call`, `15-minute-legal-hiring-discovery-call`, etc.
+## Lead capture (free, no API key)
 
-All links are configured in `src/lib/services.ts` and mapped via the `getCalendlyLink()` function.
+All forms capture into a **Google Sheet you own**, at $0:
 
-## Getting Started
+1. A form (`LeadCaptureForm` or `PayrollLeadCaptureForm`) posts to the same-origin route **`/api/lead`**.
+2. `/api/lead` forwards the lead server-side to a **Google Apps Script web app** (`LEAD_WEBHOOK` in `src/app/api/lead/route.ts`).
+3. Apps Script appends a row to the **BEG Leads** Google Sheet and emails a notification.
 
-### Prerequisites
+No web3forms, no Resend key, nothing to set in Vercel. Same-origin POST avoids browser CORS. See `LEAD_CAPTURE_SETUP.md` for the Apps Script and how to re-deploy it. A success fires a `generate_lead` event into `dataLayer` for analytics. (A branded Resend autoresponder that emails the requested asset is deferred until budget allows.)
 
-- Node.js 18+ 
-- npm or yarn
+---
 
-### Local Development
+## Analytics & conversion tracking
+
+- **GTM** `GTM-MVSLWC2S` and **Facebook Pixel** `986930567552609` load in `layout.tsx` (PageView fires).
+- **`generate_lead`** is pushed to `dataLayer` on every successful form submit.
+- **Still to configure in the GTM UI:** a GA4 event tag triggered by `generate_lead`, a scroll-depth trigger, a click trigger on the Calendly link for `book_call_click`, and FB/LinkedIn conversion mappings.
+
+---
+
+## SEO
+
+- Per-page metadata, canonical (self), Open Graph/Twitter, JSON-LD (WebPage/Service, FAQPage, BreadcrumbList, Organization).
+- `next.config.js` 301s: legacy `/blog/hcm-technology/*` → `/blog/hcm-software/*`, and legacy `.html` service URLs → nested clean URLs.
+- `public/robots.txt` allows crawling + AI crawlers (GPTBot, ClaudeBot, PerplexityBot) and references the sitemap.
+- **Sitemap is generated, not hand-edited:** run `node scripts/generate-sitemap.js` after adding routes (ideally wire it as a `prebuild` step). Static files: images set to `unoptimized` in next.config.
+
+---
+
+## Brand
+
+- **Colors: Black `#000000` + Gold `#ECAC60`.** (No navy anywhere — older docs saying navy/`#0A0E27`/`#D4AF37` are wrong.) `--navy` CSS var = `#000`. Gold buttons: gold gradient bg + black text.
+- Fonts: Fraunces (display), Inter (body). Logo: lion mark PNG at `/public/assets/beg-header-image.png`, 75px in header (CSS controls size — do not add inline width/height).
+- No em-dashes in any site copy. "isolved" is always lowercase. Cost stat for legal = "roughly 50% less".
+
+---
+
+## Local development
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
-npm run dev
-
-# Open in browser
-# http://localhost:3000
+npm run dev      # http://localhost:3000
+npm run lint     # validate (the prod build skips lint/type-check)
+npm run build    # heavy locally due to page count; prefer Vercel preview builds
 ```
 
-### Build for Production
+No environment variables are required. The GTM ID and the lead-capture Apps Script URL are in the code.
 
-```bash
-# Build the project
-npm run build
+## Adding pages
 
-# Start production server
-npm start
-```
+1. Follow `PAGE_TEMPLATE.md`. Use the `ServicePage` component for service pages.
+2. Include: the BEG belief, a tool/lead magnet where relevant, the `/api/lead` capture form, and a single NEPQ CTA to the Calendly call.
+3. Internal-link the new page into its relevant state/industry hub.
+4. Regenerate the sitemap, commit in a small batch, push to `wave2/buildout`, verify the preview build is green, then promote to `master`.
 
-### Testing
+---
 
-Before deploying, verify:
-
-- All 24 service pages load correctly
-- Navigation menus work on mobile and desktop
-- Calendly links open correctly
-- Google Tag Manager fires on page load
-- Images load properly
-- Responsive design works on all breakpoints
-
-```bash
-# Check for build errors
-npm run build
-
-# Lint code
-npm run lint
-```
-
-## Deployment to Vercel
-
-### First Time Setup
-
-1. **Push to GitHub**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Next.js site"
-   git remote add origin https://github.com/YOUR_REPO
-   git push -u origin main
-   ```
-
-2. **Connect to Vercel**:
-   - Go to https://vercel.com
-   - Click "Add New..." → "Project"
-   - Import the GitHub repository
-   - Framework: Select "Next.js"
-   - Click "Deploy"
-
-### Update Deployment
-
-After making changes locally:
-
-```bash
-git add .
-git commit -m "Description of changes"
-git push origin main
-```
-
-Vercel will automatically redeploy on every push to main.
-
-### Environment Variables (if needed)
-
-No environment variables are required for this deployment. GTM ID is hardcoded in `layout.tsx`.
-
-### Domain Configuration
-
-To point beghr.com to Vercel:
-
-1. In Vercel Project Settings → Domains
-2. Add `beghr.com` and `www.beghr.com`
-3. Follow Vercel's DNS configuration instructions
-4. Update domain registrar nameservers to point to Vercel
-
-## SEO & Performance
-
-- **Metadata**: Every page includes title, description, canonical URL, and Open Graph tags
-- **JSON-LD Schema**: Service and BreadcrumbList schemas for rich snippets
-- **Mobile Optimization**: Mobile-first CSS with responsive breakpoints
-- **Image Optimization**: Next.js Image component with automatic optimization
-- **Google Tag Manager**: Fires on all pages for analytics and conversion tracking
-
-## Branding
-
-- **Primary Colors**: Navy (#0A0E27), Gold (#D4AF37)
-- **Typography**: Fraunces (display), Inter (body)
-- **Logo**: BEG lion mark (42x42px in header)
-- **Spacing**: 24px base unit for consistency
-
-## Key Features
-
-### Navigation
-- Sticky header with nested dropdowns
-- Mobile hamburger menu
-- All 24 pages accessible from header
-- Quick access to booking links
-
-### Footer
-- Complete sitemap organized by vertical
-- Social media links (LinkedIn, Facebook, Instagram, YouTube)
-- Contact information
-- Copyright notice
-
-### Pages
-- **Home**: Overview of three services
-- **Service Hubs** (3): Managed Payroll, HCM Software, Job Placement
-- **Industry Pages** (21): 7 industries × 3 verticals
-
-### Interactive Elements
-- Scroll reveal animations for cards and sections
-- Sticky CTA button that appears when hero scrolls out of view
-- Responsive navigation with click-to-close on mobile
-- Form handling for lead magnets (where applicable)
-
-## Content Management
-
-### Adding New Service Content
-
-1. Create new page file: `src/app/services/[slug]/page.tsx`
-2. Update Calendly link in `src/lib/services.ts`
-3. Use `ServicePage` component wrapper
-4. Add industry-specific metadata and content
-5. Push to GitHub and Vercel deploys automatically
-
-### Updating Links
-
-- Header booking link: `src/components/Header.tsx`
-- Service-specific links: `src/lib/services.ts`
-- Social media: `src/components/Footer.tsx`
-
-### Updating Branding
-
-- Colors: Update CSS variables in `src/app/globals.css`
-- Logo: Replace file in `public/assets/`
-- Fonts: Update Google Fonts link in `src/app/layout.tsx`
-
-## Performance Metrics
-
-- **Bundle Size**: ~40KB (gzipped)
-- **Lighthouse**: 95+ in all categories
-- **Core Web Vitals**: All green
-- **First Paint**: < 1s on 4G
-- **Time to Interactive**: < 2s
-
-## Browser Support
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-## Troubleshooting
-
-### Pages not deploying
-- Check for TypeScript errors: `npm run build`
-- Verify all imports are correct
-- Check file paths are relative to `/src`
-
-### Styling not applying
-- Clear Next.js cache: `rm -rf .next`
-- Rebuild: `npm run build`
-- Hard refresh browser (Ctrl+Shift+R)
-
-### Calendly links not working
-- Verify URLs in `src/lib/services.ts`
-- Check account names are correct: `tori-beghr`
-- Test links open in new tab with `target="_blank"`
-
-### Google Tag Manager not firing
-- Check GTM ID in `src/app/layout.tsx`: `GTM-MVSLWC2S`
-- Verify dataLayer in browser console
-- Check GTM account settings
-
-## Support
-
-For issues or questions:
-- Check deployment logs in Vercel dashboard
-- Review build errors: `npm run build`
-- Test locally before pushing: `npm run dev`
-
-## License
-
-Business Executive Group © 2026. All rights reserved.
+Business Executive Group © 2026.

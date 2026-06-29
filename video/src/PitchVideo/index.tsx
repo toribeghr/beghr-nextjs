@@ -372,7 +372,7 @@ export const hcmScenes: Scene[] = [
 
 // --- Job Placement pillar page (Video Director scenario, curiosity-first) ----
 export const jobScenes: Scene[] = [
-  { type: "hero", image: "hero-jobplacement.webp", eyebrow: "Job Placement", text: "That seat has been empty too long.", highlight: "empty too long", durationInFrames: 96 },
+  { type: "type", text: "That seat has been empty too long.", highlight: "empty too long", durationInFrames: 96 },
   { type: "type", text: "So can we ask —", durationInFrames: 48 },
   { type: "type", text: "how long has that role actually been open?", highlight: "actually been open", durationInFrames: 92 },
   { type: "type", text: "And who's absorbing the work while it sits there?", highlight: "absorbing the work", durationInFrames: 100 },

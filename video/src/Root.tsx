@@ -6,6 +6,7 @@ import {
   PitchVideo,
   pitchVideoSchema,
   hcmScenes,
+  jobScenes,
   totalDuration,
 } from "./PitchVideo";
 
@@ -25,6 +26,19 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         schema={pitchVideoSchema}
         defaultProps={{ scenes: hcmScenes }}
+      />
+
+      {/* Job Placement pillar — Video Director scenario.
+          Render: npx remotion render PitchJobPlacement out/pitch-jobplacement.mp4 */}
+      <Composition
+        id="PitchJobPlacement"
+        component={PitchVideo}
+        durationInFrames={totalDuration(jobScenes)}
+        fps={30}
+        width={1080}
+        height={1920}
+        schema={pitchVideoSchema}
+        defaultProps={{ scenes: jobScenes }}
       />
 
       <Composition

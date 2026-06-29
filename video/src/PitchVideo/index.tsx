@@ -42,6 +42,7 @@ export const sceneSchema = z.object({
   eyebrow: z.string().optional(),
   image: z.string().optional(),
   value: z.number().optional(),
+  prefix: z.string().optional(),
   suffix: z.string().optional(),
   label: z.string().optional(),
   url: z.string().optional(),
@@ -184,21 +185,22 @@ const StatScene: React.FC<{ scene: Scene }> = ({ scene }) => {
   const prog = spring({ frame, fps, config: { damping: 200 }, durationInFrames: 42 });
   const val = Math.round(interpolate(prog, [0, 1], [0, scene.value ?? 0]));
   const o = interpolate(frame, [2, 16], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const display = `${scene.prefix ?? ""}${val.toLocaleString("en-US")}${scene.suffix ?? ""}`;
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity: o }}>
       <div style={{ textAlign: "center", fontFamily: FONT }}>
         <div
           style={{
             color: BRAND.gold,
-            fontSize: 360,
+            fontSize: 320,
             fontWeight: 900,
             lineHeight: 0.9,
             letterSpacing: -8,
+            fontVariantNumeric: "tabular-nums",
             textShadow: "0 0 70px rgba(236,172,96,0.45)",
           }}
         >
-          {val}
-          {scene.suffix ?? ""}
+          {display}
         </div>
         <div
           style={{
@@ -306,7 +308,7 @@ const TopLogo: React.FC = () => {
   return (
     <Img
       src={staticFile(LOGO)}
-      style={{ position: "absolute", top: 64, left: "50%", transform: "translateX(-50%)", width: 92, height: 92, objectFit: "contain", opacity: o }}
+      style={{ position: "absolute", top: 120, left: "50%", transform: "translateX(-50%)", width: 92, height: 92, objectFit: "contain", opacity: o }}
     />
   );
 };
@@ -365,5 +367,20 @@ export const hcmScenes: Scene[] = [
   { type: "hero", eyebrow: "One Connected Platform", text: "That's what iSolved People Cloud, set up by BEG, solves.", highlight: "iSolved People Cloud", durationInFrames: 112 },
   { type: "stat", value: 330, suffix: "%", label: "documented ROI · Forrester", durationInFrames: 116 },
   { type: "type", text: "No pitch. Just a conversation to see if it fits.", highlight: "Just a conversation", durationInFrames: 104 },
+  { type: "brand", text: "Business Executive Group", url: "beghr.com", durationInFrames: 104 },
+];
+
+// --- Job Placement pillar page (Video Director scenario, curiosity-first) ----
+export const jobScenes: Scene[] = [
+  { type: "hero", image: "hero-jobplacement.webp", eyebrow: "Job Placement", text: "That seat has been empty too long.", highlight: "empty too long", durationInFrames: 96 },
+  { type: "type", text: "So can we ask —", durationInFrames: 48 },
+  { type: "type", text: "how long has that role actually been open?", highlight: "actually been open", durationInFrames: 92 },
+  { type: "type", text: "And who's absorbing the work while it sits there?", highlight: "absorbing the work", durationInFrames: 100 },
+  { type: "stat", value: 8000, prefix: "$", suffix: "+", label: "per week, in lost output", durationInFrames: 118 },
+  { type: "type", text: "Here's the catch: the best people for it aren't even looking.", highlight: "aren't even looking", durationInFrames: 116 },
+  { type: "type", text: "Employed, passive, off the job boards. We reach them directly.", highlight: "reach them directly", durationInFrames: 116 },
+  { type: "stat", value: 86, suffix: "%", label: "fill rate · filled in 23–35 days", durationInFrames: 116 },
+  { type: "type", text: "Roughly half what contingency charges — with a 45-day guarantee.", highlight: "45-day guarantee", durationInFrames: 112 },
+  { type: "type", text: "No pressure. Just a conversation about the seat you need filled.", highlight: "Just a conversation", durationInFrames: 108 },
   { type: "brand", text: "Business Executive Group", url: "beghr.com", durationInFrames: 104 },
 ];

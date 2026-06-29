@@ -40,11 +40,15 @@ const nextConfig = {
     const legacyHtmlRedirects = [];
     for (const { flat, nested } of lines) {
       for (const v of verticals) {
-        legacyHtmlRedirects.push({
-          source: `/services/${flat}-${v}.html`,
-          destination: `/services/${nested}/${v}`,
-          permanent: true,
-        });
+        // Redirect BOTH the legacy .html path and the extensionless flat path.
+        // vercel.json strips /services/...-x.html down to /services/...-x at the edge
+        // (Vercel clean URLs), so the extensionless rule is the one that actually fires;
+        // the .html rule is a harmless belt-and-suspenders. Verticals only (never "software"),
+        // so the real /services/hcm-software hub is never matched.
+        legacyHtmlRedirects.push(
+          { source: `/services/${flat}-${v}.html`, destination: `/services/${nested}/${v}`, permanent: true },
+          { source: `/services/${flat}-${v}`, destination: `/services/${nested}/${v}`, permanent: true },
+        );
       }
     }
     // Legacy hub .html pages -> clean hub URLs.

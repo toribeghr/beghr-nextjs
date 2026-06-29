@@ -114,6 +114,8 @@ Newest at top. Each entry: the decision, and **why**.
 
 | ID | Decision | Why |
 |----|----------|-----|
+| D9 | Logo: persistent small lion mark (top) + full lockup outro | Brand presence throughout; uses the real site logo (`beg-logo.png`) |
+| D8 | Music is **synthesized offline** (`scripts/gen-music.js` → `public/music-bed.wav`) | The cloud network policy blocks all external music sites (403). Synthesizing is 100% royalty-free and needs no network. Swap in a downloaded track anytime by replacing `public/music-bed.wav` |
 | D7 | Track all of this in this living framework doc | So new pages have a consistent pattern to build videos from as the site grows |
 | D6 | Script voice = **curious NEPQ** (ask, never tell) | Page visitors are already problem-aware; asserting their pain feels pushy. Curiosity converts and fits the brand |
 | D5 | Start with **on-screen text + music**, no voiceover | Cheapest/fastest path that still scales across hundreds of pages |

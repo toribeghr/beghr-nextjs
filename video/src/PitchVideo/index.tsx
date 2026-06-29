@@ -1,8 +1,11 @@
 import {
   AbsoluteFill,
+  Audio,
+  Img,
   Sequence,
   interpolate,
   spring,
+  staticFile,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
@@ -16,21 +19,21 @@ import { z } from "zod";
 
 export const BRAND = {
   gold: "#ECAC60",
-  black: "#0A0A0A",
+  goldSoft: "#F4C885",
+  black: "#070707",
   white: "#FFFFFF",
-  grey: "#9A9A9A",
 };
 
 const FONT =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
 
+const LOGO = "beg-logo.png";
+const MUSIC = "music-bed.wav";
+
 export const beatSchema = z.object({
   text: z.string(),
-  // Substring of `text` to render in brand gold (optional).
   highlight: z.string().optional(),
-  // How long this beat stays on screen, in frames (30fps => 30 = 1s).
   durationInFrames: z.number(),
-  // The final brand lockup renders larger, with a gold rule + url.
   brand: z.boolean().optional(),
   url: z.string().optional(),
 });
@@ -42,18 +45,39 @@ export const pitchVideoSchema = z.object({
 export type Beat = z.infer<typeof beatSchema>;
 export type PitchVideoProps = z.infer<typeof pitchVideoSchema>;
 
-// Total composition length = sum of every beat's duration.
 export const totalDuration = (beats: Beat[]) =>
   beats.reduce((sum, b) => sum + b.durationInFrames, 0);
 
-// Split a line so the `highlight` portion can be coloured gold.
-const renderText = (text: string, highlight?: string) => {
+// Bigger text, sized to the line length so short punchy lines read HUGE.
+const fontFor = (text: string) => {
+  const n = text.length;
+  if (n <= 26) return 150;
+  if (n <= 42) return 124;
+  if (n <= 64) return 104;
+  return 88;
+};
+
+// Render the line, wrapping `highlight` in gold with an animated underline wipe.
+const renderText = (text: string, highlight: string | undefined, u: number) => {
   if (!highlight || !text.includes(highlight)) return text;
   const [before, after] = text.split(highlight);
   return (
     <>
       {before}
-      <span style={{ color: BRAND.gold }}>{highlight}</span>
+      <span style={{ position: "relative", color: BRAND.gold, whiteSpace: "nowrap" }}>
+        {highlight}
+        <span
+          style={{
+            position: "absolute",
+            left: 0,
+            bottom: -14,
+            height: 10,
+            width: `${u * 100}%`,
+            background: BRAND.gold,
+            borderRadius: 6,
+          }}
+        />
+      </span>
       {after}
     </>
   );
@@ -64,33 +88,53 @@ const BeatCard: React.FC<{ beat: Beat }> = ({ beat }) => {
   const { fps } = useVideoConfig();
   const { durationInFrames } = beat;
 
-  const enter = spring({ frame, fps, config: { damping: 200 }, durationInFrames: 20 });
-  const translateY = interpolate(enter, [0, 1], [50, 0]);
+  // Punchy entrance: overshooting spring drives scale + lift.
+  const enter = spring({
+    frame,
+    fps,
+    config: { damping: 13, stiffness: 110, mass: 0.9 },
+  });
+  const scale = interpolate(enter, [0, 1], [0.78, 1]);
+  const translateY = interpolate(enter, [0, 1], [70, 0]);
+  // Drift + scale-up slightly on the way out for energy.
+  const exit = interpolate(frame, [durationInFrames - 14, durationInFrames], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
   const opacity = interpolate(
     frame,
-    [0, 14, durationInFrames - 12, durationInFrames],
+    [0, 10, durationInFrames - 12, durationInFrames],
     [0, 1, 1, 0],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
   );
+  const outScale = interpolate(exit, [0, 1], [1, 1.08]);
+  const underline = interpolate(frame, [10, 30], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
 
   if (beat.brand) {
-    const lineW = interpolate(enter, [0, 1], [0, 220]);
+    const ring = interpolate(enter, [0, 1], [0, 1]);
     return (
-      <AbsoluteFill
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-          padding: 90,
-          opacity,
-        }}
-      >
+      <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity }}>
         <div style={{ transform: `translateY(${translateY}px)`, textAlign: "center" }}>
+          <Img
+            src={staticFile(LOGO)}
+            style={{
+              width: 280,
+              height: 280,
+              objectFit: "contain",
+              transform: `scale(${interpolate(ring, [0, 1], [0.6, 1])})`,
+              marginBottom: 30,
+              filter: "drop-shadow(0 0 40px rgba(236,172,96,0.35))",
+            }}
+          />
           <div
             style={{
-              height: 5,
-              width: lineW,
+              height: 6,
+              width: interpolate(ring, [0, 1], [0, 260]),
               background: BRAND.gold,
-              margin: "0 auto 44px",
+              margin: "0 auto 40px",
               borderRadius: 4,
             }}
           />
@@ -98,10 +142,10 @@ const BeatCard: React.FC<{ beat: Beat }> = ({ beat }) => {
             style={{
               fontFamily: FONT,
               color: BRAND.white,
-              fontSize: 78,
+              fontSize: 92,
               fontWeight: 800,
-              lineHeight: 1.1,
-              letterSpacing: -1,
+              lineHeight: 1.05,
+              letterSpacing: -1.5,
             }}
           >
             {beat.text}
@@ -111,9 +155,9 @@ const BeatCard: React.FC<{ beat: Beat }> = ({ beat }) => {
               style={{
                 fontFamily: FONT,
                 color: BRAND.gold,
-                fontSize: 50,
-                fontWeight: 600,
-                marginTop: 36,
+                fontSize: 58,
+                fontWeight: 700,
+                marginTop: 38,
                 letterSpacing: 1,
               }}
             >
@@ -126,52 +170,79 @@ const BeatCard: React.FC<{ beat: Beat }> = ({ beat }) => {
   }
 
   return (
-    <AbsoluteFill
-      style={{ justifyContent: "center", alignItems: "center", padding: 110, opacity }}
-    >
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: 80, opacity }}>
       <div
         style={{
-          transform: `translateY(${translateY}px)`,
+          transform: `translateY(${translateY}px) scale(${scale * outScale})`,
           fontFamily: FONT,
           color: BRAND.white,
-          fontSize: 84,
-          fontWeight: 700,
-          lineHeight: 1.18,
+          fontSize: fontFor(beat.text),
+          fontWeight: 800,
+          lineHeight: 1.12,
           textAlign: "center",
-          letterSpacing: -1.5,
+          letterSpacing: -2,
+          textShadow: "0 6px 40px rgba(0,0,0,0.5)",
         }}
       >
-        {renderText(beat.text, beat.highlight)}
+        {renderText(beat.text, beat.highlight, underline)}
       </div>
     </AbsoluteFill>
   );
 };
 
-// Thin gold progress bar across the bottom for the whole video.
-const ProgressBar: React.FC = () => {
+// Living background: a large gold radial glow that slowly drifts and breathes.
+const Background: React.FC = () => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const w = interpolate(frame, [0, durationInFrames], [0, 100], {
-    extrapolateRight: "clamp",
-  });
+  const x = 50 + 18 * Math.sin((frame / durationInFrames) * Math.PI * 2);
+  const y = 42 + 14 * Math.cos((frame / durationInFrames) * Math.PI * 2 * 0.8);
+  const pulse = 0.22 + 0.06 * Math.sin(frame / 18);
   return (
-    <div
+    <AbsoluteFill
       style={{
-        position: "absolute",
-        bottom: 0,
-        left: 0,
-        height: 10,
-        width: `${w}%`,
-        background: BRAND.gold,
+        background: `radial-gradient(circle at ${x}% ${y}%, rgba(236,172,96,${pulse}) 0%, rgba(236,172,96,0.04) 38%, ${BRAND.black} 72%)`,
       }}
     />
   );
 };
 
+// Persistent small logo at top, subtle, brand-present throughout.
+const TopLogo: React.FC = () => {
+  const frame = useCurrentFrame();
+  const o = interpolate(frame, [6, 24], [0, 0.92], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <Img
+      src={staticFile(LOGO)}
+      style={{
+        position: "absolute",
+        top: 70,
+        left: "50%",
+        transform: "translateX(-50%)",
+        width: 96,
+        height: 96,
+        objectFit: "contain",
+        opacity: o,
+      }}
+    />
+  );
+};
+
+const ProgressBar: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { durationInFrames } = useVideoConfig();
+  const w = interpolate(frame, [0, durationInFrames], [0, 100], { extrapolateRight: "clamp" });
+  return (
+    <div style={{ position: "absolute", bottom: 0, left: 0, height: 12, width: `${w}%`, background: BRAND.gold }} />
+  );
+};
+
 export const PitchVideo: React.FC<PitchVideoProps> = ({ beats }) => {
+  const { durationInFrames } = useVideoConfig();
   let from = 0;
   return (
     <AbsoluteFill style={{ backgroundColor: BRAND.black }}>
+      <Background />
+      <Audio src={staticFile(MUSIC)} volume={0.85} endAt={durationInFrames} />
       {beats.map((beat, i) => {
         const start = from;
         from += beat.durationInFrames;
@@ -181,6 +252,7 @@ export const PitchVideo: React.FC<PitchVideoProps> = ({ beats }) => {
           </Sequence>
         );
       })}
+      <TopLogo />
       <ProgressBar />
     </AbsoluteFill>
   );
@@ -188,17 +260,17 @@ export const PitchVideo: React.FC<PitchVideoProps> = ({ beats }) => {
 
 // --- HCM Software pillar page script (VIDEO-FRAMEWORK.md §3, approved v2) -----
 export const hcmBeats: Beat[] = [
-  { text: "You're here looking at HCM software.", highlight: "HCM software", durationInFrames: 75 },
-  { text: "So can we ask —", durationInFrames: 45 },
-  { text: "what's making you look right now?", highlight: "right now", durationInFrames: 75 },
-  { text: "Is it the payroll that never quite reconciles?", highlight: "payroll", durationInFrames: 90 },
-  { text: "Four logins just to get one answer?", highlight: "Four logins", durationInFrames: 85 },
-  { text: "Or a feeling that this should be easier?", highlight: "easier", durationInFrames: 90 },
-  { text: "Most teams can't name it exactly. They just know it's costing time.", highlight: "costing time", durationInFrames: 115 },
-  { text: "If nothing changes — what does that cost you a year from now?", highlight: "a year from now", durationInFrames: 115 },
-  { text: "We're genuinely curious what your setup looks like. The right fix depends on it.", highlight: "genuinely curious", durationInFrames: 120 },
-  { text: "That's what iSolved People Cloud, set up by BEG, is built to solve.", highlight: "iSolved People Cloud", durationInFrames: 105 },
-  { text: "One connected platform. 330% documented ROI.", highlight: "330% documented ROI", durationInFrames: 95 },
-  { text: "No pitch. Just a conversation to see if it even fits.", highlight: "Just a conversation", durationInFrames: 100 },
-  { text: "Business Executive Group", durationInFrames: 95, brand: true, url: "beghr.com" },
+  { text: "You're here looking at HCM software.", highlight: "HCM software", durationInFrames: 80 },
+  { text: "So can we ask —", durationInFrames: 48 },
+  { text: "what's making you look right now?", highlight: "right now", durationInFrames: 78 },
+  { text: "Is it the payroll that never quite reconciles?", highlight: "payroll", durationInFrames: 92 },
+  { text: "Four logins just to get one answer?", highlight: "Four logins", durationInFrames: 88 },
+  { text: "Or a feeling that this should be easier?", highlight: "easier", durationInFrames: 92 },
+  { text: "Most teams can't name it. They just know it's costing time.", highlight: "costing time", durationInFrames: 115 },
+  { text: "If nothing changes — what does that cost a year from now?", highlight: "a year from now", durationInFrames: 118 },
+  { text: "We're genuinely curious what your setup looks like.", highlight: "genuinely curious", durationInFrames: 110 },
+  { text: "That's what iSolved People Cloud, set up by BEG, solves.", highlight: "iSolved People Cloud", durationInFrames: 108 },
+  { text: "One platform. 330% documented ROI.", highlight: "330% documented ROI", durationInFrames: 98 },
+  { text: "No pitch. Just a conversation to see if it fits.", highlight: "Just a conversation", durationInFrames: 102 },
+  { text: "Business Executive Group", durationInFrames: 100, brand: true, url: "beghr.com" },
 ];

@@ -4,10 +4,24 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // The Vercel build is memory-bound at 1,500+ pages. Next runs a full project-wide
+  // type-check + ESLint pass during `next build`, which loads the entire TS program into
+  // memory on top of webpack and is a major OOM contributor. Type/lint are validated
+  // separately (npm run lint / tsc), so we skip them in the production build to cut peak memory.
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   experimental: {
-    // Site has 2,800+ statically generated pages. Scale the number of static-generation
-    // worker processes to available RAM so the Vercel build does not exceed the 8GB
-    // container and get OOM-killed (SIGKILL). Also disable worker threads to lower peak memory.
+    // Large statically generated site (1,500+ page modules after the city-ISR conversion).
+    // Three levers keep the Vercel build under the 8GB container so it is not OOM-killed (SIGKILL):
+    //   - webpackBuildWorker: runs webpack compilation in its own worker so its heap is freed
+    //     before the page-rendering phase, cutting peak container memory (targets compile-phase OOM).
+    //   - memoryBasedWorkersCount: scales static-generation workers to available RAM.
+    //   - workerThreads: false: lowers peak memory by avoiding extra worker thread overhead.
+    webpackBuildWorker: true,
     memoryBasedWorkersCount: true,
     workerThreads: false,
   },

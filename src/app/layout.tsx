@@ -96,10 +96,11 @@ export default function RootLayout({
                 availableLanguage: 'English',
               },
               sameAs: [
-                'https://www.linkedin.com/company/businessexecutivegroup/',
-                'https://facebook.com/thehrexecutivegroup',
-                'https://instagram.com/thehrexecutivegroup',
-                'https://youtube.com/@TheHRExecutiveGroup',
+                'https://www.linkedin.com/company/thebeghr/',
+                'https://facebook.com/thebeghr',
+                'https://instagram.com/thebeghr',
+                'https://youtube.com/@thebeghr',
+                'https://x.com/thebeghr',
               ],
             }),
           }}

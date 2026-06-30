@@ -7,7 +7,7 @@ export default function SocialFollow() {
         <div className="social-follow-row">
           <a
             className="social-follow-btn"
-            href="https://www.linkedin.com/company/businessexecutivegroup/"
+            href="https://www.linkedin.com/company/thebeghr/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on LinkedIn"
@@ -19,7 +19,7 @@ export default function SocialFollow() {
           </a>
           <a
             className="social-follow-btn"
-            href="https://facebook.com/thehrexecutivegroup"
+            href="https://facebook.com/thebeghr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on Facebook"
@@ -31,7 +31,7 @@ export default function SocialFollow() {
           </a>
           <a
             className="social-follow-btn"
-            href="https://instagram.com/thehrexecutivegroup"
+            href="https://instagram.com/thebeghr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on Instagram"
@@ -43,7 +43,7 @@ export default function SocialFollow() {
           </a>
           <a
             className="social-follow-btn"
-            href="https://youtube.com/@TheHRExecutiveGroup"
+            href="https://youtube.com/@thebeghr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on YouTube"
@@ -52,6 +52,18 @@ export default function SocialFollow() {
               <path d="M23 12s0-3.2-.4-4.74a2.5 2.5 0 00-1.76-1.77C19.3 5.1 12 5.1 12 5.1s-7.3 0-8.84.39A2.5 2.5 0 001.4 7.26C1 8.8 1 12 1 12s0 3.2.4 4.74a2.5 2.5 0 001.76 1.77c1.54.39 8.84.39 8.84.39s7.3 0 8.84-.39a2.5 2.5 0 001.76-1.77C23 15.2 23 12 23 12zm-13 3.27V8.73L15.5 12z" />
             </svg>
             YouTube
+          </a>
+          <a
+            className="social-follow-btn"
+            href="https://x.com/thebeghr"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow BEG on X"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.41l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93Zm-1.29 19.49h2.04L6.49 3.24H4.3l13.31 17.4Z" />
+            </svg>
+            X
           </a>
         </div>
       </div>

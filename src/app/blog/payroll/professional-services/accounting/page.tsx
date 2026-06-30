@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for accounting firm payroll?',
-    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 25-person CPA firm, that is $625–$875 per month -- compared to $70,000–$100,000 loaded cost for an in-house HR manager. Included: payroll processing, partner W-2 coordination, GL export, multi-state filing, W-2 production, and compliance updates.',
+    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 25-person CPA firm, that is $625–$1,125 per month -- compared to $70,000–$100,000 loaded cost for an in-house HR manager. Included: payroll processing, partner W-2 coordination, GL export, multi-state filing, W-2 production, and compliance updates.',
   },
 ];
 
@@ -126,10 +126,10 @@ export default function AccountingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['15 employees', '$375–$525', '$4,500–$6,300', 'Save $66K–$107K/yr'],
-                ['25 employees', '$625–$875', '$7,500–$10,500', 'Save $62K–$103K/yr'],
-                ['50 employees', '$1,250–$1,750', '$15,000–$21,000', 'Save $52K–$92K/yr'],
-                ['100 employees', '$2,500–$3,500', '$30,000–$42,000', 'Save $31K–$71K/yr'],
+                ['15 employees', '$375–$675', '$4,500–$8,100', 'Save $64K–$107K/yr'],
+                ['25 employees', '$625–$1,125', '$7,500–$13,500', 'Save $59K–$103K/yr'],
+                ['50 employees', '$1,250–$2,250', '$15,000–$27,000', 'Save $46K–$92K/yr'],
+                ['100 employees', '$2,500–$4,500', '$30,000–$54,000', 'Save $19K–$71K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>

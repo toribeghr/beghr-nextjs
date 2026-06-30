@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for manufacturing payroll?',
-    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. That covers payroll processing, tax filings, W-2s, direct deposit, and compliance updates. For a 120-person facility, that is $3,000–$4,200 per month. No per-run fees. No module add-ons.',
+    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. That covers payroll processing, tax filings, W-2s, direct deposit, and compliance updates. For a 120-person facility, that is $3,000–$5,400 per month. No per-run fees. No module add-ons.',
   },
 ];
 
@@ -127,10 +127,10 @@ export default function ManufacturingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['40 employees', '$1,000–$1,400', '$12,000–$16,800', 'Save $70K–$100K/yr'],
-                ['80 employees', '$2,000–$2,800', '$24,000–$33,600', 'Save $54K–$84K/yr'],
-                ['120 employees', '$3,000–$4,200', '$36,000–$50,400', 'Save $37K–$67K/yr'],
-                ['200 employees', '$5,000–$7,000', '$60,000–$84,000', 'Save $3K–$33K/yr'],
+                ['40 employees', '$1,000–$1,800', '$12,000–$21,600', 'Save $65K–$100K/yr'],
+                ['80 employees', '$2,000–$3,600', '$24,000–$43,200', 'Save $44K–$84K/yr'],
+                ['120 employees', '$3,000–$5,400', '$36,000–$64,800', 'Save $23K–$67K/yr'],
+                ['200 employees', '$5,000–$9,000', '$60,000–$108,000', 'Varies at scale'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>

@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for dental office payroll?',
-    answer: 'BEG manages dental payroll at $25–$45 per employee per month, all-inclusive. For a 15-person dental office, that is $375–$525 per month. Included: payroll processing, tax filing, W-2 production, tip tracking, multi-rate pay, and compliance updates. No per-run fees or module add-ons.',
+    answer: 'BEG manages dental payroll at $25–$45 per employee per month, all-inclusive. For a 15-person dental office, that is $375–$675 per month. Included: payroll processing, tax filing, W-2 production, tip tracking, multi-rate pay, and compliance updates. No per-run fees or module add-ons.',
   },
 ];
 
@@ -126,10 +126,10 @@ export default function DentalPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['10 employees', '$250–$350', '$3,000–$4,200', 'Save $64K–$97K/yr'],
-                ['20 employees', '$500–$700', '$6,000–$8,400', 'Save $60K–$93K/yr'],
-                ['40 employees', '$1,000–$1,400', '$12,000–$16,800', 'Save $51K–$85K/yr'],
-                ['80 employees (DSO/group practice)', '$2,000–$2,800', '$24,000–$33,600', 'Save $34K–$68K/yr'],
+                ['10 employees', '$250–$450', '$3,000–$5,400', 'Save $63K–$97K/yr'],
+                ['20 employees', '$500–$900', '$6,000–$10,800', 'Save $58K–$93K/yr'],
+                ['40 employees', '$1,000–$1,800', '$12,000–$21,600', 'Save $46K–$85K/yr'],
+                ['80 employees (DSO/group practice)', '$2,000–$3,600', '$24,000–$43,200', 'Save $24K–$68K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>

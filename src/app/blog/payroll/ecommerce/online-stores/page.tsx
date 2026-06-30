@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for an e-commerce business with 45 employees?',
-    answer: 'At 45 employees, BEG managed payroll runs approximately $1,125–$1,575 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing, tax filings, direct deposit, year-end W-2s, multi-state compliance, and HR support. Compare that to a loaded HR coordinator cost of $75,000–$100,000 annually. Most e-commerce brands at 45 employees save $60,000–$80,000 per year.',
+    answer: 'At 45 employees, BEG managed payroll runs approximately $1,125–$2,025 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing, tax filings, direct deposit, year-end W-2s, multi-state compliance, and HR support. Compare that to a loaded HR coordinator cost of $75,000–$100,000 annually. Most e-commerce brands at 45 employees save $60,000–$80,000 per year.',
   },
   {
     question: 'Does BEG work with e-commerce businesses that have both W-2 employees and independent contractors?',
@@ -133,10 +133,10 @@ export default function EcommerceOnlineStoresPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees', '$625 – $875', '$7,500 – $10,500', '$63,600 – $97,000'],
-                ['50 employees', '$1,250 – $1,750', '$15,000 – $21,000', '$53,100 – $86,500'],
-                ['80 employees', '$2,000 – $2,800', '$24,000 – $33,600', '$40,500 – $73,900'],
-                ['150 employees', '$3,750 – $5,250', '$45,000 – $63,000', '$11,100 – $44,500'],
+                ['25 employees', '$625 – $1,125', '$7,500 – $13,500', '$60,600 – $97,000'],
+                ['50 employees', '$1,250 – $2,250', '$15,000 – $27,000', '$47,100 – $86,500'],
+                ['80 employees', '$2,000 – $3,600', '$24,000 – $43,200', '$30,900 – $73,900'],
+                ['150 employees', '$3,750 – $6,750', '$45,000 – $81,000', 'Assess at scale'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>

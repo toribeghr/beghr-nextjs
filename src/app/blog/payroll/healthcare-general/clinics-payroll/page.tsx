@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a 60-person urgent care clinic?',
-    answer: 'At 60 employees, BEG managed payroll runs approximately $1,500–$2,100 per month ($25–$45 PEPM), all-inclusive. That covers shift differential processing, ACA measurement tracking, year-end W-2 preparation, multi-state filings if applicable, and HR support. A loaded HR Manager for a healthcare clinic costs $75,000–$110,000 annually. Most 60-person clinics save $57,000–$84,000 per year by outsourcing to BEG.',
+    answer: 'At 60 employees, BEG managed payroll runs approximately $1,500–$2,700 per month ($25–$45 PEPM), all-inclusive. That covers shift differential processing, ACA measurement tracking, year-end W-2 preparation, multi-state filings if applicable, and HR support. A loaded HR Manager for a healthcare clinic costs $75,000–$110,000 annually. Most 60-person clinics save $57,000–$84,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -133,10 +133,10 @@ export default function ClinicsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees', '$625 – $875', '$7,500 – $10,500', '$74,800 – $117,000'],
-                ['60 employees', '$1,500 – $2,100', '$18,000 – $25,200', '$60,100 – $102,300'],
-                ['100 employees', '$2,500 – $3,500', '$30,000 – $42,000', '$43,300 – $85,500'],
-                ['200 employees', '$5,000 – $7,000', '$60,000 – $84,000', '$1,300 – $43,500'],
+                ['25 employees', '$625 – $1,125', '$7,500 – $13,500', '$71,800 – $117,000'],
+                ['60 employees', '$1,500 – $2,700', '$18,000 – $32,400', '$52,900 – $102,300'],
+                ['100 employees', '$2,500 – $4,500', '$30,000 – $54,000', '$31,300 – $85,500'],
+                ['200 employees', '$5,000 – $9,000', '$60,000 – $108,000', 'Varies at scale'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>

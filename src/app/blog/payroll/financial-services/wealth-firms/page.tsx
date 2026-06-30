@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a 35-advisor RIA?',
-    answer: 'At 35 employees, BEG managed payroll runs approximately $875–$1,225 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing, commission integration, multi-state filings, year-end W-2 preparation, and HR support. A loaded in-house HR Manager for a financial services firm runs $95,000–$130,000 annually. Most 35-person RIAs save $83,000–$115,000 per year by outsourcing to BEG.',
+    answer: 'At 35 employees, BEG managed payroll runs approximately $875–$1,575 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing, commission integration, multi-state filings, year-end W-2 preparation, and HR support. A loaded in-house HR Manager for a financial services firm runs $95,000–$130,000 annually. Most 35-person RIAs save $83,000–$115,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -133,10 +133,10 @@ export default function WealthFirmsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['20 employees', '$500 – $700', '$6,000 – $8,400', '$92,700 – $143,300'],
-                ['40 employees', '$1,000 – $1,400', '$12,000 – $16,800', '$84,300 – $134,900'],
-                ['75 employees', '$1,875 – $2,625', '$22,500 – $31,500', '$69,600 – $120,200'],
-                ['125 employees', '$3,125 – $4,375', '$37,500 – $52,500', '$48,600 – $99,200'],
+                ['20 employees', '$500 – $900', '$6,000 – $10,800', '$90,300 – $143,300'],
+                ['40 employees', '$1,000 – $1,800', '$12,000 – $21,600', '$79,500 – $134,900'],
+                ['75 employees', '$1,875 – $3,375', '$22,500 – $40,500', '$60,600 – $120,200'],
+                ['125 employees', '$3,125 – $5,625', '$37,500 – $67,500', '$33,600 – $99,200'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>

@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a nonprofit with 40 employees?',
-    answer: 'At 40 employees, BEG managed payroll runs approximately $1,000–$1,400 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing with grant allocation coding, FUTA exemption configuration, ACA tracking if applicable, year-end W-2 preparation, 1099-NEC filing for contractors, and HR support. A loaded in-house HR staff position for a nonprofit costs $57,000–$86,000 annually. Most 40-person nonprofits save $44,000–$72,000 per year by outsourcing to BEG.',
+    answer: 'At 40 employees, BEG managed payroll runs approximately $1,000–$1,800 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing with grant allocation coding, FUTA exemption configuration, ACA tracking if applicable, year-end W-2 preparation, 1099-NEC filing for contractors, and HR support. A loaded in-house HR staff position for a nonprofit costs $57,000–$86,000 annually. Most 40-person nonprofits save $44,000–$72,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -133,10 +133,10 @@ export default function CharityPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['20 employees', '$500 – $700', '$6,000 – $8,400', '$55,960 – $88,960'],
-                ['50 employees', '$1,250 – $1,750', '$15,000 – $21,000', '$43,360 – $76,360'],
-                ['100 employees', '$2,500 – $3,500', '$30,000 – $42,000', '$22,360 – $55,360'],
-                ['200 employees', '$5,000 – $7,000', '$60,000 – $84,000', 'Assess by grant complexity'],
+                ['20 employees', '$500 – $900', '$6,000 – $10,800', '$53,560 – $88,960'],
+                ['50 employees', '$1,250 – $2,250', '$15,000 – $27,000', '$37,360 – $76,360'],
+                ['100 employees', '$2,500 – $4,500', '$30,000 – $54,000', '$10,360 – $55,360'],
+                ['200 employees', '$5,000 – $9,000', '$60,000 – $108,000', 'Assess by grant complexity'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>

@@ -99,7 +99,7 @@ export default function ManagedPayrollVsGustoPage() {
                 ['Compliance monitoring', 'Alerts you to changes', 'We monitor + act'],
                 ['Error correction', 'You fix it', 'We fix it, our responsibility'],
                 ['Works with your existing system', 'Requires Gusto account', 'Yes -- stay on your system'],
-                ['Monthly cost (50 employees)', '~$6–$12/employee/mo + base', '$25–$35/employee/mo, all-in'],
+                ['Monthly cost (50 employees)', '~$6–$12/employee/mo + base', '$25–$45/employee/mo, all-in'],
                 ['Internal time required', '3–10 hrs/month', 'Near zero'],
               ].map(([cap, gusto, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -184,11 +184,11 @@ export default function ManagedPayrollVsGustoPage() {
             </thead>
             <tbody>
               {[
-                ['Software/service fee', '~$8,160/yr (Plus plan)', '$15,000–$21,000/yr'],
+                ['Software/service fee', '~$8,160/yr (Plus plan)', '$15,000–$27,000/yr'],
                 ['Internal time (8 hrs/mo @ $40/hr)', '$3,840/yr', '~$0'],
                 ['Error correction costs (avg)', '$3,000–$10,000/yr', 'Included'],
                 ['Compliance research burden', "Your team's time", 'Included'],
-                ['Total annual cost', '$15,000–$22,000+', '$15,000–$21,000'],
+                ['Total annual cost', '$15,000–$22,000+', '$15,000–$27,000'],
               ].map(([factor, gusto, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: i === 4 ? 700 : 400 }}>{factor}</td>

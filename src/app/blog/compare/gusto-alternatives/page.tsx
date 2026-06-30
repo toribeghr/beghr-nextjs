@@ -33,11 +33,11 @@ const faqs = [
   },
   {
     question: 'How much does managed payroll cost compared to Gusto?',
-    answer: 'Gusto Plus (the most popular growing-company plan) is $80/month base plus $12/employee/month. At 50 employees that is $680/month or $8,160/year in software fees -- before internal processing time. BEG managed payroll is $25 to $35/employee/month, all-inclusive, with no internal time burden. At 50 employees that is $1,250 to $1,750/month. When you account for the 8 to 10 hours per month your team currently spends running Gusto, the cost difference narrows significantly.',
+    answer: 'Gusto Plus (the most popular growing-company plan) is $80/month base plus $12/employee/month. At 50 employees that is $680/month or $8,160/year in software fees -- before internal processing time. BEG managed payroll is $25 to $45/employee/month, all-inclusive, with no internal time burden. At 50 employees that is $1,250 to $2,250/month. When you account for the 8 to 10 hours per month your team currently spends running Gusto, the cost difference narrows significantly.',
   },
   {
     question: 'What is the best Gusto alternative for a small business?',
-    answer: 'For small businesses (10-50 employees) that want to keep doing payroll themselves, alternatives include Paychex Flex, QuickBooks Payroll, and ADP RUN. For small businesses that want payroll off their plate entirely, BEG managed payroll at $25-$35 PEPM is the most cost-effective fully managed option -- with no migration required and no long-term contract.',
+    answer: 'For small businesses (10-50 employees) that want to keep doing payroll themselves, alternatives include Paychex Flex, QuickBooks Payroll, and ADP RUN. For small businesses that want payroll off their plate entirely, BEG managed payroll at $25-$45 PEPM is the most cost-effective fully managed option -- with no migration required and no long-term contract.',
   },
   {
     question: 'Can a managed payroll service replace Gusto for benefits administration?',
@@ -126,7 +126,7 @@ export default function GustoAlternativesPage() {
           <strong>Model:</strong> Fully managed service -- BEG handles every payroll cycle, every filing, and every employee question. Your team approves; BEG does the work.
         </p>
         <p>
-          <strong>Pricing:</strong> $25 PEPM if BEG manages your existing payroll system. $35 PEPM on the iSolved platform. All-inclusive -- no per-run fees, no year-end charges, no hidden costs.
+          <strong>Pricing:</strong> $25 PEPM if BEG manages your existing payroll system. $45 PEPM on the iSolved platform. All-inclusive -- no per-run fees, no year-end charges, no hidden costs.
         </p>
         <p>
           <strong>What makes it different:</strong> BEG is a managed service, not software. You do not need to log in and process payroll -- your team sends hours or updates, and BEG runs the cycle. Errors are BEG's responsibility to fix. BEG can also work inside your existing payroll platform without migration -- if you are already on Gusto, we can manage payroll within your Gusto account at the lower rate.
@@ -225,7 +225,7 @@ export default function GustoAlternativesPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Ready to stop running payroll yourself?</h3>
           <p style={{ marginBottom: '1.5rem' }}>
-            BEG managed payroll costs $25 to $35 per employee per month -- all-inclusive, no migration required, and your rate is locked for 24 months. In 15 minutes we will show you exactly what it costs for your headcount.
+            BEG managed payroll costs $25 to $45 per employee per month -- all-inclusive, no migration required, and your rate is locked for 24 months. In 15 minutes we will show you exactly what it costs for your headcount.
           </p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
@@ -249,7 +249,7 @@ export default function GustoAlternativesPage() {
             </thead>
             <tbody>
               {[
-                ['BEG Managed Payroll', 'Fully managed service', 'BEG -- hands off for you', '$15,000-$21,000/yr'],
+                ['BEG Managed Payroll', 'Fully managed service', 'BEG -- hands off for you', '$15,000-$27,000/yr'],
                 ['Gusto Plus', 'Self-service software', 'You (or your HR team)', '$8,160/yr + internal time'],
                 ['Paychex Flex', 'Software + support tiers', 'You (optional specialist)', '$30,000-$90,000/yr'],
                 ['ADP TotalSource', 'PEO (co-employment)', 'ADP manages it', '$90,000-$120,000/yr'],
@@ -272,7 +272,7 @@ export default function GustoAlternativesPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          Costs are estimates based on published pricing and market data as of June 2026. PEO costs include benefits administration. BEG at $25-$35 PEPM all-in, no contract required.
+          Costs are estimates based on published pricing and market data as of June 2026. PEO costs include benefits administration. BEG at $25-$45 PEPM all-in, no contract required.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -285,7 +285,7 @@ export default function GustoAlternativesPage() {
           If you want better software to run payroll more efficiently yourself, Paychex Flex, Rippling, or QuickBooks Payroll are all reasonable options depending on your ecosystem and needs.
         </p>
         <p>
-          If you want payroll off your team's plate entirely -- every cycle processed, every filing submitted, every employee question routed away from your HR inbox -- you need a managed service, not software. BEG managed payroll at $25 to $35 PEPM is built specifically for that outcome.
+          If you want payroll off your team's plate entirely -- every cycle processed, every filing submitted, every employee question routed away from your HR inbox -- you need a managed service, not software. BEG managed payroll at $25 to $45 PEPM is built specifically for that outcome.
         </p>
         <p>
           For a deeper comparison of Gusto vs. the managed service model specifically, see <a href="/blog/compare/managed-payroll-vs-gusto" style={{ color: '#9a6b1f', fontWeight: 600 }}>Managed Payroll vs. Gusto: What's the Actual Difference</a>.

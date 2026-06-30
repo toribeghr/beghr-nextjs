@@ -48,12 +48,12 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'ADP',
     shortName: 'ADP',
     primaryKeyword: 'alternatives to ADP',
-    titleTag: 'ADP Alternative | $25-$35 PEPM Managed Payroll | BEG',
+    titleTag: 'ADP Alternative | $25-$45 PEPM Managed Payroll | BEG',
     metaDescription:
-      'Switching from ADP? BEG runs fully managed payroll at $25-$35 PEPM, all-inclusive. No hidden fees, no per-run charges. Works in your existing system. Book a free scope review.',
+      'Switching from ADP? BEG runs fully managed payroll at $25-$45 PEPM, all-inclusive. No hidden fees, no per-run charges. Works in your existing system. Book a free scope review.',
     headline: 'Paying ADP $150+ per employee per month and still doing the work yourself?',
     subHeadline:
-      'ADP charges you for software and still leaves the compliance checks, exception reviews, and employee questions on your desk. BEG manages the entire payroll function for $25-$35 PEPM -- all-inclusive, fully hands-off.',
+      'ADP charges you for software and still leaves the compliance checks, exception reviews, and employee questions on your desk. BEG manages the entire payroll function for $25-$45 PEPM -- all-inclusive, fully hands-off.',
     competitorModel: 'Software + optional add-on specialist tiers',
     competitorPEPM: '$150-$200+ PEPM (TotalSource PEO all-in)',
     pains: [
@@ -62,7 +62,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       'The PEO co-employment model means ADP technically co-employs your staff. You lose direct control over your own employment decisions, policies, and HR documentation.',
     ],
     compRows: [
-      ['Monthly cost (50 employees)', '$1,250-$1,750 all-in', '$7,500-$10,000+ (TotalSource PEO)'],
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$7,500-$10,000+ (TotalSource PEO)'],
       ['Who runs payroll', 'BEG: fully managed', 'You, with ADP software'],
       ['Hidden fees', 'None -- one flat PEPM', 'Per-run, W-2, year-end, add-on modules'],
       ['Migration required', 'No -- works in ADP or iSolved', 'Already in ADP but paying for it'],
@@ -80,7 +80,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 02',
         title: 'One flat rate. No module surprise on your next invoice.',
         objection: 'Common objection: "ADP keeps adding fees we did not plan for."',
-        body: '$25-$35 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, compliance monitoring, new hire reporting, garnishments, and year-end close. No per-run fees. No year-end surcharge. No add-on cost for a mid-cycle correction. One number, every month.',
+        body: '$25-$45 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, compliance monitoring, new hire reporting, garnishments, and year-end close. No per-run fees. No year-end surcharge. No add-on cost for a mid-cycle correction. One number, every month.',
       },
       {
         badge: 'Bonus 03',
@@ -96,7 +96,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'How much does ADP TotalSource actually cost compared to BEG?',
-        a: 'ADP TotalSource as a PEO runs $150-$200 or more PEPM for most companies. BEG managed payroll is $25-$35 PEPM all-inclusive with no co-employment relationship and no PEO markup.',
+        a: 'ADP TotalSource as a PEO runs $150-$200 or more PEPM for most companies. BEG managed payroll is $25-$45 PEPM all-inclusive with no co-employment relationship and no PEO markup.',
       },
       {
         q: 'Does switching from ADP to BEG require migrating employee data?',
@@ -127,9 +127,9 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'Gusto',
     shortName: 'Gusto',
     primaryKeyword: 'alternatives to Gusto',
-    titleTag: 'Gusto Alternative | Fully Managed Payroll $25-$35 PEPM | BEG',
+    titleTag: 'Gusto Alternative | Fully Managed Payroll $25-$45 PEPM | BEG',
     metaDescription:
-      'Gusto does payroll software. BEG does payroll for you. Fully managed at $25-$35 PEPM all-inclusive. No login, no manual steps. Works in your existing system.',
+      'Gusto does payroll software. BEG does payroll for you. Fully managed at $25-$45 PEPM all-inclusive. No login, no manual steps. Works in your existing system.',
     headline: 'Gusto processes your payroll. You still have to run it.',
     subHeadline:
       'Gusto is payroll software built for owners who do not mind logging in, reviewing exceptions, and managing the process themselves. BEG is for companies who want payroll fully off their plate -- at a comparable cost.',
@@ -141,7 +141,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       'When something goes wrong in Gusto, support is chat or email. There is no dedicated specialist who knows your account. You explain your situation fresh every time.',
     ],
     compRows: [
-      ['Monthly cost (50 employees)', '$1,250-$1,750 all-in', '$2,000-$4,000+ with all add-ons'],
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$2,000-$4,000+ with all add-ons'],
       ['Who runs payroll', 'BEG: fully managed', 'You, inside Gusto'],
       ['Dedicated contact', 'Yes -- one BEG specialist', 'Chat and email support'],
       ['Multi-state compliance', 'Fully handled, all 50 states', 'Platform-assisted -- you verify'],
@@ -159,7 +159,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 02',
         title: 'One flat rate that beats Gusto effective cost at scale.',
         objection: 'Common objection: "Gusto looks cheaper than managed payroll."',
-        body: 'Gusto starts at $40 PEPM but adds $6 per employee for contractors, plus fees for next-day direct deposit, HR advisors, and premium support. At 50 employees with common add-ons, your effective rate is often $60-$80 PEPM and you are still doing the work. BEG is $25-$35 PEPM fully managed. The math closes fast when you add your team\'s time.',
+        body: 'Gusto starts at $40 PEPM but adds $6 per employee for contractors, plus fees for next-day direct deposit, HR advisors, and premium support. At 50 employees with common add-ons, your effective rate is often $60-$80 PEPM and you are still doing the work. BEG is $25-$45 PEPM fully managed. The math closes fast when you add your team\'s time.',
       },
       {
         badge: 'Bonus 03',
@@ -175,7 +175,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'Is BEG managed payroll more expensive than Gusto?',
-        a: 'BEG starts at $25-$35 PEPM. Gusto starts at $40 PEPM and adds per-employee fees for contractors, HR features, and premium support. At 30+ employees with typical add-ons, BEG is often less expensive effective PEPM -- and includes full management.',
+        a: 'BEG starts at $25-$45 PEPM. Gusto starts at $40 PEPM and adds per-employee fees for contractors, HR features, and premium support. At 30+ employees with typical add-ons, BEG is often less expensive effective PEPM -- and includes full management.',
       },
       {
         q: 'Can BEG manage payroll inside our existing Gusto account?',
@@ -206,9 +206,9 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'Paychex',
     shortName: 'Paychex',
     primaryKeyword: 'alternatives to Paychex',
-    titleTag: 'Paychex Alternative | Fully Managed Payroll $25-$35 PEPM | BEG',
+    titleTag: 'Paychex Alternative | Fully Managed Payroll $25-$45 PEPM | BEG',
     metaDescription:
-      'Switching from Paychex? BEG delivers fully managed payroll at $25-$35 PEPM with one dedicated specialist, no per-run fees, and zero migration required.',
+      'Switching from Paychex? BEG delivers fully managed payroll at $25-$45 PEPM with one dedicated specialist, no per-run fees, and zero migration required.',
     headline: 'Paychex charges per run, per filing, per feature -- and still leaves the work to you.',
     subHeadline:
       'Paychex Flex is software with optional specialist add-ons billed separately. BEG is a single flat-rate managed service where the entire payroll function is handled for you at a fraction of what Paychex costs all-in.',
@@ -220,7 +220,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       'Per-run and per-filing fees compound quickly. Companies running bi-weekly payroll pay per-run charges 26 times per year. Year-end W-2 filing, tax notices, and off-cycle runs are often billed as extras on top.',
     ],
     compRows: [
-      ['Monthly cost (50 employees)', '$1,250-$1,750 all-in', '$2,500-$7,500+ at Flex Select/Pro'],
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$2,500-$7,500+ at Flex Select/Pro'],
       ['Dedicated specialist', 'Yes -- one BEG contact', 'Shared HR advisor (Flex Select+)'],
       ['Per-run fees', 'None', 'Common on all Paychex tiers'],
       ['W-2 filing', 'Included in PEPM', 'Often billed separately'],
@@ -238,7 +238,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 02',
         title: 'One number, every month. No Paychex line-item creep.',
         objection: 'Common objection: "Our Paychex invoice keeps going up and we cannot predict it."',
-        body: '$25-$35 PEPM covers payroll processing, all tax filings, W-2s, direct deposit, garnishments, new hire reporting, and year-end close. No per-run fee. No W-2 add-on. No charge for off-cycle runs. One invoice, one number, every month for the life of your contract.',
+        body: '$25-$45 PEPM covers payroll processing, all tax filings, W-2s, direct deposit, garnishments, new hire reporting, and year-end close. No per-run fee. No W-2 add-on. No charge for off-cycle runs. One invoice, one number, every month for the life of your contract.',
       },
       {
         badge: 'Bonus 03',
@@ -254,7 +254,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'How does BEG pricing compare to Paychex Flex Select?',
-        a: 'Paychex Flex Select runs $50-$100 PEPM on average before per-run and filing add-ons. BEG is $25-$35 PEPM all-inclusive with no add-ons and full management included.',
+        a: 'Paychex Flex Select runs $50-$100 PEPM on average before per-run and filing add-ons. BEG is $25-$45 PEPM all-inclusive with no add-ons and full management included.',
       },
       {
         q: 'Can BEG work inside our current Paychex account?',
@@ -285,12 +285,12 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'Deel',
     shortName: 'Deel',
     primaryKeyword: 'Deel alternative for US payroll',
-    titleTag: 'Deel Alternative for US Payroll | $25-$35 PEPM | BEG',
+    titleTag: 'Deel Alternative for US Payroll | $25-$45 PEPM | BEG',
     metaDescription:
-      'Deel is built for global payroll complexity. If your team is US-based, BEG delivers fully managed domestic payroll at $25-$35 PEPM. No migration. No global overhead.',
+      'Deel is built for global payroll complexity. If your team is US-based, BEG delivers fully managed domestic payroll at $25-$45 PEPM. No migration. No global overhead.',
     headline: 'Deel is built for global complexity your US-based team does not need.',
     subHeadline:
-      'Deel pricing starts at $49 per employee per month for US payroll and climbs for contractor of record, EOR, and international features you may never use. BEG manages US payroll fully at $25-$35 PEPM with no global overhead.',
+      'Deel pricing starts at $49 per employee per month for US payroll and climbs for contractor of record, EOR, and international features you may never use. BEG manages US payroll fully at $25-$45 PEPM with no global overhead.',
     competitorModel: 'Global payroll, EOR, and contractor management platform',
     competitorPEPM: '$49+ PEPM US payroll (higher for EOR and global)',
     pains: [
@@ -299,7 +299,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       'Deel support is global by design. Response times and support quality for US-specific compliance questions -- state tax registrations, SUTA, garnishments, ACA filings -- vary based on where your support rep is located and what US compliance expertise they have.',
     ],
     compRows: [
-      ['Monthly cost (50 employees)', '$1,250-$1,750 all-in', '$2,450+ (US contractor or employee)'],
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$2,450+ (US contractor or employee)'],
       ['Best fit', 'US-based 10-500 employee companies', 'Global teams with EOR needs'],
       ['Who runs payroll', 'BEG: fully managed', 'You, inside Deel'],
       ['US compliance depth', 'All 50 states, fully handled', 'US supported -- global-first design'],
@@ -311,7 +311,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 01',
         title: 'US-first managed payroll without global platform overhead.',
         objection: 'Common objection: "Deel has strong reviews and we are evaluating it."',
-        body: 'Deel is excellent for companies with international teams, contractors in multiple countries, or EOR needs. If your workforce is US-based, you are paying for a platform built around complexity you do not have. BEG is purpose-built for US payroll -- taxes, filings, garnishments, W-2s, all 50 states -- managed fully at $25-$35 PEPM.',
+        body: 'Deel is excellent for companies with international teams, contractors in multiple countries, or EOR needs. If your workforce is US-based, you are paying for a platform built around complexity you do not have. BEG is purpose-built for US payroll -- taxes, filings, garnishments, W-2s, all 50 states -- managed fully at $25-$45 PEPM.',
       },
       {
         badge: 'Bonus 02',
@@ -333,7 +333,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'How does BEG compare to Deel for a 50-person US company?',
-        a: 'BEG managed payroll for 50 US employees runs $1,250-$1,750 per month all-inclusive. Deel US payroll starts at $49 PEPM ($2,450/month) before add-ons and is a platform your team still manages.',
+        a: 'BEG managed payroll for 50 US employees runs $1,250-$2,250 per month all-inclusive. Deel US payroll starts at $49 PEPM ($2,450/month) before add-ons and is a platform your team still manages.',
       },
       {
         q: 'Does BEG handle contractor payments like Deel?',
@@ -360,12 +360,12 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'Rippling',
     shortName: 'Rippling',
     primaryKeyword: 'Rippling alternative',
-    titleTag: 'Rippling Alternative | Managed Payroll $25-$35 PEPM | BEG',
+    titleTag: 'Rippling Alternative | Managed Payroll $25-$45 PEPM | BEG',
     metaDescription:
-      'Rippling is a software platform. BEG is a fully managed payroll service. $25-$35 PEPM all-inclusive. Works in your existing system. No migration needed.',
+      'Rippling is a software platform. BEG is a fully managed payroll service. $25-$45 PEPM all-inclusive. Works in your existing system. No migration needed.',
     headline: 'Rippling automates payroll software. BEG eliminates payroll work entirely.',
     subHeadline:
-      'Rippling charges $35-$100 PEPM for a platform your IT and HR team configures, maintains, and runs every cycle. BEG delivers the same outcome -- payroll running correctly every time -- for $25-$35 PEPM with zero management burden on your team.',
+      'Rippling charges $35-$100 PEPM for a platform your IT and HR team configures, maintains, and runs every cycle. BEG delivers the same outcome -- payroll running correctly every time -- for $25-$45 PEPM with zero management burden on your team.',
     competitorModel: 'HR and IT automation software platform',
     competitorPEPM: '$35-$100 PEPM (modular, per-feature pricing)',
     pains: [
@@ -374,7 +374,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       'Rippling automates payroll steps but does not remove them. Your team still needs to understand the system well enough to catch errors, handle exceptions, and manage edge cases. That expertise requirement does not go away.',
     ],
     compRows: [
-      ['Monthly cost (50 employees)', '$1,250-$1,750 all-in', '$1,750-$5,000+ with modules'],
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$1,750-$5,000+ with modules'],
       ['Who runs payroll', 'BEG: fully managed', 'You, with automation'],
       ['Setup complexity', 'BEG handles full setup', 'Your IT and HR team configures'],
       ['Ongoing management', 'Fully on BEG', 'Your team monitors and maintains'],
@@ -398,7 +398,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 03',
         title: 'One flat PEPM. No Rippling module math.',
         objection: 'Common objection: "Rippling pricing is complicated and we are not sure what we need."',
-        body: '$25-$35 PEPM. That is the number. Payroll processing, all filings, W-2s, garnishments, direct deposit, new hire reporting, compliance monitoring, and employee paycheck support. One invoice. No module decisions. No per-feature activation. Your BEG contact handles the scope.',
+        body: '$25-$45 PEPM. That is the number. Payroll processing, all filings, W-2s, garnishments, direct deposit, new hire reporting, compliance monitoring, and employee paycheck support. One invoice. No module decisions. No per-feature activation. Your BEG contact handles the scope.',
       },
     ],
     faqs: [
@@ -408,7 +408,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'Is Rippling cheaper than BEG?',
-        a: 'Rippling starts around $35 PEPM for the base platform, but full payroll functionality requires additional modules that push effective PEPM to $60-$100+. BEG is $25-$35 PEPM all-inclusive with full management.',
+        a: 'Rippling starts around $35 PEPM for the base platform, but full payroll functionality requires additional modules that push effective PEPM to $60-$100+. BEG is $25-$45 PEPM all-inclusive with full management.',
       },
       {
         q: 'Can BEG manage payroll if we are already inside Rippling?',
@@ -437,7 +437,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     primaryKeyword: 'TriNet alternative',
     titleTag: 'TriNet Alternative | Managed Payroll Without a PEO | BEG',
     metaDescription:
-      'TriNet charges $125-$200 PEPM and co-employs your staff. BEG delivers fully managed payroll at $25-$35 PEPM with no PEO, no co-employment, and full employer control.',
+      'TriNet charges $125-$200 PEPM and co-employs your staff. BEG delivers fully managed payroll at $25-$45 PEPM with no PEO, no co-employment, and full employer control.',
     headline: 'TriNet costs $125-$200 per employee per month and makes itself your co-employer.',
     subHeadline:
       'TriNet is a PEO -- a Professional Employer Organization. That means TriNet technically co-employs your staff, owns the employer-of-record relationship, and charges a premium for it. BEG delivers the managed payroll outcome without the PEO structure, co-employment risk, or PEO cost.',
@@ -445,11 +445,11 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     competitorPEPM: '$125-$200 PEPM (PEO all-in)',
     pains: [
       'TriNet co-employment means TriNet is the employer of record for your staff. You lose direct control over HR policies, employment documentation, and certain employment decisions. If you outgrow TriNet or want to leave, transitioning your employees out of co-employment is a complex, disruptive process.',
-      'PEO cost scales with headcount in ways that become painful at 100+ employees. At $150 PEPM and 100 employees, you are paying $15,000 per month for payroll and HR bundled together. BEG payroll at $35 PEPM for the same headcount is $3,500 per month.',
+      'PEO cost scales with headcount in ways that become painful at 100+ employees. At $150 PEPM and 100 employees, you are paying $15,000 per month for payroll and HR bundled together. BEG payroll at $45 PEPM for the same headcount is $4,500 per month.',
       'PEOs bundle payroll with benefits, compliance, and HR services and charge for all of it together. If you only need managed payroll -- not the full PEO suite -- you are overpaying for services you are not using.',
     ],
     compRows: [
-      ['Monthly cost (50 employees)', '$1,250-$1,750 all-in', '$6,250-$10,000+ (PEO all-in)'],
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$6,250-$10,000+ (PEO all-in)'],
       ['Co-employment', 'None -- you are always the employer', 'TriNet is co-employer of record'],
       ['Leaving the relationship', 'Clean -- your data, your employees', 'Complex employee transition out of PEO'],
       ['Services bundled', 'Payroll fully managed', 'Payroll + HR + benefits bundled'],
@@ -467,7 +467,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 02',
         title: 'Pay for managed payroll. Not a PEO suite you do not need.',
         objection: 'Common objection: "TriNet includes benefits and HR -- is that worth the extra cost?"',
-        body: 'If you need a PEO for access to benefits pooling, HR compliance advisory, and employer-of-record services, TriNet may be right. If you need payroll managed correctly every cycle by a dedicated specialist, BEG is $25-$35 PEPM versus $125-$200 PEPM. The difference funds a lot of what you could spend on benefits directly.',
+        body: 'If you need a PEO for access to benefits pooling, HR compliance advisory, and employer-of-record services, TriNet may be right. If you need payroll managed correctly every cycle by a dedicated specialist, BEG is $25-$45 PEPM versus $125-$200 PEPM. The difference funds a lot of what you could spend on benefits directly.',
       },
       {
         badge: 'Bonus 03',
@@ -483,7 +483,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'How does TriNet cost compare to BEG at 50 employees?',
-        a: 'TriNet at 50 employees runs approximately $6,250-$10,000 per month all-in. BEG managed payroll for 50 employees is $1,250-$1,750 per month with no bundled HR or PEO overhead.',
+        a: 'TriNet at 50 employees runs approximately $6,250-$10,000 per month all-in. BEG managed payroll for 50 employees is $1,250-$2,250 per month with no bundled HR or PEO overhead.',
       },
       {
         q: 'Does BEG offer HR services beyond payroll?',

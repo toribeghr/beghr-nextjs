@@ -26,7 +26,7 @@ export default function PEOVsManagedPayrollPage() {
     },
     {
       question: "Is a PEO more expensive than outsourced payroll?",
-      answer: "Significantly more expensive in most cases. PEOs typically charge 8 to 12 percent of gross payroll. For a company with 50 employees and $3.5 million in annual payroll, that's $280,000 to $420,000 per year. BEG managed payroll for the same company is $15,000 to $21,000 per year -- a difference of $260,000 to $400,000 annually. The PEO premium is sometimes justified by access to better group benefits rates, which can offset part of the cost difference for smaller companies."
+      answer: "Significantly more expensive in most cases. PEOs typically charge 8 to 12 percent of gross payroll. For a company with 50 employees and $3.5 million in annual payroll, that's $280,000 to $420,000 per year. BEG managed payroll for the same company is $15,000 to $27,000 per year -- a difference of $260,000 to $400,000 annually. The PEO premium is sometimes justified by access to better group benefits rates, which can offset part of the cost difference for smaller companies."
     },
     {
       question: "What happens to my employees when I leave a PEO?",
@@ -106,7 +106,7 @@ export default function PEOVsManagedPayrollPage() {
                 ["Workers' comp", 'Pooled through PEO', 'Your existing coverage'],
                 ['Compliance responsibility', 'Shared with PEO', 'BEG for payroll, you for rest'],
                 ['Termination / hiring decisions', 'Yours, with PEO involvement in process', 'Entirely yours'],
-                ['Cost (50 employees)', '8–12% of gross payroll ($280K–$420K/yr)', '$15,000–$21,000/yr'],
+                ['Cost (50 employees)', '8–12% of gross payroll ($280K–$420K/yr)', '$15,000–$27,000/yr'],
                 ['Exit flexibility', 'Requires full offboarding of co-employment', 'Cancel anytime, month-to-month'],
                 ['Best for...', 'Small cos needing group benefits access', 'Companies wanting payroll off their plate'],
               ].map(([factor, peo, beg], i) => (
@@ -180,9 +180,9 @@ export default function PEOVsManagedPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees / $1.75M payroll', '$175,000/yr', '$7,500–$10,500/yr', '$164,000–$168,000'],
-                ['50 employees / $3.5M payroll', '$350,000/yr', '$15,000–$21,000/yr', '$329,000–$335,000'],
-                ['100 employees / $7M payroll', '$700,000/yr', '$30,000–$42,000/yr', '$658,000–$670,000'],
+                ['25 employees / $1.75M payroll', '$175,000/yr', '$7,500–$13,500/yr', '$161,000–$168,000'],
+                ['50 employees / $3.5M payroll', '$350,000/yr', '$15,000–$27,000/yr', '$323,000–$335,000'],
+                ['100 employees / $7M payroll', '$700,000/yr', '$30,000–$54,000/yr', '$646,000–$670,000'],
               ].map(([size, peo, beg, diff], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: 600 }}>{size}</td>
@@ -195,7 +195,7 @@ export default function PEOVsManagedPayrollPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          PEO cost at 10% of gross payroll. BEG at $25–$35 PEPM. Note: PEO cost may be partially offset by benefits savings if your current benefits are significantly more expensive than PEO group rates.
+          PEO cost at 10% of gross payroll. BEG at $25–$45 PEPM. Note: PEO cost may be partially offset by benefits savings if your current benefits are significantly more expensive than PEO group rates.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>

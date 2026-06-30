@@ -198,7 +198,7 @@ export default function PayrollTruckingPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>One IRS audit costs more than years of managed payroll.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Driver misclassification audits routinely result in back employment taxes, penalties, and interest covering three to five years. A single reclassification assessment on 20 misclassified drivers can exceed $200,000. Fully managed payroll at $25–$45 PEPM on a 50-driver operation costs $15,000–$21,000 per year -- less than the interest on one audit settlement.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Driver misclassification audits routinely result in back employment taxes, penalties, and interest covering three to five years. A single reclassification assessment on 20 misclassified drivers can exceed $200,000. Fully managed payroll at $25–$45 PEPM on a 50-driver operation costs $15,000–$27,000 per year -- less than the interest on one audit settlement.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>

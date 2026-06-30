@@ -118,16 +118,16 @@ export default function EducationPayrollCostPage() {
             <thead>
               <tr style={{ background: "#000", color: "#fff" }}>
                 <th style={{ padding: "10px 14px", textAlign: "left" }}>School Size</th>
-                <th style={{ padding: "10px 14px", textAlign: "left" }}>Monthly (at $35 PEPM)</th>
+                <th style={{ padding: "10px 14px", textAlign: "left" }}>Monthly (at $45 PEPM)</th>
                 <th style={{ padding: "10px 14px", textAlign: "left" }}>Annual</th>
               </tr>
             </thead>
             <tbody>
               {[
-                ["25 employees", "$875", "$10,500"],
-                ["50 employees", "$1,750", "$21,000"],
-                ["75 employees", "$2,625", "$31,500"],
-                ["100 employees", "$3,500", "$42,000"],
+                ["25 employees", "$1,125", "$13,500"],
+                ["50 employees", "$2,250", "$27,000"],
+                ["75 employees", "$3,375", "$40,500"],
+                ["100 employees", "$4,500", "$54,000"],
               ].map(([size, monthly, annual], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? "#f9f9f9" : "#fff" }}>
                   <td style={{ padding: "10px 14px", borderBottom: "1px solid #eee" }}>{size}</td>

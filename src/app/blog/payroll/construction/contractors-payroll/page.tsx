@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for construction payroll?',
-    answer: 'BEG manages construction payroll at $25–$45 per employee per month, all-inclusive. That covers payroll processing, certified payroll reports, tax filings, W-2s, multi-state processing, and compliance updates. For a crew of 60, that is $1,500–$2,100 per month. No per-run fees, no module charges for certified payroll.',
+    answer: 'BEG manages construction payroll at $25–$45 per employee per month, all-inclusive. That covers payroll processing, certified payroll reports, tax filings, W-2s, multi-state processing, and compliance updates. For a crew of 60, that is $1,500–$2,700 per month. No per-run fees, no module charges for certified payroll.',
   },
 ];
 
@@ -125,10 +125,10 @@ export default function ConstructionPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['30 employees', '$750–$1,050', '$9,000–$12,600', 'Save $66K–$102K/yr'],
-                ['60 employees', '$1,500–$2,100', '$18,000–$25,200', 'Save $53K–$89K/yr'],
-                ['100 employees', '$2,500–$3,500', '$30,000–$42,000', 'Save $37K–$72K/yr'],
-                ['150 employees', '$3,750–$5,250', '$45,000–$63,000', 'Save $16K–$51K/yr'],
+                ['30 employees', '$750–$1,350', '$9,000–$16,200', 'Save $62K–$102K/yr'],
+                ['60 employees', '$1,500–$2,700', '$18,000–$32,400', 'Save $46K–$89K/yr'],
+                ['100 employees', '$2,500–$4,500', '$30,000–$54,000', 'Save $25K–$72K/yr'],
+                ['150 employees', '$3,750–$6,750', '$45,000–$81,000', 'Varies at scale'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -177,7 +177,7 @@ export default function ConstructionPayrollPage() {
             <tbody>
               {[
                 ['Under 40 employees', 'Outsource', 'Volume does not justify in-house hire. Compliance risk is high without a specialist.'],
-                ['40–150 employees', 'Outsource', 'Strongest ROI range. Saves $40K–$90K/yr with full compliance coverage included.'],
+                ['40–150 employees', 'Outsource', 'Strongest ROI range. Saves $22K–$90K/yr with full compliance coverage included.'],
                 ['150–300 employees', 'Outsource or hybrid', 'Outsourcing remains cost-effective. Hybrid works if you want internal HR for workforce management.'],
                 ['300+ employees', 'Assess annually', 'Scale may justify in-house, but certified payroll complexity still argues for outsourcing.'],
               ].map(([size, rec, why], i) => (

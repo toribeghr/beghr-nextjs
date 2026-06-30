@@ -38,7 +38,7 @@ export default function ManagedPayrollVsRipplingPage() {
     },
     {
       question: "Is Rippling worth it for a 30-person company?",
-      answer: "At 30 employees, the economics of Rippling typically do not work unless your team has specific IT complexity that justifies the cost. A 30-person company on a full Rippling suite commonly spends $25,000 to $40,000 annually. BEG managed payroll for 30 employees is $9,000 to $12,600 per year -- all-in, with your team doing zero operational work. The question is whether Rippling's IT and HR integration features are worth the premium for your specific situation."
+      answer: "At 30 employees, the economics of Rippling typically do not work unless your team has specific IT complexity that justifies the cost. A 30-person company on a full Rippling suite commonly spends $25,000 to $40,000 annually. BEG managed payroll for 30 employees is $9,000 to $16,200 per year -- all-in, with your team doing zero operational work. The question is whether Rippling's IT and HR integration features are worth the premium for your specific situation."
     },
     {
       question: "What happens to our data if we leave Rippling?",
@@ -96,11 +96,11 @@ export default function ManagedPayrollVsRipplingPage() {
                 ['Platform scope', 'Payroll, HR, device mgmt, identity, benefits', 'Payroll operations only'],
                 ['Implementation time', '6–12 weeks typically', '2–4 weeks'],
                 ['Learning curve', 'Significant -- complex platform', 'None -- we handle it'],
-                ['Pricing model', '$8–$70+/employee/mo (modular)', '$25–$35 PEPM, all-in'],
+                ['Pricing model', '$8–$70+/employee/mo (modular)', '$25–$45 PEPM, all-in'],
                 ['Contract required', 'Annual, modular pricing', 'Month-to-month'],
                 ['Works with existing systems', 'Requires Rippling ecosystem', 'Yes -- or move to iSolved'],
                 ['Employee questions', 'Self-service app', 'BEG handles directly'],
-                ['True annual cost (50 employees)', '$30,000–$60,000+ (full suite)', '$15,000–$21,000'],
+                ['True annual cost (50 employees)', '$30,000–$60,000+ (full suite)', '$15,000–$27,000'],
               ].map(([factor, rippling, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: 600 }}>{factor}</td>
@@ -181,11 +181,11 @@ export default function ManagedPayrollVsRipplingPage() {
             </thead>
             <tbody>
               {[
-                ['Platform / service fees', '$30,000–$50,000/yr', '$15,000–$21,000/yr'],
+                ['Platform / service fees', '$30,000–$50,000/yr', '$15,000–$27,000/yr'],
                 ['Implementation cost (one-time)', '$5,000–$15,000', 'Included'],
                 ['Internal admin time (10 hrs/mo @ $40)', '$4,800/yr', '~$0'],
                 ['IT resource time for device mgmt', '$5,000–$15,000/yr', 'N/A -- not required'],
-                ['Total year-one cost', '$44,800–$84,800', '$15,000–$21,000'],
+                ['Total year-one cost', '$44,800–$84,800', '$15,000–$27,000'],
               ].map(([element, rippling, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: i === 4 ? 700 : 400 }}>{element}</td>
@@ -197,7 +197,7 @@ export default function ManagedPayrollVsRipplingPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          Rippling cost estimates based on full suite pricing at 50 employees. Payroll-only Rippling is less expensive but eliminates the platform value proposition. BEG pricing is flat $25–$35 PEPM, all-in with no setup fees.
+          Rippling cost estimates based on full suite pricing at 50 employees. Payroll-only Rippling is less expensive but eliminates the platform value proposition. BEG pricing is flat $25–$45 PEPM, all-in with no setup fees.
         </p>
         <p>
           If you genuinely need Rippling's IT and HR integration capabilities, those costs may be justified. If you primarily need payroll handled, you're paying for a significant amount of capability you won't use.

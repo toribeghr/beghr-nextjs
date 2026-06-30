@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     question: 'What does payroll outsourcing cost for a law firm?',
-    answer: 'BEG managed payroll for law firms runs $25 to $35 per employee per month, all-inclusive. For a 20-attorney firm with 30 total W-2 staff, that is approximately $750 to $1,050 per month -- roughly $9,000 to $12,600 per year. That compares to a dedicated payroll manager at $90,000 to $120,000 per year in total employer cost.',
+    answer: 'BEG managed payroll for law firms runs $25 to $45 per employee per month, all-inclusive. For a 20-attorney firm with 30 total W-2 staff, that is approximately $750 to $1,350 per month -- roughly $9,000 to $16,200 per year. That compares to a dedicated payroll manager at $90,000 to $120,000 per year in total employer cost.',
   },
   {
     question: 'How long does it take to transition a law firm to managed payroll?',
@@ -193,10 +193,10 @@ export default function PayrollOutsourcingForLawFirmsPage() {
             </thead>
             <tbody>
               {[
-                ['10 attorneys + 15 staff (25 total)', '$85,000-$110,000/yr', '$7,500-$10,500/yr'],
-                ['20 attorneys + 20 staff (40 total)', '$95,000-$125,000/yr', '$12,000-$16,800/yr'],
-                ['35 attorneys + 35 staff (70 total)', '$100,000-$135,000/yr', '$21,000-$29,400/yr'],
-                ['60 attorneys + 40 staff (100 total)', '$110,000-$150,000/yr', '$30,000-$42,000/yr'],
+                ['10 attorneys + 15 staff (25 total)', '$85,000-$110,000/yr', '$7,500-$13,500/yr'],
+                ['20 attorneys + 20 staff (40 total)', '$95,000-$125,000/yr', '$12,000-$21,600/yr'],
+                ['35 attorneys + 35 staff (70 total)', '$100,000-$135,000/yr', '$21,000-$37,800/yr'],
+                ['60 attorneys + 40 staff (100 total)', '$110,000-$150,000/yr', '$30,000-$54,000/yr'],
               ].map(([size, inhouse, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: 600 }}>{size}</td>
@@ -208,14 +208,14 @@ export default function PayrollOutsourcingForLawFirmsPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          BEG pricing at $25-$35 PEPM all-inclusive. In-house cost includes salary, benefits, overhead, software, and prorated replacement cost.
+          BEG pricing at $25-$45 PEPM all-inclusive. In-house cost includes salary, benefits, overhead, software, and prorated replacement cost.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
           How BEG Manages Law Firm Payroll
         </h2>
         <p>
-          BEG handles managed payroll for law firms at $25 to $35 per employee per month. Here is what that includes:
+          BEG handles managed payroll for law firms at $25 to $45 per employee per month. Here is what that includes:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li>Configuration of both W-2 associate/non-equity partner pay and equity partner guaranteed payment structures</li>

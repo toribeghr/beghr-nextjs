@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for SaaS company payroll?',
-    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 50-person SaaS company, that is $1,250–$1,750 per month -- compared to $85,000–$120,000 for a Payroll Ops Manager at the salary and loaded cost typical in tech. Included: multi-state processing, RSU tax event handling, tax filing, W-2s, and compliance updates. No per-run fees.',
+    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 50-person SaaS company, that is $1,250–$2,250 per month -- compared to $85,000–$120,000 for a Payroll Ops Manager at the salary and loaded cost typical in tech. Included: multi-state processing, RSU tax event handling, tax filing, W-2s, and compliance updates. No per-run fees.',
   },
 ];
 
@@ -126,10 +126,10 @@ export default function SaaSPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees', '$625–$875', '$7,500–$10,500', 'Save $103K–$165K/yr'],
-                ['50 employees', '$1,250–$1,750', '$15,000–$21,000', 'Save $93K–$155K/yr'],
-                ['100 employees', '$2,500–$3,500', '$30,000–$42,000', 'Save $72K–$134K/yr'],
-                ['200 employees', '$5,000–$7,000', '$60,000–$84,000', 'Save $30K–$92K/yr'],
+                ['25 employees', '$625–$1,125', '$7,500–$13,500', 'Save $100K–$165K/yr'],
+                ['50 employees', '$1,250–$2,250', '$15,000–$27,000', 'Save $87K–$155K/yr'],
+                ['100 employees', '$2,500–$4,500', '$30,000–$54,000', 'Save $60K–$134K/yr'],
+                ['200 employees', '$5,000–$9,000', '$60,000–$108,000', 'Save $6K–$92K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>

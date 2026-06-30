@@ -84,7 +84,7 @@ export default function PayrollCompetitorPage({
       description={c.subHeadline}
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: '$25-$35', label: 'PEPM, all-inclusive' },
+        { value: '$25-$45', label: 'PEPM, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -264,7 +264,7 @@ export default function PayrollCompetitorPage({
                 Every month you stay on {c.name} is a month you overpay.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                BEG managed payroll is $25-$35 per employee per month, all-inclusive. No per-run fees.
+                BEG managed payroll is $25-$45 per employee per month, all-inclusive. No per-run fees.
                 No filing surcharges. No add-on modules. One flat rate that covers every cycle, every
                 filing, every year-end form.
               </p>
@@ -340,7 +340,7 @@ export default function PayrollCompetitorPage({
               <Link key={href} href={href} className="card-link">
                 <h3>{label}</h3>
                 <p>
-                  Industry-specific payroll compliance and processing, fully managed at $25-$35 PEPM.
+                  Industry-specific payroll compliance and processing, fully managed at $25-$45 PEPM.
                 </p>
               </Link>
             ))}

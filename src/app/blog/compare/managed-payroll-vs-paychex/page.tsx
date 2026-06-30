@@ -69,7 +69,7 @@ export default function ManagedPayrollVsPaychexPage() {
                 ['Tax filings', 'Automated by platform', 'BEG team executes + verifies'],
                 ['Employee questions', 'Self-service portal, some support', 'Routes to BEG directly'],
                 ['Compliance monitoring', 'Alerts + some automation', 'Active monitoring by BEG team'],
-                ['Pricing', 'Quoted, typically $39–$150/mo base + per-employee', '$25–$35 PEPM all-in'],
+                ['Pricing', 'Quoted, typically $39–$150/mo base + per-employee', '$25–$45 PEPM all-in'],
                 ['Contract terms', 'Annual contracts common', 'Month-to-month'],
                 ['Migration required', 'Must use Paychex system', 'No -- work in existing system, or iSolved'],
                 ['Internal time required', '5–15 hours/month depending on team size', 'Near zero'],

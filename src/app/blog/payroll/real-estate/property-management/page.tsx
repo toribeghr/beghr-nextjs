@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for real estate company payroll?',
-    answer: 'BEG charges $25 PEPM working in your existing system, or $45 PEPM on BEG\'s iSolved platform. Both are all-inclusive, no per-run fees, no separate charges for commission processing, multi-state filings, or W-2 production. At 40 W-2 employees, that is $1,000–$1,400/month compared to an HR Coordinator at $4,500–$6,500/month in fully loaded cost.',
+    answer: 'BEG charges $25 PEPM working in your existing system, or $45 PEPM on BEG\'s iSolved platform. Both are all-inclusive, no per-run fees, no separate charges for commission processing, multi-state filings, or W-2 production. At 40 W-2 employees, that is $1,000–$1,800/month compared to an HR Coordinator at $4,500–$6,500/month in fully loaded cost.',
   },
 ];
 
@@ -131,10 +131,10 @@ export default function RealEstatePropertyManagementPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['20 employees', '$6,000/yr', '$8,400/yr', '$67,593–$105,873/yr', '$59,193–$99,873'],
-                ['40 employees', '$12,000/yr', '$16,800/yr', '$67,593–$105,873/yr', '$50,793–$93,873'],
-                ['80 employees', '$24,000/yr', '$33,600/yr', '$75,000–$110,000/yr', '$41,400–$86,000'],
-                ['150 employees', '$45,000/yr', '$63,000/yr', '$100,000–$140,000/yr*', '$37,000–$95,000'],
+                ['20 employees', '$6,000/yr', '$10,800/yr', '$67,593–$105,873/yr', '$56,793–$99,873'],
+                ['40 employees', '$12,000/yr', '$21,600/yr', '$67,593–$105,873/yr', '$45,993–$93,873'],
+                ['80 employees', '$24,000/yr', '$43,200/yr', '$75,000–$110,000/yr', '$31,800–$86,000'],
+                ['150 employees', '$45,000/yr', '$81,000/yr', '$100,000–$140,000/yr*', '$19,000–$95,000'],
               ].map(([count, low, high, inhouse, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{count}</td>

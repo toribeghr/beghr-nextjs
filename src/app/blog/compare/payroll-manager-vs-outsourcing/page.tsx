@@ -79,7 +79,7 @@ export default function PayrollManagerVsOutsourcingPage() {
                 ['Replacement cost when they leave', '$15,000–$30,000 per event', 'No risk'],
                 ['Year-end / compliance filings', "Your team's time", 'Included'],
                 ['Software license', '$1,200–$6,000/yr', 'Included'],
-                ['Total annual cost (50 people)', '$95,000–$140,000', '$15,000–$21,000'],
+                ['Total annual cost (50 people)', '$95,000–$140,000', '$15,000–$27,000'],
                 ['Contract required', 'Employment contract', 'Month-to-month'],
                 ['Scales with headcount', 'Add headcount, add cost', 'Linear PEPM pricing'],
               ].map(([factor, inhouse, beg], i) => (
@@ -145,13 +145,13 @@ export default function PayrollManagerVsOutsourcingPage() {
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>$25/PEPM</strong> -- if you stay on your existing payroll system (we run it for you)</li>
-          <li><strong>$35/PEPM</strong> -- if you move to BEG's iSolved account (includes the software)</li>
+          <li><strong>$45/PEPM</strong> -- if you move to BEG's iSolved account (includes the software)</li>
         </ul>
         <p>
-          For a 50-person company, that's <strong>$1,250–$1,750/month</strong>, or <strong>$15,000–$21,000/year</strong>, all-inclusive: payroll processing, tax filings, year-end W-2s and 1099s, compliance monitoring, and employee question handling.
+          For a 50-person company, that's <strong>$1,250–$2,250/month</strong>, or <strong>$15,000–$27,000/year</strong>, all-inclusive: payroll processing, tax filings, year-end W-2s and 1099s, compliance monitoring, and employee question handling.
         </p>
         <p>
-          That price doesn't change when your payroll manager has a busy week. It doesn't increase when there's a compliance update. It scales linearly with headcount -- add 10 employees, add $250–$350/month.
+          That price doesn't change when your payroll manager has a busy week. It doesn't increase when there's a compliance update. It scales linearly with headcount -- add 10 employees, add $250–$450/month.
         </p>
 
         {/* ── SECTION 3: When In-House Makes Sense ── */}
@@ -188,9 +188,9 @@ export default function PayrollManagerVsOutsourcingPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees', '$85,000–$110,000/yr', '$7,500–$10,500/yr', '$75,000–$100,000'],
-                ['50 employees', '$95,000–$130,000/yr', '$15,000–$21,000/yr', '$74,000–$115,000'],
-                ['100 employees', '$100,000–$140,000/yr', '$30,000–$42,000/yr', '$60,000–$110,000'],
+                ['25 employees', '$85,000–$110,000/yr', '$7,500–$13,500/yr', '$72,000–$100,000'],
+                ['50 employees', '$95,000–$130,000/yr', '$15,000–$27,000/yr', '$68,000–$115,000'],
+                ['100 employees', '$100,000–$140,000/yr', '$30,000–$54,000/yr', '$48,000–$110,000'],
               ].map(([size, inhouse, beg, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: 600 }}>{size}</td>
@@ -203,7 +203,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '0.5rem' }}>
-          In-house true cost includes salary, benefits, error correction, software, and prorated replacement cost. BEG pricing at $25–$35/PEPM all-inclusive.
+          In-house true cost includes salary, benefits, error correction, software, and prorated replacement cost. BEG pricing at $25–$45/PEPM all-inclusive.
         </p>
 
         {/* ── SECTION 5: The Questions to Ask ── */}

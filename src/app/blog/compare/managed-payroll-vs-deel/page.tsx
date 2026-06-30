@@ -70,7 +70,7 @@ export default function ManagedPayrollVsDeelPage() {
                 ['System migration required', 'Yes -- must move to Deel', 'No -- work in your existing system'],
                 ['Tax compliance', 'International / contractor 1099s', 'Federal + state W-2 + payroll tax'],
                 ['Employee questions handled', 'App-based self-service', 'BEG handles directly'],
-                ['Monthly cost range', '$49–$599+/contractor/mo or custom', '$25–$35 PEPM all-in'],
+                ['Monthly cost range', '$49–$599+/contractor/mo or custom', '$25–$45 PEPM all-in'],
                 ['Best for companies with...', 'Global remote contractors', 'U.S. W-2 employees, 20–200 headcount'],
               ].map(([factor, deel, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>

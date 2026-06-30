@@ -44,3 +44,9 @@ yarn-error.log*
 .~lock.*
 weplacelawyers-migration-plan.*
 package-lock.json
+
+# Private BEG ops files — never commit
+BEG_HR_Content_Machine_Master_Plan.md
+BEG_Lead_Capture.gs
+BEG_Opportunity_Miner_v1_Build_Queue.md
+BEG_Site_Compliance_Audit.md

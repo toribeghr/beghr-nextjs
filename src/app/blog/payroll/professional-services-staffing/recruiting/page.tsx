@@ -78,7 +78,7 @@ export default function StaffingRecruitingPayrollPage() {
 
         <p>Most agencies respond by hiring an HR Manager. The base salary runs $55,000–$78,000. Add employer FICA (7.65%), health insurance contribution, PTO, 401(k) match, recruiting fees, and the software licenses needed to do the job, and the all-in annual cost reaches $80,000–$115,000. That is before accounting for the ramp-up period, typically 60 to 90 days before a new hire processes their first fully independent payroll cycle.</p>
 
-        <p>BEG's managed payroll service costs $25–$45 PEPM, all-inclusive. At 75 employees, that is $2,625/month. At 150 employees, $3,750–$5,250/month. The math is straightforward, but the real advantage for staffing agencies is operational: a managed payroll partner already knows multi-state compliance, handles worker classification correctly from day one, and scales to match your contract wins without any hiring lag.</p>
+        <p>BEG's managed payroll service costs $25–$45 PEPM, all-inclusive. At 75 employees, that is $1,875–$3,375/month. At 150 employees, $3,750–$6,750/month. The math is straightforward, but the real advantage for staffing agencies is operational: a managed payroll partner already knows multi-state compliance, handles worker classification correctly from day one, and scales to match your contract wins without any hiring lag.</p>
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>The True Cost of In-House Payroll at a Staffing Agency</h2>
 

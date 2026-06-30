@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for medical practice payroll?',
-    answer: 'BEG manages medical practice payroll at $25–$45 per employee per month, all-inclusive. For a 30-person practice, that is $750–$1,050 per month. Included: shift differential processing, RVU comp coordination, ACA tracking, tax filing, W-2 and 1099 production, and compliance updates. No setup fees, no per-run charges.',
+    answer: 'BEG manages medical practice payroll at $25–$45 per employee per month, all-inclusive. For a 30-person practice, that is $750–$1,350 per month. Included: shift differential processing, RVU comp coordination, ACA tracking, tax filing, W-2 and 1099 production, and compliance updates. No setup fees, no per-run charges.',
   },
 ];
 
@@ -126,10 +126,10 @@ export default function MedicalPracticesPage() {
             </thead>
             <tbody>
               {[
-                ['15 employees', '$375–$525', '$4,500–$6,300', 'Save $62K–$98K/yr'],
-                ['30 employees', '$750–$1,050', '$9,000–$12,600', 'Save $56K–$91K/yr'],
-                ['60 employees', '$1,500–$2,100', '$18,000–$25,200', 'Save $44K–$79K/yr'],
-                ['120 employees', '$3,000–$4,200', '$36,000–$50,400', 'Save $18K–$54K/yr'],
+                ['15 employees', '$375–$675', '$4,500–$8,100', 'Save $60K–$98K/yr'],
+                ['30 employees', '$750–$1,350', '$9,000–$16,200', 'Save $52K–$91K/yr'],
+                ['60 employees', '$1,500–$2,700', '$18,000–$32,400', 'Save $37K–$79K/yr'],
+                ['120 employees', '$3,000–$5,400', '$36,000–$64,800', 'Save $4K–$54K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>

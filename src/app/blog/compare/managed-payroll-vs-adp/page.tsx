@@ -95,10 +95,10 @@ export default function ManagedPayrollVsADPPage() {
                 ['Who runs payroll', 'You (or your HR person)', 'BEG -- hands off for you'],
                 ['Support quality', 'Tiered call center, varies widely', 'Dedicated team, direct contact'],
                 ['Contract requirements', 'Annual contracts, auto-renew', 'Month-to-month'],
-                ['Pricing transparency', 'Quoted, often opaque', 'Flat $25–$35 PEPM, all-in'],
+                ['Pricing transparency', 'Quoted, often opaque', 'Flat $25–$45 PEPM, all-in'],
                 ['Tax compliance', 'Software handles filings', 'BEG team monitors + executes'],
                 ['Implementation time', '4–12 weeks', '2–4 weeks'],
-                ['Typical annual cost (50 employees)', '$12,000–$25,000+', '$15,000–$21,000'],
+                ['Typical annual cost (50 employees)', '$12,000–$25,000+', '$15,000–$27,000'],
                 ['Payroll errors your responsibility', 'Yes', 'No -- BEG takes responsibility'],
                 ['Works with existing system', 'Must use ADP platform', 'Yes -- or move to iSolved'],
               ].map(([factor, adp, beg], i) => (
@@ -189,12 +189,12 @@ export default function ManagedPayrollVsADPPage() {
             </thead>
             <tbody>
               {[
-                ['Base platform fee', '$12,000–$18,000/yr (quoted)', '$15,000–$21,000/yr (flat PEPM)'],
+                ['Base platform fee', '$12,000–$18,000/yr (quoted)', '$15,000–$27,000/yr (flat PEPM)'],
                 ['Year-end W-2 processing', '$200–$800 additional', 'Included'],
                 ['Off-cycle payroll runs', '$25–$75 per run', 'Included'],
                 ['Implementation / setup', '$500–$3,000 one-time', 'Included'],
                 ['Internal admin time (8 hrs/mo @ $40)', '$3,840/yr', '~$0'],
-                ['Total annual cost', '$16,000–$26,000+', '$15,000–$21,000'],
+                ['Total annual cost', '$16,000–$26,000+', '$15,000–$27,000'],
               ].map(([element, adp, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: i === 5 ? 700 : 400 }}>{element}</td>
@@ -206,7 +206,7 @@ export default function ManagedPayrollVsADPPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          ADP cost range based on market data for Workforce Now at 50 employees. Actual costs vary by contract and module selection. BEG pricing is $25–$35 PEPM flat, all-in.
+          ADP cost range based on market data for Workforce Now at 50 employees. Actual costs vary by contract and module selection. BEG pricing is $25–$45 PEPM flat, all-in.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>

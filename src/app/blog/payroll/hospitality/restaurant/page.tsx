@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for restaurant payroll?',
-    answer: 'BEG manages restaurant payroll at $25–$45 per employee per month, all-inclusive. For a 40-person restaurant, that is $1,000–$1,400 per month. Included: tip tracking and pooling, tipped minimum wage calculations, multi-state compliance, tax filing, W-2 production, and compliance updates when tip laws change. No per-run fees.',
+    answer: 'BEG manages restaurant payroll at $25–$45 per employee per month, all-inclusive. For a 40-person restaurant, that is $1,000–$1,800 per month. Included: tip tracking and pooling, tipped minimum wage calculations, multi-state compliance, tax filing, W-2 production, and compliance updates when tip laws change. No per-run fees.',
   },
 ];
 
@@ -126,10 +126,10 @@ export default function RestaurantPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['20 employees', '$500–$700', '$6,000–$8,400', 'Save $59K–$93K/yr'],
-                ['40 employees', '$1,000–$1,400', '$12,000–$16,800', 'Save $51K–$84K/yr'],
-                ['75 employees', '$1,875–$2,625', '$22,500–$31,500', 'Save $36K–$70K/yr'],
-                ['150 employees (multi-location)', '$3,750–$5,250', '$45,000–$63,000', 'Save $4K–$38K/yr'],
+                ['20 employees', '$500–$900', '$6,000–$10,800', 'Save $57K–$93K/yr'],
+                ['40 employees', '$1,000–$1,800', '$12,000–$21,600', 'Save $46K–$84K/yr'],
+                ['75 employees', '$1,875–$3,375', '$22,500–$40,500', 'Save $27K–$70K/yr'],
+                ['150 employees (multi-location)', '$3,750–$6,750', '$45,000–$81,000', 'Varies at scale'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>

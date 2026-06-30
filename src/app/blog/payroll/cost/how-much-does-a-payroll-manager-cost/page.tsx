@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How Much Does a Payroll Manager Actually Cost? (2026) | BEG',
-  description: 'The real cost of a payroll manager in 2026 goes far beyond salary. Breakdown of base pay, benefits, overhead, error risk, and total annual cost vs. managed payroll at $25-$35 PEPM.',
+  description: 'The real cost of a payroll manager in 2026 goes far beyond salary. Breakdown of base pay, benefits, overhead, error risk, and total annual cost vs. managed payroll at $25-$45 PEPM.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/cost/how-much-does-a-payroll-manager-cost' },
   openGraph: {
     title: 'How Much Does a Payroll Manager Actually Cost? (2026) | BEG',
-    description: 'Salary alone understates the true cost of a payroll manager by 40-60%. Here is the full breakdown -- base pay, benefits, error risk, replacement cost, and how it compares to $25-$35 PEPM managed payroll.',
+    description: 'Salary alone understates the true cost of a payroll manager by 40-60%. Here is the full breakdown -- base pay, benefits, error risk, replacement cost, and how it compares to $25-$45 PEPM managed payroll.',
     url: 'https://www.beghr.com/blog/payroll/cost/how-much-does-a-payroll-manager-cost',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'How Much Does a Payroll Manager Actually Cost? (2026) | BEG',
-    description: 'Salary alone understates the true cost of a payroll manager by 40-60%. Full breakdown vs. $25-$35 PEPM managed payroll.',
+    description: 'Salary alone understates the true cost of a payroll manager by 40-60%. Full breakdown vs. $25-$45 PEPM managed payroll.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'Is managed payroll cheaper than hiring a payroll manager?',
-    answer: 'For most companies with 20 to 250 employees, yes -- significantly. BEG managed payroll costs $25 to $35 per employee per month, all-inclusive. For a 50-person company, that is $15,000 to $21,000 per year. A payroll manager at that headcount typically costs $90,000 to $130,000 per year when total employer cost is included. The math is rarely close.',
+    answer: 'For most companies with 20 to 250 employees, yes -- significantly. BEG managed payroll costs $25 to $45 per employee per month, all-inclusive. For a 50-person company, that is $15,000 to $27,000 per year. A payroll manager at that headcount typically costs $90,000 to $130,000 per year when total employer cost is included. The math is rarely close.',
   },
   {
     question: 'What does a payroll manager actually do day-to-day?',
@@ -205,7 +205,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>What would it cost to outsource instead?</h3>
           <p style={{ marginBottom: '1.5rem' }}>
-            BEG managed payroll costs $25 to $35 per employee per month, all-inclusive. For a 50-person company, that is $1,250 to $1,750 per month -- roughly $15,000 to $21,000 per year. We will run the comparison for your actual headcount in 24 hours.
+            BEG managed payroll costs $25 to $45 per employee per month, all-inclusive. For a 50-person company, that is $1,250 to $2,250 per month -- roughly $15,000 to $27,000 per year. We will run the comparison for your actual headcount in 24 hours.
           </p>
           <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
             style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
@@ -229,10 +229,10 @@ export default function HowMuchDoesPayrollManagerCostPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees', '$90,000-$120,000/yr', '$7,500-$10,500/yr', '$80,000-$110,000'],
-                ['50 employees', '$111,000-$155,000/yr', '$15,000-$21,000/yr', '$90,000-$134,000'],
-                ['100 employees', '$115,000-$160,000/yr', '$30,000-$42,000/yr', '$73,000-$130,000'],
-                ['200 employees', '$130,000-$180,000/yr', '$60,000-$84,000/yr', '$46,000-$120,000'],
+                ['25 employees', '$90,000-$120,000/yr', '$7,500-$13,500/yr', '$77,000-$110,000'],
+                ['50 employees', '$111,000-$155,000/yr', '$15,000-$27,000/yr', '$84,000-$134,000'],
+                ['100 employees', '$115,000-$160,000/yr', '$30,000-$54,000/yr', '$61,000-$130,000'],
+                ['200 employees', '$130,000-$180,000/yr', '$60,000-$108,000/yr', '$22,000-$120,000'],
               ].map(([size, inhouse, managed, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: 600 }}>{size}</td>
@@ -245,7 +245,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          In-house true cost includes salary, all employer-side costs, software, errors, employee question time, and prorated replacement. BEG at $25-$35 PEPM all-inclusive.
+          In-house true cost includes salary, all employer-side costs, software, errors, employee question time, and prorated replacement. BEG at $25-$45 PEPM all-inclusive.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -268,7 +268,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
           What Managed Payroll Includes at BEG
         </h2>
         <p>
-          BEG managed payroll at $25 to $35 PEPM is all-inclusive. There are no add-on fees for:
+          BEG managed payroll at $25 to $45 PEPM is all-inclusive. There are no add-on fees for:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li>Federal and state tax filings (quarterly 941s, FUTA, state unemployment)</li>
@@ -283,7 +283,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
           Your rate is also locked for 24 months from onboarding. No mid-year increases. One flat invoice per month.
         </p>
         <p>
-          You can also stay on your existing payroll platform. BEG operates inside your current system at $25 PEPM, or moves you to iSolved at $35 PEPM if you want to consolidate.
+          You can also stay on your existing payroll platform. BEG operates inside your current system at $25 PEPM, or moves you to iSolved at $45 PEPM if you want to consolidate.
         </p>
         <p>
           For more on how BEG manages payroll alongside existing software, see <a href="/blog/compare/managed-payroll-vs-adp" style={{ color: '#9a6b1f', fontWeight: 600 }}>ADP vs. Managed Payroll</a> and <a href="/blog/compare/managed-payroll-vs-gusto" style={{ color: '#9a6b1f', fontWeight: 600 }}>Gusto vs. Managed Payroll</a>.
@@ -329,7 +329,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'How Much Does a Payroll Manager Actually Cost? (2026)',
-            description: 'Complete breakdown of the true annual cost of a payroll manager, including salary, benefits, error risk, replacement cost, and comparison vs. BEG managed payroll at $25-$35 PEPM.',
+            description: 'Complete breakdown of the true annual cost of a payroll manager, including salary, benefits, error risk, replacement cost, and comparison vs. BEG managed payroll at $25-$45 PEPM.',
             datePublished: '2026-06-29',
             dateModified: '2026-06-29',
             author: {

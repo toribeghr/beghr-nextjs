@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a 120-person hotel?',
-    answer: 'At 120 employees, BEG managed payroll runs approximately $3,000–$4,200 per month ($25–$45 PEPM), all-inclusive. That covers tipped employee tracking, tip pool administration support, split-shift premium calculations, seasonal surge onboarding, year-end W-2s, and HR support. A loaded in-house HR Manager for a hotel property costs $73,000–$110,000 annually. Most 120-person hotel properties save $36,000–$73,000 per year by outsourcing to BEG.',
+    answer: 'At 120 employees, BEG managed payroll runs approximately $3,000–$5,400 per month ($25–$45 PEPM), all-inclusive. That covers tipped employee tracking, tip pool administration support, split-shift premium calculations, seasonal surge onboarding, year-end W-2s, and HR support. A loaded in-house HR Manager for a hotel property costs $73,000–$110,000 annually. Most 120-person hotel properties save $36,000–$73,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -133,10 +133,10 @@ export default function HotelsResortsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['40 employees', '$1,000 – $1,400', '$12,000 – $16,800', '$60,100 – $101,500'],
-                ['80 employees', '$2,000 – $2,800', '$24,000 – $33,600', '$43,300 – $84,700'],
-                ['150 employees', '$3,750 – $5,250', '$45,000 – $63,000', '$13,900 – $55,300'],
-                ['300 employees', '$7,500 – $10,500', '$90,000 – $126,000', 'Assess multi-property model'],
+                ['40 employees', '$1,000 – $1,800', '$12,000 – $21,600', '$55,300 – $101,500'],
+                ['80 employees', '$2,000 – $3,600', '$24,000 – $43,200', '$33,700 – $84,700'],
+                ['150 employees', '$3,750 – $6,750', '$45,000 – $81,000', 'Varies at scale'],
+                ['300 employees', '$7,500 – $13,500', '$90,000 – $162,000', 'Assess multi-property model'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>

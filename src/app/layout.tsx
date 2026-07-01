@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SocialFollow from '@/components/SocialFollow';
 import ConsentBanner from '@/components/ConsentBanner';
+import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -132,27 +133,27 @@ try{if(document.cookie.indexOf('beg_consent=granted')>-1){gtag('consent','update
           }}
         />
 
-        {/* Meta Pixel (consent revoked by default; granted only after the visitor accepts) */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('consent','revoke');fbq('init','986930567552609');fbq('track','PageView');try{if(document.cookie.indexOf('beg_consent=granted')>-1){fbq('consent','grant');}}catch(e){}`,
-          }}
-        />
+        {/* Meta Pixel — deferred to lazyOnload so fbevents.js does not run on the main
+            thread during load (cuts Total Blocking Time). Consent defaults to denied above;
+            the pixel reads the beg_consent cookie on init, so consent is preserved. */}
+        <Script id="meta-pixel" strategy="lazyOnload">
+          {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('consent','revoke');fbq('init','986930567552609');fbq('track','PageView');try{if(document.cookie.indexOf('beg_consent=granted')>-1){fbq('consent','grant');}}catch(e){}`}
+        </Script>
         <noscript>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img height="1" width="1" style={{ display: 'none' }} src="https://www.facebook.com/tr?id=986930567552609&ev=PageView&noscript=1" alt="" />
         </noscript>
 
-        {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        {/* Google Tag Manager — afterInteractive moves container execution off the critical
+            render path while keeping analytics reliable. Consent defaults above run first;
+            book_call_click / generate_lead events queue in dataLayer and are picked up on load. */}
+        <Script id="gtm" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MVSLWC2S');`,
-          }}
-        />
+})(window,document,'script','dataLayer','GTM-MVSLWC2S');`}
+        </Script>
       </head>
       <body>
         {/* Google Tag Manager (noscript) */}

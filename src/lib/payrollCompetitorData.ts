@@ -51,7 +51,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'ADP',
     shortName: 'ADP',
     primaryKeyword: 'alternatives to ADP',
-    titleTag: 'ADP Alternative | $25-$45 PEPM Managed Payroll | BEG',
+    titleTag: 'ADP Alternative | Instant Quote, $25-$45 PEPM | BEG',
     metaDescription:
       'Switching from ADP? BEG runs fully managed payroll at $25-$45 PEPM, all-inclusive. No hidden fees, no per-run charges. Works in your existing system. Book a free scope review.',
     headline: 'Paying ADP $150+ per employee per month and still doing the work yourself?',
@@ -131,7 +131,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'Gusto',
     shortName: 'Gusto',
     primaryKeyword: 'alternatives to Gusto',
-    titleTag: 'Gusto Alternative | Fully Managed Payroll $25-$45 PEPM | BEG',
+    titleTag: 'Gusto Alternative | Instant Managed Payroll Quote | BEG',
     metaDescription:
       'Gusto does payroll software. BEG does payroll for you. Fully managed at $25-$45 PEPM all-inclusive. No login, no manual steps. Works in your existing system.',
     headline: 'Gusto processes your payroll. You still have to run it.',
@@ -211,7 +211,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'Paychex',
     shortName: 'Paychex',
     primaryKeyword: 'alternatives to Paychex',
-    titleTag: 'Paychex Alternative | Fully Managed Payroll $25-$45 PEPM | BEG',
+    titleTag: 'Paychex Alternative | Instant Managed Payroll Quote | BEG',
     metaDescription:
       'Switching from Paychex? BEG delivers fully managed payroll at $25-$45 PEPM with one dedicated specialist, no per-run fees, and zero migration required.',
     headline: 'Paychex charges per run, per filing, per feature -- and still leaves the work to you.',
@@ -291,7 +291,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'Deel',
     shortName: 'Deel',
     primaryKeyword: 'Deel alternative for US payroll',
-    titleTag: 'Deel Alternative for US Payroll | $25-$45 PEPM | BEG',
+    titleTag: 'Deel Alternative for US Payroll | Instant Quote | BEG',
     metaDescription:
       'Deel is built for global payroll complexity. If your team is US-based, BEG delivers fully managed domestic payroll at $25-$45 PEPM. No migration. No global overhead.',
     headline: 'Deel is built for global complexity your US-based team does not need.',
@@ -367,7 +367,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'Rippling',
     shortName: 'Rippling',
     primaryKeyword: 'Rippling alternative',
-    titleTag: 'Rippling Alternative | Managed Payroll $25-$45 PEPM | BEG',
+    titleTag: 'Rippling Alternative | Instant Managed Payroll Quote | BEG',
     metaDescription:
       'Rippling is a software platform. BEG is a fully managed payroll service. $25-$45 PEPM all-inclusive. Works in your existing system. No migration needed.',
     headline: 'Rippling automates payroll software. BEG eliminates payroll work entirely.',
@@ -443,7 +443,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     name: 'TriNet',
     shortName: 'TriNet',
     primaryKeyword: 'TriNet alternative',
-    titleTag: 'TriNet Alternative | Managed Payroll Without a PEO | BEG',
+    titleTag: 'TriNet Alternative | Instant Quote, No PEO | BEG',
     metaDescription:
       'TriNet charges $125-$200 PEPM and co-employs your staff. BEG delivers fully managed payroll at $25-$45 PEPM with no PEO, no co-employment, and full employer control.',
     headline: 'TriNet costs $125-$200 per employee per month and makes itself your co-employer.',

@@ -6,20 +6,20 @@ import { getCalendlyLink } from '@/lib/services';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
+  title: 'isolved HCM Software | Instant Price Quote + Claude AI | BEG',
   description: 'BEG is an authorized isolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
   alternates: {
     canonical: 'https://www.beghr.com/services/hcm-software',
   },
   openGraph: {
-    title: 'isolved HCM | Only Platform With Claude AI. 330% ROI. | BEG',
+    title: 'isolved HCM Software | Instant Price Quote + Claude AI | BEG',
     description: 'BEG is an authorized isolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.',
     url: 'https://www.beghr.com/services/hcm-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM | Only Platform With Claude AI. 330% ROI. | BEG', description: 'BEG is an authorized isolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM Software | Instant Price Quote + Claude AI | BEG', description: 'BEG is an authorized isolved reseller. Get payroll, HR, time, benefits, and the Connector for Claude on one platform. 330% documented ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

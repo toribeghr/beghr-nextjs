@@ -6,20 +6,20 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll Services | $25-$45 PEPM All-Inclusive | BEG',
+  title: 'Managed Payroll Services | Instant Quote, $25-$45 PEPM | BEG',
   description: 'Fully managed payroll at $25-$45 PEPM all-inclusive. Taxes, filings, W-2s, compliance handled. Works in your existing system. No migration. All 50 states.',
   alternates: {
     canonical: 'https://www.beghr.com/services/managed-payroll',
   },
   openGraph: {
-    title: 'Managed Payroll Services | $25-$45 PEPM All-Inclusive | BEG',
+    title: 'Managed Payroll Services | Instant Quote, $25-$45 PEPM | BEG',
     description: 'Fully managed payroll at $25-$45 PEPM all-inclusive. Taxes, filings, W-2s, compliance handled. Works in your existing system. No migration. All 50 states.',
     url: 'https://www.beghr.com/services/managed-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll Services | $25-$45 PEPM All-Inclusive | BEG', description: 'Fully managed payroll at $25-$45 PEPM all-inclusive. Taxes, filings, W-2s, compliance handled. Works in your existing system. No migration. All 50 states.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Services | Instant Quote, $25-$45 PEPM | BEG', description: 'Fully managed payroll at $25-$45 PEPM all-inclusive. Taxes, filings, W-2s, compliance handled. Works in your existing system. No migration. All 50 states.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

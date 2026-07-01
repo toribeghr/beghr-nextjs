@@ -5,9 +5,10 @@ import { useEffect, useState } from 'react';
 const GOLD = '#ECAC60';
 
 /**
- * Lightweight cookie-consent banner wired to Google Consent Mode v2 and the Meta Pixel.
- * Tracking defaults to DENIED (set in layout.tsx) and is only granted after the visitor
- * accepts here. The choice is stored in the beg_consent cookie for one year.
+ * Lightweight cookie-consent banner wired to Google Consent Mode v2. Tracking defaults to
+ * DENIED (set in layout.tsx) and is only granted after the visitor accepts here. The choice
+ * is stored in the beg_consent cookie for one year. No Meta or LinkedIn pixels are loaded;
+ * only Google Analytics (via GTM) runs, and only under granted consent.
  */
 export default function ConsentBanner() {
   const [show, setShow] = useState(false);
@@ -26,7 +27,6 @@ export default function ConsentBanner() {
         'beg_consent=' + (granted ? 'granted' : 'denied') + ';path=/;max-age=31536000;SameSite=Lax';
       const w = window as unknown as {
         gtag?: (...args: unknown[]) => void;
-        fbq?: (...args: unknown[]) => void;
         dataLayer?: Record<string, unknown>[];
       };
       const state = granted ? 'granted' : 'denied';
@@ -38,7 +38,6 @@ export default function ConsentBanner() {
           analytics_storage: state,
         });
       }
-      if (typeof w.fbq === 'function') w.fbq('consent', granted ? 'grant' : 'revoke');
       w.dataLayer = w.dataLayer || [];
       w.dataLayer.push({ event: granted ? 'consent_granted' : 'consent_denied' });
     } catch {

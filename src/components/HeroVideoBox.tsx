@@ -46,9 +46,21 @@ export default function HeroVideoBox({ videoId, title }: HeroVideoBoxProps) {
             border: 0,
             padding: 0,
             cursor: 'pointer',
-            background: `#0b0b0b url(${thumb}) center / cover no-repeat`,
+            background: '#0b0b0b',
           }}
         >
+          {/* Real <img> (not a CSS background) so the browser can preload and
+              prioritize it — this is the LCP element on hero pages. */}
+          <img
+            src={thumb}
+            alt=""
+            width={1280}
+            height={720}
+            fetchPriority="high"
+            loading="eager"
+            decoding="async"
+            style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+          />
           <span style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.18)' }} />
           <span
             style={{

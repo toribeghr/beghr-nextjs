@@ -9,7 +9,7 @@ interface HeroVideoBoxProps {
 
 export default function HeroVideoBox({ videoId, title }: HeroVideoBoxProps) {
   const [play, setPlay] = useState(false);
-  const thumb = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
+  const thumb = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 
   return (
     <div

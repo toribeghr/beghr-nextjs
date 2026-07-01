@@ -1,6 +1,19 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import HeroImageBox from '@/components/HeroImageBox';
+import HeroVideoBox from '@/components/HeroVideoBox';
+
+const heroVideoCss = `
+.hero-video-split{display:flex;flex-direction:column;gap:6px}
+.hero-video-split .hv-video{margin:10px 0 22px}
+@media(min-width:900px){
+.hero-video-split{display:grid;grid-template-columns:1.05fr .95fr;column-gap:48px;align-items:center;grid-template-areas:"a v" "b v" "c v" "d v"}
+.hero-video-split .hv-eyebrow{grid-area:a;align-self:end;margin:0}
+.hero-video-split .hv-title{grid-area:b;margin:0}
+.hero-video-split .hv-lede{grid-area:c;margin:14px 0 0}
+.hero-video-split .hv-cta{grid-area:d;align-self:start;margin-top:24px}
+.hero-video-split .hv-video{grid-area:v;align-self:center;margin:0}
+}
+`;
 
 export const metadata: Metadata = {
   title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG',
@@ -27,20 +40,35 @@ export default function Home() {
       {/* HERO */}
       <section className="hero">
         <div className="container">
-          <div className="hero-split">
-            <div className="hero-split-text">
-              <p className="eyebrow">Business Executive Group</p>
-              <h1>The people side of your business is costing you more than it should.</h1>
-              <p className="lede" style={{ margin: '18px 0 28px' }}>
-                Payroll eating hours every cycle. HR software nobody logs into. A key role sitting open for three months. BEG solves all three: fully managed payroll, iSolved HCM software with BEG support, and specialized job placement in 23-35 days.
-              </p>
-              <div className="hero-cta">
-                <a className="btn btn--gold" href={CALENDLY} target="_blank" rel="noopener noreferrer">
-                  Book a Discovery Call
-                </a>
-              </div>
+          <style dangerouslySetInnerHTML={{ __html: heroVideoCss }} />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'VideoObject',
+                name: 'Managed Payroll, HCM Software and Job Placement, Done For You',
+                description:
+                  'BEG delivers fully managed payroll, iSolved HCM software with BEG support, and specialized job placement, remote and nationwide.',
+                thumbnailUrl: 'https://i.ytimg.com/vi/G4R14pQT3y8/maxresdefault.jpg',
+                uploadDate: '2026-06-30',
+                embedUrl: 'https://www.youtube.com/embed/G4R14pQT3y8',
+                contentUrl: 'https://www.youtube.com/watch?v=G4R14pQT3y8',
+              }),
+            }}
+          />
+          <div className="hero-video-split">
+            <p className="eyebrow hv-eyebrow">Business Executive Group</p>
+            <h1 className="hv-title">The people side of your business is costing you more than it should.</h1>
+            <p className="lede hv-lede" style={{ margin: '18px 0 0' }}>
+              Payroll eating hours every cycle. HR software nobody logs into. A key role sitting open for three months. BEG solves all three: fully managed payroll, iSolved HCM software with BEG support, and specialized job placement in 23-35 days.
+            </p>
+            <HeroVideoBox videoId="G4R14pQT3y8" title="Business Executive Group" />
+            <div className="hero-cta hv-cta">
+              <a className="btn btn--gold" href={CALENDLY} target="_blank" rel="noopener noreferrer">
+                Book a Discovery Call
+              </a>
             </div>
-            <HeroImageBox src="/assets/hero-images/home.webp" alt="Business Executive Group" />
           </div>
           <div className="trust-row">
             <div><b>1,500+</b><small>Entrepreneur members</small></div>

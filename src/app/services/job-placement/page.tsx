@@ -28,8 +28,8 @@ const CALENDLY = getCalendlyLink('job-placement');
 export default function JobPlacementPage() {
   return (
     <ServicePage
-      imageSrc="/assets/hero-images/job-placement.webp"
-      showHeroImage={true}
+      heroVideoId="czwEhoqLz7g"
+      showHeroImage={false}
       eyebrow="Job Placement Services"
       title="That role has been open too long. Let us fix that."
       description="Every week a specialized seat sits empty, your team absorbs the cost. Lost output, overloaded colleagues, work going to the wrong desk. We place attorneys, clinicians, engineers, and finance professionals in 23-35 days at roughly 50% less than contingency firms."

@@ -28,8 +28,8 @@ const CALENDLY = getCalendlyLink('hcm-software');
 export default function HCMSoftwarePage() {
   return (
     <ServicePage
-      imageSrc="/assets/hero-images/hcm-software.webp"
-      showHeroImage={true}
+      heroVideoId="WYjvPp7ktJ0"
+      showHeroImage={false}
       eyebrow="HCM Software · Authorized isolved Partner"
       title="You bought HR software to make life easier. Why is it creating more work?"
       description="Most HR platforms require constant manual intervention, expensive add-on modules, and a support ticket every time something breaks. isolved People Cloud puts payroll, HR, time, and benefits on one platform. BEG implements it, configures it for your industry, and supports you year-round."

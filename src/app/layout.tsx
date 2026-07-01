@@ -4,7 +4,13 @@ import Footer from '@/components/Footer';
 import SocialFollow from '@/components/SocialFollow';
 import ConsentBanner from '@/components/ConsentBanner';
 import Script from 'next/script';
+import { Fraunces, Inter } from 'next/font/google';
 import './globals.css';
+
+// Self-hosted at build time via next/font — removes the render-blocking request to
+// fonts.googleapis.com and the two font-file round trips on fonts.gstatic.com.
+const fraunces = Fraunces({ subsets: ['latin'], weight: ['500', '600'], display: 'swap', variable: '--font-fraunces' });
+const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '700'], display: 'swap', variable: '--font-inter' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.beghr.com'),
@@ -45,13 +51,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Fonts are self-hosted via next/font (fraunces + inter above) — no external font request. */}
         {/* Hero video thumbnail host — open the connection early to speed LCP. */}
         <link rel="preconnect" href="https://i.ytimg.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
         {/* Organization + LocalBusiness Schema Markup for SEO */}
         <script

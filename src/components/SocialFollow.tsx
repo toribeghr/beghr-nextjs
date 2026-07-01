@@ -7,7 +7,7 @@ export default function SocialFollow() {
         <div className="social-follow-row">
           <a
             className="social-follow-btn"
-            href="https://www.linkedin.com/company/thebeghr/"
+            href="https://www.linkedin.com/company/joinbeghr/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on LinkedIn"
@@ -19,7 +19,7 @@ export default function SocialFollow() {
           </a>
           <a
             className="social-follow-btn"
-            href="https://facebook.com/thebeghr"
+            href="https://facebook.com/joinbeghr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on Facebook"
@@ -31,7 +31,7 @@ export default function SocialFollow() {
           </a>
           <a
             className="social-follow-btn"
-            href="https://instagram.com/thebeghr"
+            href="https://instagram.com/joinbeghr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on Instagram"
@@ -43,7 +43,7 @@ export default function SocialFollow() {
           </a>
           <a
             className="social-follow-btn"
-            href="https://youtube.com/@thebeghr"
+            href="https://youtube.com/@joinbeghr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on YouTube"
@@ -55,7 +55,7 @@ export default function SocialFollow() {
           </a>
           <a
             className="social-follow-btn"
-            href="https://x.com/thebeghr"
+            href="https://x.com/joinbeghr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Follow BEG on X"

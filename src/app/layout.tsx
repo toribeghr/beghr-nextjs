@@ -96,11 +96,11 @@ export default function RootLayout({
                 availableLanguage: 'English',
               },
               sameAs: [
-                'https://www.linkedin.com/company/thebeghr/',
-                'https://facebook.com/thebeghr',
-                'https://instagram.com/thebeghr',
-                'https://youtube.com/@thebeghr',
-                'https://x.com/thebeghr',
+                'https://www.linkedin.com/company/joinbeghr/',
+                'https://facebook.com/joinbeghr',
+                'https://instagram.com/joinbeghr',
+                'https://youtube.com/@joinbeghr',
+                'https://x.com/joinbeghr',
               ],
             }),
           }}

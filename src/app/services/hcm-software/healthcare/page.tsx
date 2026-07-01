@@ -5,7 +5,7 @@ import { getCalendlyLink } from '@/lib/services';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Healthcare | Clinical HR & Payroll Platform | BEG',
+  title: 'isolved HCM for Healthcare | Instant Price Quote | BEG',
   description: 'isolved HCM for healthcare. Shift scheduling, compliance tracking, and clinical staff management on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/healthcare' },
 };

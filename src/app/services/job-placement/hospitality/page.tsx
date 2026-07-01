@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Hospitality Placement | GMs, F&B & Chefs | BEG',
+  title: 'Hospitality Placement | Instant Fee Quote | BEG',
   description: 'Fill GM, F&B director, and executive chef roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/hospitality' },
-  openGraph: { title: 'Hospitality Placement | GMs, F&B & Chefs | BEG', description: 'Fill GM, F&B director, and executive chef roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/hospitality', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Hospitality Placement | GMs, F&B & Chefs | BEG', description: 'Fill GM, F&B director, and executive chef roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Hospitality Placement | Instant Fee Quote | BEG', description: 'Fill GM, F&B director, and executive chef roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/hospitality', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Hospitality Placement | Instant Fee Quote | BEG', description: 'Fill GM, F&B director, and executive chef roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-hospitality');

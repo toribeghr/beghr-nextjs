@@ -3,18 +3,18 @@ import Link from 'next/link';
 import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
-  title: 'COBRA Administration Software | BEG',
+  title: 'COBRA Administration Software | Instant Quote | BEG',
   description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/cobra-administration-software' },
   openGraph: {
-    title: 'COBRA Administration Software | BEG',
+    title: 'COBRA Administration Software | Instant Quote | BEG',
     description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/cobra-administration-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'COBRA Administration Software | BEG', description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'COBRA Administration Software | Instant Quote | BEG', description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

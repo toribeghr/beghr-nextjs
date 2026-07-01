@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'BEG vs a Traditional Search Firm | BEG',
+  title: 'BEG vs Traditional Search Firm | Instant Fee Quote | BEG',
   description: 'BEG vs a traditional search firm compared on fee model, cost, speed, and risk. See where milestone-based placement saves roughly 50% on permanent hires.',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/beg-vs-traditional-search-firm' },
   openGraph: {
-    title: 'BEG vs a Traditional Search Firm | BEG',
+    title: 'BEG vs Traditional Search Firm | Instant Fee Quote | BEG',
     description: 'BEG vs a traditional search firm compared on fee model, cost, speed, and risk. See where milestone-based placement saves roughly 50% on permanent hires.',
     url: 'https://www.beghr.com/blog/compare/beg-vs-traditional-search-firm',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG vs a Traditional Search Firm | BEG', description: 'BEG vs a traditional search firm compared on fee model, cost, speed, and risk. See where milestone-based placement saves roughly 50% on permanent hires.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG vs Traditional Search Firm | Instant Fee Quote | BEG', description: 'BEG vs a traditional search firm compared on fee model, cost, speed, and risk. See where milestone-based placement saves roughly 50% on permanent hires.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/compare/beg-vs-traditional-search-firm');

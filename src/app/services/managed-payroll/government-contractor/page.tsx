@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Government Contractor Payroll | Certified Payroll. Davis-Bacon. | BEG',
+  title: 'Government Contractor Payroll | Instant Quote | BEG',
   description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/government-contractor' },
   openGraph: {
-    title: 'Government Contractor Payroll | Certified Payroll. Davis-Bacon. | BEG',
+    title: 'Government Contractor Payroll | Instant Quote | BEG',
     description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.',
     url: 'https://www.beghr.com/services/managed-payroll/government-contractor',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Government Contractor Payroll | Certified Payroll. Davis-Bacon. | BEG', description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Government Contractor Payroll | Instant Quote | BEG', description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('government-contractor-payroll');

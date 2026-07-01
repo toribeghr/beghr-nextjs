@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved vs Dayforce | One Platform + Claude AI | BEG',
+  title: 'isolved vs Dayforce | Instant Price Quote + AI | BEG',
   description: 'isolved vs Dayforce compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large enterprises.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-dayforce' },
   openGraph: {
-    title: 'isolved vs Dayforce | One Platform + Claude AI | BEG',
+    title: 'isolved vs Dayforce | Instant Price Quote + AI | BEG',
     description: 'isolved vs Dayforce compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large enterprises.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-dayforce',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs Dayforce | One Platform + Claude AI | BEG', description: 'isolved vs Dayforce compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large enterprises.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Dayforce | Instant Price Quote + AI | BEG', description: 'isolved vs Dayforce compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large enterprises.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

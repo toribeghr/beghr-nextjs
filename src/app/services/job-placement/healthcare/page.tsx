@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Healthcare Job Placement | Clinical & Nursing Recruiting | BEG',
+  title: 'Healthcare Placement | Instant Fee Quote | BEG',
   description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/healthcare' },
-  openGraph: { title: 'Healthcare Job Placement | Clinical & Nursing Recruiting | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/healthcare', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Job Placement | Clinical & Nursing Recruiting | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Healthcare Placement | Instant Fee Quote | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/healthcare', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Placement | Instant Fee Quote | BEG', description: 'Fill nursing and clinical roles before burnout sets in. Specialized healthcare recruiting with milestone billing and a 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-healthcare');

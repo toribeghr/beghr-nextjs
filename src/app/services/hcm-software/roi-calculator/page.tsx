@@ -4,18 +4,18 @@ import HCMROICalculator from '@/components/HCMROICalculator';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM ROI Calculator | See Your Savings | BEG',
+  title: 'isolved HCM ROI Calculator | Instant Price Quote | BEG',
   description: 'Calculate the ROI of moving to one connected HCM platform. Estimate admin hours reclaimed, error costs avoided, and annual value vs. juggling separate HR and payroll systems.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/roi-calculator' },
   openGraph: {
-    title: 'isolved HCM ROI Calculator | See Your Savings | BEG',
+    title: 'isolved HCM ROI Calculator | Instant Price Quote | BEG',
     description: 'Estimate the ROI of consolidating onto one HCM platform: admin hours reclaimed, errors avoided, and annual value. Forrester documented 330% ROI for isolved clients.',
     url: 'https://www.beghr.com/services/hcm-software/roi-calculator',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM ROI Calculator | See Your Savings | BEG', description: 'Estimate the ROI of consolidating onto one HCM platform. Forrester documented 330% ROI for isolved clients.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM ROI Calculator | Instant Price Quote | BEG', description: 'Estimate the ROI of consolidating onto one HCM platform. Forrester documented 330% ROI for isolved clients.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

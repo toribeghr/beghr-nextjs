@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved Reviews: Strengths & Considerations | BEG',
+  title: 'isolved Reviews | Instant Price Quote | BEG',
   description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through implementation.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-reviews' },
   openGraph: {
-    title: 'isolved Reviews: Strengths & Considerations | BEG',
+    title: 'isolved Reviews | Instant Price Quote | BEG',
     description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through implementation.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-reviews',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Reviews: Strengths & Considerations | BEG', description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through implementation.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Reviews | Instant Price Quote | BEG', description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through implementation.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

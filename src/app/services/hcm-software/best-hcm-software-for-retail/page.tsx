@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best HCM Software for Retail 2026 | BEG',
+  title: 'Best HCM Software for Retail | Instant Price Quote | BEG',
   description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why isolved plus BEG is a strong pick.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-retail' },
   openGraph: {
-    title: 'Best HCM Software for Retail 2026 | BEG',
+    title: 'Best HCM Software for Retail | Instant Price Quote | BEG',
     description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why isolved plus BEG is a strong pick.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-retail',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Retail 2026 | BEG', description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why isolved plus BEG is a strong pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Retail | Instant Price Quote | BEG', description: 'What to look for in retail HCM software in 2026, the hourly, seasonal, and multi-store challenges retailers face, and why isolved plus BEG is a strong pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved vs Paychex | One Platform + Claude AI | BEG',
+  title: 'isolved vs Paychex | Instant Price Quote + AI | BEG',
   description: 'isolved vs Paychex compared across platform, pricing and add-ons, implementation, support, and AI. See which HCM fits a modern mid-market company best.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-paychex' },
   openGraph: {
-    title: 'isolved vs Paychex | One Platform + Claude AI | BEG',
+    title: 'isolved vs Paychex | Instant Price Quote + AI | BEG',
     description: 'isolved vs Paychex compared across platform, pricing and add-ons, implementation, support, and AI. See which HCM fits a modern mid-market company best.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-paychex',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs Paychex | One Platform + Claude AI | BEG', description: 'isolved vs Paychex compared across platform, pricing and add-ons, implementation, support, and AI. See which HCM fits a modern mid-market company best.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Paychex | Instant Price Quote + AI | BEG', description: 'isolved vs Paychex compared across platform, pricing and add-ons, implementation, support, and AI. See which HCM fits a modern mid-market company best.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

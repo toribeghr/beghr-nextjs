@@ -5,7 +5,7 @@ import { getCalendlyLink } from '@/lib/services';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Finance Firms | Bonus & Payroll Platform | BEG',
+  title: 'isolved HCM for Finance Firms | Instant Price Quote | BEG',
   description: 'isolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/finance' },
 };

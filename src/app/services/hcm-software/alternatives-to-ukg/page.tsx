@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best UKG Alternative | isolved + Claude AI | BEG',
+  title: 'UKG Alternative | Instant Price Quote + Claude AI | BEG',
   description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including isolved, managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-ukg' },
   openGraph: {
-    title: 'Best UKG Alternative | isolved + Claude AI | BEG',
+    title: 'UKG Alternative | Instant Price Quote + Claude AI | BEG',
     description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including isolved, managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-ukg',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best UKG Alternative | isolved + Claude AI | BEG', description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including isolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'UKG Alternative | Instant Price Quote + Claude AI | BEG', description: 'Find UKG too complex and enterprise-priced for the mid-market? See the top UKG alternatives for 50-500 employees, including isolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best Rippling Alternative | isolved + Claude AI | BEG',
+  title: 'Rippling Alternative | Instant Price Quote + AI | BEG',
   description: 'Looking for a Rippling alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-rippling' },
   openGraph: {
-    title: 'Best Rippling Alternative | isolved + Claude AI | BEG',
+    title: 'Rippling Alternative | Instant Price Quote + AI | BEG',
     description: 'Looking for a Rippling alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-rippling',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best Rippling Alternative | isolved + Claude AI | BEG', description: 'Looking for a Rippling alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Rippling Alternative | Instant Price Quote + AI | BEG', description: 'Looking for a Rippling alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Simpler HR-first platform, Claude AI, and 330% ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

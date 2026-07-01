@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'BEG vs Michael Page: Permanent Placement Compared | BEG',
+  title: 'BEG vs Michael Page | Instant Fee Quote | BEG',
   description: 'BEG vs Michael Page on permanent professional placement: fee model, cost, and speed compared. See where milestone-based placement saves roughly 50%.',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/beg-vs-michael-page' },
   openGraph: {
-    title: 'BEG vs Michael Page: Permanent Placement Compared | BEG',
+    title: 'BEG vs Michael Page | Instant Fee Quote | BEG',
     description: 'BEG vs Michael Page on permanent professional placement: fee model, cost, and speed compared. See where milestone-based placement saves roughly 50%.',
     url: 'https://www.beghr.com/blog/compare/beg-vs-michael-page',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG vs Michael Page: Permanent Placement Compared | BEG', description: 'BEG vs Michael Page on permanent placement compared fairly.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG vs Michael Page | Instant Fee Quote | BEG', description: 'BEG vs Michael Page on permanent placement compared fairly.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('blog-compare-beg-vs-michael-page');

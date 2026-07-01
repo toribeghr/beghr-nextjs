@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG',
+  title: 'Skilled Trades Placement | Instant Fee Quote | BEG',
   description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/trades' },
-  openGraph: { title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', url: 'https://www.beghr.com/services/job-placement/trades', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Skilled Trades Job Placement | Manufacturing Recruiting | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Skilled Trades Placement | Instant Fee Quote | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', url: 'https://www.beghr.com/services/job-placement/trades', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Skilled Trades Placement | Instant Fee Quote | BEG', description: 'Place skilled tradespeople and production staff before your line slows. Milestone billing, 45-day guarantee. Trades and manufacturing recruiting.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-trades');

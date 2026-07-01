@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best Paycom Alternative | isolved Has Claude AI | BEG',
+  title: 'Paycom Alternative | Instant Price Quote + AI | BEG',
   description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including isolved, a single connected platform managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-paycom' },
   openGraph: {
-    title: 'Best Paycom Alternative | isolved Has Claude AI | BEG',
+    title: 'Paycom Alternative | Instant Price Quote + AI | BEG',
     description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including isolved, a single connected platform managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-paycom',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best Paycom Alternative | isolved Has Claude AI | BEG', description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including isolved, a single connected platform managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Paycom Alternative | Instant Price Quote + AI | BEG', description: 'Looking for a Paycom alternative? See the top options for companies with 50-500 employees, including isolved, a single connected platform managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved Pricing Explained | BEG',
+  title: 'isolved Pricing | Instant Price Quote | BEG',
   description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-pricing' },
   openGraph: {
-    title: 'isolved Pricing Explained | BEG',
+    title: 'isolved Pricing | Instant Price Quote | BEG',
     description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-pricing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Pricing Explained | BEG', description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Pricing | Instant Price Quote | BEG', description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

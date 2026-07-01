@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for a 500-Employee Company | BEG',
+  title: 'HCM Software for 500 Employees | Instant Quote | BEG',
   description: 'HCM software for a 500-employee company. Run payroll, HR, time, and benefits on one connected isolved platform with BEG-managed implementation and support.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/hcm-software-for-500-employees' },
   openGraph: {
-    title: 'HCM Software for a 500-Employee Company | BEG',
+    title: 'HCM Software for 500 Employees | Instant Quote | BEG',
     description: 'HCM software for a 500-employee company. Run payroll, HR, time, and benefits on one connected isolved platform with BEG-managed implementation and support.',
     url: 'https://www.beghr.com/services/hcm-software/hcm-software-for-500-employees',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for a 500-Employee Company | BEG', description: 'HCM software for a 500-employee company. Run payroll, HR, time, and benefits on one connected isolved platform with BEG-managed implementation and support.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for 500 Employees | Instant Quote | BEG', description: 'HCM software for a 500-employee company. Run payroll, HR, time, and benefits on one connected isolved platform with BEG-managed implementation and support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

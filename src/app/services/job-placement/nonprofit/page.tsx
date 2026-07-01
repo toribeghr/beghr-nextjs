@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Nonprofit Placement | Directors & Fundraisers | BEG',
+  title: 'Nonprofit Placement | Instant Fee Quote | BEG',
   description: 'Fill executive director, development, and program roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/nonprofit' },
-  openGraph: { title: 'Nonprofit Placement | Directors & Fundraisers | BEG', description: 'Fill executive director, development, and program roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/nonprofit', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Nonprofit Placement | Directors & Fundraisers | BEG', description: 'Fill executive director, development, and program roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Nonprofit Placement | Instant Fee Quote | BEG', description: 'Fill executive director, development, and program roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/nonprofit', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Placement | Instant Fee Quote | BEG', description: 'Fill executive director, development, and program roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-nonprofit');

@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best TriNet Alternative | isolved + Claude AI | BEG',
+  title: 'TriNet Alternative | Instant Price Quote + Claude AI | BEG',
   description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including isolved, a connected platform managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-trinet' },
   openGraph: {
-    title: 'Best TriNet Alternative | isolved + Claude AI | BEG',
+    title: 'TriNet Alternative | Instant Price Quote + Claude AI | BEG',
     description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including isolved, a connected platform managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-trinet',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best TriNet Alternative | isolved + Claude AI | BEG', description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including isolved, a connected platform managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'TriNet Alternative | Instant Price Quote + Claude AI | BEG', description: 'Want more control than a PEO like TriNet gives? See the top TriNet alternatives for 50-500 employees, including isolved, a connected platform managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

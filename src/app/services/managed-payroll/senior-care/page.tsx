@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Senior Care Payroll | Memory Care. Skilled Nursing. Managed. | BEG',
+  title: 'Senior Care Payroll | Instant Quote | BEG',
   description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/senior-care' },
   openGraph: {
-    title: 'Senior Care Payroll | Memory Care. Skilled Nursing. Managed. | BEG',
+    title: 'Senior Care Payroll | Instant Quote | BEG',
     description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.',
     url: 'https://www.beghr.com/services/managed-payroll/senior-care',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll | Memory Care. Skilled Nursing. Managed. | BEG', description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll | Instant Quote | BEG', description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('senior-care-payroll');

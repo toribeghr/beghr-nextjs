@@ -3,18 +3,18 @@ import Link from 'next/link';
 import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
-  title: 'ACA Compliance Software | BEG',
+  title: 'ACA Compliance Software | Instant Price Quote | BEG',
   description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. isolved on one connected platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/aca-compliance-software' },
   openGraph: {
-    title: 'ACA Compliance Software | BEG',
+    title: 'ACA Compliance Software | Instant Price Quote | BEG',
     description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. isolved on one connected platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/aca-compliance-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'ACA Compliance Software | BEG', description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'ACA Compliance Software | Instant Price Quote | BEG', description: 'ACA compliance software for hours tracking, eligibility, affordability, and 1094-C and 1095-C filing. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

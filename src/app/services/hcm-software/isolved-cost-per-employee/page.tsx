@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved Cost Per Employee: How Pricing Works | BEG',
+  title: 'isolved Cost Per Employee | Instant Price Quote | BEG',
   description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on a discovery call.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-cost-per-employee' },
   openGraph: {
-    title: 'isolved Cost Per Employee: How Pricing Works | BEG',
+    title: 'isolved Cost Per Employee | Instant Price Quote | BEG',
     description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on a discovery call.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-cost-per-employee',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Cost Per Employee: How Pricing Works | BEG', description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on a discovery call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Cost Per Employee | Instant Price Quote | BEG', description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on a discovery call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

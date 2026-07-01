@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Switch From Workday to isolved | BEG Manages the Move',
+  title: 'Switch Workday to isolved | Instant Price Quote | BEG',
   description: 'Workday is enterprise software. If you are a mid-market company paying enterprise prices, switching to isolved with BEG gives you a purpose-built platform at the right scale.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-workday-to-isolved' },
   openGraph: {
-    title: 'Switch From Workday to isolved | BEG Manages the Move',
+    title: 'Switch Workday to isolved | Instant Price Quote | BEG',
     description: 'Workday is enterprise software. Mid-market companies switching to isolved get a purpose-built platform at the right scale. BEG manages the full migration.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-workday-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website' as const,
   },
-  twitter: { card: 'summary_large_image' as const, title: 'Switch From Workday to isolved | BEG Manages the Move', description: 'Mid-market companies switching from Workday to isolved get a purpose-built platform at the right scale.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image' as const, title: 'Switch Workday to isolved | Instant Price Quote | BEG', description: 'Mid-market companies switching from Workday to isolved get a purpose-built platform at the right scale.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

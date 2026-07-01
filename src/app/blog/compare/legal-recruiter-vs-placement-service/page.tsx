@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Legal Recruiter vs Placement Service: What Is the Difference? | BEG',
+  title: 'Legal Recruiter vs Placement Service | Instant Quote | BEG',
   description: 'Legal recruiter vs placement service explained. How fee models differ, what you actually get, and when a milestone-based placement service costs roughly 50% less.',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/legal-recruiter-vs-placement-service' },
   openGraph: {
-    title: 'Legal Recruiter vs Placement Service: What Is the Difference? | BEG',
+    title: 'Legal Recruiter vs Placement Service | Instant Quote | BEG',
     description: 'Legal recruiter vs placement service explained. How fee models differ, what you actually get, and when milestone-based placement costs roughly 50% less.',
     url: 'https://www.beghr.com/blog/compare/legal-recruiter-vs-placement-service',
     siteName: 'Business Executive Group',

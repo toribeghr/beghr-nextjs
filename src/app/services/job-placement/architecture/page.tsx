@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Architecture Placement | Project & Design Leads | BEG',
+  title: 'Architecture Placement | Instant Fee Quote | BEG',
   description: 'Fill project architect, design director, and BIM roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/architecture' },
-  openGraph: { title: 'Architecture Placement | Project & Design Leads | BEG', description: 'Fill project architect, design director, and BIM roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/architecture', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Architecture Placement | Project & Design Leads | BEG', description: 'Fill project architect, design director, and BIM roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Architecture Placement | Instant Fee Quote | BEG', description: 'Fill project architect, design director, and BIM roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/architecture', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Architecture Placement | Instant Fee Quote | BEG', description: 'Fill project architect, design director, and BIM roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-architecture');

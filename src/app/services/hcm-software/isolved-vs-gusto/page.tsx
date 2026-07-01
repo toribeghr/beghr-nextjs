@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved vs Gusto | One Platform + Claude AI | BEG',
+  title: 'isolved vs Gusto | Instant Price Quote + Claude AI | BEG',
   description: 'isolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-gusto' },
   openGraph: {
-    title: 'isolved vs Gusto | One Platform + Claude AI | BEG',
+    title: 'isolved vs Gusto | Instant Price Quote + Claude AI | BEG',
     description: 'isolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-gusto',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs Gusto | One Platform + Claude AI | BEG', description: 'isolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Gusto | Instant Price Quote + Claude AI | BEG', description: 'isolved vs Gusto compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits very small teams versus growing mid-market firms.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

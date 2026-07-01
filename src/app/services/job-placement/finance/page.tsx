@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Finance & Accounting Job Placement | Controller & CPA Hiring | BEG',
+  title: 'Finance Placement | Instant Fee Quote | BEG',
   description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/finance' },
-  openGraph: { title: 'Finance & Accounting Job Placement | Controller & CPA Hiring | BEG', description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.', url: 'https://www.beghr.com/services/job-placement/finance', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Finance & Accounting Job Placement | Controller & CPA Hiring | BEG', description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Finance Placement | Instant Fee Quote | BEG', description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.', url: 'https://www.beghr.com/services/job-placement/finance', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Finance Placement | Instant Fee Quote | BEG', description: 'Place controllers, CPAs, and finance managers faster. Milestone billing, 45-day replacement guarantee. Specialized finance and accounting recruiting.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-finance');

@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'BEG vs Robert Half: Placement Compared | BEG',
+  title: 'BEG vs Robert Half | Instant Fee Quote | BEG',
   description: 'BEG vs Robert Half on permanent placement: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/beg-vs-robert-half' },
   openGraph: {
-    title: 'BEG vs Robert Half: Placement Compared | BEG',
+    title: 'BEG vs Robert Half | Instant Fee Quote | BEG',
     description: 'BEG vs Robert Half on permanent placement: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.',
     url: 'https://www.beghr.com/blog/compare/beg-vs-robert-half',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG vs Robert Half: Placement Compared | BEG', description: 'BEG vs Robert Half on permanent placement: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG vs Robert Half | Instant Fee Quote | BEG', description: 'BEG vs Robert Half on permanent placement: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('/blog/compare/beg-vs-robert-half');

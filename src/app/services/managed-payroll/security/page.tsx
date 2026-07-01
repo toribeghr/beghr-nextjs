@@ -6,11 +6,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Security Company Payroll | Guard Shifts. Overtime. Managed. | BEG',
+  title: 'Security Company Payroll | Instant Quote | BEG',
   description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/security' },
   openGraph: {
-    title: 'Security Company Payroll | Guard Shifts. Overtime. Managed. | BEG',
+    title: 'Security Company Payroll | Instant Quote | BEG',
     description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
     url: 'https://www.beghr.com/services/managed-payroll/security',
     siteName: 'Business Executive Group',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Security Company Payroll | Guard Shifts. Overtime. Managed. | BEG',
+    title: 'Security Company Payroll | Instant Quote | BEG',
     description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },

@@ -4,18 +4,18 @@ import ServicePage from '@/components/ServicePage';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Fitness Studios | BEG',
+  title: 'isolved HCM for Fitness Studios | Instant Quote | BEG',
   description: 'isolved HCM for fitness studios and gyms. Per-class and commission pay for trainers, part-time staff, multi-location studios, and W2 versus 1099 handling.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/fitness' },
   openGraph: {
-    title: 'isolved HCM for Fitness Studios | BEG',
+    title: 'isolved HCM for Fitness Studios | Instant Quote | BEG',
     description: 'isolved HCM for fitness studios and gyms. Per-class and commission pay for trainers, part-time staff, multi-location studios, and W2 versus 1099 handling.',
     url: 'https://www.beghr.com/services/hcm-software/fitness',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM for Fitness Studios | BEG', description: 'isolved HCM for fitness studios and gyms. Per-class and commission pay for trainers, part-time staff, multi-location studios, and W2 versus 1099 handling.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Fitness Studios | Instant Quote | BEG', description: 'isolved HCM for fitness studios and gyms. Per-class and commission pay for trainers, part-time staff, multi-location studios, and W2 versus 1099 handling.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

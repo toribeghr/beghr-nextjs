@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG',
+  title: 'Law Firm Payroll | Instant Quote, $25-$45 PEPM | BEG',
   description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/legal' },
   openGraph: {
-    title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG',
+    title: 'Law Firm Payroll | Instant Quote, $25-$45 PEPM | BEG',
     description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
     url: 'https://www.beghr.com/services/managed-payroll/legal',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll for Law Firms | $25–$45 PEPM | BEG', description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Law Firm Payroll | Instant Quote, $25-$45 PEPM | BEG', description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

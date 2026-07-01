@@ -3,18 +3,18 @@ import Link from 'next/link';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Applicant Tracking Software | BEG',
+  title: 'Applicant Tracking Software | Instant Price Quote | BEG',
   description: 'Applicant tracking software for job posting, candidate pipelines, offer letters, and onboarding handoff. isolved hiring on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/applicant-tracking-software' },
   openGraph: {
-    title: 'Applicant Tracking Software | BEG',
+    title: 'Applicant Tracking Software | Instant Price Quote | BEG',
     description: 'Applicant tracking software for job posting, candidate pipelines, offer letters, and onboarding handoff. isolved hiring on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/applicant-tracking-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Applicant Tracking Software | BEG', description: 'Applicant tracking software for job posting, candidate pipelines, offer letters, and onboarding handoff. isolved hiring on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Applicant Tracking Software | Instant Price Quote | BEG', description: 'Applicant tracking software for job posting, candidate pipelines, offer letters, and onboarding handoff. isolved hiring on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

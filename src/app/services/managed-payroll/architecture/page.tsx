@@ -6,11 +6,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Architecture & Design Firm Payroll | Project Billing. PE Staff. | BEG',
+  title: 'Architecture Firm Payroll | Instant Quote | BEG',
   description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/architecture' },
   openGraph: {
-    title: 'Architecture & Design Firm Payroll | Project Billing. PE Staff. | BEG',
+    title: 'Architecture Firm Payroll | Instant Quote | BEG',
     description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
     url: 'https://www.beghr.com/services/managed-payroll/architecture',
     siteName: 'Business Executive Group',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Architecture & Design Firm Payroll | Project Billing. PE Staff. | BEG',
+    title: 'Architecture Firm Payroll | Instant Quote | BEG',
     description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },

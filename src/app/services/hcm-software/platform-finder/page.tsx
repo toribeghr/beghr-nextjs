@@ -4,18 +4,18 @@ import HCMPlatformFinder from '@/components/HCMPlatformFinder';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
-  title: 'Which HCM Platform Fits You? | Free Finder | BEG',
+  title: 'HCM Platform Finder | Instant Price Quote | BEG',
   description: 'Answer 4 quick questions about your size, industry, current system, and priorities to get a tailored HCM software recommendation and your best next step from BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/platform-finder' },
   openGraph: {
-    title: 'Which HCM Platform Fits You? | Free Finder | BEG',
+    title: 'HCM Platform Finder | Instant Price Quote | BEG',
     description: 'Four questions, one tailored HCM recommendation. Find the right fit for your size, industry, and current system.',
     url: 'https://www.beghr.com/services/hcm-software/platform-finder',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Which HCM Platform Fits You? | Free Finder | BEG', description: 'Four questions, one tailored HCM recommendation for your business.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Platform Finder | Instant Price Quote | BEG', description: 'Four questions, one tailored HCM recommendation for your business.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function PlatformFinderPage() {

@@ -5,7 +5,7 @@ import { getCalendlyLink } from '@/lib/services';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Law Firms | Legal HR & Payroll Platform | BEG',
+  title: 'isolved HCM for Law Firms | Instant Price Quote | BEG',
   description: 'isolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/legal' },
 };

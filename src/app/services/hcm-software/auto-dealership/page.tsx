@@ -4,18 +4,18 @@ import ServicePage from '@/components/ServicePage';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Auto Dealerships | BEG',
+  title: 'isolved HCM for Auto Dealerships | Instant Quote | BEG',
   description: 'isolved HCM for auto dealerships. Commission and spiff pay, sales, service and parts departments, and multi-location dealer groups on one platform.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/auto-dealership' },
   openGraph: {
-    title: 'isolved HCM for Auto Dealerships | BEG',
+    title: 'isolved HCM for Auto Dealerships | Instant Quote | BEG',
     description: 'isolved HCM for auto dealerships. Commission and spiff pay, sales, service and parts departments, and multi-location dealer groups on one platform.',
     url: 'https://www.beghr.com/services/hcm-software/auto-dealership',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM for Auto Dealerships | BEG', description: 'isolved HCM for auto dealerships. Commission and spiff pay, sales, service and parts departments, and multi-location dealer groups on one platform. Supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Auto Dealerships | Instant Quote | BEG', description: 'isolved HCM for auto dealerships. Commission and spiff pay, sales, service and parts departments, and multi-location dealer groups on one platform. Supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

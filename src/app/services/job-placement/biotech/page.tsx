@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Biotech Placement | Clinical, Regulatory & QA | BEG',
+  title: 'Biotech Placement | Instant Fee Quote | BEG',
   description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/biotech' },
-  openGraph: { title: 'Biotech Placement | Clinical, Regulatory & QA | BEG', description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.', url: 'https://www.beghr.com/services/job-placement/biotech', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Biotech Placement | Clinical, Regulatory & QA | BEG', description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Biotech Placement | Instant Fee Quote | BEG', description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.', url: 'https://www.beghr.com/services/job-placement/biotech', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Biotech Placement | Instant Fee Quote | BEG', description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-biotech');

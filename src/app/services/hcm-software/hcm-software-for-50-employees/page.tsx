@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for a 50-Employee Company | BEG',
+  title: 'HCM Software for 50 Employees | Instant Quote | BEG',
   description: 'HCM software for a 50-employee company. See why a single connected isolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/hcm-software-for-50-employees' },
   openGraph: {
-    title: 'HCM Software for a 50-Employee Company | BEG',
+    title: 'HCM Software for 50 Employees | Instant Quote | BEG',
     description: 'HCM software for a 50-employee company. See why a single connected isolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.',
     url: 'https://www.beghr.com/services/hcm-software/hcm-software-for-50-employees',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for a 50-Employee Company | BEG', description: 'HCM software for a 50-employee company. See why a single connected isolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for 50 Employees | Instant Quote | BEG', description: 'HCM software for a 50-employee company. See why a single connected isolved platform, implemented and supported by BEG, fits firms outgrowing basic payroll.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Home Services Payroll | HVAC, Plumbing & Electrical. Managed. | BEG',
+  title: 'Home Services Payroll | Instant Quote | BEG',
   description: 'Home services payroll fully managed at $25–$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/home-services' },
   openGraph: {
-    title: 'Home Services Payroll | HVAC, Plumbing & Electrical. Managed. | BEG',
+    title: 'Home Services Payroll | Instant Quote | BEG',
     description: 'Home services payroll fully managed at $25–$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.',
     url: 'https://www.beghr.com/services/managed-payroll/home-services',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Services Payroll | HVAC, Plumbing & Electrical. Managed. | BEG', description: 'Home services payroll fully managed at $25–$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Services Payroll | Instant Quote | BEG', description: 'Home services payroll fully managed at $25–$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('home-services-payroll');

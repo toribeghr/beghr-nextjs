@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved vs Paycor | One Platform + Claude AI | BEG',
+  title: 'isolved vs Paycor | Instant Price Quote + AI | BEG',
   description: 'isolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycor' },
   openGraph: {
-    title: 'isolved vs Paycor | One Platform + Claude AI | BEG',
+    title: 'isolved vs Paycor | Instant Price Quote + AI | BEG',
     description: 'isolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycor',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs Paycor | One Platform + Claude AI | BEG', description: 'isolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Paycor | Instant Price Quote + AI | BEG', description: 'isolved vs Paycor compared on platform breadth, pricing, implementation, support, and AI. See which mid-market HCM fits your team and how BEG manages it for you.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

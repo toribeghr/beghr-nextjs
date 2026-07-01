@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Veterinary Practices | isolved + BEG',
+  title: 'HCM for Veterinary Practices | Instant Price Quote | BEG',
   description: 'HCM software for veterinary practices and animal hospitals: credentialed staff tracking, multi-location payroll, scheduling, and benefits administration on isolved.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/veterinary' },
   openGraph: {
-    title: 'HCM Software for Veterinary Practices | isolved + BEG',
+    title: 'HCM for Veterinary Practices | Instant Price Quote | BEG',
     description: 'HCM software for veterinary practices and animal hospitals: credentialed staff tracking, multi-location payroll, scheduling, and benefits administration on isolved.',
     url: 'https://www.beghr.com/services/hcm-software/veterinary',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for Veterinary Practices | isolved + BEG', description: 'HCM software for veterinary practices and animal hospitals: credentialed staff tracking, multi-location payroll, scheduling, and benefits administration on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM for Veterinary Practices | Instant Price Quote | BEG', description: 'HCM software for veterinary practices and animal hospitals: credentialed staff tracking, multi-location payroll, scheduling, and benefits administration on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

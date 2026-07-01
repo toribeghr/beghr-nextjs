@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'BEG vs Major Lindsey & Africa: Legal Placement Compared | BEG',
+  title: 'BEG vs Major Lindsey & Africa | Instant Fee Quote | BEG',
   description: 'BEG vs Major, Lindsey & Africa on legal placement: fee model, cost, market, and speed compared. See where milestone-based placement saves roughly 50%.',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/beg-vs-major-lindsey-africa' },
   openGraph: {
-    title: 'BEG vs Major Lindsey & Africa: Legal Placement Compared | BEG',
+    title: 'BEG vs Major Lindsey & Africa | Instant Fee Quote | BEG',
     description: 'BEG vs Major, Lindsey & Africa on legal placement: fee model, cost, market, and speed compared. See where milestone-based placement saves roughly 50%.',
     url: 'https://www.beghr.com/blog/compare/beg-vs-major-lindsey-africa',
     siteName: 'Business Executive Group',

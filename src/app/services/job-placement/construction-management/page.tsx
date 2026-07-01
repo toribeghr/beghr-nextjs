@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Construction Mgmt Placement | PMs & Supers | BEG',
+  title: 'Construction Mgmt Placement | Instant Fee Quote | BEG',
   description: 'Fill PM, estimator, and superintendent roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/construction-management' },
-  openGraph: { title: 'Construction Mgmt Placement | PMs & Supers | BEG', description: 'Fill PM, estimator, and superintendent roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/construction-management', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Construction Mgmt Placement | PMs & Supers | BEG', description: 'Fill PM, estimator, and superintendent roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Construction Mgmt Placement | Instant Fee Quote | BEG', description: 'Fill PM, estimator, and superintendent roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/construction-management', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Construction Mgmt Placement | Instant Fee Quote | BEG', description: 'Fill PM, estimator, and superintendent roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-construction-management');

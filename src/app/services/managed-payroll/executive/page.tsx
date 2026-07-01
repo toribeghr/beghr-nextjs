@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG',
+  title: 'Executive Payroll | Instant Quote | BEG',
   description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/executive' },
   openGraph: {
-    title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG',
+    title: 'Executive Payroll | Instant Quote | BEG',
     description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
     url: 'https://www.beghr.com/services/managed-payroll/executive',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Executive Payroll Services | Deferred Comp & Benefits | BEG', description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Executive Payroll | Instant Quote | BEG', description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

@@ -3,18 +3,18 @@ import Link from 'next/link';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Benefits Administration Software | BEG',
+  title: 'Benefits Administration Software | Instant Quote | BEG',
   description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. isolved on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/benefits-administration-software' },
   openGraph: {
-    title: 'Benefits Administration Software | BEG',
+    title: 'Benefits Administration Software | Instant Quote | BEG',
     description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. isolved on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/benefits-administration-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Benefits Administration Software | BEG', description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Benefits Administration Software | Instant Quote | BEG', description: 'Benefits administration software for open enrollment, carrier connections, payroll deductions, and ACA compliance. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

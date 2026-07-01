@@ -4,18 +4,18 @@ import ServicePage from '@/components/ServicePage';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Salons & Spas | BEG',
+  title: 'isolved HCM for Salons & Spas | Instant Quote | BEG',
   description: 'isolved HCM for salons and spas. Commission and booth-rent models, tip handling, hourly plus commission pay, and multi-location operations on one platform.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/salon-spa' },
   openGraph: {
-    title: 'isolved HCM for Salons & Spas | BEG',
+    title: 'isolved HCM for Salons & Spas | Instant Quote | BEG',
     description: 'isolved HCM for salons and spas. Commission and booth-rent models, tip handling, hourly plus commission pay, and multi-location operations on one platform.',
     url: 'https://www.beghr.com/services/hcm-software/salon-spa',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM for Salons & Spas | BEG', description: 'isolved HCM for salons and spas. Commission and booth-rent models, tip handling, hourly plus commission pay, and multi-location operations on one platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Salons & Spas | Instant Quote | BEG', description: 'isolved HCM for salons and spas. Commission and booth-rent models, tip handling, hourly plus commission pay, and multi-location operations on one platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

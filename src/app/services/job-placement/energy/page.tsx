@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Energy Placement | Project & Field Engineering | BEG',
+  title: 'Energy Placement | Instant Fee Quote | BEG',
   description: 'Fill project manager, field engineer, and HSE roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/energy' },
-  openGraph: { title: 'Energy Placement | Project & Field Engineering | BEG', description: 'Fill project manager, field engineer, and HSE roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/energy', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Energy Placement | Project & Field Engineering | BEG', description: 'Fill project manager, field engineer, and HSE roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Energy Placement | Instant Fee Quote | BEG', description: 'Fill project manager, field engineer, and HSE roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/energy', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Energy Placement | Instant Fee Quote | BEG', description: 'Fill project manager, field engineer, and HSE roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-energy');

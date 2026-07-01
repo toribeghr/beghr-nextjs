@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Manufacturing Placement | Plant & Operations Leaders | BEG',
+  title: 'Manufacturing Placement | Instant Fee Quote | BEG',
   description: 'Fill plant manager, operations, and quality roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/manufacturing' },
-  openGraph: { title: 'Manufacturing Placement | Plant & Operations Leaders | BEG', description: 'Fill plant manager, operations, and quality roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/manufacturing', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Manufacturing Placement | Plant & Operations Leaders | BEG', description: 'Fill plant manager, operations, and quality roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Manufacturing Placement | Instant Fee Quote | BEG', description: 'Fill plant manager, operations, and quality roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/manufacturing', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Manufacturing Placement | Instant Fee Quote | BEG', description: 'Fill plant manager, operations, and quality roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-manufacturing');

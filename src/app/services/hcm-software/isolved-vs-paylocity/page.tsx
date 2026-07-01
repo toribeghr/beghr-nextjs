@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved vs Paylocity | Claude AI. 330% ROI. No Contest. | BEG',
+  title: 'isolved vs Paylocity | Instant Price Quote, 330% ROI | BEG',
   description: 'Side-by-side comparison of isolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-paylocity' },
   openGraph: {
-    title: 'isolved vs Paylocity | Claude AI. 330% ROI. No Contest. | BEG',
+    title: 'isolved vs Paylocity | Instant Price Quote, 330% ROI | BEG',
     description: 'Side-by-side comparison of isolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-paylocity',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs Paylocity | Claude AI. 330% ROI. No Contest. | BEG', description: 'Side-by-side comparison of isolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Paylocity | Instant Price Quote, 330% ROI | BEG', description: 'Side-by-side comparison of isolved and Paylocity. Pricing, features, implementation, and AI capabilities compared. See which platform fits your company.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

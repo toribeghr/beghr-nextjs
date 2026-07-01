@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG',
+  title: 'Franchise Payroll | Instant Quote | BEG',
   description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/franchise' },
   openGraph: {
-    title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG',
+    title: 'Franchise Payroll | Instant Quote | BEG',
     description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
     url: 'https://www.beghr.com/services/managed-payroll/franchise',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Payroll | Multi-Location. One Managed Service. | BEG', description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Payroll | Instant Quote | BEG', description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

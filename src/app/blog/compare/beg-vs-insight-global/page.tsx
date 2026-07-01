@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'BEG vs Insight Global: Permanent Placement Compared | BEG',
+  title: 'BEG vs Insight Global | Instant Fee Quote | BEG',
   description: 'BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/beg-vs-insight-global' },
   openGraph: {
-    title: 'BEG vs Insight Global: Permanent Placement Compared | BEG',
+    title: 'BEG vs Insight Global | Instant Fee Quote | BEG',
     description: 'BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See where milestone-based placement saves roughly 50%.',
     url: 'https://www.beghr.com/blog/compare/beg-vs-insight-global',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG vs Insight Global: Permanent Placement Compared | BEG', description: 'BEG vs Insight Global on permanent placement compared fairly.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG vs Insight Global | Instant Fee Quote | BEG', description: 'BEG vs Insight Global on permanent placement compared fairly.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('blog-compare-beg-vs-insight-global');

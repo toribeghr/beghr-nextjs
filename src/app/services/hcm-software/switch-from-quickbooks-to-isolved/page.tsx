@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Switch From QuickBooks Payroll to isolved | BEG',
+  title: 'Switch QuickBooks to isolved | Instant Price Quote | BEG',
   description: 'Outgrown QuickBooks Payroll? Switching to isolved is painless when BEG manages the migration, configures the platform, and supports you year-round. Book a call.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-quickbooks-to-isolved' },
   openGraph: {
-    title: 'Switch From QuickBooks Payroll to isolved | BEG',
+    title: 'Switch QuickBooks to isolved | Instant Price Quote | BEG',
     description: 'Outgrown QuickBooks Payroll? Switching to isolved is painless when BEG manages the migration, configures the platform, and supports you year-round. Book a call.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-quickbooks-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Switch From QuickBooks Payroll to isolved | BEG', description: 'Outgrown QuickBooks Payroll? Switching to isolved is painless when BEG manages the migration, configures the platform, and supports you year-round. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Switch QuickBooks to isolved | Instant Price Quote | BEG', description: 'Outgrown QuickBooks Payroll? Switching to isolved is painless when BEG manages the migration, configures the platform, and supports you year-round. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

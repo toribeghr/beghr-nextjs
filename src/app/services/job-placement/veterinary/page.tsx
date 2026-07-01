@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Veterinary Placement | DVMs & Practice Mgmt | BEG',
+  title: 'Veterinary Placement | Instant Fee Quote | BEG',
   description: 'Fill associate vet, practice manager, and specialist roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/veterinary' },
-  openGraph: { title: 'Veterinary Placement | DVMs & Practice Mgmt | BEG', description: 'Fill associate vet, practice manager, and specialist roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/veterinary', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Veterinary Placement | DVMs & Practice Mgmt | BEG', description: 'Fill associate vet, practice manager, and specialist roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Veterinary Placement | Instant Fee Quote | BEG', description: 'Fill associate vet, practice manager, and specialist roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/veterinary', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Veterinary Placement | Instant Fee Quote | BEG', description: 'Fill associate vet, practice manager, and specialist roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-veterinary');

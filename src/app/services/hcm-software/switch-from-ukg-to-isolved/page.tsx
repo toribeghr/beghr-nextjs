@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Switch From UKG to isolved | BEG Manages the Move',
+  title: 'Switch From UKG to isolved | Instant Price Quote | BEG',
   description: 'Switching from UKG to isolved cuts enterprise complexity and cost for mid-market companies. BEG manages the full migration so payroll never misses a beat.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-ukg-to-isolved' },
   openGraph: {
-    title: 'Switch From UKG to isolved | BEG Manages the Move',
+    title: 'Switch From UKG to isolved | Instant Price Quote | BEG',
     description: 'Switching from UKG to isolved cuts enterprise complexity and cost for mid-market companies. BEG manages the full migration so payroll never misses a beat.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-ukg-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Switch From UKG to isolved | BEG Manages the Move', description: 'Cut enterprise complexity and cost. BEG manages the full UKG to isolved migration.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Switch From UKG to isolved | Instant Price Quote | BEG', description: 'Cut enterprise complexity and cost. BEG manages the full UKG to isolved migration.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

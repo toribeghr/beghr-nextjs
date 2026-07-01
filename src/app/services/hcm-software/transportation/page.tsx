@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Transportation | Driver Pay | BEG',
+  title: 'isolved HCM for Transportation | Instant Quote | BEG',
   description: 'isolved HCM for transportation and trucking. Driver pay, per-diem, multi-state payroll, and benefits on one connected platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/transportation' },
   openGraph: {
-    title: 'isolved HCM for Transportation | Driver Pay | BEG',
+    title: 'isolved HCM for Transportation | Instant Quote | BEG',
     description: 'isolved HCM for transportation and trucking. Driver pay, per-diem, multi-state payroll, and benefits on one connected platform. Implemented and supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/transportation',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM for Transportation | Driver Pay | BEG', description: 'isolved HCM for transportation and trucking. Driver pay, per-diem, multi-state payroll, and benefits on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Transportation | Instant Quote | BEG', description: 'isolved HCM for transportation and trucking. Driver pay, per-diem, multi-state payroll, and benefits on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

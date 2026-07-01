@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best ADP Alternative | isolved Has Claude AI. ADP Doesn\'t. | BEG',
+  title: 'ADP Alternative | Instant Price Quote + Claude AI | BEG',
   description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including isolved, managed by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-adp' },
   openGraph: {
-    title: 'Best ADP Alternative | isolved Has Claude AI. ADP Doesn\'t. | BEG',
+    title: 'ADP Alternative | Instant Price Quote + Claude AI | BEG',
     description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including isolved, managed by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-adp',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best ADP Alternative | isolved Has Claude AI. ADP Doesn\'t. | BEG', description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including isolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'ADP Alternative | Instant Price Quote + Claude AI | BEG', description: 'Tired of ADP price hikes and poor support? See the top ADP alternatives for companies with 50-500 employees, including isolved, managed by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

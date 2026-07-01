@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Events Companies | isolved + BEG',
+  title: 'HCM Software for Events Cos | Instant Price Quote | BEG',
   description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs. employee compliance on isolved.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/events' },
   openGraph: {
-    title: 'HCM Software for Events Companies | isolved + BEG',
+    title: 'HCM Software for Events Cos | Instant Price Quote | BEG',
     description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs. employee compliance on isolved.',
     url: 'https://www.beghr.com/services/hcm-software/events',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for Events Companies | isolved + BEG', description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs. employee compliance on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for Events Cos | Instant Price Quote | BEG', description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs. employee compliance on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

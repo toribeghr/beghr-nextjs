@@ -6,11 +6,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Insurance Agency Payroll | Producer Commission. Draws. Managed. | BEG',
+  title: 'Insurance Agency Payroll | Instant Quote | BEG',
   description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/insurance-agency' },
   openGraph: {
-    title: 'Insurance Agency Payroll | Producer Commission. Draws. Managed. | BEG',
+    title: 'Insurance Agency Payroll | Instant Quote | BEG',
     description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
     url: 'https://www.beghr.com/services/managed-payroll/insurance-agency',
     siteName: 'Business Executive Group',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Insurance Agency Payroll | Producer Commission. Draws. Managed. | BEG',
+    title: 'Insurance Agency Payroll | Instant Quote | BEG',
     description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },

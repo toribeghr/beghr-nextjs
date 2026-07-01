@@ -5,11 +5,11 @@ import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Engineering Job Placement | Technical Recruiting Services | BEG',
+  title: 'Engineering Placement | Instant Fee Quote | BEG',
   description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/engineering' },
-  openGraph: { title: 'Engineering Job Placement | Technical Recruiting Services | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/engineering', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Engineering Job Placement | Technical Recruiting Services | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Engineering Placement | Instant Fee Quote | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/engineering', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Engineering Placement | Instant Fee Quote | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-engineering');

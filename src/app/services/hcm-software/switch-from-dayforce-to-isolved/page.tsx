@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Switch From Dayforce to isolved | BEG Manages the Move',
+  title: 'Switch Dayforce to isolved | Instant Price Quote | BEG',
   description: 'Switching from Dayforce (Ceridian) to isolved gives growing mid-market companies a connected HCM platform with BEG-managed implementation and year-round support.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-dayforce-to-isolved' },
   openGraph: {
-    title: 'Switch From Dayforce to isolved | BEG Manages the Move',
+    title: 'Switch Dayforce to isolved | Instant Price Quote | BEG',
     description: 'Switching from Dayforce to isolved gives growing mid-market companies a connected HCM platform with BEG-managed implementation and year-round support.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-dayforce-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website' as const,
   },
-  twitter: { card: 'summary_large_image' as const, title: 'Switch From Dayforce to isolved | BEG Manages the Move', description: 'Mid-market HCM without enterprise overhead. BEG manages the Dayforce to isolved migration.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image' as const, title: 'Switch Dayforce to isolved | Instant Price Quote | BEG', description: 'Mid-market HCM without enterprise overhead. BEG manages the Dayforce to isolved migration.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

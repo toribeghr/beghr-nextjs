@@ -3,18 +3,18 @@ import Link from 'next/link';
 import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
-  title: 'Multi-State Payroll Software | BEG',
+  title: 'Multi-State Payroll Software | Instant Price Quote | BEG',
   description: 'Multi-state payroll software for tax registration, filing, remote workforces, and reciprocity. isolved multi-state payroll configured and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/multi-state-payroll-software' },
   openGraph: {
-    title: 'Multi-State Payroll Software | BEG',
+    title: 'Multi-State Payroll Software | Instant Price Quote | BEG',
     description: 'Multi-state payroll software for tax registration, filing, remote workforces, and reciprocity. isolved multi-state payroll configured and supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/multi-state-payroll-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Multi-State Payroll Software | BEG', description: 'Multi-state payroll software for tax registration, filing, remote workforces, and reciprocity. isolved multi-state payroll configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Multi-State Payroll Software | Instant Price Quote | BEG', description: 'Multi-state payroll software for tax registration, filing, remote workforces, and reciprocity. isolved multi-state payroll configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

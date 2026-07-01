@@ -6,11 +6,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Event Company Payroll | Seasonal Crews. 1099 vs W-2. Managed. | BEG',
+  title: 'Event Company Payroll | Instant Quote | BEG',
   description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/events' },
   openGraph: {
-    title: 'Event Company Payroll | Seasonal Crews. 1099 vs W-2. Managed. | BEG',
+    title: 'Event Company Payroll | Instant Quote | BEG',
     description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
     url: 'https://www.beghr.com/services/managed-payroll/events',
     siteName: 'Business Executive Group',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Event Company Payroll | Seasonal Crews. 1099 vs W-2. Managed. | BEG',
+    title: 'Event Company Payroll | Instant Quote | BEG',
     description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },

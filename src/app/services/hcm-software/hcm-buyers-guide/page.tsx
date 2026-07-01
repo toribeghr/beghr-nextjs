@@ -3,18 +3,18 @@ import Link from 'next/link';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
-  title: 'HCM Software Buyer\'s Guide 2026 | Free Download | BEG',
+  title: 'HCM Software Buyer\'s Guide | Instant Price Quote | BEG',
   description: 'Free HCM software buyer\'s guide for mid-market companies. Covers evaluation criteria, vendor comparison, implementation questions, and how to avoid the most common mistakes.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/hcm-buyers-guide' },
   openGraph: {
-    title: 'HCM Software Buyer\'s Guide 2026 | Free Download | BEG',
+    title: 'HCM Software Buyer\'s Guide | Instant Price Quote | BEG',
     description: 'Free HCM buyer\'s guide for mid-market companies. Evaluation criteria, vendor comparison, implementation red flags, and an honest look at total cost.',
     url: 'https://www.beghr.com/services/hcm-software/hcm-buyers-guide',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website' as const,
   },
-  twitter: { card: 'summary_large_image' as const, title: 'HCM Software Buyer\'s Guide 2026 | Free Download | BEG', description: 'Free HCM buyer\'s guide. Evaluation criteria, vendor comparison, red flags, and total cost.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image' as const, title: 'HCM Software Buyer\'s Guide | Instant Price Quote | BEG', description: 'Free HCM buyer\'s guide. Evaluation criteria, vendor comparison, red flags, and total cost.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

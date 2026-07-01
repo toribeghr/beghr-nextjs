@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Architecture Firms | isolved + BEG',
+  title: 'HCM Software for Architecture | Instant Price Quote | BEG',
   description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration on isolved.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/architecture' },
   openGraph: {
-    title: 'HCM Software for Architecture Firms | isolved + BEG',
+    title: 'HCM Software for Architecture | Instant Price Quote | BEG',
     description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration on isolved.',
     url: 'https://www.beghr.com/services/hcm-software/architecture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for Architecture Firms | isolved + BEG', description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for Architecture | Instant Price Quote | BEG', description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

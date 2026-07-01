@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Professional Services | BEG',
+  title: 'isolved HCM for Pro Services | Instant Price Quote | BEG',
   description: 'isolved HCM for professional services firms. Billable utilization, salaried and exempt pay, and benefits on one connected platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/professional-services' },
   openGraph: {
-    title: 'isolved HCM for Professional Services | BEG',
+    title: 'isolved HCM for Pro Services | Instant Price Quote | BEG',
     description: 'isolved HCM for professional services firms. Billable utilization, salaried and exempt pay, and benefits on one connected platform. Implemented and supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/professional-services',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM for Professional Services | BEG', description: 'isolved HCM for professional services firms. Billable utilization, salaried and exempt pay, and benefits on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Pro Services | Instant Price Quote | BEG', description: 'isolved HCM for professional services firms. Billable utilization, salaried and exempt pay, and benefits on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

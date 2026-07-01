@@ -4,18 +4,18 @@ import AIReadinessScorecard from '@/components/AIReadinessScorecard';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
-  title: 'AI HR Readiness Scorecard | Free Assessment | BEG',
+  title: 'AI HR Readiness Scorecard | Instant Price Quote | BEG',
   description: 'Free AI HR readiness scorecard. Answer 8 questions to see how ready your HR and payroll are for AI that completes tasks, plus a tailored next step from BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/ai-readiness-scorecard' },
   openGraph: {
-    title: 'AI HR Readiness Scorecard | Free Assessment | BEG',
+    title: 'AI HR Readiness Scorecard | Instant Price Quote | BEG',
     description: 'Answer 8 questions to score how ready your HR is for AI that completes tasks, not just answers questions. Tailored recommendation included.',
     url: 'https://www.beghr.com/services/hcm-software/ai-readiness-scorecard',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'AI HR Readiness Scorecard | Free Assessment | BEG', description: 'Score how ready your HR is for AI that completes tasks. Free 8-question assessment.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'AI HR Readiness Scorecard | Instant Price Quote | BEG', description: 'Score how ready your HR is for AI that completes tasks. Free 8-question assessment.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function AIReadinessScorecardPage() {

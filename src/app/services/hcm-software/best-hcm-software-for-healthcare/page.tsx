@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'Best HCM Software for Healthcare 2026 | BEG',
+  title: 'Best HCM Software for Healthcare | Instant Quote | BEG',
   description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why isolved plus BEG fits.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-healthcare' },
   openGraph: {
-    title: 'Best HCM Software for Healthcare 2026 | BEG',
+    title: 'Best HCM Software for Healthcare | Instant Quote | BEG',
     description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why isolved plus BEG fits.',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-healthcare',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Healthcare 2026 | BEG', description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why isolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Healthcare | Instant Quote | BEG', description: 'What to look for in healthcare HCM software in 2026, the shift differential, credentialing, and 24/7 staffing challenges, and why isolved plus BEG fits.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

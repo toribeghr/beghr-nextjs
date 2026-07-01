@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved vs Paycom | Claude AI Integration. 330% ROI. | BEG',
+  title: 'isolved vs Paycom | Instant Price Quote, 330% ROI | BEG',
   description: 'isolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycom' },
   openGraph: {
-    title: 'isolved vs Paycom | Claude AI Integration. 330% ROI. | BEG',
+    title: 'isolved vs Paycom | Instant Price Quote, 330% ROI | BEG',
     description: 'isolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-paycom',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs Paycom | Claude AI Integration. 330% ROI. | BEG', description: 'isolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Paycom | Instant Price Quote, 330% ROI | BEG', description: 'isolved vs Paycom compared across pricing, features, AI capabilities, and implementation. Find out which HCM platform is the better fit for your company.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

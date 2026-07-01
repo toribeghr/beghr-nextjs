@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved Reseller & Partner | BEG',
+  title: 'isolved Reseller & Partner | Instant Price Quote | BEG',
   description: 'BEG is an authorized isolved reseller and partner. Learn what that means and why buying isolved through BEG includes implementation, migration, and support.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-reseller' },
   openGraph: {
-    title: 'isolved Reseller & Partner | BEG',
+    title: 'isolved Reseller & Partner | Instant Price Quote | BEG',
     description: 'BEG is an authorized isolved reseller and partner. Learn what that means and why buying isolved through BEG includes implementation, migration, and support.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-reseller',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Reseller & Partner | BEG', description: 'BEG is an authorized isolved reseller and partner. Learn what that means and why buying isolved through BEG includes implementation, migration, and support.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Reseller & Partner | Instant Price Quote | BEG', description: 'BEG is an authorized isolved reseller and partner. Learn what that means and why buying isolved through BEG includes implementation, migration, and support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Switch From BambooHR to isolved | BEG Manages the Move',
+  title: 'Switch BambooHR to isolved | Instant Price Quote | BEG',
   description: 'BambooHR is a great HR tool but thin on payroll. Switching to isolved gives you one connected platform for payroll, HR, time, and benefits. BEG manages the move.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-bamboohr-to-isolved' },
   openGraph: {
-    title: 'Switch From BambooHR to isolved | BEG Manages the Move',
+    title: 'Switch BambooHR to isolved | Instant Price Quote | BEG',
     description: 'BambooHR is a great HR tool but thin on payroll. Switching to isolved gives you one connected platform for payroll, HR, time, and benefits. BEG manages the move.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-bamboohr-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Switch From BambooHR to isolved | BEG Manages the Move', description: 'BambooHR is thin on payroll. Switching to isolved brings everything onto one connected platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Switch BambooHR to isolved | Instant Price Quote | BEG', description: 'BambooHR is thin on payroll. Switching to isolved brings everything onto one connected platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

@@ -4,18 +4,18 @@ import ServicePage from '@/components/ServicePage';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Education | BEG',
+  title: 'isolved HCM for Education | Instant Price Quote | BEG',
   description: 'isolved HCM for schools. Teacher and staff payroll, school-year pay cycles, substitute pay, 403(b), and multiple pay schedules on one connected platform.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/education' },
   openGraph: {
-    title: 'isolved HCM for Education | BEG',
+    title: 'isolved HCM for Education | Instant Price Quote | BEG',
     description: 'isolved HCM for schools. Teacher and staff payroll, school-year pay cycles, substitute pay, 403(b), and multiple pay schedules on one connected platform.',
     url: 'https://www.beghr.com/services/hcm-software/education',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM for Education | BEG', description: 'isolved HCM for schools. Teacher and staff payroll, school-year pay cycles, substitute pay, 403(b), and multiple pay schedules on one connected platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Education | Instant Price Quote | BEG', description: 'isolved HCM for schools. Teacher and staff payroll, school-year pay cycles, substitute pay, 403(b), and multiple pay schedules on one connected platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

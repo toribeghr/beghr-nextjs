@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'HCM Software for Real Estate Companies | isolved + BEG',
+  title: 'HCM for Real Estate Companies | Instant Price Quote | BEG',
   description: 'HCM software for real estate brokerages and property companies: commission and W-2 pay, agent license tracking, multi-office payroll, and benefits administration on isolved.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/real-estate' },
   openGraph: {
-    title: 'HCM Software for Real Estate Companies | isolved + BEG',
+    title: 'HCM for Real Estate Companies | Instant Price Quote | BEG',
     description: 'HCM software for real estate brokerages and property companies: commission and W-2 pay, agent license tracking, multi-office payroll, and benefits administration on isolved.',
     url: 'https://www.beghr.com/services/hcm-software/real-estate',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for Real Estate Companies | isolved + BEG', description: 'HCM software for real estate brokerages and property companies: commission and W-2 pay, agent license tracking, multi-office payroll, and benefits administration on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM for Real Estate Companies | Instant Price Quote | BEG', description: 'HCM software for real estate brokerages and property companies: commission and W-2 pay, agent license tracking, multi-office payroll, and benefits administration on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

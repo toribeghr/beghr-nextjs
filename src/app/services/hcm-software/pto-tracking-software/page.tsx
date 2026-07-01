@@ -3,18 +3,18 @@ import Link from 'next/link';
 import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
-  title: 'PTO Tracking Software | BEG',
+  title: 'PTO Tracking Software | Instant Price Quote | BEG',
   description: 'PTO and time-off tracking software for accruals, balances, requests, and approvals that keep payroll accurate. isolved on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/pto-tracking-software' },
   openGraph: {
-    title: 'PTO Tracking Software | BEG',
+    title: 'PTO Tracking Software | Instant Price Quote | BEG',
     description: 'PTO and time-off tracking software for accruals, balances, requests, and approvals that keep payroll accurate. isolved on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/pto-tracking-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'PTO Tracking Software | BEG', description: 'PTO and time-off tracking software for accruals, balances, requests, and approvals that keep payroll accurate. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'PTO Tracking Software | Instant Price Quote | BEG', description: 'PTO and time-off tracking software for accruals, balances, requests, and approvals that keep payroll accurate. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

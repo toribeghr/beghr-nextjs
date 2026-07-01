@@ -6,11 +6,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Multi-Location Restaurant Payroll | Consolidated. Tip Compliant. | BEG',
+  title: 'Restaurant Payroll | Instant Quote | BEG',
   description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/multi-unit-restaurant' },
   openGraph: {
-    title: 'Multi-Location Restaurant Payroll | Consolidated. Tip Compliant. | BEG',
+    title: 'Restaurant Payroll | Instant Quote | BEG',
     description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
     url: 'https://www.beghr.com/services/managed-payroll/multi-unit-restaurant',
     siteName: 'Business Executive Group',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Multi-Location Restaurant Payroll | Consolidated. Tip Compliant. | BEG',
+    title: 'Restaurant Payroll | Instant Quote | BEG',
     description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },

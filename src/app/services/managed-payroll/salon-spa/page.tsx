@@ -6,11 +6,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Salon & Spa Payroll | Booth Rental. Commission. Tips. Managed. | BEG',
+  title: 'Salon & Spa Payroll | Instant Quote | BEG',
   description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/salon-spa' },
   openGraph: {
-    title: 'Salon & Spa Payroll | Booth Rental. Commission. Tips. Managed. | BEG',
+    title: 'Salon & Spa Payroll | Instant Quote | BEG',
     description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
     url: 'https://www.beghr.com/services/managed-payroll/salon-spa',
     siteName: 'Business Executive Group',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Salon & Spa Payroll | Booth Rental. Commission. Tips. Managed. | BEG',
+    title: 'Salon & Spa Payroll | Instant Quote | BEG',
     description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },

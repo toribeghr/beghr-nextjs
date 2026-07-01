@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG',
+  title: 'Fitness Studio Payroll | Instant Quote | BEG',
   description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/fitness' },
   openGraph: {
-    title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG',
+    title: 'Fitness Studio Payroll | Instant Quote | BEG',
     description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.',
     url: 'https://www.beghr.com/services/managed-payroll/fitness',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Fitness Studio Payroll | Trainer Classification Done Right | BEG', description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Fitness Studio Payroll | Instant Quote | BEG', description: 'Fitness studio and gym payroll fully managed at $25–45 PEPM. W-2 vs. 1099 trainer classification, instructor pay, and commission handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

@@ -5,7 +5,7 @@ import { getCalendlyLink } from '@/lib/services';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Executive Teams | Deferred Comp Platform | BEG',
+  title: 'isolved HCM for Executive Teams | Instant Quote | BEG',
   description: 'isolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/executive' },
 };

@@ -3,18 +3,18 @@ import Link from 'next/link';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Onboarding Software | BEG',
+  title: 'Onboarding Software | Instant Price Quote | BEG',
   description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. isolved onboarding on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/onboarding-software' },
   openGraph: {
-    title: 'Onboarding Software | BEG',
+    title: 'Onboarding Software | Instant Price Quote | BEG',
     description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. isolved onboarding on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/onboarding-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Onboarding Software | BEG', description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. isolved onboarding on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Onboarding Software | Instant Price Quote | BEG', description: 'Onboarding software for new-hire workflows, e-signature, I-9 and W-4 forms, and first-day readiness. isolved onboarding on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

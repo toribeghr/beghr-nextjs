@@ -5,18 +5,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved HCM for Construction | Certified Payroll | BEG',
+  title: 'isolved HCM for Construction | Instant Price Quote | BEG',
   description: 'isolved HCM for construction. Certified payroll, prevailing wage, multi-job costing, and union rules on one connected platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/construction' },
   openGraph: {
-    title: 'isolved HCM for Construction | Certified Payroll | BEG',
+    title: 'isolved HCM for Construction | Instant Price Quote | BEG',
     description: 'isolved HCM for construction. Certified payroll, prevailing wage, multi-job costing, and union rules on one connected platform. Implemented and supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/construction',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM for Construction | Certified Payroll | BEG', description: 'isolved HCM for construction. Certified payroll, prevailing wage, multi-job costing, and union rules on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Construction | Instant Price Quote | BEG', description: 'isolved HCM for construction. Certified payroll, prevailing wage, multi-job costing, and union rules on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

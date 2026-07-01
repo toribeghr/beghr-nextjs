@@ -3,18 +3,18 @@ import Link from 'next/link';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: 'Employee Scheduling Software | BEG',
+  title: 'Employee Scheduling Software | Instant Price Quote | BEG',
   description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. isolved on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/employee-scheduling-software' },
   openGraph: {
-    title: 'Employee Scheduling Software | BEG',
+    title: 'Employee Scheduling Software | Instant Price Quote | BEG',
     description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. isolved on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/employee-scheduling-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Employee Scheduling Software | BEG', description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Employee Scheduling Software | Instant Price Quote | BEG', description: 'Employee scheduling software for shift scheduling, coverage, and overtime control that feeds time and payroll. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

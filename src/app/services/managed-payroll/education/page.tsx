@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Private School Payroll | 10-Month Pay. Part-Time Staff. Managed. | BEG',
+  title: 'Private School Payroll | Instant Quote | BEG',
   description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/education' },
   openGraph: {
-    title: 'Private School Payroll | 10-Month Pay. Part-Time Staff. Managed. | BEG',
+    title: 'Private School Payroll | Instant Quote | BEG',
     description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.',
     url: 'https://www.beghr.com/services/managed-payroll/education',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Private School Payroll | 10-Month Pay. Part-Time Staff. Managed. | BEG', description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Private School Payroll | Instant Quote | BEG', description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('education-payroll');

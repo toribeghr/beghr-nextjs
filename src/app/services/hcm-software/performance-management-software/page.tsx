@@ -3,18 +3,18 @@ import Link from 'next/link';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Performance Management Software | BEG',
+  title: 'Performance Mgmt Software | Instant Price Quote | BEG',
   description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. isolved on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/performance-management-software' },
   openGraph: {
-    title: 'Performance Management Software | BEG',
+    title: 'Performance Mgmt Software | Instant Price Quote | BEG',
     description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. isolved on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/performance-management-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Performance Management Software | BEG', description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Performance Mgmt Software | Instant Price Quote | BEG', description: 'Performance management software for reviews, goals, and feedback cycles tied to compensation and employee records. isolved on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

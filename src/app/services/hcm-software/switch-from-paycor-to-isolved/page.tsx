@@ -4,18 +4,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Switch From Paycor to isolved | BEG Manages the Move',
+  title: 'Switch From Paycor to isolved | Instant Quote | BEG',
   description: 'Switching from Paycor to isolved is structured and low-risk when BEG manages the migration. We move your data, configure the platform, and support you year-round.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-paycor-to-isolved' },
   openGraph: {
-    title: 'Switch From Paycor to isolved | BEG Manages the Move',
+    title: 'Switch From Paycor to isolved | Instant Quote | BEG',
     description: 'Switching from Paycor to isolved is structured and low-risk when BEG manages the migration. We move your data, configure the platform, and support you year-round.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-paycor-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Switch From Paycor to isolved | BEG Manages the Move', description: 'Switching from Paycor to isolved is structured and low-risk when BEG manages the migration.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Switch From Paycor to isolved | Instant Quote | BEG', description: 'Switching from Paycor to isolved is structured and low-risk when BEG manages the migration.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

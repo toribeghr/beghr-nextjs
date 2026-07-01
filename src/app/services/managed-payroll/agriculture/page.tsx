@@ -6,18 +6,18 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Agriculture Payroll | Farm & H-2A Workers. Managed. | BEG',
+  title: 'Agriculture Payroll | Instant Quote | BEG',
   description: 'Agriculture payroll fully managed at $25–$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/agriculture' },
   openGraph: {
-    title: 'Agriculture Payroll | Farm & H-2A Workers. Managed. | BEG',
+    title: 'Agriculture Payroll | Instant Quote | BEG',
     description: 'Agriculture payroll fully managed at $25–$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.',
     url: 'https://www.beghr.com/services/managed-payroll/agriculture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Agriculture Payroll | Farm & H-2A Workers. Managed. | BEG', description: 'Agriculture payroll fully managed at $25–$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Agriculture Payroll | Instant Quote | BEG', description: 'Agriculture payroll fully managed at $25–$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('agriculture-payroll');

@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'BEG vs Vaco: Permanent Placement Compared | BEG',
+  title: 'BEG vs Vaco | Instant Fee Quote | BEG',
   description: 'BEG vs Vaco on permanent direct hire: fee model, cost, and speed compared. See where milestone-based placement saves roughly 50% vs contingency.',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/beg-vs-vaco' },
   openGraph: {
-    title: 'BEG vs Vaco: Permanent Placement Compared | BEG',
+    title: 'BEG vs Vaco | Instant Fee Quote | BEG',
     description: 'BEG vs Vaco on permanent direct hire: fee model, cost, and speed compared. See where milestone-based placement saves roughly 50% vs contingency.',
     url: 'https://www.beghr.com/blog/compare/beg-vs-vaco',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BEG vs Vaco: Permanent Placement Compared | BEG', description: 'BEG vs Vaco on permanent direct hire compared fairly. See where milestone-based placement saves roughly 50%.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BEG vs Vaco | Instant Fee Quote | BEG', description: 'BEG vs Vaco on permanent direct hire compared fairly. See where milestone-based placement saves roughly 50%.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('blog-compare-beg-vs-vaco');

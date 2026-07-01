@@ -3,18 +3,18 @@ import Link from 'next/link';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'Workforce Analytics Software | BEG',
+  title: 'Workforce Analytics Software | Instant Price Quote | BEG',
   description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/workforce-analytics-software' },
   openGraph: {
-    title: 'Workforce Analytics Software | BEG',
+    title: 'Workforce Analytics Software | Instant Price Quote | BEG',
     description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.',
     url: 'https://www.beghr.com/services/hcm-software/workforce-analytics-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Workforce Analytics Software | BEG', description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Workforce Analytics Software | Instant Price Quote | BEG', description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

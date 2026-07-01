@@ -6,11 +6,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Accounting & CPA Firm Payroll | Partner Draws. Busy Season. | BEG',
+  title: 'Accounting & CPA Payroll | Instant Quote | BEG',
   description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/accounting-cpa' },
   openGraph: {
-    title: 'Accounting & CPA Firm Payroll | Partner Draws. Busy Season. | BEG',
+    title: 'Accounting & CPA Payroll | Instant Quote | BEG',
     description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
     url: 'https://www.beghr.com/services/managed-payroll/accounting-cpa',
     siteName: 'Business Executive Group',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Accounting & CPA Firm Payroll | Partner Draws. Busy Season. | BEG',
+    title: 'Accounting & CPA Payroll | Instant Quote | BEG',
     description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },

@@ -37,6 +37,8 @@ export interface PayrollCompetitor {
   faqs: { q: string; a: string }[];
   /** Related industry pages to cross-link */
   relatedIndustries: { href: string; label: string }[];
+  /** YouTube video ID for the hero. When set, the hero shows the video instead of the image. */
+  videoId?: string;
 }
 
 export const payrollCompetitors: PayrollCompetitor[] = [
@@ -45,6 +47,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
   // ---------------------------------------------------------------------------
   {
     slug: 'alternatives-to-adp',
+    videoId: 'pUvS5W78uFc',
     name: 'ADP',
     shortName: 'ADP',
     primaryKeyword: 'alternatives to ADP',
@@ -124,6 +127,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
   // ---------------------------------------------------------------------------
   {
     slug: 'alternatives-to-gusto',
+    videoId: 'saERIbWy6os',
     name: 'Gusto',
     shortName: 'Gusto',
     primaryKeyword: 'alternatives to Gusto',
@@ -203,6 +207,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
   // ---------------------------------------------------------------------------
   {
     slug: 'alternatives-to-paychex',
+    videoId: '8JKRePEL6ec',
     name: 'Paychex',
     shortName: 'Paychex',
     primaryKeyword: 'alternatives to Paychex',
@@ -282,6 +287,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
   // ---------------------------------------------------------------------------
   {
     slug: 'alternatives-to-deel',
+    videoId: 'FpcKYWk8jKM',
     name: 'Deel',
     shortName: 'Deel',
     primaryKeyword: 'Deel alternative for US payroll',
@@ -357,6 +363,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
   // ---------------------------------------------------------------------------
   {
     slug: 'alternatives-to-rippling',
+    videoId: 'rPf15ZoMUOo',
     name: 'Rippling',
     shortName: 'Rippling',
     primaryKeyword: 'Rippling alternative',
@@ -432,6 +439,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
   // ---------------------------------------------------------------------------
   {
     slug: 'alternatives-to-trinet',
+    videoId: 'KUEYTzRCyfU',
     name: 'TriNet',
     shortName: 'TriNet',
     primaryKeyword: 'TriNet alternative',

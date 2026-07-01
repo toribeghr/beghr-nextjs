@@ -77,6 +77,7 @@ export default function PayrollCompetitorPage({
 
   return (
     <ServicePage
+      heroVideoId={c.videoId}
       imageSrc="/assets/hero-images/payroll.webp"
       showHeroImage={true}
       eyebrow={`Managed Payroll vs. ${c.name}`}

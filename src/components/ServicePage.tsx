@@ -1,5 +1,19 @@
 import { ReactNode } from 'react';
 import HeroImageBox from '@/components/HeroImageBox';
+import HeroVideoBox from '@/components/HeroVideoBox';
+
+const heroVideoCss = `
+.hero-video-split{display:flex;flex-direction:column;gap:6px}
+.hero-video-split .hv-video{margin:10px 0 22px}
+@media(min-width:900px){
+.hero-video-split{display:grid;grid-template-columns:1.05fr .95fr;column-gap:48px;align-items:center;grid-template-areas:"a v" "b v" "c v" "d v"}
+.hero-video-split .hv-eyebrow{grid-area:a;align-self:end;margin:0}
+.hero-video-split .hv-title{grid-area:b;margin:0}
+.hero-video-split .hv-lede{grid-area:c;margin:14px 0 0}
+.hero-video-split .hv-cta{grid-area:d;align-self:start;margin-top:24px}
+.hero-video-split .hv-video{grid-area:v;align-self:center;margin:0}
+}
+`;
 
 interface ServicePageProps {
   title: string;
@@ -10,6 +24,7 @@ interface ServicePageProps {
   imageSrc?: string;
   imageAlt?: string;
   showHeroImage?: boolean;
+  heroVideoId?: string;
   children?: ReactNode;
 }
 
@@ -22,6 +37,7 @@ export default function ServicePage({
   imageSrc,
   imageAlt,
   showHeroImage = false,
+  heroVideoId,
   children,
 }: ServicePageProps) {
   return (
@@ -53,9 +69,46 @@ export default function ServicePage({
           }),
         }}
       />
+      {heroVideoId && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'VideoObject',
+              name: title,
+              description,
+              thumbnailUrl: `https://i.ytimg.com/vi/${heroVideoId}/maxresdefault.jpg`,
+              uploadDate: '2026-06-30',
+              embedUrl: `https://www.youtube.com/embed/${heroVideoId}`,
+              contentUrl: `https://www.youtube.com/watch?v=${heroVideoId}`,
+            }),
+          }}
+        />
+      )}
       <section className="hero">
         <div className="container">
-          {showHeroImage ? (
+          {heroVideoId ? (
+            <>
+              <style dangerouslySetInnerHTML={{ __html: heroVideoCss }} />
+              <div className="hero-video-split">
+                {eyebrow && <p className="eyebrow hv-eyebrow">{eyebrow}</p>}
+                <h1 className="hv-title">{title}</h1>
+                <p className="lede hv-lede" style={{ margin: '18px 0 0' }}>{description}</p>
+                <HeroVideoBox videoId={heroVideoId} title={title} />
+                <div className="hero-cta hv-cta">
+                  <a
+                    className="btn btn--gold"
+                    href={calendlyLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book a Discovery Call
+                  </a>
+                </div>
+              </div>
+            </>
+          ) : showHeroImage ? (
             <div className="hero-split">
               <div className="hero-split-text">
                 {eyebrow && <p className="eyebrow">{eyebrow}</p>}

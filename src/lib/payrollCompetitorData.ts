@@ -227,7 +227,6 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     compRows: [
       ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$2,500-$7,500+ at Flex Select/Pro'],
       ['Dedicated specialist', 'Yes -- one BEG contact', 'Shared HR advisor (Flex Select+)'],
-      ['Per-run fees', 'None', 'Common on all Paychex tiers'],
       ['W-2 filing', 'Included in PEPM', 'Often billed separately'],
       ['Migration required', 'No -- works in existing system', 'Already in Paychex'],
       ['Support model', 'Direct contact who knows your account', 'Call center or shared advisor'],
@@ -347,7 +346,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'Does switching to BEG require moving off our current payroll platform?',
-        a: 'No. BEG manages payroll inside your existing system. You can also move to iSolved if you want a better platform -- BEG handles that migration at no extra charge.',
+        a: 'No. BEG manages payroll inside your existing system. You can also move to iSolved if you want a better platform -- BEG handles that migration.',
       },
     ],
     relatedIndustries: [

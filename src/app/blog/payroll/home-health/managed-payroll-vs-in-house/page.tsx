@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: 'We have aides working in three different states. Can BEG manage all of them in one engagement?',
-    a: 'Yes. Multi-state home health payroll is managed within a single BEG engagement at no extra charge per state. We handle state tax registration, withholding, unemployment insurance, and filing in each state where you have employees. If you expand to additional states, we update your configuration before the first pay cycle in the new state.',
+    a: 'Yes. Multi-state home health payroll is managed within a single BEG engagement. We handle state tax registration, withholding, unemployment insurance, and filing in each state where you have employees. If you expand to additional states, we update your configuration before the first pay cycle in the new state.',
   },
   {
     q: 'How long does it take to get home health agency payroll set up with BEG?',

@@ -98,7 +98,7 @@ export default function OutsourcePropertyManagementPayrollPage() {
           Over the first quarter, the per-property cost center reporting becomes available, and investors or asset managers can pull property-level labor cost reports on demand. State registrations that were missing or out of date are resolved. ACA tracking for variable-hour maintenance and leasing staff begins running automatically in the background.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
-          At year-end, W-2s are produced and filed by the provider at no additional charge. ACA Forms 1095-C are generated and distributed. The property management company does not need to coordinate separately with a CPA for payroll tax return preparation.
+          At year-end, W-2s are produced and filed by the provider. ACA Forms 1095-C are generated and distributed. The property management company does not need to coordinate separately with a CPA for payroll tax return preparation.
         </p>
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>What to Look for in a Property Management Payroll Provider</h2>

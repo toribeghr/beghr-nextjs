@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: 'What states do you cover?',
-    a: 'BEG manages payroll across all 50 states as part of the standard service. Multi-state payroll is included at no additional charge. That covers separate state tax registrations, state unemployment insurance (SUTA) filings, local tax handling, and compliance updates when states change rates or reporting requirements. If you add employees in a new state, your BEG contact handles the registration and configuration. You do not need to manage any of this yourself.',
+    a: 'BEG manages payroll across all 50 states as part of the standard service. That covers separate state tax registrations, state unemployment insurance (SUTA) filings, local tax handling, and compliance updates when states change rates or reporting requirements. If you add employees in a new state, your BEG contact handles the registration and configuration. You do not need to manage any of this yourself.',
   },
   {
     q: 'What happens if there is a payroll error?',

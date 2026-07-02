@@ -95,7 +95,7 @@ export default function OutsourceSalonSpaPayrollPage() {
           In the first payroll cycle after switching to managed payroll, three things change immediately. First, minimum wage compliance is checked automatically for every commission employee every pay period, with shortfalls flagged before paychecks are issued. Second, tip credit calculations are automated, eliminating the manual weekly verification that most in-house setups skip. Third, tax deposits are made on the correct federal and state schedules, eliminating the late deposit penalty risk.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          The owner or manager who was spending 4 to 8 hours per pay period on payroll processing gets that time back. The stylists get accurate paychecks with correct tax withholding. At year-end, W-2s are produced and filed by the provider at no additional charge.
+          The owner or manager who was spending 4 to 8 hours per pay period on payroll processing gets that time back. The stylists get accurate paychecks with correct tax withholding. At year-end, W-2s are produced and filed by the provider.
         </p>
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem" }}>
           Over the first quarter, ACA tracking begins running in the background for variable-hour employees. State registrations that were missing (common in salons that expanded to new states without registering for payroll taxes) are corrected. Commission calculations become consistent and auditable.

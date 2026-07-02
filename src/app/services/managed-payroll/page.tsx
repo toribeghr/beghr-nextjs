@@ -507,7 +507,7 @@ export default function ManagedPayrollPage() {
             </div>
             <div className="faq-item">
               <h3>Do you handle multi-state payroll?</h3>
-              <p>Yes. BEG manages payroll across all 50 states as part of the standard service. That includes separate state tax registrations, state unemployment insurance filings, local tax handling, and compliance updates when states change rates or reporting requirements. If you add a new state, your BEG contact handles the registration and configuration at no additional charge.</p>
+              <p>Yes. BEG manages payroll across all 50 states as part of the standard service. That includes separate state tax registrations, state unemployment insurance filings, local tax handling, and compliance updates when states change rates or reporting requirements. If you add a new state, your BEG contact handles the registration and configuration.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle garnishments and wage levies?</h3>
@@ -584,7 +584,7 @@ export default function ManagedPayrollPage() {
               {
                 '@type': 'Question',
                 name: 'Do you handle multi-state payroll?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG manages payroll across all 50 states including state tax registrations, SUTA filings, local tax handling, and compliance updates. Adding a new state is handled by your BEG contact at no additional charge.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG manages payroll across all 50 states including state tax registrations, SUTA filings, local tax handling, and compliance updates. Adding a new state is handled by your BEG contact.' },
               },
               {
                 '@type': 'Question',

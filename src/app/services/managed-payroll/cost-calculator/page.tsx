@@ -51,7 +51,7 @@ export default function PayrollCostCalculatorPage() {
               Get your exact monthly cost in 15 minutes.
             </h2>
             <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem', maxWidth: '560px', margin: '0 auto 2rem' }}>
-              The calculator uses industry averages. Your BEG contact will review your exact headcount, states, pay schedules, and complexity -- and give you a flat monthly number with nothing excluded.
+              The calculator uses industry averages. Your BEG contact will review your exact headcount, states, pay schedules, and complexity -- and give you a flat monthly number.
             </p>
             <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#666666', fontSize: '0.82rem', marginTop: '0.85rem' }}>

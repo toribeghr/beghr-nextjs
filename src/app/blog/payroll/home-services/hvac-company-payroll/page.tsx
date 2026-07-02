@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'Does BEG handle payroll for HVAC companies with union technicians?',
-    answer: 'Yes. Union HVAC technicians are paid under collective bargaining agreement (CBA) wage scales, which BEG configures in the payroll system. This includes base wage rates, fringe benefit contributions (health and welfare, pension, training fund), and any premium pay provisions in the CBA. Union payroll also requires producing certified payroll reports if any union HVAC work is performed on prevailing wage projects. BEG manages both union and non-union HVAC company payroll at $25-$45 PEPM, with union fringe benefit tracking included at no additional charge.',
+    answer: 'Yes. Union HVAC technicians are paid under collective bargaining agreement (CBA) wage scales, which BEG configures in the payroll system. This includes base wage rates, fringe benefit contributions (health and welfare, pension, training fund), and any premium pay provisions in the CBA. Union payroll also requires producing certified payroll reports if any union HVAC work is performed on prevailing wage projects. BEG manages both union and non-union HVAC company payroll at $25-$45 PEPM, with union fringe benefit tracking included.',
   },
 ];
 

@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: 'We are opening a second location in a different state. Does that cost extra?',
-    a: 'No. BEG manages multi-state payroll as part of the standard engagement. We handle state tax registration, withholding, and filing for your new location at no additional charge. Staff can be onboarded at the second location before the first pay cycle closes there.',
+    a: 'No. BEG manages multi-state payroll as part of the standard engagement. We handle state tax registration, withholding, and filing for your new location. Staff can be onboarded at the second location before the first pay cycle closes there.',
   },
   {
     q: 'Our practice is approaching 50 full-time equivalent employees. How does BEG handle ACA compliance?',
@@ -132,7 +132,7 @@ export default function VeterinaryComparisonPage() {
           During onboarding, we review your current pay structures for all employee categories, configure production bonus calculation rules, and confirm your state registrations are active. We also document your current FTE count so ACA threshold tracking starts accurately from day one.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. Both tiers include multi-location support, all state filings, and W-2 generation at no additional charge. For a 20-person practice, that is $500 to $900 per month, compared to $57,600 to $84,000 annually for a full-time in-house HR coordinator with veterinary payroll experience.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. Both tiers include multi-location support, all state filings, and W-2 generation. For a 20-person practice, that is $500 to $900 per month, compared to $57,600 to $84,000 annually for a full-time in-house HR coordinator with veterinary payroll experience.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

@@ -98,7 +98,7 @@ export default function PartnersPage() {
               },
               {
                 title: 'National coverage',
-                body: 'BEG manages payroll in all 50 states. Multi-state compliance, state tax registrations, and year-end filings are all included in the standard service at no extra charge.',
+                body: 'BEG manages payroll in all 50 states. Multi-state compliance, state tax registrations, and year-end filings are all included in the standard service.',
               },
             ].map(({ title, body }) => (
               <div key={title} style={{ background: '#fff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>

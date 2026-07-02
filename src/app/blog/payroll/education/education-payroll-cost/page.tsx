@@ -112,7 +112,7 @@ export default function EducationPayrollCostPage() {
 
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "1rem" }}>What Managed Payroll Costs at $25-$45 PEPM</h2>
         <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-          BEG manages school payroll at $25 to $45 per employee per month, all-inclusive. No W-2 fees at year-end. No ACA form surcharge. No separate tax filing fee. The rate covers full payroll processing, tax deposits, 403(b) remittance coordination, substitute daily-rate processing, and ACA tracking.
+          BEG manages school payroll at $25 to $45 per employee per month, all-inclusive. The rate covers full payroll processing, tax deposits, 403(b) remittance coordination, substitute daily-rate processing, and ACA tracking.
         </p>
         <div style={{ overflowX: "auto", marginBottom: "2.5rem" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.9rem" }}>

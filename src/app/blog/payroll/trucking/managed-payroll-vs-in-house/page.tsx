@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: 'Can BEG handle drivers running routes across multiple states?',
-    a: 'Yes. Multi-state payroll tax compliance is included in our standard service at no extra charge per state. We handle registrations, withholding calculations, and state tax filings for every state where your drivers establish nexus. When your route mix changes, we update accordingly.',
+    a: 'Yes. Multi-state payroll tax compliance is included in our standard service. We handle registrations, withholding calculations, and state tax filings for every state where your drivers establish nexus. When your route mix changes, we update accordingly.',
   },
   {
     q: 'How long does it take to get trucking payroll set up with BEG?',

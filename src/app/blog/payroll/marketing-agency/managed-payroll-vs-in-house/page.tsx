@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: 'We have a remote employee starting in a state where we have never had employees before. Does that cost extra?',
-    a: 'No. Adding an employee in a new state is included in the standard BEG engagement at no additional charge. We handle the new state employer registration, withholding setup, and first payroll filing in that state before the employee\'s first paycheck. Most new-state registrations are completed within the same 3 to 5 business day onboarding window.',
+    a: 'No. Adding an employee in a new state is included in the standard BEG engagement. We handle the new state employer registration, withholding setup, and first payroll filing in that state before the employee\'s first paycheck. Most new-state registrations are completed within the same 3 to 5 business day onboarding window.',
   },
   {
     q: 'Can BEG manage both our W-2 employees and our 1099 freelancers on the same platform?',

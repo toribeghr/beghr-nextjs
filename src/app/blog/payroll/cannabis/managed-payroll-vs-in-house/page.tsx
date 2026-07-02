@@ -132,7 +132,7 @@ export default function CannabisComparisonPage() {
           During onboarding, we review your current banking setup, map your payroll funding workflow, confirm your state registrations are current, and configure payroll to match your labor cost allocation structure. We also confirm the correct payroll tax treatment for any tips, bonuses, or commission paid to retail staff.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. Both tiers include all state filings and W-2 generation at no additional charge. For a 25-person dispensary, that is $625 to $1,125 per month, compared to $60,000 to $90,000 annually for a qualified in-house payroll specialist with cannabis industry experience. Most businesses are live within 3 to 5 business days.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. Both tiers include all state filings and W-2 generation. For a 25-person dispensary, that is $625 to $1,125 per month, compared to $60,000 to $90,000 annually for a qualified in-house payroll specialist with cannabis industry experience. Most businesses are live within 3 to 5 business days.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

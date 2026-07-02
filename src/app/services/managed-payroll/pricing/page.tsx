@@ -92,13 +92,6 @@ export default function ManagedPayrollPricingPage() {
           </div>
 
           {/* No gotchas callout */}
-          <div style={{ marginTop: '1.5rem', background: '#000', color: '#fff', borderRadius: '10px', padding: '1.5rem 2rem', display: 'flex', alignItems: 'center', gap: '1.5rem', flexWrap: 'wrap' as const }} className="reveal">
-            <div style={{ fontSize: '1.75rem' }}>✓</div>
-            <div>
-              <strong style={{ color: '#ECAC60', display: 'block', marginBottom: '0.2rem' }}> Ever.</strong>
-              <span style={{ fontSize: '0.9rem', color: '#ccc' }}> No state registration fees. No W-2 fees. The PEPM rate is the total monthly cost.</span>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -180,9 +173,6 @@ export default function ManagedPayrollPricingPage() {
               <tbody>
                 {[
                   ['Monthly cost (50 employees)', '$1,250-$2,250 total', '$6,500-$9,000+ all-in', '$300-$700 + your time', '$7,500-$10,000+'],
-                  ['Per-run fees', 'None', 'N/A', '$25-$150/run', 'None (in admin fee)'],
-                  ['Year-end W-2 fees', 'None', 'N/A', '$3-$10/W-2', 'None (in admin fee)'],
-                  ['State registration fees', 'None', 'N/A', '$150-$400/state', 'None (in admin fee)'],
                   ['Who does the work', 'BEG -- fully managed', 'Your employee', 'You and your team', 'Split between you and PEO'],
                   ['Time to first payroll', '3-5 business days', '6-12 weeks to hire', '4-8 weeks to configure', '30-60 days'],
                   ['Contract / lock-in', 'Month-to-month', 'At-will employment', 'Month-to-month or annual', 'Annual minimum'],
@@ -241,7 +231,7 @@ export default function ManagedPayrollPricingPage() {
                 Get your flat monthly cost in a 15-minute call.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.95rem' }}>
-                We review your headcount, states, pay schedules, and current setup. You walk away with a single number -- your exact BEG monthly cost -- with nothing excluded and no commitment required.
+                We review your headcount, states, pay schedules, and current setup. You walk away with a single number, your exact BEG monthly cost, with no commitment required.
               </p>
               <PricingCta service="managed-payroll" subline={false} />
             </div>
@@ -259,15 +249,11 @@ export default function ManagedPayrollPricingPage() {
           <div className="faq reveal">
             <div className="faq-item">
               <h3>Is there a minimum employee count?</h3>
-              <p>No hard minimum. BEG works with companies from 5 employees to several hundred. At very small headcounts the economics tighten, which is why your discovery call confirms the exact rate -- we will tell you if a different approach makes more sense for your situation.</p>
-            </div>
-            <div className="faq-item">
-              <h3>Is there a setup fee?</h3>
-              <p>No. There is no onboarding fee, and no implementation fee. The monthly PEPM rate starts when your first live payroll runs. If you are migrating to iSolved (Tier 2), BEG handles the migration -- no separate charge.</p>
+              <p>BEG works with companies from 5 employees to several hundred. Monthly billing is the greater of $500 or your employee count multiplied by your PEPM rate, so at very small headcounts the $500 monthly minimum applies.</p>
             </div>
             <div className="faq-item">
               <h3>Is there a contract or minimum commitment?</h3>
-              <p>BEG operates month-to-month. There is no annual contract requirement and no cancellation fee. Most clients stay because the service works -- not because they are locked in.</p>
+              <p>BEG operates month-to-month. There is no annual contract requirement. Most clients stay because the service works -- not because they are locked in.</p>
             </div>
             <div className="faq-item">
               <h3>What if my headcount changes month to month?</h3>
@@ -275,7 +261,7 @@ export default function ManagedPayrollPricingPage() {
             </div>
             <div className="faq-item">
               <h3>Do you charge for multi-state payroll?</h3>
-              <p>No. Multi-state payroll is included in the flat PEPM rate. State registrations, SUTA filings, and local tax handling for every state where you have employees are covered. Adding a new state is handled by your BEG contact at no additional charge.</p>
+              <p>Ongoing multi-state payroll is included in the flat PEPM rate: state registrations, SUTA filings, and local tax handling for every state where you have employees. A one-time $300 multi-state setup fee applies.</p>
             </div>
             <div className="faq-item">
               <h3>Are W-2s and year-end included?</h3>
@@ -318,10 +304,9 @@ export default function ManagedPayrollPricingPage() {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'Is there a setup fee for managed payroll?', acceptedAnswer: { '@type': 'Answer', text: 'No. There is no onboarding fee, setup charge, or implementation fee. The monthly PEPM rate starts when your first live payroll runs.' } },
-              { '@type': 'Question', name: 'Is there a contract or minimum commitment?', acceptedAnswer: { '@type': 'Answer', text: 'BEG operates month-to-month. No annual contract, no cancellation fee.' } },
+              { '@type': 'Question', name: 'Is there a contract or minimum commitment?', acceptedAnswer: { '@type': 'Answer', text: 'BEG operates month-to-month with no annual contract requirement.' } },
               { '@type': 'Question', name: 'How much does managed payroll cost per employee?', acceptedAnswer: { '@type': 'Answer', text: 'BEG managed payroll costs $25 per employee per month when operating in your existing system, or $45 per employee per month when migrating to iSolved. Both rates are all-inclusive.' } },
-              { '@type': 'Question', name: 'Is multi-state payroll included in the price?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Multi-state payroll is included in the flat PEPM rate. State registrations, SUTA filings, and local tax handling are all covered at no additional charge.' } },
+              { '@type': 'Question', name: 'Is multi-state payroll included in the price?', acceptedAnswer: { '@type': 'Answer', text: 'Ongoing multi-state payroll is included in the flat PEPM rate. A one-time $300 multi-state setup fee applies.' } },
               { '@type': 'Question', name: 'Are W-2s and year-end included in managed payroll pricing?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. W-2 preparation, SSA filing, employee delivery, and year-end reconciliation are all included in the monthly PEPM rate.' } },
             ],
           }),

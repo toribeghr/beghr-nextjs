@@ -248,7 +248,7 @@ export default function PayrollMarketingAgencyPage() {
             </div>
             <div className="faq-item">
               <h3>Can you register us in a state where we just hired our first remote employee?</h3>
-              <p>Yes -- and this is included at no additional charge. When you hire someone in a new state, we initiate the registration, get your accounts set up, and configure withholding before the first paycheck in that state. We track every state where you have payroll obligations and stay ahead of your hiring.</p>
+              <p>Yes -- this is included in the standard service. When you hire someone in a new state, we initiate the registration, get your accounts set up, and configure withholding before the first paycheck in that state. We track every state where you have payroll obligations and stay ahead of your hiring.</p>
             </div>
             <div className="faq-item">
               <h3>How long does it take to get started with managed marketing agency payroll?</h3>

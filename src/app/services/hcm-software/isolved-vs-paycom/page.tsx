@@ -1,7 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'isolved vs Paycom | Instant Price Quote, 330% ROI | BEG',
@@ -19,7 +18,6 @@ export const metadata: Metadata = {
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function isolvedVsPaycomPage() {
   return (
@@ -34,9 +32,7 @@ export default function isolvedVsPaycomPage() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
             Paycom built its reputation on a single-database model. The isolved platform built its reputation on mid-market service and a true all-in-one platform. Here&apos;s how they compare today.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            Talk to a BEG HCM Specialist
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -151,14 +147,6 @@ export default function isolvedVsPaycomPage() {
       </section>
 
       {/* CTA */}
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
@@ -167,9 +155,7 @@ export default function isolvedVsPaycomPage() {
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15-minute call. We&apos;ll walk through your setup, run a cost comparison, and show you what isolved + BEG looks like for your company.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 

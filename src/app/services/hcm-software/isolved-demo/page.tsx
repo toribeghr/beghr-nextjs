@@ -1,5 +1,5 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'isolved Demo | Instant Price Quote + Book a Demo | BEG', description: 'What an isolved demo covers, what to ask before you book one, and how BEG runs a discovery-first walkthrough tailored to your actual environment and questions.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -82,9 +81,7 @@ export default function IsolvedDemo() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
             Most software demos show you features. A BEG-led isolved demo starts with your situation: your current system, your pain points, your industry, and what you actually need to see. Then it shows you the platform through that lens. Here is how it works and what to prepare.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            Book Your isolved Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -160,9 +157,7 @@ export default function IsolvedDemo() {
           <p style={{ color: '#cccccc', fontSize: '1.05rem', marginBottom: '1.5rem', maxWidth: '650px', margin: '0 auto 1.5rem' }}>
             The 15-minute discovery call comes first. BEG learns about your current environment, your employee count, and what you are trying to accomplish. Then the demo is built around your situation, not a generic script.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem', display: 'inline-block' }}>
-            Book the 15-Minute Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
           <p style={{ color: '#888', fontSize: '0.85rem', marginTop: '0.75rem' }}>No obligation. We show you what isolved looks like for your situation and give you a cost comparison on the same call.</p>
         </div>
       </section>

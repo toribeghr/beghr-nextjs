@@ -1,7 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'HCM Software for Agriculture | Instant Price Quote | BEG',
@@ -18,7 +17,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'HCM Software for Agriculture | Instant Price Quote | BEG', description: 'HCM software built for agriculture: seasonal workforce, multi-state compliance, piece-rate and hourly pay, and H-2A visa tracking on one connected isolved platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -83,9 +81,7 @@ export default function HCMAgriculture() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
             Agricultural payroll is not standard payroll. Piece-rate pay, seasonal swings, H-2A visa workers, and multi-state compliance mean generic HCM tools break down where you need them most. The isolved platform handles it all in one connected system. BEG implements and supports it for your operation.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            Talk to a BEG HCM Specialist
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -167,14 +163,6 @@ export default function HCMAgriculture() {
       </section>
 
       {/* Calculator */}
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does each worker really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
 
       {/* CTA */}
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
@@ -185,9 +173,7 @@ export default function HCMAgriculture() {
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15-minute call. We walk through your pay types, workforce structure, and current system, then show you exactly how isolved handles it.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 

@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
@@ -24,7 +25,6 @@ export const metadata: Metadata = {
   },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -212,9 +212,7 @@ export default function StaffingAgencyPayrollGuidePage() {
             <p style={{ color: '#cccccc', lineHeight: '1.7', maxWidth: '560px', margin: '0 auto 2rem', fontSize: '0.95rem' }}>
               Reliable weekly cycles, correct W-2 and 1099 handling, client-billable reporting, high-volume onboarding, and multi-state temps, all handled by your dedicated BEG payroll contact. Scale placements without scaling headcount.
             </p>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Book a Free 15-Minute Call
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
       </section>

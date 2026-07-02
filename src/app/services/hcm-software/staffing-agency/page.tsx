@@ -1,8 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
 import RelatedPosts from '@/components/RelatedPosts';
-import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
   title: 'isolved HCM for Staffing Agencies | Instant Quote | BEG',
@@ -31,6 +30,7 @@ export default function HCMStaffingAgencyPage() {
       title="One platform for high-volume onboarding and multi-client payroll."
       description="Staffing HR means onboarding people constantly, running payroll across many client assignments, and tracking who is placed where. isolved People Cloud handles all of it in one connected platform. Implemented and supported by BEG."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="hcm-software" />}
       heroStats={[
         { value: 'isolved', label: 'People Cloud, all-in-one HCM' },
         { value: '330%', label: 'ROI documented by Forrester' },
@@ -162,9 +162,7 @@ export default function HCMStaffingAgencyPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Book a 15-Minute Discovery Call
-            </Link>
+            <PricingCta service="hcm-software" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>We will show you the platform, walk through your current setup, and give you a no-obligation cost comparison.</p>
           </div>
         </div>
@@ -254,14 +252,6 @@ export default function HCMStaffingAgencyPage() {
           },
         ]}
       />
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>Free tool: calculate overtime the right way</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Bonuses and multiple pay rates change the math. Enter the week and see the correct FLSA overtime owed. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <OvertimePayCalculator />
     </ServicePage>
   );
 }

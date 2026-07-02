@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -23,7 +24,6 @@ export const metadata: Metadata = {
   },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function ResourcesPage() {
   return (
@@ -285,9 +285,7 @@ export default function ResourcesPage() {
           <p style={{ color: '#cccccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             A BEG payroll specialist will review your current setup, answer your questions, and tell you what managed payroll would cost for your team. No commitment required.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Free 15-Minute Call
-          </Link>
+          <PricingCta service="managed-payroll" subline={false} />
           <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>
             Or learn more about <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>BEG managed payroll services</Link>.
           </p>

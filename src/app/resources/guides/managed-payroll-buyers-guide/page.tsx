@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
@@ -24,7 +25,6 @@ export const metadata: Metadata = {
   },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function BuyersGuidePage() {
   return (
@@ -152,9 +152,7 @@ export default function BuyersGuidePage() {
           <p style={{ color: '#555555', lineHeight: '1.7', margin: '1rem 0 2rem' }}>
             BEG will review your current payroll setup, answer every question in this guide, and give you an exact PEPM quote on the call. No pressure. No commitment.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Free 15-Minute Call
-          </Link>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
       </section>
     </>

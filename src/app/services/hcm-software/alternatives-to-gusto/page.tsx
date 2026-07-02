@@ -1,7 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Gusto Alternative | Instant Price Quote + Claude AI | BEG',
@@ -19,7 +18,6 @@ export const metadata: Metadata = {
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -75,9 +73,7 @@ export default function AlternativesToGustoPage() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
             Gusto is a small business favorite with an easy interface. As companies grow into complex multi-state payroll and the mid-market, many look for a platform with a managed service behind it. Here is the honest comparison.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            See isolved vs. Gusto for Free
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -182,14 +178,6 @@ export default function AlternativesToGustoPage() {
       </section>
 
       {/* CTA */}
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>
@@ -198,9 +186,7 @@ export default function AlternativesToGustoPage() {
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15 minute call. We will run a side-by-side comparison and show you what the switch looks like for your company, with no commitment required.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 

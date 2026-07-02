@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -23,7 +24,6 @@ export const metadata: Metadata = {
   },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function CalculatorsPage() {
   return (
@@ -264,9 +264,7 @@ export default function CalculatorsPage() {
           <p style={{ color: '#cccccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             After you run the calculator, book a call. BEG will confirm your exact PEPM rate, review your current setup, and answer any questions before you commit to anything.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Free 15-Minute Call
-          </Link>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
       </section>
     </>

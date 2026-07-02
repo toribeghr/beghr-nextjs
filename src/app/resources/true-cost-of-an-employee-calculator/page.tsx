@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
-import { getCalendlyLink } from '@/lib/services';
 
 const DESC =
   'Free true cost of an employee calculator. Add base pay, employer payroll taxes (FICA, FUTA, SUTA), workers’ comp, benefits, and overhead to see the fully loaded annual and hourly cost and burden multiplier. No email required.';
@@ -46,7 +46,6 @@ const FAQ = [
 ];
 
 export default function TrueCostCalculatorPage() {
-  const calendly = getCalendlyLink();
 
   return (
     <>
@@ -153,9 +152,7 @@ export default function TrueCostCalculatorPage() {
           <p style={{ color: '#ccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             A dedicated payroll hire is a $60,000 to $100,000 loaded cost. BEG fully managed payroll runs at $25 to $45 PEPM, all-inclusive, and replaces that overhead. Book a free 15-minute discovery call.
           </p>
-          <Link href={calendly} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Free Discovery Call
-          </Link>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
       </section>
     </>

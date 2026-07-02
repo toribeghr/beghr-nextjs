@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
-import { getCalendlyLink } from '@/lib/services';
 
 const DESC =
   'Free FLSA overtime calculator. Get the correct regular rate of pay including nondiscretionary bonuses and blended multiple pay rates, plus daily-overtime flags for states like California. No email required.';
@@ -46,7 +46,6 @@ const FAQ = [
 ];
 
 export default function OvertimePayCalculatorPage() {
-  const calendly = getCalendlyLink();
 
   return (
     <>
@@ -153,9 +152,7 @@ export default function OvertimePayCalculatorPage() {
           <p style={{ color: '#ccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             BEG fully managed payroll runs at $25 to $45 PEPM, all-inclusive, and calculates regular-rate, blended-rate, and bonus overtime correctly on every cycle so you avoid back-pay and penalties. Book a free 15-minute discovery call.
           </p>
-          <Link href={calendly} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Free Discovery Call
-          </Link>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
       </section>
     </>

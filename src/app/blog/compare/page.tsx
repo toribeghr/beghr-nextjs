@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -292,10 +293,7 @@ export default function ComparePage() {
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
             Free 15-minute discovery call. Whether it's payroll operations or attorney hiring, we'll ask about your situation and tell you honestly whether BEG is the right fit.
           </p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
       </section>

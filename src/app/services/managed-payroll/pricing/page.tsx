@@ -1,6 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Pricing | Instant Quote in 90 Seconds | BEG',
@@ -18,7 +18,6 @@ export const metadata: Metadata = {
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function ManagedPayrollPricingPage() {
   return (
@@ -67,9 +66,7 @@ export default function ManagedPayrollPricingPage() {
                 <strong style={{ display: 'block', marginBottom: '0.4rem', color: '#000' }}>Best for:</strong>
                 Companies satisfied with their current platform who want payroll off their plate without changing software or disrupting existing workflows.
               </div>
-              <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ width: '100%', textAlign: 'center', display: 'block', padding: '0.85rem 1rem' }}>
-                Get My Exact Quote
-              </Link>
+              <PricingCta service="managed-payroll" subline={false} />
             </div>
 
             {/* Tier 2 */}
@@ -90,9 +87,7 @@ export default function ManagedPayrollPricingPage() {
                 <strong style={{ display: 'block', marginBottom: '0.4rem', color: '#000' }}>Best for:</strong>
                 Companies ready to upgrade to a purpose-built HCM platform and get access to employee self-service, integrated benefits, and automated compliance -- not just payroll processing.
               </div>
-              <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ width: '100%', textAlign: 'center', display: 'block', padding: '0.85rem 1rem' }}>
-                Get My Exact Quote
-              </Link>
+              <PricingCta service="managed-payroll" subline={false} />
             </div>
           </div>
 
@@ -248,15 +243,7 @@ export default function ManagedPayrollPricingPage() {
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.95rem' }}>
                 We review your headcount, states, pay schedules, and current setup. You walk away with a single number -- your exact BEG monthly cost -- with nothing excluded and no commitment required.
               </p>
-              <Link
-                href={CALENDLY}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn--gold"
-                style={{ marginTop: '1rem', display: 'inline-block', fontSize: '0.95rem', padding: '0.85rem 2rem' }}
-              >
-                Book a Free Discovery Call
-              </Link>
+              <PricingCta service="managed-payroll" subline={false} />
             </div>
           </div>
         </div>
@@ -356,16 +343,6 @@ export default function ManagedPayrollPricingPage() {
         }}
       />
       {/* PAYROLL FEE AUDITOR */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Comparing our pricing to a quote you got? Audit it.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>We are flat $25 to $45 PEPM, all-inclusive. Run any competitor quote through the auditor to see its real cost per employee and which add-on fees are hiding inside. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <HiddenFeeAuditor />
     </>
   );
 }

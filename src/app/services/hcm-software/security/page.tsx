@@ -1,7 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'HCM for Security Companies | Instant Price Quote | BEG',
@@ -18,7 +17,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'HCM for Security Companies | Instant Price Quote | BEG', description: 'HCM software for security firms: shift-based scheduling, multi-site time tracking, licensing compliance, and multi-state payroll on one connected isolved platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -83,9 +81,7 @@ export default function HCMSecurity() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
             Security companies run on shift coverage, guard licensing, multi-site scheduling, and multi-state compliance. Generic HCM tools are not built for any of that. The isolved platform handles it all in one connected system. BEG implements and supports it for your firm.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            Talk to a BEG HCM Specialist
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -166,14 +162,6 @@ export default function HCMSecurity() {
         </div>
       </section>
 
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does each officer really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded cost per employee. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
 
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
@@ -183,9 +171,7 @@ export default function HCMSecurity() {
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15-minute call. We review your shift structure, licensing requirements, and current system, then show you what isolved handles for you.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 

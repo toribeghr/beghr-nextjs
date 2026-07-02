@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -20,7 +21,6 @@ export const metadata: Metadata = {
   },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -227,10 +227,7 @@ export default function GustoAlternativesPage() {
           <p style={{ marginBottom: '1.5rem' }}>
             BEG managed payroll costs $25 to $45 per employee per month -- all-inclusive, no migration required, and your rate is locked for 24 months. In 15 minutes we will show you exactly what it costs for your headcount.
           </p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -308,10 +305,7 @@ export default function GustoAlternativesPage() {
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>
             Free 15-minute call. We will look at your current Gusto setup and give you a straight comparison -- what it costs, what changes, and what you can stop doing.
           </p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none', fontSize: '1.05rem' }}>
-            Book a Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>

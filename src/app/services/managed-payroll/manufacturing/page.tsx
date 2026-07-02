@@ -1,7 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -32,6 +31,7 @@ export default function PayrollManufacturingPage() {
       title="Manufacturing payroll lives or dies on the overtime math. We run it right."
       description="Shift differentials, blended-rate overtime, piece-rate work, production bonuses, multiple plants across state lines, and union locals make manufacturing payroll a specialty. We manage all of it at $25-$45 per employee per month -- fully managed, no migration required."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
         { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'Blended rate', label: 'Overtime calculated correctly on shift and bonus pay' },
@@ -229,9 +229,7 @@ export default function PayrollManufacturingPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Request a Free Scope Review
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your payroll, give you a fixed monthly cost, and show you what transition looks like.</p>
           </div>
         </div>
@@ -342,16 +340,6 @@ export default function PayrollManufacturingPage() {
       />
 
       {/* OVERTIME PAY CALCULATOR */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Paying shift differentials? Check what overtime really costs on the blended rate.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>On a plant floor, second and third shift premiums and production bonuses fold into the FLSA regular rate, so overtime is owed on the blended rate, not the base wage. Use the blended-rate mode to see what an overtime hour actually costs once shift pay is included. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <OvertimePayCalculator />
     </ServicePage>
   );
 }

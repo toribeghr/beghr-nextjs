@@ -1,6 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'The 2026 Engineering Talent Shortage Report | BEG',
@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'The 2026 Engineering Talent Shortage Report | BEG', description: 'Mechanical, electrical, and civil engineers remain in short supply in 2026 across defense, manufacturing, energy, and infrastructure. What the engineering talent gap means for hiring managers.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('resources/talent-shortage-report/engineering');
 
 const faqs = [
       {
@@ -75,7 +74,7 @@ export default function Page() {
           <div style={{ background: '#000000', color: '#ffffff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0 0', textAlign: 'center' }}>
             <h2 style={{ color: '#ffffff', fontSize: '1.4rem', fontWeight: 800, marginBottom: '0.75rem' }}>Hiring into this shortage?</h2>
             <p style={{ color: '#cccccc', marginBottom: '1.25rem' }}>BEG reaches the passive candidates a posting never will, and fills permanent roles in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.</p>
-            <a href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>Book a 15-Minute Discovery Call</a>
+            <PricingCta service="job-placement" subline={false} />
           </div>
 
           <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Frequently Asked Questions</h2>

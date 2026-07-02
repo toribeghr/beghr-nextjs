@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -88,12 +89,7 @@ export default function SecurityPayrollHubPage() {
             >
               Security Company Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
       </section>

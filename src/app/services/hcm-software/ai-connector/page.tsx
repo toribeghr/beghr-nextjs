@@ -1,5 +1,5 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
 
@@ -65,9 +65,7 @@ export default function AIConnectorPage() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
             isolved gives your HR team a connected platform plus a generally available Connector for Claude. You describe the work in plain language, and it gets completed inside isolved. Not a chatbot. A platform that does the task.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            Talk to a BEG HCM Specialist
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -233,9 +231,7 @@ export default function AIConnectorPage() {
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15-minute call. We will review your current setup, show you the isolved Connector for Claude completing real HR tasks, and map out what isolved managed by BEG looks like for your company.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 

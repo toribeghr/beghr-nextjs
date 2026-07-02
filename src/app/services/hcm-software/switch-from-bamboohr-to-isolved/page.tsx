@@ -1,7 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Switch BambooHR to isolved | Instant Price Quote | BEG',
@@ -18,7 +17,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'Switch BambooHR to isolved | Instant Price Quote | BEG', description: 'BambooHR is thin on payroll. Switching to isolved brings everything onto one connected platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -82,9 +80,7 @@ export default function SwitchFromBambooHRPage() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
             BambooHR built its reputation as a clean, friendly HR tool. But it is not a payroll platform. Companies that outgrow that gap end up running HR in BambooHR and payroll somewhere else, which means two systems, two support contacts, and data that never quite agrees. The isolved platform puts payroll, HR, time, and benefits together, and BEG manages the move.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -167,20 +163,10 @@ export default function SwitchFromBambooHRPage() {
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15-minute call. BEG will review your setup, run a cost comparison, and give you a clear migration plan at no obligation.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
 
       <RelatedPosts
         heading="From the blog"

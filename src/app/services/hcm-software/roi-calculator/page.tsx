@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import HCMROICalculator from '@/components/HCMROICalculator';
@@ -18,7 +19,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'isolved HCM ROI Calculator | Instant Price Quote | BEG', description: 'Estimate the ROI of consolidating onto one HCM platform. Forrester documented 330% ROI for isolved clients.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function HCMROICalculatorPage() {
   return (
@@ -71,15 +71,7 @@ export default function HCMROICalculatorPage() {
             <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem', maxWidth: '560px', margin: '0 auto 2rem' }}>
               The calculator uses conservative averages. Your BEG contact will map your exact systems, workflows, and headcount and show you the real return of moving to one platform that BEG implements and supports for you.
             </p>
-            <Link
-              href={CALENDLY}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn--gold"
-              style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}
-            >
-              Book a Free 15-Minute Discovery Call
-            </Link>
+            <PricingCta service="hcm-software" subline={false} />
             <p style={{ color: '#666666', fontSize: '0.82rem', marginTop: '0.85rem' }}>
               No commitment. No sales pressure. Just the numbers.
             </p>

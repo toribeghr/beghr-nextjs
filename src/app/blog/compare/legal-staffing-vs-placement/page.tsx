@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function LegalStaffingVsPlacementPage() {
   return (
@@ -132,10 +132,7 @@ export default function LegalStaffingVsPlacementPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Looking for a permanent attorney hire -- not a temp?</h3>
           <p style={{ marginBottom: '1.5rem' }}>BEG fills permanent attorney roles in 23–35 days on average, at roughly 50% less than standard contingency fees. Here's what that looks like for your open role.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -159,10 +156,7 @@ export default function LegalStaffingVsPlacementPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Talk to BEG about your open attorney role</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll ask about the role, your timeline, and what you've already tried. If we're the right fit, we'll tell you exactly how the process works and what it costs.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call →
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>

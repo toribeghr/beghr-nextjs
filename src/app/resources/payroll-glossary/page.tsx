@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -347,9 +348,7 @@ export default function PayrollGlossaryPage() {
             <p style={{ color: '#ccc', marginBottom: '1.5rem', maxWidth: '520px', margin: '0 auto 1.5rem' }}>
               BEG handles every term in this glossary for you. Fully managed payroll at $25-$45 per employee per month. Book a free 15-minute call to see how it works.
             </p>
-            <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" style={{ background: 'linear-gradient(135deg,#ECAC60,#d4924a)', color: '#000', fontWeight: '700', padding: '0.85rem 2rem', borderRadius: '6px', textDecoration: 'none', display: 'inline-block', marginBottom: '1rem' }}>
-              Book a Free Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ margin: 0 }}>
               <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontSize: '0.9rem' }}>Learn about BEG Managed Payroll</Link>
             </p>

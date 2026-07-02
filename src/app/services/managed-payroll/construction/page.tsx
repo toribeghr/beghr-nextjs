@@ -1,7 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import StateComplianceChecker from '@/components/StateComplianceChecker';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -32,6 +31,7 @@ export default function PayrollConstructionPage() {
       title="Construction payroll is certified payroll. We run it right."
       description="Prevailing wage, certified payroll reports, fringe benefits, union locals, and crews that move between job sites and states make construction payroll a specialty. We manage all of it at $25–$45 per employee per month -- fully managed, no migration required."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
         { value: 'WH-347', label: 'Certified payroll reports filed for you' },
@@ -229,9 +229,7 @@ export default function PayrollConstructionPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Request a Free Scope Review
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your payroll, give you a fixed monthly cost, and show you what transition looks like.</p>
           </div>
         </div>
@@ -342,16 +340,6 @@ export default function PayrollConstructionPage() {
       />
 
       {/* STATE PAYROLL COMPLIANCE CHECKER */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Crews working in more than one state? Check the payroll rules where you build.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Construction crews cross state and county lines, and every state sets its own minimum wage, payday frequency, new-hire reporting deadline, and paid-leave rules on top of prevailing wage. Pick a state to see what applies before your next job mobilizes. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <StateComplianceChecker />
     </ServicePage>
   );
 }

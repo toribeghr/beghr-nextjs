@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -31,6 +31,7 @@ export default function PayrollWestVirginiaPage() {
       title="West Virginia payroll, fully managed at $25-$45 PEPM. Your team does nothing."
       description="BEG provides fully managed payroll for West Virginia employers at $25-$45 per employee per month, all-inclusive. No migration required. Your team approves payroll and receives reports. We handle everything else."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
         { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered from one account' },
@@ -78,7 +79,7 @@ export default function PayrollWestVirginiaPage() {
         <div className="container" style={{ maxWidth: '600px' }}>
           <h2 style={{ color: '#ECAC60', marginBottom: '1rem' }}>Ready to hand off West Virginia payroll?</h2>
           <p style={{ color: '#ccc', marginBottom: '2rem' }}>15-minute discovery call. We scope your situation and tell you exactly what BEG would handle.</p>
-          <a href={CALENDLY} className="btn btn--gold">Book a Free Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
           <p style={{ color: '#888', fontSize: '0.85rem', marginTop: '1rem' }}>$25-$45 PEPM all-inclusive. No migration required. Live in 3-5 business days.</p>
         </div>
       </section>
@@ -113,16 +114,6 @@ export default function PayrollWestVirginiaPage() {
       />
 
       {/* PAYROLL FEE AUDITOR */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Paying for payroll in West Virginia? See what you are really paying.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Enter your numbers to see your real cost per employee per month, how much you may be losing to add-on fees, and exactly what to get in writing before you sign. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <HiddenFeeAuditor />
     </ServicePage>
   );
 }

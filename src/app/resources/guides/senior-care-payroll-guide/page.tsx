@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
@@ -201,9 +202,7 @@ export default function SeniorCarePayrollGuidePage() {
             <p style={{ color: '#cccccc', lineHeight: '1.7', maxWidth: '560px', margin: '0 auto 2rem', fontSize: '0.95rem' }}>
               Shift differentials blended into overtime, clean high-turnover processing, compensable training pay, and unit-level cost coding, all handled by a dedicated BEG contact. No surcharges. No per-form fees.
             </p>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Book a Free 15-Minute Call
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
       </section>

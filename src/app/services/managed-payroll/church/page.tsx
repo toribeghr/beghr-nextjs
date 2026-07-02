@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -32,6 +32,7 @@ export default function PayrollChurchPage() {
       title="Managed Payroll for Churches and Faith-Based Organizations"
       description="Minister housing allowance, dual-status clergy, and SECA elections -- done right. Church and faith-based organization payroll has no equivalent in any other industry: ministers operate as employees for income tax purposes but self-employed for Social Security, housing allowances must be pre-designated before the year they are paid, and FICA exemption elections for religious organizations carry their own requirements. We manage all of it at $25–$45 per employee per month."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered, including multi-campus organizations' },
@@ -207,9 +208,7 @@ export default function PayrollChurchPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Request a Free Scope Review
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your ministerial payroll, housing allowance setup, and FICA election status -- and give you a fixed monthly cost.</p>
           </div>
         </div>
@@ -304,16 +303,6 @@ export default function PayrollChurchPage() {
       />
 
       {/* PAYROLL FEE AUDITOR */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Running Church payroll? See what you are really paying.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Church employers get nickel-and-dimed on per-run, off-cycle, and year-end fees. Enter your numbers to see your real cost per employee, what you may be overpaying, and what to get in writing. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <HiddenFeeAuditor />
     </ServicePage>
   );
 }

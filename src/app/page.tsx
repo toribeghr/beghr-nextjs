@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import HeroVideoBox from '@/components/HeroVideoBox';
+import PricingCta from '@/components/pricing/PricingCta';
 
 const heroVideoCss = `
 .hero-video-split{display:flex;flex-direction:column;gap:6px}
@@ -31,8 +32,6 @@ export const metadata: Metadata = {
   },
   twitter: { card: 'summary_large_image', title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG', description: 'BEG delivers fully managed payroll at $25–$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23–35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
-
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function Home() {
   return (
@@ -65,9 +64,7 @@ export default function Home() {
             </p>
             <HeroVideoBox videoId="G4R14pQT3y8" title="Business Executive Group" />
             <div className="hero-cta hv-cta">
-              <a className="btn btn--gold" href={CALENDLY} target="_blank" rel="noopener noreferrer">
-                Book a Discovery Call
-              </a>
+              <PricingCta service="chooser" />
             </div>
           </div>
           <div className="trust-row">
@@ -322,14 +319,7 @@ export default function Home() {
             </p>
           </div>
           <div style={{ textAlign: 'center', marginTop: '32px' }}>
-            <a
-              className="btn btn--gold"
-              href={CALENDLY}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book a Discovery Call
-            </a>
+            <PricingCta service="chooser" subline={false} />
           </div>
         </div>
       </section>

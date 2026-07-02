@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function ContingencyVsRetainedVsMilestonePage() {
   return (
@@ -145,10 +145,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>How long has your current attorney search been open?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If it's been more than 30 days, we should talk. We'll show you what the BEG placement model looks like for your specific role -- cost, timeline, and what the process involves.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -184,10 +181,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Find out if BEG placement is right for your open role</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll ask about your role, timeline, and what you've tried -- and give you a straight answer on whether the milestone model fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>

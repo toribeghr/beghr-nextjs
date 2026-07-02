@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function ManagedPayrollVsADPPage() {
   const faqs = [
@@ -145,10 +145,7 @@ export default function ManagedPayrollVsADPPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Currently on ADP and wondering if there's a better option?</h3>
           <p style={{ marginBottom: '1.5rem' }}>We'll run a side-by-side cost and service comparison using your actual ADP contract and headcount. No obligation to switch.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -244,10 +241,7 @@ export default function ManagedPayrollVsADPPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Get a straight comparison for your situation</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. If ADP is the right answer for you, we'll tell you that. If there's a better fit, we'll show you exactly what it looks like.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>

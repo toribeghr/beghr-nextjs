@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
@@ -69,9 +70,7 @@ export default function SearchPlaybookPage() {
           <p style={{ color: '#cccccc', lineHeight: 1.7, marginBottom: '2rem' }}>
             BEG runs this playbook for you and fills the seat in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.
           </p>
-          <Link href={calendly} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="job-placement" subline={false} />
         </div>
       </section>
     </>

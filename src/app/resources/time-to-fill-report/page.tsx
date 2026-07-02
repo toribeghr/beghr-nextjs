@@ -1,6 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Time-to-Fill Benchmark Report 2026 | BEG',
@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'Time-to-Fill Benchmark Report 2026 | BEG', description: 'Average days-to-fill by role in 2026, from public hiring benchmarks, each set against BEG permanent placement at a 23-35 day average.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('time-to-fill-report');
 
 export default function TimeToFillReportPage() {
   return (
@@ -116,7 +115,7 @@ export default function TimeToFillReportPage() {
           <div style={{ background: '#000000', color: '#ffffff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0 0', textAlign: 'center' }}>
             <h2 style={{ color: '#ffffff', fontSize: '1.4rem', fontWeight: 800, marginBottom: '0.75rem' }}>Need to fill a role faster than the benchmark?</h2>
             <p style={{ color: '#cccccc', marginBottom: '1.25rem' }}>BEG fills permanent roles in 23-35 days at roughly 50% less than contingency, with a 45-day replacement guarantee.</p>
-            <a href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>Book a 15-Minute Discovery Call</a>
+            <PricingCta service="job-placement" subline={false} />
           </div>
 
           <p style={{ marginTop: '2rem' }}>See how we cut time-to-fill with our <Link href="/services/job-placement" style={{ color: '#000000', fontWeight: 600 }}>permanent job placement service</Link>, or benchmark pay with the <Link href="/resources/salary-guide" style={{ color: '#000000', fontWeight: 600 }}>BEG Salary and Hiring Guide</Link>.</p>

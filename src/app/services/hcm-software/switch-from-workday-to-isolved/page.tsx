@@ -1,7 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'Switch Workday to isolved | Instant Price Quote | BEG',
@@ -18,7 +17,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image' as const, title: 'Switch Workday to isolved | Instant Price Quote | BEG', description: 'Mid-market companies switching from Workday to isolved get a purpose-built platform at the right scale.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -82,9 +80,7 @@ export default function SwitchFromWorkdayPage() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '700px' }}>
             Workday is genuinely impressive software for the organizations it was built for. A 5,000-person enterprise with a large HRIT team gets real value from it. A 150-person mid-market company often gets enterprise complexity, enterprise pricing, and support designed for clients ten times their size. The isolved platform is purpose-built for the mid-market, and BEG manages every step of the transition.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -167,20 +163,10 @@ export default function SwitchFromWorkdayPage() {
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15-minute call. BEG will review your Workday setup, run a cost comparison, and give you a clear migration plan at no obligation.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded cost. Free, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
 
       <RelatedPosts
         heading="From the blog"

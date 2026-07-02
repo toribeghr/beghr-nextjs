@@ -1,5 +1,5 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'In-House Recruiter vs Agency: Which to Use | BEG',
@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'In-House Recruiter vs Agency: Which to Use | BEG', description: 'In-house recruiter vs agency compared on cost, speed, and passive candidate reach. See where milestone-based placement beats both for urgent roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/compare/in-house-recruiter-vs-agency');
 
 export default function InHouseRecruiterVsAgencyPage() {
   return (
@@ -126,10 +125,7 @@ export default function InHouseRecruiterVsAgencyPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Have one urgent role, not a hiring program?</h3>
           <p style={{ marginBottom: '1.5rem' }}>You do not need to build a team or commit to a contingency agency to fill it. We will show you what milestone-based placement looks like for that specific role.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -152,10 +148,7 @@ export default function InHouseRecruiterVsAgencyPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your open role without a fixed cost</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role and the timeline, and we will tell you honestly whether in-house, an agency, or milestone placement is the right move.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>

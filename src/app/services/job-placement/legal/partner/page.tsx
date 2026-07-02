@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -28,6 +28,7 @@ export default function PlacementLegalPartnerPage() {
       title="A lateral partner search requires a different approach than an associate search."
       description="Lateral partners are never on job boards. They are running books of business and fielding private conversations, not responding to postings. We conduct confidential lateral partner searches in 23-35 days at roughly 50% less than contingency firms."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="job-placement" industry="legal" />}
       heroStats={[
         { value: '23-35', label: 'Days to fill on average' },
         { value: '86%', label: 'Fill rate on active searches' },
@@ -88,16 +89,6 @@ export default function PlacementLegalPartnerPage() {
       </section>
 
       {/* JOB DESCRIPTION GRADER */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Hiring Tool</p>
-            <h2>Recruiting a lateral partner? Start with a strong opportunity profile.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>A vague or generic opportunity profile kills partner interest before the conversation starts. Paste your role description and get an instant 0 to 100 score, plus the fixes that make a strong candidate take the call. Free, instant, and nothing you paste leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <JobDescriptionGrader />
 
       {/* SCARCITY */}
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
@@ -119,9 +110,7 @@ export default function PlacementLegalPartnerPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Book a 15-Minute Discovery Call
-            </Link>
+            <PricingCta service="job-placement" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>No commitment. We will tell you exactly what we can do for your lateral partner search and what it costs.</p>
           </div>
         </div>

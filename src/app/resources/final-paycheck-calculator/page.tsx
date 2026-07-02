@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
-import { getCalendlyLink } from '@/lib/services';
 
 const DESC =
   'Free final paycheck calculator. Pick any of the 50 states, choose fired or quit, and get the exact deadline to issue a final check plus the PTO payout rule. No email required.';
@@ -46,7 +46,6 @@ const FAQ = [
 ];
 
 export default function FinalPaycheckCalculatorPage() {
-  const calendly = getCalendlyLink();
 
   return (
     <>
@@ -153,9 +152,7 @@ export default function FinalPaycheckCalculatorPage() {
           <p style={{ color: '#ccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             BEG fully managed payroll runs at $25 to $45 PEPM, all-inclusive, and handles separation pay, PTO payout, and multi-state deadlines so a missed date never becomes a penalty. Book a free 15-minute discovery call.
           </p>
-          <Link href={calendly} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Free Discovery Call
-          </Link>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
       </section>
     </>

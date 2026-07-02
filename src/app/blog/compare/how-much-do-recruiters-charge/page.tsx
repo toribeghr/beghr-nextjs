@@ -1,5 +1,5 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'How Much Do Recruiters Charge? Fees Explained | BEG',
@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'How Much Do Recruiters Charge? Fees Explained | BEG', description: 'Recruiter fees explained: contingency runs 20-25% of salary, retained adds a retainer. See what each model costs and a roughly 50% less alternative.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/compare/how-much-do-recruiters-charge');
 
 export default function HowMuchDoRecruitersChargePage() {
   return (
@@ -156,10 +155,7 @@ export default function HowMuchDoRecruitersChargePage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Want the exact fee for your role?</h3>
           <p style={{ marginBottom: '1.5rem' }}>Run the numbers in the Recruiting Fee Calculator, then book a call and we will show you what a milestone-based placement would cost for that specific salary and timeline.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -175,10 +171,7 @@ export default function HowMuchDoRecruitersChargePage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Get a fee quote for your specific role</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the salary and timeline, and we will give you a clear number and an honest read on whether the milestone model fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>

@@ -1,5 +1,6 @@
 'use client';
 
+import PricingCta from '@/components/pricing/PricingCta';
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 
@@ -112,15 +113,7 @@ export default function Header() {
             </div>
           ))}
 
-          <a
-            className="btn btn--gold"
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={closeAll}
-          >
-            Book a Discovery Call
-          </a>
+          <PricingCta service="chooser" subline={false} label="&#9889; Get Instant Pricing" />
         </nav>
 
         {/* Hamburger — 3-line → X animation via CSS */}

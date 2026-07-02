@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -16,7 +17,6 @@ export const metadata: Metadata = {
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function PayrollManagerVsOutsourcingPage() {
   return (
@@ -130,10 +130,7 @@ export default function PayrollManagerVsOutsourcingPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Want to see the math for your company?</h3>
           <p style={{ marginBottom: '1.5rem' }}>We'll run a free cost comparison using your actual headcount and current payroll setup. No pitch, just numbers.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none', fontSize: '1rem' }}>
-            Book a Free 15-Minute Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         {/* ── SECTION 2: Managed Payroll Cost ── */}
@@ -229,10 +226,7 @@ export default function PayrollManagerVsOutsourcingPage() {
             BEG offers a free 15-minute cost comparison call. We'll look at your current setup and show you exactly what managed payroll would cost -- and save -- for your headcount.
           </p>
           <p style={{ marginBottom: '1.5rem', color: '#ddd', fontSize: '0.9rem' }}>No contract required to start. Month-to-month. Cancel anytime.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none', fontSize: '1.05rem' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         {/* ── AUTHOR ── */}

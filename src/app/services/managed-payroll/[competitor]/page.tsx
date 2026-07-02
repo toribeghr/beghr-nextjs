@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -84,6 +85,7 @@ export default function PayrollCompetitorPage({
       title={c.headline}
       description={c.subHeadline}
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
         { value: '$25-$45', label: 'PEPM, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
@@ -292,15 +294,7 @@ export default function PayrollCompetitorPage({
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link
-              href={CALENDLY}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn--gold"
-              style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}
-            >
-              Request a Free Payroll Scope Review
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>
               We review your setup and send your exact monthly cost within 24 hours. No commitment
               required.

@@ -1,9 +1,9 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
   title: 'isolved HCM Software | Instant Price Quote + Claude AI | BEG',
@@ -34,6 +34,7 @@ export default function HCMSoftwarePage() {
       title="You bought HR software to make life easier. Why is it creating more work?"
       description="Most HR platforms require constant manual intervention, expensive add-on modules, and a support ticket every time something breaks. isolved People Cloud puts payroll, HR, time, and benefits on one platform. BEG implements it, configures it for your industry, and supports you year-round."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="hcm-software" />}
       heroStats={[
         { value: '330%', label: 'ROI documented by Forrester' },
         { value: '7M+', label: 'Employees on isolved' },
@@ -320,15 +321,7 @@ export default function HCMSoftwarePage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link
-              href={CALENDLY}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn--gold"
-              style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}
-            >
-              Book a 15-Minute Discovery Call
-            </Link>
+            <PricingCta service="hcm-software" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>
               We will show you the platform, walk through your current setup, and give you a no-obligation cost comparison.
             </p>
@@ -811,14 +804,6 @@ export default function HCMSoftwarePage() {
           }),
         }}
       />
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
     </ServicePage>
   );
 }

@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -15,7 +16,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'Employer of Record vs Managed Payroll | Which Do You Need? | BEG', description: 'EOR and managed payroll solve different problems. EOR employs workers in countries where you have no entity. Managed payroll runs payroll where you already employ people.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function EorVsManagedPayrollPage() {
   const faqs = [
@@ -168,10 +168,7 @@ export default function EorVsManagedPayrollPage() {
           <p style={{ marginBottom: '1.5rem' }}>
             In 15 minutes we can look at your workforce structure, tell you whether you need EOR or managed payroll, and give you a cost estimate for the managed payroll path if that's what fits.
           </p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -229,10 +226,7 @@ export default function EorVsManagedPayrollPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>See if managed payroll makes sense for you</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll look at your workforce structure and payroll setup and give you a straight answer on whether managed payroll at $25–$45 PEPM is the right fit.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>

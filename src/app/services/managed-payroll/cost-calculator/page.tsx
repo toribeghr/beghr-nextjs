@@ -1,8 +1,8 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import PayrollLeadCaptureForm from '@/components/PayrollLeadCaptureForm';
 import Link from 'next/link';
 import PayrollCalculator from '@/components/PayrollCalculator';
-import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
@@ -20,7 +20,6 @@ export const metadata: Metadata = {
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 export default function PayrollCostCalculatorPage() {
   return (
@@ -54,15 +53,7 @@ export default function PayrollCostCalculatorPage() {
             <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem', maxWidth: '560px', margin: '0 auto 2rem' }}>
               The calculator uses industry averages. Your BEG contact will review your exact headcount, states, pay schedules, and complexity -- and give you a flat monthly number with nothing excluded.
             </p>
-            <Link
-              href={CALENDLY}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn--gold"
-              style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}
-            >
-              Book a Free 15-Minute Discovery Call
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#666666', fontSize: '0.82rem', marginTop: '0.85rem' }}>
               No commitment. No sales pressure. Just a straight number.
             </p>
@@ -193,16 +184,6 @@ export default function PayrollCostCalculatorPage() {
         </div>
       </section>
       {/* PAYROLL FEE AUDITOR */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Already have a payroll bill? See what you are really paying.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>The calculator above estimates BEG. This one audits what you pay now: enter your bill and the add-on fees you are charged to see your real cost per employee and what to get in writing. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <HiddenFeeAuditor />
     </>
   );
 }

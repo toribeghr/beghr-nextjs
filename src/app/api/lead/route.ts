@@ -30,6 +30,11 @@ export async function POST(req: Request) {
     tool: (data.tool || 'BEG resource').trim(),
     asset_url: (data.asset_url || '').trim(),
     page: (data.page || data.asset_url || '').trim(),
+    // Instant-pricing fields (empty for resource forms; Apps Script routes on `service`)
+    service: (data.service || '').trim(),
+    phone: (data.phone || '').trim(),
+    pricing_summary: (data.pricing_summary || '').trim(),
+    answers: (data.answers || '').trim(),
   };
 
   try {

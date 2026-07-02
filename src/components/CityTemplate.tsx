@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import JobDescriptionGrader from '@/components/JobDescriptionGrader';
+import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 import { jpIndustries, jpMetros, jpMetroSlugs } from '@/lib/jpGridData';
 
@@ -90,14 +90,13 @@ export default function CityTemplate({ industrySlug, citySlug }: { industrySlug:
     ],
   };
 
-  const jdDesc = `A weak posting quietly kills your pipeline. Paste your ${lo} job description and get an instant 0 to 100 score, plus the exact fixes that get strong candidates to apply. Free, instant, and nothing you paste leaves your browser.`;
-
   return (
     <ServicePage
       eyebrow={`Job Placement · ${name} · ${metro.name}`}
       title={`That open ${lo} role in ${metro.name} is costing you every week.`}
       description={`${metro.name} is ${metro.blurb}. We source passive ${lo} candidates directly and place permanent hires in 23-35 days at roughly 50% less than contingency firms.`}
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="job-placement" industry={industrySlug} />}
       heroStats={ind.stats}
     >
       {/* KEY TAKEAWAYS (AEO) */}
@@ -126,18 +125,6 @@ export default function CityTemplate({ industrySlug, citySlug }: { industrySlug:
           </p>
         </div>
       </section>
-
-      {/* JOB DESCRIPTION GRADER */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Hiring Tool</p>
-            <h2>{`Hiring ${name} in ${metro.name}? Grade your job description first.`}</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>{jdDesc}</p>
-          </div>
-        </div>
-      </section>
-      <JobDescriptionGrader />
 
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '820px' }}>

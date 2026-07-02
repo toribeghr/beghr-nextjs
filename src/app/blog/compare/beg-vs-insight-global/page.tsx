@@ -1,5 +1,5 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'BEG vs Insight Global | Instant Fee Quote | BEG',
@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'BEG vs Insight Global | Instant Fee Quote | BEG', description: 'BEG vs Insight Global on permanent placement compared fairly.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('blog-compare-beg-vs-insight-global');
 
 export default function BegVsInsightGlobalPage() {
   return (
@@ -111,9 +110,7 @@ export default function BegVsInsightGlobalPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Comparing a permanent placement quote?</h3>
           <p style={{ marginBottom: '1.5rem' }}>Tell us the role and the salary. We will show you what a milestone-based placement would cost so you can compare directly.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>

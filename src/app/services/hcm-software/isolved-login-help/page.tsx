@@ -1,5 +1,5 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import Link from 'next/link';
 import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'isolved Login Help | Instant Price Quote + Support | BEG', description: 'Common isolved login issues and how to resolve them. BEG clients get direct support from a dedicated contact, not a ticket queue, for access and system questions.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -148,9 +147,7 @@ export default function IsolvedLoginHelp() {
           <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#cccccc', marginBottom: '1.5rem' }}>
             BEG is not a rip-and-replace. In many cases, BEG can take over the management and support of an existing isolved implementation, bringing dedicated year-round support to a platform you are already running. The 15-minute discovery call is the right place to start.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ display: 'inline-block' }}>
-            Book a 15-Minute Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 

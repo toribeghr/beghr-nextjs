@@ -1,5 +1,5 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'RPO vs Direct-Hire Placement | BEG',
@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'RPO vs Direct-Hire Placement | BEG', description: 'RPO vs direct-hire placement compared on cost, commitment, and speed. See when each fits and where milestone-based placement saves roughly 50%.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/compare/rpo-vs-direct-hire-placement');
 
 export default function RpoVsDirectHirePlacementPage() {
   return (
@@ -114,10 +113,7 @@ export default function RpoVsDirectHirePlacementPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Filling a defined set of roles, not staffing a function?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If you have specific permanent openings rather than continuous volume, direct-hire placement is usually the lower-cost fit. We will help you decide.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -130,10 +126,7 @@ export default function RpoVsDirectHirePlacementPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Figure out which model fits your volume</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us how many roles you are filling and over what timeline, and we will give you an honest read.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <div style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '2.5rem 0' }}>

@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import RecruitingFeeCalculator from '@/components/RecruitingFeeCalculator';
@@ -78,9 +79,7 @@ export default function RecruitingFeeCalculatorPage() {
           <p style={{ color: '#cccccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             BEG is a permanent placement service and an authorized reseller of iSolved Job Placement. We fill roles in 23 to 35 days with an 86% fill rate, at roughly 50% less than contingency, backed by a 45-day replacement guarantee. Book a call to confirm the exact fee for your role.
           </p>
-          <Link href={calendly} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Free Discovery Call
-          </Link>
+          <PricingCta service="job-placement" subline={false} />
         </div>
       </section>
     </>

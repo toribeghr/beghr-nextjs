@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -31,6 +31,7 @@ export default function PayrollBreweryPage() {
       title="Brewery payroll covers two completely different workforces. We manage both."
       description="Taproom staff with tip credits and minimum wage reporting, production crew with shift and overtime pay, sales reps on commission, and seasonal taproom staffing spikes make brewery and distillery payroll one of the most structurally complex outside of healthcare. BEG manages all of it at $25–$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
       heroStats={[
         { value: 'Tip credit handled', label: 'Taproom FLSA tip credit and minimum wage compliance managed' },
@@ -186,9 +187,7 @@ export default function PayrollBreweryPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Request a Free Scope Review
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your taproom, production, and sales staff, give you a fixed monthly cost, and show you what correct brewery payroll looks like. Pricing starts at $25 PEPM.</p>
           </div>
         </div>
@@ -299,16 +298,6 @@ export default function PayrollBreweryPage() {
       />
 
       {/* PAYROLL FEE AUDITOR */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Running Brewery payroll? See what you are really paying.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Brewery employers get nickel-and-dimed on per-run, off-cycle, and year-end fees. Enter your numbers to see your real cost per employee, what you may be overpaying, and what to get in writing. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <HiddenFeeAuditor />
     </ServicePage>
   );
 }

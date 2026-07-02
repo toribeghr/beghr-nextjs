@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import JobDescriptionGrader from '@/components/JobDescriptionGrader';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
@@ -21,6 +21,7 @@ export default function PlacementNonprofitProgramdirectorPage() {
       title="Your program director search has been open too long."
       description="Program directors who can run delivery and outcomes are scarce and quickly off the market. We place permanent program director candidates in 23-35 days at roughly 50% less than contingency firms, with a 45-day replacement guarantee."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="job-placement" industry="nonprofit" />}
       heroStats={[{"value":"23-35","label":"Days to fill on average"},{"value":"86%","label":"Fill rate on active searches"},{"value":"~50%","label":"Less than contingency pricing"}]}
     >
       {/* KEY TAKEAWAYS (AEO) */}
@@ -50,16 +51,6 @@ export default function PlacementNonprofitProgramdirectorPage() {
         </div>
       </section>
       {/* JOB DESCRIPTION GRADER */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Hiring Tool</p>
-            <h2>Hiring a Program Director? Grade your job description first.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>A weak posting quietly kills your pipeline. Paste your program director job description and get an instant 0 to 100 score, plus the exact fixes that get strong candidates to apply. Free, instant, and nothing you paste leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <JobDescriptionGrader />
 
 
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
@@ -77,9 +68,7 @@ export default function PlacementNonprofitProgramdirectorPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Book a 15-Minute Discovery Call
-            </Link>
+            <PricingCta service="job-placement" subline={false} />
           </div>
         </div>
       </section>

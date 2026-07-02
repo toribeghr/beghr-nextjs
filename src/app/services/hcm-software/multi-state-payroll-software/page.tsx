@@ -1,6 +1,6 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
   title: 'Multi-State Payroll Software | Instant Price Quote | BEG',
@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', title: 'Multi-State Payroll Software | Instant Price Quote | BEG', description: 'Multi-state payroll software for tax registration, filing, remote workforces, and reciprocity. isolved multi-state payroll configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -83,9 +82,7 @@ export default function MultiStatePayrollSoftwarePage() {
           <p style={{ fontSize: '1.15rem', color: '#cccccc', maxWidth: '720px' }}>
             A remote workforce means payroll tax in states you never planned for. The right software registers, withholds, and files correctly everywhere you hire. Here is what to look for and how isolved plus BEG handles it.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ marginTop: '2rem', display: 'inline-block' }}>
-            Talk to a BEG HCM Specialist
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
 
@@ -171,23 +168,13 @@ export default function MultiStatePayrollSoftwarePage() {
         </div>
       </section>
 
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>Free tool: find the final paycheck deadline by state</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Pick a state, choose fired or quit, and get the exact deadline plus the PTO payout rule. All 50 states, free, runs in your browser.</p>
-        </div>
-      </section>
-      <FinalPaycheckCalculator />
       <section style={{ background: '#ECAC60', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '700px' }}>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#000000', marginBottom: '0.75rem' }}>See multi-state payroll in isolved</h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
             15-minute call. We will walk through where you employ people, your registrations, and reciprocity, and show you what isolved plus BEG looks like for your footprint.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ background: '#000000', color: '#ECAC60', padding: '0.9rem 2.5rem', borderRadius: '4px', fontWeight: '700', fontSize: '1rem', display: 'inline-block', textDecoration: 'none' }}>
-            Book a Discovery Call
-          </Link>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
       </section>
     </main>

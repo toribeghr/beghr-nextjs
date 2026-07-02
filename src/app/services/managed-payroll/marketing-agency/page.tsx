@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -32,6 +32,7 @@ export default function PayrollMarketingAgencyPage() {
       title="Managed Payroll for Marketing and Creative Agencies"
       description="Remote teams across multiple states, freelancers on W-2 or 1099, and AE commissions -- all managed. Marketing and creative agencies scale fast and hire everywhere, which means multi-state tax nexus accumulates faster than most founders realize. Add in the blurry line between W-2 creatives and 1099 contractors, account manager commission structures, and the administrative overhead of a fully remote team, and payroll becomes a real operational drag. We manage all of it at $25–$45 per employee per month."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered as your remote team grows' },
@@ -207,9 +208,7 @@ export default function PayrollMarketingAgencyPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Request a Free Scope Review
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your remote team, state registrations, and contractor arrangements -- and give you a fixed monthly cost.</p>
           </div>
         </div>
@@ -304,16 +303,6 @@ export default function PayrollMarketingAgencyPage() {
       />
 
       {/* PAYROLL FEE AUDITOR */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Running Marketing Agency payroll? See what you are really paying.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Marketing Agency employers get nickel-and-dimed on per-run, off-cycle, and year-end fees. Enter your numbers to see your real cost per employee, what you may be overpaying, and what to get in writing. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <HiddenFeeAuditor />
     </ServicePage>
   );
 }

@@ -1118,7 +1118,11 @@ function esc(s) { return String(s).replace(/'/g, "\\'"); }
 
 // ── Embedded Job Description Grader (engagement: lower bounce, longer time on page) ──
 function amp(s) { return String(s).replace(/&/g, '&amp;'); }
-function jdTool(heading, descNoun) {
+function jdTool(_heading, _descNoun) {
+  // CTA RESTRUCTURE July 1, 2026: tools no longer embed on service pages. One pricing CTA per page.
+  return '';
+}
+function jdToolLegacy_(heading, descNoun) {
   const desc = 'A weak posting quietly kills your pipeline. Paste your ' + descNoun + ' job description and get an instant 0 to 100 score, plus the exact fixes that get strong candidates to apply. Free, instant, and nothing you paste leaves your browser.';
   return `      {/* JOB DESCRIPTION GRADER */}
       <section className="section" style={{ paddingBottom: '0' }}>

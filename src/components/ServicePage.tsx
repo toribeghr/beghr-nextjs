@@ -25,6 +25,7 @@ interface ServicePageProps {
   imageAlt?: string;
   showHeroImage?: boolean;
   heroVideoId?: string;
+  heroCta?: ReactNode; // optional replacement for the hero discovery-call button (instant pricing CTA)
   children?: ReactNode;
 }
 
@@ -38,8 +39,14 @@ export default function ServicePage({
   imageAlt,
   showHeroImage = false,
   heroVideoId,
+  heroCta,
   children,
 }: ServicePageProps) {
+  const heroButton = heroCta ?? (
+    <a className="btn btn--gold" href={calendlyLink} target="_blank" rel="noopener noreferrer">
+      Book a Discovery Call
+    </a>
+  );
   return (
     <>
       <script
@@ -96,16 +103,7 @@ export default function ServicePage({
                 <h1 className="hv-title">{title}</h1>
                 <p className="lede hv-lede" style={{ margin: '18px 0 0' }}>{description}</p>
                 <HeroVideoBox videoId={heroVideoId} title={title} />
-                <div className="hero-cta hv-cta">
-                  <a
-                    className="btn btn--gold"
-                    href={calendlyLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Book a Discovery Call
-                  </a>
-                </div>
+                <div className="hero-cta hv-cta">{heroButton}</div>
               </div>
             </>
           ) : showHeroImage ? (
@@ -114,16 +112,7 @@ export default function ServicePage({
                 {eyebrow && <p className="eyebrow">{eyebrow}</p>}
                 <h1>{title}</h1>
                 <p className="lede" style={{ margin: '18px 0 28px' }}>{description}</p>
-                <div className="hero-cta">
-                  <a
-                    className="btn btn--gold"
-                    href={calendlyLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Book a Discovery Call
-                  </a>
-                </div>
+                <div className="hero-cta">{heroButton}</div>
               </div>
               <HeroImageBox src={imageSrc} alt={imageAlt} />
             </div>
@@ -132,16 +121,7 @@ export default function ServicePage({
               {eyebrow && <p className="eyebrow">{eyebrow}</p>}
               <h1>{title}</h1>
               <p className="lede" style={{ margin: '18px 0 28px' }}>{description}</p>
-              <div className="hero-cta">
-                <a
-                  className="btn btn--gold"
-                  href={calendlyLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Book a Discovery Call
-                </a>
-              </div>
+              <div className="hero-cta">{heroButton}</div>
             </div>
           )}
           {heroStats && heroStats.length > 0 && (
@@ -162,20 +142,13 @@ export default function ServicePage({
       <section className="section section--navy">
         <div className="container" style={{ maxWidth: '620px' }}>
           <p className="eyebrow">Ready?</p>
-          <h2 style={{ color: '#fff' }}>Let&apos;s talk about your needs.</h2>
+          <h2 style={{ color: '#fff' }}>{heroCta ? 'See your price before you talk to anyone.' : 'Let’s talk about your needs.'}</h2>
           <p style={{ color: '#C7D2E5', marginTop: '16px' }}>
-            Book a 15-minute discovery call. We&apos;ll learn about your business and tell you honestly whether we can help.
+            {heroCta
+              ? 'Answer a few questions, get your exact number in about 90 seconds. No call required, no commitment.'
+              : 'Book a 15-minute discovery call. We’ll learn about your business and tell you honestly whether we can help.'}
           </p>
-          <div style={{ marginTop: '26px', textAlign: 'center' }}>
-            <a
-              className="btn btn--gold"
-              href={calendlyLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book a Discovery Call
-            </a>
-          </div>
+          <div style={{ marginTop: '26px', textAlign: 'center' }}>{heroButton}</div>
         </div>
       </section>
 

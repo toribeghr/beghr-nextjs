@@ -338,47 +338,14 @@ Every page that captures a lead (forms, calculators, gated downloads, salary or 
 
 ---
 
-## Job-Placement Service Pages: Embedded Job Description Grader (REQUIRED)
+## Sitewide CTA Standard (LOCKED July 1, 2026 - supersedes the two embedded-tool sections that lived here)
 
-Every job-placement service page (industry hub, industry x city, and role page) embeds the **Job Description Grader** mid-page, right before the final CTA. The goal is engagement: lower bounce and longer time on page. The tool is ungated (no email, no click) and interactive, and its own CTA funnels to a discovery call.
+ONE CTA per page, per silo. No embedded tools on service pages or blog posts.
 
-1. **Generator-driven pages do this automatically.** `jdTool()` in `scripts/generate-service-pages.js` emits the grader inside `genJobPlacementPage`, `genCityPage`, and `genRolePage`. Add a new industry or role to the data and the grader ships with every page generated. No extra step, do not remove it.
-
-2. **The pitch above the tool is tailored per page.** Industry on hubs ("Hiring [Industry]? Grade your job description first."), industry + metro on city pages, role on role pages. Keep that pattern.
-
-3. **Hand-authored service pages must add the same block before the FAQ:**
-   ```tsx
-   import JobDescriptionGrader from '@/components/JobDescriptionGrader';
-   // ...mid-page, before the FAQ / final CTA:
-   <section className="section" style={{ paddingBottom: '0' }}>
-     <div className="container" style={{ maxWidth: '820px' }}>
-       <div className="head center reveal">
-         <p className="eyebrow">Free Hiring Tool</p>
-         <h2>Hiring [role or industry]? Grade your job description first.</h2>
-         <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>A weak posting quietly kills your pipeline. Paste your [noun] job description and get an instant 0 to 100 score, plus the exact fixes that get strong candidates to apply. Free, instant, and nothing you paste leaves your browser.</p>
-       </div>
-     </div>
-   </section>
-   <JobDescriptionGrader />
-   ```
-
-This applies to the job-placement silo. The grader component lives at `@/components/JobDescriptionGrader` and is client-side and self-contained.
-
----
-
-## Every Service Page: Embedded Interactive Tool, Chosen by Relevance (REQUIRED)
-
-Every service page embeds ONE interactive tool plus a callout description tailored to that page. Ungated (no email, no click), client-side, with its own Calendly CTA. It lowers bounce, raises time on page, and is part of out-depthing the #1 result.
-
-**There is NO default tool.** Choose by relevance: picture the visitor who landed here from a Google search, ask what the page's content and intent say they are trying to do, and embed the ONE tool that genuinely helps with THAT task. The tool must match the page's topic, not just convert. Record the reasoning (page intent -> chosen tool) when you build.
-
-The analysis in practice:
-- A "construction payroll" page is about multi-state crews and compliance -> the State Compliance Checker is what that visitor needs.
-- A "what is my payroll provider really charging" page -> the Hidden-Fee Auditor.
-- A "cost to hire / loaded labor cost" page -> the True Cost of an Employee calculator.
-- An hourly / overtime-heavy page -> the Overtime Pay Calculator.
-- Job-placement pages -> the Job Description Grader (see section above).
-
-Available tools (all client-side, drop-in): HiddenFeeAuditor, TrueCostCalculator, OvertimePayCalculator, FinalPaycheckCalculator, PayrollTaxCalendar, StateComplianceChecker, PayrollCalculator, JobDescriptionGrader, RecruitingFeeCalculator, VacantRoleCostCalculator, SearchOverdueDiagnostic, HCMROICalculator, HCMPlatformFinder, AIReadinessScorecard. If none truly fits the page, flag the gap (a missing tool is a build idea) rather than forcing a mismatched one.
-
-Never ship a service page without a relevance-matched tool + tailored callout.
+1. Every managed-payroll and job-placement page carries exactly one CTA: the instant-pricing button (PricingCta component, service='managed-payroll' or 'job-placement'). Every hcm-software page carries service='hcm-software' (Get an Instant Quote). Cross-silo surfaces (header, homepage) use service='chooser'.
+2. On ServicePage-based pages, pass heroCta={<PricingCta service=... industry?=... />}. ServicePage renders it in the hero AND the bottom black section automatically.
+3. On custom-layout pages and blog posts, place <PricingCta service='...' subline={false} /> where the old Calendly anchor sat.
+4. Job-placement industry pages pass their slug via the industry prop so the form skips the industry picker.
+5. The discovery call (Calendly) appears ONLY on form result screens (built into the forms) and on non-service surfaces (contact, about, network, partners). Never as a page CTA on the three service silos.
+6. Do NOT embed JobDescriptionGrader, HiddenFeeAuditor, or any calculator inline on service pages or blog posts. jdTool() in the generator is neutralized - do not restore it. The standalone /resources pages keep their tools; only their page CTAs use PricingCta.
+7. Components live in src/components/pricing/. Pricing math is in pricing.ts (pure functions) - change rates THERE, never inline.

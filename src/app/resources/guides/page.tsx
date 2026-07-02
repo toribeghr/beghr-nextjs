@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -23,7 +24,6 @@ export const metadata: Metadata = {
   },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const guides = [
   {
@@ -199,9 +199,7 @@ export default function GuidesPage() {
           <p style={{ color: '#555555', lineHeight: '1.7', margin: '1rem 0 2rem' }}>
             BEG runs <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>managed payroll</Link> for employers at $25-$45 PEPM, all-inclusive. Discovery call is free and no commitment is required.
           </p>
-          <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-            Book a Free 15-Minute Call
-          </Link>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
       </section>
     </>

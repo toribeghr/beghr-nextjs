@@ -1,7 +1,7 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -32,6 +32,7 @@ export default function PayrollFitnessPage() {
       title="Managed Payroll for Fitness Studios and Gyms"
       description="Personal trainer 1099 classification is the IRS's favorite audit target in fitness. Fitness studios and gyms routinely pay personal trainers as 1099 independent contractors when the working relationship -- exclusive to one location, using studio equipment, following studio scheduling -- legally qualifies them as W-2 employees. The IRS audits this regularly. We manage fitness payroll correctly at $25–$45 per employee per month, including trainer classification, instructor pay, and membership commission structures."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
         { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered, including multi-location studios' },
@@ -207,9 +208,7 @@ export default function PayrollFitnessPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold" style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}>
-              Request a Free Scope Review
-            </Link>
+            <PricingCta service="managed-payroll" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>15 minutes. We scope your trainer arrangements, instructor pay, and commission structures -- and give you a fixed monthly cost.</p>
           </div>
         </div>
@@ -304,16 +303,6 @@ export default function PayrollFitnessPage() {
       />
 
       {/* PAYROLL FEE AUDITOR */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Payroll Tool</p>
-            <h2>Running Fitness payroll? See what you are really paying.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>Fitness employers get nickel-and-dimed on per-run, off-cycle, and year-end fees. Enter your numbers to see your real cost per employee, what you may be overpaying, and what to get in writing. Free, instant, and nothing leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <HiddenFeeAuditor />
     </ServicePage>
   );
 }

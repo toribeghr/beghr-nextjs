@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
@@ -111,9 +112,7 @@ export default function HCMBuyersGuidePage() {
             Most mid-market HCM evaluations get it wrong: they start with demos before defining requirements, they compare per-employee rates without accounting for total cost, and they discover implementation problems only after signing. This guide covers what to ask, what to watch for, and how to make the comparison fair.
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '2rem' }}>
-            <Link href={CALENDLY} target="_blank" rel="noopener noreferrer" className="btn btn--gold">
-              Book a Discovery Call
-            </Link>
+            <PricingCta service="hcm-software" subline={false} />
             <a href="#get-the-guide" className="btn" style={{ background: 'transparent', border: '2px solid #ECAC60', color: '#ECAC60', padding: '0.75rem 1.75rem', borderRadius: '4px', fontWeight: '700', textDecoration: 'none' }}>
               Get the Full Guide
             </a>

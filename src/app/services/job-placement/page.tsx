@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import JobDescriptionGrader from '@/components/JobDescriptionGrader';
+import PricingCta from '@/components/pricing/PricingCta';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -34,6 +34,7 @@ export default function JobPlacementPage() {
       title="That role has been open too long. Let us fix that."
       description="Every week a specialized seat sits empty, your team absorbs the cost. Lost output, overloaded colleagues, work going to the wrong desk. We place attorneys, clinicians, engineers, and finance professionals in 23-35 days at roughly 50% less than contingency firms."
       calendlyLink={CALENDLY}
+      heroCta={<PricingCta service="job-placement" />}
       heroStats={[
         { value: '23-35', label: 'Days to fill on average' },
         { value: '86%', label: 'Fill rate on active searches' },
@@ -272,15 +273,7 @@ export default function JobPlacementPage() {
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-            <Link
-              href={CALENDLY}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn--gold"
-              style={{ fontSize: '1rem', padding: '0.9rem 2.5rem' }}
-            >
-              Book a 15-Minute Discovery Call
-            </Link>
+            <PricingCta service="job-placement" subline={false} />
             <p style={{ color: '#888888', fontSize: '0.85rem', marginTop: '0.75rem' }}>
               No commitment. We will tell you exactly what we can do for your search and what it costs.
             </p>
@@ -434,16 +427,6 @@ export default function JobPlacementPage() {
       </section>
 
       {/* JOB DESCRIPTION GRADER */}
-      <section className="section" style={{ paddingBottom: '0' }}>
-        <div className="container" style={{ maxWidth: '820px' }}>
-          <div className="head center reveal">
-            <p className="eyebrow">Free Hiring Tool</p>
-            <h2>Hiring specialized talent? Grade your job description first.</h2>
-            <p style={{ maxWidth: '670px', margin: '0.75rem auto 0', color: '#555555', lineHeight: 1.7 }}>A weak posting quietly kills your pipeline. Paste your open job description and get an instant 0 to 100 score, plus the exact fixes that get strong candidates to apply. Free, instant, and nothing you paste leaves your browser.</p>
-          </div>
-        </div>
-      </section>
-      <JobDescriptionGrader />
 
       {/* FAQ */}
       <section className="section section--soft">

@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getCalendlyLink } from '@/lib/services';
+import PricingCta from '@/components/pricing/PricingCta';
 
 export const metadata: Metadata = {
   title: 'Sales Placement Case Study | BEG',
@@ -103,19 +103,12 @@ export default function PlacementSalesCaseStudyPage() {
             . BEG&apos;s sales placements run on that engine and are delivered through BEG&apos;s milestone model.
           </p>
 
-          <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
-            <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Quota seat sitting open?</h3>
+          <div style={{ background: '#000', color: '#fff', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
+            <h3 style={{ color: '#ECAC60', margin: '0 0 0.75rem' }}>Quota seat sitting open?</h3>
             <p style={{ marginBottom: '1.5rem' }}>
-              Book a short discovery call. We will scope the role, give you a milestone-based plan, and show you how we fill it in 23 to 35 days at roughly 50% less than contingency.
+              Answer a few quick questions and get a real placement quote on screen in 90 seconds. Filled in 23 to 35 days at roughly 50% less than contingency. No call required.
             </p>
-            <a
-              href={getCalendlyLink('placement-sales')}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-            >
-              Book a Free Discovery Call
-            </a>
+            <PricingCta service="job-placement" subline={false} />
           </div>
 
           <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0', fontSize: '0.93rem' }}>

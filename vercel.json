@@ -27,6 +27,16 @@
       "source": "/services/:slug.html",
       "destination": "/services/:slug",
       "permanent": true
+    },
+    {
+      "source": "/services/hcm-software/platform-finder",
+      "destination": "/services/hcm-software",
+      "permanent": true
+    },
+    {
+      "source": "/services/hcm-software/ai-readiness-scorecard",
+      "destination": "/services/hcm-software",
+      "permanent": true
     }
   ]
 }

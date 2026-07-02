@@ -224,8 +224,6 @@ export default function HCMBuyersGuidePage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
             {[
               { label: 'HCM ROI Calculator', href: '/services/hcm-software/roi-calculator', desc: 'Estimate the savings from consolidating onto one platform.' },
-              { label: 'AI HR Readiness Scorecard', href: '/services/hcm-software/ai-readiness-scorecard', desc: 'Score how ready your HR is for AI that completes tasks.' },
-              { label: 'Platform Finder', href: '/services/hcm-software/platform-finder', desc: 'Answer four questions and get a tailored HCM recommendation.' },
               { label: 'isolved vs ADP', href: '/services/hcm-software/alternatives-to-adp', desc: 'How isolved and BEG compare to ADP for mid-market companies.' },
               { label: 'isolved vs Gusto', href: '/services/hcm-software/isolved-vs-gusto', desc: 'Small-business simplicity vs. a connected mid-market platform.' },
               { label: 'isolved vs Paycor', href: '/services/hcm-software/isolved-vs-paycor', desc: 'How two mid-market HCM platforms compare for growing firms.' },

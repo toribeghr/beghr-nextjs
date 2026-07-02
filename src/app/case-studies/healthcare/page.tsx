@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PricingCta from '@/components/pricing/PricingCta';
 
 export const metadata: Metadata = {
   title: 'Healthcare Practice Cuts Payroll Processing to Zero | BEG Case Study',
@@ -119,19 +120,12 @@ export default function HealthcareCaseStudyPage() {
             After two years, the practice team treats payroll as something that simply happens on schedule. For a clinical organization where staff and provider attention belongs on patient care and practice operations, that outcome is exactly what BEG managed payroll is designed to deliver.
           </p>
 
-          <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
-            <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Calculating shift differentials manually every pay cycle?</h3>
+          <div style={{ background: '#000', color: '#fff', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
+            <h3 style={{ color: '#ECAC60', margin: '0 0 0.75rem' }}>Calculating shift differentials manually every pay cycle?</h3>
             <p style={{ marginBottom: '1.5rem' }}>
               In 15 minutes we can scope your payroll setup, give you a fixed monthly rate at $25 to $45 per employee, and show you what a clean transition looks like.
             </p>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-            >
-              Book a Free 15-Minute Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
 
           <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0', fontSize: '0.93rem' }}>

@@ -568,16 +568,6 @@ export default function HCMSoftwarePage() {
               <h3>HCM ROI Calculator</h3>
               <p>Estimate the admin hours and dollars one connected platform gives back.</p>
             </Link>
-            <Link href="/services/hcm-software/ai-readiness-scorecard" className="card-link reveal">
-              <span className="tag">Scorecard</span>
-              <h3>AI HR Readiness Scorecard</h3>
-              <p>Answer 8 questions to score how ready your HR is for AI that completes tasks.</p>
-            </Link>
-            <Link href="/services/hcm-software/platform-finder" className="card-link reveal">
-              <span className="tag">Finder</span>
-              <h3>Which HCM Fits You?</h3>
-              <p>Four questions, one tailored recommendation for your size and industry.</p>
-            </Link>
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PricingCta from '@/components/pricing/PricingCta';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Case Studies | BEG',
@@ -213,16 +214,9 @@ export default function CaseStudiesPage() {
           <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
             <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Ready to hand payroll off?</h2>
             <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>
-              15-minute call. We scope your payroll, give you a fixed monthly rate at $25 to $45 per employee, and tell you what transition looks like.
+              Answer eight quick questions and see your exact monthly price on screen. $25 to $45 per employee, all-inclusive. No call required.
             </p>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-            >
-              Book a Free 15-Minute Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
       </section>

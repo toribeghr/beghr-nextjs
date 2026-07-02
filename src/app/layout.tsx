@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.beghr.com',
+    types: {
+      'application/rss+xml': 'https://www.beghr.com/feed.xml',
+    },
   },
   openGraph: {
     title: 'Business Executive Group',

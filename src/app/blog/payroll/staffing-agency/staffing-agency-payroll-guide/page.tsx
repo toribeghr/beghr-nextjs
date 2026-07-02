@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Staffing Agency Payroll Guide | W-2 vs 1099 | BEG',
+  title: 'Staffing Agency Payroll Guide: W-2 vs. 1099 | BEG',
   description: 'Complete staffing agency payroll guide: W-2 vs 1099 classification, weekly cycles, co-employment risk, multi-state compliance. BEG at $25-$45 PEPM.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-guide' },
   openGraph: {
-    title: 'Staffing Agency Payroll Guide | W-2 vs 1099 | BEG',
+    title: 'Staffing Agency Payroll Guide: W-2 vs. 1099 | BEG',
     description: 'Complete staffing agency payroll guide: W-2 vs 1099 classification, weekly cycles, co-employment risk, multi-state compliance. BEG at $25-$45 PEPM.',
     url: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-guide',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Guide | W-2 vs 1099 | BEG', description: 'Complete staffing agency payroll guide: W-2 vs 1099 classification, weekly cycles, co-employment risk, multi-state compliance.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Guide: W-2 vs. 1099 | BEG', description: 'Complete staffing agency payroll guide: W-2 vs 1099 classification, weekly cycles, co-employment risk, multi-state compliance.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -159,12 +160,7 @@ export default function StaffingAgencyPayrollGuidePage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG handles staffing agency payroll at $25-$45 per employee per month. Weekly cycles, W-2 and 1099 processing, multi-state registration and filing, and year-end tax forms. Setup takes 3-5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

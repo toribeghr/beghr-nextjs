@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Restaurant Group Payroll Compliance 2026 | BEG",
+  title: "Restaurant Group Payroll: What Nobody Tells You | BEG",
   description: "Payroll compliance for multi-unit restaurant groups: tip pools, minimum wage by location, overtime rules, and FLSA requirements across all locations. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/restaurant-group-payroll-compliance" },
   openGraph: {
-    title: "Restaurant Group Payroll Compliance 2026 | BEG",
+    title: "Restaurant Group Payroll: What Nobody Tells You | BEG",
     description: "Payroll compliance for multi-unit restaurant groups: tip pools, minimum wage by location, overtime rules, and FLSA requirements across all locations. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/restaurant-group-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Restaurant Group Payroll Compliance 2026 | BEG", description: "Multi-unit restaurant payroll compliance: tip pools, minimum wage, overtime, and FLSA. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Restaurant Group Payroll: What Nobody Tells You | BEG", description: "Multi-unit restaurant payroll compliance: tip pools, minimum wage, overtime, and FLSA. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -133,12 +134,7 @@ export default function RestaurantGroupPayrollCompliancePage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages multi-unit restaurant payroll compliance across all locations at $25 to $45 per employee per month. Setup in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

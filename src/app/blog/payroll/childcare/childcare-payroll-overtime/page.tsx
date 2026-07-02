@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG',
+  title: 'Childcare Payroll and FLSA Overtime for Operators | BEG',
   description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/childcare/childcare-payroll-overtime' },
   openGraph: {
-    title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG',
+    title: 'Childcare Payroll and FLSA Overtime for Operators | BEG',
     description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...',
     url: 'https://www.beghr.com/blog/payroll/childcare/childcare-payroll-overtime',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Childcare Payroll & FLSA Overtime | The Operator Guide | BEG', description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Childcare Payroll and FLSA Overtime for Operators | BEG', description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -49,7 +50,7 @@ export default function ChildcareOvertimePage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Childcare Payroll & FLSA Overtime | The Operator Guide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/childcare/childcare-payroll-overtime"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Childcare Payroll and FLSA Overtime for Operators | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/childcare/childcare-payroll-overtime"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -129,10 +130,7 @@ export default function ChildcareOvertimePage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Let BEG manage childcare payroll compliance</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Overtime tracking, high-turnover onboarding, and year-end W-2s -- fully managed at $25–$45 per employee per month. 15-minute call.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

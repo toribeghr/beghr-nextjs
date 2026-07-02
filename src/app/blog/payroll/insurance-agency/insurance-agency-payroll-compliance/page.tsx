@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Insurance Agency Payroll Compliance 2026 | BEG",
+  title: "Insurance Agency Payroll Compliance: Is It Worth It? | BEG",
   description: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration, multi-state obligations, and FLSA classification for agency staff. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/insurance-agency/insurance-agency-payroll-compliance" },
   openGraph: {
-    title: "Insurance Agency Payroll Compliance 2026 | BEG",
+    title: "Insurance Agency Payroll Compliance: Is It Worth It? | BEG",
     description: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration, multi-state obligations, and FLSA classification for agency staff. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/insurance-agency/insurance-agency-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Insurance Agency Payroll Compliance 2026 | BEG", description: "Insurance agency payroll compliance: state licensing, ERISA, and multi-state rules. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Insurance Agency Payroll Compliance: Is It Worth It? | BEG", description: "Insurance agency payroll compliance: state licensing, ERISA, and multi-state rules. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -146,12 +147,7 @@ export default function InsuranceAgencyPayrollCompliancePage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages insurance agency payroll including ERISA benefit administration and multi-state producer compliance at $25 to $45 per employee per month.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

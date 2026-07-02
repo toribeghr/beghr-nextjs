@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "501(c)(3) Payroll Compliance | Nonprofit FICA, FUTA & 990 | BEG",
+  title: "501(c)(3) Payroll Compliance: What Nobody Tells You | BEG",
   description: "501(c)(3) payroll compliance: FICA exemptions, FUTA rules, executive comp reporting on Form 990, and volunteer vs employee rules. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/nonprofits/501c3-payroll-compliance" },
   openGraph: {
-    title: "501(c)(3) Payroll Compliance | Nonprofit FICA, FUTA & 990 | BEG",
+    title: "501(c)(3) Payroll Compliance: What Nobody Tells You | BEG",
     description: "Nonprofit payroll: FICA exemptions, FUTA rules, 990 executive comp reporting, and volunteer classification. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/nonprofits/501c3-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "501(c)(3) Payroll Compliance | Nonprofit FICA, FUTA & 990 | BEG", description: "Nonprofit payroll: FICA exemptions, FUTA rules, 990 exec comp reporting, and volunteer classification. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "501(c)(3) Payroll Compliance: What Nobody Tells You | BEG", description: "Nonprofit payroll: FICA exemptions, FUTA rules, 990 exec comp reporting, and volunteer classification. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -142,12 +143,7 @@ export default function Nonprofit501c3PayrollPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages 501(c)(3) nonprofit payroll at $25 to $45 per employee per month. All-inclusive, 990-ready records, FUTA-exempt configuration. Live in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

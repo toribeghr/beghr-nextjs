@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -144,12 +145,7 @@ export default function FarmPayrollOutsourcingPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages farm and agriculture payroll at $25-$45 PEPM. H-2A compliance, piece rate, seasonal volume, and year-end W-2s included. Book a 15-minute call to see what it costs for your operation.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

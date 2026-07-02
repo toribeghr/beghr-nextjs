@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Private School Payroll Guide 2026 | Teachers + Staff | BEG",
+  title: "Private School Payroll in 2026: Teachers and Staff | BEG",
   description: "How private schools handle 10-month teacher pay spread over 12, summer benefits, substitute payroll, and 403(b) administration. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/education/private-school-payroll-guide" },
   openGraph: {
-    title: "Private School Payroll Guide 2026 | Teachers + Staff | BEG",
+    title: "Private School Payroll in 2026: Teachers and Staff | BEG",
     description: "How private schools handle 10-month teacher pay spread over 12, summer benefits, substitute payroll, and 403(b) administration. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/education/private-school-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Private School Payroll Guide 2026 | Teachers + Staff | BEG", description: "How private schools handle 10-month teacher pay, substitute payroll, and 403(b) administration. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Private School Payroll in 2026: Teachers and Staff | BEG", description: "How private schools handle 10-month teacher pay, substitute payroll, and 403(b) administration. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -142,12 +143,7 @@ export default function PrivateSchoolPayrollGuidePage() {
             >
               Education Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

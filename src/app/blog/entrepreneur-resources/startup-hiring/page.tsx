@@ -1,31 +1,32 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Startup Hiring 101: Building Your First Team',
+  title: 'Startup Hiring: What Nobody Tells You First | BEG',
   description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.',
   alternates: { canonical: 'https://www.beghr.com/blog/entrepreneur-resources/startup-hiring' },
   openGraph: {
-    title: 'Startup Hiring 101: Building Your First Team',
+    title: 'Startup Hiring: What Nobody Tells You First | BEG',
     description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.',
     url: 'https://www.beghr.com/blog/entrepreneur-resources/startup-hiring',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Startup Hiring 101: Building Your First Team', description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Startup Hiring: What Nobody Tells You First | BEG', description: 'How to hire your first employees as a founder. Recruiting strategy, offer structures, and building company culture early.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
 export default function StartupHiringPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Startup Hiring 101: Building Your First Team", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/entrepreneur-resources/startup-hiring"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Startup Hiring: What Nobody Tells You First | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/entrepreneur-resources/startup-hiring"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
             <div className="hero-split-text">
           <p className="eyebrow">Blog · Business & Entrepreneur Resources</p>
-          <h1>Startup Hiring 101: Building Your First Team</h1>
+          <h1>Startup Hiring: What Nobody Tells You First | BEG</h1>
           <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
             <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
             <span><strong>Published:</strong> June 25, 2026</span>
@@ -55,7 +56,7 @@ export default function StartupHiringPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Build Your First Team. We Handle the Rest.</h3>
           <p style={{ marginBottom: '1.5rem' }}>From recruiting to equity strategy to compliance. Let's get your first team in place quickly.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
 

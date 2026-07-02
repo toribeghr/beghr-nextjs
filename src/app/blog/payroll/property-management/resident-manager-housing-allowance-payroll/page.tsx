@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Resident Manager Housing Allowance | Payroll Rules | BEG",
+  title: "Resident Manager Housing Allowance (What to Know) | BEG",
   description: "IRC Section 119 housing allowance rules for resident managers: what qualifies, what is taxable, and how to configure it correctly in payroll. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/property-management/resident-manager-housing-allowance-payroll" },
   openGraph: {
-    title: "Resident Manager Housing Allowance | Payroll Rules | BEG",
+    title: "Resident Manager Housing Allowance (What to Know) | BEG",
     description: "IRC Section 119 housing allowance rules for resident managers: what qualifies, what is taxable, and how to configure it correctly in payroll. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/property-management/resident-manager-housing-allowance-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Resident Manager Housing Allowance | Payroll Rules | BEG", description: "IRC Section 119 rules for resident manager housing allowances and how to configure them in payroll.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Resident Manager Housing Allowance (What to Know) | BEG", description: "IRC Section 119 rules for resident manager housing allowances and how to configure them in payroll.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -133,12 +134,7 @@ export default function ResidentManagerHousingAllowancePayrollPage() {
             >
               Property Management Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

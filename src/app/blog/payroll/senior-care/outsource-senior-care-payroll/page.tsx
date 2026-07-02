@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Outsource Senior Care Payroll | Save Time + Cost | BEG',
+  title: 'Should Senior Care Facilities Outsource Payroll | BEG',
   description: 'Should senior care facilities outsource payroll? What operators get, cost vs in-house comparison, and how BEG onboards senior care facilities in 3-5 business days.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/senior-care/outsource-senior-care-payroll' },
   openGraph: {
-    title: 'Outsource Senior Care Payroll | Save Time + Cost | BEG',
+    title: 'Should Senior Care Facilities Outsource Payroll | BEG',
     description: 'Should senior care facilities outsource payroll? What operators get, cost vs in-house comparison, and how BEG onboards senior care facilities in 3-5 business days.',
     url: 'https://www.beghr.com/blog/payroll/senior-care/outsource-senior-care-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Outsource Senior Care Payroll | Save Time + Cost | BEG', description: 'Why senior care facilities outsource payroll and what BEG delivers at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Should Senior Care Facilities Outsource Payroll | BEG', description: 'Why senior care facilities outsource payroll and what BEG delivers at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -143,12 +144,7 @@ export default function OutsourceSeniorCarePayrollPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages senior care payroll at $25-$45 PEPM. CNA overtime, shift differentials, CMS PBJ, ACA, and year-end W-2s. Book a 15-minute call to see what it costs for your facility.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

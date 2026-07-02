@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Accounting Firm Payroll Compliance 2026 | BEG Guide",
+  title: "Accounting Firm Payroll Compliance in 2026 | BEG",
   description: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close coordination, FLSA requirements, and state-specific wage rules. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" },
   openGraph: {
-    title: "Accounting Firm Payroll Compliance 2026 | BEG Guide",
+    title: "Accounting Firm Payroll Compliance in 2026 | BEG",
     description: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close coordination, FLSA requirements, and state-specific wage rules. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Accounting Firm Payroll Compliance 2026 | BEG Guide", description: "CPA firm payroll compliance: remote staff, 401(k), year-end close. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.org"] },
+  twitter: { card: "summary_large_image", title: "Accounting Firm Payroll Compliance in 2026 | BEG", description: "CPA firm payroll compliance: remote staff, 401(k), year-end close. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.org"] },
 };
 
 const faqs = [
@@ -160,12 +161,7 @@ export default function AccountingFirmPayrollCompliancePage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages CPA firm payroll compliance including multi-state remote staff, 401(k) coordination, and year-end close at $25 to $45 per employee per month.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

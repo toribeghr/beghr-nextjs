@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Architecture Firm Payroll Guide 2026 | PE + Partners | BEG",
+  title: "Architecture Firm Payroll Guide in 2026 | BEG",
   description: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws, multi-state staff, and overtime compliance. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/architecture/architecture-firm-payroll-guide" },
   openGraph: {
-    title: "Architecture Firm Payroll Guide 2026 | PE + Partners | BEG",
+    title: "Architecture Firm Payroll Guide in 2026 | BEG",
     description: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws, multi-state staff, and overtime compliance. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/architecture/architecture-firm-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Architecture Firm Payroll Guide 2026 | PE + Partners | BEG", description: "Architecture firm payroll: project billing, licensed staff tracking, partner draws, and overtime. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Architecture Firm Payroll Guide in 2026 | BEG", description: "Architecture firm payroll: project billing, licensed staff tracking, partner draws, and overtime. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -158,12 +159,7 @@ export default function ArchitectureFirmPayrollGuidePage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages architecture firm payroll including project coding, multi-state compliance, and partner structures at $25 to $45 per employee per month. Setup takes 3 to 5 business days. No per-run fees.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

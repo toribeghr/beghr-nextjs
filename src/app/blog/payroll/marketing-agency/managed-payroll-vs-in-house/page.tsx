@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG',
+  title: 'Managed Payroll vs In-House for Agencies: Which Wins? | BEG',
   description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house' },
   openGraph: {
-    title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG',
+    title: 'Managed Payroll vs In-House for Agencies: Which Wins? | BEG',
     description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner...',
     url: 'https://www.beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG', description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs In-House for Agencies: Which Wins? | BEG', description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -49,7 +50,7 @@ export default function MarketingAgencyComparisonPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managed Payroll vs. Hiring In-House for Marketing Agencies | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managed Payroll vs In-House for Agencies: Which Wins? | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -149,14 +150,7 @@ export default function MarketingAgencyComparisonPage() {
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
             Free 15-minute scope review. We will confirm the right pricing tier for your headcount, review your state registration status, and walk through your owner-employee setup before you commit.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-          >
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

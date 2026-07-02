@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Captive vs Independent Insurance Agent Payroll | BEG",
+  title: "Captive vs Independent Agent Payroll: Key Difference | BEG",
   description: "Captive vs independent insurance agent payroll: W-2 vs 1099 classification rules, IRS tests, state insurance department factors, and audit risk. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/insurance-agency/captive-vs-independent-agent-payroll" },
   openGraph: {
-    title: "Captive vs Independent Insurance Agent Payroll | BEG",
+    title: "Captive vs Independent Agent Payroll: Key Difference | BEG",
     description: "Captive vs independent insurance agent payroll: W-2 vs 1099 classification rules, IRS tests, state insurance department factors, and audit risk. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/insurance-agency/captive-vs-independent-agent-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Captive vs Independent Insurance Agent Payroll | BEG", description: "W-2 vs 1099 for captive and independent insurance agents. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Captive vs Independent Agent Payroll: Key Difference | BEG", description: "W-2 vs 1099 for captive and independent insurance agents. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -146,12 +147,7 @@ export default function CaptiveVsIndependentAgentPayrollPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages insurance agency payroll with correct W-2 and 1099 treatment for captive and independent agents. $25 to $45 per employee per month.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

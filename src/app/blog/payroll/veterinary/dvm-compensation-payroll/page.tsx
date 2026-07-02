@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG',
+  title: 'DVM Compensation in Payroll: What Nobody Tells You | BEG',
   description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/veterinary/dvm-compensation-payroll' },
   openGraph: {
-    title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG',
+    title: 'DVM Compensation in Payroll: What Nobody Tells You | BEG',
     description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common se...',
     url: 'https://www.beghr.com/blog/payroll/veterinary/dvm-compensation-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How to Set Up DVM Salary and Production Bonuses in Payroll | BEG', description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common se...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'DVM Compensation in Payroll: What Nobody Tells You | BEG', description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common se...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -138,10 +139,7 @@ export default function DVMCompensationPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Get DVM compensation set up correctly</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages payroll for veterinary practices including production bonus processing, associate and owner DVM setups, and year-end W-2s. 15-minute call.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
+  title: 'Construction Payroll Outsourcing: What It Costs | BEG',
   description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/construction/contractors-payroll' },
   openGraph: {
-    title: 'Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
+    title: 'Construction Payroll Outsourcing: What It Costs | BEG',
     description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...',
     url: 'https://www.beghr.com/blog/payroll/construction/contractors-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG', description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction Payroll Outsourcing: What It Costs | BEG', description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -56,7 +57,7 @@ export default function ConstructionPayrollPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Construction Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/construction/contractors-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Construction Payroll Outsourcing: What It Costs | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/construction/contractors-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -194,7 +195,7 @@ export default function ConstructionPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Construction Payroll, Handled.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Certified payroll, Davis-Bacon, job costing, multi-state compliance -- all at $25–$45 per employee per month. Book a 15-minute call to see what it costs for your crew size and project mix.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Construction Payroll Outsourcing</h2>

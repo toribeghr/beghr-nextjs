@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Remote Tech Team Payroll | Multi-State, Distributed Teams | BEG",
+  title: "Remote Tech Team Payroll: Multi-State Nexus Rules | BEG",
   description: "Remote tech team payroll: multi-state withholding, contractor classification, nexus compliance, and employer-of-record options. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/technology/remote-tech-team-payroll" },
   openGraph: {
-    title: "Remote Tech Team Payroll | Multi-State, Distributed Teams | BEG",
+    title: "Remote Tech Team Payroll: Multi-State Nexus Rules | BEG",
     description: "Remote tech payroll: multi-state withholding, contractor classification, nexus compliance, and EOR alternatives. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/technology/remote-tech-team-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Remote Tech Team Payroll | Multi-State, Distributed Teams | BEG", description: "Remote tech payroll: multi-state withholding, contractor classification, nexus, and EOR alternatives. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Remote Tech Team Payroll: Multi-State Nexus Rules | BEG", description: "Remote tech payroll: multi-state withholding, contractor classification, nexus, and EOR alternatives. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -146,12 +147,7 @@ export default function RemoteTechTeamPayrollPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages remote tech team payroll at $25 to $45 per employee per month. We handle all 50 states. Setup in 3 to 5 business days. No per-state surcharges.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

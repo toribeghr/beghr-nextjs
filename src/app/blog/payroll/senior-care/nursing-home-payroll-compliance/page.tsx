@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Nursing Home Payroll Compliance 2026 | CMS + FLSA | BEG',
+  title: 'Nursing Home Payroll Compliance: CMS and FLSA Rules | BEG',
   description: 'Nursing home payroll compliance guide: CMS minimum staffing rules, FLSA overtime for nurses and CNAs, state wage laws, PBJ reporting, and ACA tracking.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/senior-care/nursing-home-payroll-compliance' },
   openGraph: {
-    title: 'Nursing Home Payroll Compliance 2026 | CMS + FLSA | BEG',
+    title: 'Nursing Home Payroll Compliance: CMS and FLSA Rules | BEG',
     description: 'Nursing home payroll compliance: CMS staffing requirements, FLSA overtime, state wage laws, PBJ reporting, and ACA tracking for long-term care facilities.',
     url: 'https://www.beghr.com/blog/payroll/senior-care/nursing-home-payroll-compliance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Nursing Home Payroll Compliance 2026 | CMS + FLSA | BEG', description: 'Nursing home payroll compliance: CMS staffing, FLSA, state wage laws, and PBJ reporting.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Nursing Home Payroll Compliance: CMS and FLSA Rules | BEG', description: 'Nursing home payroll compliance: CMS staffing, FLSA, state wage laws, and PBJ reporting.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -122,12 +123,7 @@ export default function NursingHomePayrollCompliancePage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages nursing home payroll compliance at $25-$45 PEPM. CMS PBJ support, FLSA overtime, state wage law tracking, ACA compliance, and year-end W-2s all included.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

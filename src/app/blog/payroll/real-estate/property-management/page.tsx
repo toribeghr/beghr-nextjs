@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Real Estate Payroll | W-2 Staff and 1099 Agents. Handled. | BEG',
+  title: 'Real Estate Payroll, W-2 and 1099 (Full Breakdown) | BEG',
   description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/real-estate/property-management' },
   openGraph: {
-    title: 'Real Estate Payroll | W-2 Staff and 1099 Agents. Handled. | BEG',
+    title: 'Real Estate Payroll, W-2 and 1099 (Full Breakdown) | BEG',
     description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...',
     url: 'https://www.beghr.com/blog/payroll/real-estate/property-management',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Real Estate Payroll | W-2 Staff and 1099 Agents. Handled. | BEG', description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Real Estate Payroll, W-2 and 1099 (Full Breakdown) | BEG', description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -212,9 +213,7 @@ export default function RealEstatePropertyManagementPayrollPage() {
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Payroll That Keeps Up With How Real Estate Actually Works</p>
           <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>W-2 staff, commission splits, multi-state property managers, BEG handles all of it at $25–$45 PEPM, all-inclusive. No coordinator hire. No compliance gaps.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.85rem 2rem', borderRadius: '6px', fontWeight: '700', fontSize: '1rem', textDecoration: 'none' }}>
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>Frequently Asked Questions</h2>

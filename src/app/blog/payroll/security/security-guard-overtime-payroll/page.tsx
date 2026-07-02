@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Security Guard Overtime Payroll | 24-7 Compliance | BEG",
+  title: "Security Guard Overtime Payroll: 24/7 FLSA Rules | BEG",
   description: "FLSA overtime rules for security guards: 24/7 operations, shift differential regular rate, state daily overtime, and correct overtime calculation. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/security/security-guard-overtime-payroll" },
   openGraph: {
-    title: "Security Guard Overtime Payroll | 24-7 Compliance | BEG",
+    title: "Security Guard Overtime Payroll: 24/7 FLSA Rules | BEG",
     description: "Overtime rules for security guards: 24/7 shift operations, shift differentials in the regular rate, state daily overtime laws, and correct calculation. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/security/security-guard-overtime-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Security Guard Overtime Payroll | 24-7 Compliance | BEG", description: "FLSA overtime rules for security guards working 24/7 operations: regular rate, shift differentials, and state rules.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Security Guard Overtime Payroll: 24/7 FLSA Rules | BEG", description: "FLSA overtime rules for security guards working 24/7 operations: regular rate, shift differentials, and state rules.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -153,12 +154,7 @@ export default function SecurityGuardOvertimePayrollPage() {
             >
               Security Company Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

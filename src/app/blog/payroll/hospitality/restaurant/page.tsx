@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Restaurant Payroll | Tipped Staff & Tip Pools. Handled. | BEG',
+  title: 'Restaurant Payroll, Tipped Staff and Tip Pools | BEG',
   description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/hospitality/restaurant' },
   openGraph: {
-    title: 'Restaurant Payroll | Tipped Staff & Tip Pools. Handled. | BEG',
+    title: 'Restaurant Payroll, Tipped Staff and Tip Pools | BEG',
     description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K a...',
     url: 'https://www.beghr.com/blog/payroll/hospitality/restaurant',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Restaurant Payroll | Tipped Staff & Tip Pools. Handled. | BEG', description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K a...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Restaurant Payroll, Tipped Staff and Tip Pools | BEG', description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K a...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -195,7 +196,7 @@ export default function RestaurantPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Restaurant Payroll, Handled.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Tip credit rules, tip pools, split-shift premiums, high-turnover W-2s -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your location count and staff size.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Restaurant Payroll Outsourcing</h2>

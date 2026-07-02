@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Salon & Spa Payroll Guide 2026 | Booth Rental + Tips | BEG",
+  title: "Salon and Spa Payroll Guide for 2026 | BEG",
   description: "Complete salon and spa payroll guide: booth rental IRS rules, W-2 employee stylists, commission payroll, tip credit, and cosmetology minimum wage. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa/salon-spa-payroll-guide" },
   openGraph: {
-    title: "Salon & Spa Payroll Guide 2026 | Booth Rental + Tips | BEG",
+    title: "Salon and Spa Payroll Guide for 2026 | BEG",
     description: "Salon and spa payroll guide: booth rental classification, commission payroll, tip credit, and W-2 vs 1099 for stylists and estheticians. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/salon-spa/salon-spa-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Salon & Spa Payroll Guide 2026 | BEG", description: "Salon and spa payroll: booth rental, W-2 stylists, commission, tip credit, and cosmetology wage rules.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Salon and Spa Payroll Guide for 2026 | BEG", description: "Salon and spa payroll: booth rental, W-2 stylists, commission, tip credit, and cosmetology wage rules.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -128,12 +129,7 @@ export default function SalonSpaPayrollGuidePage() {
             >
               Salon and Spa Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

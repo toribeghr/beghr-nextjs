@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Property Management Commission Payroll | Chargebacks | BEG",
+  title: "Property Management Commission Payroll (Full Breakdown) | BEG",
   description: "How to handle leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding. BEG managed payroll for property management at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/property-management/property-management-commission-payroll" },
   openGraph: {
-    title: "Property Management Commission Payroll | Chargebacks | BEG",
+    title: "Property Management Commission Payroll (Full Breakdown) | BEG",
     description: "How to handle leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/property-management/property-management-commission-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Property Management Commission Payroll | Chargebacks | BEG", description: "Leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding for property management.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Property Management Commission Payroll (Full Breakdown) | BEG", description: "Leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding for property management.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -128,12 +129,7 @@ export default function PropertyManagementCommissionPayrollPage() {
             >
               Property Management Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

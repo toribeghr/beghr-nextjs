@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
 
 export const metadata: Metadata = {
-  title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG',
+  title: 'Paralegal Recruiting: Placements in 23-35 Days | BEG',
   description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great.',
   alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/paralegal-recruiting' },
   openGraph: {
-    title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG',
+    title: 'Paralegal Recruiting: Placements in 23-35 Days | BEG',
     description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...',
     url: 'https://www.beghr.com/blog/legal-hiring/paralegal-recruiting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG', description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Paralegal Recruiting: Placements in 23-35 Days | BEG', description: 'Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing strategies, and what separates good paralegals from great ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -47,7 +47,7 @@ const faqs = [
 export default function ParalegalRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Paralegal Recruiting | Law Firm Placements in 23-35 Days | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/paralegal-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Paralegal Recruiting: Placements in 23-35 Days | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/paralegal-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -203,17 +203,9 @@ export default function ParalegalRecruitingPage() {
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Find a Practice-Area-Matched Paralegal in 23-35 Days</p>
           <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>BEG places litigation, real estate, corporate, IP, and bankruptcy paralegals with an 86% fill rate, at roughly 50% less than contingency search firms. We reach candidates who are not on job boards.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.85rem 2rem', borderRadius: '6px', fontWeight: '700', fontSize: '1rem', textDecoration: 'none' }}>
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="grader"
-          eyebrow={`Free Tool`}
-          heading={`Grade your legal job description in 30 seconds`}
-          description={`A weak posting quietly kills your pipeline before a single strong candidate sees it. Paste your job description below and get an instant 0 to 100 score, plus the exact fixes that get the best people to apply. Free, instant, and nothing you paste ever leaves your browser.`}
-        />
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>Frequently Asked Questions</h2>
 
         <div className="faq" style={{ marginTop: '1rem' }}>

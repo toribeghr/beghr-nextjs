@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Outsource Architecture Firm Payroll | BEG Guide",
+  title: "Outsource Architecture Firm Payroll (What to Know) | BEG",
   description: "Why architecture firms outsource payroll: project coding, multi-state licensed staff, partner structures, and compliance. BEG at $25-$45 PEPM, 3-5 day setup.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/architecture/outsource-architecture-firm-payroll" },
   openGraph: {
-    title: "Outsource Architecture Firm Payroll | BEG Guide",
+    title: "Outsource Architecture Firm Payroll (What to Know) | BEG",
     description: "Why architecture firms outsource payroll: project coding, multi-state licensed staff, partner structures, and compliance. BEG at $25-$45 PEPM, 3-5 day setup.",
     url: "https://www.beghr.com/blog/payroll/architecture/outsource-architecture-firm-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Outsource Architecture Firm Payroll | BEG Guide", description: "Why architecture firms outsource payroll and how fast they can onboard. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Outsource Architecture Firm Payroll (What to Know) | BEG", description: "Why architecture firms outsource payroll and how fast they can onboard. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -148,12 +149,7 @@ export default function OutsourceArchitectureFirmPayrollPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages architecture firm payroll from onboarding through year-end at $25 to $45 per employee per month. Setup takes 3 to 5 business days from contract signing to first live payroll run.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

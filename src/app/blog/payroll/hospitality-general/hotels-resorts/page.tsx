@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Hotel & Resort Payroll | Tips & Seasonal Staff. Done Right. | BEG',
+  title: 'Hotel and Resort Payroll, Tips and Seasonal Staff | BEG',
   description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/hospitality-general/hotels-resorts' },
   openGraph: {
-    title: 'Hotel & Resort Payroll | Tips & Seasonal Staff. Done Right. | BEG',
+    title: 'Hotel and Resort Payroll, Tips and Seasonal Staff | BEG',
     description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.',
     url: 'https://www.beghr.com/blog/payroll/hospitality-general/hotels-resorts',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hotel & Resort Payroll | Tips & Seasonal Staff. Done Right. | BEG', description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hotel and Resort Payroll, Tips and Seasonal Staff | BEG', description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -212,7 +213,7 @@ export default function HotelsResortsPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll Built for Hotel and Resort Operations</h3>
           <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles tipped employee processing, tip pool compliance, split-shift premiums, seasonal workforce onboarding, and year-end W-2s for hotel and resort properties nationally. All-inclusive at $25–$45 PEPM. No surprise fees at year-end. Schedule a 15-minute discovery call for an exact quote.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2.25rem', borderRadius: '4px', fontWeight: '700', textDecoration: 'none', fontSize: '1rem' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Frequently Asked Questions</h2>

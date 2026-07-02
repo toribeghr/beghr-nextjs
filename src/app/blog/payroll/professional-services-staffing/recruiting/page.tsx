@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Staffing Agency Payroll Outsourcing | Commission Done Right | BEG',
+  title: 'Staffing Agency Payroll Outsourcing (Full Breakdown) | BEG',
   description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/professional-services-staffing/recruiting' },
   openGraph: {
-    title: 'Staffing Agency Payroll Outsourcing | Commission Done Right | BEG',
+    title: 'Staffing Agency Payroll Outsourcing (Full Breakdown) | BEG',
     description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',
     url: 'https://www.beghr.com/blog/payroll/professional-services-staffing/recruiting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Outsourcing | Commission Done Right | BEG', description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Outsourcing (Full Breakdown) | BEG', description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -212,9 +213,7 @@ export default function StaffingRecruitingPayrollPage() {
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Stop Managing Payroll Complexity In-House</p>
           <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>BEG handles commission tracking, multi-state filings, W-2 placed workers, and rapid scaling, all-inclusive at $25–$45 PEPM. No hiring lag. No compliance gaps.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.85rem 2rem', borderRadius: '6px', fontWeight: '700', fontSize: '1rem', textDecoration: 'none' }}>
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>Frequently Asked Questions</h2>

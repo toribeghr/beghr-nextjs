@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Retail Payroll Outsourcing | Seasonal Staff. Done Right. | BEG',
+  title: 'Retail Payroll Outsourcing for Seasonal Staff | BEG',
   description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/retail/staffing-payroll' },
   openGraph: {
-    title: 'Retail Payroll Outsourcing | Seasonal Staff. Done Right. | BEG',
+    title: 'Retail Payroll Outsourcing for Seasonal Staff | BEG',
     description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',
     url: 'https://www.beghr.com/blog/payroll/retail/staffing-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Retail Payroll Outsourcing | Seasonal Staff. Done Right. | BEG', description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Retail Payroll Outsourcing for Seasonal Staff | BEG', description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -210,9 +211,7 @@ export default function RetailStaffingPayrollPage() {
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Retail Payroll That Scales With Your Season</p>
           <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>Variable hours, seasonal surges, multi-state minimum wages, ACA tracking, BEG handles all of it at $25–$45 PEPM. Pay for what you use. No fixed overhead.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.85rem 2rem', borderRadius: '6px', fontWeight: '700', fontSize: '1rem', textDecoration: 'none' }}>
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>Frequently Asked Questions</h2>

@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Consulting Firm Payroll | Billable Hours & Multi-State | BEG",
+  title: "Consulting Firm Payroll, Billable Hours (Full Breakdown) | BEG",
   description: "Consulting firm payroll: utilization bonuses, multi-state remote consultant compliance, exempt classification, and W-2 vs 1099. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/professional-services/consulting-firm-payroll" },
   openGraph: {
-    title: "Consulting Firm Payroll | Billable Hours & Multi-State | BEG",
+    title: "Consulting Firm Payroll, Billable Hours (Full Breakdown) | BEG",
     description: "Consulting firm payroll: billable hours, utilization bonuses, multi-state compliance, and contractor classification. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/professional-services/consulting-firm-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Consulting Firm Payroll | Billable Hours, Bonus & Multi-State | BEG", description: "Consulting firm payroll: billable hours, utilization bonuses, multi-state compliance, and contractor classification. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Consulting Firm Payroll, Billable Hours (Full Breakdown) | BEG", description: "Consulting firm payroll: billable hours, utilization bonuses, multi-state compliance, and contractor classification. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -134,12 +135,7 @@ export default function ConsultingFirmPayrollPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages consulting firm payroll at $25 to $45 per employee per month. Multi-state, bonus blending, and correct exemption treatment included. Live in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

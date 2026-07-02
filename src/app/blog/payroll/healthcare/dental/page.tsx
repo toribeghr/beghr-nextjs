@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Dental Office Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG',
+  title: 'Dental Office Payroll Outsourcing (Full Breakdown) | BEG',
   description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/healthcare/dental' },
   openGraph: {
-    title: 'Dental Office Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG',
+    title: 'Dental Office Payroll Outsourcing (Full Breakdown) | BEG',
     description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
     url: 'https://www.beghr.com/blog/payroll/healthcare/dental',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Dental Office Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG', description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Dental Office Payroll Outsourcing (Full Breakdown) | BEG', description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -195,7 +196,7 @@ export default function DentalPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Dental Payroll, Handled.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Hygienist tips, production comp, multi-rate pay, tax filing -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Dental Office Payroll Outsourcing</h2>

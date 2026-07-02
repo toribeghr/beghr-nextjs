@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG',
+  title: 'Fitness Trainer W-2 vs 1099, Before It Costs You | BEG',
   description: 'How to correctly classify fitness trainers as employees or independent contractors -- the IRS factors, state law differences, and what happens if a.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099' },
   openGraph: {
-    title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG',
+    title: 'Fitness Trainer W-2 vs 1099, Before It Costs You | BEG',
     description: 'How to correctly classify fitness trainers as employees or independent contractors -- the IRS factors, state law differences, and what happens if a studi...',
     url: 'https://www.beghr.com/blog/payroll/fitness/fitness-trainer-w2-vs-1099',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Fitness Trainer W-2 vs. 1099 | IRS Classification Rules | BEG', description: 'How to correctly classify fitness trainers as employees or independent contractors -- the IRS factors, state law differences, and what happens if a studi...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Fitness Trainer W-2 vs 1099, Before It Costs You | BEG', description: 'How to correctly classify fitness trainers as employees or independent contractors -- the IRS factors, state law differences, and what happens if a studi...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -147,10 +148,7 @@ export default function FitnessTrainerClassificationPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Fix classification now before an audit does it for you</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages payroll for fitness studios including trainer classification review, per-class pay processing, and year-end W-2s. 15-minute call.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

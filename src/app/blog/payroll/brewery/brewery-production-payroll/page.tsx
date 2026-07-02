@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Brewery Production Staff Payroll | Overtime + Shifts | BEG",
+  title: "Brewery Production Staff Payroll [Full Breakdown] | BEG",
   description: "How to run payroll for brewery production staff: shift differentials, overtime for long production runs, and safety incentive administration. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/brewery/brewery-production-payroll" },
   openGraph: {
-    title: "Brewery Production Staff Payroll | Overtime + Shifts | BEG",
+    title: "Brewery Production Staff Payroll [Full Breakdown] | BEG",
     description: "Brewery production staff payroll: shift differentials, overtime, safety incentives, and correct regular rate calculation. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/brewery/brewery-production-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Brewery Production Staff Payroll | Overtime + Shifts | BEG", description: "Payroll for brewery production staff: shift differentials, overtime calculation, and safety incentive administration.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Brewery Production Staff Payroll [Full Breakdown] | BEG", description: "Payroll for brewery production staff: shift differentials, overtime calculation, and safety incentive administration.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -131,12 +132,7 @@ export default function BreweryProductionPayrollPage() {
             >
               Brewery Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

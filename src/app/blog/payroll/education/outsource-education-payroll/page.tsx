@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Outsource School Payroll | Private + Charter | BEG",
+  title: "Outsource School Payroll: What Charter Schools Miss | BEG",
   description: "Why private and charter schools outsource payroll, what to look for in a provider, and how managed payroll compares to in-house. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/education/outsource-education-payroll" },
   openGraph: {
-    title: "Outsource School Payroll | Private + Charter | BEG",
+    title: "Outsource School Payroll: What Charter Schools Miss | BEG",
     description: "Why private and charter schools outsource payroll, what to look for in a provider, and how managed payroll compares to in-house. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/education/outsource-education-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Outsource School Payroll | Private + Charter | BEG", description: "Why private and charter schools outsource payroll and what to look for in a managed payroll provider.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Outsource School Payroll: What Charter Schools Miss | BEG", description: "Why private and charter schools outsource payroll and what to look for in a managed payroll provider.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -134,12 +135,7 @@ export default function OutsourceEducationPayrollPage() {
             >
               Education Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

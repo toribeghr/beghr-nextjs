@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Security Company Payroll Guide 2026 | Guard Shifts | BEG",
+  title: "Security Company Payroll Guide: Guard Shifts & SCA | BEG",
   description: "Security company payroll guide: SCA compliance for federal contracts, 24/7 shift processing, overtime for long shifts, and high-volume W-2 production. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/security/security-company-payroll-guide" },
   openGraph: {
-    title: "Security Company Payroll Guide 2026 | Guard Shifts | BEG",
+    title: "Security Company Payroll Guide: Guard Shifts & SCA | BEG",
     description: "Security company payroll guide: SCA compliance, 24/7 shift payroll, overtime for long shifts, and high-turnover W-2 production. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/security/security-company-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Security Company Payroll Guide 2026 | BEG", description: "Security company payroll: SCA compliance, 24/7 shifts, overtime, and high-volume W-2s.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Security Company Payroll Guide: Guard Shifts & SCA | BEG", description: "Security company payroll: SCA compliance, 24/7 shifts, overtime, and high-volume W-2s.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -128,12 +129,7 @@ export default function SecurityCompanyPayrollGuidePage() {
             >
               Security Company Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

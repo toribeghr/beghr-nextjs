@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Salon Booth Rental vs W-2 | IRS Classification | BEG",
+  title: "Salon Booth Rental vs. W-2: IRS Classification Rules | BEG",
   description: "How to classify salon stylists for payroll: the IRS booth rental test, what must be in booth rental contracts, and the risks of misclassification. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa/salon-booth-rental-payroll-classification" },
   openGraph: {
-    title: "Salon Booth Rental vs W-2 | IRS Classification | BEG",
+    title: "Salon Booth Rental vs. W-2: IRS Classification Rules | BEG",
     description: "The IRS test for salon stylist classification: what makes a true booth renter vs an employee, and the risks of misclassification. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/salon-spa/salon-booth-rental-payroll-classification",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Salon Booth Rental vs W-2 | IRS Classification | BEG", description: "Salon stylist classification: booth rental IRS test, contract requirements, and misclassification risks.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Salon Booth Rental vs. W-2: IRS Classification Rules | BEG", description: "Salon stylist classification: booth rental IRS test, contract requirements, and misclassification risks.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -123,12 +124,7 @@ export default function SalonBoothRentalPayrollClassificationPage() {
             >
               Salon and Spa Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

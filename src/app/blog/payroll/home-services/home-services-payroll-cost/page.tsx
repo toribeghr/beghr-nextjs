@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home Services Payroll Costs | In-House vs Managed | BEG',
+  title: 'Home Services Payroll Costs, In-House vs Managed | BEG',
   description: 'How much does payroll cost for a home services company? Compare in-house payroll specialist ($60K-$100K) vs managed payroll at $25-$45 PEPM. Real numbers and ROI.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost' },
   openGraph: {
-    title: 'Home Services Payroll Costs | In-House vs Managed | BEG',
+    title: 'Home Services Payroll Costs, In-House vs Managed | BEG',
     description: 'How much does payroll cost for a home services company? Compare in-house payroll specialist vs managed payroll at $25-$45 PEPM with real numbers.',
     url: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Services Payroll Costs | In-House vs Managed | BEG', description: 'Real cost comparison of in-house vs managed payroll for home services companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Services Payroll Costs, In-House vs Managed | BEG', description: 'Real cost comparison of in-house vs managed payroll for home services companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -137,12 +138,7 @@ export default function HomeServicesPayrollCostPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages home services payroll at $25-$45 PEPM, all-inclusive. Book a 15-minute call to get a cost comparison for your current employee count.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Payroll Outsourcing in Massachusetts: What Changed i.. | BEG',
+  title: 'Payroll Outsourcing in Massachusetts: 2026 Changes | BEG',
   description: 'Payroll Outsourcing in Massachusetts: What Changed in 2026. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/state/payroll-outsourcing-massachusetts' },
   openGraph: {
-    title: 'Payroll Outsourcing in Massachusetts: What Changed i.. | BEG',
+    title: 'Payroll Outsourcing in Massachusetts: 2026 Changes | BEG',
     description: 'Payroll Outsourcing in Massachusetts: What Changed in 2026. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at beghr.com.',
     url: 'https://www.beghr.com/blog/payroll/state/payroll-outsourcing-massachusetts',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll Outsourcing in Massachusetts: What Changed i.. | BEG', description: 'Payroll Outsourcing in Massachusetts: What Changed in 2026. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll Outsourcing in Massachusetts: 2026 Changes | BEG', description: 'Payroll Outsourcing in Massachusetts: What Changed in 2026. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -120,7 +121,7 @@ export default function Page() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
           <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Book a free 15-minute discovery call to get a cost comparison for your business.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Frequently Asked Questions</h2>

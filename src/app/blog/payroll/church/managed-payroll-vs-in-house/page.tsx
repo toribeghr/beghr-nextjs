@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll vs. Hiring In-House for Churches | BEG',
+  title: 'Managed Payroll vs. In-House Hire for Churches | BEG',
   description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/church/managed-payroll-vs-in-house' },
   openGraph: {
-    title: 'Managed Payroll vs. Hiring In-House for Churches | BEG',
+    title: 'Managed Payroll vs. In-House Hire for Churches | BEG',
     description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Soci...',
     url: 'https://www.beghr.com/blog/payroll/church/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Churches | BEG', description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Soci...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. In-House Hire for Churches | BEG', description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Soci...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -49,7 +50,7 @@ export default function ChurchComparisonPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managed Payroll vs. Hiring In-House for Churches | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/church/managed-payroll-vs-in-house"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managed Payroll vs. In-House Hire for Churches | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/church/managed-payroll-vs-in-house"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -149,14 +150,7 @@ export default function ChurchComparisonPage() {
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
             Free 15-minute scope review. We will review your current minister compensation setup and confirm exact pricing for your staff size before you commit to anything.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-          >
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

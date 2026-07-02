@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Licensed Professional Payroll | PE + Architect | BEG",
+  title: "Licensed Professional Payroll [Full Breakdown] | BEG",
   description: "Payroll compliance for licensed architects and engineers: state license tracking, FLSA classification, multi-state obligations, and PE credentialing. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/architecture/licensed-professional-payroll-tracking" },
   openGraph: {
-    title: "Licensed Professional Payroll | PE + Architect | BEG",
+    title: "Licensed Professional Payroll [Full Breakdown] | BEG",
     description: "Payroll compliance for licensed architects and engineers: state license tracking, FLSA classification, multi-state obligations, and PE credentialing. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/architecture/licensed-professional-payroll-tracking",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Licensed Professional Payroll | PE + Architect | BEG", description: "Payroll for licensed architects and engineers: state license tracking, FLSA classification, multi-state compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Licensed Professional Payroll [Full Breakdown] | BEG", description: "Payroll for licensed architects and engineers: state license tracking, FLSA classification, multi-state compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -145,12 +146,7 @@ export default function LicensedProfessionalPayrollTrackingPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages payroll for architecture and engineering firms with licensed professionals in multiple states. $25 to $45 per employee per month. Setup in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

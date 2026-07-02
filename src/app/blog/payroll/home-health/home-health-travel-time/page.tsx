@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Home Health Payroll | How to Handle Travel Time Pay | BEG',
+  title: 'Home Health Payroll, Handling Travel Time Pay | BEG',
   description: 'FLSA rules on compensable travel time for home health aides and visiting nurses -- what must be paid, what is excluded, and how to set up travel time.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-health/home-health-travel-time' },
   openGraph: {
-    title: 'Home Health Payroll | How to Handle Travel Time Pay | BEG',
+    title: 'Home Health Payroll, Handling Travel Time Pay | BEG',
     description: 'FLSA rules on compensable travel time for home health aides and visiting nurses -- what must be paid, what is excluded, and how to set up travel time tra...',
     url: 'https://www.beghr.com/blog/payroll/home-health/home-health-travel-time',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Health Payroll | How to Handle Travel Time Pay | BEG', description: 'FLSA rules on compensable travel time for home health aides and visiting nurses -- what must be paid, what is excluded, and how to set up travel time tra...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Health Payroll, Handling Travel Time Pay | BEG', description: 'FLSA rules on compensable travel time for home health aides and visiting nurses -- what must be paid, what is excluded, and how to set up travel time tra...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -137,10 +138,7 @@ export default function HomeHealthTravelTimePage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Fix travel time tracking before it becomes a DOL investigation</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages home health payroll including inter-client travel time, EVV reconciliation, and multi-state compliance. 15-minute call.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

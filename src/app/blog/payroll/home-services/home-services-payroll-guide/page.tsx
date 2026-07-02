@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home Services Payroll Guide 2026 | HVAC Plumbing | BEG',
+  title: 'Home Services Payroll Guide for HVAC and Plumbing | BEG',
   description: 'Complete home services payroll guide: field tech pay structures, overtime, drive time compensation, tool reimbursement, and seasonal workforce management for 2026.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-guide' },
   openGraph: {
-    title: 'Home Services Payroll Guide 2026 | HVAC Plumbing | BEG',
+    title: 'Home Services Payroll Guide for HVAC and Plumbing | BEG',
     description: 'Complete home services payroll guide: field tech pay, overtime, drive time, tool reimbursement, and seasonal workforce management for HVAC, plumbing, and electrical companies.',
     url: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-guide',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Services Payroll Guide 2026 | HVAC Plumbing | BEG', description: 'Complete payroll guide for HVAC, plumbing, electrical, and field tech companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Services Payroll Guide for HVAC and Plumbing | BEG', description: 'Complete payroll guide for HVAC, plumbing, electrical, and field tech companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -146,12 +147,7 @@ export default function HomeServicesPayrollGuidePage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages home services company payroll at $25-$45 PEPM. Field tech overtime, drive time tracking, seasonal volume, and year-end W-2s all included. Setup in 3-5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

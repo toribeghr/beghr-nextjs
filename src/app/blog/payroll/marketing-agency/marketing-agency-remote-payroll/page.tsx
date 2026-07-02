@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG',
+  title: 'Multi-State Payroll for Remote Teams: What to Know | BEG',
   description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations -- state registration, withholding, unemployment insurance, and.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll' },
   openGraph: {
-    title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG',
+    title: 'Multi-State Payroll for Remote Teams: What to Know | BEG',
     description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations -- state registration, withholding, unemployment insurance, and t...',
     url: 'https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Multi-State Payroll for Remote Marketing Agency Teams | BEG', description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations -- state registration, withholding, unemployment insurance, and t...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Multi-State Payroll for Remote Teams: What to Know | BEG', description: 'How marketing agencies with remote employees manage multi-state payroll tax obligations -- state registration, withholding, unemployment insurance, and t...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -49,7 +50,7 @@ export default function AgencyRemotePayrollPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Multi-State Payroll for Remote Marketing Agency Teams | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Multi-State Payroll for Remote Teams: What to Know | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-remote-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -139,10 +140,7 @@ export default function AgencyRemotePayrollPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Multi-state remote payroll -- let BEG handle it</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages payroll for marketing agencies with remote teams in multiple states. 15-minute call to discuss your setup.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 export const metadata: Metadata = {
-  title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG',
+  title: 'Payroll Tax Compliance 2026: What Changed Fast | BEG',
   description: '2026 payroll compliance changes: overtime rules, minimum wages, 1099-NEC thresholds, and paid leave. How isolved handles compliance automatically.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/payroll-compliance' },
   openGraph: {
-    title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG',
+    title: 'Payroll Tax Compliance 2026: What Changed Fast | BEG',
     description: '2026 payroll compliance changes including OBBBA overtime rules, state minimum wages, new 1099-NEC thresholds, and expanded paid leave. How isolved Peopl...',
     url: 'https://www.beghr.com/blog/hcm-software/payroll-compliance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG', description: '2026 payroll compliance changes including OBBBA overtime rules, state minimum wages, new 1099-NEC thresholds, and expanded paid leave. How isolved Peopl...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Payroll Tax Compliance 2026: What Changed Fast | BEG', description: '2026 payroll compliance changes including OBBBA overtime rules, state minimum wages, new 1099-NEC thresholds, and expanded paid leave. How isolved Peopl...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -81,7 +81,7 @@ const compliancePostureRows = [
 export default function PayrollCompliancePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Tax Compliance 2026 | What Changed. Stay Current. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/payroll-compliance"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Payroll Tax Compliance 2026: What Changed Fast | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/payroll-compliance"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -269,14 +269,7 @@ export default function PayrollCompliancePage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Book a Compliance Review -- 15 Minutes</h3>
           <p style={{ marginBottom: '1.5rem' }}>BEG will review your current payroll setup, identify compliance gaps by state, and show you how isolved People Cloud closes them. No obligation.</p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}
-          >
-            Schedule Your Discovery Call
-          </a>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
 
         <div className="faq" style={{ marginTop: '1rem' }}>
@@ -350,14 +343,6 @@ export default function PayrollCompliancePage() {
           }),
         }}
       />
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>Free tool: find the final paycheck deadline by state</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Pick a state, choose fired or quit, and get the exact deadline plus the PTO payout rule. All 50 states, free, runs in your browser.</p>
-        </div>
-      </section>
-      <FinalPaycheckCalculator />
     </article>
   );
 }

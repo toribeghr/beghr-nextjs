@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Dealer Commission Payroll | How to Process Draw & Clawback | BEG',
+  title: 'Dealer Commission Payroll (Draw and Clawback) | BEG',
   description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll -- and how to avoid the most common.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll' },
   openGraph: {
-    title: 'Dealer Commission Payroll | How to Process Draw & Clawback | BEG',
+    title: 'Dealer Commission Payroll (Draw and Clawback) | BEG',
     description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll -- and how to avoid the most common co...',
     url: 'https://www.beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Dealer Commission Payroll | How to Process Draw & Clawback | BEG', description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll -- and how to avoid the most common co...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Dealer Commission Payroll (Draw and Clawback) | BEG', description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll -- and how to avoid the most common co...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -110,10 +111,7 @@ export default function DealerCommissionPayrollPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Get dealership payroll done right</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages commission, draw, and flat-rate payroll for auto dealerships. 15-minute call to discuss your setup.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

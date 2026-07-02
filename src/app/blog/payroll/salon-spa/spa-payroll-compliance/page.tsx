@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Spa Payroll Compliance 2026 | Massage + Esthetics | BEG",
+  title: "Day Spa Payroll Compliance: Therapists and Tip Rules | BEG",
   description: "Day spa payroll compliance: massage therapist classification, tip reporting, state wage laws for estheticians and spa staff. BEG managed payroll at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa/spa-payroll-compliance" },
   openGraph: {
-    title: "Spa Payroll Compliance 2026 | Massage + Esthetics | BEG",
+    title: "Day Spa Payroll Compliance: Therapists and Tip Rules | BEG",
     description: "Day spa payroll compliance: massage therapist classification, tip reporting, and state wage laws. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/salon-spa/spa-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Spa Payroll Compliance 2026 | Massage + Esthetics | BEG", description: "Day spa payroll compliance: massage therapist classification, tip reporting, and state wage laws.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Day Spa Payroll Compliance: Therapists and Tip Rules | BEG", description: "Day spa payroll compliance: massage therapist classification, tip reporting, and state wage laws.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -128,12 +129,7 @@ export default function SpaPayrollCompliancePage() {
             >
               Salon and Spa Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

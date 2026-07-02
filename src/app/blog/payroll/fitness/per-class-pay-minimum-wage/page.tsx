@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG',
+  title: 'Per-Class Pay and Minimum Wage, Before You Get It Wrong | BEG',
   description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage' },
   openGraph: {
-    title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG',
+    title: 'Per-Class Pay and Minimum Wage, Before You Get It Wrong | BEG',
     description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what ...',
     url: 'https://www.beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG', description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Per-Class Pay and Minimum Wage, Before You Get It Wrong | BEG', description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -151,10 +152,7 @@ export default function PerClassPayMinimumWagePage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Stop calculating this manually every pay period</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages fitness studio payroll including per-class pay, minimum wage floor calculations, and year-end W-2s. 15-minute call.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

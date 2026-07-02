@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG',
+  title: 'Church Payroll and FICA: Who Is Actually Exempt | BEG',
   description: 'A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/church/church-employee-fica-payroll' },
   openGraph: {
-    title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG',
+    title: 'Church Payroll and FICA: Who Is Actually Exempt | BEG',
     description: 'A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...',
     url: 'https://www.beghr.com/blog/payroll/church/church-employee-fica-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Church Payroll & FICA | Which Employees Are Exempt | BEG', description: 'A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Church Payroll and FICA: Who Is Actually Exempt | BEG', description: 'A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial staff, the Form 4361 opt-out, and what happens when a churc...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -49,7 +50,7 @@ export default function ChurchFICAPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Church Payroll & FICA | Which Employees Are Exempt | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/church/church-employee-fica-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Church Payroll and FICA: Who Is Actually Exempt | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/church/church-employee-fica-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -129,10 +130,7 @@ export default function ChurchFICAPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Church payroll is different -- let BEG handle it correctly</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Minister dual-status setup, housing allowance designation, FICA for non-ministerial staff -- fully managed at $25–$45 PEPM. 15-minute call.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

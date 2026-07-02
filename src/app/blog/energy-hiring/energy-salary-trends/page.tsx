@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Energy Salary Trends 2026 | BEG',
+  title: "Energy Salary Trends 2026: What They Don't Post | BEG",
   description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.',
   alternates: { canonical: 'https://www.beghr.com/blog/energy-hiring/energy-salary-trends' },
   openGraph: {
-    title: 'Energy Salary Trends 2026 | BEG',
+    title: "Energy Salary Trends 2026: What They Don't Post | BEG",
     description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.',
     url: 'https://www.beghr.com/blog/energy-hiring/energy-salary-trends',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Energy Salary Trends 2026 | BEG', description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: "Energy Salary Trends 2026: What They Don't Post | BEG", description: 'Energy comp is climbing and the best candidates are passive. What actually closes an energy hire beyond the salary number.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/energy-hiring/energy-salary-trends');
 
 const faqs = [
   {
@@ -106,10 +104,7 @@ export default function EnergySalaryTrendsPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Worried your package is not competitive enough?</h3>
           <p style={{ marginBottom: '1.5rem' }}>We will share current market comp for your role and project type, and show you what is closing energy candidates right now beyond the number.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -130,20 +125,9 @@ export default function EnergySalaryTrendsPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your energy role in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role and the comp range. We will tell you what is realistic in this market and how to build an offer that closes.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="link"
-          eyebrow={`Free Tool`}
-          heading={`See real 2026 energy pay ranges before you post`}
-          description={`Get the free BEG Salary and Hiring Guide. Current 2026 pay ranges by role, plus what it takes to win the passive candidates who never apply to a job board. No cost and no sales pitch.`}
-          href="/resources/salary-guide"
-          cta={`Open the Salary and Hiring Guide →`}
-        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Energy Salary Trends</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

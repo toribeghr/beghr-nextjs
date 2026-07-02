@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',
+  title: 'Vet Payroll: Managed vs. In-House, What It Costs | BEG',
   description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
   openGraph: {
-    title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG',
+    title: 'Vet Payroll: Managed vs. In-House, What It Costs | BEG',
     description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...',
     url: 'https://www.beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Vet Practice Payroll | Managed vs. In-House. $25-$45 PEPM. | BEG', description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Vet Payroll: Managed vs. In-House, What It Costs | BEG', description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -149,14 +150,7 @@ export default function VeterinaryComparisonPage() {
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
             Free 15-minute scope review. We will confirm the right pricing tier for your team size and walk through your current pay structure to confirm BEG can handle it before you commit to anything.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-          >
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

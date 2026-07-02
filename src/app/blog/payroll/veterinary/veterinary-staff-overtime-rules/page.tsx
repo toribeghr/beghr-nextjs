@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG',
+  title: 'Vet Staff Overtime Rules: The Truth About FLSA Status | BEG',
   description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules' },
   openGraph: {
-    title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG',
+    title: 'Vet Staff Overtime Rules: The Truth About FLSA Status | BEG',
     description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...',
     url: 'https://www.beghr.com/blog/payroll/veterinary/veterinary-staff-overtime-rules',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Vet Staff Overtime Rules | FLSA for Veterinary Practices | BEG', description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Vet Staff Overtime Rules: The Truth About FLSA Status | BEG', description: 'Which veterinary employees are exempt from FLSA overtime -- and which are not. Covers DVMs, veterinary technicians, receptionists, and the most common co...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -138,10 +139,7 @@ export default function VeterinaryOvertimePage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Stop guessing on overtime compliance</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages payroll for veterinary practices including exempt/non-exempt classification review, overtime calculation, and year-end W-2s. 15-minute call.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

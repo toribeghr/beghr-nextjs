@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'How to Write an Accounting Job Description That Attracts Qualified Candidates | BEG',
+  title: 'Accounting Job Description: What Candidates Notice First | BEG',
   description: 'Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and how to write a JD that fills the role faster.',
   alternates: { canonical: 'https://www.beghr.com/blog/accounting-hiring/accounting-job-description' },
   openGraph: {
-    title: 'How to Write an Accounting Job Description That Attracts Qualified Candidates | BEG',
+    title: 'Accounting Job Description: What Candidates Notice First | BEG',
     description: 'Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and how to write a JD that fills the role faster.',
     url: 'https://www.beghr.com/blog/accounting-hiring/accounting-job-description',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How to Write an Accounting Job Description That Attracts Qualified Candidates | BEG', description: 'Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and how to write a JD that fills the role faster.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Accounting Job Description: What Candidates Notice First | BEG', description: 'Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and how to write a JD that fills the role faster.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/accounting-hiring/accounting-job-description');
 
 const faqs = [
   { question: 'What should an accounting job description always include?', answer: 'The role title, the direct report, the specific responsibilities (close the books, own the audit, manage AP/AR), the required credentials (CPA yes or no, years of experience, industry background), the software stack, and the comp range. Missing any of these forces candidates to guess, and the best ones do not guess - they move on.' },
@@ -78,7 +76,7 @@ export default function AccountingJobDescriptionPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Not sure your JD is working?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If your accounting search has been open more than 30 days, the posting may not be the problem. The best candidates are passive. We can show you how milestone placement reaches the ones who will never see your posting.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>Book a Free Discovery Call &rarr;</a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Limitation a Better JD Cannot Fix</h2>
@@ -87,10 +85,9 @@ export default function AccountingJobDescriptionPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Reach the accounting candidates your posting will not</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role. We will tell you how our passive accounting pipeline maps to what you need.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>Book a Discovery Call &rarr;</a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool variant="link" eyebrow="Free Tool" heading="Grade your job description right now" description="Paste your accounting JD into the grader and get instant feedback on what is working and what is costing you candidates." href="/resources/job-description-grader" cta="Open the Job Description Grader →" />
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Accounting Job Descriptions</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>

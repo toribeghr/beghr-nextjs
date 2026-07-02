@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Service Contract Act Payroll Compliance 2026 | BEG',
+  title: 'Service Contract Act Payroll Compliance [2026 Data] | BEG',
   description: 'SCA payroll compliance guide: wage determinations, health and welfare benefits, contractor obligations, enforcement, and how managed payroll handles SCA requirements.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor/service-contract-act-payroll' },
   openGraph: {
-    title: 'Service Contract Act Payroll Compliance 2026 | BEG',
+    title: 'Service Contract Act Payroll Compliance [2026 Data] | BEG',
     description: 'SCA payroll compliance: wage determinations, health and welfare benefits, contractor obligations, DOL enforcement, and managed payroll solutions for service contractors.',
     url: 'https://www.beghr.com/blog/payroll/government-contractor/service-contract-act-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Service Contract Act Payroll Compliance 2026 | BEG', description: 'SCA payroll compliance guide for government service contractors: wage determinations, fringe benefits, and enforcement.', images: ['https://www.beghr.com/assets/og-image.org'] },
+  twitter: { card: 'summary_large_image', title: 'Service Contract Act Payroll Compliance [2026 Data] | BEG', description: 'SCA payroll compliance guide for government service contractors: wage determinations, fringe benefits, and enforcement.', images: ['https://www.beghr.com/assets/og-image.org'] },
 };
 
 const faqs = [
@@ -137,12 +138,7 @@ export default function ServiceContractActPayrollPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages SCA payroll compliance at $25-$45 PEPM. Wage determination configuration, H&W tracking, and required record-keeping all included. Setup in 3-5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

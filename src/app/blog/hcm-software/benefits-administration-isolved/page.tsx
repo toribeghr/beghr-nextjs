@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: "Benefits Administration isolved | Open Enrollment & ACA | BEG",
+  title: "Benefits Administration in isolved: What ACA Reveals | BEG",
   description: "isolved benefits administration: open enrollment, carrier connections, ACA tracking, FSA/HSA management, and life events. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/hcm-software/benefits-administration-isolved" },
   openGraph: {
-    title: "Benefits Administration isolved | Open Enrollment & ACA | BEG",
+    title: "Benefits Administration in isolved: What ACA Reveals | BEG",
     description: "isolved benefits administration: open enrollment, carrier connections, ACA tracking, FSA/HSA management, and life events. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/hcm-software/benefits-administration-isolved",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Benefits Administration with isolved | Open Enrollment & ACA | BEG", description: "isolved benefits admin: open enrollment, carrier connections, ACA, FSA/HSA, and life events. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Benefits Administration in isolved: What ACA Reveals | BEG", description: "isolved benefits admin: open enrollment, carrier connections, ACA, FSA/HSA, and life events. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -131,12 +131,7 @@ export default function BenefitsAdministrationIsolvedPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG's fully managed service on isolved includes benefits administration, payroll, time tracking, and core HR at $45 per employee per month. No enrollment-to-payroll handoff errors. Live in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
 
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem", color: "#666", fontSize: "0.9rem" }}>
@@ -180,14 +175,6 @@ export default function BenefitsAdministrationIsolvedPage() {
           { "@type": "ListItem", "position": 4, "name": "Benefits Administration with isolved", "item": "https://www.beghr.com/blog/hcm-software/benefits-administration-isolved" }
         ]
       }) }} />
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
     </article>
   );
 }

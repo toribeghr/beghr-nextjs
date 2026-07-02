@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Staffing Agency Payroll Problems | Common Errors + Fixes | BEG',
+  title: '7 Staffing Agency Payroll Problems and Their Fixes | BEG',
   description: 'The 7 most common staffing agency payroll problems: misclassification, missing state registrations, late W-2 filing, overtime errors, garnishments, and more.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-problems' },
   openGraph: {
-    title: 'Staffing Agency Payroll Problems | Common Errors + Fixes | BEG',
+    title: '7 Staffing Agency Payroll Problems and Their Fixes | BEG',
     description: 'The 7 most common staffing agency payroll problems: misclassification, missing state registrations, late W-2 filing, overtime errors, garnishments, and more.',
     url: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-problems',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Problems | Common Errors + Fixes | BEG', description: '7 most common staffing agency payroll problems and how to fix them.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: '7 Staffing Agency Payroll Problems and Their Fixes | BEG', description: '7 most common staffing agency payroll problems and how to fix them.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -139,12 +140,7 @@ export default function StaffingAgencyPayrollProblemsPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG eliminates the most common staffing agency payroll problems by managing the full payroll function at $25-$45 PEPM. Weekly cycles, multi-state compliance, garnishments, and year-end W-2s all included.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

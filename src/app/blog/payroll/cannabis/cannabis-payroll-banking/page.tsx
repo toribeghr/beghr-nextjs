@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: "Cannabis Payroll & Banking | Pay Employees When Banks Won't | BEG",
+  title: "Cannabis Payroll and Banking (When Banks Won't) | BEG",
   description: 'Cannabis payroll banking options: cannabis-friendly banks, payroll processors, and cash compliance when traditional banks won\'t open accounts.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/cannabis/cannabis-payroll-banking' },
   openGraph: {
-    title: 'Cannabis Payroll & Banking | How to Pay When Banks Won\'t | BEG',
+    title: 'Cannabis Payroll and Banking (When Banks Won\'t) | BEG',
     description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees -- from cannabis-friendly bank...',
     url: 'https://www.beghr.com/blog/payroll/cannabis/cannabis-payroll-banking',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll & Banking | How to Pay When Banks Won\'t | BEG', description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees -- from cannabis-friendly bank...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll and Banking (When Banks Won\'t) | BEG', description: 'Cannabis businesses face banking restrictions that complicate payroll. Here are the practical options for paying employees -- from cannabis-friendly bank...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -134,10 +135,7 @@ export default function CannabisBankingPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Cannabis payroll is solvable -- let's talk</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>BEG manages payroll for cannabis businesses with experience navigating banking constraints. 15-minute discovery call.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

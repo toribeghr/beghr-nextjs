@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Project Engineer Recruiting | BEG',
+  title: 'Project Engineer Recruiting Before You Lose Time | BEG',
   description: 'Strong project engineers are passive and rarely on job boards. How to source and close the people who keep projects on time and on budget, in 23-35 days.',
   alternates: { canonical: 'https://www.beghr.com/blog/engineering-hiring/project-engineer-recruiting' },
   openGraph: {
-    title: 'Project Engineer Recruiting | BEG',
+    title: 'Project Engineer Recruiting Before You Lose Time | BEG',
     description: 'Strong project engineers are passive and rarely on job boards. How to source and close the people who keep projects on time and on budget, in 23-35 days.',
     url: 'https://www.beghr.com/blog/engineering-hiring/project-engineer-recruiting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Project Engineer Recruiting | BEG', description: 'Strong project engineers are passive and rarely on job boards. How to source and close the people who keep projects on time and on budget, in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Project Engineer Recruiting Before You Lose Time | BEG', description: 'Strong project engineers are passive and rarely on job boards. How to source and close the people who keep projects on time and on budget, in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/engineering-hiring/project-engineer-recruiting');
 
 const faqs = [
   {
@@ -41,7 +39,7 @@ const faqs = [
 export default function ProjectEngineerRecruitingPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Project Engineer Recruiting | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/engineering-hiring/project-engineer-recruiting"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Project Engineer Recruiting Before You Lose Time | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/engineering-hiring/project-engineer-recruiting"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -108,10 +106,7 @@ export default function ProjectEngineerRecruitingPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Need a project engineer who delivers?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If your search has stalled on a job board, the strongest project engineers are not seeing it. We will show you what our passive pipeline looks like for your role right now.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -124,18 +119,9 @@ export default function ProjectEngineerRecruitingPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your project engineer role in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role and the timeline. We will tell you what our project engineering pipeline looks like and whether milestone placement fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="grader"
-          eyebrow={`Free Tool`}
-          heading={`Grade your engineering job description in 30 seconds`}
-          description={`A weak posting quietly kills your pipeline before a single strong candidate sees it. Paste your job description below and get an instant 0 to 100 score, plus the exact fixes that get the best people to apply. Free, instant, and nothing you paste ever leaves your browser.`}
-        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Project Engineer Recruiting</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

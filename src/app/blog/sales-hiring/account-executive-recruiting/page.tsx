@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Account Executive Recruiting (2026 Guide) | BEG',
+  title: 'Account Executive Recruiting 2026: What Nobody Tells You | BEG',
   description: 'Strong AEs field multiple offers and ignore postings. How to source, screen, and close quota-carrying account executives in 23-35 days.',
   alternates: { canonical: 'https://www.beghr.com/blog/sales-hiring/account-executive-recruiting' },
   openGraph: {
-    title: 'Account Executive Recruiting (2026 Guide) | BEG',
+    title: 'Account Executive Recruiting 2026: What Nobody Tells You | BEG',
     description: 'Strong AEs field multiple offers and ignore postings. How to source, screen, and close quota-carrying account executives in 23-35 days.',
     url: 'https://www.beghr.com/blog/sales-hiring/account-executive-recruiting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Account Executive Recruiting (2026 Guide) | BEG', description: 'Strong AEs field multiple offers and ignore postings. How to source, screen, and close quota-carrying account executives in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Account Executive Recruiting 2026: What Nobody Tells You | BEG', description: 'Strong AEs field multiple offers and ignore postings. How to source, screen, and close quota-carrying account executives in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/sales-hiring/account-executive-recruiting');
 
 const faqs = [
   {
@@ -105,10 +103,7 @@ export default function AccountExecutiveRecruitingPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Losing AE candidates to faster competitors?</h3>
           <p style={{ marginBottom: '1.5rem' }}>Speed and a strong pipeline are the difference. We will show you what our account executive pipeline looks like for your motion, deal size, and market right now.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -121,18 +116,9 @@ export default function AccountExecutiveRecruitingPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your AE seats in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the motion, deal size, and timeline. We will tell you what our account executive pipeline looks like and whether milestone placement fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="grader"
-          eyebrow={`Free Tool`}
-          heading={`Grade your sales job description in 30 seconds`}
-          description={`A weak posting quietly kills your pipeline before a single strong candidate sees it. Paste your job description below and get an instant 0 to 100 score, plus the exact fixes that get the best people to apply. Free, instant, and nothing you paste ever leaves your browser.`}
-        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Account Executive Recruiting</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

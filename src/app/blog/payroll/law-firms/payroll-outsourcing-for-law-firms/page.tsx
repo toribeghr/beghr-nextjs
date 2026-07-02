@@ -1,11 +1,12 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Payroll Outsourcing for Law Firms: What to Look For (2026) | BEG',
+  title: 'Payroll Outsourcing for Law Firms: Read This First | BEG',
   description: 'Law firm payroll has unique requirements -- partner draws, attorney bonus runs, multi-state compliance, and equity partner tax treatment. Here is what to look for in a payroll outsourcing provider before you sign.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/law-firms/payroll-outsourcing-for-law-firms' },
   openGraph: {
-    title: 'Payroll Outsourcing for Law Firms: What to Look For (2026) | BEG',
+    title: 'Payroll Outsourcing for Law Firms: Read This First | BEG',
     description: 'Law firm payroll is different from standard business payroll. Here is what to evaluate before outsourcing -- partner vs. associate treatment, multi-state compliance, bonus runs, and cost benchmarks.',
     url: 'https://www.beghr.com/blog/payroll/law-firms/payroll-outsourcing-for-law-firms',
     siteName: 'Business Executive Group',
@@ -14,13 +15,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Payroll Outsourcing for Law Firms: What to Look For (2026) | BEG',
+    title: 'Payroll Outsourcing for Law Firms: Read This First | BEG',
     description: 'Law firm payroll outsourcing guide -- what to evaluate, what to avoid, and what it should cost.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -169,10 +169,7 @@ export default function PayrollOutsourcingForLawFirmsPage() {
           <p style={{ marginBottom: '1.5rem' }}>
             BEG manages payroll for law firms from solo practices to 100-attorney offices. In a 15-minute call, we will walk through your current structure and tell you exactly how managed payroll would work for your firm.
           </p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -248,10 +245,7 @@ export default function PayrollOutsourcingForLawFirmsPage() {
             Book a free 15-minute discovery call. We will review your firm's current payroll structure, answer your specific questions, and give you an all-in monthly cost within 24 hours.
           </p>
           <p style={{ marginBottom: '1.5rem', color: '#ddd', fontSize: '0.9rem' }}>No migration required. Month-to-month. Up and running in 3 to 5 weeks.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none', fontSize: '1.05rem' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>

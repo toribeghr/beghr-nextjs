@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Urgent Care Payroll | Clinical Staff, Overtime & HIPAA Ops | BEG",
+  title: "Urgent Care Payroll, Clinical Staff and HIPAA Ops | BEG",
   description: "Urgent care payroll: physician and PA compensation, clinical overtime, credential tracking, and multi-site compliance. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/healthcare/urgent-care-payroll" },
   openGraph: {
-    title: "Urgent Care Payroll | Clinical Staff, Overtime & HIPAA Ops | BEG",
+    title: "Urgent Care Payroll, Clinical Staff and HIPAA Ops | BEG",
     description: "Urgent care payroll: physician comp, clinical overtime, credential tracking, and multi-site compliance. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/healthcare/urgent-care-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Urgent Care Payroll | Clinical Staff, Overtime & HIPAA Ops | BEG", description: "Urgent care payroll: physician comp, clinical overtime, credential tracking, and multi-site compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Urgent Care Payroll, Clinical Staff and HIPAA Ops | BEG", description: "Urgent care payroll: physician comp, clinical overtime, credential tracking, and multi-site compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -142,12 +143,7 @@ export default function UrgentCarePayrollPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages urgent care payroll at $25 to $45 per employee per month, all-inclusive. No per-location fees. Live in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

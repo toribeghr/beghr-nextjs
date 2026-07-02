@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Marketing & PR Agencies: Managed Payroll for Mid-Size Busine',
+  title: 'Agency Payroll: Managed for 25-100 Employees | BEG',
   description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size' },
   openGraph: {
-    title: 'Marketing & PR Agencies: Managed Payroll for Mid-Size Busine',
+    title: 'Agency Payroll: Managed for 25-100 Employees | BEG',
     description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
     url: 'https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Marketing & PR Agencies: Managed Payroll for Mid-Size Busine', description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Agency Payroll: Managed for 25-100 Employees | BEG', description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -47,13 +48,13 @@ export default function Page() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Marketing & PR Agencies: Managed Payroll for Mid-Size Busine", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Agency Payroll: Managed for 25-100 Employees | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · Payroll Management · Agency</p>
-              <h1>Marketing & PR Agencies: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)</h1>
+              <h1>Agency Payroll: Managed for 25-100 Employees | BEGsses (25-100 Employees) (2026)</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 28, 2026</span>
@@ -118,7 +119,7 @@ export default function Page() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
           <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Book a free 15-minute discovery call to get a cost comparison for your business.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Frequently Asked Questions</h2>
@@ -163,14 +164,14 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Marketing & PR Agencies: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)","description":"Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"url":"https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size"}}`,
+          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Agency Payroll: Managed for 25-100 Employees | BEGsses (25-100 Employees) (2026)","description":"Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"url":"https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size"}}`,
         }}
       />
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Marketing & PR Agencies: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)","item":"https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size"}]}`,
+          __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Agency Payroll: Managed for 25-100 Employees | BEGsses (25-100 Employees) (2026)","item":"https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size"}]}`,
         }}
       />
     </article>

@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'CEO Succession Planning Guide | BEG',
+  title: 'CEO Succession Planning: Before the Board Steps In | BEG',
   description: 'CEO transitions are the highest-stakes hire a board makes. How to plan succession early, confidentially, and without destabilizing the company.',
   alternates: { canonical: 'https://www.beghr.com/blog/executive-hiring/ceo-succession-planning' },
   openGraph: {
-    title: 'CEO Succession Planning Guide | BEG',
+    title: 'CEO Succession Planning: Before the Board Steps In | BEG',
     description: 'CEO transitions are the highest-stakes hire a board makes. How to plan succession early, confidentially, and without destabilizing the company.',
     url: 'https://www.beghr.com/blog/executive-hiring/ceo-succession-planning',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'CEO Succession Planning Guide | BEG', description: 'CEO transitions are the highest-stakes hire a board makes. How to plan succession early, confidentially, and without destabilizing the company.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'CEO Succession Planning: Before the Board Steps In | BEG', description: 'CEO transitions are the highest-stakes hire a board makes. How to plan succession early, confidentially, and without destabilizing the company.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/executive-hiring/ceo-succession-planning');
 
 const faqs = [
   {
@@ -41,7 +39,7 @@ const faqs = [
 export default function CeoSuccessionPlanningPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "CEO Succession Planning Guide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/executive-hiring/ceo-succession-planning"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "CEO Succession Planning: Before the Board Steps In | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/executive-hiring/ceo-succession-planning"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -99,10 +97,7 @@ export default function CeoSuccessionPlanningPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Is your CEO succession plan more than a name on a page?</h3>
           <p style={{ marginBottom: '1.5rem' }}>A real plan includes a confidential external option. We will show you what a discreet leadership pipeline looks like for your company and stage.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -122,20 +117,9 @@ export default function CeoSuccessionPlanningPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Build your CEO succession safety net</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us where your bench stands and the discretion you need. We will tell you what a confidential external pipeline looks like and whether milestone placement fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="link"
-          eyebrow={`Free Tool`}
-          heading={`Not sure why this executive hire is taking so long?`}
-          description={`Answer a few quick questions and get an honest read on what is slowing the search down and what to change. Free, instant, and built from how the strongest searches actually get filled.`}
-          href="/resources/search-overdue-diagnostic"
-          cta={`Run the free Search Diagnostic →`}
-        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: CEO Succession Planning</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Craft Brewery Payroll Compliance 2026 | TTB + State | BEG",
+  title: "Craft Brewery Payroll Compliance in 2026 | BEG",
   description: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and W-2 reporting for breweries and distilleries. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/brewery/craft-brewery-payroll-compliance" },
   openGraph: {
-    title: "Craft Brewery Payroll Compliance 2026 | TTB + State | BEG",
+    title: "Craft Brewery Payroll Compliance in 2026 | BEG",
     description: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and W-2 reporting for breweries and distilleries. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/brewery/craft-brewery-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Craft Brewery Payroll Compliance 2026 | TTB + State | BEG", description: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor rules, and W-2 reporting.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Craft Brewery Payroll Compliance in 2026 | BEG", description: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor rules, and W-2 reporting.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -132,12 +133,7 @@ export default function CraftBreweryPayrollCompliancePage() {
             >
               Brewery Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

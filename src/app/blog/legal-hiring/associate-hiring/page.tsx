@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
 
 export const metadata: Metadata = {
-  title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
+  title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days | BEG',
   description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See.',
   alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/associate-hiring' },
   openGraph: {
-    title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
+    title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days | BEG',
     description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...',
     url: 'https://www.beghr.com/blog/legal-hiring/associate-hiring',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)', description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days | BEG', description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -53,7 +53,7 @@ export default function AssociateHiringPage() {
           <div className="hero-split">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · Legal Hiring &amp; Recruiting</p>
-              <h1>Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)</h1>
+              <h1>Law Firm Associate Hiring: Fill Roles in 23-35 Days | BEG</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 25, 2026</span>
@@ -198,15 +198,9 @@ export default function AssociateHiringPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Fill Associate Roles in 23-35 Days.</h3>
           <p style={{ marginBottom: '1.5rem' }}>86% fill rate. 45-day replacement guarantee. Roughly 50% less than contingency. Tell us the role -- we will tell you what our pipeline looks like in that practice area right now.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="grader"
-          eyebrow={`Free Tool`}
-          heading={`Grade your legal job description in 30 seconds`}
-          description={`A weak posting quietly kills your pipeline before a single strong candidate sees it. Paste your job description below and get an instant 0 to 100 score, plus the exact fixes that get the best people to apply. Free, instant, and nothing you paste ever leaves your browser.`}
-        />
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Law Firm Associate Hiring</h2>
 
         <div className="faq" style={{ marginTop: '1rem' }}>
@@ -260,7 +254,7 @@ export default function AssociateHiringPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days (2026 Guide)',
+            headline: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days | BEG',
             description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',

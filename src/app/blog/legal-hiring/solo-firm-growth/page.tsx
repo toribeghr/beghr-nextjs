@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
 
 export const metadata: Metadata = {
-  title: 'Solo Firm Growth | When to Hire Your First Associate | BEG',
+  title: 'Solo Firm Growth: What Nobody Tells You | BEG',
   description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year.',
   alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/solo-firm-growth' },
   openGraph: {
-    title: 'Solo Firm Growth | When to Hire Your First Associate | BEG',
+    title: 'Solo Firm Growth: What Nobody Tells You | BEG',
     description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...',
     url: 'https://www.beghr.com/blog/legal-hiring/solo-firm-growth',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Solo Firm Growth | When to Hire Your First Associate | BEG', description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Solo Firm Growth: What Nobody Tells You | BEG', description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -73,7 +73,7 @@ const readinessRows = [
 export default function SoloFirmGrowthPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Solo Firm Growth | When to Hire Your First Associate | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/solo-firm-growth"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Solo Firm Growth: What Nobody Tells You | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/solo-firm-growth"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -309,24 +309,9 @@ export default function SoloFirmGrowthPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Find Your First Associate in 23-35 Days</h3>
           <p style={{ marginBottom: '1.5rem' }}>BEG sources from the passive attorney market, pre-screens for independence and communication quality, and delivers a shortlist of 3-5 candidates. Milestone-based pricing. 45-day replacement guarantee.</p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}
-          >
-            Schedule Your Discovery Call
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="link"
-          eyebrow={`Free Tool`}
-          heading={`Not sure why this legal hire is taking so long?`}
-          description={`Answer a few quick questions and get an honest read on what is slowing the search down and what to change. Free, instant, and built from how the strongest searches actually get filled.`}
-          href="/resources/search-overdue-diagnostic"
-          cta={`Run the free Search Diagnostic →`}
-        />
         <div className="faq" style={{ marginTop: '1rem' }}>
           <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
             Frequently Asked Questions

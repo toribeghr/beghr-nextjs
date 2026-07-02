@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Multi-Property Payroll | Consolidated Reporting | BEG",
+  title: "Multi-Property Payroll, Consolidated Reporting | BEG",
   description: "How property management companies consolidate payroll across multiple properties without losing per-property visibility. BEG managed payroll at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/property-management/multi-property-payroll-management" },
   openGraph: {
-    title: "Multi-Property Payroll | Consolidated Reporting | BEG",
+    title: "Multi-Property Payroll, Consolidated Reporting | BEG",
     description: "How to consolidate payroll across multiple properties without losing per-property visibility and cost allocation. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/property-management/multi-property-payroll-management",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Multi-Property Payroll | Consolidated Reporting | BEG", description: "How to consolidate payroll across multiple properties while maintaining per-property cost allocation and reporting.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Multi-Property Payroll, Consolidated Reporting | BEG", description: "How to consolidate payroll across multiple properties while maintaining per-property cost allocation and reporting.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -128,12 +129,7 @@ export default function MultiPropertyPayrollManagementPage() {
             >
               Property Management Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

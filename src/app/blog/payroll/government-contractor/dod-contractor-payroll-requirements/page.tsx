@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'DoD Contractor Payroll: ITAR, DCAA & Cleared Employees | BEG',
+  title: 'DoD Contractor Payroll, Before a DCAA Audit Finds You | BEG',
   description: 'DoD contractor payroll requirements: ITAR labor tracking, security clearance employee costs, DCAA audit readiness, indirect cost pools, and incurred cost submissions.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor/dod-contractor-payroll-requirements' },
   openGraph: {
-    title: 'DoD Contractor Payroll: ITAR, DCAA & Cleared Employees | BEG',
+    title: 'DoD Contractor Payroll, Before a DCAA Audit Finds You | BEG',
     description: 'DoD contractor payroll: ITAR labor cost documentation, DCAA audit readiness, cleared employee tracking, indirect cost pools, and incurred cost submissions.',
     url: 'https://www.beghr.com/blog/payroll/government-contractor/dod-contractor-payroll-requirements',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'DoD Contractor Payroll: ITAR, DCAA & Cleared Employees | BEG', description: 'DoD contractor payroll compliance: ITAR, DCAA audit readiness, cleared employees, and indirect cost allocation.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'DoD Contractor Payroll, Before a DCAA Audit Finds You | BEG', description: 'DoD contractor payroll compliance: ITAR, DCAA audit readiness, cleared employees, and indirect cost allocation.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -141,12 +142,7 @@ export default function DodContractorPayrollPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages DoD contractor payroll at $25-$45 PEPM. Contract-level cost centers, direct/indirect labor allocation, labor distribution reports, and incurred cost submission support all included. Setup in 3-5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

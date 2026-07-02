@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Outsource Property Management Payroll | BEG Guide",
+  title: "Property Management Payroll Outsourcing (What to Know) | BEG",
   description: "Why property management companies outsource payroll, what changes immediately, and how to evaluate a provider. BEG managed payroll at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/property-management/outsource-property-management-payroll" },
   openGraph: {
-    title: "Outsource Property Management Payroll | BEG Guide",
+    title: "Property Management Payroll Outsourcing (What to Know) | BEG",
     description: "Why property management companies outsource payroll, what changes immediately, and how to evaluate a provider. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/property-management/outsource-property-management-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Outsource Property Management Payroll | BEG Guide", description: "Why property management companies outsource payroll and what to look for in a managed payroll provider.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Property Management Payroll Outsourcing (What to Know) | BEG", description: "Why property management companies outsource payroll and what to look for in a managed payroll provider.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -135,12 +136,7 @@ export default function OutsourcePropertyManagementPayrollPage() {
             >
               Property Management Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

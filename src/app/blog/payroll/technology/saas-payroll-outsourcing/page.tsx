@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
+  title: 'SaaS Payroll Outsourcing: Cost vs. an In-House Hire | BEG',
   description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/technology/saas-payroll-outsourcing' },
   openGraph: {
-    title: 'SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG',
+    title: 'SaaS Payroll Outsourcing: Cost vs. an In-House Hire | BEG',
     description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45...',
     url: 'https://www.beghr.com/blog/payroll/technology/saas-payroll-outsourcing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'SaaS Payroll Outsourcing | $25 PEPM vs. $80K Hire | BEG', description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'SaaS Payroll Outsourcing: Cost vs. an In-House Hire | BEG', description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -195,7 +196,7 @@ export default function SaaSPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Scale Without Payroll Overhead.</h3>
           <p style={{ marginBottom: '1.5rem' }}>RSU vesting, multi-state remote payroll, contractor classification -- handled at $25–$45 per employee per month. Book a 15-minute call to see what it costs for your current headcount and where you are going.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: SaaS Payroll Outsourcing</h2>

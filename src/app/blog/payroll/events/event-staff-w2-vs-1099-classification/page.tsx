@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Event Staff W-2 vs 1099 Classification | BEG Guide",
+  title: "Event Staff W-2 vs 1099: What Nobody Tells You | BEG",
   description: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring worker risk, and how to audit your classification. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/events/event-staff-w2-vs-1099-classification" },
   openGraph: {
-    title: "Event Staff W-2 vs 1099 Classification | BEG Guide",
+    title: "Event Staff W-2 vs 1099: What Nobody Tells You | BEG",
     description: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring worker risk, and how to audit your classification. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/events/event-staff-w2-vs-1099-classification",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Event Staff W-2 vs 1099 Classification | BEG Guide", description: "W-2 vs 1099 for event crew and vendors: IRS rules, state tests, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Event Staff W-2 vs 1099: What Nobody Tells You | BEG", description: "W-2 vs 1099 for event crew and vendors: IRS rules, state tests, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -155,12 +156,7 @@ export default function EventStaffW2Vs1099ClassificationPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages event company payroll with proper W-2 and 1099 handling at $25 to $45 per employee per month. Setup in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Government Contractor Fringe Benefits: SCA & Davis-Bacon | BEG',
+  title: 'Government Contractor Fringe Benefits (What to Know) | BEG',
   description: 'How government contractors satisfy SCA and Davis-Bacon fringe benefit requirements: bona fide benefits vs cash-in-lieu, H&W rates, pension contributions, and documentation.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor/government-contractor-fringe-benefits-payroll' },
   openGraph: {
-    title: 'Government Contractor Fringe Benefits: SCA & Davis-Bacon | BEG',
+    title: 'Government Contractor Fringe Benefits (What to Know) | BEG',
     description: 'How government contractors satisfy SCA and Davis-Bacon fringe benefit requirements: bona fide benefits, cash-in-lieu, H&W rates, and payroll documentation.',
     url: 'https://www.beghr.com/blog/payroll/government-contractor/government-contractor-fringe-benefits-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Government Contractor Fringe Benefits: SCA & Davis-Bacon | BEG', description: 'SCA and Davis-Bacon fringe benefit requirements for government contractors: bona fide benefits vs cash-in-lieu.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Government Contractor Fringe Benefits (What to Know) | BEG', description: 'SCA and Davis-Bacon fringe benefit requirements for government contractors: bona fide benefits vs cash-in-lieu.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -143,12 +144,7 @@ export default function GovernmentContractorFringeBenefitsPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages government contractor fringe benefit compliance at $25-$45 PEPM. SCA H&W tracking, Davis-Bacon fringe calculations, cash-in-lieu processing, and DOL-ready records all included.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

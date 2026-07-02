@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Healthcare Clinic Payroll | Clinical Staff Pay. Done Right. | BEG',
+  title: 'Healthcare Clinic Payroll, Clinical Staff Pay Done Right | BEG',
   description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/healthcare-general/clinics-payroll' },
   openGraph: {
-    title: 'Healthcare Clinic Payroll | Clinical Staff Pay. Done Right. | BEG',
+    title: 'Healthcare Clinic Payroll, Clinical Staff Pay Done Right | BEG',
     description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K an...',
     url: 'https://www.beghr.com/blog/payroll/healthcare-general/clinics-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Clinic Payroll | Clinical Staff Pay. Done Right. | BEG', description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K an...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Clinic Payroll, Clinical Staff Pay Done Right | BEG', description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K an...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -212,7 +213,7 @@ export default function ClinicsPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll for Healthcare Clinics</h3>
           <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles shift differential processing, ACA measurement tracking, RVU bonus integration, and HR compliance for urgent care, outpatient, and specialty clinics nationally. All-inclusive at $25–$45 PEPM. Schedule a 15-minute call and get an exact quote for your clinic.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2.25rem', borderRadius: '4px', fontWeight: '700', textDecoration: 'none', fontSize: '1rem' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Frequently Asked Questions</h2>

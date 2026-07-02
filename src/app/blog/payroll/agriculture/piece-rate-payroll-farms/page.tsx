@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Piece Rate Payroll for Farms | Calculation + Compliance | BEG',
+  title: 'Piece Rate Payroll for Farms (What to Know) | BEG',
   description: 'How to calculate piece rate payroll for agricultural workers correctly: minimum wage floor, overtime for piece rate, record-keeping under FLSA, and common errors.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/agriculture/piece-rate-payroll-farms' },
   openGraph: {
-    title: 'Piece Rate Payroll for Farms | Calculation + Compliance | BEG',
+    title: 'Piece Rate Payroll for Farms (What to Know) | BEG',
     description: 'How to calculate piece rate payroll for agricultural workers correctly: minimum wage floor, overtime for piece rate, record-keeping under FLSA, and common errors.',
     url: 'https://www.beghr.com/blog/payroll/agriculture/piece-rate-payroll-farms',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Piece Rate Payroll for Farms | Calculation + Compliance | BEG', description: 'How to calculate piece rate payroll for agricultural workers correctly under FLSA.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Piece Rate Payroll for Farms (What to Know) | BEG', description: 'How to calculate piece rate payroll for agricultural workers correctly under FLSA.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -161,12 +162,7 @@ export default function PieceRatePayrollFarmsPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages piece rate payroll for agricultural operations at $25-$45 PEPM. Minimum wage floor checks, overtime calculations, and year-end W-2s all included.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

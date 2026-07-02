@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Outsource Event Company Payroll | Seasonal | BEG",
+  title: "Outsource Event Company Payroll: Seasonal Crew Reality | BEG",
   description: "Why event companies outsource payroll: seasonal crew cycles, multi-state compliance, AB5, and classification risk. BEG at $25-$45 PEPM, 3-5 day setup.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/events/outsource-event-company-payroll" },
   openGraph: {
-    title: "Outsource Event Company Payroll | Seasonal | BEG",
+    title: "Outsource Event Company Payroll: Seasonal Crew Reality | BEG",
     description: "Why event companies outsource payroll: seasonal crew cycles, multi-state compliance, AB5, and classification risk. BEG at $25-$45 PEPM, 3-5 day setup.",
     url: "https://www.beghr.com/blog/payroll/events/outsource-event-company-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Outsource Event Company Payroll | Seasonal | BEG", description: "Why event companies outsource payroll and how fast they can onboard. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Outsource Event Company Payroll: Seasonal Crew Reality | BEG", description: "Why event companies outsource payroll and how fast they can onboard. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -130,12 +131,7 @@ export default function OutsourceEventCompanyPayrollPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG onboards event companies in 3 to 5 business days from contract signing to first live payroll. $25 to $45 per employee per month. No per-run fees. Multi-state included.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

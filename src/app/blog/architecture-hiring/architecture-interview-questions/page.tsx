@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Architecture Interview Questions That Reveal Real Talent | BEG',
+  title: 'Architecture Interview Questions That Actually Work | BEG',
   description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds. The questions that matter.',
   alternates: { canonical: 'https://www.beghr.com/blog/architecture-hiring/architecture-interview-questions' },
   openGraph: {
-    title: 'Architecture Interview Questions That Reveal Real Talent | BEG',
+    title: 'Architecture Interview Questions That Actually Work | BEG',
     description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds. The questions that matter.',
     url: 'https://www.beghr.com/blog/architecture-hiring/architecture-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Architecture Interview Questions That Reveal Real Talent | BEG', description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds. The questions that matter.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Architecture Interview Questions That Actually Work | BEG', description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds. The questions that matter.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/architecture-hiring/architecture-interview-questions');
 
 const faqs = [
   {
@@ -84,7 +82,7 @@ export default function Page() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Ready to hire an architect faster?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If your architecture search has been open more than four weeks, passive candidates who are not on job boards are being missed. We fill architecture roles in 23-35 days at roughly 50% less than contingency.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>Book a Free Discovery Call &rarr;</a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Limitation of Any Interview</h2>
@@ -93,10 +91,9 @@ export default function Page() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill this role in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role. We will show you what our passive candidate pipeline looks like for your specific search right now.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>Book a Discovery Call &rarr;</a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool variant="link" eyebrow="Free Tool" heading="What is this open role costing you right now?" description="The cost of a vacancy compounds every week. Use the free calculator to put a dollar figure on the open seat in lost output, overtime, and turnover risk." href="/resources/cost-of-vacant-role-calculator" cta="Open the Cost of a Vacant Role Calculator" />
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>

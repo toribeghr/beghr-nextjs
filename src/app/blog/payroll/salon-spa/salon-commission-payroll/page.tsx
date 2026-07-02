@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Salon Commission Payroll | Tips + Chargebacks | BEG",
+  title: "Salon Commission Payroll: Splits, Chargebacks & Tips | BEG",
   description: "How to process salon commission payroll correctly: percentage splits, product chargebacks, tip pooling, and minimum wage compliance. BEG managed payroll at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa/salon-commission-payroll" },
   openGraph: {
-    title: "Salon Commission Payroll | Tips + Chargebacks | BEG",
+    title: "Salon Commission Payroll: Splits, Chargebacks & Tips | BEG",
     description: "Salon commission payroll: percentage splits, product chargebacks, tip pooling, and minimum wage compliance. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/salon-spa/salon-commission-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Salon Commission Payroll | Tips + Chargebacks | BEG", description: "Salon commission payroll: splits, chargebacks, tip pooling, and minimum wage compliance.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Salon Commission Payroll: Splits, Chargebacks & Tips | BEG", description: "Salon commission payroll: splits, chargebacks, tip pooling, and minimum wage compliance.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -128,12 +129,7 @@ export default function SalonCommissionPayrollPage() {
             >
               Salon and Spa Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

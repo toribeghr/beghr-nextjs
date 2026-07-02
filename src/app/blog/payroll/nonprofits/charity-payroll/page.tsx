@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Nonprofit Payroll | Grant Allocation & 990. Done Right. | BEG',
+  title: 'Nonprofit Payroll Outsourcing: Is It Worth It? | BEG',
   description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/nonprofits/charity-payroll' },
   openGraph: {
-    title: 'Nonprofit Payroll | Grant Allocation & 990. Done Right. | BEG',
+    title: 'Nonprofit Payroll Outsourcing: Is It Worth It? | BEG',
     description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.',
     url: 'https://www.beghr.com/blog/payroll/nonprofits/charity-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Nonprofit Payroll | Grant Allocation & 990. Done Right. | BEG', description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Payroll Outsourcing: Is It Worth It? | BEG', description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -56,7 +57,7 @@ export default function CharityPayrollPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Nonprofit Payroll | Grant Allocation & 990. Done Right. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/nonprofits/charity-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Nonprofit Payroll Outsourcing: Is It Worth It? | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/nonprofits/charity-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -212,7 +213,7 @@ export default function CharityPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll for 501(c)(3) Organizations</h3>
           <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles grant-allocated payroll processing, FUTA exemption configuration, year-end W-2s and 1099s, ACA tracking, and HR compliance for nonprofit organizations nationally. All-inclusive at $25–$45 PEPM. Schedule a 15-minute discovery call for an exact quote for your organization.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2.25rem', borderRadius: '4px', fontWeight: '700', textDecoration: 'none', fontSize: '1rem' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Frequently Asked Questions</h2>

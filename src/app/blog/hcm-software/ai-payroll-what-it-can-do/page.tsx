@@ -1,23 +1,22 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'AI Payroll in 2026: What It Can and Cannot Do | BEG',
+  title: "AI Payroll in 2026: What It Still Can't Do | BEG",
   description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do' },
   openGraph: {
-    title: 'AI Payroll in 2026: What It Can and Cannot Do',
+    title: "AI Payroll in 2026: What It Still Can't Do | BEG",
     description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.',
     url: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'AI Payroll in 2026: What It Can and Cannot Do', description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: "AI Payroll in 2026: What It Still Can't Do | BEG", description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -45,7 +44,7 @@ const faqs = [
 export default function AIPayrollWhatItCanDoPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "AI Payroll in 2026: What It Can and Cannot Do | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "AI Payroll in 2026: What It Still Can't Do | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -119,7 +118,7 @@ export default function AIPayrollWhatItCanDoPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>See what AI payroll actually looks like in isolved.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Book a 15-minute call and we will show you the Connector for Claude completing real payroll tasks while keeping your team in control. Learn more on our <a href="/services/hcm-software/ai-connector" style={{ color: '#000000', textDecoration: 'underline' }}>AI Connector page</a>.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
@@ -142,14 +141,6 @@ export default function AIPayrollWhatItCanDoPage() {
           { '@type': 'ListItem', position: 4, name: 'AI Payroll in 2026: What It Can and Cannot Do', item: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do' },
         ],
       }) }} />
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
     </article>
   );
 }

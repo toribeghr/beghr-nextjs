@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "RIA Payroll | Advisor Comp, Deferred Plans & SEC Rules | BEG",
+  title: "RIA Payroll: What SEC Rules Require in 2026 | BEG",
   description: "Registered investment advisor payroll: advisor compensation, deferred comp plans, carried interest tracking, and SEC/FINRA compliance. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/financial-services/registered-investment-advisor-payroll" },
   openGraph: {
-    title: "RIA Payroll | Advisor Comp, Deferred Plans & SEC Rules | BEG",
+    title: "RIA Payroll: What SEC Rules Require in 2026 | BEG",
     description: "RIA payroll: advisor compensation, deferred comp, carried interest, and SEC/FINRA compliance. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/financial-services/registered-investment-advisor-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "RIA Payroll | Advisor Comp, Deferred Plans & SEC Rules | BEG", description: "RIA payroll: advisor compensation, deferred comp, carried interest, and SEC/FINRA compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "RIA Payroll: What SEC Rules Require in 2026 | BEG", description: "RIA payroll: advisor compensation, deferred comp, carried interest, and SEC/FINRA compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -144,12 +145,7 @@ export default function RegisteredInvestmentAdvisorPayrollPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages RIA payroll at $25 to $45 per employee per month, all-inclusive. Setup in 3 to 5 business days. No per-run fees, no per-state fees.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

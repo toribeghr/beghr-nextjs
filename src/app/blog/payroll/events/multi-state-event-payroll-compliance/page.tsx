@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Multi-State Event Payroll | Touring + Destination | BEG",
+  title: "Multi-State Event Payroll: The Touring Compliance Trap | BEG",
   description: "Multi-state payroll compliance for event companies: employer registration, withholding by state, touring tax obligations, and destination event compliance. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/events/multi-state-event-payroll-compliance" },
   openGraph: {
-    title: "Multi-State Event Payroll | Touring + Destination | BEG",
+    title: "Multi-State Event Payroll: The Touring Compliance Trap | BEG",
     description: "Multi-state payroll compliance for event companies: employer registration, withholding by state, touring tax obligations, and destination event compliance. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/events/multi-state-event-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Multi-State Event Payroll | Touring + Destination | BEG", description: "Multi-state payroll for touring and destination event companies. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Multi-State Event Payroll: The Touring Compliance Trap | BEG", description: "Multi-state payroll for touring and destination event companies. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -148,12 +149,7 @@ export default function MultiStateEventPayrollCompliancePage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages touring and destination event payroll across all 50 states at $25 to $45 per employee per month. Setup in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

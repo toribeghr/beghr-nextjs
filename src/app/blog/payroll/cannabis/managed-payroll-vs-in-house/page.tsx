@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll vs. Hiring In-House for Cannabis Businesses | BEG',
+  title: 'Managed Payroll vs In-House for Cannabis (Real Cost) | BEG',
   description: 'Cannabis business payroll outsourcing vs. hiring in-house. Real cost comparison for dispensaries, cultivators, and processors. 280E, cash payroll.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/cannabis/managed-payroll-vs-in-house' },
   openGraph: {
-    title: 'Managed Payroll vs. Hiring In-House for Cannabis Businesses | BEG',
+    title: 'Managed Payroll vs In-House for Cannabis (Real Cost) | BEG',
     description: 'Cannabis business payroll outsourcing vs. hiring in-house. Real cost comparison for dispensaries, cultivators, and processors. 280E, cash payroll, banki...',
     url: 'https://www.beghr.com/blog/payroll/cannabis/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Cannabis Businesses | BEG', description: 'Cannabis business payroll outsourcing vs. hiring in-house. Real cost comparison for dispensaries, cultivators, and processors. 280E, cash payroll, banki...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs In-House for Cannabis (Real Cost) | BEG', description: 'Cannabis business payroll outsourcing vs. hiring in-house. Real cost comparison for dispensaries, cultivators, and processors. 280E, cash payroll, banki...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -149,14 +150,7 @@ export default function CannabisComparisonPage() {
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
             Free 15-minute scope review. We will confirm the right tier for your headcount, review your banking setup, and tell you exactly what BEG covers before you commit to anything.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-          >
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

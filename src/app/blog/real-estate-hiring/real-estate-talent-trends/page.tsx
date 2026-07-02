@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Real Estate Talent Trends in 2026 | BEG',
+  title: 'Real Estate Talent Trends 2026: The Truth About Hiring | BEG',
   description: 'A thin bench of property and asset management talent is reshaping real estate hiring. What 2026 means and how to fill roles in 23-35 days.',
   alternates: { canonical: 'https://www.beghr.com/blog/real-estate-hiring/real-estate-talent-trends' },
   openGraph: {
-    title: 'Real Estate Talent Trends in 2026 | BEG',
+    title: 'Real Estate Talent Trends 2026: The Truth About Hiring | BEG',
     description: 'A thin bench of property and asset management talent is reshaping real estate hiring. What 2026 means and how to fill roles in 23-35 days.',
     url: 'https://www.beghr.com/blog/real-estate-hiring/real-estate-talent-trends',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Real Estate Talent Trends in 2026 | BEG', description: 'A thin bench of property and asset management talent is reshaping real estate hiring. What 2026 means and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Real Estate Talent Trends 2026: The Truth About Hiring | BEG', description: 'A thin bench of property and asset management talent is reshaping real estate hiring. What 2026 means and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/real-estate-hiring/real-estate-talent-trends');
 
 const faqs = [
   {
@@ -110,10 +108,7 @@ export default function RealEstateTalentTrendsPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>How long has your real estate role been open?</h3>
           <p style={{ marginBottom: '1.5rem' }}>If it has been more than 30 days, the tight market is working against you. We will show you what our passive real estate pipeline looks like for your specific role right now.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -134,20 +129,9 @@ export default function RealEstateTalentTrendsPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your real estate role in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role and the timeline. We will tell you what our real estate pipeline looks like and whether milestone placement fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="link"
-          eyebrow={`Free Tool`}
-          heading={`Has your real estate search been open longer than it should be?`}
-          description={`Answer a few quick questions and get an honest read on why the search has stalled and what to change. Free, instant, and built from how the strongest searches actually get filled.`}
-          href="/resources/search-overdue-diagnostic"
-          cta={`Run the free Search Diagnostic →`}
-        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Real Estate Talent Trends</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Sales Compensation Trends 2026 | BEG',
+  title: 'Sales Compensation Trends 2026: The Truth About OTE | BEG',
   description: 'OTE is climbing but the best reps weigh more than pay. What sales comp trends mean for hiring and what actually closes a sales candidate in 2026.',
   alternates: { canonical: 'https://www.beghr.com/blog/sales-hiring/sales-compensation-trends' },
   openGraph: {
-    title: 'Sales Compensation Trends 2026 | BEG',
+    title: 'Sales Compensation Trends 2026: The Truth About OTE | BEG',
     description: 'OTE is climbing but the best reps weigh more than pay. What sales comp trends mean for hiring and what actually closes a sales candidate in 2026.',
     url: 'https://www.beghr.com/blog/sales-hiring/sales-compensation-trends',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Sales Compensation Trends 2026 | BEG', description: 'OTE is climbing but the best reps weigh more than pay. What sales comp trends mean for hiring and what actually closes a sales candidate in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Sales Compensation Trends 2026: The Truth About OTE | BEG', description: 'OTE is climbing but the best reps weigh more than pay. What sales comp trends mean for hiring and what actually closes a sales candidate in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/sales-hiring/sales-compensation-trends');
 
 const faqs = [
   {
@@ -108,10 +106,7 @@ export default function SalesCompensationTrendsPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Raising OTE and still losing candidates?</h3>
           <p style={{ marginBottom: '1.5rem' }}>The problem is usually speed and pipeline, not pay. We will show you what our sales pipeline looks like for your role and how fast we can move on it right now.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -132,20 +127,9 @@ export default function SalesCompensationTrendsPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your sales role in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role, the comp plan, and the timeline. We will tell you what our sales pipeline looks like and whether milestone placement fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="link"
-          eyebrow={`Free Tool`}
-          heading={`See real 2026 sales pay ranges before you post`}
-          description={`Get the free BEG Salary and Hiring Guide. Current 2026 pay ranges by role, plus what it takes to win the passive candidates who never apply to a job board. No cost and no sales pitch.`}
-          href="/resources/salary-guide"
-          cta={`Open the Salary and Hiring Guide →`}
-        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Sales Compensation Trends</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

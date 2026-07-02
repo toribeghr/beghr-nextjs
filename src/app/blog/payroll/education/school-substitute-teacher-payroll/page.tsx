@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Substitute Teacher Payroll | Daily Pay + W-2 | BEG Guide",
+  title: "Substitute Teacher Payroll: What Districts Get Wrong | BEG",
   description: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and worker classification rules. BEG managed payroll at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/education/school-substitute-teacher-payroll" },
   openGraph: {
-    title: "Substitute Teacher Payroll | Daily Pay + W-2 | BEG Guide",
+    title: "Substitute Teacher Payroll: What Districts Get Wrong | BEG",
     description: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and worker classification rules. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/education/school-substitute-teacher-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Substitute Teacher Payroll | Daily Pay + W-2 | BEG Guide", description: "How to run payroll for substitute teachers correctly: daily rates, W-2s, ACA tracking, and classification.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Substitute Teacher Payroll: What Districts Get Wrong | BEG", description: "How to run payroll for substitute teachers correctly: daily rates, W-2s, ACA tracking, and classification.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -134,12 +135,7 @@ export default function SchoolSubstituteTeacherPayrollPage() {
             >
               Education Payroll Services
             </Link>
-            <a
-              href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-              style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-            >
-              Book a 15-Minute Discovery Call
-            </a>
+            <PricingCta service="managed-payroll" subline={false} />
           </div>
         </div>
 

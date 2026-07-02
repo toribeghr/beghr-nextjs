@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Managed Payroll vs. Hiring In-House for Childcare Centers | BEG',
+  title: 'Managed Payroll vs. In-House for Childcare Centers | BEG',
   description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house' },
   openGraph: {
-    title: 'Managed Payroll vs. Hiring In-House for Childcare Centers | BEG',
+    title: 'Managed Payroll vs. In-House for Childcare Centers | BEG',
     description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy documentati...',
     url: 'https://www.beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. Hiring In-House for Childcare Centers | BEG', description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy documentati...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. In-House for Childcare Centers | BEG', description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy documentati...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -49,7 +50,7 @@ export default function ChildcareComparisonPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managed Payroll vs. Hiring In-House for Childcare Centers | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managed Payroll vs. In-House for Childcare Centers | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -149,14 +150,7 @@ export default function ChildcareComparisonPage() {
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
             Free 15-minute scope review. We will confirm exact pricing for your headcount and review your current overtime setup to confirm BEG can handle it before you commit to anything.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-          >
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

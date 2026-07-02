@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Biotech Interview Questions for Regulatory, Clinical, and R&D Roles | BEG',
+  title: 'Biotech Interview Questions That Actually Work | BEG',
   description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and deliver results under FDA scrutiny.',
   alternates: { canonical: 'https://www.beghr.com/blog/biotech-hiring/biotech-interview-questions' },
   openGraph: {
-    title: 'Biotech Interview Questions for Regulatory, Clinical, and R&D Roles | BEG',
+    title: 'Biotech Interview Questions That Actually Work | BEG',
     description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and deliver results under FDA scrutiny.',
     url: 'https://www.beghr.com/blog/biotech-hiring/biotech-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Biotech Interview Questions for Regulatory, Clinical, and R&D Roles | BEG', description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and deliver results under FDA scrutiny.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Biotech Interview Questions That Actually Work | BEG', description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and deliver results under FDA scrutiny.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/biotech-hiring/biotech-interview-questions');
 
 const faqs = [
   {
@@ -84,7 +82,7 @@ export default function Page() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Filling a biotech or life sciences role?</h3>
           <p style={{ marginBottom: '1.5rem' }}>The best regulatory, clinical, and R&D candidates are passive. They are inside programs at other sponsors and not on job boards. BEG reaches them directly and fills biotech roles in 23-35 days at roughly 50% less than contingency.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>Book a Free Discovery Call &rarr;</a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Publication Record Is a Starting Point, Not a Hire Decision</h2>
@@ -93,10 +91,9 @@ export default function Page() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill this role in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role. We will show you what our passive candidate pipeline looks like for your specific search right now.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>Book a Discovery Call &rarr;</a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool variant="link" eyebrow="Free Tool" heading="What is this open role costing you right now?" description="The cost of a vacancy compounds every week. Use the free calculator to put a dollar figure on the open seat in lost output, overtime, and turnover risk." href="/resources/cost-of-vacant-role-calculator" cta="Open the Cost of a Vacant Role Calculator" />
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>

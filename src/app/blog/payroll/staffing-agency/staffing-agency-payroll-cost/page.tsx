@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Staffing Agency Payroll Costs | In-House vs Managed | BEG',
+  title: 'Staffing Agency Payroll Costs: In-House vs. Managed | BEG',
   description: 'How much does staffing agency payroll cost? Compare in-house payroll specialist ($60K-$100K) vs managed payroll at $25-$45 PEPM. Real numbers and ROI.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-cost' },
   openGraph: {
-    title: 'Staffing Agency Payroll Costs | In-House vs Managed | BEG',
+    title: 'Staffing Agency Payroll Costs: In-House vs. Managed | BEG',
     description: 'How much does staffing agency payroll cost? Compare in-house payroll specialist ($60K-$100K) vs managed payroll at $25-$45 PEPM. Real numbers and ROI.',
     url: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-cost',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Costs | In-House vs Managed | BEG', description: 'Compare in-house payroll specialist vs managed payroll at $25-$45 PEPM for staffing agencies.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Costs: In-House vs. Managed | BEG', description: 'Compare in-house payroll specialist vs managed payroll at $25-$45 PEPM for staffing agencies.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -137,12 +138,7 @@ export default function StaffingAgencyPayrollCostPage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages staffing agency payroll at $25-$45 per employee per month, all-inclusive. No per-run fees, no year-end surcharges, no multi-state add-ons. Setup takes 3-5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

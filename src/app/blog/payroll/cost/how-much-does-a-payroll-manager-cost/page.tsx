@@ -1,11 +1,12 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'How Much Does a Payroll Manager Actually Cost? (2026) | BEG',
+  title: 'How Much Does a Payroll Manager Cost in 2026? | BEG',
   description: 'The real cost of a payroll manager in 2026 goes far beyond salary. Breakdown of base pay, benefits, overhead, error risk, and total annual cost vs. managed payroll at $25-$45 PEPM.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/cost/how-much-does-a-payroll-manager-cost' },
   openGraph: {
-    title: 'How Much Does a Payroll Manager Actually Cost? (2026) | BEG',
+    title: 'How Much Does a Payroll Manager Cost in 2026? | BEG',
     description: 'Salary alone understates the true cost of a payroll manager by 40-60%. Here is the full breakdown -- base pay, benefits, error risk, replacement cost, and how it compares to $25-$45 PEPM managed payroll.',
     url: 'https://www.beghr.com/blog/payroll/cost/how-much-does-a-payroll-manager-cost',
     siteName: 'Business Executive Group',
@@ -14,13 +15,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How Much Does a Payroll Manager Actually Cost? (2026) | BEG',
+    title: 'How Much Does a Payroll Manager Cost in 2026? | BEG',
     description: 'Salary alone understates the true cost of a payroll manager by 40-60%. Full breakdown vs. $25-$45 PEPM managed payroll.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -207,10 +207,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
           <p style={{ marginBottom: '1.5rem' }}>
             BEG managed payroll costs $25 to $45 per employee per month, all-inclusive. For a 50-person company, that is $1,250 to $2,250 per month -- roughly $15,000 to $27,000 per year. We will run the comparison for your actual headcount in 24 hours.
           </p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free 15-Minute Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -307,10 +304,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
             We will run a free cost comparison using your actual headcount and current payroll setup. Most companies find managed payroll costs 70 to 85 percent less than their in-house equivalent.
           </p>
           <p style={{ marginBottom: '1.5rem', color: '#ddd', fontSize: '0.9rem' }}>Month-to-month. No migration required. Onboarding in 3 to 5 weeks.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none', fontSize: '1.05rem' }}>
-            Book a Free Discovery Call →
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>

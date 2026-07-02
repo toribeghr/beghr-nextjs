@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Event Company Payroll Guide 2026 | Seasonal Crews | BEG",
+  title: "Event Company Payroll in 2026: Seasonal Crew Costs | BEG",
   description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide" },
   openGraph: {
-    title: "Event Company Payroll Guide 2026 | Seasonal Crews | BEG",
+    title: "Event Company Payroll in 2026: Seasonal Crew Costs | BEG",
     description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Event Company Payroll Guide 2026 | Seasonal Crews | BEG", description: "Event company payroll: seasonal crews, W-2 vs 1099, multi-state touring compliance, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Event Company Payroll in 2026: Seasonal Crew Costs | BEG", description: "Event company payroll: seasonal crews, W-2 vs 1099, multi-state touring compliance, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -159,12 +160,7 @@ export default function EventCompanyPayrollGuidePage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages event company payroll including multi-state touring compliance and seasonal crew cycles at $25 to $45 per employee per month. Setup in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

@@ -1,31 +1,32 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Managing Remote Teams: What Founders Need to Know',
+  title: 'Remote Team Management: What Founders Learn Late | BEG',
   description: 'Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a distributed company.',
   alternates: { canonical: 'https://www.beghr.com/blog/entrepreneur-resources/remote-team-management' },
   openGraph: {
-    title: 'Managing Remote Teams: What Founders Need to Know',
+    title: 'Remote Team Management: What Founders Learn Late | BEG',
     description: 'Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a distributed company.',
     url: 'https://www.beghr.com/blog/entrepreneur-resources/remote-team-management',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managing Remote Teams: What Founders Need to Know', description: 'Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a distributed company.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Remote Team Management: What Founders Learn Late | BEG', description: 'Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a distributed company.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
 export default function RemoteTeamManagementPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Managing Remote Teams: What Founders Need to Know", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/entrepreneur-resources/remote-team-management"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Remote Team Management: What Founders Learn Late | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/entrepreneur-resources/remote-team-management"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
             <div className="hero-split-text">
           <p className="eyebrow">Blog · Business & Entrepreneur Resources</p>
-          <h1>Managing Remote Teams: What Founders Need to Know</h1>
+          <h1>Remote Team Management: What Founders Learn Late | BEG</h1>
           <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
             <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
             <span><strong>Published:</strong> June 25, 2026</span>
@@ -53,7 +54,7 @@ export default function RemoteTeamManagementPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Hire Remote. Manage Compliant.</h3>
           <p style={{ marginBottom: '1.5rem' }}>We handle multi-state payroll, compliance, and HR so you can build your remote team with confidence.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
 

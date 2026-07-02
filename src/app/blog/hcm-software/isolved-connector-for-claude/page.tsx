@@ -1,23 +1,22 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'isolved Connector for Claude: What It Does | BEG',
+  title: 'isolved Connector for Claude: What Nobody Explains | BEG',
   description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for your team.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/isolved-connector-for-claude' },
   openGraph: {
-    title: 'isolved Connector for Claude: What It Is and What It Does',
+    title: 'isolved Connector for Claude: What Nobody Explains | BEG',
     description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for your team.',
     url: 'https://www.beghr.com/blog/hcm-software/isolved-connector-for-claude',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Connector for Claude: What It Is and What It Does', description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for your team.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Connector for Claude: What Nobody Explains | BEG', description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for your team.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
-const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 
 const faqs = [
   {
@@ -45,13 +44,13 @@ const faqs = [
 export default function isolvedConnectorForClaudePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "isolved Connector for Claude: What It Does | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/isolved-connector-for-claude"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "isolved Connector for Claude: What Nobody Explains | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/isolved-connector-for-claude"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · HCM Technology</p>
-              <h1>isolved Connector for Claude: What It Is and What It Does</h1>
+              <h1>isolved Connector for Claude: What Nobody Explains | BEG</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 28, 2026</span>
@@ -117,7 +116,7 @@ export default function isolvedConnectorForClaudePage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>See the isolved Connector for Claude in action.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Book a 15-minute call and we will show you the connector completing real HR tasks inside isolved. Learn more on our <a href="/services/hcm-software/ai-connector" style={{ color: '#000000', textDecoration: 'underline' }}>AI Connector page</a>.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
@@ -137,17 +136,9 @@ export default function isolvedConnectorForClaudePage() {
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
           { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.beghr.com/blog' },
           { '@type': 'ListItem', position: 3, name: 'HCM Technology', item: 'https://www.beghr.com/blog/hcm-software' },
-          { '@type': 'ListItem', position: 4, name: 'isolved Connector for Claude: What It Is and What It Does', item: 'https://www.beghr.com/blog/hcm-software/isolved-connector-for-claude' },
+          { '@type': 'ListItem', position: 4, name: 'isolved Connector for Claude: What Nobody Explains | BEG', item: 'https://www.beghr.com/blog/hcm-software/isolved-connector-for-claude' },
         ],
       }) }} />
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
     </article>
   );
 }

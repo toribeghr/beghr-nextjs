@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
 
 export const metadata: Metadata = {
-  title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+  title: '2026 Attorney Market Trends: What Partners Miss | BEG',
   description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are.',
   alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/attorney-market-trends' },
   openGraph: {
-    title: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+    title: '2026 Attorney Market Trends: What Partners Miss | BEG',
     description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...',
     url: 'https://www.beghr.com/blog/legal-hiring/attorney-market-trends',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '2026 Attorney Market Trends: What Managing Partners Need to Know', description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: '2026 Attorney Market Trends: What Partners Miss | BEG', description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -68,13 +68,13 @@ const frameworkRows = [
 export default function AttorneyMarketTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "2026 Attorney Market Trends: What Managing Partners Need to Know", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/attorney-market-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "2026 Attorney Market Trends: What Partners Miss | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/attorney-market-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
             <div className="hero-split-text">
               <p className="eyebrow">Blog · Legal Hiring &amp; Recruiting</p>
-              <h1>2026 Attorney Market Trends: What Managing Partners Need to Know</h1>
+              <h1>2026 Attorney Market Trends: What Partners Miss | BEG</h1>
               <div style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
                 <span><strong>By</strong> Anthony Moretti, VP of Sales</span>
                 <span><strong>Published:</strong> June 25, 2026</span>
@@ -283,24 +283,9 @@ export default function AttorneyMarketTrendsPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Fill Roles in 23-35 Days</h3>
           <p style={{ marginBottom: '1.5rem' }}>In 2026, the firms winning the best attorneys are moving faster than their competition. Talk to a legal placement specialist about your open role.</p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}
-          >
-            Schedule Your Discovery Call
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="link"
-          eyebrow={`Free Tool`}
-          heading={`Has your legal search been open longer than it should be?`}
-          description={`Answer a few quick questions and get an honest read on why the search has stalled and what to change. Free, instant, and built from how the strongest searches actually get filled.`}
-          href="/resources/search-overdue-diagnostic"
-          cta={`Run the free Search Diagnostic →`}
-        />
         <div className="faq" style={{ marginTop: '1rem' }}>
           <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
             Frequently Asked Questions
@@ -349,7 +334,7 @@ export default function AttorneyMarketTrendsPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: '2026 Attorney Market Trends: What Managing Partners Need to Know',
+            headline: '2026 Attorney Market Trends: What Partners Miss | BEG',
             description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling roles in 23-35 days.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',

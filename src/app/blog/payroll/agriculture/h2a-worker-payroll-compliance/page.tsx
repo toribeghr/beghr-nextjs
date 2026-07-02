@@ -1,3 +1,4 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -148,12 +149,7 @@ export default function H2AWorkerPayrollCompliancePage() {
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
             BEG manages H-2A and domestic agricultural worker payroll at $25-$45 PEPM, all-inclusive. AEWR compliance, housing deductions, piece rate calculations, and year-end W-2s. Setup in 3-5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', fontWeight: 700, padding: '0.75rem 1.5rem', borderRadius: '4px', textDecoration: 'none' }}
-          >
-            Book a Free 15-Min Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: '2.5rem' }}>

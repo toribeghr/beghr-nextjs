@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Manufacturing Salary Trends 2026 | BEG',
+  title: 'Manufacturing Salary Trends 2026: What Averages Hide | BEG',
   description: 'Manufacturing pay is climbing but the best candidates are passive. What actually closes a manufacturing hire and how to fill roles in 23-35 days.',
   alternates: { canonical: 'https://www.beghr.com/blog/manufacturing-hiring/manufacturing-salary-trends' },
   openGraph: {
-    title: 'Manufacturing Salary Trends 2026 | BEG',
+    title: 'Manufacturing Salary Trends 2026: What Averages Hide | BEG',
     description: 'Manufacturing pay is climbing but the best candidates are passive. What actually closes a manufacturing hire and how to fill roles in 23-35 days.',
     url: 'https://www.beghr.com/blog/manufacturing-hiring/manufacturing-salary-trends',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Manufacturing Salary Trends 2026 | BEG', description: 'Manufacturing pay is climbing but the best candidates are passive. What actually closes a manufacturing hire and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Manufacturing Salary Trends 2026: What Averages Hide | BEG', description: 'Manufacturing pay is climbing but the best candidates are passive. What actually closes a manufacturing hire and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/manufacturing-hiring/manufacturing-salary-trends');
 
 const faqs = [
   {
@@ -41,7 +39,7 @@ const faqs = [
 export default function ManufacturingSalaryTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Manufacturing Salary Trends 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/manufacturing-hiring/manufacturing-salary-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Manufacturing Salary Trends 2026: What Averages Hide | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/manufacturing-hiring/manufacturing-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -103,10 +101,7 @@ export default function ManufacturingSalaryTrendsPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Not sure what the role should pay?</h3>
           <p style={{ marginBottom: '1.5rem' }}>We benchmark manufacturing roles every day. We will give you a current, realistic range for your exact role and market, and show you what our pipeline looks like.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -128,20 +123,9 @@ export default function ManufacturingSalaryTrendsPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your manufacturing role in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role and your target comp. We will benchmark it, tell you what our pipeline looks like, and whether milestone placement fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="link"
-          eyebrow={`Free Tool`}
-          heading={`See real 2026 manufacturing pay ranges before you post`}
-          description={`Get the free BEG Salary and Hiring Guide. Current 2026 pay ranges by role, plus what it takes to win the passive candidates who never apply to a job board. No cost and no sales pitch.`}
-          href="/resources/salary-guide"
-          cta={`Open the Salary and Hiring Guide →`}
-        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Manufacturing Salary Trends</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

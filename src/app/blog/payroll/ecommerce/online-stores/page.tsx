@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'E-Commerce Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG',
+  title: 'E-Commerce Payroll Outsourcing: $25 PEPM vs $60K Hire | BEG',
   description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/ecommerce/online-stores' },
   openGraph: {
-    title: 'E-Commerce Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG',
+    title: 'E-Commerce Payroll Outsourcing: $25 PEPM vs $60K Hire | BEG',
     description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',
     url: 'https://www.beghr.com/blog/payroll/ecommerce/online-stores',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'E-Commerce Payroll Outsourcing | $25 PEPM vs. $60K Hire | BEG', description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'E-Commerce Payroll Outsourcing: $25 PEPM vs $60K Hire | BEG', description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -216,7 +217,7 @@ export default function EcommerceOnlineStoresPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Ready to Remove Payroll from Your Plate?</h3>
           <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles payroll processing, multi-state tax filings, year-end W-2s and 1099-NECs, and HR compliance for e-commerce brands nationally. All-inclusive at $25–$45 PEPM. No surprise fees at year-end. Schedule a 15-minute discovery call and we will tell you exactly what it costs for your headcount.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2.25rem', borderRadius: '4px', fontWeight: '700', textDecoration: 'none', fontSize: '1rem' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Frequently Asked Questions</h2>

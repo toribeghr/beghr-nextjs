@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
 
 export const metadata: Metadata = {
-  title: 'In-House Counsel Hiring | When to Hire a GC | BEG',
+  title: 'In-House Counsel Hiring: Before You Need a GC | BEG',
   description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.',
   alternates: { canonical: 'https://www.beghr.com/blog/legal-hiring/in-house-counsel' },
   openGraph: {
-    title: 'In-House Counsel Hiring | When to Hire a GC | BEG',
+    title: 'In-House Counsel Hiring: Before You Need a GC | BEG',
     description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.',
     url: 'https://www.beghr.com/blog/legal-hiring/in-house-counsel',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'In-House Counsel Hiring | When to Hire a GC | BEG', description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'In-House Counsel Hiring: Before You Need a GC | BEG', description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -47,7 +47,7 @@ const faqs = [
 export default function InHouseCounselPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "In-House Counsel Hiring | When to Hire a GC | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/in-house-counsel"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "In-House Counsel Hiring: Before You Need a GC | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/legal-hiring/in-house-counsel"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -205,19 +205,9 @@ export default function InHouseCounselPage() {
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Find In-House Counsel in 23-35 Days</p>
           <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>BEG places General Counsels, Deputy GCs, and Corporate Counsel at an 86% fill rate. We reach candidates who are not on job boards, passive candidates currently doing the job you need done.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '0.85rem 2rem', borderRadius: '6px', fontWeight: '700', fontSize: '1rem', textDecoration: 'none' }}>
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="link"
-          eyebrow={`Free Tool`}
-          heading={`Not sure why this legal hire is taking so long?`}
-          description={`Answer a few quick questions and get an honest read on what is slowing the search down and what to change. Free, instant, and built from how the strongest searches actually get filled.`}
-          href="/resources/search-overdue-diagnostic"
-          cta={`Run the free Search Diagnostic →`}
-        />
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>Frequently Asked Questions</h2>
 
         <div className="faq" style={{ marginTop: '1rem' }}>

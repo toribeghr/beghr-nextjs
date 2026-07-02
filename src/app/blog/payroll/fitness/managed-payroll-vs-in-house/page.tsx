@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Fitness Studio Payroll | Managed vs. In-House. $25 PEPM. | BEG',
+  title: 'Fitness Payroll, Managed vs In-House (What to Know) | BEG',
   description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house' },
   openGraph: {
-    title: 'Fitness Studio Payroll | Managed vs. In-House. $25 PEPM. | BEG',
+    title: 'Fitness Payroll, Managed vs In-House (What to Know) | BEG',
     description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification, ...',
     url: 'https://www.beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Fitness Studio Payroll | Managed vs. In-House. $25 PEPM. | BEG', description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification, ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Fitness Payroll, Managed vs In-House (What to Know) | BEG', description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification, ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -149,14 +150,7 @@ export default function FitnessComparisonPage() {
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
             Free 15-minute scope review. We will review your current trainer arrangements, confirm exact pricing for your headcount, and flag any classification risk before you commit.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}
-          >
-            Book a Free Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ borderTop: '1px solid #e5e5e5', paddingTop: '1.5rem' }}>

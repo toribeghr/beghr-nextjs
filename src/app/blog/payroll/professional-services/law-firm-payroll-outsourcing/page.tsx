@@ -1,19 +1,20 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+  title: 'Law Firm Payroll Outsourcing vs. Hiring HR [2026 Data] | BEG',
   description: 'Compare law firm payroll outsourcing vs. hiring in-house. Partner draws, IOLTA separation, billing integration, associate salary tiers. Save $55K–$90K.',
   keywords: 'law firm payroll outsourcing, payroll outsourcing cost, hire payroll manager, law firm HR, professional services payroll',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
   openGraph: {
-    title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+    title: 'Law Firm Payroll Outsourcing vs. Hiring HR [2026 Data] | BEG',
     description: 'Partner draws, IOLTA separation, billing integration, associate salary tiers -- handled at $25–$45 PEPM, all-inclusive.',
     type: 'article',
     url: 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+    title: 'Law Firm Payroll Outsourcing vs. Hiring HR [2026 Data] | BEG',
     description: 'Compare law firm payroll outsourcing vs. hiring in-house. Save $55K–$90K annually.',
   },
 };
@@ -204,7 +205,7 @@ export default function LawFirmPayrollPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Law Firm Payroll, Handled at $25–$45 PEPM.</h3>
           <p style={{ marginBottom: '1.5rem' }}>Partner draws, associate salary tiers, multi-state withholding, billing system integration -- all-inclusive with no setup fees. Book a 15-minute call to get a cost comparison for your firm size and structure.</p>
-          <a href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}>Schedule Your Discovery Call</a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Law Firm Payroll Outsourcing</h2>
@@ -275,7 +276,7 @@ export default function LawFirmPayrollPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
-            headline: 'Law Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
+            headline: 'Law Firm Payroll Outsourcing vs. Hiring HR [2026 Data] | BEG',
             description: 'Partner draws, IOLTA separation, billing integration, multi-state withholding -- law firm payroll outsourcing at $25–$45 PEPM all-inclusive.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',

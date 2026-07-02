@@ -1,23 +1,21 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import RelatedTool from '@/components/RelatedTool';
-import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Logistics Recruiting: Fill Roles Fast | BEG',
+  title: 'Logistics Recruiting: What Nobody Tells You About Speed | BEG',
   description: 'Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics managers in 23-35 days when the market is this tight.',
   alternates: { canonical: 'https://www.beghr.com/blog/supply-chain-hiring/logistics-recruiting' },
   openGraph: {
-    title: 'Logistics Recruiting: Fill Roles Fast | BEG',
+    title: 'Logistics Recruiting: What Nobody Tells You About Speed | BEG',
     description: 'Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics managers in 23-35 days when the market is this tight.',
     url: 'https://www.beghr.com/blog/supply-chain-hiring/logistics-recruiting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Logistics Recruiting: Fill Roles Fast | BEG', description: 'Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics managers in 23-35 days when the market is this tight.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Logistics Recruiting: What Nobody Tells You About Speed | BEG', description: 'Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics managers in 23-35 days when the market is this tight.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('/blog/supply-chain-hiring/logistics-recruiting');
 
 const faqs = [
   {
@@ -100,10 +98,7 @@ export default function LogisticsRecruitingPage() {
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Distribution or transportation seat open?</h3>
           <p style={{ marginBottom: '1.5rem' }}>Service slips fast when logistics leadership is short. We will show you what our passive logistics pipeline looks like for your facility and market right now.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#000', color: '#ECAC60', padding: '0.85rem 2rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Free Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -130,18 +125,9 @@ export default function LogisticsRecruitingPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your logistics role in 23-35 days</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the facility, scope, and timeline. We will tell you what our logistics pipeline looks like and whether milestone placement fits.</p>
-          <a href={CALENDLY} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: '#ECAC60', color: '#000', padding: '1rem 2.5rem', borderRadius: '4px', fontWeight: 700, textDecoration: 'none' }}>
-            Book a Discovery Call &rarr;
-          </a>
+          <PricingCta service="job-placement" subline={false} />
         </div>
 
-        <RelatedTool
-          variant="grader"
-          eyebrow={`Free Tool`}
-          heading={`Grade your supply chain job description in 30 seconds`}
-          description={`A weak posting quietly kills your pipeline before a single strong candidate sees it. Paste your job description below and get an instant 0 to 100 score, plus the exact fixes that get the best people to apply. Free, instant, and nothing you paste ever leaves your browser.`}
-        />
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>FAQ: Logistics Recruiting</h2>
         <div className="faq" style={{ marginTop: '1rem' }}>
           {faqs.map((faq, i) => (

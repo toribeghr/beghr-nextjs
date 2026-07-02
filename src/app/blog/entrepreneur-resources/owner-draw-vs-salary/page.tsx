@@ -1,18 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Owner Draw vs Salary | Which Is Right for Your Business? | BEG",
+  title: "Owner Draw vs Salary: What New Founders Miss | BEG",
   description: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to formal payroll. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/entrepreneur-resources/owner-draw-vs-salary" },
   openGraph: {
-    title: "Owner Draw vs Salary | Which Is Right for Your Business? | BEG",
+    title: "Owner Draw vs Salary: What New Founders Miss | BEG",
     description: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to formal payroll. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/entrepreneur-resources/owner-draw-vs-salary",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Owner Draw vs Salary | Which Is Right for Your Business? | BEG", description: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to payroll. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Owner Draw vs Salary: What New Founders Miss | BEG", description: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to payroll. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -133,12 +134,7 @@ export default function OwnerDrawVsSalaryPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG manages S-corp and owner payroll at $25 to $45 per employee per month, all-inclusive. Get your W-2 right and your estimated taxes simplified. Live in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="managed-payroll" subline={false} />
         </div>
 
         <div style={{ marginBottom: "2.5rem" }}>

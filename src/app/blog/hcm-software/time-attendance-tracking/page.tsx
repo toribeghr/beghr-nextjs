@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 export const metadata: Metadata = {
-  title: "Time & Attendance Tracking Software | isolved Timekeeping | BEG",
+  title: "Time and Attendance Tracking: What isolved Automates | BEG",
   description: "isolved time and attendance: punch methods, overtime alerts, geofencing, scheduling, and direct payroll integration. BEG at $25-$45 PEPM.",
   alternates: { canonical: "https://www.beghr.com/blog/hcm-software/time-attendance-tracking" },
   openGraph: {
-    title: "Time & Attendance Tracking Software | isolved Timekeeping | BEG",
+    title: "Time and Attendance Tracking: What isolved Automates | BEG",
     description: "isolved time and attendance: punch-in methods, overtime alerts, geofencing, scheduling, and payroll integration. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/hcm-software/time-attendance-tracking",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Time & Attendance Tracking Software | isolved Timekeeping | BEG", description: "isolved time and attendance: punch methods, overtime alerts, geofencing, and payroll integration. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Time and Attendance Tracking: What isolved Automates | BEG", description: "isolved time and attendance: punch methods, overtime alerts, geofencing, and payroll integration. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
 };
 
 const faqs = [
@@ -132,12 +132,7 @@ export default function TimeAttendanceTrackingPage() {
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
             BEG's fully managed service on isolved includes time and attendance, payroll, benefits administration, and core HR at $45 per employee per month. No file transfers. No reconciliation. Live in 3 to 5 business days.
           </p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            style={{ display: "inline-block", background: "#ECAC60", color: "#000", fontWeight: 700, padding: "0.75rem 1.5rem", borderRadius: "4px", textDecoration: "none" }}
-          >
-            Book a 15-Minute Discovery Call
-          </a>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
 
         <p style={{ lineHeight: "1.7", marginBottom: "2.5rem", color: "#666", fontSize: "0.9rem" }}>
@@ -181,14 +176,6 @@ export default function TimeAttendanceTrackingPage() {
           { "@type": "ListItem", "position": 4, "name": "Time and Attendance Tracking", "item": "https://www.beghr.com/blog/hcm-software/time-attendance-tracking" }
         ]
       }) }} />
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>Free tool: calculate overtime the right way</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Bonuses and multiple pay rates change the math. Enter the week and see the correct FLSA overtime owed. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <OvertimePayCalculator />
     </article>
   );
 }

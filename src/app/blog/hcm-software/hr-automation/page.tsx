@@ -1,19 +1,19 @@
+import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
-import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 export const metadata: Metadata = {
-  title: 'HR Automation in 2026 | What isolved Actually Does | BEG',
+  title: 'HR Automation 2026: What isolved Actually Does | BEG',
   description: 'What HR automation actually looks like in 2026. How isolved automates payroll, onboarding, compliance, and ACA tracking -- plus the Connector for Claude.',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/hr-automation' },
   openGraph: {
-    title: 'HR Automation in 2026 | What isolved Actually Does | BEG',
+    title: 'HR Automation 2026: What isolved Actually Does | BEG',
     description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connec...',
     url: 'https://www.beghr.com/blog/hcm-software/hr-automation',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HR Automation in 2026 | What isolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connec...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HR Automation 2026: What isolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connec...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -108,7 +108,7 @@ const bestFitRows = [
 export default function HRAutomationPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation in 2026 | What isolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/hr-automation"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation 2026: What isolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/hr-automation"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -288,14 +288,7 @@ export default function HRAutomationPage() {
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>See What BEG Can Automate for Your HR Team</h3>
           <p style={{ marginBottom: '1.5rem' }}>BEG implements isolved People Cloud with implementation included. 60-90 days to go-live. Single point of contact from signature to first payroll run.</p>
-          <a
-            href="https://calendly.com/tori-beghr/15-minute-beg-discovery-call"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ display: 'inline-block', background: 'white', color: '#ECAC60', padding: '0.75rem 2rem', borderRadius: '4px', fontWeight: '600', textDecoration: 'none' }}
-          >
-            Schedule Your Discovery Call
-          </a>
+          <PricingCta service="hcm-software" subline={false} />
         </div>
 
         <div className="faq" style={{ marginTop: '1rem' }}>
@@ -369,14 +362,6 @@ export default function HRAutomationPage() {
           }),
         }}
       />
-      <section className="section section--soft" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 760, textAlign: 'center' }}>
-          <p className="eyebrow">Free Tool</p>
-          <h2 style={{ marginBottom: '0.5rem' }}>What does this employee really cost you?</h2>
-          <p style={{ color: '#555', maxWidth: 620, margin: '0.5rem auto 0', lineHeight: 1.7 }}>Add taxes, benefits, and overhead to base pay and see the fully loaded annual and hourly cost. Free, runs in your browser, no email required.</p>
-        </div>
-      </section>
-      <TrueCostCalculator />
     </article>
   );
 }

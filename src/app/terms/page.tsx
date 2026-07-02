@@ -33,7 +33,7 @@ export default function TermsPage() {
           <p>These Terms of Service (&quot;Terms&quot;) govern your use of beghr.com and the information and services offered by Business Executive Group (&quot;BEG,&quot; &quot;we,&quot; &quot;us&quot;). By using this site, you agree to these Terms.</p>
 
           <h2 style={h2}>1. Our Services</h2>
-          <p>BEG provides fully managed payroll and Core HR, resells and implements the isolved HCM platform as an authorized partner, and provides specialized job placement services. The website also offers free informational tools, calculators, and guides. Specific service terms, pricing, and scope are set out in the separate written agreement you sign before engaging us; in the event of a conflict, that agreement controls.</p>
+          <p>BEG provides fully managed payroll, resells and implements the isolved HCM platform as an authorized partner, and provides specialized job placement services. The website also offers free informational tools, calculators, and guides. Specific service terms, pricing, and scope are set out in the separate written agreement you sign before engaging us; in the event of a conflict, that agreement controls.</p>
 
           <h2 style={h2}>2. Informational Content and No Professional Advice</h2>
           <p>Content on this site, including calculators, guides, and articles, is for general information only and is not legal, tax, accounting, or financial advice. Payroll and employment rules change and vary by jurisdiction. You should consult a qualified professional before acting on anything you read here.</p>

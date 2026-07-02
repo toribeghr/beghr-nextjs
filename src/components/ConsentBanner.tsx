@@ -60,7 +60,7 @@ export default function ConsentBanner() {
       }}
     >
       <span style={{ maxWidth: '680px' }}>
-        We use cookies for analytics and advertising (including Google and Meta) to improve your
+        We use cookies for analytics (including Google) to improve your
         experience and measure our marketing. See our{' '}
         <a href="/privacy-policy" style={{ color: GOLD, textDecoration: 'underline' }}>Privacy Policy</a>.
       </span>

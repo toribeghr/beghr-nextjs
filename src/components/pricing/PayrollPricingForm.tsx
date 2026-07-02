@@ -183,6 +183,9 @@ export default function PayrollPricingForm({ onClose }: { onClose: () => void })
         recommended: reco.key, chosen: tierKey,
         benefits_today: ans.benefitsToday?.label ?? '', benefits_addon: wantsBenefits ? 'yes' : 'no',
         states: ans.states?.label ?? '',
+        monthly: money(monthly), annual: money(annual),
+        one_time: oneTime > 0 ? money(oneTime) : '',
+        min_applied: minApplies ? 'yes' : 'no',
       }),
       page: typeof window !== 'undefined' ? window.location.pathname : '',
     });

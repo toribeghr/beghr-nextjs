@@ -150,6 +150,9 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
         hiring: ans.hiring?.label ?? '', hourly: ans.hourly?.label ?? '', depth: ans.depth?.label ?? '',
         benefits_admin: ans.benefitsAdmin?.label ?? '', states: ans.states?.label ?? '',
         recommended: reco.key, chosen: tierKey ?? reco.key, benefits_gap: bensGap ? 'yes' : 'no',
+        monthly: money(monthly), annual: money(annual),
+        discount_annual: money(annual * 0.8), you_keep: money(annual * 0.2),
+        tier_name: tier.name, tier_pkg: tier.pkg,
       }),
       page: typeof window !== 'undefined' ? window.location.pathname : '',
     });

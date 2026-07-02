@@ -142,6 +142,10 @@ export default function PlacementPricingForm({ industry = null, onClose }: { ind
         salary: sal?.label ?? '', duration: batch.duration?.label ?? '',
         company_size: batch.companysize?.label ?? '', urgency: batch.urgency?.label ?? '',
         sourcing: recruiting,
+        role_count: String(lineItems.length),
+        quote_low: money(totalBase), quote_high: money(totalHigh),
+        savings: showSavings && sal ? `${money(savingsLow)} - ${money(savingsHigh)}` : '',
+        line_items: lineItems.map(x => `${x.name}: ${money(x.base)}-${money(x.high)}`),
       }),
       page: typeof window !== 'undefined' ? window.location.pathname : '',
     });

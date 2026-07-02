@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'SaaS Payroll Outsourcing: Cost vs. an In-House Hire | BEG',
-  description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at.',
+  description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K-$110K annually at.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/technology/saas-payroll-outsourcing' },
   openGraph: {
     title: 'SaaS Payroll Outsourcing: Cost vs. an In-House Hire | BEG',
-    description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45...',
+    description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K-$110K annually at $25-$45...',
     url: 'https://www.beghr.com/blog/payroll/technology/saas-payroll-outsourcing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'SaaS Payroll Outsourcing: Cost vs. an In-House Hire | BEG', description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually at $25–$45...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'SaaS Payroll Outsourcing: Cost vs. an In-House Hire | BEG', description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K-$110K annually at $25-$45...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'We are growing from 30 to 100 employees in the next 12 months. Will your pricing scale?',
-    answer: 'Yes. BEG pricing is per employee per month at $25–$45, so it scales linearly with headcount. No setup fee for adding employees. When you hire someone in a new state, we handle the state registration and configuration as part of the service with no add-on charge.',
+    answer: 'Yes. BEG pricing is per employee per month at $25-$45, so it scales linearly with headcount. When you hire someone in a new state, we handle the state registration and configuration as part of the service with no add-on charge.',
   },
   {
     question: 'Do you support payroll for international employees or do we need an EOR for that?',
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for SaaS company payroll?',
-    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 50-person SaaS company, that is $1,250–$2,250 per month -- compared to $85,000–$120,000 for a Payroll Ops Manager at the salary and loaded cost typical in tech. Included: multi-state processing, RSU tax event handling, tax filing, W-2s, and compliance updates. No per-run fees.',
+    answer: 'BEG manages payroll at $25-$45 per employee per month, all-inclusive. For a 50-person SaaS company, that is $1,250-$2,250 per month -- compared to $85,000-$120,000 for a Payroll Ops Manager at the salary and loaded cost typical in tech. Included: multi-state processing, RSU tax event handling, tax filing, W-2s, and compliance updates.',
   },
 ];
 
@@ -74,15 +74,15 @@ export default function SaaSPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>SaaS companies scale fast. Payroll should scale with them -- not become a bottleneck. Yet most early-stage and growth-stage SaaS companies hire a Payroll Ops Manager or HR Ops person at $85,000–$120,000 loaded cost to handle a task that a managed payroll provider handles better, faster, and for a fraction of the cost.</p>
+        <p>SaaS companies scale fast. Payroll should scale with them -- not become a bottleneck. Yet most early-stage and growth-stage SaaS companies hire a Payroll Ops Manager or HR Ops person at $85,000-$120,000 loaded cost to handle a task that a managed payroll provider handles better, faster, and for a fraction of the cost.</p>
 
-        <p>SaaS payroll is not simple. You have RSU vesting events, remote employees across 12–25 states, contractor vs. employee classification risk, and headcount growth that doubles your state tax filing obligations every 18 months. These are real compliance risks -- not things to hand off to a part-time bookkeeper or the founder&apos;s CPA.</p>
+        <p>SaaS payroll is not simple. You have RSU vesting events, remote employees across 12-25 states, contractor vs. employee classification risk, and headcount growth that doubles your state tax filing obligations every 18 months. These are real compliance risks -- not things to hand off to a part-time bookkeeper or the founder&apos;s CPA.</p>
 
         <p>The question is whether to build in-house capacity or outsource to a provider that already processes payroll with this complexity for dozens of tech companies and handles the compliance burden at scale.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House SaaS Payroll Ops Manager</h2>
 
-        <p>SaaS companies pay a premium for payroll and HR ops talent. Someone who understands equity compensation, multi-state payroll, and tech company complexity earns $75,000–$110,000 in base salary. Here is the full loaded cost:</p>
+        <p>SaaS companies pay a premium for payroll and HR ops talent. Someone who understands equity compensation, multi-state payroll, and tech company complexity earns $75,000-$110,000 in base salary. Here is the full loaded cost:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -94,13 +94,13 @@ export default function SaaSPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (payroll ops manager, tech company)', '$75,000–$110,000'],
-                ['Benefits (health, dental, 401K) ~30%', '$22,500–$33,000'],
-                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$7,500–$11,000'],
-                ['Payroll software + HRIS license', '$3,600–$9,600'],
-                ['Training & compliance updates (equity, multi-state)', '$2,000–$4,500'],
-                ['Hiring & onboarding (amortized over 2 years)', '$3,000–$7,500'],
-                ['Total loaded cost', '$113,600–$175,600'],
+                ['Base salary (payroll ops manager, tech company)', '$75,000-$110,000'],
+                ['Benefits (health, dental, 401K) ~30%', '$22,500-$33,000'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$7,500-$11,000'],
+                ['Payroll software + HRIS license', '$3,600-$9,600'],
+                ['Training & compliance updates (equity, multi-state)', '$2,000-$4,500'],
+                ['Hiring & onboarding (amortized over 2 years)', '$3,000-$7,500'],
+                ['Total loaded cost', '$113,600-$175,600'],
               ].map(([label, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 6 ? '700' : '400' }}>{label}</td>
@@ -113,7 +113,7 @@ export default function SaaSPayrollPage() {
 
         <p>And when that person leaves -- which happens frequently in SaaS as roles evolve -- you restart the search while a founder or CFO fills in on payroll manually.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25-$45 PEPM</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -127,10 +127,10 @@ export default function SaaSPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees', '$625–$1,125', '$7,500–$13,500', 'Save $100K–$165K/yr'],
-                ['50 employees', '$1,250–$2,250', '$15,000–$27,000', 'Save $87K–$155K/yr'],
-                ['100 employees', '$2,500–$4,500', '$30,000–$54,000', 'Save $60K–$134K/yr'],
-                ['200 employees', '$5,000–$9,000', '$60,000–$108,000', 'Save $6K–$92K/yr'],
+                ['25 employees', '$625-$1,125', '$7,500-$13,500', 'Save $100K-$165K/yr'],
+                ['50 employees', '$1,250-$2,250', '$15,000-$27,000', 'Save $87K-$155K/yr'],
+                ['100 employees', '$2,500-$4,500', '$30,000-$54,000', 'Save $60K-$134K/yr'],
+                ['200 employees', '$5,000-$9,000', '$60,000-$108,000', 'Save $6K-$92K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -143,7 +143,7 @@ export default function SaaSPayrollPage() {
           </table>
         </div>
 
-        <p>All-inclusive: multi-state payroll, RSU vesting processing, tax filing in all active states, W-2 and 1099 production, and compliance updates when state laws change. No per-run fees, no additional charge for adding a new state.</p>
+        <p>All-inclusive: multi-state payroll, RSU vesting processing, tax filing in all active states, W-2 and 1099 production, and compliance updates when state laws change.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What SaaS Companies Discover Too Late</h2>
 
@@ -151,15 +151,15 @@ export default function SaaSPayrollPage() {
 
         <p><strong>RSU vesting creates payroll tax events most founders miss.</strong> When RSUs vest, the fair market value on the vesting date is ordinary income -- subject to withholding. If the company fails to withhold correctly at vesting, the employee faces a tax bill at year-end with no cash to cover it, and the company faces an IRS inquiry into its supplemental wage withholding practices.</p>
 
-        <p><strong>Multi-state payroll requires state registration before the first hire.</strong> When you hire a remote employee in a new state, you must register for state income tax withholding and unemployment insurance before the first payroll run in that state. SaaS companies that skip this face retroactive penalties when discovered at audit. Most discover the gap 2–3 years after the fact.</p>
+        <p><strong>Multi-state payroll requires state registration before the first hire.</strong> When you hire a remote employee in a new state, you must register for state income tax withholding and unemployment insurance before the first payroll run in that state. SaaS companies that skip this face retroactive penalties when discovered at audit. Most discover the gap 2-3 years after the fact.</p>
 
-        <p><strong>Rapid headcount growth creates payroll timeline pressure.</strong> Going from 30 to 80 employees in 12 months means onboarding dozens of new employees into the payroll system, often across 5–8 new states. An in-house hire managing this manually is constantly behind. An outsourced provider has established onboarding workflows and state registration processes that handle this at volume.</p>
+        <p><strong>Rapid headcount growth creates payroll timeline pressure.</strong> Going from 30 to 80 employees in 12 months means onboarding dozens of new employees into the payroll system, often across 5-8 new states. An in-house hire managing this manually is constantly behind. An outsourced provider has established onboarding workflows and state registration processes that handle this at volume.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why SaaS Payroll Is More Complex Than It Looks</h2>
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}><strong>Equity compensation (RSUs, ISOs, NSOs):</strong> Each equity type has different tax treatment at grant, vest, and exercise. RSU vesting is the most common event and creates supplemental wage withholding requirements every vesting date.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Remote-first workforce across 15–25 states:</strong> Every state an employee works from creates withholding, unemployment insurance, and sometimes local tax obligations. Multi-state payroll scales in complexity with headcount.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Remote-first workforce across 15-25 states:</strong> Every state an employee works from creates withholding, unemployment insurance, and sometimes local tax obligations. Multi-state payroll scales in complexity with headcount.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Contractor vs. employee classification:</strong> SaaS companies frequently cross the line between contractor and employee engagement. The ABC test in California and other states applies a very different standard than the IRS 20-factor test, creating dual exposure.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Series A through Series C headcount scaling:</strong> SaaS companies often double or triple headcount between funding rounds. Payroll infrastructure that works at 20 employees breaks at 80 if it was not designed to scale.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Benefits complexity:</strong> Competitive SaaS benefits packages (HSA, 401K matching, multiple health plans) create enrollment and deduction complexity that must be tracked correctly in payroll every cycle.</li>
@@ -178,9 +178,9 @@ export default function SaaSPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Pre-seed to Seed (1–30 employees)', 'Outsource', 'No justification for in-house hire. Savings are immediate. Compliance protection included.'],
-                ['Series A (30–80 employees)', 'Outsource', 'Multi-state complexity increases rapidly. Outsourcing is still 70–80% cheaper than in-house.'],
-                ['Series B (80–200 employees)', 'Outsource or hybrid', 'May add an HR generalist for culture/recruiting. Keep payroll processing outsourced.'],
+                ['Pre-seed to Seed (1-30 employees)', 'Outsource', 'No justification for in-house hire. Savings are immediate. Compliance protection included.'],
+                ['Series A (30-80 employees)', 'Outsource', 'Multi-state complexity increases rapidly. Outsourcing is still 70-80% cheaper than in-house.'],
+                ['Series B (80-200 employees)', 'Outsource or hybrid', 'May add an HR generalist for culture/recruiting. Keep payroll processing outsourced.'],
                 ['Series C+ (200+ employees)', 'Assess annually', 'At scale, in-house may be justified for total HR ops. Payroll processing still often outsourced.'],
               ].map(([size, rec, why], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -195,7 +195,7 @@ export default function SaaSPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Scale Without Payroll Overhead.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>RSU vesting, multi-state remote payroll, contractor classification -- handled at $25–$45 per employee per month. Book a 15-minute call to see what it costs for your current headcount and where you are going.</p>
+          <p style={{ marginBottom: '1.5rem' }}>RSU vesting, multi-state remote payroll, contractor classification -- handled at $25-$45 per employee per month. Book a 15-minute call to see what it costs for your current headcount and where you are going.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -227,7 +227,7 @@ export default function SaaSPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group, a national managed payroll firm serving SaaS, tech, and high-growth companies. BEG manages multi-state payroll, RSU tax events, and contractor compliance at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group, a national managed payroll firm serving SaaS, tech, and high-growth companies. BEG manages multi-state payroll, RSU tax events, and contractor compliance at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ export default function SaaSPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'SaaS Payroll Outsourcing: Cost vs. Hiring Payroll Ops Manager (2026)',
-            description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K–$110K annually.',
+            description: 'SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote, contractor classification. Save $70K-$110K annually.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

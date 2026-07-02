@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Childcare Payroll | Instant Quote | BEG',
-  description: 'Childcare payroll fully managed at $25–45 PEPM. High-turnover staff, substitute tracking, and state subsidy compliance included.',
+  description: 'Childcare payroll fully managed at $25-45 PEPM. High-turnover staff, substitute tracking, and state subsidy compliance included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/childcare' },
   openGraph: {
     title: 'Childcare Payroll | Instant Quote | BEG',
-    description: 'Childcare payroll fully managed at $25–45 PEPM. High-turnover staff, substitute tracking, and state subsidy compliance included.',
+    description: 'Childcare payroll fully managed at $25-45 PEPM. High-turnover staff, substitute tracking, and state subsidy compliance included.',
     url: 'https://www.beghr.com/services/managed-payroll/childcare',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Childcare Payroll | Instant Quote | BEG', description: 'Childcare payroll fully managed at $25–45 PEPM. High-turnover staff, substitute tracking, and state subsidy compliance included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Childcare Payroll | Instant Quote | BEG', description: 'Childcare payroll fully managed at $25-45 PEPM. High-turnover staff, substitute tracking, and state subsidy compliance included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -30,11 +30,11 @@ export default function PayrollChildcarePage() {
       imageAlt="Childcare center with fully managed payroll"
       eyebrow="Managed Payroll · Childcare & Daycare Centers"
       title="Managed Payroll for Childcare Centers and Daycares"
-      description="High turnover, substitute staff, and state subsidy compliance -- fully managed. Childcare centers face some of the highest staff turnover rates of any industry, with constant new hire onboarding, substitute teacher tracking, FLSA complexity, and state childcare subsidy employment requirements. We manage all of it at $25–$45 per employee per month -- so you focus on the children, not the payroll."
+      description="High turnover, substitute staff, and state subsidy compliance -- fully managed. Childcare centers face some of the highest staff turnover rates of any industry, with constant new hire onboarding, substitute teacher tracking, FLSA complexity, and state childcare subsidy employment requirements. We manage all of it at $25-$45 per employee per month -- so you focus on the children, not the payroll."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered, including state subsidy compliance' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -51,7 +51,7 @@ export default function PayrollChildcarePage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>40–50%</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>40-50%</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual staff turnover rate at the average childcare center</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Every termination and every new hire means termination paperwork, final pay compliance, new hire setup, I-9 verification, and benefits eligibility determination. Running this administratively in-house while maintaining teacher-to-child ratios is where childcare operator bandwidth collapses.</div>
                 </div>
@@ -144,7 +144,7 @@ export default function PayrollChildcarePage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services charge extra for high-turnover new hire processing and year-end W-2s."',
-                body: 'The $25–$45 PEPM rate covers everything: payroll processing, new hire setup, state filings, year-end W-2s, compliance updates, and BEG support. No per-hire fees, no per-termination charges, no year-end invoices. High-turnover processing is included.',
+                body: 'The $25-$45 PEPM rate covers everything: payroll processing, new hire setup, state filings, year-end W-2s, compliance updates, and BEG support. High-turnover processing is included.',
               },
               {
                 badge: 'Bonus 03',
@@ -173,13 +173,13 @@ export default function PayrollChildcarePage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Getting Started</p>
-            <h2>From scope review to live childcare payroll in 3–5 business days</h2>
+            <h2>From scope review to live childcare payroll in 3-5 business days</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
               { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your full-time and part-time staff, substitute arrangements, and state subsidy requirements -- and give you a fixed monthly price.' },
-              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, staff roster and substitute classification arrangements reviewed.' },
-              { day: 'Days 2–4', title: 'Configuration', body: 'Substitute classification review, FLSA exemption documentation, and subsidy payroll reporting configured in your existing system.' },
+              { day: 'Days 1-2', title: 'Onboarding', body: 'Agreement signed, system access granted, staff roster and substitute classification arrangements reviewed.' },
+              { day: 'Days 2-4', title: 'Configuration', body: 'Substitute classification review, FLSA exemption documentation, and subsidy payroll reporting configured in your existing system.' },
               { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed childcare pay run -- BEG executes, your team approves. New hire processing hands off to BEG on day one.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
@@ -199,12 +199,12 @@ export default function PayrollChildcarePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every month of substitute misclassification is a month of compounding back-tax exposure.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A childcare center with 10 substitutes paid as 1099 contractors for three years carries significant reclassification exposure if the IRS or state audits the arrangement. Fully managed payroll at $25–$45 PEPM on a 20-person center costs under $11,000 per year -- including proper classification review that eliminates the risk.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A childcare center with 10 substitutes paid as 1099 contractors for three years carries significant reclassification exposure if the IRS or state audits the arrangement. Fully managed payroll at $25-$45 PEPM on a 20-person center costs under $11,000 per year -- including proper classification review that eliminates the risk.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix payroll is before your next state subsidy renewal.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If your state subsidy renewal is coming up, or if turnover is high enough that payroll is consuming director time every cycle, the scope review costs you nothing and the fixed monthly price gives you certainty going forward.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. If your state subsidy renewal is coming up, or if turnover is high enough that payroll is consuming director time every cycle, the scope review costs you nothing and the fixed monthly price gives you certainty going forward.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -224,7 +224,7 @@ export default function PayrollChildcarePage() {
           <div className="faq reveal">
             <div className="faq-item">
               <h3>Can you handle high-volume new hire and termination processing?</h3>
-              <p>Yes. New hire paperwork, I-9 verification, state new hire reporting, direct deposit setup, and termination processing are all included in the flat monthly rate. There are no per-hire or per-termination fees. High-turnover centers are exactly what this model is designed for.</p>
+              <p>Yes. New hire paperwork, I-9 verification, state new hire reporting, direct deposit setup, and termination processing are all included in the flat monthly rate. High-turnover centers are exactly what this model is designed for.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle substitute and on-call teacher payroll?</h3>
@@ -239,8 +239,8 @@ export default function PayrollChildcarePage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option if you want to upgrade, never a requirement to get started.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: payroll processing, new hire and termination processing, state tax filings, year-end W-2s, compliance updates, and BEG support. No per-hire fees, no per-run charges, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: payroll processing, new hire and termination processing, state tax filings, year-end W-2s, compliance updates, and BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Are childcare workers entitled to overtime pay?</h3>
@@ -252,7 +252,7 @@ export default function PayrollChildcarePage() {
             </div>
             <div className="faq-item">
               <h3>How long does it take to set up managed payroll for a childcare center?</h3>
-              <p>From signed agreement to live payroll: 3–5 business days. We review your substitute classifications, configure FLSA exemption documentation, and set up your payroll in your existing system. High-turnover centers often see the most immediate relief -- new hire processing and termination handling that used to consume hours each week hands off to BEG on day one.</p>
+              <p>From signed agreement to live payroll: 3-5 business days. We review your substitute classifications, configure FLSA exemption documentation, and set up your payroll in your existing system. High-turnover centers often see the most immediate relief -- new hire processing and termination handling that used to consume hours each week hands off to BEG on day one.</p>
             </div>
           </div>
         </div>
@@ -284,11 +284,11 @@ export default function PayrollChildcarePage() {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'Can you handle high-volume new hire and termination processing?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. New hire setup, termination processing, and all associated filings are included in the flat monthly rate. No per-hire or per-termination fees.' } },
+              { '@type': 'Question', name: 'Can you handle high-volume new hire and termination processing?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. New hire setup, termination processing, and all associated filings are included in the flat monthly rate.' } },
               { '@type': 'Question', name: 'How do you handle substitute and on-call teacher payroll?', acceptedAnswer: { '@type': 'Answer', text: 'We review substitute arrangements, classify them correctly as W-2 or 1099, and flag classification risk before it becomes an audit problem.' } },
               { '@type': 'Question', name: 'What state childcare subsidy compliance support is included?', acceptedAnswer: { '@type': 'Answer', text: 'We maintain payroll records in the format state subsidy programs require, and prepare documentation for compliance reviews and renewals.' } },
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25–$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, new hire and termination handling, state filings, year-end W-2s, and BEG support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, new hire and termination handling, state filings, year-end W-2s, and BEG support.' } },
             ],
           }),
         }}

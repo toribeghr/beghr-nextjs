@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a 35-advisor RIA?',
-    answer: 'At 35 employees, BEG managed payroll runs approximately $875–$1,575 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing, commission integration, multi-state filings, year-end W-2 preparation, and HR support. A loaded in-house HR Manager for a financial services firm runs $95,000–$130,000 annually. Most 35-person RIAs save $83,000–$115,000 per year by outsourcing to BEG.',
+    answer: 'At 35 employees, BEG managed payroll runs approximately $875–$1,575 per month ($25-$45 PEPM), all-inclusive. That covers payroll processing, commission integration, multi-state filings, year-end W-2 preparation, and HR support. A loaded in-house HR Manager for a financial services firm runs $95,000–$130,000 annually. Most 35-person RIAs save $83,000–$115,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -120,7 +120,7 @@ export default function WealthFirmsPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for Financial Services Firms</h2>
 
-        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. For financial services firms, that covers commission integration, multi-state advisor payroll, year-end W-2 and 1099 preparation, audit-trail recordkeeping, and HR support -- with no add-on fees for complexity.</p>
+        <p>BEG managed payroll is priced at $25-$45 per employee per month (PEPM), all-inclusive. For financial services firms, that covers commission integration, multi-state advisor payroll, year-end W-2 and 1099 preparation, audit-trail recordkeeping, and HR support.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -212,7 +212,7 @@ export default function WealthFirmsPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll Built for Financial Services</h3>
-          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles commission payroll processing, multi-state advisor withholding, year-end W-2s, and HR compliance for RIAs, broker-dealers, and wealth management firms nationally. All-inclusive at $25–$45 PEPM. Schedule a 15-minute discovery call to get an exact quote for your firm size.</p>
+          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles commission payroll processing, multi-state advisor withholding, year-end W-2s, and HR compliance for RIAs, broker-dealers, and wealth management firms nationally. All-inclusive at $25-$45 PEPM. Schedule a 15-minute discovery call to get an exact quote for your firm size.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -238,7 +238,7 @@ export default function WealthFirmsPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving wealth management firms, RIAs, and financial services companies at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving wealth management firms, RIAs, and financial services companies at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 

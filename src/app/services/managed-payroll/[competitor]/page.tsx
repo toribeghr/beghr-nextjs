@@ -267,8 +267,7 @@ export default function PayrollCompetitorPage({
                 Every month you stay on {c.name} is a month you overpay.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                BEG managed payroll is $25-$45 per employee per month, all-inclusive. No per-run fees.
-                No filing surcharges. No add-on modules. One flat rate that covers every cycle, every
+                BEG managed payroll is $25-$45 per employee per month, all-inclusive. One flat rate that covers every cycle, every
                 filing, every year-end form.
               </p>
             </div>

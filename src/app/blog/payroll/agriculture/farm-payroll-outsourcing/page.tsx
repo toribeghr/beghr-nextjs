@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: 'How much does managed payroll cost for a farm?',
-    answer: 'BEG managed payroll for agricultural operations runs at $25-$45 per employee per month, all-inclusive. For a farm averaging 50 workers during peak season, that is $1,250 to $2,250 per month during active months. In the offseason with 5 permanent employees, the cost drops accordingly. There are no per-run fees, no year-end W-2 surcharges, no add-ons for H-2A compliance or multi-state filings. Compare this to the cost of an in-house payroll specialist at $55,000 to $75,000 per year plus software, who is fully employed year-round regardless of whether it is harvest season.',
+    answer: 'BEG managed payroll for agricultural operations runs at $25-$45 per employee per month, all-inclusive. For a farm averaging 50 workers during peak season, that is $1,250 to $2,250 per month during active months. In the offseason with 5 permanent employees, the cost drops accordingly. Compare this to the cost of an in-house payroll specialist at $55,000 to $75,000 per year plus software, who is fully employed year-round regardless of whether it is harvest season.',
   },
   {
     question: 'Can a managed payroll provider handle both H-2A and domestic workers?',
@@ -134,7 +134,7 @@ export default function FarmPayrollOutsourcingPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>How BEG Manages Agricultural Payroll</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
-          <Link href="/services/managed-payroll/agriculture" style={{ color: '#ECAC60' }}>BEG Managed Payroll</Link> handles the full agricultural payroll function at $25-$45 per employee per month. The pricing scales with your active worker count. During the offseason with 5 permanent employees, you pay for 5. At peak season with 150 workers, you pay for 150. There are no renegotiation requirements, no per-run fees, and no year-end W-2 surcharges.
+          <Link href="/services/managed-payroll/agriculture" style={{ color: '#ECAC60' }}>BEG Managed Payroll</Link> handles the full agricultural payroll function at $25-$45 per employee per month. The pricing scales with your active worker count. During the offseason with 5 permanent employees, you pay for 5. At peak season with 150 workers, you pay for 150. There are no renegotiation requirements.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
           Onboarding takes 3-5 business days from contract signing to live payroll. For farms switching mid-season, year-to-date payroll history is migrated to ensure accurate year-end W-2s. H-2A and domestic workers are configured separately with the correct tax treatment and wage floor for each category.

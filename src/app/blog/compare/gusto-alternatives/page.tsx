@@ -126,7 +126,7 @@ export default function GustoAlternativesPage() {
           <strong>Model:</strong> Fully managed service -- BEG handles every payroll cycle, every filing, and every employee question. Your team approves; BEG does the work.
         </p>
         <p>
-          <strong>Pricing:</strong> $25 PEPM if BEG manages your existing payroll system. $45 PEPM on the iSolved platform. All-inclusive -- no per-run fees, no year-end charges, no hidden costs.
+          <strong>Pricing:</strong> $25 PEPM if BEG manages your existing payroll system. $45 PEPM on the iSolved platform. All-inclusive.
         </p>
         <p>
           <strong>What makes it different:</strong> BEG is a managed service, not software. You do not need to log in and process payroll -- your team sends hours or updates, and BEG runs the cycle. Errors are BEG's responsibility to fix. BEG can also work inside your existing payroll platform without migration -- if you are already on Gusto, we can manage payroll within your Gusto account at the lower rate.

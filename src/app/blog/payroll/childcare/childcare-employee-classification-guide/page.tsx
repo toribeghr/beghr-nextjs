@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for childcare center payroll?',
-    answer: 'Childcare payroll runs at $25–$45 per employee per month. For a center with 25 employees, that is $625–$1,125 per month with no per-run fees and licensing-ready recordkeeping included.',
+    answer: 'Childcare payroll runs at $25-$45 per employee per month. For a center with 25 employees, that is $625-$1,125 per month with licensing-ready recordkeeping included.',
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Key Payroll Compliance Requirements for Childcare Centers</h2>
 
-        <p><strong>Federal requirements.</strong> All childcare centers must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2–15% of the unpaid amount depending on how many days late.</p>
+        <p><strong>Federal requirements.</strong> All childcare centers must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2-15% of the unpaid amount depending on how many days late.</p>
 
         <p><strong>State requirements.</strong> State childcare licensing payroll records, CCAP subsidy reporting, ACA for centers with 50+ FTEs, I-9 verification requirements. State requirements vary and change frequently. Multi-location childcare centers face multiple sets of state rules simultaneously.</p>
 
@@ -81,7 +81,7 @@ export default function Page() {
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}><strong>Misclassifying employees</strong> -- especially relevant for childcare centers where lead teachers and assistant teachers may be paid differently depending on role structure</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2–15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2-15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect state filings</strong> -- childcare centers with employees in multiple states must file in each state and maintain separate records</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Failing to update payroll for rate changes</strong> -- minimum wage, SUTA rates, and state withholding tables change annually in most states</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Year-end W-2 errors</strong> -- incorrect box entries on W-2s require corrected W-2Cs filed with both the employee and the IRS</li>
@@ -134,7 +134,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do your payroll records meet state childcare licensing requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Records include employee name, position, hours worked, wages paid, and tax withholding, formatted for state childcare licensing agencies upon request."}},{"@type":"Question","name":"How do you handle part-time and variable-hour teachers?","acceptedAnswer":{"@type":"Answer","text":"Part-time and variable-hour employees are processed based on actual hours worked each period. ACA full-time equivalent tracking is done for centers with 50+ combined FTEs."}},{"@type":"Question","name":"How do you handle certification pay differentials?","acceptedAnswer":{"@type":"Answer","text":"Teachers with CDA, associate, or bachelor&apos;s degree credentials are set up with corresponding pay grades. Pay changes when credentials are earned effective on the date you specify."}},{"@type":"Question","name":"What does BEG charge for childcare center payroll?","acceptedAnswer":{"@type":"Answer","text":"Childcare payroll runs at $25–$45 per employee per month. For a center with 25 employees, that is $625–$1,125 per month with no per-run fees and licensing-ready recordkeeping included."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do your payroll records meet state childcare licensing requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Records include employee name, position, hours worked, wages paid, and tax withholding, formatted for state childcare licensing agencies upon request."}},{"@type":"Question","name":"How do you handle part-time and variable-hour teachers?","acceptedAnswer":{"@type":"Answer","text":"Part-time and variable-hour employees are processed based on actual hours worked each period. ACA full-time equivalent tracking is done for centers with 50+ combined FTEs."}},{"@type":"Question","name":"How do you handle certification pay differentials?","acceptedAnswer":{"@type":"Answer","text":"Teachers with CDA, associate, or bachelor&apos;s degree credentials are set up with corresponding pay grades. Pay changes when credentials are earned effective on the date you specify."}},{"@type":"Question","name":"What does BEG charge for childcare center payroll?","acceptedAnswer":{"@type":"Answer","text":"Childcare payroll runs at $25-$45 per employee per month. For a center with 25 employees, that is $625-$1,125 per month with licensing-ready recordkeeping included."}}]}`,
         }}
       />
 

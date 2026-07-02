@@ -212,7 +212,7 @@ export default function HiddenFeeAuditor() {
                   Get an exact flat all-in quote -- Book a Discovery Call
                 </Link>
                 <p style={{ color: '#555', fontSize: '0.75rem', marginTop: '0.8rem', marginBottom: 0, lineHeight: '1.5' }}>
-                  BEG Managed Payroll is flat $25 to $45 PEPM, all-inclusive. No per-run fees, no year-end surcharge, no add-on menu.
+                  BEG Managed Payroll is flat $25 to $45 PEPM, all-inclusive.
                 </p>
               </div>
             </div>

@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for consulting firm payroll?",
-    answer: "BEG manages consulting firm payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For a 30-person consulting firm, that is $750 to $1,350 per month, all-inclusive: multi-state withholding, bonus regular rate blending, exempt vs. non-exempt configuration, and W-2 and 1099 production. No per-run fees. Live in 3 to 5 business days from contract signing.",
+    answer: "BEG manages consulting firm payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For a 30-person consulting firm, that is $750 to $1,350 per month, all-inclusive: multi-state withholding, bonus regular rate blending, exempt vs. non-exempt configuration, and W-2 and 1099 production. Live in 3 to 5 business days from contract signing.",
   },
 ];
 

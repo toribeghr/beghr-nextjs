@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Architecture Firm Payroll | Instant Quote | BEG',
-  description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
+  description: 'Architecture firm payroll fully managed at $25-$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/architecture' },
   openGraph: {
     title: 'Architecture Firm Payroll | Instant Quote | BEG',
-    description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
+    description: 'Architecture firm payroll fully managed at $25-$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
     url: 'https://www.beghr.com/services/managed-payroll/architecture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Architecture Firm Payroll | Instant Quote | BEG',
-    description: 'Architecture firm payroll fully managed at $25–$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
+    description: 'Architecture firm payroll fully managed at $25-$45 PEPM. Project-coded hours, PE staff compliance, partner draws, and multi-state licensing handled.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -33,7 +33,7 @@ export default function PayrollArchitecturePage() {
       imageAlt="Architecture and design firm with fully managed payroll"
       eyebrow="Managed Payroll · Architecture & Design"
       title="Architecture firm payroll tracks project hours, licensed staff, and partner draws. We handle it all."
-      description="Project-coded payroll for AIA billing, licensed PE and architect tracking, partner draw structures, and multi-state licensure compliance. BEG manages all of it at $25–$45 per employee per month. Fully managed, no migration required."
+      description="Project-coded payroll for AIA billing, licensed PE and architect tracking, partner draw structures, and multi-state licensure compliance. BEG manages all of it at $25-$45 per employee per month. Fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -73,9 +73,9 @@ export default function PayrollArchitecturePage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$65K–$95K</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$65K-$95K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of one in-house administrator who understands project-based payroll for design firms</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25–$45 PEPM on a 15-person firm costs $4,500–$8,100 per year. One payroll specialist costs ten to twenty times more and still needs project accounting expertise they may not have.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25-$45 PEPM on a 15-person firm costs $4,500-$8,100 per year. One payroll specialist costs ten to twenty times more and still needs project accounting expertise they may not have.</div>
                 </div>
               ))()
             }
@@ -191,7 +191,7 @@ export default function PayrollArchitecturePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix your payroll structure is at the start of a new project year.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions with BEG take 30–60 days. Starting at the beginning of a fiscal year or new billing cycle makes the cutover clean and keeps your project accounting aligned from day one of the new period. We scope your setup, configure project coding, and manage transition so your principals spend zero time on it.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions with BEG take 30-60 days. Starting at the beginning of a fiscal year or new billing cycle makes the cutover clean and keeps your project accounting aligned from day one of the new period. We scope your setup, configure project coding, and manage transition so your principals spend zero time on it.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -222,8 +222,8 @@ export default function PayrollArchitecturePage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for architecture and design firms?</h3>
-              <p>Everything: payroll processing, project-coded allocation, PE credential tracking, federal and state tax filing, year-end W-2 production, and dedicated BEG support. No per-run fees, no year-end surcharges, no module upsells.</p>
+              <h3>What does $25-$45 PEPM include for architecture and design firms?</h3>
+              <p>Everything: payroll processing, project-coded allocation, PE credential tracking, federal and state tax filing, year-end W-2 production, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Can BEG handle payroll for architects and designers working on projects in multiple states?</h3>
@@ -243,7 +243,7 @@ export default function PayrollArchitecturePage() {
               { '@type': 'Question', name: 'How does BEG configure project-coded payroll for architecture firms?', acceptedAnswer: { '@type': 'Answer', text: 'BEG maps your project numbering system and allocates each employee time to project codes per pay period, so labor cost reports reconcile to AIA billing without manual adjustment.' } },
               { '@type': 'Question', name: 'How does BEG handle partner draws alongside W-2 salary?', acceptedAnswer: { '@type': 'Answer', text: 'BEG manages the W-2 payroll for principals and coordinates with your CPA on owner draws, ensuring W-2 salary meets IRS reasonable compensation requirements for S-corp shareholders.' } },
               { '@type': 'Question', name: 'Do we have to change our payroll system to work with BEG?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, project-coded allocation, PE credential tracking, tax filing, year-end W-2 production, and dedicated support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, project-coded allocation, PE credential tracking, tax filing, year-end W-2 production, and dedicated support.' } },
               { '@type': 'Question', name: 'Can BEG handle payroll for staff working on projects in multiple states?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG monitors time worked per state, determines when registration and withholding obligations arise, and handles all multi-state payroll tax compliance.' } },
             ],
           }),

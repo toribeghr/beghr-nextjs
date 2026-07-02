@@ -138,7 +138,7 @@ export default function PayrollManagerVsOutsourcingPage() {
           What Managed Payroll Actually Costs
         </h2>
         <p>
-          BEG's managed payroll service is priced at a flat per-employee-per-month (PEPM) rate with no hidden fees:
+          BEG's managed payroll service is priced at a flat per-employee-per-month (PEPM) rate:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>$25/PEPM</strong> -- if you stay on your existing payroll system (we run it for you)</li>

@@ -38,10 +38,10 @@ export default function PepmPage() {
         <p>Per employee per month pricing has become the standard for managed payroll, HR software, and benefits administration services. PEPM rates make costs predictable, easy to budget, and directly tied to headcount - as the company grows, costs scale proportionally rather than jumping with activity.</p>
         <p>Contrast PEPM with per-payroll-run pricing, where each payroll run costs a fixed fee plus a per-check charge. For employers who run bi-weekly payroll (26 runs/year), per-run pricing often totals more than equivalent PEPM pricing, especially when add-ons for direct deposit, tax filings, and W-2s are included.</p>
         <p>When evaluating PEPM quotes, the key question is what is included. Some providers quote a low PEPM for basic processing but charge additional fees for: quarterly tax filings, W-2 production, off-cycle payrolls, direct deposit, new employee setup, year-end services, and state tax registration. Always request an all-in PEPM that covers all standard services.</p>
-        <p>BEG Managed Payroll charges $25 PEPM when working in the client's existing payroll system or $45 PEPM when using BEG's iSolved account with full HCM capabilities. Both rates are all-inclusive with no add-on fees for standard services.</p>
+        <p>BEG Managed Payroll charges $25 PEPM when working in the client's existing payroll system or $45 PEPM when using BEG's iSolved account with full HCM capabilities. Both rates are all-inclusive for standard services.</p>
         <p>PEPM rates typically decrease with scale. An employer with 10 employees pays a higher PEPM than one with 200 employees. When requesting quotes, provide accurate headcount and ask about the pricing tier structure so you understand how costs will change as you grow.</p>
         <h2>BEG Managed Payroll PEPM pricing</h2>
-        <p>BEG Managed Payroll charges $25 PEPM using the client's existing system or $45 PEPM on BEG's iSolved platform - both fully managed, all-inclusive, with no hidden add-ons. <Link href="/services/managed-payroll" style={{ color: '#ECAC60' }}>See what is included</Link>.</p>
+        <p>BEG Managed Payroll charges $25 PEPM using the client's existing system or $45 PEPM on BEG's iSolved platform - both fully managed, all-inclusive. <Link href="/services/managed-payroll" style={{ color: '#ECAC60' }}>See what is included</Link>.</p>
         <h2 style={{ marginTop: '3rem' }}>Frequently asked questions</h2>
         {faqs.map((faq, i) => (
           <div key={i} style={{ marginBottom: '1.5rem' }}>

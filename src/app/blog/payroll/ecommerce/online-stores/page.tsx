@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'E-Commerce Payroll Outsourcing: $25 PEPM vs $60K Hire | BEG',
-  description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',
+  description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K-$90K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/ecommerce/online-stores' },
   openGraph: {
     title: 'E-Commerce Payroll Outsourcing: $25 PEPM vs $60K Hire | BEG',
-    description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',
+    description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K-$90K annually.',
     url: 'https://www.beghr.com/blog/payroll/ecommerce/online-stores',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'E-Commerce Payroll Outsourcing: $25 PEPM vs $60K Hire | BEG', description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'E-Commerce Payroll Outsourcing: $25 PEPM vs $60K Hire | BEG', description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K-$90K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for an e-commerce business with 45 employees?',
-    answer: 'At 45 employees, BEG managed payroll runs approximately $1,125–$2,025 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing, tax filings, direct deposit, year-end W-2s, multi-state compliance, and HR support. Compare that to a loaded HR coordinator cost of $75,000–$100,000 annually. Most e-commerce brands at 45 employees save $60,000–$80,000 per year.',
+    answer: 'At 45 employees, BEG managed payroll runs approximately $1,125-$2,025 per month ($25-$45 PEPM), all-inclusive. That covers payroll processing, tax filings, direct deposit, year-end W-2s, multi-state compliance, and HR support. Compare that to a loaded HR coordinator cost of $75,000-$100,000 annually. Most e-commerce brands at 45 employees save $60,000-$80,000 per year.',
   },
   {
     question: 'Does BEG work with e-commerce businesses that have both W-2 employees and independent contractors?',
@@ -95,13 +95,13 @@ export default function EcommerceOnlineStoresPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (HR Coordinator)', '$48,000 – $68,000'],
-                ['Benefits (health, dental, vision) -- 30% of salary', '$14,400 – $20,400'],
-                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$4,800 – $6,800'],
-                ['Payroll software (multi-state capable)', '$2,400 – $4,800'],
-                ['Training and compliance updates', '$1,500 – $2,500'],
-                ['Hiring cost amortized (recruiting, onboarding)', '$3,000 – $5,000'],
-                ['TOTAL loaded annual cost', '$74,100 – $107,500'],
+                ['Base salary (HR Coordinator)', '$48,000 - $68,000'],
+                ['Benefits (health, dental, vision) -- 30% of salary', '$14,400 - $20,400'],
+                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$4,800 - $6,800'],
+                ['Payroll software (multi-state capable)', '$2,400 - $4,800'],
+                ['Training and compliance updates', '$1,500 - $2,500'],
+                ['Hiring cost amortized (recruiting, onboarding)', '$3,000 - $5,000'],
+                ['TOTAL loaded annual cost', '$74,100 - $107,500'],
               ].map(([a, b], i) => (
                 <tr key={i} style={{
                   background: i % 2 === 0 ? '#f9f9f9' : '#fff',
@@ -116,11 +116,11 @@ export default function EcommerceOnlineStoresPage() {
           </table>
         </div>
 
-        <p>That is a meaningful capital commitment for a role that does not generate revenue. And if your HR coordinator leaves -- which is not uncommon in e-commerce where staff turnover is high -- you absorb another $3,000–$5,000 in recruiting costs and a 60–90 day gap in payroll continuity.</p>
+        <p>That is a meaningful capital commitment for a role that does not generate revenue. And if your HR coordinator leaves -- which is not uncommon in e-commerce where staff turnover is high -- you absorb another $3,000-$5,000 in recruiting costs and a 60-90 day gap in payroll continuity.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for E-Commerce</h2>
 
-        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. That means payroll processing, tax filings in every state where you have employees, direct deposit, year-end W-2 and 1099-NEC preparation, multi-state compliance monitoring, and access to HR support. No add-on fees for year-end filings. No extra charge for multi-state.</p>
+        <p>BEG managed payroll is priced at $25-$45 per employee per month (PEPM), all-inclusive. That means payroll processing, tax filings in every state where you have employees, direct deposit, year-end W-2 and 1099-NEC preparation, multi-state compliance monitoring, and access to HR support. No extra charge for multi-state.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -134,10 +134,10 @@ export default function EcommerceOnlineStoresPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees', '$625 – $1,125', '$7,500 – $13,500', '$60,600 – $97,000'],
-                ['50 employees', '$1,250 – $2,250', '$15,000 – $27,000', '$47,100 – $86,500'],
-                ['80 employees', '$2,000 – $3,600', '$24,000 – $43,200', '$30,900 – $73,900'],
-                ['150 employees', '$3,750 – $6,750', '$45,000 – $81,000', 'Assess at scale'],
+                ['25 employees', '$625 - $1,125', '$7,500 - $13,500', '$60,600 - $97,000'],
+                ['50 employees', '$1,250 - $2,250', '$15,000 - $27,000', '$47,100 - $86,500'],
+                ['80 employees', '$2,000 - $3,600', '$24,000 - $43,200', '$30,900 - $73,900'],
+                ['150 employees', '$3,750 - $6,750', '$45,000 - $81,000', 'Assess at scale'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>
@@ -158,12 +158,12 @@ export default function EcommerceOnlineStoresPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Multi-State Nexus From Remote Employees</p>
-          <p style={{ margin: 0 }}>Selling in all 50 states does not create payroll nexus. Employing a worker in a state does. Many e-commerce operators hire remote customer support, warehouse coordinators, and content creators across the country without realizing each state requires separate withholding registration, unemployment insurance, and in some cases local tax filings. Discovering this via a state notice typically means 2–3 years of back filings, penalties, and interest. A managed payroll provider tracks this automatically.</p>
+          <p style={{ margin: 0 }}>Selling in all 50 states does not create payroll nexus. Employing a worker in a state does. Many e-commerce operators hire remote customer support, warehouse coordinators, and content creators across the country without realizing each state requires separate withholding registration, unemployment insurance, and in some cases local tax filings. Discovering this via a state notice typically means 2-3 years of back filings, penalties, and interest. A managed payroll provider tracks this automatically.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Q4 Seasonal Surge: W-2 vs. 1099 Exposure</p>
-          <p style={{ margin: 0 }}>Bringing on 20–50 seasonal workers for Black Friday through January returns is operationally necessary. Getting payroll configured wrong for those workers -- especially misclassifying them as 1099 contractors when they work set hours under your direction -- creates exposure under both federal and state wage and hour laws. The IRS has specifically flagged e-commerce seasonal workforce classification as an audit area. A managed payroll provider handles onboarding, withholding, and worker classification during your highest-volume period without adding internal headcount.</p>
+          <p style={{ margin: 0 }}>Bringing on 20-50 seasonal workers for Black Friday through January returns is operationally necessary. Getting payroll configured wrong for those workers -- especially misclassifying them as 1099 contractors when they work set hours under your direction -- creates exposure under both federal and state wage and hour laws. The IRS has specifically flagged e-commerce seasonal workforce classification as an audit area. A managed payroll provider handles onboarding, withholding, and worker classification during your highest-volume period without adding internal headcount.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
@@ -200,8 +200,8 @@ export default function EcommerceOnlineStoresPage() {
             <tbody>
               {[
                 ['Under 20 employees', 'Outsource', 'No financial justification for a dedicated in-house role at this headcount. Managed payroll costs under $700/month.'],
-                ['20 – 80 employees', 'Outsource', 'Best ROI range. Savings vs. in-house are $50K–$90K annually. Multi-state complexity is high; specialist expertise matters most here.'],
-                ['80 – 200 employees', 'Outsource or hybrid', 'Still cost-effective. Consider adding an HR generalist focused on culture and recruiting while payroll stays outsourced.'],
+                ['20 - 80 employees', 'Outsource', 'Best ROI range. Savings vs. in-house are $50K-$90K annually. Multi-state complexity is high; specialist expertise matters most here.'],
+                ['80 - 200 employees', 'Outsource or hybrid', 'Still cost-effective. Consider adding an HR generalist focused on culture and recruiting while payroll stays outsourced.'],
                 ['200+ employees', 'Assess by complexity', 'Multi-state remote workforce and seasonal surge still argue for outsourcing. Evaluate based on actual payroll complexity, not headcount alone.'],
               ].map(([a, b, c], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -216,7 +216,7 @@ export default function EcommerceOnlineStoresPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Ready to Remove Payroll from Your Plate?</h3>
-          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles payroll processing, multi-state tax filings, year-end W-2s and 1099-NECs, and HR compliance for e-commerce brands nationally. All-inclusive at $25–$45 PEPM. No surprise fees at year-end. Schedule a 15-minute discovery call and we will tell you exactly what it costs for your headcount.</p>
+          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles payroll processing, multi-state tax filings, year-end W-2s and 1099-NECs, and HR compliance for e-commerce brands nationally. All-inclusive at $25-$45 PEPM. No surprise fees at year-end. Schedule a 15-minute discovery call and we will tell you exactly what it costs for your headcount.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -242,7 +242,7 @@ export default function EcommerceOnlineStoresPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving e-commerce brands, professional services firms, and multi-state businesses at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving e-commerce brands, professional services firms, and multi-state businesses at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 
@@ -275,7 +275,7 @@ export default function EcommerceOnlineStoresPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'E-Commerce Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
-        description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K–$90K annually.',
+        description: 'E-commerce payroll outsourcing vs. hiring in-house. Multi-state nexus, seasonal workforce, contractor classification. Save $60K-$90K annually.',
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: {

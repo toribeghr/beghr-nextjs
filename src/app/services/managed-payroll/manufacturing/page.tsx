@@ -189,7 +189,7 @@ export default function PayrollManufacturingPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. Overtime and multi-state included.',
                 objection: 'Common objection: "Payroll services charge extra for every state and every off-cycle run."',
-                body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, blended-rate overtime, shift differentials, multi-state tax filing, union fund remittances, compliance updates, year-end W-2s, and support. There are no per-run fees, no per-state surcharges, and no year-end add-ons. One number, everything included.',
+                body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, blended-rate overtime, shift differentials, multi-state tax filing, union fund remittances, compliance updates, year-end W-2s, and support. One number, everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -253,7 +253,7 @@ export default function PayrollManufacturingPage() {
             </div>
             <div className="faq-item">
               <h3>What does $25-$45 PEPM include?</h3>
-              <p>Everything: payroll processing, blended-rate overtime, shift differentials, federal and multi-state tax filing, union fund remittances, compliance updates, year-end W-2s, and dedicated BEG support. No add-on fees, no per-run charges, no per-state surcharges.</p>
+              <p>Everything: payroll processing, blended-rate overtime, shift differentials, federal and multi-state tax filing, union fund remittances, compliance updates, year-end W-2s, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle overtime when we pay shift differentials?</h3>
@@ -291,7 +291,7 @@ export default function PayrollManufacturingPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, blended-rate overtime, shift differentials, multi-state tax filing, union fund remittances, compliance updates, W-2s, and support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, blended-rate overtime, shift differentials, multi-state tax filing, union fund remittances, compliance updates, W-2s, and support.' } },
               { '@type': 'Question', name: 'How do you handle overtime when we pay shift differentials?', acceptedAnswer: { '@type': 'Answer', text: 'Shift differentials are part of the FLSA regular rate, so overtime is paid on the blended rate, not the base wage. BEG folds every differential into the regular rate and calculates overtime correctly each pay period.' } },
               { '@type': 'Question', name: 'Can you handle piece-rate pay and overtime on piece work?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. For piece-rate workers the regular rate is total piece earnings divided by hours worked, with overtime paid at one half that rate for hours over forty on top of piece earnings. BEG calculates it weekly and documents the method.' } },
               { '@type': 'Question', name: 'How do you handle plants in multiple states?', acceptedAnswer: { '@type': 'Answer', text: 'BEG withholds income tax by work state, remits state unemployment in each state, keeps the company registered with each state agency, and applies any daily or state-specific manufacturing overtime rule that applies.' } },

@@ -3,19 +3,19 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Law Firm Payroll Outsourcing vs. Hiring HR [2026 Data] | BEG',
-  description: 'Compare law firm payroll outsourcing vs. hiring in-house. Partner draws, IOLTA separation, billing integration, associate salary tiers. Save $55K–$90K.',
+  description: 'Compare law firm payroll outsourcing vs. hiring in-house. Partner draws, IOLTA separation, billing integration, associate salary tiers. Save $55K-$90K.',
   keywords: 'law firm payroll outsourcing, payroll outsourcing cost, hire payroll manager, law firm HR, professional services payroll',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing' },
   openGraph: {
     title: 'Law Firm Payroll Outsourcing vs. Hiring HR [2026 Data] | BEG',
-    description: 'Partner draws, IOLTA separation, billing integration, associate salary tiers -- handled at $25–$45 PEPM, all-inclusive.',
+    description: 'Partner draws, IOLTA separation, billing integration, associate salary tiers -- handled at $25-$45 PEPM, all-inclusive.',
     type: 'article',
     url: 'https://www.beghr.com/blog/payroll/professional-services/law-firm-payroll-outsourcing',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Law Firm Payroll Outsourcing vs. Hiring HR [2026 Data] | BEG',
-    description: 'Compare law firm payroll outsourcing vs. hiring in-house. Save $55K–$90K annually.',
+    description: 'Compare law firm payroll outsourcing vs. hiring in-house. Save $55K-$90K annually.',
   },
 };
 
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for law firm payroll?',
-    answer: 'BEG manages law firm payroll at $25–$45 per employee per month, all-inclusive. For a 25-person firm, that is $625–$1,125 per month. Included: associate W-2 processing, partner draw coordination, multi-state withholding, bar dues and CLE reimbursement processing, billing system integration where applicable, tax filing, and W-2 production. No setup fees, no per-run charges.',
+    answer: 'BEG manages law firm payroll at $25-$45 per employee per month, all-inclusive. For a 25-person firm, that is $625-$1,125 per month. Included: associate W-2 processing, partner draw coordination, multi-state withholding, bar dues and CLE reimbursement processing, billing system integration where applicable, tax filing, and W-2 production.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function LawFirmPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Running a law firm means staying focused on billable hours, client relationships, and case outcomes. But somewhere in the firm, someone is spending 10–15 hours a week on payroll processing, tax filings, partner draw coordination, and compliance headaches that have nothing to do with practicing law.</p>
+        <p>Running a law firm means staying focused on billable hours, client relationships, and case outcomes. But somewhere in the firm, someone is spending 10-15 hours a week on payroll processing, tax filings, partner draw coordination, and compliance headaches that have nothing to do with practicing law.</p>
 
         <p>Law firm payroll is not straightforward. You have W-2 associates on salary tiers, non-equity partners on guaranteed payments, equity partners on capital account distributions, staff on hourly schedules, and potentially attorneys licensed in multiple states working remotely -- all running through the same payroll cycle, with different tax treatment applying to each population.</p>
 
@@ -84,7 +84,7 @@ export default function LawFirmPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of In-House Law Firm Payroll</h2>
 
-        <p>A payroll specialist or HR coordinator in the professional services industry earns $48,000–$72,000 in base salary. Here is what that role actually costs the firm annually:</p>
+        <p>A payroll specialist or HR coordinator in the professional services industry earns $48,000-$72,000 in base salary. Here is what that role actually costs the firm annually:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -96,13 +96,13 @@ export default function LawFirmPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (payroll specialist / HR coordinator)', '$48,000–$72,000'],
-                ['Benefits (health, dental, 401K, PTO) ~30%', '$14,400–$21,600'],
-                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,800–$7,200'],
-                ['Payroll software license (ADP, Gusto, or similar)', '$600–$2,500'],
-                ['Training & compliance updates (FLSA, state law changes)', '$1,500–$3,500'],
-                ['Recruiting & onboarding (amortized over 2.5 years)', '$1,800–$4,200'],
-                ['Total loaded cost', '$71,100–$111,000'],
+                ['Base salary (payroll specialist / HR coordinator)', '$48,000-$72,000'],
+                ['Benefits (health, dental, 401K, PTO) ~30%', '$14,400-$21,600'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,800-$7,200'],
+                ['Payroll software license (ADP, Gusto, or similar)', '$600-$2,500'],
+                ['Training & compliance updates (FLSA, state law changes)', '$1,500-$3,500'],
+                ['Recruiting & onboarding (amortized over 2.5 years)', '$1,800-$4,200'],
+                ['Total loaded cost', '$71,100-$111,000'],
               ].map(([label, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 6 ? '700' : '400' }}>{label}</td>
@@ -115,7 +115,7 @@ export default function LawFirmPayrollPage() {
 
         <p>That is the cost when everything goes right. When that person makes a multi-state withholding error, misses a partner draw coordination deadline, or leaves the firm mid-quarter, the disruption and correction costs are substantially higher.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25-$45 PEPM</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -129,10 +129,10 @@ export default function LawFirmPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['10 employees (5 attorneys + 5 staff)', '$250–$450', '$3,000–$5,400', 'Save $66K–$107K/yr'],
-                ['25 employees', '$625–$1,125', '$7,500–$13,500', 'Save $58K–$101K/yr'],
-                ['50 employees', '$1,250–$2,250', '$15,000–$27,000', 'Save $44K–$90K/yr'],
-                ['100 employees', '$2,500–$4,500', '$30,000–$54,000', 'Save $17K–$69K/yr'],
+                ['10 employees (5 attorneys + 5 staff)', '$250-$450', '$3,000-$5,400', 'Save $66K-$107K/yr'],
+                ['25 employees', '$625-$1,125', '$7,500-$13,500', 'Save $58K-$101K/yr'],
+                ['50 employees', '$1,250-$2,250', '$15,000-$27,000', 'Save $44K-$90K/yr'],
+                ['100 employees', '$2,500-$4,500', '$30,000-$54,000', 'Save $17K-$69K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -145,7 +145,7 @@ export default function LawFirmPayrollPage() {
           </table>
         </div>
 
-        <p>All-inclusive: associate W-2 processing, partner draw coordination, multi-state withholding, bar dues and CLE reimbursement processing, billing system integration, tax filing in all applicable states, and W-2/1099 production. No setup fees, no per-run charges.</p>
+        <p>All-inclusive: associate W-2 processing, partner draw coordination, multi-state withholding, bar dues and CLE reimbursement processing, billing system integration, tax filing in all applicable states, and W-2/1099 production.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Law Firms Get Wrong in Payroll</h2>
 
@@ -203,8 +203,8 @@ export default function LawFirmPayrollPage() {
         </ul>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
-          <h3 style={{ color: '#000000', margin: 0 }}>Law Firm Payroll, Handled at $25–$45 PEPM.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Partner draws, associate salary tiers, multi-state withholding, billing system integration -- all-inclusive with no setup fees. Book a 15-minute call to get a cost comparison for your firm size and structure.</p>
+          <h3 style={{ color: '#000000', margin: 0 }}>Law Firm Payroll, Handled at $25-$45 PEPM.</h3>
+          <p style={{ marginBottom: '1.5rem' }}>Partner draws, associate salary tiers, multi-state withholding, billing system integration -- all-inclusive. Book a 15-minute call to get a cost comparison for your firm size and structure.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -236,7 +236,7 @@ export default function LawFirmPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving law firms, professional services practices, and healthcare organizations. BEG manages partner draw coordination, multi-state withholding, billing system integration, and all attorney-specific payroll complexity at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving law firms, professional services practices, and healthcare organizations. BEG manages partner draw coordination, multi-state withholding, billing system integration, and all attorney-specific payroll complexity at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 
@@ -277,7 +277,7 @@ export default function LawFirmPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Law Firm Payroll Outsourcing vs. Hiring HR [2026 Data] | BEG',
-            description: 'Partner draws, IOLTA separation, billing integration, multi-state withholding -- law firm payroll outsourcing at $25–$45 PEPM all-inclusive.',
+            description: 'Partner draws, IOLTA separation, billing integration, multi-state withholding -- law firm payroll outsourcing at $25-$45 PEPM all-inclusive.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

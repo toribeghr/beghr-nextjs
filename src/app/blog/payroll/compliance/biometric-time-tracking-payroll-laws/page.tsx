@@ -19,15 +19,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does managed payroll cost?',
-    answer: 'BEG managed payroll runs at $25–$45 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surcharges. For a 25-employee company, that is $625–$1,125 per month.',
+    answer: 'BEG managed payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-employee company, that is $625-$1,125 per month.',
   },
   {
     question: 'How quickly can you set up managed payroll?',
-    answer: 'Setup takes 3–5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup.',
+    answer: 'Setup takes 3-5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup.',
   },
   {
-    question: 'What is included at $25–$45 PEPM?',
-    answer: 'Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included, no add-ons.',
+    question: 'What is included at $25-$45 PEPM?',
+    answer: 'Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included.',
   },
   {
     question: 'Can you handle payroll in multiple states?',
@@ -69,7 +69,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Payroll compliance is not optional, and the penalties for getting it wrong are real. IRS failure-to-deposit penalties run 2–15% of the amount due depending on how many days late. State penalties stack on top. Back-pay liability for misclassified employees can run years deep.</p>
+        <p>Payroll compliance is not optional, and the penalties for getting it wrong are real. IRS failure-to-deposit penalties run 2-15% of the amount due depending on how many days late. State penalties stack on top. Back-pay liability for misclassified employees can run years deep.</p>
 
         <p>This guide covers the compliance topic addressed in Biometric Time Tracking Laws and Payroll Compliance and what employers need to know.</p>
 
@@ -91,7 +91,7 @@ export default function Page() {
 
         <p>The most cost-effective compliance path for businesses under 100 employees is managed payroll from a provider that monitors and applies compliance changes automatically. Tax table updates, minimum wage changes, state rule modifications, and new filing requirements are applied before they take effect -- without your management team needing to track them.</p>
 
-        <p>BEG managed payroll handles this continuously for clients at $25–$45 PEPM, all-inclusive.</p>
+        <p>BEG managed payroll handles this continuously for clients at $25-$45 PEPM, all-inclusive.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -134,7 +134,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does managed payroll cost?","acceptedAnswer":{"@type":"Answer","text":"BEG managed payroll runs at $25–$45 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surcharges. For a 25-employee company, that is $625–$1,125 per month."}},{"@type":"Question","name":"How quickly can you set up managed payroll?","acceptedAnswer":{"@type":"Answer","text":"Setup takes 3–5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup."}},{"@type":"Question","name":"What is included at $25–$45 PEPM?","acceptedAnswer":{"@type":"Answer","text":"Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included, no add-ons."}},{"@type":"Question","name":"Can you handle payroll in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state payroll is a standard service. We register in each state where you have employees and handle state withholding and unemployment filing in all applicable states."}},{"@type":"Question","name":"What happens if there is a payroll error?","acceptedAnswer":{"@type":"Answer","text":"If an error occurs due to our processing, we correct it at our cost. This includes amended returns, corrected W-2s, and penalty abatement where applicable."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does managed payroll cost?","acceptedAnswer":{"@type":"Answer","text":"BEG managed payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-employee company, that is $625-$1,125 per month."}},{"@type":"Question","name":"How quickly can you set up managed payroll?","acceptedAnswer":{"@type":"Answer","text":"Setup takes 3-5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup."}},{"@type":"Question","name":"What is included at $25-$45 PEPM?","acceptedAnswer":{"@type":"Answer","text":"Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included."}},{"@type":"Question","name":"Can you handle payroll in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state payroll is a standard service. We register in each state where you have employees and handle state withholding and unemployment filing in all applicable states."}},{"@type":"Question","name":"What happens if there is a payroll error?","acceptedAnswer":{"@type":"Answer","text":"If an error occurs due to our processing, we correct it at our cost. This includes amended returns, corrected W-2s, and penalty abatement where applicable."}}]}`,
         }}
       />
 

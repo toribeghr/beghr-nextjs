@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a nonprofit with 40 employees?',
-    answer: 'At 40 employees, BEG managed payroll runs approximately $1,000–$1,800 per month ($25–$45 PEPM), all-inclusive. That covers payroll processing with grant allocation coding, FUTA exemption configuration, ACA tracking if applicable, year-end W-2 preparation, 1099-NEC filing for contractors, and HR support. A loaded in-house HR staff position for a nonprofit costs $57,000–$86,000 annually. Most 40-person nonprofits save $44,000–$72,000 per year by outsourcing to BEG.',
+    answer: 'At 40 employees, BEG managed payroll runs approximately $1,000–$1,800 per month ($25-$45 PEPM), all-inclusive. That covers payroll processing with grant allocation coding, FUTA exemption configuration, ACA tracking if applicable, year-end W-2 preparation, 1099-NEC filing for contractors, and HR support. A loaded in-house HR staff position for a nonprofit costs $57,000–$86,000 annually. Most 40-person nonprofits save $44,000–$72,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -120,7 +120,7 @@ export default function CharityPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for Nonprofit Organizations</h2>
 
-        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. For nonprofit organizations, that covers payroll processing with grant allocation coding, FUTA exemption configuration, ACA measurement tracking, year-end W-2 and 1099-NEC preparation, PSLF record support, and HR support -- with no add-on fees for grant complexity or year-end filings.</p>
+        <p>BEG managed payroll is priced at $25-$45 per employee per month (PEPM), all-inclusive. For nonprofit organizations, that covers payroll processing with grant allocation coding, FUTA exemption configuration, ACA measurement tracking, year-end W-2 and 1099-NEC preparation, PSLF record support, and HR support.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -212,7 +212,7 @@ export default function CharityPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll for 501(c)(3) Organizations</h3>
-          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles grant-allocated payroll processing, FUTA exemption configuration, year-end W-2s and 1099s, ACA tracking, and HR compliance for nonprofit organizations nationally. All-inclusive at $25–$45 PEPM. Schedule a 15-minute discovery call for an exact quote for your organization.</p>
+          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles grant-allocated payroll processing, FUTA exemption configuration, year-end W-2s and 1099s, ACA tracking, and HR compliance for nonprofit organizations nationally. All-inclusive at $25-$45 PEPM. Schedule a 15-minute discovery call for an exact quote for your organization.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -238,7 +238,7 @@ export default function CharityPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving 501(c)(3) nonprofits, community organizations, and grant-funded programs at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving 501(c)(3) nonprofits, community organizations, and grant-funded programs at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 

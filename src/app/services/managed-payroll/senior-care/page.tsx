@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Senior Care Payroll | Instant Quote | BEG',
-  description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.',
+  description: 'Senior care payroll fully managed at $25-$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/senior-care' },
   openGraph: {
     title: 'Senior Care Payroll | Instant Quote | BEG',
-    description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.',
+    description: 'Senior care payroll fully managed at $25-$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.',
     url: 'https://www.beghr.com/services/managed-payroll/senior-care',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll | Instant Quote | BEG', description: 'Senior care payroll fully managed at $25–$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll | Instant Quote | BEG', description: 'Senior care payroll fully managed at $25-$45 PEPM. CNA overtime, shift differentials, CMS compliance, and high-turnover W-2s included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('senior-care-payroll');
@@ -29,7 +29,7 @@ export default function PayrollSeniorCarePage() {
       imageAlt="Senior care facility with fully managed payroll"
       eyebrow="Managed Payroll · Senior Care"
       title="Senior care facilities have the most regulated payroll environment in healthcare. We manage all of it."
-      description="24/7 staffing, CNA and aide overtime, CMS compliance requirements, shift differentials for overnight and weekend staff, benefit tracking for high-turnover employees, and year-end W-2 volume make senior care payroll one of the most demanding in any industry. BEG manages all of it at $25–$45 per employee per month - fully managed, no migration required."
+      description="24/7 staffing, CNA and aide overtime, CMS compliance requirements, shift differentials for overnight and weekend staff, benefit tracking for high-turnover employees, and year-end W-2 volume make senior care payroll one of the most demanding in any industry. BEG manages all of it at $25-$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -61,7 +61,7 @@ export default function PayrollSeniorCarePage() {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>High turnover</div>
-                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Senior care facilities average 50–100% annual CNA turnover - W-2 volume is enormous</div>
+                  <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Senior care facilities average 50-100% annual CNA turnover - W-2 volume is enormous</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>High turnover means constant new hire setup, mid-year terminations, and year-end W-2 preparation for a large and changing population. An internal payroll processor spending time on W-2 volume is not available for anything else in Q4.</div>
                 </div>
               ))()
@@ -155,7 +155,7 @@ export default function PayrollSeniorCarePage() {
                   ['High-turnover W-2 volume', 'Included', 'Time-consuming in Q4', 'Extra fee'],
                   ['CMS staffing record alignment', 'Managed', 'Varies by hire', 'Not built in'],
                   ['State-specific care worker minimums', 'Auto-updated', 'Must track manually', 'Manual update'],
-                  ['Monthly cost (75 workers)', '$1,875–$3,375', '$5,800–$8,300', '$600–$1,400 + risk'],
+                  ['Monthly cost (75 workers)', '$1,875-$3,375', '$5,800-$8,300', '$600-$1,400 + risk'],
                   ['Single point of failure risk', 'None', 'High', 'None'],
                 ].map(([factor, beg, inhouse, software], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
@@ -183,7 +183,7 @@ export default function PayrollSeniorCarePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before the next quarter starts - not in the middle of a survey cycle.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Senior care facilities that start the process before Q4 arrive at year-end W-2 season with a fully managed system handling the volume. Facilities that wait do year-end manually and lose the window for another year.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Senior care facilities that start the process before Q4 arrive at year-end W-2 season with a fully managed system handling the volume. Facilities that wait do year-end manually and lose the window for another year.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -236,8 +236,8 @@ export default function PayrollSeniorCarePage() {
               <p>CMS publishes staffing data from payroll records on Nursing Home Compare. Payroll hours-worked data that does not reconcile with staffing reports creates deficiency findings during CMS surveys. BEG maintains payroll records in a format that supports accurate staffing ratio documentation, so your hours-worked records align with what gets reported to CMS.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for a senior care facility?</h3>
-              <p>Everything: payroll processing, shift differential calculations, CNA overtime, state tax filing, garnishment administration, benefit deduction tracking, year-end W-2 volume, and dedicated BEG support. No per-run fees, no year-end surcharges, no add-on fees for high-turnover W-2 volume.</p>
+              <h3>What does $25-$45 PEPM include for a senior care facility?</h3>
+              <p>Everything: payroll processing, shift differential calculations, CNA overtime, state tax filing, garnishment administration, benefit deduction tracking, year-end W-2 volume, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Do we need to switch payroll systems?</h3>

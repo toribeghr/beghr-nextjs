@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: "What does hotel payroll management cost through BEG?",
-    answer: "BEG manages hotel payroll at $25 per employee per month if we work within your existing payroll system, or $45 per employee per month if we move you onto BEG's iSolved account, which includes the software. For a 60-employee hotel that is $1,500 to $2,700 per month all-inclusive. Included: tip tracking, multi-state compliance, tax filings, W-2 production, and compliance updates when state laws change. No per-run fees, no setup charges.",
+    answer: "BEG manages hotel payroll at $25 per employee per month if we work within your existing payroll system, or $45 per employee per month if we move you onto BEG's iSolved account, which includes the software. For a 60-employee hotel that is $1,500 to $2,700 per month all-inclusive. Included: tip tracking, multi-state compliance, tax filings, W-2 production, and compliance updates when state laws change.",
   },
   {
     question: "How long does it take to get started?",
@@ -158,11 +158,11 @@ export default function HotelPayrollPage() {
             </thead>
             <tbody>
               {[
-                ["Payroll Manager Salary", "$55,000–$80,000/yr", "Included"],
-                ["Payroll Software", "$3,000–$8,000/yr", "Included"],
-                ["Multi-State Tax Filing", "$2,000–$5,000/yr (external)", "Included"],
-                ["Error Remediation / Penalties", "Variable, often $5K–$20K+", "BEG absorbs covered errors"],
-                ["Total Estimate (60 employees)", "$65,000–$110,000/yr", "$18,000–$32,400/yr"],
+                ["Payroll Manager Salary", "$55,000-$80,000/yr", "Included"],
+                ["Payroll Software", "$3,000-$8,000/yr", "Included"],
+                ["Multi-State Tax Filing", "$2,000-$5,000/yr (external)", "Included"],
+                ["Error Remediation / Penalties", "Variable, often $5K-$20K+", "BEG absorbs covered errors"],
+                ["Total Estimate (60 employees)", "$65,000-$110,000/yr", "$18,000-$32,400/yr"],
               ].map(([item, inhouse, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? "#f9f9f9" : "#fff" }}>
                   <td style={{ padding: "10px 14px", borderBottom: "1px solid #eee", fontWeight: i === 4 ? 700 : 400 }}>{item}</td>
@@ -193,7 +193,7 @@ export default function HotelPayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Ready to Take Payroll Off Your Plate?</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages hotel payroll at $25 to $45 per employee per month, all-inclusive. Setup takes 3 to 5 business days. There are no per-run fees and no long-term contracts.
+            BEG manages hotel payroll at $25 to $45 per employee per month, all-inclusive. Setup takes 3 to 5 business days.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

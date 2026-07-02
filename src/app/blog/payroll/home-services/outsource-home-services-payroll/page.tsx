@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does outsourced home services payroll include?',
-    answer: 'BEG managed payroll for home services companies covers: payroll calculation and processing for all employees; flat-rate and hourly pay structure configuration; federal and state tax withholding and remittance; FUTA and state SUI filings; new hire reporting; garnishment processing; direct deposit setup and processing; year-end W-2 production; and multi-state registration support when companies expand into new service areas. Drive time tracking is coordinated with the client\'s dispatch or time-and-attendance system. All at $25-$45 per employee per month, no per-run fees.',
+    answer: 'BEG managed payroll for home services companies covers: payroll calculation and processing for all employees; flat-rate and hourly pay structure configuration; federal and state tax withholding and remittance; FUTA and state SUI filings; new hire reporting; garnishment processing; direct deposit setup and processing; year-end W-2 production; and multi-state registration support when companies expand into new service areas. Drive time tracking is coordinated with the client\'s dispatch or time-and-attendance system. All at $25-$45 per employee per month.',
   },
   {
     question: 'How does managed payroll handle flat-rate pay and overtime?',
@@ -133,7 +133,7 @@ export default function OutsourceHomeServicesPayrollPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>BEG Onboarding for Home Services Companies</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          <Link href="/services/managed-payroll/home-services" style={{ color: '#ECAC60' }}>BEG Managed Payroll</Link> onboards home services companies in 3-5 business days from contract signing. We gather employee records, configure pay structures (hourly, flat-rate, and commission as applicable), set up state tax accounts, verify banking, and run a test payroll before going live. For mid-year switches, year-to-date data is migrated. The service runs at $25-$45 per employee per month with no per-run fees and no year-end surcharges.
+          <Link href="/services/managed-payroll/home-services" style={{ color: '#ECAC60' }}>BEG Managed Payroll</Link> onboards home services companies in 3-5 business days from contract signing. We gather employee records, configure pay structures (hourly, flat-rate, and commission as applicable), set up state tax accounts, verify banking, and run a test payroll before going live. For mid-year switches, year-to-date data is migrated. The service runs at $25-$45 per employee per month.
         </p>
 
         <div style={{ background: '#f5f0e8', border: '2px solid #ECAC60', borderRadius: '8px', padding: '2rem', marginBottom: '2.5rem' }}>

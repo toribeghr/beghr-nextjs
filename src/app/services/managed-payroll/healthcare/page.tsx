@@ -6,17 +6,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Healthcare Payroll | Instant Quote | BEG',
-  description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
+  description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/healthcare' },
   openGraph: {
     title: 'Healthcare Payroll | Instant Quote | BEG',
-    description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
+    description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
     url: 'https://www.beghr.com/services/managed-payroll/healthcare',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Payroll | Instant Quote | BEG', description: 'Healthcare payroll fully managed at $25–$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Payroll | Instant Quote | BEG', description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -29,11 +29,11 @@ export default function PayrollHealthcarePage() {
       imageAlt="Healthcare organization with fully managed payroll"
       eyebrow="Managed Payroll · Healthcare"
       title="Healthcare payroll never stops. Neither do we."
-      description="24/7 schedules, shift differentials, clinical overtime rules, and multi-state licensure make healthcare payroll the most complex in any industry. We manage it all at $25–$45 per employee per month -- fully managed, no migration required."
+      description="24/7 schedules, shift differentials, clinical overtime rules, and multi-state licensure make healthcare payroll the most complex in any industry. We manage it all at $25-$45 per employee per month -- fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -50,9 +50,9 @@ export default function PayrollHealthcarePage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$70K–$100K</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$70K-$100K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of one internal healthcare payroll specialist</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Healthcare payroll specialists command premium salaries due to complexity. Fully managed service at $25–$45 PEPM replaces that headcount.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Healthcare payroll specialists command premium salaries due to complexity. Fully managed service at $25-$45 PEPM replaces that headcount.</div>
                 </div>
               ))()
             }
@@ -88,7 +88,7 @@ export default function PayrollHealthcarePage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost -- no surprises.' },
-              { num: '02', title: 'We map your shift structure, differential rates, on-call schedules, and multi-state employee roster before running your first payroll cycle.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30–60 days.' },
+              { num: '02', title: 'We map your shift structure, differential rates, on-call schedules, and multi-state employee roster before running your first payroll cycle.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30-60 days.' },
               { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update -- fully managed by BEG. Your team touches nothing.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -111,7 +111,7 @@ export default function PayrollHealthcarePage() {
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Shift differentials, on-call pay, and call-back calculations</h3>
-              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Healthcare organizations pay shift differentials to compensate clinical staff for working undesirable hours. A night differential of $3–$5 per hour, a weekend differential of $4–$6 per hour, and a holiday premium of 1.5x to 2.5x base pay are common structures -- but rates vary by classification, and in unionized facilities they are set by collective bargaining agreement. On-call pay follows different rules: on-call time (waiting at home ready to be called in) may or may not be compensable under the FLSA depending on how severely the employer restricts the employee during that period. Call-back pay (hours actually worked after being called in) is always compensable and may trigger overtime calculations separately from the regular shift hours. Payroll must handle on-call and call-back correctly to avoid DOL wage and hour exposure.</p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Healthcare organizations pay shift differentials to compensate clinical staff for working undesirable hours. A night differential of $3-$5 per hour, a weekend differential of $4-$6 per hour, and a holiday premium of 1.5x to 2.5x base pay are common structures -- but rates vary by classification, and in unionized facilities they are set by collective bargaining agreement. On-call pay follows different rules: on-call time (waiting at home ready to be called in) may or may not be compensable under the FLSA depending on how severely the employer restricts the employee during that period. Call-back pay (hours actually worked after being called in) is always compensable and may trigger overtime calculations separately from the regular shift hours. Payroll must handle on-call and call-back correctly to avoid DOL wage and hour exposure.</p>
             </div>
             <div>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Credential-based pay tiers and specialty certification differentials</h3>
@@ -177,7 +177,7 @@ export default function PayrollHealthcarePage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services always add fees for every little thing."',
-                body: 'The $25–$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. There are no per-run fees, no year-end surcharges, and no module upsells. One number, everything included.',
+                body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. One number, everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -208,12 +208,12 @@ export default function PayrollHealthcarePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every month you wait is money you are not getting back.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your healthcare organization costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$45 PEPM on a 50-person team costs $15,000–$27,000 per year. Every month your team handles payroll manually is a month of compliance exposure, corrections, and staff time that should be going to patient care -- not spreadsheets.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your healthcare organization costs $60,000-$100,000 per year in fully-loaded compensation. Fully managed payroll at $25-$45 PEPM on a 50-person team costs $15,000-$27,000 per year. Every month your team handles payroll manually is a month of compliance exposure, corrections, and staff time that should be going to patient care -- not spreadsheets.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before the next quarter starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -240,12 +240,12 @@ export default function PayrollHealthcarePage() {
               <p>No. We operate as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: payroll processing, federal and state tax filing, compliance updates, year-end W-2s, and dedicated BEG support. No add-on fees, no per-run charges, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: payroll processing, federal and state tax filing, compliance updates, year-end W-2s, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How long does the transition take?</h3>
-              <p>30–60 days from scope review to first managed payroll run. We handle setup, testing, and go-live. Your team reviews and approves before anything goes live.</p>
+              <p>30-60 days from scope review to first managed payroll run. We handle setup, testing, and go-live. Your team reviews and approves before anything goes live.</p>
             </div>
             <div className="faq-item">
               <h3>What if our headcount changes?</h3>
@@ -279,7 +279,7 @@ export default function PayrollHealthcarePage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
               { '@type': 'Question', name: 'How does BEG handle shift differentials for clinical staff?', acceptedAnswer: { '@type': 'Answer', text: 'BEG configures shift differentials for each clinical role and applies them automatically based on hours worked and shift schedule. In unionized facilities, rates come from the applicable CBA. Differential pay is included in the regular rate for overtime calculations.' } },
               { '@type': 'Question', name: 'Does HIPAA apply to payroll data at a healthcare organization?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Payroll files at healthcare employers often contain or link to PHI -- medical leave records, ADA accommodations, FMLA records. BEG manages payroll access under policies appropriate for a HIPAA-sensitive environment.' } },

@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Property Management Payroll | Instant Quote | BEG',
-  description: 'Property management payroll fully managed at $25–$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.',
+  description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/property-management' },
   openGraph: {
     title: 'Property Management Payroll | Instant Quote | BEG',
-    description: 'Property management payroll fully managed at $25–$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.',
+    description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.',
     url: 'https://www.beghr.com/services/managed-payroll/property-management',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Property Management Payroll | Instant Quote | BEG', description: 'Property management payroll fully managed at $25–$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Property Management Payroll | Instant Quote | BEG', description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('property-management-payroll');
@@ -29,7 +29,7 @@ export default function PayrollPropertyManagementPage() {
       imageAlt="Property management company with fully managed payroll"
       eyebrow="Managed Payroll · Property Management"
       title="Property management payroll has layers most payroll vendors can not handle. We can."
-      description="Resident manager housing allowances that affect taxable wage calculations, leasing agent commission structures, maintenance staff overtime, multi-property payroll consolidation, and 1099 vs. W-2 classification for contractor relationships create payroll complexity that generic platforms were not built for. BEG manages all of it at $25–$45 per employee per month - fully managed, no migration required."
+      description="Resident manager housing allowances that affect taxable wage calculations, leasing agent commission structures, maintenance staff overtime, multi-property payroll consolidation, and 1099 vs. W-2 classification for contractor relationships create payroll complexity that generic platforms were not built for. BEG manages all of it at $25-$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -156,7 +156,7 @@ export default function PayrollPropertyManagementPage() {
                   ['Maintenance overtime calculations', 'Included', 'Included', 'You verify it'],
                   ['1099 classification review', 'Included', 'Varies by expertise', 'Not included'],
                   ['Year-end W-2 and 1099 volume', 'Included', 'Included', 'Extra fee'],
-                  ['Monthly cost (35 employees)', '$875–$1,575', '$5,800–$8,300', '$400–$900 + risk'],
+                  ['Monthly cost (35 employees)', '$875-$1,575', '$5,800-$8,300', '$400-$900 + risk'],
                 ].map(([factor, beg, inhouse, software], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
                     <td style={{ padding: '0.85rem 1rem', fontWeight: '600', color: '#222222' }}>{factor}</td>
@@ -183,7 +183,7 @@ export default function PayrollPropertyManagementPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The right time to fix payroll is before leasing season peaks - not during your busiest month.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Property management companies that transition during slow leasing months arrive at peak season with a fully managed system handling commission payroll, maintenance overtime, and property-level reporting automatically.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Property management companies that transition during slow leasing months arrive at peak season with a fully managed system handling commission payroll, maintenance overtime, and property-level reporting automatically.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -236,8 +236,8 @@ export default function PayrollPropertyManagementPage() {
               <p>Yes. BEG configures payroll with property-level cost centers so each property's labor expense is tracked and reportable separately. Multi-property management companies can reconcile labor costs at the property level for owner reporting and NOI calculations without needing to manually allocate payroll from a consolidated run after each cycle.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for a property management company?</h3>
-              <p>Everything: payroll processing, housing allowance tax treatment, commission payroll with charge-back tracking, maintenance overtime, property-level cost reporting, 1099 classification review, year-end W-2 and 1099-NEC preparation, and dedicated BEG support. No per-run fees, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include for a property management company?</h3>
+              <p>Everything: payroll processing, housing allowance tax treatment, commission payroll with charge-back tracking, maintenance overtime, property-level cost reporting, 1099 classification review, year-end W-2 and 1099-NEC preparation, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How do we handle maintenance staff who are sometimes classified as contractors?</h3>

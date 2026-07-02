@@ -6,17 +6,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Executive Payroll | Instant Quote | BEG',
-  description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
+  description: 'Executive compensation managed discreetly at $25-$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/executive' },
   openGraph: {
     title: 'Executive Payroll | Instant Quote | BEG',
-    description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
+    description: 'Executive compensation managed discreetly at $25-$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.',
     url: 'https://www.beghr.com/services/managed-payroll/executive',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Executive Payroll | Instant Quote | BEG', description: 'Executive compensation managed discreetly at $25–$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Executive Payroll | Instant Quote | BEG', description: 'Executive compensation managed discreetly at $25-$45 PEPM. Deferred comp, executive benefits, and complex arrangements handled. Request a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -29,11 +29,11 @@ export default function PayrollExecutivePage() {
       imageAlt="Organization with executive compensation managed payroll"
       eyebrow="Managed Payroll · Executive"
       title="Executive compensation requires discretion and precision."
-      description="Deferred compensation plans, executive benefit structures, non-qualified plans, and complex bonus arrangements require a payroll partner who understands how to handle them -- accurately and discreetly. We manage executive payroll at $25–$45 per employee per month."
+      description="Deferred compensation plans, executive benefit structures, non-qualified plans, and complex bonus arrangements require a payroll partner who understands how to handle them -- accurately and discreetly. We manage executive payroll at $25-$45 per employee per month."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -68,7 +68,7 @@ export default function PayrollExecutivePage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$80K–$120K</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$80K-$120K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of an executive compensation specialist</div>
                   <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Organizations large enough to need specialized executive payroll often cannot justify the headcount. Fully managed service solves this.</div>
                 </div>
@@ -88,7 +88,7 @@ export default function PayrollExecutivePage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost -- no surprises.' },
-              { num: '02', title: 'We document your NQDC plans, deferred comp elections, executive benefit structures, and access restrictions before processing a single payroll cycle.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30–60 days.' },
+              { num: '02', title: 'We document your NQDC plans, deferred comp elections, executive benefit structures, and access restrictions before processing a single payroll cycle.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30-60 days.' },
               { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update -- fully managed by BEG. Your team touches nothing.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -177,7 +177,7 @@ export default function PayrollExecutivePage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services always add fees for every little thing."',
-                body: 'The $25–$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. There are no per-run fees, no year-end surcharges, and no module upsells. One number, everything included.',
+                body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. One number, everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -208,12 +208,12 @@ export default function PayrollExecutivePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every month you wait is money you are not getting back.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your executive team costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$45 PEPM on a 50-person team costs $15,000–$27,000 per year. Executive compensation errors -- missed 409A elections, late NQDC distributions, or incorrect withholding on executive benefits -- create significant tax liability and potential IRS scrutiny.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your executive team costs $60,000-$100,000 per year in fully-loaded compensation. Fully managed payroll at $25-$45 PEPM on a 50-person team costs $15,000-$27,000 per year. Executive compensation errors -- missed 409A elections, late NQDC distributions, or incorrect withholding on executive benefits -- create significant tax liability and potential IRS scrutiny.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before the next quarter starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -240,12 +240,12 @@ export default function PayrollExecutivePage() {
               <p>No. We operate as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: payroll processing, federal and state tax filing, compliance updates, year-end W-2s, and dedicated BEG support. No add-on fees, no per-run charges, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: payroll processing, federal and state tax filing, compliance updates, year-end W-2s, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How long does the transition take?</h3>
-              <p>30–60 days from scope review to first managed payroll run. We handle setup, testing, and go-live. Your team reviews and approves before anything goes live.</p>
+              <p>30-60 days from scope review to first managed payroll run. We handle setup, testing, and go-live. Your team reviews and approves before anything goes live.</p>
             </div>
             <div className="faq-item">
               <h3>What if our headcount changes?</h3>
@@ -279,7 +279,7 @@ export default function PayrollExecutivePage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
               { '@type': 'Question', name: 'What happens if a 409A election is missed?', acceptedAnswer: { '@type': 'Answer', text: 'Under IRC Section 409A, an improperly structured deferred compensation arrangement causes the entire deferred amount to become immediately taxable plus a 20% excise tax. BEG coordinates every NQDC event with your plan document and administrator.' } },
               { '@type': 'Question', name: 'How does BEG handle RSU vesting events?', acceptedAnswer: { '@type': 'Answer', text: 'BEG processes supplemental payroll withholding on the spread at vesting, coordinates the withholding method with your equity plan administrator, and reflects the income on the executive W-2.' } },

@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Staffing Agency Payroll | Instant Quote | BEG',
-  description: 'Staffing agency payroll fully managed at $25–$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.',
+  description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/staffing-agency' },
   openGraph: {
     title: 'Staffing Agency Payroll | Instant Quote | BEG',
-    description: 'Staffing agency payroll fully managed at $25–$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.',
+    description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.',
     url: 'https://www.beghr.com/services/managed-payroll/staffing-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll | Instant Quote | BEG', description: 'Staffing agency payroll fully managed at $25–$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll | Instant Quote | BEG', description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('staffing-agency-payroll');
@@ -29,7 +29,7 @@ export default function PayrollStaffingAgencyPage() {
       imageAlt="Staffing agency with fully managed payroll"
       eyebrow="Managed Payroll · Staffing Agencies"
       title="Staffing agency payroll never stops - and neither should you."
-      description="Weekly payroll cycles, W-2 vs. 1099 classification risk, multi-state compliance for placed workers, and client billing reconciliation make staffing agency payroll one of the most demanding in any sector. BEG manages all of it at $25–$45 per employee per month - fully managed, no migration required."
+      description="Weekly payroll cycles, W-2 vs. 1099 classification risk, multi-state compliance for placed workers, and client billing reconciliation make staffing agency payroll one of the most demanding in any sector. BEG manages all of it at $25-$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -71,7 +71,7 @@ export default function PayrollStaffingAgencyPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$70K+</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of a dedicated in-house payroll specialist who understands staffing agency complexity</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25–$45 PEPM replaces that headcount while removing the single-person-dependency risk that leaves you exposed when they leave or take a sick day.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25-$45 PEPM replaces that headcount while removing the single-person-dependency risk that leaves you exposed when they leave or take a sick day.</div>
                 </div>
               ))()
             }
@@ -150,7 +150,7 @@ export default function PayrollStaffingAgencyPage() {
               </thead>
               <tbody>
                 {[
-                  ['Monthly cost (50 workers)', '$1,250–$2,250', '$5,800–$8,300', '$500–$1,200 + errors'],
+                  ['Monthly cost (50 workers)', '$1,250-$2,250', '$5,800-$8,300', '$500-$1,200 + errors'],
                   ['Weekly cycle management', 'Fully managed', 'Depends on one person', 'You run it'],
                   ['Multi-state temp worker filing', 'Included', 'May need outside help', 'You configure it'],
                   ['W-2 vs. 1099 classification guidance', 'Included', 'Varies by hire', 'Not included'],
@@ -178,11 +178,11 @@ export default function PayrollStaffingAgencyPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every week your team runs payroll manually is a week they are not filling roles.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Staffing agencies grow by placing workers - not by managing weekly payroll runs, chasing multi-state registrations, and preparing year-end W-2 volumes. Fully managed payroll at $25–$45 PEPM frees your ops team to focus on what generates revenue.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Staffing agencies grow by placing workers - not by managing weekly payroll runs, chasing multi-state registrations, and preparing year-end W-2 volumes. Fully managed payroll at $25-$45 PEPM frees your ops team to focus on what generates revenue.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
-              <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Transitions take 30–60 days. The right time to start is before your next busy hiring season.</h2>
+              <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Transitions take 30-60 days. The right time to start is before your next busy hiring season.</h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Staffing agencies that miss the transition window before a seasonal ramp typically delay another quarter. The cost savings you defer do not come back.</p>
             </div>
           </div>
@@ -236,12 +236,12 @@ export default function PayrollStaffingAgencyPage() {
               <p>Yes. BEG manages state tax registration, withholding, and filing for workers placed across state lines. We cover all 50 states. You do not need to manage separate state registrations or tax accounts as your placement footprint grows.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for a staffing agency?</h3>
-              <p>Everything: weekly payroll processing, multi-state tax filing, garnishment administration, new hire reporting, ACA tracking, year-end W-2 preparation, and dedicated BEG support. No per-run fees, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include for a staffing agency?</h3>
+              <p>Everything: weekly payroll processing, multi-state tax filing, garnishment administration, new hire reporting, ACA tracking, year-end W-2 preparation, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How long does the transition take?</h3>
-              <p>30–60 days from scope review to first fully managed weekly run. We shadow your existing process during setup, so there is no disruption to worker payments during transition.</p>
+              <p>30-60 days from scope review to first fully managed weekly run. We shadow your existing process during setup, so there is no disruption to worker payments during transition.</p>
             </div>
             <div className="faq-item">
               <h3>Do we need to switch payroll platforms?</h3>
@@ -260,7 +260,7 @@ export default function PayrollStaffingAgencyPage() {
             mainEntity: [
               { '@type': 'Question', name: 'Do you handle weekly payroll cycles for temp workers?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Weekly payroll is BEG standard for staffing agency clients. We process every weekly run and ensure placed workers are paid accurately and on time.' } },
               { '@type': 'Question', name: 'How does BEG handle W-2 vs. 1099 classification for placed workers?', acceptedAnswer: { '@type': 'Answer', text: 'BEG reviews each engagement type and ensures placed workers are classified correctly under IRS and FLSA standards from day one.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include for a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: weekly payroll processing, multi-state tax filing, garnishment administration, new hire reporting, ACA tracking, year-end W-2 preparation, and dedicated BEG support. No per-run fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include for a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: weekly payroll processing, multi-state tax filing, garnishment administration, new hire reporting, ACA tracking, year-end W-2 preparation, and dedicated BEG support.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first fully managed weekly run. We shadow your existing process during setup.' } },
             ],
           }),

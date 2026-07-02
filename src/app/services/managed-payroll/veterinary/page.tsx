@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Veterinary Payroll | Instant Quote | BEG',
-  description: 'Veterinary payroll fully managed at $25–45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.',
+  description: 'Veterinary payroll fully managed at $25-45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/veterinary' },
   openGraph: {
     title: 'Veterinary Payroll | Instant Quote | BEG',
-    description: 'Veterinary payroll fully managed at $25–45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.',
+    description: 'Veterinary payroll fully managed at $25-45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.',
     url: 'https://www.beghr.com/services/managed-payroll/veterinary',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Veterinary Payroll | Instant Quote | BEG', description: 'Veterinary payroll fully managed at $25–45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Veterinary Payroll | Instant Quote | BEG', description: 'Veterinary payroll fully managed at $25-45 PEPM. Production associate pay, relief vet 1099 compliance, and mixed staff handling included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -30,11 +30,11 @@ export default function PayrollVeterinaryPage() {
       imageAlt="Veterinary practice with fully managed payroll"
       eyebrow="Managed Payroll · Veterinary Practices"
       title="Managed Payroll for Veterinary Practices"
-      description="Production-based associate pay, relief vet 1099s, and technician overtime -- all in one managed payroll. Veterinary practices run one of the most complex mixed compensation environments in healthcare, with a growing relief vet market, hourly technicians with overtime, and part-time front office staff all on the same payroll. We manage all of it at $25–$45 per employee per month."
+      description="Production-based associate pay, relief vet 1099s, and technician overtime -- all in one managed payroll. Veterinary practices run one of the most complex mixed compensation environments in healthcare, with a growing relief vet market, hourly technicians with overtime, and part-time front office staff all on the same payroll. We manage all of it at $25-$45 per employee per month."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered, including multi-location practices' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -53,7 +53,7 @@ export default function PayrollVeterinaryPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Production pay</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Associate vet compensation requires integrating production data into every pay cycle</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Most associate vets earn a base salary plus a production percentage -- typically 18–25% of revenue they generate. Calculating it correctly requires pulling production figures from your practice management software, applying the right percentage, and reconciling adjustments every cycle.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Most associate vets earn a base salary plus a production percentage -- typically 18-25% of revenue they generate. Calculating it correctly requires pulling production figures from your practice management software, applying the right percentage, and reconciling adjustments every cycle.</div>
                 </div>
               ))()
             }
@@ -144,7 +144,7 @@ export default function PayrollVeterinaryPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services charge extra for production pay integrations and 1099 processing."',
-                body: 'The $25–$45 PEPM rate covers everything: production pay calculation, relief vet 1099 processing, multi-state filings, year-end W-2s, and BEG support. No per-run fees, no production pay surcharges, no year-end invoices. One number, every month.',
+                body: 'The $25-$45 PEPM rate covers everything: production pay calculation, relief vet 1099 processing, multi-state filings, year-end W-2s, and BEG support. One number, every month.',
               },
               {
                 badge: 'Bonus 03',
@@ -173,13 +173,13 @@ export default function PayrollVeterinaryPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Getting Started</p>
-            <h2>From scope review to live veterinary payroll in 3–5 business days</h2>
+            <h2>From scope review to live veterinary payroll in 3-5 business days</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
               { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your associate pay structure, relief vet arrangements, tech overtime, and multi-location setup -- and give you a fixed monthly price.' },
-              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, staff roster and relief vet agreements reviewed.' },
-              { day: 'Days 2–4', title: 'Configuration', body: 'Production pay integration, relief vet classification review, and overtime calculations configured in your existing system.' },
+              { day: 'Days 1-2', title: 'Onboarding', body: 'Agreement signed, system access granted, staff roster and relief vet agreements reviewed.' },
+              { day: 'Days 2-4', title: 'Configuration', body: 'Production pay integration, relief vet classification review, and overtime calculations configured in your existing system.' },
               { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed veterinary pay run -- BEG executes, your team approves. No migration required.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
@@ -199,12 +199,12 @@ export default function PayrollVeterinaryPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>A single relief vet reclassification audit costs more than years of managed payroll.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>IRS reclassification of independent contractors to W-2 employees triggers back payroll taxes, both the employer and employee share, plus penalties and interest. For a practice that has paid five relief vets as 1099 over three years, the exposure can easily exceed $50,000. Fully managed payroll at $25–$45 PEPM on a 15-person practice costs under $9,000 per year -- including the protection.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>IRS reclassification of independent contractors to W-2 employees triggers back payroll taxes, both the employer and employee share, plus penalties and interest. For a practice that has paid five relief vets as 1099 over three years, the exposure can easily exceed $50,000. Fully managed payroll at $25-$45 PEPM on a 15-person practice costs under $9,000 per year -- including the protection.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix production pay calculations is before your next associate dispute.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Clean quarter-start cutovers require starting the scope review now. Every cycle you run production pay manually is a cycle where an error can create an associate compensation dispute -- one of the top reasons veterinary associate turnover happens.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Clean quarter-start cutovers require starting the scope review now. Every cycle you run production pay manually is a cycle where an error can create an associate compensation dispute -- one of the top reasons veterinary associate turnover happens.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -239,8 +239,8 @@ export default function PayrollVeterinaryPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option if you want to upgrade, never a requirement to get started.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: payroll processing, production pay calculations, federal and state tax filing, 1099-NEC processing for relief vets, year-end W-2s, compliance updates, and dedicated BEG support. No add-on fees, no per-run charges, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: payroll processing, production pay calculations, federal and state tax filing, 1099-NEC processing for relief vets, year-end W-2s, compliance updates, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle ACA compliance for growing veterinary practices?</h3>
@@ -252,7 +252,7 @@ export default function PayrollVeterinaryPage() {
             </div>
             <div className="faq-item">
               <h3>How long does it take to transition to managed veterinary payroll?</h3>
-              <p>From signed agreement to live payroll: 3–5 business days. We configure your production pay structure, review relief vet classifications, and set up everything in your existing system. The first payroll under BEG management runs the week after onboarding -- no disruption to your practice schedule or your staff.</p>
+              <p>From signed agreement to live payroll: 3-5 business days. We configure your production pay structure, review relief vet classifications, and set up everything in your existing system. The first payroll under BEG management runs the week after onboarding -- no disruption to your practice schedule or your staff.</p>
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ export default function PayrollVeterinaryPage() {
               { '@type': 'Question', name: 'How do you handle relief vet 1099 vs. W-2 situations?', acceptedAnswer: { '@type': 'Answer', text: 'We review relief vet agreements against IRS criteria. True contractors get 1099-NEC. Arrangements with W-2 risk are flagged before the next cycle.' } },
               { '@type': 'Question', name: 'What if we have multiple clinic locations?', acceptedAnswer: { '@type': 'Answer', text: 'Multi-location payroll is managed as a single engagement. State registrations, cross-location employees, and consolidated reporting are all included.' } },
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25–$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, production pay calculations, tax filing, 1099-NEC processing, year-end W-2s, and BEG support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, production pay calculations, tax filing, 1099-NEC processing, year-end W-2s, and BEG support.' } },
             ],
           }),
         }}

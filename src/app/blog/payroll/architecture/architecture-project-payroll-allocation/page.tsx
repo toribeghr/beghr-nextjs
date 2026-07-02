@@ -134,7 +134,7 @@ export default function ArchitectureProjectPayrollAllocationPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Stop Reconstructing Labor Costs by Hand</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG sets up project-coded payroll for architecture firms in 3 to 5 business days. $25 to $45 per employee per month. No per-run fees.
+            BEG sets up project-coded payroll for architecture firms in 3 to 5 business days. $25 to $45 per employee per month.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

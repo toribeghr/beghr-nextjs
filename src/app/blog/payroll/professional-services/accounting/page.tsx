@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Accounting Firm Payroll, Outsourced vs. In-House | BEG',
-  description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.',
+  description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K-$95K annually at $25-$45 PEPM.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/professional-services/accounting' },
   openGraph: {
     title: 'Accounting Firm Payroll, Outsourced vs. In-House | BEG',
-    description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.',
+    description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K-$95K annually at $25-$45 PEPM.',
     url: 'https://www.beghr.com/blog/payroll/professional-services/accounting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Accounting Firm Payroll, Outsourced vs. In-House | BEG', description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually at $25–$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Accounting Firm Payroll, Outsourced vs. In-House | BEG', description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K-$95K annually at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -23,7 +23,7 @@ const faqs = [
     answer: 'Partner compensation at CPA firms typically involves a combination of W-2 salary and K-1 distributions (for partnership structures) or S-corp distributions. We process the W-2 salary component through payroll with correct withholding. Distributions and draws are outside payroll and handled by your firm accountants. We coordinate with your accounting team at year-end to ensure the W-2 figures are correct for each partner.',
   },
   {
-    question: 'Can you manage the seasonal overtime spike during tax season (January–April)?',
+    question: 'Can you manage the seasonal overtime spike during tax season (January-April)?',
     answer: 'Yes. Accounting firms that run extended hours from January through April 15 often see significant overtime for staff accountants and tax preparers. We process overtime correctly per state, handle any seasonal hires brought on for the rush, and manage offboarding at the end of tax season -- all without any setup fee or surge pricing.',
   },
   {
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for accounting firm payroll?',
-    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. For a 25-person CPA firm, that is $625–$1,125 per month -- compared to $70,000–$100,000 loaded cost for an in-house HR manager. Included: payroll processing, partner W-2 coordination, GL export, multi-state filing, W-2 production, and compliance updates.',
+    answer: 'BEG manages payroll at $25-$45 per employee per month, all-inclusive. For a 25-person CPA firm, that is $625-$1,125 per month -- compared to $70,000-$100,000 loaded cost for an in-house HR manager. Included: payroll processing, partner W-2 coordination, GL export, multi-state filing, W-2 production, and compliance updates.',
   },
 ];
 
@@ -74,7 +74,7 @@ export default function AccountingPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Accounting firms bill for expertise. Every hour spent managing internal payroll is an hour that is not billed to a client. Yet most CPA firms and accounting practices still handle their own payroll in-house, paying an HR manager or office administrator $65,000–$100,000 per year to process W-2s, manage partner comp structures, handle the tax season overtime surge, and stay current on compliance changes -- while the partners focus on client work.</p>
+        <p>Accounting firms bill for expertise. Every hour spent managing internal payroll is an hour that is not billed to a client. Yet most CPA firms and accounting practices still handle their own payroll in-house, paying an HR manager or office administrator $65,000-$100,000 per year to process W-2s, manage partner comp structures, handle the tax season overtime surge, and stay current on compliance changes -- while the partners focus on client work.</p>
 
         <p>The irony is not lost on anyone: the professionals who help clients optimize their financial operations often have the least optimized internal overhead structure in their own firm.</p>
 
@@ -82,7 +82,7 @@ export default function AccountingPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Accounting Firm HR Manager</h2>
 
-        <p>An HR manager or office administrator with payroll responsibility at a CPA firm earns $48,000–$72,000 in base salary. Here is the loaded cost:</p>
+        <p>An HR manager or office administrator with payroll responsibility at a CPA firm earns $48,000-$72,000 in base salary. Here is the loaded cost:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -94,13 +94,13 @@ export default function AccountingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (HR manager / office administrator)', '$48,000–$72,000'],
-                ['Benefits (health, dental, 401K) ~30%', '$14,400–$21,600'],
-                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,800–$7,200'],
-                ['Payroll software + GL integration', '$2,400–$5,400'],
-                ['Training & compliance updates', '$1,200–$2,500'],
-                ['Hiring & onboarding (amortized)', '$2,000–$4,500'],
-                ['Total loaded cost', '$72,800–$113,200'],
+                ['Base salary (HR manager / office administrator)', '$48,000-$72,000'],
+                ['Benefits (health, dental, 401K) ~30%', '$14,400-$21,600'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,800-$7,200'],
+                ['Payroll software + GL integration', '$2,400-$5,400'],
+                ['Training & compliance updates', '$1,200-$2,500'],
+                ['Hiring & onboarding (amortized)', '$2,000-$4,500'],
+                ['Total loaded cost', '$72,800-$113,200'],
               ].map(([label, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 6 ? '700' : '400' }}>{label}</td>
@@ -113,7 +113,7 @@ export default function AccountingPayrollPage() {
 
         <p>This does not account for the cost of errors -- a misprocessed partner W-2 or incorrect withholding for a multi-state staff accountant creates correction work that is expensive and disruptive at any time of year, and catastrophic during tax season.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25-$45 PEPM</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -127,10 +127,10 @@ export default function AccountingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['15 employees', '$375–$675', '$4,500–$8,100', 'Save $64K–$107K/yr'],
-                ['25 employees', '$625–$1,125', '$7,500–$13,500', 'Save $59K–$103K/yr'],
-                ['50 employees', '$1,250–$2,250', '$15,000–$27,000', 'Save $46K–$92K/yr'],
-                ['100 employees', '$2,500–$4,500', '$30,000–$54,000', 'Save $19K–$71K/yr'],
+                ['15 employees', '$375-$675', '$4,500-$8,100', 'Save $64K-$107K/yr'],
+                ['25 employees', '$625-$1,125', '$7,500-$13,500', 'Save $59K-$103K/yr'],
+                ['50 employees', '$1,250-$2,250', '$15,000-$27,000', 'Save $46K-$92K/yr'],
+                ['100 employees', '$2,500-$4,500', '$30,000-$54,000', 'Save $19K-$71K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -143,7 +143,7 @@ export default function AccountingPayrollPage() {
           </table>
         </div>
 
-        <p>All-inclusive: payroll processing, partner W-2 coordination, GL export, multi-state filing, tax season surge handling, W-2 production, and compliance updates. No per-run fees, no surge pricing during tax season.</p>
+        <p>All-inclusive: payroll processing, partner W-2 coordination, GL export, multi-state filing, tax season surge handling, W-2 production, and compliance updates.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Accounting Firms Miss in the Internal Payroll Cost</h2>
 
@@ -153,7 +153,7 @@ export default function AccountingPayrollPage() {
 
         <p><strong>Multi-state staff create withholding complexity.</strong> Accounting firms with professionals who travel to client sites in multiple states, or who work remotely from a different state than the firm&apos;s office, create withholding obligations in those states. Most in-house administrators are not tracking this systematically, creating unresolved nexus issues that surface at audit.</p>
 
-        <p><strong>Staff turnover at associate level is meaningful.</strong> Junior staff accountants leave for industry positions, Big 4 firms, or other opportunities. At firms with 10–20 associates, annual turnover of 3–6 people per year creates W-2 volume, final pay processing, and onboarding cycles that consume significant admin time during already busy periods.</p>
+        <p><strong>Staff turnover at associate level is meaningful.</strong> Junior staff accountants leave for industry positions, Big 4 firms, or other opportunities. At firms with 10-20 associates, annual turnover of 3-6 people per year creates W-2 volume, final pay processing, and onboarding cycles that consume significant admin time during already busy periods.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Accounting Firm Payroll Has Its Own Complexity</h2>
 
@@ -179,8 +179,8 @@ export default function AccountingPayrollPage() {
             <tbody>
               {[
                 ['Small CPA firm (under 20 staff)', 'Outsource', 'No justification for in-house HR hire. Partner time on payroll is the most expensive use of their hours.'],
-                ['Mid-size firm (20–75 staff)', 'Outsource', 'Strongest ROI range. Seasonal surge, multi-state, and partner comp complexity all argue for outsourcing.'],
-                ['Regional firm (75–200 staff)', 'Outsource or hybrid', 'May add an HR generalist for recruiting and culture. Payroll processing should remain outsourced.'],
+                ['Mid-size firm (20-75 staff)', 'Outsource', 'Strongest ROI range. Seasonal surge, multi-state, and partner comp complexity all argue for outsourcing.'],
+                ['Regional firm (75-200 staff)', 'Outsource or hybrid', 'May add an HR generalist for recruiting and culture. Payroll processing should remain outsourced.'],
                 ['Large regional (200+ staff)', 'Assess by complexity', 'Scale may support in-house payroll, but multi-state and partner comp still argues for specialist coverage.'],
               ].map(([size, rec, why], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -195,7 +195,7 @@ export default function AccountingPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Accounting Firm Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Partner W-2 coordination, tax season overtime, GL export, multi-state compliance -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your firm size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Partner W-2 coordination, tax season overtime, GL export, multi-state compliance -- all at $25-$45 per employee per month. Book a 15-minute call to get a cost comparison for your firm size.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -227,7 +227,7 @@ export default function AccountingPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving CPA firms, law firms, and professional services groups. BEG manages partner comp coordination, seasonal surge payroll, GL integration, and multi-state compliance at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving CPA firms, law firms, and professional services groups. BEG manages partner comp coordination, seasonal surge payroll, GL integration, and multi-state compliance at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ export default function AccountingPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Accounting Firm Payroll Outsourcing: Cost vs. Hiring HR Manager (2026)',
-            description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K–$95K annually.',
+            description: 'Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks integration. Save $60K-$95K annually.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

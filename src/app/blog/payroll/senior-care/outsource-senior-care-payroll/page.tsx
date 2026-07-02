@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does outsourced senior care payroll include?',
-    answer: 'A full-service managed payroll provider for senior care handles: payroll processing for all employees including CNAs, nurses, and support staff; shift differential configuration and regular rate overtime calculations; FICA and federal income tax withholding and remittance; FUTA and state SUI filings; new hire reporting; garnishment processing; year-end W-2 production; and ACA FTE tracking for facilities with 50+ employees. BEG also supports CMS Payroll-Based Journal data exports for skilled nursing facilities. All at $25-$45 per employee per month, no per-run fees.',
+    answer: 'A full-service managed payroll provider for senior care handles: payroll processing for all employees including CNAs, nurses, and support staff; shift differential configuration and regular rate overtime calculations; FICA and federal income tax withholding and remittance; FUTA and state SUI filings; new hire reporting; garnishment processing; year-end W-2 production; and ACA FTE tracking for facilities with 50+ employees. BEG also supports CMS Payroll-Based Journal data exports for skilled nursing facilities. All at $25-$45 per employee per month.',
   },
   {
     question: 'How does managed payroll handle CMS PBJ requirements?',

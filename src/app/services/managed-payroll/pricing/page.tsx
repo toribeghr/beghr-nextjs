@@ -4,17 +4,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Pricing | Instant Quote in 90 Seconds | BEG',
-  description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.',
+  description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. See what is included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/pricing' },
   openGraph: {
     title: 'Managed Payroll Pricing | Instant Quote in 90 Seconds | BEG',
-    description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.',
+    description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. See what is included.',
     url: 'https://www.beghr.com/services/managed-payroll/pricing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll Pricing | Instant Quote in 90 Seconds | BEG', description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. No per-run fees, no module add-ons, no year-end surprises. See what is included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Pricing | Instant Quote in 90 Seconds | BEG', description: 'BEG managed payroll pricing starts at $25 PEPM, all-inclusive. See what is included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -31,7 +31,7 @@ export default function ManagedPayrollPricingPage() {
               Managed Payroll Pricing
             </h1>
             <p style={{ color: '#cccccc', fontSize: '1.05rem', lineHeight: '1.75', maxWidth: '620px', margin: '0 auto' }}>
-              One flat rate. Everything included. No per-run fees, no module charges, no year-end invoices. Your BEG contact gives you an exact monthly number on your discovery call before you commit to anything.
+              One flat rate. Everything included. Your BEG contact gives you an exact monthly number on your discovery call before you commit to anything.
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function ManagedPayrollPricingPage() {
               <div style={{ fontSize: '0.88rem', color: '#777', marginBottom: '1.25rem' }}>per employee / month</div>
               <strong style={{ display: 'block', fontSize: '1.05rem', marginBottom: '0.6rem' }}>We move you to iSolved</strong>
               <p style={{ fontSize: '0.92rem', color: '#555', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-                BEG migrates your payroll to iSolved -- a full HCM platform with automated compliance updates, employee self-service, benefits administration, and time tracking beyond basic payroll. Onboarding: 3–5 business days from contract to live payroll.
+                BEG migrates your payroll to iSolved -- a full HCM platform with automated compliance updates, employee self-service, benefits administration, and time tracking beyond basic payroll. Onboarding: 3-5 business days from contract to live payroll.
               </p>
               <div style={{ background: '#fff9ee', border: '1px solid #f0d898', borderRadius: '8px', padding: '1rem', fontSize: '0.85rem', color: '#555', marginBottom: '1.5rem', lineHeight: '1.6' }}>
                 <strong style={{ display: 'block', marginBottom: '0.4rem', color: '#000' }}>Best for:</strong>
@@ -95,8 +95,8 @@ export default function ManagedPayrollPricingPage() {
           <div style={{ marginTop: '1.5rem', background: '#000', color: '#fff', borderRadius: '10px', padding: '1.5rem 2rem', display: 'flex', alignItems: 'center', gap: '1.5rem', flexWrap: 'wrap' as const }} className="reveal">
             <div style={{ fontSize: '1.75rem' }}>✓</div>
             <div>
-              <strong style={{ color: '#ECAC60', display: 'block', marginBottom: '0.2rem' }}>No hidden fees. Ever.</strong>
-              <span style={{ fontSize: '0.9rem', color: '#ccc' }}>No base fee. No per-run charges. No year-end invoice. No state registration fees. No W-2 fees. The PEPM rate is the total monthly cost.</span>
+              <strong style={{ color: '#ECAC60', display: 'block', marginBottom: '0.2rem' }}> Ever.</strong>
+              <span style={{ fontSize: '0.9rem', color: '#ccc' }}> No state registration fees. No W-2 fees. The PEPM rate is the total monthly cost.</span>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function ManagedPayrollPricingPage() {
                   ['Automated compliance updates', false, true],
                   ['Time and attendance integration', false, true],
                   ['Benefits administration tools', false, true],
-                  ['3–5 day implementation to live payroll', false, true],
+                  ['3-5 day implementation to live payroll', false, true],
                 ].map(([feature, t1, t2], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #eee' }}>
                     <td style={{ padding: '11px 16px', color: '#333', fontWeight: typeof feature === 'string' && feature.includes('iSolved') ? '600' : '400' }}>{feature as string}</td>
@@ -179,12 +179,12 @@ export default function ManagedPayrollPricingPage() {
               </thead>
               <tbody>
                 {[
-                  ['Monthly cost (50 employees)', '$1,250–$2,250 total', '$6,500–$9,000+ all-in', '$300–$700 + your time', '$7,500–$10,000+'],
-                  ['Per-run fees', 'None', 'N/A', '$25–$150/run', 'None (in admin fee)'],
-                  ['Year-end W-2 fees', 'None', 'N/A', '$3–$10/W-2', 'None (in admin fee)'],
-                  ['State registration fees', 'None', 'N/A', '$150–$400/state', 'None (in admin fee)'],
+                  ['Monthly cost (50 employees)', '$1,250-$2,250 total', '$6,500-$9,000+ all-in', '$300-$700 + your time', '$7,500-$10,000+'],
+                  ['Per-run fees', 'None', 'N/A', '$25-$150/run', 'None (in admin fee)'],
+                  ['Year-end W-2 fees', 'None', 'N/A', '$3-$10/W-2', 'None (in admin fee)'],
+                  ['State registration fees', 'None', 'N/A', '$150-$400/state', 'None (in admin fee)'],
                   ['Who does the work', 'BEG -- fully managed', 'Your employee', 'You and your team', 'Split between you and PEO'],
-                  ['Time to first payroll', '3–5 business days', '6–12 weeks to hire', '4–8 weeks to configure', '30–60 days'],
+                  ['Time to first payroll', '3-5 business days', '6-12 weeks to hire', '4-8 weeks to configure', '30-60 days'],
                   ['Contract / lock-in', 'Month-to-month', 'At-will employment', 'Month-to-month or annual', 'Annual minimum'],
                 ].map(([factor, beg, inhouse, software, peo], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #eee' }}>
@@ -232,7 +232,7 @@ export default function ManagedPayrollPricingPage() {
                 Every month you overpay for payroll is a month you do not get back.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.95rem' }}>
-                A payroll manager at $80,000 costs $104,000 per year fully loaded. BEG at $25–$45 PEPM for a 50-person company costs $15,000–$27,000 per year -- all-inclusive. The difference compounds every month you stay on your current setup.
+                A payroll manager at $80,000 costs $104,000 per year fully loaded. BEG at $25-$45 PEPM for a 50-person company costs $15,000-$27,000 per year -- all-inclusive. The difference compounds every month you stay on your current setup.
               </p>
             </div>
             <div>
@@ -263,7 +263,7 @@ export default function ManagedPayrollPricingPage() {
             </div>
             <div className="faq-item">
               <h3>Is there a setup fee?</h3>
-              <p>No. There is no onboarding fee, no setup charge, and no implementation fee. The monthly PEPM rate starts when your first live payroll runs. If you are migrating to iSolved (Tier 2), BEG handles the migration -- no separate charge.</p>
+              <p>No. There is no onboarding fee, and no implementation fee. The monthly PEPM rate starts when your first live payroll runs. If you are migrating to iSolved (Tier 2), BEG handles the migration -- no separate charge.</p>
             </div>
             <div className="faq-item">
               <h3>Is there a contract or minimum commitment?</h3>
@@ -279,7 +279,7 @@ export default function ManagedPayrollPricingPage() {
             </div>
             <div className="faq-item">
               <h3>Are W-2s and year-end included?</h3>
-              <p>Yes. W-2 preparation, SSA filing, employee delivery, and year-end reconciliation are all included in the monthly rate. There is no year-end invoice or W-2 per-form charge.</p>
+              <p>Yes. W-2 preparation, SSA filing, employee delivery, and year-end reconciliation are all included in the monthly rate.</p>
             </div>
             <div className="faq-item">
               <h3>What is not included?</h3>
@@ -320,9 +320,9 @@ export default function ManagedPayrollPricingPage() {
             mainEntity: [
               { '@type': 'Question', name: 'Is there a setup fee for managed payroll?', acceptedAnswer: { '@type': 'Answer', text: 'No. There is no onboarding fee, setup charge, or implementation fee. The monthly PEPM rate starts when your first live payroll runs.' } },
               { '@type': 'Question', name: 'Is there a contract or minimum commitment?', acceptedAnswer: { '@type': 'Answer', text: 'BEG operates month-to-month. No annual contract, no cancellation fee.' } },
-              { '@type': 'Question', name: 'How much does managed payroll cost per employee?', acceptedAnswer: { '@type': 'Answer', text: 'BEG managed payroll costs $25 per employee per month when operating in your existing system, or $45 per employee per month when migrating to iSolved. Both rates are all-inclusive with no per-run or year-end fees.' } },
+              { '@type': 'Question', name: 'How much does managed payroll cost per employee?', acceptedAnswer: { '@type': 'Answer', text: 'BEG managed payroll costs $25 per employee per month when operating in your existing system, or $45 per employee per month when migrating to iSolved. Both rates are all-inclusive.' } },
               { '@type': 'Question', name: 'Is multi-state payroll included in the price?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Multi-state payroll is included in the flat PEPM rate. State registrations, SUTA filings, and local tax handling are all covered at no additional charge.' } },
-              { '@type': 'Question', name: 'Are W-2s and year-end included in managed payroll pricing?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. W-2 preparation, SSA filing, employee delivery, and year-end reconciliation are all included in the monthly PEPM rate. No year-end invoice or per-W-2 charges.' } },
+              { '@type': 'Question', name: 'Are W-2s and year-end included in managed payroll pricing?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. W-2 preparation, SSA filing, employee delivery, and year-end reconciliation are all included in the monthly PEPM rate.' } },
             ],
           }),
         }}

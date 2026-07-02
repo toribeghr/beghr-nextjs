@@ -139,7 +139,7 @@ export default function YearEndChecklistPage() {
                 ))}
               </div>
               <p style={{ color: '#555555', fontSize: '0.92rem', lineHeight: '1.65' }}>
-                If your team is spending more than a few hours on year-end payroll tasks, that is a signal. <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>BEG managed payroll</Link> handles the full year-end process at $25-$45 PEPM, all-inclusive. No separate W-2 fee. No year-end surcharge.
+                If your team is spending more than a few hours on year-end payroll tasks, that is a signal. <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>BEG managed payroll</Link> handles the full year-end process at $25-$45 PEPM, all-inclusive. No separate W-2 fee.
               </p>
             </div>
         </div>
@@ -180,7 +180,7 @@ export default function YearEndChecklistPage() {
             <p className="eyebrow" style={{ color: '#ECAC60' }}>Want BEG to Handle All of This?</p>
             <h2 style={{ color: '#ffffff', marginBottom: '1rem', fontSize: '1.6rem' }}>BEG manages the full year-end process for you. $25-$45 PEPM, all-inclusive.</h2>
             <p style={{ color: '#cccccc', lineHeight: '1.7', maxWidth: '560px', margin: '0 auto 2rem', fontSize: '0.95rem' }}>
-              W-2s, 941 reconciliation, ACA reporting, and state filings, all handled by your dedicated BEG payroll contact. No year-end surcharges. No per-form fees.
+              W-2s, 941 reconciliation, ACA reporting, and state filings, all handled by your dedicated BEG payroll contact. No per-form fees.
             </p>
             <PricingCta service="managed-payroll" subline={false} />
           </div>

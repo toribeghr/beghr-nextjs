@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Security Company Payroll | Instant Quote | BEG',
-  description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
+  description: 'Security company payroll fully managed at $25-$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/security' },
   openGraph: {
     title: 'Security Company Payroll | Instant Quote | BEG',
-    description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
+    description: 'Security company payroll fully managed at $25-$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
     url: 'https://www.beghr.com/services/managed-payroll/security',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Security Company Payroll | Instant Quote | BEG',
-    description: 'Security company payroll fully managed at $25–$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
+    description: 'Security company payroll fully managed at $25-$45 PEPM. Shift differentials, SCA compliance, overtime, and high-volume W-2s included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -33,7 +33,7 @@ export default function PayrollSecurityPage() {
       imageAlt="Security company with fully managed payroll"
       eyebrow="Managed Payroll · Security"
       title="Security company payroll never sleeps. Neither does BEG's managed service."
-      description="24/7 guard scheduling, shift differentials, SCA compliance for federal contracts, and year-end W-2 volume for large guard workforces. BEG manages all of it at $25–$45 per employee per month. No migration required."
+      description="24/7 guard scheduling, shift differentials, SCA compliance for federal contracts, and year-end W-2 volume for large guard workforces. BEG manages all of it at $25-$45 per employee per month. No migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -73,9 +73,9 @@ export default function PayrollSecurityPage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$60K–$90K</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$60K-$90K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of one in-house payroll administrator who understands shift-based security payroll</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25–$45 PEPM replaces that headcount and handles the SCA compliance your administrator may not know well enough to get right.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25-$45 PEPM replaces that headcount and handles the SCA compliance your administrator may not know well enough to get right.</div>
                 </div>
               ))()
             }
@@ -191,7 +191,7 @@ export default function PayrollSecurityPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix your payroll structure is before the next contract cycle.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30–60 days. If you have a contract renewal or new federal assignment coming up, now is the time to get your payroll structure right. We scope your setup, identify compliance gaps, and move you to a fully managed process that holds up to any audit.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. If you have a contract renewal or new federal assignment coming up, now is the time to get your payroll structure right. We scope your setup, identify compliance gaps, and move you to a fully managed process that holds up to any audit.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -222,8 +222,8 @@ export default function PayrollSecurityPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for security companies?</h3>
-              <p>Everything: payroll processing, shift differential calculations, SCA compliance, federal and state tax filing, year-end W-2 production, and dedicated BEG support. No per-run fees, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include for security companies?</h3>
+              <p>Everything: payroll processing, shift differential calculations, SCA compliance, federal and state tax filing, year-end W-2 production, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Can BEG manage payroll for a security company with guards in multiple states?</h3>
@@ -243,7 +243,7 @@ export default function PayrollSecurityPage() {
               { '@type': 'Question', name: 'How does BEG handle SCA compliance for federal guard contracts?', acceptedAnswer: { '@type': 'Answer', text: 'BEG tracks the applicable Wage Determination for each federal contract, applies the correct prevailing wage to covered guards, and manages the fringe benefit rate. When Wage Determinations are updated, we update the payroll configuration before the effective date.' } },
               { '@type': 'Question', name: 'How is overtime calculated when guards work at different pay rates in the same week?', acceptedAnswer: { '@type': 'Answer', text: 'FLSA requires a weighted average regular rate when multiple rates apply. BEG calculates the blended rate automatically based on actual hours at each rate and applies the correct overtime premium.' } },
               { '@type': 'Question', name: 'Do we have to change our payroll system to work with BEG?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, shift differential calculations, SCA compliance, tax filing, year-end W-2 production, and dedicated support. No per-run fees or surcharges.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, shift differential calculations, SCA compliance, tax filing, year-end W-2 production, and dedicated support.' } },
               { '@type': 'Question', name: 'Can BEG manage payroll for security companies in multiple states?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG manages state payroll tax registration, remittance, and compliance across all states where you have guards working.' } },
             ],
           }),

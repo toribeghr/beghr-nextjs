@@ -152,7 +152,7 @@ export default function StaffingAgencyPayrollGuidePage() {
           Producing accurate W-2s requires clean payroll records throughout the year. Addresses must be current. Wage allocations by state must be tracked for multi-state workers. Any supplemental wages, bonuses, or imputed income must be captured. Errors on W-2s require corrected W-2Cs filed with both the employee and the IRS, which is a penalty and administrative burden the agency wants to avoid.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          For agencies using <Link href="/services/managed-payroll/staffing-agency" style={{ color: '#ECAC60' }}>BEG Managed Payroll</Link>, year-end W-2 production is included in the base service. No additional per-form fees, no year-end surcharges. W-2s and the accompanying W-3 transmittal are produced within the IRS deadline.
+          For agencies using <Link href="/services/managed-payroll/staffing-agency" style={{ color: '#ECAC60' }}>BEG Managed Payroll</Link>, year-end W-2 production is included in the base service. No additional per-form fees. W-2s and the accompanying W-3 transmittal are produced within the IRS deadline.
         </p>
 
         <div style={{ background: '#f5f0e8', border: '2px solid #ECAC60', borderRadius: '8px', padding: '2rem', marginBottom: '2.5rem' }}>

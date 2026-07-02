@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Brewery & Distillery Payroll | Instant Quote | BEG',
-  description: 'Brewery and distillery payroll fully managed at $25–$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.',
+  description: 'Brewery and distillery payroll fully managed at $25-$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/brewery' },
   openGraph: {
     title: 'Brewery & Distillery Payroll | Instant Quote | BEG',
-    description: 'Brewery and distillery payroll fully managed at $25–$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.',
+    description: 'Brewery and distillery payroll fully managed at $25-$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.',
     url: 'https://www.beghr.com/services/managed-payroll/brewery',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Brewery & Distillery Payroll | Instant Quote | BEG', description: 'Brewery and distillery payroll fully managed at $25–$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Brewery & Distillery Payroll | Instant Quote | BEG', description: 'Brewery and distillery payroll fully managed at $25-$45 PEPM. Taproom tip credit, production overtime, sales rep commissions, and seasonal staff included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('brewery-payroll');
@@ -29,7 +29,7 @@ export default function PayrollBreweryPage() {
       imageAlt="Brewery with fully managed payroll for taproom and production staff"
       eyebrow="Managed Payroll · Breweries & Distilleries"
       title="Brewery payroll covers two completely different workforces. We manage both."
-      description="Taproom staff with tip credits and minimum wage reporting, production crew with shift and overtime pay, sales reps on commission, and seasonal taproom staffing spikes make brewery and distillery payroll one of the most structurally complex outside of healthcare. BEG manages all of it at $25–$45 per employee per month - fully managed, no migration required."
+      description="Taproom staff with tip credits and minimum wage reporting, production crew with shift and overtime pay, sales reps on commission, and seasonal taproom staffing spikes make brewery and distillery payroll one of the most structurally complex outside of healthcare. BEG manages all of it at $25-$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -156,7 +156,7 @@ export default function PayrollBreweryPage() {
                   ['State-specific tip credit rules', 'Auto-applied', 'Must track state changes', 'You update it'],
                   ['Seasonal staff ramp handling', 'Included', 'Stressful for one person', 'You manage it'],
                   ['Year-end W-2 with tip income', 'Included', 'Included', 'Extra fee'],
-                  ['Monthly cost (30 employees)', '$750–$1,350', '$5,800–$8,300', '$350–$800 + risk'],
+                  ['Monthly cost (30 employees)', '$750-$1,350', '$5,800-$8,300', '$350-$800 + risk'],
                 ].map(([factor, beg, inhouse, software], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
                     <td style={{ padding: '0.85rem 1rem', fontWeight: '600', color: '#222222' }}>{factor}</td>
@@ -183,7 +183,7 @@ export default function PayrollBreweryPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The right time to transition is before summer taproom season - not in the middle of it.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Breweries that start the scope review in March arrive at summer season with a fully managed payroll system handling taproom, production, and sales staff simultaneously. Breweries that wait add payroll complexity to their busiest operational months.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Breweries that start the scope review in March arrive at summer season with a fully managed payroll system handling taproom, production, and sales staff simultaneously. Breweries that wait add payroll complexity to their busiest operational months.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -236,8 +236,8 @@ export default function PayrollBreweryPage() {
               <p>Yes. BEG handles sales representative payroll under common brewery sales structures: salary plus commission, commission-only, or draw-against-commission. For draw-against-commission structures, BEG tracks the draw balance, commission earned, and net payroll each period. When a rep goes negative on their draw, BEG applies the correct accounting treatment per the commission agreement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for a brewery or distillery?</h3>
-              <p>Everything: payroll processing for taproom, production, and sales staff, tip credit calculations with minimum wage true-ups, tip income reporting, production overtime, commission payroll, seasonal staff onboarding and termination, year-end W-2 preparation, and dedicated BEG support. No per-run fees, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include for a brewery or distillery?</h3>
+              <p>Everything: payroll processing for taproom, production, and sales staff, tip credit calculations with minimum wage true-ups, tip income reporting, production overtime, commission payroll, seasonal staff onboarding and termination, year-end W-2 preparation, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Does BEG handle states where the tip credit is not allowed?</h3>
@@ -256,7 +256,7 @@ export default function PayrollBreweryPage() {
             mainEntity: [
               { '@type': 'Question', name: 'How does the FLSA tip credit work for taproom staff?', acceptedAnswer: { '@type': 'Answer', text: 'The FLSA tip credit allows paying tipped employees $2.13/hour cash wage if tips bring total compensation to at least $7.25/hour. BEG calculates the minimum wage true-up automatically and applies the correct state rule where tip credit is not allowed.' } },
               { '@type': 'Question', name: 'Can BEG manage sales rep commission payroll?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG handles salary plus commission, commission-only, and draw-against-commission structures including balance tracking and correct accounting treatment.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include for a brewery?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll for taproom, production, and sales staff, tip credit calculations, overtime, commission payroll, seasonal staff handling, year-end W-2s, and dedicated support. No per-run fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include for a brewery?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll for taproom, production, and sales staff, tip credit calculations, overtime, commission payroll, seasonal staff handling, year-end W-2s, and dedicated support.' } },
               { '@type': 'Question', name: 'Does BEG handle states where the tip credit is not allowed?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG applies the correct state rule for each taproom location, including states like California and Minnesota that require full state minimum wage regardless of tips received.' } },
             ],
           }),

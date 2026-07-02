@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for real estate company payroll?',
-    answer: 'BEG charges $25 PEPM working in your existing system, or $45 PEPM on BEG\'s iSolved platform. Both are all-inclusive, no per-run fees, no separate charges for commission processing, multi-state filings, or W-2 production. At 40 W-2 employees, that is $1,000–$1,800/month compared to an HR Coordinator at $4,500–$6,500/month in fully loaded cost.',
+    answer: 'BEG charges $25 PEPM working in your existing system, or $45 PEPM on BEG\'s iSolved platform. Both are all-inclusive, no separate charges for commission processing, multi-state filings, or W-2 production. At 40 W-2 employees, that is $1,000-$1,800/month compared to an HR Coordinator at $4,500-$6,500/month in fully loaded cost.',
   },
 ];
 
@@ -77,9 +77,9 @@ export default function RealEstatePropertyManagementPayrollPage() {
 
         <p>Real estate brokerages and property management companies operate a workforce split that most payroll systems were not built to handle gracefully. Licensed agents are typically independent contractors under IRC Section 3508, no withholding, no FICA, 1099 at year end. But the office administrator, the transaction coordinator, the property manager, and the leasing agent are W-2 employees who require full payroll processing, benefits administration, and state tax compliance. Running both populations through the same office creates classification risk that is easy to get wrong and expensive to fix.</p>
 
-        <p>Add multi-property structures, commission splits that vary by agent and transaction type, brokerage franchise royalties that affect net pay calculations, and property management staff spread across multiple states, and the complexity compounds quickly. Most brokerages hire an HR Coordinator at $45,000–$65,000 base to manage this. By the time you add FICA, benefits, PTO, software, and overhead, the all-in cost is $65,000–$95,000 per year for a role that is perpetually underwater on the compliance side.</p>
+        <p>Add multi-property structures, commission splits that vary by agent and transaction type, brokerage franchise royalties that affect net pay calculations, and property management staff spread across multiple states, and the complexity compounds quickly. Most brokerages hire an HR Coordinator at $45,000-$65,000 base to manage this. By the time you add FICA, benefits, PTO, software, and overhead, the all-in cost is $65,000-$95,000 per year for a role that is perpetually underwater on the compliance side.</p>
 
-        <p>BEG's managed payroll service handles the entire W-2 workforce, office staff, property managers, support roles, at $25–$45 PEPM all-inclusive. Agents remain on your 1099 process. The result is clean separation, accurate compliance, and payroll costs that scale with your headcount rather than requiring a fixed hire the moment you cross 15 employees.</p>
+        <p>BEG's managed payroll service handles the entire W-2 workforce, office staff, property managers, support roles, at $25-$45 PEPM all-inclusive. Agents remain on your 1099 process. The result is clean separation, accurate compliance, and payroll costs that scale with your headcount rather than requiring a fixed hire the moment you cross 15 employees.</p>
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>The True Cost of In-House Payroll at a Real Estate Company</h2>
 
@@ -95,16 +95,16 @@ export default function RealEstatePropertyManagementPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['HR Coordinator base salary', '$45,000–$65,000'],
-                ['Employer FICA (7.65%)', '$3,443–$4,973'],
-                ['Health insurance contribution (employer portion)', '$6,000–$9,600'],
-                ['PTO (15 days average)', '$2,600–$3,750'],
-                ['401(k) match (3% typical)', '$1,350–$1,950'],
-                ['Payroll software subscription', '$2,400–$5,400'],
-                ['Multi-state compliance tools / TPA fees', '$1,800–$4,200'],
-                ['Recruiting and onboarding', '$3,500–$7,000'],
-                ['Commission calculation errors and corrections (estimated)', '$1,500–$4,000'],
-                ['Total fully loaded annual cost', '$67,593–$105,873'],
+                ['HR Coordinator base salary', '$45,000-$65,000'],
+                ['Employer FICA (7.65%)', '$3,443-$4,973'],
+                ['Health insurance contribution (employer portion)', '$6,000-$9,600'],
+                ['PTO (15 days average)', '$2,600-$3,750'],
+                ['401(k) match (3% typical)', '$1,350-$1,950'],
+                ['Payroll software subscription', '$2,400-$5,400'],
+                ['Multi-state compliance tools / TPA fees', '$1,800-$4,200'],
+                ['Recruiting and onboarding', '$3,500-$7,000'],
+                ['Commission calculation errors and corrections (estimated)', '$1,500-$4,000'],
+                ['Total fully loaded annual cost', '$67,593-$105,873'],
               ].map(([item, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 9 ? '700' : 'normal' }}>{item}</td>
@@ -132,10 +132,10 @@ export default function RealEstatePropertyManagementPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['20 employees', '$6,000/yr', '$10,800/yr', '$67,593–$105,873/yr', '$56,793–$99,873'],
-                ['40 employees', '$12,000/yr', '$21,600/yr', '$67,593–$105,873/yr', '$45,993–$93,873'],
-                ['80 employees', '$24,000/yr', '$43,200/yr', '$75,000–$110,000/yr', '$31,800–$86,000'],
-                ['150 employees', '$45,000/yr', '$81,000/yr', '$100,000–$140,000/yr*', '$19,000–$95,000'],
+                ['20 employees', '$6,000/yr', '$10,800/yr', '$67,593-$105,873/yr', '$56,793-$99,873'],
+                ['40 employees', '$12,000/yr', '$21,600/yr', '$67,593-$105,873/yr', '$45,993-$93,873'],
+                ['80 employees', '$24,000/yr', '$43,200/yr', '$75,000-$110,000/yr', '$31,800-$86,000'],
+                ['150 employees', '$45,000/yr', '$81,000/yr', '$100,000-$140,000/yr*', '$19,000-$95,000'],
               ].map(([count, low, high, inhouse, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{count}</td>
@@ -194,8 +194,8 @@ export default function RealEstatePropertyManagementPayrollPage() {
             <tbody>
               {[
                 ['Under 10 W-2 employees, 1 state', 'DIY or software only', 'PEPM cost may exceed salary cost at very low headcount'],
-                ['10–30 W-2 employees, 1–2 states', 'Strong case for outsourcing', 'Compliance complexity grows faster than headcount'],
-                ['30–80 W-2 employees, 2+ states', 'Outsource', 'Multi-state compliance exceeds in-house capacity'],
+                ['10-30 W-2 employees, 1-2 states', 'Strong case for outsourcing', 'Compliance complexity grows faster than headcount'],
+                ['30-80 W-2 employees, 2+ states', 'Outsource', 'Multi-state compliance exceeds in-house capacity'],
                 ['Active commission payroll for agents/managers', 'Outsource', 'Commission split errors are costly and avoidable'],
                 ['Property management with multiple portfolios', 'Outsource', 'Cost allocation and multi-state filing require systems'],
                 ['Growing brokerage adding offices', 'Outsource now', 'Avoid building in-house infrastructure you will outgrow'],
@@ -212,7 +212,7 @@ export default function RealEstatePropertyManagementPayrollPage() {
 
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Payroll That Keeps Up With How Real Estate Actually Works</p>
-          <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>W-2 staff, commission splits, multi-state property managers, BEG handles all of it at $25–$45 PEPM, all-inclusive. No coordinator hire. No compliance gaps.</p>
+          <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>W-2 staff, commission splits, multi-state property managers, BEG handles all of it at $25-$45 PEPM, all-inclusive. No coordinator hire.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -238,7 +238,7 @@ export default function RealEstatePropertyManagementPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads managed payroll and HR services at Business Executive Group. BEG serves real estate brokerages and property management companies nationally, handling mixed W-2/1099 workforces, commission processing, and multi-state compliance at $25–$45 PEPM all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads managed payroll and HR services at Business Executive Group. BEG serves real estate brokerages and property management companies nationally, handling mixed W-2/1099 workforces, commission processing, and multi-state compliance at $25-$45 PEPM all-inclusive.</p>
         </div>
 
       </section>
@@ -272,7 +272,7 @@ export default function RealEstatePropertyManagementPayrollPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Real Estate Payroll Outsourcing: Managing W-2 Staff and 1099 Agents (2026)',
-        description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Save $45K–$80K annually.',
+        description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Save $45K-$80K annually.',
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },

@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Private School Payroll | Instant Quote | BEG',
-  description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.',
+  description: 'Private school payroll fully managed at $25-$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/education' },
   openGraph: {
     title: 'Private School Payroll | Instant Quote | BEG',
-    description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.',
+    description: 'Private school payroll fully managed at $25-$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.',
     url: 'https://www.beghr.com/services/managed-payroll/education',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Private School Payroll | Instant Quote | BEG', description: 'Private school payroll fully managed at $25–$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Private School Payroll | Instant Quote | BEG', description: 'Private school payroll fully managed at $25-$45 PEPM. 10-month teacher pay spreads, sub tracking, 403(b) administration, and part-time aide payroll included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('education-payroll');
@@ -29,7 +29,7 @@ export default function PayrollEducationPage() {
       imageAlt="Private school with fully managed payroll"
       eyebrow="Managed Payroll · Private Schools"
       title="Private school payroll has rules the big platforms miss. We built our process around them."
-      description="Spreading 10-month teacher salaries over 12 months, managing summer benefit continuations, tracking substitute teacher and part-time aide payroll, administering 403(b) deductions, and handling payroll gaps during summer break create complexity that generic payroll platforms handle poorly. BEG manages all of it at $25–$45 per employee per month - fully managed, no migration required."
+      description="Spreading 10-month teacher salaries over 12 months, managing summer benefit continuations, tracking substitute teacher and part-time aide payroll, administering 403(b) deductions, and handling payroll gaps during summer break create complexity that generic payroll platforms handle poorly. BEG manages all of it at $25-$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -62,7 +62,7 @@ export default function PayrollEducationPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>Sub tracking burden</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Substitute teachers and part-time aides have variable hours and irregular pay - and they still need accurate W-2s in January</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Private schools often employ 10–30 substitute teachers who work anywhere from zero to five days per week with no regular schedule. Tracking hours, ensuring ACA measurement period compliance, and preparing accurate year-end W-2s for subs requires a process that most school administrators are managing in spreadsheets.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Private schools often employ 10-30 substitute teachers who work anywhere from zero to five days per week with no regular schedule. Tracking hours, ensuring ACA measurement period compliance, and preparing accurate year-end W-2s for subs requires a process that most school administrators are managing in spreadsheets.</div>
                 </div>
               ))()
             }
@@ -156,7 +156,7 @@ export default function PayrollEducationPage() {
                   ['403(b) deductions and employer match', 'Included', 'Included with expertise', 'You configure it'],
                   ['ACA measurement period for subs', 'Tracked automatically', 'Manual tracking', 'Add-on module'],
                   ['Year-end W-2 for all staff', 'Included', 'Included', 'Extra fee'],
-                  ['Monthly cost (45 staff)', '$1,125–$2,025', '$5,800–$8,300', '$500–$1,000 + risk'],
+                  ['Monthly cost (45 staff)', '$1,125-$2,025', '$5,800-$8,300', '$500-$1,000 + risk'],
                 ].map(([factor, beg, inhouse, software], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
                     <td style={{ padding: '0.85rem 1rem', fontWeight: '600', color: '#222222' }}>{factor}</td>
@@ -183,7 +183,7 @@ export default function PayrollEducationPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The right time to transition payroll is before the school year starts - not in October.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Private school payroll transitions take 30–60 days. Schools that begin the scope review process in May or June arrive at September with a fully managed system handling teacher pay from day one. Schools that wait typically carry suboptimal payroll management through another full academic year.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Private school payroll transitions take 30-60 days. Schools that begin the scope review process in May or June arrive at September with a fully managed system handling teacher pay from day one. Schools that wait typically carry suboptimal payroll management through another full academic year.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -236,8 +236,8 @@ export default function PayrollEducationPage() {
               <p>BEG processes employee 403(b) deferrals from each paycheck, applies employer match calculations if the plan includes matching, and tracks year-to-date contributions against IRS annual limits. When a teacher's deferral reaches the annual limit, BEG stops the deduction automatically. Employer match contributions are processed correctly even during summer payroll periods when no work is performed.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for a private school?</h3>
-              <p>Everything: payroll processing for teachers and all staff, 10-month salary spread management, substitute and part-time aide tracking, 403(b) deduction processing, benefit continuation during summer, year-end W-2 preparation for all staff, and dedicated BEG support. No per-cycle fees, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include for a private school?</h3>
+              <p>Everything: payroll processing for teachers and all staff, 10-month salary spread management, substitute and part-time aide tracking, 403(b) deduction processing, benefit continuation during summer, year-end W-2 preparation for all staff, and dedicated BEG support. No per-cycle fees.</p>
             </div>
             <div className="faq-item">
               <h3>Do we need to switch payroll platforms?</h3>

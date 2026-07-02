@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Marketing Agency Payroll | Instant Quote | BEG',
-  description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
+  description: 'Marketing agency payroll fully managed at $25-45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/marketing-agency' },
   openGraph: {
     title: 'Marketing Agency Payroll | Instant Quote | BEG',
-    description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
+    description: 'Marketing agency payroll fully managed at $25-45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.',
     url: 'https://www.beghr.com/services/managed-payroll/marketing-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Marketing Agency Payroll | Instant Quote | BEG', description: 'Marketing agency payroll fully managed at $25–45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Marketing Agency Payroll | Instant Quote | BEG', description: 'Marketing agency payroll fully managed at $25-45 PEPM. Remote multi-state teams, contractor classification, and commission handling included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -30,11 +30,11 @@ export default function PayrollMarketingAgencyPage() {
       imageAlt="Marketing and creative agency with fully managed remote payroll"
       eyebrow="Managed Payroll · Marketing & Creative Agencies"
       title="Managed Payroll for Marketing and Creative Agencies"
-      description="Remote teams across multiple states, freelancers on W-2 or 1099, and AE commissions -- all managed. Marketing and creative agencies scale fast and hire everywhere, which means multi-state tax nexus accumulates faster than most founders realize. Add in the blurry line between W-2 creatives and 1099 contractors, account manager commission structures, and the administrative overhead of a fully remote team, and payroll becomes a real operational drag. We manage all of it at $25–$45 per employee per month."
+      description="Remote teams across multiple states, freelancers on W-2 or 1099, and AE commissions -- all managed. Marketing and creative agencies scale fast and hire everywhere, which means multi-state tax nexus accumulates faster than most founders realize. Add in the blurry line between W-2 creatives and 1099 contractors, account manager commission structures, and the administrative overhead of a fully remote team, and payroll becomes a real operational drag. We manage all of it at $25-$45 per employee per month."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered as your remote team grows' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -53,7 +53,7 @@ export default function PayrollMarketingAgencyPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>State nexus</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Every remote hire in a new state creates a payroll tax obligation you may not know you have</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Agencies that hire remotely accumulate payroll tax registrations in every state where an employee works. Missing a state registration means unfiled payroll tax returns, which triggers back taxes, penalties, and interest the moment that state's revenue department notices. Agencies with 20 remote employees can easily be in 12–15 states.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Agencies that hire remotely accumulate payroll tax registrations in every state where an employee works. Missing a state registration means unfiled payroll tax returns, which triggers back taxes, penalties, and interest the moment that state's revenue department notices. Agencies with 20 remote employees can easily be in 12-15 states.</div>
                 </div>
               ))()
             }
@@ -144,7 +144,7 @@ export default function PayrollMarketingAgencyPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services charge extra for multi-state registrations, 1099 processing, and commission tracking."',
-                body: 'The $25–$45 PEPM rate covers it all: multi-state payroll, new state registrations, 1099-NEC processing, commission tracking, year-end W-2s, and BEG support. No per-state fees, no per-1099 charges, no year-end invoices.',
+                body: 'The $25-$45 PEPM rate covers it all: multi-state payroll, new state registrations, 1099-NEC processing, commission tracking, year-end W-2s, and BEG support.',
               },
               {
                 badge: 'Bonus 03',
@@ -173,13 +173,13 @@ export default function PayrollMarketingAgencyPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Getting Started</p>
-            <h2>From scope review to live agency payroll in 3–5 business days</h2>
+            <h2>From scope review to live agency payroll in 3-5 business days</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
               { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your remote team locations, state registration gaps, contractor arrangements, and commission structures -- and give you a fixed monthly price.' },
-              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, remote employee locations and contractor classification reviewed.' },
-              { day: 'Days 2–4', title: 'Configuration', body: 'Missing state registrations completed, contractor classification review done, and commission tracking configured in your existing system.' },
+              { day: 'Days 1-2', title: 'Onboarding', body: 'Agreement signed, system access granted, remote employee locations and contractor classification reviewed.' },
+              { day: 'Days 2-4', title: 'Configuration', body: 'Missing state registrations completed, contractor classification review done, and commission tracking configured in your existing system.' },
               { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed agency pay run -- BEG executes, your team approves. State compliance gaps closed before this cycle.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
@@ -199,12 +199,12 @@ export default function PayrollMarketingAgencyPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every new remote hire you add without a state registration is a liability you are building.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>State revenue departments are increasingly aggressive about identifying out-of-state employers with unregistered employees. When they find you -- through W-2 data sharing, employee complaints, or unemployment claims -- the back taxes, penalties, and interest cover every year you had an employee in that state without registering. Fully managed payroll at $25–$45 PEPM on a 25-person agency costs under $14,000 per year. One state tax audit costs more.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>State revenue departments are increasingly aggressive about identifying out-of-state employers with unregistered employees. When they find you -- through W-2 data sharing, employee complaints, or unemployment claims -- the back taxes, penalties, and interest cover every year you had an employee in that state without registering. Fully managed payroll at $25-$45 PEPM on a 25-person agency costs under $14,000 per year. One state tax audit costs more.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix multi-state payroll is before you add the next remote hire.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Transitions take 30–60 days. If you are planning to hire in Q3 or Q4 -- or already have people in states you are not registered in -- the scope review is the first step. We identify every state where you have exposure and get you registered before the next payroll cycle.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Transitions take 30-60 days. If you are planning to hire in Q3 or Q4 -- or already have people in states you are not registered in -- the scope review is the first step. We identify every state where you have exposure and get you registered before the next payroll cycle.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -239,8 +239,8 @@ export default function PayrollMarketingAgencyPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option if you want to upgrade, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: multi-state payroll processing, new state registrations, contractor 1099-NEC filing, commission tracking, year-end W-2s, and BEG support. No per-state fees, no per-1099 charges.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: multi-state payroll processing, new state registrations, contractor 1099-NEC filing, commission tracking, year-end W-2s, and BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle owner compensation in an S-corp marketing agency?</h3>
@@ -248,11 +248,11 @@ export default function PayrollMarketingAgencyPage() {
             </div>
             <div className="faq-item">
               <h3>Can you register us in a state where we just hired our first remote employee?</h3>
-              <p>Yes -- and this is included at no additional charge. When you hire someone in a new state, we initiate the registration, get your accounts set up, and configure withholding before the first paycheck in that state. There is no per-state setup fee and no waiting for you to handle the paperwork. We track every state where you have payroll obligations and stay ahead of your hiring.</p>
+              <p>Yes -- and this is included at no additional charge. When you hire someone in a new state, we initiate the registration, get your accounts set up, and configure withholding before the first paycheck in that state. We track every state where you have payroll obligations and stay ahead of your hiring.</p>
             </div>
             <div className="faq-item">
               <h3>How long does it take to get started with managed marketing agency payroll?</h3>
-              <p>From signed agreement to live payroll: 3–5 business days. We identify every state where you have employees, complete missing registrations, review contractor classifications, and configure commission tracking in your existing system. Most agencies run their first BEG-managed payroll within a week -- with state compliance gaps that existed for months closed before that first pay cycle runs.</p>
+              <p>From signed agreement to live payroll: 3-5 business days. We identify every state where you have employees, complete missing registrations, review contractor classifications, and configure commission tracking in your existing system. Most agencies run their first BEG-managed payroll within a week -- with state compliance gaps that existed for months closed before that first pay cycle runs.</p>
             </div>
           </div>
         </div>

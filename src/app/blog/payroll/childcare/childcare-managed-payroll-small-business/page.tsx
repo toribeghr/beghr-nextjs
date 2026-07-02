@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for childcare center payroll?',
-    answer: 'Childcare payroll runs at $25–$45 per employee per month. For a center with 25 employees, that is $625–$1,125 per month with no per-run fees and licensing-ready recordkeeping included.',
+    answer: 'Childcare payroll runs at $25-$45 per employee per month. For a center with 25 employees, that is $625-$1,125 per month with licensing-ready recordkeeping included.',
   },
 ];
 
@@ -65,7 +65,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Managed payroll at $25–$45 PEPM all-inclusive makes economic sense at nearly every size for childcare centers, but the specific value drivers differ depending on headcount.</p>
+        <p>Managed payroll at $25-$45 PEPM all-inclusive makes economic sense at nearly every size for childcare centers, but the specific value drivers differ depending on headcount.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Payroll at Different Sizes for Childcare Centers</h2>
 
@@ -81,34 +81,34 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Single site (15-30 staff)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$375–$1,350/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $43K–$68K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$375-$1,350/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $43K-$68K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Multi-site (30-80 staff)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$750–$3,600/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $38K–$60K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$750-$3,600/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $38K-$60K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Childcare chain (80-200 staff)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$2,000–$9,000/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$2,000-$9,000/mo</td>
                   <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $18K+/yr</td>
                 </tr>
             </tbody>
           </table>
         </div>
 
-        <p>The comparison is against an in-house hire at $45,000–$70,000 fully loaded to $47K–$73K per year.</p>
+        <p>The comparison is against an in-house hire at $45,000-$70,000 fully loaded to $47K-$73K per year.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Under 25 Employees: The Clearest ROI</h2>
 
-        <p>For childcare centers under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $45,000–$70,000 fully loaded -- compared to $625–$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2–3 months.</p>
+        <p>For childcare centers under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $45,000-$70,000 fully loaded -- compared to $625-$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2-3 months.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25–75 Employees: Complexity Drives the Case</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25-75 Employees: Complexity Drives the Case</h2>
 
-        <p>In the 25–75 employee range, childcare centers are dealing with more licensing-tied payroll records, subsidy payment coordination, part-time variable-hour staff, teacher certification pay. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
+        <p>In the 25-75 employee range, childcare centers are dealing with more licensing-tied payroll records, subsidy payment coordination, part-time variable-hour staff, teacher certification pay. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75–200 Employees: Hybrid Approaches Emerge</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75-200 Employees: Hybrid Approaches Emerge</h2>
 
         <p>At 75+ employees, childcare centers often consider a hybrid approach: an HR generalist handles employee relations and benefits while a managed payroll provider handles the compliance-heavy payroll function. This keeps an internal HR presence while outsourcing the most technically complex piece.</p>
 
@@ -157,7 +157,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do your payroll records meet state childcare licensing requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Records include employee name, position, hours worked, wages paid, and tax withholding, formatted for state childcare licensing agencies upon request."}},{"@type":"Question","name":"How do you handle part-time and variable-hour teachers?","acceptedAnswer":{"@type":"Answer","text":"Part-time and variable-hour employees are processed based on actual hours worked each period. ACA full-time equivalent tracking is done for centers with 50+ combined FTEs."}},{"@type":"Question","name":"How do you handle certification pay differentials?","acceptedAnswer":{"@type":"Answer","text":"Teachers with CDA, associate, or bachelor&apos;s degree credentials are set up with corresponding pay grades. Pay changes when credentials are earned effective on the date you specify."}},{"@type":"Question","name":"What does BEG charge for childcare center payroll?","acceptedAnswer":{"@type":"Answer","text":"Childcare payroll runs at $25–$45 per employee per month. For a center with 25 employees, that is $625–$1,125 per month with no per-run fees and licensing-ready recordkeeping included."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do your payroll records meet state childcare licensing requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Records include employee name, position, hours worked, wages paid, and tax withholding, formatted for state childcare licensing agencies upon request."}},{"@type":"Question","name":"How do you handle part-time and variable-hour teachers?","acceptedAnswer":{"@type":"Answer","text":"Part-time and variable-hour employees are processed based on actual hours worked each period. ACA full-time equivalent tracking is done for centers with 50+ combined FTEs."}},{"@type":"Question","name":"How do you handle certification pay differentials?","acceptedAnswer":{"@type":"Answer","text":"Teachers with CDA, associate, or bachelor&apos;s degree credentials are set up with corresponding pay grades. Pay changes when credentials are earned effective on the date you specify."}},{"@type":"Question","name":"What does BEG charge for childcare center payroll?","acceptedAnswer":{"@type":"Answer","text":"Childcare payroll runs at $25-$45 per employee per month. For a center with 25 employees, that is $625-$1,125 per month with licensing-ready recordkeeping included."}}]}`,
         }}
       />
 

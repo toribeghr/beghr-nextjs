@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG',
-  description: 'Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers\' comp audits and benefits sync. $25–$45 PEPM, no conflict.',
+  description: 'Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers\' comp audits and benefits sync. $25-$45 PEPM, no conflict.',
   alternates: { canonical: 'https://www.beghr.com/partners/broker' },
   openGraph: {
     title: 'Broker Partner Program | Cleaner Audits. No Conflict. | BEG',
-    description: "Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers' comp audits and benefits sync. $25–$45 PEPM, no conflict.",
+    description: "Refer clients to BEG for fully managed payroll. Clean payroll data simplifies workers' comp audits and benefits sync. $25-$45 PEPM, no conflict.",
     url: 'https://www.beghr.com/partners/broker',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -153,7 +153,7 @@ export default function BrokerPartnerPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>What Clients Pay</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          BEG charges $25 per employee per month when we operate inside the client's existing payroll system, or $45 per employee per month when we run payroll through our iSolved account. Both tiers are all-inclusive: no setup fees, no per-run charges, no add-ons for state filings or year-end W-2s.
+          BEG charges $25 per employee per month when we operate inside the client's existing payroll system, or $45 per employee per month when we run payroll through our iSolved account. Both tiers are all-inclusive.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
           Setup is fast. From signed agreement to first managed pay run is typically 3 to 5 business days. The client does not need to switch platforms or migrate data. BEG operates inside what they already use.

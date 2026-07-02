@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Salon & Spa Payroll | Instant Quote | BEG',
-  description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
+  description: 'Salon and spa payroll fully managed at $25-$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/salon-spa' },
   openGraph: {
     title: 'Salon & Spa Payroll | Instant Quote | BEG',
-    description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
+    description: 'Salon and spa payroll fully managed at $25-$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
     url: 'https://www.beghr.com/services/managed-payroll/salon-spa',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Salon & Spa Payroll | Instant Quote | BEG',
-    description: 'Salon and spa payroll fully managed at $25–$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
+    description: 'Salon and spa payroll fully managed at $25-$45 PEPM. Booth rental classification, commission splits, tip reporting, and compliance included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -33,7 +33,7 @@ export default function PayrollSalonSpaPage() {
       imageAlt="Salon and spa business with fully managed payroll"
       eyebrow="Managed Payroll · Salon & Spa"
       title="Salon and spa payroll is more complex than your booking software can handle."
-      description="Booth renters, W-2 stylists, commission splits, tip reporting, and state cosmetology wage rules all live in the same building. BEG manages all of it at $25–$45 per employee per month. Fully managed, no migration required."
+      description="Booth renters, W-2 stylists, commission splits, tip reporting, and state cosmetology wage rules all live in the same building. BEG manages all of it at $25-$45 per employee per month. Fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -75,7 +75,7 @@ export default function PayrollSalonSpaPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$60K+</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Fully-loaded annual cost of one in-house payroll administrator</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>A fully managed BEG service at $25–$45 PEPM on a 20-person team costs $6,000–$10,800 per year. A payroll admin handling the same complexity costs four to six times more and still makes classification errors.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>A fully managed BEG service at $25-$45 PEPM on a 20-person team costs $6,000-$10,800 per year. A payroll admin handling the same complexity costs four to six times more and still makes classification errors.</div>
                 </div>
               ))()
             }
@@ -191,7 +191,7 @@ export default function PayrollSalonSpaPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to clean up your payroll structure is before an audit triggers it.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions with BEG take 30–60 days. We scope your current setup, identify classification and compliance gaps, and move you to a clean, managed structure before the problem becomes a notice. Every cycle you wait is another cycle of exposure.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions with BEG take 30-60 days. We scope your current setup, identify classification and compliance gaps, and move you to a clean, managed structure before the problem becomes a notice. Every cycle you wait is another cycle of exposure.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -218,8 +218,8 @@ export default function PayrollSalonSpaPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement. If your current system cannot handle commission splits or tip credit calculations correctly, we can recommend a better platform and manage the transition, but only if you want that.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for salon and spa businesses?</h3>
-              <p>Everything: payroll processing, commission calculations, tip credit compliance, federal and state tax filing, year-end W-2 production, and dedicated BEG support. No per-run fees, no year-end surcharges, no module upsells. One flat rate covers all complexity.</p>
+              <h3>What does $25-$45 PEPM include for salon and spa businesses?</h3>
+              <p>Everything: payroll processing, commission calculations, tip credit compliance, federal and state tax filing, year-end W-2 production, and dedicated BEG support. One flat rate covers all complexity.</p>
             </div>
             <div className="faq-item">
               <h3>How are commissioned stylists handled if they have a slow week and do not hit minimum wage?</h3>
@@ -242,7 +242,7 @@ export default function PayrollSalonSpaPage() {
             mainEntity: [
               { '@type': 'Question', name: 'How does BEG determine whether a booth renter should be classified as an employee?', acceptedAnswer: { '@type': 'Answer', text: 'BEG reviews the actual working arrangement against the IRS common-law test and applicable state tests, which look at behavioral control, financial control, and the type of relationship. Workers who are controlled by the salon in how they perform their work are likely employees regardless of what a rental agreement says.' } },
               { '@type': 'Question', name: 'Do we have to change our payroll system to work with BEG?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, commission calculations, tip credit compliance, tax filing, year-end W-2 production, and dedicated BEG support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, commission calculations, tip credit compliance, tax filing, year-end W-2 production, and dedicated BEG support.' } },
               { '@type': 'Question', name: 'How are commissioned stylists handled if they do not hit minimum wage?', acceptedAnswer: { '@type': 'Answer', text: 'BEG checks commission earnings against the minimum wage floor every workweek and processes the required wage supplement automatically if needed.' } },
               { '@type': 'Question', name: 'Can BEG handle payroll for salons in multiple states?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG manages state-by-state payroll tax registration, remittance, and compliance across all states where you have employed workers.' } },
             ],
@@ -283,7 +283,7 @@ export default function PayrollSalonSpaPage() {
           {
             category: 'Managed Payroll',
             title: 'Managed Payroll vs. In-House: Cost Comparison for Salon Owners (2026)',
-            excerpt: 'What salon and spa owners actually spend on in-house payroll administration versus a fully managed service at $25–$45 PEPM.',
+            excerpt: 'What salon and spa owners actually spend on in-house payroll administration versus a fully managed service at $25-$45 PEPM.',
             href: '/services/managed-payroll',
           },
         ]}

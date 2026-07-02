@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does outsourced government contractor payroll include?',
-    answer: 'BEG managed payroll for government contractors includes: payroll processing for all employees by contract cost center; direct labor allocation to contract numbers and CLINs; indirect labor pool tracking (overhead, G&A, B&P); SCA wage determination rate configuration and H&W benefit tracking; Davis-Bacon certified payroll report preparation; fringe benefit compliance tracking (bona fide benefits and cash-in-lieu); federal and state tax withholding and deposits; direct deposit; garnishments; year-end W-2 production; labor distribution reports for incurred cost submissions; and support for DCAA floor check documentation. All at $25-$45 PEPM, no per-run fees.',
+    answer: 'BEG managed payroll for government contractors includes: payroll processing for all employees by contract cost center; direct labor allocation to contract numbers and CLINs; indirect labor pool tracking (overhead, G&A, B&P); SCA wage determination rate configuration and H&W benefit tracking; Davis-Bacon certified payroll report preparation; fringe benefit compliance tracking (bona fide benefits and cash-in-lieu); federal and state tax withholding and deposits; direct deposit; garnishments; year-end W-2 production; labor distribution reports for incurred cost submissions; and support for DCAA floor check documentation. All at $25-$45 PEPM.',
   },
   {
     question: 'How does managed payroll support DCAA audit readiness?',
@@ -122,7 +122,7 @@ export default function OutsourceGovernmentContractorPayrollPage() {
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>BEG Onboarding for Government Contractors</h2>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          <Link href="/services/managed-payroll/government-contractor" style={{ color: '#ECAC60' }}>BEG Managed Payroll</Link> onboards government contractors in 3-5 business days from contract signing. We gather employee records and security clearance classifications, configure contract cost centers and SCA or Davis-Bacon wage determination rates, set up fringe benefit tracking, verify state tax registrations, and run a test payroll before going live. For contractors transitioning from a predecessor contract, the onboarding is structured to meet the first-day compliance requirements. Pricing is $25-$45 per employee per month, all-inclusive, with no per-run fees and no year-end surcharges.
+          <Link href="/services/managed-payroll/government-contractor" style={{ color: '#ECAC60' }}>BEG Managed Payroll</Link> onboards government contractors in 3-5 business days from contract signing. We gather employee records and security clearance classifications, configure contract cost centers and SCA or Davis-Bacon wage determination rates, set up fringe benefit tracking, verify state tax registrations, and run a test payroll before going live. For contractors transitioning from a predecessor contract, the onboarding is structured to meet the first-day compliance requirements. Pricing is $25-$45 per employee per month, all-inclusive.
         </p>
 
         <div style={{ background: '#f5f0e8', border: '2px solid #ECAC60', borderRadius: '8px', padding: '2rem', marginBottom: '2.5rem' }}>

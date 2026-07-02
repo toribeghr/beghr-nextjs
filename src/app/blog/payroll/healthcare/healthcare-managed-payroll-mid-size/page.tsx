@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for healthcare payroll?',
-    answer: 'Healthcare payroll runs at $25–$45 per employee per month, all-inclusive. For a 25-person practice, that is $625–$1,125 per month with no per-run fees, no module add-ons, and no year-end surcharges.',
+    answer: 'Healthcare payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-person practice, that is $625-$1,125 per month.',
   },
 ];
 
@@ -69,7 +69,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Managed payroll at $25–$45 PEPM all-inclusive makes economic sense at nearly every size for healthcare practices, but the specific value drivers differ depending on headcount.</p>
+        <p>Managed payroll at $25-$45 PEPM all-inclusive makes economic sense at nearly every size for healthcare practices, but the specific value drivers differ depending on headcount.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Payroll at Different Sizes for Healthcare Practices</h2>
 
@@ -85,34 +85,34 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>10-person clinic</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$250–$450/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $62K–$92K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$250-$450/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $62K-$92K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>25-person practice</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$625–$1,125/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $58K–$88K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$625-$1,125/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $58K-$88K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>50-person medical group</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,250–$2,250/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $50K–$80K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,250-$2,250/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $50K-$80K/yr</td>
                 </tr>
             </tbody>
           </table>
         </div>
 
-        <p>The comparison is against an in-house hire at $65,000–$95,000 fully loaded to $67K–$98K per year.</p>
+        <p>The comparison is against an in-house hire at $65,000-$95,000 fully loaded to $67K-$98K per year.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Under 25 Employees: The Clearest ROI</h2>
 
-        <p>For healthcare practices under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $65,000–$95,000 fully loaded -- compared to $625–$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2–3 months.</p>
+        <p>For healthcare practices under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $65,000-$95,000 fully loaded -- compared to $625-$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2-3 months.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25–75 Employees: Complexity Drives the Case</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25-75 Employees: Complexity Drives the Case</h2>
 
-        <p>In the 25–75 employee range, healthcare practices are dealing with more shift differentials, on-call pay, credentialing-based pay tiers, multi-location clinic payroll. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
+        <p>In the 25-75 employee range, healthcare practices are dealing with more shift differentials, on-call pay, credentialing-based pay tiers, multi-location clinic payroll. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75–200 Employees: Hybrid Approaches Emerge</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75-200 Employees: Hybrid Approaches Emerge</h2>
 
         <p>At 75+ employees, healthcare practices often consider a hybrid approach: an HR generalist handles employee relations and benefits while a managed payroll provider handles the compliance-heavy payroll function. This keeps an internal HR presence while outsourcing the most technically complex piece.</p>
 
@@ -161,7 +161,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle shift differentials for nurses?","acceptedAnswer":{"@type":"Answer","text":"Yes. Shift differentials are set up as pay rate modifiers. Night shift, weekend, and on-call differentials apply automatically based on hours worked, producing the correct blended rate and overtime calculation."}},{"@type":"Question","name":"How do you handle ACA reporting?","acceptedAnswer":{"@type":"Answer","text":"For practices with 50 or more full-time equivalent employees, we handle Form 1094-C and 1095-C preparation and filing. We track hours to determine ACA full-time status and flag coverage gaps."}},{"@type":"Question","name":"Can you process payroll for multiple clinic locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-location practices run on a single payroll system with consolidated reporting and per-location cost center codes."}},{"@type":"Question","name":"How do you handle credentialing-based pay tiers?","acceptedAnswer":{"@type":"Answer","text":"Credentialing-based tiers are configured as pay grade structures. When a provider advances, the pay tier updates on the date you specify."}},{"@type":"Question","name":"What does BEG charge for healthcare payroll?","acceptedAnswer":{"@type":"Answer","text":"Healthcare payroll runs at $25–$45 per employee per month, all-inclusive. For a 25-person practice, that is $625–$1,125 per month with no per-run fees, no module add-ons, and no year-end surcharges."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle shift differentials for nurses?","acceptedAnswer":{"@type":"Answer","text":"Yes. Shift differentials are set up as pay rate modifiers. Night shift, weekend, and on-call differentials apply automatically based on hours worked, producing the correct blended rate and overtime calculation."}},{"@type":"Question","name":"How do you handle ACA reporting?","acceptedAnswer":{"@type":"Answer","text":"For practices with 50 or more full-time equivalent employees, we handle Form 1094-C and 1095-C preparation and filing. We track hours to determine ACA full-time status and flag coverage gaps."}},{"@type":"Question","name":"Can you process payroll for multiple clinic locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-location practices run on a single payroll system with consolidated reporting and per-location cost center codes."}},{"@type":"Question","name":"How do you handle credentialing-based pay tiers?","acceptedAnswer":{"@type":"Answer","text":"Credentialing-based tiers are configured as pay grade structures. When a provider advances, the pay tier updates on the date you specify."}},{"@type":"Question","name":"What does BEG charge for healthcare payroll?","acceptedAnswer":{"@type":"Answer","text":"Healthcare payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-person practice, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

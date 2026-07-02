@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for construction company payroll?',
-    answer: 'Construction payroll runs at $25–$45 per employee per month, all-inclusive. Certified payroll report production is included at no add-on fee. For a 25-person crew, that is $625–$1,125 per month.',
+    answer: 'Construction payroll runs at $25-$45 per employee per month, all-inclusive. Certified payroll report production is included. For a 25-person crew, that is $625-$1,125 per month.',
   },
 ];
 
@@ -94,7 +94,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How Managed Payroll Simplifies Construction Companies Operations</h2>
 
-        <p>BEG managed payroll at $25–$45 PEPM handles all of the above as part of the base service. Payroll operations run on your schedule without requiring your management team to maintain expertise in prevailing wage compliance or certified payroll.</p>
+        <p>BEG managed payroll at $25-$45 PEPM handles all of the above as part of the base service. Payroll operations run on your schedule without requiring your management team to maintain expertise in prevailing wage compliance or certified payroll.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -137,7 +137,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle certified payroll for government projects?","acceptedAnswer":{"@type":"Answer","text":"Yes. Certified payroll reports under Davis-Bacon and state prevailing wage laws are produced for each pay period in WH-347 format or state electronic reporting systems with fringe benefit credits documented."}},{"@type":"Question","name":"How do you handle union vs. non-union employees on the same job?","acceptedAnswer":{"@type":"Answer","text":"Union and non-union employees are set up with separate pay rate structures and fringe benefit calculations. Union payroll includes remittance to applicable union trust funds."}},{"@type":"Question","name":"Can you handle seasonal crew ramp-ups?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bulk new hire entry processes seasonal crew in time for the first pay cycle, including new hire reporting, withholding setup, and direct deposit."}},{"@type":"Question","name":"What does BEG charge for construction company payroll?","acceptedAnswer":{"@type":"Answer","text":"Construction payroll runs at $25–$45 per employee per month, all-inclusive. Certified payroll report production is included at no add-on fee. For a 25-person crew, that is $625–$1,125 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle certified payroll for government projects?","acceptedAnswer":{"@type":"Answer","text":"Yes. Certified payroll reports under Davis-Bacon and state prevailing wage laws are produced for each pay period in WH-347 format or state electronic reporting systems with fringe benefit credits documented."}},{"@type":"Question","name":"How do you handle union vs. non-union employees on the same job?","acceptedAnswer":{"@type":"Answer","text":"Union and non-union employees are set up with separate pay rate structures and fringe benefit calculations. Union payroll includes remittance to applicable union trust funds."}},{"@type":"Question","name":"Can you handle seasonal crew ramp-ups?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bulk new hire entry processes seasonal crew in time for the first pay cycle, including new hire reporting, withholding setup, and direct deposit."}},{"@type":"Question","name":"What does BEG charge for construction company payroll?","acceptedAnswer":{"@type":"Answer","text":"Construction payroll runs at $25-$45 per employee per month, all-inclusive. Certified payroll report production is included. For a 25-person crew, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

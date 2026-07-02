@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Cannabis Payroll | Instant Quote | BEG',
-  description: 'Cannabis payroll fully managed at $25–45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.',
+  description: 'Cannabis payroll fully managed at $25-45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/cannabis' },
   openGraph: {
     title: 'Cannabis Payroll | Instant Quote | BEG',
-    description: 'Cannabis payroll fully managed at $25–45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.',
+    description: 'Cannabis payroll fully managed at $25-45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.',
     url: 'https://www.beghr.com/services/managed-payroll/cannabis',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll | Instant Quote | BEG', description: 'Cannabis payroll fully managed at $25–45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Cannabis Payroll | Instant Quote | BEG', description: 'Cannabis payroll fully managed at $25-45 PEPM. 280E compliance, state licensing, and banking-adjacent payroll complexity handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -30,11 +30,11 @@ export default function PayrollCannabisPage() {
       imageAlt="Cannabis dispensary with fully managed payroll compliance"
       eyebrow="Managed Payroll · Cannabis & Dispensaries"
       title="Managed Payroll for Cannabis Dispensaries"
-      description="Cannabis payroll has rules no generic payroll provider understands. IRC 280E, state licensing employment requirements, banking limitations, and multi-state operational complexity make cannabis and dispensary payroll unlike anything else. We manage all of it at $25–$45 per employee per month -- so you focus on your operation, not on payroll compliance that can unravel a license."
+      description="Cannabis payroll has rules no generic payroll provider understands. IRC 280E, state licensing employment requirements, banking limitations, and multi-state operational complexity make cannabis and dispensary payroll unlike anything else. We manage all of it at $25-$45 per employee per month -- so you focus on your operation, not on payroll compliance that can unravel a license."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: '35+ states', label: 'Legal cannabis markets we operate in' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -144,7 +144,7 @@ export default function PayrollCannabisPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Cannabis-specific payroll services charge premium rates and tack on compliance surcharges."',
-                body: 'The $25–$45 PEPM rate covers everything: payroll processing, 280E allocation documentation, state filings, multi-state registrations, year-end W-2s, and BEG support. No compliance surcharges, no per-run fees, no year-end invoices.',
+                body: 'The $25-$45 PEPM rate covers everything: payroll processing, 280E allocation documentation, state filings, multi-state registrations, year-end W-2s, and BEG support.',
               },
               {
                 badge: 'Bonus 03',
@@ -173,13 +173,13 @@ export default function PayrollCannabisPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Getting Started</p>
-            <h2>From scope review to live cannabis payroll in 3–5 business days</h2>
+            <h2>From scope review to live cannabis payroll in 3-5 business days</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
               { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your employee roster by role, 280E allocation structure, banking relationship, and state licensing requirements -- and give you a fixed monthly price.' },
-              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, employee roster and 280E cost allocation structure reviewed.' },
-              { day: 'Days 2–4', title: 'Configuration', body: '280E payroll cost allocation, state registrations, and regulatory compliance documentation configured in your existing system.' },
+              { day: 'Days 1-2', title: 'Onboarding', body: 'Agreement signed, system access granted, employee roster and 280E cost allocation structure reviewed.' },
+              { day: 'Days 2-4', title: 'Configuration', body: '280E payroll cost allocation, state registrations, and regulatory compliance documentation configured in your existing system.' },
               { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed cannabis pay run -- BEG executes, your team approves. No migration required.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
@@ -204,7 +204,7 @@ export default function PayrollCannabisPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix payroll compliance is before a license renewal audit.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>State cannabis regulators increasingly review payroll records during license renewals and compliance checks. Getting your payroll documentation in order before your next renewal window means the difference between a clean audit and a license condition. Start now -- transitions take 30–60 days.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>State cannabis regulators increasingly review payroll records during license renewals and compliance checks. Getting your payroll documentation in order before your next renewal window means the difference between a clean audit and a license condition. Start now -- transitions take 30-60 days.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -239,8 +239,8 @@ export default function PayrollCannabisPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option if you want to upgrade, never a requirement to get started.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: payroll processing, 280E cost allocation documentation, state tax filings, multi-state registrations, year-end W-2s, and BEG support. No compliance surcharges, no per-run fees, no year-end invoices.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: payroll processing, 280E cost allocation documentation, state tax filings, multi-state registrations, year-end W-2s, and BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Are cannabis companies subject to the same state payroll tax rules as other businesses?</h3>
@@ -252,7 +252,7 @@ export default function PayrollCannabisPage() {
             </div>
             <div className="faq-item">
               <h3>How long does it take to get cannabis payroll into compliance?</h3>
-              <p>From signed agreement to compliant, managed payroll: 3–5 business days. We map your employee roster by role, 280E allocation structure, and state licensing requirements during the scope call, then configure payroll and documentation in your existing system. Most cannabis operators are running properly documented managed payroll within a week of the first call.</p>
+              <p>From signed agreement to compliant, managed payroll: 3-5 business days. We map your employee roster by role, 280E allocation structure, and state licensing requirements during the scope call, then configure payroll and documentation in your existing system. Most cannabis operators are running properly documented managed payroll within a week of the first call.</p>
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ export default function PayrollCannabisPage() {
               { '@type': 'Question', name: 'Can you work with our cannabis-friendly bank?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We work within your existing banking relationship and ensure payroll processing meets your bank\'s documentation requirements.' } },
               { '@type': 'Question', name: 'What if we operate dispensaries in multiple states?', acceptedAnswer: { '@type': 'Answer', text: 'Multi-state cannabis operations are managed as a single engagement covering state-specific employment regulations and payroll tax registrations.' } },
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25–$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, 280E documentation, state filings, year-end W-2s, and BEG support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, 280E documentation, state filings, year-end W-2s, and BEG support.' } },
             ],
           }),
         }}

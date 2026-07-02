@@ -4,24 +4,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Vet Payroll: Managed vs. In-House, What It Costs | BEG',
-  description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA.',
+  description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10-100 staff. Mixed pay structures, ACA.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Vet Payroll: Managed vs. In-House, What It Costs | BEG',
-    description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...',
+    description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10-100 staff. Mixed pay structures, ACA co...',
     url: 'https://www.beghr.com/blog/payroll/veterinary/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Vet Payroll: Managed vs. In-House, What It Costs | BEG', description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10–100 staff. Mixed pay structures, ACA co...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Vet Payroll: Managed vs. In-House, What It Costs | BEG', description: 'Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for practices with 10-100 staff. Mixed pay structures, ACA co...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'How much does managed payroll cost for a veterinary practice?',
-    a: 'BEG charges $25 per employee per month when we operate inside your existing payroll system, or $45 per employee per month through our iSolved account. For a 20-person practice with DVMs and support staff, that is $500 to $900 per month, all-inclusive. No setup fees, no per-run charges, no add-ons for year-end W-2s.',
+    a: 'BEG charges $25 per employee per month when we operate inside your existing payroll system, or $45 per employee per month through our iSolved account. For a 20-person practice with DVMs and support staff, that is $500 to $900 per month, all-inclusive.',
   },
   {
     q: 'Can BEG handle the mix of DVM salaries, technician hourly pay, and receptionist wages in one system?',
@@ -88,9 +88,9 @@ export default function VeterinaryComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (20 employees)', '$500–$900', '$4,800–$7,000', '$100–$250 + your time'],
-                ['Annual cost', '$6,000–$10,800', '$57,600–$84,000+', '$1,200–$3,000 + errors'],
-                ['Setup time', '3–5 business days', '4–8 weeks to hire', '2–4 weeks'],
+                ['Monthly cost (20 employees)', '$500-$900', '$4,800-$7,000', '$100-$250 + your time'],
+                ['Annual cost', '$6,000-$10,800', '$57,600-$84,000+', '$1,200-$3,000 + errors'],
+                ['Setup time', '3-5 business days', '4-8 weeks to hire', '2-4 weeks'],
                 ['DVM salary + production bonus handling', 'Included', 'Varies by candidate', 'Manual configuration'],
                 ['LVT shift differentials', 'Included', 'Varies by candidate', 'Manual configuration'],
                 ['ACA FTE tracking', 'Included', 'Varies by candidate', 'Add-on or manual'],

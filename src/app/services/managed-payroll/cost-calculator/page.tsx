@@ -6,7 +6,7 @@ import PayrollCalculator from '@/components/PayrollCalculator';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
-  description: 'Calculate what you\'re paying for payroll today vs. BEG managed payroll at $25–$45 PEPM. Compare in-house, software, PEO, and accountant costs. See your estimated annual savings instantly.',
+  description: 'Calculate what you\'re paying for payroll today vs. BEG managed payroll at $25-$45 PEPM. Compare in-house, software, PEO, and accountant costs. See your estimated annual savings instantly.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/cost-calculator' },
   openGraph: {
     title: 'Managed Payroll Calculator | See Your Exact Monthly Savings | BEG',
@@ -33,7 +33,7 @@ export default function PayrollCostCalculatorPage() {
               Managed Payroll Cost Calculator
             </h1>
             <p style={{ color: '#cccccc', fontSize: '1.05rem', lineHeight: '1.75', maxWidth: '600px', margin: '0 auto' }}>
-              Enter your employee count and current payroll method. See what you are actually spending today -- and what BEG's fully managed service costs at $25–$45 per employee per month.
+              Enter your employee count and current payroll method. See what you are actually spending today -- and what BEG's fully managed service costs at $25-$45 per employee per month.
             </p>
           </div>
         </div>
@@ -78,8 +78,8 @@ export default function PayrollCostCalculatorPage() {
               <p>The in-house estimate includes base salary, employer FICA (7.65%), health insurance contribution, PTO, overhead, and HR management time -- all costs that are real but rarely tracked in a single line item. Most companies only see the salary. The total cost of the function is typically 1.25x to 1.4x base salary once all-in costs are included.</p>
             </div>
             <div className="faq-item">
-              <h3>What is included in the $25–$45 PEPM rate?</h3>
-              <p>Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2 preparation and delivery, new hire reporting, garnishment processing, year-end close, and employee support for paycheck questions. No per-run fees, no filing surcharges, no module add-ons, no year-end invoices.</p>
+              <h3>What is included in the $25-$45 PEPM rate?</h3>
+              <p>Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2 preparation and delivery, new hire reporting, garnishment processing, year-end close, and employee support for paycheck questions.</p>
             </div>
             <div className="faq-item">
               <h3>Is the $25 rate really all-inclusive or is it a base rate?</h3>
@@ -132,10 +132,10 @@ export default function PayrollCostCalculatorPage() {
               },
               {
                 '@type': 'Question',
-                name: 'What is included in the $25–$45 PEPM managed payroll rate?',
+                name: 'What is included in the $25-$45 PEPM managed payroll rate?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2 preparation and delivery, new hire reporting, garnishment processing, year-end close, and employee support. No per-run fees or add-ons.',
+                  text: 'Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2 preparation and delivery, new hire reporting, garnishment processing, year-end close, and employee support.',
                 },
               },
               {
@@ -151,7 +151,7 @@ export default function PayrollCostCalculatorPage() {
                 name: 'How much does managed payroll cost for a 50-employee company?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'At BEG\'s $25–$45 PEPM rate, a 50-employee company pays $1,250–$2,250 per month all-inclusive. This compares to $6,000–$9,000 per month for an in-house payroll manager including salary and benefits.',
+                  text: 'At BEG\'s $25-$45 PEPM rate, a 50-employee company pays $1,250-$2,250 per month all-inclusive. This compares to $6,000-$9,000 per month for an in-house payroll manager including salary and benefits.',
                 },
               },
             ],

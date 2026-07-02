@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Event Company Payroll | Instant Quote | BEG',
-  description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
+  description: 'Event company payroll fully managed at $25-$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/events' },
   openGraph: {
     title: 'Event Company Payroll | Instant Quote | BEG',
-    description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
+    description: 'Event company payroll fully managed at $25-$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
     url: 'https://www.beghr.com/services/managed-payroll/events',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Event Company Payroll | Instant Quote | BEG',
-    description: 'Event company payroll fully managed at $25–$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
+    description: 'Event company payroll fully managed at $25-$45 PEPM. Rapid payroll cycles, W-2 vs 1099 classification, and multi-state compliance included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -33,7 +33,7 @@ export default function PayrollEventsPage() {
       imageAlt="Event company with fully managed payroll"
       eyebrow="Managed Payroll · Events"
       title="Event payroll happens in bursts. Your vendor should be ready when it does."
-      description="Seasonal crew spikes, rapid payroll cycles, W-2 vs. 1099 classification risk for temp workers, and multi-state compliance for touring and destination events. BEG manages all of it at $25–$45 per employee per month. Fully managed, no migration required."
+      description="Seasonal crew spikes, rapid payroll cycles, W-2 vs. 1099 classification risk for temp workers, and multi-state compliance for touring and destination events. BEG manages all of it at $25-$45 per employee per month. Fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -191,7 +191,7 @@ export default function PayrollEventsPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to clean up your classification structure is before the next event season starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30–60 days. Cleaning up classification and getting your multi-state registrations right before your busiest season means you run peak season with clean payroll instead of catching up on compliance after the fact. Schedule a scope review and we will map exactly what needs to change.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. Cleaning up classification and getting your multi-state registrations right before your busiest season means you run peak season with clean payroll instead of catching up on compliance after the fact. Schedule a scope review and we will map exactly what needs to change.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -222,8 +222,8 @@ export default function PayrollEventsPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for event companies?</h3>
-              <p>Everything: payroll processing, classification review, multi-state tax filing, year-end W-2 and 1099-NEC production, and dedicated BEG support. No per-run fees, no year-end surcharges, no event-cycle surcharges.</p>
+              <h3>What does $25-$45 PEPM include for event companies?</h3>
+              <p>Everything: payroll processing, classification review, multi-state tax filing, year-end W-2 and 1099-NEC production, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Can BEG handle payroll for events in many states simultaneously?</h3>
@@ -243,7 +243,7 @@ export default function PayrollEventsPage() {
               { '@type': 'Question', name: 'How does BEG handle rapid payroll cycles for event companies?', acceptedAnswer: { '@type': 'Answer', text: 'BEG configures payroll cycles that match your event schedule rather than a standard bi-weekly rhythm, processing payments quickly after events so crew are paid on time without your production team managing the timeline.' } },
               { '@type': 'Question', name: 'What is the risk of classifying recurring event crew as 1099 contractors?', acceptedAnswer: { '@type': 'Answer', text: 'Misclassified workers trigger back payroll taxes, state unemployment insurance, penalties, and potential back benefits. California AB5 uses a stricter ABC test. BEG helps identify workers who should be W-2 before an audit forces it.' } },
               { '@type': 'Question', name: 'Do we have to change our payroll system?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, classification review, multi-state tax filing, year-end W-2 and 1099-NEC production, and dedicated support. No per-run or event-cycle fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, classification review, multi-state tax filing, year-end W-2 and 1099-NEC production, and dedicated support.' } },
               { '@type': 'Question', name: 'Can BEG handle payroll for events in many states simultaneously?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG manages registration and remittance in all states where events create W-2 payroll obligations, including new state registrations as your calendar expands.' } },
             ],
           }),

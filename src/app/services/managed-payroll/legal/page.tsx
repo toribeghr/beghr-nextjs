@@ -6,17 +6,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Law Firm Payroll | Instant Quote, $25-$45 PEPM | BEG',
-  description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
+  description: 'Outsource law firm payroll for $25-$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/legal' },
   openGraph: {
     title: 'Law Firm Payroll | Instant Quote, $25-$45 PEPM | BEG',
-    description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
+    description: 'Outsource law firm payroll for $25-$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.',
     url: 'https://www.beghr.com/services/managed-payroll/legal',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Law Firm Payroll | Instant Quote, $25-$45 PEPM | BEG', description: 'Outsource law firm payroll for $25–$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Law Firm Payroll | Instant Quote, $25-$45 PEPM | BEG', description: 'Outsource law firm payroll for $25-$45 PEPM. Partner distributions, trust accounting, and tax filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -29,11 +29,11 @@ export default function PayrollLegalPage() {
       imageAlt="Law firm with managed payroll service"
       eyebrow="Managed Payroll · Legal"
       title="Law firm payroll is complex. Your team should not be running it."
-      description="Partner distributions, trust account tracking, IOLTA compliance, and multi-tier compensation structures make legal payroll unlike any other. We manage all of it as a fully managed service at $25–$45 per employee per month -- less than the cost of one payroll specialist."
+      description="Partner distributions, trust account tracking, IOLTA compliance, and multi-tier compensation structures make legal payroll unlike any other. We manage all of it as a fully managed service at $25-$45 per employee per month -- less than the cost of one payroll specialist."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -50,9 +50,9 @@ export default function PayrollLegalPage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$60K–$100K</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$60K-$100K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of one internal payroll specialist</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Salary, benefits, PTO, training, and turnover risk. Fully managed payroll at $25–$45 PEPM replaces that headcount entirely.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Salary, benefits, PTO, training, and turnover risk. Fully managed payroll at $25-$45 PEPM replaces that headcount entirely.</div>
                 </div>
               ))()
             }
@@ -88,7 +88,7 @@ export default function PayrollLegalPage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Scope review', body: 'We map your current payroll process, employee roster, and complexity. You get a fixed monthly cost -- no surprises.' },
-              { num: '02', title: 'We map your partner distribution schedule, trust account structure, and compensation tiers before we touch a payroll run.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30–60 days.' },
+              { num: '02', title: 'We map your partner distribution schedule, trust account structure, and compensation tiers before we touch a payroll run.', body: 'We configure and run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30-60 days.' },
               { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every filing, every compliance update -- fully managed by BEG. Your team touches nothing.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -177,7 +177,7 @@ export default function PayrollLegalPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services always add fees for every little thing."',
-                body: 'The $25–$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. There are no per-run fees, no year-end surcharges, and no module upsells. One number, everything included.',
+                body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. One number, everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -208,12 +208,12 @@ export default function PayrollLegalPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every month you wait is money you are not getting back.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your law firm costs $60,000–$100,000 per year in fully-loaded compensation. Fully managed payroll at $25–$45 PEPM on a 50-person team costs $15,000–$27,000 per year. Every month you run payroll manually or pay an internal specialist is a month you are overpaying for a function that costs $25–$45 PEPM fully managed.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>An internal payroll specialist at your law firm costs $60,000-$100,000 per year in fully-loaded compensation. Fully managed payroll at $25-$45 PEPM on a 50-person team costs $15,000-$27,000 per year. Every month you run payroll manually or pay an internal specialist is a month you are overpaying for a function that costs $25-$45 PEPM fully managed.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is before the next quarter starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. If you want a clean cutover at Q3, Q4, or January 1 -- the window to start is now. Companies that miss the quarter-start timing typically wait another 3 months. The savings you defer are gone for good.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -240,12 +240,12 @@ export default function PayrollLegalPage() {
               <p>No. We operate as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: payroll processing, federal and state tax filing, compliance updates, year-end W-2s, and dedicated BEG support. No add-on fees, no per-run charges, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: payroll processing, federal and state tax filing, compliance updates, year-end W-2s, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How long does the transition take?</h3>
-              <p>30–60 days from scope review to first managed payroll run. We handle setup, testing, and go-live. Your team reviews and approves before anything goes live.</p>
+              <p>30-60 days from scope review to first managed payroll run. We handle setup, testing, and go-live. Your team reviews and approves before anything goes live.</p>
             </div>
             <div className="faq-item">
               <h3>What if our headcount changes?</h3>
@@ -279,7 +279,7 @@ export default function PayrollLegalPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, compliance updates, W-2s, and support.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
               { '@type': 'Question', name: 'How does BEG handle partner draws versus W-2 salaries at the same firm?', acceptedAnswer: { '@type': 'Answer', text: 'BEG manages both compensation types. Equity partner guaranteed payments coordinate with firm accountants for K-1 reporting. Non-equity partner and associate salaries are processed on W-2 with standard withholding. Each type gets correct tax treatment.' } },
               { '@type': 'Question', name: 'What is the IOLTA risk in law firm payroll?', acceptedAnswer: { '@type': 'Answer', text: 'An operating account overdraft caused by a payroll timing error can inadvertently draw from a linked trust account, creating a client funds misappropriation issue under state bar rules. BEG confirms account sufficiency before each run.' } },

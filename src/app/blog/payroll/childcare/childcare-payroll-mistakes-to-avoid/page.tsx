@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for childcare center payroll?',
-    answer: 'Childcare payroll runs at $25–$45 per employee per month. For a center with 25 employees, that is $625–$1,125 per month with no per-run fees and licensing-ready recordkeeping included.',
+    answer: 'Childcare payroll runs at $25-$45 per employee per month. For a center with 25 employees, that is $625-$1,125 per month with licensing-ready recordkeeping included.',
   },
 ];
 
@@ -75,7 +75,7 @@ export default function Page() {
           <li style={{ marginBottom: '0.5rem' }}><strong>Wrong employee classification.</strong> childcare centers often have lead teachers and assistant teachers in roles that require careful classification. Misclassifying a W-2 employee as a 1099 contractor triggers back FICA taxes, penalties, and interest.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect overtime calculation.</strong> FLSA overtime rules require time-and-a-half for hours over 40 in a work week. For childcare centers with licensing-tied payroll records, the blended rate calculation is often done incorrectly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing state new hire reporting.</strong> All states require employers to report new hires within 20 days of the hire date. Missing this deadline creates state penalties that most childcare centers do not know about until they receive a notice.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2–15% penalty.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2-15% penalty.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>W-2 errors at year-end.</strong> Incorrect W-2s require corrected W-2Cs filed with the IRS and re-issued to employees. If discovered during audit, the correction process is more costly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing compliance updates.</strong> State minimum wages, SUTA rates, and payroll tax tables change annually. childcare centers that do not update their systems face under-withholding liability.</li>
         </ul>
@@ -90,7 +90,7 @@ export default function Page() {
 
         <p>The most reliable solution is managed payroll from a provider that handles the compliance layer as part of the service. Payroll tax deposits are made on time, withholding is calculated correctly, and compliance updates are applied without your intervention.</p>
 
-        <p>For childcare centers, managed payroll at $25–$45 PEPM provides full coverage of the scenarios above -- including licensing-tied payroll records and subsidy payment coordination -- at a fraction of the cost of an in-house hire.</p>
+        <p>For childcare centers, managed payroll at $25-$45 PEPM provides full coverage of the scenarios above -- including licensing-tied payroll records and subsidy payment coordination -- at a fraction of the cost of an in-house hire.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -133,7 +133,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do your payroll records meet state childcare licensing requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Records include employee name, position, hours worked, wages paid, and tax withholding, formatted for state childcare licensing agencies upon request."}},{"@type":"Question","name":"How do you handle part-time and variable-hour teachers?","acceptedAnswer":{"@type":"Answer","text":"Part-time and variable-hour employees are processed based on actual hours worked each period. ACA full-time equivalent tracking is done for centers with 50+ combined FTEs."}},{"@type":"Question","name":"How do you handle certification pay differentials?","acceptedAnswer":{"@type":"Answer","text":"Teachers with CDA, associate, or bachelor&apos;s degree credentials are set up with corresponding pay grades. Pay changes when credentials are earned effective on the date you specify."}},{"@type":"Question","name":"What does BEG charge for childcare center payroll?","acceptedAnswer":{"@type":"Answer","text":"Childcare payroll runs at $25–$45 per employee per month. For a center with 25 employees, that is $625–$1,125 per month with no per-run fees and licensing-ready recordkeeping included."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do your payroll records meet state childcare licensing requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Records include employee name, position, hours worked, wages paid, and tax withholding, formatted for state childcare licensing agencies upon request."}},{"@type":"Question","name":"How do you handle part-time and variable-hour teachers?","acceptedAnswer":{"@type":"Answer","text":"Part-time and variable-hour employees are processed based on actual hours worked each period. ACA full-time equivalent tracking is done for centers with 50+ combined FTEs."}},{"@type":"Question","name":"How do you handle certification pay differentials?","acceptedAnswer":{"@type":"Answer","text":"Teachers with CDA, associate, or bachelor&apos;s degree credentials are set up with corresponding pay grades. Pay changes when credentials are earned effective on the date you specify."}},{"@type":"Question","name":"What does BEG charge for childcare center payroll?","acceptedAnswer":{"@type":"Answer","text":"Childcare payroll runs at $25-$45 per employee per month. For a center with 25 employees, that is $625-$1,125 per month with licensing-ready recordkeeping included."}}]}`,
         }}
       />
 

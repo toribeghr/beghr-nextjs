@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Medical Practice Payroll, RVU Comp and ACA Tracking | BEG',
-  description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at.',
+  description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K-$95K annually at.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/healthcare/medical-practices' },
   openGraph: {
     title: 'Medical Practice Payroll, RVU Comp and ACA Tracking | BEG',
-    description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at $...',
+    description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K-$95K annually at $...',
     url: 'https://www.beghr.com/blog/payroll/healthcare/medical-practices',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Medical Practice Payroll, RVU Comp and ACA Tracking | BEG', description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K–$95K annually at $...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Medical Practice Payroll, RVU Comp and ACA Tracking | BEG', description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking, HIPAA-adjacent data. Save $55K-$95K annually at $...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: 'What about ACA compliance for practices with part-time clinical support staff?',
-    answer: 'We track ACA measurement periods for all employees, including part-time clinical support staff who may cross the 30-hour full-time threshold. We alert you in advance of employees approaching full-time status under ACA, run the affordability calculation, and produce the 1095-C forms at year-end. ACA penalty exposure for mid-size practices can be $2,880–$4,320 per full-time equivalent -- we prevent that.',
+    answer: 'We track ACA measurement periods for all employees, including part-time clinical support staff who may cross the 30-hour full-time threshold. We alert you in advance of employees approaching full-time status under ACA, run the affordability calculation, and produce the 1095-C forms at year-end. ACA penalty exposure for mid-size practices can be $2,880-$4,320 per full-time equivalent -- we prevent that.',
   },
   {
     question: 'How do you handle confidentiality for payroll data that may include provider credentials or license information?',
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for medical practice payroll?',
-    answer: 'BEG manages medical practice payroll at $25–$45 per employee per month, all-inclusive. For a 30-person practice, that is $750–$1,350 per month. Included: shift differential processing, RVU comp coordination, ACA tracking, tax filing, W-2 and 1099 production, and compliance updates. No setup fees, no per-run charges.',
+    answer: 'BEG manages medical practice payroll at $25-$45 per employee per month, all-inclusive. For a 30-person practice, that is $750-$1,350 per month. Included: shift differential processing, RVU comp coordination, ACA tracking, tax filing, W-2 and 1099 production, and compliance updates.',
   },
 ];
 
@@ -74,7 +74,7 @@ export default function MedicalPracticesPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Running a medical practice means your focus belongs on patient care, clinical outcomes, and practice growth -- not on shift differential calculations, RVU conversion factors, and ACA measurement periods. Yet most independent practices spend 8–12 hours per week on payroll administration, managed by an HR coordinator or office manager who is handling complexity that specialist providers handle every day.</p>
+        <p>Running a medical practice means your focus belongs on patient care, clinical outcomes, and practice growth -- not on shift differential calculations, RVU conversion factors, and ACA measurement periods. Yet most independent practices spend 8-12 hours per week on payroll administration, managed by an HR coordinator or office manager who is handling complexity that specialist providers handle every day.</p>
 
         <p>Medical practice payroll is not general payroll. You have clinical staff on shift differentials, physicians on production-based comp structures, part-time support staff who may cross ACA full-time thresholds, and a mix of W-2 employees and 1099 contracted providers -- all running in the same payroll cycle, with different rules applying to each population.</p>
 
@@ -82,7 +82,7 @@ export default function MedicalPracticesPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Medical Practice HR Coordinator</h2>
 
-        <p>A medical office HR coordinator or payroll specialist earns $45,000–$65,000 in base salary. Here is what that position actually costs the practice annually:</p>
+        <p>A medical office HR coordinator or payroll specialist earns $45,000-$65,000 in base salary. Here is what that position actually costs the practice annually:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -94,13 +94,13 @@ export default function MedicalPracticesPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (HR coordinator / payroll specialist)', '$45,000–$65,000'],
-                ['Benefits (health, dental, 401K) ~30%', '$13,500–$19,500'],
-                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,500–$6,500'],
-                ['Payroll software license', '$1,800–$4,500'],
-                ['Training & compliance updates (ACA, FLSA, state)', '$2,000–$4,000'],
-                ['Hiring & onboarding (amortized over 2 years)', '$2,000–$4,500'],
-                ['Total loaded cost', '$68,800–$104,000'],
+                ['Base salary (HR coordinator / payroll specialist)', '$45,000-$65,000'],
+                ['Benefits (health, dental, 401K) ~30%', '$13,500-$19,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,500-$6,500'],
+                ['Payroll software license', '$1,800-$4,500'],
+                ['Training & compliance updates (ACA, FLSA, state)', '$2,000-$4,000'],
+                ['Hiring & onboarding (amortized over 2 years)', '$2,000-$4,500'],
+                ['Total loaded cost', '$68,800-$104,000'],
               ].map(([label, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 6 ? '700' : '400' }}>{label}</td>
@@ -113,7 +113,7 @@ export default function MedicalPracticesPage() {
 
         <p>That is the cost when everything goes right. When that person makes an RVU calculation error, misses an ACA measurement period, or leaves the practice in the middle of open enrollment, the disruption cost is substantially higher.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25-$45 PEPM</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -127,10 +127,10 @@ export default function MedicalPracticesPage() {
             </thead>
             <tbody>
               {[
-                ['15 employees', '$375–$675', '$4,500–$8,100', 'Save $60K–$98K/yr'],
-                ['30 employees', '$750–$1,350', '$9,000–$16,200', 'Save $52K–$91K/yr'],
-                ['60 employees', '$1,500–$2,700', '$18,000–$32,400', 'Save $37K–$79K/yr'],
-                ['120 employees', '$3,000–$5,400', '$36,000–$64,800', 'Save $4K–$54K/yr'],
+                ['15 employees', '$375-$675', '$4,500-$8,100', 'Save $60K-$98K/yr'],
+                ['30 employees', '$750-$1,350', '$9,000-$16,200', 'Save $52K-$91K/yr'],
+                ['60 employees', '$1,500-$2,700', '$18,000-$32,400', 'Save $37K-$79K/yr'],
+                ['120 employees', '$3,000-$5,400', '$36,000-$64,800', 'Save $4K-$54K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -143,13 +143,13 @@ export default function MedicalPracticesPage() {
           </table>
         </div>
 
-        <p>All-inclusive: shift differential processing, RVU comp coordination, ACA tracking, tax filing in all applicable states, W-2 and 1099 production, and compliance updates. No setup fees, no per-run charges, no add-on modules.</p>
+        <p>All-inclusive: shift differential processing, RVU comp coordination, ACA tracking, tax filing in all applicable states, W-2 and 1099 production, and compliance updates.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Medical Practices Discover Too Late</h2>
 
-        <p><strong>ACA affordability penalties are the most common hidden cost.</strong> Practices with 50 or more full-time equivalent employees must offer affordable coverage to full-time staff or face penalties of $2,880–$4,320 per full-time equivalent per year. Practices with variable-hour clinical support staff -- who may cross the 30-hour threshold during certain periods -- frequently track this incorrectly and discover the exposure at IRS notice time.</p>
+        <p><strong>ACA affordability penalties are the most common hidden cost.</strong> Practices with 50 or more full-time equivalent employees must offer affordable coverage to full-time staff or face penalties of $2,880-$4,320 per full-time equivalent per year. Practices with variable-hour clinical support staff -- who may cross the 30-hour threshold during certain periods -- frequently track this incorrectly and discover the exposure at IRS notice time.</p>
 
-        <p><strong>RVU miscalculation affects provider relationships immediately.</strong> When a physician or APP receives a production-based payment that is calculated incorrectly -- even slightly -- it creates a trust problem that is difficult to repair. At billing rates of $250–$500 per RVU, a conversion factor error compounds quickly across a full quarter of production.</p>
+        <p><strong>RVU miscalculation affects provider relationships immediately.</strong> When a physician or APP receives a production-based payment that is calculated incorrectly -- even slightly -- it creates a trust problem that is difficult to repair. At billing rates of $250-$500 per RVU, a conversion factor error compounds quickly across a full quarter of production.</p>
 
         <p><strong>Shift differential overtime is routinely underprocessed.</strong> When a clinical staff member works day and evening shifts in the same week, overtime must be calculated across total hours, not per shift type. Practices using separate rate tracking for each shift type often miscalculate the regular rate for overtime purposes, creating back-pay liability under FLSA.</p>
 
@@ -179,8 +179,8 @@ export default function MedicalPracticesPage() {
             <tbody>
               {[
                 ['Solo / small practice (under 20 staff)', 'Outsource', 'No ROI on in-house hire. Complexity is high relative to headcount.'],
-                ['Independent practice (20–60 staff)', 'Outsource', 'Strongest ROI range. Shift differentials, RVU comp, and ACA tracking all argue for a specialist.'],
-                ['Multi-provider group (60–150 staff)', 'Outsource', 'Multi-provider comp structures and ACA complexity make outsourcing clearly superior.'],
+                ['Independent practice (20-60 staff)', 'Outsource', 'Strongest ROI range. Shift differentials, RVU comp, and ACA tracking all argue for a specialist.'],
+                ['Multi-provider group (60-150 staff)', 'Outsource', 'Multi-provider comp structures and ACA complexity make outsourcing clearly superior.'],
                 ['Large group / MSO (150+ staff)', 'Outsource or hybrid', 'May justify an HR generalist for recruiting/culture. Payroll processing should stay outsourced.'],
               ].map(([size, rec, why], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -195,7 +195,7 @@ export default function MedicalPracticesPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Medical Practice Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, RVU comp, ACA tracking, W-2 and 1099 populations -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size and provider mix.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, RVU comp, ACA tracking, W-2 and 1099 populations -- all at $25-$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size and provider mix.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -227,7 +227,7 @@ export default function MedicalPracticesPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving medical practices, specialty clinics, and healthcare groups. BEG manages shift differentials, RVU-based provider comp, ACA tracking, and multi-state healthcare payroll at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving medical practices, specialty clinics, and healthcare groups. BEG manages shift differentials, RVU-based provider comp, ACA tracking, and multi-state healthcare payroll at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ export default function MedicalPracticesPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Medical Practice Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
-            description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K annually.',
+            description: 'Medical practice payroll outsourcing vs. hiring in-house. Shift differentials, RVU comp, ACA tracking. Save $55K-$95K annually.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

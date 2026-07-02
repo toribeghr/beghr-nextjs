@@ -157,7 +157,7 @@ export default function ArchitectureFirmPayrollGuidePage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Architecture Payroll Done Right from Day One</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages architecture firm payroll including project coding, multi-state compliance, and partner structures at $25 to $45 per employee per month. Setup takes 3 to 5 business days. No per-run fees.
+            BEG manages architecture firm payroll including project coding, multi-state compliance, and partner structures at $25 to $45 per employee per month. Setup takes 3 to 5 business days.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

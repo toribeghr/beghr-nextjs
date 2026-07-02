@@ -53,7 +53,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     primaryKeyword: 'alternatives to ADP',
     titleTag: 'ADP Alternative | Instant Quote, $25-$45 PEPM | BEG',
     metaDescription:
-      'Switching from ADP? BEG runs fully managed payroll at $25-$45 PEPM, all-inclusive. No hidden fees, no per-run charges. Works in your existing system. Book a free scope review.',
+      'Switching from ADP? BEG runs fully managed payroll at $25-$45 PEPM, all-inclusive. Works in your existing system. Book a free scope review.',
     headline: 'Paying ADP $150+ per employee per month and still doing the work yourself?',
     subHeadline:
       'ADP charges you for software and still leaves the compliance checks, exception reviews, and employee questions on your desk. BEG manages the entire payroll function for $25-$45 PEPM -- all-inclusive, fully hands-off.',
@@ -83,7 +83,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 02',
         title: 'One flat rate. No module surprise on your next invoice.',
         objection: 'Common objection: "ADP keeps adding fees we did not plan for."',
-        body: '$25-$45 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, compliance monitoring, new hire reporting, garnishments, and year-end close. No per-run fees. No year-end surcharge. No add-on cost for a mid-cycle correction. One number, every month.',
+        body: '$25-$45 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, compliance monitoring, new hire reporting, garnishments, and year-end close. One number, every month.',
       },
       {
         badge: 'Bonus 03',
@@ -213,7 +213,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
     primaryKeyword: 'alternatives to Paychex',
     titleTag: 'Paychex Alternative | Instant Managed Payroll Quote | BEG',
     metaDescription:
-      'Switching from Paychex? BEG delivers fully managed payroll at $25-$45 PEPM with one dedicated specialist, no per-run fees, and zero migration required.',
+      'Switching from Paychex? BEG delivers fully managed payroll at $25-$45 PEPM with one dedicated specialist and zero migration required.',
     headline: 'Paychex charges per run, per filing, per feature -- and still leaves the work to you.',
     subHeadline:
       'Paychex Flex is software with optional specialist add-ons billed separately. BEG is a single flat-rate managed service where the entire payroll function is handled for you at a fraction of what Paychex costs all-in.',
@@ -243,7 +243,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 02',
         title: 'One number, every month. No Paychex line-item creep.',
         objection: 'Common objection: "Our Paychex invoice keeps going up and we cannot predict it."',
-        body: '$25-$45 PEPM covers payroll processing, all tax filings, W-2s, direct deposit, garnishments, new hire reporting, and year-end close. No per-run fee. No W-2 add-on. No charge for off-cycle runs. One invoice, one number, every month for the life of your contract.',
+        body: '$25-$45 PEPM covers payroll processing, all tax filings, W-2s, direct deposit, garnishments, new hire reporting, and year-end close. One invoice, one number, every month for the life of your contract.',
       },
       {
         badge: 'Bonus 03',

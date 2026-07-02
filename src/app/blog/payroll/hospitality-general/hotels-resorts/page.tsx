@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: 'With 70%+ annual turnover, do we really need to generate that many W-2s every year?',
-    answer: 'Yes -- every employee who earned wages during the calendar year receives a W-2, regardless of whether they are still employed at year-end. For a 150-person resort with 70% turnover, you are generating approximately 250 W-2s per year. A managed payroll provider handles year-end W-2 generation, delivery (via self-service portal or mail), and electronic filing with the SSA as part of the all-inclusive fee. There is no per-W-2 charge at BEG and no year-end surprise fee.',
+    answer: 'Yes -- every employee who earned wages during the calendar year receives a W-2, regardless of whether they are still employed at year-end. For a 150-person resort with 70% turnover, you are generating approximately 250 W-2s per year. A managed payroll provider handles year-end W-2 generation, delivery (via self-service portal or mail), and electronic filing with the SSA as part of the all-inclusive fee.',
   },
   {
     question: 'What does BEG managed payroll cost for a 120-person hotel?',
@@ -169,7 +169,7 @@ export default function HotelsResortsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>High Turnover and W-2 Volume at Year-End</p>
-          <p style={{ margin: 0 }}>The hotel industry averages 70–80% annual turnover. That means a 150-person resort generates 250+ W-2s per year -- over 100 for employees who are no longer with the property and whose addresses must be tracked and updated. An in-house HR Manager manually managing year-end W-2 generation for a high-turnover workforce is a significant administrative burden that consumes January. An outsourced payroll provider handles all W-2 generation, delivery, and SSA filing as part of the all-inclusive fee -- with no year-end add-on charge.</p>
+          <p style={{ margin: 0 }}>The hotel industry averages 70–80% annual turnover. That means a 150-person resort generates 250+ W-2s per year -- over 100 for employees who are no longer with the property and whose addresses must be tracked and updated. An in-house HR Manager manually managing year-end W-2 generation for a high-turnover workforce is a significant administrative burden that consumes January. An outsourced payroll provider handles all W-2 generation, delivery, and SSA filing as part of the all-inclusive fee.</p>
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Hotel and Resort Payroll Is Structurally Complex</h2>

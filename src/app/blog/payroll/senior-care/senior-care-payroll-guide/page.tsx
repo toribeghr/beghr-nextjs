@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for senior care facility payroll?',
-    answer: 'BEG managed payroll for senior care facilities runs at $25-$45 per employee per month, all-inclusive. For a 60-bed facility with 80 staff, that is $2,000 to $3,600 per month with no per-run fees, no shift differential add-ons, and no year-end W-2 surcharges. Compare to the cost of an in-house payroll specialist at $55,000 to $75,000 per year plus benefits and software. Setup takes 3-5 business days.',
+    answer: 'BEG managed payroll for senior care facilities runs at $25-$45 per employee per month, all-inclusive. For a 60-bed facility with 80 staff, that is $2,000 to $3,600 per month. Compare to the cost of an in-house payroll specialist at $55,000 to $75,000 per year plus benefits and software. Setup takes 3-5 business days.',
   },
 ];
 

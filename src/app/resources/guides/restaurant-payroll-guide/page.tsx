@@ -210,7 +210,7 @@ export default function RestaurantPayrollGuidePage() {
             <p className="eyebrow" style={{ color: '#ECAC60' }}>Hand Off Restaurant Payroll</p>
             <h2 style={{ color: '#ffffff', marginBottom: '1rem', fontSize: '1.6rem' }}>BEG handles restaurant payroll fully managed at $25-$45 PEPM.</h2>
             <p style={{ color: '#cccccc', lineHeight: '1.7', maxWidth: '560px', margin: '0 auto 2rem', fontSize: '0.95rem' }}>
-              Tip credit tracking, tip pooling compliance, FICA tip credit documentation, and multi-location reporting, all handled by your dedicated BEG payroll contact. No per-location surcharge.
+              Tip credit tracking, tip pooling compliance, FICA tip credit documentation, and multi-location reporting, all handled by your dedicated BEG payroll contact.
             </p>
             <PricingCta service="managed-payroll" subline={false} />
           </div>

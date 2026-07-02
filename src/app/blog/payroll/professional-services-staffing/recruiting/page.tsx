@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Staffing Agency Payroll Outsourcing (Full Breakdown) | BEG',
-  description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',
+  description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K-$95K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/professional-services-staffing/recruiting' },
   openGraph: {
     title: 'Staffing Agency Payroll Outsourcing (Full Breakdown) | BEG',
-    description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',
+    description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K-$95K annually.',
     url: 'https://www.beghr.com/blog/payroll/professional-services-staffing/recruiting',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Outsourcing (Full Breakdown) | BEG', description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Outsourcing (Full Breakdown) | BEG', description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K-$95K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for managed payroll at a staffing agency?',
-    answer: `BEG charges $25 PEPM if we work within your existing payroll system, or $45 PEPM on BEG's iSolved account. Both are all-inclusive, no per-run fees, no year-end add-ons, no hidden charges for state filings or W-2 production. At 75 employees, that is $2,625/month compared to an HR manager at $6,500+/month in fully loaded cost.`,
+    answer: `BEG charges $25 PEPM if we work within your existing payroll system, or $45 PEPM on BEG's iSolved account. Both are all-inclusive. At 75 employees, that is $2,625/month compared to an HR manager at $6,500+/month in fully loaded cost.`,
   },
 ];
 
@@ -77,9 +77,9 @@ export default function StaffingRecruitingPayrollPage() {
 
         <p>Staffing and recruiting agencies run some of the most complex payroll in any industry. You are managing W-2 placed workers at client sites across multiple states, commission-and-draw structures for your internal recruiters, 1099 contractor relationships that carry misclassification risk, and headcount that can double in 60 days when a major contract lands. A single payroll error, a misclassified placed worker, a late state unemployment filing, a miscalculated commission recovery, damages client relationships, recruiter trust, and your operating margin simultaneously.</p>
 
-        <p>Most agencies respond by hiring an HR Manager. The base salary runs $55,000–$78,000. Add employer FICA (7.65%), health insurance contribution, PTO, 401(k) match, recruiting fees, and the software licenses needed to do the job, and the all-in annual cost reaches $80,000–$115,000. That is before accounting for the ramp-up period, typically 60 to 90 days before a new hire processes their first fully independent payroll cycle.</p>
+        <p>Most agencies respond by hiring an HR Manager. The base salary runs $55,000-$78,000. Add employer FICA (7.65%), health insurance contribution, PTO, 401(k) match, recruiting fees, and the software licenses needed to do the job, and the all-in annual cost reaches $80,000-$115,000. That is before accounting for the ramp-up period, typically 60 to 90 days before a new hire processes their first fully independent payroll cycle.</p>
 
-        <p>BEG's managed payroll service costs $25–$45 PEPM, all-inclusive. At 75 employees, that is $1,875–$3,375/month. At 150 employees, $3,750–$6,750/month. The math is straightforward, but the real advantage for staffing agencies is operational: a managed payroll partner already knows multi-state compliance, handles worker classification correctly from day one, and scales to match your contract wins without any hiring lag.</p>
+        <p>BEG's managed payroll service costs $25-$45 PEPM, all-inclusive. At 75 employees, that is $1,875-$3,375/month. At 150 employees, $3,750-$6,750/month. The math is straightforward, but the real advantage for staffing agencies is operational: a managed payroll partner already knows multi-state compliance, handles worker classification correctly from day one, and scales to match your contract wins without any hiring lag.</p>
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>The True Cost of In-House Payroll at a Staffing Agency</h2>
 
@@ -95,16 +95,16 @@ export default function StaffingRecruitingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['HR Manager base salary', '$55,000–$78,000'],
-                ['Employer FICA (7.65%)', '$4,200–$5,970'],
-                ['Health insurance contribution (employer portion)', '$6,000–$9,600'],
-                ['PTO (15 days average)', '$3,200–$4,500'],
-                ['401(k) match (3% typical)', '$1,650–$2,340'],
-                ['Payroll software subscription', '$3,600–$7,200'],
-                ['Multi-state filing tools / TPA fees', '$2,400–$6,000'],
-                ['Recruiting and onboarding cost', '$4,000–$8,000'],
-                ['Error corrections, penalty exposure (estimated)', '$2,000–$5,000'],
-                ['Total fully loaded annual cost', '$82,050–$126,610'],
+                ['HR Manager base salary', '$55,000-$78,000'],
+                ['Employer FICA (7.65%)', '$4,200-$5,970'],
+                ['Health insurance contribution (employer portion)', '$6,000-$9,600'],
+                ['PTO (15 days average)', '$3,200-$4,500'],
+                ['401(k) match (3% typical)', '$1,650-$2,340'],
+                ['Payroll software subscription', '$3,600-$7,200'],
+                ['Multi-state filing tools / TPA fees', '$2,400-$6,000'],
+                ['Recruiting and onboarding cost', '$4,000-$8,000'],
+                ['Error corrections, penalty exposure (estimated)', '$2,000-$5,000'],
+                ['Total fully loaded annual cost', '$82,050-$126,610'],
               ].map(([item, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 9 ? '700' : 'normal' }}>{item}</td>
@@ -117,7 +117,7 @@ export default function StaffingRecruitingPayrollPage() {
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>BEG Managed Payroll Pricing vs. In-House</h2>
 
-        <p>BEG charges a flat per-employee-per-month rate. There are no per-run charges, no year-end fees for W-2 production, no add-ons for multi-state filings, and no separate billing for compliance updates. The rate is $25 PEPM when BEG works inside your existing payroll system, or $45 PEPM on BEG's iSolved account if you want to move off your current platform entirely.</p>
+        <p>BEG charges a flat per-employee-per-month rate. The rate is $25 PEPM when BEG works inside your existing payroll system, or $45 PEPM on BEG's iSolved account if you want to move off your current platform entirely.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -132,10 +132,10 @@ export default function StaffingRecruitingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['30 employees', '$9,000/yr', '$12,600/yr', '$82,050–$126,610/yr', '$69,450–$117,610'],
-                ['75 employees', '$22,500/yr', '$31,500/yr', '$82,050–$126,610/yr', '$50,550–$104,110'],
-                ['150 employees', '$45,000/yr', '$63,000/yr', '$90,000–$130,000/yr', '$27,000–$85,000'],
-                ['300 employees', '$90,000/yr', '$126,000/yr', '$130,000–$175,000/yr*', '$4,000–$85,000'],
+                ['30 employees', '$9,000/yr', '$12,600/yr', '$82,050-$126,610/yr', '$69,450-$117,610'],
+                ['75 employees', '$22,500/yr', '$31,500/yr', '$82,050-$126,610/yr', '$50,550-$104,110'],
+                ['150 employees', '$45,000/yr', '$63,000/yr', '$90,000-$130,000/yr', '$27,000-$85,000'],
+                ['300 employees', '$90,000/yr', '$126,000/yr', '$130,000-$175,000/yr*', '$4,000-$85,000'],
               ].map(([count, low, high, inhouse, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{count}</td>
@@ -194,8 +194,8 @@ export default function StaffingRecruitingPayrollPage() {
             <tbody>
               {[
                 ['Under 20 employees, 1 state', 'DIY or software only', 'Volume too low for managed payroll ROI'],
-                ['20–50 employees, 1–3 states', 'Strong case for outsourcing', 'Savings on salary + benefits exceed PEPM cost'],
-                ['50–150 employees, 5+ states', 'Outsource', 'Multi-state complexity exceeds in-house capacity'],
+                ['20-50 employees, 1-3 states', 'Strong case for outsourcing', 'Savings on salary + benefits exceed PEPM cost'],
+                ['50-150 employees, 5+ states', 'Outsource', 'Multi-state complexity exceeds in-house capacity'],
                 ['150+ employees, 15+ states', 'Outsource strongly recommended', 'Compliance risk requires dedicated expertise at scale'],
                 ['Rapid headcount growth expected', 'Outsource now', 'Avoid hiring for a headcount that will change'],
                 ['Commission + draw recruiters on staff', 'Outsource', 'Commission payroll complexity drives error rate up'],
@@ -212,7 +212,7 @@ export default function StaffingRecruitingPayrollPage() {
 
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Stop Managing Payroll Complexity In-House</p>
-          <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>BEG handles commission tracking, multi-state filings, W-2 placed workers, and rapid scaling, all-inclusive at $25–$45 PEPM. No hiring lag. No compliance gaps.</p>
+          <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>BEG handles commission tracking, multi-state filings, W-2 placed workers, and rapid scaling, all-inclusive at $25-$45 PEPM. No hiring lag.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -238,7 +238,7 @@ export default function StaffingRecruitingPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads managed payroll and HR services at Business Executive Group. BEG serves staffing and recruiting agencies nationally, handling multi-state compliance, commission payroll, and placed-worker classifications at $25–$45 PEPM all-inclusive, replacing a $80K–$115K in-house hire.</p>
+          <p style={{ margin: 0 }}>Anthony leads managed payroll and HR services at Business Executive Group. BEG serves staffing and recruiting agencies nationally, handling multi-state compliance, commission payroll, and placed-worker classifications at $25-$45 PEPM all-inclusive, replacing a $80K-$115K in-house hire.</p>
         </div>
 
       </section>
@@ -272,7 +272,7 @@ export default function StaffingRecruitingPayrollPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Staffing Agency Payroll Outsourcing: Managing Commission, Contractors, and Multi-State (2026)',
-        description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K–$95K annually.',
+        description: 'Staffing agency payroll outsourcing. Commission tracking, contractor vs W-2, multi-state placed workers, rapid scaling. Save $55K-$95K annually.',
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },

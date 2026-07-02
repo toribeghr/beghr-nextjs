@@ -111,7 +111,7 @@ export default function OutsourcePropertyManagementPayrollPage() {
           <li>Multi-state payroll registration and filing across all states where you have employees</li>
           <li>Cost center reporting at the property level with standard reports included</li>
           <li>ACA tracking and 1095-C filing included (not as an add-on)</li>
-          <li>All-inclusive pricing with no per-run or per-form fees</li>
+          <li>All-inclusive pricing</li>
           <li>Dedicated account contact rather than a call center</li>
           <li>Onboarding timeline and whether mid-year transitions are supported</li>
         </ul>

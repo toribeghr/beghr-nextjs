@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Church Payroll | Instant Quote | BEG',
-  description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
+  description: 'Church and faith-based payroll fully managed at $25-45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/church' },
   openGraph: {
     title: 'Church Payroll | Instant Quote | BEG',
-    description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
+    description: 'Church and faith-based payroll fully managed at $25-45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.',
     url: 'https://www.beghr.com/services/managed-payroll/church',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Church Payroll | Instant Quote | BEG', description: 'Church and faith-based payroll fully managed at $25–45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Church Payroll | Instant Quote | BEG', description: 'Church and faith-based payroll fully managed at $25-45 PEPM. Minister housing allowance, dual-status clergy, and SECA elections handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -30,11 +30,11 @@ export default function PayrollChurchPage() {
       imageAlt="Church and faith-based organization with fully managed payroll"
       eyebrow="Managed Payroll · Churches & Faith-Based Organizations"
       title="Managed Payroll for Churches and Faith-Based Organizations"
-      description="Minister housing allowance, dual-status clergy, and SECA elections -- done right. Church and faith-based organization payroll has no equivalent in any other industry: ministers operate as employees for income tax purposes but self-employed for Social Security, housing allowances must be pre-designated before the year they are paid, and FICA exemption elections for religious organizations carry their own requirements. We manage all of it at $25–$45 per employee per month."
+      description="Minister housing allowance, dual-status clergy, and SECA elections -- done right. Church and faith-based organization payroll has no equivalent in any other industry: ministers operate as employees for income tax purposes but self-employed for Social Security, housing allowances must be pre-designated before the year they are paid, and FICA exemption elections for religious organizations carry their own requirements. We manage all of it at $25-$45 per employee per month."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered, including multi-campus organizations' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -144,7 +144,7 @@ export default function PayrollChurchPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Our budget is tight and we cannot afford payroll services that nickel-and-dime us."',
-                body: 'The $25–$45 PEPM rate covers everything: dual-status minister payroll, housing allowance tracking, FICA or SECA processing, state filings, year-end W-2s, and BEG support. No add-on fees, no per-run charges, no year-end surcharges. One number, everything included.',
+                body: 'The $25-$45 PEPM rate covers everything: dual-status minister payroll, housing allowance tracking, FICA or SECA processing, state filings, year-end W-2s, and BEG support. One number, everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -173,13 +173,13 @@ export default function PayrollChurchPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Getting Started</p>
-            <h2>From scope review to compliant church payroll in 3–5 business days</h2>
+            <h2>From scope review to compliant church payroll in 3-5 business days</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
               { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your ministerial staff, housing allowance designations, FICA election status, and non-clergy roster -- and give you a fixed monthly price.' },
-              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, ministerial arrangements and housing allowance documentation reviewed.' },
-              { day: 'Days 2–4', title: 'Configuration', body: 'Dual-status minister W-2 setup, housing allowance tracking, and FICA or SECA processing configured in your existing system.' },
+              { day: 'Days 1-2', title: 'Onboarding', body: 'Agreement signed, system access granted, ministerial arrangements and housing allowance documentation reviewed.' },
+              { day: 'Days 2-4', title: 'Configuration', body: 'Dual-status minister W-2 setup, housing allowance tracking, and FICA or SECA processing configured in your existing system.' },
               { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed church pay run -- BEG executes, your board approves the housing allowance, we handle everything else.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
@@ -204,7 +204,7 @@ export default function PayrollChurchPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to get church payroll right is before the new year begins.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Housing allowance pre-designations must be in place before January 1. Transitions take 30–60 days. Starting the scope review now means clean, compliant payroll from the first pay cycle of the new year -- and a pastor who does not have a surprise tax bill come April.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Housing allowance pre-designations must be in place before January 1. Transitions take 30-60 days. Starting the scope review now means clean, compliant payroll from the first pay cycle of the new year -- and a pastor who does not have a surprise tax bill come April.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -239,8 +239,8 @@ export default function PayrollChurchPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option if you want to upgrade, never a requirement to get started.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: dual-status minister payroll, housing allowance tracking and documentation, FICA or SECA processing, state filings, year-end W-2s, and BEG support. No add-on fees, no per-run charges.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: dual-status minister payroll, housing allowance tracking and documentation, FICA or SECA processing, state filings, year-end W-2s, and BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Can a minister opt out of Social Security?</h3>
@@ -252,7 +252,7 @@ export default function PayrollChurchPage() {
             </div>
             <div className="faq-item">
               <h3>How long does it take to set up managed church payroll?</h3>
-              <p>From signed agreement to live payroll: 3–5 business days. We configure dual-status minister W-2 setup, housing allowance tracking, and FICA or SECA processing for each staff category in your existing system. If you are transitioning before year-end, we also audit the current year's housing allowance designations to catch any documentation gaps before the W-2 deadline.</p>
+              <p>From signed agreement to live payroll: 3-5 business days. We configure dual-status minister W-2 setup, housing allowance tracking, and FICA or SECA processing for each staff category in your existing system. If you are transitioning before year-end, we also audit the current year's housing allowance designations to catch any documentation gaps before the W-2 deadline.</p>
             </div>
           </div>
         </div>

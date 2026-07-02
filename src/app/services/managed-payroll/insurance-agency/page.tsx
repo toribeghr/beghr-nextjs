@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Insurance Agency Payroll | Instant Quote | BEG',
-  description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
+  description: 'Insurance agency payroll fully managed at $25-$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/insurance-agency' },
   openGraph: {
     title: 'Insurance Agency Payroll | Instant Quote | BEG',
-    description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
+    description: 'Insurance agency payroll fully managed at $25-$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
     url: 'https://www.beghr.com/services/managed-payroll/insurance-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Insurance Agency Payroll | Instant Quote | BEG',
-    description: 'Insurance agency payroll fully managed at $25–$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
+    description: 'Insurance agency payroll fully managed at $25-$45 PEPM. Producer commissions, draw reconciliation, W-2 and 1099 support, and compliance included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -33,7 +33,7 @@ export default function PayrollInsuranceAgencyPage() {
       imageAlt="Insurance agency with fully managed payroll"
       eyebrow="Managed Payroll · Insurance Agency"
       title="Insurance agency payroll mixes W-2 salaries, producer commissions, and draws. We manage all three."
-      description="Producer commission timing, draw reconciliation, W-2 captive agents alongside 1099 independent producers, E&O deduction tracking, and multi-state licensed producer compliance. BEG manages all of it at $25–$45 per employee per month. Fully managed, no migration required."
+      description="Producer commission timing, draw reconciliation, W-2 captive agents alongside 1099 independent producers, E&O deduction tracking, and multi-state licensed producer compliance. BEG manages all of it at $25-$45 per employee per month. Fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -73,9 +73,9 @@ export default function PayrollInsuranceAgencyPage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$65K–$90K</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$65K-$90K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of one administrator who can manage commission payroll correctly for a mid-size insurance agency</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25–$45 PEPM replaces that headcount, handles draw reconciliation automatically, and keeps classification compliant without requiring your office manager to become a payroll expert.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25-$45 PEPM replaces that headcount, handles draw reconciliation automatically, and keeps classification compliant without requiring your office manager to become a payroll expert.</div>
                 </div>
               ))()
             }
@@ -191,7 +191,7 @@ export default function PayrollInsuranceAgencyPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix your commission payroll structure is before adding the next producer.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30–60 days. Agencies that get commission payroll right before growing their producer roster avoid carrying bad reconciliation practices into a larger workforce. Schedule a scope review and we will map exactly what your current setup is getting right and what needs to change.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. Agencies that get commission payroll right before growing their producer roster avoid carrying bad reconciliation practices into a larger workforce. Schedule a scope review and we will map exactly what your current setup is getting right and what needs to change.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -222,8 +222,8 @@ export default function PayrollInsuranceAgencyPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for insurance agencies?</h3>
-              <p>Everything: commission payroll, draw reconciliation, W-2 and 1099-NEC processing, E&O deduction tracking, multi-state compliance, year-end filing, and dedicated BEG support. No per-run fees, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include for insurance agencies?</h3>
+              <p>Everything: commission payroll, draw reconciliation, W-2 and 1099-NEC processing, E&O deduction tracking, multi-state compliance, year-end filing, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Can BEG help us determine whether our independent producers are correctly classified?</h3>
@@ -243,7 +243,7 @@ export default function PayrollInsuranceAgencyPage() {
               { '@type': 'Question', name: 'How does BEG handle commission payroll when carrier payments arrive irregularly?', acceptedAnswer: { '@type': 'Answer', text: 'BEG reconciles carrier commission payments to producer entitlements each cycle, tracking what each producer earned, applying draw arrangements, and processing correct payment based on what has been received and reconciled.' } },
               { '@type': 'Question', name: 'How does draw reconciliation work when a producer leaves?', acceptedAnswer: { '@type': 'Answer', text: 'BEG provides a final reconciliation statement showing the outstanding draw balance, commissions earned against it, and the net amount, coordinating with management on handling any remaining balance.' } },
               { '@type': 'Question', name: 'Do we have to change our payroll system?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Commission payroll, draw reconciliation, W-2 and 1099-NEC processing, E&O deductions, multi-state compliance, year-end filing, and dedicated support. No per-run or year-end fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Commission payroll, draw reconciliation, W-2 and 1099-NEC processing, E&O deductions, multi-state compliance, year-end filing, and dedicated support.' } },
               { '@type': 'Question', name: 'Can BEG help determine if independent producers are correctly classified?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG reviews working arrangements against the IRS common-law test and applicable state tests, identifying misclassified producers before an audit forces correction at a much higher cost.' } },
             ],
           }),

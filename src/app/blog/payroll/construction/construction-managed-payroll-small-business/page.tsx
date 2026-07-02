@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for construction company payroll?',
-    answer: 'Construction payroll runs at $25–$45 per employee per month, all-inclusive. Certified payroll report production is included at no add-on fee. For a 25-person crew, that is $625–$1,125 per month.',
+    answer: 'Construction payroll runs at $25-$45 per employee per month, all-inclusive. Certified payroll report production is included. For a 25-person crew, that is $625-$1,125 per month.',
   },
 ];
 
@@ -65,7 +65,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Managed payroll at $25–$45 PEPM all-inclusive makes economic sense at nearly every size for construction companies, but the specific value drivers differ depending on headcount.</p>
+        <p>Managed payroll at $25-$45 PEPM all-inclusive makes economic sense at nearly every size for construction companies, but the specific value drivers differ depending on headcount.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Payroll at Different Sizes for Construction Companies</h2>
 
@@ -81,34 +81,34 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>5-person crew</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$125–$225/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K–$83K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$125-$225/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K-$83K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>25-person GC</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$625–$1,125/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $48K–$78K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$625-$1,125/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $48K-$78K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>100-person contractor</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$2,500–$4,500/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $33K–$53K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$2,500-$4,500/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $33K-$53K/yr</td>
                 </tr>
             </tbody>
           </table>
         </div>
 
-        <p>The comparison is against an in-house hire at $55,000–$85,000 fully loaded to $57K–$88K per year.</p>
+        <p>The comparison is against an in-house hire at $55,000-$85,000 fully loaded to $57K-$88K per year.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Under 25 Employees: The Clearest ROI</h2>
 
-        <p>For construction companies under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $55,000–$85,000 fully loaded -- compared to $625–$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2–3 months.</p>
+        <p>For construction companies under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $55,000-$85,000 fully loaded -- compared to $625-$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2-3 months.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25–75 Employees: Complexity Drives the Case</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25-75 Employees: Complexity Drives the Case</h2>
 
-        <p>In the 25–75 employee range, construction companies are dealing with more prevailing wage compliance, certified payroll, union vs non-union, seasonal crew cycles. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
+        <p>In the 25-75 employee range, construction companies are dealing with more prevailing wage compliance, certified payroll, union vs non-union, seasonal crew cycles. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75–200 Employees: Hybrid Approaches Emerge</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75-200 Employees: Hybrid Approaches Emerge</h2>
 
         <p>At 75+ employees, construction companies often consider a hybrid approach: an HR generalist handles employee relations and benefits while a managed payroll provider handles the compliance-heavy payroll function. This keeps an internal HR presence while outsourcing the most technically complex piece.</p>
 
@@ -157,7 +157,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle certified payroll for government projects?","acceptedAnswer":{"@type":"Answer","text":"Yes. Certified payroll reports under Davis-Bacon and state prevailing wage laws are produced for each pay period in WH-347 format or state electronic reporting systems with fringe benefit credits documented."}},{"@type":"Question","name":"How do you handle union vs. non-union employees on the same job?","acceptedAnswer":{"@type":"Answer","text":"Union and non-union employees are set up with separate pay rate structures and fringe benefit calculations. Union payroll includes remittance to applicable union trust funds."}},{"@type":"Question","name":"Can you handle seasonal crew ramp-ups?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bulk new hire entry processes seasonal crew in time for the first pay cycle, including new hire reporting, withholding setup, and direct deposit."}},{"@type":"Question","name":"What does BEG charge for construction company payroll?","acceptedAnswer":{"@type":"Answer","text":"Construction payroll runs at $25–$45 per employee per month, all-inclusive. Certified payroll report production is included at no add-on fee. For a 25-person crew, that is $625–$1,125 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle certified payroll for government projects?","acceptedAnswer":{"@type":"Answer","text":"Yes. Certified payroll reports under Davis-Bacon and state prevailing wage laws are produced for each pay period in WH-347 format or state electronic reporting systems with fringe benefit credits documented."}},{"@type":"Question","name":"How do you handle union vs. non-union employees on the same job?","acceptedAnswer":{"@type":"Answer","text":"Union and non-union employees are set up with separate pay rate structures and fringe benefit calculations. Union payroll includes remittance to applicable union trust funds."}},{"@type":"Question","name":"Can you handle seasonal crew ramp-ups?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bulk new hire entry processes seasonal crew in time for the first pay cycle, including new hire reporting, withholding setup, and direct deposit."}},{"@type":"Question","name":"What does BEG charge for construction company payroll?","acceptedAnswer":{"@type":"Answer","text":"Construction payroll runs at $25-$45 per employee per month, all-inclusive. Certified payroll report production is included. For a 25-person crew, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

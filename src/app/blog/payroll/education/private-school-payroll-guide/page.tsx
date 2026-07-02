@@ -134,7 +134,7 @@ export default function PrivateSchoolPayrollGuidePage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Managed Payroll for Private and Charter Schools</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages school payroll at $25 to $45 per employee per month, including salary spreads, substitute processing, 403(b) administration, and ACA tracking. Setup takes 3 to 5 business days. No per-run fees.
+            BEG manages school payroll at $25 to $45 per employee per month, including salary spreads, substitute processing, 403(b) administration, and ACA tracking. Setup takes 3 to 5 business days.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <Link

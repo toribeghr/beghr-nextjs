@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Franchise Payroll | Instant Quote | BEG',
-  description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
+  description: 'Franchise payroll fully managed at $25-45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/franchise' },
   openGraph: {
     title: 'Franchise Payroll | Instant Quote | BEG',
-    description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
+    description: 'Franchise payroll fully managed at $25-45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.',
     url: 'https://www.beghr.com/services/managed-payroll/franchise',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Payroll | Instant Quote | BEG', description: 'Franchise payroll fully managed at $25–45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Payroll | Instant Quote | BEG', description: 'Franchise payroll fully managed at $25-45 PEPM. Multi-location payroll, franchisor compliance, joint-employer documentation, and scaling handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -30,11 +30,11 @@ export default function PayrollFranchisePage() {
       imageAlt="Franchise business with fully managed multi-location payroll"
       eyebrow="Managed Payroll · Franchise Businesses"
       title="Managed Payroll for Franchise Businesses"
-      description="Multi-location payroll that scales with every unit you add. Franchise owners face a payroll environment that gets more complex with every location added: different state registrations, franchisor payroll requirements, joint-employer liability documentation, and the operational overhead of running payroll across multiple units simultaneously. We manage all of it at $25–$45 per employee per month -- one flat rate regardless of how many locations you operate."
+      description="Multi-location payroll that scales with every unit you add. Franchise owners face a payroll environment that gets more complex with every location added: different state registrations, franchisor payroll requirements, joint-employer liability documentation, and the operational overhead of running payroll across multiple units simultaneously. We manage all of it at $25-$45 per employee per month -- one flat rate regardless of how many locations you operate."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive across all locations' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive across all locations' },
         { value: 'All 50', label: 'States covered as you expand your territory' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -142,9 +142,9 @@ export default function PayrollFranchisePage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'One flat rate across all locations. No per-location surcharges.',
+                title: 'One flat rate across all locations.',
                 objection: 'Common objection: "Payroll companies charge extra for each location and each state, which kills the economics as we scale."',
-                body: 'The $25–$45 PEPM rate is per employee -- not per location. Adding a second or fifth location does not trigger a new base fee, a new state setup charge, or a new monthly contract. The rate stays the same per employee regardless of how many rooftops you run.',
+                body: 'The $25-$45 PEPM rate is per employee -- not per location. Adding a second or fifth location does not trigger a new base fee, a new state setup charge, or a new monthly contract. The rate stays the same per employee regardless of how many rooftops you run.',
               },
               {
                 badge: 'Bonus 03',
@@ -173,13 +173,13 @@ export default function PayrollFranchisePage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Getting Started</p>
-            <h2>From scope review to live franchise payroll in 3–5 business days</h2>
+            <h2>From scope review to live franchise payroll in 3-5 business days</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
               { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your current locations, state registrations, franchisor payroll requirements, and expansion timeline -- and give you a fixed monthly price per employee.' },
-              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, location roster and pay structures reviewed across all units.' },
-              { day: 'Days 2–4', title: 'Configuration', body: 'Location-specific pay rules, missing state registrations, and joint-employer documentation configured in your existing system.' },
+              { day: 'Days 1-2', title: 'Onboarding', body: 'Agreement signed, system access granted, location roster and pay structures reviewed across all units.' },
+              { day: 'Days 2-4', title: 'Configuration', body: 'Location-specific pay rules, missing state registrations, and joint-employer documentation configured in your existing system.' },
               { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed multi-location pay run -- BEG executes across all locations, your team approves. One invoice, everything included.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
@@ -199,12 +199,12 @@ export default function PayrollFranchisePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every location you add without a payroll system that scales is a liability multiplier.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll errors in a single-location business affect one workforce. The same error in a five-location franchise affects five workforces, five state filings, and five times the back wage or penalty exposure. The return on managed payroll scales with every unit you add. Fully managed payroll at $25–$45 PEPM on a 75-person multi-unit operation costs under $34,000 per year -- far less than the labor required to run it in-house across five locations.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll errors in a single-location business affect one workforce. The same error in a five-location franchise affects five workforces, five state filings, and five times the back wage or penalty exposure. The return on managed payroll scales with every unit you add. Fully managed payroll at $25-$45 PEPM on a 75-person multi-unit operation costs under $34,000 per year -- far less than the labor required to run it in-house across five locations.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to scale your payroll infrastructure is before you sign the next lease.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Transitions take 30–60 days. If you have a location opening in Q3 or Q4, starting the scope review now means we have your payroll infrastructure ready the day the doors open -- not three months later after scrambling to set up state accounts and run payroll manually.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Transitions take 30-60 days. If you have a location opening in Q3 or Q4, starting the scope review now means we have your payroll infrastructure ready the day the doors open -- not three months later after scrambling to set up state accounts and run payroll manually.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -223,8 +223,8 @@ export default function PayrollFranchisePage() {
           </div>
           <div className="faq reveal">
             <div className="faq-item">
-              <h3>Does the $25–$45 PEPM rate apply across all my locations?</h3>
-              <p>Yes. The rate is per employee, not per location. A 75-person operation across five locations pays the same per-employee rate as a 15-person single location. No per-location setup fees, no per-state surcharges. The economics improve as you add locations.</p>
+              <h3>Does the $25-$45 PEPM rate apply across all my locations?</h3>
+              <p>Yes. The rate is per employee, not per location. A 75-person operation across five locations pays the same per-employee rate as a 15-person single location. The economics improve as you add locations.</p>
             </div>
             <div className="faq-item">
               <h3>What if my franchisor requires a specific payroll system?</h3>
@@ -236,10 +236,10 @@ export default function PayrollFranchisePage() {
             </div>
             <div className="faq-item">
               <h3>How quickly can you set up payroll for a new location?</h3>
-              <p>Once you are onboarded, adding a new location takes 2–3 weeks for state registration and setup -- not 60 days. We have the infrastructure and the relationships with state agencies to move faster than a first-time setup.</p>
+              <p>Once you are onboarded, adding a new location takes 2-3 weeks for state registration and setup -- not 60 days. We have the infrastructure and the relationships with state agencies to move faster than a first-time setup.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include across all locations?</h3>
+              <h3>What does $25-$45 PEPM include across all locations?</h3>
               <p>Everything: multi-location payroll processing, state registrations and filings for every location, new location setup as you expand, year-end W-2s for all employees, and BEG support. One invoice, all locations.</p>
             </div>
             <div className="faq-item">
@@ -276,7 +276,7 @@ export default function PayrollFranchisePage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'Does the $25–$45 PEPM rate apply across all my locations?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The rate is per employee, not per location. No per-location setup fees or per-state surcharges.' } }, { '@type': 'Question', name: 'How quickly can you set up payroll for a new location?', acceptedAnswer: { '@type': 'Answer', text: 'Once onboarded, adding a new location takes 2–3 weeks for state registration and setup.' } }, { '@type': 'Question', name: 'What does $25–$45 PEPM include across all locations?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: multi-location payroll, state registrations, new location setup, year-end W-2s, and BEG support. One invoice, all locations.' } }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: [{ '@type': 'Question', name: 'Does the $25-$45 PEPM rate apply across all my locations?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. The rate is per employee, not per location.' } }, { '@type': 'Question', name: 'How quickly can you set up payroll for a new location?', acceptedAnswer: { '@type': 'Answer', text: 'Once onboarded, adding a new location takes 2-3 weeks for state registration and setup.' } }, { '@type': 'Question', name: 'What does $25-$45 PEPM include across all locations?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: multi-location payroll, state registrations, new location setup, year-end W-2s, and BEG support. One invoice, all locations.' } }] }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' }, { '@type': 'ListItem', position: 2, name: 'Managed Payroll', item: 'https://www.beghr.com/services/managed-payroll' }, { '@type': 'ListItem', position: 3, name: 'Franchise Businesses', item: 'https://www.beghr.com/services/managed-payroll/franchise' }] }) }} />
       <RelatedPosts
         heading="From the blog"

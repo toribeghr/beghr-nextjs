@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for mortgage company payroll?",
-    answer: "BEG manages mortgage company payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform with the software included. For a 30-person mortgage operation, that is $750 to $1,350 per month, all-inclusive: LO commission tracking, draw reconciliation, multi-state withholding, tax filings, and W-2 production. No per-run fees, no setup charges.",
+    answer: "BEG manages mortgage company payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform with the software included. For a 30-person mortgage operation, that is $750 to $1,350 per month, all-inclusive: LO commission tracking, draw reconciliation, multi-state withholding, tax filings, and W-2 production.",
   },
 ];
 
@@ -144,7 +144,7 @@ export default function MortgageCompanyPayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Mortgage Payroll That Handles Closings, Not Just Cycles</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages mortgage company payroll at $25 to $45 per employee per month, all-inclusive. Live in 3 to 5 business days. No per-run fees.
+            BEG manages mortgage company payroll at $25 to $45 per employee per month, all-inclusive. Live in 3 to 5 business days.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for construction company payroll?',
-    answer: 'Construction payroll runs at $25–$45 per employee per month, all-inclusive. Certified payroll report production is included at no add-on fee. For a 25-person crew, that is $625–$1,125 per month.',
+    answer: 'Construction payroll runs at $25-$45 per employee per month, all-inclusive. Certified payroll report production is included. For a 25-person crew, that is $625-$1,125 per month.',
   },
 ];
 
@@ -75,7 +75,7 @@ export default function Page() {
           <li style={{ marginBottom: '0.5rem' }}><strong>Wrong employee classification.</strong> construction companies often have laborers and carpenters in roles that require careful classification. Misclassifying a W-2 employee as a 1099 contractor triggers back FICA taxes, penalties, and interest.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect overtime calculation.</strong> FLSA overtime rules require time-and-a-half for hours over 40 in a work week. For construction companies with prevailing wage compliance, the blended rate calculation is often done incorrectly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing state new hire reporting.</strong> All states require employers to report new hires within 20 days of the hire date. Missing this deadline creates state penalties that most construction companies do not know about until they receive a notice.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2–15% penalty.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2-15% penalty.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>W-2 errors at year-end.</strong> Incorrect W-2s require corrected W-2Cs filed with the IRS and re-issued to employees. If discovered during audit, the correction process is more costly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing compliance updates.</strong> State minimum wages, SUTA rates, and payroll tax tables change annually. construction companies that do not update their systems face under-withholding liability.</li>
         </ul>
@@ -90,7 +90,7 @@ export default function Page() {
 
         <p>The most reliable solution is managed payroll from a provider that handles the compliance layer as part of the service. Payroll tax deposits are made on time, withholding is calculated correctly, and compliance updates are applied without your intervention.</p>
 
-        <p>For construction companies, managed payroll at $25–$45 PEPM provides full coverage of the scenarios above -- including prevailing wage compliance and certified payroll -- at a fraction of the cost of an in-house hire.</p>
+        <p>For construction companies, managed payroll at $25-$45 PEPM provides full coverage of the scenarios above -- including prevailing wage compliance and certified payroll -- at a fraction of the cost of an in-house hire.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -133,7 +133,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle certified payroll for government projects?","acceptedAnswer":{"@type":"Answer","text":"Yes. Certified payroll reports under Davis-Bacon and state prevailing wage laws are produced for each pay period in WH-347 format or state electronic reporting systems with fringe benefit credits documented."}},{"@type":"Question","name":"How do you handle union vs. non-union employees on the same job?","acceptedAnswer":{"@type":"Answer","text":"Union and non-union employees are set up with separate pay rate structures and fringe benefit calculations. Union payroll includes remittance to applicable union trust funds."}},{"@type":"Question","name":"Can you handle seasonal crew ramp-ups?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bulk new hire entry processes seasonal crew in time for the first pay cycle, including new hire reporting, withholding setup, and direct deposit."}},{"@type":"Question","name":"What does BEG charge for construction company payroll?","acceptedAnswer":{"@type":"Answer","text":"Construction payroll runs at $25–$45 per employee per month, all-inclusive. Certified payroll report production is included at no add-on fee. For a 25-person crew, that is $625–$1,125 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle certified payroll for government projects?","acceptedAnswer":{"@type":"Answer","text":"Yes. Certified payroll reports under Davis-Bacon and state prevailing wage laws are produced for each pay period in WH-347 format or state electronic reporting systems with fringe benefit credits documented."}},{"@type":"Question","name":"How do you handle union vs. non-union employees on the same job?","acceptedAnswer":{"@type":"Answer","text":"Union and non-union employees are set up with separate pay rate structures and fringe benefit calculations. Union payroll includes remittance to applicable union trust funds."}},{"@type":"Question","name":"Can you handle seasonal crew ramp-ups?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bulk new hire entry processes seasonal crew in time for the first pay cycle, including new hire reporting, withholding setup, and direct deposit."}},{"@type":"Question","name":"What does BEG charge for construction company payroll?","acceptedAnswer":{"@type":"Answer","text":"Construction payroll runs at $25-$45 per employee per month, all-inclusive. Certified payroll report production is included. For a 25-person crew, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

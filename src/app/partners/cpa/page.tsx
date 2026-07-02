@@ -3,17 +3,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG',
-  description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45.',
+  description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25-45.',
   alternates: { canonical: 'https://www.beghr.com/partners/cpa' },
   openGraph: {
     title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG',
-    description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...',
+    description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25-45 P...',
     url: 'https://www.beghr.com/partners/cpa',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG', description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25–45 P...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'CPA Partner Program | Refer Payroll Clients. No Conflict. | BEG', description: 'Refer clients to BEG for fully managed payroll. No conflict with your tax and accounting services. Clean, audit-ready payroll data every cycle. $25-45 P...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -116,7 +116,7 @@ export default function CPAPartnerPage() {
           Beyond data quality, BEG eliminates common payroll problems that create accounting complications: misclassified workers, missed multi-state registrations, incorrectly calculated overtime, and pay codes that do not match accounting chart of accounts categories. When we onboard a new client, we review their current setup for these issues before the first managed run.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          The setup is fast. From the client's signed agreement to their first managed pay cycle is typically 3 to 5 business days. Pricing is $25 per employee per month in their existing payroll system or $45 per employee per month in our iSolved account. No setup fees, no per-run charges, no add-ons for state filings or year-end.
+          The setup is fast. From the client's signed agreement to their first managed pay cycle is typically 3 to 5 business days. Pricing is $25 per employee per month in their existing payroll system or $45 per employee per month in our iSolved account.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Clients Who Benefit Most from This Referral</h2>

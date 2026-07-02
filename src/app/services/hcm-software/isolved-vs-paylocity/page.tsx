@@ -128,7 +128,7 @@ export default function isolvedVsPaylocityPage() {
             },
             {
               q: 'Is isolved cheaper than Paylocity?',
-              a: 'isolved is competitively priced per employee per month, with no hidden per-module fees. The exact comparison depends on your headcount and modules. BEG will run a side-by-side cost analysis at no charge.',
+              a: 'isolved is competitively priced per employee per month. The exact comparison depends on your headcount and modules. BEG will run a side-by-side cost analysis at no charge.',
             },
             {
               q: 'What industries is isolved best for?',

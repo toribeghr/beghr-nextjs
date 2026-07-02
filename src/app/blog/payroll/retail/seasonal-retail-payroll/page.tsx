@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for seasonal retail payroll?",
-    answer: "BEG manages retail payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. You only pay for active employees in any given month -- so headcount-based costs scale with your actual staffing, not a fixed fee. No per-run fees, no onboarding fees, no offboarding fees.",
+    answer: "BEG manages retail payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. You only pay for active employees in any given month -- so headcount-based costs scale with your actual staffing, not a fixed fee.",
   },
 ];
 
@@ -140,7 +140,7 @@ export default function SeasonalRetailPayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Payroll That Handles the Rush Without the Risk</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages seasonal retail payroll at $25 to $45 per employee per month. You pay for active employees only. No per-run fees, no onboarding or offboarding fees.
+            BEG manages seasonal retail payroll at $25 to $45 per employee per month. You pay for active employees only.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

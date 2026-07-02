@@ -265,7 +265,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
           What Managed Payroll Includes at BEG
         </h2>
         <p>
-          BEG managed payroll at $25 to $45 PEPM is all-inclusive. There are no add-on fees for:
+          BEG managed payroll at $25 to $45 PEPM is all-inclusive. The rate covers:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li>Federal and state tax filings (quarterly 941s, FUTA, state unemployment)</li>
@@ -277,7 +277,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
           <li>Error correction -- if we make a mistake, we fix it at no additional cost</li>
         </ul>
         <p>
-          Your rate is also locked for 24 months from onboarding. No mid-year increases. One flat invoice per month.
+          One flat invoice per month.
         </p>
         <p>
           You can also stay on your existing payroll platform. BEG operates inside your current system at $25 PEPM, or moves you to iSolved at $45 PEPM if you want to consolidate.

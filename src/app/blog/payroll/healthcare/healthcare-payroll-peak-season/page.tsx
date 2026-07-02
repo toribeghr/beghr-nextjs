@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for healthcare payroll?',
-    answer: 'Healthcare payroll runs at $25–$45 per employee per month, all-inclusive. For a 25-person practice, that is $625–$1,125 per month with no per-run fees, no module add-ons, and no year-end surcharges.',
+    answer: 'Healthcare payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-person practice, that is $625-$1,125 per month.',
   },
 ];
 
@@ -98,7 +98,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How Managed Payroll Simplifies Healthcare Practices Operations</h2>
 
-        <p>BEG managed payroll at $25–$45 PEPM handles all of the above as part of the base service. Payroll operations run on your schedule without requiring your management team to maintain expertise in shift differentials or on-call pay.</p>
+        <p>BEG managed payroll at $25-$45 PEPM handles all of the above as part of the base service. Payroll operations run on your schedule without requiring your management team to maintain expertise in shift differentials or on-call pay.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -141,7 +141,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle shift differentials for nurses?","acceptedAnswer":{"@type":"Answer","text":"Yes. Shift differentials are set up as pay rate modifiers. Night shift, weekend, and on-call differentials apply automatically based on hours worked, producing the correct blended rate and overtime calculation."}},{"@type":"Question","name":"How do you handle ACA reporting?","acceptedAnswer":{"@type":"Answer","text":"For practices with 50 or more full-time equivalent employees, we handle Form 1094-C and 1095-C preparation and filing. We track hours to determine ACA full-time status and flag coverage gaps."}},{"@type":"Question","name":"Can you process payroll for multiple clinic locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-location practices run on a single payroll system with consolidated reporting and per-location cost center codes."}},{"@type":"Question","name":"How do you handle credentialing-based pay tiers?","acceptedAnswer":{"@type":"Answer","text":"Credentialing-based tiers are configured as pay grade structures. When a provider advances, the pay tier updates on the date you specify."}},{"@type":"Question","name":"What does BEG charge for healthcare payroll?","acceptedAnswer":{"@type":"Answer","text":"Healthcare payroll runs at $25–$45 per employee per month, all-inclusive. For a 25-person practice, that is $625–$1,125 per month with no per-run fees, no module add-ons, and no year-end surcharges."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle shift differentials for nurses?","acceptedAnswer":{"@type":"Answer","text":"Yes. Shift differentials are set up as pay rate modifiers. Night shift, weekend, and on-call differentials apply automatically based on hours worked, producing the correct blended rate and overtime calculation."}},{"@type":"Question","name":"How do you handle ACA reporting?","acceptedAnswer":{"@type":"Answer","text":"For practices with 50 or more full-time equivalent employees, we handle Form 1094-C and 1095-C preparation and filing. We track hours to determine ACA full-time status and flag coverage gaps."}},{"@type":"Question","name":"Can you process payroll for multiple clinic locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-location practices run on a single payroll system with consolidated reporting and per-location cost center codes."}},{"@type":"Question","name":"How do you handle credentialing-based pay tiers?","acceptedAnswer":{"@type":"Answer","text":"Credentialing-based tiers are configured as pay grade structures. When a provider advances, the pay tier updates on the date you specify."}},{"@type":"Question","name":"What does BEG charge for healthcare payroll?","acceptedAnswer":{"@type":"Answer","text":"Healthcare payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-person practice, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

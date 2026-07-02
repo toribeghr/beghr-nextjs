@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does outsourced staffing agency payroll actually include?',
-    answer: 'A full-service managed payroll provider handles payroll calculation and processing for every pay cycle, federal and state tax withholding and remittance, FUTA and SUI filings, multi-state employer registrations, new hire reporting, garnishment processing, W-2 and 1099 production, and year-end reconciliation. The agency provides time and attendance data; the provider handles everything downstream. BEG managed payroll includes all of these functions at $25-$45 per employee per month with no per-run fees.',
+    answer: 'A full-service managed payroll provider handles payroll calculation and processing for every pay cycle, federal and state tax withholding and remittance, FUTA and SUI filings, multi-state employer registrations, new hire reporting, garnishment processing, W-2 and 1099 production, and year-end reconciliation. The agency provides time and attendance data; the provider handles everything downstream. BEG managed payroll includes all of these functions at $25-$45 per employee per month.',
   },
   {
     question: 'How does a managed payroll provider handle W-2 vs 1099 decisions?',

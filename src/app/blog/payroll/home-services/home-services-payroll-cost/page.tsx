@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: 'Are there per-run fees with managed payroll?',
-    answer: 'BEG managed payroll has no per-run fees. The $25-$45 PEPM rate is all-inclusive regardless of how often payroll is processed. Companies that run weekly payroll during peak season and bi-weekly during the offseason pay the same monthly rate. There are no additional charges for direct deposit, ACH transfers, tax filings, or year-end W-2 production.',
+    answer: 'The $25-$45 PEPM rate is all-inclusive regardless of how often payroll is processed. Companies that run weekly payroll during peak season and bi-weekly during the offseason pay the same monthly rate.',
   },
   {
     question: 'What is the breakeven point where in-house payroll becomes cost-competitive with managed?',

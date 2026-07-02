@@ -36,11 +36,11 @@ const faqs = [
   },
   {
     question: 'How long does it take to get set up?',
-    answer: 'Most construction contractors are live in 3–5 business days. We configure job codes, union rules, prevailing wage determinations, and state registrations, run a parallel test cycle, and go live. The cleanest time to switch is at the start of a new project or new quarter.',
+    answer: 'Most construction contractors are live in 3-5 business days. We configure job codes, union rules, prevailing wage determinations, and state registrations, run a parallel test cycle, and go live. The cleanest time to switch is at the start of a new project or new quarter.',
   },
   {
     question: 'What does BEG charge for construction payroll?',
-    answer: 'BEG manages construction payroll at $25–$45 per employee per month, all-inclusive. That covers payroll processing, certified payroll reports, tax filings, W-2s, multi-state processing, and compliance updates. For a crew of 60, that is $1,500–$2,700 per month. No per-run fees, no module charges for certified payroll.',
+    answer: 'BEG manages construction payroll at $25-$45 per employee per month, all-inclusive. That covers payroll processing, certified payroll reports, tax filings, W-2s, multi-state processing, and compliance updates. For a crew of 60, that is $1,500-$2,700 per month.',
   },
 ];
 
@@ -81,7 +81,7 @@ export default function ConstructionPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Construction Payroll Manager</h2>
 
-        <p>A construction payroll manager or HR coordinator with union and certified payroll experience earns $52,000–$72,000 in base salary. That is the number contractors usually quote when comparing options. Here is the full picture:</p>
+        <p>A construction payroll manager or HR coordinator with union and certified payroll experience earns $52,000-$72,000 in base salary. That is the number contractors usually quote when comparing options. Here is the full picture:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -93,13 +93,13 @@ export default function ConstructionPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (payroll manager with construction experience)', '$52,000–$72,000'],
-                ['Benefits (health, dental, 401K) ~30%', '$15,600–$21,600'],
-                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$5,200–$7,200'],
-                ['Payroll software license', '$2,400–$5,400'],
-                ['Training & compliance updates (Davis-Bacon, state laws)', '$1,500–$3,500'],
-                ['Hiring & onboarding cost (amortized over 2-yr tenure)', '$2,000–$4,700'],
-                ['Total loaded cost', '$78,700–$114,400'],
+                ['Base salary (payroll manager with construction experience)', '$52,000-$72,000'],
+                ['Benefits (health, dental, 401K) ~30%', '$15,600-$21,600'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$5,200-$7,200'],
+                ['Payroll software license', '$2,400-$5,400'],
+                ['Training & compliance updates (Davis-Bacon, state laws)', '$1,500-$3,500'],
+                ['Hiring & onboarding cost (amortized over 2-yr tenure)', '$2,000-$4,700'],
+                ['Total loaded cost', '$78,700-$114,400'],
               ].map(([label, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{label}</td>
@@ -112,7 +112,7 @@ export default function ConstructionPayrollPage() {
 
         <p>And this does not account for risk exposure when that person makes a certified payroll error, misapplies a prevailing wage determination, or leaves the company mid-project.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25-$45 PEPM</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -126,10 +126,10 @@ export default function ConstructionPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['30 employees', '$750–$1,350', '$9,000–$16,200', 'Save $62K–$102K/yr'],
-                ['60 employees', '$1,500–$2,700', '$18,000–$32,400', 'Save $46K–$89K/yr'],
-                ['100 employees', '$2,500–$4,500', '$30,000–$54,000', 'Save $25K–$72K/yr'],
-                ['150 employees', '$3,750–$6,750', '$45,000–$81,000', 'Varies at scale'],
+                ['30 employees', '$750-$1,350', '$9,000-$16,200', 'Save $62K-$102K/yr'],
+                ['60 employees', '$1,500-$2,700', '$18,000-$32,400', 'Save $46K-$89K/yr'],
+                ['100 employees', '$2,500-$4,500', '$30,000-$54,000', 'Save $25K-$72K/yr'],
+                ['150 employees', '$3,750-$6,750', '$45,000-$81,000', 'Varies at scale'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -148,7 +148,7 @@ export default function ConstructionPayrollPage() {
 
         <p><strong>Certified payroll penalty exposure.</strong> A missed or incorrect certified payroll filing on a prevailing wage project can result in debarment from future government contracts, back-pay liability for misclassified workers, and penalties starting at $10,000 per violation under the Davis-Bacon Act. Many construction payroll managers are competent at standard payroll but are not deeply versed in prevailing wage compliance.</p>
 
-        <p><strong>Workers&apos; comp misclassification.</strong> In construction, workers&apos; comp premiums vary dramatically by classification. A laborer, a carpenter, and a project manager carry very different rates. Misclassification at audit creates retroactive premium adjustments that can run 15–25% of total payroll for the entire audit period.</p>
+        <p><strong>Workers&apos; comp misclassification.</strong> In construction, workers&apos; comp premiums vary dramatically by classification. A laborer, a carpenter, and a project manager carry very different rates. Misclassification at audit creates retroactive premium adjustments that can run 15-25% of total payroll for the entire audit period.</p>
 
         <p><strong>Overtime pyramid errors.</strong> California and several other states require daily overtime in addition to weekly. For construction workers on California projects or crossing state lines, this creates significant compliance exposure that general payroll managers frequently miss.</p>
 
@@ -178,8 +178,8 @@ export default function ConstructionPayrollPage() {
             <tbody>
               {[
                 ['Under 40 employees', 'Outsource', 'Volume does not justify in-house hire. Compliance risk is high without a specialist.'],
-                ['40–150 employees', 'Outsource', 'Strongest ROI range. Saves $22K–$90K/yr with full compliance coverage included.'],
-                ['150–300 employees', 'Outsource or hybrid', 'Outsourcing remains cost-effective. Hybrid works if you want internal HR for workforce management.'],
+                ['40-150 employees', 'Outsource', 'Strongest ROI range. Saves $22K-$90K/yr with full compliance coverage included.'],
+                ['150-300 employees', 'Outsource or hybrid', 'Outsourcing remains cost-effective. Hybrid works if you want internal HR for workforce management.'],
                 ['300+ employees', 'Assess annually', 'Scale may justify in-house, but certified payroll complexity still argues for outsourcing.'],
               ].map(([size, rec, why], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -194,7 +194,7 @@ export default function ConstructionPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Construction Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Certified payroll, Davis-Bacon, job costing, multi-state compliance -- all at $25–$45 per employee per month. Book a 15-minute call to see what it costs for your crew size and project mix.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Certified payroll, Davis-Bacon, job costing, multi-state compliance -- all at $25-$45 per employee per month. Book a 15-minute call to see what it costs for your crew size and project mix.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -226,7 +226,7 @@ export default function ConstructionPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group, a national managed payroll firm serving contractors, engineering firms, and skilled trades operations. BEG handles certified payroll, Davis-Bacon, union CBAs, and multi-state compliance at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group, a national managed payroll firm serving contractors, engineering firms, and skilled trades operations. BEG handles certified payroll, Davis-Bacon, union CBAs, and multi-state compliance at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 

@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for insurance agency payroll?",
-    answer: "BEG manages insurance agency payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. Both are all-inclusive: commission calculation support, multi-state withholding, tax filings, W-2 and 1099 production, and compliance updates. For a 15-person agency team, that is $375 to $675 per month with no per-run fees.",
+    answer: "BEG manages insurance agency payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. Both are all-inclusive: commission calculation support, multi-state withholding, tax filings, W-2 and 1099 production, and compliance updates. For a 15-person agency team, that is $500 to $675 per month (BEG's $500 monthly minimum applies).",
   },
 ];
 
@@ -145,7 +145,7 @@ export default function InsuranceAgencyPayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Let BEG Handle the Payroll Complexity</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages insurance agency payroll at $25 to $45 per employee per month, all-inclusive. Live within 3 to 5 business days of contract signing. No per-run fees.
+            BEG manages insurance agency payroll at $25 to $45 per employee per month, all-inclusive. Live within 3 to 5 business days of contract signing.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

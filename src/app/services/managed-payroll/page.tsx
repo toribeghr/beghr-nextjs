@@ -202,9 +202,9 @@ export default function ManagedPayrollPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'One flat rate. All-inclusive. No module surprises.',
+                title: 'One flat rate. All-inclusive.',
                 objection: 'Common objection: "Our last payroll vendor kept charging us for add-ons."',
-                body: '$25-$45 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, new hire reporting, and compliance updates. There is no base fee plus per-run charges plus filing fees. One number, every month. We tell you the exact rate on your discovery call before you commit to anything.',
+                body: '$25-$45 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, new hire reporting, and compliance updates. One number, every month. We tell you the exact rate on your discovery call before you commit to anything.',
               },
               {
                 badge: 'Bonus 03',
@@ -456,7 +456,7 @@ export default function ManagedPayrollPage() {
             <Link href="/services/managed-payroll/alternatives-to-paychex" className="card-link">
               <span className="tag">Paychex</span>
               <h3>BEG vs. Paychex</h3>
-              <p>Paychex stacks per-run fees and filing surcharges. BEG is one flat rate, no add-ons, all-inclusive.</p>
+              <p>Paychex stacks per-run fees and filing surcharges. BEG is one flat rate, all-inclusive.</p>
             </Link>
             <Link href="/services/managed-payroll/alternatives-to-deel" className="card-link">
               <span className="tag">Deel</span>
@@ -499,7 +499,7 @@ export default function ManagedPayrollPage() {
             </div>
             <div className="faq-item">
               <h3>What does the $25-$45 PEPM include?</h3>
-              <p>Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2s, new hire reporting, garnishment processing, year-end close, and employee support for paycheck questions. No per-run charges, no filing fees, no module add-ons.</p>
+              <p>Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2s, new hire reporting, garnishment processing, year-end close, and employee support for paycheck questions.</p>
             </div>
             <div className="faq-item">
               <h3>What happens if there is an error on a pay run?</h3>
@@ -574,7 +574,7 @@ export default function ManagedPayrollPage() {
               {
                 '@type': 'Question',
                 name: 'What does the $25-$45 PEPM include?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2s, new hire reporting, garnishment processing, year-end close, and employee support. No per-run charges or add-ons.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, direct deposit, tax withholding and remittance, quarterly and annual filings, W-2s, new hire reporting, garnishment processing, year-end close, and employee support.' },
               },
               {
                 '@type': 'Question',

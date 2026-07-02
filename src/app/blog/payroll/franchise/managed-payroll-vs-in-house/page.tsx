@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: 'We are thinking about acquiring two more franchise units. Can BEG scale with us?',
-    a: 'Yes. Adding new franchise units to your BEG engagement is a straightforward extension of your current configuration. New locations are set up in your payroll system before the first pay cycle at that location. There are no setup fees for adding units. You pay the same per-employee-per-month rate for all employees across all locations, and your total cost scales linearly with headcount, not with the complexity of managing multiple locations.',
+    a: 'Yes. Adding new franchise units to your BEG engagement is a straightforward extension of your current configuration. New locations are set up in your payroll system before the first pay cycle at that location. You pay the same per-employee-per-month rate for all employees across all locations, and your total cost scales linearly with headcount, not with the complexity of managing multiple locations.',
   },
 ];
 
@@ -88,14 +88,14 @@ export default function FranchiseComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (60 employees)', '$1,500–$2,700', '$5,500–$8,000', '$200–$500 + your time'],
-                ['Annual cost', '$18,000–$32,400', '$66,000–$96,000+', '$2,400–$6,000 + errors'],
-                ['Setup time', '3–5 business days', '4–8 weeks to hire', '2–4 weeks'],
+                ['Monthly cost (60 employees)', '$1,500-$2,700', '$5,500-$8,000', '$200-$500 + your time'],
+                ['Annual cost', '$18,000-$32,400', '$66,000-$96,000+', '$2,400-$6,000 + errors'],
+                ['Setup time', '3-5 business days', '4-8 weeks to hire', '2-4 weeks'],
                 ['Multi-location cost center reporting', 'Included', 'Varies by system knowledge', 'Manual configuration'],
                 ['State minimum wage auto-updates', 'Included', 'Manual monitoring required', 'Some platforms auto-update'],
                 ['Employee transfers between locations', 'Handled correctly each cycle', 'Manual, error-prone', 'Manual'],
                 ['Multi-state payroll compliance', 'No extra fee per state', 'Requires multi-state knowledge', 'Manual research required'],
-                ['Scales with new unit acquisition', 'No setup fees', 'Additional workload on same hire', 'Linear cost increase'],
+                ['Scales with new unit acquisition', 'Configured before first pay cycle', 'Additional workload on same hire', 'Linear cost increase'],
                 ['Error liability', 'BEG absorbs', 'Your business absorbs', 'Your business absorbs'],
                 ['Coverage during turnover', 'No gap', 'Position must be backfilled', 'No gap'],
               ].map(([factor, beg, house, diy], i) => (
@@ -129,7 +129,7 @@ export default function FranchiseComparisonPage() {
           BEG operates as your fully managed payroll department across all locations and entities. We run every pay cycle for every location, handle all state registrations and filings, and manage minimum wage updates, employee transfers, and compliance changes as they occur. We work inside your existing payroll system, so your location managers continue using the same tools they already know.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          During onboarding, we configure separate cost centers for each location and entity, audit your current state registrations for completeness, and set up minimum wage floor calculations for each applicable jurisdiction. When you acquire new units, we add them to your configuration before the first pay cycle with no setup fees.
+          During onboarding, we configure separate cost centers for each location and entity, audit your current state registrations for completeness, and set up minimum wage floor calculations for each applicable jurisdiction. When you acquire new units, we add them to your configuration before the first pay cycle.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
           Pricing is $25 per employee per month across all locations in your existing system or $45 per employee per month in our iSolved account. For a 60-person operator, that is $1,500 to $2,700 per month, all-inclusive, compared to $66,000 to $96,000 annually for a qualified in-house payroll manager. Most operators are live within 3 to 5 business days of contract signing.

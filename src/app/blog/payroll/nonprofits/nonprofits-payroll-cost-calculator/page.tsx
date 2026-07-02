@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for nonprofit payroll?',
-    answer: 'Nonprofit payroll runs at $25–$45 per employee per month. FUTA exemption filing and grant allocation reporting are included. For a 25-person organization, that is $625–$1,125 per month.',
+    answer: 'Nonprofit payroll runs at $25-$45 per employee per month. FUTA exemption filing and grant allocation reporting are included. For a 25-person organization, that is $625-$1,125 per month.',
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Payroll Hire for Nonprofits & Religious Organizations</h2>
 
-        <p>An in-house payroll coordinator for nonprofits earns $50,000–$75,000 in base salary. That is the number most owners compare against outsourcing. Here is the full picture when you add employment costs:</p>
+        <p>An in-house payroll coordinator for nonprofits earns $50,000-$75,000 in base salary. That is the number most owners compare against outsourcing. Here is the full picture when you add employment costs:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -84,7 +84,7 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Base salary (payroll/HR coordinator)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$50,000–$75,000</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$50,000-$75,000</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Benefits (health, dental, 401K) ~30%</td>
@@ -96,15 +96,15 @@ export default function Page() {
                 </tr>
                 <tr key={3} style={{ background: 3 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Payroll software license</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,800–$4,200</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,800-$4,200</td>
                 </tr>
                 <tr key={4} style={{ background: 4 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Training and compliance updates</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,200–$2,500</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,200-$2,500</td>
                 </tr>
                 <tr key={5} style={{ background: 5 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Hiring and onboarding (amortized)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$2,000–$4,000</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$2,000-$4,000</td>
                 </tr>
                 <tr key={6} style={{ background: 6 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: true ? '700' : '400' }}>Total loaded cost</td>
@@ -114,9 +114,9 @@ export default function Page() {
           </table>
         </div>
 
-        <p>Total loaded annual cost typically runs $5000095K–$105K when benefits, employer taxes, software, training, and turnover cost are included. And when that person leaves, the cost resets.</p>
+        <p>Total loaded annual cost typically runs $5000095K-$105K when benefits, employer taxes, software, training, and turnover cost are included. And when that person leaves, the cost resets.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll at $25–$45 PEPM: What It Costs for Nonprofits & Religious Organizations</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll at $25-$45 PEPM: What It Costs for Nonprofits & Religious Organizations</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -130,36 +130,36 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Small nonprofit (5-20 staff)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$125–$900/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $48K–$73K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$125-$900/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $48K-$73K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Mid-size org (20-75 staff)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$500–$3,375/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $40K–$60K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$500-$3,375/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $40K-$60K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Regional nonprofit (75-200 staff)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,875–$9,000/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,875-$9,000/mo</td>
                   <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $18K+/yr</td>
                 </tr>
             </tbody>
           </table>
         </div>
 
-        <p>All-inclusive: payroll processing, tax filing, W-2 production, grant-funded payroll allocation, clergy housing allowance, and year-round compliance monitoring. No per-run fees, no add-on modules, no year-end surcharges.</p>
+        <p>All-inclusive: payroll processing, tax filing, W-2 production, grant-funded payroll allocation, clergy housing allowance, and year-round compliance monitoring.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Nonprofits & Religious Organizations Owners Miss in the Cost Calculation</h2>
 
         <p><strong>Compliance exposure.</strong> FUTA exemption for 501(c)(3), clergy housing allowance under Section 107, grant allocation documentation. A single filing error or misclassification can cost more to correct than months of managed payroll fees.</p>
 
-        <p><strong>Key person dependency.</strong> When your in-house payroll coordinator leaves, you have a payroll gap. Recruiting and onboarding a replacement takes 4–8 weeks. An outsourced provider has no single point of failure.</p>
+        <p><strong>Key person dependency.</strong> When your in-house payroll coordinator leaves, you have a payroll gap. Recruiting and onboarding a replacement takes 4-8 weeks. An outsourced provider has no single point of failure.</p>
 
-        <p><strong>Software and update costs.</strong> Payroll software licenses run $1,800–$4,200 per year, not including the time required to stay current on tax table updates, new hire reporting changes, and state-specific rule modifications.</p>
+        <p><strong>Software and update costs.</strong> Payroll software licenses run $1,800-$4,200 per year, not including the time required to stay current on tax table updates, new hire reporting changes, and state-specific rule modifications.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>When Should Nonprofits & Religious Organizations Outsource Payroll?</h2>
 
-        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000–$9,000 per month. The math is clear at nearly any headcount below 100.</p>
+        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000-$9,000 per month. The math is clear at nearly any headcount below 100.</p>
 
         <p>The strongest case for outsourcing: grant-funded payroll allocation, clergy housing allowance, which require specialized knowledge most in-house generalists do not have.</p>
 
@@ -204,7 +204,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle grant-funded payroll allocation?","acceptedAnswer":{"@type":"Answer","text":"We set up grant codes in the payroll system and produce time-and-effort reports that document the percentage of each employee&apos;s time spent on grant-funded activities for reimbursement documentation."}},{"@type":"Question","name":"How do you handle clergy housing allowance?","acceptedAnswer":{"@type":"Answer","text":"Under Section 107, we set up the housing allowance designation in payroll and produce the correct W-2 treatment, excluding the allowance from Box 1 while including it in Box 14."}},{"@type":"Question","name":"Does our 501(c)(3) status affect payroll taxes?","acceptedAnswer":{"@type":"Answer","text":"Yes. 501(c)(3) organizations are exempt from FUTA. State SUTA exemptions vary. We verify your organization&apos;s state exemption status and file accordingly."}},{"@type":"Question","name":"What does BEG charge for nonprofit payroll?","acceptedAnswer":{"@type":"Answer","text":"Nonprofit payroll runs at $25–$45 per employee per month. FUTA exemption filing and grant allocation reporting are included. For a 25-person organization, that is $625–$1,125 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle grant-funded payroll allocation?","acceptedAnswer":{"@type":"Answer","text":"We set up grant codes in the payroll system and produce time-and-effort reports that document the percentage of each employee&apos;s time spent on grant-funded activities for reimbursement documentation."}},{"@type":"Question","name":"How do you handle clergy housing allowance?","acceptedAnswer":{"@type":"Answer","text":"Under Section 107, we set up the housing allowance designation in payroll and produce the correct W-2 treatment, excluding the allowance from Box 1 while including it in Box 14."}},{"@type":"Question","name":"Does our 501(c)(3) status affect payroll taxes?","acceptedAnswer":{"@type":"Answer","text":"Yes. 501(c)(3) organizations are exempt from FUTA. State SUTA exemptions vary. We verify your organization&apos;s state exemption status and file accordingly."}},{"@type":"Question","name":"What does BEG charge for nonprofit payroll?","acceptedAnswer":{"@type":"Answer","text":"Nonprofit payroll runs at $25-$45 per employee per month. FUTA exemption filing and grant allocation reporting are included. For a 25-person organization, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

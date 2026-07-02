@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for urgent care payroll?",
-    answer: "BEG manages urgent care payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. For a 3-location urgent care group with 45 employees, that is $1,125 to $2,025 per month, all-inclusive. No per-run fees, no per-location fees. Live in 3 to 5 business days from contract signing.",
+    answer: "BEG manages urgent care payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. For a 3-location urgent care group with 45 employees, that is $1,125 to $2,025 per month, all-inclusive. Live in 3 to 5 business days from contract signing.",
   },
 ];
 
@@ -141,7 +141,7 @@ export default function UrgentCarePayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Payroll That Handles Your Clinical and Non-Clinical Staff Correctly</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages urgent care payroll at $25 to $45 per employee per month, all-inclusive. No per-location fees. Live in 3 to 5 business days.
+            BEG manages urgent care payroll at $25 to $45 per employee per month, all-inclusive. Live in 3 to 5 business days.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

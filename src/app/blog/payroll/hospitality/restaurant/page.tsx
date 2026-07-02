@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Restaurant Payroll, Tipped Staff and Tip Pools | BEG',
-  description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K.',
+  description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K-$90K.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/hospitality/restaurant' },
   openGraph: {
     title: 'Restaurant Payroll, Tipped Staff and Tip Pools | BEG',
-    description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K a...',
+    description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K-$90K a...',
     url: 'https://www.beghr.com/blog/payroll/hospitality/restaurant',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Restaurant Payroll, Tipped Staff and Tip Pools | BEG', description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K–$90K a...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Restaurant Payroll, Tipped Staff and Tip Pools | BEG', description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums, high-turnover W-2 volume. Save $55K-$90K a...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for restaurant payroll?',
-    answer: 'BEG manages restaurant payroll at $25–$45 per employee per month, all-inclusive. For a 40-person restaurant, that is $1,000–$1,800 per month. Included: tip tracking and pooling, tipped minimum wage calculations, multi-state compliance, tax filing, W-2 production, and compliance updates when tip laws change. No per-run fees.',
+    answer: 'BEG manages restaurant payroll at $25-$45 per employee per month, all-inclusive. For a 40-person restaurant, that is $1,000-$1,800 per month. Included: tip tracking and pooling, tipped minimum wage calculations, multi-state compliance, tax filing, W-2 production, and compliance updates when tip laws change.',
   },
 ];
 
@@ -82,7 +82,7 @@ export default function RestaurantPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Restaurant Payroll Manager</h2>
 
-        <p>A restaurant payroll manager or office manager handling HR and payroll earns $45,000–$65,000 in base salary. Here is the full picture:</p>
+        <p>A restaurant payroll manager or office manager handling HR and payroll earns $45,000-$65,000 in base salary. Here is the full picture:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -94,13 +94,13 @@ export default function RestaurantPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (payroll/office manager)', '$45,000–$65,000'],
-                ['Benefits (health, dental, 401K) ~30%', '$13,500–$19,500'],
-                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,500–$6,500'],
-                ['Payroll software + POS integration', '$1,200–$3,600'],
-                ['Training (tip laws, FLSA, state updates)', '$1,200–$2,500'],
-                ['Hiring & onboarding (amortized)', '$2,000–$4,000'],
-                ['Total loaded cost', '$67,400–$101,100'],
+                ['Base salary (payroll/office manager)', '$45,000-$65,000'],
+                ['Benefits (health, dental, 401K) ~30%', '$13,500-$19,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,500-$6,500'],
+                ['Payroll software + POS integration', '$1,200-$3,600'],
+                ['Training (tip laws, FLSA, state updates)', '$1,200-$2,500'],
+                ['Hiring & onboarding (amortized)', '$2,000-$4,000'],
+                ['Total loaded cost', '$67,400-$101,100'],
               ].map(([label, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 6 ? '700' : '400' }}>{label}</td>
@@ -111,9 +111,9 @@ export default function RestaurantPayrollPage() {
           </table>
         </div>
 
-        <p>For a restaurant already operating on 5–10% net margins, that is a significant fixed cost for a compliance function that does not generate revenue.</p>
+        <p>For a restaurant already operating on 5-10% net margins, that is a significant fixed cost for a compliance function that does not generate revenue.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25-$45 PEPM</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -127,10 +127,10 @@ export default function RestaurantPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['20 employees', '$500–$900', '$6,000–$10,800', 'Save $57K–$93K/yr'],
-                ['40 employees', '$1,000–$1,800', '$12,000–$21,600', 'Save $46K–$84K/yr'],
-                ['75 employees', '$1,875–$3,375', '$22,500–$40,500', 'Save $27K–$70K/yr'],
-                ['150 employees (multi-location)', '$3,750–$6,750', '$45,000–$81,000', 'Varies at scale'],
+                ['20 employees', '$500-$900', '$6,000-$10,800', 'Save $57K-$93K/yr'],
+                ['40 employees', '$1,000-$1,800', '$12,000-$21,600', 'Save $46K-$84K/yr'],
+                ['75 employees', '$1,875-$3,375', '$22,500-$40,500', 'Save $27K-$70K/yr'],
+                ['150 employees (multi-location)', '$3,750-$6,750', '$45,000-$81,000', 'Varies at scale'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -143,7 +143,7 @@ export default function RestaurantPayrollPage() {
           </table>
         </div>
 
-        <p>All-inclusive: tip tracking and pooling, tipped minimum wage calculations, multi-state compliance, tax filing, W-2 production, and compliance updates. No per-run fees.</p>
+        <p>All-inclusive: tip tracking and pooling, tipped minimum wage calculations, multi-state compliance, tax filing, W-2 production, and compliance updates.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Restaurant Operators Miss in the Compliance Calculation</h2>
 
@@ -179,7 +179,7 @@ export default function RestaurantPayrollPage() {
             <tbody>
               {[
                 ['Single location, under 50 staff', 'Outsource', 'No ROI on in-house hire. Compliance risk at this size is high without a specialist.'],
-                ['Single location, 50–120 staff', 'Outsource', 'Strongest ROI range. Tip compliance complexity warrants specialist coverage.'],
+                ['Single location, 50-120 staff', 'Outsource', 'Strongest ROI range. Tip compliance complexity warrants specialist coverage.'],
                 ['Multi-location, same state', 'Outsource', 'Multi-location coordination and consistent tip rule application argues for outsourcing.'],
                 ['Multi-location, multi-state', 'Outsource', 'Multi-state tip credit rules and split-shift premiums create too much compliance risk for in-house.'],
               ].map(([size, rec, why], i) => (
@@ -195,7 +195,7 @@ export default function RestaurantPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Restaurant Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Tip credit rules, tip pools, split-shift premiums, high-turnover W-2s -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your location count and staff size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Tip credit rules, tip pools, split-shift premiums, high-turnover W-2s -- all at $25-$45 per employee per month. Book a 15-minute call to get a cost comparison for your location count and staff size.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -227,7 +227,7 @@ export default function RestaurantPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving restaurants, hospitality groups, and food service operations. BEG manages tip credit compliance, tip pooling, and multi-state restaurant payroll at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving restaurants, hospitality groups, and food service operations. BEG manages tip credit compliance, tip pooling, and multi-state restaurant payroll at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ export default function RestaurantPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Restaurant Payroll Outsourcing: Tipped Employees, Tip Pools, and Compliance (2026)',
-            description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums. Save $55K–$90K annually.',
+            description: 'Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift premiums. Save $55K-$90K annually.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

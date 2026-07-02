@@ -6,17 +6,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Construction Payroll | Instant Payroll Quote | BEG',
-  description: 'Construction payroll fully managed at $25–$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.',
+  description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/construction' },
   openGraph: {
     title: 'Construction Payroll | Instant Payroll Quote | BEG',
-    description: 'Construction payroll fully managed at $25–$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.',
+    description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.',
     url: 'https://www.beghr.com/services/managed-payroll/construction',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction Payroll | Instant Payroll Quote | BEG', description: 'Construction payroll fully managed at $25–$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction Payroll | Instant Payroll Quote | BEG', description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -29,11 +29,11 @@ export default function PayrollConstructionPage() {
       imageAlt="Construction company with fully managed payroll"
       eyebrow="Managed Payroll · Construction"
       title="Construction payroll is certified payroll. We run it right."
-      description="Prevailing wage, certified payroll reports, fringe benefits, union locals, and crews that move between job sites and states make construction payroll a specialty. We manage all of it at $25–$45 per employee per month -- fully managed, no migration required."
+      description="Prevailing wage, certified payroll reports, fringe benefits, union locals, and crews that move between job sites and states make construction payroll a specialty. We manage all of it at $25-$45 per employee per month -- fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'WH-347', label: 'Certified payroll reports filed for you' },
         { value: 'Union + open', label: 'Union and non-union crews handled' },
       ]}
@@ -50,9 +50,9 @@ export default function PayrollConstructionPage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$70K–$100K</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$70K-$100K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of a payroll person who actually understands certified payroll</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Construction payroll specialists who know prevailing wage and union reporting are hard to hire and expensive to keep. Fully managed service at $25–$45 PEPM replaces that headcount.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Construction payroll specialists who know prevailing wage and union reporting are hard to hire and expensive to keep. Fully managed service at $25-$45 PEPM replaces that headcount.</div>
                 </div>
               ))()
             }
@@ -88,7 +88,7 @@ export default function PayrollConstructionPage() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Scope review', body: 'We map your crews, the jobs you run, your prevailing wage and union obligations, and your current process. You get a fixed monthly cost -- no surprises.' },
-              { num: '02', title: 'We configure your wage determinations, fringe rates, union locals, and job cost codes', body: 'We set up prevailing wage rates, fringe handling, union remittances, and cost codes, then run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30–60 days.' },
+              { num: '02', title: 'We configure your wage determinations, fringe rates, union locals, and job cost codes', body: 'We set up prevailing wage rates, fringe handling, union remittances, and cost codes, then run your first payroll cycles. No migration required -- we work in your existing system. Transition takes 30-60 days.' },
               { num: '03', title: 'Ongoing managed service', body: 'Every pay cycle, every certified payroll report, every filing and remittance -- fully managed by BEG. Your team touches nothing.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ position: 'relative', padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -189,7 +189,7 @@ export default function PayrollConstructionPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. Certified payroll included.',
                 objection: 'Common objection: "Payroll services charge extra for every certified payroll report."',
-                body: 'The $25–$45 PEPM rate is all-inclusive: payroll processing, tax filing, certified payroll and WH-347 reporting, fund remittances, compliance updates, year-end W-2s, and support. There are no per-run fees, no per-report fees, and no year-end surcharges. One number, everything included.',
+                body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, tax filing, certified payroll and WH-347 reporting, fund remittances, compliance updates, year-end W-2s, and support. One number, everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -220,12 +220,12 @@ export default function PayrollConstructionPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Every certified payroll error is money and exposure you do not get back.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A payroll person who understands certified payroll and union reporting costs $70,000–$100,000 per year fully loaded. Fully managed payroll at $25–$45 PEPM on a 50-person crew costs $15,000–$27,000 per year. Every cycle you run it manually is a week of WH-347 risk, fund-remittance risk, and back-office time that should be going to running jobs -- not chasing payroll.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>A payroll person who understands certified payroll and union reporting costs $70,000-$100,000 per year fully loaded. Fully managed payroll at $25-$45 PEPM on a 50-person crew costs $15,000-$27,000 per year. Every cycle you run it manually is a week of WH-347 risk, fund-remittance risk, and back-office time that should be going to running jobs -- not chasing payroll.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to switch is between project starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Starting before your next big job mobilizes means certified payroll is handled correctly from day one of that contract. Companies that wait until the middle of a public job make the cutover harder than it needs to be.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Starting before your next big job mobilizes means certified payroll is handled correctly from day one of that contract. Companies that wait until the middle of a public job make the cutover harder than it needs to be.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -252,12 +252,12 @@ export default function PayrollConstructionPage() {
               <p>No. We operate as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include?</h3>
-              <p>Everything: payroll processing, federal and state tax filing, certified payroll and WH-347 reporting, union fund remittances, compliance updates, year-end W-2s, and dedicated BEG support. No add-on fees, no per-run charges, no per-report charges.</p>
+              <h3>What does $25-$45 PEPM include?</h3>
+              <p>Everything: payroll processing, federal and state tax filing, certified payroll and WH-347 reporting, union fund remittances, compliance updates, year-end W-2s, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How long does the transition take?</h3>
-              <p>30–60 days from scope review to first managed payroll run. We handle setup, testing, and go-live. Your team reviews and approves before anything goes live.</p>
+              <p>30-60 days from scope review to first managed payroll run. We handle setup, testing, and go-live. Your team reviews and approves before anything goes live.</p>
             </div>
             <div className="faq-item">
               <h3>What if our headcount changes by season or by job?</h3>
@@ -291,7 +291,7 @@ export default function PayrollConstructionPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'Do we have to change payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, certified payroll and WH-347 reporting, union fund remittances, compliance updates, W-2s, and support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, tax filing, certified payroll and WH-347 reporting, union fund remittances, compliance updates, W-2s, and support.' } },
               { '@type': 'Question', name: 'How do you handle certified payroll and prevailing wage?', acceptedAnswer: { '@type': 'Answer', text: 'BEG produces certified payroll reports such as the WH-347 on the required schedule using the contract wage determination, matches each worker to the correct classification, applies the right prevailing wage and fringe, and files in the format the awarding agency accepts.' } },
               { '@type': 'Question', name: 'Can BEG handle union payroll across multiple locals?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG applies the correct CBA rate by local and classification, deducts working dues, and prepares fund remittance reports for the health, pension, vacation, and training funds each local requires.' } },
               { '@type': 'Question', name: 'How do you handle crews that work in multiple states?', acceptedAnswer: { '@type': 'Answer', text: 'BEG tracks which federal, state, or local prevailing wage rules apply to each job, withholds income tax by work state, and keeps the company registered for payroll tax and unemployment in each state where crews work.' } },

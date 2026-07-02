@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Accounting & CPA Payroll | Instant Quote | BEG',
-  description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
+  description: 'CPA and accounting firm payroll fully managed at $25-$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/accounting-cpa' },
   openGraph: {
     title: 'Accounting & CPA Payroll | Instant Quote | BEG',
-    description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
+    description: 'CPA and accounting firm payroll fully managed at $25-$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
     url: 'https://www.beghr.com/services/managed-payroll/accounting-cpa',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Accounting & CPA Payroll | Instant Quote | BEG',
-    description: 'CPA and accounting firm payroll fully managed at $25–$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
+    description: 'CPA and accounting firm payroll fully managed at $25-$45 PEPM. Partner draws, busy season overtime, 401(k) management, and billing allocations handled.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -33,7 +33,7 @@ export default function PayrollAccountingCpaPage() {
       imageAlt="CPA and accounting firm with fully managed payroll"
       eyebrow="Managed Payroll · Accounting & CPA"
       title="CPA firms are experts at other businesses' finances. Your payroll deserves the same expertise."
-      description="Partner draw structures, staff accountant busy-season overtime, 401(k) matching on variable compensation, and client-code payroll allocations. BEG manages all of it at $25–$45 per employee per month. Fully managed, no migration required."
+      description="Partner draw structures, staff accountant busy-season overtime, 401(k) matching on variable compensation, and client-code payroll allocations. BEG manages all of it at $25-$45 per employee per month. Fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -73,9 +73,9 @@ export default function PayrollAccountingCpaPage() {
             {
               (() => (
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
-                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$65K–$95K</div>
+                  <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$65K-$95K</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of one in-house payroll administrator for a mid-size CPA firm</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25–$45 PEPM on a 20-person firm costs $6,000–$10,800 per year. That same firm pays an internal administrator six to nine times more, and that administrator still has to figure out partner W-2 vs. K-1 treatment without specialist backup.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25-$45 PEPM on a 20-person firm costs $6,000-$10,800 per year. That same firm pays an internal administrator six to nine times more, and that administrator still has to figure out partner W-2 vs. K-1 treatment without specialist backup.</div>
                 </div>
               ))()
             }
@@ -191,7 +191,7 @@ export default function PayrollAccountingCpaPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to transition is before the next tax season starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30–60 days. Getting into a managed payroll structure before busy season means your admin team has one less thing to manage during the highest-pressure months of the year. We scope your current setup, configure everything, and run your first payroll cycles before January. You focus on clients; we handle your firm.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. Getting into a managed payroll structure before busy season means your admin team has one less thing to manage during the highest-pressure months of the year. We scope your current setup, configure everything, and run your first payroll cycles before January. You focus on clients; we handle your firm.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -222,8 +222,8 @@ export default function PayrollAccountingCpaPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for CPA and accounting firms?</h3>
-              <p>Everything: payroll processing, partner compensation management, busy-season overtime, 401(k) deductions and match calculations, federal and state tax filing, year-end W-2 production, and dedicated BEG support. No per-run fees, no year-end surcharges, no module upsells.</p>
+              <h3>What does $25-$45 PEPM include for CPA and accounting firms?</h3>
+              <p>Everything: payroll processing, partner compensation management, busy-season overtime, 401(k) deductions and match calculations, federal and state tax filing, year-end W-2 production, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>Can BEG configure payroll allocations by client code for engagement profitability tracking?</h3>
@@ -243,7 +243,7 @@ export default function PayrollAccountingCpaPage() {
               { '@type': 'Question', name: 'How does BEG manage partner W-2 salary alongside K-1 distributions?', acceptedAnswer: { '@type': 'Answer', text: 'BEG processes the W-2 salary component through payroll with correct withholding, coordinates with your CPA on K-1 distributions, and ensures W-2 salary meets IRS reasonable compensation requirements for S-corp or partnership structures.' } },
               { '@type': 'Question', name: 'How does BEG handle staff accountant overtime during busy season?', acceptedAnswer: { '@type': 'Answer', text: 'BEG tracks actual hours for all non-exempt staff accountants and calculates overtime automatically for weeks over 40 hours. We can also review current exemption classifications before busy season starts.' } },
               { '@type': 'Question', name: 'Do we have to change our payroll system?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Payroll processing, partner compensation management, busy-season overtime, 401(k) deductions and match, tax filing, year-end W-2 production, and dedicated support. No add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Payroll processing, partner compensation management, busy-season overtime, 401(k) deductions and match, tax filing, year-end W-2 production, and dedicated support.' } },
               { '@type': 'Question', name: 'Can BEG configure payroll allocations by client code?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG configures client-code or engagement-code allocation, producing allocation reports each cycle for engagement profitability analysis without manual reconciliation.' } },
             ],
           }),

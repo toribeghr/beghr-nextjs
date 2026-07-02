@@ -126,7 +126,7 @@ export default function OutsourceEducationPayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Switch to Managed School Payroll in 5 Days</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages private and charter school payroll at $25 to $45 PEPM. We handle salary spreads, substitute daily rates, 403(b) remittance, ACA tracking, and all tax filings. No per-run fees. Setup in 3 to 5 business days.
+            BEG manages private and charter school payroll at $25 to $45 PEPM. We handle salary spreads, substitute daily rates, 403(b) remittance, ACA tracking, and all tax filings. Setup in 3 to 5 business days.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <Link

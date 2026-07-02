@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Retail Payroll Outsourcing for Seasonal Staff | BEG',
-  description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',
+  description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K-$80K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/retail/staffing-payroll' },
   openGraph: {
     title: 'Retail Payroll Outsourcing for Seasonal Staff | BEG',
-    description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',
+    description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K-$80K annually.',
     url: 'https://www.beghr.com/blog/payroll/retail/staffing-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Retail Payroll Outsourcing for Seasonal Staff | BEG', description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Retail Payroll Outsourcing for Seasonal Staff | BEG', description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K-$80K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -27,7 +27,7 @@ const faqs = [
     answer: 'More than 40 states, counties, and cities have minimum wages above the federal $7.25 floor, and they update at different times throughout the year. BEG maintains a compliance calendar that tracks every jurisdiction where you have employees and ensures that minimum wage updates are applied to payroll before the effective date. A retailer with locations in Chicago, Seattle, and Austin needs three different minimum wage calculations, and BEG handles that automatically rather than leaving it to your store managers to track.',
   },
   {
-    question: 'We hire 50–100 seasonal employees every holiday season. How does BEG handle the surge?',
+    question: 'We hire 50-100 seasonal employees every holiday season. How does BEG handle the surge?',
     answer: 'Seasonal headcount surges are exactly where managed payroll earns its value. BEG handles bulk onboarding, I-9 completion, direct deposit setup, and payroll processing for your seasonal cohort alongside your regular staff, without requiring you to hire a temporary HR resource for the season. When the season ends and seasonal employees are separated, BEG handles the offboarding, final pay calculations (which have state-specific requirements), and W-2 production at year end.',
   },
   {
@@ -35,12 +35,12 @@ const faqs = [
     answer: 'The ACA requires employers with 50+ full-time equivalent employees to offer affordable coverage to anyone averaging 30+ hours per week over a defined measurement period. Retail companies with variable-hour workers frequently miscalculate FTE status because hours fluctuate. BEG tracks hours against ACA measurement periods throughout the year and flags employees who are approaching full-time equivalent status before the coverage obligation triggers, giving you time to respond rather than discovering the exposure at year end.',
   },
   {
-    question: 'Our retail operation has 60–70% annual turnover. How does managed payroll handle high-volume W-2 production?',
+    question: 'Our retail operation has 60-70% annual turnover. How does managed payroll handle high-volume W-2 production?',
     answer: 'High turnover creates W-2 volume, address correction requests, and rehire processing demands that overwhelm manual in-house processes. BEG handles W-2 production for all separated employees automatically, maintains mailing address records throughout the year, and processes rehires without requiring full re-enrollment for returning seasonal workers. The operational burden of high turnover falls on BEG\'s systems rather than your team.',
   },
   {
     question: 'What does BEG charge for retail payroll outsourcing?',
-    answer: 'BEG charges $25 PEPM working in your existing payroll system, or $45 PEPM on BEG\'s iSolved platform, all-inclusive. No per-run fees, no separate charges for multi-location processing, ACA tracking, or W-2 production. At 60 employees, that is $1,500–$2,700/month compared to an HR Coordinator at $4,000–$6,000/month in fully loaded cost. During seasonal peaks, the PEPM count rises with headcount and falls back when the season ends, you never pay a flat salary for a capacity you do not use year-round.',
+    answer: 'BEG charges $25 PEPM working in your existing payroll system, or $45 PEPM on BEG\'s iSolved platform, all-inclusive. At 60 employees, that is $1,500-$2,700/month compared to an HR Coordinator at $4,000-$6,000/month in fully loaded cost. During seasonal peaks, the PEPM count rises with headcount and falls back when the season ends, you never pay a flat salary for a capacity you do not use year-round.',
   },
 ];
 
@@ -77,9 +77,9 @@ export default function RetailStaffingPayrollPage() {
 
         <p>Retail payroll is operationally demanding in ways that most payroll systems were not designed to handle gracefully. Hours fluctuate week to week. Headcount doubles during Q4 and collapses in January. Minimum wages differ by city, county, and state, and update on different calendars. Part-time employees hover near the ACA full-time equivalent threshold. Annual turnover runs 60 to 70 percent, generating a constant stream of onboarding, W-2 production, and rehire processing. Each of these factors creates compliance risk. Together, they create a payroll environment that overwhelms in-house staff at nearly every scale.</p>
 
-        <p>The default response is to hire an HR Coordinator, base salary $42,000–$62,000. Add employer FICA, health insurance, PTO, payroll software, and overhead, and the all-in annual cost reaches $62,000–$92,000. That is a fixed cost for a function whose workload varies enormously by season. You pay the same salary in February as you do in November, even though your operational complexity in November is three times higher.</p>
+        <p>The default response is to hire an HR Coordinator, base salary $42,000-$62,000. Add employer FICA, health insurance, PTO, payroll software, and overhead, and the all-in annual cost reaches $62,000-$92,000. That is a fixed cost for a function whose workload varies enormously by season. You pay the same salary in February as you do in November, even though your operational complexity in November is three times higher.</p>
 
-        <p>BEG's managed payroll service scales with your actual headcount. You pay $25–$45 PEPM based on active employees in the pay period, not a fixed salary regardless of headcount. When you bring on 80 seasonal workers in October, the PEPM cost rises accordingly. When those workers are separated in January, the cost falls. The compliance infrastructure, multi-location minimum wage tracking, ACA measurement, W-2 production at volume, stays constant regardless of where your headcount sits.</p>
+        <p>BEG's managed payroll service scales with your actual headcount. You pay $25-$45 PEPM based on active employees in the pay period, not a fixed salary regardless of headcount. When you bring on 80 seasonal workers in October, the PEPM cost rises accordingly. When those workers are separated in January, the cost falls. The compliance infrastructure, multi-location minimum wage tracking, ACA measurement, W-2 production at volume, stays constant regardless of where your headcount sits.</p>
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>The True Cost of In-House Payroll at a Retail Company</h2>
 
@@ -93,16 +93,16 @@ export default function RetailStaffingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['HR Coordinator base salary', '$42,000–$62,000'],
-                ['Employer FICA (7.65%)', '$3,213–$4,743'],
-                ['Health insurance contribution (employer portion)', '$6,000–$9,600'],
-                ['PTO (15 days average)', '$2,423–$3,577'],
-                ['401(k) match (3% typical)', '$1,260–$1,860'],
-                ['Payroll software with multi-location support', '$3,600–$7,200'],
-                ['ACA tracking / compliance tools', '$1,800–$4,800'],
-                ['Recruiting and onboarding the coordinator', '$3,000–$6,000'],
-                ['Minimum wage penalty exposure (estimated)', '$2,000–$10,000'],
-                ['Total fully loaded annual cost', '$65,296–$109,780'],
+                ['HR Coordinator base salary', '$42,000-$62,000'],
+                ['Employer FICA (7.65%)', '$3,213-$4,743'],
+                ['Health insurance contribution (employer portion)', '$6,000-$9,600'],
+                ['PTO (15 days average)', '$2,423-$3,577'],
+                ['401(k) match (3% typical)', '$1,260-$1,860'],
+                ['Payroll software with multi-location support', '$3,600-$7,200'],
+                ['ACA tracking / compliance tools', '$1,800-$4,800'],
+                ['Recruiting and onboarding the coordinator', '$3,000-$6,000'],
+                ['Minimum wage penalty exposure (estimated)', '$2,000-$10,000'],
+                ['Total fully loaded annual cost', '$65,296-$109,780'],
               ].map(([item, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 9 ? '700' : 'normal' }}>{item}</td>
@@ -130,10 +130,10 @@ export default function RetailStaffingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['30 employees', '$9,000/yr', '$12,600/yr', '$65,296–$109,780/yr', '$52,696–$100,780'],
-                ['60 employees', '$18,000/yr', '$25,200/yr', '$65,296–$109,780/yr', '$40,096–$91,780'],
-                ['100 employees', '$30,000/yr', '$42,000/yr', '$75,000–$115,000/yr', '$33,000–$85,000'],
-                ['200 employees', '$60,000/yr', '$84,000/yr', '$115,000–$160,000/yr*', '$31,000–$100,000'],
+                ['30 employees', '$9,000/yr', '$12,600/yr', '$65,296-$109,780/yr', '$52,696-$100,780'],
+                ['60 employees', '$18,000/yr', '$25,200/yr', '$65,296-$109,780/yr', '$40,096-$91,780'],
+                ['100 employees', '$30,000/yr', '$42,000/yr', '$75,000-$115,000/yr', '$33,000-$85,000'],
+                ['200 employees', '$60,000/yr', '$84,000/yr', '$115,000-$160,000/yr*', '$31,000-$100,000'],
               ].map(([count, low, high, inhouse, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{count}</td>
@@ -192,11 +192,11 @@ export default function RetailStaffingPayrollPage() {
             <tbody>
               {[
                 ['Under 15 employees, 1 location', 'DIY or software', 'Low complexity, limited cost advantage at this scale'],
-                ['15–40 employees, 1–2 states', 'Strong case for outsourcing', 'Minimum wage tracking + ACA risk exceeds DIY capacity'],
-                ['40–100 employees, multi-state', 'Outsource', 'Compliance burden is ongoing and growing'],
+                ['15-40 employees, 1-2 states', 'Strong case for outsourcing', 'Minimum wage tracking + ACA risk exceeds DIY capacity'],
+                ['40-100 employees, multi-state', 'Outsource', 'Compliance burden is ongoing and growing'],
                 ['100+ employees with seasonal surge', 'Outsource', 'Surge costs are unpredictable with in-house staff'],
                 ['Multi-location, varied minimum wages', 'Outsource', 'Per-jurisdiction tracking requires dedicated systems'],
-                ['60–70% annual turnover', 'Outsource', 'W-2 and rehire volume at this rate exceeds manual capacity'],
+                ['60-70% annual turnover', 'Outsource', 'W-2 and rehire volume at this rate exceeds manual capacity'],
               ].map(([situation, rec, reason], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{situation}</td>
@@ -210,7 +210,7 @@ export default function RetailStaffingPayrollPage() {
 
         <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2rem', margin: '2.5rem 0', textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', fontWeight: '700', margin: '0 0 0.5rem' }}>Retail Payroll That Scales With Your Season</p>
-          <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>Variable hours, seasonal surges, multi-state minimum wages, ACA tracking, BEG handles all of it at $25–$45 PEPM. Pay for what you use. No fixed overhead.</p>
+          <p style={{ color: '#ccc', margin: '0 0 1.5rem' }}>Variable hours, seasonal surges, multi-state minimum wages, ACA tracking, BEG handles all of it at $25-$45 PEPM. Pay for what you use. No fixed overhead.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -236,7 +236,7 @@ export default function RetailStaffingPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads managed payroll and HR services at Business Executive Group. BEG serves retail companies nationally with variable-hour payroll, seasonal surge management, multi-state minimum wage compliance, and ACA tracking, all-inclusive at $25–$45 PEPM.</p>
+          <p style={{ margin: 0 }}>Anthony leads managed payroll and HR services at Business Executive Group. BEG serves retail companies nationally with variable-hour payroll, seasonal surge management, multi-state minimum wage compliance, and ACA tracking, all-inclusive at $25-$45 PEPM.</p>
         </div>
 
       </section>
@@ -270,7 +270,7 @@ export default function RetailStaffingPayrollPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Retail Payroll Outsourcing: Managing Variable Hours, Seasonal Staff, and Compliance (2026)',
-        description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K–$80K annually.',
+        description: 'Retail payroll outsourcing. Variable scheduling, high turnover, minimum wage patchwork, seasonal surge, ACA part-time tracking. Save $45K-$80K annually.',
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: { '@type': 'Person', name: 'Anthony Moretti', jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } },

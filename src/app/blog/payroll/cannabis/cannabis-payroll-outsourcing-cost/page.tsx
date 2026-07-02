@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for cannabis business payroll?',
-    answer: 'Cannabis payroll runs at $25–$45 per employee per month, including 280E-aware payroll allocation support and state licensing recordkeeping. For a single dispensary with 15 employees, that is $375–$675 per month.',
+    answer: 'Cannabis payroll runs at $25-$45 per employee per month, including 280E-aware payroll allocation support and state licensing recordkeeping. For a single dispensary with 15 employees, that is $375-$675 per month.',
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Payroll Hire for Cannabis Businesses</h2>
 
-        <p>An in-house payroll coordinator for cannabis businesses earns $60,000–$95,000 in base salary. That is the number most owners compare against outsourcing. Here is the full picture when you add employment costs:</p>
+        <p>An in-house payroll coordinator for cannabis businesses earns $60,000-$95,000 in base salary. That is the number most owners compare against outsourcing. Here is the full picture when you add employment costs:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -84,7 +84,7 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Base salary (payroll/HR coordinator)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$60,000–$95,000</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$60,000-$95,000</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Benefits (health, dental, 401K) ~30%</td>
@@ -96,15 +96,15 @@ export default function Page() {
                 </tr>
                 <tr key={3} style={{ background: 3 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Payroll software license</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,800–$4,200</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,800-$4,200</td>
                 </tr>
                 <tr key={4} style={{ background: 4 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Training and compliance updates</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,200–$2,500</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,200-$2,500</td>
                 </tr>
                 <tr key={5} style={{ background: 5 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Hiring and onboarding (amortized)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$2,000–$4,000</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$2,000-$4,000</td>
                 </tr>
                 <tr key={6} style={{ background: 6 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: true ? '700' : '400' }}>Total loaded cost</td>
@@ -114,9 +114,9 @@ export default function Page() {
           </table>
         </div>
 
-        <p>Total loaded annual cost typically runs $6000115K–$125K when benefits, employer taxes, software, training, and turnover cost are included. And when that person leaves, the cost resets.</p>
+        <p>Total loaded annual cost typically runs $6000115K-$125K when benefits, employer taxes, software, training, and turnover cost are included. And when that person leaves, the cost resets.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll at $25–$45 PEPM: What It Costs for Cannabis Businesses</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll at $25-$45 PEPM: What It Costs for Cannabis Businesses</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -130,36 +130,36 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Single dispensary</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$250–$450/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $58K–$93K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$250-$450/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $58K-$93K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>2-5 location operator</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$625–$2,250/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $50K–$80K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$625-$2,250/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $50K-$80K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Vertically integrated</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,250–$4,500/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,250-$4,500/mo</td>
                   <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $30K+/yr</td>
                 </tr>
             </tbody>
           </table>
         </div>
 
-        <p>All-inclusive: payroll processing, tax filing, W-2 production, 280E tax code payroll deductions, cash payroll documentation, and year-round compliance monitoring. No per-run fees, no add-on modules, no year-end surcharges.</p>
+        <p>All-inclusive: payroll processing, tax filing, W-2 production, 280E tax code payroll deductions, cash payroll documentation, and year-round compliance monitoring.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Cannabis Businesses Owners Miss in the Cost Calculation</h2>
 
         <p><strong>Compliance exposure.</strong> IRS 280E cost allocation for payroll, state cannabis licensing payroll records, FinCEN guidance for cash-intensive payroll. A single filing error or misclassification can cost more to correct than months of managed payroll fees.</p>
 
-        <p><strong>Key person dependency.</strong> When your in-house payroll coordinator leaves, you have a payroll gap. Recruiting and onboarding a replacement takes 4–8 weeks. An outsourced provider has no single point of failure.</p>
+        <p><strong>Key person dependency.</strong> When your in-house payroll coordinator leaves, you have a payroll gap. Recruiting and onboarding a replacement takes 4-8 weeks. An outsourced provider has no single point of failure.</p>
 
-        <p><strong>Software and update costs.</strong> Payroll software licenses run $1,800–$4,200 per year, not including the time required to stay current on tax table updates, new hire reporting changes, and state-specific rule modifications.</p>
+        <p><strong>Software and update costs.</strong> Payroll software licenses run $1,800-$4,200 per year, not including the time required to stay current on tax table updates, new hire reporting changes, and state-specific rule modifications.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>When Should Cannabis Businesses Outsource Payroll?</h2>
 
-        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000–$9,000 per month. The math is clear at nearly any headcount below 100.</p>
+        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000-$9,000 per month. The math is clear at nearly any headcount below 100.</p>
 
         <p>The strongest case for outsourcing: 280E tax code payroll deductions, cash payroll documentation, which require specialized knowledge most in-house generalists do not have.</p>
 
@@ -204,7 +204,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle 280E payroll cost allocation?","acceptedAnswer":{"@type":"Answer","text":"We work with your CPA to allocate payroll costs between COGS (cultivation, production, direct handling) and non-COGS (retail, admin, marketing) to capture the maximum allowable deduction under Section 280E."}},{"@type":"Question","name":"Can you handle cash payroll for dispensary employees?","acceptedAnswer":{"@type":"Answer","text":"We process payroll calculations and tax withholding digitally regardless of how employees are ultimately paid, and produce detailed payment records and tax documentation for audit readiness."}},{"@type":"Question","name":"How do you handle state cannabis board payroll reporting?","acceptedAnswer":{"@type":"Answer","text":"We maintain the required records and produce reports in the format required by your state&apos;s cannabis control board upon request."}},{"@type":"Question","name":"What does BEG charge for cannabis business payroll?","acceptedAnswer":{"@type":"Answer","text":"Cannabis payroll runs at $25–$45 per employee per month, including 280E-aware payroll allocation support and state licensing recordkeeping. For a single dispensary with 15 employees, that is $375–$675 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle 280E payroll cost allocation?","acceptedAnswer":{"@type":"Answer","text":"We work with your CPA to allocate payroll costs between COGS (cultivation, production, direct handling) and non-COGS (retail, admin, marketing) to capture the maximum allowable deduction under Section 280E."}},{"@type":"Question","name":"Can you handle cash payroll for dispensary employees?","acceptedAnswer":{"@type":"Answer","text":"We process payroll calculations and tax withholding digitally regardless of how employees are ultimately paid, and produce detailed payment records and tax documentation for audit readiness."}},{"@type":"Question","name":"How do you handle state cannabis board payroll reporting?","acceptedAnswer":{"@type":"Answer","text":"We maintain the required records and produce reports in the format required by your state&apos;s cannabis control board upon request."}},{"@type":"Question","name":"What does BEG charge for cannabis business payroll?","acceptedAnswer":{"@type":"Answer","text":"Cannabis payroll runs at $25-$45 per employee per month, including 280E-aware payroll allocation support and state licensing recordkeeping. For a single dispensary with 15 employees, that is $375-$675 per month."}}]}`,
         }}
       />
 

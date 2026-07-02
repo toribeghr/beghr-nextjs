@@ -102,7 +102,7 @@ export default function ResourcesPage() {
               {
                 tag: 'Pricing Guide',
                 title: 'Managed Payroll Pricing',
-                desc: 'Understand exactly how $25-$45 PEPM works, what is included, and how your total monthly cost scales with headcount. No hidden fees.',
+                desc: 'Understand exactly how $25-$45 PEPM works, what is included, and how your total monthly cost scales with headcount.',
                 href: '/services/managed-payroll/pricing',
                 cta: 'See Pricing',
               },

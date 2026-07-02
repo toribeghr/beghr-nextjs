@@ -19,15 +19,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does managed payroll cost?',
-    answer: 'BEG managed payroll runs at $25–$45 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surcharges. For a 25-employee company, that is $625–$1,125 per month.',
+    answer: 'BEG managed payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-employee company, that is $625-$1,125 per month.',
   },
   {
     question: 'How quickly can you set up managed payroll?',
-    answer: 'Setup takes 3–5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup.',
+    answer: 'Setup takes 3-5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup.',
   },
   {
-    question: 'What is included at $25–$45 PEPM?',
-    answer: 'Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included, no add-ons.',
+    question: 'What is included at $25-$45 PEPM?',
+    answer: 'Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included.',
   },
   {
     question: 'Can you handle payroll in multiple states?',
@@ -75,7 +75,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Is PEPM Pricing?</h2>
 
-        <p>Most managed payroll providers price on a per-employee-per-month (PEPM) basis. BEG charges $25–$45 PEPM, all-inclusive. For a 20-employee company, that is $500–$900 per month.</p>
+        <p>Most managed payroll providers price on a per-employee-per-month (PEPM) basis. BEG charges $25-$45 PEPM, all-inclusive. For a 20-employee company, that is $500-$900 per month.</p>
 
         <p>PEPM pricing scales linearly with your headcount. Adding employees increases cost predictably. Seasonally shedding employees reduces cost the same month. You never pay for headcount you do not have.</p>
 
@@ -93,11 +93,11 @@ export default function Page() {
             </thead>
             <tbody>
               {[
-                ['10 employees', '$250', '$450', '$3,000–$5,400'],
-                ['25 employees', '$625', '$1,125', '$7,500–$13,500'],
-                ['50 employees', '$1,250', '$2,250', '$15,000–$27,000'],
-                ['100 employees', '$2,500', '$4,500', '$30,000–$54,000'],
-                ['200 employees', '$5,000', '$9,000', '$60,000–$108,000'],
+                ['10 employees', '$250', '$450', '$3,000-$5,400'],
+                ['25 employees', '$625', '$1,125', '$7,500-$13,500'],
+                ['50 employees', '$1,250', '$2,250', '$15,000-$27,000'],
+                ['100 employees', '$2,500', '$4,500', '$30,000-$54,000'],
+                ['200 employees', '$5,000', '$9,000', '$60,000-$108,000'],
               ].map(([size, low, high, annual], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: '600' }}>{size}</td>
@@ -110,7 +110,7 @@ export default function Page() {
           </table>
         </div>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Is Included at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Is Included at $25-$45 PEPM</h2>
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}>Payroll processing on your chosen frequency (weekly, bi-weekly, semi-monthly)</li>
@@ -125,9 +125,9 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Real Alternative: In-House Payroll</h2>
 
-        <p>The in-house alternative is not free payroll software. It is a payroll coordinator or HR generalist earning $45,000–$80,000 in base salary, plus benefits, employer taxes, software, training, and the cost of replacing them when they leave. Fully loaded, an in-house hire costs $60,000–$110,000+ per year.</p>
+        <p>The in-house alternative is not free payroll software. It is a payroll coordinator or HR generalist earning $45,000-$80,000 in base salary, plus benefits, employer taxes, software, training, and the cost of replacing them when they leave. Fully loaded, an in-house hire costs $60,000-$110,000+ per year.</p>
 
-        <p>At 25 employees, managed payroll at $45 PEPM costs $13,500/year. An in-house hire costs $60,000–$110,000. The savings over 5 years fund significant business investment.</p>
+        <p>At 25 employees, managed payroll at $45 PEPM costs $13,500/year. An in-house hire costs $60,000-$110,000. The savings over 5 years fund significant business investment.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -170,7 +170,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does managed payroll cost?","acceptedAnswer":{"@type":"Answer","text":"BEG managed payroll runs at $25–$45 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surcharges. For a 25-employee company, that is $625–$1,125 per month."}},{"@type":"Question","name":"How quickly can you set up managed payroll?","acceptedAnswer":{"@type":"Answer","text":"Setup takes 3–5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup."}},{"@type":"Question","name":"What is included at $25–$45 PEPM?","acceptedAnswer":{"@type":"Answer","text":"Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included, no add-ons."}},{"@type":"Question","name":"Can you handle payroll in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state payroll is a standard service. We register in each state where you have employees and handle state withholding and unemployment filing in all applicable states."}},{"@type":"Question","name":"What happens if there is a payroll error?","acceptedAnswer":{"@type":"Answer","text":"If an error occurs due to our processing, we correct it at our cost. This includes amended returns, corrected W-2s, and penalty abatement where applicable."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does managed payroll cost?","acceptedAnswer":{"@type":"Answer","text":"BEG managed payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-employee company, that is $625-$1,125 per month."}},{"@type":"Question","name":"How quickly can you set up managed payroll?","acceptedAnswer":{"@type":"Answer","text":"Setup takes 3-5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup."}},{"@type":"Question","name":"What is included at $25-$45 PEPM?","acceptedAnswer":{"@type":"Answer","text":"Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included."}},{"@type":"Question","name":"Can you handle payroll in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state payroll is a standard service. We register in each state where you have employees and handle state withholding and unemployment filing in all applicable states."}},{"@type":"Question","name":"What happens if there is a payroll error?","acceptedAnswer":{"@type":"Answer","text":"If an error occurs due to our processing, we correct it at our cost. This includes amended returns, corrected W-2s, and penalty abatement where applicable."}}]}`,
         }}
       />
 

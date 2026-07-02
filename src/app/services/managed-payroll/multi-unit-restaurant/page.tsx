@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Restaurant Payroll | Instant Quote | BEG',
-  description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
+  description: 'Multi-location restaurant payroll fully managed at $25-$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/multi-unit-restaurant' },
   openGraph: {
     title: 'Restaurant Payroll | Instant Quote | BEG',
-    description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
+    description: 'Multi-location restaurant payroll fully managed at $25-$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
     url: 'https://www.beghr.com/services/managed-payroll/multi-unit-restaurant',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Restaurant Payroll | Instant Quote | BEG',
-    description: 'Multi-location restaurant payroll fully managed at $25–$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
+    description: 'Multi-location restaurant payroll fully managed at $25-$45 PEPM. Consolidated reporting, state-by-state tip compliance, and per-location payroll included.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -33,7 +33,7 @@ export default function PayrollMultiUnitRestaurantPage() {
       imageAlt="Multi-location restaurant group with fully managed payroll"
       eyebrow="Managed Payroll · Multi-Location Restaurant"
       title="Multi-location restaurant payroll breaks most payroll systems. We built ours around it."
-      description="Consolidated reporting across locations, per-location tip credit compliance in different states, high-volume W-2 production, and location-level P&L reporting. BEG manages all of it at $25–$45 per employee per month. Fully managed, no migration required."
+      description="Consolidated reporting across locations, per-location tip credit compliance in different states, high-volume W-2 production, and location-level P&L reporting. BEG manages all of it at $25-$45 per employee per month. Fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -191,7 +191,7 @@ export default function PayrollMultiUnitRestaurantPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to consolidate multi-location payroll is before you open the next location.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30–60 days. Restaurant groups that consolidate payroll management before adding a new location avoid carrying the wrong configuration into the new market. Every location you add to a properly managed structure is cleaner than fixing a problem after it has been running for two years across three states.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. Restaurant groups that consolidate payroll management before adding a new location avoid carrying the wrong configuration into the new market. Every location you add to a properly managed structure is cleaner than fixing a problem after it has been running for two years across three states.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -222,8 +222,8 @@ export default function PayrollMultiUnitRestaurantPage() {
               <p>No. BEG operates as your managed payroll team inside your existing system. Migration is an option, never a requirement.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for multi-location restaurant groups?</h3>
-              <p>Everything: per-location payroll processing, tip credit compliance, multi-state tax filing, per-location reporting, year-end W-2 production, and dedicated BEG support. No per-run fees, no location add-on fees, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include for multi-location restaurant groups?</h3>
+              <p>Everything: per-location payroll processing, tip credit compliance, multi-state tax filing, per-location reporting, year-end W-2 production, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How does BEG handle payroll for a restaurant group operating under separate entities per location?</h3>
@@ -243,7 +243,7 @@ export default function PayrollMultiUnitRestaurantPage() {
               { '@type': 'Question', name: 'How does BEG handle tip credit compliance across multiple states?', acceptedAnswer: { '@type': 'Answer', text: 'BEG configures tip credit rules independently for each location based on applicable state and local laws. We monitor changes and update each location configuration when laws change.' } },
               { '@type': 'Question', name: 'Can BEG produce per-location payroll reports?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG produces per-location labor cost reports for operators and CFO, formatted to match how your leadership team tracks location performance.' } },
               { '@type': 'Question', name: 'Do we have to change our payroll system?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is an option, never a requirement.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Per-location processing, tip credit compliance, multi-state tax filing, per-location reporting, year-end W-2s, and dedicated support. No per-run, per-location, or year-end add-on fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include?', acceptedAnswer: { '@type': 'Answer', text: 'Per-location processing, tip credit compliance, multi-state tax filing, per-location reporting, year-end W-2s, and dedicated support.' } },
               { '@type': 'Question', name: 'How does BEG handle a restaurant group with separate entities per location?', acceptedAnswer: { '@type': 'Answer', text: 'BEG maintains entity-level separation in processing while managing the group as one consolidated function, with each location under its own EIN and state registrations plus consolidated reporting for leadership.' } },
             ],
           }),

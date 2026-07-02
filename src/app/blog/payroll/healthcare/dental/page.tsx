@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Dental Office Payroll Outsourcing (Full Breakdown) | BEG',
-  description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
+  description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K-$90K annually at $25-$45 PEPM.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/healthcare/dental' },
   openGraph: {
     title: 'Dental Office Payroll Outsourcing (Full Breakdown) | BEG',
-    description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
+    description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K-$90K annually at $25-$45 PEPM.',
     url: 'https://www.beghr.com/blog/payroll/healthcare/dental',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Dental Office Payroll Outsourcing (Full Breakdown) | BEG', description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Dental Office Payroll Outsourcing (Full Breakdown) | BEG', description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO payroll. Save $55K-$90K annually at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: 'How does outsourced payroll work for a multi-location dental group or DSO?',
-    answer: 'Each location runs on the same payroll system with consolidated reporting. You can see labor costs by location, run payroll for all locations in a single cycle, and produce W-2s for all employees under the same entity or separate EINs depending on your corporate structure. DSOs with 5–30 locations are a common use case for BEG managed payroll.',
+    answer: 'Each location runs on the same payroll system with consolidated reporting. You can see labor costs by location, run payroll for all locations in a single cycle, and produce W-2s for all employees under the same entity or separate EINs depending on your corporate structure. DSOs with 5-30 locations are a common use case for BEG managed payroll.',
   },
   {
     question: 'Does your system integrate with Dentrix or Eaglesoft for scheduling and time?',
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for dental office payroll?',
-    answer: 'BEG manages dental payroll at $25–$45 per employee per month, all-inclusive. For a 15-person dental office, that is $375–$675 per month. Included: payroll processing, tax filing, W-2 production, tip tracking, multi-rate pay, and compliance updates. No per-run fees or module add-ons.',
+    answer: 'BEG manages dental payroll at $25-$45 per employee per month, all-inclusive. For a 15-person dental office, that is $375-$675 per month. Included: payroll processing, tax filing, W-2 production, tip tracking, multi-rate pay, and compliance updates.',
   },
 ];
 
@@ -74,7 +74,7 @@ export default function DentalPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Running a dental practice means focusing on patient care, clinical outcomes, and practice growth. Yet most dental offices spend 8–12 hours per week managing payroll -- tracking hygienist tips, processing associate dentist production pay, handling tax filings, and staying current on state compliance rules that change every year.</p>
+        <p>Running a dental practice means focusing on patient care, clinical outcomes, and practice growth. Yet most dental offices spend 8-12 hours per week managing payroll -- tracking hygienist tips, processing associate dentist production pay, handling tax filings, and staying current on state compliance rules that change every year.</p>
 
         <p>Dental payroll is more complex than most industries. You have tipped hygienists, production-based dentist compensation, multi-rate employees, dental-specific tax treatment, and practice management software that does not natively handle payroll. One miscalculation creates penalties. One missed tip credit rule creates back-pay liability. One incorrect W-2 creates an IRS inquiry.</p>
 
@@ -82,7 +82,7 @@ export default function DentalPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Dental Payroll Coordinator</h2>
 
-        <p>A dental HR coordinator or payroll specialist earns $45,000–$65,000 in base salary. That is the number most practice owners compare against outsourcing. Here is the full picture:</p>
+        <p>A dental HR coordinator or payroll specialist earns $45,000-$65,000 in base salary. That is the number most practice owners compare against outsourcing. Here is the full picture:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -94,13 +94,13 @@ export default function DentalPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (payroll/HR coordinator)', '$45,000–$65,000'],
-                ['Benefits (health, dental, 401K) ~30%', '$13,500–$19,500'],
-                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,500–$6,500'],
-                ['Payroll software license', '$1,800–$4,200'],
-                ['Training & compliance updates', '$1,200–$2,500'],
-                ['Hiring & onboarding (amortized)', '$2,000–$4,000'],
-                ['Total loaded cost', '$68,000–$101,700'],
+                ['Base salary (payroll/HR coordinator)', '$45,000-$65,000'],
+                ['Benefits (health, dental, 401K) ~30%', '$13,500-$19,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$4,500-$6,500'],
+                ['Payroll software license', '$1,800-$4,200'],
+                ['Training & compliance updates', '$1,200-$2,500'],
+                ['Hiring & onboarding (amortized)', '$2,000-$4,000'],
+                ['Total loaded cost', '$68,000-$101,700'],
               ].map(([label, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: i === 6 ? '700' : '400' }}>{label}</td>
@@ -113,7 +113,7 @@ export default function DentalPayrollPage() {
 
         <p>This does not include the cost when that person makes a tip credit error, processes a production-based compensation cycle incorrectly, or leaves in the middle of a pay period.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25-$45 PEPM</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -127,10 +127,10 @@ export default function DentalPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['10 employees', '$250–$450', '$3,000–$5,400', 'Save $63K–$97K/yr'],
-                ['20 employees', '$500–$900', '$6,000–$10,800', 'Save $58K–$93K/yr'],
-                ['40 employees', '$1,000–$1,800', '$12,000–$21,600', 'Save $46K–$85K/yr'],
-                ['80 employees (DSO/group practice)', '$2,000–$3,600', '$24,000–$43,200', 'Save $24K–$68K/yr'],
+                ['10 employees', '$250-$450', '$3,000-$5,400', 'Save $63K-$97K/yr'],
+                ['20 employees', '$500-$900', '$6,000-$10,800', 'Save $58K-$93K/yr'],
+                ['40 employees', '$1,000-$1,800', '$12,000-$21,600', 'Save $46K-$85K/yr'],
+                ['80 employees (DSO/group practice)', '$2,000-$3,600', '$24,000-$43,200', 'Save $24K-$68K/yr'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -143,7 +143,7 @@ export default function DentalPayrollPage() {
           </table>
         </div>
 
-        <p>All-inclusive: tip tracking, multi-rate pay, production comp processing, tax filing, W-2s, and compliance updates. No per-run fees, no add-on modules.</p>
+        <p>All-inclusive: tip tracking, multi-rate pay, production comp processing, tax filing, W-2s, and compliance updates.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Dental Practice Owners Miss in the Cost Calculation</h2>
 
@@ -178,9 +178,9 @@ export default function DentalPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Solo practice, 5–15 staff', 'Outsource', 'No justification for in-house hire at this size. Savings are immediate.'],
-                ['Single location, 15–40 staff', 'Outsource', 'Strongest ROI range. Compliance complexity warrants specialist coverage.'],
-                ['Multi-location group, 40–150 staff', 'Outsource', 'Multi-state, multi-EIN, and multi-rate complexity all argue for outsourcing.'],
+                ['Solo practice, 5-15 staff', 'Outsource', 'No justification for in-house hire at this size. Savings are immediate.'],
+                ['Single location, 15-40 staff', 'Outsource', 'Strongest ROI range. Compliance complexity warrants specialist coverage.'],
+                ['Multi-location group, 40-150 staff', 'Outsource', 'Multi-state, multi-EIN, and multi-rate complexity all argue for outsourcing.'],
                 ['DSO, 150+ staff', 'Outsource or hybrid', 'Volume may support an internal HR generalist, but payroll processing should still be outsourced.'],
               ].map(([size, rec, why], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -195,7 +195,7 @@ export default function DentalPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Dental Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Hygienist tips, production comp, multi-rate pay, tax filing -- all at $25–$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Hygienist tips, production comp, multi-rate pay, tax filing -- all at $25-$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -227,7 +227,7 @@ export default function DentalPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving dental practices, DSOs, and healthcare groups. BEG manages payroll at $25–$45 PEPM, all-inclusive, with dental-specific expertise in tip tracking, production comp, and multi-location payroll.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving dental practices, DSOs, and healthcare groups. BEG manages payroll at $25-$45 PEPM, all-inclusive, with dental-specific expertise in tip tracking, production comp, and multi-location payroll.</p>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ export default function DentalPayrollPage() {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: 'Dental Office Payroll Outsourcing: Cost vs. Hiring HR Coordinator (2026)',
-            description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, production comp, DSO payroll. Save $55K–$90K annually at $25–$45 PEPM.',
+            description: 'Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, production comp, DSO payroll. Save $55K-$90K annually at $25-$45 PEPM.',
             datePublished: '2026-06-25',
             dateModified: '2026-06-27',
             author: {

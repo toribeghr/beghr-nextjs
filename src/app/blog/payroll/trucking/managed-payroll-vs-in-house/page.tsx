@@ -4,24 +4,24 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. In-House for Trucking: What It Costs | BEG',
-  description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10–200 drivers. Driver classification, per diem.',
+  description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10-200 drivers. Driver classification, per diem.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/trucking/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. In-House for Trucking: What It Costs | BEG',
-    description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10–200 drivers. Driver classification, per diem, ...',
+    description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10-200 drivers. Driver classification, per diem, ...',
     url: 'https://www.beghr.com/blog/payroll/trucking/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. In-House for Trucking: What It Costs | BEG', description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10–200 drivers. Driver classification, per diem, ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. In-House for Trucking: What It Costs | BEG', description: 'Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets of 10-200 drivers. Driver classification, per diem, ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
 const faqs = [
   {
     q: 'How much does managed payroll cost for a trucking company?',
-    a: 'BEG charges $25 per employee per month when we operate inside your existing payroll system, or $45 per employee per month when we run payroll through our iSolved account. For a fleet of 30 drivers, that is $750 to $1,350 per month, all-inclusive. No setup fees, no per-run charges, no compliance add-ons.',
+    a: 'BEG charges $25 per employee per month when we operate inside your existing payroll system, or $45 per employee per month when we run payroll through our iSolved account. For a fleet of 30 drivers, that is $750 to $1,350 per month, all-inclusive.',
   },
   {
     q: 'What happens if a driver is misclassified as a 1099 contractor?',
@@ -88,9 +88,9 @@ export default function TruckingComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (30 drivers)', '$750–$1,350', '$5,500–$7,500', '$150–$400 + your time'],
-                ['Annual cost', '$9,000–$16,200', '$66,000–$90,000+', '$1,800–$4,800 + errors'],
-                ['Setup time', '3–5 business days', '4–8 weeks to hire', '2–4 weeks'],
+                ['Monthly cost (30 drivers)', '$750-$1,350', '$5,500-$7,500', '$150-$400 + your time'],
+                ['Annual cost', '$9,000-$16,200', '$66,000-$90,000+', '$1,800-$4,800 + errors'],
+                ['Setup time', '3-5 business days', '4-8 weeks to hire', '2-4 weeks'],
                 ['Driver classification review', 'Included', 'Varies by candidate', 'Not included'],
                 ['IRS per diem structuring', 'Included', 'Varies by candidate', 'Manual configuration'],
                 ['Multi-state tax compliance', 'All 50 states, no extra fee', 'Requires specialist', 'Manual research required'],
@@ -132,7 +132,7 @@ export default function TruckingComparisonPage() {
           During onboarding, we audit your current driver roster for classification risk, review your per diem program, and confirm your state tax registrations are current. If gaps exist, we address them before the first managed pay run. Most carriers are live within 3 to 5 business days of contract signing.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. Both tiers include all state filings, W-2 generation, and year-round compliance support with no add-on fees. For a 30-driver fleet, that comes to $750 to $1,350 per month, compared to $66,000 to $90,000 annually for a qualified in-house payroll specialist with transportation experience.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. Both tiers include all state filings, W-2 generation, and year-round compliance support. For a 30-driver fleet, that comes to $750 to $1,350 per month, compared to $66,000 to $90,000 annually for a qualified in-house payroll specialist with transportation experience.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

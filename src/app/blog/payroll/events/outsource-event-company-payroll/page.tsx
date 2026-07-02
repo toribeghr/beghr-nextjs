@@ -129,7 +129,7 @@ export default function OutsourceEventCompanyPayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Get Your Season Started Right</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG onboards event companies in 3 to 5 business days from contract signing to first live payroll. $25 to $45 per employee per month. No per-run fees. Multi-state included.
+            BEG onboards event companies in 3 to 5 business days from contract signing to first live payroll. $25 to $45 per employee per month. Multi-state included.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

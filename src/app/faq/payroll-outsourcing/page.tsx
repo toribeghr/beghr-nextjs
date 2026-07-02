@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: 'What are the risks of outsourcing payroll?',
-    a: `The main risk is choosing a vendor who delivers less than a full managed service. If your outsourcing provider processes payroll runs but leaves tax deposits, state filings, and compliance up to you, you have outsourced the easy part and kept the liability. Other risks include: poor support responsiveness (ticket queues instead of a dedicated contact), hidden fees that inflate the real monthly cost, and data security vulnerabilities if the provider does not maintain SOC 2 certification or equivalent controls. BEG mitigates these by providing a dedicated contact for every client, all-inclusive PEPM pricing with no hidden fees, and processing on iSolved\'s SOC 2 Type II certified infrastructure.`,
+    a: `The main risk is choosing a vendor who delivers less than a full managed service. If your outsourcing provider processes payroll runs but leaves tax deposits, state filings, and compliance up to you, you have outsourced the easy part and kept the liability. Other risks include: poor support responsiveness (ticket queues instead of a dedicated contact), hidden fees that inflate the real monthly cost, and data security vulnerabilities if the provider does not maintain SOC 2 certification or equivalent controls. BEG mitigates these by providing a dedicated contact for every client, all-inclusive PEPM pricing, and processing on iSolved\'s SOC 2 Type II certified infrastructure.`,
   },
   {
     q: 'What does a payroll outsourcing company handle?',

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const faqs = [
   { q: 'How much should payroll outsourcing cost?', a: 'Fully managed, all-inclusive payroll typically runs $25 to $45 per employee per month. Many providers advertise a lower base rate, then add per-run fees, year-end fees, and other charges that push the real cost well above that. The auditor shows your effective per-employee cost so you can compare like for like.' },
   { q: 'What are the most common hidden payroll fees?', a: 'Per-payroll-run fees, per-check fees, tax filing surcharges, year-end W-2 and 1099 fees, off-cycle run fees, check delivery fees, custom report fees, error correction fees, integration fees, new-hire setup fees, garnishment fees, and one-time setup fees. Flat all-inclusive providers fold all of these into one rate.' },
-  { q: 'Does BEG charge any of these add-on fees?', a: 'No. BEG Managed Payroll is flat $25 to $45 PEPM, all-inclusive: tax filings, year-end forms, off-cycle runs, and corrections are all included. There are no per-run fees and no add-on menu.' },
+  { q: 'Does BEG charge any of these add-on fees?', a: 'No. BEG Managed Payroll is flat $25 to $45 PEPM, all-inclusive: tax filings, year-end forms, off-cycle runs, and corrections are all included.' },
 ];
 
 export default function PayrollFeeAuditorPage() {
@@ -76,7 +76,7 @@ export default function PayrollFeeAuditorPage() {
           <p style={{ marginTop: '1.5rem', fontSize: '1rem', lineHeight: '1.8', color: '#555555', textAlign: 'center' }}>
             ADP and Paychex will not even publish a price, and nearly every provider bills per run, so the more often you pay people, the more you pay them. The simplest protection is a single flat all-in rate with nothing on the side.{' '}
             <Link href="/services/managed-payroll" style={{ color: '#ECAC60', fontWeight: '600' }}>BEG Managed Payroll</Link>{' '}
-            is exactly that: $25 to $45 per employee per month, all-inclusive, with no per-run fees and no add-on menu.
+            is exactly that: $25 to $45 per employee per month, all-inclusive.
           </p>
           <p style={{ marginTop: '1.5rem', textAlign: 'center' }}>
             <Link href="/resources" style={{ color: '#ECAC60', fontSize: '0.9rem', fontWeight: '600' }}>&larr; Back to Resources</Link>

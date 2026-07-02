@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does managed payroll cost for a salon with 12 employees?",
-    answer: "At BEG's $25 to $45 PEPM pricing, a salon with 12 employees pays $300 to $540 per month, or $3,600 to $6,480 per year, all-inclusive. This covers payroll processing, tax deposits, quarterly 941 filings, W-2 production, and ACA tracking. There are no per-run fees, no W-2 fees at year-end, and no separate state filing fees. For comparison, a single minimum wage violation corrected through a DOL investigation can cost $7,000 or more in back wages, penalties, and professional fees for 12 employees over a two-year period. The cost of compliance through managed payroll is a fraction of the cost of non-compliance.",
+    answer: "At BEG's $25 to $45 PEPM pricing, a salon with 12 employees pays $300 to $540 per month, or $3,600 to $6,480 per year, all-inclusive. This covers payroll processing, tax deposits, quarterly 941 filings, W-2 production, and ACA tracking. For comparison, a single minimum wage violation corrected through a DOL investigation can cost $7,000 or more in back wages, penalties, and professional fees for 12 employees over a two-year period. The cost of compliance through managed payroll is a fraction of the cost of non-compliance.",
   },
 ];
 
@@ -109,7 +109,7 @@ export default function OutsourceSalonSpaPayrollPage() {
           <li>Ability to handle mixed compensation structures (hourly, commission, tip credit) in one account</li>
           <li>Multi-state payroll registration and filing if operating in multiple states</li>
           <li>ACA tracking for variable-hour employees included (not as an add-on)</li>
-          <li>All-inclusive pricing with no per-run, per-form, or per-state fees</li>
+          <li>All-inclusive pricing</li>
           <li>A dedicated contact who understands salon industry payroll complexity</li>
           <li>Setup timeline under two weeks with parallel verification before going live</li>
         </ul>
@@ -117,7 +117,7 @@ export default function OutsourceSalonSpaPayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Salon and Spa Payroll at $25-$45 PEPM</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages salon and spa payroll including commission payroll, tip credit compliance, and mixed compensation structures. Setup in 3 to 5 business days. No per-run fees.
+            BEG manages salon and spa payroll including commission payroll, tip credit compliance, and mixed compensation structures. Setup in 3 to 5 business days.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <Link

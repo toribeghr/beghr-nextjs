@@ -112,10 +112,10 @@ export default function ManagedPayrollVsTriNetPage() {
                 ['Employment model', 'Co-employment - TriNet is co-employer', 'No co-employment - you stay sole employer'],
                 ['Who runs payroll', 'TriNet (as co-employer)', 'BEG (as your service provider)'],
                 ['Access to your employees', 'Yes - TriNet has a legal employer relationship', 'No - BEG processes data only'],
-                ['Pricing transparency', 'Opaque - varies by plan and negotiation', '$25–$45 PEPM, all-inclusive'],
+                ['Pricing transparency', 'Opaque - varies by plan and negotiation', '$25-$45 PEPM, all-inclusive'],
                 ['Benefits bundling', 'Required - benefits run through TriNet', 'Not required - bring your own benefits'],
                 ['Minimum employee count', 'Typically 5+ (varies by market)', 'No minimum'],
-                ['Implementation time', 'Weeks to months', '3–5 business days'],
+                ['Implementation time', 'Weeks to months', '3-5 business days'],
                 ['Exit complexity', 'High - co-employment unwind required', 'Low - no employment relationship to unwind'],
                 ['Control over HR decisions', 'Shared with TriNet', 'Fully yours'],
                 ['Multi-state compliance', 'Handled', 'Handled'],
@@ -174,7 +174,7 @@ export default function ManagedPayrollVsTriNetPage() {
           TriNet does not publish a standard price. Pricing is negotiated based on employee count, industry, state, and benefits configuration. Reported per-employee costs range from $80 to $200 or more per month, depending on what benefits are included and how the package is structured. The payroll processing component is embedded in a larger bundle.
         </p>
         <p>
-          BEG managed payroll costs $25 to $45 per employee per month, all-inclusive. That rate covers payroll processing, tax filing, compliance monitoring, year-end W-2s, and dedicated BEG support. No per-run fees, no year-end surcharges, no add-on modules.
+          BEG managed payroll costs $25 to $45 per employee per month, all-inclusive. That rate covers payroll processing, tax filing, compliance monitoring, year-end W-2s, and dedicated BEG support.
         </p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
@@ -188,11 +188,11 @@ export default function ManagedPayrollVsTriNetPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly service cost', '$4,000–$10,000+/mo (estimated)', '$1,250–$2,250/mo'],
+                ['Monthly service cost', '$4,000-$10,000+/mo (estimated)', '$1,250-$2,250/mo'],
                 ['Benefits access', 'Bundled (TriNet group plans)', 'Bring your own'],
                 ['HR advisory services', 'Included in PEO bundle', 'Not included (payroll only)'],
                 ['Co-employment structure', 'Yes - required', 'No'],
-                ['Exit cost', 'High - 60–120 day unwind process', 'Low - standard vendor transition'],
+                ['Exit cost', 'High - 60-120 day unwind process', 'Low - standard vendor transition'],
               ].map(([factor, trinet, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: i === 4 ? 700 : 400 }}>{factor}</td>

@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for veterinary practice payroll?',
-    answer: 'Vet practice payroll runs at $25–$45 per employee per month. For a 3-4 DVM practice with 15-20 total staff, that is $375–$900 per month covering payroll, production comp calculation, and year-end W-2s.',
+    answer: 'Vet practice payroll runs at $25-$45 per employee per month. For a 3-4 DVM practice with 15-20 total staff, that is $375-$900 per month covering payroll, production comp calculation, and year-end W-2s.',
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Payroll Hire for Veterinary Practices</h2>
 
-        <p>An in-house payroll coordinator for veterinary practices earns $55,000–$85,000 in base salary. That is the number most owners compare against outsourcing. Here is the full picture when you add employment costs:</p>
+        <p>An in-house payroll coordinator for veterinary practices earns $55,000-$85,000 in base salary. That is the number most owners compare against outsourcing. Here is the full picture when you add employment costs:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -84,7 +84,7 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Base salary (payroll/HR coordinator)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$55,000–$85,000</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$55,000-$85,000</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Benefits (health, dental, 401K) ~30%</td>
@@ -96,15 +96,15 @@ export default function Page() {
                 </tr>
                 <tr key={3} style={{ background: 3 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Payroll software license</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,800–$4,200</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,800-$4,200</td>
                 </tr>
                 <tr key={4} style={{ background: 4 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Training and compliance updates</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,200–$2,500</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,200-$2,500</td>
                 </tr>
                 <tr key={5} style={{ background: 5 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Hiring and onboarding (amortized)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$2,000–$4,000</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$2,000-$4,000</td>
                 </tr>
                 <tr key={6} style={{ background: 6 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: true ? '700' : '400' }}>Total loaded cost</td>
@@ -114,9 +114,9 @@ export default function Page() {
           </table>
         </div>
 
-        <p>Total loaded annual cost typically runs $5500105K–$115K when benefits, employer taxes, software, training, and turnover cost are included. And when that person leaves, the cost resets.</p>
+        <p>Total loaded annual cost typically runs $5500105K-$115K when benefits, employer taxes, software, training, and turnover cost are included. And when that person leaves, the cost resets.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll at $25–$45 PEPM: What It Costs for Veterinary Practices</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll at $25-$45 PEPM: What It Costs for Veterinary Practices</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -130,36 +130,36 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Solo DVM clinic</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$125–$225/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K–$83K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$125-$225/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K-$83K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>3-4 DVM practice</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$375–$675/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $50K–$78K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$375-$675/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $50K-$78K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Regional vet group</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,250–$2,250/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $40K–$65K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,250-$2,250/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $40K-$65K/yr</td>
                 </tr>
             </tbody>
           </table>
         </div>
 
-        <p>All-inclusive: payroll processing, tax filing, W-2 production, production-based DVM comp, vet tech certification pay tiers, and year-round compliance monitoring. No per-run fees, no add-on modules, no year-end surcharges.</p>
+        <p>All-inclusive: payroll processing, tax filing, W-2 production, production-based DVM comp, vet tech certification pay tiers, and year-round compliance monitoring.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Veterinary Practices Owners Miss in the Cost Calculation</h2>
 
         <p><strong>Compliance exposure.</strong> DVM production compensation reporting, state veterinary board payroll records, ACA reporting for practices with 50+ FTEs. A single filing error or misclassification can cost more to correct than months of managed payroll fees.</p>
 
-        <p><strong>Key person dependency.</strong> When your in-house payroll coordinator leaves, you have a payroll gap. Recruiting and onboarding a replacement takes 4–8 weeks. An outsourced provider has no single point of failure.</p>
+        <p><strong>Key person dependency.</strong> When your in-house payroll coordinator leaves, you have a payroll gap. Recruiting and onboarding a replacement takes 4-8 weeks. An outsourced provider has no single point of failure.</p>
 
-        <p><strong>Software and update costs.</strong> Payroll software licenses run $1,800–$4,200 per year, not including the time required to stay current on tax table updates, new hire reporting changes, and state-specific rule modifications.</p>
+        <p><strong>Software and update costs.</strong> Payroll software licenses run $1,800-$4,200 per year, not including the time required to stay current on tax table updates, new hire reporting changes, and state-specific rule modifications.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>When Should Veterinary Practices Outsource Payroll?</h2>
 
-        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000–$9,000 per month. The math is clear at nearly any headcount below 100.</p>
+        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000-$9,000 per month. The math is clear at nearly any headcount below 100.</p>
 
         <p>The strongest case for outsourcing: production-based DVM comp, vet tech certification pay tiers, which require specialized knowledge most in-house generalists do not have.</p>
 
@@ -204,7 +204,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle production-based compensation for DVMs?","acceptedAnswer":{"@type":"Answer","text":"Yes. DVM production pay based on a percentage of revenue or procedures is calculated within the payroll system. We receive production data from your practice management software and calculate comp due each cycle."}},{"@type":"Question","name":"How do you handle pay tiers for credentialed vs. non-credentialed vet techs?","acceptedAnswer":{"@type":"Answer","text":"Certification-based pay tiers are set up and updated when credentials are earned or lapse."}},{"@type":"Question","name":"Can you handle payroll for multiple clinic locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-location vet groups run on a single system with per-location cost centers and consolidated W-2 and tax filing."}},{"@type":"Question","name":"What does BEG charge for veterinary practice payroll?","acceptedAnswer":{"@type":"Answer","text":"Vet practice payroll runs at $25–$45 per employee per month. For a 3-4 DVM practice with 15-20 total staff, that is $375–$900 per month covering payroll, production comp calculation, and year-end W-2s."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle production-based compensation for DVMs?","acceptedAnswer":{"@type":"Answer","text":"Yes. DVM production pay based on a percentage of revenue or procedures is calculated within the payroll system. We receive production data from your practice management software and calculate comp due each cycle."}},{"@type":"Question","name":"How do you handle pay tiers for credentialed vs. non-credentialed vet techs?","acceptedAnswer":{"@type":"Answer","text":"Certification-based pay tiers are set up and updated when credentials are earned or lapse."}},{"@type":"Question","name":"Can you handle payroll for multiple clinic locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-location vet groups run on a single system with per-location cost centers and consolidated W-2 and tax filing."}},{"@type":"Question","name":"What does BEG charge for veterinary practice payroll?","acceptedAnswer":{"@type":"Answer","text":"Vet practice payroll runs at $25-$45 per employee per month. For a 3-4 DVM practice with 15-20 total staff, that is $375-$900 per month covering payroll, production comp calculation, and year-end W-2s."}}]}`,
         }}
       />
 

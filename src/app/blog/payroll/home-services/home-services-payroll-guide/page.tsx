@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for home services company payroll?',
-    answer: 'BEG managed payroll for home services companies runs at $25-$45 per employee per month, all-inclusive. For a company with 15 field technicians and 5 office staff (20 total), that is $500 to $900 per month. There are no per-run fees, no overtime calculation add-ons, and no year-end surcharges. Compare to an in-house payroll specialist at $55,000 to $75,000 per year plus benefits and software. For most home services companies with 10-50 employees, managed payroll delivers a significant cost advantage. Setup takes 3-5 business days.',
+    answer: 'BEG managed payroll for home services companies runs at $25-$45 per employee per month, all-inclusive. For a company with 15 field technicians and 5 office staff (20 total), that is $500 to $900 per month. Compare to an in-house payroll specialist at $55,000 to $75,000 per year plus benefits and software. For most home services companies with 10-50 employees, managed payroll delivers a significant cost advantage. Setup takes 3-5 business days.',
   },
 ];
 

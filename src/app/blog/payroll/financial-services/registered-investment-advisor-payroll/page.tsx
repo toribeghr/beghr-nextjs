@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for RIA payroll?",
-    answer: "BEG manages RIA payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform with the software included. For a 10-person RIA, that is $250 to $450 per month all-inclusive: advisor comp calculations, deferred comp tracking, tax filings, W-2 production, and compliance updates. No per-run fees.",
+    answer: "BEG manages RIA payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform with the software included. For a 10-person RIA, that is $250 to $450 per month all-inclusive: advisor comp calculations, deferred comp tracking, tax filings, W-2 production, and compliance updates.",
   },
 ];
 
@@ -143,7 +143,7 @@ export default function RegisteredInvestmentAdvisorPayrollPage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Payroll That Fits How RIAs Actually Pay People</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages RIA payroll at $25 to $45 per employee per month, all-inclusive. Setup in 3 to 5 business days. No per-run fees, no per-state fees.
+            BEG manages RIA payroll at $25 to $45 per employee per month, all-inclusive. Setup in 3 to 5 business days.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

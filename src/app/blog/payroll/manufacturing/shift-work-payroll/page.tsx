@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for manufacturing shift work payroll?",
-    answer: "BEG manages manufacturing payroll including shift differentials and 24/7 scheduling at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For a 100-person manufacturing operation, that is $2,500 to $4,500 per month, all-inclusive. No per-run fees, no per-location fees. Setup takes 3 to 5 business days from contract signing.",
+    answer: "BEG manages manufacturing payroll including shift differentials and 24/7 scheduling at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For a 100-person manufacturing operation, that is $2,500 to $4,500 per month, all-inclusive. Setup takes 3 to 5 business days from contract signing.",
   },
 ];
 

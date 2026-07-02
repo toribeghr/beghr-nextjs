@@ -194,7 +194,7 @@ export default function ManagedPayrollVsRipplingPage() {
           </table>
         </div>
         <p style={{ fontSize: '0.85rem', color: '#666' }}>
-          Rippling cost estimates based on full suite pricing at 50 employees. Payroll-only Rippling is less expensive but eliminates the platform value proposition. BEG pricing is flat $25–$45 PEPM, all-in with no setup fees.
+          Rippling cost estimates based on full suite pricing at 50 employees. Payroll-only Rippling is less expensive but eliminates the platform value proposition. BEG pricing is flat $25-$45 PEPM, all-in.
         </p>
         <p>
           If you genuinely need Rippling's IT and HR integration capabilities, those costs may be justified. If you primarily need payroll handled, you're paying for a significant amount of capability you won't use.

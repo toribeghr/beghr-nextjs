@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Agriculture Payroll | Instant Quote | BEG',
-  description: 'Agriculture payroll fully managed at $25–$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.',
+  description: 'Agriculture payroll fully managed at $25-$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/agriculture' },
   openGraph: {
     title: 'Agriculture Payroll | Instant Quote | BEG',
-    description: 'Agriculture payroll fully managed at $25–$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.',
+    description: 'Agriculture payroll fully managed at $25-$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.',
     url: 'https://www.beghr.com/services/managed-payroll/agriculture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Agriculture Payroll | Instant Quote | BEG', description: 'Agriculture payroll fully managed at $25–$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Agriculture Payroll | Instant Quote | BEG', description: 'Agriculture payroll fully managed at $25-$45 PEPM. H-2A workers, piece-rate, seasonal crews, and DOL compliance included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('agriculture-payroll');
@@ -29,7 +29,7 @@ export default function PayrollAgriculturePage() {
       imageAlt="Agricultural operation with fully managed payroll"
       eyebrow="Managed Payroll · Agriculture"
       title="Farm and agricultural payroll is the most complex in America. We handle it."
-      description="H-2A visa workers, seasonal mass hire and termination events, piece-rate pay calculations, multi-state harvest crews, housing deductions, and MSPA compliance make agricultural payroll a category most payroll vendors cannot serve correctly. BEG manages all of it at $25–$45 per employee per month - fully managed, no migration required."
+      description="H-2A visa workers, seasonal mass hire and termination events, piece-rate pay calculations, multi-state harvest crews, housing deductions, and MSPA compliance make agricultural payroll a category most payroll vendors cannot serve correctly. BEG manages all of it at $25-$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -156,7 +156,7 @@ export default function PayrollAgriculturePage() {
                   ['AEWR annual updates', 'Automatic', 'Must track manually', 'You update it'],
                   ['Multi-state harvest crew filing', 'Included', 'May need CPA', 'You manage it'],
                   ['Year-end W-2 for seasonal workers', 'Included', 'Included', 'Extra fee'],
-                  ['Monthly cost (50 workers)', '$1,250–$2,250', '$5,800–$8,300', '$400–$900 + risk'],
+                  ['Monthly cost (50 workers)', '$1,250-$2,250', '$5,800-$8,300', '$400-$900 + risk'],
                 ].map(([factor, beg, inhouse, software], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
                     <td style={{ padding: '0.85rem 1rem', fontWeight: '600', color: '#222222' }}>{factor}</td>
@@ -183,7 +183,7 @@ export default function PayrollAgriculturePage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Seasonal Timing Matters</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The time to set up managed payroll is before your next harvest ramp - not during it.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Agricultural operations that try to change payroll providers mid-season cause payment delays for workers and compliance gaps. Start the process in the off-season and arrive at harvest with a fully managed system in place.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Agricultural operations that try to change payroll providers mid-season cause payment delays for workers and compliance gaps. Start the process in the off-season and arrive at harvest with a fully managed system in place.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -236,8 +236,8 @@ export default function PayrollAgriculturePage() {
               <p>Yes. BEG is built for agricultural operations that add large crews rapidly at harvest and reduce headcount just as quickly. We handle mass onboarding, multi-state registrations for harvest crew members, and mass termination processing without disrupting the operation.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for an agricultural operation?</h3>
-              <p>Everything: payroll processing, H-2A compliance, piece-rate calculations, multi-state tax filing, year-end W-2 preparation for all workers, and dedicated BEG support. No per-run fees, no year-end surcharges, no add-on fees for seasonal headcount spikes.</p>
+              <h3>What does $25-$45 PEPM include for an agricultural operation?</h3>
+              <p>Everything: payroll processing, H-2A compliance, piece-rate calculations, multi-state tax filing, year-end W-2 preparation for all workers, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>What is the MSPA and does BEG handle it?</h3>
@@ -257,7 +257,7 @@ export default function PayrollAgriculturePage() {
               { '@type': 'Question', name: 'Can BEG handle H-2A worker payroll?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG manages H-2A worker payroll including housing deductions within DOL limits, transportation reimbursements, adverse effect wage rate application, and year-end W-2 preparation for visa workers.' } },
               { '@type': 'Question', name: 'How does piece-rate payroll work under FLSA?', acceptedAnswer: { '@type': 'Answer', text: 'Piece-rate workers must earn at least minimum wage for all hours worked. BEG calculates the minimum wage true-up automatically every pay period.' } },
               { '@type': 'Question', name: 'Can you handle seasonal mass hire events?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG handles mass onboarding, multi-state registrations for harvest crew members, and mass termination processing without disrupting the operation.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include for an agricultural operation?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, H-2A compliance, piece-rate calculations, multi-state tax filing, year-end W-2 preparation, and dedicated BEG support. No per-run fees or surcharges.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include for an agricultural operation?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, H-2A compliance, piece-rate calculations, multi-state tax filing, year-end W-2 preparation, and dedicated BEG support.' } },
             ],
           }),
         }}
@@ -291,7 +291,7 @@ export default function PayrollAgriculturePage() {
           {
             category: 'Managed Payroll',
             title: 'Managed Payroll vs. In-House Hire: The Real Cost for Agricultural Operations',
-            excerpt: 'The fully loaded cost of an in-house agricultural payroll specialist vs. fully managed payroll at $25–$45 PEPM.',
+            excerpt: 'The fully loaded cost of an in-house agricultural payroll specialist vs. fully managed payroll at $25-$45 PEPM.',
             href: '/blog/compare/managed-payroll-vs-in-house',
           },
         ]}

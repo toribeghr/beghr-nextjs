@@ -19,15 +19,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does managed payroll cost?',
-    answer: 'BEG managed payroll runs at $25–$45 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surcharges. For a 25-employee company, that is $625–$1,125 per month.',
+    answer: 'BEG managed payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-employee company, that is $625-$1,125 per month.',
   },
   {
     question: 'How quickly can you set up managed payroll?',
-    answer: 'Setup takes 3–5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup.',
+    answer: 'Setup takes 3-5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup.',
   },
   {
-    question: 'What is included at $25–$45 PEPM?',
-    answer: 'Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included, no add-ons.',
+    question: 'What is included at $25-$45 PEPM?',
+    answer: 'Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included.',
   },
   {
     question: 'Can you handle payroll in multiple states?',
@@ -69,7 +69,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Managed payroll at $25–$45 PEPM all-inclusive makes financial sense across a wide range of business sizes. The ROI is strongest when compared to the real alternative: a fully loaded in-house hire.</p>
+        <p>Managed payroll at $25-$45 PEPM all-inclusive makes financial sense across a wide range of business sizes. The ROI is strongest when compared to the real alternative: a fully loaded in-house hire.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Managed Payroll Cost at Different Employee Counts</h2>
 
@@ -85,11 +85,11 @@ export default function Page() {
             </thead>
             <tbody>
               {[
-                ['10', '$250–$450', '$3K–$5.4K', 'Save $55K–$100K+/yr'],
-                ['25', '$625–$1,125', '$7.5K–$13.5K', 'Save $47K–$97K+/yr'],
-                ['50', '$1,250–$2,250', '$15K–$27K', 'Save $33K–$85K+/yr'],
-                ['75', '$1,875–$3,375', '$22.5K–$40.5K', 'Save $20K–$70K+/yr'],
-                ['100', '$2,500–$4,500', '$30K–$54K', 'Save $6K–$50K+/yr'],
+                ['10', '$250-$450', '$3K-$5.4K', 'Save $55K-$100K+/yr'],
+                ['25', '$625-$1,125', '$7.5K-$13.5K', 'Save $47K-$97K+/yr'],
+                ['50', '$1,250-$2,250', '$15K-$27K', 'Save $33K-$85K+/yr'],
+                ['75', '$1,875-$3,375', '$22.5K-$40.5K', 'Save $20K-$70K+/yr'],
+                ['100', '$2,500-$4,500', '$30K-$54K', 'Save $6K-$50K+/yr'],
               ].map(([ee, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: '600' }}>{ee} employees</td>
@@ -104,9 +104,9 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Which Size Sees the Best ROI?</h2>
 
-        <p>The strongest ROI on managed payroll is in the 10–50 employee range. At this size, you cannot justify a full-time in-house hire (nor the payroll software license, training, and single-point-of-failure risk), but the compliance requirements are already complex enough to warrant specialist handling.</p>
+        <p>The strongest ROI on managed payroll is in the 10-50 employee range. At this size, you cannot justify a full-time in-house hire (nor the payroll software license, training, and single-point-of-failure risk), but the compliance requirements are already complex enough to warrant specialist handling.</p>
 
-        <p>At 50–100 employees, some businesses begin considering a hybrid model: an HR generalist for employee relations and managed payroll for the compliance-heavy processing function.</p>
+        <p>At 50-100 employees, some businesses begin considering a hybrid model: an HR generalist for employee relations and managed payroll for the compliance-heavy processing function.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
@@ -149,7 +149,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does managed payroll cost?","acceptedAnswer":{"@type":"Answer","text":"BEG managed payroll runs at $25–$45 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surcharges. For a 25-employee company, that is $625–$1,125 per month."}},{"@type":"Question","name":"How quickly can you set up managed payroll?","acceptedAnswer":{"@type":"Answer","text":"Setup takes 3–5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup."}},{"@type":"Question","name":"What is included at $25–$45 PEPM?","acceptedAnswer":{"@type":"Answer","text":"Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included, no add-ons."}},{"@type":"Question","name":"Can you handle payroll in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state payroll is a standard service. We register in each state where you have employees and handle state withholding and unemployment filing in all applicable states."}},{"@type":"Question","name":"What happens if there is a payroll error?","acceptedAnswer":{"@type":"Answer","text":"If an error occurs due to our processing, we correct it at our cost. This includes amended returns, corrected W-2s, and penalty abatement where applicable."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does managed payroll cost?","acceptedAnswer":{"@type":"Answer","text":"BEG managed payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-employee company, that is $625-$1,125 per month."}},{"@type":"Question","name":"How quickly can you set up managed payroll?","acceptedAnswer":{"@type":"Answer","text":"Setup takes 3-5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup."}},{"@type":"Question","name":"What is included at $25-$45 PEPM?","acceptedAnswer":{"@type":"Answer","text":"Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included."}},{"@type":"Question","name":"Can you handle payroll in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state payroll is a standard service. We register in each state where you have employees and handle state withholding and unemployment filing in all applicable states."}},{"@type":"Question","name":"What happens if there is a payroll error?","acceptedAnswer":{"@type":"Answer","text":"If an error occurs due to our processing, we correct it at our cost. This includes amended returns, corrected W-2s, and penalty abatement where applicable."}}]}`,
         }}
       />
 

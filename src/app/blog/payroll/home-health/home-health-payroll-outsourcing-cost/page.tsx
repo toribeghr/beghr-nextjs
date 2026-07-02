@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for home health agency payroll?',
-    answer: 'Home health payroll runs at $25–$45 per employee per month. Visit-based pay, travel time tracking, and Medicaid reconciliation reporting are all included. For an agency with 30 caregivers, that is $750–$1,350 per month.',
+    answer: 'Home health payroll runs at $25-$45 per employee per month. Visit-based pay, travel time tracking, and Medicaid reconciliation reporting are all included. For an agency with 30 caregivers, that is $750-$1,350 per month.',
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Payroll Hire for Home Health Agencies</h2>
 
-        <p>An in-house payroll coordinator for home health agencies earns $55,000–$85,000 in base salary. That is the number most owners compare against outsourcing. Here is the full picture when you add employment costs:</p>
+        <p>An in-house payroll coordinator for home health agencies earns $55,000-$85,000 in base salary. That is the number most owners compare against outsourcing. Here is the full picture when you add employment costs:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -84,7 +84,7 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Base salary (payroll/HR coordinator)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$55,000–$85,000</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$55,000-$85,000</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Benefits (health, dental, 401K) ~30%</td>
@@ -96,15 +96,15 @@ export default function Page() {
                 </tr>
                 <tr key={3} style={{ background: 3 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Payroll software license</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,800–$4,200</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,800-$4,200</td>
                 </tr>
                 <tr key={4} style={{ background: 4 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Training and compliance updates</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,200–$2,500</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$1,200-$2,500</td>
                 </tr>
                 <tr key={5} style={{ background: 5 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: false ? '700' : '400' }}>Hiring and onboarding (amortized)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$2,000–$4,000</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', fontWeight: false ? '700' : '400' }}>$2,000-$4,000</td>
                 </tr>
                 <tr key={6} style={{ background: 6 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem', fontWeight: true ? '700' : '400' }}>Total loaded cost</td>
@@ -114,9 +114,9 @@ export default function Page() {
           </table>
         </div>
 
-        <p>Total loaded annual cost typically runs $5500105K–$115K when benefits, employer taxes, software, training, and turnover cost are included. And when that person leaves, the cost resets.</p>
+        <p>Total loaded annual cost typically runs $5500105K-$115K when benefits, employer taxes, software, training, and turnover cost are included. And when that person leaves, the cost resets.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll at $25–$45 PEPM: What It Costs for Home Health Agencies</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll at $25-$45 PEPM: What It Costs for Home Health Agencies</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -130,36 +130,36 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Small agency (10-25 caregivers)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$250–$1,125/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K–$83K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$250-$1,125/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K-$83K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Mid-size agency (25-75 caregivers)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$625–$3,375/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $45K–$73K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$625-$3,375/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $45K-$73K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Regional agency (75-200 caregivers)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,875–$9,000/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$1,875-$9,000/mo</td>
                   <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $25K+/yr</td>
                 </tr>
             </tbody>
           </table>
         </div>
 
-        <p>All-inclusive: payroll processing, tax filing, W-2 production, visit-based aide pay, travel time reimbursement, and year-round compliance monitoring. No per-run fees, no add-on modules, no year-end surcharges.</p>
+        <p>All-inclusive: payroll processing, tax filing, W-2 production, visit-based aide pay, travel time reimbursement, and year-round compliance monitoring.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Home Health Agencies Owners Miss in the Cost Calculation</h2>
 
         <p><strong>Compliance exposure.</strong> DOL live-in caregiver regulations, Medicaid waiver payroll requirements, state home health aide certification records. A single filing error or misclassification can cost more to correct than months of managed payroll fees.</p>
 
-        <p><strong>Key person dependency.</strong> When your in-house payroll coordinator leaves, you have a payroll gap. Recruiting and onboarding a replacement takes 4–8 weeks. An outsourced provider has no single point of failure.</p>
+        <p><strong>Key person dependency.</strong> When your in-house payroll coordinator leaves, you have a payroll gap. Recruiting and onboarding a replacement takes 4-8 weeks. An outsourced provider has no single point of failure.</p>
 
-        <p><strong>Software and update costs.</strong> Payroll software licenses run $1,800–$4,200 per year, not including the time required to stay current on tax table updates, new hire reporting changes, and state-specific rule modifications.</p>
+        <p><strong>Software and update costs.</strong> Payroll software licenses run $1,800-$4,200 per year, not including the time required to stay current on tax table updates, new hire reporting changes, and state-specific rule modifications.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>When Should Home Health Agencies Outsource Payroll?</h2>
 
-        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000–$9,000 per month. The math is clear at nearly any headcount below 100.</p>
+        <p>For businesses under 100 employees, outsourcing almost always wins on total cost. At 25 employees paying $45 PEPM, monthly cost is $1,125 -- compared to a loaded in-house hire of $7,000-$9,000 per month. The math is clear at nearly any headcount below 100.</p>
 
         <p>The strongest case for outsourcing: visit-based aide pay, travel time reimbursement, which require specialized knowledge most in-house generalists do not have.</p>
 
@@ -204,7 +204,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle visit-based pay for home health aides?","acceptedAnswer":{"@type":"Answer","text":"Yes. Aides paid per visit are set up as hourly employees with a per-visit rate. Visit logs from your scheduling software are the input for pay calculation, and we ensure per-visit pay meets minimum wage for time including travel between clients."}},{"@type":"Question","name":"How do you handle travel time between client visits?","acceptedAnswer":{"@type":"Answer","text":"Under DOL guidance, travel time between client sites is compensable and must be paid at minimum wage. We include it in the total hours calculation for overtime purposes."}},{"@type":"Question","name":"Can you handle multi-state operations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Home health agencies serving clients across state lines register in each state, handle state employer setup, and file required returns in all applicable states."}},{"@type":"Question","name":"What does BEG charge for home health agency payroll?","acceptedAnswer":{"@type":"Answer","text":"Home health payroll runs at $25–$45 per employee per month. Visit-based pay, travel time tracking, and Medicaid reconciliation reporting are all included. For an agency with 30 caregivers, that is $750–$1,350 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle visit-based pay for home health aides?","acceptedAnswer":{"@type":"Answer","text":"Yes. Aides paid per visit are set up as hourly employees with a per-visit rate. Visit logs from your scheduling software are the input for pay calculation, and we ensure per-visit pay meets minimum wage for time including travel between clients."}},{"@type":"Question","name":"How do you handle travel time between client visits?","acceptedAnswer":{"@type":"Answer","text":"Under DOL guidance, travel time between client sites is compensable and must be paid at minimum wage. We include it in the total hours calculation for overtime purposes."}},{"@type":"Question","name":"Can you handle multi-state operations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Home health agencies serving clients across state lines register in each state, handle state employer setup, and file required returns in all applicable states."}},{"@type":"Question","name":"What does BEG charge for home health agency payroll?","acceptedAnswer":{"@type":"Answer","text":"Home health payroll runs at $25-$45 per employee per month. Visit-based pay, travel time tracking, and Medicaid reconciliation reporting are all included. For an agency with 30 caregivers, that is $750-$1,350 per month."}}]}`,
         }}
       />
 

@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for childcare center payroll?',
-    answer: 'Childcare payroll runs at $25–$45 per employee per month. For a center with 25 employees, that is $625–$1,125 per month with no per-run fees and licensing-ready recordkeeping included.',
+    answer: 'Childcare payroll runs at $25-$45 per employee per month. For a center with 25 employees, that is $625-$1,125 per month with licensing-ready recordkeeping included.',
   },
 ];
 
@@ -149,7 +149,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do your payroll records meet state childcare licensing requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Records include employee name, position, hours worked, wages paid, and tax withholding, formatted for state childcare licensing agencies upon request."}},{"@type":"Question","name":"How do you handle part-time and variable-hour teachers?","acceptedAnswer":{"@type":"Answer","text":"Part-time and variable-hour employees are processed based on actual hours worked each period. ACA full-time equivalent tracking is done for centers with 50+ combined FTEs."}},{"@type":"Question","name":"How do you handle certification pay differentials?","acceptedAnswer":{"@type":"Answer","text":"Teachers with CDA, associate, or bachelor&apos;s degree credentials are set up with corresponding pay grades. Pay changes when credentials are earned effective on the date you specify."}},{"@type":"Question","name":"What does BEG charge for childcare center payroll?","acceptedAnswer":{"@type":"Answer","text":"Childcare payroll runs at $25–$45 per employee per month. For a center with 25 employees, that is $625–$1,125 per month with no per-run fees and licensing-ready recordkeeping included."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do your payroll records meet state childcare licensing requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Records include employee name, position, hours worked, wages paid, and tax withholding, formatted for state childcare licensing agencies upon request."}},{"@type":"Question","name":"How do you handle part-time and variable-hour teachers?","acceptedAnswer":{"@type":"Answer","text":"Part-time and variable-hour employees are processed based on actual hours worked each period. ACA full-time equivalent tracking is done for centers with 50+ combined FTEs."}},{"@type":"Question","name":"How do you handle certification pay differentials?","acceptedAnswer":{"@type":"Answer","text":"Teachers with CDA, associate, or bachelor&apos;s degree credentials are set up with corresponding pay grades. Pay changes when credentials are earned effective on the date you specify."}},{"@type":"Question","name":"What does BEG charge for childcare center payroll?","acceptedAnswer":{"@type":"Answer","text":"Childcare payroll runs at $25-$45 per employee per month. For a center with 25 employees, that is $625-$1,125 per month with licensing-ready recordkeeping included."}}]}`,
         }}
       />
 

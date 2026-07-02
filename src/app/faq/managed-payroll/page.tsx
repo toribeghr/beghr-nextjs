@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: 'How much does managed payroll cost?',
-    a: 'BEG charges $25-$45 per employee per month (PEPM), all-inclusive. The exact rate depends on your employee count, pay frequency, and complexity. For a 50-person company, that is $1,250-$2,250 per month total, which is far less than a full-time payroll manager at $60,000-$100,000 per year in salary and benefits. There are no per-run charges, no annual W-2 fees, no module add-ons, and no filing surcharges. You get one flat monthly number on your discovery call before committing to anything.',
+    a: 'BEG charges $25-$45 per employee per month (PEPM), all-inclusive. The exact rate depends on your employee count, pay frequency, and complexity. For a 50-person company, that is $1,250-$2,250 per month total, which is far less than a full-time payroll manager at $60,000-$100,000 per year in salary and benefits. You get one flat monthly number on your discovery call before committing to anything.',
   },
   {
     q: 'What does managed payroll include?',

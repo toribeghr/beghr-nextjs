@@ -120,7 +120,7 @@ export default function BreweryDistilleryPayrollGuidePage() {
         <div style={{ background: "#f5f0e8", border: "2px solid #ECAC60", borderRadius: "8px", padding: "2rem", marginBottom: "2.5rem" }}>
           <h3 style={{ fontSize: "1.2rem", fontWeight: 700, marginBottom: "0.75rem" }}>Brewery and Distillery Payroll at $25-$45 PEPM</h3>
           <p style={{ lineHeight: "1.7", marginBottom: "1rem" }}>
-            BEG manages craft brewery payroll including tip credit configuration, production staff overtime, and sales rep commission processing. Setup in 3 to 5 business days. No per-run fees.
+            BEG manages craft brewery payroll including tip credit configuration, production staff overtime, and sales rep commission processing. Setup in 3 to 5 business days.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <Link

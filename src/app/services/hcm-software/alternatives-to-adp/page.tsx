@@ -75,7 +75,7 @@ export default function AlternativesToADPPage() {
               <tbody>
                 {[
                   ['Payroll (all 50 states)', '✓ Yes', '✓ Yes'],
-                  ['Benefits administration', '✓ Built-in, no add-on fee', 'Add-on module, extra cost'],
+                  ['Benefits administration', '✓ Built-in', 'Add-on module, extra cost'],
                   ['Time & attendance', '✓ Native, included', 'Add-on or separate product'],
                   ['Claude AI integration', '✓ Complete tasks via Claude', '✗ Not available'],
                   ['Implementation support', '✓ BEG-dedicated contact', 'Varies, often minimal post-launch'],

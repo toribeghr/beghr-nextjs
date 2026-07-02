@@ -91,7 +91,7 @@ export default function BuyersGuidePage() {
                 {
                   num: '02',
                   title: 'How pricing models work',
-                  body: 'Three common pricing structures: PEPM (per employee per month) is the most transparent. Flat monthly base plus per-run fees adds up fast if you process weekly payroll. Per-run pricing with employee tiers is the least predictable. True managed payroll at a flat PEPM with no per-run charges is what to look for. BEG charges $25-$45 PEPM all-inclusive. No base fee, no per-run charge, no module add-ons.',
+                  body: 'Three common pricing structures: PEPM (per employee per month) is the most transparent. Flat monthly base plus per-run fees adds up fast if you process weekly payroll. Per-run pricing with employee tiers is the least predictable. True managed payroll at a flat PEPM is what to look for. BEG charges $25-$45 PEPM all-inclusive.',
                 },
                 {
                   num: '03',

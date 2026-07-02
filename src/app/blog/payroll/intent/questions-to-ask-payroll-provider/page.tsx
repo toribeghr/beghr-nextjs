@@ -19,15 +19,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does managed payroll cost?',
-    answer: 'BEG managed payroll runs at $25–$45 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surcharges. For a 25-employee company, that is $625–$1,125 per month.',
+    answer: 'BEG managed payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-employee company, that is $625-$1,125 per month.',
   },
   {
     question: 'How quickly can you set up managed payroll?',
-    answer: 'Setup takes 3–5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup.',
+    answer: 'Setup takes 3-5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup.',
   },
   {
-    question: 'What is included at $25–$45 PEPM?',
-    answer: 'Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included, no add-ons.',
+    question: 'What is included at $25-$45 PEPM?',
+    answer: 'Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included.',
   },
   {
     question: 'Can you handle payroll in multiple states?',
@@ -86,7 +86,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How BEG Managed Payroll Addresses This</h2>
 
-        <p>BEG managed payroll at $25–$45 PEPM, all-inclusive, handles the compliance and processing layers so you do not have to. Setup takes 3–5 business days. Compliance monitoring is continuous. Errors are our responsibility to correct, not yours.</p>
+        <p>BEG managed payroll at $25-$45 PEPM, all-inclusive, handles the compliance and processing layers so you do not have to. Setup takes 3-5 business days. Compliance monitoring is continuous. Errors are our responsibility to correct, not yours.</p>
 
         <p>For businesses under 100 employees, managed payroll is almost always the most cost-effective and lowest-risk approach.</p>
 
@@ -131,7 +131,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does managed payroll cost?","acceptedAnswer":{"@type":"Answer","text":"BEG managed payroll runs at $25–$45 per employee per month, all-inclusive. No per-run fees, no module add-ons, no year-end surcharges. For a 25-employee company, that is $625–$1,125 per month."}},{"@type":"Question","name":"How quickly can you set up managed payroll?","acceptedAnswer":{"@type":"Answer","text":"Setup takes 3–5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup."}},{"@type":"Question","name":"What is included at $25–$45 PEPM?","acceptedAnswer":{"@type":"Answer","text":"Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included, no add-ons."}},{"@type":"Question","name":"Can you handle payroll in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state payroll is a standard service. We register in each state where you have employees and handle state withholding and unemployment filing in all applicable states."}},{"@type":"Question","name":"What happens if there is a payroll error?","acceptedAnswer":{"@type":"Answer","text":"If an error occurs due to our processing, we correct it at our cost. This includes amended returns, corrected W-2s, and penalty abatement where applicable."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does managed payroll cost?","acceptedAnswer":{"@type":"Answer","text":"BEG managed payroll runs at $25-$45 per employee per month, all-inclusive. For a 25-employee company, that is $625-$1,125 per month."}},{"@type":"Question","name":"How quickly can you set up managed payroll?","acceptedAnswer":{"@type":"Answer","text":"Setup takes 3-5 business days from contract signing to first live payroll run. We handle the configuration, data migration, and tax account setup."}},{"@type":"Question","name":"What is included at $25-$45 PEPM?","acceptedAnswer":{"@type":"Answer","text":"Payroll processing, federal and state tax deposits and filings, new hire reporting, direct deposit, year-end W-2s and 1099s, compliance monitoring, and off-cycle runs. All included."}},{"@type":"Question","name":"Can you handle payroll in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state payroll is a standard service. We register in each state where you have employees and handle state withholding and unemployment filing in all applicable states."}},{"@type":"Question","name":"What happens if there is a payroll error?","acceptedAnswer":{"@type":"Answer","text":"If an error occurs due to our processing, we correct it at our cost. This includes amended returns, corrected W-2s, and penalty abatement where applicable."}}]}`,
         }}
       />
 

@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Home Services Payroll | Instant Quote | BEG',
-  description: 'Home services payroll fully managed at $25–$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.',
+  description: 'Home services payroll fully managed at $25-$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/home-services' },
   openGraph: {
     title: 'Home Services Payroll | Instant Quote | BEG',
-    description: 'Home services payroll fully managed at $25–$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.',
+    description: 'Home services payroll fully managed at $25-$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.',
     url: 'https://www.beghr.com/services/managed-payroll/home-services',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Services Payroll | Instant Quote | BEG', description: 'Home services payroll fully managed at $25–$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Services Payroll | Instant Quote | BEG', description: 'Home services payroll fully managed at $25-$45 PEPM. Field tech pay, tool reimbursements, overtime, and multi-state compliance included. Scope review free.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('home-services-payroll');
@@ -29,7 +29,7 @@ export default function PayrollHomeServicesPage() {
       imageAlt="Home services company with fully managed payroll"
       eyebrow="Managed Payroll · Home Services"
       title="Field crew payroll for home services companies is harder than it looks. We make it simple."
-      description="Flat-rate vs. hourly technician pay, tool reimbursements, mileage, overtime on large jobs, and multi-state licensing compliance create payroll complexity that generic software was not built to handle. BEG manages all of it for HVAC, plumbing, electrical, and landscaping companies at $25–$45 per employee per month - fully managed, no migration required."
+      description="Flat-rate vs. hourly technician pay, tool reimbursements, mileage, overtime on large jobs, and multi-state licensing compliance create payroll complexity that generic software was not built to handle. BEG manages all of it for HVAC, plumbing, electrical, and landscaping companies at $25-$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -71,7 +71,7 @@ export default function PayrollHomeServicesPage() {
                 <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>$70K+</div>
                   <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>Annual cost of one in-house payroll and HR ops hire for a 25-person field crew operation</div>
-                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25–$45 PEPM replaces that headcount and removes the risk of a single person holding all institutional knowledge about your technician pay structures and reimbursement records.</div>
+                  <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>Fully managed payroll at $25-$45 PEPM replaces that headcount and removes the risk of a single person holding all institutional knowledge about your technician pay structures and reimbursement records.</div>
                 </div>
               ))()
             }
@@ -155,7 +155,7 @@ export default function PayrollHomeServicesPage() {
                   ['Multi-state tech compliance', 'Included', 'May need CPA', 'You manage it'],
                   ['Overtime on long-job weeks', 'Calculated correctly', 'Included', 'You verify it'],
                   ['Seasonal ramp-up handling', 'Included', 'Stressful for one person', 'You do it'],
-                  ['Monthly cost (25 workers)', '$625–$1,125', '$5,800–$8,300', '$300–$700 + risk'],
+                  ['Monthly cost (25 workers)', '$625-$1,125', '$5,800-$8,300', '$300-$700 + risk'],
                   ['Single point of failure risk', 'None', 'High', 'None'],
                 ].map(([factor, beg, inhouse, software], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
@@ -178,12 +178,12 @@ export default function PayrollHomeServicesPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>While your dispatcher and office manager run payroll, they are not dispatching or managing.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Home services companies grow by dispatching more calls - not by running flat-rate true-up calculations. Fully managed payroll at $25–$45 PEPM frees your office staff to focus on the work that generates revenue, while BEG handles every pay cycle, reimbursement, and filing.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Home services companies grow by dispatching more calls - not by running flat-rate true-up calculations. Fully managed payroll at $25-$45 PEPM frees your office staff to focus on the work that generates revenue, while BEG handles every pay cycle, reimbursement, and filing.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>Start before your next busy season - not in the middle of it.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. HVAC and plumbing companies that try to change payroll providers during summer peak or winter emergency season create risk. Start the process in the off-season and arrive at your busy season with a fully managed system in place.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. HVAC and plumbing companies that try to change payroll providers during summer peak or winter emergency season create risk. Start the process in the off-season and arrive at your busy season with a fully managed system in place.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -236,12 +236,12 @@ export default function PayrollHomeServicesPage() {
               <p>Yes. BEG manages state tax registration, withholding, and filing for technicians working across state lines. We cover all 50 states. As your service territory grows, we handle new state registrations without you needing to track the requirements for each state separately.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for a home services company?</h3>
-              <p>Everything: payroll processing, flat-rate true-up calculations, reimbursement management, multi-state tax filing, overtime calculations, garnishment administration, year-end W-2 preparation, and dedicated BEG support. No per-run fees, no year-end surcharges.</p>
+              <h3>What does $25-$45 PEPM include for a home services company?</h3>
+              <p>Everything: payroll processing, flat-rate true-up calculations, reimbursement management, multi-state tax filing, overtime calculations, garnishment administration, year-end W-2 preparation, and dedicated BEG support.</p>
             </div>
             <div className="faq-item">
               <h3>How long does the transition take?</h3>
-              <p>30–60 days from scope review to first fully managed payroll run. We run your first cycles alongside your existing process for verification so there is no disruption to technician payments during transition.</p>
+              <p>30-60 days from scope review to first fully managed payroll run. We run your first cycles alongside your existing process for verification so there is no disruption to technician payments during transition.</p>
             </div>
           </div>
         </div>
@@ -256,7 +256,7 @@ export default function PayrollHomeServicesPage() {
             mainEntity: [
               { '@type': 'Question', name: 'How does BEG handle flat-rate technician pay?', acceptedAnswer: { '@type': 'Answer', text: 'BEG calculates the effective hourly rate for each flat-rate job and automatically adds the minimum wage make-up amount when the effective rate falls below minimum wage, keeping you compliant with FLSA.' } },
               { '@type': 'Question', name: 'Are tool and mileage reimbursements taxable for technicians?', acceptedAnswer: { '@type': 'Answer', text: 'Reimbursements paid under an IRS accountable plan are not taxable. BEG manages reimbursements under the correct framework to keep them non-taxable and properly documented.' } },
-              { '@type': 'Question', name: 'What does $25-$45 PEPM include for a home services company?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, flat-rate true-up calculations, reimbursement management, multi-state tax filing, overtime, garnishment, year-end W-2s, and dedicated support. No per-run fees.' } },
+              { '@type': 'Question', name: 'What does $25-$45 PEPM include for a home services company?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, flat-rate true-up calculations, reimbursement management, multi-state tax filing, overtime, garnishment, year-end W-2s, and dedicated support.' } },
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first fully managed payroll run, with parallel processing for verification.' } },
             ],
           }),

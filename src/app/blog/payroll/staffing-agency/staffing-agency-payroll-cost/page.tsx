@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: 'Does BEG charge more for weekly payroll cycles?',
-    answer: 'No. BEG managed payroll at $25-$45 per employee per month is all-inclusive regardless of pay frequency. Weekly cycles, bi-weekly cycles, and mixed cycles for agencies that run internal staff on bi-weekly and placed workers on weekly are all handled under the same pricing. There are no per-run fees and no additional charges for multi-state filings.',
+    answer: 'No. BEG managed payroll at $25-$45 per employee per month is all-inclusive regardless of pay frequency. Weekly cycles, bi-weekly cycles, and mixed cycles for agencies that run internal staff on bi-weekly and placed workers on weekly are all handled under the same pricing.',
   },
   {
     question: 'At what agency size does managed payroll make financial sense?',
@@ -136,7 +136,7 @@ export default function StaffingAgencyPayrollCostPage() {
         <div style={{ background: '#f5f0e8', border: '2px solid #ECAC60', borderRadius: '8px', padding: '2rem', marginBottom: '2.5rem' }}>
           <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem' }}>Get a Cost Comparison for Your Agency</h3>
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
-            BEG manages staffing agency payroll at $25-$45 per employee per month, all-inclusive. No per-run fees, no year-end surcharges, no multi-state add-ons. Setup takes 3-5 business days.
+            BEG manages staffing agency payroll at $25-$45 per employee per month, all-inclusive. Setup takes 3-5 business days.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

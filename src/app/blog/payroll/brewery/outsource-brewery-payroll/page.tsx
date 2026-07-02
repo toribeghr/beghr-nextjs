@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What is the typical monthly cost of managed payroll for a craft brewery?",
-    answer: "BEG prices managed payroll at $25 to $45 per employee per month, all-inclusive. For a craft brewery with 20 employees (10 taproom, 8 production, 2 sales), that is $500 to $900 per month. The all-inclusive rate covers payroll processing, tax deposits, tip credit calculations, quarterly 941 filings, W-2 production, and ACA tracking. There are no per-run fees, no W-2 fees at year-end, and no separate charge for multi-state payroll. The cost is predictable and scales linearly with headcount.",
+    answer: "BEG prices managed payroll at $25 to $45 per employee per month, all-inclusive. For a craft brewery with 20 employees (10 taproom, 8 production, 2 sales), that is $500 to $900 per month. The all-inclusive rate covers payroll processing, tax deposits, tip credit calculations, quarterly 941 filings, W-2 production, and ACA tracking. The cost is predictable and scales linearly with headcount.",
   },
 ];
 
@@ -109,7 +109,7 @@ export default function OutsourceBreweryPayrollPage() {
           <li>Commission payroll capability for sales reps</li>
           <li>Seasonal employee onboarding that scales quickly during peak periods</li>
           <li>Multi-state payroll if operating taprooms in more than one state</li>
-          <li>All-inclusive pricing with no per-run, per-state, or per-form fees</li>
+          <li>All-inclusive pricing</li>
           <li>Dedicated contact who understands craft brewery payroll, not a call center</li>
         </ul>
 

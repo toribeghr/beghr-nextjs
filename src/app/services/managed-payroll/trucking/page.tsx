@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Trucking Payroll | Instant Quote | BEG',
-  description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
+  description: 'Trucking payroll fully managed at $25-45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/trucking' },
   openGraph: {
     title: 'Trucking Payroll | Instant Quote | BEG',
-    description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
+    description: 'Trucking payroll fully managed at $25-45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.',
     url: 'https://www.beghr.com/services/managed-payroll/trucking',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Trucking Payroll | Instant Quote | BEG', description: 'Trucking payroll fully managed at $25–45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Trucking Payroll | Instant Quote | BEG', description: 'Trucking payroll fully managed at $25-45 PEPM. Per diem rules, W-2 vs. 1099 driver classification, and multi-state DOT compliance included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -30,11 +30,11 @@ export default function PayrollTruckingPage() {
       imageAlt="Trucking company with fully managed driver payroll"
       eyebrow="Managed Payroll · Trucking & Transportation"
       title="Managed Payroll for Trucking Companies"
-      description="Trucking payroll is not like other payroll. Per diem rules, W-2 versus owner-operator classification, DOT compliance, and routes crossing a dozen state lines create a payroll environment no generic provider is built to handle. We manage all of it at $25–$45 per employee per month -- so you focus on moving freight, not managing payroll."
+      description="Trucking payroll is not like other payroll. Per diem rules, W-2 versus owner-operator classification, DOT compliance, and routes crossing a dozen state lines create a payroll environment no generic provider is built to handle. We manage all of it at $25-$45 per employee per month -- so you focus on moving freight, not managing payroll."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered, including multi-state DOT routes' },
         { value: 'No migration', label: 'Works in your existing system' },
       ]}
@@ -144,7 +144,7 @@ export default function PayrollTruckingPage() {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate. No surprise fees.',
                 objection: 'Common objection: "Payroll services bill extra for multi-state filings, 1099 processing, and per diem tracking."',
-                body: 'The $25–$45 PEPM rate covers it all: W-2 processing, owner-operator 1099s, multi-state tax filings, per diem tracking, year-end W-2s and 1099-NECs, and BEG support. No per-run fees, no state filing surcharges, no year-end invoices.',
+                body: 'The $25-$45 PEPM rate covers it all: W-2 processing, owner-operator 1099s, multi-state tax filings, per diem tracking, year-end W-2s and 1099-NECs, and BEG support.',
               },
               {
                 badge: 'Bonus 03',
@@ -173,13 +173,13 @@ export default function PayrollTruckingPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Getting Started</p>
-            <h2>From scope review to live trucking payroll in 3–5 business days</h2>
+            <h2>From scope review to live trucking payroll in 3-5 business days</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
               { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your driver roster, per diem structure, multi-state routes, and owner-operator agreements -- and give you a fixed monthly price.' },
-              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, system access granted, driver roster and classification structure reviewed.' },
-              { day: 'Days 2–4', title: 'Configuration', body: 'Per diem pay codes, W-2 and 1099 classification, and multi-state tax registrations configured in your existing system.' },
+              { day: 'Days 1-2', title: 'Onboarding', body: 'Agreement signed, system access granted, driver roster and classification structure reviewed.' },
+              { day: 'Days 2-4', title: 'Configuration', body: 'Per diem pay codes, W-2 and 1099 classification, and multi-state tax registrations configured in your existing system.' },
               { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed trucking pay run -- BEG executes, your team approves. No migration required.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
@@ -199,12 +199,12 @@ export default function PayrollTruckingPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>One IRS audit costs more than years of managed payroll.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Driver misclassification audits routinely result in back employment taxes, penalties, and interest covering three to five years. A single reclassification assessment on 20 misclassified drivers can exceed $200,000. Fully managed payroll at $25–$45 PEPM on a 50-driver operation costs $15,000–$27,000 per year -- less than the interest on one audit settlement.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Driver misclassification audits routinely result in back employment taxes, penalties, and interest covering three to five years. A single reclassification assessment on 20 misclassified drivers can exceed $200,000. Fully managed payroll at $25-$45 PEPM on a 50-driver operation costs $15,000-$27,000 per year -- less than the interest on one audit settlement.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix payroll is before the next audit notice arrives.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Clean cutover at quarter-start or January 1 requires starting the scope review now. Every quarter you defer is a quarter of per diem exposure, misclassification risk, and multi-state filing gaps that compound if the IRS or DOL comes knocking.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Clean cutover at quarter-start or January 1 requires starting the scope review now. Every quarter you defer is a quarter of per diem exposure, misclassification risk, and multi-state filing gaps that compound if the IRS or DOL comes knocking.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -252,7 +252,7 @@ export default function PayrollTruckingPage() {
             </div>
             <div className="faq-item">
               <h3>How long does it take to get started with managed trucking payroll?</h3>
-              <p>From signed agreement to live payroll: 3–5 business days. The scope review call is 15 minutes. We review your driver roster, per diem structure, and multi-state routes, then configure everything in your existing system. Most trucking operations are running fully managed payroll within a week of the first call.</p>
+              <p>From signed agreement to live payroll: 3-5 business days. The scope review call is 15 minutes. We review your driver roster, per diem structure, and multi-state routes, then configure everything in your existing system. Most trucking operations are running fully managed payroll within a week of the first call.</p>
             </div>
           </div>
         </div>

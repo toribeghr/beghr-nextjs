@@ -3,17 +3,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Manufacturing Payroll Outsourcing: Is It Worth It? | BEG',
-  description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.',
+  description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K-$100K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/manufacturing/outsourcing-payroll' },
   openGraph: {
     title: 'Manufacturing Payroll Outsourcing: Is It Worth It? | BEG',
-    description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.',
+    description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K-$100K annually.',
     url: 'https://www.beghr.com/blog/payroll/manufacturing/outsourcing-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Manufacturing Payroll Outsourcing: Is It Worth It? | BEG', description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K–$100K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Manufacturing Payroll Outsourcing: Is It Worth It? | BEG', description: 'Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials, overtime, union CBA compliance. Save $55K-$100K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -36,11 +36,11 @@ const faqs = [
   },
   {
     question: 'How long does it take to switch payroll providers at a manufacturing facility?',
-    answer: 'Most facilities transition in 3–5 business days. We handle data migration, configure shift rules and union CBAs, run a parallel test cycle, and go live -- all within 3–5 business days. The best time to switch is mid-quarter, away from year-end and union contract renewal periods.',
+    answer: 'Most facilities transition in 3-5 business days. We handle data migration, configure shift rules and union CBAs, run a parallel test cycle, and go live -- all within 3-5 business days. The best time to switch is mid-quarter, away from year-end and union contract renewal periods.',
   },
   {
     question: 'What does BEG charge for manufacturing payroll?',
-    answer: 'BEG manages payroll at $25–$45 per employee per month, all-inclusive. That covers payroll processing, tax filings, W-2s, direct deposit, and compliance updates. For a 120-person facility, that is $3,000–$5,400 per month. No per-run fees. No module add-ons.',
+    answer: 'BEG manages payroll at $25-$45 per employee per month, all-inclusive. That covers payroll processing, tax filings, W-2s, direct deposit, and compliance updates. For a 120-person facility, that is $3,000-$5,400 per month.',
   },
 ];
 
@@ -77,13 +77,13 @@ export default function ManufacturingPayrollPage() {
 
         <p>Manufacturing payroll is not general payroll. You are running shift differentials, overtime calculations, union CBA rules, workers&apos; comp classifications, and certified payroll for government contracts -- all in the same cycle. Miss one rule and penalties stack. Miss two and you have a grievance.</p>
 
-        <p>Most manufacturers still handle this with an in-house HR manager. That person earns $55K–$75K in base salary. With benefits, payroll taxes, software licenses, training, and overhead, the real annual cost is $78K–$110K. And when they leave -- HR managers in manufacturing turn over every 2–3 years -- you restart the search while someone else scrambles to run payroll.</p>
+        <p>Most manufacturers still handle this with an in-house HR manager. That person earns $55K-$75K in base salary. With benefits, payroll taxes, software licenses, training, and overhead, the real annual cost is $78K-$110K. And when they leave -- HR managers in manufacturing turn over every 2-3 years -- you restart the search while someone else scrambles to run payroll.</p>
 
-        <p>Outsourcing eliminates the dependency, reduces the compliance risk, and typically saves $55K–$100K annually for mid-size manufacturers. Here is what the math actually looks like.</p>
+        <p>Outsourcing eliminates the dependency, reduces the compliance risk, and typically saves $55K-$100K annually for mid-size manufacturers. Here is what the math actually looks like.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The True Cost of an In-House Manufacturing HR Manager</h2>
 
-        <p>Most plant managers count only the base salary. Here is the full picture for a manufacturing operation with 80–150 employees:</p>
+        <p>Most plant managers count only the base salary. Here is the full picture for a manufacturing operation with 80-150 employees:</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -95,13 +95,13 @@ export default function ManufacturingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (HR manager with payroll focus)', '$58,000–$75,000'],
-                ['Benefits (health, dental, 401K) ~30%', '$17,400–$22,500'],
-                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$5,800–$7,500'],
-                ['Payroll software license', '$2,400–$4,800'],
-                ['Annual training & compliance updates', '$1,500–$3,000'],
-                ['Hiring & onboarding cost (amortized)', '$2,000–$4,700'],
-                ['Total loaded cost', '$87,100–$117,500'],
+                ['Base salary (HR manager with payroll focus)', '$58,000-$75,000'],
+                ['Benefits (health, dental, 401K) ~30%', '$17,400-$22,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) ~10%', '$5,800-$7,500'],
+                ['Payroll software license', '$2,400-$4,800'],
+                ['Annual training & compliance updates', '$1,500-$3,000'],
+                ['Hiring & onboarding cost (amortized)', '$2,000-$4,700'],
+                ['Total loaded cost', '$87,100-$117,500'],
               ].map(([label, cost], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{label}</td>
@@ -114,7 +114,7 @@ export default function ManufacturingPayrollPage() {
 
         <p>That is before you account for the weeks of lost productivity when your HR manager is on vacation, sick, or has just given notice. In manufacturing, payroll has zero tolerance for gaps.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25–$45 PEPM</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Cost of BEG Managed Payroll at $25-$45 PEPM</h2>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -128,10 +128,10 @@ export default function ManufacturingPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['40 employees', '$1,000–$1,800', '$12,000–$21,600', 'Save $65K–$100K/yr'],
-                ['80 employees', '$2,000–$3,600', '$24,000–$43,200', 'Save $44K–$84K/yr'],
-                ['120 employees', '$3,000–$5,400', '$36,000–$64,800', 'Save $23K–$67K/yr'],
-                ['200 employees', '$5,000–$9,000', '$60,000–$108,000', 'Varies at scale'],
+                ['40 employees', '$1,000-$1,800', '$12,000-$21,600', 'Save $65K-$100K/yr'],
+                ['80 employees', '$2,000-$3,600', '$24,000-$43,200', 'Save $44K-$84K/yr'],
+                ['120 employees', '$3,000-$5,400', '$36,000-$64,800', 'Save $23K-$67K/yr'],
+                ['200 employees', '$5,000-$9,000', '$60,000-$108,000', 'Varies at scale'],
               ].map(([size, monthly, annual, savings], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{size}</td>
@@ -144,19 +144,19 @@ export default function ManufacturingPayrollPage() {
           </table>
         </div>
 
-        <p>All-inclusive: shift differential calculations, overtime, tax filings, W-2s, direct deposit, new hire reporting, and compliance updates. No per-run fees. No add-on modules for certified payroll or multi-state processing.</p>
+        <p>All-inclusive: shift differential calculations, overtime, tax filings, W-2s, direct deposit, new hire reporting, and compliance updates.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>What Manufacturing Operations Overlook in the Cost Comparison</h2>
 
         <p>The salary comparison is obvious. These costs are not:</p>
 
-        <p><strong>Workers&apos; comp misclassification risk.</strong> In manufacturing, workers&apos; comp codes tie directly to job function. Misclassify a machine operator as a clerical worker and you create audit exposure. The average manufacturing workers&apos; comp audit adjustment runs $8,000–$40,000 depending on payroll volume and error duration.</p>
+        <p><strong>Workers&apos; comp misclassification risk.</strong> In manufacturing, workers&apos; comp codes tie directly to job function. Misclassify a machine operator as a clerical worker and you create audit exposure. The average manufacturing workers&apos; comp audit adjustment runs $8,000-$40,000 depending on payroll volume and error duration.</p>
 
-        <p><strong>Overtime calculation errors.</strong> FLSA overtime rules for shift work are not simple. Day-rate workers, piece-rate workers, and employees paid on fluctuating workweek schedules all have different overtime calculation methods. The average FLSA back-pay settlement for small manufacturers who get this wrong runs $12,000–$65,000 including penalties and attorney fees.</p>
+        <p><strong>Overtime calculation errors.</strong> FLSA overtime rules for shift work are not simple. Day-rate workers, piece-rate workers, and employees paid on fluctuating workweek schedules all have different overtime calculation methods. The average FLSA back-pay settlement for small manufacturers who get this wrong runs $12,000-$65,000 including penalties and attorney fees.</p>
 
-        <p><strong>Union grievance cost.</strong> If your CBA specifies a wage structure and your payroll runs it wrong, you have a grievance. Grievance resolution in manufacturing averages $3,000–$15,000 in management time, HR time, and legal fees -- even when you win.</p>
+        <p><strong>Union grievance cost.</strong> If your CBA specifies a wage structure and your payroll runs it wrong, you have a grievance. Grievance resolution in manufacturing averages $3,000-$15,000 in management time, HR time, and legal fees -- even when you win.</p>
 
-        <p><strong>Turnover replacement cost.</strong> When your payroll-focused HR manager leaves, you face 4–8 weeks of vacancy, $4,700 average cost-per-hire (SHRM), and 60–90 days before the new hire is fully competent on your specific shift and union rules. Outsourced payroll has no turnover.</p>
+        <p><strong>Turnover replacement cost.</strong> When your payroll-focused HR manager leaves, you face 4-8 weeks of vacancy, $4,700 average cost-per-hire (SHRM), and 60-90 days before the new hire is fully competent on your specific shift and union rules. Outsourced payroll has no turnover.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Manufacturing Payroll Is More Complex Than Most Industries</h2>
 
@@ -184,8 +184,8 @@ export default function ManufacturingPayrollPage() {
             <tbody>
               {[
                 ['Under 30 employees', 'Outsource', 'Insufficient volume to justify full-time hire. Compliance risk is high without a specialist.'],
-                ['30–150 employees', 'Outsource', 'Classic outsourcing sweet spot. Savings exceed $50K/yr. Compliance coverage is complete.'],
-                ['150–300 employees', 'Outsource or hybrid', 'Outsourcing remains cost-effective. Hybrid model works if you want internal HR for culture/recruiting.'],
+                ['30-150 employees', 'Outsource', 'Classic outsourcing sweet spot. Savings exceed $50K/yr. Compliance coverage is complete.'],
+                ['150-300 employees', 'Outsource or hybrid', 'Outsourcing remains cost-effective. Hybrid model works if you want internal HR for culture/recruiting.'],
                 ['300+ employees', 'Assess annually', 'In-house becomes more justifiable at scale, but compliance complexity also grows.'],
               ].map(([size, rec, why], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -212,7 +212,7 @@ export default function ManufacturingPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Manufacturing Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, overtime, union CBAs, certified payroll. We run it all at $25–$45 per employee per month -- all-inclusive. Book a 15-minute call to see what it costs for your facility size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, overtime, union CBAs, certified payroll. We run it all at $25-$45 per employee per month -- all-inclusive. Book a 15-minute call to see what it costs for your facility size.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -244,7 +244,7 @@ export default function ManufacturingPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group, a national managed payroll firm serving manufacturing, engineering, and industrial operations. BEG handles shift differentials, union CBAs, certified payroll, and multi-state compliance at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group, a national managed payroll firm serving manufacturing, engineering, and industrial operations. BEG handles shift differentials, union CBAs, certified payroll, and multi-state compliance at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 

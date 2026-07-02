@@ -26,6 +26,7 @@ const CALENDLY = getCalendlyLink('payroll-church');
 export default function PayrollChurchPage() {
   return (
     <ServicePage
+      heroVideoId="fxQwTZsIgUw"
       imageSrc="/assets/hero-images/church.svg"
       imageAlt="Church and faith-based organization with fully managed payroll"
       eyebrow="Managed Payroll · Churches & Faith-Based Organizations"

@@ -26,6 +26,7 @@ const CALENDLY = getCalendlyLink('payroll-childcare');
 export default function PayrollChildcarePage() {
   return (
     <ServicePage
+      heroVideoId="TfNQmc_7pl4"
       imageSrc="/assets/hero-images/childcare.svg"
       imageAlt="Childcare center with fully managed payroll"
       eyebrow="Managed Payroll · Childcare & Daycare Centers"

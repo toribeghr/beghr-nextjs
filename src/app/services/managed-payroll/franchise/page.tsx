@@ -26,6 +26,7 @@ const CALENDLY = getCalendlyLink('payroll-franchise');
 export default function PayrollFranchisePage() {
   return (
     <ServicePage
+      heroVideoId="701Vs-1Npn4"
       imageSrc="/assets/hero-images/franchise.svg"
       imageAlt="Franchise business with fully managed multi-location payroll"
       eyebrow="Managed Payroll · Franchise Businesses"

@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('payroll-construction');
 export default function PayrollConstructionPage() {
   return (
     <ServicePage
+      heroVideoId="Vvlf-Odc5j4"
       imageSrc="/assets/hero-images/construction.svg"
       imageAlt="Construction company with fully managed payroll"
       eyebrow="Managed Payroll · Construction"

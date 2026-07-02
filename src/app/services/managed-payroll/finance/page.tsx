@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('payroll-finance');
 export default function PayrollFinancePage() {
   return (
     <ServicePage
+      heroVideoId="T5Ah0NKnwyg"
       imageSrc="/assets/hero-images/finance.svg"
       imageAlt="Finance firm with fully managed payroll service"
       eyebrow="Managed Payroll · Finance"

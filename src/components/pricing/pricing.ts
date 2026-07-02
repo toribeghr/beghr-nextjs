@@ -146,48 +146,61 @@ export const HCM_PLATFORM_FEATURES: [string, string, string][] = [
   ['📱', 'People Cloud Mobile App', 'Pay stubs, punches, time off and benefits from any phone'],
 ];
 
-export interface HcmAnswers {
-  hiring?: { score?: number };
-  hourly?: { score?: number };
-  depth?: { lvl?: number };
-  benefitsAdmin?: { need?: boolean };
+// MODULE PICKER (approved mock, July 1, 2026): the visitor taps the modules
+// that matter and the recommendation is the MINIMUM tier covering every pick.
+// Payroll, HR core and the Connector for Claude are in every tier (not picked).
+
+export interface HcmPickModule {
+  id: string;
+  emoji: string;
+  name: string;
+  desc: string;
+  rank: number;   // minimum tier rank that includes this module
+  group: string;
 }
 
-export function computeHcmReco(ans: HcmAnswers): { key: HcmTierKey; rank: number; reasons: string[]; bensNeed: boolean } {
-  const hire = ans.hiring?.score ?? 0;
-  const hourly = ans.hourly?.score ?? 0;
-  const depthLvl = ans.depth?.lvl ?? 0;
-  const bensNeed = ans.benefitsAdmin?.need === true;
+export const HCM_PICK_MODULES: HcmPickModule[] = [
+  { id: 'ats', emoji: '🧲', name: 'Attract & Hire', desc: 'Post jobs, track applicants, hire from one screen', rank: 1, group: 'Hiring' },
+  { id: 'jumpstart', emoji: '🚀', name: 'Hiring Services Jumpstart', desc: 'Recruiting setup done for you, not by you', rank: 1, group: 'Hiring' },
+  { id: 'time', emoji: '⏰', name: 'Time & Labor Management', desc: 'Punches, timecards and overtime flow straight into payroll', rank: 2, group: 'Workforce Operations' },
+  { id: 'scheduling', emoji: '📅', name: 'Scheduling', desc: 'Build and share shift schedules employees see live', rank: 2, group: 'Workforce Operations' },
+  { id: 'onboarding', emoji: '📂', name: 'Onboarding & Offboarding', desc: 'Paperless day-one and clean exits', rank: 2, group: 'Workforce Operations' },
+  { id: 'expense', emoji: '🧾', name: 'Expense Management', desc: 'Snap receipts, approve, reimburse through payroll', rank: 2, group: 'Workforce Operations' },
+  { id: '401k', emoji: '🏦', name: '401(k) 360 Integration', desc: 'Deferrals sync both ways with your provider', rank: 2, group: 'Workforce Operations' },
+  { id: 'hrod', emoji: '🧑‍💼', name: 'HR on Demand', desc: 'Live HR experts on call for the hard stuff', rank: 2, group: 'Workforce Operations' },
+  { id: 'benefits', emoji: '🏥', name: 'Benefits Enrollment & Administration', desc: 'Open enrollment and elections run inside the platform', rank: 3, group: 'Benefits & Compliance' },
+  { id: 'aca', emoji: '🏛️', name: 'ACA Compliance', desc: '1094-C and 1095-C tracking and filings, automated', rank: 3, group: 'Benefits & Compliance' },
+  { id: 'cobra', emoji: '📋', name: 'COBRA Administration', desc: 'Notices, elections and premium billing off your plate', rank: 3, group: 'Benefits & Compliance' },
+  { id: 'carrier', emoji: '🔌', name: 'Benefits Carrier Feeds', desc: 'EDI connections push changes to carriers automatically', rank: 3, group: 'Benefits & Compliance' },
+  { id: 'leave', emoji: '🌴', name: 'Leave Management', desc: 'FMLA and leave tracking with compliant workflows', rank: 3, group: 'Benefits & Compliance' },
+  { id: 'analytics', emoji: '📊', name: 'Predictive People Analytics', desc: 'Flight-risk and workforce trends before they bite', rank: 3, group: 'Benefits & Compliance' },
+  { id: 'garnish', emoji: '⚖️', name: 'Managed Garnishment Services', desc: 'Court orders processed and remitted for you', rank: 3, group: 'Benefits & Compliance' },
+  { id: 'perform', emoji: '🎓', name: 'Performance Management', desc: '360 reviews, goal cascades and continuous feedback', rank: 4, group: 'Talent' },
+  { id: 'lms', emoji: '📚', name: 'Learning Management + Content Library', desc: 'Courses and certifications with ready-made content', rank: 4, group: 'Talent' },
+  { id: 'engage', emoji: '💬', name: 'Engagement Management', desc: 'Surveys, recognition walls and pulse checks', rank: 4, group: 'Talent' },
+  { id: 'comp', emoji: '💰', name: 'Compensation Management', desc: 'Merit cycles and comp planning without spreadsheets', rank: 4, group: 'Talent' },
+  { id: 'video', emoji: '🎥', name: 'Video Interviews by Wedge', desc: 'Screen candidates on video before the first call', rank: 4, group: 'Talent' },
+];
 
+export function hcmRecoFromPicks(pickIds: string[], bensNeed: boolean): { key: HcmTierKey; rank: number; reasons: string[]; bensNeed: boolean } {
+  const picked = HCM_PICK_MODULES.filter(m => pickIds.includes(m.id));
   let rank = 0;
-  if (hire >= 1) rank = Math.max(rank, 1);
-  if (hourly >= 2 || depthLvl >= 2) rank = Math.max(rank, 2);
-  if (bensNeed) rank = Math.max(rank, 3);
-  if (depthLvl >= 4) rank = Math.max(rank, 4);
+  for (const m of picked) rank = Math.max(rank, m.rank);
   const key = HCM_TIER_ORDER[rank];
+  const tierName = HCM_TIERS[key].name;
 
   const reasons: string[] = [];
-  if (rank === 4) {
-    reasons.push('You want the talent layer - performance, learning and engagement only live in Grow');
-    if (bensNeed) reasons.push('Benefits Enrollment, ACA and COBRA are included, giving that work a real owner');
-    if (hourly >= 2) reasons.push('Time & Labor and Scheduling for your hourly teams come with it');
-  } else if (rank === 3) {
-    reasons.push('Benefits admin has no clear owner - Comply puts enrollment, ACA and COBRA inside the platform');
-    reasons.push('Predictive analytics and benchmarks tell you what your people data is hiding');
-    if (hourly >= 2) reasons.push('Time & Labor and Scheduling for your hourly teams are included');
-  } else if (rank === 2) {
-    if (hourly >= 2) reasons.push('You run hourly teams - Time & Labor and Scheduling start in Manage');
-    if (depthLvl >= 2) reasons.push('You want onboarding, time and expenses handled, not just payroll');
-    if (hire >= 1) reasons.push('Attract & Hire is included, so open roles are covered too');
-    if (!reasons.length) reasons.push('Your combined needs land squarely in the operational tier');
-  } else if (rank === 1) {
-    reasons.push("You're hiring - Attract & Hire and Hiring Services Jumpstart earn their keep immediately");
-    if (hourly === 0) reasons.push('No hourly workforce means you can skip paying for time tracking');
-    reasons.push('Only $2 more per employee than Pay for a full recruiting engine');
-  } else {
+  if (!picked.length) {
     reasons.push("Your needs are payroll and HR records - no reason to pay for modules you won't touch");
     reasons.push('At $10 per employee this is the leanest way onto a real HCM platform');
-    if (hire === 0) reasons.push('Stable team means recruiting tools would sit idle');
+  } else {
+    const top = picked.filter(m => m.rank === rank);
+    const topNames = top.slice(0, 2).map(m => m.name).join(' and ');
+    reasons.push(`You picked ${topNames}${top.length > 2 ? ` plus ${top.length - 2} more` : ''} - ${tierName} is the first tier that includes ${top.length === 1 ? 'it' : 'them'}`);
+    const below = picked.length - top.length;
+    if (below > 0) reasons.push(`Your other ${below} pick${below === 1 ? '' : 's'} live${below === 1 ? 's' : ''} in lower tiers, which ${tierName} inherits automatically`);
+    if (bensNeed && rank >= 3) reasons.push('Benefits admin needed a real owner - enrollment, ACA and COBRA are inside this tier');
+    if (reasons.length < 3 && rank >= 3) reasons.push('No platform base fee at this tier - pure per-employee pricing');
   }
   return { key, rank, reasons: reasons.slice(0, 3), bensNeed };
 }

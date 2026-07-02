@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import {
   CALENDLY, G, CARD, LINE, T1, T2, T3, money,
-  HCM_TIERS, HCM_TIER_ORDER, HCM_PLATFORM_FEATURES, computeHcmReco, hcmAllModules,
+  HCM_TIERS, HCM_TIER_ORDER, HCM_PLATFORM_FEATURES, HCM_PICK_MODULES, hcmRecoFromPicks, hcmAllModules,
   type HcmTierKey,
 } from './pricing';
 import {
@@ -46,24 +46,6 @@ const STEPS: { id: string; q: string; hint: string; opts: Opt[]; grid?: boolean 
       { label: 'QuickBooks', emoji: '📗' }, { label: 'Workday', emoji: '🏢' },
       { label: 'Spreadsheets / manual', emoji: '📝' }, { label: 'Nothing yet', emoji: '🆕' },
     ] },
-  { id: 'hiring', q: 'Are you actively hiring right now?', hint: 'Shapes whether recruiting tools belong in your package',
-    opts: [
-      { label: 'Yes - multiple open roles', score: 2, emoji: '🔥' },
-      { label: 'A role here and there', score: 1, emoji: '📋' },
-      { label: 'Rarely - our team is stable', score: 0, emoji: '🧘' },
-    ] },
-  { id: 'hourly', q: 'Do you manage hourly workers or shift schedules?', hint: 'Time tracking and scheduling start in the Manage tier',
-    opts: [
-      { label: 'Yes - timecards and shifts are our life', score: 3, emoji: '⏰' },
-      { label: 'Some hourly, mostly salaried', score: 2, emoji: '⚖️' },
-      { label: 'No - salaried team, no time tracking', score: 0, emoji: '💼' },
-    ] },
-  { id: 'depth', q: 'Beyond payroll, what should the platform own?', hint: 'Be honest about where the busywork lives',
-    opts: [
-      { label: "Payroll and HR records - that's it", lvl: 0, emoji: '💵' },
-      { label: 'Add onboarding, time and expenses', lvl: 2, emoji: '📂' },
-      { label: 'Talent too: performance, learning, engagement', lvl: 4, emoji: '🎓' },
-    ] },
   { id: 'benefitsAdmin', q: 'How is benefits enrollment and administration handled today?', hint: 'Open enrollment, ACA filings, COBRA, carrier updates',
     opts: [
       { label: 'Our broker owns all of it', need: false, emoji: '🤵' },
@@ -75,28 +57,43 @@ const STEPS: { id: string; q: string; hint: string; opts: Opt[]; grid?: boolean 
     opts: [{ label: 'One state' }, { label: '2-5 states' }, { label: '6+ states' }] },
 ];
 
-type Screen = 'quiz' | 'reco' | 'custom' | 'contact' | 'submitting' | 'result';
+type Screen = 'quiz' | 'modules' | 'reco' | 'custom' | 'contact' | 'submitting' | 'result';
+
+// Question numbering across the mixed flow (6 visible questions total)
+const Q_NUM: Record<string, number> = { employees: 1, eins: 2, current: 3, benefitsAdmin: 5, states: 6 };
+const TOTAL_Q = 6;
 
 export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
   const [screen, setScreen] = useState<Screen>('quiz');
   const [step, setStep] = useState(0);
   const [ans, setAns] = useState<Record<string, Opt>>({});
+  const [picks, setPicks] = useState<string[]>([]);
   const [tierKey, setTierKey] = useState<HcmTierKey | null>(null);
   const [contact, setContact] = useState<Contact>(EMPTY_CONTACT);
   const [show, setShow] = useState(true);
-  const total = STEPS.length;
 
   const fade = (fn: () => void) => { setShow(false); setTimeout(() => { fn(); setShow(true); }, 170); };
-  const progressMap: Record<Screen, number> = { quiz: Math.round(((step + 1) / total) * 60), reco: 70, contact: 88, submitting: 95, result: 100, custom: 100 };
+  const qNum = screen === 'modules' ? 4 : (Q_NUM[STEPS[step]?.id] ?? 1);
+  const progressMap: Record<Screen, number> = { quiz: Math.round((qNum / TOTAL_Q) * 60), modules: 40, reco: 70, contact: 88, submitting: 95, result: 100, custom: 100 };
   const prog = progressMap[screen] ?? 0;
+
+  function togglePick(id: string) {
+    setPicks(prev => prev.includes(id) ? prev.filter(p => p !== id) : [...prev, id]);
+  }
 
   function pick(opt: Opt) {
     const id = STEPS[step].id;
     setAns(p => ({ ...p, [id]: opt }));
     if (opt.custom) { fade(() => setScreen('custom')); return; }
+    if (id === 'current') { fade(() => setScreen('modules')); return; }
     if (id === 'benefitsAdmin') { fade(() => setScreen('reco')); return; }
     if (id === 'states') { fade(() => setScreen('contact')); return; }
     fade(() => setStep(step + 1));
+  }
+  function afterModules() {
+    if (!picks.length) return;
+    const i = STEPS.findIndex(s => s.id === 'benefitsAdmin');
+    fade(() => { setScreen('quiz'); setStep(i); });
   }
   function acceptReco(key: HcmTierKey) {
     setTierKey(key);
@@ -106,10 +103,12 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
   function back() {
     if (screen === 'contact') { const i = STEPS.findIndex(s => s.id === 'states'); fade(() => { setScreen('quiz'); setStep(i); }); }
     else if (screen === 'reco') { const i = STEPS.findIndex(s => s.id === 'benefitsAdmin'); fade(() => { setScreen('quiz'); setStep(i); }); }
+    else if (screen === 'modules') { const i = STEPS.findIndex(s => s.id === 'current'); fade(() => { setScreen('quiz'); setStep(i); }); }
     else if (screen === 'custom') { fade(() => setScreen('quiz')); }
     else if (screen === 'quiz') {
       const id = STEPS[step].id;
       if (id === 'states') fade(() => setScreen('reco'));
+      else if (id === 'benefitsAdmin') fade(() => setScreen('modules'));
       else if (step > 0) fade(() => setStep(step - 1));
       else onClose();
     }
@@ -125,7 +124,10 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
   const pepmCost = emp * tier.pepm;
   const monthly = baseCost + pepmCost;
   const annual = monthly * 12;
-  const reco = computeHcmReco(ans);
+  const bensNeed = ans.benefitsAdmin?.need === true;
+  const reco = hcmRecoFromPicks(picks, bensNeed);
+  const pickedNames = HCM_PICK_MODULES.filter(m => picks.includes(m.id)).map(m => m.name);
+  const liveRank = HCM_TIERS[HCM_TIER_ORDER[HCM_PICK_MODULES.filter(m => picks.includes(m.id)).reduce((r, m) => Math.max(r, m.rank), 0)]];
   const chosenRank = tierKey ? HCM_TIERS[tierKey].rank : 0;
   const bensGap = reco.bensNeed && chosenRank < 3;
 
@@ -134,6 +136,7 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
     fade(() => setScreen('submitting'));
     const lines = [
       `Tier: ${tier.name} (${tier.pkg})`,
+      `Modules picked: ${pickedNames.join('; ')}`,
       `Employees: ${ans.employees?.label ?? ''} · EINs: ${eins}`,
       hasBase ? `${tier.name} base: $${tier.base} x ${eins} EIN${eins > 1 ? 's' : ''} = ${money(baseCost)}/mo` : 'No platform base fee at this tier',
       `Platform: ~${emp} x $${tier.pepm} PEPM = ${money(pepmCost)}/mo`,
@@ -147,7 +150,7 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
       pricing_summary: lines,
       answers: JSON.stringify({
         employees: ans.employees?.label ?? '', eins: ans.eins?.label ?? '', current: ans.current?.label ?? '',
-        hiring: ans.hiring?.label ?? '', hourly: ans.hourly?.label ?? '', depth: ans.depth?.label ?? '',
+        modules: pickedNames,
         benefits_admin: ans.benefitsAdmin?.label ?? '', states: ans.states?.label ?? '',
         recommended: reco.key, chosen: tierKey ?? reco.key, benefits_gap: bensGap ? 'yes' : 'no',
         monthly: money(monthly), annual: money(annual),
@@ -163,7 +166,7 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
     <>
       <TopBar
         eyebrow="INSTANT HCM QUOTE"
-        right={screen === 'quiz' ? `${step + 1} / ${total}` : screen === 'reco' ? 'Our pick' : screen === 'contact' ? 'Last step' : 'Done'}
+        right={screen === 'quiz' ? `${qNum} / ${TOTAL_Q}` : screen === 'modules' ? `${picks.length} selected` : screen === 'reco' ? 'Our pick' : screen === 'contact' ? 'Last step' : 'Done'}
         progress={prog}
       />
       <div style={{ flex: 1, overflowY: 'auto' }}>
@@ -173,7 +176,7 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
           const cur = ans[st.id];
           return (
             <Wrap show={show}>
-              <Eyebrow>QUESTION {step + 1} OF {total}</Eyebrow>
+              <Eyebrow>QUESTION {qNum} OF {TOTAL_Q}</Eyebrow>
               <QTitle q={st.q} hint={st.hint} />
               <div style={st.grid ? { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6px' } : {}}>
                 {st.opts.map((opt, i) => (
@@ -184,6 +187,40 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
             </Wrap>
           );
         })()}
+
+        {screen === 'modules' && (
+          <Wrap show={show}>
+            <Eyebrow>QUESTION 4 OF {TOTAL_Q}</Eyebrow>
+            <h2 style={{ fontSize: '1.08rem', fontWeight: 700, lineHeight: 1.4, marginBottom: '4px', color: T1 }}>Which modules matter most to you?</h2>
+            <p style={{ color: T3, fontSize: '0.72rem', marginBottom: '4px' }}>Tap everything you want the platform to own</p>
+            <p style={{ color: '#555', fontSize: '0.7rem', marginBottom: '13px', lineHeight: 1.5 }}>Payroll, HR core and the isolved Connector for Claude are included in every tier</p>
+            <div style={{ maxHeight: '46vh', overflowY: 'auto', paddingRight: '2px' }}>
+              {Array.from(new Set(HCM_PICK_MODULES.map(m => m.group))).map(g => (
+                <div key={g} style={{ marginBottom: '4px' }}>
+                  <div style={{ fontSize: '0.66rem', color: G, fontWeight: 800, letterSpacing: '0.05em', margin: '10px 0 7px', textTransform: 'uppercase' }}>{g}</div>
+                  {HCM_PICK_MODULES.filter(m => m.group === g).map(m => {
+                    const sel = picks.includes(m.id);
+                    return (
+                      <button key={m.id} type="button" onClick={() => togglePick(m.id)} style={{ width: '100%', marginBottom: '6px', background: sel ? '#130d00' : CARD, border: `2px solid ${sel ? G : LINE}`, borderRadius: '9px', padding: '9px 11px', cursor: 'pointer', textAlign: 'left', display: 'flex', alignItems: 'flex-start', gap: '8px', transition: 'all 0.13s' }}>
+                        <span style={{ minWidth: '16px', height: '16px', borderRadius: '5px', border: `2px solid ${sel ? G : '#333'}`, background: sel ? G : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.55rem', color: '#000', flexShrink: 0, marginTop: '1px' }}>{sel ? '✓' : ''}</span>
+                        <span style={{ fontSize: '0.9rem', flexShrink: 0 }}>{m.emoji}</span>
+                        <span style={{ flex: 1, lineHeight: 1.3 }}>
+                          <span style={{ display: 'block', fontSize: '0.82rem', fontWeight: 600, color: sel ? G : '#ccc' }}>{m.name}</span>
+                          <span style={{ display: 'block', fontSize: '0.68rem', color: T2, marginTop: '2px', lineHeight: 1.4 }}>{m.desc}</span>
+                        </span>
+                        <span style={{ fontSize: '0.62rem', color: T3, flexShrink: 0, marginTop: '2px' }}>{HCM_TIERS[HCM_TIER_ORDER[m.rank]].name}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              ))}
+            </div>
+            <GoldBtn onClick={afterModules} disabled={!picks.length}>
+              {picks.length ? `Build my package: ${liveRank.name} →` : 'Select modules to continue'}
+            </GoldBtn>
+            <BackLink onClick={back} />
+          </Wrap>
+        )}
 
         {screen === 'reco' && (
           <Wrap show={show}>

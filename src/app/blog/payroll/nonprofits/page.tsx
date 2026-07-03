@@ -35,27 +35,27 @@ const posts = [
   },
   {
     "title": "Nonprofit Payroll: Benefits Integration",
-    "description": "Managed payroll for nonprofits. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-benefits-integration-payroll"
   },
   {
     "title": "Nonprofit Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for nonprofits. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-direct-deposit-setup"
   },
   {
     "title": "Nonprofit Payroll: Employee Classification Guide",
-    "description": "Managed payroll for nonprofits. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-employee-classification-guide"
   },
   {
     "title": "Nonprofit Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for nonprofits. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-hourly-vs-salaried-payroll"
   },
   {
     "title": "Nonprofit Payroll: How to Switch Providers",
-    "description": "Managed payroll for nonprofits. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-how-to-switch-payroll-providers"
   },
   {
@@ -70,92 +70,92 @@ const posts = [
   },
   {
     "title": "Nonprofit Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for nonprofits. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-multi-location-payroll"
   },
   {
     "title": "Nonprofit Payroll: New Hire Onboarding",
-    "description": "Managed payroll for nonprofits. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-new-hire-payroll-onboarding"
   },
   {
     "title": "Nonprofit Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for nonprofits. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-overtime-rules-payroll"
   },
   {
     "title": "Nonprofit Payroll: Part-Time Workers",
-    "description": "Managed payroll for nonprofits. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-part-time-worker-payroll"
   },
   {
     "title": "Nonprofit Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for nonprofits. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-compliance-guide"
   },
   {
     "title": "Nonprofit Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for nonprofits. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-cost-calculator"
   },
   {
     "title": "Nonprofit Payroll: Must-Have Features",
-    "description": "Managed payroll for nonprofits. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-features-needed"
   },
   {
     "title": "Nonprofit Payroll: Garnishments Guide",
-    "description": "Managed payroll for nonprofits. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-garnishments-guide"
   },
   {
     "title": "Nonprofit Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for nonprofits. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-mistakes-to-avoid"
   },
   {
     "title": "Nonprofit Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for nonprofits. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-outsourcing-cost"
   },
   {
     "title": "Nonprofit Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for nonprofits. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-peak-season"
   },
   {
     "title": "Nonprofit Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for nonprofits. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-recordkeeping"
   },
   {
     "title": "Nonprofit Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for nonprofits. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-setup-guide"
   },
   {
     "title": "Nonprofit Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for nonprofits. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-software-vs-managed"
   },
   {
     "title": "Nonprofit Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for nonprofits. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-payroll-tax-guide"
   },
   {
     "title": "Nonprofit Payroll: State Compliance Guide",
-    "description": "Managed payroll for nonprofits. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-state-payroll-compliance"
   },
   {
     "title": "Nonprofit Payroll: When to Outsource",
-    "description": "Managed payroll for nonprofits. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-when-to-outsource-payroll"
   },
   {
     "title": "Nonprofit Payroll: Year-End Checklist",
-    "description": "Managed payroll for nonprofits. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for nonprofits. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/nonprofits/nonprofits-year-end-payroll-checklist"
   }
 ];

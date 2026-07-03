@@ -110,7 +110,7 @@ const posts = [
   },
   {
     "title": "Payroll Outsourcing in Virginia",
-    "description": "Payroll Outsourcing in Virginia. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at beghr.com.",
+    "description": "Payroll Outsourcing in Virginia. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-virginia"
   },
   {

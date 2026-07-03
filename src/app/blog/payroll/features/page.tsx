@@ -20,22 +20,22 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Benefits Deductions in Managed Payroll: What Gets Ha..",
-    "description": "Benefits Deductions in Managed Payroll: What Gets Handled. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Benefits Deductions in Managed Payroll: What Gets Handled. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/benefits-deductions-payroll"
   },
   {
     "title": "How Managed Payroll Handles Bonus Pay",
-    "description": "How Managed Payroll Handles Bonus Pay. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "How Managed Payroll Handles Bonus Pay. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/bonus-payroll-processing"
   },
   {
     "title": "Direct Deposit in Managed Payroll: How It Works",
-    "description": "Direct Deposit in Managed Payroll: How It Works. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Direct Deposit in Managed Payroll: How It Works. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/direct-deposit-managed-payroll"
   },
   {
     "title": "Wage Garnishment Processing in Managed Payroll",
-    "description": "Wage Garnishment Processing in Managed Payroll. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Wage Garnishment Processing in Managed Payroll. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/garnishment-processing-managed-payroll"
   },
   {
@@ -45,27 +45,27 @@ const posts = [
   },
   {
     "title": "New Hire Paperwork and Payroll Onboarding",
-    "description": "New Hire Paperwork and Payroll Onboarding. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "New Hire Paperwork and Payroll Onboarding. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/new-hire-paperwork-payroll-onboarding"
   },
   {
     "title": "Off-Cycle Payroll Runs: When and How They Work",
-    "description": "Off-Cycle Payroll Runs: When and How They Work. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Off-Cycle Payroll Runs: When and How They Work. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/off-cycle-payroll-runs"
   },
   {
     "title": "Payroll for Commission-Only and Draw-Against Employees",
-    "description": "Payroll for Commission-Only and Draw-Against Employees. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Payroll for Commission-Only and Draw-Against Employees. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/payroll-for-commission-employees"
   },
   {
     "title": "Managing Payroll Across Multiple EINs or Entities",
-    "description": "Managing Payroll Across Multiple EINs or Entities. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Managing Payroll Across Multiple EINs or Entities. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/payroll-for-multiple-ein"
   },
   {
     "title": "Managed Payroll for Tipped Employees: Full Compliance",
-    "description": "Managed Payroll for Tipped Employees: Full Compliance. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Managed Payroll for Tipped Employees: Full Compliance. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/payroll-for-tipped-employees"
   },
   {
@@ -75,47 +75,47 @@ const posts = [
   },
   {
     "title": "Payroll Reports Every Business Owner Should Review",
-    "description": "Payroll Reports Every Business Owner Should Review. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Payroll Reports Every Business Owner Should Review. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/payroll-reporting-for-business-owners"
   },
   {
     "title": "Weekly, Bi-Weekly, Semi-Monthly Payroll: Which Is Be..",
-    "description": "Weekly, Bi-Weekly, Semi-Monthly Payroll: Which Is Best?. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Weekly, Bi-Weekly, Semi-Monthly Payroll: Which Is Best?. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/payroll-run-frequency-options"
   },
   {
     "title": "Payroll Tax Credits: What Managed Payroll Can Capture",
-    "description": "Payroll Tax Credits: What Managed Payroll Can Capture. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Payroll Tax Credits: What Managed Payroll Can Capture. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/payroll-tax-credits-managed"
   },
   {
     "title": "How Managed Payroll Handles IRS and State Tax Notices",
-    "description": "How Managed Payroll Handles IRS and State Tax Notices. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "How Managed Payroll Handles IRS and State Tax Notices. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/payroll-tax-notices-handled"
   },
   {
     "title": "Pay Stub Requirements by State: 2026 Compliance Guide",
-    "description": "Pay Stub Requirements by State: 2026 Compliance Guide. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Pay Stub Requirements by State: 2026 Compliance Guide. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/paystub-requirements-by-state"
   },
   {
     "title": "PTO Accrual Tracking in Managed Payroll Systems",
-    "description": "PTO Accrual Tracking in Managed Payroll Systems. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "PTO Accrual Tracking in Managed Payroll Systems. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/pto-accrual-tracking-payroll"
   },
   {
     "title": "Same-Day Payroll Processing: When It Matters",
-    "description": "Same-Day Payroll Processing: When It Matters. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Same-Day Payroll Processing: When It Matters. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/same-day-payroll-processing"
   },
   {
     "title": "Voluntary Payroll Deductions: 401k, FSA, HSA, and More",
-    "description": "Voluntary Payroll Deductions: 401k, FSA, HSA, and More. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Voluntary Payroll Deductions: 401k, FSA, HSA, and More. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/voluntary-deductions-payroll"
   },
   {
     "title": "W-2 and 1099 Filing Through Managed Payroll",
-    "description": "W-2 and 1099 Filing Through Managed Payroll. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "W-2 and 1099 Filing Through Managed Payroll. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/w2-1099-filing-managed-payroll"
   }
 ];

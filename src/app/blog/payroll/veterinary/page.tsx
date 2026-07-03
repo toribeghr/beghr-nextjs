@@ -30,27 +30,27 @@ const posts = [
   },
   {
     "title": "Vet Practice Payroll: Benefits Integration",
-    "description": "Managed payroll for veterinary. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-benefits-integration-payroll"
   },
   {
     "title": "Vet Practice Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for veterinary. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-direct-deposit-setup"
   },
   {
     "title": "Vet Practice Payroll: Employee Classification Guide",
-    "description": "Managed payroll for veterinary. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-employee-classification-guide"
   },
   {
     "title": "Vet Practice Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for veterinary. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-hourly-vs-salaried-payroll"
   },
   {
     "title": "Vet Practice Payroll: How to Switch Providers",
-    "description": "Managed payroll for veterinary. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-how-to-switch-payroll-providers"
   },
   {
@@ -65,77 +65,77 @@ const posts = [
   },
   {
     "title": "Vet Practice Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for veterinary. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-multi-location-payroll"
   },
   {
     "title": "Vet Practice Payroll: New Hire Onboarding",
-    "description": "Managed payroll for veterinary. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-new-hire-payroll-onboarding"
   },
   {
     "title": "Vet Practice Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for veterinary. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-overtime-rules-payroll"
   },
   {
     "title": "Vet Practice Payroll: Part-Time Workers",
-    "description": "Managed payroll for veterinary. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-part-time-worker-payroll"
   },
   {
     "title": "Vet Practice Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for veterinary. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-compliance-guide"
   },
   {
     "title": "Vet Practice Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for veterinary. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-cost-calculator"
   },
   {
     "title": "Vet Practice Payroll: Must-Have Features",
-    "description": "Managed payroll for veterinary. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-features-needed"
   },
   {
     "title": "Vet Practice Payroll: Garnishments Guide",
-    "description": "Managed payroll for veterinary. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-garnishments-guide"
   },
   {
     "title": "Vet Practice Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for veterinary. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-mistakes-to-avoid"
   },
   {
     "title": "Vet Practice Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for veterinary. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-outsourcing-cost"
   },
   {
     "title": "Vet Practice Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for veterinary. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-peak-season"
   },
   {
     "title": "Vet Practice Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for veterinary. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-recordkeeping"
   },
   {
     "title": "Vet Practice Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for veterinary. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-setup-guide"
   },
   {
     "title": "Vet Practice Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for veterinary. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-software-vs-managed"
   },
   {
     "title": "Vet Practice Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for veterinary. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-payroll-tax-guide"
   },
   {
@@ -145,17 +145,17 @@ const posts = [
   },
   {
     "title": "Vet Practice Payroll: State Compliance Guide",
-    "description": "Managed payroll for veterinary. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-state-payroll-compliance"
   },
   {
     "title": "Vet Practice Payroll: When to Outsource",
-    "description": "Managed payroll for veterinary. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-when-to-outsource-payroll"
   },
   {
     "title": "Vet Practice Payroll: Year-End Checklist",
-    "description": "Managed payroll for veterinary. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for veterinary. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/veterinary/veterinary-year-end-payroll-checklist"
   }
 ];

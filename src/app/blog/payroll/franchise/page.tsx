@@ -20,27 +20,27 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Franchise Payroll: Benefits Integration",
-    "description": "Managed payroll for franchise. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-benefits-integration-payroll"
   },
   {
     "title": "Franchise Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for franchise. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-direct-deposit-setup"
   },
   {
     "title": "Franchise Payroll: Employee Classification Guide",
-    "description": "Managed payroll for franchise. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-employee-classification-guide"
   },
   {
     "title": "Franchise Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for franchise. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-hourly-vs-salaried-payroll"
   },
   {
     "title": "Franchise Payroll: How to Switch Providers",
-    "description": "Managed payroll for franchise. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-how-to-switch-payroll-providers"
   },
   {
@@ -60,92 +60,92 @@ const posts = [
   },
   {
     "title": "Franchise Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-multi-location-payroll"
   },
   {
     "title": "Franchise Payroll: New Hire Onboarding",
-    "description": "Managed payroll for franchise. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-new-hire-payroll-onboarding"
   },
   {
     "title": "Franchise Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for franchise. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-overtime-rules-payroll"
   },
   {
     "title": "Franchise Payroll: Part-Time Workers",
-    "description": "Managed payroll for franchise. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-part-time-worker-payroll"
   },
   {
     "title": "Franchise Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for franchise. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-compliance-guide"
   },
   {
     "title": "Franchise Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for franchise. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-cost-calculator"
   },
   {
     "title": "Franchise Payroll: Must-Have Features",
-    "description": "Managed payroll for franchise. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-features-needed"
   },
   {
     "title": "Franchise Payroll: Garnishments Guide",
-    "description": "Managed payroll for franchise. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-garnishments-guide"
   },
   {
     "title": "Franchise Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for franchise. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-mistakes-to-avoid"
   },
   {
     "title": "Franchise Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for franchise. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-outsourcing-cost"
   },
   {
     "title": "Franchise Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for franchise. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-peak-season"
   },
   {
     "title": "Franchise Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for franchise. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-recordkeeping"
   },
   {
     "title": "Franchise Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for franchise. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-setup-guide"
   },
   {
     "title": "Franchise Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for franchise. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-software-vs-managed"
   },
   {
     "title": "Franchise Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for franchise. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-payroll-tax-guide"
   },
   {
     "title": "Franchise Payroll: State Compliance Guide",
-    "description": "Managed payroll for franchise. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-state-payroll-compliance"
   },
   {
     "title": "Franchise Payroll: When to Outsource",
-    "description": "Managed payroll for franchise. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-when-to-outsource-payroll"
   },
   {
     "title": "Franchise Payroll: Year-End Checklist",
-    "description": "Managed payroll for franchise. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for franchise. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/franchise/franchise-year-end-payroll-checklist"
   },
   {

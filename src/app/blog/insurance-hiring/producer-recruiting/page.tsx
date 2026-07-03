@@ -130,7 +130,7 @@ export default function ProducerRecruitingPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Recruit your next producer in 23-35 days</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the book you want to add and the economics you can offer. We will tell you what a confidential search looks like and whether milestone placement fits.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Pick the role, answer a few quick questions, and see your placement quote on screen in 90 seconds.</p>
           <PricingCta service="job-placement" subline={false} />
         </div>
 

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "How to Calculate Overtime Pay Correctly",
-    "description": "How to Calculate Overtime Pay Correctly. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Calculate Overtime Pay Correctly. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-calculate-overtime-pay"
   },
   {
@@ -50,22 +50,22 @@ const posts = [
   },
   {
     "title": "How to Handle Payroll for Remote Employees",
-    "description": "How to Handle Payroll for Remote Employees. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Handle Payroll for Remote Employees. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-handle-payroll-for-remote-employees"
   },
   {
     "title": "How to Handle Wage Garnishments in Payroll",
-    "description": "How to Handle Wage Garnishments in Payroll. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Handle Wage Garnishments in Payroll. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-handle-payroll-garnishments"
   },
   {
     "title": "How to Manage Payroll Across Multiple States",
-    "description": "How to Manage Payroll Across Multiple States. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Manage Payroll Across Multiple States. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-manage-payroll-multiple-states"
   },
   {
     "title": "How to Manage Tip Credit in Payroll",
-    "description": "How to Manage Tip Credit in Payroll. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Manage Tip Credit in Payroll. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-manage-tip-credit-payroll"
   },
   {
@@ -75,7 +75,7 @@ const posts = [
   },
   {
     "title": "How to Process Commission-Based Payroll",
-    "description": "How to Process Commission-Based Payroll. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Process Commission-Based Payroll. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-process-commission-payroll"
   },
   {
@@ -95,17 +95,17 @@ const posts = [
   },
   {
     "title": "How to Set Up Direct Deposit for Employees",
-    "description": "How to Set Up Direct Deposit for Employees. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Set Up Direct Deposit for Employees. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-set-up-direct-deposit"
   },
   {
     "title": "How to Set Up Payroll Deductions for Benefits",
-    "description": "How to Set Up Payroll Deductions for Benefits. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Set Up Payroll Deductions for Benefits. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-set-up-payroll-deductions"
   },
   {
     "title": "How to Set Up Payroll for a New Business",
-    "description": "How to Set Up Payroll for a New Business. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at beghr.com.",
+    "description": "How to Set Up Payroll for a New Business. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-set-up-payroll-new-business"
   },
   {

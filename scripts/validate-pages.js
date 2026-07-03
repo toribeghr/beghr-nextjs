@@ -88,16 +88,16 @@ for (const file of allPages) {
     warnings.push(`[NO FAQ SCHEMA] ${rel}`);
   }
 
-  // 5b. Internal linking gate (anti-orphan). A real blog post lives at blog/<category>/<slug>/page.tsx
-  // (depth >= 4) — this local check does NOT rely on the buggy isBlogPost above. Every post must include
-  // RelatedPosts (3 siblings) and a contextual up-link to its silo hub. Warnings for now; flip these
-  // push() calls to errors.push() once the existing-post backfill clears, to make it a hard gate.
+  // 5b. Internal linking gate (anti-orphan) — HARD GATE as of July 3, 2026 (backfill complete, 0 violations).
+  // A real blog post lives at blog/<category>/<slug>/page.tsx (depth >= 4). This local check does NOT rely
+  // on the buggy isBlogPost above. Every post MUST include RelatedPosts (3 siblings) and a contextual
+  // up-link to its silo hub, or the build validator fails.
   const isRealPost = rel.startsWith('blog/') && rel.split('/').length >= 4;
   if (isRealPost && !content.includes('RelatedPosts')) {
-    warnings.push(`[NO RelatedPosts] ${rel} — every blog post needs RelatedPosts (3 siblings) or it becomes an orphan`);
+    errors.push(`[NO RelatedPosts] ${rel} — every blog post needs RelatedPosts (3 siblings) or it becomes an orphan`);
   }
   if (isRealPost && !/href=['"]\/services\/(managed-payroll|job-placement|hcm-software)/.test(content)) {
-    warnings.push(`[NO HUB UP-LINK] ${rel} — link up to the relevant /services hub in the body`);
+    errors.push(`[NO HUB UP-LINK] ${rel} — link up to the relevant /services hub in the body`);
   }
 
   // 6. Broken /compare/ internal links (must be /blog/compare/)

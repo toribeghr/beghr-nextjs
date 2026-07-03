@@ -25,27 +25,27 @@ const posts = [
   },
   {
     "title": "Construction Payroll: Benefits Integration",
-    "description": "Managed payroll for construction. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-benefits-integration-payroll"
   },
   {
     "title": "Construction Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for construction. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-direct-deposit-setup"
   },
   {
     "title": "Construction Payroll: Employee Classification Guide",
-    "description": "Managed payroll for construction. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-employee-classification-guide"
   },
   {
     "title": "Construction Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for construction. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-hourly-vs-salaried-payroll"
   },
   {
     "title": "Construction Payroll: How to Switch Providers",
-    "description": "Managed payroll for construction. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-how-to-switch-payroll-providers"
   },
   {
@@ -60,82 +60,82 @@ const posts = [
   },
   {
     "title": "Construction Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for construction. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-multi-location-payroll"
   },
   {
     "title": "Construction Payroll: New Hire Onboarding",
-    "description": "Managed payroll for construction. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-new-hire-payroll-onboarding"
   },
   {
     "title": "Construction Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for construction. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-overtime-rules-payroll"
   },
   {
     "title": "Construction Payroll: Part-Time Workers",
-    "description": "Managed payroll for construction. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-part-time-worker-payroll"
   },
   {
     "title": "Construction Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for construction. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-compliance-guide"
   },
   {
     "title": "Construction Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for construction. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-cost-calculator"
   },
   {
     "title": "Construction Payroll: Must-Have Features",
-    "description": "Managed payroll for construction. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-features-needed"
   },
   {
     "title": "Construction Payroll: Garnishments Guide",
-    "description": "Managed payroll for construction. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-garnishments-guide"
   },
   {
     "title": "Construction Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for construction. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-mistakes-to-avoid"
   },
   {
     "title": "Construction Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for construction. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-outsourcing-cost"
   },
   {
     "title": "Construction Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for construction. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-peak-season"
   },
   {
     "title": "Construction Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for construction. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-recordkeeping"
   },
   {
     "title": "Construction Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for construction. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-setup-guide"
   },
   {
     "title": "Construction Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for construction. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-software-vs-managed"
   },
   {
     "title": "Construction Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for construction. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-payroll-tax-guide"
   },
   {
     "title": "Construction Payroll: State Compliance Guide",
-    "description": "Managed payroll for construction. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-state-payroll-compliance"
   },
   {
@@ -145,7 +145,7 @@ const posts = [
   },
   {
     "title": "Construction Payroll: Year-End Checklist",
-    "description": "Managed payroll for construction. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for construction. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-year-end-payroll-checklist"
   },
   {

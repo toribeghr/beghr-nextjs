@@ -178,6 +178,9 @@ export default function PayrollForLLCOwnersPage() {
           { "@type": "ListItem", "position": 4, "name": "Payroll for LLC Owners", "item": "https://www.beghr.com/blog/entrepreneur-resources/payroll-for-llc-owners" }
         ]
       }) }} />
+      <section className="container" style={{ maxWidth: '840px', padding: '0 0 2rem' }}>
+        <p style={{ fontSize: '0.95rem', color: '#333' }}>Ready to hand payroll off? See <a href="/services/managed-payroll" style={{ color: '#000', fontWeight: 600 }}>BEG Managed Payroll</a>.</p>
+      </section>
           <RelatedPosts posts={[
         { category: "Entrepreneur Resources", title: "Owner Draw vs Salary: What New Founders Miss", excerpt: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to...", href: "/blog/entrepreneur-resources/owner-draw-vs-salary" },
         { category: "Entrepreneur Resources", title: "Remote Team Management: What Founders Learn Late", excerpt: "Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a...", href: "/blog/entrepreneur-resources/remote-team-management" },

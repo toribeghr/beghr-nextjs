@@ -20,47 +20,47 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Employee Overpaid on Payroll: What Employers Must Do",
-    "description": "Employee Overpaid on Payroll: What Employers Must Do. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Employee Overpaid on Payroll: What Employers Must Do. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/employee-overpaid-what-to-do"
   },
   {
     "title": "Employees Complaining About Payroll Errors: What to..",
-    "description": "Employees Complaining About Payroll Errors: What to Fix. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Employees Complaining About Payroll Errors: What to Fix. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/employees-complaining-payroll-errors"
   },
   {
     "title": "Received an IRS Notice About Payroll Taxes: Next Steps",
-    "description": "Received an IRS Notice About Payroll Taxes: Next Steps. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Received an IRS Notice About Payroll Taxes: Next Steps. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/irs-notice-payroll-taxes"
   },
   {
     "title": "Missed a Payroll Tax Deposit: Steps to Take Immediat..",
-    "description": "Missed a Payroll Tax Deposit: Steps to Take Immediately. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Missed a Payroll Tax Deposit: Steps to Take Immediately. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/missed-payroll-tax-deposit-what-to-do"
   },
   {
     "title": "New Hire Not Set Up in Payroll: Emergency Fix Guide",
-    "description": "New Hire Not Set Up in Payroll: Emergency Fix Guide. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "New Hire Not Set Up in Payroll: Emergency Fix Guide. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/new-hire-missing-from-payroll"
   },
   {
     "title": "Received a Payroll Audit Notice: What Employers Shou..",
-    "description": "Received a Payroll Audit Notice: What Employers Should Do. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Received a Payroll Audit Notice: What Employers Should Do. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/payroll-audit-notice-received"
   },
   {
     "title": "Benefits Deduction Error in Payroll: How to Fix It",
-    "description": "Benefits Deduction Error in Payroll: How to Fix It. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Benefits Deduction Error in Payroll: How to Fix It. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/payroll-deduction-error-benefits"
   },
   {
     "title": "How to Correct a Payroll Error Before It Compounds",
-    "description": "How to Correct a Payroll Error Before It Compounds. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "How to Correct a Payroll Error Before It Compounds. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/payroll-error-how-to-correct"
   },
   {
     "title": "Payroll Is Late: What to Do Right Now",
-    "description": "Payroll Is Late: What to Do Right Now. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Payroll Is Late: What to Do Right Now. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/payroll-late-what-to-do"
   },
   {
@@ -70,27 +70,27 @@ const posts = [
   },
   {
     "title": "Payroll Reconciliation Errors: How to Find and Fix T..",
-    "description": "Payroll Reconciliation Errors: How to Find and Fix Them. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Payroll Reconciliation Errors: How to Find and Fix Them. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/payroll-reconciliation-errors"
   },
   {
     "title": "Payroll System Migration: How to Avoid Common Problems",
-    "description": "Payroll System Migration: How to Avoid Common Problems. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Payroll System Migration: How to Avoid Common Problems. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/payroll-system-migration-problems"
   },
   {
     "title": "Received a Payroll Tax Penalty: What to Do Next",
-    "description": "Received a Payroll Tax Penalty: What to Do Next. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Received a Payroll Tax Penalty: What to Do Next. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/payroll-tax-penalty-received-what-to-do"
   },
   {
     "title": "Received a State Payroll Tax Notice: What to Do",
-    "description": "Received a State Payroll Tax Notice: What to Do. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Received a State Payroll Tax Notice: What to Do. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/state-payroll-tax-notice-received"
   },
   {
     "title": "W-2 Is Wrong: How to Issue a Corrected W-2C",
-    "description": "W-2 Is Wrong: How to Issue a Corrected W-2C. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "W-2 Is Wrong: How to Issue a Corrected W-2C. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/w2-wrong-what-to-do"
   }
 ];

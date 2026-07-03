@@ -35,27 +35,27 @@ const posts = [
   },
   {
     "title": "Restaurant Payroll: Benefits Integration",
-    "description": "Managed payroll for restaurants. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-benefits-integration-payroll"
   },
   {
     "title": "Restaurant Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for restaurants. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-direct-deposit-setup"
   },
   {
     "title": "Restaurant Payroll: Employee Classification Guide",
-    "description": "Managed payroll for restaurants. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-employee-classification-guide"
   },
   {
     "title": "Restaurant Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for restaurants. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-hourly-vs-salaried-payroll"
   },
   {
     "title": "Restaurant Payroll: How to Switch Providers",
-    "description": "Managed payroll for restaurants. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-how-to-switch-payroll-providers"
   },
   {
@@ -70,82 +70,82 @@ const posts = [
   },
   {
     "title": "Restaurant Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for restaurants. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-multi-location-payroll"
   },
   {
     "title": "Restaurant Payroll: New Hire Onboarding",
-    "description": "Managed payroll for restaurants. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-new-hire-payroll-onboarding"
   },
   {
     "title": "Restaurant Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for restaurants. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-overtime-rules-payroll"
   },
   {
     "title": "Restaurant Payroll: Part-Time Workers",
-    "description": "Managed payroll for restaurants. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-part-time-worker-payroll"
   },
   {
     "title": "Restaurant Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for restaurants. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-compliance-guide"
   },
   {
     "title": "Restaurant Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for restaurants. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-cost-calculator"
   },
   {
     "title": "Restaurant Payroll: Must-Have Features",
-    "description": "Managed payroll for restaurants. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-features-needed"
   },
   {
     "title": "Restaurant Payroll: Garnishments Guide",
-    "description": "Managed payroll for restaurants. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-garnishments-guide"
   },
   {
     "title": "Restaurant Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for restaurants. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-mistakes-to-avoid"
   },
   {
     "title": "Restaurant Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for restaurants. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-outsourcing-cost"
   },
   {
     "title": "Restaurant Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for restaurants. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-peak-season"
   },
   {
     "title": "Restaurant Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for restaurants. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-recordkeeping"
   },
   {
     "title": "Restaurant Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for restaurants. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-setup-guide"
   },
   {
     "title": "Restaurant Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for restaurants. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-software-vs-managed"
   },
   {
     "title": "Restaurant Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for restaurants. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-payroll-tax-guide"
   },
   {
     "title": "Restaurant Payroll: State Compliance Guide",
-    "description": "Managed payroll for restaurants. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-state-payroll-compliance"
   },
   {
@@ -155,7 +155,7 @@ const posts = [
   },
   {
     "title": "Restaurant Payroll: Year-End Checklist",
-    "description": "Managed payroll for restaurants. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for restaurants. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/hospitality/restaurants-year-end-payroll-checklist"
   }
 ];

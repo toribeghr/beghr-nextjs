@@ -45,7 +45,7 @@ const posts = [
   },
   {
     "title": "FLSA Overtime Rules for Small Businesses",
-    "description": "FLSA Overtime Rules for Small Businesses. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.",
+    "description": "FLSA Overtime Rules for Small Businesses. Expert guidance from BEG managed payroll. Get instant payroll pricing at beghr.com.",
     "slug": "/blog/payroll/compliance/flsa-overtime-rules-small-business"
   },
   {
@@ -75,7 +75,7 @@ const posts = [
   },
   {
     "title": "How to Prepare for a Payroll Audit",
-    "description": "How to Prepare for a Payroll Audit. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at beghr.com.",
+    "description": "How to Prepare for a Payroll Audit. Expert guidance from BEG managed payroll. Get instant payroll pricing at beghr.com.",
     "slug": "/blog/payroll/compliance/payroll-audit-preparation-guide"
   },
   {

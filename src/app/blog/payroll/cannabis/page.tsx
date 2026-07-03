@@ -20,27 +20,27 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Cannabis Payroll: Benefits Integration",
-    "description": "Managed payroll for cannabis. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-benefits-integration-payroll"
   },
   {
     "title": "Cannabis Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for cannabis. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-direct-deposit-setup"
   },
   {
     "title": "Cannabis Payroll: Employee Classification Guide",
-    "description": "Managed payroll for cannabis. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-employee-classification-guide"
   },
   {
     "title": "Cannabis Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for cannabis. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-hourly-vs-salaried-payroll"
   },
   {
     "title": "Cannabis Payroll: How to Switch Providers",
-    "description": "Managed payroll for cannabis. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-how-to-switch-payroll-providers"
   },
   {
@@ -55,22 +55,22 @@ const posts = [
   },
   {
     "title": "Cannabis Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for cannabis. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-multi-location-payroll"
   },
   {
     "title": "Cannabis Payroll: New Hire Onboarding",
-    "description": "Managed payroll for cannabis. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-new-hire-payroll-onboarding"
   },
   {
     "title": "Cannabis Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for cannabis. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-overtime-rules-payroll"
   },
   {
     "title": "Cannabis Payroll: Part-Time Workers",
-    "description": "Managed payroll for cannabis. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-part-time-worker-payroll"
   },
   {
@@ -85,72 +85,72 @@ const posts = [
   },
   {
     "title": "Cannabis Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for cannabis. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-compliance-guide"
   },
   {
     "title": "Cannabis Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for cannabis. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-cost-calculator"
   },
   {
     "title": "Cannabis Payroll: Must-Have Features",
-    "description": "Managed payroll for cannabis. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-features-needed"
   },
   {
     "title": "Cannabis Payroll: Garnishments Guide",
-    "description": "Managed payroll for cannabis. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-garnishments-guide"
   },
   {
     "title": "Cannabis Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for cannabis. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-mistakes-to-avoid"
   },
   {
     "title": "Cannabis Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for cannabis. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-outsourcing-cost"
   },
   {
     "title": "Cannabis Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for cannabis. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-peak-season"
   },
   {
     "title": "Cannabis Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for cannabis. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-recordkeeping"
   },
   {
     "title": "Cannabis Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for cannabis. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-setup-guide"
   },
   {
     "title": "Cannabis Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for cannabis. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-software-vs-managed"
   },
   {
     "title": "Cannabis Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for cannabis. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-payroll-tax-guide"
   },
   {
     "title": "Cannabis Payroll: State Compliance Guide",
-    "description": "Managed payroll for cannabis. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-state-payroll-compliance"
   },
   {
     "title": "Cannabis Payroll: When to Outsource",
-    "description": "Managed payroll for cannabis. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-when-to-outsource-payroll"
   },
   {
     "title": "Cannabis Payroll: Year-End Checklist",
-    "description": "Managed payroll for cannabis. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for cannabis. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/cannabis/cannabis-year-end-payroll-checklist"
   },
   {

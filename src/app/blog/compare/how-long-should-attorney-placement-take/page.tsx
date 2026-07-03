@@ -196,6 +196,9 @@ export default function HowLongAttorneyPlacementPage() {
           { '@type': 'Question', name: "Does a longer search mean a better hire?", acceptedAnswer: { '@type': 'Answer', text: "No. Extended searches typically mean the firm is either not reaching the right candidate pool or the internal approval process is a bottleneck. The quality of the placement depends on the recruiter's access to passive candidates and the depth of the role brief -- not how long the search runs." } },
         ]
       }) }} />
+      <section className="container" style={{ maxWidth: '840px', padding: '0 0 2rem' }}>
+        <p style={{ fontSize: '0.95rem', color: '#333' }}>See how we fill roles fast: <a href="/services/job-placement" style={{ color: '#000', fontWeight: 600 }}>BEG Job Placement</a>.</p>
+      </section>
           <RelatedPosts posts={[
         { category: "Compare", title: "Alternatives to Contingency Recruiting", excerpt: "Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on...", href: "/blog/compare/alternatives-to-contingency-recruiting" },
         { category: "Compare", title: "BEG vs Insight Global | Instant Fee Quote", excerpt: "BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See...", href: "/blog/compare/beg-vs-insight-global" },

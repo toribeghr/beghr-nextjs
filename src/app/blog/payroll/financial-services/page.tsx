@@ -20,27 +20,27 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Financial Firm Payroll: Benefits Integration",
-    "description": "Managed payroll for financial services. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-benefits-integration-payroll"
   },
   {
     "title": "Financial Firm Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for financial services. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-direct-deposit-setup"
   },
   {
     "title": "Financial Firm Payroll: Employee Classification Guide",
-    "description": "Managed payroll for financial services. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-employee-classification-guide"
   },
   {
     "title": "Financial Firm Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for financial services. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-hourly-vs-salaried-payroll"
   },
   {
     "title": "Financial Firm Payroll: How to Switch Providers",
-    "description": "Managed payroll for financial services. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-how-to-switch-payroll-providers"
   },
   {
@@ -55,37 +55,37 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for financial services. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-multi-location-payroll"
   },
   {
     "title": "Financial Firm Payroll: New Hire Onboarding",
-    "description": "Managed payroll for financial services. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-new-hire-payroll-onboarding"
   },
   {
     "title": "Financial Firm Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for financial services. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-overtime-rules-payroll"
   },
   {
     "title": "Financial Firm Payroll: Part-Time Workers",
-    "description": "Managed payroll for financial services. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-part-time-worker-payroll"
   },
   {
     "title": "Financial Firm Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for financial services. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-compliance-guide"
   },
   {
     "title": "Financial Firm Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for financial services. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-cost-calculator"
   },
   {
     "title": "Financial Firm Payroll: Must-Have Features",
-    "description": "Managed payroll for financial services. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-features-needed"
   },
   {
@@ -95,7 +95,7 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for financial services. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-mistakes-to-avoid"
   },
   {
@@ -105,17 +105,17 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for financial services. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-peak-season"
   },
   {
     "title": "Financial Firm Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for financial services. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-recordkeeping"
   },
   {
     "title": "Financial Firm Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for financial services. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-setup-guide"
   },
   {
@@ -125,12 +125,12 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for financial services. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-tax-guide"
   },
   {
     "title": "Financial Firm Payroll: State Compliance Guide",
-    "description": "Managed payroll for financial services. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-state-payroll-compliance"
   },
   {
@@ -140,7 +140,7 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: Year-End Checklist",
-    "description": "Managed payroll for financial services. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for financial services. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-year-end-payroll-checklist"
   },
   {

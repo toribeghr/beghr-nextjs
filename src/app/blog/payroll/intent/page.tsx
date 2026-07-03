@@ -20,77 +20,77 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Benefits of Outsourcing Payroll in 2026",
-    "description": "Benefits of Outsourcing Payroll in 2026. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Benefits of Outsourcing Payroll in 2026. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/benefits-of-outsourcing-payroll-2026"
   },
   {
     "title": "How to Evaluate and Choose a Managed Payroll Service",
-    "description": "How to Evaluate and Choose a Managed Payroll Service. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "How to Evaluate and Choose a Managed Payroll Service. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/how-to-evaluate-payroll-service"
   },
   {
     "title": "Managed Payroll Buyer Checklist: What to Look For",
-    "description": "Managed Payroll Buyer Checklist: What to Look For. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Managed Payroll Buyer Checklist: What to Look For. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/managed-payroll-checklist-buyers-guide"
   },
   {
     "title": "Managed Payroll Contract: What to Read Before You Sign",
-    "description": "Managed Payroll Contract: What to Read Before You Sign. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Managed Payroll Contract: What to Read Before You Sign. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/managed-payroll-contract-what-to-look-for"
   },
   {
     "title": "When Growing Companies Outgrow Payroll Software",
-    "description": "When Growing Companies Outgrow Payroll Software. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "When Growing Companies Outgrow Payroll Software. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/managed-payroll-for-growing-company"
   },
   {
     "title": "Managed Payroll Implementation Timeline: 3-5 Days to..",
-    "description": "Managed Payroll Implementation Timeline: 3-5 Days to Live. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Managed Payroll Implementation Timeline: 3-5 Days to Live. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/managed-payroll-implementation-timeline"
   },
   {
     "title": "What to Expect During Managed Payroll Implementation",
-    "description": "What to Expect During Managed Payroll Implementation. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "What to Expect During Managed Payroll Implementation. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/managed-payroll-implementation-what-to-expect"
   },
   {
     "title": "Managed Payroll Myths Debunked: What You Actually Get",
-    "description": "Managed Payroll Myths Debunked: What You Actually Get. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Managed Payroll Myths Debunked: What You Actually Get. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/managed-payroll-myths-debunked"
   },
   {
     "title": "Payroll Onboarding Checklist for Switching Providers",
-    "description": "Payroll Onboarding Checklist for Switching Providers. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Payroll Onboarding Checklist for Switching Providers. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/payroll-onboarding-checklist-for-new-provider"
   },
   {
     "title": "Payroll Red Flags Most Business Owners Miss",
-    "description": "Payroll Red Flags Most Business Owners Miss. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Payroll Red Flags Most Business Owners Miss. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/payroll-red-flags-business-owners-miss"
   },
   {
     "title": "What Actually Matters in Payroll Service Reviews",
-    "description": "What Actually Matters in Payroll Service Reviews. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "What Actually Matters in Payroll Service Reviews. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/payroll-service-reviews-what-matters"
   },
   {
     "title": "10 Questions to Ask Before Hiring a Payroll Provider",
-    "description": "10 Questions to Ask Before Hiring a Payroll Provider. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "10 Questions to Ask Before Hiring a Payroll Provider. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/questions-to-ask-payroll-provider"
   },
   {
     "title": "7 Signs Your Business Needs to Outsource Payroll Now",
-    "description": "7 Signs Your Business Needs to Outsource Payroll Now. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "7 Signs Your Business Needs to Outsource Payroll Now. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/signs-you-need-to-outsource-payroll"
   },
   {
     "title": "When Is the Right Time to Switch Payroll Providers?",
-    "description": "When Is the Right Time to Switch Payroll Providers?. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "When Is the Right Time to Switch Payroll Providers?. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/when-to-switch-payroll-providers"
   },
   {
     "title": "Why Businesses Switch from Software to Managed Payroll",
-    "description": "Why Businesses Switch from Software to Managed Payroll. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at beghr.com.",
+    "description": "Why Businesses Switch from Software to Managed Payroll. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/intent/why-businesses-switch-to-managed-payroll"
   }
 ];

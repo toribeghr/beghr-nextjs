@@ -25,27 +25,27 @@ const posts = [
   },
   {
     "title": "E-Commerce Payroll: Benefits Integration",
-    "description": "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll"
   },
   {
     "title": "E-Commerce Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for e-commerce. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-direct-deposit-setup"
   },
   {
     "title": "E-Commerce Payroll: Employee Classification Guide",
-    "description": "Managed payroll for e-commerce. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-employee-classification-guide"
   },
   {
     "title": "E-Commerce Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for e-commerce. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-hourly-vs-salaried-payroll"
   },
   {
     "title": "E-Commerce Payroll: How to Switch Providers",
-    "description": "Managed payroll for e-commerce. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-how-to-switch-payroll-providers"
   },
   {
@@ -60,92 +60,92 @@ const posts = [
   },
   {
     "title": "E-Commerce Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for e-commerce. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-multi-location-payroll"
   },
   {
     "title": "E-Commerce Payroll: New Hire Onboarding",
-    "description": "Managed payroll for e-commerce. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-new-hire-payroll-onboarding"
   },
   {
     "title": "E-Commerce Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for e-commerce. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-overtime-rules-payroll"
   },
   {
     "title": "E-Commerce Payroll: Part-Time Workers",
-    "description": "Managed payroll for e-commerce. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-part-time-worker-payroll"
   },
   {
     "title": "E-Commerce Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for e-commerce. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-compliance-guide"
   },
   {
     "title": "E-Commerce Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for e-commerce. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-cost-calculator"
   },
   {
     "title": "E-Commerce Payroll: Must-Have Features",
-    "description": "Managed payroll for e-commerce. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-features-needed"
   },
   {
     "title": "E-Commerce Payroll: Garnishments Guide",
-    "description": "Managed payroll for e-commerce. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-garnishments-guide"
   },
   {
     "title": "E-Commerce Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for e-commerce. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-mistakes-to-avoid"
   },
   {
     "title": "E-Commerce Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for e-commerce. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-outsourcing-cost"
   },
   {
     "title": "E-Commerce Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for e-commerce. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-peak-season"
   },
   {
     "title": "E-Commerce Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for e-commerce. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-recordkeeping"
   },
   {
     "title": "E-Commerce Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for e-commerce. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-setup-guide"
   },
   {
     "title": "E-Commerce Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for e-commerce. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-software-vs-managed"
   },
   {
     "title": "E-Commerce Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for e-commerce. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-payroll-tax-guide"
   },
   {
     "title": "E-Commerce Payroll: State Compliance Guide",
-    "description": "Managed payroll for e-commerce. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-state-payroll-compliance"
   },
   {
     "title": "E-Commerce Payroll: When to Outsource",
-    "description": "Managed payroll for e-commerce. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-when-to-outsource-payroll"
   },
   {
     "title": "E-Commerce Payroll: Year-End Checklist",
-    "description": "Managed payroll for e-commerce. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for e-commerce. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/ecommerce/ecommerce-year-end-payroll-checklist"
   },
   {

@@ -156,7 +156,7 @@ export default function LegalRecruiterVsPlacementServicePage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>See what your search costs on a milestone model</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. No commitment. We will give you a clear cost comparison and tell you exactly how a milestone search works.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Pick the role, answer a few quick questions, and see your placement quote on screen in 90 seconds.</p>
           <PricingCta service="job-placement" subline={false} />
         </div>
 

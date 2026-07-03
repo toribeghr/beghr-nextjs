@@ -25,27 +25,27 @@ const posts = [
   },
   {
     "title": "Healthcare Practices: Integrating Benefits with Payroll | BE",
-    "description": "Managed payroll for healthcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-benefits-integration-payroll"
   },
   {
     "title": "Healthcare Practices: Setting Up Direct Deposit",
-    "description": "Managed payroll for healthcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-direct-deposit-setup"
   },
   {
     "title": "Healthcare Practices: Employee Classification for Payroll |",
-    "description": "Managed payroll for healthcare. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-employee-classification-guide"
   },
   {
     "title": "Healthcare Practices: Hourly vs. Salaried Employee Payroll |",
-    "description": "Managed payroll for healthcare. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-hourly-vs-salaried-payroll"
   },
   {
     "title": "Healthcare Practices: How to Switch Payroll Providers",
-    "description": "Managed payroll for healthcare. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-how-to-switch-payroll-providers"
   },
   {
@@ -60,92 +60,92 @@ const posts = [
   },
   {
     "title": "Healthcare Practices: Multi-Location Payroll Guide",
-    "description": "Managed payroll for healthcare. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-multi-location-payroll"
   },
   {
     "title": "Healthcare Practices: New Hire Payroll Onboarding",
-    "description": "Managed payroll for healthcare. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-new-hire-payroll-onboarding"
   },
   {
     "title": "Healthcare Practices: Overtime Rules and Payroll Compliance",
-    "description": "Managed payroll for healthcare. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-overtime-rules-payroll"
   },
   {
     "title": "Healthcare Practices: Managing Part-Time Worker Payroll | BE",
-    "description": "Managed payroll for healthcare. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-part-time-worker-payroll"
   },
   {
     "title": "Healthcare Practices: Payroll Compliance Guide",
-    "description": "Managed payroll for healthcare. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-compliance-guide"
   },
   {
     "title": "Healthcare Practices: How to Calculate Your Payroll Costs |",
-    "description": "Managed payroll for healthcare. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-cost-calculator"
   },
   {
     "title": "Healthcare Practices: Payroll Features Every {label} Busines",
-    "description": "Managed payroll for healthcare. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-features-needed"
   },
   {
     "title": "Healthcare Practices: Payroll Garnishments: What You Need to",
-    "description": "Managed payroll for healthcare. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-garnishments-guide"
   },
   {
     "title": "Healthcare Practices: Payroll Mistakes to Avoid",
-    "description": "Managed payroll for healthcare. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-mistakes-to-avoid"
   },
   {
     "title": "Healthcare Practices: Payroll Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for healthcare. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-outsourcing-cost"
   },
   {
     "title": "Healthcare Practices: Managing Payroll During Peak Season |",
-    "description": "Managed payroll for healthcare. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-peak-season"
   },
   {
     "title": "Healthcare Practices: Payroll Recordkeeping Requirements | B",
-    "description": "Managed payroll for healthcare. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-recordkeeping"
   },
   {
     "title": "Healthcare Practices: Payroll Setup Guide",
-    "description": "Managed payroll for healthcare. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-setup-guide"
   },
   {
     "title": "Healthcare Practices: Payroll Software vs. Managed Payroll S",
-    "description": "Managed payroll for healthcare. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-software-vs-managed"
   },
   {
     "title": "Healthcare Practices: Payroll Tax Guide",
-    "description": "Managed payroll for healthcare. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-payroll-tax-guide"
   },
   {
     "title": "Healthcare Practices: State Payroll Compliance Issues",
-    "description": "Managed payroll for healthcare. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-state-payroll-compliance"
   },
   {
     "title": "Healthcare Practices: Signs Your Business Needs to Outsource",
-    "description": "Managed payroll for healthcare. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-when-to-outsource-payroll"
   },
   {
     "title": "Healthcare Practices: Year-End Payroll Checklist",
-    "description": "Managed payroll for healthcare. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for healthcare. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-year-end-payroll-checklist"
   },
   {

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/fitness/fitness-managed-payroll-mid-size' },
   openGraph: {
     title: 'Fitness Payroll for 25-100 Employees (What to Know) | BEG',
-    description: 'Managed payroll for fitness. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.',
+    description: 'Managed payroll for fitness. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
     url: 'https://www.beghr.com/blog/payroll/fitness/fitness-managed-payroll-mid-size',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Fitness Payroll for 25-100 Employees (What to Know) | BEG', description: 'Managed payroll for fitness. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Fitness Payroll for 25-100 Employees (What to Know) | BEG', description: 'Managed payroll for fitness. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -119,7 +119,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Book a free 15-minute discovery call to get a cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -151,7 +151,7 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Fitness Studios & Gyms. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Book a free 15-minute discovery call at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Fitness Studios & Gyms. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
@@ -165,7 +165,7 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Fitness Studios & Gyms: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)","description":"Managed payroll for fitness. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"url":"https://www.beghr.com/blog/payroll/fitness/fitness-managed-payroll-mid-size","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.beghr.com/blog/payroll/fitness/fitness-managed-payroll-mid-size"}}`,
+          __html: `{"@context":"https://schema.org","@type":"BlogPosting","headline":"Fitness Studios & Gyms: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)","description":"Managed payroll for fitness. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.","datePublished":"2026-06-28","dateModified":"2026-06-28","author":{"@type":"Person","name":"Anthony Moretti","jobTitle":"VP of Sales","worksFor":{"@type":"Organization","name":"Business Executive Group"}},"publisher":{"@type":"Organization","name":"Business Executive Group","logo":{"@type":"ImageObject","url":"https://www.beghr.com/assets/beg-header-image.png"}},"url":"https://www.beghr.com/blog/payroll/fitness/fitness-managed-payroll-mid-size","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.beghr.com/blog/payroll/fitness/fitness-managed-payroll-mid-size"}}`,
         }}
       />
 

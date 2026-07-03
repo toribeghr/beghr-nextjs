@@ -123,7 +123,7 @@ export default function BankingSalaryTrendsPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Fill your banking role in 23-35 days</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us the role and the comp range. We will tell you how to position it to win strong candidates and whether milestone placement fits.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Pick the role, answer a few quick questions, and see your placement quote on screen in 90 seconds.</p>
           <PricingCta service="job-placement" subline={false} />
         </div>
 

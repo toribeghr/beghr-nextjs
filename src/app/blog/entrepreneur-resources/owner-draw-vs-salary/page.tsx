@@ -175,6 +175,9 @@ export default function OwnerDrawVsSalaryPage() {
           { "@type": "ListItem", "position": 4, "name": "Owner Draw vs Salary", "item": "https://www.beghr.com/blog/entrepreneur-resources/owner-draw-vs-salary" }
         ]
       }) }} />
+      <section className="container" style={{ maxWidth: '840px', padding: '0 0 2rem' }}>
+        <p style={{ fontSize: '0.95rem', color: '#333' }}>Ready to hand payroll off? See <a href="/services/managed-payroll" style={{ color: '#000', fontWeight: 600 }}>BEG Managed Payroll</a>.</p>
+      </section>
           <RelatedPosts posts={[
         { category: "Entrepreneur Resources", title: "Payroll for LLC Owners: The Truth About SE Tax", excerpt: "Payroll for LLC owners: when payroll is required, self-employment tax on draws, S-corp election...", href: "/blog/entrepreneur-resources/payroll-for-llc-owners" },
         { category: "Entrepreneur Resources", title: "Remote Team Management: What Founders Learn Late", excerpt: "Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a...", href: "/blog/entrepreneur-resources/remote-team-management" },

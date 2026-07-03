@@ -306,6 +306,9 @@ export default function PEOVsManagedPayrollPage() {
           acceptedAnswer: { '@type': 'Answer', text: faq.answer }
         }))
       }) }} />
+      <section className="container" style={{ maxWidth: '840px', padding: '0 0 2rem' }}>
+        <p style={{ fontSize: '0.95rem', color: '#333' }}>Ready to hand payroll off? See <a href="/services/managed-payroll" style={{ color: '#000', fontWeight: 600 }}>BEG Managed Payroll</a>.</p>
+      </section>
           <RelatedPosts posts={[
         { category: "Compare", title: "Alternatives to Contingency Recruiting", excerpt: "Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on...", href: "/blog/compare/alternatives-to-contingency-recruiting" },
         { category: "Compare", title: "BEG vs Insight Global | Instant Fee Quote", excerpt: "BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See...", href: "/blog/compare/beg-vs-insight-global" },

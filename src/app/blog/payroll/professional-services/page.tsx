@@ -30,27 +30,27 @@ const posts = [
   },
   {
     "title": "Engineering Firm Payroll: Benefits Integration",
-    "description": "Managed payroll for engineering. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-benefits-integration-payroll"
   },
   {
     "title": "Engineering Firm Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for engineering. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-direct-deposit-setup"
   },
   {
     "title": "Engineering Firm Payroll: Employee Classification Gu..",
-    "description": "Managed payroll for engineering. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-employee-classification-guide"
   },
   {
     "title": "Engineering Firm Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for engineering. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-hourly-vs-salaried-payroll"
   },
   {
     "title": "Engineering Firm Payroll: How to Switch Providers",
-    "description": "Managed payroll for engineering. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-how-to-switch-payroll-providers"
   },
   {
@@ -65,82 +65,82 @@ const posts = [
   },
   {
     "title": "Engineering Firm Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for engineering. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-multi-location-payroll"
   },
   {
     "title": "Engineering Firm Payroll: New Hire Onboarding",
-    "description": "Managed payroll for engineering. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-new-hire-payroll-onboarding"
   },
   {
     "title": "Engineering Firm Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for engineering. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-overtime-rules-payroll"
   },
   {
     "title": "Engineering Firm Payroll: Part-Time Workers",
-    "description": "Managed payroll for engineering. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-part-time-worker-payroll"
   },
   {
     "title": "Engineering Firm Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for engineering. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-compliance-guide"
   },
   {
     "title": "Engineering Firm Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for engineering. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-cost-calculator"
   },
   {
     "title": "Engineering Firm Payroll: Must-Have Features",
-    "description": "Managed payroll for engineering. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-features-needed"
   },
   {
     "title": "Engineering Firm Payroll: Garnishments Guide",
-    "description": "Managed payroll for engineering. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-garnishments-guide"
   },
   {
     "title": "Engineering Firm Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for engineering. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-mistakes-to-avoid"
   },
   {
     "title": "Engineering Firm Payroll: Outsourcing Cost vs. In-Ho..",
-    "description": "Managed payroll for engineering. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-outsourcing-cost"
   },
   {
     "title": "Engineering Firm Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for engineering. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-peak-season"
   },
   {
     "title": "Engineering Firm Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for engineering. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-recordkeeping"
   },
   {
     "title": "Engineering Firm Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for engineering. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-setup-guide"
   },
   {
     "title": "Engineering Firm Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for engineering. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-software-vs-managed"
   },
   {
     "title": "Engineering Firm Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for engineering. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-payroll-tax-guide"
   },
   {
     "title": "Engineering Firm Payroll: State Compliance Guide",
-    "description": "Managed payroll for engineering. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-state-payroll-compliance"
   },
   {
@@ -150,7 +150,7 @@ const posts = [
   },
   {
     "title": "Engineering Firm Payroll: Year-End Checklist",
-    "description": "Managed payroll for engineering. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for engineering. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/professional-services/engineering-year-end-payroll-checklist"
   },
   {

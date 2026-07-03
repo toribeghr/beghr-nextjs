@@ -20,27 +20,27 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Law Firms: Integrating Benefits with Payroll",
-    "description": "Managed payroll for law firms. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-benefits-integration-payroll"
   },
   {
     "title": "Law Firms: Setting Up Direct Deposit",
-    "description": "Managed payroll for law firms. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-direct-deposit-setup"
   },
   {
     "title": "Law Firms: Employee Classification for Payroll",
-    "description": "Managed payroll for law firms. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-employee-classification-guide"
   },
   {
     "title": "Law Firms: Hourly vs. Salaried Employee Payroll",
-    "description": "Managed payroll for law firms. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-hourly-vs-salaried-payroll"
   },
   {
     "title": "Law Firms: How to Switch Payroll Providers",
-    "description": "Managed payroll for law firms. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-how-to-switch-payroll-providers"
   },
   {
@@ -55,92 +55,92 @@ const posts = [
   },
   {
     "title": "Law Firms: Multi-Location Payroll Guide",
-    "description": "Managed payroll for law firms. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-multi-location-payroll"
   },
   {
     "title": "Law Firms: New Hire Payroll Onboarding",
-    "description": "Managed payroll for law firms. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-new-hire-payroll-onboarding"
   },
   {
     "title": "Law Firms: Overtime Rules and Payroll Compliance",
-    "description": "Managed payroll for law firms. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-overtime-rules-payroll"
   },
   {
     "title": "Law Firms: Managing Part-Time Worker Payroll",
-    "description": "Managed payroll for law firms. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-part-time-worker-payroll"
   },
   {
     "title": "Law Firms: Payroll Compliance Guide",
-    "description": "Managed payroll for law firms. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-compliance-guide"
   },
   {
     "title": "Law Firms: How to Calculate Your Payroll Costs",
-    "description": "Managed payroll for law firms. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-cost-calculator"
   },
   {
     "title": "Law Firms: Payroll Features Every Business Needs | B",
-    "description": "Managed payroll for law firms. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-features-needed"
   },
   {
     "title": "Law Firms: Payroll Garnishments: What You Need to Know",
-    "description": "Managed payroll for law firms. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-garnishments-guide"
   },
   {
     "title": "Law Firms: Payroll Mistakes to Avoid",
-    "description": "Managed payroll for law firms. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-mistakes-to-avoid"
   },
   {
     "title": "Law Firms: Payroll Outsourcing Cost vs. In-House Hire",
-    "description": "Managed payroll for law firms. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-outsourcing-cost"
   },
   {
     "title": "Law Firms: Managing Payroll During Peak Season",
-    "description": "Managed payroll for law firms. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-peak-season"
   },
   {
     "title": "Law Firms: Payroll Recordkeeping Requirements",
-    "description": "Managed payroll for law firms. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-recordkeeping"
   },
   {
     "title": "Law Firms: Payroll Setup Guide",
-    "description": "Managed payroll for law firms. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-setup-guide"
   },
   {
     "title": "Law Firms: Payroll Software vs. Managed Payroll Service | BE",
-    "description": "Managed payroll for law firms. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-software-vs-managed"
   },
   {
     "title": "Law Firms: Payroll Tax Guide",
-    "description": "Managed payroll for law firms. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-payroll-tax-guide"
   },
   {
     "title": "Law Firms: State Payroll Compliance Issues",
-    "description": "Managed payroll for law firms. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-state-payroll-compliance"
   },
   {
     "title": "Law Firms: Signs Your Business Needs to Outsource Payroll |",
-    "description": "Managed payroll for law firms. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-when-to-outsource-payroll"
   },
   {
     "title": "Law Firms: Year-End Payroll Checklist",
-    "description": "Managed payroll for law firms. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for law firms. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-year-end-payroll-checklist"
   }
 ];

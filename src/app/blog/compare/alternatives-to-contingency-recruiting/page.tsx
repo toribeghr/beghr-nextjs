@@ -126,7 +126,7 @@ export default function AlternativesToContingencyRecruitingPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Find the right alternative for your open role</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Tell us what you have tried, and we will give you a straight answer on whether the milestone model fits.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Pick the role, answer a few quick questions, and see your placement quote on screen in 90 seconds.</p>
           <PricingCta service="job-placement" subline={false} />
         </div>
 

@@ -25,27 +25,27 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Integrating Benefits with Payroll |",
-    "description": "Managed payroll for marketing agencies. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-benefits-integration-payroll"
   },
   {
     "title": "Marketing & PR Agencies: Setting Up Direct Deposit",
-    "description": "Managed payroll for marketing agencies. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-direct-deposit-setup"
   },
   {
     "title": "Marketing & PR Agencies: Employee Classification for Payroll",
-    "description": "Managed payroll for marketing agencies. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-employee-classification-guide"
   },
   {
     "title": "Marketing & PR Agencies: Hourly vs. Salaried Employee Payrol",
-    "description": "Managed payroll for marketing agencies. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-hourly-vs-salaried-payroll"
   },
   {
     "title": "Marketing & PR Agencies: How to Switch Payroll Providers | B",
-    "description": "Managed payroll for marketing agencies. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-how-to-switch-payroll-providers"
   },
   {
@@ -60,37 +60,37 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Multi-Location Payroll Guide",
-    "description": "Managed payroll for marketing agencies. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-multi-location-payroll"
   },
   {
     "title": "Marketing & PR Agencies: New Hire Payroll Onboarding",
-    "description": "Managed payroll for marketing agencies. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-new-hire-payroll-onboarding"
   },
   {
     "title": "Marketing & PR Agencies: Overtime Rules and Payroll Complian",
-    "description": "Managed payroll for marketing agencies. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-overtime-rules-payroll"
   },
   {
     "title": "Marketing & PR Agencies: Managing Part-Time Worker Payroll |",
-    "description": "Managed payroll for marketing agencies. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-part-time-worker-payroll"
   },
   {
     "title": "Marketing & PR Agencies: Payroll Compliance Guide",
-    "description": "Managed payroll for marketing agencies. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-compliance-guide"
   },
   {
     "title": "Marketing & PR Agencies: How to Calculate Your Payroll Costs",
-    "description": "Managed payroll for marketing agencies. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-cost-calculator"
   },
   {
     "title": "Marketing & PR Agencies: Payroll Features Every {label} Busi",
-    "description": "Managed payroll for marketing agencies. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-features-needed"
   },
   {
@@ -100,7 +100,7 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Payroll Mistakes to Avoid",
-    "description": "Managed payroll for marketing agencies. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-mistakes-to-avoid"
   },
   {
@@ -110,17 +110,17 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Managing Payroll During Peak Season",
-    "description": "Managed payroll for marketing agencies. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-peak-season"
   },
   {
     "title": "Marketing & PR Agencies: Payroll Recordkeeping Requirements",
-    "description": "Managed payroll for marketing agencies. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-recordkeeping"
   },
   {
     "title": "Marketing & PR Agencies: Payroll Setup Guide",
-    "description": "Managed payroll for marketing agencies. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-setup-guide"
   },
   {
@@ -130,7 +130,7 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Payroll Tax Guide",
-    "description": "Managed payroll for marketing agencies. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-tax-guide"
   },
   {
@@ -140,7 +140,7 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: State Payroll Compliance Issues | B",
-    "description": "Managed payroll for marketing agencies. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-state-payroll-compliance"
   },
   {
@@ -150,7 +150,7 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Year-End Payroll Checklist",
-    "description": "Managed payroll for marketing agencies. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for marketing agencies. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-year-end-payroll-checklist"
   },
   {

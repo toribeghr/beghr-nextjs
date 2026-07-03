@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Retail Payroll: Benefits Integration",
-    "description": "Managed payroll for retail. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-benefits-integration-payroll"
   },
   {
@@ -30,22 +30,22 @@ const posts = [
   },
   {
     "title": "Retail Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for retail. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-direct-deposit-setup"
   },
   {
     "title": "Retail Payroll: Employee Classification Guide",
-    "description": "Managed payroll for retail. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-employee-classification-guide"
   },
   {
     "title": "Retail Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for retail. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-hourly-vs-salaried-payroll"
   },
   {
     "title": "Retail Payroll: How to Switch Providers",
-    "description": "Managed payroll for retail. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-how-to-switch-payroll-providers"
   },
   {
@@ -60,92 +60,92 @@ const posts = [
   },
   {
     "title": "Retail Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for retail. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-multi-location-payroll"
   },
   {
     "title": "Retail Payroll: New Hire Onboarding",
-    "description": "Managed payroll for retail. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-new-hire-payroll-onboarding"
   },
   {
     "title": "Retail Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for retail. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-overtime-rules-payroll"
   },
   {
     "title": "Retail Payroll: Part-Time Workers",
-    "description": "Managed payroll for retail. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-part-time-worker-payroll"
   },
   {
     "title": "Retail Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for retail. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-compliance-guide"
   },
   {
     "title": "Retail Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for retail. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-cost-calculator"
   },
   {
     "title": "Retail Payroll: Must-Have Features",
-    "description": "Managed payroll for retail. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-features-needed"
   },
   {
     "title": "Retail Payroll: Garnishments Guide",
-    "description": "Managed payroll for retail. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-garnishments-guide"
   },
   {
     "title": "Retail Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for retail. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-mistakes-to-avoid"
   },
   {
     "title": "Retail Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for retail. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-outsourcing-cost"
   },
   {
     "title": "Retail Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for retail. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-peak-season"
   },
   {
     "title": "Retail Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for retail. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-recordkeeping"
   },
   {
     "title": "Retail Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for retail. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-setup-guide"
   },
   {
     "title": "Retail Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for retail. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-software-vs-managed"
   },
   {
     "title": "Retail Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for retail. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-payroll-tax-guide"
   },
   {
     "title": "Retail Payroll: State Compliance Guide",
-    "description": "Managed payroll for retail. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-state-payroll-compliance"
   },
   {
     "title": "Retail Payroll: When to Outsource",
-    "description": "Managed payroll for retail. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-when-to-outsource-payroll"
   },
   {
     "title": "Retail Payroll: Year-End Checklist",
-    "description": "Managed payroll for retail. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for retail. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/retail/retail-year-end-payroll-checklist"
   },
   {

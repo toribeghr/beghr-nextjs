@@ -20,27 +20,27 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Auto Dealer Payroll: Benefits Integration",
-    "description": "Managed payroll for auto dealerships. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-benefits-integration-payroll"
   },
   {
     "title": "Auto Dealer Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for auto dealerships. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-direct-deposit-setup"
   },
   {
     "title": "Auto Dealer Payroll: Employee Classification Guide",
-    "description": "Managed payroll for auto dealerships. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-employee-classification-guide"
   },
   {
     "title": "Auto Dealer Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for auto dealerships. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-hourly-vs-salaried-payroll"
   },
   {
     "title": "Auto Dealer Payroll: How to Switch Providers",
-    "description": "Managed payroll for auto dealerships. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-how-to-switch-payroll-providers"
   },
   {
@@ -55,37 +55,37 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for auto dealerships. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-multi-location-payroll"
   },
   {
     "title": "Auto Dealer Payroll: New Hire Onboarding",
-    "description": "Managed payroll for auto dealerships. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-new-hire-payroll-onboarding"
   },
   {
     "title": "Auto Dealer Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for auto dealerships. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-overtime-rules-payroll"
   },
   {
     "title": "Auto Dealer Payroll: Part-Time Workers",
-    "description": "Managed payroll for auto dealerships. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-part-time-worker-payroll"
   },
   {
     "title": "Auto Dealer Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for auto dealerships. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-compliance-guide"
   },
   {
     "title": "Auto Dealer Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for auto dealerships. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-cost-calculator"
   },
   {
     "title": "Auto Dealer Payroll: Must-Have Features",
-    "description": "Managed payroll for auto dealerships. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-features-needed"
   },
   {
@@ -95,7 +95,7 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for auto dealerships. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-mistakes-to-avoid"
   },
   {
@@ -105,17 +105,17 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for auto dealerships. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-peak-season"
   },
   {
     "title": "Auto Dealer Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for auto dealerships. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-recordkeeping"
   },
   {
     "title": "Auto Dealer Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for auto dealerships. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-setup-guide"
   },
   {
@@ -125,12 +125,12 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for auto dealerships. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-tax-guide"
   },
   {
     "title": "Auto Dealer Payroll: State Compliance Guide",
-    "description": "Managed payroll for auto dealerships. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-state-payroll-compliance"
   },
   {
@@ -140,7 +140,7 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: Year-End Checklist",
-    "description": "Managed payroll for auto dealerships. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for auto dealerships. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-year-end-payroll-checklist"
   },
   {

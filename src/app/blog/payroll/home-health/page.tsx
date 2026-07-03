@@ -25,27 +25,27 @@ const posts = [
   },
   {
     "title": "Home Health Payroll: Benefits Integration",
-    "description": "Managed payroll for home health. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-benefits-integration-payroll"
   },
   {
     "title": "Home Health Payroll: Direct Deposit Setup",
-    "description": "Managed payroll for home health. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-direct-deposit-setup"
   },
   {
     "title": "Home Health Payroll: Employee Classification Guide",
-    "description": "Managed payroll for home health. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-employee-classification-guide"
   },
   {
     "title": "Home Health Payroll: Hourly vs. Salaried Guide",
-    "description": "Managed payroll for home health. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-hourly-vs-salaried-payroll"
   },
   {
     "title": "Home Health Payroll: How to Switch Providers",
-    "description": "Managed payroll for home health. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. How to Switch Payroll Providers. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-how-to-switch-payroll-providers"
   },
   {
@@ -60,82 +60,82 @@ const posts = [
   },
   {
     "title": "Home Health Payroll: Multi-Location Payroll Guide",
-    "description": "Managed payroll for home health. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Multi-Location Payroll Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-multi-location-payroll"
   },
   {
     "title": "Home Health Payroll: New Hire Onboarding",
-    "description": "Managed payroll for home health. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. New Hire Payroll Onboarding. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-new-hire-payroll-onboarding"
   },
   {
     "title": "Home Health Payroll: Overtime Rules 2026",
-    "description": "Managed payroll for home health. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Overtime Rules and Payroll Compliance. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-overtime-rules-payroll"
   },
   {
     "title": "Home Health Payroll: Part-Time Workers",
-    "description": "Managed payroll for home health. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Managing Part-Time Worker Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-part-time-worker-payroll"
   },
   {
     "title": "Home Health Payroll: Compliance Guide 2026",
-    "description": "Managed payroll for home health. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Compliance Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-compliance-guide"
   },
   {
     "title": "Home Health Payroll: Cost Calculator Guide",
-    "description": "Managed payroll for home health. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. How to Calculate Your Payroll Costs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-cost-calculator"
   },
   {
     "title": "Home Health Payroll: Must-Have Features",
-    "description": "Managed payroll for home health. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Features Every Business Needs. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-features-needed"
   },
   {
     "title": "Home Health Payroll: Garnishments Guide",
-    "description": "Managed payroll for home health. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-garnishments-guide"
   },
   {
     "title": "Home Health Payroll: Mistakes to Avoid",
-    "description": "Managed payroll for home health. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Mistakes to Avoid. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-mistakes-to-avoid"
   },
   {
     "title": "Home Health Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for home health. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-outsourcing-cost"
   },
   {
     "title": "Home Health Payroll: Managing Peak Season Payroll",
-    "description": "Managed payroll for home health. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Managing Payroll During Peak Season. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-peak-season"
   },
   {
     "title": "Home Health Payroll: Recordkeeping Requirements",
-    "description": "Managed payroll for home health. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Recordkeeping Requirements. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-recordkeeping"
   },
   {
     "title": "Home Health Payroll: Payroll Setup Guide",
-    "description": "Managed payroll for home health. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Setup Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-setup-guide"
   },
   {
     "title": "Home Health Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for home health. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-software-vs-managed"
   },
   {
     "title": "Home Health Payroll: Payroll Tax Guide 2026",
-    "description": "Managed payroll for home health. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Payroll Tax Guide. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-payroll-tax-guide"
   },
   {
     "title": "Home Health Payroll: State Compliance Guide",
-    "description": "Managed payroll for home health. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. State Payroll Compliance Issues. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-state-payroll-compliance"
   },
   {
@@ -150,7 +150,7 @@ const posts = [
   },
   {
     "title": "Home Health Payroll: Year-End Checklist",
-    "description": "Managed payroll for home health. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at beghr.com.",
+    "description": "Managed payroll for home health. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/home-health/home-health-year-end-payroll-checklist"
   },
   {

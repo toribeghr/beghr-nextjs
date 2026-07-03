@@ -156,7 +156,7 @@ export default function LegalStaffingVsPlacementPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Talk to BEG about your open attorney role</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll ask about the role, your timeline, and what you've already tried. If we're the right fit, we'll tell you exactly how the process works and what it costs.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Pick the role, answer a few quick questions, and see your placement quote on screen in 90 seconds.</p>
           <PricingCta service="job-placement" subline={false} />
         </div>
 
@@ -188,6 +188,9 @@ export default function LegalStaffingVsPlacementPage() {
           { '@type': 'Question', name: "What is the cost difference between legal staffing and placement?", acceptedAnswer: { '@type': 'Answer', text: "Legal staffing markups typically run 40 to 60 percent above the contractor's hourly rate. Placement fees are typically 25 to 35 percent of first-year compensation on a contingency basis, or structured differently on milestone or retained models. BEG's milestone placement runs roughly 50 percent less than traditional contingency fees." } },
         ]
       }) }} />
+      <section className="container" style={{ maxWidth: '840px', padding: '0 0 2rem' }}>
+        <p style={{ fontSize: '0.95rem', color: '#333' }}>See how we fill roles fast: <a href="/services/job-placement" style={{ color: '#000', fontWeight: 600 }}>BEG Job Placement</a>.</p>
+      </section>
           <RelatedPosts posts={[
         { category: "Compare", title: "Alternatives to Contingency Recruiting", excerpt: "Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on...", href: "/blog/compare/alternatives-to-contingency-recruiting" },
         { category: "Compare", title: "BEG vs Insight Global | Instant Fee Quote", excerpt: "BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See...", href: "/blog/compare/beg-vs-insight-global" },

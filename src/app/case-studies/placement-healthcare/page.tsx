@@ -97,11 +97,11 @@ export default function PlacementHealthcareCaseStudyPage() {
           </p>
           <p>
             isolved reports an 87% average candidate placement success rate for specialized positions and a 21 to 27 day time-to-fill for critical roles, which it describes as more than 40% faster than the industry standard. isolved also serves healthcare specifically through its{' '}
-            <a href="https://www.isolvedhcm.com/industries/healthcare" target="_blank" rel="noopener noreferrer" style={{ color: '#000', fontWeight: 600 }}>
+            <a href="https://www.isolvedhcm.com/industries/healthcare" target="_blank" rel="noopener noreferrer sponsored" style={{ color: '#000', fontWeight: 600 }}>
               healthcare solutions
             </a>
             , and the placement figures appear on{' '}
-            <a href="https://www.isolvedhcm.com/talent-acquisition/services/job-placement-services" target="_blank" rel="noopener noreferrer" style={{ color: '#000', fontWeight: 600 }}>
+            <a href="https://www.isolvedhcm.com/talent-acquisition/services/job-placement-services" target="_blank" rel="noopener noreferrer sponsored" style={{ color: '#000', fontWeight: 600 }}>
               isolved Job Placement Services
             </a>
             . BEG&apos;s healthcare placements run on that engine and are delivered through BEG&apos;s milestone model.

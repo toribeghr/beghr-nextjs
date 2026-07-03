@@ -97,7 +97,7 @@ export default function PlacementLegalCaseStudyPage() {
           </p>
           <p>
             isolved reports an 87% average candidate placement success rate for executive and specialized positions and a 21 to 27 day time-to-fill for critical roles, which it describes as more than 40% faster than the industry standard. See{' '}
-            <a href="https://www.isolvedhcm.com/talent-acquisition/services/job-placement-services" target="_blank" rel="noopener noreferrer" style={{ color: '#000', fontWeight: 600 }}>
+            <a href="https://www.isolvedhcm.com/talent-acquisition/services/job-placement-services" target="_blank" rel="noopener noreferrer sponsored" style={{ color: '#000', fontWeight: 600 }}>
               isolved Job Placement Services
             </a>
             {' '}for those figures. BEG&apos;s legal placements are built on that engine and delivered through BEG&apos;s milestone model.

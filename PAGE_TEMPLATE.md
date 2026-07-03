@@ -349,3 +349,26 @@ ONE CTA per page, per silo. No embedded tools on service pages or blog posts.
 5. The discovery call (Calendly) appears ONLY on form result screens (built into the forms) and on non-service surfaces (contact, about, network, partners). Never as a page CTA on the three service silos.
 6. Do NOT embed JobDescriptionGrader, HiddenFeeAuditor, or any calculator inline on service pages or blog posts. jdTool() in the generator is neutralized - do not restore it. The standalone /resources pages keep their tools; only their page CTAs use PricingCta.
 7. Components live in src/components/pricing/. Pricing math is in pricing.ts (pure functions) - change rates THERE, never inline.
+
+---
+
+## Internal Linking, Outbound Citations & Schema (REQUIRED on every new page - PRE-PUBLISH CHECKLIST)
+
+This is a hard build-process gate. A page is NOT done until every item passes. These exist because an audit (July 2, 2026) found breadcrumbs missing on ~400 pages, outbound citations on only ~4% of pages, and blog posts heavily under-linked. Do not repeat that.
+
+**Internal links (every page):**
+1. UP-LINK: at least one contextual body link up to the page's silo hub (`/services/managed-payroll`, `/services/job-placement`, or `/services/hcm-software`), with descriptive anchor text (never "click here").
+2. SIDEWAYS: 1 to 2 links to sibling pages in the same silo.
+3. DOWN-LINKS (hub/pillar pages only): the hub must link down to its cluster pages via `RelatedPosts`.
+4. BLOG POSTS: link up to the relevant service hub in the body AND include `RelatedPosts` pointing to 3 sibling posts in the same category. No blog post ships without RelatedPosts - that is how we kill orphans.
+5. Keep total links under 150 per page. Every new page must be linked FROM at least one existing page (add it to the hub's RelatedPosts or a sibling) so it is never an orphan.
+
+**Breadcrumbs (every non-home page):**
+6. Emit `BreadcrumbList` JSON-LD reflecting the true path (Home > Section > Page). Do not ship a sub-page without it.
+
+**Outbound citations - E-E-A-T / YMYL (payroll, legal, compliance is money-adjacent, Google holds it to a higher trust bar):**
+7. Every external factual claim or statistic links to an authoritative PRIMARY source (bls.gov, dol.gov, irs.gov, sba.gov, the relevant regulator, or the named data owner) with a descriptive anchor.
+8. Proprietary BEG/iSolved stats that have NO public source (e.g., "86% fill rate," "23-35 days") must be attributed in text ("based on iSolved placement data"), never presented as a bare unsourced number.
+9. Affiliate/partner links (isolvedhcm.com and any commissioned partner) carry `rel="noopener noreferrer sponsored"`. All other external links carry `rel="noopener noreferrer"` and `target="_blank"`.
+
+Run this checklist on the Content Forge agent AND every manual build. If any item fails, the page is not ready to ship.

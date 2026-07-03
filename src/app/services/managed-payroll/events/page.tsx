@@ -29,6 +29,7 @@ const CALENDLY = getCalendlyLink('events-payroll');
 export default function PayrollEventsPage() {
   return (
     <ServicePage
+      heroVideoId="DSdhF2ZV0wI"
       imageSrc="/assets/hero-images/managed-payroll.webp"
       imageAlt="Event company with fully managed payroll"
       eyebrow="Managed Payroll · Events"

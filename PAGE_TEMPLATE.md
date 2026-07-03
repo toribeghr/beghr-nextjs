@@ -145,6 +145,7 @@ Use this for: all individual blog post pages under `/blog/`.
 ```tsx
 import { Metadata } from 'next';
 import HeroImageBox from '@/components/HeroImageBox';
+import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Article Title',
@@ -176,8 +177,15 @@ export default function ArticlePage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        {/* Article body */}
+        {/* Article body — MUST contain a contextual link UP to the silo hub, e.g. <Link href="/services/managed-payroll"> */}
       </section>
+
+      {/* REQUIRED: RelatedPosts to 3 sibling posts in the same category. No blog post ships without this — it is how we prevent orphans. */}
+      <RelatedPosts posts={[
+        { category: 'Category', title: 'Sibling post 1', excerpt: 'One line.', href: '/blog/category/sibling-1' },
+        { category: 'Category', title: 'Sibling post 2', excerpt: 'One line.', href: '/blog/category/sibling-2' },
+        { category: 'Category', title: 'Sibling post 3', excerpt: 'One line.', href: '/blog/category/sibling-3' },
+      ]} />
     </article>
   );
 }

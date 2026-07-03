@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and built a team that performed.',
     url: 'https://www.beghr.com/blog/executive-hiring/executive-interview-questions',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-executive-hiring-executive-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Executive Interview Questions That Actually Work | BEG', description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and built a team that performed.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Executive Interview Questions That Actually Work | BEG', description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and built a team that performed.', images: ['https://www.beghr.com/blog-images/blog-executive-hiring-executive-interview-questions.webp'] },
 };
 
 
@@ -53,6 +53,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-executive-hiring-executive-interview-questions.webp" alt={`Executive Interview Questions That Actually Work`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

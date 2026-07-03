@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of models and statements.',
     url: 'https://www.beghr.com/blog/finance-hiring/finance-interview-questions',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-finance-hiring-finance-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Finance Interview Questions That Actually Predict Fit | BEG', description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of models and statements.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Finance Interview Questions That Actually Predict Fit | BEG', description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of models and statements.', images: ['https://www.beghr.com/blog-images/blog-finance-hiring-finance-interview-questions.webp'] },
 };
 
 
@@ -53,6 +53,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-finance-hiring-finance-interview-questions.webp" alt={`Finance Interview Questions That Actually Predict Fit`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

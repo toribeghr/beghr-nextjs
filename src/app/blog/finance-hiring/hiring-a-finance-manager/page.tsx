@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant finance manager seat slows forecasting and board reporting. A practical playbook to hire a finance manager in 23-35 days without settling.',
     url: 'https://www.beghr.com/blog/finance-hiring/hiring-a-finance-manager',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-finance-hiring-hiring-a-finance-manager.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring a Finance Manager Without Overpaying | BEG', description: 'A vacant finance manager seat slows forecasting and board reporting. A practical playbook to hire a finance manager in 23-35 days without settling.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring a Finance Manager Without Overpaying | BEG', description: 'A vacant finance manager seat slows forecasting and board reporting. A practical playbook to hire a finance manager in 23-35 days without settling.', images: ['https://www.beghr.com/blog-images/blog-finance-hiring-hiring-a-finance-manager.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function HiringAFinanceManagerPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-finance-hiring-hiring-a-finance-manager.webp" alt={`Hiring a Finance Manager Without Overpaying`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

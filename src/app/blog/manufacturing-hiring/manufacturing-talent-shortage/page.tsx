@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Skilled trades are retiring and the pipeline is thin. What the 2026 manufacturing shortage means for hiring and how to fill roles in 23-35 days.',
     url: 'https://www.beghr.com/blog/manufacturing-hiring/manufacturing-talent-shortage',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-manufacturing-hiring-manufacturing-talent-shortage.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Manufacturing Talent Shortage 2026: What Nobody Mentions | BEG', description: 'Skilled trades are retiring and the pipeline is thin. What the 2026 manufacturing shortage means for hiring and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Manufacturing Talent Shortage 2026: What Nobody Mentions | BEG', description: 'Skilled trades are retiring and the pipeline is thin. What the 2026 manufacturing shortage means for hiring and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-manufacturing-hiring-manufacturing-talent-shortage.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function ManufacturingTalentShortagePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-manufacturing-hiring-manufacturing-talent-shortage.webp" alt={`Manufacturing Talent Shortage 2026: What Nobody Mentions`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

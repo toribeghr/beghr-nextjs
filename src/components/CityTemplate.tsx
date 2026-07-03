@@ -3,7 +3,8 @@ import ServicePage from '@/components/ServicePage';
 import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 import { jpIndustries, jpMetros, jpMetroSlugs } from '@/lib/jpGridData';
-import { legalWageByMetro, LEGAL_NATIONAL, LEGAL_WAGE_ASOF, LEGAL_WAGE_SOURCE } from '@/lib/legalWageData';
+import { legalWageByMetro, LEGAL_NATIONAL, LEGAL_WAGE_ASOF, LEGAL_WAGE_SOURCE, type LegalWage } from '@/lib/legalWageData';
+import { healthcareWageByMetro, HEALTHCARE_NATIONAL } from '@/lib/healthcareWageData';
 
 const svcBase = {
   '@context': 'https://schema.org',
@@ -57,12 +58,19 @@ export default function CityTemplate({ industrySlug, citySlug }: { industrySlug:
 
   const nearby = (metro.nearby || []).filter((s) => jpMetroSlugs.has(s)).slice(0, 3);
 
-  // Real BLS OEWS compensation data (legal industry only, for now).
-  const wage = industrySlug === 'legal' ? legalWageByMetro[citySlug] : undefined;
+  // Real BLS OEWS compensation data, per industry. Add a row here as each industry is pulled.
+  const WAGE_SETS: Record<string, { byMetro: Record<string, LegalWage>; national: { mean: number | null }; role: string }> = {
+    legal: { byMetro: legalWageByMetro, national: LEGAL_NATIONAL, role: 'attorneys' },
+    healthcare: { byMetro: healthcareWageByMetro, national: HEALTHCARE_NATIONAL, role: 'registered nurses' },
+  };
+  const wset = WAGE_SETS[industrySlug];
+  const wage = wset ? wset.byMetro[citySlug] : undefined;
   const hasWage = !!(wage && wage.mean != null);
+  const roleLabel = wset ? wset.role : `${lo} professionals`;
+  const natMean = wset ? wset.national.mean : null;
   const fmt = (v: number | null | undefined) => (v == null ? null : v.toLocaleString('en-US'));
-  const vsNat = hasWage && wage!.mean != null
-    ? Math.round((wage!.mean / LEGAL_NATIONAL.mean - 1) * 100)
+  const vsNat = hasWage && wage!.mean != null && natMean
+    ? Math.round((wage!.mean / natMean - 1) * 100)
     : null;
 
   const serviceSchema = {
@@ -140,10 +148,10 @@ export default function CityTemplate({ industrySlug, citySlug }: { industrySlug:
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">{metro.name} Compensation Data</p>
-              <h2>What {lo} talent earns in {metro.name}</h2>
+              <h2>What {roleLabel} earn in {metro.name}</h2>
             </div>
             <p className="reveal" style={{ textAlign: 'center', color: '#444444', marginTop: '0.9rem', lineHeight: 1.7 }}>
-              {`The ${metro.name} area employs roughly ${fmt(wage!.employment) ?? 'thousands of'} ${lo} professionals. Getting the offer right against the local pay band is the difference between a hire that closes and a search that stalls.`}
+              {`The ${metro.name} area employs roughly ${fmt(wage!.employment) ?? 'thousands of'} ${roleLabel}. Getting the offer right against the local pay band is the difference between a hire that closes and a search that stalls.`}
             </p>
             <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '1rem', margin: '1.9rem 0 1.25rem' }}>
               {[
@@ -160,7 +168,7 @@ export default function CityTemplate({ industrySlug, citySlug }: { industrySlug:
             </div>
             {vsNat != null && (
               <p className="reveal" style={{ textAlign: 'center', color: '#444444', lineHeight: 1.7 }}>
-                {`At a $${fmt(wage!.mean)} mean, ${lo} pay in ${metro.name} runs about ${Math.abs(vsNat)}% ${vsNat >= 0 ? 'above' : 'below'} the national mean of $${fmt(LEGAL_NATIONAL.mean)}. We factor the local band into every search so your offer is competitive on day one, not after two counteroffers.`}
+                {`At a $${fmt(wage!.mean)} mean, ${roleLabel} pay in ${metro.name} runs about ${Math.abs(vsNat)}% ${vsNat >= 0 ? 'above' : 'below'} the national mean of $${fmt(natMean)}. We factor the local band into every search so your offer is competitive on day one, not after two counteroffers.`}
               </p>
             )}
             <p className="reveal" style={{ textAlign: 'center', fontSize: '0.78rem', color: '#999999', marginTop: '1rem' }}>

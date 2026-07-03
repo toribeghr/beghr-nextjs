@@ -5,11 +5,59 @@ import { getCalendlyLink } from '@/lib/services';
 import { jpIndustries, jpMetros, jpMetroSlugs } from '@/lib/jpGridData';
 import { legalWageByMetro, LEGAL_NATIONAL, LEGAL_WAGE_ASOF, LEGAL_WAGE_SOURCE, type LegalWage } from '@/lib/legalWageData';
 import { healthcareWageByMetro, HEALTHCARE_NATIONAL } from '@/lib/healthcareWageData';
+import { financeWageByMetro, FINANCE_NATIONAL } from '@/lib/financeWageData';
+import { accountingCpaWageByMetro, ACCOUNTING_CPA_NATIONAL } from '@/lib/accounting-cpaWageData';
+import { technologyWageByMetro, TECHNOLOGY_NATIONAL } from '@/lib/technologyWageData';
+import { cybersecurityWageByMetro, CYBERSECURITY_NATIONAL } from '@/lib/cybersecurityWageData';
+import { engineeringWageByMetro, ENGINEERING_NATIONAL } from '@/lib/engineeringWageData';
+import { architectureWageByMetro, ARCHITECTURE_NATIONAL } from '@/lib/architectureWageData';
+import { salesWageByMetro, SALES_NATIONAL } from '@/lib/salesWageData';
+import { marketingWageByMetro, MARKETING_NATIONAL } from '@/lib/marketingWageData';
+import { hrWageByMetro, HR_NATIONAL } from '@/lib/hrWageData';
+import { executiveWageByMetro, EXECUTIVE_NATIONAL } from '@/lib/executiveWageData';
+import { manufacturingWageByMetro, MANUFACTURING_NATIONAL } from '@/lib/manufacturingWageData';
+import { constructionManagementWageByMetro, CONSTRUCTION_MANAGEMENT_NATIONAL } from '@/lib/construction-managementWageData';
+import { tradesWageByMetro, TRADES_NATIONAL } from '@/lib/tradesWageData';
+import { bankingWageByMetro, BANKING_NATIONAL } from '@/lib/bankingWageData';
+import { insuranceWageByMetro, INSURANCE_NATIONAL } from '@/lib/insuranceWageData';
+import { supplyChainWageByMetro, SUPPLY_CHAIN_NATIONAL } from '@/lib/supply-chainWageData';
+import { realEstateWageByMetro, REAL_ESTATE_NATIONAL } from '@/lib/real-estateWageData';
+import { hospitalityWageByMetro, HOSPITALITY_NATIONAL } from '@/lib/hospitalityWageData';
+import { nonprofitWageByMetro, NONPROFIT_NATIONAL } from '@/lib/nonprofitWageData';
+import { dentalWageByMetro, DENTAL_NATIONAL } from '@/lib/dentalWageData';
+import { veterinaryWageByMetro, VETERINARY_NATIONAL } from '@/lib/veterinaryWageData';
+import { biotechWageByMetro, BIOTECH_NATIONAL } from '@/lib/biotechWageData';
+import { energyWageByMetro, ENERGY_NATIONAL } from '@/lib/energyWageData';
+import { governmentWageByMetro, GOVERNMENT_NATIONAL } from '@/lib/governmentWageData';
 
 // Real BLS OEWS compensation data, per industry. Add a row here as each industry is pulled.
 // QUALITY GATE: only industry+metro pairs present here render an INDEXABLE city page. Every other
 // city page is noindexed (thin, no local data) until real data lands. See CITY_DEPTH_PROCESS.md.
 const WAGE_SETS: Record<string, { byMetro: Record<string, LegalWage>; national: { mean: number | null }; role: string }> = {
+    'finance': { byMetro: financeWageByMetro, national: FINANCE_NATIONAL, role: 'financial analysts' },
+    'accounting-cpa': { byMetro: accountingCpaWageByMetro, national: ACCOUNTING_CPA_NATIONAL, role: 'accountants' },
+    'technology': { byMetro: technologyWageByMetro, national: TECHNOLOGY_NATIONAL, role: 'software engineers' },
+    'cybersecurity': { byMetro: cybersecurityWageByMetro, national: CYBERSECURITY_NATIONAL, role: 'security analysts' },
+    'engineering': { byMetro: engineeringWageByMetro, national: ENGINEERING_NATIONAL, role: 'engineers' },
+    'architecture': { byMetro: architectureWageByMetro, national: ARCHITECTURE_NATIONAL, role: 'architects' },
+    'sales': { byMetro: salesWageByMetro, national: SALES_NATIONAL, role: 'sales leaders' },
+    'marketing': { byMetro: marketingWageByMetro, national: MARKETING_NATIONAL, role: 'marketing leaders' },
+    'hr': { byMetro: hrWageByMetro, national: HR_NATIONAL, role: 'HR leaders' },
+    'executive': { byMetro: executiveWageByMetro, national: EXECUTIVE_NATIONAL, role: 'executives' },
+    'manufacturing': { byMetro: manufacturingWageByMetro, national: MANUFACTURING_NATIONAL, role: 'plant leaders' },
+    'construction-management': { byMetro: constructionManagementWageByMetro, national: CONSTRUCTION_MANAGEMENT_NATIONAL, role: 'construction managers' },
+    'trades': { byMetro: tradesWageByMetro, national: TRADES_NATIONAL, role: 'trade supervisors' },
+    'banking': { byMetro: bankingWageByMetro, national: BANKING_NATIONAL, role: 'banking leaders' },
+    'insurance': { byMetro: insuranceWageByMetro, national: INSURANCE_NATIONAL, role: 'underwriters' },
+    'supply-chain': { byMetro: supplyChainWageByMetro, national: SUPPLY_CHAIN_NATIONAL, role: 'supply chain professionals' },
+    'real-estate': { byMetro: realEstateWageByMetro, national: REAL_ESTATE_NATIONAL, role: 'real estate managers' },
+    'hospitality': { byMetro: hospitalityWageByMetro, national: HOSPITALITY_NATIONAL, role: 'hospitality leaders' },
+    'nonprofit': { byMetro: nonprofitWageByMetro, national: NONPROFIT_NATIONAL, role: 'nonprofit leaders' },
+    'dental': { byMetro: dentalWageByMetro, national: DENTAL_NATIONAL, role: 'dentists' },
+    'veterinary': { byMetro: veterinaryWageByMetro, national: VETERINARY_NATIONAL, role: 'veterinarians' },
+    'biotech': { byMetro: biotechWageByMetro, national: BIOTECH_NATIONAL, role: 'life sciences professionals' },
+    'energy': { byMetro: energyWageByMetro, national: ENERGY_NATIONAL, role: 'energy professionals' },
+    'government': { byMetro: governmentWageByMetro, national: GOVERNMENT_NATIONAL, role: 'program professionals' },
   legal: { byMetro: legalWageByMetro, national: LEGAL_NATIONAL, role: 'attorneys' },
   healthcare: { byMetro: healthcareWageByMetro, national: HEALTHCARE_NATIONAL, role: 'registered nurses' },
 };

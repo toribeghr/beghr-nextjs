@@ -54,5 +54,37 @@ Do NOT batch all 26. One industry per cycle, each fully SERP-checked and real-da
 - Never index a city page without real data. The gate enforces this; do not bypass it.
 - Metros: target the top ~20-25 by population/search first; the long tail can wait or stay noindexed.
 
+## SOC code map (run this whole set in ONE BLS pull to fill everything today)
+Same pull method that generated legalWageData.ts + healthcareWageData.ts (BLS OEWS May 2025 metro data via the registered API key in Claude Code). For each row, generate src/lib/<slug>WageData.ts (byMetro mean/median/p10/p90 + national) and add one WAGE_SETS line in CityTemplate. SOC choices are the best-fit core hire; adjust if a sub-focus is better.
+
+| industry slug | SOC code | occupation | role label |
+|---|---|---|---|
+| finance | 13-2051 | Financial and Investment Analysts | financial analysts |
+| accounting-cpa | 13-2011 | Accountants and Auditors | accountants |
+| technology | 15-1252 | Software Developers | software engineers |
+| cybersecurity | 15-1212 | Information Security Analysts | security analysts |
+| engineering | 17-2199 | Engineers, All Other | engineers |
+| architecture | 17-1011 | Architects | architects |
+| sales | 11-2022 | Sales Managers | sales leaders |
+| marketing | 11-2021 | Marketing Managers | marketing leaders |
+| hr | 11-3121 | Human Resources Managers | HR leaders |
+| executive | 11-1011 | Chief Executives | executives |
+| manufacturing | 11-3051 | Industrial Production Managers | plant leaders |
+| construction-management | 11-9021 | Construction Managers | construction managers |
+| trades | 47-1011 | First-Line Supervisors of Trades | trade supervisors |
+| banking | 11-3031 | Financial Managers | banking leaders |
+| insurance | 13-2053 | Insurance Underwriters | underwriters |
+| supply-chain | 13-1081 | Logisticians | supply chain professionals |
+| real-estate | 11-9141 | Property and Real Estate Managers | real estate managers |
+| hospitality | 11-9081 | Lodging Managers | hospitality leaders |
+| nonprofit | 11-9151 | Social and Community Service Managers | nonprofit leaders |
+| dental | 29-1021 | Dentists, General | dentists |
+| veterinary | 29-1131 | Veterinarians | veterinarians |
+| biotech | 19-1042 | Medical Scientists | life sciences professionals |
+| energy | 17-2171 | Petroleum Engineers | energy professionals |
+| government | 13-1111 | Management Analysts | program professionals |
+
+After the pull writes all 24 files and the WAGE_SETS lines are added, EVERY city page with BLS data renders real comp and is indexable; the handful of metros BLS does not report for an occupation stay noindexed (they are genuinely thin and cannot be filled). Then generate-sitemap.js auto-lists them and validate-pages.js passes. One push ships the whole fill.
+
 ## Data pull note
 The BLS API key lives in the Claude Code environment (where legal/healthcare were pulled), not the Cowork sandbox. The city-depth agent does STEP 0 (SERP) and scaffolds the wage file + wiring; the keyed BLS pull runs where the key is, or Anthony runs the provided pull command. Once `<industry>WageData.ts` exists, everything else (gate, sitemap, render) is automatic.

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Hygienists and associates are scarce and the pipeline is thin. What the 2026 dental shortage means for hiring and how to fill roles in 23-35 days.',
     url: 'https://www.beghr.com/blog/dental-hiring/dental-staffing-shortage',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-dental-hiring-dental-staffing-shortage.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Dental Staffing Shortage 2026: What Nobody Tells You | BEG', description: 'Hygienists and associates are scarce and the pipeline is thin. What the 2026 dental shortage means for hiring and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Dental Staffing Shortage 2026: What Nobody Tells You | BEG', description: 'Hygienists and associates are scarce and the pipeline is thin. What the 2026 dental shortage means for hiring and how to fill roles in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-dental-hiring-dental-staffing-shortage.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function DentalStaffingShortagePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-dental-hiring-dental-staffing-shortage.webp" alt={`Dental Staffing Shortage 2026: What Nobody Tells You`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'An empty operatory means lost production. A practical playbook to hire an associate dentist in 23-35 days with passive candidate sourcing.',
     url: 'https://www.beghr.com/blog/dental-hiring/hiring-associate-dentists',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-dental-hiring-hiring-associate-dentists.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring an Associate Dentist Without Overpaying | BEG', description: 'An empty operatory means lost production. A practical playbook to hire an associate dentist in 23-35 days with passive candidate sourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring an Associate Dentist Without Overpaying | BEG', description: 'An empty operatory means lost production. A practical playbook to hire an associate dentist in 23-35 days with passive candidate sourcing.', images: ['https://www.beghr.com/blog-images/blog-dental-hiring-hiring-associate-dentists.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function HiringAssociateDentistsPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-dental-hiring-hiring-associate-dentists.webp" alt={`Hiring an Associate Dentist Without Overpaying`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

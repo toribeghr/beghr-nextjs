@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A strong practice manager runs the business so you can run the chair. How to source and close practice management talent in 23-35 days.',
     url: 'https://www.beghr.com/blog/dental-hiring/practice-manager-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-dental-hiring-practice-manager-recruiting.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Dental Practice Manager Recruiting, Before You Post | BEG', description: 'A strong practice manager runs the business so you can run the chair. How to source and close practice management talent in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Dental Practice Manager Recruiting, Before You Post | BEG', description: 'A strong practice manager runs the business so you can run the chair. How to source and close practice management talent in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-dental-hiring-practice-manager-recruiting.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function PracticeManagerRecruitingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-dental-hiring-practice-manager-recruiting.webp" alt={`Dental Practice Manager Recruiting, Before You Post`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

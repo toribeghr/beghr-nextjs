@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant development director seat puts fundraising at risk. How to recruit and close a strong development leader in 23-35 days.',
     url: 'https://www.beghr.com/blog/nonprofit-hiring/development-director-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-nonprofit-hiring-development-director-recruiting.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Development Director Recruiting: Before You Launch | BEG', description: 'A vacant development director seat puts fundraising at risk. How to recruit and close a strong development leader in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Development Director Recruiting: Before You Launch | BEG', description: 'A vacant development director seat puts fundraising at risk. How to recruit and close a strong development leader in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-nonprofit-hiring-development-director-recruiting.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function DevelopmentDirectorRecruitingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-nonprofit-hiring-development-director-recruiting.webp" alt={`Development Director Recruiting: Before You Launch`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

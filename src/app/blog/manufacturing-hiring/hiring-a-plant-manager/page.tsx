@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant plant manager seat risks throughput and safety. A practical playbook to hire a plant manager in 23-35 days with passive sourcing.',
     url: 'https://www.beghr.com/blog/manufacturing-hiring/hiring-a-plant-manager',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-manufacturing-hiring-hiring-a-plant-manager.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring a Plant Manager Without Overpaying | BEG', description: 'A vacant plant manager seat risks throughput and safety. A practical playbook to hire a plant manager in 23-35 days with passive sourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring a Plant Manager Without Overpaying | BEG', description: 'A vacant plant manager seat risks throughput and safety. A practical playbook to hire a plant manager in 23-35 days with passive sourcing.', images: ['https://www.beghr.com/blog-images/blog-manufacturing-hiring-hiring-a-plant-manager.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function HiringAPlantManagerPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-manufacturing-hiring-hiring-a-plant-manager.webp" alt={`Hiring a Plant Manager Without Overpaying`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

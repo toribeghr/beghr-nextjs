@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('payroll-legal');
 export default function PayrollLegalPage() {
   return (
     <ServicePage
+      heroVideoId="vwgWyKIQ-JU"
       imageSrc="/assets/hero-images/legal.svg"
       imageAlt="Law firm with managed payroll service"
       eyebrow="Managed Payroll · Legal"

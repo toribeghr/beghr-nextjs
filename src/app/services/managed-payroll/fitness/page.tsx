@@ -26,6 +26,7 @@ const CALENDLY = getCalendlyLink('payroll-fitness');
 export default function PayrollFitnessPage() {
   return (
     <ServicePage
+      heroVideoId="Ct3aksbBOWI"
       imageSrc="/assets/hero-images/fitness.svg"
       imageAlt="Fitness studio and gym with fully managed payroll"
       eyebrow="Managed Payroll · Fitness Studios & Gyms"

@@ -29,6 +29,7 @@ const CALENDLY = getCalendlyLink('multi-unit-restaurant-payroll');
 export default function PayrollMultiUnitRestaurantPage() {
   return (
     <ServicePage
+      heroVideoId="LB7pxVH6TEI"
       imageSrc="/assets/hero-images/managed-payroll.webp"
       imageAlt="Multi-location restaurant group with fully managed payroll"
       eyebrow="Managed Payroll · Multi-Location Restaurant"

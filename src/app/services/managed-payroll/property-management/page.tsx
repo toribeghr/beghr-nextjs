@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('property-management-payroll');
 export default function PayrollPropertyManagementPage() {
   return (
     <ServicePage
+      heroVideoId="gzH5UExr7HA"
       imageSrc="/assets/hero-images/payroll.webp"
       imageAlt="Property management company with fully managed payroll"
       eyebrow="Managed Payroll · Property Management"

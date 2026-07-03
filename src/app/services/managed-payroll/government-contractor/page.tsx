@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('government-contractor-payroll');
 export default function PayrollGovernmentContractorPage() {
   return (
     <ServicePage
+      heroVideoId="Gu2c9v1UtII"
       imageSrc="/assets/hero-images/payroll.webp"
       imageAlt="Government contractor with fully managed certified payroll"
       eyebrow="Managed Payroll · Government Contractors"

@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('senior-care-payroll');
 export default function PayrollSeniorCarePage() {
   return (
     <ServicePage
+      heroVideoId="fUPW9Cuobk4"
       imageSrc="/assets/hero-images/payroll.webp"
       imageAlt="Senior care facility with fully managed payroll"
       eyebrow="Managed Payroll · Senior Care"

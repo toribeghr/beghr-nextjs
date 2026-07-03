@@ -26,6 +26,7 @@ const CALENDLY = getCalendlyLink('payroll-trucking');
 export default function PayrollTruckingPage() {
   return (
     <ServicePage
+      heroVideoId="meezpIctLAI"
       imageSrc="/assets/hero-images/trucking.svg"
       imageAlt="Trucking company with fully managed driver payroll"
       eyebrow="Managed Payroll · Trucking & Transportation"

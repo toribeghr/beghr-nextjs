@@ -29,6 +29,7 @@ const CALENDLY = getCalendlyLink('salon-spa-payroll');
 export default function PayrollSalonSpaPage() {
   return (
     <ServicePage
+      heroVideoId="JUuBjb7pDwg"
       imageSrc="/assets/hero-images/managed-payroll.webp"
       imageAlt="Salon and spa business with fully managed payroll"
       eyebrow="Managed Payroll · Salon & Spa"

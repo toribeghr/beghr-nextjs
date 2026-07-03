@@ -26,6 +26,7 @@ const CALENDLY = getCalendlyLink('payroll-veterinary');
 export default function PayrollVeterinaryPage() {
   return (
     <ServicePage
+      heroVideoId="s1GN-ZOZyQE"
       imageSrc="/assets/hero-images/veterinary.svg"
       imageAlt="Veterinary practice with fully managed payroll"
       eyebrow="Managed Payroll · Veterinary Practices"

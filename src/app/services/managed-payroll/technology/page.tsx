@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('payroll-technology');
 export default function PayrollTechnologyPage() {
   return (
     <ServicePage
+      heroVideoId="WLHyZVgQyxg"
       imageSrc="/assets/hero-images/technology.svg"
       imageAlt="Tech company with distributed remote team payroll managed"
       eyebrow="Managed Payroll · Technology"

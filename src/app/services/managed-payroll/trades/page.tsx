@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('payroll-trades');
 export default function PayrollTradesPage() {
   return (
     <ServicePage
+      heroVideoId="EXtA3T7nH40"
       imageSrc="/assets/hero-images/trades.svg"
       imageAlt="Skilled trades or manufacturing operation with managed payroll"
       eyebrow="Managed Payroll · Skilled Trades"

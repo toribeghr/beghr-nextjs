@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Financial Firm Payroll: Garnishments Nobody Explains | BEG',
-  description: 'Managed payroll for financial services. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for financial services. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/financial-services/financial-services-payroll-garnishments-guide' },
   openGraph: {
     title: 'Financial Firm Payroll: Garnishments Nobody Explains | BEG',

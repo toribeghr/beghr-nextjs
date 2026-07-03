@@ -143,7 +143,7 @@ export default function PayrollChildcarePage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services charge extra for high-turnover new hire processing and year-end W-2s."',
                 body: 'The $25-$45 PEPM rate covers everything: payroll processing, new hire setup, state filings, year-end W-2s, compliance updates, and BEG support. High-turnover processing is included.',
               },

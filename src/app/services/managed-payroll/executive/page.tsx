@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('payroll-executive');
 export default function PayrollExecutivePage() {
   return (
     <ServicePage
+      heroVideoId="n4hv-oklSTI"
       imageSrc="/assets/hero-images/executive.svg"
       imageAlt="Organization with executive compensation managed payroll"
       eyebrow="Managed Payroll · Executive"
@@ -175,7 +176,7 @@ export default function PayrollExecutivePage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services always add fees for every little thing."',
                 body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. One number, everything included.',
               },

@@ -50,12 +50,12 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Managed Payroll for Mid-Size Busine",
-    "description": "Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min",
+    "description": "Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size"
   },
   {
     "title": "Marketing & PR Agencies: Managed Payroll for Small Businesse",
-    "description": "Managed payroll for marketing agencies. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min",
+    "description": "Managed payroll for marketing agencies. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-managed-payroll-small-business"
   },
   {
@@ -95,7 +95,7 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Payroll Garnishments: What You Need",
-    "description": "Managed payroll for marketing agencies. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for marketing agencies. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-garnishments-guide"
   },
   {
@@ -105,7 +105,7 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Payroll Outsourcing Cost vs. In-Hou",
-    "description": "Managed payroll for marketing agencies. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for marketing agencies. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-outsourcing-cost"
   },
   {
@@ -125,7 +125,7 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Payroll Software vs. Managed Payrol",
-    "description": "Managed payroll for marketing agencies. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for marketing agencies. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-payroll-software-vs-managed"
   },
   {
@@ -145,7 +145,7 @@ const posts = [
   },
   {
     "title": "Marketing & PR Agencies: Signs Your Business Needs to Outsou",
-    "description": "Managed payroll for marketing agencies. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for marketing agencies. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/marketing-agency/marketing-agency-when-to-outsource-payroll"
   },
   {

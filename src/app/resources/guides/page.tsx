@@ -195,7 +195,7 @@ export default function GuidesPage() {
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '640px', textAlign: 'center' }}>
           <p className="eyebrow">Skip the Guides</p>
-          <h2>Rather talk to a payroll specialist? Book a free 15-minute call.</h2>
+          <h2>Rather talk to a payroll specialist? See your exact price in 90 seconds.</h2>
           <p style={{ color: '#555555', lineHeight: '1.7', margin: '1rem 0 2rem' }}>
             BEG runs <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>managed payroll</Link> for employers at $25-$45 PEPM, all-inclusive. Discovery call is free and no commitment is required.
           </p>

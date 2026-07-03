@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Provider Failed, What to Do Right Now | BEG',
-  description: 'Your Payroll Provider Failed: Emergency Steps for Employers. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at',
+  description: 'Your Payroll Provider Failed: Emergency Steps for Employers. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/problems/payroll-provider-failed-what-to-do' },
   openGraph: {
     title: 'Payroll Provider Failed, What to Do Right Now | BEG',

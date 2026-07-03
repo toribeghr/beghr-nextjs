@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Tax Penalties in 2026: How to Avoid Them | BEG',
-  description: 'Payroll Tax Penalties: How to Avoid Them in 2026. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
+  description: 'Payroll Tax Penalties: How to Avoid Them in 2026. Expert guidance from BEG managed payroll. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/payroll-tax-penalties-how-to-avoid' },
   openGraph: {
     title: 'Payroll Tax Penalties in 2026: How to Avoid Them | BEG',

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing in Colorado: New 2026 Rules | BEG',
-  description: 'Payroll Outsourcing in Colorado: New Laws and Requirements. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your',
+  description: 'Payroll Outsourcing in Colorado: New Laws and Requirements. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/state/payroll-outsourcing-colorado' },
   openGraph: {
     title: 'Payroll Outsourcing in Colorado: New 2026 Rules | BEG',

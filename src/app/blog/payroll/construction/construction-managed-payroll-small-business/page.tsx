@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Construction Payroll for Small Contractors Under 25 | BEG',
-  description: 'Managed payroll for construction. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for construction. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/construction/construction-managed-payroll-small-business' },
   openGraph: {
     title: 'Construction Payroll for Small Contractors Under 25 | BEG',

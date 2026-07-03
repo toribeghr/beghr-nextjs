@@ -154,7 +154,7 @@ export default function isolvedVsPaylocityPage() {
             Ready to See isolved in Action?
           </h2>
           <p style={{ color: '#000000', marginBottom: '1.5rem', fontSize: '1.05rem' }}>
-            Book a 15-minute call. We&apos;ll show you the platform, walk through your current setup, and give you a no-obligation cost comparison.
+            Get your instant quote, then book a demo from the quote screen. We&apos;ll show you the platform, walk through your current setup, and give you a no-obligation cost comparison.
           </p>
           <PricingCta service="hcm-software" subline={false} />
         </div>

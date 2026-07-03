@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'E-Commerce Payroll Under 25 Employees: What Changes | BEG',
-  description: 'Managed payroll for e-commerce. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for e-commerce. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/ecommerce/ecommerce-managed-payroll-small-business' },
   openGraph: {
     title: 'E-Commerce Payroll Under 25 Employees: What Changes | BEG',

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Payroll, 25-100 Employees [Full Breakdown] | BEG',
-  description: 'Managed payroll for nonprofits. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for nonprofits. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/nonprofits/nonprofits-managed-payroll-mid-size' },
   openGraph: {
     title: 'Nonprofit Payroll, 25-100 Employees [Full Breakdown] | BEG',

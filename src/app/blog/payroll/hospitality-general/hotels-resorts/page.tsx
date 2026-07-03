@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Hotel and Resort Payroll, Tips and Seasonal Staff | BEG',
-  description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.',
+  description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K-$95K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/hospitality-general/hotels-resorts' },
   openGraph: {
     title: 'Hotel and Resort Payroll, Tips and Seasonal Staff | BEG',
-    description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.',
+    description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K-$95K annually.',
     url: 'https://www.beghr.com/blog/payroll/hospitality-general/hotels-resorts',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hotel and Resort Payroll, Tips and Seasonal Staff | BEG', description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hotel and Resort Payroll, Tips and Seasonal Staff | BEG', description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K-$95K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a 120-person hotel?',
-    answer: 'At 120 employees, BEG managed payroll runs approximately $3,000–$5,400 per month ($25–$45 PEPM), all-inclusive. That covers tipped employee tracking, tip pool administration support, split-shift premium calculations, seasonal surge onboarding, year-end W-2s, and HR support. A loaded in-house HR Manager for a hotel property costs $73,000–$110,000 annually. Most 120-person hotel properties save $36,000–$73,000 per year by outsourcing to BEG.',
+    answer: 'At 120 employees, BEG managed payroll runs approximately $3,000-$5,400 per month ($25-$45 PEPM), all-inclusive. That covers tipped employee tracking, tip pool administration support, split-shift premium calculations, seasonal surge onboarding, year-end W-2s, and HR support. A loaded in-house HR Manager for a hotel property costs $73,000-$110,000 annually. Most 120-person hotel properties save $36,000-$73,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function HotelsResortsPayrollPage() {
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
 
-        <p>Hotel and resort payroll is among the most complex payroll environments in any industry. You have tipped employees spread across front desk, food and beverage, and concierge departments, each with different tip credit rules depending on the state your property sits in. You have housekeeping and banquet staff on split shifts. You have a workforce that turns over at rates approaching 70–80% annually, generating W-2 volume that strains any manual system. And every summer or holiday season, you onboard dozens of temporary workers under time pressure.</p>
+        <p>Hotel and resort payroll is among the most complex payroll environments in any industry. You have tipped employees spread across front desk, food and beverage, and concierge departments, each with different tip credit rules depending on the state your property sits in. You have housekeeping and banquet staff on split shifts. You have a workforce that turns over at rates approaching 70-80% annually, generating W-2 volume that strains any manual system. And every summer or holiday season, you onboard dozens of temporary workers under time pressure.</p>
 
         <p>The in-house HR Manager you hired to manage all of this earned a general HR certification. They learned tip credit rules from a Google search. When the Department of Labor comes calling -- and DOL hospitality audits have increased materially since 2020 -- the gap between what your HR manager thought they knew and what the regulation actually requires becomes very expensive very quickly.</p>
 
@@ -96,13 +96,13 @@ export default function HotelsResortsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (HR Manager, hotel/resort)', '$50,000 – $75,000'],
-                ['Benefits (health, dental, vision, 401k) -- 30% of salary', '$15,000 – $22,500'],
-                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$5,000 – $7,500'],
-                ['Payroll software (tip credit, multi-state capable)', '$2,400 – $4,800'],
-                ['Compliance training (FLSA tip rules, state law updates)', '$1,500 – $3,000'],
-                ['Hiring cost amortized (recruiter, onboarding, ramp)', '$3,000 – $5,500'],
-                ['TOTAL loaded annual cost', '$76,900 – $118,300'],
+                ['Base salary (HR Manager, hotel/resort)', '$50,000 - $75,000'],
+                ['Benefits (health, dental, vision, 401k) -- 30% of salary', '$15,000 - $22,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$5,000 - $7,500'],
+                ['Payroll software (tip credit, multi-state capable)', '$2,400 - $4,800'],
+                ['Compliance training (FLSA tip rules, state law updates)', '$1,500 - $3,000'],
+                ['Hiring cost amortized (recruiter, onboarding, ramp)', '$3,000 - $5,500'],
+                ['TOTAL loaded annual cost', '$76,900 - $118,300'],
               ].map(([a, b], i) => (
                 <tr key={i} style={{
                   background: i % 2 === 0 ? '#f9f9f9' : '#fff',
@@ -121,7 +121,7 @@ export default function HotelsResortsPayrollPage() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for Hotels and Resorts</h2>
 
-        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. For hotel and resort operations, that covers tipped employee processing, tip pool administration support, split-shift premium calculations, seasonal workforce onboarding, year-end W-2 generation for all employees (including terminated staff), and HR support.</p>
+        <p>BEG managed payroll is priced at $25-$45 per employee per month (PEPM), all-inclusive. For hotel and resort operations, that covers tipped employee processing, tip pool administration support, split-shift premium calculations, seasonal workforce onboarding, year-end W-2 generation for all employees (including terminated staff), and HR support.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -135,10 +135,10 @@ export default function HotelsResortsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['40 employees', '$1,000 – $1,800', '$12,000 – $21,600', '$55,300 – $101,500'],
-                ['80 employees', '$2,000 – $3,600', '$24,000 – $43,200', '$33,700 – $84,700'],
-                ['150 employees', '$3,750 – $6,750', '$45,000 – $81,000', 'Varies at scale'],
-                ['300 employees', '$7,500 – $13,500', '$90,000 – $162,000', 'Assess multi-property model'],
+                ['40 employees', '$1,000 - $1,800', '$12,000 - $21,600', '$55,300 - $101,500'],
+                ['80 employees', '$2,000 - $3,600', '$24,000 - $43,200', '$33,700 - $84,700'],
+                ['150 employees', '$3,750 - $6,750', '$45,000 - $81,000', 'Varies at scale'],
+                ['300 employees', '$7,500 - $13,500', '$90,000 - $162,000', 'Assess multi-property model'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>
@@ -170,7 +170,7 @@ export default function HotelsResortsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>High Turnover and W-2 Volume at Year-End</p>
-          <p style={{ margin: 0 }}>The hotel industry averages 70–80% annual turnover. That means a 150-person resort generates 250+ W-2s per year -- over 100 for employees who are no longer with the property and whose addresses must be tracked and updated. An in-house HR Manager manually managing year-end W-2 generation for a high-turnover workforce is a significant administrative burden that consumes January. An outsourced payroll provider handles all W-2 generation, delivery, and SSA filing as part of the all-inclusive fee.</p>
+          <p style={{ margin: 0 }}>The hotel industry averages 70-80% annual turnover. That means a 150-person resort generates 250+ W-2s per year -- over 100 for employees who are no longer with the property and whose addresses must be tracked and updated. An in-house HR Manager manually managing year-end W-2 generation for a high-turnover workforce is a significant administrative burden that consumes January. An outsourced payroll provider handles all W-2 generation, delivery, and SSA filing as part of the all-inclusive fee.</p>
         </div>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why Hotel and Resort Payroll Is Structurally Complex</h2>
@@ -180,7 +180,7 @@ export default function HotelsResortsPayrollPage() {
           <li><strong>Tip pooling post-2018 FLSA amendments:</strong> The rules about who can and cannot participate in tip pools changed in 2018. Many hotels are still running pre-2018 pool structures that create FLSA liability.</li>
           <li><strong>Split-shift premiums in California and Nevada:</strong> The largest US hotel markets require premiums that most payroll systems do not calculate automatically without proper configuration.</li>
           <li><strong>Seasonal workforce onboarding at scale:</strong> Summer and holiday season headcount surges require fast, accurate onboarding of dozens of temporary workers without creating W-2 or classification errors.</li>
-          <li><strong>High turnover creates perpetual year-end W-2 volume:</strong> 70–80% annual turnover means W-2 generation for hundreds of terminated employees whose addresses and forwarding information require active management.</li>
+          <li><strong>High turnover creates perpetual year-end W-2 volume:</strong> 70-80% annual turnover means W-2 generation for hundreds of terminated employees whose addresses and forwarding information require active management.</li>
         </ul>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Decision Framework: Outsource vs. In-House for Hotels and Resorts</h2>
@@ -197,8 +197,8 @@ export default function HotelsResortsPayrollPage() {
             <tbody>
               {[
                 ['Under 50 employees', 'Outsource', 'Tip credit and tip pool compliance alone justify outsourcing. No ROI for in-house HR at this headcount.'],
-                ['50 – 150 employees', 'Outsource', 'Peak ROI range. Tip credit liability, split-shift exposure, and seasonal surge complexity all argue strongly for specialist management.'],
-                ['150 – 300 employees', 'Outsource or hybrid', 'Keep payroll and compliance outsourced. Add an HR generalist for recruiting and culture programs.'],
+                ['50 - 150 employees', 'Outsource', 'Peak ROI range. Tip credit liability, split-shift exposure, and seasonal surge complexity all argue strongly for specialist management.'],
+                ['150 - 300 employees', 'Outsource or hybrid', 'Keep payroll and compliance outsourced. Add an HR generalist for recruiting and culture programs.'],
                 ['300+ employees', 'Assess by property count', 'Multi-property groups with centralized HR operations may develop in-house capacity, but tip compliance and seasonal surge still argue for a managed component.'],
               ].map(([a, b, c], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -213,7 +213,7 @@ export default function HotelsResortsPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll Built for Hotel and Resort Operations</h3>
-          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles tipped employee processing, tip pool compliance, split-shift premiums, seasonal workforce onboarding, and year-end W-2s for hotel and resort properties nationally. All-inclusive at $25–$45 PEPM. No surprise fees at year-end. Schedule a 15-minute discovery call for an exact quote.</p>
+          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles tipped employee processing, tip pool compliance, split-shift premiums, seasonal workforce onboarding, and year-end W-2s for hotel and resort properties nationally. All-inclusive at $25-$45 PEPM. Answer a few quick questions for an exact quote on screen.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -239,7 +239,7 @@ export default function HotelsResortsPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving hotel groups, resort properties, and multi-property hospitality operators at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving hotel groups, resort properties, and multi-property hospitality operators at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 
@@ -272,7 +272,7 @@ export default function HotelsResortsPayrollPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Hotel and Resort Payroll Outsourcing: Managing Tips, Tipped Employees, and Seasonal Staff (2026)',
-        description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K–$95K annually.',
+        description: 'Hotel and resort payroll outsourcing. Tipped employee rules, tip pooling compliance, seasonal hiring, split-shift premiums. Save $55K-$95K annually.',
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: {

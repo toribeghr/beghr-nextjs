@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Vet Practice Payroll for Mid-Size Teams: Is It Worth It? | BEG',
-  description: 'Managed payroll for veterinary. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for veterinary. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/veterinary/veterinary-managed-payroll-mid-size' },
   openGraph: {
     title: 'Vet Practice Payroll for Mid-Size Teams: Is It Worth It? | BEG',

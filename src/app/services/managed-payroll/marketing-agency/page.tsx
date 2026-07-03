@@ -143,7 +143,7 @@ export default function PayrollMarketingAgencyPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services charge extra for multi-state registrations, 1099 processing, and commission tracking."',
                 body: 'The $25-$45 PEPM rate covers it all: multi-state payroll, new state registrations, 1099-NEC processing, commission tracking, year-end W-2s, and BEG support.',
               },

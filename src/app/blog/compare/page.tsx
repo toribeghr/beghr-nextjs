@@ -291,8 +291,7 @@ export default function ComparePage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Not sure what you actually need?</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
-            Free 15-minute discovery call. Whether it's payroll operations or attorney hiring, we'll ask about your situation and tell you honestly whether BEG is the right fit.
-          </p>
+            Answer a few quick questions and see your exact monthly and annual price on screen. No call required.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

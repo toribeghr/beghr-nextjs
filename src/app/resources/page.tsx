@@ -281,7 +281,7 @@ export default function ResourcesPage() {
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '640px', textAlign: 'center' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>Ready to Talk</p>
-          <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>Have questions about managed payroll? Book a free 15-minute call.</h2>
+          <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>See what managed payroll costs for your team in 90 seconds.</h2>
           <p style={{ color: '#cccccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             A BEG payroll specialist will review your current setup, answer your questions, and tell you what managed payroll would cost for your team. No commitment required.
           </p>

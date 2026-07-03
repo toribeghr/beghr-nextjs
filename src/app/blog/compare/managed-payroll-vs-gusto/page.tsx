@@ -249,7 +249,7 @@ export default function ManagedPayrollVsGustoPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>See if managed payroll makes sense for you</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. We'll look at your current setup, run the numbers, and give you a straight answer -- no pitch.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Answer a few quick questions and see your exact monthly and annual price on screen. No call required.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Wage and Hour Compliance Checklist for Employers | BEG',
-  description: 'Wage and Hour Compliance Checklist for 2026. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
+  description: 'Wage and Hour Compliance Checklist for 2026. Expert guidance from BEG managed payroll. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/wage-and-hour-compliance-checklist' },
   openGraph: {
     title: 'Wage and Hour Compliance Checklist for Employers | BEG',

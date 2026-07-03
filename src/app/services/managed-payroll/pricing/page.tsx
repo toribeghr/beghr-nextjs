@@ -228,10 +228,10 @@ export default function ManagedPayrollPricingPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Exact Number</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.5rem', fontWeight: '800', marginBottom: '1rem' }}>
-                Get your flat monthly cost in a 15-minute call.
+                Get your flat monthly cost in 90 seconds.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.95rem' }}>
-                We review your headcount, states, pay schedules, and current setup. You walk away with a single number, your exact BEG monthly cost, with no commitment required.
+                Answer a few quick questions about your headcount, states, and current setup. Your exact BEG monthly and annual cost shows on screen instantly, with no commitment required.
               </p>
               <PricingCta service="managed-payroll" subline={false} />
             </div>
@@ -273,7 +273,7 @@ export default function ManagedPayrollPricingPage() {
             </div>
             <div className="faq-item">
               <h3>How do I get my exact monthly cost?</h3>
-              <p>Book a 15-minute discovery call. Your BEG contact reviews your headcount, states, pay frequency, and any complexity (garnishments, commissions, multi-entity) and gives you a flat monthly number during the call. No follow-up proposal, no waiting -- a straight number before you leave the call.</p>
+              <p>Tap Get Pricing in 90 Seconds, answer a few quick questions, and your exact monthly and annual price shows on screen instantly. Complex setup (garnishments, commissions, multi-entity)? Book the follow-up call from your quote screen and your BEG contact confirms the number live.</p>
             </div>
           </div>
         </div>

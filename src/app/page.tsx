@@ -315,7 +315,7 @@ export default function Home() {
           <div className="head center reveal">
             <h2 style={{ color: '#fff' }}>Ready to stop managing it yourself?</h2>
             <p style={{ color: '#C7D2E5', marginTop: '16px' }}>
-              Book a 15-minute discovery call. Tell us what is not working. We will tell you exactly what we can do and what it costs.
+              Pick a service, answer a few quick questions, and see exactly what it costs on screen. No call required.
             </p>
           </div>
           <div style={{ textAlign: 'center', marginTop: '32px' }}>

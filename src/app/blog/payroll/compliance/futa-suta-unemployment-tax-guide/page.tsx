@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'FUTA and SUTA Unemployment Tax for Employers | BEG',
-  description: 'FUTA and SUTA: Employer Unemployment Tax Guide. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
+  description: 'FUTA and SUTA: Employer Unemployment Tax Guide. Expert guidance from BEG managed payroll. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/futa-suta-unemployment-tax-guide' },
   openGraph: {
     title: 'FUTA and SUTA Unemployment Tax for Employers | BEG',

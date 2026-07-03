@@ -304,8 +304,7 @@ export default function GustoAlternativesPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>See what managed payroll costs for your headcount</h2>
           <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>
-            Free 15-minute call. We will look at your current Gusto setup and give you a straight comparison -- what it costs, what changes, and what you can stop doing.
-          </p>
+            Answer a few quick questions and see your exact monthly and annual price on screen. No call required.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Agency Payroll Outsourcing: What Is the Real Cost? | BEG',
-  description: 'Managed payroll for marketing agencies. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for marketing agencies. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-payroll-outsourcing-cost' },
   openGraph: {
     title: 'Agency Payroll Outsourcing: What Is the Real Cost? | BEG',

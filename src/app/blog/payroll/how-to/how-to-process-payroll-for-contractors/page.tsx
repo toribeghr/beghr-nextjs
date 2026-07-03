@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Process Payroll for 1099 Contractors | BEG',
-  description: 'How to Process Payroll for Independent Contractors. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
+  description: 'How to Process Payroll for Independent Contractors. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/how-to/how-to-process-payroll-for-contractors' },
   openGraph: {
     title: 'How to Process Payroll for 1099 Contractors | BEG',

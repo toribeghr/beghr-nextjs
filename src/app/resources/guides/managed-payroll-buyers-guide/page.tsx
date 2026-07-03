@@ -126,7 +126,7 @@ export default function BuyersGuidePage() {
               ))}
 
               <p style={{ color: '#555555', fontSize: '0.92rem', lineHeight: '1.65', marginTop: '1rem' }}>
-                Ready to stop evaluating and start delegating payroll? <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>BEG managed payroll</Link> runs at $25-$45 PEPM all-inclusive. Book a free 15-minute call to get an exact quote.
+                Ready to stop evaluating and start delegating payroll? <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>BEG managed payroll</Link> runs at $25-$45 PEPM all-inclusive. Get an exact quote in 90 seconds.
               </p>
             </div>
 
@@ -148,7 +148,7 @@ export default function BuyersGuidePage() {
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '640px', textAlign: 'center' }}>
           <p className="eyebrow">Ready to Get a Quote?</p>
-          <h2>Book a free 15-minute call. Get an exact monthly cost before you commit.</h2>
+          <h2>Get an exact monthly cost in 90 seconds, before you commit to anything.</h2>
           <p style={{ color: '#555555', lineHeight: '1.7', margin: '1rem 0 2rem' }}>
             BEG will review your current payroll setup, answer every question in this guide, and give you an exact PEPM quote on the call. No pressure. No commitment.
           </p>

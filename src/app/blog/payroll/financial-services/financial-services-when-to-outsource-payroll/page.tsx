@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Financial Firm Payroll: Signs It Is Time to Outsource | BEG',
-  description: 'Managed payroll for financial services. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for financial services. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/financial-services/financial-services-when-to-outsource-payroll' },
   openGraph: {
     title: 'Financial Firm Payroll: Signs It Is Time to Outsource | BEG',

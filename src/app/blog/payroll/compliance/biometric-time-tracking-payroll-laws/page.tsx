@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Biometric Time Tracking Laws Payroll Teams Must Know | BEG',
-  description: 'Biometric Time Tracking Laws and Payroll Compliance. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance',
+  description: 'Biometric Time Tracking Laws and Payroll Compliance. Expert guidance from BEG managed payroll. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/biometric-time-tracking-payroll-laws' },
   openGraph: {
     title: 'Biometric Time Tracking Laws Payroll Teams Must Know | BEG',

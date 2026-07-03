@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll and QuickBooks Integration: What Breaks First | BEG',
-  description: 'Payroll Integration with QuickBooks and Accounting Software. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at',
+  description: 'Payroll Integration with QuickBooks and Accounting Software. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/features/payroll-integration-accounting-software' },
   openGraph: {
     title: 'Payroll and QuickBooks Integration: What Breaks First | BEG',

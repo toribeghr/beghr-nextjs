@@ -196,7 +196,7 @@ export default function AccountingPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Accounting Firm Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Partner W-2 coordination, tax season overtime, GL export, multi-state compliance -- all at $25-$45 per employee per month. Book a 15-minute call to get a cost comparison for your firm size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Partner W-2 coordination, tax season overtime, GL export, multi-state compliance -- all at $25-$45 per employee per month. Answer a few quick questions to get a cost comparison for your firm size.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How Managed Payroll Works, From Onboarding to Payday | BEG',
-  description: 'How Managed Payroll Works: From Onboarding to First Pay Run. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at',
+  description: 'How Managed Payroll Works: From Onboarding to First Pay Run. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/guides/managed-payroll-how-it-works' },
   openGraph: {
     title: 'How Managed Payroll Works, From Onboarding to Payday | BEG',

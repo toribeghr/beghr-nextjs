@@ -6,17 +6,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Construction Payroll | Instant Payroll Quote | BEG',
-  description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.',
+  description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Get an instant quote.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/construction' },
   openGraph: {
     title: 'Construction Payroll | Instant Payroll Quote | BEG',
-    description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.',
+    description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Get an instant quote.',
     url: 'https://www.beghr.com/services/managed-payroll/construction',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction Payroll | Instant Payroll Quote | BEG', description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction Payroll | Instant Payroll Quote | BEG', description: 'Construction payroll fully managed at $25-$45 PEPM. Certified payroll, WH-347, prevailing wage, fringes, and union reporting handled. Get an instant quote.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

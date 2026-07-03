@@ -140,7 +140,7 @@ export default function OutsourceHomeServicesPayrollPage() {
         <div style={{ background: '#f5f0e8', border: '2px solid #ECAC60', borderRadius: '8px', padding: '2rem', marginBottom: '2.5rem' }}>
           <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem' }}>Home Services Payroll, Outsourced in 3-5 Days.</h3>
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
-            BEG manages home services payroll at $25-$45 PEPM. Field tech overtime, drive time compliance, seasonal volume, and year-end W-2s all included. Book a 15-minute call to get started.
+            BEG manages home services payroll at $25-$45 PEPM. Field tech overtime, drive time compliance, seasonal volume, and year-end W-2s all included. Answer a few quick questions to get started.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

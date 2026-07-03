@@ -191,7 +191,7 @@ export default function PayrollEventsPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to clean up your classification structure is before the next event season starts.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. Cleaning up classification and getting your multi-state registrations right before your busiest season means you run peak season with clean payroll instead of catching up on compliance after the fact. Schedule a scope review and we will map exactly what needs to change.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. Cleaning up classification and getting your multi-state registrations right before your busiest season means you run peak season with clean payroll instead of catching up on compliance after the fact. Get your instant quote, and on the follow-up call we will map exactly what needs to change.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>

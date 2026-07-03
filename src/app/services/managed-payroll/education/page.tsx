@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('education-payroll');
 export default function PayrollEducationPage() {
   return (
     <ServicePage
+      heroVideoId="DoOi5WixvYY"
       imageSrc="/assets/hero-images/payroll.webp"
       imageAlt="Private school with fully managed payroll"
       eyebrow="Managed Payroll · Private Schools"

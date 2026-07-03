@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Tax Deposit Schedule: Monthly or Semi-Weekly | BEG',
-  description: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance',
+  description: 'Payroll Tax Deposit Schedule: Monthly vs. Semi-Weekly. Expert guidance from BEG managed payroll. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/payroll-tax-deposit-schedule' },
   openGraph: {
     title: 'Payroll Tax Deposit Schedule: Monthly or Semi-Weekly | BEG',

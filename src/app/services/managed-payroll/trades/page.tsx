@@ -6,17 +6,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Skilled Trades Payroll | Instant Quote | BEG',
-  description: 'Trades and manufacturing payroll at $25-$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',
+  description: 'Trades and manufacturing payroll at $25-$45 PEPM. Union compliance, certified payroll, and multi-site management included. Get an instant quote.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/trades' },
   openGraph: {
     title: 'Skilled Trades Payroll | Instant Quote | BEG',
-    description: 'Trades and manufacturing payroll at $25-$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.',
+    description: 'Trades and manufacturing payroll at $25-$45 PEPM. Union compliance, certified payroll, and multi-site management included. Get an instant quote.',
     url: 'https://www.beghr.com/services/managed-payroll/trades',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Skilled Trades Payroll | Instant Quote | BEG', description: 'Trades and manufacturing payroll at $25-$45 PEPM. Union compliance, certified payroll, and multi-site management included. Request a scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Skilled Trades Payroll | Instant Quote | BEG', description: 'Trades and manufacturing payroll at $25-$45 PEPM. Union compliance, certified payroll, and multi-site management included. Get an instant quote.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -176,7 +176,7 @@ export default function PayrollTradesPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services always add fees for every little thing."',
                 body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. One number, everything included.',
               },

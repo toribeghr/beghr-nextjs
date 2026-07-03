@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Trucking Payroll for Small Fleets: What It Costs | BEG',
-  description: 'Managed payroll for trucking. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for trucking. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/trucking/trucking-managed-payroll-small-business' },
   openGraph: {
     title: 'Trucking Payroll for Small Fleets: What It Costs | BEG',

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Vet Payroll for Small Practices: What It Costs | BEG',
-  description: 'Managed payroll for veterinary. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for veterinary. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/veterinary/veterinary-managed-payroll-small-business' },
   openGraph: {
     title: 'Vet Payroll for Small Practices: What It Costs | BEG',

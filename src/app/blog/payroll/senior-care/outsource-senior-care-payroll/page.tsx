@@ -143,7 +143,7 @@ export default function OutsourceSeniorCarePayrollPage() {
         <div style={{ background: '#f5f0e8', border: '2px solid #ECAC60', borderRadius: '8px', padding: '2rem', marginBottom: '2.5rem' }}>
           <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem' }}>Senior Care Payroll, Outsourced and Handled.</h3>
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
-            BEG manages senior care payroll at $25-$45 PEPM. CNA overtime, shift differentials, CMS PBJ, ACA, and year-end W-2s. Book a 15-minute call to see what it costs for your facility.
+            BEG manages senior care payroll at $25-$45 PEPM. CNA overtime, shift differentials, CMS PBJ, ACA, and year-end W-2s. Answer a few quick questions to see what it costs for your facility.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

@@ -50,12 +50,12 @@ const posts = [
   },
   {
     "title": "Construction Payroll: For Mid-Size Business (25-100 ..",
-    "description": "Managed payroll for construction. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery",
+    "description": "Managed payroll for construction. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-managed-payroll-mid-size"
   },
   {
     "title": "Construction Payroll: For Small Business (<25 EE)",
-    "description": "Managed payroll for construction. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "description": "Managed payroll for construction. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-managed-payroll-small-business"
   },
   {
@@ -140,7 +140,7 @@ const posts = [
   },
   {
     "title": "Construction Payroll: When to Outsource",
-    "description": "Managed payroll for construction. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for construction. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/construction/construction-when-to-outsource-payroll"
   },
   {

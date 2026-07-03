@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Tech Company Payroll for 25-100 Employee Teams | BEG',
-  description: 'Managed payroll for tech/SaaS. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for tech/SaaS. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/technology/technology-managed-payroll-mid-size' },
   openGraph: {
     title: 'Tech Company Payroll for 25-100 Employee Teams | BEG',

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing in Michigan: What Changed in 2026 | BEG',
-  description: 'Payroll Outsourcing in Michigan: What Employers Need to Know. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your',
+  description: 'Payroll Outsourcing in Michigan: What Employers Need to Know. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/state/payroll-outsourcing-michigan' },
   openGraph: {
     title: 'Payroll Outsourcing in Michigan: What Changed in 2026 | BEG',

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Auto Dealer Payroll Outsourcing Cost (Real Numbers) | BEG',
-  description: 'Managed payroll for auto dealerships. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for auto dealerships. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/auto-dealership/auto-dealership-payroll-outsourcing-cost' },
   openGraph: {
     title: 'Auto Dealer Payroll Outsourcing Cost (Real Numbers) | BEG',

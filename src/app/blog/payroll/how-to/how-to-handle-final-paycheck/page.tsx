@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Handle a Final Paycheck When Someone Leaves | BEG',
-  description: 'How to Handle a Final Paycheck When an Employee Leaves. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
+  description: 'How to Handle a Final Paycheck When an Employee Leaves. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/how-to/how-to-handle-final-paycheck' },
   openGraph: {
     title: 'How to Handle a Final Paycheck When Someone Leaves | BEG',

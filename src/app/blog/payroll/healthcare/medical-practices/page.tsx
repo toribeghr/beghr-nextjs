@@ -196,7 +196,7 @@ export default function MedicalPracticesPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Medical Practice Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, RVU comp, ACA tracking, W-2 and 1099 populations -- all at $25-$45 per employee per month. Book a 15-minute call to get a cost comparison for your practice size and provider mix.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, RVU comp, ACA tracking, W-2 and 1099 populations -- all at $25-$45 per employee per month. Answer a few quick questions to get a cost comparison for your practice size and provider mix.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

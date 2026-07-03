@@ -143,7 +143,7 @@ export default function PayrollFitnessPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services charge extra for 1099 processing, commission tracking, and multi-location filings."',
                 body: 'The $25-$45 PEPM rate covers it all: W-2 and 1099 processing, commission overtime calculations, multi-location state filings, year-end W-2s and 1099-NECs, and BEG support. No per-1099 fees.',
               },

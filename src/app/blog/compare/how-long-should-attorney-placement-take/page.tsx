@@ -164,7 +164,7 @@ export default function HowLongAttorneyPlacementPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Get your open role in front of passive candidates this week</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute discovery call. Tell us about the role, the timeline, and what you've tried. We'll tell you if BEG is the right fit -- and what the process looks like if it is.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Answer a few quick questions and see your exact monthly and annual price on screen. No call required.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

@@ -150,7 +150,7 @@ export default function TrueCostCalculatorPage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>Lower Your Cost Per Employee</p>
           <h2 style={{ color: '#fff', marginBottom: '1rem' }}>See how BEG cuts the burden of running payroll in-house.</h2>
           <p style={{ color: '#ccc', lineHeight: '1.7', marginBottom: '2rem' }}>
-            A dedicated payroll hire is a $60,000 to $100,000 loaded cost. BEG fully managed payroll runs at $25 to $45 PEPM, all-inclusive, and replaces that overhead. Book a free 15-minute discovery call.
+            A dedicated payroll hire is a $60,000 to $100,000 loaded cost. BEG fully managed payroll runs at $25 to $45 PEPM, all-inclusive, and replaces that overhead. See your exact price in 90 seconds.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

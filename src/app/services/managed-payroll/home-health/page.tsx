@@ -143,7 +143,7 @@ export default function PayrollHomeHealthPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services add fees for travel time calculations, live-in documentation, and Medicaid tracking."',
                 body: 'The $25-$45 PEPM rate covers it all: FLSA-compliant overtime, live-in employee documentation, Medicaid wage tracking, state filings, year-end W-2s, and BEG support.',
               },

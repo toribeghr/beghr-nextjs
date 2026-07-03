@@ -143,7 +143,7 @@ export default function PayrollChurchPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Our budget is tight and we cannot afford payroll services that nickel-and-dime us."',
                 body: 'The $25-$45 PEPM rate covers everything: dual-status minister payroll, housing allowance tracking, FICA or SECA processing, state filings, year-end W-2s, and BEG support. One number, everything included.',
               },

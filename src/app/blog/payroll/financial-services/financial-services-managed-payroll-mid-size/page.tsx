@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Financial Firm Payroll: 25-100 Employees, What Changes | BEG',
-  description: 'Managed payroll for financial services. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min',
+  description: 'Managed payroll for financial services. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/financial-services/financial-services-managed-payroll-mid-size' },
   openGraph: {
     title: 'Financial Firm Payroll: 25-100 Employees, What Changes | BEG',

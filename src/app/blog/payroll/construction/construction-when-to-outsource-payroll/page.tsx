@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Construction Payroll: When Should You Outsource | BEG',
-  description: 'Managed payroll for construction. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for construction. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/construction/construction-when-to-outsource-payroll' },
   openGraph: {
     title: 'Construction Payroll: When Should You Outsource | BEG',

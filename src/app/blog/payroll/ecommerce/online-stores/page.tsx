@@ -217,7 +217,7 @@ export default function EcommerceOnlineStoresPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Ready to Remove Payroll from Your Plate?</h3>
-          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles payroll processing, multi-state tax filings, year-end W-2s and 1099-NECs, and HR compliance for e-commerce brands nationally. All-inclusive at $25-$45 PEPM. No surprise fees at year-end. Schedule a 15-minute discovery call and we will tell you exactly what it costs for your headcount.</p>
+          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles payroll processing, multi-state tax filings, year-end W-2s and 1099-NECs, and HR compliance for e-commerce brands nationally. All-inclusive at $25-$45 PEPM. Answer a few quick questions and see exactly what it costs for your headcount.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

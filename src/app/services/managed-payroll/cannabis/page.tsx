@@ -143,7 +143,7 @@ export default function PayrollCannabisPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Cannabis-specific payroll services charge premium rates and tack on compliance surcharges."',
                 body: 'The $25-$45 PEPM rate covers everything: payroll processing, 280E allocation documentation, state filings, multi-state registrations, year-end W-2s, and BEG support.',
               },

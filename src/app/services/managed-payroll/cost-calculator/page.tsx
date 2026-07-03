@@ -91,7 +91,7 @@ export default function PayrollCostCalculatorPage() {
             </div>
             <div className="faq-item">
               <h3>What if my company has more than 250 employees?</h3>
-              <p>The calculator caps at 250 for display purposes. BEG serves companies well above that headcount. Book a discovery call and your BEG contact will scope the engagement and give you an exact monthly cost at your actual employee count.</p>
+              <p>The calculator caps at 250 for display purposes. BEG serves companies well above that headcount. Use the Get Pricing form and book the follow-up call from your quote screen; your BEG contact will confirm the exact monthly cost at your actual employee count.</p>
             </div>
           </div>
         </div>

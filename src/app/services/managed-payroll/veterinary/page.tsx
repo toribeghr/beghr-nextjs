@@ -143,7 +143,7 @@ export default function PayrollVeterinaryPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services charge extra for production pay integrations and 1099 processing."',
                 body: 'The $25-$45 PEPM rate covers everything: production pay calculation, relief vet 1099 processing, multi-state filings, year-end W-2s, and BEG support. One number, every month.',
               },

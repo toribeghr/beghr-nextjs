@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Home Health Payroll, Signs Time to Outsource | BEG',
-  description: 'Managed payroll for home health. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for home health. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-health/home-health-when-to-outsource-payroll' },
   openGraph: {
     title: 'Home Health Payroll, Signs Time to Outsource | BEG',

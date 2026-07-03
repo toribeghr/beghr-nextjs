@@ -196,7 +196,7 @@ export default function SaaSPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Scale Without Payroll Overhead.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>RSU vesting, multi-state remote payroll, contractor classification -- handled at $25-$45 per employee per month. Book a 15-minute call to see what it costs for your current headcount and where you are going.</p>
+          <p style={{ marginBottom: '1.5rem' }}>RSU vesting, multi-state remote payroll, contractor classification -- handled at $25-$45 per employee per month. Answer a few quick questions to see what it costs for your current headcount and where you are going.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Fitness Payroll Under 25 Employees (Full Breakdown) | BEG',
-  description: 'Managed payroll for fitness. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for fitness. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/fitness/fitness-managed-payroll-small-business' },
   openGraph: {
     title: 'Fitness Payroll Under 25 Employees (Full Breakdown) | BEG',

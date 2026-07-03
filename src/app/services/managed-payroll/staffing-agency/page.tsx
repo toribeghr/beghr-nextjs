@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Staffing Agency Payroll | Instant Quote | BEG',
-  description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.',
+  description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Get an instant quote.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/staffing-agency' },
   openGraph: {
     title: 'Staffing Agency Payroll | Instant Quote | BEG',
-    description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.',
+    description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Get an instant quote.',
     url: 'https://www.beghr.com/services/managed-payroll/staffing-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll | Instant Quote | BEG', description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll | Instant Quote | BEG', description: 'Staffing agency payroll fully managed at $25-$45 PEPM. Weekly cycles, W-2 compliance, multi-state temp worker filings included. Get an instant quote.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('staffing-agency-payroll');

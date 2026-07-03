@@ -143,7 +143,7 @@ export default function PayrollAutoDealershipPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll companies charge extra for commission processing, clawbacks, and year-end fringe benefit reporting."',
                 body: 'The $25–$45 PEPM rate covers it all: commission processing, clawback handling, flat-rate FLSA calculations, demo vehicle fringe benefit reporting, multi-state filings, year-end W-2s, and BEG support. One number. Everything included.',
               },

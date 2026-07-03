@@ -150,7 +150,7 @@ export default function OvertimePayCalculatorPage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>Get Overtime Right Every Run</p>
           <h2 style={{ color: '#fff', marginBottom: '1rem' }}>Let BEG handle regular-rate overtime automatically.</h2>
           <p style={{ color: '#ccc', lineHeight: '1.7', marginBottom: '2rem' }}>
-            BEG fully managed payroll runs at $25 to $45 PEPM, all-inclusive, and calculates regular-rate, blended-rate, and bonus overtime correctly on every cycle so you avoid back-pay and penalties. Book a free 15-minute discovery call.
+            BEG fully managed payroll runs at $25 to $45 PEPM, all-inclusive, and calculates regular-rate, blended-rate, and bonus overtime correctly on every cycle so you avoid back-pay and penalties. See your exact price in 90 seconds.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

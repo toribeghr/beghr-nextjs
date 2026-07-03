@@ -213,7 +213,7 @@ export default function ManufacturingPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Manufacturing Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, overtime, union CBAs, certified payroll. We run it all at $25-$45 per employee per month -- all-inclusive. Book a 15-minute call to see what it costs for your facility size.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Shift differentials, overtime, union CBAs, certified payroll. We run it all at $25-$45 per employee per month -- all-inclusive. Answer a few quick questions to see what it costs for your facility size.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

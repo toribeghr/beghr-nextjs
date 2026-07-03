@@ -75,7 +75,7 @@ export default function VacantRoleCostCalculatorPage() {
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '640px', textAlign: 'center' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>Stop the Bleed</p>
-          <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>Book a free discovery call and put a fill date on this role.</h2>
+          <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>Get your placement quote in 90 seconds and put a fill date on this role.</h2>
           <p style={{ color: '#cccccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             BEG is a permanent placement service and an authorized reseller of iSolved Job Placement. We fill roles in 23 to 35 days with an 86% fill rate, backed by a 45-day replacement guarantee. The faster the seat is filled, the less of this cost you pay.
           </p>

@@ -25,27 +25,27 @@ const posts = [
   },
   {
     "title": "How to Calculate Payroll Taxes: Employer Guide",
-    "description": "How to Calculate Payroll Taxes: Employer Guide. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Calculate Payroll Taxes: Employer Guide. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-calculate-payroll-taxes"
   },
   {
     "title": "How to Handle Year-End Payroll and W-2 Preparation",
-    "description": "How to Handle Year-End Payroll and W-2 Preparation. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Handle Year-End Payroll and W-2 Preparation. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-do-year-end-payroll-w2"
   },
   {
     "title": "How to Fix a Payroll Mistake: Step-by-Step Guide",
-    "description": "How to Fix a Payroll Mistake: Step-by-Step Guide. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Fix a Payroll Mistake: Step-by-Step Guide. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-fix-payroll-mistake"
   },
   {
     "title": "How to Handle a Final Paycheck When an Employee Leaves",
-    "description": "How to Handle a Final Paycheck When an Employee Leaves. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Handle a Final Paycheck When an Employee Leaves. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-handle-final-paycheck"
   },
   {
     "title": "How to Handle Payroll During FMLA or Medical Leave",
-    "description": "How to Handle Payroll During FMLA or Medical Leave. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Handle Payroll During FMLA or Medical Leave. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-handle-payroll-during-leave"
   },
   {
@@ -70,7 +70,7 @@ const posts = [
   },
   {
     "title": "How to Onboard a New Employee in Your Payroll System",
-    "description": "How to Onboard a New Employee in Your Payroll System. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Onboard a New Employee in Your Payroll System. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-onboard-new-employee-payroll"
   },
   {
@@ -80,17 +80,17 @@ const posts = [
   },
   {
     "title": "How to Process Payroll for Independent Contractors",
-    "description": "How to Process Payroll for Independent Contractors. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Process Payroll for Independent Contractors. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-process-payroll-for-contractors"
   },
   {
     "title": "How to Read a Payroll Report: Guide for Business Own..",
-    "description": "How to Read a Payroll Report: Guide for Business Owners. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Read a Payroll Report: Guide for Business Owners. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-read-payroll-report"
   },
   {
     "title": "How to Run Your First Payroll: Step-by-Step Guide",
-    "description": "How to Run Your First Payroll: Step-by-Step Guide. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Run Your First Payroll: Step-by-Step Guide. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-run-first-payroll"
   },
   {
@@ -110,12 +110,12 @@ const posts = [
   },
   {
     "title": "How to Switch Payroll Providers Without Losing Data",
-    "description": "How to Switch Payroll Providers Without Losing Data. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Switch Payroll Providers Without Losing Data. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-switch-payroll-providers"
   },
   {
     "title": "How to Transition from Manual Payroll to Outsourcing",
-    "description": "How to Transition from Manual Payroll to Outsourcing. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at",
+    "description": "How to Transition from Manual Payroll to Outsourcing. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/how-to/how-to-transition-from-manual-payroll"
   }
 ];

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "How Managed Payroll Works: From Onboarding to First..",
-    "description": "How Managed Payroll Works: From Onboarding to First Pay Run. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at",
+    "description": "How Managed Payroll Works: From Onboarding to First Pay Run. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/guides/managed-payroll-how-it-works"
   },
   {
@@ -55,7 +55,7 @@ const posts = [
   },
   {
     "title": "Payroll Outsourcing for Small Business Owners: Start..",
-    "description": "Payroll Outsourcing for Small Business Owners: Starter Guide. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at",
+    "description": "Payroll Outsourcing for Small Business Owners: Starter Guide. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/guides/payroll-outsourcing-for-small-business-owners"
   },
   {
@@ -90,7 +90,7 @@ const posts = [
   },
   {
     "title": "What Is Managed Payroll? A Plain-English Guide for B..",
-    "description": "What Is Managed Payroll? A Plain-English Guide for Business Owners. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at",
+    "description": "What Is Managed Payroll? A Plain-English Guide for Business Owners. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/guides/what-is-managed-payroll"
   }
 ];

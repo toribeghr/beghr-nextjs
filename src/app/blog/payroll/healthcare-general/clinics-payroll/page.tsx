@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Healthcare Clinic Payroll, Clinical Staff Pay Done Right | BEG',
-  description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K.',
+  description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K-$95K.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/healthcare-general/clinics-payroll' },
   openGraph: {
     title: 'Healthcare Clinic Payroll, Clinical Staff Pay Done Right | BEG',
-    description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K an...',
+    description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K-$95K an...',
     url: 'https://www.beghr.com/blog/payroll/healthcare-general/clinics-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Clinic Payroll, Clinical Staff Pay Done Right | BEG', description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K an...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Clinic Payroll, Clinical Staff Pay Done Right | BEG', description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K-$95K an...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a 60-person urgent care clinic?',
-    answer: 'At 60 employees, BEG managed payroll runs approximately $1,500–$2,700 per month ($25–$45 PEPM), all-inclusive. That covers shift differential processing, ACA measurement tracking, year-end W-2 preparation, multi-state filings if applicable, and HR support. A loaded HR Manager for a healthcare clinic costs $75,000–$110,000 annually. Most 60-person clinics save $57,000–$84,000 per year by outsourcing to BEG.',
+    answer: 'At 60 employees, BEG managed payroll runs approximately $1,500-$2,700 per month ($25-$45 PEPM), all-inclusive. That covers shift differential processing, ACA measurement tracking, year-end W-2 preparation, multi-state filings if applicable, and HR support. A loaded HR Manager for a healthcare clinic costs $75,000-$110,000 annually. Most 60-person clinics save $57,000-$84,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -96,13 +96,13 @@ export default function ClinicsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (HR Manager, healthcare)', '$55,000 – $80,000'],
-                ['Benefits (health, dental, vision, 401k) -- 30% of salary', '$16,500 – $24,000'],
-                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$5,500 – $8,000'],
-                ['Payroll/HR software (shift differential, ACA tracking)', '$3,000 – $6,000'],
-                ['Compliance training (ACA, FLSA, HIPAA-adjacent)', '$1,800 – $3,500'],
-                ['Hiring cost amortized (recruiter, onboarding, ramp)', '$3,500 – $6,000'],
-                ['TOTAL loaded annual cost', '$85,300 – $127,500'],
+                ['Base salary (HR Manager, healthcare)', '$55,000 - $80,000'],
+                ['Benefits (health, dental, vision, 401k) -- 30% of salary', '$16,500 - $24,000'],
+                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$5,500 - $8,000'],
+                ['Payroll/HR software (shift differential, ACA tracking)', '$3,000 - $6,000'],
+                ['Compliance training (ACA, FLSA, HIPAA-adjacent)', '$1,800 - $3,500'],
+                ['Hiring cost amortized (recruiter, onboarding, ramp)', '$3,500 - $6,000'],
+                ['TOTAL loaded annual cost', '$85,300 - $127,500'],
               ].map(([a, b], i) => (
                 <tr key={i} style={{
                   background: i % 2 === 0 ? '#f9f9f9' : '#fff',
@@ -117,11 +117,11 @@ export default function ClinicsPayrollPage() {
           </table>
         </div>
 
-        <p>This does not account for error exposure. One undetected ACA penalty at a 60-person clinic can cost $172,800 per year (60 employees x $2,880). A single provider RVU dispute that results in physician departure costs $200,000–$500,000 in lost revenue and recruitment expense. The financial case for specialist payroll management is not just salary savings -- it is risk elimination.</p>
+        <p>This does not account for error exposure. One undetected ACA penalty at a 60-person clinic can cost $172,800 per year (60 employees x $2,880). A single provider RVU dispute that results in physician departure costs $200,000-$500,000 in lost revenue and recruitment expense. The financial case for specialist payroll management is not just salary savings -- it is risk elimination.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Cost of BEG Managed Payroll for Healthcare Clinics</h2>
 
-        <p>BEG managed payroll is priced at $25–$45 per employee per month (PEPM), all-inclusive. For healthcare clinics, that covers shift differential processing, ACA measurement tracking, RVU bonus integration, year-end W-2 preparation, and HR support -- with no extra fees for clinical complexity.</p>
+        <p>BEG managed payroll is priced at $25-$45 per employee per month (PEPM), all-inclusive. For healthcare clinics, that covers shift differential processing, ACA measurement tracking, RVU bonus integration, year-end W-2 preparation, and HR support -- with no extra fees for clinical complexity.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>
@@ -135,10 +135,10 @@ export default function ClinicsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['25 employees', '$625 – $1,125', '$7,500 – $13,500', '$71,800 – $117,000'],
-                ['60 employees', '$1,500 – $2,700', '$18,000 – $32,400', '$52,900 – $102,300'],
-                ['100 employees', '$2,500 – $4,500', '$30,000 – $54,000', '$31,300 – $85,500'],
-                ['200 employees', '$5,000 – $9,000', '$60,000 – $108,000', 'Varies at scale'],
+                ['25 employees', '$625 - $1,125', '$7,500 - $13,500', '$71,800 - $117,000'],
+                ['60 employees', '$1,500 - $2,700', '$18,000 - $32,400', '$52,900 - $102,300'],
+                ['100 employees', '$2,500 - $4,500', '$30,000 - $54,000', '$31,300 - $85,500'],
+                ['200 employees', '$5,000 - $9,000', '$60,000 - $108,000', 'Varies at scale'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>
@@ -155,7 +155,7 @@ export default function ClinicsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>ACA Affordability Failures and Measurement Period Errors</p>
-          <p style={{ margin: 0 }}>Clinics frequently employ part-time clinical support staff -- medical assistants, front desk coordinators, lab techs -- whose hours fluctuate. The ACA employer mandate requires tracking hours over a defined measurement period (3–12 months) to determine full-time status and coverage eligibility. When measurement periods are tracked manually or not tracked at all, employers miss the offer-of-coverage window and expose themselves to Section 4980H penalties of $2,880 per full-time employee per year (2026). At a 60-person clinic with 15 variable-hours employees who cross the threshold, that is $43,200 in annual penalties -- money that goes directly to the IRS instead of clinic operations.</p>
+          <p style={{ margin: 0 }}>Clinics frequently employ part-time clinical support staff -- medical assistants, front desk coordinators, lab techs -- whose hours fluctuate. The ACA employer mandate requires tracking hours over a defined measurement period (3-12 months) to determine full-time status and coverage eligibility. When measurement periods are tracked manually or not tracked at all, employers miss the offer-of-coverage window and expose themselves to Section 4980H penalties of $2,880 per full-time employee per year (2026). At a 60-person clinic with 15 variable-hours employees who cross the threshold, that is $43,200 in annual penalties -- money that goes directly to the IRS instead of clinic operations.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
@@ -165,7 +165,7 @@ export default function ClinicsPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>Provider RVU Miscalculation and Departure Risk</p>
-          <p style={{ margin: 0 }}>If a clinic pays physician or advanced practice provider bonuses based on relative value units and the RVU calculation is incorrect -- whether due to a billing system export error or a manual translation mistake -- the resulting compensation dispute can be irreparable. Physicians who believe they have been underpaid do not typically wait for a corrected run. They consult their employment agreement, contact an attorney, and begin an exit process. Losing a physician costs a clinic $200,000–$500,000 in revenue and $50,000–$150,000 in replacement recruitment. A payroll provider who builds a clean, auditable RVU-to-bonus calculation process eliminates this risk entirely.</p>
+          <p style={{ margin: 0 }}>If a clinic pays physician or advanced practice provider bonuses based on relative value units and the RVU calculation is incorrect -- whether due to a billing system export error or a manual translation mistake -- the resulting compensation dispute can be irreparable. Physicians who believe they have been underpaid do not typically wait for a corrected run. They consult their employment agreement, contact an attorney, and begin an exit process. Losing a physician costs a clinic $200,000-$500,000 in revenue and $50,000-$150,000 in replacement recruitment. A payroll provider who builds a clean, auditable RVU-to-bonus calculation process eliminates this risk entirely.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
@@ -179,7 +179,7 @@ export default function ClinicsPayrollPage() {
           <li><strong>Shift differentials:</strong> Day, evening, night, and weekend pay rates must be applied automatically based on actual time worked. Manual calculation at any scale creates systematic error risk.</li>
           <li><strong>RVU-based provider compensation:</strong> Physician and advanced practice provider bonuses require a clean data pipeline from your billing or EMR system to payroll. Errors here are expensive and often relationship-ending.</li>
           <li><strong>ACA measurement period tracking:</strong> Variable-hours clinical staff require continuous hours tracking to determine ACA full-time equivalency before coverage must be offered. Manual tracking fails at any volume.</li>
-          <li><strong>Clinical staff turnover and continuity:</strong> Healthcare support staff turnover averages 25–35% annually. An outsourced payroll provider provides continuity regardless of internal HR changes.</li>
+          <li><strong>Clinical staff turnover and continuity:</strong> Healthcare support staff turnover averages 25-35% annually. An outsourced payroll provider provides continuity regardless of internal HR changes.</li>
           <li><strong>HIPAA-adjacent data handling:</strong> Payroll that intersects with clinical scheduling, provider ID data, or production metrics requires proper BAA documentation and vendor security controls.</li>
         </ul>
 
@@ -197,8 +197,8 @@ export default function ClinicsPayrollPage() {
             <tbody>
               {[
                 ['Under 30 employees', 'Outsource', 'Shift differentials and ACA tracking require specialist systems. No ROI for in-house HR at this headcount.'],
-                ['30 – 100 employees', 'Outsource', 'Peak ROI. ACA risk is highest at this size. Differential and RVU complexity demands a dedicated payroll system.'],
-                ['100 – 200 employees', 'Outsource or hybrid', 'Keep payroll outsourced. Add an HR generalist for recruiting, culture, and credentialing support.'],
+                ['30 - 100 employees', 'Outsource', 'Peak ROI. ACA risk is highest at this size. Differential and RVU complexity demands a dedicated payroll system.'],
+                ['100 - 200 employees', 'Outsource or hybrid', 'Keep payroll outsourced. Add an HR generalist for recruiting, culture, and credentialing support.'],
                 ['200+ employees', 'Assess by complexity', 'Multi-site clinic networks and multi-state operations still benefit significantly from managed payroll.'],
               ].map(([a, b, c], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -213,7 +213,7 @@ export default function ClinicsPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll for Healthcare Clinics</h3>
-          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles shift differential processing, ACA measurement tracking, RVU bonus integration, and HR compliance for urgent care, outpatient, and specialty clinics nationally. All-inclusive at $25–$45 PEPM. Schedule a 15-minute call and get an exact quote for your clinic.</p>
+          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles shift differential processing, ACA measurement tracking, RVU bonus integration, and HR compliance for urgent care, outpatient, and specialty clinics nationally. All-inclusive at $25-$45 PEPM. Answer a few quick questions and get an exact quote for your clinic on screen.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -239,7 +239,7 @@ export default function ClinicsPayrollPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving healthcare clinics, outpatient practices, and multi-site clinic groups at $25–$45 PEPM, all-inclusive.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll and HR solutions at Business Executive Group (BEG), a national managed payroll firm serving healthcare clinics, outpatient practices, and multi-site clinic groups at $25-$45 PEPM, all-inclusive.</p>
         </div>
       </section>
 
@@ -272,7 +272,7 @@ export default function ClinicsPayrollPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Healthcare Clinic Payroll Outsourcing: Managing Clinical Staff Pay (2026)',
-        description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K–$95K annually.',
+        description: 'Healthcare clinic payroll outsourcing for urgent care, outpatient, and specialty clinics. Shift differentials, RVU comp, ACA tracking. Save $55K-$95K annually.',
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: {

@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: 'What payroll records does FINRA require firms to retain?',
-    answer: 'FINRA Rule 4511 requires member firms to retain books and records for defined periods -- generally 3–6 years depending on record type. Payroll records that tie to registered representative compensation must be organized to support regulatory exam requests. An outsourced payroll provider with structured record-keeping and audit trail capabilities makes FINRA exam preparation significantly faster. Disorganized payroll records are a common deficiency finding in FINRA exams of smaller broker-dealers.',
+    answer: 'FINRA Rule 4511 requires member firms to retain books and records for defined periods -- generally 3-6 years depending on record type. Payroll records that tie to registered representative compensation must be organized to support regulatory exam requests. An outsourced payroll provider with structured record-keeping and audit trail capabilities makes FINRA exam preparation significantly faster. Disorganized payroll records are a common deficiency finding in FINRA exams of smaller broker-dealers.',
   },
   {
     question: 'We have advisors who work from home in a different state than our main office. How does payroll handle that?',
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a 35-advisor RIA?',
-    answer: 'At 35 employees, BEG managed payroll runs approximately $875–$1,575 per month ($25-$45 PEPM), all-inclusive. That covers payroll processing, commission integration, multi-state filings, year-end W-2 preparation, and HR support. A loaded in-house HR Manager for a financial services firm runs $95,000–$130,000 annually. Most 35-person RIAs save $83,000–$115,000 per year by outsourcing to BEG.',
+    answer: 'At 35 employees, BEG managed payroll runs approximately $875-$1,575 per month ($25-$45 PEPM), all-inclusive. That covers payroll processing, commission integration, multi-state filings, year-end W-2 preparation, and HR support. A loaded in-house HR Manager for a financial services firm runs $95,000-$130,000 annually. Most 35-person RIAs save $83,000-$115,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -96,13 +96,13 @@ export default function WealthFirmsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (HR Manager, financial services)', '$65,000 – $95,000'],
-                ['Benefits (health, dental, vision, 401k match) -- 30% of salary', '$19,500 – $28,500'],
-                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$6,500 – $9,500'],
-                ['Payroll software (commission-capable, multi-state)', '$3,600 – $7,200'],
-                ['Compliance training (409A, FLSA, multi-state)', '$2,000 – $4,000'],
-                ['Hiring cost amortized (recruiter, onboarding, ramp)', '$4,500 – $7,500'],
-                ['TOTAL loaded annual cost', '$101,100 – $151,700'],
+                ['Base salary (HR Manager, financial services)', '$65,000 - $95,000'],
+                ['Benefits (health, dental, vision, 401k match) -- 30% of salary', '$19,500 - $28,500'],
+                ['Payroll taxes (FICA, FUTA, SUTA) -- 10% of salary', '$6,500 - $9,500'],
+                ['Payroll software (commission-capable, multi-state)', '$3,600 - $7,200'],
+                ['Compliance training (409A, FLSA, multi-state)', '$2,000 - $4,000'],
+                ['Hiring cost amortized (recruiter, onboarding, ramp)', '$4,500 - $7,500'],
+                ['TOTAL loaded annual cost', '$101,100 - $151,700'],
               ].map(([a, b], i) => (
                 <tr key={i} style={{
                   background: i % 2 === 0 ? '#f9f9f9' : '#fff',
@@ -135,10 +135,10 @@ export default function WealthFirmsPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['20 employees', '$500 – $900', '$6,000 – $10,800', '$90,300 – $143,300'],
-                ['40 employees', '$1,000 – $1,800', '$12,000 – $21,600', '$79,500 – $134,900'],
-                ['75 employees', '$1,875 – $3,375', '$22,500 – $40,500', '$60,600 – $120,200'],
-                ['125 employees', '$3,125 – $5,625', '$37,500 – $67,500', '$33,600 – $99,200'],
+                ['20 employees', '$500 - $900', '$6,000 - $10,800', '$90,300 - $143,300'],
+                ['40 employees', '$1,000 - $1,800', '$12,000 - $21,600', '$79,500 - $134,900'],
+                ['75 employees', '$1,875 - $3,375', '$22,500 - $40,500', '$60,600 - $120,200'],
+                ['125 employees', '$3,125 - $5,625', '$37,500 - $67,500', '$33,600 - $99,200'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>
@@ -197,8 +197,8 @@ export default function WealthFirmsPayrollPage() {
             <tbody>
               {[
                 ['Under 25 employees', 'Outsource', 'No ROI for a dedicated HR Manager at this size. Managed payroll under $875/month handles everything including commission processing.'],
-                ['25 – 75 employees', 'Outsource', 'Peak ROI range. Regulatory complexity is highest per-employee at this size. 409A and FINRA audit trail risks are best managed by a specialist.'],
-                ['75 – 150 employees', 'Outsource or hybrid', 'Add an HR generalist for culture and recruiting; keep payroll and compliance outsourced where specialist expertise matters most.'],
+                ['25 - 75 employees', 'Outsource', 'Peak ROI range. Regulatory complexity is highest per-employee at this size. 409A and FINRA audit trail risks are best managed by a specialist.'],
+                ['75 - 150 employees', 'Outsource or hybrid', 'Add an HR generalist for culture and recruiting; keep payroll and compliance outsourced where specialist expertise matters most.'],
                 ['150+ employees', 'Assess by regulatory complexity', 'Multi-state, multi-entity, and RIA/BD dual-registration firms often still benefit from outsourced payroll even at large headcount.'],
               ].map(([a, b, c], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -213,7 +213,7 @@ export default function WealthFirmsPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll Built for Financial Services</h3>
-          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles commission payroll processing, multi-state advisor withholding, year-end W-2s, and HR compliance for RIAs, broker-dealers, and wealth management firms nationally. All-inclusive at $25-$45 PEPM. Schedule a 15-minute discovery call to get an exact quote for your firm size.</p>
+          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles commission payroll processing, multi-state advisor withholding, year-end W-2s, and HR compliance for RIAs, broker-dealers, and wealth management firms nationally. All-inclusive at $25-$45 PEPM. Answer a few quick questions to get an exact quote for your firm size on screen.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -272,7 +272,7 @@ export default function WealthFirmsPayrollPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Financial Services Payroll Outsourcing: Managing Commission, Deferred Comp, and Compliance (2026)',
-        description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save $70K–$120K annually.',
+        description: 'Financial services payroll outsourcing for wealth management firms, RIAs, and broker-dealers. Commission tracking, 409A, SEC/FINRA compliance. Save $70K-$120K annually.',
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: {

@@ -45,12 +45,12 @@ const posts = [
   },
   {
     "title": "Law Firms: Managed Payroll for Mid-Size Businesses (25-100 E",
-    "description": "Managed payroll for law firms. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "description": "Managed payroll for law firms. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-managed-payroll-mid-size"
   },
   {
     "title": "Law Firms: Managed Payroll for Small Businesses (Under 25 Em",
-    "description": "Managed payroll for law firms. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for law firms. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/law-firms/law-firms-managed-payroll-small-business"
   },
   {

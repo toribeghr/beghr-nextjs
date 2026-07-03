@@ -158,7 +158,7 @@ export default function PayrollOutsourcingFaqPage() {
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '640px', textAlign: 'center' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>Ready to Outsource Payroll?</p>
-          <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>Book a free 15-minute call. Get an exact monthly cost before you commit.</h2>
+          <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>Get an exact monthly cost in 90 seconds, before you commit to anything.</h2>
           <p style={{ color: '#cccccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             BEG will review your current payroll setup, answer any remaining questions, and give you a flat monthly number. <Link href="/services/managed-payroll" style={{ color: '#ECAC60', textDecoration: 'underline' }}>Learn more about BEG managed payroll</Link> at $25-$45 PEPM.
           </p>

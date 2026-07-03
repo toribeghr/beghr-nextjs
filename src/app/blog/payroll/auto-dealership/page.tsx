@@ -45,12 +45,12 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: For Mid-Size Business (25-100 EE)",
-    "description": "Managed payroll for auto dealerships. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery",
+    "description": "Managed payroll for auto dealerships. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-managed-payroll-mid-size"
   },
   {
     "title": "Auto Dealer Payroll: For Small Business (<25 EE)",
-    "description": "Managed payroll for auto dealerships. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery",
+    "description": "Managed payroll for auto dealerships. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-managed-payroll-small-business"
   },
   {
@@ -90,7 +90,7 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: Garnishments Guide",
-    "description": "Managed payroll for auto dealerships. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for auto dealerships. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-garnishments-guide"
   },
   {
@@ -100,7 +100,7 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for auto dealerships. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for auto dealerships. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-outsourcing-cost"
   },
   {
@@ -120,7 +120,7 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for auto dealerships. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for auto dealerships. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-payroll-software-vs-managed"
   },
   {
@@ -135,7 +135,7 @@ const posts = [
   },
   {
     "title": "Auto Dealer Payroll: When to Outsource",
-    "description": "Managed payroll for auto dealerships. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for auto dealerships. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/auto-dealership/auto-dealership-when-to-outsource-payroll"
   },
   {

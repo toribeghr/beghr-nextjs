@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Engineering Payroll, 25-100 Employees [Full Breakdown] | BEG',
-  description: 'Managed payroll for engineering. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for engineering. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/professional-services/engineering-managed-payroll-mid-size' },
   openGraph: {
     title: 'Engineering Payroll, 25-100 Employees [Full Breakdown] | BEG',

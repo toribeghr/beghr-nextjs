@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Home Health Payroll for Agencies Under 25 Staff | BEG',
-  description: 'Managed payroll for home health. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for home health. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-health/home-health-managed-payroll-small-business' },
   openGraph: {
     title: 'Home Health Payroll for Agencies Under 25 Staff | BEG',

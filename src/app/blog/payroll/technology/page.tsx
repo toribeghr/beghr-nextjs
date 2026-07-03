@@ -60,12 +60,12 @@ const posts = [
   },
   {
     "title": "Technology & SaaS Companies: Managed Payroll for Mid-Size Bu",
-    "description": "Managed payroll for tech/SaaS. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "description": "Managed payroll for tech/SaaS. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/technology/technology-managed-payroll-mid-size"
   },
   {
     "title": "Technology & SaaS Companies: Managed Payroll for Small Busin",
-    "description": "Managed payroll for tech/SaaS. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for tech/SaaS. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/technology/technology-managed-payroll-small-business"
   },
   {

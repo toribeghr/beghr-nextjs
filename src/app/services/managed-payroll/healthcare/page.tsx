@@ -6,17 +6,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Healthcare Payroll | Instant Quote | BEG',
-  description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
+  description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Get an instant quote.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/healthcare' },
   openGraph: {
     title: 'Healthcare Payroll | Instant Quote | BEG',
-    description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.',
+    description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Get an instant quote.',
     url: 'https://www.beghr.com/services/managed-payroll/healthcare',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Payroll | Instant Quote | BEG', description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Request a free scope review.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Payroll | Instant Quote | BEG', description: 'Healthcare payroll fully managed at $25-$45 PEPM. Shift differentials, compliance, and on-time filings included. Get an instant quote.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -176,7 +176,7 @@ export default function PayrollHealthcarePage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services always add fees for every little thing."',
                 body: 'The $25-$45 PEPM rate is all-inclusive: payroll processing, tax filing, compliance updates, year-end W-2s, and support. One number, everything included.',
               },

@@ -292,7 +292,7 @@ export default function ManagedPayrollPage() {
                 BEG onboards a maximum of 3 new payroll clients per month.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                To guarantee zero disruption to your first pay cycle, BEG limits new managed payroll onboards to 3 per month. The next available onboarding window is filling. Request a scope review this week to secure your slot before it closes.
+                To guarantee zero disruption to your first pay cycle, BEG limits new managed payroll onboards to 3 per month. The next available onboarding window is filling. Get your quote this week to secure your slot before it closes.
               </p>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '401(k) Payroll Deductions: What Employers Must Know | BEG',
-  description: '401(k) Payroll Deductions: Employer Compliance Guide. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance',
+  description: '401(k) Payroll Deductions: Employer Compliance Guide. Expert guidance from BEG managed payroll. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/401k-payroll-deduction-compliance' },
   openGraph: {
     title: '401(k) Payroll Deductions: What Employers Must Know | BEG',

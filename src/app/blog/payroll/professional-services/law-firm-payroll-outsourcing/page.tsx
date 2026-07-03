@@ -205,7 +205,7 @@ export default function LawFirmPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Law Firm Payroll, Handled at $25-$45 PEPM.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>Partner draws, associate salary tiers, multi-state withholding, billing system integration -- all-inclusive. Book a 15-minute call to get a cost comparison for your firm size and structure.</p>
+          <p style={{ marginBottom: '1.5rem' }}>Partner draws, associate salary tiers, multi-state withholding, billing system integration -- all-inclusive. Answer a few quick questions to get a cost comparison for your firm size and structure.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

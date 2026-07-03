@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('brewery-payroll');
 export default function PayrollBreweryPage() {
   return (
     <ServicePage
+      heroVideoId="NIJC6WaUD9U"
       imageSrc="/assets/hero-images/payroll.webp"
       imageAlt="Brewery with fully managed payroll for taproom and production staff"
       eyebrow="Managed Payroll · Breweries & Distilleries"

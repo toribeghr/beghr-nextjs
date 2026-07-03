@@ -45,12 +45,12 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: For Mid-Size Business (25-10..",
-    "description": "Managed payroll for financial services. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min",
+    "description": "Managed payroll for financial services. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-managed-payroll-mid-size"
   },
   {
     "title": "Financial Firm Payroll: For Small Business (<25 EE)",
-    "description": "Managed payroll for financial services. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min",
+    "description": "Managed payroll for financial services. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-managed-payroll-small-business"
   },
   {
@@ -90,7 +90,7 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: Garnishments Guide",
-    "description": "Managed payroll for financial services. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for financial services. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-garnishments-guide"
   },
   {
@@ -100,7 +100,7 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: Outsourcing Cost vs. In-House",
-    "description": "Managed payroll for financial services. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for financial services. Payroll Outsourcing Cost vs. In-House Hire. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-outsourcing-cost"
   },
   {
@@ -120,7 +120,7 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: Software vs. Managed Service",
-    "description": "Managed payroll for financial services. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for financial services. Payroll Software vs. Managed Payroll Service. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-payroll-software-vs-managed"
   },
   {
@@ -135,7 +135,7 @@ const posts = [
   },
   {
     "title": "Financial Firm Payroll: When to Outsource",
-    "description": "Managed payroll for financial services. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for financial services. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/financial-services/financial-services-when-to-outsource-payroll"
   },
   {

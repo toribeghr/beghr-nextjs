@@ -149,7 +149,7 @@ export default function AutoDealershipComparisonPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>See what managed payroll costs for your dealership</h2>
           <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>
-            Free 15-minute scope review. We will walk through your current commission and chargeback structure to confirm BEG can handle it, and give you exact pricing before you commit to anything.
+            Answer a few quick questions and see your exact monthly and annual price on screen. No call required.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

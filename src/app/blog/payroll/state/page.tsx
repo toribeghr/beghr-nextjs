@@ -20,92 +20,92 @@ export const metadata: Metadata = {
 const posts = [
   {
     "title": "Payroll Outsourcing in Arizona for Growing Businesses",
-    "description": "Payroll Outsourcing in Arizona for Growing Businesses. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Arizona for Growing Businesses. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-arizona"
   },
   {
     "title": "Payroll Outsourcing in California: Compliance Guide",
-    "description": "Payroll Outsourcing in California: Compliance Guide. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in California: Compliance Guide. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-california"
   },
   {
     "title": "Payroll Outsourcing in Colorado: New Laws and Requir..",
-    "description": "Payroll Outsourcing in Colorado: New Laws and Requirements. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your",
+    "description": "Payroll Outsourcing in Colorado: New Laws and Requirements. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-colorado"
   },
   {
     "title": "Payroll Outsourcing in Florida: What to Know",
-    "description": "Payroll Outsourcing in Florida: What to Know. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements",
+    "description": "Payroll Outsourcing in Florida: What to Know. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-florida"
   },
   {
     "title": "Payroll Outsourcing in Georgia for Small Businesses",
-    "description": "Payroll Outsourcing in Georgia for Small Businesses. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Georgia for Small Businesses. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-georgia"
   },
   {
     "title": "Payroll Outsourcing in Illinois: Employer Guide",
-    "description": "Payroll Outsourcing in Illinois: Employer Guide. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Illinois: Employer Guide. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-illinois"
   },
   {
     "title": "Payroll Outsourcing in Massachusetts: What Changed i..",
-    "description": "Payroll Outsourcing in Massachusetts: What Changed in 2026. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your",
+    "description": "Payroll Outsourcing in Massachusetts: What Changed in 2026. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-massachusetts"
   },
   {
     "title": "Payroll Outsourcing in Michigan: What Employers Need..",
-    "description": "Payroll Outsourcing in Michigan: What Employers Need to Know. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your",
+    "description": "Payroll Outsourcing in Michigan: What Employers Need to Know. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-michigan"
   },
   {
     "title": "Payroll Outsourcing in Minnesota: Employer Checklist",
-    "description": "Payroll Outsourcing in Minnesota: Employer Checklist. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Minnesota: Employer Checklist. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-minnesota"
   },
   {
     "title": "Multi-State Payroll Outsourcing: Guide for Businesse..",
-    "description": "Multi-State Payroll Outsourcing: Guide for Businesses in 2+ States. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your",
+    "description": "Multi-State Payroll Outsourcing: Guide for Businesses in 2+ States. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-multi-state"
   },
   {
     "title": "Payroll Outsourcing in Nevada for Service Businesses",
-    "description": "Payroll Outsourcing in Nevada for Service Businesses. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Nevada for Service Businesses. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-nevada"
   },
   {
     "title": "Payroll Outsourcing in New York: Compliance Requirem..",
-    "description": "Payroll Outsourcing in New York: Compliance Requirements. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in New York: Compliance Requirements. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-new-york"
   },
   {
     "title": "Payroll Outsourcing in North Carolina",
-    "description": "Payroll Outsourcing in North Carolina. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at",
+    "description": "Payroll Outsourcing in North Carolina. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-north-carolina"
   },
   {
     "title": "Payroll Outsourcing in Ohio: Requirements and Options",
-    "description": "Payroll Outsourcing in Ohio: Requirements and Options. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Ohio: Requirements and Options. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-ohio"
   },
   {
     "title": "Payroll Outsourcing in Oregon: Paid Leave and More",
-    "description": "Payroll Outsourcing in Oregon: Paid Leave and More. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Oregon: Paid Leave and More. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-oregon"
   },
   {
     "title": "Payroll Outsourcing in Pennsylvania: Compliance Over..",
-    "description": "Payroll Outsourcing in Pennsylvania: Compliance Overview. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Pennsylvania: Compliance Overview. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-pennsylvania"
   },
   {
     "title": "Payroll Outsourcing in Tennessee for Small Businesses",
-    "description": "Payroll Outsourcing in Tennessee for Small Businesses. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific",
+    "description": "Payroll Outsourcing in Tennessee for Small Businesses. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-tennessee"
   },
   {
     "title": "Payroll Outsourcing in Texas: What Businesses Need t..",
-    "description": "Payroll Outsourcing in Texas: What Businesses Need to Know. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your",
+    "description": "Payroll Outsourcing in Texas: What Businesses Need to Know. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-texas"
   },
   {
@@ -115,7 +115,7 @@ const posts = [
   },
   {
     "title": "Payroll Outsourcing in Washington State",
-    "description": "Payroll Outsourcing in Washington State. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at",
+    "description": "Payroll Outsourcing in Washington State. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/state/payroll-outsourcing-washington"
   }
 ];

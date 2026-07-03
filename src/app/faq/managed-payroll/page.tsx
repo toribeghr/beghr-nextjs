@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: 'How do I get started?',
-    a: 'Book a free 15-minute discovery call with BEG. On that call, we review your current payroll setup, your employee count and pay structure, any compliance requirements specific to your industry or states, and your timeline. You will get an exact monthly cost before the call ends. If you decide to move forward, BEG handles the rest: data setup, your first live payroll, and an introduction to your dedicated payroll contact. There is no commitment required from the discovery call.',
+    a: 'Get instant pricing at beghr.com.',
   },
 ];
 

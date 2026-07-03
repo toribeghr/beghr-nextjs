@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'IRS Form 940 vs. 941: The Real Difference | BEG',
-  description: 'IRS Form 940 vs. 941: What Employers Need to Know. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll compliance at',
+  description: 'IRS Form 940 vs. 941: What Employers Need to Know. Expert guidance from BEG managed payroll. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/940-vs-941-payroll-tax-explained' },
   openGraph: {
     title: 'IRS Form 940 vs. 941: The Real Difference | BEG',

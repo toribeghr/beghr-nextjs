@@ -60,12 +60,12 @@ const posts = [
   },
   {
     "title": "Real Estate Payroll: For Mid-Size Business (25-100 EE)",
-    "description": "Managed payroll for real estate. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "description": "Managed payroll for real estate. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/real-estate/real-estate-managed-payroll-mid-size"
   },
   {
     "title": "Real Estate Payroll: For Small Business (<25 EE)",
-    "description": "Managed payroll for real estate. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "description": "Managed payroll for real estate. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/real-estate/real-estate-managed-payroll-small-business"
   },
   {
@@ -150,7 +150,7 @@ const posts = [
   },
   {
     "title": "Real Estate Payroll: When to Outsource",
-    "description": "Managed payroll for real estate. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at",
+    "description": "Managed payroll for real estate. Signs Your Business Needs to Outsource Payroll. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/real-estate/real-estate-when-to-outsource-payroll"
   },
   {

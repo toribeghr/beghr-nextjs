@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'ACA Reporting for Employers With 50+ Employees | BEG',
-  description: 'ACA Reporting and the Employer Mandate for 50+ Employees. Expert guidance from BEG managed payroll. Book a free 15-min call to review your payroll',
+  description: 'ACA Reporting and the Employer Mandate for 50+ Employees. Expert guidance from BEG managed payroll. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/compliance/aca-reporting-employer-mandate' },
   openGraph: {
     title: 'ACA Reporting for Employers With 50+ Employees | BEG',

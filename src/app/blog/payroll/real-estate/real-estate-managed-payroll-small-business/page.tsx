@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Real Estate Payroll Under 25 Employees (What to Know) | BEG',
-  description: 'Managed payroll for real estate. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call',
+  description: 'Managed payroll for real estate. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/real-estate/real-estate-managed-payroll-small-business' },
   openGraph: {
     title: 'Real Estate Payroll Under 25 Employees (What to Know) | BEG',

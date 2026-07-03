@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Multi-State Payroll Outsourcing for 2+ State Employers | BEG',
-  description: 'Multi-State Payroll Outsourcing: Guide for Businesses in 2+ States. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your',
+  description: 'Multi-State Payroll Outsourcing: Guide for Businesses in 2+ States. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/state/payroll-outsourcing-multi-state' },
   openGraph: {
     title: 'Multi-State Payroll Outsourcing for 2+ State Employers | BEG',

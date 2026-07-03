@@ -191,7 +191,7 @@ export default function PayrollInsuranceAgencyPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix your commission payroll structure is before adding the next producer.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. Agencies that get commission payroll right before growing their producer roster avoid carrying bad reconciliation practices into a larger workforce. Schedule a scope review and we will map exactly what your current setup is getting right and what needs to change.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>BEG transitions take 30-60 days. Agencies that get commission payroll right before growing their producer roster avoid carrying bad reconciliation practices into a larger workforce. Get your instant quote, and on the follow-up call we will map exactly what your current setup is getting right and what needs to change.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>

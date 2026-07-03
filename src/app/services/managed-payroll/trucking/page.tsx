@@ -143,7 +143,7 @@ export default function PayrollTruckingPage() {
               },
               {
                 badge: 'Bonus 02',
-                title: 'All-inclusive flat rate. No surprise fees.',
+                title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll services bill extra for multi-state filings, 1099 processing, and per diem tracking."',
                 body: 'The $25-$45 PEPM rate covers it all: W-2 processing, owner-operator 1099s, multi-state tax filings, per diem tracking, year-end W-2s and 1099-NECs, and BEG support.',
               },

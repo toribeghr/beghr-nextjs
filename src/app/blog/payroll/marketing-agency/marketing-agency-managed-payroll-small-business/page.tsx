@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Agency Payroll: Managed for Under 25 Employees | BEG',
-  description: 'Managed payroll for marketing agencies. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min',
+  description: 'Managed payroll for marketing agencies. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-small-business' },
   openGraph: {
     title: 'Agency Payroll: Managed for Under 25 Employees | BEG',

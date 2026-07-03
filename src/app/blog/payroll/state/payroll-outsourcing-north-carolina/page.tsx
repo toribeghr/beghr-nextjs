@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing in North Carolina Explained | BEG',
-  description: 'Payroll Outsourcing in North Carolina. BEG provides managed payroll nationwide. Book a free 15-min call to discuss your state-specific requirements at',
+  description: 'Payroll Outsourcing in North Carolina. BEG provides managed payroll nationwide. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/state/payroll-outsourcing-north-carolina' },
   openGraph: {
     title: 'Payroll Outsourcing in North Carolina Explained | BEG',

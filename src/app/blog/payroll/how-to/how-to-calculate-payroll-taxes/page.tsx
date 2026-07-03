@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Calculate Payroll Taxes, An Employer Guide | BEG',
-  description: 'How to Calculate Payroll Taxes: Employer Guide. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
+  description: 'How to Calculate Payroll Taxes: Employer Guide. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/how-to/how-to-calculate-payroll-taxes' },
   openGraph: {
     title: 'How to Calculate Payroll Taxes, An Employer Guide | BEG',

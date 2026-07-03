@@ -40,7 +40,7 @@ const posts = [
   },
   {
     "title": "Multi-State Payroll Tax Filing: What Managed Payroll..",
-    "description": "Multi-State Payroll Tax Filing: What Managed Payroll Handles. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at",
+    "description": "Multi-State Payroll Tax Filing: What Managed Payroll Handles. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/multi-state-payroll-tax-filing"
   },
   {
@@ -70,7 +70,7 @@ const posts = [
   },
   {
     "title": "Payroll Integration with QuickBooks and Accounting S..",
-    "description": "Payroll Integration with QuickBooks and Accounting Software. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at",
+    "description": "Payroll Integration with QuickBooks and Accounting Software. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/features/payroll-integration-accounting-software"
   },
   {

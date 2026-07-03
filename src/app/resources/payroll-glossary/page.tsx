@@ -346,7 +346,7 @@ export default function PayrollGlossaryPage() {
           <div style={{ background: '#000', color: '#fff', borderRadius: '8px', padding: '2.5rem', marginTop: '4rem', textAlign: 'center' }}>
             <h2 style={{ color: '#ECAC60', marginBottom: '0.75rem' }}>Stop managing payroll. Start delegating it.</h2>
             <p style={{ color: '#ccc', marginBottom: '1.5rem', maxWidth: '520px', margin: '0 auto 1.5rem' }}>
-              BEG handles every term in this glossary for you. Fully managed payroll at $25-$45 per employee per month. Book a free 15-minute call to see how it works.
+              BEG handles every term in this glossary for you. Fully managed payroll at $25-$45 per employee per month. See your exact price in 90 seconds.
             </p>
             <PricingCta service="managed-payroll" subline={false} />
             <p style={{ margin: 0 }}>

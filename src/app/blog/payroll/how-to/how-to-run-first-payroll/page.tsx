@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How to Run Your First Payroll, Step by Step | BEG',
-  description: 'How to Run Your First Payroll: Step-by-Step Guide. Step-by-step guidance from BEG managed payroll specialists. Questions? Book a free 15-min call at',
+  description: 'How to Run Your First Payroll: Step-by-Step Guide. Step-by-step guidance from BEG managed payroll specialists. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/how-to/how-to-run-first-payroll' },
   openGraph: {
     title: 'How to Run Your First Payroll, Step by Step | BEG',

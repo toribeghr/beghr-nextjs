@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Auto Dealer Payroll Garnishments (What to Know) | BEG',
-  description: 'Managed payroll for auto dealerships. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for auto dealerships. Payroll Garnishments: What You Need to Know. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/auto-dealership/auto-dealership-payroll-garnishments-guide' },
   openGraph: {
     title: 'Auto Dealer Payroll Garnishments (What to Know) | BEG',

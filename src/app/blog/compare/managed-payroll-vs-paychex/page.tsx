@@ -114,7 +114,7 @@ export default function ManagedPayrollVsPaychexPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Currently on Paychex and wondering if managed payroll makes sense?</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG can operate within your existing Paychex setup, or move you to iSolved -- your call. We'll run the numbers either way in a free 15-minute call.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG can operate within your existing Paychex setup, or move you to iSolved -- your call. Answer a few quick questions and see the numbers for both paths on screen.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -138,7 +138,7 @@ export default function ManagedPayrollVsPaychexPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>See what managed payroll looks like for your setup</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. Whether you're on Paychex, ADP, or nothing at all -- we'll show you exactly what BEG managed payroll costs and what changes for your team.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Answer a few quick questions and see your exact monthly and annual price on screen. No call required.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

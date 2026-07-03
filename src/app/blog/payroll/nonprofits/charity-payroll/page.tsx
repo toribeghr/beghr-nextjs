@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Payroll Outsourcing: Is It Worth It? | BEG',
-  description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.',
+  description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K-$85K annually.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/nonprofits/charity-payroll' },
   openGraph: {
     title: 'Nonprofit Payroll Outsourcing: Is It Worth It? | BEG',
-    description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.',
+    description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K-$85K annually.',
     url: 'https://www.beghr.com/blog/payroll/nonprofits/charity-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Nonprofit Payroll Outsourcing: Is It Worth It? | BEG', description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Payroll Outsourcing: Is It Worth It? | BEG', description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K-$85K annually.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'What does BEG managed payroll cost for a nonprofit with 40 employees?',
-    answer: 'At 40 employees, BEG managed payroll runs approximately $1,000–$1,800 per month ($25-$45 PEPM), all-inclusive. That covers payroll processing with grant allocation coding, FUTA exemption configuration, ACA tracking if applicable, year-end W-2 preparation, 1099-NEC filing for contractors, and HR support. A loaded in-house HR staff position for a nonprofit costs $57,000–$86,000 annually. Most 40-person nonprofits save $44,000–$72,000 per year by outsourcing to BEG.',
+    answer: 'At 40 employees, BEG managed payroll runs approximately $1,000-$1,800 per month ($25-$45 PEPM), all-inclusive. That covers payroll processing with grant allocation coding, FUTA exemption configuration, ACA tracking if applicable, year-end W-2 preparation, 1099-NEC filing for contractors, and HR support. A loaded in-house HR staff position for a nonprofit costs $57,000-$86,000 annually. Most 40-person nonprofits save $44,000-$72,000 per year by outsourcing to BEG.',
   },
 ];
 
@@ -96,13 +96,13 @@ export default function CharityPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (HR Staff, nonprofit)', '$42,000 – $62,000'],
-                ['Benefits (health, dental, vision, 401k or 403b) -- 30% of salary', '$12,600 – $18,600'],
-                ['Payroll taxes (FICA, SUTA -- no FUTA for 501(c)(3)) -- 8% of salary', '$3,360 – $4,960'],
-                ['Payroll/HR software (grant allocation, ACA tracking)', '$2,400 – $4,800'],
-                ['Compliance training (grant management, FLSA, nonprofit tax)', '$1,500 – $2,500'],
-                ['Hiring cost amortized (recruiter, onboarding, ramp)', '$2,500 – $4,500'],
-                ['TOTAL loaded annual cost', '$64,360 – $97,360'],
+                ['Base salary (HR Staff, nonprofit)', '$42,000 - $62,000'],
+                ['Benefits (health, dental, vision, 401k or 403b) -- 30% of salary', '$12,600 - $18,600'],
+                ['Payroll taxes (FICA, SUTA -- no FUTA for 501(c)(3)) -- 8% of salary', '$3,360 - $4,960'],
+                ['Payroll/HR software (grant allocation, ACA tracking)', '$2,400 - $4,800'],
+                ['Compliance training (grant management, FLSA, nonprofit tax)', '$1,500 - $2,500'],
+                ['Hiring cost amortized (recruiter, onboarding, ramp)', '$2,500 - $4,500'],
+                ['TOTAL loaded annual cost', '$64,360 - $97,360'],
               ].map(([a, b], i) => (
                 <tr key={i} style={{
                   background: i % 2 === 0 ? '#f9f9f9' : '#fff',
@@ -135,10 +135,10 @@ export default function CharityPayrollPage() {
             </thead>
             <tbody>
               {[
-                ['20 employees', '$500 – $900', '$6,000 – $10,800', '$53,560 – $88,960'],
-                ['50 employees', '$1,250 – $2,250', '$15,000 – $27,000', '$37,360 – $76,360'],
-                ['100 employees', '$2,500 – $4,500', '$30,000 – $54,000', '$10,360 – $55,360'],
-                ['200 employees', '$5,000 – $9,000', '$60,000 – $108,000', 'Assess by grant complexity'],
+                ['20 employees', '$500 - $900', '$6,000 - $10,800', '$53,560 - $88,960'],
+                ['50 employees', '$1,250 - $2,250', '$15,000 - $27,000', '$37,360 - $76,360'],
+                ['100 employees', '$2,500 - $4,500', '$30,000 - $54,000', '$10,360 - $55,360'],
+                ['200 employees', '$5,000 - $9,000', '$60,000 - $108,000', 'Assess by grant complexity'],
               ].map(([a, b, c, d], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>{a}</td>
@@ -165,7 +165,7 @@ export default function CharityPayrollPage() {
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
           <p style={{ margin: '0 0 0.75rem', fontWeight: '700', color: '#000' }}>PSLF Employer Certification Delays That Cost Staff Real Money</p>
-          <p style={{ margin: 0 }}>Employees at 501(c)(3) organizations who are working toward Public Service Loan Forgiveness need their employer to verify qualifying employment annually or when they change servicers. PSLF requires 120 qualifying monthly payments under a qualifying repayment plan while working full-time for a qualifying employer. A delay or error in the employer certification can invalidate months of qualifying payments, pushing a staff member's forgiveness date further into the future -- costing them months of additional payments that could have been forgiven. For a nonprofit employee with $80,000 in federal student loans, a single missed certification period can cost $1,500–$2,500 in payments that should have counted. Clean employment records from a managed payroll provider make PSLF form completion fast and accurate.</p>
+          <p style={{ margin: 0 }}>Employees at 501(c)(3) organizations who are working toward Public Service Loan Forgiveness need their employer to verify qualifying employment annually or when they change servicers. PSLF requires 120 qualifying monthly payments under a qualifying repayment plan while working full-time for a qualifying employer. A delay or error in the employer certification can invalidate months of qualifying payments, pushing a staff member's forgiveness date further into the future -- costing them months of additional payments that could have been forgiven. For a nonprofit employee with $80,000 in federal student loans, a single missed certification period can cost $1,500-$2,500 in payments that should have counted. Clean employment records from a managed payroll provider make PSLF form completion fast and accurate.</p>
         </div>
 
         <div style={{ background: '#fff8ee', border: '1px solid #ECAC60', borderRadius: '8px', padding: '1.5rem', margin: '1.5rem 0' }}>
@@ -197,8 +197,8 @@ export default function CharityPayrollPage() {
             <tbody>
               {[
                 ['Under 25 employees', 'Outsource', 'Grant allocation complexity and FUTA exemption issues justify outsourcing even at small headcount. Managed payroll under $875/month.'],
-                ['25 – 100 employees', 'Outsource', 'Best ROI range for nonprofits. Grant audit risk, 990 accuracy, and PSLF support are strongest justifications for specialist management.'],
-                ['100 – 200 employees', 'Outsource or hybrid', 'Keep payroll outsourced. Add HR generalist for culture, benefits, and onboarding. Grant compliance stays with the managed provider.'],
+                ['25 - 100 employees', 'Outsource', 'Best ROI range for nonprofits. Grant audit risk, 990 accuracy, and PSLF support are strongest justifications for specialist management.'],
+                ['100 - 200 employees', 'Outsource or hybrid', 'Keep payroll outsourced. Add HR generalist for culture, benefits, and onboarding. Grant compliance stays with the managed provider.'],
                 ['200+ employees', 'Assess by grant complexity', 'Multi-program organizations with federal grants and diverse funding streams often still benefit from managed payroll for compliance and reporting.'],
               ].map(([a, b, c], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -213,7 +213,7 @@ export default function CharityPayrollPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', marginTop: 0 }}>Managed Payroll for 501(c)(3) Organizations</h3>
-          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles grant-allocated payroll processing, FUTA exemption configuration, year-end W-2s and 1099s, ACA tracking, and HR compliance for nonprofit organizations nationally. All-inclusive at $25-$45 PEPM. Schedule a 15-minute discovery call for an exact quote for your organization.</p>
+          <p style={{ marginBottom: '1.5rem', maxWidth: '560px', margin: '0 auto 1.5rem' }}>BEG handles grant-allocated payroll processing, FUTA exemption configuration, year-end W-2s and 1099s, ACA tracking, and HR compliance for nonprofit organizations nationally. All-inclusive at $25-$45 PEPM. Answer a few quick questions for an exact quote on screen.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -272,7 +272,7 @@ export default function CharityPayrollPage() {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Nonprofit Payroll Outsourcing: Grant Allocation, 990 Reporting, and Compliance (2026)',
-        description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K–$85K annually.',
+        description: 'Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA exemption, PSLF certification. Save $50K-$85K annually.',
         datePublished: '2026-06-25',
         dateModified: '2026-06-27',
         author: {

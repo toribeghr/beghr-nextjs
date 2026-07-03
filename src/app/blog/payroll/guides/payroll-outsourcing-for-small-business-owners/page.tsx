@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing for Small Business (Full Breakdown) | BEG',
-  description: 'Payroll Outsourcing for Small Business Owners: Starter Guide. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at',
+  description: 'Payroll Outsourcing for Small Business Owners: Starter Guide. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/guides/payroll-outsourcing-for-small-business-owners' },
   openGraph: {
     title: 'Payroll Outsourcing for Small Business (Full Breakdown) | BEG',

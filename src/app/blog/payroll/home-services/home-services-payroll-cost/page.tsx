@@ -137,7 +137,7 @@ export default function HomeServicesPayrollCostPage() {
         <div style={{ background: '#f5f0e8', border: '2px solid #ECAC60', borderRadius: '8px', padding: '2rem', marginBottom: '2.5rem' }}>
           <h3 style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem' }}>See the Cost for Your Company</h3>
           <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
-            BEG manages home services payroll at $25-$45 PEPM, all-inclusive. Book a 15-minute call to get a cost comparison for your current employee count.
+            BEG manages home services payroll at $25-$45 PEPM, all-inclusive. Answer a few quick questions to get a cost comparison for your current employee count.
           </p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>

@@ -287,7 +287,7 @@ export default function PayrollCompetitorPage({
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
                 To guarantee a flawless first payroll cycle, BEG limits new managed payroll onboards to
-                3 per month. Request a scope review this week to secure your slot in the next available
+                3 per month. Get your quote this week to secure your slot in the next available
                 onboarding cohort.
               </p>
             </div>

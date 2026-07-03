@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Trucking Payroll for Mid-Size Fleets: Is It Worth It? | BEG',
-  description: 'Managed payroll for trucking. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call at',
+  description: 'Managed payroll for trucking. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/trucking/trucking-managed-payroll-mid-size' },
   openGraph: {
     title: 'Trucking Payroll for Mid-Size Fleets: Is It Worth It? | BEG',

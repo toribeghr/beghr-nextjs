@@ -241,7 +241,7 @@ export default function ManagedPayrollVsADPPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Get a straight comparison for your situation</h2>
-          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Free 15-minute call. If ADP is the right answer for you, we'll tell you that. If there's a better fit, we'll show you exactly what it looks like.</p>
+          <p style={{ marginBottom: '1.5rem', color: '#ddd' }}>Answer a few quick questions and see your exact monthly and annual price on screen. No call required.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

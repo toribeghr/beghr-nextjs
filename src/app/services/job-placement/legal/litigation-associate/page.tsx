@@ -6,7 +6,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Litigation Associate Recruiters | 23-35 Days | BEG',
-  description: 'Litigation associate placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a discovery call.',
+  description: 'Litigation associate placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Get an instant fee quote at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/legal/litigation-associate' },
   openGraph: {
     title: 'Litigation Associate Recruiters | 23-35 Days | BEG',

@@ -228,7 +228,7 @@ export default function CalculatorsPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.5rem', marginTop: '2.5rem' }} className="reveal">
             {[
               {
-                stat: '$60K–$100K',
+                stat: '$60K-$100K',
                 label: 'Annual cost of an in-house payroll manager',
                 detail: 'Salary plus benefits, PTO, overhead, and employer taxes. That is the true cost of a dedicated payroll hire.',
               },
@@ -260,7 +260,7 @@ export default function CalculatorsPage() {
       <section className="section" style={{ background: '#000000', color: '#ffffff' }}>
         <div className="container" style={{ maxWidth: '640px', textAlign: 'center' }}>
           <p className="eyebrow" style={{ color: '#ECAC60' }}>Get an Exact Quote</p>
-          <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>Book a free 15-minute call and get a flat monthly cost for your team.</h2>
+          <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>Get a flat monthly cost for your team in 90 seconds.</h2>
           <p style={{ color: '#cccccc', lineHeight: '1.7', marginBottom: '2rem' }}>
             After you run the calculator, book a call. BEG will confirm your exact PEPM rate, review your current setup, and answer any questions before you commit to anything.
           </p>

@@ -50,12 +50,12 @@ const posts = [
   },
   {
     "title": "Healthcare Practices: Managed Payroll for Mid-Size Businesse",
-    "description": "Managed payroll for healthcare. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "description": "Managed payroll for healthcare. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-managed-payroll-mid-size"
   },
   {
     "title": "Healthcare Practices: Managed Payroll for Small Businesses (",
-    "description": "Managed payroll for healthcare. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Book a free 15-min discovery call",
+    "description": "Managed payroll for healthcare. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/healthcare/healthcare-managed-payroll-small-business"
   },
   {

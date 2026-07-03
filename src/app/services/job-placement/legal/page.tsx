@@ -6,19 +6,19 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Attorney Placement | Instant Fee Quote | BEG',
-  description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',
+  description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Get an instant fee quote at beghr.com.',
   alternates: {
     canonical: 'https://www.beghr.com/services/job-placement/legal',
   },
   openGraph: {
     title: 'Attorney Placement | Instant Fee Quote | BEG',
-    description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.',
+    description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Get an instant fee quote at beghr.com.',
     url: 'https://www.beghr.com/services/job-placement/legal',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Attorney Placement | Instant Fee Quote | BEG', description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Book a discovery call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Attorney Placement | Instant Fee Quote | BEG', description: 'Law firm hiring specialist. Place attorneys, paralegals, and counsel at roughly 50% less than contingency firms. 45-day guarantee. Get an instant fee quote at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

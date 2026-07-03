@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Multi-State Payroll Tax Filing: What Gets Missed | BEG',
-  description: 'Multi-State Payroll Tax Filing: What Managed Payroll Handles. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at',
+  description: 'Multi-State Payroll Tax Filing: What Managed Payroll Handles. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/features/multi-state-payroll-tax-filing' },
   openGraph: {
     title: 'Multi-State Payroll Tax Filing: What Gets Missed | BEG',

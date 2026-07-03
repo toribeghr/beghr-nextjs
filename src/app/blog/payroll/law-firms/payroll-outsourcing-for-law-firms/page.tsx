@@ -243,7 +243,7 @@ export default function PayrollOutsourcingForLawFirmsPage() {
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.5rem' }}>Ready to get payroll off your firm's plate?</h2>
           <p style={{ marginBottom: '0.5rem', color: '#ddd' }}>
-            Book a free 15-minute discovery call. We will review your firm's current payroll structure, answer your specific questions, and give you an all-in monthly cost within 24 hours.
+            Get instant pricing at beghr.com.'s current payroll structure, answer your specific questions, and give you an all-in monthly cost within 24 hours.
           </p>
           <p style={{ marginBottom: '1.5rem', color: '#ddd', fontSize: '0.9rem' }}>No migration required. Month-to-month. Up and running in 3 to 5 weeks.</p>
           <PricingCta service="managed-payroll" subline={false} />

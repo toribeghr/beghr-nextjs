@@ -65,7 +65,7 @@ const posts = [
   },
   {
     "title": "Your Payroll Provider Failed: Emergency Steps for Em..",
-    "description": "Your Payroll Provider Failed: Emergency Steps for Employers. Expert guidance from BEG managed payroll at $25-$45 PEPM. Book a free 15-min call at",
+    "description": "Your Payroll Provider Failed: Emergency Steps for Employers. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.",
     "slug": "/blog/payroll/problems/payroll-provider-failed-what-to-do"
   },
   {

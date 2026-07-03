@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -139,6 +140,11 @@ export default function BegVsInsightGlobalPage() {
           { '@type': 'Question', name: 'Is BEG cheaper than Insight Global for permanent placement?', acceptedAnswer: { '@type': 'Answer', text: 'For permanent direct hire, BEG milestone-based placement is designed to run roughly 50% less than standard contingency. Confirm Insight Global permanent placement pricing directly.' } },
         ],
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Compare", title: "Alternatives to Contingency Recruiting", excerpt: "Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on...", href: "/blog/compare/alternatives-to-contingency-recruiting" },
+        { category: "Compare", title: "BEG vs Kforce | Instant Fee Quote", excerpt: "BEG vs Kforce on permanent direct hire: fee model, cost, and speed compared fairly. See where...", href: "/blog/compare/beg-vs-kforce" },
+        { category: "Compare", title: "BEG vs Major Lindsey & Africa | Instant Fee Quote", excerpt: "BEG vs Major, Lindsey & Africa on legal placement: fee model, cost, market, and speed compared. See...", href: "/blog/compare/beg-vs-major-lindsey-africa" },
+      ]} />
+      </article>
   );
 }

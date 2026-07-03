@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -173,6 +174,11 @@ export default function ClinicalStaffRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Healthcare Hiring", title: "Healthcare Interview Questions That Actually Work", excerpt: "Healthcare interviews that reveal clinical judgment, patient care philosophy, and culture fit. The...", href: "/blog/healthcare-hiring/healthcare-interview-questions" },
+        { category: "Healthcare Hiring", title: "Healthcare Salary Trends 2026: What Averages Hide", excerpt: "Clinical comp is climbing, but the best candidates are passive and pay is only part of the...", href: "/blog/healthcare-hiring/healthcare-salary-trends" },
+        { category: "Healthcare Hiring", title: "Healthcare Talent Shortage 2026: What Nobody Mentions", excerpt: "Clinician retirements are up and the pipeline is thin. What the 2026 healthcare shortage means for...", href: "/blog/healthcare-hiring/healthcare-talent-shortage" },
+      ]} />
+      </article>
   );
 }

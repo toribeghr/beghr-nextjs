@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -174,6 +175,11 @@ export default function OwnerDrawVsSalaryPage() {
           { "@type": "ListItem", "position": 4, "name": "Owner Draw vs Salary", "item": "https://www.beghr.com/blog/entrepreneur-resources/owner-draw-vs-salary" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Entrepreneur Resources", title: "Payroll for LLC Owners: The Truth About SE Tax", excerpt: "Payroll for LLC owners: when payroll is required, self-employment tax on draws, S-corp election...", href: "/blog/entrepreneur-resources/payroll-for-llc-owners" },
+        { category: "Entrepreneur Resources", title: "Remote Team Management: What Founders Learn Late", excerpt: "Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a...", href: "/blog/entrepreneur-resources/remote-team-management" },
+        { category: "Entrepreneur Resources", title: "Startup Hiring: What Nobody Tells You First", excerpt: "How to hire your first employees as a founder. Recruiting strategy, offer structures, and building...", href: "/blog/entrepreneur-resources/startup-hiring" },
+      ]} />
+      </article>
   );
 }

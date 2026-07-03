@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -171,6 +172,11 @@ export default function SecurityCompanyPayrollGuidePage() {
           { "@type": "ListItem", "position": 5, "name": "Security Company Payroll Guide", "item": "https://www.beghr.com/blog/payroll/security/security-company-payroll-guide" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Outsourcing Security Company Payroll: What Changes", excerpt: "Why security companies outsource payroll, what to look for in a provider, and what changes...", href: "/blog/payroll/security/outsource-security-company-payroll" },
+        { category: "Payroll", title: "Security Company Payroll Compliance for 2026", excerpt: "Payroll compliance for security companies: state guard licensing, workers compensation...", href: "/blog/payroll/security/security-company-payroll-compliance" },
+        { category: "Payroll", title: "Security Guard Overtime Payroll: 24/7 FLSA Rules", excerpt: "FLSA overtime rules for security guards: 24/7 operations, shift differential regular rate, state...", href: "/blog/payroll/security/security-guard-overtime-payroll" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -10,10 +11,10 @@ export const metadata: Metadata = {
     description: "Payroll for LLC owners: self-employment tax, S-corp election, and when payroll is required. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/entrepreneur-resources/payroll-for-llc-owners",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-entrepreneur-resources-payroll-for-llc-owners.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Payroll for LLC Owners: The Truth About SE Tax | BEG", description: "Payroll for LLC owners: self-employment tax, S-corp election, and when payroll is required. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Payroll for LLC Owners: The Truth About SE Tax | BEG", description: "Payroll for LLC owners: self-employment tax, S-corp election, and when payroll is required. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-entrepreneur-resources-payroll-for-llc-owners.webp"] },
 };
 
 const faqs = [
@@ -60,6 +61,10 @@ export default function PayrollForLLCOwnersPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-entrepreneur-resources-payroll-for-llc-owners.webp" alt={`Payroll for LLC Owners: The Truth About SE Tax`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -173,6 +178,11 @@ export default function PayrollForLLCOwnersPage() {
           { "@type": "ListItem", "position": 4, "name": "Payroll for LLC Owners", "item": "https://www.beghr.com/blog/entrepreneur-resources/payroll-for-llc-owners" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Entrepreneur Resources", title: "Owner Draw vs Salary: What New Founders Miss", excerpt: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to...", href: "/blog/entrepreneur-resources/owner-draw-vs-salary" },
+        { category: "Entrepreneur Resources", title: "Remote Team Management: What Founders Learn Late", excerpt: "Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a...", href: "/blog/entrepreneur-resources/remote-team-management" },
+        { category: "Entrepreneur Resources", title: "Startup Hiring: What Nobody Tells You First", excerpt: "How to hire your first employees as a founder. Recruiting strategy, offer structures, and building...", href: "/blog/entrepreneur-resources/startup-hiring" },
+      ]} />
+      </article>
   );
 }

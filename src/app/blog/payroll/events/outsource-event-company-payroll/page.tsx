@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -176,6 +177,11 @@ export default function OutsourceEventCompanyPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Outsource Event Company Payroll", "item": "https://www.beghr.com/blog/payroll/events/outsource-event-company-payroll" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "California Event Payroll Rules: What AB5 Requires", excerpt: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders,...", href: "/blog/payroll/events/california-event-payroll-rules" },
+        { category: "Payroll", title: "Event Company Payroll in 2026: Seasonal Crew Costs", excerpt: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state...", href: "/blog/payroll/events/event-company-payroll-guide" },
+        { category: "Payroll", title: "Event Staff W-2 vs 1099: What Nobody Tells You", excerpt: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring...", href: "/blog/payroll/events/event-staff-w2-vs-1099-classification" },
+      ]} />
+      </article>
   );
 }

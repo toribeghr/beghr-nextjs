@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -186,6 +187,11 @@ export default function CommercialRealEstatePayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Commercial Real Estate Payroll", "item": "https://www.beghr.com/blog/payroll/real-estate/commercial-real-estate-payroll" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Mortgage Company Payroll, LO Commission (What to Know)", excerpt: "Mortgage company payroll: loan officer commission, RESPA compliance, draw programs, and multi-state...", href: "/blog/payroll/real-estate/mortgage-company-payroll" },
+        { category: "Payroll", title: "Real Estate Payroll, W-2 and 1099 (Full Breakdown)", excerpt: "Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099...", href: "/blog/payroll/real-estate/property-management" },
+        { category: "Payroll", title: "Real Estate Payroll, Benefits Integration", excerpt: "Managed payroll for real estate. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/real-estate/real-estate-benefits-integration-payroll" },
+      ]} />
+      </article>
   );
 }

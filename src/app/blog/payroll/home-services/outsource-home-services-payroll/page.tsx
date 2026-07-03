@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -182,6 +183,11 @@ export default function OutsourceHomeServicesPayrollPage() {
           { '@type': 'ListItem', position: 5, name: 'Outsource Home Services Payroll', item: 'https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll' },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Field Technician Payroll, Drive Time and OT Rules", excerpt: "Field technician payroll compliance: when drive time is compensable, overtime for service techs,...", href: "/blog/payroll/home-services/field-technician-payroll-compliance" },
+        { category: "Payroll", title: "Home Services Payroll Costs, In-House vs Managed", excerpt: "How much does payroll cost for a home services company? Compare in-house payroll specialist...", href: "/blog/payroll/home-services/home-services-payroll-cost" },
+        { category: "Payroll", title: "Home Services Payroll Guide for HVAC and Plumbing", excerpt: "Complete home services payroll guide: field tech pay structures, overtime, drive time compensation,...", href: "/blog/payroll/home-services/home-services-payroll-guide" },
+      ]} />
+      </article>
   );
 }

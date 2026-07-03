@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -121,6 +122,11 @@ export default function RemoteTeamManagementPage() {
           { '@type': 'Question', name: "How many employees can a remote team have before they need dedicated HR?", acceptedAnswer: { '@type': 'Answer', text: "Most companies can handle HR administratively up to about 25 to 30 employees. Above that, the volume of compliance, onboarding, and employee relations work typically requires either a dedicated HR resource or a managed service that handles the operational layer. A managed payroll and HR provider eliminates the need for an internal hire in many cases." } },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Entrepreneur Resources", title: "Owner Draw vs Salary: What New Founders Miss", excerpt: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to...", href: "/blog/entrepreneur-resources/owner-draw-vs-salary" },
+        { category: "Entrepreneur Resources", title: "Payroll for LLC Owners: The Truth About SE Tax", excerpt: "Payroll for LLC owners: when payroll is required, self-employment tax on draws, S-corp election...", href: "/blog/entrepreneur-resources/payroll-for-llc-owners" },
+        { category: "Entrepreneur Resources", title: "Startup Hiring: What Nobody Tells You First", excerpt: "How to hire your first employees as a founder. Recruiting strategy, offer structures, and building...", href: "/blog/entrepreneur-resources/startup-hiring" },
+      ]} />
+      </article>
   );
 }

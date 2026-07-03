@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -148,6 +149,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"What Is Managed Payroll? A Plain-English Guide for Business Owners","item":"https://www.beghr.com/blog/payroll/guides/what-is-managed-payroll"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "How Managed Payroll Works, From Onboarding to Payday", excerpt: "How Managed Payroll Works: From Onboarding to First Pay Run. Expert guidance from BEG managed...", href: "/blog/payroll/guides/managed-payroll-how-it-works" },
+        { category: "Payroll", title: "Managed Payroll Onboarding, the First 30 Days Explained", excerpt: "What to Expect in the First 30 Days of Managed Payroll. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/guides/managed-payroll-onboarding-what-to-expect" },
+        { category: "Payroll", title: "Managed Payroll Security, How Your Data Is Protected", excerpt: "Managed Payroll Security: How Your Data Is Protected. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/guides/managed-payroll-security-and-data" },
+      ]} />
+      </article>
   );
 }

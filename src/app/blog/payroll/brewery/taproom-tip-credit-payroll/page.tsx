@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -163,6 +164,11 @@ export default function TaproomTipCreditPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Taproom Tip Credit", "item": "https://www.beghr.com/blog/payroll/brewery/taproom-tip-credit-payroll" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Brewery and Distillery Payroll Guide in 2026", excerpt: "Complete brewery and distillery payroll guide: taproom tip credit, production staff payroll, sales...", href: "/blog/payroll/brewery/brewery-distillery-payroll-guide" },
+        { category: "Payroll", title: "Brewery Production Staff Payroll [Full Breakdown]", excerpt: "How to run payroll for brewery production staff: shift differentials, overtime for long production...", href: "/blog/payroll/brewery/brewery-production-payroll" },
+        { category: "Payroll", title: "Craft Brewery Payroll Compliance in 2026", excerpt: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and...", href: "/blog/payroll/brewery/craft-brewery-payroll-compliance" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -148,6 +149,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Direct Deposit in Managed Payroll: How It Works","item":"https://www.beghr.com/blog/payroll/features/direct-deposit-managed-payroll"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Benefits Deductions in Payroll: What Gets Handled", excerpt: "Benefits Deductions in Managed Payroll: What Gets Handled. Expert guidance from BEG managed payroll...", href: "/blog/payroll/features/benefits-deductions-payroll" },
+        { category: "Payroll", title: "Bonus Pay in Payroll: The Tax Part Nobody Explains", excerpt: "How Managed Payroll Handles Bonus Pay. Expert guidance from BEG managed payroll at $25-$45 PEPM....", href: "/blog/payroll/features/bonus-payroll-processing" },
+        { category: "Payroll", title: "Wage Garnishment Processing: What Employers Get Wrong", excerpt: "Wage Garnishment Processing in Managed Payroll. Expert guidance from BEG managed payroll at $25-$45...", href: "/blog/payroll/features/garnishment-processing-managed-payroll" },
+      ]} />
+      </article>
   );
 }

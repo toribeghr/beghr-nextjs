@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -173,6 +174,11 @@ export default function DataScienceRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Technology Hiring", title: "Hiring Software Engineers Fast: How Does It Work?", excerpt: "A vacant engineering seat stalls your roadmap. A practical playbook to hire a software engineer in...", href: "/blog/technology-hiring/hiring-software-engineers" },
+        { category: "Technology Hiring", title: "Tech Salary Trends 2026: What Actually Closes a Hire", excerpt: "Tech comp is high, but the best candidates are passive and pay is only part of the decision. What...", href: "/blog/technology-hiring/tech-salary-trends" },
+        { category: "Technology Hiring", title: "Tech Talent Shortage 2026: What Nobody Tells You", excerpt: "Demand for specialized engineers keeps climbing while the qualified pool stays thin. How to fill...", href: "/blog/technology-hiring/tech-talent-shortage" },
+      ]} />
+      </article>
   );
 }

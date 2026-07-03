@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -177,6 +178,11 @@ export default function ClinicalResearchRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Biotech Hiring", title: "Biotech Interview Questions That Actually Work", excerpt: "Biotech interviews that go beyond publications and credentials. The questions that reveal whether a...", href: "/blog/biotech-hiring/biotech-interview-questions" },
+        { category: "Biotech Hiring", title: "Biotech Salary Trends 2026: What the Data Hides", excerpt: "Biotech pay is climbing, but the best candidates are passive and pay is only part of the decision....", href: "/blog/biotech-hiring/biotech-salary-trends" },
+        { category: "Biotech Hiring", title: "Biotech Talent Shortage 2026: What Nobody Mentions", excerpt: "Specialized roles and fierce competition define biotech hiring. What the 2026 shortage means and...", href: "/blog/biotech-hiring/biotech-talent-shortage" },
+      ]} />
+      </article>
   );
 }

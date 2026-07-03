@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -172,6 +173,11 @@ export default function EnergySalaryTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Energy Hiring", title: "Energy Job Description: What Candidates Notice", excerpt: "Energy JDs that list certifications and skip operational context lose experienced candidates fast....", href: "/blog/energy-hiring/energy-job-description" },
+        { category: "Energy Hiring", title: "Energy Talent Shortage 2026: What Nobody Warns", excerpt: "Retirements and the energy transition are thinning the technical pipeline. What the 2026 shortage...", href: "/blog/energy-hiring/energy-talent-shortage" },
+        { category: "Energy Hiring", title: "Field Engineer Recruiting: The Truth About Turnover", excerpt: "A vacant field engineer seat stalls execution in the field. How to recruit and close strong energy...", href: "/blog/energy-hiring/field-engineer-recruiting" },
+      ]} />
+      </article>
   );
 }

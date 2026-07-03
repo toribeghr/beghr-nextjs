@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -179,6 +180,11 @@ export default function MaintenanceTechRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Trades Hiring", title: "Hiring Electricians Fast in 2026: How Does It Work?", excerpt: "Licensed electricians are scarce and in demand. A practical playbook to source and hire qualified...", href: "/blog/trades-hiring/hiring-electricians" },
+        { category: "Trades Hiring", title: "Skilled Trades Shortage 2026: The Truth Behind It", excerpt: "Retirements are up and the pipeline is thin. What the 2026 skilled trades shortage means for hiring...", href: "/blog/trades-hiring/skilled-trades-shortage" },
+        { category: "Trades Hiring", title: "Trades Interview Questions: What Real Skill Looks Like", excerpt: "Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record....", href: "/blog/trades-hiring/trades-interview-questions" },
+      ]} />
+      </article>
   );
 }

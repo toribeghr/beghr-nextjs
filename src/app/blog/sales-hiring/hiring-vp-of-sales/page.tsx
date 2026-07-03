@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -170,6 +171,11 @@ export default function HiringVpOfSalesPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Sales Hiring", title: "Account Executive Recruiting 2026: What Nobody Tells You", excerpt: "Strong AEs field multiple offers and ignore postings. How to source, screen, and close...", href: "/blog/sales-hiring/account-executive-recruiting" },
+        { category: "Sales Hiring", title: "Sales Compensation Trends 2026: The Truth About OTE", excerpt: "OTE is climbing but the best reps weigh more than pay. What sales comp trends mean for hiring and...", href: "/blog/sales-hiring/sales-compensation-trends" },
+        { category: "Sales Hiring", title: "Sales Interview Questions: What Quota Attainment Reveals", excerpt: "Sales interviews that go beyond the pitch. The questions that reveal quota attainment history,...", href: "/blog/sales-hiring/sales-interview-questions" },
+      ]} />
+      </article>
   );
 }

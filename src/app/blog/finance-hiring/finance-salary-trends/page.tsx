@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -163,6 +164,11 @@ export default function FinanceSalaryTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Finance Hiring", title: "Finance Interview Questions That Actually Predict Fit", excerpt: "Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or...", href: "/blog/finance-hiring/finance-interview-questions" },
+        { category: "Finance Hiring", title: "Finance Talent Trends 2026: What Changed Fast", excerpt: "FP&A demand is rising while analytical finance talent stays tight. The 2026 trends shaping...", href: "/blog/finance-hiring/finance-talent-trends" },
+        { category: "Finance Hiring", title: "FP&A Recruiting: What Nobody Tells You", excerpt: "Strong FP&A analysts are passive and rarely on job boards. How to source and close the people who...", href: "/blog/finance-hiring/fpa-recruiting" },
+      ]} />
+      </article>
   );
 }

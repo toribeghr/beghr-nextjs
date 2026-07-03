@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -153,6 +154,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"E-Commerce & DTC Brands: Setting Up Direct Deposit (2026)","item":"https://www.beghr.com/blog/payroll/ecommerce/ecommerce-direct-deposit-setup"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "DTC Brand Payroll: What Nobody Tells You About Scaling", excerpt: "DTC brand payroll: warehouse staff, remote marketing teams, variable headcount, contractor...", href: "/blog/payroll/ecommerce/dtc-brand-payroll" },
+        { category: "Payroll", title: "E-Commerce Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll" },
+        { category: "Payroll", title: "E-Commerce Payroll: What Misclassification Costs You", excerpt: "Managed payroll for e-commerce. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/ecommerce/ecommerce-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

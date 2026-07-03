@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -167,6 +168,11 @@ export default function AlternativesToContingencyRecruitingPage() {
           { '@type': 'Question', name: 'When does RPO make more sense than contingency?', acceptedAnswer: { '@type': 'Answer', text: 'RPO makes sense when you are hiring continuously at volume, since its monthly or per-hire contract spreads cost across many roles. For a handful of permanent roles a year, a per-placement model such as milestone-based placement is usually more economical.' } },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Compare", title: "BEG vs Insight Global | Instant Fee Quote", excerpt: "BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See...", href: "/blog/compare/beg-vs-insight-global" },
+        { category: "Compare", title: "BEG vs Kforce | Instant Fee Quote", excerpt: "BEG vs Kforce on permanent direct hire: fee model, cost, and speed compared fairly. See where...", href: "/blog/compare/beg-vs-kforce" },
+        { category: "Compare", title: "BEG vs Major Lindsey & Africa | Instant Fee Quote", excerpt: "BEG vs Major, Lindsey & Africa on legal placement: fee model, cost, market, and speed compared. See...", href: "/blog/compare/beg-vs-major-lindsey-africa" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Nonprofit Hiring", title: "Development Director Recruiting: Before You Launch", excerpt: "A vacant development director seat puts fundraising at risk. How to recruit and close a strong...", href: "/blog/nonprofit-hiring/development-director-recruiting" },
+        { category: "Nonprofit Hiring", title: "Hiring an Executive Director Without Overpaying", excerpt: "An open executive director seat stalls strategy and fundraising. A practical playbook to hire an ED...", href: "/blog/nonprofit-hiring/hiring-an-executive-director" },
+        { category: "Nonprofit Hiring", title: "Nonprofit Salary Trends in 2026", excerpt: "Nonprofit pay is climbing and the best candidates are passive. What actually closes a nonprofit...", href: "/blog/nonprofit-hiring/nonprofit-salary-trends" },
+      ]} />
+      </article>
   );
 }

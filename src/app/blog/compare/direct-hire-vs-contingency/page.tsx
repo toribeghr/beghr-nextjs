@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -191,6 +192,11 @@ export default function DirectHireVsContingencyPage() {
           { '@type': 'Question', name: 'Why is my contingency search taking so long?', acceptedAnswer: { '@type': 'Answer', text: 'Contingency searches are usually non-exclusive, so your role competes for the recruiter attention. The model also skews toward active job seekers rather than the passive candidates who tend to be stronger hires. A milestone-based model with passive candidate access typically fills in 23 to 35 days.' } },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Compare", title: "Alternatives to Contingency Recruiting", excerpt: "Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on...", href: "/blog/compare/alternatives-to-contingency-recruiting" },
+        { category: "Compare", title: "BEG vs Insight Global | Instant Fee Quote", excerpt: "BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See...", href: "/blog/compare/beg-vs-insight-global" },
+        { category: "Compare", title: "BEG vs Kforce | Instant Fee Quote", excerpt: "BEG vs Kforce on permanent direct hire: fee model, cost, and speed compared fairly. See where...", href: "/blog/compare/beg-vs-kforce" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Manufacturing Hiring", title: "Hiring a Plant Manager Without Overpaying", excerpt: "A vacant plant manager seat risks throughput and safety. A practical playbook to hire a plant...", href: "/blog/manufacturing-hiring/hiring-a-plant-manager" },
+        { category: "Manufacturing Hiring", title: "Manufacturing Salary Trends 2026: What Averages Hide", excerpt: "Manufacturing pay is climbing but the best candidates are passive. What actually closes a...", href: "/blog/manufacturing-hiring/manufacturing-salary-trends" },
+        { category: "Manufacturing Hiring", title: "Manufacturing Talent Shortage 2026: What Nobody Mentions", excerpt: "Skilled trades are retiring and the pipeline is thin. What the 2026 manufacturing shortage means...", href: "/blog/manufacturing-hiring/manufacturing-talent-shortage" },
+      ]} />
+      </article>
   );
 }

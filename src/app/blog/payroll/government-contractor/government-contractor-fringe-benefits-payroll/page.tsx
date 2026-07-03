@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -185,6 +186,11 @@ export default function GovernmentContractorFringeBenefitsPage() {
           { '@type': 'ListItem', position: 5, name: 'Fringe Benefits Payroll', item: 'https://www.beghr.com/blog/payroll/government-contractor/government-contractor-fringe-benefits-payroll' },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "DoD Contractor Payroll, Before a DCAA Audit Finds You", excerpt: "DoD contractor payroll requirements: ITAR labor tracking, security clearance employee costs, DCAA...", href: "/blog/payroll/government-contractor/dod-contractor-payroll-requirements" },
+        { category: "Payroll", title: "Government Contractor Payroll Guide [2026 Data]", excerpt: "Government contractor payroll overview: certified payroll, Service Contract Act, Davis-Bacon...", href: "/blog/payroll/government-contractor/government-contractor-payroll-guide" },
+        { category: "Payroll", title: "Why Contractors Outsource Payroll (Full Breakdown)", excerpt: "Why government contractors outsource payroll, what a managed provider covers for SCA and...", href: "/blog/payroll/government-contractor/outsource-government-contractor-payroll" },
+      ]} />
+      </article>
   );
 }

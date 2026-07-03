@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Real Estate Hiring", title: "Asset Manager Recruiting: What Nobody Tells You", excerpt: "A vacant asset manager seat puts portfolio returns at risk. How to recruit and close a strong real...", href: "/blog/real-estate-hiring/asset-manager-recruiting" },
+        { category: "Real Estate Hiring", title: "Hiring a Property Manager Fast: How Does It Work?", excerpt: "A vacant property manager seat risks tenant retention and NOI. A practical playbook to hire a...", href: "/blog/real-estate-hiring/hiring-a-property-manager" },
+        { category: "Real Estate Hiring", title: "Real Estate Salary Trends 2026: What Nobody Tells You", excerpt: "Real estate comp is climbing and the best candidates are passive. What actually closes a real...", href: "/blog/real-estate-hiring/real-estate-salary-trends" },
+      ]} />
+      </article>
   );
 }

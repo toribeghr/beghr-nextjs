@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -212,6 +213,11 @@ export default function HowMuchDoRecruitersChargePage() {
           { '@type': 'Question', name: 'How do I calculate a recruiting fee?', acceptedAnswer: { '@type': 'Answer', text: 'Multiply the candidate first-year salary by the fee percentage. A $150,000 salary at a 25 percent contingency rate is $37,500. The BEG Recruiting Fee Calculator runs this for any salary and shows the milestone-based comparison.' } },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Compare", title: "Alternatives to Contingency Recruiting", excerpt: "Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on...", href: "/blog/compare/alternatives-to-contingency-recruiting" },
+        { category: "Compare", title: "BEG vs Insight Global | Instant Fee Quote", excerpt: "BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See...", href: "/blog/compare/beg-vs-insight-global" },
+        { category: "Compare", title: "BEG vs Kforce | Instant Fee Quote", excerpt: "BEG vs Kforce on permanent direct hire: fee model, cost, and speed compared fairly. See where...", href: "/blog/compare/beg-vs-kforce" },
+      ]} />
+      </article>
   );
 }

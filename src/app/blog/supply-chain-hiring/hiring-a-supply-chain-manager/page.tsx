@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -177,6 +178,11 @@ export default function HiringASupplyChainManagerPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Supply Chain Hiring", title: "Logistics Recruiting: What Nobody Tells You About Speed", excerpt: "Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics...", href: "/blog/supply-chain-hiring/logistics-recruiting" },
+        { category: "Supply Chain Hiring", title: "Supply Chain Interview Questions: What They Reveal", excerpt: "Supply chain interviews that reveal real demand planning accuracy, supplier management depth, and...", href: "/blog/supply-chain-hiring/supply-chain-interview-questions" },
+        { category: "Supply Chain Hiring", title: "Supply Chain Salary Trends 2026: What Nobody Tells You", excerpt: "Supply chain comp is climbing, but the best operators are passive and pay is only part of the...", href: "/blog/supply-chain-hiring/supply-chain-salary-trends" },
+      ]} />
+      </article>
   );
 }

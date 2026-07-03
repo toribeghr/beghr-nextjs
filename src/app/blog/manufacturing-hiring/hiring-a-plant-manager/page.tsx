@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -177,6 +178,11 @@ export default function HiringAPlantManagerPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Manufacturing Hiring", title: "Manufacturing Interview Questions That Actually Work", excerpt: "Manufacturing interviews that reveal production track record, quality philosophy, and continuous...", href: "/blog/manufacturing-hiring/manufacturing-interview-questions" },
+        { category: "Manufacturing Hiring", title: "Manufacturing Salary Trends 2026: What Averages Hide", excerpt: "Manufacturing pay is climbing but the best candidates are passive. What actually closes a...", href: "/blog/manufacturing-hiring/manufacturing-salary-trends" },
+        { category: "Manufacturing Hiring", title: "Manufacturing Talent Shortage 2026: What Nobody Mentions", excerpt: "Skilled trades are retiring and the pipeline is thin. What the 2026 manufacturing shortage means...", href: "/blog/manufacturing-hiring/manufacturing-talent-shortage" },
+      ]} />
+      </article>
   );
 }

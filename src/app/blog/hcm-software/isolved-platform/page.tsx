@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -323,6 +324,11 @@ export default function IsolvedPlatformPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Hcm Software", title: "AI Payroll in 2026: What It Still Can", excerpt: "An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control,...", href: "/blog/hcm-software/ai-payroll-what-it-can-do" },
+        { category: "Hcm Software", title: "Benefits Administration in isolved: What ACA Reveals", excerpt: "isolved benefits administration: open enrollment, carrier connections, ACA tracking, FSA/HSA...", href: "/blog/hcm-software/benefits-administration-isolved" },
+        { category: "Hcm Software", title: "Chatbots Answer, isolved Does the Task: The Difference", excerpt: "The difference between an HR chatbot and a platform that completes the work. Why that gap decides...", href: "/blog/hcm-software/chatbots-answer-isolved-does-the-task" },
+      ]} />
+      </article>
   );
 }

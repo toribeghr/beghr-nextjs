@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -176,6 +177,11 @@ export default function ConsultingFirmPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Consulting Firm Payroll", "item": "https://www.beghr.com/blog/payroll/professional-services/consulting-firm-payroll" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Accounting Firm Payroll, Outsourced vs. In-House", excerpt: "Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks...", href: "/blog/payroll/professional-services/accounting" },
+        { category: "Payroll", title: "Engineering Firm Payroll, Benefits Integration", excerpt: "Managed payroll for engineering. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/professional-services/engineering-benefits-integration-payroll" },
+        { category: "Payroll", title: "Engineering Firm Direct Deposit Setup (What to Know)", excerpt: "Managed payroll for engineering. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/professional-services/engineering-direct-deposit-setup" },
+      ]} />
+      </article>
   );
 }

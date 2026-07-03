@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -148,6 +149,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Managed Payroll for Tipped Employees: Full Compliance","item":"https://www.beghr.com/blog/payroll/features/payroll-for-tipped-employees"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Benefits Deductions in Payroll: What Gets Handled", excerpt: "Benefits Deductions in Managed Payroll: What Gets Handled. Expert guidance from BEG managed payroll...", href: "/blog/payroll/features/benefits-deductions-payroll" },
+        { category: "Payroll", title: "Bonus Pay in Payroll: The Tax Part Nobody Explains", excerpt: "How Managed Payroll Handles Bonus Pay. Expert guidance from BEG managed payroll at $25-$45 PEPM....", href: "/blog/payroll/features/bonus-payroll-processing" },
+        { category: "Payroll", title: "Direct Deposit in Payroll: The Part Nobody Explains", excerpt: "Direct Deposit in Managed Payroll: How It Works. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/features/direct-deposit-managed-payroll" },
+      ]} />
+      </article>
   );
 }

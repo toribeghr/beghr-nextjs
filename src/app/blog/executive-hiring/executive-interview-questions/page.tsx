@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Executive Hiring", title: "CEO Succession Planning: Before the Board Steps In", excerpt: "CEO transitions are the highest-stakes hire a board makes. How to plan succession early,...", href: "/blog/executive-hiring/ceo-succession-planning" },
+        { category: "Executive Hiring", title: "Executive Compensation Trends 2026: What Boards Hide", excerpt: "Executive pay is rising and the package is more than base. What boards and CEOs need to offer to...", href: "/blog/executive-hiring/executive-compensation-trends" },
+        { category: "Executive Hiring", title: "Executive Search Trends 2026: What Nobody Warns", excerpt: "Confidential, relationship-led search is replacing post-and-pray hiring at the top. The executive...", href: "/blog/executive-hiring/executive-search-trends" },
+      ]} />
+      </article>
   );
 }

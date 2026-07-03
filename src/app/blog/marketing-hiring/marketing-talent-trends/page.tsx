@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -176,6 +177,11 @@ export default function MarketingTalentTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Marketing Hiring", title: "Demand Gen Recruiting Before Pipeline Dries Up", excerpt: "Demand gen talent is measured on pipeline and revenue, which makes the best people hard to win. How...", href: "/blog/marketing-hiring/demand-gen-recruiting" },
+        { category: "Marketing Hiring", title: "Hiring a Marketing Director Without Overpaying", excerpt: "A vacant marketing director seat stalls pipeline and brand. A practical playbook to hire one in...", href: "/blog/marketing-hiring/hiring-a-marketing-director" },
+        { category: "Marketing Hiring", title: "Marketing Interview Questions That Actually Reveal Impact", excerpt: "Marketing interviews that go beyond creative portfolios and campaign descriptions. Questions that...", href: "/blog/marketing-hiring/marketing-interview-questions" },
+      ]} />
+      </article>
   );
 }

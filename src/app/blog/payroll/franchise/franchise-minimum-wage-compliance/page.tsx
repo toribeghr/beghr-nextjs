@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -170,6 +171,11 @@ export default function FranchiseMinimumWagePage() {
         '@context': 'https://schema.org', '@type': 'FAQPage',
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Franchise Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for franchise. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/franchise/franchise-benefits-integration-payroll" },
+        { category: "Payroll", title: "Franchise Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for franchise. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/franchise/franchise-direct-deposit-setup" },
+        { category: "Payroll", title: "Franchise Payroll Classification, Before It Costs You", excerpt: "Managed payroll for franchise. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/franchise/franchise-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

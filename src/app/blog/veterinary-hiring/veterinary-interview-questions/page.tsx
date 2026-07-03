@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Veterinary Hiring", title: "Hiring Associate Veterinarians Fast: How Does It Work?", excerpt: "An open DVM seat means lost revenue and a stretched team. A practical playbook to hire an associate...", href: "/blog/veterinary-hiring/hiring-associate-veterinarians" },
+        { category: "Veterinary Hiring", title: "Recruiting a Vet Practice Manager: What Nobody Tells You", excerpt: "The right practice manager protects your margin and your team. How to find and hire a strong...", href: "/blog/veterinary-hiring/veterinary-practice-manager-recruiting" },
+        { category: "Veterinary Hiring", title: "Veterinary Salary Trends 2026: What Actually Closes", excerpt: "Veterinary comp is climbing, but the best DVMs are passive and pay is only part of the decision....", href: "/blog/veterinary-hiring/veterinary-salary-trends" },
+      ]} />
+      </article>
   );
 }

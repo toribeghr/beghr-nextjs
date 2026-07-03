@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -141,6 +142,11 @@ export default function AIPayrollWhatItCanDoPage() {
           { '@type': 'ListItem', position: 4, name: 'AI Payroll in 2026: What It Can and Cannot Do', item: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do' },
         ],
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Hcm Software", title: "Benefits Administration in isolved: What ACA Reveals", excerpt: "isolved benefits administration: open enrollment, carrier connections, ACA tracking, FSA/HSA...", href: "/blog/hcm-software/benefits-administration-isolved" },
+        { category: "Hcm Software", title: "Chatbots Answer, isolved Does the Task: The Difference", excerpt: "The difference between an HR chatbot and a platform that completes the work. Why that gap decides...", href: "/blog/hcm-software/chatbots-answer-isolved-does-the-task" },
+        { category: "Hcm Software", title: "HR Automation 2026: What isolved Actually Does", excerpt: "What HR automation actually looks like in 2026. How isolved automates payroll, onboarding,...", href: "/blog/hcm-software/hr-automation" },
+      ]} />
+      </article>
   );
 }

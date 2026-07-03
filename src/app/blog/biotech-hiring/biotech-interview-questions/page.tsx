@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Biotech Hiring", title: "Biotech Salary Trends 2026: What the Data Hides", excerpt: "Biotech pay is climbing, but the best candidates are passive and pay is only part of the decision....", href: "/blog/biotech-hiring/biotech-salary-trends" },
+        { category: "Biotech Hiring", title: "Biotech Talent Shortage 2026: What Nobody Mentions", excerpt: "Specialized roles and fierce competition define biotech hiring. What the 2026 shortage means and...", href: "/blog/biotech-hiring/biotech-talent-shortage" },
+        { category: "Biotech Hiring", title: "Clinical Research Recruiting: Before You Sign", excerpt: "Clinical research associates keep trials on track and they are scarce. How to source and close CRA...", href: "/blog/biotech-hiring/clinical-research-recruiting" },
+      ]} />
+      </article>
   );
 }

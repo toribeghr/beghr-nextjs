@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -213,6 +214,11 @@ export default function EducationPayrollCostPage() {
           { "@type": "ListItem", "position": 5, "name": "Education Payroll Cost", "item": "https://www.beghr.com/blog/payroll/education/education-payroll-cost" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Outsource School Payroll: What Charter Schools Miss", excerpt: "Why private and charter schools outsource payroll, what to look for in a provider, and how managed...", href: "/blog/payroll/education/outsource-education-payroll" },
+        { category: "Payroll", title: "Private School Payroll in 2026: Teachers and Staff", excerpt: "How private schools handle 10-month teacher pay spread over 12, summer benefits, substitute...", href: "/blog/payroll/education/private-school-payroll-guide" },
+        { category: "Payroll", title: "Substitute Teacher Payroll: What Districts Get Wrong", excerpt: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and...", href: "/blog/payroll/education/school-substitute-teacher-payroll" },
+      ]} />
+      </article>
   );
 }

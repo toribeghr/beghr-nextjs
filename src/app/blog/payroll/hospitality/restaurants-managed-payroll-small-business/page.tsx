@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -174,6 +175,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Restaurants & Hospitality: Managed Payroll for Small Businesses (Under 25 Employees) (2026)","item":"https://www.beghr.com/blog/payroll/hospitality/restaurants-managed-payroll-small-business"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Bar and Nightclub Payroll, Tip Pools Explained", excerpt: "Bar and nightclub payroll outsourcing: tip credits, tip pools, late-night shift rules, bartender...", href: "/blog/payroll/hospitality/bar-nightclub-payroll" },
+        { category: "Payroll", title: "Hotel Payroll, Tipped Staff and Multi-State Rules", excerpt: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification,...", href: "/blog/payroll/hospitality/hotel-payroll" },
+        { category: "Payroll", title: "Restaurant Payroll, Tipped Staff and Tip Pools", excerpt: "Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift...", href: "/blog/payroll/hospitality/restaurant" },
+      ]} />
+      </article>
   );
 }

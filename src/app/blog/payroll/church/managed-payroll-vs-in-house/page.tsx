@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -193,6 +194,11 @@ export default function ChurchComparisonPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Church Payroll and FICA: Who Is Actually Exempt", excerpt: "A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial...", href: "/blog/payroll/church/church-employee-fica-payroll" },
+        { category: "Payroll", title: "Minister Housing Allowance Setup in Payroll", excerpt: "A step-by-step guide to setting up minister housing allowance in payroll -- designation...", href: "/blog/payroll/church/minister-housing-allowance-payroll" },
+        { category: "Accounting Hiring", title: "Accounting Job Description: What Candidates Notice First", excerpt: "Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and...", href: "/blog/accounting-hiring/accounting-job-description" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -154,6 +155,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Veterinary Practices: Managing Part-Time Worker Payroll (2026)","item":"https://www.beghr.com/blog/payroll/veterinary/veterinary-part-time-worker-payroll"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "DVM Compensation in Payroll: What Nobody Tells You", excerpt: "A practical guide to DVM compensation structures in payroll -- base salary, production bonus...", href: "/blog/payroll/veterinary/dvm-compensation-payroll" },
+        { category: "Payroll", title: "Vet Payroll: Managed vs. In-House, What It Costs", excerpt: "Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for...", href: "/blog/payroll/veterinary/managed-payroll-vs-in-house" },
+        { category: "Payroll", title: "Vet Practice Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for veterinary. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/veterinary/veterinary-benefits-integration-payroll" },
+      ]} />
+      </article>
   );
 }

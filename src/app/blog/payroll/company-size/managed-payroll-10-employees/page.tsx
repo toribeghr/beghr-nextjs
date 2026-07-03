@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -166,6 +167,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Managed Payroll for 10-Employee Businesses","item":"https://www.beghr.com/blog/payroll/company-size/managed-payroll-10-employees"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Managed Payroll for 100-Employee Companies", excerpt: "Managed Payroll for 100-Employee Businesses. BEG managed payroll at $25-$45 PEPM all-inclusive....", href: "/blog/payroll/company-size/managed-payroll-100-employees" },
+        { category: "Payroll", title: "Managed Payroll for 20-Employee Teams", excerpt: "Managed Payroll for 20-Employee Businesses. BEG managed payroll at $25-$45 PEPM all-inclusive. Find...", href: "/blog/payroll/company-size/managed-payroll-20-employees" },
+        { category: "Payroll", title: "Managed Payroll for 30-Employee Teams", excerpt: "Managed Payroll for 30-Employee Businesses. BEG managed payroll at $25-$45 PEPM all-inclusive. Find...", href: "/blog/payroll/company-size/managed-payroll-30-employees" },
+      ]} />
+      </article>
   );
 }

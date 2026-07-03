@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -177,6 +178,11 @@ export default function PropertyManagementPayrollGuidePage() {
           { "@type": "ListItem", "position": 5, "name": "Property Management Payroll Guide", "item": "https://www.beghr.com/blog/payroll/property-management/property-management-payroll-guide" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Multi-Property Payroll, Consolidated Reporting", excerpt: "How property management companies consolidate payroll across multiple properties without losing...", href: "/blog/payroll/property-management/multi-property-payroll-management" },
+        { category: "Payroll", title: "Property Management Payroll Outsourcing (What to Know)", excerpt: "Why property management companies outsource payroll, what changes immediately, and how to evaluate...", href: "/blog/payroll/property-management/outsource-property-management-payroll" },
+        { category: "Payroll", title: "Property Management Commission Payroll (Full Breakdown)", excerpt: "How to handle leasing agent commission payroll: splits, chargebacks, reconciliation, and tax...", href: "/blog/payroll/property-management/property-management-commission-payroll" },
+      ]} />
+      </article>
   );
 }

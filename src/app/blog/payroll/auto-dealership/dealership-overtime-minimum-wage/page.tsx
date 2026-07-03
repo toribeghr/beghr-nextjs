@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -163,6 +164,11 @@ export default function DealershipOvertimeMinWagePage() {
         '@context': 'https://schema.org', '@type': 'FAQPage',
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Auto Dealer Payroll Benefits Integration [2026]", excerpt: "Managed payroll for auto dealerships. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/auto-dealership/auto-dealership-benefits-integration-payroll" },
+        { category: "Payroll", title: "Auto Dealer Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for auto dealerships. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/auto-dealership/auto-dealership-direct-deposit-setup" },
+        { category: "Payroll", title: "Auto Dealer Payroll Employee Classification [2026]", excerpt: "Managed payroll for auto dealerships. Employee Classification for Payroll. $25-$45 PEPM...", href: "/blog/payroll/auto-dealership/auto-dealership-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

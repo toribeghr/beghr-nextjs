@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -123,6 +124,11 @@ export default function StartupHiringPage() {
           { '@type': 'Question', name: "How do startups handle payroll before they have an HR team?", acceptedAnswer: { '@type': 'Answer', text: "The most efficient path is a managed payroll service. The founder or CFO handles hiring decisions; the managed service handles all payroll processing, tax filings, direct deposit, and compliance. This keeps the founder out of payroll operations and creates no dependency on an internal hire the company is not yet ready to make." } },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Entrepreneur Resources", title: "Owner Draw vs Salary: What New Founders Miss", excerpt: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to...", href: "/blog/entrepreneur-resources/owner-draw-vs-salary" },
+        { category: "Entrepreneur Resources", title: "Payroll for LLC Owners: The Truth About SE Tax", excerpt: "Payroll for LLC owners: when payroll is required, self-employment tax on draws, S-corp election...", href: "/blog/entrepreneur-resources/payroll-for-llc-owners" },
+        { category: "Entrepreneur Resources", title: "Remote Team Management: What Founders Learn Late", excerpt: "Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a...", href: "/blog/entrepreneur-resources/remote-team-management" },
+      ]} />
+      </article>
   );
 }

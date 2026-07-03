@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -177,6 +178,11 @@ export default function AssetManagerRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Real Estate Hiring", title: "Hiring a Property Manager Fast: How Does It Work?", excerpt: "A vacant property manager seat risks tenant retention and NOI. A practical playbook to hire a...", href: "/blog/real-estate-hiring/hiring-a-property-manager" },
+        { category: "Real Estate Hiring", title: "Real Estate Interview Questions: What They Reveal", excerpt: "Real estate interviews that reveal portfolio performance, tenant relationship management, and asset...", href: "/blog/real-estate-hiring/real-estate-interview-questions" },
+        { category: "Real Estate Hiring", title: "Real Estate Salary Trends 2026: What Nobody Tells You", excerpt: "Real estate comp is climbing and the best candidates are passive. What actually closes a real...", href: "/blog/real-estate-hiring/real-estate-salary-trends" },
+      ]} />
+      </article>
   );
 }

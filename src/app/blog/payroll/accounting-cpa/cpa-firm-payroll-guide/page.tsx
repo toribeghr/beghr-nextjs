@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -208,6 +209,11 @@ export default function CpaFirmPayrollGuidePage() {
           { "@type": "ListItem", "position": 5, "name": "CPA Firm Payroll Guide", "item": "https://www.beghr.com/blog/payroll/accounting-cpa/cpa-firm-payroll-guide" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Accounting Firm Partner Draw Payroll (K-1 vs W-2)", excerpt: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for...", href: "/blog/payroll/accounting-cpa/accounting-firm-partner-draw-payroll" },
+        { category: "Payroll", title: "Accounting Firm Payroll Compliance in 2026", excerpt: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close...", href: "/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" },
+        { category: "Payroll", title: "CPA Busy Season Payroll Overtime (FLSA Rules)", excerpt: "CPA firm busy season payroll: FLSA overtime rules, exempt vs non-exempt staff classification,...", href: "/blog/payroll/accounting-cpa/cpa-busy-season-payroll-overtime" },
+      ]} />
+      </article>
   );
 }

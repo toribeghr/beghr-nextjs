@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -353,6 +354,11 @@ export default function HowMuchDoesPayrollManagerCostPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Average Cost of Payroll Services in 2026", excerpt: "Average Cost of Payroll Services in 2026. Managed payroll at $25-$45 PEPM all-inclusive. Get a free...", href: "/blog/payroll/cost/average-cost-payroll-services-2026" },
+        { category: "Payroll", title: "Payroll Errors: What They Cost a Small Business", excerpt: "What a Payroll Error Actually Costs a Small Business. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/cost-payroll-error-small-business" },
+        { category: "Payroll", title: "All-Inclusive Managed Payroll: What Is Included", excerpt: "All-Inclusive Managed Payroll: What Is and Is Not Included. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/fully-managed-payroll-all-inclusive-pricing" },
+      ]} />
+      </article>
   );
 }

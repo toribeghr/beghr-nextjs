@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -280,6 +281,11 @@ export default function StaffingRecruitingPayrollPage() {
         url: 'https://www.beghr.com/blog/payroll/professional-services-staffing/recruiting',
         mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/payroll/professional-services-staffing/recruiting' },
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Accounting Hiring", title: "Accounting Job Description: What Candidates Notice First", excerpt: "Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and...", href: "/blog/accounting-hiring/accounting-job-description" },
+        { category: "Accounting Hiring", title: "Accounting Salary Trends 2026: What Comp Data Hides", excerpt: "Accounting comp is climbing in 2026, but the best candidates are passive and pay is only part of...", href: "/blog/accounting-hiring/accounting-salary-trends" },
+        { category: "Accounting Hiring", title: "Busy-Season Staffing: Plan Before It Costs You", excerpt: "The firms that survive busy season hire before the crunch. How to plan accounting and tax staffing...", href: "/blog/accounting-hiring/busy-season-staffing" },
+      ]} />
+      </article>
   );
 }

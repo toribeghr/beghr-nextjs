@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Finance Hiring", title: "Finance Salary Trends 2026: What Averages Hide", excerpt: "Corporate finance comp is climbing, but the best candidates are passive and pay is only part of the...", href: "/blog/finance-hiring/finance-salary-trends" },
+        { category: "Finance Hiring", title: "Finance Talent Trends 2026: What Changed Fast", excerpt: "FP&A demand is rising while analytical finance talent stays tight. The 2026 trends shaping...", href: "/blog/finance-hiring/finance-talent-trends" },
+        { category: "Finance Hiring", title: "FP&A Recruiting: What Nobody Tells You", excerpt: "Strong FP&A analysts are passive and rarely on job boards. How to source and close the people who...", href: "/blog/finance-hiring/fpa-recruiting" },
+      ]} />
+      </article>
   );
 }

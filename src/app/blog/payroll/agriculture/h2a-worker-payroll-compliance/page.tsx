@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -190,6 +191,11 @@ export default function H2AWorkerPayrollCompliancePage() {
           { '@type': 'ListItem', position: 5, name: 'H-2A Worker Payroll Compliance', item: 'https://www.beghr.com/blog/payroll/agriculture/h2a-worker-payroll-compliance' },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Farm and Agriculture Payroll Guide in 2026", excerpt: "Complete farm payroll guide: H-2A visa workers, seasonal crew pay, FLSA agricultural exemptions,...", href: "/blog/payroll/agriculture/agriculture-farm-payroll-guide" },
+        { category: "Payroll", title: "Farm Payroll Outsourcing | Why It Works", excerpt: "Why farm and agriculture businesses outsource payroll, what a managed provider covers, and what to...", href: "/blog/payroll/agriculture/farm-payroll-outsourcing" },
+        { category: "Payroll", title: "Piece Rate Payroll for Farms (What to Know)", excerpt: "How to calculate piece rate payroll for agricultural workers correctly: minimum wage floor,...", href: "/blog/payroll/agriculture/piece-rate-payroll-farms" },
+      ]} />
+      </article>
   );
 }

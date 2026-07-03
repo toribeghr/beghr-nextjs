@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -150,6 +151,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Marketing & PR Agencies: Payroll Mistakes to Avoid (2026)","item":"https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-payroll-mistakes-to-avoid"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Managed Payroll vs In-House for Agencies: Which Wins?", excerpt: "Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with...", href: "/blog/payroll/marketing-agency/managed-payroll-vs-in-house" },
+        { category: "Payroll", title: "Agency Payroll: What Nobody Tells You About Benefits", excerpt: "Managed payroll for marketing agencies. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/marketing-agency/marketing-agency-benefits-integration-payroll" },
+        { category: "Payroll", title: "Agency Payroll: Direct Deposit Done Right", excerpt: "Managed payroll for marketing agencies. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/marketing-agency/marketing-agency-direct-deposit-setup" },
+      ]} />
+      </article>
   );
 }

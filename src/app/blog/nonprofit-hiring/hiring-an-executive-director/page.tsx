@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -176,6 +177,11 @@ export default function HiringAnExecutiveDirectorPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Nonprofit Hiring", title: "Development Director Recruiting: Before You Launch", excerpt: "A vacant development director seat puts fundraising at risk. How to recruit and close a strong...", href: "/blog/nonprofit-hiring/development-director-recruiting" },
+        { category: "Nonprofit Hiring", title: "Nonprofit Interview Questions (What to Ask)", excerpt: "Nonprofit interviews that reveal fundraising track record, mission alignment, and operational...", href: "/blog/nonprofit-hiring/nonprofit-interview-questions" },
+        { category: "Nonprofit Hiring", title: "Nonprofit Salary Trends in 2026", excerpt: "Nonprofit pay is climbing and the best candidates are passive. What actually closes a nonprofit...", href: "/blog/nonprofit-hiring/nonprofit-salary-trends" },
+      ]} />
+      </article>
   );
 }

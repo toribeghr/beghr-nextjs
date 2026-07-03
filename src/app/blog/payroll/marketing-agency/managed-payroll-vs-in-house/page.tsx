@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -193,6 +194,11 @@ export default function MarketingAgencyComparisonPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Agency Payroll: What Nobody Tells You About Benefits", excerpt: "Managed payroll for marketing agencies. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/marketing-agency/marketing-agency-benefits-integration-payroll" },
+        { category: "Payroll", title: "Agency Payroll: Direct Deposit Done Right", excerpt: "Managed payroll for marketing agencies. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/marketing-agency/marketing-agency-direct-deposit-setup" },
+        { category: "Payroll", title: "Agency Payroll: The Truth About Classification", excerpt: "Managed payroll for marketing agencies. Employee Classification for Payroll. $25-$45 PEPM...", href: "/blog/payroll/marketing-agency/marketing-agency-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

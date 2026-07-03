@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -175,6 +176,11 @@ export default function EngineeringTalentShortagePage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Engineering Hiring", title: "Engineering Interview Questions That Actually Work", excerpt: "Technical interviews alone do not predict engineering success. The questions that reveal design...", href: "/blog/engineering-hiring/engineering-interview-questions" },
+        { category: "Engineering Hiring", title: "Engineering Salary Trends 2026: What the Data Hides", excerpt: "Engineering comp is climbing, but the best candidates are passive and pay is only part of the...", href: "/blog/engineering-hiring/engineering-salary-trends" },
+        { category: "Engineering Hiring", title: "Hiring Mechanical Engineers Without Overpaying", excerpt: "A vacant mechanical engineer seat stalls your product and projects. A practical playbook to hire...", href: "/blog/engineering-hiring/hiring-mechanical-engineers" },
+      ]} />
+      </article>
   );
 }

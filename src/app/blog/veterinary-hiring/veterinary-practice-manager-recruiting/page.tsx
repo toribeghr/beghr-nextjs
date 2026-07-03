@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -177,6 +178,11 @@ export default function VeterinaryPracticeManagerRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Veterinary Hiring", title: "Hiring Associate Veterinarians Fast: How Does It Work?", excerpt: "An open DVM seat means lost revenue and a stretched team. A practical playbook to hire an associate...", href: "/blog/veterinary-hiring/hiring-associate-veterinarians" },
+        { category: "Veterinary Hiring", title: "Veterinary Interview Questions: Who Actually Stays", excerpt: "Veterinary interviews that reveal clinical philosophy, client communication quality, and practice...", href: "/blog/veterinary-hiring/veterinary-interview-questions" },
+        { category: "Veterinary Hiring", title: "Veterinary Salary Trends 2026: What Actually Closes", excerpt: "Veterinary comp is climbing, but the best DVMs are passive and pay is only part of the decision....", href: "/blog/veterinary-hiring/veterinary-salary-trends" },
+      ]} />
+      </article>
   );
 }

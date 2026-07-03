@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -304,6 +305,11 @@ export default function ManufacturingPayrollPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Shift Work Payroll: The Truth About 24/7 Overtime", excerpt: "Manufacturing shift work payroll: shift differentials, rotating schedules, overtime rules, and FLSA...", href: "/blog/payroll/manufacturing/shift-work-payroll" },
+        { category: "Payroll", title: "Union Manufacturing Payroll: What Nobody Tells You", excerpt: "Union manufacturing payroll: CBA wage schedules, fringe remittances, grievance documentation, and...", href: "/blog/payroll/manufacturing/union-manufacturing-payroll" },
+        { category: "Accounting Hiring", title: "Accounting Job Description: What Candidates Notice First", excerpt: "Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and...", href: "/blog/accounting-hiring/accounting-job-description" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -296,6 +297,11 @@ export default function LawFirmPayrollPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Accounting Firm Payroll, Outsourced vs. In-House", excerpt: "Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks...", href: "/blog/payroll/professional-services/accounting" },
+        { category: "Payroll", title: "Consulting Firm Payroll, Billable Hours (Full Breakdown)", excerpt: "Consulting firm payroll: utilization bonuses, multi-state remote consultant compliance, exempt...", href: "/blog/payroll/professional-services/consulting-firm-payroll" },
+        { category: "Payroll", title: "Engineering Firm Payroll, Benefits Integration", excerpt: "Managed payroll for engineering. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/professional-services/engineering-benefits-integration-payroll" },
+      ]} />
+      </article>
   );
 }

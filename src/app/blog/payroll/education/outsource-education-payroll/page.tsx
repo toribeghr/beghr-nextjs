@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -177,6 +178,11 @@ export default function OutsourceEducationPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Outsource Education Payroll", "item": "https://www.beghr.com/blog/payroll/education/outsource-education-payroll" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "School Payroll Costs: In-House vs Managed, the Gap", excerpt: "What it really costs to run payroll for a private school in-house vs managed. Hidden costs, staff...", href: "/blog/payroll/education/education-payroll-cost" },
+        { category: "Payroll", title: "Private School Payroll in 2026: Teachers and Staff", excerpt: "How private schools handle 10-month teacher pay spread over 12, summer benefits, substitute...", href: "/blog/payroll/education/private-school-payroll-guide" },
+        { category: "Payroll", title: "Substitute Teacher Payroll: What Districts Get Wrong", excerpt: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and...", href: "/blog/payroll/education/school-substitute-teacher-payroll" },
+      ]} />
+      </article>
   );
 }

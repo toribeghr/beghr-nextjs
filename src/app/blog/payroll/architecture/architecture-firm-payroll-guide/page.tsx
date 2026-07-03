@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -204,6 +205,11 @@ export default function ArchitectureFirmPayrollGuidePage() {
           { "@type": "ListItem", "position": 5, "name": "Architecture Firm Payroll Guide", "item": "https://www.beghr.com/blog/payroll/architecture/architecture-firm-payroll-guide" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Architecture Partner Draw Payroll (K-1 vs W-2)", excerpt: "Architecture partnership payroll: managing partner draws, W-2 salaries, K-1 distributions, and...", href: "/blog/payroll/architecture/architecture-partner-draw-payroll" },
+        { category: "Payroll", title: "Architecture Project Payroll Allocation (AIA)", excerpt: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by...", href: "/blog/payroll/architecture/architecture-project-payroll-allocation" },
+        { category: "Payroll", title: "Licensed Professional Payroll [Full Breakdown]", excerpt: "Payroll compliance for licensed architects and engineers: state license tracking, FLSA...", href: "/blog/payroll/architecture/licensed-professional-payroll-tracking" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -199,6 +200,11 @@ export default function StaffingAgencyPayrollCompliancePage() {
           { '@type': 'ListItem', position: 5, name: 'Staffing Agency Payroll Compliance', item: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-compliance' },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Staffing Agency Payroll: Should You Outsource It", excerpt: "Should you outsource staffing agency payroll? What outsourcing covers, how it handles W-2 vs 1099,...", href: "/blog/payroll/staffing-agency/outsource-staffing-agency-payroll" },
+        { category: "Payroll", title: "Staffing Agency Payroll Costs: In-House vs. Managed", excerpt: "How much does staffing agency payroll cost? Compare in-house payroll specialist ($60K-$100K) vs...", href: "/blog/payroll/staffing-agency/staffing-agency-payroll-cost" },
+        { category: "Payroll", title: "Staffing Agency Payroll Guide: W-2 vs. 1099", excerpt: "Complete staffing agency payroll guide: W-2 vs 1099 classification, weekly cycles, co-employment...", href: "/blog/payroll/staffing-agency/staffing-agency-payroll-guide" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Cybersecurity Hiring", title: "Cybersecurity Salary Trends 2026: What Nobody Warns", excerpt: "Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends...", href: "/blog/cybersecurity-hiring/cybersecurity-salary-trends" },
+        { category: "Cybersecurity Hiring", title: "Cybersecurity Talent Gap 2026: What Nobody Mentions", excerpt: "The security skills shortage is widening as threats grow. What the talent gap means for hiring and...", href: "/blog/cybersecurity-hiring/cybersecurity-talent-gap" },
+        { category: "Cybersecurity Hiring", title: "Hiring a CISO in 2026 Without Overpaying", excerpt: "A CISO hire carries board-level stakes. What to look for, why confidential search matters, and how...", href: "/blog/cybersecurity-hiring/hiring-a-ciso" },
+      ]} />
+      </article>
   );
 }

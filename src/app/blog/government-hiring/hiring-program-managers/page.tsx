@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -177,6 +178,11 @@ export default function HiringProgramManagersPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Government Hiring", title: "Government Contracts Manager Recruiting, Before You Post", excerpt: "The right contracts manager protects your margin and compliance posture. How to find and hire a...", href: "/blog/government-hiring/contracts-manager-recruiting" },
+        { category: "Government Hiring", title: "Government Contractor Hiring Trends 2026: What Changed", excerpt: "Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means...", href: "/blog/government-hiring/government-contractor-hiring-trends" },
+        { category: "Government Hiring", title: "Government Contractor Job Description: What Recruits Notice", excerpt: "Government contractor JDs that bury the clearance level and contract details lose cleared...", href: "/blog/government-hiring/government-job-description" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -151,6 +152,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"E-Commerce & DTC Brands: Hourly vs. Salaried Employee Payroll (2026)","item":"https://www.beghr.com/blog/payroll/ecommerce/ecommerce-hourly-vs-salaried-payroll"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "DTC Brand Payroll: What Nobody Tells You About Scaling", excerpt: "DTC brand payroll: warehouse staff, remote marketing teams, variable headcount, contractor...", href: "/blog/payroll/ecommerce/dtc-brand-payroll" },
+        { category: "Payroll", title: "E-Commerce Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll" },
+        { category: "Payroll", title: "E-Commerce Payroll: Direct Deposit Setup, Done Right", excerpt: "Managed payroll for e-commerce. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/ecommerce/ecommerce-direct-deposit-setup" },
+      ]} />
+      </article>
   );
 }

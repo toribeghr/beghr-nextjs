@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Supply Chain Hiring", title: "Hiring a Supply Chain Manager: How Does It Work?", excerpt: "A vacant supply chain manager seat risks service, cost, and inventory. A practical playbook to hire...", href: "/blog/supply-chain-hiring/hiring-a-supply-chain-manager" },
+        { category: "Supply Chain Hiring", title: "Logistics Recruiting: What Nobody Tells You About Speed", excerpt: "Logistics and distribution roles turn over fast and stay open longer. How to recruit logistics...", href: "/blog/supply-chain-hiring/logistics-recruiting" },
+        { category: "Supply Chain Hiring", title: "Supply Chain Salary Trends 2026: What Nobody Tells You", excerpt: "Supply chain comp is climbing, but the best operators are passive and pay is only part of the...", href: "/blog/supply-chain-hiring/supply-chain-salary-trends" },
+      ]} />
+      </article>
   );
 }

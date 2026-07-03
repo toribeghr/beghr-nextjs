@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -177,6 +178,11 @@ export default function QualityEngineerRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Manufacturing Hiring", title: "Hiring a Plant Manager Without Overpaying", excerpt: "A vacant plant manager seat risks throughput and safety. A practical playbook to hire a plant...", href: "/blog/manufacturing-hiring/hiring-a-plant-manager" },
+        { category: "Manufacturing Hiring", title: "Manufacturing Interview Questions That Actually Work", excerpt: "Manufacturing interviews that reveal production track record, quality philosophy, and continuous...", href: "/blog/manufacturing-hiring/manufacturing-interview-questions" },
+        { category: "Manufacturing Hiring", title: "Manufacturing Salary Trends 2026: What Averages Hide", excerpt: "Manufacturing pay is climbing but the best candidates are passive. What actually closes a...", href: "/blog/manufacturing-hiring/manufacturing-salary-trends" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -161,6 +162,11 @@ export default function SCorpOwnerSalaryPage() {
         '@context': 'https://schema.org', '@type': 'FAQPage',
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Managed Payroll vs In-House for Agencies: Which Wins?", excerpt: "Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with...", href: "/blog/payroll/marketing-agency/managed-payroll-vs-in-house" },
+        { category: "Payroll", title: "Agency Payroll: What Nobody Tells You About Benefits", excerpt: "Managed payroll for marketing agencies. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/marketing-agency/marketing-agency-benefits-integration-payroll" },
+        { category: "Payroll", title: "Agency Payroll: Direct Deposit Done Right", excerpt: "Managed payroll for marketing agencies. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/marketing-agency/marketing-agency-direct-deposit-setup" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -185,6 +186,11 @@ export default function OutsourceSeniorCarePayrollPage() {
           { '@type': 'ListItem', position: 5, name: 'Outsource Senior Care Payroll', item: 'https://www.beghr.com/blog/payroll/senior-care/outsource-senior-care-payroll' },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Memory Care and Assisted Living Payroll, Explained", excerpt: "Memory care and assisted living payroll differences: staffing ratios, wage premiums, high-turnover...", href: "/blog/payroll/senior-care/memory-care-assisted-living-payroll" },
+        { category: "Payroll", title: "Nursing Home Payroll Compliance: CMS and FLSA Rules", excerpt: "Nursing home payroll compliance guide: CMS minimum staffing rules, FLSA overtime for nurses and...", href: "/blog/payroll/senior-care/nursing-home-payroll-compliance" },
+        { category: "Payroll", title: "Senior Care Payroll Guide: CNA Pay and Shift Diffs", excerpt: "Senior care facility payroll guide: CNA overtime rules, shift differential configuration, CMS...", href: "/blog/payroll/senior-care/senior-care-payroll-guide" },
+      ]} />
+      </article>
   );
 }

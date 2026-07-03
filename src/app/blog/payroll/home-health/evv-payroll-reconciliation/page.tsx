@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -147,6 +148,11 @@ export default function EVVPayrollPage() {
         '@context': 'https://schema.org', '@type': 'FAQPage',
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Home Health Payroll, Integrating Benefits Right", excerpt: "Managed payroll for home health. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/home-health/home-health-benefits-integration-payroll" },
+        { category: "Payroll", title: "Home Health Payroll, Direct Deposit Setup Steps", excerpt: "Managed payroll for home health. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/home-health/home-health-direct-deposit-setup" },
+        { category: "Payroll", title: "Home Health Payroll, Employee Classification Guide", excerpt: "Managed payroll for home health. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/home-health/home-health-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

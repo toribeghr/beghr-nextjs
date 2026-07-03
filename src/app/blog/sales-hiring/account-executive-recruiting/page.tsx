@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -163,6 +164,11 @@ export default function AccountExecutiveRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Sales Hiring", title: "Hiring a VP of Sales in 2026: How Does It Work?", excerpt: "A VP of Sales hire shapes revenue for years. What good looks like, why confidential search matters,...", href: "/blog/sales-hiring/hiring-vp-of-sales" },
+        { category: "Sales Hiring", title: "Sales Compensation Trends 2026: The Truth About OTE", excerpt: "OTE is climbing but the best reps weigh more than pay. What sales comp trends mean for hiring and...", href: "/blog/sales-hiring/sales-compensation-trends" },
+        { category: "Sales Hiring", title: "Sales Interview Questions: What Quota Attainment Reveals", excerpt: "Sales interviews that go beyond the pitch. The questions that reveal quota attainment history,...", href: "/blog/sales-hiring/sales-interview-questions" },
+      ]} />
+      </article>
   );
 }

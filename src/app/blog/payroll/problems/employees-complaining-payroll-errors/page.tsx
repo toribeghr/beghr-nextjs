@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -148,6 +149,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Employees Complaining About Payroll Errors: What to Fix","item":"https://www.beghr.com/blog/payroll/problems/employees-complaining-payroll-errors"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Employee Overpaid on Payroll, Before You Try to Fix It", excerpt: "Employee Overpaid on Payroll: What Employers Must Do. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/problems/employee-overpaid-what-to-do" },
+        { category: "Payroll", title: "IRS Notice About Payroll Taxes, Before You Respond", excerpt: "Received an IRS Notice About Payroll Taxes: Next Steps. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/problems/irs-notice-payroll-taxes" },
+        { category: "Payroll", title: "Missed Payroll Tax Deposit, Before Penalties Stack Up", excerpt: "Missed a Payroll Tax Deposit: Steps to Take Immediately. Expert guidance from BEG managed payroll...", href: "/blog/payroll/problems/missed-payroll-tax-deposit-what-to-do" },
+      ]} />
+      </article>
   );
 }

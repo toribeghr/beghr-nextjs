@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
@@ -197,7 +198,12 @@ export default function HealthcarePayrollHubPage() {
                 <Link href={post.slug} className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
                   Read Post
                 </Link>
-              </article>
+                    <RelatedPosts posts={[
+        { category: "Payroll", title: "CPA Firm Payroll Guides | Partner Draws + Busy Season", excerpt: "CPA and accounting firm payroll guides covering partner draws, busy season overtime, remote staff,...", href: "/blog/payroll/accounting-cpa" },
+        { category: "Payroll", title: "Farm & Agriculture Payroll Guides | H-2A + Seasonal", excerpt: "Agriculture payroll guides covering H-2A workers, seasonal crews, piece rate compliance, MSPA...", href: "/blog/payroll/agriculture" },
+        { category: "Payroll", title: "Architecture Firm Payroll Guides | Project Billing + Partners", excerpt: "Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and...", href: "/blog/payroll/architecture" },
+      ]} />
+      </article>
             ))}
           </div>
         </div>

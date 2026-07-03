@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -148,6 +149,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Managed Payroll Security: How Your Data Is Protected","item":"https://www.beghr.com/blog/payroll/guides/managed-payroll-security-and-data"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "How Managed Payroll Works, From Onboarding to Payday", excerpt: "How Managed Payroll Works: From Onboarding to First Pay Run. Expert guidance from BEG managed...", href: "/blog/payroll/guides/managed-payroll-how-it-works" },
+        { category: "Payroll", title: "Managed Payroll Onboarding, the First 30 Days Explained", excerpt: "What to Expect in the First 30 Days of Managed Payroll. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/guides/managed-payroll-onboarding-what-to-expect" },
+        { category: "Payroll", title: "Managed Payroll SLA, What Should Actually Be In It", excerpt: "What Should Be in a Managed Payroll SLA?. Expert guidance from BEG managed payroll at $25-$45 PEPM....", href: "/blog/payroll/guides/managed-payroll-service-level-agreement" },
+      ]} />
+      </article>
   );
 }

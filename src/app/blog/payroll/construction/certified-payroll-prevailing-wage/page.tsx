@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -198,6 +199,11 @@ export default function CertifiedPayrollPrevailingWagePage() {
           { "@type": "ListItem", "position": 5, "name": "Certified Payroll", "item": "https://www.beghr.com/blog/payroll/construction/certified-payroll-prevailing-wage" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Construction Payroll Benefits Integration", excerpt: "Managed payroll for construction. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/construction/construction-benefits-integration-payroll" },
+        { category: "Payroll", title: "Construction Payroll Direct Deposit Setup for Crews", excerpt: "Managed payroll for construction. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/construction/construction-direct-deposit-setup" },
+        { category: "Payroll", title: "Construction Payroll: Employee or Contractor?", excerpt: "Managed payroll for construction. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/construction/construction-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

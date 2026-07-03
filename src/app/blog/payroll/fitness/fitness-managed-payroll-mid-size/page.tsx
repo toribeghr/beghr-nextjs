@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -174,6 +175,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Fitness Studios & Gyms: Managed Payroll for Mid-Size Businesses (25-100 Employees) (2026)","item":"https://www.beghr.com/blog/payroll/fitness/fitness-managed-payroll-mid-size"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Fitness Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for fitness. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/fitness/fitness-benefits-integration-payroll" },
+        { category: "Payroll", title: "Fitness Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for fitness. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/fitness/fitness-direct-deposit-setup" },
+        { category: "Payroll", title: "Fitness Payroll Classification, Before It Costs You", excerpt: "Managed payroll for fitness. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/fitness/fitness-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

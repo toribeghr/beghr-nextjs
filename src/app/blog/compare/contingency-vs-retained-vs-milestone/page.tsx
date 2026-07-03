@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -212,6 +213,11 @@ export default function ContingencyVsRetainedVsMilestonePage() {
           { '@type': 'Question', name: "Is retained search worth it for law firms?", acceptedAnswer: { '@type': 'Answer', text: "Retained search makes sense for highly specialized or partner-level roles where market visibility matters and the search requires significant research investment. For associate and mid-level attorney roles, a milestone-based model delivers the same quality at substantially lower cost and typically faster." } },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Compare", title: "Alternatives to Contingency Recruiting", excerpt: "Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on...", href: "/blog/compare/alternatives-to-contingency-recruiting" },
+        { category: "Compare", title: "BEG vs Insight Global | Instant Fee Quote", excerpt: "BEG vs Insight Global on permanent direct hire: fee model, cost, and speed compared fairly. See...", href: "/blog/compare/beg-vs-insight-global" },
+        { category: "Compare", title: "BEG vs Kforce | Instant Fee Quote", excerpt: "BEG vs Kforce on permanent direct hire: fee model, cost, and speed compared fairly. See where...", href: "/blog/compare/beg-vs-kforce" },
+      ]} />
+      </article>
   );
 }

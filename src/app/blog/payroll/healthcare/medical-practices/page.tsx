@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -287,6 +288,11 @@ export default function MedicalPracticesPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Dental Office Payroll Outsourcing (Full Breakdown)", excerpt: "Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO...", href: "/blog/payroll/healthcare/dental" },
+        { category: "Payroll", title: "Healthcare Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for healthcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/healthcare/healthcare-benefits-integration-payroll" },
+        { category: "Payroll", title: "Healthcare Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for healthcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/healthcare/healthcare-direct-deposit-setup" },
+      ]} />
+      </article>
   );
 }

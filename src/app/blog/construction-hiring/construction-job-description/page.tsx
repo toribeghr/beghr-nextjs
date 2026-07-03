@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Construction Hiring", title: "Construction Labor Shortage 2026: What Nobody Tells You", excerpt: "Skilled trades are retiring and fewer workers are entering. What the 2026 construction shortage...", href: "/blog/construction-hiring/construction-labor-shortage" },
+        { category: "Construction Hiring", title: "Construction Salary Trends 2026: What Pay Won", excerpt: "Construction management comp is climbing in 2026, but the best candidates are passive and pay is...", href: "/blog/construction-hiring/construction-salary-trends" },
+        { category: "Construction Hiring", title: "Estimator Recruiting: The Truth About This Fill", excerpt: "A weak estimate sinks a project before it starts. Why estimators are the hardest construction hire...", href: "/blog/construction-hiring/estimator-recruiting" },
+      ]} />
+      </article>
   );
 }

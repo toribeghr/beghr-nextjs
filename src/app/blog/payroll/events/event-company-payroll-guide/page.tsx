@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -205,6 +206,11 @@ export default function EventCompanyPayrollGuidePage() {
           { "@type": "ListItem", "position": 5, "name": "Event Company Payroll Guide", "item": "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "California Event Payroll Rules: What AB5 Requires", excerpt: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders,...", href: "/blog/payroll/events/california-event-payroll-rules" },
+        { category: "Payroll", title: "Event Staff W-2 vs 1099: What Nobody Tells You", excerpt: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring...", href: "/blog/payroll/events/event-staff-w2-vs-1099-classification" },
+        { category: "Payroll", title: "Multi-State Event Payroll: The Touring Compliance Trap", excerpt: "Multi-state payroll compliance for event companies: employer registration, withholding by state,...", href: "/blog/payroll/events/multi-state-event-payroll-compliance" },
+      ]} />
+      </article>
   );
 }

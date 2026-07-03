@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -176,6 +177,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Payroll Outsourcing in Tennessee for Small Businesses","item":"https://www.beghr.com/blog/payroll/state/payroll-outsourcing-tennessee"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Payroll Outsourcing in Arizona for Growing Businesses", excerpt: "Payroll Outsourcing in Arizona for Growing Businesses. BEG provides managed payroll nationwide....", href: "/blog/payroll/state/payroll-outsourcing-arizona" },
+        { category: "Payroll", title: "Payroll Outsourcing in California: 2026 Compliance", excerpt: "Payroll Outsourcing in California: Compliance Guide. BEG provides managed payroll nationwide. Book...", href: "/blog/payroll/state/payroll-outsourcing-california" },
+        { category: "Payroll", title: "Payroll Outsourcing in Colorado: New 2026 Rules", excerpt: "Payroll Outsourcing in Colorado: New Laws and Requirements. BEG provides managed payroll...", href: "/blog/payroll/state/payroll-outsourcing-colorado" },
+      ]} />
+      </article>
   );
 }

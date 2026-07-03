@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -174,6 +175,11 @@ export default function ServiceContractActSecurityPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "SCA Security Payroll", "item": "https://www.beghr.com/blog/payroll/security/service-contract-act-security-payroll" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Outsourcing Security Company Payroll: What Changes", excerpt: "Why security companies outsource payroll, what to look for in a provider, and what changes...", href: "/blog/payroll/security/outsource-security-company-payroll" },
+        { category: "Payroll", title: "Security Company Payroll Compliance for 2026", excerpt: "Payroll compliance for security companies: state guard licensing, workers compensation...", href: "/blog/payroll/security/security-company-payroll-compliance" },
+        { category: "Payroll", title: "Security Company Payroll Guide: Guard Shifts & SCA", excerpt: "Security company payroll guide: SCA compliance for federal contracts, 24/7 shift processing,...", href: "/blog/payroll/security/security-company-payroll-guide" },
+      ]} />
+      </article>
   );
 }

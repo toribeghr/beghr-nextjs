@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Hr Hiring", title: "Hiring an HR Director in 2026 Without Overpaying", excerpt: "A vacant HR director seat risks culture, compliance, and retention. A confidential playbook to hire...", href: "/blog/hr-hiring/hiring-an-hr-director" },
+        { category: "Hr Hiring", title: "HR Salary Trends 2026: The Truth About Speed vs Pay", excerpt: "HR comp is climbing, but the best candidates are passive and pay is only part of the decision. Why...", href: "/blog/hr-hiring/hr-salary-trends" },
+        { category: "Hr Hiring", title: "HR Talent Trends 2026: What Changed in People Ops", excerpt: "People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how...", href: "/blog/hr-hiring/hr-talent-trends" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -170,6 +171,11 @@ export default function DentalSalaryTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Dental Hiring", title: "Dental Interview Questions That Actually Work", excerpt: "Dental interviews that reveal clinical judgment, patient communication skills, and production...", href: "/blog/dental-hiring/dental-interview-questions" },
+        { category: "Dental Hiring", title: "Dental Staffing Shortage 2026: What Nobody Tells You", excerpt: "Hygienists and associates are scarce and the pipeline is thin. What the 2026 dental shortage means...", href: "/blog/dental-hiring/dental-staffing-shortage" },
+        { category: "Dental Hiring", title: "Hiring an Associate Dentist Without Overpaying", excerpt: "An empty operatory means lost production. A practical playbook to hire an associate dentist in...", href: "/blog/dental-hiring/hiring-associate-dentists" },
+      ]} />
+      </article>
   );
 }

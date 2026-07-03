@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -151,6 +152,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Trucking & Transportation Companies: Payroll Recordkeeping Requirements (2026)","item":"https://www.beghr.com/blog/payroll/trucking/trucking-payroll-recordkeeping"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Managed Payroll vs. In-House for Trucking: What It Costs", excerpt: "Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets...", href: "/blog/payroll/trucking/managed-payroll-vs-in-house" },
+        { category: "Payroll", title: "Per Diem Pay for Truck Drivers: What Nobody Tells You", excerpt: "How to structure per diem pay for truck drivers correctly -- IRS accountable plan rules, the 2025...", href: "/blog/payroll/trucking/per-diem-pay-truck-drivers" },
+        { category: "Payroll", title: "Trucking Payroll Taxes: The Truth Fleet Owners Miss", excerpt: "A plain-English guide to payroll taxes for trucking companies -- FUTA, SUTA, Social Security,...", href: "/blog/payroll/trucking/truck-driver-payroll-taxes" },
+      ]} />
+      </article>
   );
 }

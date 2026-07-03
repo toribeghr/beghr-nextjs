@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Marketing Hiring", title: "Demand Gen Recruiting Before Pipeline Dries Up", excerpt: "Demand gen talent is measured on pipeline and revenue, which makes the best people hard to win. How...", href: "/blog/marketing-hiring/demand-gen-recruiting" },
+        { category: "Marketing Hiring", title: "Hiring a Marketing Director Without Overpaying", excerpt: "A vacant marketing director seat stalls pipeline and brand. A practical playbook to hire one in...", href: "/blog/marketing-hiring/hiring-a-marketing-director" },
+        { category: "Marketing Hiring", title: "Marketing Salary Trends 2026: What Averages Hide", excerpt: "Marketing comp is climbing, but the best marketers are passive and pay is only part of the...", href: "/blog/marketing-hiring/marketing-salary-trends" },
+      ]} />
+      </article>
   );
 }

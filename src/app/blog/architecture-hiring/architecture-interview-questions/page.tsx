@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Architecture Hiring", title: "Architecture Salary Trends 2026: What They Don", excerpt: "Architecture comp is climbing, but the best candidates are passive and pay is only part of the...", href: "/blog/architecture-hiring/architecture-salary-trends" },
+        { category: "Architecture Hiring", title: "Architecture Talent Shortage 2026: What Nobody Warns", excerpt: "Licensure is down and retirements are up. What the 2026 architecture shortage means for hiring and...", href: "/blog/architecture-hiring/architecture-talent-shortage" },
+        { category: "Architecture Hiring", title: "BIM Manager Recruiting: Before You Post the Job", excerpt: "A strong BIM manager keeps documentation, standards, and coordination on track. How to recruit one...", href: "/blog/architecture-hiring/bim-manager-recruiting" },
+      ]} />
+      </article>
   );
 }

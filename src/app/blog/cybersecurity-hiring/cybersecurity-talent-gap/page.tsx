@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -176,6 +177,11 @@ export default function CybersecurityTalentGapPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Cybersecurity Hiring", title: "Cybersecurity Job Description: What Attracts Talent", excerpt: "Most cybersecurity JDs list 20 certifications and scare off the best candidates. How to write a...", href: "/blog/cybersecurity-hiring/cybersecurity-job-description" },
+        { category: "Cybersecurity Hiring", title: "Cybersecurity Salary Trends 2026: What Nobody Warns", excerpt: "Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends...", href: "/blog/cybersecurity-hiring/cybersecurity-salary-trends" },
+        { category: "Cybersecurity Hiring", title: "Hiring a CISO in 2026 Without Overpaying", excerpt: "A CISO hire carries board-level stakes. What to look for, why confidential search matters, and how...", href: "/blog/cybersecurity-hiring/hiring-a-ciso" },
+      ]} />
+      </article>
   );
 }

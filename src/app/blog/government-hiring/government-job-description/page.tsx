@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Government Hiring", title: "Government Contracts Manager Recruiting, Before You Post", excerpt: "The right contracts manager protects your margin and compliance posture. How to find and hire a...", href: "/blog/government-hiring/contracts-manager-recruiting" },
+        { category: "Government Hiring", title: "Government Contractor Hiring Trends 2026: What Changed", excerpt: "Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means...", href: "/blog/government-hiring/government-contractor-hiring-trends" },
+        { category: "Government Hiring", title: "Government Contractor Salary Trends 2026: What", excerpt: "GovCon comp is climbing, especially for cleared talent, but pay is only part of the decision. What...", href: "/blog/government-hiring/government-salary-trends" },
+      ]} />
+      </article>
   );
 }

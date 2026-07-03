@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -157,6 +158,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Law Firms: Setting Up Direct Deposit (2026)","item":"https://www.beghr.com/blog/payroll/law-firms/law-firms-direct-deposit-setup"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Law Firm Payroll: What Nobody Tells You About Benefits", excerpt: "Managed payroll for law firms. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/law-firms/law-firms-benefits-integration-payroll" },
+        { category: "Payroll", title: "Law Firm Payroll: The Truth About Classification", excerpt: "Managed payroll for law firms. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/law-firms/law-firms-employee-classification-guide" },
+        { category: "Payroll", title: "Law Firm Payroll: Hourly vs Salaried, Does It Matter?", excerpt: "Managed payroll for law firms. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/law-firms/law-firms-hourly-vs-salaried-payroll" },
+      ]} />
+      </article>
   );
 }

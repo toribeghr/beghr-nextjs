@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -163,6 +164,11 @@ export default function SecurityEngineerRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Cybersecurity Hiring", title: "Cybersecurity Job Description: What Attracts Talent", excerpt: "Most cybersecurity JDs list 20 certifications and scare off the best candidates. How to write a...", href: "/blog/cybersecurity-hiring/cybersecurity-job-description" },
+        { category: "Cybersecurity Hiring", title: "Cybersecurity Salary Trends 2026: What Nobody Warns", excerpt: "Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends...", href: "/blog/cybersecurity-hiring/cybersecurity-salary-trends" },
+        { category: "Cybersecurity Hiring", title: "Cybersecurity Talent Gap 2026: What Nobody Mentions", excerpt: "The security skills shortage is widening as threats grow. What the talent gap means for hiring and...", href: "/blog/cybersecurity-hiring/cybersecurity-talent-gap" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Healthcare Hiring", title: "Clinical Staff Recruiting Before the Shift Gap Grows", excerpt: "The strongest clinical candidates are employed and passive. How to recruit nurses, NPs, and...", href: "/blog/healthcare-hiring/clinical-staff-recruiting" },
+        { category: "Healthcare Hiring", title: "Healthcare Salary Trends 2026: What Averages Hide", excerpt: "Clinical comp is climbing, but the best candidates are passive and pay is only part of the...", href: "/blog/healthcare-hiring/healthcare-salary-trends" },
+        { category: "Healthcare Hiring", title: "Healthcare Talent Shortage 2026: What Nobody Mentions", excerpt: "Clinician retirements are up and the pipeline is thin. What the 2026 healthcare shortage means for...", href: "/blog/healthcare-hiring/healthcare-talent-shortage" },
+      ]} />
+      </article>
   );
 }

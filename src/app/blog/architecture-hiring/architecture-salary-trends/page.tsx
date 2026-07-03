@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -168,6 +169,11 @@ export default function ArchitectureSalaryTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Architecture Hiring", title: "Architecture Interview Questions That Actually Work", excerpt: "Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery...", href: "/blog/architecture-hiring/architecture-interview-questions" },
+        { category: "Architecture Hiring", title: "Architecture Talent Shortage 2026: What Nobody Warns", excerpt: "Licensure is down and retirements are up. What the 2026 architecture shortage means for hiring and...", href: "/blog/architecture-hiring/architecture-talent-shortage" },
+        { category: "Architecture Hiring", title: "BIM Manager Recruiting: Before You Post the Job", excerpt: "A strong BIM manager keeps documentation, standards, and coordination on track. How to recruit one...", href: "/blog/architecture-hiring/bim-manager-recruiting" },
+      ]} />
+      </article>
   );
 }

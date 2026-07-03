@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -193,6 +194,11 @@ export default function CannabisComparisonPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Cannabis Payroll Benefits Integration [2026]", excerpt: "Managed payroll for cannabis. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/cannabis/cannabis-benefits-integration-payroll" },
+        { category: "Payroll", title: "Cannabis Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for cannabis. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/cannabis/cannabis-direct-deposit-setup" },
+        { category: "Payroll", title: "Cannabis Payroll Employee Classification [2026]", excerpt: "Managed payroll for cannabis. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/cannabis/cannabis-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

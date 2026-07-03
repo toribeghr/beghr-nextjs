@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -163,6 +164,11 @@ export default function CeoSuccessionPlanningPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Executive Hiring", title: "Executive Compensation Trends 2026: What Boards Hide", excerpt: "Executive pay is rising and the package is more than base. What boards and CEOs need to offer to...", href: "/blog/executive-hiring/executive-compensation-trends" },
+        { category: "Executive Hiring", title: "Executive Interview Questions That Actually Work", excerpt: "Leadership interviews that go beyond vision and values. The questions that reveal whether an...", href: "/blog/executive-hiring/executive-interview-questions" },
+        { category: "Executive Hiring", title: "Executive Search Trends 2026: What Nobody Warns", excerpt: "Confidential, relationship-led search is replacing post-and-pray hiring at the top. The executive...", href: "/blog/executive-hiring/executive-search-trends" },
+      ]} />
+      </article>
   );
 }

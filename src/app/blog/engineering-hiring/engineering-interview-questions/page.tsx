@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Engineering Hiring", title: "Engineering Salary Trends 2026: What the Data Hides", excerpt: "Engineering comp is climbing, but the best candidates are passive and pay is only part of the...", href: "/blog/engineering-hiring/engineering-salary-trends" },
+        { category: "Engineering Hiring", title: "Engineering Talent Shortage 2026: What Nobody Mentions", excerpt: "Engineering retirements are up and the pipeline is thin. What the 2026 shortage means for hiring...", href: "/blog/engineering-hiring/engineering-talent-shortage" },
+        { category: "Engineering Hiring", title: "Hiring Mechanical Engineers Without Overpaying", excerpt: "A vacant mechanical engineer seat stalls your product and projects. A practical playbook to hire...", href: "/blog/engineering-hiring/hiring-mechanical-engineers" },
+      ]} />
+      </article>
   );
 }

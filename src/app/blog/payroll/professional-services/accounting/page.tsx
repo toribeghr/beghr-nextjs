@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -287,6 +288,11 @@ export default function AccountingPayrollPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Consulting Firm Payroll, Billable Hours (Full Breakdown)", excerpt: "Consulting firm payroll: utilization bonuses, multi-state remote consultant compliance, exempt...", href: "/blog/payroll/professional-services/consulting-firm-payroll" },
+        { category: "Payroll", title: "Engineering Firm Payroll, Benefits Integration", excerpt: "Managed payroll for engineering. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/professional-services/engineering-benefits-integration-payroll" },
+        { category: "Payroll", title: "Engineering Firm Direct Deposit Setup (What to Know)", excerpt: "Managed payroll for engineering. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/professional-services/engineering-direct-deposit-setup" },
+      ]} />
+      </article>
   );
 }

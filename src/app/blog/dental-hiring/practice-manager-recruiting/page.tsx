@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -177,6 +178,11 @@ export default function PracticeManagerRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Dental Hiring", title: "Dental Interview Questions That Actually Work", excerpt: "Dental interviews that reveal clinical judgment, patient communication skills, and production...", href: "/blog/dental-hiring/dental-interview-questions" },
+        { category: "Dental Hiring", title: "Dental Salary Trends 2026: What Averages Hide", excerpt: "Dental pay is climbing but the best candidates are passive. What actually closes a dental hire and...", href: "/blog/dental-hiring/dental-salary-trends" },
+        { category: "Dental Hiring", title: "Dental Staffing Shortage 2026: What Nobody Tells You", excerpt: "Hygienists and associates are scarce and the pipeline is thin. What the 2026 dental shortage means...", href: "/blog/dental-hiring/dental-staffing-shortage" },
+      ]} />
+      </article>
   );
 }

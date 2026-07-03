@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Insurance Hiring", title: "Hiring Commercial Underwriters Without Overpaying", excerpt: "Experienced underwriters are scarce and passive. A practical playbook to source and close...", href: "/blog/insurance-hiring/hiring-commercial-underwriters" },
+        { category: "Insurance Hiring", title: "Insurance Salary Trends 2026: What Averages Hide", excerpt: "Insurance comp is climbing, but the best candidates are passive and pay is only part of the...", href: "/blog/insurance-hiring/insurance-salary-trends" },
+        { category: "Insurance Hiring", title: "Insurance Talent Crisis 2026: What Nobody Mentions", excerpt: "A third of insurance workers near retirement and the pipeline is thin. What the 2026 talent crisis...", href: "/blog/insurance-hiring/insurance-talent-crisis" },
+      ]} />
+      </article>
   );
 }

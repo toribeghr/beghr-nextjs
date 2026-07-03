@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -179,6 +180,11 @@ export default function ServiceContractActPayrollPage() {
           { '@type': 'ListItem', position: 5, name: 'Service Contract Act Payroll', item: 'https://www.beghr.com/blog/payroll/government-contractor/service-contract-act-payroll' },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "DoD Contractor Payroll, Before a DCAA Audit Finds You", excerpt: "DoD contractor payroll requirements: ITAR labor tracking, security clearance employee costs, DCAA...", href: "/blog/payroll/government-contractor/dod-contractor-payroll-requirements" },
+        { category: "Payroll", title: "Government Contractor Fringe Benefits (What to Know)", excerpt: "How government contractors satisfy SCA and Davis-Bacon fringe benefit requirements: bona fide...", href: "/blog/payroll/government-contractor/government-contractor-fringe-benefits-payroll" },
+        { category: "Payroll", title: "Government Contractor Payroll Guide [2026 Data]", excerpt: "Government contractor payroll overview: certified payroll, Service Contract Act, Davis-Bacon...", href: "/blog/payroll/government-contractor/government-contractor-payroll-guide" },
+      ]} />
+      </article>
   );
 }

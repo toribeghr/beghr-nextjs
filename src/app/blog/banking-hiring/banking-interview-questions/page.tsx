@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Banking Hiring", title: "Banking Salary Trends 2026: The Truth About the Gaps", excerpt: "Banking pay is climbing, but the best candidates are passive and pay is only part of the decision....", href: "/blog/banking-hiring/banking-salary-trends" },
+        { category: "Banking Hiring", title: "Banking Talent Trends 2026: What Changed Fast", excerpt: "Retirements rise and fintech competes for talent. What the 2026 banking labor market means for...", href: "/blog/banking-hiring/banking-talent-trends" },
+        { category: "Banking Hiring", title: "Credit Analyst Recruiting: What Nobody Tells You", excerpt: "Credit analysts are hard to find and central to sound lending. How to source and close strong...", href: "/blog/banking-hiring/credit-analyst-recruiting" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -176,6 +177,11 @@ export default function VeterinaryTalentShortagePage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Veterinary Hiring", title: "Hiring Associate Veterinarians Fast: How Does It Work?", excerpt: "An open DVM seat means lost revenue and a stretched team. A practical playbook to hire an associate...", href: "/blog/veterinary-hiring/hiring-associate-veterinarians" },
+        { category: "Veterinary Hiring", title: "Veterinary Interview Questions: Who Actually Stays", excerpt: "Veterinary interviews that reveal clinical philosophy, client communication quality, and practice...", href: "/blog/veterinary-hiring/veterinary-interview-questions" },
+        { category: "Veterinary Hiring", title: "Recruiting a Vet Practice Manager: What Nobody Tells You", excerpt: "The right practice manager protects your margin and your team. How to find and hire a strong...", href: "/blog/veterinary-hiring/veterinary-practice-manager-recruiting" },
+      ]} />
+      </article>
   );
 }

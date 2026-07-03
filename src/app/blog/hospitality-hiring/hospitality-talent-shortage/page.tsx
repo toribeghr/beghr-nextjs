@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -175,6 +176,11 @@ export default function HospitalityTalentShortagePage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Hospitality Hiring", title: "Food and Beverage Recruiting Before the Season Hits", excerpt: "A strong F&B leader protects guest experience and profit at once. How to recruit one in 23-35 days...", href: "/blog/hospitality-hiring/food-and-beverage-recruiting" },
+        { category: "Hospitality Hiring", title: "Hiring a General Manager Without Overpaying", excerpt: "A vacant GM seat risks your service, numbers, and team. A practical playbook to hire a hospitality...", href: "/blog/hospitality-hiring/hiring-a-general-manager" },
+        { category: "Hospitality Hiring", title: "Hospitality Interview Questions That Actually Work", excerpt: "Hospitality interviews that reveal service philosophy, P&L ownership, and culture-building ability....", href: "/blog/hospitality-hiring/hospitality-interview-questions" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -192,6 +193,11 @@ export default function SeniorCareShiftDifferentialPayrollPage() {
           { '@type': 'ListItem', position: 5, name: 'Shift Differential Payroll', item: 'https://www.beghr.com/blog/payroll/senior-care/senior-care-shift-differential-payroll' },
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Memory Care and Assisted Living Payroll, Explained", excerpt: "Memory care and assisted living payroll differences: staffing ratios, wage premiums, high-turnover...", href: "/blog/payroll/senior-care/memory-care-assisted-living-payroll" },
+        { category: "Payroll", title: "Nursing Home Payroll Compliance: CMS and FLSA Rules", excerpt: "Nursing home payroll compliance guide: CMS minimum staffing rules, FLSA overtime for nurses and...", href: "/blog/payroll/senior-care/nursing-home-payroll-compliance" },
+        { category: "Payroll", title: "Should Senior Care Facilities Outsource Payroll", excerpt: "Should senior care facilities outsource payroll? What operators get, cost vs in-house comparison,...", href: "/blog/payroll/senior-care/outsource-senior-care-payroll" },
+      ]} />
+      </article>
   );
 }

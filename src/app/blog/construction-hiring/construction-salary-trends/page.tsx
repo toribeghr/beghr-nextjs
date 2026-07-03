@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -201,6 +202,11 @@ export default function ConstructionSalaryTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Construction Hiring", title: "Construction PM Job Description: What Top PMs Skip", excerpt: "Most construction JDs list certifications and skip delivery record. How to write a construction PM...", href: "/blog/construction-hiring/construction-job-description" },
+        { category: "Construction Hiring", title: "Construction Labor Shortage 2026: What Nobody Tells You", excerpt: "Skilled trades are retiring and fewer workers are entering. What the 2026 construction shortage...", href: "/blog/construction-hiring/construction-labor-shortage" },
+        { category: "Construction Hiring", title: "Estimator Recruiting: The Truth About This Fill", excerpt: "A weak estimate sinks a project before it starts. Why estimators are the hardest construction hire...", href: "/blog/construction-hiring/estimator-recruiting" },
+      ]} />
+      </article>
   );
 }

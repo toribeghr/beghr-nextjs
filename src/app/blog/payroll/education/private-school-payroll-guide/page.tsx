@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -185,6 +186,11 @@ export default function PrivateSchoolPayrollGuidePage() {
           { "@type": "ListItem", "position": 5, "name": "Private School Payroll Guide", "item": "https://www.beghr.com/blog/payroll/education/private-school-payroll-guide" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "School Payroll Costs: In-House vs Managed, the Gap", excerpt: "What it really costs to run payroll for a private school in-house vs managed. Hidden costs, staff...", href: "/blog/payroll/education/education-payroll-cost" },
+        { category: "Payroll", title: "Outsource School Payroll: What Charter Schools Miss", excerpt: "Why private and charter schools outsource payroll, what to look for in a provider, and how managed...", href: "/blog/payroll/education/outsource-education-payroll" },
+        { category: "Payroll", title: "Substitute Teacher Payroll: What Districts Get Wrong", excerpt: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and...", href: "/blog/payroll/education/school-substitute-teacher-payroll" },
+      ]} />
+      </article>
   );
 }

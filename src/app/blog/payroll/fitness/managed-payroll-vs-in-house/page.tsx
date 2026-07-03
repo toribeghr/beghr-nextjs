@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -193,6 +194,11 @@ export default function FitnessComparisonPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Fitness Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for fitness. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/fitness/fitness-benefits-integration-payroll" },
+        { category: "Payroll", title: "Fitness Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for fitness. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/fitness/fitness-direct-deposit-setup" },
+        { category: "Payroll", title: "Fitness Payroll Classification, Before It Costs You", excerpt: "Managed payroll for fitness. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/fitness/fitness-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

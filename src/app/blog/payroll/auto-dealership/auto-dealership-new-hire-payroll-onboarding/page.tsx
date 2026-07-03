@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -153,6 +154,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Auto Dealerships: New Hire Payroll Onboarding (2026)","item":"https://www.beghr.com/blog/payroll/auto-dealership/auto-dealership-new-hire-payroll-onboarding"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Auto Dealer Payroll Benefits Integration [2026]", excerpt: "Managed payroll for auto dealerships. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/auto-dealership/auto-dealership-benefits-integration-payroll" },
+        { category: "Payroll", title: "Auto Dealer Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for auto dealerships. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/auto-dealership/auto-dealership-direct-deposit-setup" },
+        { category: "Payroll", title: "Auto Dealer Payroll Employee Classification [2026]", excerpt: "Managed payroll for auto dealerships. Employee Classification for Payroll. $25-$45 PEPM...", href: "/blog/payroll/auto-dealership/auto-dealership-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

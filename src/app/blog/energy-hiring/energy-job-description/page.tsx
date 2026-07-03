@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Energy Hiring", title: "Energy Salary Trends 2026: What They Don", excerpt: "Energy comp is climbing and the best candidates are passive. What actually closes an energy hire...", href: "/blog/energy-hiring/energy-salary-trends" },
+        { category: "Energy Hiring", title: "Energy Talent Shortage 2026: What Nobody Warns", excerpt: "Retirements and the energy transition are thinning the technical pipeline. What the 2026 shortage...", href: "/blog/energy-hiring/energy-talent-shortage" },
+        { category: "Energy Hiring", title: "Field Engineer Recruiting: The Truth About Turnover", excerpt: "A vacant field engineer seat stalls execution in the field. How to recruit and close strong energy...", href: "/blog/energy-hiring/field-engineer-recruiting" },
+      ]} />
+      </article>
   );
 }

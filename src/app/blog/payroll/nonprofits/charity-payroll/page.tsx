@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -288,6 +289,11 @@ export default function CharityPayrollPage() {
         url: 'https://www.beghr.com/blog/payroll/nonprofits/charity-payroll',
         mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/payroll/nonprofits/charity-payroll' },
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "501(c)(3) Payroll Compliance: What Nobody Tells You", excerpt: "501(c)(3) payroll compliance: FICA exemptions, FUTA rules, executive comp reporting on Form 990,...", href: "/blog/payroll/nonprofits/501c3-payroll-compliance" },
+        { category: "Payroll", title: "Grant-Funded Payroll: What Nobody Tells You on Audits", excerpt: "Grant-funded payroll: cost allocation, time tracking for funder compliance, and single audit...", href: "/blog/payroll/nonprofits/grant-funded-payroll" },
+        { category: "Payroll", title: "Nonprofit Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for nonprofits. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/nonprofits/nonprofits-benefits-integration-payroll" },
+      ]} />
+      </article>
   );
 }

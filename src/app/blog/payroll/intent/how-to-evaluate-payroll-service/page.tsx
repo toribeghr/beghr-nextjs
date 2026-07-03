@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -148,6 +149,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"How to Evaluate and Choose a Managed Payroll Service","item":"https://www.beghr.com/blog/payroll/intent/how-to-evaluate-payroll-service"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Outsourcing Payroll in 2026: Is It Actually Worth It?", excerpt: "Benefits of Outsourcing Payroll in 2026. Expert guidance from BEG managed payroll at $25-$45 PEPM....", href: "/blog/payroll/intent/benefits-of-outsourcing-payroll-2026" },
+        { category: "Payroll", title: "Managed Payroll Checklist: What Nobody Tells Buyers", excerpt: "Managed Payroll Buyer Checklist: What to Look For. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/intent/managed-payroll-checklist-buyers-guide" },
+        { category: "Payroll", title: "Managed Payroll Contracts: Read This Before You Sign", excerpt: "Managed Payroll Contract: What to Read Before You Sign. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/intent/managed-payroll-contract-what-to-look-for" },
+      ]} />
+      </article>
   );
 }

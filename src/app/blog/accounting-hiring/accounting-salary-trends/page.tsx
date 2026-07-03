@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -200,6 +201,11 @@ export default function AccountingSalaryTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Accounting Hiring", title: "Accounting Job Description: What Candidates Notice First", excerpt: "Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and...", href: "/blog/accounting-hiring/accounting-job-description" },
+        { category: "Accounting Hiring", title: "Busy-Season Staffing: Plan Before It Costs You", excerpt: "The firms that survive busy season hire before the crunch. How to plan accounting and tax staffing...", href: "/blog/accounting-hiring/busy-season-staffing" },
+        { category: "Accounting Hiring", title: "Controller Hiring: What Nobody Tells You", excerpt: "A vacant controller seat risks your close and audit. A practical playbook to hire a controller in...", href: "/blog/accounting-hiring/controller-hiring" },
+      ]} />
+      </article>
   );
 }

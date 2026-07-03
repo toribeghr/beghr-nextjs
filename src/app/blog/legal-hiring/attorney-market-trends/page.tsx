@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -357,6 +358,11 @@ export default function AttorneyMarketTrendsPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Legal Hiring", title: "Law Firm Associate Hiring: Fill Roles in 23-35 Days", excerpt: "Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive...", href: "/blog/legal-hiring/associate-hiring" },
+        { category: "Legal Hiring", title: "In-House Counsel Hiring: Before You Need a GC", excerpt: "When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process,...", href: "/blog/legal-hiring/in-house-counsel" },
+        { category: "Legal Hiring", title: "Paralegal Recruiting: Placements in 23-35 Days", excerpt: "Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing...", href: "/blog/legal-hiring/paralegal-recruiting" },
+      ]} />
+      </article>
   );
 }

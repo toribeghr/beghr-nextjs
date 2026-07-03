@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -168,6 +169,11 @@ export default function OutsourceSalonSpaPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Outsource Salon Spa Payroll", "item": "https://www.beghr.com/blog/payroll/salon-spa/outsource-salon-spa-payroll" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Salon Booth Rental vs. W-2: IRS Classification Rules", excerpt: "How to classify salon stylists for payroll: the IRS booth rental test, what must be in booth rental...", href: "/blog/payroll/salon-spa/salon-booth-rental-payroll-classification" },
+        { category: "Payroll", title: "Salon Commission Payroll: Splits, Chargebacks & Tips", excerpt: "How to process salon commission payroll correctly: percentage splits, product chargebacks, tip...", href: "/blog/payroll/salon-spa/salon-commission-payroll" },
+        { category: "Payroll", title: "Salon and Spa Payroll Guide for 2026", excerpt: "Complete salon and spa payroll guide: booth rental IRS rules, W-2 employee stylists, commission...", href: "/blog/payroll/salon-spa/salon-spa-payroll-guide" },
+      ]} />
+      </article>
   );
 }

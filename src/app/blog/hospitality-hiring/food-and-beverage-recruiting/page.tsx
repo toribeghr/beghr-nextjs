@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -169,6 +170,11 @@ export default function FoodAndBeverageRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Hospitality Hiring", title: "Hiring a General Manager Without Overpaying", excerpt: "A vacant GM seat risks your service, numbers, and team. A practical playbook to hire a hospitality...", href: "/blog/hospitality-hiring/hiring-a-general-manager" },
+        { category: "Hospitality Hiring", title: "Hospitality Interview Questions That Actually Work", excerpt: "Hospitality interviews that reveal service philosophy, P&L ownership, and culture-building ability....", href: "/blog/hospitality-hiring/hospitality-interview-questions" },
+        { category: "Hospitality Hiring", title: "Hospitality Salary Trends 2026: What Averages Hide", excerpt: "Hospitality comp is climbing, but the best leaders are passive and pay is only part of the...", href: "/blog/hospitality-hiring/hospitality-salary-trends" },
+      ]} />
+      </article>
   );
 }

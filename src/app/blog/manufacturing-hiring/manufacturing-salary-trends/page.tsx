@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -170,6 +171,11 @@ export default function ManufacturingSalaryTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Manufacturing Hiring", title: "Hiring a Plant Manager Without Overpaying", excerpt: "A vacant plant manager seat risks throughput and safety. A practical playbook to hire a plant...", href: "/blog/manufacturing-hiring/hiring-a-plant-manager" },
+        { category: "Manufacturing Hiring", title: "Manufacturing Interview Questions That Actually Work", excerpt: "Manufacturing interviews that reveal production track record, quality philosophy, and continuous...", href: "/blog/manufacturing-hiring/manufacturing-interview-questions" },
+        { category: "Manufacturing Hiring", title: "Manufacturing Talent Shortage 2026: What Nobody Mentions", excerpt: "Skilled trades are retiring and the pipeline is thin. What the 2026 manufacturing shortage means...", href: "/blog/manufacturing-hiring/manufacturing-talent-shortage" },
+      ]} />
+      </article>
   );
 }

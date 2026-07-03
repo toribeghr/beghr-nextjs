@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -287,6 +288,11 @@ export default function RestaurantPayrollPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Bar and Nightclub Payroll, Tip Pools Explained", excerpt: "Bar and nightclub payroll outsourcing: tip credits, tip pools, late-night shift rules, bartender...", href: "/blog/payroll/hospitality/bar-nightclub-payroll" },
+        { category: "Payroll", title: "Hotel Payroll, Tipped Staff and Multi-State Rules", excerpt: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification,...", href: "/blog/payroll/hospitality/hotel-payroll" },
+        { category: "Payroll", title: "Restaurant Payroll, Integrating Benefits the Right Way", excerpt: "Managed payroll for restaurants. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/hospitality/restaurants-benefits-integration-payroll" },
+      ]} />
+      </article>
   );
 }

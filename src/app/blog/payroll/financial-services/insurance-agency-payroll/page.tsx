@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -188,6 +189,11 @@ export default function InsuranceAgencyPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Insurance Agency Payroll", "item": "https://www.beghr.com/blog/payroll/financial-services/insurance-agency-payroll" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Financial Firm Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for financial services. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/financial-services/financial-services-benefits-integration-payroll" },
+        { category: "Payroll", title: "Financial Firm Payroll: Direct Deposit, Done Right", excerpt: "Managed payroll for financial services. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/financial-services/financial-services-direct-deposit-setup" },
+        { category: "Payroll", title: "Financial Firm Payroll: What Misclassification Costs", excerpt: "Managed payroll for financial services. Employee Classification for Payroll. $25-$45 PEPM...", href: "/blog/payroll/financial-services/financial-services-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -175,6 +176,11 @@ export default function HealthcareTalentShortagePage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Healthcare Hiring", title: "Clinical Staff Recruiting Before the Shift Gap Grows", excerpt: "The strongest clinical candidates are employed and passive. How to recruit nurses, NPs, and...", href: "/blog/healthcare-hiring/clinical-staff-recruiting" },
+        { category: "Healthcare Hiring", title: "Healthcare Interview Questions That Actually Work", excerpt: "Healthcare interviews that reveal clinical judgment, patient care philosophy, and culture fit. The...", href: "/blog/healthcare-hiring/healthcare-interview-questions" },
+        { category: "Healthcare Hiring", title: "Healthcare Salary Trends 2026: What Averages Hide", excerpt: "Clinical comp is climbing, but the best candidates are passive and pay is only part of the...", href: "/blog/healthcare-hiring/healthcare-salary-trends" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -176,6 +177,11 @@ export default function HiringAnHrDirectorPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Hr Hiring", title: "HR Interview Questions That Actually Reveal Fit", excerpt: "HR interviews that go beyond policy knowledge. The questions that reveal whether an HR director or...", href: "/blog/hr-hiring/hr-interview-questions" },
+        { category: "Hr Hiring", title: "HR Salary Trends 2026: The Truth About Speed vs Pay", excerpt: "HR comp is climbing, but the best candidates are passive and pay is only part of the decision. Why...", href: "/blog/hr-hiring/hr-salary-trends" },
+        { category: "Hr Hiring", title: "HR Talent Trends 2026: What Changed in People Ops", excerpt: "People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how...", href: "/blog/hr-hiring/hr-talent-trends" },
+      ]} />
+      </article>
   );
 }

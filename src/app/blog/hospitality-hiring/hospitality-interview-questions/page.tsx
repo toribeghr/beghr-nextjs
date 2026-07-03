@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -122,6 +123,11 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Hospitality Hiring", title: "Food and Beverage Recruiting Before the Season Hits", excerpt: "A strong F&B leader protects guest experience and profit at once. How to recruit one in 23-35 days...", href: "/blog/hospitality-hiring/food-and-beverage-recruiting" },
+        { category: "Hospitality Hiring", title: "Hiring a General Manager Without Overpaying", excerpt: "A vacant GM seat risks your service, numbers, and team. A practical playbook to hire a hospitality...", href: "/blog/hospitality-hiring/hiring-a-general-manager" },
+        { category: "Hospitality Hiring", title: "Hospitality Salary Trends 2026: What Averages Hide", excerpt: "Hospitality comp is climbing, but the best leaders are passive and pay is only part of the...", href: "/blog/hospitality-hiring/hospitality-salary-trends" },
+      ]} />
+      </article>
   );
 }

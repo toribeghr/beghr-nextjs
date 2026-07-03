@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -201,6 +202,11 @@ export default function EventStaffW2Vs1099ClassificationPage() {
           { "@type": "ListItem", "position": 5, "name": "W-2 vs 1099 Classification", "item": "https://www.beghr.com/blog/payroll/events/event-staff-w2-vs-1099-classification" }
         ]
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "California Event Payroll Rules: What AB5 Requires", excerpt: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders,...", href: "/blog/payroll/events/california-event-payroll-rules" },
+        { category: "Payroll", title: "Event Company Payroll in 2026: Seasonal Crew Costs", excerpt: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state...", href: "/blog/payroll/events/event-company-payroll-guide" },
+        { category: "Payroll", title: "Multi-State Event Payroll: The Touring Compliance Trap", excerpt: "Multi-state payroll compliance for event companies: employer registration, withholding by state,...", href: "/blog/payroll/events/multi-state-event-payroll-compliance" },
+      ]} />
+      </article>
   );
 }

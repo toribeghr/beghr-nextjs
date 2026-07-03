@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -115,6 +116,11 @@ export default function AccountingJobDescriptionPage() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Accounting Hiring", title: "Accounting Salary Trends 2026: What Comp Data Hides", excerpt: "Accounting comp is climbing in 2026, but the best candidates are passive and pay is only part of...", href: "/blog/accounting-hiring/accounting-salary-trends" },
+        { category: "Accounting Hiring", title: "Busy-Season Staffing: Plan Before It Costs You", excerpt: "The firms that survive busy season hire before the crunch. How to plan accounting and tax staffing...", href: "/blog/accounting-hiring/busy-season-staffing" },
+        { category: "Accounting Hiring", title: "Controller Hiring: What Nobody Tells You", excerpt: "A vacant controller seat risks your close and audit. A practical playbook to hire a controller in...", href: "/blog/accounting-hiring/controller-hiring" },
+      ]} />
+      </article>
   );
 }

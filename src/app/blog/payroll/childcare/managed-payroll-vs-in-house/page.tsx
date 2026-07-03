@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -193,6 +194,11 @@ export default function ChildcareComparisonPage() {
           }),
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "Childcare Payroll Benefits Integration [2026]", excerpt: "Managed payroll for childcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/childcare/childcare-benefits-integration-payroll" },
+        { category: "Payroll", title: "Childcare Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for childcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/childcare/childcare-direct-deposit-setup" },
+        { category: "Payroll", title: "Childcare Payroll Employee Classification [2026]", excerpt: "Managed payroll for childcare. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/childcare/childcare-employee-classification-guide" },
+      ]} />
+      </article>
   );
 }

@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -153,6 +154,11 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Nonprofits & Religious Organizations: New Hire Payroll Onboarding (2026)","item":"https://www.beghr.com/blog/payroll/nonprofits/nonprofits-new-hire-payroll-onboarding"}]}`,
         }}
       />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Payroll", title: "501(c)(3) Payroll Compliance: What Nobody Tells You", excerpt: "501(c)(3) payroll compliance: FICA exemptions, FUTA rules, executive comp reporting on Form 990,...", href: "/blog/payroll/nonprofits/501c3-payroll-compliance" },
+        { category: "Payroll", title: "Nonprofit Payroll Outsourcing: Is It Worth It?", excerpt: "Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA...", href: "/blog/payroll/nonprofits/charity-payroll" },
+        { category: "Payroll", title: "Grant-Funded Payroll: What Nobody Tells You on Audits", excerpt: "Grant-funded payroll: cost allocation, time tracking for funder compliance, and single audit...", href: "/blog/payroll/nonprofits/grant-funded-payroll" },
+      ]} />
+      </article>
   );
 }

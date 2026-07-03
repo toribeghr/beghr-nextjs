@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -169,6 +170,11 @@ export default function BankingSalaryTrendsPage() {
         '@type': 'FAQPage',
         mainEntity: faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })),
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Banking Hiring", title: "Banking Interview Questions That Actually Predict Fit", excerpt: "Commercial banking interviews that go beyond credentials. The questions that reveal credit...", href: "/blog/banking-hiring/banking-interview-questions" },
+        { category: "Banking Hiring", title: "Banking Talent Trends 2026: What Changed Fast", excerpt: "Retirements rise and fintech competes for talent. What the 2026 banking labor market means for...", href: "/blog/banking-hiring/banking-talent-trends" },
+        { category: "Banking Hiring", title: "Credit Analyst Recruiting: What Nobody Tells You", excerpt: "Credit analysts are hard to find and central to sound lending. How to source and close strong...", href: "/blog/banking-hiring/credit-analyst-recruiting" },
+      ]} />
+      </article>
   );
 }

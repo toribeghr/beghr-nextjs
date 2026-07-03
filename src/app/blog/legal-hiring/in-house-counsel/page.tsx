@@ -1,3 +1,4 @@
+import RelatedPosts from '@/components/RelatedPosts';
 import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
@@ -257,6 +258,11 @@ export default function InHouseCounselPage() {
         url: 'https://www.beghr.com/blog/legal-hiring/in-house-counsel',
         mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/legal-hiring/in-house-counsel' },
       }) }} />
-    </article>
+          <RelatedPosts posts={[
+        { category: "Legal Hiring", title: "Law Firm Associate Hiring: Fill Roles in 23-35 Days", excerpt: "Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive...", href: "/blog/legal-hiring/associate-hiring" },
+        { category: "Legal Hiring", title: "2026 Attorney Market Trends: What Partners Miss", excerpt: "2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate,...", href: "/blog/legal-hiring/attorney-market-trends" },
+        { category: "Legal Hiring", title: "Paralegal Recruiting: Placements in 23-35 Days", excerpt: "Law firm paralegal hiring guide. Practice area specialization, compensation by role, sourcing...", href: "/blog/legal-hiring/paralegal-recruiting" },
+      ]} />
+      </article>
   );
 }

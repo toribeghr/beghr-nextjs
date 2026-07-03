@@ -192,7 +192,7 @@ export default function RemoteTechTeamPayrollPage() {
           <RelatedPosts posts={[
         { category: "Payroll", title: "SaaS Payroll Outsourcing: Cost vs. an In-House Hire", excerpt: "SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote,...", href: "/blog/payroll/technology/saas-payroll-outsourcing" },
         { category: "Payroll", title: "Startup Equity Payroll: RSUs, Options and 83(b)", excerpt: "Startup payroll for equity compensation: ISO and NSO stock options, RSU vesting, 83(b) elections,...", href: "/blog/payroll/technology/startup-equity-payroll" },
-        { category: "Payroll", title: "Tech Company Payroll: Integrating Benefits Right", excerpt: "Managed payroll for tech/SaaS. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/technology/technology-benefits-integration-payroll" },
+        { category: "Payroll", title: "Tech Company Payroll: Integrating Benefits Right", excerpt: "Managed payroll for tech/SaaS. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/technology/technology-benefits-integration-payroll" },
       ]} />
       </article>
   );

@@ -157,8 +157,8 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "Law Firm Payroll: What Nobody Tells You About Benefits", excerpt: "Managed payroll for law firms. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/law-firms/law-firms-benefits-integration-payroll" },
-        { category: "Payroll", title: "Law Firm Payroll: Direct Deposit Done Right", excerpt: "Managed payroll for law firms. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/law-firms/law-firms-direct-deposit-setup" },
+        { category: "Payroll", title: "Law Firm Payroll: What Nobody Tells You About Benefits", excerpt: "Managed payroll for law firms. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/law-firms/law-firms-benefits-integration-payroll" },
+        { category: "Payroll", title: "Law Firm Payroll: Direct Deposit Done Right", excerpt: "Managed payroll for law firms. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/law-firms/law-firms-direct-deposit-setup" },
         { category: "Payroll", title: "Law Firm Payroll: Hourly vs Salaried, Does It Matter?", excerpt: "Managed payroll for law firms. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/law-firms/law-firms-hourly-vs-salaried-payroll" },
       ]} />
       </article>

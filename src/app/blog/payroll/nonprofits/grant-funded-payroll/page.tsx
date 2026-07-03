@@ -195,7 +195,7 @@ export default function GrantFundedPayrollPage() {
           <RelatedPosts posts={[
         { category: "Payroll", title: "501(c)(3) Payroll Compliance: What Nobody Tells You", excerpt: "501(c)(3) payroll compliance: FICA exemptions, FUTA rules, executive comp reporting on Form 990,...", href: "/blog/payroll/nonprofits/501c3-payroll-compliance" },
         { category: "Payroll", title: "Nonprofit Payroll Outsourcing: Is It Worth It?", excerpt: "Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA...", href: "/blog/payroll/nonprofits/charity-payroll" },
-        { category: "Payroll", title: "Nonprofit Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for nonprofits. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/nonprofits/nonprofits-benefits-integration-payroll" },
+        { category: "Payroll", title: "Nonprofit Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for nonprofits. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/nonprofits/nonprofits-benefits-integration-payroll" },
       ]} />
       </article>
   );

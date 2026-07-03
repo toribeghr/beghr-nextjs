@@ -159,9 +159,9 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "Fitness Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for fitness. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/fitness/fitness-direct-deposit-setup" },
-        { category: "Payroll", title: "Fitness Payroll Classification, Before It Costs You", excerpt: "Managed payroll for fitness. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/fitness/fitness-employee-classification-guide" },
-        { category: "Payroll", title: "Fitness Payroll, Hourly vs Salaried (What to Know)", excerpt: "Managed payroll for fitness. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/fitness/fitness-hourly-vs-salaried-payroll" },
+        { category: "Payroll", title: "Fitness Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for fitness. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/fitness/fitness-direct-deposit-setup" },
+        { category: "Payroll", title: "Fitness Payroll Classification, Before It Costs You", excerpt: "Managed payroll for fitness. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/fitness/fitness-employee-classification-guide" },
+        { category: "Payroll", title: "Fitness Payroll, Hourly vs Salaried (What to Know)", excerpt: "Managed payroll for fitness. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/fitness/fitness-hourly-vs-salaried-payroll" },
       ]} />
       </article>
   );

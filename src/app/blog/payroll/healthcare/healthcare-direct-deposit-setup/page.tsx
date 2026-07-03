@@ -160,7 +160,7 @@ export default function Page() {
       />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Dental Office Payroll Outsourcing (Full Breakdown)", excerpt: "Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO...", href: "/blog/payroll/healthcare/dental" },
-        { category: "Payroll", title: "Healthcare Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for healthcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/healthcare/healthcare-benefits-integration-payroll" },
+        { category: "Payroll", title: "Healthcare Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for healthcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/healthcare/healthcare-benefits-integration-payroll" },
         { category: "Payroll", title: "Healthcare Payroll Classification, Before It Costs You", excerpt: "Managed payroll for healthcare. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/healthcare/healthcare-employee-classification-guide" },
       ]} />
       </article>

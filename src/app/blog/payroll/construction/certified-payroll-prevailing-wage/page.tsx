@@ -201,7 +201,7 @@ export default function CertifiedPayrollPrevailingWagePage() {
       }) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Construction Payroll Benefits Integration", excerpt: "Managed payroll for construction. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/construction/construction-benefits-integration-payroll" },
-        { category: "Payroll", title: "Construction Payroll Direct Deposit Setup for Crews", excerpt: "Managed payroll for construction. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/construction/construction-direct-deposit-setup" },
+        { category: "Payroll", title: "Construction Payroll Direct Deposit Setup for Crews", excerpt: "Managed payroll for construction. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/construction/construction-direct-deposit-setup" },
         { category: "Payroll", title: "Construction Payroll: Employee or Contractor?", excerpt: "Managed payroll for construction. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/construction/construction-employee-classification-guide" },
       ]} />
       </article>

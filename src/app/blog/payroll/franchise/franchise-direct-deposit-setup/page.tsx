@@ -155,7 +155,7 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "Franchise Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for franchise. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/franchise/franchise-benefits-integration-payroll" },
+        { category: "Payroll", title: "Franchise Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for franchise. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/franchise/franchise-benefits-integration-payroll" },
         { category: "Payroll", title: "Franchise Payroll Classification, Before It Costs You", excerpt: "Managed payroll for franchise. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/franchise/franchise-employee-classification-guide" },
         { category: "Payroll", title: "Franchise Payroll, Hourly vs Salaried (What to Know)", excerpt: "Managed payroll for franchise. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/franchise/franchise-hourly-vs-salaried-payroll" },
       ]} />

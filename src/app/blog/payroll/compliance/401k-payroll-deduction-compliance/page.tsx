@@ -153,9 +153,9 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "IRS Form 940 vs. 941: The Real Difference", excerpt: "IRS Form 940 vs. 941: What Employers Need to Know. Expert guidance from BEG managed payroll. Book a...", href: "/blog/payroll/compliance/940-vs-941-payroll-tax-explained" },
+        { category: "Payroll", title: "IRS Form 940 vs. 941: The Real Difference", excerpt: "IRS Form 940 vs. 941: What Employers Need to Know. Expert guidance from BEG managed payroll. Get instant pricing...", href: "/blog/payroll/compliance/940-vs-941-payroll-tax-explained" },
         { category: "Payroll", title: "ACA Reporting for Employers With 50+ Employees", excerpt: "ACA Reporting and the Employer Mandate for 50+ Employees. Expert guidance from BEG managed payroll....", href: "/blog/payroll/compliance/aca-reporting-employer-mandate" },
-        { category: "Payroll", title: "Biometric Time Tracking Laws Payroll Teams Must Know", excerpt: "Biometric Time Tracking Laws and Payroll Compliance. Expert guidance from BEG managed payroll. Book...", href: "/blog/payroll/compliance/biometric-time-tracking-payroll-laws" },
+        { category: "Payroll", title: "Biometric Time Tracking Laws Payroll Teams Must Know", excerpt: "Biometric Time Tracking Laws and Payroll Compliance. Expert guidance from BEG managed payroll. Get instant pricing...", href: "/blog/payroll/compliance/biometric-time-tracking-payroll-laws" },
       ]} />
       </article>
   );

@@ -155,8 +155,8 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "Cannabis Payroll Benefits Integration [2026]", excerpt: "Managed payroll for cannabis. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/cannabis/cannabis-benefits-integration-payroll" },
-        { category: "Payroll", title: "Cannabis Payroll Employee Classification [2026]", excerpt: "Managed payroll for cannabis. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/cannabis/cannabis-employee-classification-guide" },
+        { category: "Payroll", title: "Cannabis Payroll Benefits Integration [2026]", excerpt: "Managed payroll for cannabis. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/cannabis/cannabis-benefits-integration-payroll" },
+        { category: "Payroll", title: "Cannabis Payroll Employee Classification [2026]", excerpt: "Managed payroll for cannabis. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/cannabis/cannabis-employee-classification-guide" },
         { category: "Payroll", title: "Cannabis Payroll: Hourly vs Salaried (2026)", excerpt: "Managed payroll for cannabis. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/cannabis/cannabis-hourly-vs-salaried-payroll" },
       ]} />
       </article>

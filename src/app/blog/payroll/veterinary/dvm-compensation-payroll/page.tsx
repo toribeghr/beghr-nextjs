@@ -169,8 +169,8 @@ export default function DVMCompensationPage() {
       })}} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Vet Payroll: Managed vs. In-House, What It Costs", excerpt: "Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for...", href: "/blog/payroll/veterinary/managed-payroll-vs-in-house" },
-        { category: "Payroll", title: "Vet Practice Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for veterinary. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/veterinary/veterinary-benefits-integration-payroll" },
-        { category: "Payroll", title: "Vet Practice Direct Deposit: How Does It Work?", excerpt: "Managed payroll for veterinary. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/veterinary/veterinary-direct-deposit-setup" },
+        { category: "Payroll", title: "Vet Practice Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for veterinary. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/veterinary/veterinary-benefits-integration-payroll" },
+        { category: "Payroll", title: "Vet Practice Direct Deposit: How Does It Work?", excerpt: "Managed payroll for veterinary. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/veterinary/veterinary-direct-deposit-setup" },
       ]} />
       </article>
   );

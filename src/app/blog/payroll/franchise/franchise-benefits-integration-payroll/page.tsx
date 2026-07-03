@@ -159,7 +159,7 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "Franchise Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for franchise. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/franchise/franchise-direct-deposit-setup" },
+        { category: "Payroll", title: "Franchise Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for franchise. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/franchise/franchise-direct-deposit-setup" },
         { category: "Payroll", title: "Franchise Payroll Classification, Before It Costs You", excerpt: "Managed payroll for franchise. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/franchise/franchise-employee-classification-guide" },
         { category: "Payroll", title: "Franchise Payroll, Hourly vs Salaried (What to Know)", excerpt: "Managed payroll for franchise. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/franchise/franchise-hourly-vs-salaried-payroll" },
       ]} />

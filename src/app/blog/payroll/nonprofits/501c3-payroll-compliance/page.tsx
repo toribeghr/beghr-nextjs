@@ -188,7 +188,7 @@ export default function Nonprofit501c3PayrollPage() {
           <RelatedPosts posts={[
         { category: "Payroll", title: "Nonprofit Payroll Outsourcing: Is It Worth It?", excerpt: "Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA...", href: "/blog/payroll/nonprofits/charity-payroll" },
         { category: "Payroll", title: "Grant-Funded Payroll: What Nobody Tells You on Audits", excerpt: "Grant-funded payroll: cost allocation, time tracking for funder compliance, and single audit...", href: "/blog/payroll/nonprofits/grant-funded-payroll" },
-        { category: "Payroll", title: "Nonprofit Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for nonprofits. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/nonprofits/nonprofits-benefits-integration-payroll" },
+        { category: "Payroll", title: "Nonprofit Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for nonprofits. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/nonprofits/nonprofits-benefits-integration-payroll" },
       ]} />
       </article>
   );

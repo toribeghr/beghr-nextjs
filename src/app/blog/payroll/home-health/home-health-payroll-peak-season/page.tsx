@@ -158,7 +158,7 @@ export default function Page() {
           <RelatedPosts posts={[
         { category: "Payroll", title: "EVV Payroll Reconciliation, Fixing Data Mismatches", excerpt: "How to reconcile EVV system data with payroll for home health agencies -- the most common...", href: "/blog/payroll/home-health/evv-payroll-reconciliation" },
         { category: "Payroll", title: "Home Health Payroll, Integrating Benefits Right", excerpt: "Managed payroll for home health. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/home-health/home-health-benefits-integration-payroll" },
-        { category: "Payroll", title: "Home Health Payroll, Direct Deposit Setup Steps", excerpt: "Managed payroll for home health. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/home-health/home-health-direct-deposit-setup" },
+        { category: "Payroll", title: "Home Health Payroll, Direct Deposit Setup Steps", excerpt: "Managed payroll for home health. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/home-health/home-health-direct-deposit-setup" },
       ]} />
       </article>
   );

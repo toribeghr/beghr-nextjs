@@ -155,9 +155,9 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "Fitness Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for fitness. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/fitness/fitness-benefits-integration-payroll" },
-        { category: "Payroll", title: "Fitness Payroll Classification, Before It Costs You", excerpt: "Managed payroll for fitness. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/fitness/fitness-employee-classification-guide" },
-        { category: "Payroll", title: "Fitness Payroll, Hourly vs Salaried (What to Know)", excerpt: "Managed payroll for fitness. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/fitness/fitness-hourly-vs-salaried-payroll" },
+        { category: "Payroll", title: "Fitness Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for fitness. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/fitness/fitness-benefits-integration-payroll" },
+        { category: "Payroll", title: "Fitness Payroll Classification, Before It Costs You", excerpt: "Managed payroll for fitness. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/fitness/fitness-employee-classification-guide" },
+        { category: "Payroll", title: "Fitness Payroll, Hourly vs Salaried (What to Know)", excerpt: "Managed payroll for fitness. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/fitness/fitness-hourly-vs-salaried-payroll" },
       ]} />
       </article>
   );

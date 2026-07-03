@@ -186,7 +186,7 @@ export default function TruckingPayrollTaxesPage() {
           <RelatedPosts posts={[
         { category: "Payroll", title: "Managed Payroll vs. In-House for Trucking: What It Costs", excerpt: "Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets...", href: "/blog/payroll/trucking/managed-payroll-vs-in-house" },
         { category: "Payroll", title: "Per Diem Pay for Truck Drivers: What Nobody Tells You", excerpt: "How to structure per diem pay for truck drivers correctly -- IRS accountable plan rules, the 2025...", href: "/blog/payroll/trucking/per-diem-pay-truck-drivers" },
-        { category: "Payroll", title: "Trucking Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for trucking. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/trucking/trucking-benefits-integration-payroll" },
+        { category: "Payroll", title: "Trucking Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for trucking. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/trucking/trucking-benefits-integration-payroll" },
       ]} />
       </article>
   );

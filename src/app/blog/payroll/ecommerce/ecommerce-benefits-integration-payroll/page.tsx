@@ -160,7 +160,7 @@ export default function Page() {
       />
           <RelatedPosts posts={[
         { category: "Payroll", title: "DTC Brand Payroll: What Nobody Tells You About Scaling", excerpt: "DTC brand payroll: warehouse staff, remote marketing teams, variable headcount, contractor...", href: "/blog/payroll/ecommerce/dtc-brand-payroll" },
-        { category: "Payroll", title: "E-Commerce Payroll: Direct Deposit Setup, Done Right", excerpt: "Managed payroll for e-commerce. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/ecommerce/ecommerce-direct-deposit-setup" },
+        { category: "Payroll", title: "E-Commerce Payroll: Direct Deposit Setup, Done Right", excerpt: "Managed payroll for e-commerce. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/ecommerce/ecommerce-direct-deposit-setup" },
         { category: "Payroll", title: "E-Commerce Payroll: What Misclassification Costs You", excerpt: "Managed payroll for e-commerce. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/ecommerce/ecommerce-employee-classification-guide" },
       ]} />
       </article>

@@ -164,7 +164,7 @@ export default function Page() {
       />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Dental Office Payroll Outsourcing (Full Breakdown)", excerpt: "Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO...", href: "/blog/payroll/healthcare/dental" },
-        { category: "Payroll", title: "Healthcare Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for healthcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/healthcare/healthcare-direct-deposit-setup" },
+        { category: "Payroll", title: "Healthcare Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for healthcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/healthcare/healthcare-direct-deposit-setup" },
         { category: "Payroll", title: "Healthcare Payroll Classification, Before It Costs You", excerpt: "Managed payroll for healthcare. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/healthcare/healthcare-employee-classification-guide" },
       ]} />
       </article>

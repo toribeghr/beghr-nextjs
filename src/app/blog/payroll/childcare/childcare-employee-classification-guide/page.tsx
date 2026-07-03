@@ -153,8 +153,8 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "Childcare Payroll Benefits Integration [2026]", excerpt: "Managed payroll for childcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/childcare/childcare-benefits-integration-payroll" },
-        { category: "Payroll", title: "Childcare Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for childcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/childcare/childcare-direct-deposit-setup" },
+        { category: "Payroll", title: "Childcare Payroll Benefits Integration [2026]", excerpt: "Managed payroll for childcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/childcare/childcare-benefits-integration-payroll" },
+        { category: "Payroll", title: "Childcare Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for childcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/childcare/childcare-direct-deposit-setup" },
         { category: "Payroll", title: "Childcare Payroll: Hourly vs Salaried (2026)", excerpt: "Managed payroll for childcare. Hourly vs. Salaried Employee Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/childcare/childcare-hourly-vs-salaried-payroll" },
       ]} />
       </article>

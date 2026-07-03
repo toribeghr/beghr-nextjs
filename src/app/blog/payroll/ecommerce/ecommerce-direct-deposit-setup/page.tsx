@@ -156,7 +156,7 @@ export default function Page() {
       />
           <RelatedPosts posts={[
         { category: "Payroll", title: "DTC Brand Payroll: What Nobody Tells You About Scaling", excerpt: "DTC brand payroll: warehouse staff, remote marketing teams, variable headcount, contractor...", href: "/blog/payroll/ecommerce/dtc-brand-payroll" },
-        { category: "Payroll", title: "E-Commerce Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll" },
+        { category: "Payroll", title: "E-Commerce Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll" },
         { category: "Payroll", title: "E-Commerce Payroll: What Misclassification Costs You", excerpt: "Managed payroll for e-commerce. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/ecommerce/ecommerce-employee-classification-guide" },
       ]} />
       </article>

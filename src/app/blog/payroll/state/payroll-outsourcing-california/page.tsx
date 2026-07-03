@@ -180,7 +180,7 @@ export default function Page() {
           <RelatedPosts posts={[
         { category: "Payroll", title: "Payroll Outsourcing in Arizona for Growing Businesses", excerpt: "Payroll Outsourcing in Arizona for Growing Businesses. BEG provides managed payroll nationwide....", href: "/blog/payroll/state/payroll-outsourcing-arizona" },
         { category: "Payroll", title: "Payroll Outsourcing in Colorado: New 2026 Rules", excerpt: "Payroll Outsourcing in Colorado: New Laws and Requirements. BEG provides managed payroll...", href: "/blog/payroll/state/payroll-outsourcing-colorado" },
-        { category: "Payroll", title: "Payroll Outsourcing in Florida: What Employers Ask", excerpt: "Payroll Outsourcing in Florida: What to Know. BEG provides managed payroll nationwide. Book a free...", href: "/blog/payroll/state/payroll-outsourcing-florida" },
+        { category: "Payroll", title: "Payroll Outsourcing in Florida: What Employers Ask", excerpt: "Payroll Outsourcing in Florida: What to Know. BEG provides managed payroll nationwide. Get instant pricing...", href: "/blog/payroll/state/payroll-outsourcing-florida" },
       ]} />
       </article>
   );

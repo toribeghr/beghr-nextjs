@@ -160,7 +160,7 @@ export default function Page() {
       />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Managed Payroll vs In-House for Agencies: Which Wins?", excerpt: "Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with...", href: "/blog/payroll/marketing-agency/managed-payroll-vs-in-house" },
-        { category: "Payroll", title: "Agency Payroll: Direct Deposit Done Right", excerpt: "Managed payroll for marketing agencies. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book...", href: "/blog/payroll/marketing-agency/marketing-agency-direct-deposit-setup" },
+        { category: "Payroll", title: "Agency Payroll: Direct Deposit Done Right", excerpt: "Managed payroll for marketing agencies. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/marketing-agency/marketing-agency-direct-deposit-setup" },
         { category: "Payroll", title: "Agency Payroll: The Truth About Classification", excerpt: "Managed payroll for marketing agencies. Employee Classification for Payroll. $25-$45 PEPM...", href: "/blog/payroll/marketing-agency/marketing-agency-employee-classification-guide" },
       ]} />
       </article>

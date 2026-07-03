@@ -159,9 +159,9 @@ export default function Page() {
         }}
       />
           <RelatedPosts posts={[
-        { category: "Payroll", title: "Accounting Firm Payroll, Outsourced vs. In-House", excerpt: "Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, QuickBooks...", href: "/blog/payroll/professional-services/accounting" },
+        { category: "Payroll", title: "Accounting Firm Payroll, Outsourced vs. In-House", excerpt: "Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, Quick. Get instant pricing...", href: "/blog/payroll/professional-services/accounting" },
         { category: "Payroll", title: "Consulting Firm Payroll, Billable Hours (Full Breakdown)", excerpt: "Consulting firm payroll: utilization bonuses, multi-state remote consultant compliance, exempt...", href: "/blog/payroll/professional-services/consulting-firm-payroll" },
-        { category: "Payroll", title: "Engineering Firm Direct Deposit Setup (What to Know)", excerpt: "Managed payroll for engineering. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a free...", href: "/blog/payroll/professional-services/engineering-direct-deposit-setup" },
+        { category: "Payroll", title: "Engineering Firm Direct Deposit Setup (What to Know)", excerpt: "Managed payroll for engineering. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/professional-services/engineering-direct-deposit-setup" },
       ]} />
       </article>
   );

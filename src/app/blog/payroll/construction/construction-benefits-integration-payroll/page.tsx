@@ -160,7 +160,7 @@ export default function Page() {
       />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Certified Payroll and Prevailing Wage for Contractors", excerpt: "Certified payroll reporting and prevailing wage compliance for construction contractors on federal...", href: "/blog/payroll/construction/certified-payroll-prevailing-wage" },
-        { category: "Payroll", title: "Construction Payroll Direct Deposit Setup for Crews", excerpt: "Managed payroll for construction. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Book a...", href: "/blog/payroll/construction/construction-direct-deposit-setup" },
+        { category: "Payroll", title: "Construction Payroll Direct Deposit Setup for Crews", excerpt: "Managed payroll for construction. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/construction/construction-direct-deposit-setup" },
         { category: "Payroll", title: "Construction Payroll: Employee or Contractor?", excerpt: "Managed payroll for construction. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/construction/construction-employee-classification-guide" },
       ]} />
       </article>

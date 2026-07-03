@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, type ReactNode } from 'react';
+import { createPortal } from 'react-dom';
 import { BG, CARD, LINE, T2 } from './pricing';
 
 // Approved bottom-sheet modal, ported from the locked artifacts (July 1, 2026).
@@ -24,7 +25,10 @@ export default function PricingModal({ open, onClose, children }: Props) {
 
   if (!open) return null;
 
-  return (
+  // Portal to <body>: ancestors with backdrop-filter/transform (e.g. the sticky
+  // header) create a containing block that hijacks position:fixed and pushes
+  // the sheet out of the viewport. Rendering at body level escapes all of them.
+  return createPortal(
     <div
       onClick={onClose}
       style={{ position: 'fixed', inset: 0, zIndex: 1000, background: 'rgba(0,0,0,0.78)', backdropFilter: 'blur(3px)', WebkitBackdropFilter: 'blur(3px)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center', animation: 'beg-fade 0.2s ease' }}
@@ -50,6 +54,7 @@ export default function PricingModal({ open, onClose, children }: Props) {
         {children}
         <style>{'@keyframes beg-fade{from{opacity:0}to{opacity:1}} @keyframes beg-slide{from{transform:translateY(100%)}to{transform:translateY(0)}}'}</style>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

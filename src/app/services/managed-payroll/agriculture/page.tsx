@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('agriculture-payroll');
 export default function PayrollAgriculturePage() {
   return (
     <ServicePage
+      heroVideoId="5u8QAOn_Yyo"
       imageSrc="/assets/hero-images/payroll.webp"
       imageAlt="Agricultural operation with fully managed payroll"
       eyebrow="Managed Payroll · Agriculture"

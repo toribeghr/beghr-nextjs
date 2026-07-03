@@ -6,6 +6,20 @@ import { jpIndustries, jpMetros, jpMetroSlugs } from '@/lib/jpGridData';
 import { legalWageByMetro, LEGAL_NATIONAL, LEGAL_WAGE_ASOF, LEGAL_WAGE_SOURCE, type LegalWage } from '@/lib/legalWageData';
 import { healthcareWageByMetro, HEALTHCARE_NATIONAL } from '@/lib/healthcareWageData';
 
+// Real BLS OEWS compensation data, per industry. Add a row here as each industry is pulled.
+// QUALITY GATE: only industry+metro pairs present here render an INDEXABLE city page. Every other
+// city page is noindexed (thin, no local data) until real data lands. See CITY_DEPTH_PROCESS.md.
+const WAGE_SETS: Record<string, { byMetro: Record<string, LegalWage>; national: { mean: number | null }; role: string }> = {
+  legal: { byMetro: legalWageByMetro, national: LEGAL_NATIONAL, role: 'attorneys' },
+  healthcare: { byMetro: healthcareWageByMetro, national: HEALTHCARE_NATIONAL, role: 'registered nurses' },
+};
+
+export function cityHasWage(industrySlug: string, citySlug: string): boolean {
+  const wset = WAGE_SETS[industrySlug];
+  const wage = wset ? wset.byMetro[citySlug] : undefined;
+  return !!(wage && wage.mean != null);
+}
+
 const svcBase = {
   '@context': 'https://schema.org',
   '@type': 'Service',
@@ -29,6 +43,7 @@ export function cityMeta(industrySlug: string, citySlug: string) {
     title,
     description,
     alternates: { canonical: url },
+    robots: cityHasWage(industrySlug, citySlug) ? undefined : { index: false, follow: true },
     openGraph: {
       title,
       description: ogDesc,
@@ -58,11 +73,6 @@ export default function CityTemplate({ industrySlug, citySlug }: { industrySlug:
 
   const nearby = (metro.nearby || []).filter((s) => jpMetroSlugs.has(s)).slice(0, 3);
 
-  // Real BLS OEWS compensation data, per industry. Add a row here as each industry is pulled.
-  const WAGE_SETS: Record<string, { byMetro: Record<string, LegalWage>; national: { mean: number | null }; role: string }> = {
-    legal: { byMetro: legalWageByMetro, national: LEGAL_NATIONAL, role: 'attorneys' },
-    healthcare: { byMetro: healthcareWageByMetro, national: HEALTHCARE_NATIONAL, role: 'registered nurses' },
-  };
   const wset = WAGE_SETS[industrySlug];
   const wage = wset ? wset.byMetro[citySlug] : undefined;
   const hasWage = !!(wage && wage.mean != null);

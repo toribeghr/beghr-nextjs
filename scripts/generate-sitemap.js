@@ -56,14 +56,26 @@ try {
     .filter(d => d.isDirectory() && fs.existsSync(path.join(jpBase, d.name, '[city]', 'page.tsx')))
     .map(d => d.name);
   const seen = new Set(routes);
+  const metroSet = new Set(metroSlugs);
+  let deepIndustries = 0, deepUrls = 0;
   for (const ind of cityIndustries) {
     if (!industryKeys.has(ind)) continue;
-    for (const slug of metroSlugs) {
+    // QUALITY GATE: only list city pages that have real wage data (these are the indexable ones).
+    // Industries/metros without data are noindexed by CityTemplate, so we must not list them here.
+    const wageFile = path.join(__dirname, '..', 'src', 'lib', `${ind}WageData.ts`);
+    if (!fs.existsSync(wageFile)) continue;
+    const wageText = fs.readFileSync(wageFile, 'utf8');
+    const wageSlugs = new Set(
+      Array.from(wageText.matchAll(/["']([a-z0-9-]+)["']\s*:\s*\{/g)).map(m => m[1]).filter(s => metroSet.has(s))
+    );
+    if (wageSlugs.size === 0) continue;
+    deepIndustries++;
+    for (const slug of wageSlugs) {
       const r = `/services/job-placement/${ind}/${slug}`;
-      if (!seen.has(r)) { routes.push(r); seen.add(r); }
+      if (!seen.has(r)) { routes.push(r); seen.add(r); deepUrls++; }
     }
   }
-  console.log(`Added city ISR URLs: ${cityIndustries.length} industries x ${metroSlugs.length} metros`);
+  console.log(`Added INDEXABLE city URLs: ${deepUrls} across ${deepIndustries} industries with wage data (thin/noindexed city pages excluded from sitemap)`);
 } catch (e) {
   console.warn('Could not enumerate city ISR URLs:', e.message);
 }

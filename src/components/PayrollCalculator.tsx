@@ -48,7 +48,7 @@ function getCurrentCost(count: number, method: Method): { low: number; high: num
       return {
         low: Math.round(base * 0.85),
         high: Math.round(base * 1.25),
-        note: 'PEO per-employee admin fees — varies widely by provider and headcount',
+        note: 'PEO per-employee admin fees, varies widely by provider and headcount',
       };
     }
     case 'manual': {
@@ -155,7 +155,7 @@ export default function PayrollCalculator() {
             {/* Results panel */}
             <div style={{ background: '#000', borderRadius: '10px', padding: '2rem', color: '#fff' }}>
               <p style={{ color: '#ECAC60', fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.5rem', marginTop: 0 }}>
-                Your estimate — {count} employees
+                Your estimate: {count} employees
               </p>
 
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(170px, 1fr))', gap: '1.5rem', marginBottom: '1.75rem' }}>
@@ -208,7 +208,7 @@ export default function PayrollCalculator() {
                         Comparable
                       </div>
                       <div style={{ fontSize: '0.7rem', color: '#555', marginTop: '0.4rem', lineHeight: '1.45' }}>
-                        Get a custom quote — the full-service difference matters
+                        Get a custom quote: the full-service difference matters
                       </div>
                     </>
                   )}
@@ -223,10 +223,10 @@ export default function PayrollCalculator() {
                   className="btn btn--gold"
                   style={{ fontSize: '0.97rem', padding: '0.85rem 2.25rem', display: 'inline-block' }}
                 >
-                  Get Your Exact Quote — Book a 15-Min Call
+                  Get Your Exact Quote: Book a 15-Min Call
                 </Link>
                 <p style={{ color: '#555', fontSize: '0.75rem', marginTop: '0.8rem', marginBottom: 0, lineHeight: '1.5' }}>
-                  This calculator uses industry averages. Your BEG contact gives you an exact monthly cost on your discovery call — no commitment required.
+                  This calculator uses industry averages. Your BEG contact gives you an exact monthly cost on your discovery call, no commitment required.
                 </p>
               </div>
             </div>
@@ -277,7 +277,7 @@ export default function PayrollCalculator() {
               <div style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1rem' }}>per employee / month</div>
               <strong style={{ display: 'block', fontSize: '1rem', marginBottom: '0.5rem' }}>We work in your existing system</strong>
               <p style={{ fontSize: '0.9rem', color: '#555', lineHeight: '1.65', margin: '0 0 1rem' }}>
-                BEG operates as your managed payroll team inside your current system — ADP, Gusto, Rippling, QuickBooks Payroll, or other. No migration, no disruption. You keep your existing platform. We run it for you.
+                BEG operates as your managed payroll team inside your current system: ADP, Gusto, Rippling, QuickBooks Payroll, or other. No migration, no disruption. You keep your existing platform. We run it for you.
               </p>
               <div style={{ fontSize: '0.82rem', color: '#888' }}>Best for: companies happy with their current platform who just want the work off their plate.</div>
             </div>
@@ -286,7 +286,7 @@ export default function PayrollCalculator() {
               <div style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1rem' }}>per employee / month</div>
               <strong style={{ display: 'block', fontSize: '1rem', marginBottom: '0.5rem' }}>We move you to iSolved</strong>
               <p style={{ fontSize: '0.9rem', color: '#555', lineHeight: '1.65', margin: '0 0 1rem' }}>
-                BEG migrates your payroll to iSolved — a purpose-built HCM platform with automated compliance updates, employee self-service, and a full suite of HR tools beyond payroll. Onboarding takes 3–5 business days.
+                BEG migrates your payroll to isolved, a purpose-built HCM platform with automated compliance updates, employee self-service, and a full suite of HR tools beyond payroll. Onboarding takes 3–5 business days.
               </p>
               <div style={{ fontSize: '0.82rem', color: '#888' }}>Best for: companies ready to upgrade their payroll platform and get access to full HCM tools.</div>
             </div>

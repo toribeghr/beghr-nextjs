@@ -206,7 +206,7 @@ export default function OvertimePayCalculator() {
 
               {result.otHours === 0 ? (
                 <p style={{ color: '#ddd', fontSize: '1rem', lineHeight: 1.6, margin: 0 }}>
-                  No federal overtime is due — the hours entered are 40 or fewer in the workweek. If this person worked long single days, check the daily-overtime note below for your state.
+                  No federal overtime is due. The hours entered are 40 or fewer in the workweek. If this person worked long single days, check the daily-overtime note below for your state.
                 </p>
               ) : (
                 <>
@@ -258,7 +258,7 @@ export default function OvertimePayCalculator() {
               <div style={{ borderTop: '1px solid #222', paddingTop: '1.5rem', textAlign: 'center' }}>
                 <Link href={calendly} target="_blank" rel="noopener noreferrer" className="btn btn--gold"
                   style={{ fontSize: '0.97rem', padding: '0.85rem 2.25rem', display: 'inline-block' }}>
-                  Get overtime calculated right, every run — Book a Discovery Call
+                  Get overtime calculated right, every run: Book a Discovery Call
                 </Link>
                 <p style={{ color: '#555', fontSize: '0.75rem', marginTop: '0.8rem', marginBottom: 0, lineHeight: 1.5 }}>
                   BEG managed payroll handles regular-rate, blended-rate, and bonus overtime automatically. General information reviewed June 2026, not legal advice.

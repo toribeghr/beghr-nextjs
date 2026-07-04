@@ -223,10 +223,10 @@ export default function FinalPaycheckCalculator() {
               <div style={{ borderTop: '1px solid #222', paddingTop: '1.5rem', marginTop: '1.5rem', textAlign: 'center' }}>
                 <Link href={calendly} target="_blank" rel="noopener noreferrer" className="btn btn--gold"
                   style={{ fontSize: '0.97rem', padding: '0.85rem 2.25rem', display: 'inline-block' }}>
-                  Never miss a final-pay deadline again — Book a Discovery Call
+                  Never miss a final-pay deadline again: Book a Discovery Call
                 </Link>
                 <p style={{ color: '#555', fontSize: '0.75rem', marginTop: '0.8rem', marginBottom: 0, lineHeight: 1.5 }}>
-                  BEG managed payroll tracks every separation deadline for you. This tool is general information reviewed June 2026, not legal advice — verify against the current statute or with counsel.
+                  BEG managed payroll tracks every separation deadline for you. This tool is general information reviewed June 2026, not legal advice. Verify against the current statute or with counsel.
                 </p>
               </div>
             </div>

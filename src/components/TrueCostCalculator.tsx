@@ -221,7 +221,7 @@ export default function TrueCostCalculator() {
               <div style={{ borderTop: '1px solid #222', paddingTop: '1.5rem', textAlign: 'center' }}>
                 <Link href={calendly} target="_blank" rel="noopener noreferrer" className="btn btn--gold"
                   style={{ fontSize: '0.97rem', padding: '0.85rem 2.25rem', display: 'inline-block' }}>
-                  See how BEG lowers your cost per employee — Book a Discovery Call
+                  See how BEG lowers your cost per employee: Book a Discovery Call
                 </Link>
                 <p style={{ color: '#555', fontSize: '0.75rem', marginTop: '0.8rem', marginBottom: 0, lineHeight: 1.5 }}>
                   Estimates use 2026 federal rates and the assumptions you entered. SUTA and workers’ comp vary by state, class code, and experience. General information, not tax advice.

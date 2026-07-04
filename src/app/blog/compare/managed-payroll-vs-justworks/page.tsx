@@ -191,7 +191,7 @@ export default function ManagedPayrollVsJustworksPage() {
                 ['Benefits premiums (separate)', 'Paid to Justworks for group plans', 'Paid to your own broker/carrier'],
                 ['Co-employment', 'Yes - required', 'No'],
                 ['Benefits lock-in risk', 'Yes - exit requires benefits migration', 'None'],
-                ['Savings vs. Justworks Plus', '—', '$32,400–$45,000/yr (platform fee only)'],
+                ['Savings vs. Justworks Plus', 'N/A', '$32,400–$45,000/yr (platform fee only)'],
               ].map(([factor, justworks, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: i === 5 ? 700 : 400 }}>{factor}</td>

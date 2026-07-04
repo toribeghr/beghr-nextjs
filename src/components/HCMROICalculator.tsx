@@ -106,7 +106,7 @@ export default function HCMROICalculator() {
             {/* Results panel */}
             <div style={{ background: '#000', borderRadius: '10px', padding: '2rem', color: '#fff' }}>
               <p style={{ color: '#ECAC60', fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.5rem', marginTop: 0 }}>
-                Your estimate — {count} employees, {systems} systems
+                Your estimate: {count} employees, {systems} systems
               </p>
 
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(170px, 1fr))', gap: '1.5rem', marginBottom: '1.75rem' }}>
@@ -158,10 +158,10 @@ export default function HCMROICalculator() {
                   className="btn btn--gold"
                   style={{ fontSize: '0.97rem', padding: '0.85rem 2.25rem', display: 'inline-block' }}
                 >
-                  Get Your Custom ROI Review — Book a 15-Min Call
+                  Get Your Custom ROI Review: Book a 15-Min Call
                 </Link>
                 <p style={{ color: '#555', fontSize: '0.75rem', marginTop: '0.8rem', marginBottom: 0, lineHeight: '1.5' }}>
-                  This calculator uses conservative industry averages. Forrester documented a 330% ROI for isolved clients. BEG gives you an exact, configured ROI on your discovery call — no commitment required.
+                  This calculator uses conservative industry averages. Forrester documented a 330% ROI for isolved clients. BEG gives you an exact, configured ROI on your discovery call, no commitment required.
                 </p>
               </div>
             </div>

@@ -38,19 +38,19 @@ export default function StartupHiringPage() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Hiring your first employees is both exciting and terrifying. You're no longer just a founder—you're building a team, a culture, and a company. Your first hires set the tone for everything that comes next.</p>
+        <p>Hiring your first employees is both exciting and terrifying. You're no longer just a founder. You're building a team, a culture, and a company. Your first hires set the tone for everything that comes next.</p>
 
         <p>Getting it right requires strategy, clarity, and speed. Here's how top founders build their first teams.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>Define Your First Hires</h2>
 
-        <p>Don't hire for need—hire for leverage. Your first employees should be people who multiply your impact. A great engineer handles technical debt you can't. A great operations person builds the systems that let you scale.</p>
+        <p>Don't hire for need. Hire for leverage. Your first employees should be people who multiply your impact. A great engineer handles technical debt you can't. A great operations person builds the systems that let you scale.</p>
 
         <p>Avoid hiring specialists too early. You need generalists who can wear multiple hats and grow with the company.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #c41e3a', paddingBottom: '0.5rem' }}>Speed Matters</h2>
 
-        <p>Startup hiring is competitive. The best people have options. Move fast—from first conversation to offer in 1–2 weeks. Delayed decisions lose candidates.</p>
+        <p>Startup hiring is competitive. The best people have options. Move fast: from first conversation to offer in 1–2 weeks. Delayed decisions lose candidates.</p>
 
         <p>Have your equity plan, offer structure, and <a href="https://www.bls.gov/oes/current/oes_nat.htm" target="_blank" rel="noopener noreferrer">salary benchmarks</a> ready. Remove friction so you can move at startup speed.</p>
 

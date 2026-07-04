@@ -73,7 +73,7 @@ export default function PayrollManagerVsOutsourcingPage() {
             </thead>
             <tbody>
               {[
-                ['Base salary (50-person company)', '$65,000–$85,000/yr', '—'],
+                ['Base salary (50-person company)', '$65,000–$85,000/yr', 'N/A'],
                 ['Benefits + overhead (25–30%)', '$16,000–$25,000/yr', 'Included'],
                 ['Payroll error correction', '$5,000–$40,000/yr avg', 'Included'],
                 ['Employee question time', '15–25 hrs/month of HR time', 'Handled for you'],

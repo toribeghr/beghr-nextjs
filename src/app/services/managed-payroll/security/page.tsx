@@ -29,6 +29,7 @@ const CALENDLY = getCalendlyLink('security-payroll');
 export default function PayrollSecurityPage() {
   return (
     <ServicePage
+      heroVideoId="N8KWQgzYQJM"
       imageSrc="/assets/hero-images/managed-payroll.webp"
       imageAlt="Security company with fully managed payroll"
       eyebrow="Managed Payroll · Security"

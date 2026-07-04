@@ -25,6 +25,7 @@ const CALENDLY = getCalendlyLink('home-services-payroll');
 export default function PayrollHomeServicesPage() {
   return (
     <ServicePage
+      heroVideoId="wuNFgCs7R-c"
       imageSrc="/assets/hero-images/payroll.webp"
       imageAlt="Home services company with fully managed payroll"
       eyebrow="Managed Payroll · Home Services"

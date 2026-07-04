@@ -29,6 +29,7 @@ const CALENDLY = getCalendlyLink('architecture-payroll');
 export default function PayrollArchitecturePage() {
   return (
     <ServicePage
+      heroVideoId="szzLvMYBgRA"
       imageSrc="/assets/hero-images/managed-payroll.webp"
       imageAlt="Architecture and design firm with fully managed payroll"
       eyebrow="Managed Payroll · Architecture & Design"

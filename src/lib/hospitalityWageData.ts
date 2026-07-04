@@ -31,7 +31,7 @@ export const hospitalityWageByMetro: Record<string, LegalWage> = {
   "washington-dc": { employment: 670, mean: 95470, median: 77600, p10: 51910, p90: 167670 },
   "boston": { employment: null, mean: 110670, median: 97860, p10: 66250, p90: 167090 },
   "nashville": { employment: 190, mean: 78680, median: 60840, p10: 46320, p90: 130520 },
-  "detroit": { employment: null, mean: null, median: null, p10: null, p90: null },
+  "detroit": { employment: null, mean: 78740, median: 69250, p10: null, p90: null },
   "oklahoma-city": { employment: 210, mean: 52920, median: 51150, p10: 28380, p90: 77920 },
   "portland": { employment: 350, mean: 80250, median: 73640, p10: 48830, p90: 119110 },
   "las-vegas": { employment: 360, mean: 102640, median: 82410, p10: 49520, p90: 208020 },

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Veterinary comp is climbing, but the best DVMs are passive and pay is only part of the decision. What actually closes a veterinary hire in 2026.',
     url: 'https://www.beghr.com/blog/veterinary-hiring/veterinary-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-veterinary-hiring-veterinary-salary-trends.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Veterinary Salary Trends 2026: What Actually Closes | BEG', description: 'Veterinary comp is climbing, but the best DVMs are passive and pay is only part of the decision. What actually closes a veterinary hire in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Veterinary Salary Trends 2026: What Actually Closes | BEG', description: 'Veterinary comp is climbing, but the best DVMs are passive and pay is only part of the decision. What actually closes a veterinary hire in 2026.', images: ['https://www.beghr.com/blog-images/blog-veterinary-hiring-veterinary-salary-trends.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function VeterinarySalaryTrendsPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-veterinary-hiring-veterinary-salary-trends.webp" alt={`Veterinary Salary Trends 2026: What Actually Closes`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

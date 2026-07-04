@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Security Company Payroll Compliance for 2026 | BEG",
-  description: "Payroll compliance for security companies: state guard licensing, workers compensation classifications, multi-state registration, and payroll record requirements. BEG at $25-$45 PEPM.",
+  description: "Payroll compliance for security companies: state guard licensing, workers compensation classifications, multi-state registration, and payroll record",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/security/security-company-payroll-compliance" },
   openGraph: {
     title: "Security Company Payroll Compliance for 2026 | BEG",

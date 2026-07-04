@@ -5,17 +5,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Restaurants | Instant Quote | BEG',
-  description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong pick.',
+  description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-restaurants' },
   openGraph: {
     title: 'Best HCM Software for Restaurants | Instant Quote | BEG',
-    description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong pick.',
+    description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-restaurants',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Restaurants | Instant Quote | BEG', description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Restaurants | Instant Quote | BEG', description: 'What to look for in restaurant HCM software in 2026, the tips, turnover, and scheduling challenges operators face, and why isolved plus BEG is a strong', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

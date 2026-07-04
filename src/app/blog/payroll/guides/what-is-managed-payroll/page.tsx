@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'What Is Managed Payroll, in Plain English | BEG',
-  description: 'What Is Managed Payroll? A Plain-English Guide for Business Owners. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.',
+  description: 'What Is Managed Payroll? A Plain-English Guide for Business Owners. Expert guidance from BEG managed payroll at $25-$45 PEPM.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/guides/what-is-managed-payroll' },
   openGraph: {
     title: 'What Is Managed Payroll, in Plain English | BEG',
-    description: 'What Is Managed Payroll? A Plain-English Guide for Business Owners. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.',
+    description: 'What Is Managed Payroll? A Plain-English Guide for Business Owners. Expert guidance from BEG managed payroll at $25-$45 PEPM.',
     url: 'https://www.beghr.com/blog/payroll/guides/what-is-managed-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'What Is Managed Payroll, in Plain English | BEG', description: 'What Is Managed Payroll? A Plain-English Guide for Business Owners. Expert guidance from BEG managed payroll at $25-$45 PEPM. Get instant pricing at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'What Is Managed Payroll, in Plain English | BEG', description: 'What Is Managed Payroll? A Plain-English Guide for Business Owners. Expert guidance from BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [

@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'H-2A Worker Payroll Compliance | Housing + Deductions | BEG',
-  description: 'H-2A agricultural worker payroll: Adverse Effect Wage Rate, housing and meal deductions, piece rate compliance, and DOL documentation requirements for 2026.',
+  description: 'H-2A agricultural worker payroll: Adverse Effect Wage Rate, housing and meal deductions, piece rate compliance, and DOL documentation requirements for',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/agriculture/h2a-worker-payroll-compliance' },
   openGraph: {
     title: 'H-2A Worker Payroll Compliance | Housing + Deductions | BEG',
-    description: 'H-2A agricultural worker payroll: Adverse Effect Wage Rate, housing and meal deductions, piece rate compliance, and DOL documentation requirements for 2026.',
+    description: 'H-2A agricultural worker payroll: Adverse Effect Wage Rate, housing and meal deductions, piece rate compliance, and DOL documentation requirements for',
     url: 'https://www.beghr.com/blog/payroll/agriculture/h2a-worker-payroll-compliance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

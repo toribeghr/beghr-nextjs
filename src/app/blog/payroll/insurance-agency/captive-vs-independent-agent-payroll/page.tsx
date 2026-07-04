@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Captive vs Independent Agent Payroll: Key Difference | BEG",
-  description: "Captive vs independent insurance agent payroll: W-2 vs 1099 classification rules, IRS tests, state insurance department factors, and audit risk. BEG at $25-$45 PEPM.",
+  description: "Captive vs independent insurance agent payroll: W-2 vs 1099 classification rules, IRS tests, state insurance department factors, and audit risk.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/insurance-agency/captive-vs-independent-agent-payroll" },
   openGraph: {
     title: "Captive vs Independent Agent Payroll: Key Difference | BEG",
-    description: "Captive vs independent insurance agent payroll: W-2 vs 1099 classification rules, IRS tests, state insurance department factors, and audit risk. BEG at $25-$45 PEPM.",
+    description: "Captive vs independent insurance agent payroll: W-2 vs 1099 classification rules, IRS tests, state insurance department factors, and audit risk.",
     url: "https://www.beghr.com/blog/payroll/insurance-agency/captive-vs-independent-agent-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

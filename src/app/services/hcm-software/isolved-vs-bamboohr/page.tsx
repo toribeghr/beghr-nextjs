@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved vs BambooHR | Instant Price Quote + AI | BEG',
-  description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.',
+  description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr' },
   openGraph: {
     title: 'isolved vs BambooHR | Instant Price Quote + AI | BEG',
-    description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.',
+    description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs BambooHR | Instant Price Quote + AI | BEG', description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI. See which HCM fits a growing mid-market company best.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs BambooHR | Instant Price Quote + AI | BEG', description: 'isolved vs BambooHR compared across platform depth, payroll, pricing, implementation, support, and AI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

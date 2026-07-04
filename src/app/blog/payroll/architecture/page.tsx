@@ -3,18 +3,18 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Architecture Firm Payroll Guides | Project Billing + Partners | BEG',
-  description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance. BEG managed payroll at $25-$45 PEPM.',
+  title: 'Architecture Firm Payroll Guides | Project Billing | BEG',
+  description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/architecture' },
   openGraph: {
-    title: 'Architecture Firm Payroll Guides | Project Billing + Partners | BEG',
-    description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance. BEG managed payroll at $25-$45 PEPM.',
+    title: 'Architecture Firm Payroll Guides | Project Billing | BEG',
+    description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance.',
     url: 'https://www.beghr.com/blog/payroll/architecture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Architecture Firm Payroll Guides | Project Billing + Partners | BEG', description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance. BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Architecture Firm Payroll Guides | Project Billing | BEG', description: 'Architecture firm payroll guides covering project-coded billing, licensed staff, partner draws, and multi-state compliance.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [

@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Tech Interview Questions: What Real Depth Looks Like | BEG',
-  description: 'Tech interviews that go beyond algorithmic puzzles. The questions that reveal system design judgment, engineering leadership quality, and real software delivery track record.',
+  description: 'Tech interviews that go beyond algorithmic puzzles. The questions that reveal system design judgment, engineering leadership quality, and real software',
   alternates: { canonical: 'https://www.beghr.com/blog/technology-hiring/technology-interview-questions' },
   openGraph: {
     title: 'Tech Interview Questions: What Real Depth Looks Like | BEG',
-    description: 'Tech interviews that go beyond algorithmic puzzles. The questions that reveal system design judgment, engineering leadership quality, and real software delivery track record.',
+    description: 'Tech interviews that go beyond algorithmic puzzles. The questions that reveal system design judgment, engineering leadership quality, and real software',
     url: 'https://www.beghr.com/blog/technology-hiring/technology-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Tech Interview Questions: What Real Depth Looks Like | BEG', description: 'Tech interviews that go beyond algorithmic puzzles. The questions that reveal system design judgment, engineering leadership quality, and real software delivery track record.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Tech Interview Questions: What Real Depth Looks Like | BEG', description: 'Tech interviews that go beyond algorithmic puzzles. The questions that reveal system design judgment, engineering leadership quality, and real software', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

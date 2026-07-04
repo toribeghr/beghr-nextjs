@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Executive Interview Questions That Actually Work | BEG',
-  description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and built a team that performed.',
+  description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and',
   alternates: { canonical: 'https://www.beghr.com/blog/executive-hiring/executive-interview-questions' },
   openGraph: {
     title: 'Executive Interview Questions That Actually Work | BEG',
-    description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and built a team that performed.',
+    description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and',
     url: 'https://www.beghr.com/blog/executive-hiring/executive-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/blog-images/blog-executive-hiring-executive-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Executive Interview Questions That Actually Work | BEG', description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and built a team that performed.', images: ['https://www.beghr.com/blog-images/blog-executive-hiring-executive-interview-questions.webp'] },
+  twitter: { card: 'summary_large_image', title: 'Executive Interview Questions That Actually Work | BEG', description: 'Leadership interviews that go beyond vision and values. The questions that reveal whether an executive has actually grown revenue, navigated a crisis, and', images: ['https://www.beghr.com/blog-images/blog-executive-hiring-executive-interview-questions.webp'] },
 };
 
 

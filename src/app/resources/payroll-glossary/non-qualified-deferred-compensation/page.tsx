@@ -3,11 +3,11 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Non-Qualified Deferred Compensation (NQDC) | Payroll Glossary | BEG',
+  title: 'Non-Qualified Deferred Compensation (NQDC) | BEG',
   description: 'Executive compensation arrangement deferring income to a future year, subject to strict Section 409A rules on timing and distribution.',
   alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/non-qualified-deferred-compensation' },
-  openGraph: { title: 'Non-Qualified Deferred Compensation (NQDC) | Payroll Glossary | BEG', description: 'Executive compensation arrangement deferring income to a future year, subject to strict Section 409A rules on timing and distribution.', url: 'https://www.beghr.com/resources/payroll-glossary/non-qualified-deferred-compensation', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Non-Qualified Deferred Compensation (NQDC) | Payroll Glossary | BEG', description: 'Executive compensation arrangement deferring income to a future year, subject to strict Section 409A rules on timing and distribution.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Non-Qualified Deferred Compensation (NQDC) | BEG', description: 'Executive compensation arrangement deferring income to a future year, subject to strict Section 409A rules on timing and distribution.', url: 'https://www.beghr.com/resources/payroll-glossary/non-qualified-deferred-compensation', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Non-Qualified Deferred Compensation (NQDC) | BEG', description: 'Executive compensation arrangement deferring income to a future year, subject to strict Section 409A rules on timing and distribution.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -64,7 +64,7 @@ export default function NonQualifiedDeferredCompensationPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/non-qualified-deferred-compensation', url: 'https://www.beghr.com/resources/payroll-glossary/non-qualified-deferred-compensation', name: 'Non-Qualified Deferred Compensation (NQDC) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/non-qualified-deferred-compensation', url: 'https://www.beghr.com/resources/payroll-glossary/non-qualified-deferred-compensation', name: 'Non-Qualified Deferred Compensation (NQDC) | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
             { '@type': 'DefinedTerm', name: 'Non-Qualified Deferred Compensation (NQDC)', description: 'Executive compensation arrangement deferring income to a future year, subject to strict Section 409A rules on timing and distribution.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [

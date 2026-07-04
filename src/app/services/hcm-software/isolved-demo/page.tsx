@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved Demo | Instant Price Quote + Book a Demo | BEG',
-  description: 'What an isolved demo covers, what to ask before you book one, and how BEG runs a discovery-first walkthrough tailored to your actual environment and questions.',
+  description: 'What an isolved demo covers, what to ask before you book one, and how BEG runs a discovery-first walkthrough tailored to your actual environment and',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-demo' },
   openGraph: {
     title: 'isolved Demo | Instant Price Quote + Book a Demo | BEG',
-    description: 'What an isolved demo covers, what to ask before you book one, and how BEG runs a discovery-first walkthrough tailored to your actual environment and questions.',
+    description: 'What an isolved demo covers, what to ask before you book one, and how BEG runs a discovery-first walkthrough tailored to your actual environment and',
     url: 'https://www.beghr.com/services/hcm-software/isolved-demo',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Demo | Instant Price Quote + Book a Demo | BEG', description: 'What an isolved demo covers, what to ask before you book one, and how BEG runs a discovery-first walkthrough tailored to your actual environment and questions.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Demo | Instant Price Quote + Book a Demo | BEG', description: 'What an isolved demo covers, what to ask before you book one, and how BEG runs a discovery-first walkthrough tailored to your actual environment and', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

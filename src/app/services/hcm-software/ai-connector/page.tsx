@@ -5,17 +5,17 @@ import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'isolved AI Connector for Claude | Instant Price Quote | BEG',
-  description: 'isolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions - isolved completes the task. Run payroll and HR work by conversation.',
+  description: 'isolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions - isolved completes the task.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/ai-connector' },
   openGraph: {
     title: 'isolved AI Connector for Claude | Instant Price Quote | BEG',
-    description: 'isolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions - isolved completes the task. Run payroll and HR work by conversation.',
+    description: 'isolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions - isolved completes the task.',
     url: 'https://www.beghr.com/services/hcm-software/ai-connector',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved AI Connector for Claude | Instant Price Quote | BEG', description: 'isolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions - isolved completes the task. Run payroll and HR work by conversation.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved AI Connector for Claude | Instant Price Quote | BEG', description: 'isolved is the only HCM platform with an AI Connector for Claude. Chatbots answer questions - isolved completes the task.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

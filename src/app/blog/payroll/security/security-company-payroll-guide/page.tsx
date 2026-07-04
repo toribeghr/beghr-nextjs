@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Security Company Payroll Guide: Guard Shifts & SCA | BEG",
-  description: "Security company payroll guide: SCA compliance for federal contracts, 24/7 shift processing, overtime for long shifts, and high-volume W-2 production. BEG at $25-$45 PEPM.",
+  description: "Security company payroll guide: SCA compliance for federal contracts, 24/7 shift processing, overtime for long shifts, and high-volume W-2 production.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/security/security-company-payroll-guide" },
   openGraph: {
     title: "Security Company Payroll Guide: Guard Shifts & SCA | BEG",

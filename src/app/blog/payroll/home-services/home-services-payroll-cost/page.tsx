@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Home Services Payroll Costs, In-House vs Managed | BEG',
-  description: 'How much does payroll cost for a home services company? Compare in-house payroll specialist ($60K-$100K) vs managed payroll at $25-$45 PEPM. Real numbers and ROI.',
+  description: 'How much does payroll cost for a home services company? Compare in-house payroll specialist ($60K-$100K) vs managed payroll at $25-$45 PEPM.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost' },
   openGraph: {
     title: 'Home Services Payroll Costs, In-House vs Managed | BEG',

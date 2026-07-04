@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Real Estate Interview Questions: What They Reveal | BEG',
-  description: 'Real estate interviews that reveal portfolio performance, tenant relationship management, and asset optimization track record. Questions that identify the right hire for CRE leadership roles.',
+  description: 'Real estate interviews that reveal portfolio performance, tenant relationship management, and asset optimization track record.',
   alternates: { canonical: 'https://www.beghr.com/blog/real-estate-hiring/real-estate-interview-questions' },
   openGraph: {
     title: 'Real Estate Interview Questions: What They Reveal | BEG',
-    description: 'Real estate interviews that reveal portfolio performance, tenant relationship management, and asset optimization track record. Questions that identify the right hire for CRE leadership roles.',
+    description: 'Real estate interviews that reveal portfolio performance, tenant relationship management, and asset optimization track record.',
     url: 'https://www.beghr.com/blog/real-estate-hiring/real-estate-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Real Estate Interview Questions: What They Reveal | BEG', description: 'Real estate interviews that reveal portfolio performance, tenant relationship management, and asset optimization track record. Questions that identify the right hire for CRE leadership roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Real Estate Interview Questions: What They Reveal | BEG', description: 'Real estate interviews that reveal portfolio performance, tenant relationship management, and asset optimization track record.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

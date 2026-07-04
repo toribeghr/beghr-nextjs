@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Multi-Unit Restaurant Payroll: Worth Outsourcing? | BEG",
-  description: "Why multi-unit restaurant groups outsource payroll: consolidated compliance, tip credit management, high-volume W-2s, and per-location reporting. BEG at $25-$45 PEPM.",
+  description: "Why multi-unit restaurant groups outsource payroll: consolidated compliance, tip credit management, high-volume W-2s, and per-location reporting.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/outsource-multi-location-restaurant-payroll" },
   openGraph: {
     title: "Multi-Unit Restaurant Payroll: Worth Outsourcing? | BEG",
-    description: "Why multi-unit restaurant groups outsource payroll: consolidated compliance, tip credit management, high-volume W-2s, and per-location reporting. BEG at $25-$45 PEPM.",
+    description: "Why multi-unit restaurant groups outsource payroll: consolidated compliance, tip credit management, high-volume W-2s, and per-location reporting.",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/outsource-multi-location-restaurant-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

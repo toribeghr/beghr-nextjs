@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   title: 'isolved HCM for Skilled Trades | Instant Quote | BEG',
   description: 'isolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/trades' },
+  openGraph: {
+    title: "isolved HCM for Skilled Trades | Instant Quote | BEG",
+    description: "isolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.",
+    url: "https://www.beghr.com/services/hcm-software/trades",
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: "isolved HCM for Skilled Trades | Instant Quote | BEG", description: "isolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.", images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('hcm-trades');

@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Insurance Agency Payroll: How Commission Really Works | BEG",
-  description: "Insurance agency payroll: producer commission timing, draw vs commission payroll, W-2 vs 1099 agents, E&O deduction tracking, and multi-state compliance. BEG at $25-$45 PEPM.",
+  description: "Insurance agency payroll: producer commission timing, draw vs commission payroll, W-2 vs 1099 agents, E&O deduction tracking, and multi-state compliance.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/insurance-agency/insurance-agency-payroll-guide" },
   openGraph: {
     title: "Insurance Agency Payroll: How Commission Really Works | BEG",
-    description: "Insurance agency payroll: producer commission timing, draw vs commission payroll, W-2 vs 1099 agents, E&O deduction tracking, and multi-state compliance. BEG at $25-$45 PEPM.",
+    description: "Insurance agency payroll: producer commission timing, draw vs commission payroll, W-2 vs 1099 agents, E&O deduction tracking, and multi-state compliance.",
     url: "https://www.beghr.com/blog/payroll/insurance-agency/insurance-agency-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

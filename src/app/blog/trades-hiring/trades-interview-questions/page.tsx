@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Trades Interview Questions: What Real Skill Looks Like | BEG',
-  description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record. Questions that identify electricians, HVAC techs, and production supervisors who deliver.',
+  description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record.',
   alternates: { canonical: 'https://www.beghr.com/blog/trades-hiring/trades-interview-questions' },
   openGraph: {
     title: 'Trades Interview Questions: What Real Skill Looks Like | BEG',
-    description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record. Questions that identify electricians, HVAC techs, and production supervisors who deliver.',
+    description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record.',
     url: 'https://www.beghr.com/blog/trades-hiring/trades-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Trades Interview Questions: What Real Skill Looks Like | BEG', description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record. Questions that identify electricians, HVAC techs, and production supervisors who deliver.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Trades Interview Questions: What Real Skill Looks Like | BEG', description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

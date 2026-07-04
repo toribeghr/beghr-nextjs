@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "SCA Payroll Compliance for Security Companies | BEG",
-  description: "Service Contract Act compliance for security companies: SCA pay rates, health and welfare benefits, certified payroll, and DOL audit preparation. BEG at $25-$45 PEPM.",
+  description: "Service Contract Act compliance for security companies: SCA pay rates, health and welfare benefits, certified payroll, and DOL audit preparation.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/security/service-contract-act-security-payroll" },
   openGraph: {
     title: "SCA Payroll Compliance for Security Companies | BEG",

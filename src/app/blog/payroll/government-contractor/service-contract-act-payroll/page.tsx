@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Service Contract Act Payroll Compliance [2026 Data] | BEG',
-  description: 'SCA payroll compliance guide: wage determinations, health and welfare benefits, contractor obligations, enforcement, and how managed payroll handles SCA requirements.',
+  description: 'SCA payroll compliance guide: wage determinations, health and welfare benefits, contractor obligations, enforcement, and how managed payroll handles SCA',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor/service-contract-act-payroll' },
   openGraph: {
     title: 'Service Contract Act Payroll Compliance [2026 Data] | BEG',

@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved Cost Per Employee | Instant Price Quote | BEG',
-  description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on a discovery call.',
+  description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-cost-per-employee' },
   openGraph: {
     title: 'isolved Cost Per Employee | Instant Price Quote | BEG',
-    description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on a discovery call.',
+    description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on',
     url: 'https://www.beghr.com/services/hcm-software/isolved-cost-per-employee',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Cost Per Employee | Instant Price Quote | BEG', description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on a discovery call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Cost Per Employee | Instant Price Quote | BEG', description: 'How isolved cost per employee is calculated, what drives the per-PEPM price, and how BEG provides a custom cost comparison against your current system on', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

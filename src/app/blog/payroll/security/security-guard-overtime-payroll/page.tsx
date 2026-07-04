@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Security Guard Overtime Payroll: 24/7 FLSA Rules | BEG",
-  description: "FLSA overtime rules for security guards: 24/7 operations, shift differential regular rate, state daily overtime, and correct overtime calculation. BEG at $25-$45 PEPM.",
+  description: "FLSA overtime rules for security guards: 24/7 operations, shift differential regular rate, state daily overtime, and correct overtime calculation.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/security/security-guard-overtime-payroll" },
   openGraph: {
     title: "Security Guard Overtime Payroll: 24/7 FLSA Rules | BEG",

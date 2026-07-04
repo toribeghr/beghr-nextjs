@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved vs UKG | Instant Price Quote + Claude AI | BEG',
-  description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.',
+  description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-ukg' },
   openGraph: {
     title: 'isolved vs UKG | Instant Price Quote + Claude AI | BEG',
-    description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.',
+    description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-ukg',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs UKG | Instant Price Quote + Claude AI | BEG', description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI. See which HCM fits the mid-market versus large, complex enterprises.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs UKG | Instant Price Quote + Claude AI | BEG', description: 'isolved vs UKG compared across platform breadth, pricing, implementation, support, and AI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

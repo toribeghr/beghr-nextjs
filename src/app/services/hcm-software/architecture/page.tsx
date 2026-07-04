@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'HCM Software for Architecture | Instant Price Quote | BEG',
-  description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration on isolved.',
+  description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/architecture' },
   openGraph: {
     title: 'HCM Software for Architecture | Instant Price Quote | BEG',
-    description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration on isolved.',
+    description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration',
     url: 'https://www.beghr.com/services/hcm-software/architecture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for Architecture | Instant Price Quote | BEG', description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for Architecture | Instant Price Quote | BEG', description: 'HCM software for architecture and design firms: project-based time tracking, AIA license management, multi-state compliance, and benefits administration', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

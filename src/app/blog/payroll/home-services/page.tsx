@@ -4,11 +4,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Home Services Payroll Guides | HVAC Plumbing Field Tech | BEG',
-  description: 'Home services payroll guides for HVAC, plumbing, electrical, and field tech companies. Overtime, travel time, seasonal spikes, and outsourcing. BEG at $25-$45 PEPM.',
+  description: 'Home services payroll guides for HVAC, plumbing, electrical, and field tech companies. Overtime, travel time, seasonal spikes, and outsourcing.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services' },
   openGraph: {
     title: 'Home Services Payroll Guides | HVAC Plumbing Field Tech | BEG',
-    description: 'Home services payroll guides for HVAC, plumbing, electrical, and field tech companies. Overtime, travel time, seasonal spikes, and outsourcing. BEG at $25-$45 PEPM.',
+    description: 'Home services payroll guides for HVAC, plumbing, electrical, and field tech companies. Overtime, travel time, seasonal spikes, and outsourcing.',
     url: 'https://www.beghr.com/blog/payroll/home-services',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Farm Payroll Outsourcing | Why It Works | BEG',
-  description: 'Why farm and agriculture businesses outsource payroll, what a managed provider covers, and what to look for. BEG handles H-2A, piece rate, and seasonal at $25-$45 PEPM.',
+  description: 'Why farm and agriculture businesses outsource payroll, what a managed provider covers, and what to look for.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/agriculture/farm-payroll-outsourcing' },
   openGraph: {
     title: 'Farm Payroll Outsourcing | Why It Works | BEG',
-    description: 'Why farm and agriculture businesses outsource payroll, what a managed provider covers, and what to look for. BEG handles H-2A, piece rate, and seasonal at $25-$45 PEPM.',
+    description: 'Why farm and agriculture businesses outsource payroll, what a managed provider covers, and what to look for.',
     url: 'https://www.beghr.com/blog/payroll/agriculture/farm-payroll-outsourcing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

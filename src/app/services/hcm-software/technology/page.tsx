@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   title: 'isolved HCM for Tech Companies | Instant Quote | BEG',
   description: 'isolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/technology' },
+  openGraph: {
+    title: "isolved HCM for Tech Companies | Instant Quote | BEG",
+    description: "isolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.",
+    url: "https://www.beghr.com/services/hcm-software/technology",
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: "isolved HCM for Tech Companies | Instant Quote | BEG", description: "isolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.", images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('hcm-technology');

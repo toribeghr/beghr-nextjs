@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The 2026 Cybersecurity Talent Shortage Report | BEG',
-  description: 'Cybersecurity has one of the largest structural talent gaps of any field. What the 2026 security skills shortage means for organizations trying to fill CISO, security engineer, and GRC roles.',
+  description: 'Cybersecurity has one of the largest structural talent gaps of any field. What the 2026 security skills shortage means for organizations trying to fill',
   alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/cybersecurity' },
-  openGraph: { title: 'The 2026 Cybersecurity Talent Shortage Report | BEG', description: 'Cybersecurity has one of the largest structural talent gaps of any field. What the 2026 security skills shortage means for organizations trying to fill CISO, security engineer, and GRC roles.', url: 'https://www.beghr.com/resources/talent-shortage-report/cybersecurity', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'The 2026 Cybersecurity Talent Shortage Report | BEG', description: 'Cybersecurity has one of the largest structural talent gaps of any field. What the 2026 security skills shortage means for organizations trying to fill CISO, security engineer, and GRC roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'The 2026 Cybersecurity Talent Shortage Report | BEG', description: 'Cybersecurity has one of the largest structural talent gaps of any field. What the 2026 security skills shortage means for organizations trying to fill', url: 'https://www.beghr.com/resources/talent-shortage-report/cybersecurity', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Cybersecurity Talent Shortage Report | BEG', description: 'Cybersecurity has one of the largest structural talent gaps of any field. What the 2026 security skills shortage means for organizations trying to fill', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

@@ -3,18 +3,18 @@ import Link from 'next/link';
 import PricingCta from '@/components/pricing/PricingCta';
 
 export const metadata: Metadata = {
-  title: 'Healthcare Practice Cuts Payroll Processing to Zero | BEG Case Study',
-  description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and multi-state compliance.',
+  title: 'Healthcare Practice Cuts Payroll to Zero | BEG Case Study',
+  description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and',
   alternates: { canonical: 'https://www.beghr.com/case-studies/healthcare' },
   openGraph: {
-    title: 'Healthcare Practice Cuts Payroll Processing to Zero | BEG Case Study',
-    description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and multi-state compliance.',
+    title: 'Healthcare Practice Cuts Payroll to Zero | BEG Case Study',
+    description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and',
     url: 'https://www.beghr.com/case-studies/healthcare',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Practice Cuts Payroll Processing to Zero | BEG Case Study', description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and multi-state compliance.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Practice Cuts Payroll to Zero | BEG Case Study', description: 'A 45-employee multi-specialty medical practice eliminated payroll errors and reclaimed 8 hours/week after BEG took over shift differentials and', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function HealthcareCaseStudyPage() {

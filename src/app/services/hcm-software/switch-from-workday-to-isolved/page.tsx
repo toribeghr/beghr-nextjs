@@ -4,7 +4,7 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Switch Workday to isolved | Instant Price Quote | BEG',
-  description: 'Workday is enterprise software. If you are a mid-market company paying enterprise prices, switching to isolved with BEG gives you a purpose-built platform at the right scale.',
+  description: 'Workday is enterprise software. If you are a mid-market company paying enterprise prices, switching to isolved with BEG gives you a purpose-built platform',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-workday-to-isolved' },
   openGraph: {
     title: 'Switch Workday to isolved | Instant Price Quote | BEG',

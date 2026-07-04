@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   title: 'isolved HCM for Healthcare | Instant Price Quote | BEG',
   description: 'isolved HCM for healthcare. Shift scheduling, compliance tracking, and clinical staff management on one platform. Implemented and supported by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/healthcare' },
+  openGraph: {
+    title: "isolved HCM for Healthcare | Instant Price Quote | BEG",
+    description: "isolved HCM for healthcare. Shift scheduling, compliance tracking, and clinical staff management on one platform. Implemented and supported by BEG.",
+    url: "https://www.beghr.com/services/hcm-software/healthcare",
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: "isolved HCM for Healthcare | Instant Price Quote | BEG", description: "isolved HCM for healthcare. Shift scheduling, compliance tracking, and clinical staff management on one platform. Implemented and supported by BEG.", images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('hcm-healthcare');

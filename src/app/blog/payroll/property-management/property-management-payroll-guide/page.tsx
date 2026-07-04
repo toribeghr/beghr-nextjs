@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Property Management Payroll [2026 Data] | BEG",
-  description: "Property management payroll guide: resident manager housing allowances, leasing commissions, maintenance overtime, and multi-property consolidated payroll. BEG at $25-$45 PEPM.",
+  description: "Property management payroll guide: resident manager housing allowances, leasing commissions, maintenance overtime, and multi-property consolidated",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/property-management/property-management-payroll-guide" },
   openGraph: {
     title: "Property Management Payroll [2026 Data] | BEG",

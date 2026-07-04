@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Day Spa Payroll Compliance: Therapists and Tip Rules | BEG",
-  description: "Day spa payroll compliance: massage therapist classification, tip reporting, state wage laws for estheticians and spa staff. BEG managed payroll at $25-$45 PEPM.",
+  description: "Day spa payroll compliance: massage therapist classification, tip reporting, state wage laws for estheticians and spa staff.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa/spa-payroll-compliance" },
   openGraph: {
     title: "Day Spa Payroll Compliance: Therapists and Tip Rules | BEG",

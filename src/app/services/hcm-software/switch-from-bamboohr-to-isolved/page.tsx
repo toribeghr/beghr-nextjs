@@ -4,11 +4,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Switch BambooHR to isolved | Instant Price Quote | BEG',
-  description: 'BambooHR is a great HR tool but thin on payroll. Switching to isolved gives you one connected platform for payroll, HR, time, and benefits. BEG manages the move.',
+  description: 'BambooHR is a great HR tool but thin on payroll. Switching to isolved gives you one connected platform for payroll, HR, time, and benefits.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-bamboohr-to-isolved' },
   openGraph: {
     title: 'Switch BambooHR to isolved | Instant Price Quote | BEG',
-    description: 'BambooHR is a great HR tool but thin on payroll. Switching to isolved gives you one connected platform for payroll, HR, time, and benefits. BEG manages the move.',
+    description: 'BambooHR is a great HR tool but thin on payroll. Switching to isolved gives you one connected platform for payroll, HR, time, and benefits.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-bamboohr-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

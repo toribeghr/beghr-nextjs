@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Seasonal Farm Payroll | Hire and Terminate at Scale | BEG',
-  description: 'Seasonal agricultural payroll guide: FLSA exemptions, peak-season ramp-up, onboarding at scale, pay frequency requirements, and year-end offboarding for farm workers.',
+  description: 'Seasonal agricultural payroll guide: FLSA exemptions, peak-season ramp-up, onboarding at scale, pay frequency requirements, and year-end offboarding for',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/agriculture/seasonal-agricultural-payroll' },
   openGraph: {
     title: 'Seasonal Farm Payroll | Hire and Terminate at Scale | BEG',
-    description: 'Seasonal agricultural payroll guide: FLSA exemptions, peak-season ramp-up, onboarding at scale, pay frequency requirements, and year-end offboarding for farm workers.',
+    description: 'Seasonal agricultural payroll guide: FLSA exemptions, peak-season ramp-up, onboarding at scale, pay frequency requirements, and year-end offboarding for',
     url: 'https://www.beghr.com/blog/payroll/agriculture/seasonal-agricultural-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

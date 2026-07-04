@@ -3,18 +3,18 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Group Term Life Insurance (Imputed Income) | Payroll Glossary | BEG',
+  title: 'Group Term Life Insurance (Imputed Income) | BEG',
   description: 'Employer life insurance over $50,000 creates taxable imputed income calculated using IRS Table I rates by employee age.',
   alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/group-term-life-imputed' },
   openGraph: {
-    title: 'Group Term Life Insurance (Imputed Income) | Payroll Glossary | BEG',
+    title: 'Group Term Life Insurance (Imputed Income) | BEG',
     description: 'Employer life insurance over $50,000 creates taxable imputed income calculated using IRS Table I rates by employee age.',
     url: 'https://www.beghr.com/resources/payroll-glossary/group-term-life-imputed',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Group Term Life Insurance (Imputed Income) | Payroll Glossary | BEG', description: 'Employer life insurance over $50,000 creates taxable imputed income calculated using IRS Table I rates by employee age.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Group Term Life Insurance (Imputed Income) | BEG', description: 'Employer life insurance over $50,000 creates taxable imputed income calculated using IRS Table I rates by employee age.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [
@@ -80,7 +80,7 @@ export default function GroupTermLifeImputedPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/group-term-life-imputed', url: 'https://www.beghr.com/resources/payroll-glossary/group-term-life-imputed', name: 'Group Term Life Insurance (Imputed Income) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/group-term-life-imputed', url: 'https://www.beghr.com/resources/payroll-glossary/group-term-life-imputed', name: 'Group Term Life Insurance (Imputed Income) | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
             { '@type': 'DefinedTerm', name: 'Group Term Life Insurance (Imputed Income)', description: 'Employer life insurance over $50,000 creates taxable imputed income calculated using IRS Table I rates by employee age.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [

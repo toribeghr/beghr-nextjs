@@ -4,17 +4,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'COBRA Administration Software | Instant Quote | BEG',
-  description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.',
+  description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/cobra-administration-software' },
   openGraph: {
     title: 'COBRA Administration Software | Instant Quote | BEG',
-    description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.',
+    description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines.',
     url: 'https://www.beghr.com/services/hcm-software/cobra-administration-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'COBRA Administration Software | Instant Quote | BEG', description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'COBRA Administration Software | Instant Quote | BEG', description: 'COBRA administration software for notices, elections, premium payments, and strict compliance timelines.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

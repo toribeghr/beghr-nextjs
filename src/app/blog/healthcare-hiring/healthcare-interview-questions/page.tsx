@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Healthcare Interview Questions That Actually Work | BEG',
-  description: 'Healthcare interviews that reveal clinical judgment, patient care philosophy, and culture fit. The questions that identify nurse practitioners, RNs, and clinical directors who will stay.',
+  description: 'Healthcare interviews that reveal clinical judgment, patient care philosophy, and culture fit.',
   alternates: { canonical: 'https://www.beghr.com/blog/healthcare-hiring/healthcare-interview-questions' },
   openGraph: {
     title: 'Healthcare Interview Questions That Actually Work | BEG',
-    description: 'Healthcare interviews that reveal clinical judgment, patient care philosophy, and culture fit. The questions that identify nurse practitioners, RNs, and clinical directors who will stay.',
+    description: 'Healthcare interviews that reveal clinical judgment, patient care philosophy, and culture fit.',
     url: 'https://www.beghr.com/blog/healthcare-hiring/healthcare-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Healthcare Interview Questions That Actually Work | BEG', description: 'Healthcare interviews that reveal clinical judgment, patient care philosophy, and culture fit. The questions that identify nurse practitioners, RNs, and clinical directors who will stay.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Healthcare Interview Questions That Actually Work | BEG', description: 'Healthcare interviews that reveal clinical judgment, patient care philosophy, and culture fit.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

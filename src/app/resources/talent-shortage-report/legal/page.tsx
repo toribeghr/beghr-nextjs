@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The 2026 Legal Talent Shortage Report | BEG',
-  description: 'The lateral attorney market is tightening and associate hiring is increasingly competitive. What the 2026 legal talent shortage means for law firms and in-house legal departments filling permanent roles.',
+  description: 'The lateral attorney market is tightening and associate hiring is increasingly competitive.',
   alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/legal' },
-  openGraph: { title: 'The 2026 Legal Talent Shortage Report | BEG', description: 'The lateral attorney market is tightening and associate hiring is increasingly competitive. What the 2026 legal talent shortage means for law firms and in-house legal departments filling permanent roles.', url: 'https://www.beghr.com/resources/talent-shortage-report/legal', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'The 2026 Legal Talent Shortage Report | BEG', description: 'The lateral attorney market is tightening and associate hiring is increasingly competitive. What the 2026 legal talent shortage means for law firms and in-house legal departments filling permanent roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'The 2026 Legal Talent Shortage Report | BEG', description: 'The lateral attorney market is tightening and associate hiring is increasingly competitive.', url: 'https://www.beghr.com/resources/talent-shortage-report/legal', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Legal Talent Shortage Report | BEG', description: 'The lateral attorney market is tightening and associate hiring is increasingly competitive.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

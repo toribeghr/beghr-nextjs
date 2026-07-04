@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Finance Interview Questions That Actually Predict Fit | BEG',
-  description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of models and statements.',
+  description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of',
   alternates: { canonical: 'https://www.beghr.com/blog/finance-hiring/finance-interview-questions' },
   openGraph: {
     title: 'Finance Interview Questions That Actually Predict Fit | BEG',
-    description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of models and statements.',
+    description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of',
     url: 'https://www.beghr.com/blog/finance-hiring/finance-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/blog-images/blog-finance-hiring-finance-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Finance Interview Questions That Actually Predict Fit | BEG', description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of models and statements.', images: ['https://www.beghr.com/blog-images/blog-finance-hiring-finance-interview-questions.webp'] },
+  twitter: { card: 'summary_large_image', title: 'Finance Interview Questions That Actually Predict Fit | BEG', description: 'Finance interviews that reveal business judgment, stakeholder communication, and real FP&A or treasury track record - not just technical knowledge of', images: ['https://www.beghr.com/blog-images/blog-finance-hiring-finance-interview-questions.webp'] },
 };
 
 

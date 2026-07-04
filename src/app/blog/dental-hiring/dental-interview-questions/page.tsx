@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Dental Interview Questions That Actually Work | BEG',
-  description: 'Dental interviews that reveal clinical judgment, patient communication skills, and production record. The questions that identify the right associate dentist or practice manager hire.',
+  description: 'Dental interviews that reveal clinical judgment, patient communication skills, and production record.',
   alternates: { canonical: 'https://www.beghr.com/blog/dental-hiring/dental-interview-questions' },
   openGraph: {
     title: 'Dental Interview Questions That Actually Work | BEG',
-    description: 'Dental interviews that reveal clinical judgment, patient communication skills, and production record. The questions that identify the right associate dentist or practice manager hire.',
+    description: 'Dental interviews that reveal clinical judgment, patient communication skills, and production record.',
     url: 'https://www.beghr.com/blog/dental-hiring/dental-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/blog-images/blog-dental-hiring-dental-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Dental Interview Questions That Actually Work | BEG', description: 'Dental interviews that reveal clinical judgment, patient communication skills, and production record. The questions that identify the right associate dentist or practice manager hire.', images: ['https://www.beghr.com/blog-images/blog-dental-hiring-dental-interview-questions.webp'] },
+  twitter: { card: 'summary_large_image', title: 'Dental Interview Questions That Actually Work | BEG', description: 'Dental interviews that reveal clinical judgment, patient communication skills, and production record.', images: ['https://www.beghr.com/blog-images/blog-dental-hiring-dental-interview-questions.webp'] },
 };
 
 

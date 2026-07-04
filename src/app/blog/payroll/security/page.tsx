@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Security Company Payroll Guides | Guard Shifts + SCA | BEG",
-  description: "Payroll guides for security companies: SCA compliance, 24/7 guard shift payroll, overtime, high-volume W-2s, and compliance. BEG managed payroll at $25-$45 PEPM.",
+  description: "Payroll guides for security companies: SCA compliance, 24/7 guard shift payroll, overtime, high-volume W-2s, and compliance.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/security" },
   openGraph: {
     title: "Security Company Payroll Guides | Guard Shifts + SCA | BEG",

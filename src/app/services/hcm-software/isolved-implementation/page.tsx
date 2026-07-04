@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved Implementation | Instant Price Quote | BEG',
-  description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.',
+  description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-implementation' },
   openGraph: {
     title: 'isolved Implementation | Instant Price Quote | BEG',
-    description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.',
+    description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your',
     url: 'https://www.beghr.com/services/hcm-software/isolved-implementation',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Implementation | Instant Price Quote | BEG', description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your setup.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Implementation | Instant Price Quote | BEG', description: 'How BEG manages isolved implementation: discovery, configuration, data migration, testing, and go-live, plus ongoing support from a team that knows your', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

@@ -3,18 +3,18 @@ import Link from 'next/link';
 import PricingCta from '@/components/pricing/PricingCta';
 
 export const metadata: Metadata = {
-  title: 'Franchise Owner Scales Payroll Across 6 Units Without Added Burden | BEG',
-  description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero. BEG scales with the units.',
+  title: 'Franchise Scales Payroll Across 6 Units | BEG Case Study',
+  description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero.',
   alternates: { canonical: 'https://www.beghr.com/case-studies/franchise' },
   openGraph: {
-    title: 'Franchise Owner Scales Payroll Across 6 Units Without Added Burden | BEG',
-    description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero. BEG scales with the units.',
+    title: 'Franchise Scales Payroll Across 6 Units | BEG Case Study',
+    description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero.',
     url: 'https://www.beghr.com/case-studies/franchise',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise Owner Scales Payroll Across 6 Units Without Added Burden | BEG', description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero. BEG scales with the units.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Scales Payroll Across 6 Units | BEG Case Study', description: 'A multi-unit franchise operator with 6 locations and 110 employees across 3 states dropped payroll time from 20+ hours/month to zero.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function FranchiseCaseStudyPage() {

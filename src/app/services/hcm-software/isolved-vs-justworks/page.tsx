@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved vs Justworks | Instant Price Quote + AI | BEG',
-  description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.',
+  description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-justworks' },
   openGraph: {
     title: 'isolved vs Justworks | Instant Price Quote + AI | BEG',
-    description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.',
+    description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-justworks',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs Justworks | Instant Price Quote + AI | BEG', description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI. See which fits growing firms versus a small-business PEO co-employment model.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs Justworks | Instant Price Quote + AI | BEG', description: 'isolved vs Justworks compared on platform breadth, pricing, control, support, and AI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

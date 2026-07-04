@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Outsource Architecture Firm Payroll (What to Know) | BEG",
-  description: "Why architecture firms outsource payroll: project coding, multi-state licensed staff, partner structures, and compliance. BEG at $25-$45 PEPM, 3-5 day setup.",
+  description: "Why architecture firms outsource payroll: project coding, multi-state licensed staff, partner structures, and compliance.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/architecture/outsource-architecture-firm-payroll" },
   openGraph: {
     title: "Outsource Architecture Firm Payroll (What to Know) | BEG",
-    description: "Why architecture firms outsource payroll: project coding, multi-state licensed staff, partner structures, and compliance. BEG at $25-$45 PEPM, 3-5 day setup.",
+    description: "Why architecture firms outsource payroll: project coding, multi-state licensed staff, partner structures, and compliance.",
     url: "https://www.beghr.com/blog/payroll/architecture/outsource-architecture-firm-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

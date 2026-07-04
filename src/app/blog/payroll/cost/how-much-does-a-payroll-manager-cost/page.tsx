@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'How Much Does a Payroll Manager Cost in 2026? | BEG',
-  description: 'The real cost of a payroll manager in 2026 goes far beyond salary. Breakdown of base pay, benefits, overhead, error risk, and total annual cost vs. managed payroll at $25-$45 PEPM.',
+  description: 'The real cost of a payroll manager in 2026 goes far beyond salary. Breakdown of base pay, benefits, overhead, error risk, and total annual cost vs.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/cost/how-much-does-a-payroll-manager-cost' },
   openGraph: {
     title: 'How Much Does a Payroll Manager Cost in 2026? | BEG',

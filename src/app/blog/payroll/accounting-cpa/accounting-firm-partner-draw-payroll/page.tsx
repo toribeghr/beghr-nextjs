@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Accounting Firm Partner Draw Payroll (K-1 vs W-2) | BEG",
-  description: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for S-corp partners, reasonable compensation, and entity structure. BEG at $25-$45 PEPM.",
+  description: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for S-corp partners, reasonable compensation, and entity",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-partner-draw-payroll" },
   openGraph: {
     title: "Accounting Firm Partner Draw Payroll (K-1 vs W-2) | BEG",
-    description: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for S-corp partners, reasonable compensation, and entity structure. BEG at $25-$45 PEPM.",
+    description: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for S-corp partners, reasonable compensation, and entity",
     url: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-partner-draw-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import TrueCostCalculator from '@/components/TrueCostCalculator';
 
 const DESC =
-  'Free true cost of an employee calculator. Add base pay, employer payroll taxes (FICA, FUTA, SUTA), workers’ comp, benefits, and overhead to see the fully loaded annual and hourly cost and burden multiplier. No email required.';
+  'Free true cost of an employee calculator. Add base pay, employer payroll taxes (FICA, FUTA, SUTA), workers’ comp, benefits, and overhead to see the fully';
 
 export const metadata: Metadata = {
   title: 'True Cost of an Employee Calculator (2026) | BEG',

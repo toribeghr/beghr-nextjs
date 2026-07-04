@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Outsourcing Home Services Payroll in 3-5 Days | BEG',
-  description: 'What outsourced payroll covers for home services companies, how it handles field tech overtime and drive time, and how BEG onboards home services companies in 3-5 days.',
+  description: 'What outsourced payroll covers for home services companies, how it handles field tech overtime and drive time, and how BEG onboards home services',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll' },
   openGraph: {
     title: 'Outsourcing Home Services Payroll in 3-5 Days | BEG',
-    description: 'What outsourced payroll covers for home services companies, how it handles field tech overtime and drive time, and how BEG onboards home services companies in 3-5 days.',
+    description: 'What outsourced payroll covers for home services companies, how it handles field tech overtime and drive time, and how BEG onboards home services',
     url: 'https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

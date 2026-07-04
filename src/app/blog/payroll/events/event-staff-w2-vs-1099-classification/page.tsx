@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Event Staff W-2 vs 1099: What Nobody Tells You | BEG",
-  description: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring worker risk, and how to audit your classification. BEG at $25-$45 PEPM.",
+  description: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring worker risk, and how to audit your classification.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/events/event-staff-w2-vs-1099-classification" },
   openGraph: {
     title: "Event Staff W-2 vs 1099: What Nobody Tells You | BEG",
-    description: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring worker risk, and how to audit your classification. BEG at $25-$45 PEPM.",
+    description: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring worker risk, and how to audit your classification.",
     url: "https://www.beghr.com/blog/payroll/events/event-staff-w2-vs-1099-classification",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

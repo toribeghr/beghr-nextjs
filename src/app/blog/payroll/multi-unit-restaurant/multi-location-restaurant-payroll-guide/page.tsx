@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Multi-Location Restaurant Payroll: The Real Playbook | BEG",
-  description: "Multi-location restaurant payroll: consolidated reporting, tip credit by state, high-volume W-2 production, per-location P&L, and franchise compliance. BEG at $25-$45 PEPM.",
+  description: "Multi-location restaurant payroll: consolidated reporting, tip credit by state, high-volume W-2 production, per-location P&L, and franchise compliance.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/multi-location-restaurant-payroll-guide" },
   openGraph: {
     title: "Multi-Location Restaurant Payroll: The Real Playbook | BEG",
-    description: "Multi-location restaurant payroll: consolidated reporting, tip credit by state, high-volume W-2 production, per-location P&L, and franchise compliance. BEG at $25-$45 PEPM.",
+    description: "Multi-location restaurant payroll: consolidated reporting, tip credit by state, high-volume W-2 production, per-location P&L, and franchise compliance.",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/multi-location-restaurant-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

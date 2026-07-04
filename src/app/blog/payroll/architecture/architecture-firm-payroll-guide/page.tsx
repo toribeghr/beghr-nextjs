@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Architecture Firm Payroll Guide in 2026 | BEG",
-  description: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws, multi-state staff, and overtime compliance. BEG at $25-$45 PEPM.",
+  description: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws, multi-state staff, and overtime compliance.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/architecture/architecture-firm-payroll-guide" },
   openGraph: {
     title: "Architecture Firm Payroll Guide in 2026 | BEG",
-    description: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws, multi-state staff, and overtime compliance. BEG at $25-$45 PEPM.",
+    description: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws, multi-state staff, and overtime compliance.",
     url: "https://www.beghr.com/blog/payroll/architecture/architecture-firm-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

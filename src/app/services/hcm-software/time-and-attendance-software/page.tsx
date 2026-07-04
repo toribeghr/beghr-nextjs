@@ -4,17 +4,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Time and Attendance Software | Instant Price Quote | BEG',
-  description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. isolved configured and supported by BEG.',
+  description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/time-and-attendance-software' },
   openGraph: {
     title: 'Time and Attendance Software | Instant Price Quote | BEG',
-    description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. isolved configured and supported by BEG.',
+    description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly.',
     url: 'https://www.beghr.com/services/hcm-software/time-and-attendance-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Time and Attendance Software | Instant Price Quote | BEG', description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly. isolved configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Time and Attendance Software | Instant Price Quote | BEG', description: 'Time and attendance software for time capture, scheduling, PTO accrual, and overtime rules that feed payroll cleanly.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

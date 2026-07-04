@@ -6,7 +6,7 @@ import LeadCaptureForm from '@/components/LeadCaptureForm';
 
 export const metadata: Metadata = {
   title: 'isolved HCM ROI Calculator | Instant Price Quote | BEG',
-  description: 'Calculate the ROI of moving to one connected HCM platform. Estimate admin hours reclaimed, error costs avoided, and annual value vs. juggling separate HR and payroll systems.',
+  description: 'Calculate the ROI of moving to one connected HCM platform. Estimate admin hours reclaimed, error costs avoided, and annual value vs.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/roi-calculator' },
   openGraph: {
     title: 'isolved HCM ROI Calculator | Instant Price Quote | BEG',

@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Energy Job Description: What Candidates Notice | BEG',
-  description: 'Energy JDs that list certifications and skip operational context lose experienced candidates fast. How to write a job description for oil and gas, renewables, or power roles.',
+  description: 'Energy JDs that list certifications and skip operational context lose experienced candidates fast.',
   alternates: { canonical: 'https://www.beghr.com/blog/energy-hiring/energy-job-description' },
   openGraph: {
     title: 'Energy Job Description: What Candidates Notice | BEG',
-    description: 'Energy JDs that list certifications and skip operational context lose experienced candidates fast. How to write a job description for oil and gas, renewables, or power roles.',
+    description: 'Energy JDs that list certifications and skip operational context lose experienced candidates fast.',
     url: 'https://www.beghr.com/blog/energy-hiring/energy-job-description',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Energy Job Description: What Candidates Notice | BEG', description: 'Energy JDs that list certifications and skip operational context lose experienced candidates fast. How to write a job description for oil and gas, renewables, or power roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Energy Job Description: What Candidates Notice | BEG', description: 'Energy JDs that list certifications and skip operational context lose experienced candidates fast.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

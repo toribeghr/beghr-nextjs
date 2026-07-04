@@ -5,17 +5,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved HCM for Restaurants | Instant Price Quote | BEG',
-  description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.',
+  description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/restaurants' },
   openGraph: {
     title: 'isolved HCM for Restaurants | Instant Price Quote | BEG',
-    description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.',
+    description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform.',
     url: 'https://www.beghr.com/services/hcm-software/restaurants',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved HCM for Restaurants | Instant Price Quote | BEG', description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform. Implemented and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved HCM for Restaurants | Instant Price Quote | BEG', description: 'isolved HCM for restaurants. Tip handling, fast onboarding, scheduling, and multi-location payroll on one connected platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

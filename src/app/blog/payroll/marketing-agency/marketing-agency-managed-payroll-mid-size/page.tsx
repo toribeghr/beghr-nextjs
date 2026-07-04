@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Agency Payroll: Managed for 25-100 Employees | BEG',
-  description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
+  description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size' },
   openGraph: {
     title: 'Agency Payroll: Managed for 25-100 Employees | BEG',
-    description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
+    description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive.',
     url: 'https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-managed-payroll-mid-size',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Agency Payroll: Managed for 25-100 Employees | BEG', description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Agency Payroll: Managed for 25-100 Employees | BEG', description: 'Managed payroll for marketing agencies. Managed Payroll for Mid-Size Businesses (25-100 Employees). $25-$45 PEPM all-inclusive.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [

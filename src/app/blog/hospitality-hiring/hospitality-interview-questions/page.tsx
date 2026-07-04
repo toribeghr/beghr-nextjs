@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Hospitality Interview Questions That Actually Work | BEG',
-  description: 'Hospitality interviews that reveal service philosophy, P&L ownership, and culture-building ability. Questions that identify general managers and F&B directors who will lead and stay.',
+  description: 'Hospitality interviews that reveal service philosophy, P&L ownership, and culture-building ability.',
   alternates: { canonical: 'https://www.beghr.com/blog/hospitality-hiring/hospitality-interview-questions' },
   openGraph: {
     title: 'Hospitality Interview Questions That Actually Work | BEG',
-    description: 'Hospitality interviews that reveal service philosophy, P&L ownership, and culture-building ability. Questions that identify general managers and F&B directors who will lead and stay.',
+    description: 'Hospitality interviews that reveal service philosophy, P&L ownership, and culture-building ability.',
     url: 'https://www.beghr.com/blog/hospitality-hiring/hospitality-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hospitality Interview Questions That Actually Work | BEG', description: 'Hospitality interviews that reveal service philosophy, P&L ownership, and culture-building ability. Questions that identify general managers and F&B directors who will lead and stay.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hospitality Interview Questions That Actually Work | BEG', description: 'Hospitality interviews that reveal service philosophy, P&L ownership, and culture-building ability.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

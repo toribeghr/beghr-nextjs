@@ -7,13 +7,13 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Recruiting Fee Savings Calculator | BEG',
-  description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds. No email required.',
+  description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds.',
   alternates: {
     canonical: 'https://www.beghr.com/resources/recruiting-fee-calculator',
   },
   openGraph: {
     title: 'Recruiting Fee Savings Calculator | BEG',
-    description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds. No email required.',
+    description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds.',
     url: 'https://www.beghr.com/resources/recruiting-fee-calculator',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Recruiting Fee Savings Calculator | BEG',
-    description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds. No email required.',
+    description: 'Compare a contingency recruiter fee to BEG milestone placement. See your dollar savings - roughly 50% less than contingency - in seconds.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };

@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Substitute Teacher Payroll: What Districts Get Wrong | BEG",
-  description: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and worker classification rules. BEG managed payroll at $25-$45 PEPM.",
+  description: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and worker classification rules.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/education/school-substitute-teacher-payroll" },
   openGraph: {
     title: "Substitute Teacher Payroll: What Districts Get Wrong | BEG",
-    description: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and worker classification rules. BEG managed payroll at $25-$45 PEPM.",
+    description: "How to run payroll for substitute teachers: daily pay rates, W-2 requirements, ACA tracking, and worker classification rules.",
     url: "https://www.beghr.com/blog/payroll/education/school-substitute-teacher-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

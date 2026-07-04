@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The 2026 Engineering Talent Shortage Report | BEG',
-  description: 'Mechanical, electrical, and civil engineers remain in short supply in 2026 across defense, manufacturing, energy, and infrastructure. What the engineering talent gap means for hiring managers.',
+  description: 'Mechanical, electrical, and civil engineers remain in short supply in 2026 across defense, manufacturing, energy, and infrastructure.',
   alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/engineering' },
-  openGraph: { title: 'The 2026 Engineering Talent Shortage Report | BEG', description: 'Mechanical, electrical, and civil engineers remain in short supply in 2026 across defense, manufacturing, energy, and infrastructure. What the engineering talent gap means for hiring managers.', url: 'https://www.beghr.com/resources/talent-shortage-report/engineering', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'The 2026 Engineering Talent Shortage Report | BEG', description: 'Mechanical, electrical, and civil engineers remain in short supply in 2026 across defense, manufacturing, energy, and infrastructure. What the engineering talent gap means for hiring managers.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'The 2026 Engineering Talent Shortage Report | BEG', description: 'Mechanical, electrical, and civil engineers remain in short supply in 2026 across defense, manufacturing, energy, and infrastructure.', url: 'https://www.beghr.com/resources/talent-shortage-report/engineering', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Engineering Talent Shortage Report | BEG', description: 'Mechanical, electrical, and civil engineers remain in short supply in 2026 across defense, manufacturing, energy, and infrastructure.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

@@ -5,10 +5,10 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'IT & Technology Placement | Instant Fee Quote | BEG',
-  description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Get an instant fee quote at beghr.com.',
+  description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/technology' },
-  openGraph: { title: 'IT & Technology Placement | Instant Fee Quote | BEG', description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Get an instant fee quote at beghr.com.', url: 'https://www.beghr.com/services/job-placement/technology', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'IT & Technology Placement | Instant Fee Quote | BEG', description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee. Get an instant fee quote at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'IT & Technology Placement | Instant Fee Quote | BEG', description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/technology', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'IT & Technology Placement | Instant Fee Quote | BEG', description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-technology');

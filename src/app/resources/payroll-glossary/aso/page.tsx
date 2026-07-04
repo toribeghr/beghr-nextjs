@@ -3,11 +3,11 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'ASO (Administrative Services Organization) | Payroll Glossary | BEG',
+  title: 'ASO: Administrative Services Organization | BEG',
   description: 'Learn what an ASO is, how it differs from a PEO, and whether an administrative services organization is the right HR model for your business.',
   alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/aso' },
   openGraph: {
-    title: 'ASO (Administrative Services Organization) | Payroll Glossary | BEG',
+    title: 'ASO: Administrative Services Organization | BEG',
     description: 'Learn what an ASO is, how it differs from a PEO, and whether an administrative services organization is the right HR model for your business.',
     url: 'https://www.beghr.com/resources/payroll-glossary/aso',
     siteName: 'Business Executive Group',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ASO (Administrative Services Organization) | Payroll Glossary | BEG',
+    title: 'ASO: Administrative Services Organization | BEG',
     description: 'Learn what an ASO is, how it differs from a PEO, and whether an administrative services organization is the right HR model for your business.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
@@ -81,7 +81,7 @@ export default function AsoPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@graph': [
-            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/aso', url: 'https://www.beghr.com/resources/payroll-glossary/aso', name: 'ASO (Administrative Services Organization) | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
+            { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/aso', url: 'https://www.beghr.com/resources/payroll-glossary/aso', name: 'ASO: Administrative Services Organization | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
             { '@type': 'DefinedTerm', name: 'ASO (Administrative Services Organization)', description: 'Learn what an ASO is, how it differs from a PEO, and whether an administrative services organization is the right HR model for your business.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [

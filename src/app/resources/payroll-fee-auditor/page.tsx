@@ -3,7 +3,7 @@ import Link from 'next/link';
 import HiddenFeeAuditor from '@/components/HiddenFeeAuditor';
 
 const TITLE = 'Payroll Fee Auditor | See What They Really Charge | BEG';
-const DESC = 'Free payroll fee auditor: enter your bill and the add-on fees you pay to see your real PEPM, whether you are overpaying, and what to get in writing before you sign.';
+const DESC = 'Free payroll fee auditor: enter your bill and the add-on fees you pay to see your real PEPM, whether you are overpaying, and what to get in writing before';
 const URL = 'https://www.beghr.com/resources/payroll-fee-auditor';
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Property Management Commission Payroll (Full Breakdown) | BEG",
-  description: "How to handle leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding. BEG managed payroll for property management at $25-$45 PEPM.",
+  description: "How to handle leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/property-management/property-management-commission-payroll" },
   openGraph: {
     title: "Property Management Commission Payroll (Full Breakdown) | BEG",

@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Payroll Outsourcing for Law Firms: Read This First | BEG',
-  description: 'Law firm payroll has unique requirements -- partner draws, attorney bonus runs, multi-state compliance, and equity partner tax treatment. Here is what to look for in a payroll outsourcing provider before you sign.',
+  description: 'Law firm payroll has unique requirements -- partner draws, attorney bonus runs, multi-state compliance, and equity partner tax treatment.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/law-firms/payroll-outsourcing-for-law-firms' },
   openGraph: {
     title: 'Payroll Outsourcing for Law Firms: Read This First | BEG',

@@ -4,17 +4,17 @@ import PricingCta from '@/components/pricing/PricingCta';
 
 export const metadata: Metadata = {
   title: 'Contractor Passes DOL Audit After Switching to BEG | Case Study',
-  description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage reporting.',
+  description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage',
   alternates: { canonical: 'https://www.beghr.com/case-studies/construction' },
   openGraph: {
     title: 'Contractor Passes DOL Audit After Switching to BEG | Case Study',
-    description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage reporting.',
+    description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage',
     url: 'https://www.beghr.com/case-studies/construction',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Contractor Passes DOL Audit After Switching to BEG | Case Study', description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage reporting.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Contractor Passes DOL Audit After Switching to BEG | Case Study', description: 'A 60-employee commercial contractor with 3 federal projects passed a DOL compliance review after BEG took over certified payroll and prevailing wage', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function ConstructionCaseStudyPage() {

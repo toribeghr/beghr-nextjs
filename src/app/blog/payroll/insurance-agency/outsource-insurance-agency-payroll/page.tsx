@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Outsource Insurance Agency Payroll: What Nobody Says | BEG",
-  description: "Why insurance agencies outsource payroll: commission complexity, classification risk, multi-state producer compliance, and ERISA benefits. BEG at $25-$45 PEPM.",
+  description: "Why insurance agencies outsource payroll: commission complexity, classification risk, multi-state producer compliance, and ERISA benefits.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/insurance-agency/outsource-insurance-agency-payroll" },
   openGraph: {
     title: "Outsource Insurance Agency Payroll: What Nobody Says | BEG",
-    description: "Why insurance agencies outsource payroll: commission complexity, classification risk, multi-state producer compliance, and ERISA benefits. BEG at $25-$45 PEPM.",
+    description: "Why insurance agencies outsource payroll: commission complexity, classification risk, multi-state producer compliance, and ERISA benefits.",
     url: "https://www.beghr.com/blog/payroll/insurance-agency/outsource-insurance-agency-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

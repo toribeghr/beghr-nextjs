@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Biotech Interview Questions That Actually Work | BEG',
-  description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and deliver results under FDA scrutiny.',
+  description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and',
   alternates: { canonical: 'https://www.beghr.com/blog/biotech-hiring/biotech-interview-questions' },
   openGraph: {
     title: 'Biotech Interview Questions That Actually Work | BEG',
-    description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and deliver results under FDA scrutiny.',
+    description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and',
     url: 'https://www.beghr.com/blog/biotech-hiring/biotech-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Biotech Interview Questions That Actually Work | BEG', description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and deliver results under FDA scrutiny.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Biotech Interview Questions That Actually Work | BEG', description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

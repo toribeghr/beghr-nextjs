@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Government Contractor Fringe Benefits (What to Know) | BEG',
-  description: 'How government contractors satisfy SCA and Davis-Bacon fringe benefit requirements: bona fide benefits vs cash-in-lieu, H&W rates, pension contributions, and documentation.',
+  description: 'How government contractors satisfy SCA and Davis-Bacon fringe benefit requirements: bona fide benefits vs cash-in-lieu, H&W rates, pension contributions',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor/government-contractor-fringe-benefits-payroll' },
   openGraph: {
     title: 'Government Contractor Fringe Benefits (What to Know) | BEG',

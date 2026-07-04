@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Switch From ADP to isolved | Instant Price Quote | BEG',
-  description: 'Switching from ADP to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.',
+  description: 'Switching from ADP to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-adp-to-isolved' },
   openGraph: {
     title: 'Switch From ADP to isolved | Instant Price Quote | BEG',
-    description: 'Switching from ADP to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.',
+    description: 'Switching from ADP to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-adp-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Switch From ADP to isolved | Instant Price Quote | BEG', description: 'Switching from ADP to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Switch From ADP to isolved | Instant Price Quote | BEG', description: 'Switching from ADP to isolved is painless when BEG manages the migration. We move your data, configure the platform, and support you year-round.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

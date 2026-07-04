@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "AI Payroll in 2026: What It Still Can't Do | BEG",
-  description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.',
+  description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do' },
   openGraph: {
     title: "AI Payroll in 2026: What It Still Can't Do | BEG",
-    description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.',
+    description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR',
     url: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: "AI Payroll in 2026: What It Still Can't Do | BEG", description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR work.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: "AI Payroll in 2026: What It Still Can't Do | BEG", description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

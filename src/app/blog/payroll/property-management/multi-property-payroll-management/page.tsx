@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Multi-Property Payroll, Consolidated Reporting | BEG",
-  description: "How property management companies consolidate payroll across multiple properties without losing per-property visibility. BEG managed payroll at $25-$45 PEPM.",
+  description: "How property management companies consolidate payroll across multiple properties without losing per-property visibility.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/property-management/multi-property-payroll-management" },
   openGraph: {
     title: "Multi-Property Payroll, Consolidated Reporting | BEG",

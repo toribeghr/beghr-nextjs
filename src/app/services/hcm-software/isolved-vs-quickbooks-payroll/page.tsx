@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved vs QuickBooks | Instant Price Quote + AI | BEG',
-  description: 'isolved vs QuickBooks Payroll compared on platform breadth, pricing, support, and AI. See which fits basic small-business payroll versus a full connected HCM.',
+  description: 'isolved vs QuickBooks Payroll compared on platform breadth, pricing, support, and AI.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-quickbooks-payroll' },
   openGraph: {
     title: 'isolved vs QuickBooks | Instant Price Quote + AI | BEG',
-    description: 'isolved vs QuickBooks Payroll compared on platform breadth, pricing, support, and AI. See which fits basic small-business payroll versus a full connected HCM.',
+    description: 'isolved vs QuickBooks Payroll compared on platform breadth, pricing, support, and AI.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-quickbooks-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs QuickBooks | Instant Price Quote + AI | BEG', description: 'isolved vs QuickBooks Payroll compared on platform breadth, pricing, support, and AI. See which fits basic small-business payroll versus a full connected HCM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs QuickBooks | Instant Price Quote + AI | BEG', description: 'isolved vs QuickBooks Payroll compared on platform breadth, pricing, support, and AI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Insurance Agency Payroll Compliance: Is It Worth It? | BEG",
-  description: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration, multi-state obligations, and FLSA classification for agency staff. BEG at $25-$45 PEPM.",
+  description: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration, multi-state obligations, and FLSA classification for agency",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/insurance-agency/insurance-agency-payroll-compliance" },
   openGraph: {
     title: "Insurance Agency Payroll Compliance: Is It Worth It? | BEG",
-    description: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration, multi-state obligations, and FLSA classification for agency staff. BEG at $25-$45 PEPM.",
+    description: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration, multi-state obligations, and FLSA classification for agency",
     url: "https://www.beghr.com/blog/payroll/insurance-agency/insurance-agency-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

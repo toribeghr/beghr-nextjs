@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'HCM Software for Breweries | Instant Price Quote | BEG',
-  description: 'HCM software for craft breweries and taprooms: tipped and non-tipped pay, production and retail roles, multi-location management, and TTB compliance support on isolved.',
+  description: 'HCM software for craft breweries and taprooms: tipped and non-tipped pay, production and retail roles, multi-location management, and TTB compliance',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/brewery' },
   openGraph: {
     title: 'HCM Software for Breweries | Instant Price Quote | BEG',
-    description: 'HCM software for craft breweries and taprooms: tipped and non-tipped pay, production and retail roles, multi-location management, and TTB compliance support on isolved.',
+    description: 'HCM software for craft breweries and taprooms: tipped and non-tipped pay, production and retail roles, multi-location management, and TTB compliance',
     url: 'https://www.beghr.com/services/hcm-software/brewery',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for Breweries | Instant Price Quote | BEG', description: 'HCM software for craft breweries and taprooms: tipped and non-tipped pay, production and retail roles, multi-location management, and TTB compliance support on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for Breweries | Instant Price Quote | BEG', description: 'HCM software for craft breweries and taprooms: tipped and non-tipped pay, production and retail roles, multi-location management, and TTB compliance', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

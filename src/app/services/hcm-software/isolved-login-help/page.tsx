@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved Login Help | Instant Price Quote + Support | BEG',
-  description: 'Common isolved login issues and how to resolve them. BEG clients get direct support from a dedicated contact, not a ticket queue, for access and system questions.',
+  description: 'Common isolved login issues and how to resolve them. BEG clients get direct support from a dedicated contact, not a ticket queue, for access and system',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-login-help' },
   openGraph: {
     title: 'isolved Login Help | Instant Price Quote + Support | BEG',
-    description: 'Common isolved login issues and how to resolve them. BEG clients get direct support from a dedicated contact, not a ticket queue, for access and system questions.',
+    description: 'Common isolved login issues and how to resolve them. BEG clients get direct support from a dedicated contact, not a ticket queue, for access and system',
     url: 'https://www.beghr.com/services/hcm-software/isolved-login-help',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Login Help | Instant Price Quote + Support | BEG', description: 'Common isolved login issues and how to resolve them. BEG clients get direct support from a dedicated contact, not a ticket queue, for access and system questions.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Login Help | Instant Price Quote + Support | BEG', description: 'Common isolved login issues and how to resolve them. BEG clients get direct support from a dedicated contact, not a ticket queue, for access and system', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

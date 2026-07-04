@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Architecture Project Payroll Allocation (AIA) | BEG",
-  description: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by project, improve profitability, and bill accurately. BEG at $25-$45 PEPM.",
+  description: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by project, improve profitability, and bill accurately.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/architecture/architecture-project-payroll-allocation" },
   openGraph: {
     title: "Architecture Project Payroll Allocation (AIA) | BEG",
-    description: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by project, improve profitability, and bill accurately. BEG at $25-$45 PEPM.",
+    description: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by project, improve profitability, and bill accurately.",
     url: "https://www.beghr.com/blog/payroll/architecture/architecture-project-payroll-allocation",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

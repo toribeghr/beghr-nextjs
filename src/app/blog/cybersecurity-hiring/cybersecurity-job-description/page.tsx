@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Cybersecurity Job Description: What Attracts Talent | BEG',
-  description: 'Most cybersecurity JDs list 20 certifications and scare off the best candidates. How to write a security engineer, analyst, or CISO job description that actually works.',
+  description: 'Most cybersecurity JDs list 20 certifications and scare off the best candidates. How to write a security engineer, analyst, or CISO job description that',
   alternates: { canonical: 'https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-job-description' },
   openGraph: {
     title: 'Cybersecurity Job Description: What Attracts Talent | BEG',
-    description: 'Most cybersecurity JDs list 20 certifications and scare off the best candidates. How to write a security engineer, analyst, or CISO job description that actually works.',
+    description: 'Most cybersecurity JDs list 20 certifications and scare off the best candidates. How to write a security engineer, analyst, or CISO job description that',
     url: 'https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-job-description',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Cybersecurity Job Description: What Attracts Talent | BEG', description: 'Most cybersecurity JDs list 20 certifications and scare off the best candidates. How to write a security engineer, analyst, or CISO job description that actually works.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Cybersecurity Job Description: What Attracts Talent | BEG', description: 'Most cybersecurity JDs list 20 certifications and scare off the best candidates. How to write a security engineer, analyst, or CISO job description that', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

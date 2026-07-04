@@ -35,10 +35,18 @@ function walk(dir) {
   return files;
 }
 
-// Extract string value from: title: 'foo' or title: "foo"
+// Extract string value from: title: 'foo' | title: "foo" | title: CONST (resolved to its const literal)
 function extractMetaString(content, key) {
-  const m = content.match(new RegExp(`${key}:\\s*['"\`]([^'"\`]+)['"\`]`));
-  return m ? m[1] : null;
+  const lit = content.match(new RegExp(`${key}:\\s*['"\`]([^'"\`]+)['"\`]`));
+  if (lit) return lit[1];
+  // variable reference, e.g. title: TITLE  ->  const TITLE = '...'
+  const ref = content.match(new RegExp(`${key}:\\s*([A-Za-z_$][\\w$]*)`));
+  if (ref) {
+    const v = content.match(new RegExp(`const\\s+${ref[1]}\\s*=\\s*['"\`]([^'"\`]+)['"\`]`))
+      || content.match(new RegExp(`const\\s+${ref[1]}\\s*=\\s*\\n\\s*['"\`]([^'"\`]+)['"\`]`));
+    if (v) return v[1];
+  }
+  return null;
 }
 
 const allPages = walk(SRC);

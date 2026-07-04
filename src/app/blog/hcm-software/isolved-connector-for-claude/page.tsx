@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'isolved Connector for Claude: What Nobody Explains | BEG',
-  description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for your team.',
+  description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/isolved-connector-for-claude' },
   openGraph: {
     title: 'isolved Connector for Claude: What Nobody Explains | BEG',
-    description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for your team.',
+    description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for',
     url: 'https://www.beghr.com/blog/hcm-software/isolved-connector-for-claude',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Connector for Claude: What Nobody Explains | BEG', description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for your team.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Connector for Claude: What Nobody Explains | BEG', description: 'A plain language guide to the isolved Connector for Claude. What it is, what it actually does inside the HCM platform, and why it completes HR tasks for', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

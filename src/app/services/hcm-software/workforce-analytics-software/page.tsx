@@ -4,17 +4,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Workforce Analytics Software | Instant Price Quote | BEG',
-  description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.',
+  description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/workforce-analytics-software' },
   openGraph: {
     title: 'Workforce Analytics Software | Instant Price Quote | BEG',
-    description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.',
+    description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends.',
     url: 'https://www.beghr.com/services/hcm-software/workforce-analytics-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Workforce Analytics Software | Instant Price Quote | BEG', description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends. isolved dashboards on one platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Workforce Analytics Software | Instant Price Quote | BEG', description: 'Workforce analytics and HR reporting software for headcount, turnover, labor cost, and overtime trends.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

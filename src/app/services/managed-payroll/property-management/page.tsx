@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Property Management Payroll | Instant Quote | BEG',
-  description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.',
+  description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/property-management' },
   openGraph: {
     title: 'Property Management Payroll | Instant Quote | BEG',
-    description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.',
+    description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property',
     url: 'https://www.beghr.com/services/managed-payroll/property-management',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Property Management Payroll | Instant Quote | BEG', description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property reporting included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Property Management Payroll | Instant Quote | BEG', description: 'Property management payroll fully managed at $25-$45 PEPM. Housing allowances, leasing agent commission, maintenance overtime, and multi-property', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('property-management-payroll');

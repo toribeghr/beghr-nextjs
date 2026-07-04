@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Craft Brewery Payroll Compliance in 2026 | BEG",
-  description: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and W-2 reporting for breweries and distilleries. BEG at $25-$45 PEPM.",
+  description: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and W-2 reporting for breweries and distilleries.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/brewery/craft-brewery-payroll-compliance" },
   openGraph: {
     title: "Craft Brewery Payroll Compliance in 2026 | BEG",
-    description: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and W-2 reporting for breweries and distilleries. BEG at $25-$45 PEPM.",
+    description: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and W-2 reporting for breweries and distilleries.",
     url: "https://www.beghr.com/blog/payroll/brewery/craft-brewery-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

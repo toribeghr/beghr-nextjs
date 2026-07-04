@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Salon & Spa Payroll Guides | Booth Rental + Tips | BEG",
-  description: "Payroll guides for salons and spas: booth rental classification, commission payroll, tip credit, and W-2 vs 1099 rules. BEG managed payroll at $25-$45 PEPM.",
+  description: "Payroll guides for salons and spas: booth rental classification, commission payroll, tip credit, and W-2 vs 1099 rules.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa" },
   openGraph: {
     title: "Salon & Spa Payroll Guides | Booth Rental + Tips | BEG",
-    description: "Payroll guides for salons and spas: booth rental classification, commission payroll, tip credit, and W-2 vs 1099 rules. BEG managed payroll at $25-$45 PEPM.",
+    description: "Payroll guides for salons and spas: booth rental classification, commission payroll, tip credit, and W-2 vs 1099 rules.",
     url: "https://www.beghr.com/blog/payroll/salon-spa",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

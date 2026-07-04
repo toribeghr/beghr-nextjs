@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Government Contractor Payroll Guide [2026 Data] | BEG',
-  description: 'Government contractor payroll overview: certified payroll, Service Contract Act, Davis-Bacon prevailing wages, contract-specific compliance, and DCAA audit readiness.',
+  description: 'Government contractor payroll overview: certified payroll, Service Contract Act, Davis-Bacon prevailing wages, contract-specific compliance, and DCAA',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor/government-contractor-payroll-guide' },
   openGraph: {
     title: 'Government Contractor Payroll Guide [2026 Data] | BEG',

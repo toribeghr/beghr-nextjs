@@ -4,17 +4,17 @@ import ServicePage from '@/components/ServicePage';
 
 export const metadata: Metadata = {
   title: 'HCM for Government Contractors | Instant Quote | BEG',
-  description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.',
+  description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/government-contractor' },
   openGraph: {
     title: 'HCM for Government Contractors | Instant Quote | BEG',
-    description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.',
+    description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost',
     url: 'https://www.beghr.com/services/hcm-software/government-contractor',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM for Government Contractors | Instant Quote | BEG', description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost allocation.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM for Government Contractors | Instant Quote | BEG', description: 'isolved HCM for government contractors. Service Contract Act and prevailing-wage rules, certified payroll, clearance tracking, and contract cost', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';

@@ -4,10 +4,10 @@ import Link from 'next/link';
 import OvertimePayCalculator from '@/components/OvertimePayCalculator';
 
 const DESC =
-  'Free FLSA overtime calculator. Get the correct regular rate of pay including nondiscretionary bonuses and blended multiple pay rates, plus daily-overtime flags for states like California. No email required.';
+  'Free FLSA overtime calculator. Get the correct regular rate of pay including nondiscretionary bonuses and blended multiple pay rates, plus daily-overtime';
 
 export const metadata: Metadata = {
-  title: 'FLSA Overtime Pay Calculator (Regular Rate, Bonuses, Blended) | BEG',
+  title: 'FLSA Overtime Pay Calculator | Regular Rate + Bonuses | BEG',
   description: DESC,
   alternates: { canonical: 'https://www.beghr.com/resources/overtime-pay-calculator' },
   openGraph: {

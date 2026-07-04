@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Teacher Payroll Compliance: 403b Rules Nobody Explains | BEG",
-  description: "Compliance rules for teacher salary spreads, tax withholding, and benefits administration at private and charter schools. BEG managed payroll at $25-$45 PEPM.",
+  description: "Compliance rules for teacher salary spreads, tax withholding, and benefits administration at private and charter schools.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/education/teacher-payroll-compliance" },
   openGraph: {
     title: "Teacher Payroll Compliance: 403b Rules Nobody Explains | BEG",
-    description: "Compliance rules for teacher salary spreads, tax withholding, and benefits administration at private and charter schools. BEG managed payroll at $25-$45 PEPM.",
+    description: "Compliance rules for teacher salary spreads, tax withholding, and benefits administration at private and charter schools.",
     url: "https://www.beghr.com/blog/payroll/education/teacher-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

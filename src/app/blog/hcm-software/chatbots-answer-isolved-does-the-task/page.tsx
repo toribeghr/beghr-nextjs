@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Chatbots Answer, isolved Does the Task: The Difference | BEG',
-  description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved Connector.',
+  description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved',
   alternates: { canonical: 'https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task' },
   openGraph: {
     title: 'Chatbots Answer, isolved Does the Task: The Difference | BEG',
-    description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved Connector.',
+    description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved',
     url: 'https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Chatbots Answer, isolved Does the Task: The Difference | BEG', description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved Connector.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Chatbots Answer, isolved Does the Task: The Difference | BEG', description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

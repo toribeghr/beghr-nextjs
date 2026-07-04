@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Senior Care Payroll Guide: CNA Pay and Shift Diffs | BEG',
-  description: 'Senior care facility payroll guide: CNA overtime rules, shift differential configuration, CMS staffing compliance, and payroll management for nursing homes and ALFs.',
+  description: 'Senior care facility payroll guide: CNA overtime rules, shift differential configuration, CMS staffing compliance, and payroll management for nursing',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/senior-care/senior-care-payroll-guide' },
   openGraph: {
     title: 'Senior Care Payroll Guide: CNA Pay and Shift Diffs | BEG',
-    description: 'Senior care facility payroll guide: CNA overtime rules, shift differential configuration, CMS staffing compliance, and payroll management for nursing homes and ALFs.',
+    description: 'Senior care facility payroll guide: CNA overtime rules, shift differential configuration, CMS staffing compliance, and payroll management for nursing',
     url: 'https://www.beghr.com/blog/payroll/senior-care/senior-care-payroll-guide',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

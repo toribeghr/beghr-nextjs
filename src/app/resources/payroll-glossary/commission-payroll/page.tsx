@@ -4,11 +4,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Commission Payroll | Payroll Glossary | BEG',
-  description: 'Learn how commission payroll works under the FLSA, how to calculate overtime for commission employees, and what the retail or service 7(i) exemption covers.',
+  description: 'Learn how commission payroll works under the FLSA, how to calculate overtime for commission employees, and what the retail or service 7(i) exemption',
   alternates: { canonical: 'https://www.beghr.com/resources/payroll-glossary/commission-payroll' },
   openGraph: {
     title: 'Commission Payroll | Payroll Glossary | BEG',
-    description: 'Learn how commission payroll works under the FLSA, how to calculate overtime for commission employees, and what the retail or service 7(i) exemption covers.',
+    description: 'Learn how commission payroll works under the FLSA, how to calculate overtime for commission employees, and what the retail or service 7(i) exemption',
     url: 'https://www.beghr.com/resources/payroll-glossary/commission-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Commission Payroll | Payroll Glossary | BEG',
-    description: 'Learn how commission payroll works under the FLSA, how to calculate overtime for commission employees, and what the retail or service 7(i) exemption covers.',
+    description: 'Learn how commission payroll works under the FLSA, how to calculate overtime for commission employees, and what the retail or service 7(i) exemption',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -82,7 +82,7 @@ export default function CommissionPayrollPage() {
           '@context': 'https://schema.org',
           '@graph': [
             { '@type': 'WebPage', '@id': 'https://www.beghr.com/resources/payroll-glossary/commission-payroll', url: 'https://www.beghr.com/resources/payroll-glossary/commission-payroll', name: 'Commission Payroll | Payroll Glossary | BEG', datePublished: '2026-06-28', dateModified: '2026-06-28', author: { '@type': 'Person', name: 'Anthony Moretti', url: 'https://www.linkedin.com/in/theanthonymoretti', sameAs: ['https://www.linkedin.com/in/theanthonymoretti'], jobTitle: 'VP of Sales', worksFor: { '@type': 'Organization', name: 'Business Executive Group' } }, publisher: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' } },
-            { '@type': 'DefinedTerm', name: 'Commission Payroll', description: 'Learn how commission payroll works under the FLSA, how to calculate overtime for commission employees, and what the retail or service 7(i) exemption covers.', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
+            { '@type': 'DefinedTerm', name: 'Commission Payroll', description: 'Learn how commission payroll works under the FLSA, how to calculate overtime for commission employees, and what the retail or service 7(i) exemption', inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'BEG Payroll Glossary', url: 'https://www.beghr.com/resources/payroll-glossary' } },
             { '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
             { '@type': 'BreadcrumbList', itemListElement: [
               { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },

@@ -4,17 +4,17 @@ import PricingCta from '@/components/pricing/PricingCta';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Eliminates Payroll Risk on Grant-Funded Programs | BEG',
-  description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation and took over payroll.',
+  description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation',
   alternates: { canonical: 'https://www.beghr.com/case-studies/nonprofit' },
   openGraph: {
     title: 'Nonprofit Eliminates Payroll Risk on Grant-Funded Programs | BEG',
-    description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation and took over payroll.',
+    description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation',
     url: 'https://www.beghr.com/case-studies/nonprofit',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'article',
   },
-  twitter: { card: 'summary_large_image', title: 'Nonprofit Eliminates Payroll Risk on Grant-Funded Programs | BEG', description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation and took over payroll.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Eliminates Payroll Risk on Grant-Funded Programs | BEG', description: 'A 38-employee 501(c)(3) passed its single audit without payroll findings for the first time in 3 years after BEG configured grant-funded cost allocation', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function NonprofitCaseStudyPage() {

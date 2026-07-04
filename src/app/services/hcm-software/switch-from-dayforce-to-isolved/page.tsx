@@ -4,7 +4,7 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Switch Dayforce to isolved | Instant Price Quote | BEG',
-  description: 'Switching from Dayforce (Ceridian) to isolved gives growing mid-market companies a connected HCM platform with BEG-managed implementation and year-round support.',
+  description: 'Switching from Dayforce (Ceridian) to isolved gives growing mid-market companies a connected HCM platform with BEG-managed implementation and year-round',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-dayforce-to-isolved' },
   openGraph: {
     title: 'Switch Dayforce to isolved | Instant Price Quote | BEG',

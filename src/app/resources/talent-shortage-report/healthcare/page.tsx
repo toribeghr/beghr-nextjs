@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The 2026 Healthcare Talent Shortage Report | BEG',
-  description: 'Nursing and advanced-practice shortages remain severe in 2026. What the healthcare talent gap means for clinical directors, practice managers, and healthcare leaders trying to fill permanent roles.',
+  description: 'Nursing and advanced-practice shortages remain severe in 2026. What the healthcare talent gap means for clinical directors, practice managers, and',
   alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/healthcare' },
-  openGraph: { title: 'The 2026 Healthcare Talent Shortage Report | BEG', description: 'Nursing and advanced-practice shortages remain severe in 2026. What the healthcare talent gap means for clinical directors, practice managers, and healthcare leaders trying to fill permanent roles.', url: 'https://www.beghr.com/resources/talent-shortage-report/healthcare', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'The 2026 Healthcare Talent Shortage Report | BEG', description: 'Nursing and advanced-practice shortages remain severe in 2026. What the healthcare talent gap means for clinical directors, practice managers, and healthcare leaders trying to fill permanent roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'The 2026 Healthcare Talent Shortage Report | BEG', description: 'Nursing and advanced-practice shortages remain severe in 2026. What the healthcare talent gap means for clinical directors, practice managers, and', url: 'https://www.beghr.com/resources/talent-shortage-report/healthcare', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Healthcare Talent Shortage Report | BEG', description: 'Nursing and advanced-practice shortages remain severe in 2026. What the healthcare talent gap means for clinical directors, practice managers, and', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

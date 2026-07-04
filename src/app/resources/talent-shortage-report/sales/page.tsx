@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The 2026 Sales Talent Shortage Report | BEG',
-  description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and enterprise sales roles.',
+  description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and',
   alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/sales' },
-  openGraph: { title: 'The 2026 Sales Talent Shortage Report | BEG', description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and enterprise sales roles.', url: 'https://www.beghr.com/resources/talent-shortage-report/sales', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'The 2026 Sales Talent Shortage Report | BEG', description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and enterprise sales roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'The 2026 Sales Talent Shortage Report | BEG', description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and', url: 'https://www.beghr.com/resources/talent-shortage-report/sales', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Sales Talent Shortage Report | BEG', description: 'Proven quota-carrying sales talent is scarce in 2026. What the sales talent shortage means for revenue leaders trying to fill AE, VP of Sales, and', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

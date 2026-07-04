@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Taproom Tip Credit Payroll | State Rules Explained | BEG",
-  description: "How craft breweries apply the FLSA tip credit for taproom servers: tip pooling, tip reporting, state variations, and overtime on tipped wages. BEG at $25-$45 PEPM.",
+  description: "How craft breweries apply the FLSA tip credit for taproom servers: tip pooling, tip reporting, state variations, and overtime on tipped wages.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/brewery/taproom-tip-credit-payroll" },
   openGraph: {
     title: "Taproom Tip Credit Payroll | State Rules Explained | BEG",
-    description: "How craft breweries apply the FLSA tip credit for taproom servers: tip pooling, tip reporting, state variations, and overtime on tipped wages. BEG at $25-$45 PEPM.",
+    description: "How craft breweries apply the FLSA tip credit for taproom servers: tip pooling, tip reporting, state variations, and overtime on tipped wages.",
     url: "https://www.beghr.com/blog/payroll/brewery/taproom-tip-credit-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

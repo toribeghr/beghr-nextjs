@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'HCM Software for 100 Employees | Instant Quote | BEG',
-  description: 'HCM software for a 100-employee company. See why a single connected isolved platform with BEG-managed setup and support fits firms scaling past first systems.',
+  description: 'HCM software for a 100-employee company. See why a single connected isolved platform with BEG-managed setup and support fits firms scaling past first',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/hcm-software-for-100-employees' },
   openGraph: {
     title: 'HCM Software for 100 Employees | Instant Quote | BEG',
-    description: 'HCM software for a 100-employee company. See why a single connected isolved platform with BEG-managed setup and support fits firms scaling past first systems.',
+    description: 'HCM software for a 100-employee company. See why a single connected isolved platform with BEG-managed setup and support fits firms scaling past first',
     url: 'https://www.beghr.com/services/hcm-software/hcm-software-for-100-employees',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for 100 Employees | Instant Quote | BEG', description: 'HCM software for a 100-employee company. See why a single connected isolved platform with BEG-managed setup and support fits firms scaling past first systems.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for 100 Employees | Instant Quote | BEG', description: 'HCM software for a 100-employee company. See why a single connected isolved platform with BEG-managed setup and support fits firms scaling past first', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

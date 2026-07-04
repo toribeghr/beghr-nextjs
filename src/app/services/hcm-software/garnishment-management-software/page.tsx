@@ -4,17 +4,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Garnishment Mgmt Software | Instant Price Quote | BEG',
-  description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. isolved on one connected platform, supported by BEG.',
+  description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/garnishment-management-software' },
   openGraph: {
     title: 'Garnishment Mgmt Software | Instant Price Quote | BEG',
-    description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. isolved on one connected platform, supported by BEG.',
+    description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll.',
     url: 'https://www.beghr.com/services/hcm-software/garnishment-management-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Garnishment Mgmt Software | Instant Price Quote | BEG', description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll. isolved on one connected platform, supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Garnishment Mgmt Software | Instant Price Quote | BEG', description: 'Garnishment management software for orders, calculations, remittance, and compliance built into payroll.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

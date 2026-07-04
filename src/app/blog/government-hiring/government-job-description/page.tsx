@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Government Contractor Job Description: What Recruits Notice | BEG',
-  description: 'Government contractor JDs that bury the clearance level and contract details lose cleared candidates fast. How to write a job description that brings in the right talent.',
+  description: 'Government contractor JDs that bury the clearance level and contract details lose cleared candidates fast.',
   alternates: { canonical: 'https://www.beghr.com/blog/government-hiring/government-job-description' },
   openGraph: {
     title: 'Government Contractor Job Description: What Recruits Notice | BEG',
-    description: 'Government contractor JDs that bury the clearance level and contract details lose cleared candidates fast. How to write a job description that brings in the right talent.',
+    description: 'Government contractor JDs that bury the clearance level and contract details lose cleared candidates fast.',
     url: 'https://www.beghr.com/blog/government-hiring/government-job-description',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Government Contractor Job Description: What Recruits Notice | BEG', description: 'Government contractor JDs that bury the clearance level and contract details lose cleared candidates fast. How to write a job description that brings in the right talent.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Government Contractor Job Description: What Recruits Notice | BEG', description: 'Government contractor JDs that bury the clearance level and contract details lose cleared candidates fast.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

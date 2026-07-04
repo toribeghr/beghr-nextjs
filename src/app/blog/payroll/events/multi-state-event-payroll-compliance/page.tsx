@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Multi-State Event Payroll: The Touring Compliance Trap | BEG",
-  description: "Multi-state payroll compliance for event companies: employer registration, withholding by state, touring tax obligations, and destination event compliance. BEG at $25-$45 PEPM.",
+  description: "Multi-state payroll compliance for event companies: employer registration, withholding by state, touring tax obligations, and destination event",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/events/multi-state-event-payroll-compliance" },
   openGraph: {
     title: "Multi-State Event Payroll: The Touring Compliance Trap | BEG",
-    description: "Multi-state payroll compliance for event companies: employer registration, withholding by state, touring tax obligations, and destination event compliance. BEG at $25-$45 PEPM.",
+    description: "Multi-state payroll compliance for event companies: employer registration, withholding by state, touring tax obligations, and destination event",
     url: "https://www.beghr.com/blog/payroll/events/multi-state-event-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

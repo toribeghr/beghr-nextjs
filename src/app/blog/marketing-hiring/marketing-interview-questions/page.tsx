@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Marketing Interview Questions That Actually Reveal Impact | BEG',
-  description: 'Marketing interviews that go beyond creative portfolios and campaign descriptions. Questions that reveal demand generation track record, channel ROI thinking, and leadership ability.',
+  description: 'Marketing interviews that go beyond creative portfolios and campaign descriptions.',
   alternates: { canonical: 'https://www.beghr.com/blog/marketing-hiring/marketing-interview-questions' },
   openGraph: {
     title: 'Marketing Interview Questions That Actually Reveal Impact | BEG',
-    description: 'Marketing interviews that go beyond creative portfolios and campaign descriptions. Questions that reveal demand generation track record, channel ROI thinking, and leadership ability.',
+    description: 'Marketing interviews that go beyond creative portfolios and campaign descriptions.',
     url: 'https://www.beghr.com/blog/marketing-hiring/marketing-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Marketing Interview Questions That Actually Reveal Impact | BEG', description: 'Marketing interviews that go beyond creative portfolios and campaign descriptions. Questions that reveal demand generation track record, channel ROI thinking, and leadership ability.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Marketing Interview Questions That Actually Reveal Impact | BEG', description: 'Marketing interviews that go beyond creative portfolios and campaign descriptions.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '7 Staffing Agency Payroll Problems and Their Fixes | BEG',
-  description: 'The 7 most common staffing agency payroll problems: misclassification, missing state registrations, late W-2 filing, overtime errors, garnishments, and more.',
+  description: 'The 7 most common staffing agency payroll problems: misclassification, missing state registrations, late W-2 filing, overtime errors, garnishments, and',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-problems' },
   openGraph: {
     title: '7 Staffing Agency Payroll Problems and Their Fixes | BEG',
-    description: 'The 7 most common staffing agency payroll problems: misclassification, missing state registrations, late W-2 filing, overtime errors, garnishments, and more.',
+    description: 'The 7 most common staffing agency payroll problems: misclassification, missing state registrations, late W-2 filing, overtime errors, garnishments, and',
     url: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-problems',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

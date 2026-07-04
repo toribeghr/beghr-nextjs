@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Nonprofit Interview Questions (What to Ask) | BEG',
-  description: 'Nonprofit interviews that reveal fundraising track record, mission alignment, and operational leadership quality. Questions that identify executive directors and development directors who deliver.',
+  description: 'Nonprofit interviews that reveal fundraising track record, mission alignment, and operational leadership quality.',
   alternates: { canonical: 'https://www.beghr.com/blog/nonprofit-hiring/nonprofit-interview-questions' },
   openGraph: {
     title: 'Nonprofit Interview Questions (What to Ask) | BEG',
-    description: 'Nonprofit interviews that reveal fundraising track record, mission alignment, and operational leadership quality. Questions that identify executive directors and development directors who deliver.',
+    description: 'Nonprofit interviews that reveal fundraising track record, mission alignment, and operational leadership quality.',
     url: 'https://www.beghr.com/blog/nonprofit-hiring/nonprofit-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/blog-images/blog-nonprofit-hiring-nonprofit-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Nonprofit Interview Questions (What to Ask) | BEG', description: 'Nonprofit interviews that reveal fundraising track record, mission alignment, and operational leadership quality. Questions that identify executive directors and development directors who deliver.', images: ['https://www.beghr.com/blog-images/blog-nonprofit-hiring-nonprofit-interview-questions.webp'] },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Interview Questions (What to Ask) | BEG', description: 'Nonprofit interviews that reveal fundraising track record, mission alignment, and operational leadership quality.', images: ['https://www.beghr.com/blog-images/blog-nonprofit-hiring-nonprofit-interview-questions.webp'] },
 };
 
 

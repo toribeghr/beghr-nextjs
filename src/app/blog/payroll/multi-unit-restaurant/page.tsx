@@ -3,18 +3,18 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Multi-Location Restaurant Payroll Guides | Tip Credit + Compliance | BEG',
-  description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.',
+  title: 'Multi-Location Restaurant Payroll Guides | BEG',
+  description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/multi-unit-restaurant' },
   openGraph: {
-    title: 'Multi-Location Restaurant Payroll Guides | Tip Credit + Compliance | BEG',
-    description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.',
+    title: 'Multi-Location Restaurant Payroll Guides | BEG',
+    description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing.',
     url: 'https://www.beghr.com/blog/payroll/multi-unit-restaurant',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Multi-Location Restaurant Payroll Guides | Tip Credit + Compliance | BEG', description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing. BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Multi-Location Restaurant Payroll Guides | BEG', description: 'Multi-location restaurant payroll guides covering tip credit by state, consolidated reporting, compliance, and outsourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [

@@ -5,10 +5,10 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Accounting & CPA Placement | Instant Fee Quote | BEG',
-  description: 'Fill controller, tax, audit, and CPA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.',
+  description: 'Fill controller, tax, audit, and CPA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/accounting-cpa' },
-  openGraph: { title: 'Accounting & CPA Placement | Instant Fee Quote | BEG', description: 'Fill controller, tax, audit, and CPA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.', url: 'https://www.beghr.com/services/job-placement/accounting-cpa', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Accounting & CPA Placement | Instant Fee Quote | BEG', description: 'Fill controller, tax, audit, and CPA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Accounting & CPA Placement | Instant Fee Quote | BEG', description: 'Fill controller, tax, audit, and CPA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/accounting-cpa', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Accounting & CPA Placement | Instant Fee Quote | BEG', description: 'Fill controller, tax, audit, and CPA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-accounting-cpa');

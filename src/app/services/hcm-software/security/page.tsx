@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'HCM for Security Companies | Instant Price Quote | BEG',
-  description: 'HCM software for security firms: shift-based scheduling, multi-site time tracking, licensing compliance, and multi-state payroll on one connected isolved platform.',
+  description: 'HCM software for security firms: shift-based scheduling, multi-site time tracking, licensing compliance, and multi-state payroll on one connected isolved',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/security' },
   openGraph: {
     title: 'HCM for Security Companies | Instant Price Quote | BEG',
-    description: 'HCM software for security firms: shift-based scheduling, multi-site time tracking, licensing compliance, and multi-state payroll on one connected isolved platform.',
+    description: 'HCM software for security firms: shift-based scheduling, multi-site time tracking, licensing compliance, and multi-state payroll on one connected isolved',
     url: 'https://www.beghr.com/services/hcm-software/security',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM for Security Companies | Instant Price Quote | BEG', description: 'HCM software for security firms: shift-based scheduling, multi-site time tracking, licensing compliance, and multi-state payroll on one connected isolved platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM for Security Companies | Instant Price Quote | BEG', description: 'HCM software for security firms: shift-based scheduling, multi-site time tracking, licensing compliance, and multi-state payroll on one connected isolved', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

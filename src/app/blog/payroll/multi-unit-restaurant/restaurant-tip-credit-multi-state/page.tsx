@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Multi-State Tip Credit: The Truth About the Rules | BEG",
-  description: "Multi-state restaurant tip credit compliance: which states allow it, tipped minimum wages by state, tip pool rules, and how to configure payroll correctly. BEG at $25-$45 PEPM.",
+  description: "Multi-state restaurant tip credit compliance: which states allow it, tipped minimum wages by state, tip pool rules, and how to configure payroll",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/restaurant-tip-credit-multi-state" },
   openGraph: {
     title: "Multi-State Tip Credit: The Truth About the Rules | BEG",
-    description: "Multi-state restaurant tip credit compliance: which states allow it, tipped minimum wages by state, tip pool rules, and how to configure payroll correctly. BEG at $25-$45 PEPM.",
+    description: "Multi-state restaurant tip credit compliance: which states allow it, tipped minimum wages by state, tip pool rules, and how to configure payroll",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/restaurant-tip-credit-multi-state",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

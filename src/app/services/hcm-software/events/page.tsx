@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'HCM Software for Events Cos | Instant Price Quote | BEG',
-  description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs. employee compliance on isolved.',
+  description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/events' },
   openGraph: {
     title: 'HCM Software for Events Cos | Instant Price Quote | BEG',
-    description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs. employee compliance on isolved.',
+    description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs.',
     url: 'https://www.beghr.com/services/hcm-software/events',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for Events Cos | Instant Price Quote | BEG', description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs. employee compliance on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for Events Cos | Instant Price Quote | BEG', description: 'HCM software for events and event staffing companies: variable headcount, per-event pay, multi-venue scheduling, and contractor vs.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Salon Booth Rental vs. W-2: IRS Classification Rules | BEG",
-  description: "How to classify salon stylists for payroll: the IRS booth rental test, what must be in booth rental contracts, and the risks of misclassification. BEG at $25-$45 PEPM.",
+  description: "How to classify salon stylists for payroll: the IRS booth rental test, what must be in booth rental contracts, and the risks of misclassification.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa/salon-booth-rental-payroll-classification" },
   openGraph: {
     title: "Salon Booth Rental vs. W-2: IRS Classification Rules | BEG",

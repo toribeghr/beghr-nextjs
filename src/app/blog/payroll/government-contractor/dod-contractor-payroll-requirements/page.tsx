@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'DoD Contractor Payroll, Before a DCAA Audit Finds You | BEG',
-  description: 'DoD contractor payroll requirements: ITAR labor tracking, security clearance employee costs, DCAA audit readiness, indirect cost pools, and incurred cost submissions.',
+  description: 'DoD contractor payroll requirements: ITAR labor tracking, security clearance employee costs, DCAA audit readiness, indirect cost pools, and incurred cost',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor/dod-contractor-payroll-requirements' },
   openGraph: {
     title: 'DoD Contractor Payroll, Before a DCAA Audit Finds You | BEG',

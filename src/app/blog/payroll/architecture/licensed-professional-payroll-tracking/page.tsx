@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Licensed Professional Payroll [Full Breakdown] | BEG",
-  description: "Payroll compliance for licensed architects and engineers: state license tracking, FLSA classification, multi-state obligations, and PE credentialing. BEG at $25-$45 PEPM.",
+  description: "Payroll compliance for licensed architects and engineers: state license tracking, FLSA classification, multi-state obligations, and PE credentialing.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/architecture/licensed-professional-payroll-tracking" },
   openGraph: {
     title: "Licensed Professional Payroll [Full Breakdown] | BEG",
-    description: "Payroll compliance for licensed architects and engineers: state license tracking, FLSA classification, multi-state obligations, and PE credentialing. BEG at $25-$45 PEPM.",
+    description: "Payroll compliance for licensed architects and engineers: state license tracking, FLSA classification, multi-state obligations, and PE credentialing.",
     url: "https://www.beghr.com/blog/payroll/architecture/licensed-professional-payroll-tracking",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Brewery and Distillery Payroll Guide in 2026 | BEG",
-  description: "Complete brewery and distillery payroll guide: taproom tip credit, production staff payroll, sales rep commissions, seasonal staffing, and TTB record-keeping. BEG at $25-$45 PEPM.",
+  description: "Complete brewery and distillery payroll guide: taproom tip credit, production staff payroll, sales rep commissions, seasonal staffing, and TTB",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/brewery/brewery-distillery-payroll-guide" },
   openGraph: {
     title: "Brewery and Distillery Payroll Guide in 2026 | BEG",

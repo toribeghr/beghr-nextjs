@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Supply Chain Interview Questions: What They Reveal | BEG',
-  description: 'Supply chain interviews that reveal real demand planning accuracy, supplier management depth, and disruption response experience. Questions that identify the right operations and logistics hire.',
+  description: 'Supply chain interviews that reveal real demand planning accuracy, supplier management depth, and disruption response experience.',
   alternates: { canonical: 'https://www.beghr.com/blog/supply-chain-hiring/supply-chain-interview-questions' },
   openGraph: {
     title: 'Supply Chain Interview Questions: What They Reveal | BEG',
-    description: 'Supply chain interviews that reveal real demand planning accuracy, supplier management depth, and disruption response experience. Questions that identify the right operations and logistics hire.',
+    description: 'Supply chain interviews that reveal real demand planning accuracy, supplier management depth, and disruption response experience.',
     url: 'https://www.beghr.com/blog/supply-chain-hiring/supply-chain-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Supply Chain Interview Questions: What They Reveal | BEG', description: 'Supply chain interviews that reveal real demand planning accuracy, supplier management depth, and disruption response experience. Questions that identify the right operations and logistics hire.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Supply Chain Interview Questions: What They Reveal | BEG', description: 'Supply chain interviews that reveal real demand planning accuracy, supplier management depth, and disruption response experience.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

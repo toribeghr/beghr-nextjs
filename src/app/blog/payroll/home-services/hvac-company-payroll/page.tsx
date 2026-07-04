@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'HVAC Company Payroll, Seasonal Spikes and Overtime | BEG',
-  description: 'HVAC company payroll guide: managing summer and winter demand spikes, seasonal technician overtime, multi-state crew compliance, and licensing requirements.',
+  description: 'HVAC company payroll guide: managing summer and winter demand spikes, seasonal technician overtime, multi-state crew compliance, and licensing',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/hvac-company-payroll' },
   openGraph: {
     title: 'HVAC Company Payroll, Seasonal Spikes and Overtime | BEG',
-    description: 'HVAC company payroll guide: managing summer and winter demand spikes, seasonal technician overtime, multi-state crew compliance, and licensing requirements.',
+    description: 'HVAC company payroll guide: managing summer and winter demand spikes, seasonal technician overtime, multi-state crew compliance, and licensing',
     url: 'https://www.beghr.com/blog/payroll/home-services/hvac-company-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

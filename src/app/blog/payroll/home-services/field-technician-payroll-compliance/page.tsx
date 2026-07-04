@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Field Technician Payroll, Drive Time and OT Rules | BEG',
-  description: 'Field technician payroll compliance: when drive time is compensable, overtime for service techs, tool reimbursement minimum wage rules, and on-call pay requirements.',
+  description: 'Field technician payroll compliance: when drive time is compensable, overtime for service techs, tool reimbursement minimum wage rules, and on-call pay',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/field-technician-payroll-compliance' },
   openGraph: {
     title: 'Field Technician Payroll, Drive Time and OT Rules | BEG',
-    description: 'Field technician payroll compliance: when drive time is compensable, overtime for service techs, tool reimbursement minimum wage rules, and on-call pay requirements.',
+    description: 'Field technician payroll compliance: when drive time is compensable, overtime for service techs, tool reimbursement minimum wage rules, and on-call pay',
     url: 'https://www.beghr.com/blog/payroll/home-services/field-technician-payroll-compliance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

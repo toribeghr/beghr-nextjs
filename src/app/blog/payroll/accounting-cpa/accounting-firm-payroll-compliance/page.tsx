@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Accounting Firm Payroll Compliance in 2026 | BEG",
-  description: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close coordination, FLSA requirements, and state-specific wage rules. BEG at $25-$45 PEPM.",
+  description: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close coordination, FLSA requirements, and state-specific wage",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" },
   openGraph: {
     title: "Accounting Firm Payroll Compliance in 2026 | BEG",
-    description: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close coordination, FLSA requirements, and state-specific wage rules. BEG at $25-$45 PEPM.",
+    description: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close coordination, FLSA requirements, and state-specific wage",
     url: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

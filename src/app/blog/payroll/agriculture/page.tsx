@@ -4,11 +4,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Farm & Agriculture Payroll Guides | H-2A + Seasonal | BEG',
-  description: 'Agriculture payroll guides covering H-2A workers, seasonal crews, piece rate compliance, MSPA requirements, and farm payroll outsourcing. BEG at $25-$45 PEPM.',
+  description: 'Agriculture payroll guides covering H-2A workers, seasonal crews, piece rate compliance, MSPA requirements, and farm payroll outsourcing.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/agriculture' },
   openGraph: {
     title: 'Farm & Agriculture Payroll Guides | H-2A + Seasonal | BEG',
-    description: 'Agriculture payroll guides covering H-2A workers, seasonal crews, piece rate compliance, MSPA requirements, and farm payroll outsourcing. BEG at $25-$45 PEPM.',
+    description: 'Agriculture payroll guides covering H-2A workers, seasonal crews, piece rate compliance, MSPA requirements, and farm payroll outsourcing.',
     url: 'https://www.beghr.com/blog/payroll/agriculture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Event Company Payroll in 2026: Seasonal Crew Costs | BEG",
-  description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules. BEG at $25-$45 PEPM.",
+  description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide" },
   openGraph: {
     title: "Event Company Payroll in 2026: Seasonal Crew Costs | BEG",
-    description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules. BEG at $25-$45 PEPM.",
+    description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules.",
     url: "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

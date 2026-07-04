@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved Reviews | Instant Price Quote | BEG',
-  description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through implementation.',
+  description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-reviews' },
   openGraph: {
     title: 'isolved Reviews | Instant Price Quote | BEG',
-    description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through implementation.',
+    description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through',
     url: 'https://www.beghr.com/services/hcm-software/isolved-reviews',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Reviews | Instant Price Quote | BEG', description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through implementation.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Reviews | Instant Price Quote | BEG', description: 'A fair overview of isolved: its strengths as a single connected HCM platform, honest considerations to weigh, and how BEG addresses them through', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

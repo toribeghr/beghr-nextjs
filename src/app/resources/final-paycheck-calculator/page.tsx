@@ -4,7 +4,7 @@ import Link from 'next/link';
 import FinalPaycheckCalculator from '@/components/FinalPaycheckCalculator';
 
 const DESC =
-  'Free final paycheck calculator. Pick any of the 50 states, choose fired or quit, and get the exact deadline to issue a final check plus the PTO payout rule. No email required.';
+  'Free final paycheck calculator. Pick any of the 50 states, choose fired or quit, and get the exact deadline to issue a final check plus the PTO payout';
 
 export const metadata: Metadata = {
   title: 'Final Paycheck Calculator by State (2026) | BEG',

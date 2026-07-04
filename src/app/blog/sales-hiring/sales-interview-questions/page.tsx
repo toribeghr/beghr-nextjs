@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Sales Interview Questions: What Quota Attainment Reveals | BEG',
-  description: 'Sales interviews that go beyond the pitch. The questions that reveal quota attainment history, pipeline discipline, and whether a candidate can sell in your specific environment.',
+  description: 'Sales interviews that go beyond the pitch. The questions that reveal quota attainment history, pipeline discipline, and whether a candidate can sell in',
   alternates: { canonical: 'https://www.beghr.com/blog/sales-hiring/sales-interview-questions' },
   openGraph: {
     title: 'Sales Interview Questions: What Quota Attainment Reveals | BEG',
-    description: 'Sales interviews that go beyond the pitch. The questions that reveal quota attainment history, pipeline discipline, and whether a candidate can sell in your specific environment.',
+    description: 'Sales interviews that go beyond the pitch. The questions that reveal quota attainment history, pipeline discipline, and whether a candidate can sell in',
     url: 'https://www.beghr.com/blog/sales-hiring/sales-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Sales Interview Questions: What Quota Attainment Reveals | BEG', description: 'Sales interviews that go beyond the pitch. The questions that reveal quota attainment history, pipeline discipline, and whether a candidate can sell in your specific environment.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Sales Interview Questions: What Quota Attainment Reveals | BEG', description: 'Sales interviews that go beyond the pitch. The questions that reveal quota attainment history, pipeline discipline, and whether a candidate can sell in', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

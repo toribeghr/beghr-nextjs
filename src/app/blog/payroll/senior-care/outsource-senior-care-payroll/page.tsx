@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Should Senior Care Facilities Outsource Payroll | BEG',
-  description: 'Should senior care facilities outsource payroll? What operators get, cost vs in-house comparison, and how BEG onboards senior care facilities in 3-5 business days.',
+  description: 'Should senior care facilities outsource payroll? What operators get, cost vs in-house comparison, and how BEG onboards senior care facilities in 3-5',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/senior-care/outsource-senior-care-payroll' },
   openGraph: {
     title: 'Should Senior Care Facilities Outsource Payroll | BEG',
-    description: 'Should senior care facilities outsource payroll? What operators get, cost vs in-house comparison, and how BEG onboards senior care facilities in 3-5 business days.',
+    description: 'Should senior care facilities outsource payroll? What operators get, cost vs in-house comparison, and how BEG onboards senior care facilities in 3-5',
     url: 'https://www.beghr.com/blog/payroll/senior-care/outsource-senior-care-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

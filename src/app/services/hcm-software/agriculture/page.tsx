@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'HCM Software for Agriculture | Instant Price Quote | BEG',
-  description: 'HCM software built for agriculture: seasonal workforce, multi-state compliance, piece-rate and hourly pay, and H-2A visa tracking on one connected isolved platform.',
+  description: 'HCM software built for agriculture: seasonal workforce, multi-state compliance, piece-rate and hourly pay, and H-2A visa tracking on one connected isolved',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/agriculture' },
   openGraph: {
     title: 'HCM Software for Agriculture | Instant Price Quote | BEG',
-    description: 'HCM software built for agriculture: seasonal workforce, multi-state compliance, piece-rate and hourly pay, and H-2A visa tracking on one connected isolved platform.',
+    description: 'HCM software built for agriculture: seasonal workforce, multi-state compliance, piece-rate and hourly pay, and H-2A visa tracking on one connected isolved',
     url: 'https://www.beghr.com/services/hcm-software/agriculture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM Software for Agriculture | Instant Price Quote | BEG', description: 'HCM software built for agriculture: seasonal workforce, multi-state compliance, piece-rate and hourly pay, and H-2A visa tracking on one connected isolved platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM Software for Agriculture | Instant Price Quote | BEG', description: 'HCM software built for agriculture: seasonal workforce, multi-state compliance, piece-rate and hourly pay, and H-2A visa tracking on one connected isolved', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

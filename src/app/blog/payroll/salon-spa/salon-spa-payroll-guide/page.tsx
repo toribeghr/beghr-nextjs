@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Salon and Spa Payroll Guide for 2026 | BEG",
-  description: "Complete salon and spa payroll guide: booth rental IRS rules, W-2 employee stylists, commission payroll, tip credit, and cosmetology minimum wage. BEG at $25-$45 PEPM.",
+  description: "Complete salon and spa payroll guide: booth rental IRS rules, W-2 employee stylists, commission payroll, tip credit, and cosmetology minimum wage.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa/salon-spa-payroll-guide" },
   openGraph: {
     title: "Salon and Spa Payroll Guide for 2026 | BEG",

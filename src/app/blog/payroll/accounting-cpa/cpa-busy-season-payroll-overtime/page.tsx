@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "CPA Busy Season Payroll Overtime (FLSA Rules) | BEG",
-  description: "CPA firm busy season payroll: FLSA overtime rules, exempt vs non-exempt staff classification, salary threshold, and overtime calculation for staff accountants. BEG at $25-$45 PEPM.",
+  description: "CPA firm busy season payroll: FLSA overtime rules, exempt vs non-exempt staff classification, salary threshold, and overtime calculation for staff",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/accounting-cpa/cpa-busy-season-payroll-overtime" },
   openGraph: {
     title: "CPA Busy Season Payroll Overtime (FLSA Rules) | BEG",
-    description: "CPA firm busy season payroll: FLSA overtime rules, exempt vs non-exempt staff classification, salary threshold, and overtime calculation for staff accountants. BEG at $25-$45 PEPM.",
+    description: "CPA firm busy season payroll: FLSA overtime rules, exempt vs non-exempt staff classification, salary threshold, and overtime calculation for staff",
     url: "https://www.beghr.com/blog/payroll/accounting-cpa/cpa-busy-season-payroll-overtime",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

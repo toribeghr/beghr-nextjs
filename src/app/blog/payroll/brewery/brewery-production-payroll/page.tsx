@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Brewery Production Staff Payroll [Full Breakdown] | BEG",
-  description: "How to run payroll for brewery production staff: shift differentials, overtime for long production runs, and safety incentive administration. BEG at $25-$45 PEPM.",
+  description: "How to run payroll for brewery production staff: shift differentials, overtime for long production runs, and safety incentive administration.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/brewery/brewery-production-payroll" },
   openGraph: {
     title: "Brewery Production Staff Payroll [Full Breakdown] | BEG",

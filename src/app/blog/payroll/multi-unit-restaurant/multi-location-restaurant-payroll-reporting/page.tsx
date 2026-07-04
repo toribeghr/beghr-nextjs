@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Restaurant Payroll Reporting: What Operators Need | BEG",
-  description: "Per-location payroll reporting for multi-unit restaurant groups: labor cost by location, FOH vs BOH breakdown, P&L integration, and operator-level visibility. BEG at $25-$45 PEPM.",
+  description: "Per-location payroll reporting for multi-unit restaurant groups: labor cost by location, FOH vs BOH breakdown, P&L integration, and operator-level",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/multi-location-restaurant-payroll-reporting" },
   openGraph: {
     title: "Restaurant Payroll Reporting: What Operators Need | BEG",
-    description: "Per-location payroll reporting for multi-unit restaurant groups: labor cost by location, FOH vs BOH breakdown, P&L integration, and operator-level visibility. BEG at $25-$45 PEPM.",
+    description: "Per-location payroll reporting for multi-unit restaurant groups: labor cost by location, FOH vs BOH breakdown, P&L integration, and operator-level",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/multi-location-restaurant-payroll-reporting",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Piece Rate Payroll for Farms (What to Know) | BEG',
-  description: 'How to calculate piece rate payroll for agricultural workers correctly: minimum wage floor, overtime for piece rate, record-keeping under FLSA, and common errors.',
+  description: 'How to calculate piece rate payroll for agricultural workers correctly: minimum wage floor, overtime for piece rate, record-keeping under FLSA, and common',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/agriculture/piece-rate-payroll-farms' },
   openGraph: {
     title: 'Piece Rate Payroll for Farms (What to Know) | BEG',
-    description: 'How to calculate piece rate payroll for agricultural workers correctly: minimum wage floor, overtime for piece rate, record-keeping under FLSA, and common errors.',
+    description: 'How to calculate piece rate payroll for agricultural workers correctly: minimum wage floor, overtime for piece rate, record-keeping under FLSA, and common',
     url: 'https://www.beghr.com/blog/payroll/agriculture/piece-rate-payroll-farms',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

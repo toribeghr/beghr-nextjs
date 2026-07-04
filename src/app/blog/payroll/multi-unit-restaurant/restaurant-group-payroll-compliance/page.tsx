@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Restaurant Group Payroll: What Nobody Tells You | BEG",
-  description: "Payroll compliance for multi-unit restaurant groups: tip pools, minimum wage by location, overtime rules, and FLSA requirements across all locations. BEG at $25-$45 PEPM.",
+  description: "Payroll compliance for multi-unit restaurant groups: tip pools, minimum wage by location, overtime rules, and FLSA requirements across all locations.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/restaurant-group-payroll-compliance" },
   openGraph: {
     title: "Restaurant Group Payroll: What Nobody Tells You | BEG",
-    description: "Payroll compliance for multi-unit restaurant groups: tip pools, minimum wage by location, overtime rules, and FLSA requirements across all locations. BEG at $25-$45 PEPM.",
+    description: "Payroll compliance for multi-unit restaurant groups: tip pools, minimum wage by location, overtime rules, and FLSA requirements across all locations.",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/restaurant-group-payroll-compliance",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

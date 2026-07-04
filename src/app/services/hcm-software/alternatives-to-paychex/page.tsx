@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Paychex Alternative | Instant Price Quote + AI | BEG',
-  description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.',
+  description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/alternatives-to-paychex' },
   openGraph: {
     title: 'Paychex Alternative | Instant Price Quote + AI | BEG',
-    description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.',
+    description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees.',
     url: 'https://www.beghr.com/services/hcm-software/alternatives-to-paychex',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Paychex Alternative | Instant Price Quote + AI | BEG', description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees. Modern UX, transparent scope, Claude AI, 330% ROI.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Paychex Alternative | Instant Price Quote + AI | BEG', description: 'Looking for a Paychex alternative? Compare isolved, managed by BEG, for companies with 50 to 500 employees.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

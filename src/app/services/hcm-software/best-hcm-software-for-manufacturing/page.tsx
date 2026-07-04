@@ -5,17 +5,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Best HCM Software for Manufacturing | Instant Quote | BEG',
-  description: 'What to look for in HCM software for manufacturing in 2026, the shift and payroll challenges plants face, and why isolved plus BEG is a strong pick for plants.',
+  description: 'What to look for in HCM software for manufacturing in 2026, the shift and payroll challenges plants face, and why isolved plus BEG is a strong pick for',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-manufacturing' },
   openGraph: {
     title: 'Best HCM Software for Manufacturing | Instant Quote | BEG',
-    description: 'What to look for in HCM software for manufacturing in 2026, the shift and payroll challenges plants face, and why isolved plus BEG is a strong pick for plants.',
+    description: 'What to look for in HCM software for manufacturing in 2026, the shift and payroll challenges plants face, and why isolved plus BEG is a strong pick for',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-manufacturing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Manufacturing | Instant Quote | BEG', description: 'What to look for in HCM software for manufacturing in 2026, the shift and payroll challenges plants face, and why isolved plus BEG is a strong pick for plants.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM Software for Manufacturing | Instant Quote | BEG', description: 'What to look for in HCM software for manufacturing in 2026, the shift and payroll challenges plants face, and why isolved plus BEG is a strong pick for', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

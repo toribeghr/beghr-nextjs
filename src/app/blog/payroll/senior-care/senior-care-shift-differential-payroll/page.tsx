@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Shift Differential Payroll for Senior Care Facilities | BEG',
-  description: 'How to handle shift differential payroll in senior care: night shift premiums, regular rate overtime calculation, holiday pay, and common compliance errors.',
+  description: 'How to handle shift differential payroll in senior care: night shift premiums, regular rate overtime calculation, holiday pay, and common compliance',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/senior-care/senior-care-shift-differential-payroll' },
   openGraph: {
     title: 'Shift Differential Payroll for Senior Care Facilities | BEG',
-    description: 'How to handle shift differential payroll in senior care: night shift premiums, regular rate overtime calculation, holiday pay, and common compliance errors.',
+    description: 'How to handle shift differential payroll in senior care: night shift premiums, regular rate overtime calculation, holiday pay, and common compliance',
     url: 'https://www.beghr.com/blog/payroll/senior-care/senior-care-shift-differential-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

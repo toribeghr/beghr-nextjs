@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The 2026 Skilled Trades Talent Shortage Report | BEG',
-  description: 'Electricians, HVAC technicians, welders, and machinists are in chronic short supply as experienced tradespeople retire faster than new entrants replace them. The 2026 skilled trades shortage report.',
+  description: 'Electricians, HVAC technicians, welders, and machinists are in chronic short supply as experienced tradespeople retire faster than new entrants replace',
   alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/trades' },
-  openGraph: { title: 'The 2026 Skilled Trades Talent Shortage Report | BEG', description: 'Electricians, HVAC technicians, welders, and machinists are in chronic short supply as experienced tradespeople retire faster than new entrants replace them. The 2026 skilled trades shortage report.', url: 'https://www.beghr.com/resources/talent-shortage-report/trades', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'The 2026 Skilled Trades Talent Shortage Report | BEG', description: 'Electricians, HVAC technicians, welders, and machinists are in chronic short supply as experienced tradespeople retire faster than new entrants replace them. The 2026 skilled trades shortage report.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'The 2026 Skilled Trades Talent Shortage Report | BEG', description: 'Electricians, HVAC technicians, welders, and machinists are in chronic short supply as experienced tradespeople retire faster than new entrants replace', url: 'https://www.beghr.com/resources/talent-shortage-report/trades', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Skilled Trades Talent Shortage Report | BEG', description: 'Electricians, HVAC technicians, welders, and machinists are in chronic short supply as experienced tradespeople retire faster than new entrants replace', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

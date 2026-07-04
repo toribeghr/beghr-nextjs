@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Construction PM Job Description: What Top PMs Skip | BEG',
-  description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in experienced candidates.',
+  description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in',
   alternates: { canonical: 'https://www.beghr.com/blog/construction-hiring/construction-job-description' },
   openGraph: {
     title: 'Construction PM Job Description: What Top PMs Skip | BEG',
-    description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in experienced candidates.',
+    description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in',
     url: 'https://www.beghr.com/blog/construction-hiring/construction-job-description',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction PM Job Description: What Top PMs Skip | BEG', description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in experienced candidates.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction PM Job Description: What Top PMs Skip | BEG', description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

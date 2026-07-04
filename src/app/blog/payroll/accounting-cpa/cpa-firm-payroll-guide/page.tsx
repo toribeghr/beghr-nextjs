@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "CPA Firm Payroll Guide [2026 Data] | BEG",
-  description: "CPA firm payroll: partner draws vs K-1 vs W-2, busy season overtime, billing-code allocation, 401(k) tied to variable comp, and remote staff compliance. BEG at $25-$45 PEPM.",
+  description: "CPA firm payroll: partner draws vs K-1 vs W-2, busy season overtime, billing-code allocation, 401(k) tied to variable comp, and remote staff compliance.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/accounting-cpa/cpa-firm-payroll-guide" },
   openGraph: {
     title: "CPA Firm Payroll Guide [2026 Data] | BEG",
-    description: "CPA firm payroll: partner draws vs K-1 vs W-2, busy season overtime, billing-code allocation, 401(k) tied to variable comp, and remote staff compliance. BEG at $25-$45 PEPM.",
+    description: "CPA firm payroll: partner draws vs K-1 vs W-2, busy season overtime, billing-code allocation, 401(k) tied to variable comp, and remote staff compliance.",
     url: "https://www.beghr.com/blog/payroll/accounting-cpa/cpa-firm-payroll-guide",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

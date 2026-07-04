@@ -6,7 +6,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'General Counsel Recruiters | 23-35 Days | BEG',
-  description: 'General counsel search for companies and in-house legal teams. Permanent placement in 23-35 days at roughly 50% less than contingency. 45-day replacement guarantee.',
+  description: 'General counsel search for companies and in-house legal teams. Permanent placement in 23-35 days at roughly 50% less than contingency.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/legal/general-counsel' },
   openGraph: {
     title: 'General Counsel Recruiters | 23-35 Days | BEG',

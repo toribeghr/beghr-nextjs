@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved Pricing | Instant Price Quote | BEG',
-  description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.',
+  description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-pricing' },
   openGraph: {
     title: 'isolved Pricing | Instant Price Quote | BEG',
-    description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.',
+    description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-pricing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved Pricing | Instant Price Quote | BEG', description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs. BEG runs a custom cost comparison on what you are buying.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved Pricing | Instant Price Quote | BEG', description: 'How isolved pricing works: scoped by modules and headcount, transparent, and tailored to your needs.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

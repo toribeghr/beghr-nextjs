@@ -4,17 +4,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Employee Self-Service Software | Instant Quote | BEG',
-  description: 'Employee self-service software so staff update info, view pay stubs, and request PTO online. Fewer HR tickets with isolved, configured and supported by BEG.',
+  description: 'Employee self-service software so staff update info, view pay stubs, and request PTO online.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/employee-self-service-software' },
   openGraph: {
     title: 'Employee Self-Service Software | Instant Quote | BEG',
-    description: 'Employee self-service software so staff update info, view pay stubs, and request PTO online. Fewer HR tickets with isolved, configured and supported by BEG.',
+    description: 'Employee self-service software so staff update info, view pay stubs, and request PTO online.',
     url: 'https://www.beghr.com/services/hcm-software/employee-self-service-software',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Employee Self-Service Software | Instant Quote | BEG', description: 'Employee self-service software so staff update info, view pay stubs, and request PTO online. Fewer HR tickets with isolved, configured and supported by BEG.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Employee Self-Service Software | Instant Quote | BEG', description: 'Employee self-service software so staff update info, view pay stubs, and request PTO online.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

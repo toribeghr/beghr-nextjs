@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Employer of Record vs Managed Payroll | Which Do You Need? | BEG',
-  description: 'EOR and managed payroll solve different problems. EOR employs workers in countries where you have no entity. Managed payroll runs payroll where you already employ people.',
+  description: 'EOR and managed payroll solve different problems. EOR employs workers in countries where you have no entity.',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/employer-of-record-vs-managed-payroll' },
   openGraph: {
     title: 'Employer of Record vs Managed Payroll | Which Do You Need? | BEG',
-    description: 'EOR and managed payroll solve different problems. EOR employs workers in countries where you have no entity. Managed payroll runs payroll where you already employ people.',
+    description: 'EOR and managed payroll solve different problems. EOR employs workers in countries where you have no entity.',
     url: 'https://www.beghr.com/blog/compare/employer-of-record-vs-managed-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Employer of Record vs Managed Payroll | Which Do You Need? | BEG', description: 'EOR and managed payroll solve different problems. EOR employs workers in countries where you have no entity. Managed payroll runs payroll where you already employ people.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Employer of Record vs Managed Payroll | Which Do You Need? | BEG', description: 'EOR and managed payroll solve different problems. EOR employs workers in countries where you have no entity.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

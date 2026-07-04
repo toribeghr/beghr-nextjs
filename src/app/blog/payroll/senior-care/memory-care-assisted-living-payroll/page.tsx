@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Memory Care and Assisted Living Payroll, Explained | BEG',
-  description: 'Memory care and assisted living payroll differences: staffing ratios, wage premiums, high-turnover onboarding, state ALF licensing requirements, and managed payroll solutions.',
+  description: 'Memory care and assisted living payroll differences: staffing ratios, wage premiums, high-turnover onboarding, state ALF licensing requirements, and',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/senior-care/memory-care-assisted-living-payroll' },
   openGraph: {
     title: 'Memory Care and Assisted Living Payroll, Explained | BEG',
-    description: 'Memory care and assisted living payroll differences: staffing ratios, wage premiums, high-turnover onboarding, state ALF licensing requirements, and managed payroll solutions.',
+    description: 'Memory care and assisted living payroll differences: staffing ratios, wage premiums, high-turnover onboarding, state ALF licensing requirements, and',
     url: 'https://www.beghr.com/blog/payroll/senior-care/memory-care-assisted-living-payroll',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   title: 'isolved HCM for Executive Teams | Instant Quote | BEG',
   description: 'isolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/executive' },
+  openGraph: {
+    title: "isolved HCM for Executive Teams | Instant Quote | BEG",
+    description: "isolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.",
+    url: "https://www.beghr.com/services/hcm-software/executive",
+    siteName: 'Business Executive Group',
+    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', title: "isolved HCM for Executive Teams | Instant Quote | BEG", description: "isolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.", images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('hcm-executive');

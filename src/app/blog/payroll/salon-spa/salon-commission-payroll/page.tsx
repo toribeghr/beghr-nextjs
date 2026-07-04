@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Salon Commission Payroll: Splits, Chargebacks & Tips | BEG",
-  description: "How to process salon commission payroll correctly: percentage splits, product chargebacks, tip pooling, and minimum wage compliance. BEG managed payroll at $25-$45 PEPM.",
+  description: "How to process salon commission payroll correctly: percentage splits, product chargebacks, tip pooling, and minimum wage compliance.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/salon-spa/salon-commission-payroll" },
   openGraph: {
     title: "Salon Commission Payroll: Splits, Chargebacks & Tips | BEG",

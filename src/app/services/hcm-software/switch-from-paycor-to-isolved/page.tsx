@@ -4,11 +4,11 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Switch From Paycor to isolved | Instant Quote | BEG',
-  description: 'Switching from Paycor to isolved is structured and low-risk when BEG manages the migration. We move your data, configure the platform, and support you year-round.',
+  description: 'Switching from Paycor to isolved is structured and low-risk when BEG manages the migration.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/switch-from-paycor-to-isolved' },
   openGraph: {
     title: 'Switch From Paycor to isolved | Instant Quote | BEG',
-    description: 'Switching from Paycor to isolved is structured and low-risk when BEG manages the migration. We move your data, configure the platform, and support you year-round.',
+    description: 'Switching from Paycor to isolved is structured and low-risk when BEG manages the migration.',
     url: 'https://www.beghr.com/services/hcm-software/switch-from-paycor-to-isolved',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

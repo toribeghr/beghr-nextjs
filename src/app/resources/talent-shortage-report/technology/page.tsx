@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The 2026 Technology Talent Shortage Report | BEG',
-  description: 'Software engineers, DevOps engineers, data scientists, and engineering managers remain in chronic short supply in 2026. What the tech talent shortage means for engineering leaders trying to fill roles fast.',
+  description: 'Software engineers, DevOps engineers, data scientists, and engineering managers remain in chronic short supply in 2026.',
   alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/technology' },
-  openGraph: { title: 'The 2026 Technology Talent Shortage Report | BEG', description: 'Software engineers, DevOps engineers, data scientists, and engineering managers remain in chronic short supply in 2026. What the tech talent shortage means for engineering leaders trying to fill roles fast.', url: 'https://www.beghr.com/resources/talent-shortage-report/technology', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'The 2026 Technology Talent Shortage Report | BEG', description: 'Software engineers, DevOps engineers, data scientists, and engineering managers remain in chronic short supply in 2026. What the tech talent shortage means for engineering leaders trying to fill roles fast.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'The 2026 Technology Talent Shortage Report | BEG', description: 'Software engineers, DevOps engineers, data scientists, and engineering managers remain in chronic short supply in 2026.', url: 'https://www.beghr.com/resources/talent-shortage-report/technology', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Technology Talent Shortage Report | BEG', description: 'Software engineers, DevOps engineers, data scientists, and engineering managers remain in chronic short supply in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

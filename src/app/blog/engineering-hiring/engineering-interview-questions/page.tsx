@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Engineering Interview Questions That Actually Work | BEG',
-  description: 'Technical interviews alone do not predict engineering success. The questions that reveal design judgment, cross-functional collaboration, and project delivery track record.',
+  description: 'Technical interviews alone do not predict engineering success. The questions that reveal design judgment, cross-functional collaboration, and project',
   alternates: { canonical: 'https://www.beghr.com/blog/engineering-hiring/engineering-interview-questions' },
   openGraph: {
     title: 'Engineering Interview Questions That Actually Work | BEG',
-    description: 'Technical interviews alone do not predict engineering success. The questions that reveal design judgment, cross-functional collaboration, and project delivery track record.',
+    description: 'Technical interviews alone do not predict engineering success. The questions that reveal design judgment, cross-functional collaboration, and project',
     url: 'https://www.beghr.com/blog/engineering-hiring/engineering-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Engineering Interview Questions That Actually Work | BEG', description: 'Technical interviews alone do not predict engineering success. The questions that reveal design judgment, cross-functional collaboration, and project delivery track record.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Engineering Interview Questions That Actually Work | BEG', description: 'Technical interviews alone do not predict engineering success. The questions that reveal design judgment, cross-functional collaboration, and project', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

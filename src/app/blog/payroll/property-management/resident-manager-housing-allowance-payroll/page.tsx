@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Resident Manager Housing Allowance (What to Know) | BEG",
-  description: "IRC Section 119 housing allowance rules for resident managers: what qualifies, what is taxable, and how to configure it correctly in payroll. BEG at $25-$45 PEPM.",
+  description: "IRC Section 119 housing allowance rules for resident managers: what qualifies, what is taxable, and how to configure it correctly in payroll.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/property-management/resident-manager-housing-allowance-payroll" },
   openGraph: {
     title: "Resident Manager Housing Allowance (What to Know) | BEG",
-    description: "IRC Section 119 housing allowance rules for resident managers: what qualifies, what is taxable, and how to configure it correctly in payroll. BEG at $25-$45 PEPM.",
+    description: "IRC Section 119 housing allowance rules for resident managers: what qualifies, what is taxable, and how to configure it correctly in payroll.",
     url: "https://www.beghr.com/blog/payroll/property-management/resident-manager-housing-allowance-payroll",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

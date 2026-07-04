@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "California Event Payroll Rules: What AB5 Requires | BEG",
-  description: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders, minimum wage, and overtime for events in California. BEG at $25-$45 PEPM.",
+  description: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders, minimum wage, and overtime for events in California.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/events/california-event-payroll-rules" },
   openGraph: {
     title: "California Event Payroll Rules: What AB5 Requires | BEG",
-    description: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders, minimum wage, and overtime for events in California. BEG at $25-$45 PEPM.",
+    description: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders, minimum wage, and overtime for events in California.",
     url: "https://www.beghr.com/blog/payroll/events/california-event-payroll-rules",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

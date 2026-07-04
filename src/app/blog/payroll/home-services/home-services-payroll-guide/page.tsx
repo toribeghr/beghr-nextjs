@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Home Services Payroll Guide for HVAC and Plumbing | BEG',
-  description: 'Complete home services payroll guide: field tech pay structures, overtime, drive time compensation, tool reimbursement, and seasonal workforce management for 2026.',
+  description: 'Complete home services payroll guide: field tech pay structures, overtime, drive time compensation, tool reimbursement, and seasonal workforce management',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-guide' },
   openGraph: {
     title: 'Home Services Payroll Guide for HVAC and Plumbing | BEG',

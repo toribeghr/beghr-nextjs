@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Why Contractors Outsource Payroll (Full Breakdown) | BEG',
-  description: 'Why government contractors outsource payroll, what a managed provider covers for SCA and Davis-Bacon, and how BEG onboards government contractors in 3-5 business days.',
+  description: 'Why government contractors outsource payroll, what a managed provider covers for SCA and Davis-Bacon, and how BEG onboards government contractors in 3-5',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/government-contractor/outsource-government-contractor-payroll' },
   openGraph: {
     title: 'Why Contractors Outsource Payroll (Full Breakdown) | BEG',

@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The 2026 Accounting and CPA Talent Shortage Report | BEG',
-  description: 'The pipeline of new CPAs has contracted for years while retirements accelerate. What the 2026 accounting shortage means for finance leaders trying to fill controller, audit, and tax roles.',
+  description: 'The pipeline of new CPAs has contracted for years while retirements accelerate. What the 2026 accounting shortage means for finance leaders trying to fill',
   alternates: { canonical: 'https://www.beghr.com/resources/talent-shortage-report/accounting-cpa' },
-  openGraph: { title: 'The 2026 Accounting and CPA Talent Shortage Report | BEG', description: 'The pipeline of new CPAs has contracted for years while retirements accelerate. What the 2026 accounting shortage means for finance leaders trying to fill controller, audit, and tax roles.', url: 'https://www.beghr.com/resources/talent-shortage-report/accounting-cpa', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
-  twitter: { card: 'summary_large_image', title: 'The 2026 Accounting and CPA Talent Shortage Report | BEG', description: 'The pipeline of new CPAs has contracted for years while retirements accelerate. What the 2026 accounting shortage means for finance leaders trying to fill controller, audit, and tax roles.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'The 2026 Accounting and CPA Talent Shortage Report | BEG', description: 'The pipeline of new CPAs has contracted for years while retirements accelerate. What the 2026 accounting shortage means for finance leaders trying to fill', url: 'https://www.beghr.com/resources/talent-shortage-report/accounting-cpa', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'article' },
+  twitter: { card: 'summary_large_image', title: 'The 2026 Accounting and CPA Talent Shortage Report | BEG', description: 'The pipeline of new CPAs has contracted for years while retirements accelerate. What the 2026 accounting shortage means for finance leaders trying to fill', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

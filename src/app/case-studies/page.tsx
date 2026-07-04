@@ -4,17 +4,17 @@ import PricingCta from '@/components/pricing/PricingCta';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll Case Studies | BEG',
-  description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated payroll overhead.',
+  description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated',
   alternates: { canonical: 'https://www.beghr.com/case-studies' },
   openGraph: {
     title: 'Managed Payroll Case Studies | BEG',
-    description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated payroll overhead.',
+    description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated',
     url: 'https://www.beghr.com/case-studies',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll Case Studies | BEG', description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated payroll overhead.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll Case Studies | BEG', description: 'Real results from companies that handed payroll to BEG. See how restaurants, contractors, healthcare practices, nonprofits, and franchises eliminated', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const placementCaseStudies = [

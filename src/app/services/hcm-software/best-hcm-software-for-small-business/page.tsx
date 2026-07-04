@@ -5,17 +5,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'Best HCM for Small Business | Instant Price Quote | BEG',
-  description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you pick.',
+  description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-small-business' },
   openGraph: {
     title: 'Best HCM for Small Business | Instant Price Quote | BEG',
-    description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you pick.',
+    description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you',
     url: 'https://www.beghr.com/services/hcm-software/best-hcm-software-for-small-business',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Best HCM for Small Business | Instant Price Quote | BEG', description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you pick.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Best HCM for Small Business | Instant Price Quote | BEG', description: 'What to look for in small business HCM software in 2026, the simplicity-versus-growth tradeoff owners face, and why isolved plus BEG is a done-for-you', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

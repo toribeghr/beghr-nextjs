@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'HCM for Marketing Agencies | Instant Price Quote | BEG',
-  description: 'HCM software for marketing and creative agencies: project-based teams, contractor and employee mix, remote workforces, and client-aligned time tracking on isolved.',
+  description: 'HCM software for marketing and creative agencies: project-based teams, contractor and employee mix, remote workforces, and client-aligned time tracking on',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/marketing-agency' },
   openGraph: {
     title: 'HCM for Marketing Agencies | Instant Price Quote | BEG',
-    description: 'HCM software for marketing and creative agencies: project-based teams, contractor and employee mix, remote workforces, and client-aligned time tracking on isolved.',
+    description: 'HCM software for marketing and creative agencies: project-based teams, contractor and employee mix, remote workforces, and client-aligned time tracking on',
     url: 'https://www.beghr.com/services/hcm-software/marketing-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM for Marketing Agencies | Instant Price Quote | BEG', description: 'HCM software for marketing and creative agencies: project-based teams, contractor and employee mix, remote workforces, and client-aligned time tracking on isolved.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM for Marketing Agencies | Instant Price Quote | BEG', description: 'HCM software for marketing and creative agencies: project-based teams, contractor and employee mix, remote workforces, and client-aligned time tracking on', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

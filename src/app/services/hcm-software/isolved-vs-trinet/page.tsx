@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'isolved vs TriNet | Instant Price Quote + Claude AI | BEG',
-  description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.',
+  description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI.',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/isolved-vs-trinet' },
   openGraph: {
     title: 'isolved vs TriNet | Instant Price Quote + Claude AI | BEG',
-    description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.',
+    description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI.',
     url: 'https://www.beghr.com/services/hcm-software/isolved-vs-trinet',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'isolved vs TriNet | Instant Price Quote + Claude AI | BEG', description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI. See which fits firms that want to own HR versus a PEO co-employment model.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'isolved vs TriNet | Instant Price Quote + Claude AI | BEG', description: 'isolved vs TriNet compared on platform breadth, pricing, control, support, and AI.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 

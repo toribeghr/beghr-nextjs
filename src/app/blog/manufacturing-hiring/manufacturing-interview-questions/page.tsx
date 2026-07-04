@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Manufacturing Interview Questions That Actually Work | BEG',
-  description: 'Manufacturing interviews that reveal production track record, quality philosophy, and continuous improvement depth. Questions that identify plant managers and operations directors who deliver.',
+  description: 'Manufacturing interviews that reveal production track record, quality philosophy, and continuous improvement depth.',
   alternates: { canonical: 'https://www.beghr.com/blog/manufacturing-hiring/manufacturing-interview-questions' },
   openGraph: {
     title: 'Manufacturing Interview Questions That Actually Work | BEG',
-    description: 'Manufacturing interviews that reveal production track record, quality philosophy, and continuous improvement depth. Questions that identify plant managers and operations directors who deliver.',
+    description: 'Manufacturing interviews that reveal production track record, quality philosophy, and continuous improvement depth.',
     url: 'https://www.beghr.com/blog/manufacturing-hiring/manufacturing-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/blog-images/blog-manufacturing-hiring-manufacturing-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Manufacturing Interview Questions That Actually Work | BEG', description: 'Manufacturing interviews that reveal production track record, quality philosophy, and continuous improvement depth. Questions that identify plant managers and operations directors who deliver.', images: ['https://www.beghr.com/blog-images/blog-manufacturing-hiring-manufacturing-interview-questions.webp'] },
+  twitter: { card: 'summary_large_image', title: 'Manufacturing Interview Questions That Actually Work | BEG', description: 'Manufacturing interviews that reveal production track record, quality philosophy, and continuous improvement depth.', images: ['https://www.beghr.com/blog-images/blog-manufacturing-hiring-manufacturing-interview-questions.webp'] },
 };
 
 

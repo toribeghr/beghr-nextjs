@@ -3,11 +3,11 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Gusto Alternatives: 7 Managed Payroll Services That Do the Work for You | BEG',
-  description: 'Looking for Gusto alternatives where someone else actually runs your payroll? Here are 7 managed payroll services for companies with 10-250 employees who want payroll done, not just software to run it themselves.',
+  title: '7 Best Gusto Alternatives for Managed Payroll | BEG',
+  description: 'Looking for Gusto alternatives where someone else actually runs your payroll? Here are 7 managed payroll services for companies with 10-250 employees who',
   alternates: { canonical: 'https://www.beghr.com/blog/compare/gusto-alternatives' },
   openGraph: {
-    title: 'Gusto Alternatives: 7 Managed Payroll Services That Do the Work for You | BEG',
+    title: '7 Best Gusto Alternatives for Managed Payroll | BEG',
     description: 'Gusto is great software. But if you want someone to run payroll for you, you need a managed service. Here are 7 alternatives that actually handle payroll instead of handing you a platform.',
     url: 'https://www.beghr.com/blog/compare/gusto-alternatives',
     siteName: 'Business Executive Group',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gusto Alternatives: 7 Managed Payroll Services That Do the Work for You | BEG',
+    title: '7 Best Gusto Alternatives for Managed Payroll | BEG',
     description: '7 Gusto alternatives for companies who want payroll handled, not just software to run themselves.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },

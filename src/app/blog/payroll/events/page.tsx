@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Event Company Payroll Guides | Seasonal + Multi-State | BEG',
-  description: 'Event company payroll guides covering seasonal crews, W-2 vs 1099 classification, multi-state compliance, and California AB5. BEG managed payroll at $25-$45 PEPM.',
+  description: 'Event company payroll guides covering seasonal crews, W-2 vs 1099 classification, multi-state compliance, and California AB5.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/events' },
   openGraph: {
     title: 'Event Company Payroll Guides | Seasonal + Multi-State | BEG',
-    description: 'Event company payroll guides covering seasonal crews, W-2 vs 1099 classification, multi-state compliance, and California AB5. BEG managed payroll at $25-$45 PEPM.',
+    description: 'Event company payroll guides covering seasonal crews, W-2 vs 1099 classification, multi-state compliance, and California AB5.',
     url: 'https://www.beghr.com/blog/payroll/events',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Event Company Payroll Guides | Seasonal + Multi-State | BEG', description: 'Event company payroll guides covering seasonal crews, W-2 vs 1099 classification, multi-state compliance, and California AB5. BEG managed payroll at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Event Company Payroll Guides | Seasonal + Multi-State | BEG', description: 'Event company payroll guides covering seasonal crews, W-2 vs 1099 classification, multi-state compliance, and California AB5.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const posts = [

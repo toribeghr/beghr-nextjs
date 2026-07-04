@@ -4,17 +4,17 @@ import RelatedPosts from '@/components/RelatedPosts';
 
 export const metadata: Metadata = {
   title: 'HCM for Insurance Agencies | Instant Price Quote | BEG',
-  description: 'HCM software for insurance agencies: commission and salary pay, producer licensing tracking, multi-state compliance, and benefits administration on one isolved platform.',
+  description: 'HCM software for insurance agencies: commission and salary pay, producer licensing tracking, multi-state compliance, and benefits administration on one',
   alternates: { canonical: 'https://www.beghr.com/services/hcm-software/insurance-agency' },
   openGraph: {
     title: 'HCM for Insurance Agencies | Instant Price Quote | BEG',
-    description: 'HCM software for insurance agencies: commission and salary pay, producer licensing tracking, multi-state compliance, and benefits administration on one isolved platform.',
+    description: 'HCM software for insurance agencies: commission and salary pay, producer licensing tracking, multi-state compliance, and benefits administration on one',
     url: 'https://www.beghr.com/services/hcm-software/insurance-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HCM for Insurance Agencies | Instant Price Quote | BEG', description: 'HCM software for insurance agencies: commission and salary pay, producer licensing tracking, multi-state compliance, and benefits administration on one isolved platform.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HCM for Insurance Agencies | Instant Price Quote | BEG', description: 'HCM software for insurance agencies: commission and salary pay, producer licensing tracking, multi-state compliance, and benefits administration on one', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Financial Firm Payroll Under 25 EE: What Changes | BEG',
-  description: 'Managed payroll for financial services. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
+  description: 'Managed payroll for financial services. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/financial-services/financial-services-managed-payroll-small-business' },
   openGraph: {
     title: 'Financial Firm Payroll Under 25 EE: What Changes | BEG',
-    description: 'Managed payroll for financial services. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
+    description: 'Managed payroll for financial services. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive.',
     url: 'https://www.beghr.com/blog/payroll/financial-services/financial-services-managed-payroll-small-business',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Financial Firm Payroll Under 25 EE: What Changes | BEG', description: 'Managed payroll for financial services. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Financial Firm Payroll Under 25 EE: What Changes | BEG', description: 'Managed payroll for financial services. Managed Payroll for Small Businesses (Under 25 Employees). $25-$45 PEPM all-inclusive.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const faqs = [

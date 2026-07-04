@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Architecture Interview Questions That Actually Work | BEG',
-  description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds. The questions that matter.',
+  description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds.',
   alternates: { canonical: 'https://www.beghr.com/blog/architecture-hiring/architecture-interview-questions' },
   openGraph: {
     title: 'Architecture Interview Questions That Actually Work | BEG',
-    description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds. The questions that matter.',
+    description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds.',
     url: 'https://www.beghr.com/blog/architecture-hiring/architecture-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Architecture Interview Questions That Actually Work | BEG', description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds. The questions that matter.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Architecture Interview Questions That Actually Work | BEG', description: 'Most architecture interviews focus on portfolio and miss the judgment, leadership, and delivery record that decide whether a hire succeeds.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

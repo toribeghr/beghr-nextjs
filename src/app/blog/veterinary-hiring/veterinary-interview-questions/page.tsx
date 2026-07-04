@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Veterinary Interview Questions: Who Actually Stays | BEG',
-  description: 'Veterinary interviews that reveal clinical philosophy, client communication quality, and practice culture fit. Questions that identify associate veterinarians and practice managers who will stay.',
+  description: 'Veterinary interviews that reveal clinical philosophy, client communication quality, and practice culture fit.',
   alternates: { canonical: 'https://www.beghr.com/blog/veterinary-hiring/veterinary-interview-questions' },
   openGraph: {
     title: 'Veterinary Interview Questions: Who Actually Stays | BEG',
-    description: 'Veterinary interviews that reveal clinical philosophy, client communication quality, and practice culture fit. Questions that identify associate veterinarians and practice managers who will stay.',
+    description: 'Veterinary interviews that reveal clinical philosophy, client communication quality, and practice culture fit.',
     url: 'https://www.beghr.com/blog/veterinary-hiring/veterinary-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Veterinary Interview Questions: Who Actually Stays | BEG', description: 'Veterinary interviews that reveal clinical philosophy, client communication quality, and practice culture fit. Questions that identify associate veterinarians and practice managers who will stay.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Veterinary Interview Questions: Who Actually Stays | BEG', description: 'Veterinary interviews that reveal clinical philosophy, client communication quality, and practice culture fit.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

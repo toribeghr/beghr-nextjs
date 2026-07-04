@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Brewery & Distillery Payroll Guides | Taproom + Production | BEG",
-  description: "Payroll guides for craft breweries and distilleries: taproom tip credit, production staff overtime, TTB record-keeping, and compliance. BEG at $25-$45 PEPM.",
+  description: "Payroll guides for craft breweries and distilleries: taproom tip credit, production staff overtime, TTB record-keeping, and compliance.",
   alternates: { canonical: "https://www.beghr.com/blog/payroll/brewery" },
   openGraph: {
     title: "Brewery & Distillery Payroll Guides | Taproom + Production | BEG",
-    description: "Payroll guides for craft breweries and distilleries: taproom tip credit, production staff overtime, TTB record-keeping, and compliance. BEG at $25-$45 PEPM.",
+    description: "Payroll guides for craft breweries and distilleries: taproom tip credit, production staff overtime, TTB record-keeping, and compliance.",
     url: "https://www.beghr.com/blog/payroll/brewery",
     siteName: "Business Executive Group",
     images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],

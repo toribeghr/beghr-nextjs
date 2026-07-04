@@ -4,17 +4,17 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Insurance Interview Questions That Actually Work | BEG',
-  description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership. The questions that identify the right producer or underwriter hire.',
+  description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership.',
   alternates: { canonical: 'https://www.beghr.com/blog/insurance-hiring/insurance-interview-questions' },
   openGraph: {
     title: 'Insurance Interview Questions That Actually Work | BEG',
-    description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership. The questions that identify the right producer or underwriter hire.',
+    description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership.',
     url: 'https://www.beghr.com/blog/insurance-hiring/insurance-interview-questions',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Insurance Interview Questions That Actually Work | BEG', description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership. The questions that identify the right producer or underwriter hire.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Insurance Interview Questions That Actually Work | BEG', description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 

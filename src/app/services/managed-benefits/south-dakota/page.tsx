@@ -5,46 +5,46 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Nevada Mini-COBRA Continuation Rules | BEG',
-  description: 'Nevada mini-COBRA: state continuation coverage rules, employer size, 18 month limit, and who runs the notices. You keep your broker.',
-  alternates: { canonical: 'https://www.beghr.com/services/managed-benefits/nevada' },
+  title: 'South Dakota Mini-COBRA Continuation Rules | BEG',
+  description: 'South Dakota mini-COBRA: state continuation coverage rules, employer size, 18 month limit, and who runs the notices. You keep your broker.',
+  alternates: { canonical: 'https://www.beghr.com/services/managed-benefits/south-dakota' },
   openGraph: {
-    title: 'Nevada Mini-COBRA Continuation Rules | BEG',
-    description: 'Nevada mini-COBRA: state continuation coverage rules, employer size, 18 month limit, and who runs the notices. You keep your broker.',
-    url: 'https://www.beghr.com/services/managed-benefits/nevada',
+    title: 'South Dakota Mini-COBRA Continuation Rules | BEG',
+    description: 'South Dakota mini-COBRA: state continuation coverage rules, employer size, 18 month limit, and who runs the notices. You keep your broker.',
+    url: 'https://www.beghr.com/services/managed-benefits/south-dakota',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Nevada Mini-COBRA Continuation Rules | BEG', description: 'Nevada mini-COBRA: state continuation coverage rules, employer size, 18 month limit, and who runs the notices. You keep your broker.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'South Dakota Mini-COBRA Continuation Rules | BEG', description: 'South Dakota mini-COBRA: state continuation coverage rules, employer size, 18 month limit, and who runs the notices. You keep your broker.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('managed-benefits-nevada');
+const CALENDLY = getCalendlyLink('managed-benefits-south-dakota');
 
 const FAQS: [string, string][] = [
   [
-    'Does Nevada have a mini-COBRA law?',
-    'Yes. Nevada has a state continuation, or mini-COBRA, law that lets employees of smaller companies keep group health coverage after a qualifying event, filling the gap below the federal COBRA threshold of 20 employees. Group health policies issued to employers with fewer than 20 employees (below the federal COBRA threshold). Federal COBRA governs employers with 20 or more employees.',
+    'Does South Dakota have a mini-COBRA law?',
+    'Yes. South Dakota has a state continuation, or mini-COBRA, law that lets employees of smaller companies keep group health coverage after a qualifying event, filling the gap below the federal COBRA threshold of 20 employees. Applies broadly to every self-insured health benefit program and every group health insurance policy delivered or issued in South Dakota (commercial insurers, nonprofit service plans, HMOs). No employer-size threshold in the statute.',
   ],
   [
-    'How long does Nevada continuation coverage last?',
+    'How long does South Dakota continuation coverage last?',
     'Up to 18 months, subject to the state\'s early-termination rules such as non-payment of premium or becoming covered under another plan.',
   ],
   [
-    'Who is eligible to continue coverage in Nevada?',
-    'An employee whose employment is terminated for any reason other than gross misconduct, or whose hours are reduced so they lose eligibility, may elect to continue identical coverage (excluding eye and dental) for up to 18 months. The employee, spouse, or dependent child must have been covered under the employer\'s group policy for at least 12 consecutive months before coverage ended to be eligible.',
+    'Who is eligible to continue coverage in South Dakota?',
+    'Employees (and eligible dependents) who leave employment or whose coverage is terminated by the insurer (other than termination/replacement of the policy itself). Coverage continues 18 months at the employee\'s expense; 29 months for a qualified beneficiary determined disabled under Title II or XVI of the Social Security Act during the first 60 days of continuation.',
   ],
   [
-    'Does Nevada mini-COBRA replace federal COBRA?',
-    'No. Federal COBRA applies to employers with 20 or more employees, and the Nevada law covers the smaller groups federal COBRA does not reach. A company is generally subject to one or the other based on size.',
+    'Does South Dakota mini-COBRA replace federal COBRA?',
+    'No. Federal COBRA applies to employers with 20 or more employees, and the South Dakota law covers the smaller groups federal COBRA does not reach. A company is generally subject to one or the other based on size.',
   ],
   [
-    'Who handles the Nevada continuation notices and tracking?',
+    'Who handles the South Dakota continuation notices and tracking?',
     'The employer and insurer carry the notice and election duties, and the exposure accrues per person if they are missed. BEG Managed Benefits, powered by isolved, runs enrollment, notices, election tracking, and premium status in one system. You keep your broker; we do the administration.',
   ],
 ];
 
-export default function ManagedBenefitsNevadaPage() {
+export default function ManagedBenefitsSouthDakotaPage() {
   return (
     <>
       <script
@@ -53,12 +53,12 @@ export default function ManagedBenefitsNevadaPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Nevada mini-COBRA and state continuation coverage rules',
-            description: 'Nevada mini-COBRA: state continuation coverage rules, employer size, 18 month limit, and who runs the notices. You keep your broker.',
+            headline: 'South Dakota mini-COBRA and state continuation coverage rules',
+            description: 'South Dakota mini-COBRA: state continuation coverage rules, employer size, 18 month limit, and who runs the notices. You keep your broker.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
-            mainEntityOfPage: 'https://www.beghr.com/services/managed-benefits/nevada',
+            mainEntityOfPage: 'https://www.beghr.com/services/managed-benefits/south-dakota',
           }),
         }}
       />
@@ -81,44 +81,44 @@ export default function ManagedBenefitsNevadaPage() {
             itemListElement: [
               { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
               { '@type': 'ListItem', position: 2, name: 'Managed Benefits', item: 'https://www.beghr.com/services/managed-benefits' },
-              { '@type': 'ListItem', position: 3, name: 'Nevada', item: 'https://www.beghr.com/services/managed-benefits/nevada' },
+              { '@type': 'ListItem', position: 3, name: 'South Dakota', item: 'https://www.beghr.com/services/managed-benefits/south-dakota' },
             ],
           }),
         }}
       />
       <ServicePage
         showHeroImage={false}
-        eyebrow="Managed Benefits · Nevada"
-        title="Nevada makes small employers offer continuation. Someone has to run it."
-        description="Nevada is a mini-COBRA state: smaller employers must let departing employees keep group coverage under state law. BEG Managed Benefits, powered by isolved, runs the notices, elections, and premium tracking so the rules are handled. You keep your broker; we do the administration."
+        eyebrow="Managed Benefits · South Dakota"
+        title="South Dakota makes small employers offer continuation. Someone has to run it."
+        description="South Dakota is a mini-COBRA state: smaller employers must let departing employees keep group coverage under state law. BEG Managed Benefits, powered by isolved, runs the notices, elections, and premium tracking so the rules are handled. You keep your broker; we do the administration."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="managed-benefits" />}
         heroStats={[
-          { value: '18 months', label: 'Nevada state continuation limit' },
+          { value: '18 months', label: 'South Dakota state continuation limit' },
           { value: 'Broker-friendly', label: 'You keep your broker, we do the admin' },
-          { value: 'All 50', label: 'States covered, Nevada included' },
+          { value: 'All 50', label: 'States covered, South Dakota included' },
         ]}
       >
         {/* STATE FACTS */}
         <section className="section section--soft">
           <div className="container" style={{ maxWidth: '860px' }}>
             <div className="head center reveal">
-              <p className="eyebrow">Nevada Continuation, In Brief</p>
-              <h2>What Nevada law requires</h2>
+              <p className="eyebrow">South Dakota Continuation, In Brief</p>
+              <h2>What South Dakota law requires</h2>
             </div>
             <div style={{ overflowX: 'auto', marginTop: '2rem' }} className="reveal">
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px' }}>
                 <tbody>
-                  <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>State law</td><td style={{ padding: '12px 16px', color: '#555555' }}>Nev. Rev. Stat. 689B.245 (required continuation provision); Nev. Rev. Stat. 689B.249 (termination of continued coverage before end of period)</td></tr>
-                  <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Employers covered</td><td style={{ padding: '12px 16px', color: '#555555' }}>Group health policies issued to employers with fewer than 20 employees (below the federal COBRA threshold). Federal COBRA governs employers with 20 or more employees.</td></tr>
+                  <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>State law</td><td style={{ padding: '12px 16px', color: '#555555' }}>S.D. Codified Laws section 58-18-7.5</td></tr>
+                  <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Employers covered</td><td style={{ padding: '12px 16px', color: '#555555' }}>Applies broadly to every self-insured health benefit program and every group health insurance policy delivered or issued in South Dakota (commercial insurers, nonprofit service plans, HMOs). No employer-size threshold in the statute.</td></tr>
                   <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Maximum continuation</td><td style={{ padding: '12px 16px', color: '#555555' }}>Up to 18 months</td></tr>
                   <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>At 20 or more employees</td><td style={{ padding: '12px 16px', color: '#555555' }}>Federal COBRA applies instead</td></tr>
-                  <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Marketplace</td><td style={{ padding: '12px 16px', color: '#555555' }}>Runs its own state-based marketplace: Nevada Health Link (https://www.nevadahealthlink.com/).</td></tr>
+                  <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Marketplace</td><td style={{ padding: '12px 16px', color: '#555555' }}>Uses the federal marketplace, HealthCare.gov (South Dakota does not run a state-based exchange).</td></tr>
                 </tbody>
               </table>
             </div>
             <p className="reveal" style={{ fontSize: '0.8rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
-              Source: <a href="https://www.leg.state.nv.us/NRS/NRS-689B.html" target="_blank" rel="noopener noreferrer">Nevada statute and department of insurance (www.leg.state.nv.us)</a>. This page is general information, not legal advice.
+              Source: <a href="https://sdlegislature.gov/Statutes/58-18-7.5" target="_blank" rel="noopener noreferrer">South Dakota statute and department of insurance (sdlegislature.gov)</a>. This page is general information, not legal advice.
             </p>
           </div>
         </section>
@@ -128,10 +128,10 @@ export default function ManagedBenefitsNevadaPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">Why It Lands On You</p>
-              <h2>A small Nevada employer carries big-company continuation duties</h2>
+              <h2>A small South Dakota employer carries big-company continuation duties</h2>
             </div>
             <p className="reveal" style={{ color: '#444444', lineHeight: '1.8', fontSize: '0.98rem', marginTop: '1.5rem' }}>
-              The Nevada rule reaches companies too small to have a benefits department, yet the notices, election windows, and premium tracking look a lot like federal COBRA. Miss a required notice and the exposure accrues per person. BEG Managed Benefits, powered by isolved, runs Nevada continuation the same way it runs enrollment: notices generated on the qualifying event, elections and payments tracked, and the clock watched so nothing slips. Your broker keeps advising you and placing coverage. We own the administration behind it.
+              The South Dakota rule reaches companies too small to have a benefits department, yet the notices, election windows, and premium tracking look a lot like federal COBRA. Miss a required notice and the exposure accrues per person. BEG Managed Benefits, powered by isolved, runs South Dakota continuation the same way it runs enrollment: notices generated on the qualifying event, elections and payments tracked, and the clock watched so nothing slips. Your broker keeps advising you and placing coverage. We own the administration behind it.
             </p>
             <div className="reveal" style={{ marginTop: '2rem', textAlign: 'center' }}>
               <PricingCta service="managed-benefits" />
@@ -147,7 +147,7 @@ export default function ManagedBenefitsNevadaPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">Questions</p>
-              <h2>Nevada continuation coverage, answered</h2>
+              <h2>South Dakota continuation coverage, answered</h2>
             </div>
             <div className="reveal" style={{ marginTop: '2rem' }}>
               {FAQS.map(([q, a]) => (

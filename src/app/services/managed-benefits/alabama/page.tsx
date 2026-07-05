@@ -5,46 +5,46 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Idaho Mini-COBRA: No State Law | BEG',
-  description: 'Idaho has no state mini-COBRA. Federal COBRA covers employers with 20 or more employees. What small Idaho employers and staff can do.',
-  alternates: { canonical: 'https://www.beghr.com/services/managed-benefits/idaho' },
+  title: 'Alabama Mini-COBRA: No State Law | BEG',
+  description: 'Alabama has no state mini-COBRA. Federal COBRA covers employers with 20 or more employees. What small Alabama employers and staff can do.',
+  alternates: { canonical: 'https://www.beghr.com/services/managed-benefits/alabama' },
   openGraph: {
-    title: 'Idaho Mini-COBRA: No State Law | BEG',
-    description: 'Idaho has no state mini-COBRA. Federal COBRA covers employers with 20 or more employees. What small Idaho employers and staff can do.',
-    url: 'https://www.beghr.com/services/managed-benefits/idaho',
+    title: 'Alabama Mini-COBRA: No State Law | BEG',
+    description: 'Alabama has no state mini-COBRA. Federal COBRA covers employers with 20 or more employees. What small Alabama employers and staff can do.',
+    url: 'https://www.beghr.com/services/managed-benefits/alabama',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Idaho Mini-COBRA: No State Law | BEG', description: 'Idaho has no state mini-COBRA. Federal COBRA covers employers with 20 or more employees. What small Idaho employers and staff can do.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Alabama Mini-COBRA: No State Law | BEG', description: 'Alabama has no state mini-COBRA. Federal COBRA covers employers with 20 or more employees. What small Alabama employers and staff can do.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
-const CALENDLY = getCalendlyLink('managed-benefits-idaho');
+const CALENDLY = getCalendlyLink('managed-benefits-alabama');
 
 const FAQS: [string, string][] = [
   [
-    'Does Idaho have a mini-COBRA law?',
-    'No. Idaho has no state continuation, or mini-COBRA, statute giving employees of small employers a right to keep group coverage after a qualifying event. Continuation in Idaho runs through federal COBRA, which applies only to employers with 20 or more employees.',
+    'Does Alabama have a mini-COBRA law?',
+    'No. Alabama has no state continuation, or mini-COBRA, statute giving employees of small employers a right to keep group coverage after a qualifying event. Continuation in Alabama runs through federal COBRA, which applies only to employers with 20 or more employees.',
   ],
   [
-    'What covers continuation in Idaho then?',
-    'Federal COBRA for employers with 20 or more employees. Below that size there is no Idaho mandate, though a plan or carrier may offer voluntary continuation or conversion to an individual policy.',
+    'What covers continuation in Alabama then?',
+    'Federal COBRA for employers with 20 or more employees. Below that size there is no Alabama mandate, though a plan or carrier may offer voluntary continuation or conversion to an individual policy.',
   ],
   [
-    'Where do Idaho employees get coverage after a job loss?',
-    'Losing job-based coverage opens a special enrollment period. State-based marketplace: Your Health Idaho (uses its own platform, not HealthCare.gov). Loss of coverage can also open Medicaid eligibility for lower-income households.',
+    'Where do Alabama employees get coverage after a job loss?',
+    'Losing job-based coverage opens a special enrollment period. Uses HealthCare.gov (federal marketplace; Alabama does not run its own state-based exchange). Loss of coverage can also open Medicaid eligibility for lower-income households.',
   ],
   [
-    'Is there any Idaho continuation right at all?',
-    'There is no general termination-based right. Idaho\'s insurance code may contain narrow provisions, such as a limited extension for a totally disabled person, but nothing equivalent to COBRA for small-employer groups.',
+    'Is there any Alabama continuation right at all?',
+    'There is no general termination-based right. Alabama\'s insurance code may contain narrow provisions, such as a limited extension for a totally disabled person, but nothing equivalent to COBRA for small-employer groups.',
   ],
   [
-    'How does benefits administration help if there is no Idaho mandate?',
+    'How does benefits administration help if there is no Alabama mandate?',
     'The workload does not disappear: enrollment, ACA tracking, federal COBRA once you cross 20 employees, and carrier updates still have to run. BEG Managed Benefits, powered by isolved, handles that administration in one system. You keep your broker; we do the work.',
   ],
 ];
 
-export default function ManagedBenefitsIdahoPage() {
+export default function ManagedBenefitsAlabamaPage() {
   return (
     <>
       <script
@@ -53,12 +53,12 @@ export default function ManagedBenefitsIdahoPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Idaho mini-COBRA and state continuation coverage rules',
-            description: 'Idaho has no state mini-COBRA. Federal COBRA covers employers with 20 or more employees. What small Idaho employers and staff can do.',
+            headline: 'Alabama mini-COBRA and state continuation coverage rules',
+            description: 'Alabama has no state mini-COBRA. Federal COBRA covers employers with 20 or more employees. What small Alabama employers and staff can do.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
-            mainEntityOfPage: 'https://www.beghr.com/services/managed-benefits/idaho',
+            mainEntityOfPage: 'https://www.beghr.com/services/managed-benefits/alabama',
           }),
         }}
       />
@@ -81,20 +81,20 @@ export default function ManagedBenefitsIdahoPage() {
             itemListElement: [
               { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.beghr.com' },
               { '@type': 'ListItem', position: 2, name: 'Managed Benefits', item: 'https://www.beghr.com/services/managed-benefits' },
-              { '@type': 'ListItem', position: 3, name: 'Idaho', item: 'https://www.beghr.com/services/managed-benefits/idaho' },
+              { '@type': 'ListItem', position: 3, name: 'Alabama', item: 'https://www.beghr.com/services/managed-benefits/alabama' },
             ],
           }),
         }}
       />
       <ServicePage
         showHeroImage={false}
-        eyebrow="Managed Benefits · Idaho"
-        title="Idaho has no mini-COBRA. The benefits work still has to get done."
-        description="Idaho does not require small employers to continue coverage after a qualifying event; only federal COBRA at 20-plus employees applies. But enrollment, ACA, and clean records still land on someone. BEG Managed Benefits, powered by isolved, runs that administration. You keep your broker; we do the work."
+        eyebrow="Managed Benefits · Alabama"
+        title="Alabama has no mini-COBRA. The benefits work still has to get done."
+        description="Alabama does not require small employers to continue coverage after a qualifying event; only federal COBRA at 20-plus employees applies. But enrollment, ACA, and clean records still land on someone. BEG Managed Benefits, powered by isolved, runs that administration. You keep your broker; we do the work."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="managed-benefits" />}
         heroStats={[
-          { value: 'No state law', label: 'Idaho has no mini-COBRA mandate' },
+          { value: 'No state law', label: 'Alabama has no mini-COBRA mandate' },
           { value: '20+', label: 'Federal COBRA threshold that does apply' },
           { value: 'Broker-friendly', label: 'You keep your broker, we do the admin' },
         ]}
@@ -103,8 +103,8 @@ export default function ManagedBenefitsIdahoPage() {
         <section className="section section--soft">
           <div className="container" style={{ maxWidth: '860px' }}>
             <div className="head center reveal">
-              <p className="eyebrow">Idaho Continuation, In Brief</p>
-              <h2>What Idaho law does and does not require</h2>
+              <p className="eyebrow">Alabama Continuation, In Brief</p>
+              <h2>What Alabama law does and does not require</h2>
             </div>
             <div style={{ overflowX: 'auto', marginTop: '2rem' }} className="reveal">
               <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px' }}>
@@ -112,12 +112,12 @@ export default function ManagedBenefitsIdahoPage() {
                   <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>State mini-COBRA</td><td style={{ padding: '12px 16px', color: '#555555' }}>None. No state termination-based continuation mandate</td></tr>
                   <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Federal COBRA</td><td style={{ padding: '12px 16px', color: '#555555' }}>Applies to employers with 20 or more employees</td></tr>
                   <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Below 20 employees</td><td style={{ padding: '12px 16px', color: '#555555' }}>No state continuation requirement; voluntary continuation or conversion may be offered</td></tr>
-                  <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Marketplace</td><td style={{ padding: '12px 16px', color: '#555555' }}>State-based marketplace: Your Health Idaho (uses its own platform, not HealthCare.gov).</td></tr>
+                  <tr style={{ borderBottom: '1px solid #e5e5e5' }}><td style={{ padding: '12px 16px', fontWeight: 600, color: '#333333', width: '38%' }}>Marketplace</td><td style={{ padding: '12px 16px', color: '#555555' }}>Uses HealthCare.gov (federal marketplace; Alabama does not run its own state-based exchange).</td></tr>
                 </tbody>
               </table>
             </div>
             <p className="reveal" style={{ fontSize: '0.8rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
-              Source: <a href="https://doi.idaho.gov/consumers/health-insurance/group-health/" target="_blank" rel="noopener noreferrer">Idaho statute and department of insurance (doi.idaho.gov)</a>. This page is general information, not legal advice.
+              Source: <a href="https://aldoi.gov/currentnewsitem.aspx?ID=234" target="_blank" rel="noopener noreferrer">Alabama statute and department of insurance (aldoi.gov)</a>. This page is general information, not legal advice.
             </p>
           </div>
         </section>
@@ -130,7 +130,7 @@ export default function ManagedBenefitsIdahoPage() {
               <h2>The administration does not go away because the state stayed quiet</h2>
             </div>
             <p className="reveal" style={{ color: '#444444', lineHeight: '1.8', fontSize: '0.98rem', marginTop: '1.5rem' }}>
-              A Idaho employer still runs open enrollment, tracks ACA eligibility, handles federal COBRA once it crosses 20 employees, keeps carrier records current, and answers employee questions when someone leaves. The absence of a state mini-COBRA rule does not lighten that load; it just means your plan documents and process have to be clear about what you offer. BEG Managed Benefits, powered by isolved, runs that administration in one system: enrollment, ACA forms, federal COBRA when it applies, and clean data your broker and carriers can trust.
+              A Alabama employer still runs open enrollment, tracks ACA eligibility, handles federal COBRA once it crosses 20 employees, keeps carrier records current, and answers employee questions when someone leaves. The absence of a state mini-COBRA rule does not lighten that load; it just means your plan documents and process have to be clear about what you offer. BEG Managed Benefits, powered by isolved, runs that administration in one system: enrollment, ACA forms, federal COBRA when it applies, and clean data your broker and carriers can trust.
             </p>
             <div className="reveal" style={{ marginTop: '2rem', textAlign: 'center' }}>
               <PricingCta service="managed-benefits" />
@@ -146,7 +146,7 @@ export default function ManagedBenefitsIdahoPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">Questions</p>
-              <h2>Idaho continuation coverage, answered</h2>
+              <h2>Alabama continuation coverage, answered</h2>
             </div>
             <div className="reveal" style={{ marginTop: '2rem' }}>
               {FAQS.map(([q, a]) => (

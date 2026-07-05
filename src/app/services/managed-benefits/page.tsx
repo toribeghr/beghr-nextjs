@@ -85,7 +85,7 @@ export default function ManagedBenefitsPage() {
           { value: '3 Plans', label: 'From self-service software to fully managed' },
         ]}
       >
-        {/* SITE SEARCH — vertical-scoped band beneath the hero */}
+        {/* SITE SEARCH: vertical-scoped band beneath the hero */}
         <InlineSearch
           vertical="Managed Benefits"
           heading="Looking for something specific?"
@@ -360,9 +360,6 @@ export default function ManagedBenefitsPage() {
                 </Link>
               ))}
             </div>
-            <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '1.5rem', lineHeight: '1.7' }}>
-              State continuation guides: <Link href="/services/managed-benefits/nevada">Nevada mini-COBRA</Link> · <Link href="/services/managed-benefits/idaho">Idaho continuation rules</Link>
-            </p>
           </div>
         </section>
 
@@ -416,6 +413,71 @@ export default function ManagedBenefitsPage() {
                   <p>{blurb}</p>
                 </Link>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* BY STATE */}
+        <section className="section">
+          <div className="container">
+            <div className="head center reveal">
+              <p className="eyebrow">By State</p>
+              <h2>State continuation (mini-COBRA) rules, one page per state</h2>
+              <p style={{ margin: '0.75rem auto 0', maxWidth: '640px', color: '#666666', fontSize: '0.97rem', lineHeight: '1.7' }}>
+                Employer-size thresholds and continuation limits vary hard by state, and some states have no mini-COBRA at all. Find yours below.
+              </p>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', gap: '0.4rem 1.25rem', marginTop: '2rem' }}>
+              <Link key="alabama" href="/services/managed-benefits/alabama" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Alabama</Link>
+              <Link key="alaska" href="/services/managed-benefits/alaska" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Alaska</Link>
+              <Link key="arizona" href="/services/managed-benefits/arizona" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Arizona</Link>
+              <Link key="arkansas" href="/services/managed-benefits/arkansas" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Arkansas</Link>
+              <Link key="california" href="/services/managed-benefits/california" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>California</Link>
+              <Link key="colorado" href="/services/managed-benefits/colorado" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Colorado</Link>
+              <Link key="connecticut" href="/services/managed-benefits/connecticut" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Connecticut</Link>
+              <Link key="delaware" href="/services/managed-benefits/delaware" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Delaware</Link>
+              <Link key="florida" href="/services/managed-benefits/florida" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Florida</Link>
+              <Link key="georgia" href="/services/managed-benefits/georgia" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Georgia</Link>
+              <Link key="hawaii" href="/services/managed-benefits/hawaii" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Hawaii</Link>
+              <Link key="idaho" href="/services/managed-benefits/idaho" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Idaho</Link>
+              <Link key="illinois" href="/services/managed-benefits/illinois" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Illinois</Link>
+              <Link key="indiana" href="/services/managed-benefits/indiana" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Indiana</Link>
+              <Link key="iowa" href="/services/managed-benefits/iowa" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Iowa</Link>
+              <Link key="kansas" href="/services/managed-benefits/kansas" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Kansas</Link>
+              <Link key="kentucky" href="/services/managed-benefits/kentucky" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Kentucky</Link>
+              <Link key="louisiana" href="/services/managed-benefits/louisiana" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Louisiana</Link>
+              <Link key="maine" href="/services/managed-benefits/maine" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Maine</Link>
+              <Link key="maryland" href="/services/managed-benefits/maryland" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Maryland</Link>
+              <Link key="massachusetts" href="/services/managed-benefits/massachusetts" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Massachusetts</Link>
+              <Link key="michigan" href="/services/managed-benefits/michigan" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Michigan</Link>
+              <Link key="minnesota" href="/services/managed-benefits/minnesota" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Minnesota</Link>
+              <Link key="mississippi" href="/services/managed-benefits/mississippi" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Mississippi</Link>
+              <Link key="missouri" href="/services/managed-benefits/missouri" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Missouri</Link>
+              <Link key="montana" href="/services/managed-benefits/montana" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Montana</Link>
+              <Link key="nebraska" href="/services/managed-benefits/nebraska" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Nebraska</Link>
+              <Link key="nevada" href="/services/managed-benefits/nevada" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Nevada</Link>
+              <Link key="new-hampshire" href="/services/managed-benefits/new-hampshire" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>New Hampshire</Link>
+              <Link key="new-jersey" href="/services/managed-benefits/new-jersey" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>New Jersey</Link>
+              <Link key="new-mexico" href="/services/managed-benefits/new-mexico" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>New Mexico</Link>
+              <Link key="new-york" href="/services/managed-benefits/new-york" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>New York</Link>
+              <Link key="north-carolina" href="/services/managed-benefits/north-carolina" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>North Carolina</Link>
+              <Link key="north-dakota" href="/services/managed-benefits/north-dakota" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>North Dakota</Link>
+              <Link key="ohio" href="/services/managed-benefits/ohio" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Ohio</Link>
+              <Link key="oklahoma" href="/services/managed-benefits/oklahoma" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Oklahoma</Link>
+              <Link key="oregon" href="/services/managed-benefits/oregon" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Oregon</Link>
+              <Link key="pennsylvania" href="/services/managed-benefits/pennsylvania" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Pennsylvania</Link>
+              <Link key="rhode-island" href="/services/managed-benefits/rhode-island" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Rhode Island</Link>
+              <Link key="south-carolina" href="/services/managed-benefits/south-carolina" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>South Carolina</Link>
+              <Link key="south-dakota" href="/services/managed-benefits/south-dakota" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>South Dakota</Link>
+              <Link key="tennessee" href="/services/managed-benefits/tennessee" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Tennessee</Link>
+              <Link key="texas" href="/services/managed-benefits/texas" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Texas</Link>
+              <Link key="utah" href="/services/managed-benefits/utah" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Utah</Link>
+              <Link key="vermont" href="/services/managed-benefits/vermont" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Vermont</Link>
+              <Link key="virginia" href="/services/managed-benefits/virginia" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Virginia</Link>
+              <Link key="washington" href="/services/managed-benefits/washington" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Washington</Link>
+              <Link key="west-virginia" href="/services/managed-benefits/west-virginia" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>West Virginia</Link>
+              <Link key="wisconsin" href="/services/managed-benefits/wisconsin" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Wisconsin</Link>
+              <Link key="wyoming" href="/services/managed-benefits/wyoming" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Wyoming</Link>
             </div>
           </div>
         </section>

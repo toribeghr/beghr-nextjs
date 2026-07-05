@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
-import InlineSearch from '@/components/InlineSearch';
 import PricingCta from '@/components/pricing/PricingCta';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
@@ -42,14 +41,6 @@ export default function ManagedPayrollPage() {
         { value: '3-5 Days', label: 'To live managed payroll' },
       ]}
     >
-
-      {/* SITE SEARCH — vertical-scoped band beneath the hero */}
-      <InlineSearch
-        vertical="Managed Payroll"
-        heading="Looking for something specific?"
-        subhead="Search our Managed Payroll pages and guides."
-        chips={['payroll pricing', 'cost calculator', 'payroll by industry', 'tax filing']}
-      />
 
       {/* PAIN */}
       <section className="section section--soft">

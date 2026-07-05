@@ -34,6 +34,12 @@ const EXTRA_ROUTES = [
   '/services/managed-payroll/alternatives-to-deel',
   '/services/managed-payroll/alternatives-to-rippling',
   '/services/managed-payroll/alternatives-to-trinet',
+  '/services/managed-payroll/alternatives-to-quickbooks-payroll',
+  '/services/managed-payroll/alternatives-to-onpay',
+  '/services/managed-payroll/alternatives-to-square-payroll',
+  '/services/managed-payroll/alternatives-to-surepayroll',
+  '/services/managed-payroll/alternatives-to-patriot-payroll',
+  '/services/managed-payroll/alternatives-to-justworks-payroll',
 ];
 for (const r of EXTRA_ROUTES) if (!routes.includes(r)) routes.push(r);
 

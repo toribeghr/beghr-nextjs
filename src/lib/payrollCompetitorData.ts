@@ -512,6 +512,479 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       { href: '/services/managed-payroll/engineering', label: 'Managed Payroll for Engineering Firms' },
     ],
   },
+  // ---------------------------------------------------------------------------
+  // QuickBooks Payroll
+  // ---------------------------------------------------------------------------
+  {
+    slug: 'alternatives-to-quickbooks-payroll',
+    name: 'QuickBooks Payroll',
+    shortName: 'QuickBooks',
+    primaryKeyword: 'QuickBooks Payroll alternative',
+    titleTag: 'QuickBooks Payroll Alternative | Instant Quote | BEG',
+    metaDescription:
+      'Outgrowing QuickBooks Payroll? BEG runs fully managed payroll at $25-$45 PEPM, all-inclusive. No spreadsheets, no DIY filings. Book a free scope review.',
+    headline: 'QuickBooks Payroll still makes you the payroll department.',
+    subHeadline:
+      'QuickBooks Payroll bolts a payroll module onto your accounting software, but you are still the one running the cycle, chasing tax notices, and fixing errors at year-end. BEG manages the entire payroll function for $25-$45 PEPM -- all-inclusive, fully hands-off.',
+    competitorModel: 'Accounting-software payroll add-on, self-service tiers',
+    competitorPEPM: '$45-$90+ PEPM depending on tier (Core, Premium, Elite)',
+    pains: [
+      'QuickBooks Payroll is a module bolted onto your books, not a payroll department. Someone on your team still has to run every cycle, approve every payment, and catch every exception before it becomes a problem.',
+      'Tax penalty protection is only included on the higher tiers. On lower tiers, if a filing is late or wrong, you are the one dealing with the IRS notice and the penalty, not QuickBooks.',
+      'Support is tier-gated. Real-time help is reserved for Premium and Elite plans. If you are on Core, you are largely on your own with help articles and chat queues when something breaks mid-cycle.',
+    ],
+    compRows: [
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$2,250-$4,500+ at Premium/Elite tiers'],
+      ['Who runs payroll', 'BEG: fully managed', 'You, inside QuickBooks'],
+      ['Hidden fees', 'None -- one flat PEPM', 'Tier upgrades, tax penalty protection, add-ons'],
+      ['Migration required', 'No -- works in your system or isolved', 'Already tied to your QuickBooks books'],
+      ['Ideal company size', 'Growing companies, 10-500 employees', 'Solo owners and very small teams'],
+      ['Dedicated contact', 'Yes -- one BEG specialist', 'Tiered support, chat on lower plans'],
+    ],
+    bonuses: [
+      {
+        badge: 'Bonus 01',
+        title: 'BEG can manage payroll without touching your QuickBooks books.',
+        objection: 'Common objection: "Our accounting is tied to QuickBooks and we do not want to disturb it."',
+        body: 'You do not have to rip out QuickBooks accounting to fix payroll. BEG manages the payroll function separately and delivers clean summary entries that sync with your existing QuickBooks books. Your accountant sees no disruption. Your payroll team disappears.',
+      },
+      {
+        badge: 'Bonus 02',
+        title: 'One flat rate. No tier upgrade just to get real support.',
+        objection: 'Common objection: "We keep getting pushed to upgrade our QuickBooks Payroll tier."',
+        body: '$25-$45 PEPM covers everything: payroll processing, tax filings, W-2s, direct deposit, compliance monitoring, new hire reporting, garnishments, and year-end close. You are not paying more every time you need a feature that was gated behind the next tier.',
+      },
+      {
+        badge: 'Bonus 03',
+        title: 'Free payroll fee audit before you commit to anything.',
+        objection: 'Common objection: "I am not sure our current QuickBooks Payroll tier is even the right one."',
+        body: 'Send us your last three QuickBooks Payroll invoices and we calculate your true cost per employee per month, including tier fees and add-ons. Most growing companies discover they have outgrown the DIY model entirely. The audit is free and yours to keep whether or not you become a BEG client.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Can BEG manage payroll without changing our QuickBooks accounting setup?',
+        a: 'Yes. BEG manages the payroll function and delivers clean journal entries that sync with your existing QuickBooks accounting. You keep your books exactly as they are; you just stop running payroll yourself.',
+      },
+      {
+        q: 'How much does QuickBooks Payroll actually cost compared to BEG?',
+        a: 'QuickBooks Payroll ranges from about $45 PEPM on Core to $90+ PEPM on Elite, depending on features like tax penalty protection and same-day direct deposit. BEG managed payroll is $25-$45 PEPM all-inclusive with a dedicated specialist running every cycle.',
+      },
+      {
+        q: 'Does switching from QuickBooks Payroll to BEG require migrating our data?',
+        a: 'Not necessarily. BEG can work alongside your existing QuickBooks accounting or, if you prefer a full HCM platform, we can migrate you to isolved with zero disruption to your payroll cycle.',
+      },
+      {
+        q: 'What does BEG include that QuickBooks Payroll charges extra for?',
+        a: 'BEG includes W-2 preparation, tax filing, garnishment processing, year-end close, and employee paycheck support in the flat PEPM rate. QuickBooks gates tax penalty protection and premium support behind higher tiers.',
+      },
+      {
+        q: 'Is BEG a good fit if we are outgrowing QuickBooks Payroll?',
+        a: 'Yes. QuickBooks Payroll is built for solo owners and very small teams doing it themselves. Once you are managing 10 or more employees, BEG takes the entire function off your plate at a comparable or lower effective cost.',
+      },
+    ],
+    relatedIndustries: [
+      { href: '/services/managed-payroll/accounting-cpa', label: 'Managed Payroll for Accounting CPA' },
+      { href: '/services/managed-payroll/construction', label: 'Managed Payroll for Construction' },
+      { href: '/services/managed-payroll/home-services', label: 'Managed Payroll for Home Services' },
+      { href: '/services/managed-payroll/trades', label: 'Managed Payroll for Trades' },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // OnPay
+  // ---------------------------------------------------------------------------
+  {
+    slug: 'alternatives-to-onpay',
+    name: 'OnPay',
+    shortName: 'OnPay',
+    primaryKeyword: 'OnPay alternative',
+    titleTag: 'OnPay Alternative | Instant Managed Payroll Quote | BEG',
+    metaDescription:
+      'OnPay is simple payroll software you still run yourself. BEG manages the entire cycle for $25-$45 PEPM, all-inclusive. Book a free scope review today.',
+    headline: 'OnPay keeps pricing simple. It does not keep payroll off your desk.',
+    subHeadline:
+      'OnPay is straightforward, single-tier software built for small businesses who do not mind running payroll themselves. BEG delivers the fully managed outcome, no login required, for a comparable cost.',
+    competitorModel: 'Single-tier, self-service payroll software for SMBs',
+    competitorPEPM: '$40 base plus per-employee fee (published flat-rate model)',
+    pains: [
+      'OnPay is easy to use, but easy still means someone on your team logs in every pay period, reviews the run, and approves it. That time does not disappear because the software is simple.',
+      'OnPay support is solid for a small software company, but there is no dedicated specialist assigned to your account who already knows your payroll history and quirks.',
+      'As you add employees across states, multi-state compliance and registrations still require your attention to verify. OnPay assists the process; it does not own it for you.',
+    ],
+    compRows: [
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$1,900-$2,400+ depending on add-ons'],
+      ['Who runs payroll', 'BEG: fully managed', 'You, inside OnPay'],
+      ['Hidden fees', 'None -- one flat PEPM', 'Base fee plus per-employee charges'],
+      ['Migration required', 'No -- works in your system or isolved', 'Already set up in OnPay'],
+      ['Ideal company size', 'Growing companies, 10-500 employees', 'Very small businesses, single location'],
+      ['Dedicated contact', 'Yes -- one BEG specialist', 'General support team, no named rep'],
+    ],
+    bonuses: [
+      {
+        badge: 'Bonus 01',
+        title: 'BEG can run payroll inside your existing OnPay account.',
+        objection: 'Common objection: "We just got OnPay set up and do not want to start over."',
+        body: 'You do not have to migrate anything. BEG can manage payroll operations directly inside your current OnPay account, keeping the same platform and employee experience while we take over the processing, filings, and exception handling. If you later want a full HCM platform, we handle a move to isolved with zero disruption.',
+      },
+      {
+        badge: 'Bonus 02',
+        title: 'One flat rate replaces the per-employee math.',
+        objection: 'Common objection: "OnPay pricing seems simple already, why switch?"',
+        body: 'OnPay pricing is simple to read, but it still scales per employee and still requires your team to run the cycle. BEG is $25-$45 PEPM, all-inclusive, and nobody on your staff touches payroll. The comparison is not just price, it is the hours you get back every pay period.',
+      },
+      {
+        badge: 'Bonus 03',
+        title: 'Free payroll fee audit before you commit to anything.',
+        objection: 'Common objection: "I want to know our real cost before switching."',
+        body: 'Send us your last three OnPay invoices and we calculate your true cost per employee per month, including any add-ons. The audit is free and yours to keep whether or not you become a BEG client.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Can BEG manage payroll inside our existing OnPay account?',
+        a: 'Yes. BEG can operate inside your current OnPay environment as your managed payroll provider, handling processing, compliance, and employee questions without requiring a platform change.',
+      },
+      {
+        q: 'How does OnPay pricing compare to BEG?',
+        a: 'OnPay uses a published base fee plus a per-employee charge that scales with headcount and add-ons. BEG managed payroll is $25-$45 PEPM all-inclusive, with BEG running every cycle rather than your team.',
+      },
+      {
+        q: 'Does switching from OnPay to BEG require migrating employee data?',
+        a: 'Not necessarily. If you want to stay in OnPay, BEG manages inside it. If you want to move to isolved, BEG handles the full data migration with no disruption to your payroll cycle.',
+      },
+      {
+        q: 'What does BEG include that OnPay leaves to us?',
+        a: 'BEG runs the entire cycle end to end: processing, tax filings, W-2s, garnishments, new hire reporting, and year-end close. With OnPay, your team still logs in to review and approve each run.',
+      },
+      {
+        q: 'Is BEG a good fit for a company currently on OnPay and growing fast?',
+        a: 'Yes. OnPay works well for small, simple payrolls. As headcount and state complexity grow, BEG takes the entire function off your plate at a comparable all-in cost.',
+      },
+    ],
+    relatedIndustries: [
+      { href: '/services/managed-payroll/home-services', label: 'Managed Payroll for Home Services' },
+      { href: '/services/managed-payroll/construction', label: 'Managed Payroll for Construction' },
+      { href: '/services/managed-payroll/franchise', label: 'Managed Payroll for Franchise' },
+      { href: '/services/managed-payroll/trades', label: 'Managed Payroll for Trades' },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // Square Payroll
+  // ---------------------------------------------------------------------------
+  {
+    slug: 'alternatives-to-square-payroll',
+    name: 'Square Payroll',
+    shortName: 'Square',
+    primaryKeyword: 'Square Payroll alternative',
+    titleTag: 'Square Payroll Alternative | Instant Quote | BEG',
+    metaDescription:
+      'Square Payroll works well with Square POS but leaves the running to you. BEG manages payroll fully at $25-$45 PEPM, all-inclusive. Free scope review.',
+    headline: 'Square Payroll ties neatly to your point of sale. It still does not run itself.',
+    subHeadline:
+      'Square Payroll is built to sync with Square timecards and POS data, which is great if that is your whole business. But your team still logs in, reviews hours, and approves every run. BEG manages the entire payroll function for $25-$45 PEPM, fully hands-off.',
+    competitorModel: 'POS-integrated, self-service payroll for hourly and retail teams',
+    competitorPEPM: '$35-$40 base plus published per-employee fee',
+    pains: [
+      'Square Payroll is convenient if you live inside the Square ecosystem, but the moment you use other timekeeping, scheduling, or POS tools, the integration advantage disappears and you are left running plain payroll software.',
+      'Someone still has to log in, review hours pulled from timecards, fix discrepancies, and approve the run every single pay period. Square automates the data flow, not the decision-making.',
+      'Support is general, not dedicated. There is no single specialist tracking your account history, your state registrations, or your specific payroll quirks across pay periods.',
+    ],
+    compRows: [
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$1,750-$2,300+ with contractor add-ons'],
+      ['Who runs payroll', 'BEG: fully managed', 'You, inside Square Payroll'],
+      ['Hidden fees', 'None -- one flat PEPM', 'Per-employee fees, contractor-only plan limits'],
+      ['Migration required', 'No -- works in your system or isolved', 'Tied to Square POS and timecards'],
+      ['Ideal company size', 'Growing companies, 10-500 employees', 'Retail and hourly teams on Square POS'],
+      ['Dedicated contact', 'Yes -- one BEG specialist', 'General support, no named rep'],
+    ],
+    bonuses: [
+      {
+        badge: 'Bonus 01',
+        title: 'Keep your Square POS. Let BEG run payroll around it.',
+        objection: 'Common objection: "Our timecards and POS are all in Square, switching feels risky."',
+        body: 'You do not need to leave the Square ecosystem for point of sale or timekeeping. BEG can take the hours data you already track and run the entire payroll function on top of it, so you keep the parts of Square that work for your business and hand off the part that eats your time.',
+      },
+      {
+        badge: 'Bonus 02',
+        title: 'One flat rate, no per-employee creep as you grow.',
+        objection: 'Common objection: "Square Payroll seemed cheap when we had five employees."',
+        body: 'Square Payroll pricing scales per employee, and contractor-only plans have limits that stop making sense once you hire W-2 staff. BEG is $25-$45 PEPM, all-inclusive, whether you have 10 employees or 200, with BEG running every cycle instead of you.',
+      },
+      {
+        badge: 'Bonus 03',
+        title: 'Free payroll fee audit before you commit to anything.',
+        objection: 'Common objection: "We want to know our real numbers before switching."',
+        body: 'Send us your last three Square Payroll invoices and BEG calculates your true cost per employee per month. The audit is free and yours to keep whether or not you become a BEG client.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do we have to leave Square POS to use BEG for payroll?',
+        a: 'No. BEG can manage your payroll function using the hours and wage data you already track in Square, without requiring you to change your point of sale or timekeeping system.',
+      },
+      {
+        q: 'How does Square Payroll pricing compare to BEG?',
+        a: 'Square Payroll publishes a base fee plus a per-employee charge that increases with headcount and features like contractor payments. BEG managed payroll is $25-$45 PEPM all-inclusive, with BEG handling the entire cycle.',
+      },
+      {
+        q: 'Is Square Payroll a good fit for a growing multi-location business?',
+        a: 'Square Payroll works well for single-location retail and hourly teams tied closely to Square POS. As you add locations, states, or salaried staff, BEG managed payroll scales without the per-employee fee creep.',
+      },
+      {
+        q: 'What does BEG include that Square Payroll leaves to us?',
+        a: 'BEG owns the full cycle: reviewing hours, running payroll, filing taxes, preparing W-2s, and handling employee paycheck questions. With Square Payroll, your team still reviews and approves every run.',
+      },
+      {
+        q: 'Can BEG handle multi-state payroll for a business using Square in several locations?',
+        a: 'Yes. BEG manages multi-state registrations, filings, and compliance across all 50 states as part of the flat PEPM rate.',
+      },
+    ],
+    relatedIndustries: [
+      { href: '/services/managed-payroll/home-services', label: 'Managed Payroll for Home Services' },
+      { href: '/services/managed-payroll/franchise', label: 'Managed Payroll for Franchise' },
+      { href: '/services/managed-payroll/construction', label: 'Managed Payroll for Construction' },
+      { href: '/services/managed-payroll/trades', label: 'Managed Payroll for Trades' },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // SurePayroll
+  // ---------------------------------------------------------------------------
+  {
+    slug: 'alternatives-to-surepayroll',
+    name: 'SurePayroll',
+    shortName: 'SurePayroll',
+    primaryKeyword: 'SurePayroll alternative',
+    titleTag: 'SurePayroll Alternative | Instant Quote | BEG',
+    metaDescription:
+      'SurePayroll gives small businesses DIY software with an optional Full Service add-on. BEG manages payroll fully at $25-$45 PEPM. Free scope review.',
+    headline: 'SurePayroll offers a Full Service upgrade. BEG is fully managed by default.',
+    subHeadline:
+      'SurePayroll built its name on affordable self-service payroll for small businesses, with a higher Full Service tier for companies that want more done for them. BEG delivers fully managed payroll at $25-$45 PEPM, all-inclusive, no tier upgrade required.',
+    competitorModel: 'Self-service payroll software with an optional Full Service tier',
+    competitorPEPM: '$20-$60+ PEPM depending on self-service vs. Full Service tier',
+    pains: [
+      'The base SurePayroll plan is self-service, meaning your team still runs and approves every payroll cycle. Getting more done for you requires stepping up to the pricier Full Service tier.',
+      'Tax filing accuracy guarantees and premium support are typically reserved for the higher tier. On the base plan, you carry more of the risk if something is filed late or incorrectly.',
+      'SurePayroll is built for small businesses with straightforward needs. As you add employees, states, or complexity, you may find yourself needing more hands-on management than the platform was designed to give.',
+    ],
+    compRows: [
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$1,000-$3,000+ depending on tier'],
+      ['Who runs payroll', 'BEG: fully managed', 'You, unless on Full Service tier'],
+      ['Hidden fees', 'None -- one flat PEPM', 'Tier upgrade needed for full service'],
+      ['Migration required', 'No -- works in your system or isolved', 'Already set up in SurePayroll'],
+      ['Ideal company size', 'Growing companies, 10-500 employees', 'Very small, simple payrolls'],
+      ['Dedicated contact', 'Yes -- one BEG specialist', 'Tier-dependent support level'],
+    ],
+    bonuses: [
+      {
+        badge: 'Bonus 01',
+        title: 'Fully managed is the only tier BEG offers.',
+        objection: 'Common objection: "We would need to upgrade to SurePayroll Full Service to get this kind of support."',
+        body: 'There is no upgrade path or tier decision with BEG. Every client gets a fully managed payroll function from day one: processing, filings, W-2s, garnishments, and compliance monitoring, all handled by a dedicated specialist for $25-$45 PEPM.',
+      },
+      {
+        badge: 'Bonus 02',
+        title: 'BEG can run payroll inside your existing SurePayroll account.',
+        objection: 'Common objection: "We do not want to migrate off SurePayroll."',
+        body: 'BEG can manage payroll operations directly inside your current SurePayroll setup. Your data stays put, your employee experience does not change, and BEG takes over the day-to-day running of it. If you later want a full HCM platform, we handle a move to isolved with zero disruption.',
+      },
+      {
+        badge: 'Bonus 03',
+        title: 'Free payroll fee audit before you commit to anything.',
+        objection: 'Common objection: "We are not sure what tier we are even paying for."',
+        body: 'Send us your last three SurePayroll invoices and BEG calculates your true cost per employee per month across whatever tier you are on. The audit is free and yours to keep whether or not you become a BEG client.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is the difference between SurePayroll Full Service and BEG?',
+        a: 'SurePayroll Full Service is a higher-priced tier that offloads more of the work from you within their software. BEG is a fully managed service by default, with a dedicated specialist running your entire payroll cycle for $25-$45 PEPM regardless of headcount tier.',
+      },
+      {
+        q: 'How does SurePayroll pricing compare to BEG?',
+        a: 'SurePayroll ranges from roughly $20 PEPM on self-service plans to $60 or more PEPM on Full Service. BEG is $25-$45 PEPM all-inclusive, with full management included at every level.',
+      },
+      {
+        q: 'Can BEG manage payroll inside our existing SurePayroll account?',
+        a: 'Yes. BEG can operate inside your current SurePayroll environment, handling processing and compliance without requiring a platform change.',
+      },
+      {
+        q: 'Does BEG include tax filing accuracy the way SurePayroll Full Service does?',
+        a: 'Yes. BEG manages all tax filings, W-2 preparation, and compliance monitoring as part of the flat PEPM rate, without requiring an upgrade to a higher tier.',
+      },
+      {
+        q: 'Is BEG a good fit for a company that has outgrown SurePayroll self-service?',
+        a: 'Yes. As headcount, states, and complexity grow beyond what a self-service plan comfortably handles, BEG takes the entire payroll function off your plate at a comparable all-in cost.',
+      },
+    ],
+    relatedIndustries: [
+      { href: '/services/managed-payroll/home-services', label: 'Managed Payroll for Home Services' },
+      { href: '/services/managed-payroll/trades', label: 'Managed Payroll for Trades' },
+      { href: '/services/managed-payroll/construction', label: 'Managed Payroll for Construction' },
+      { href: '/services/managed-payroll/accounting-cpa', label: 'Managed Payroll for Accounting CPA' },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // Patriot Payroll
+  // ---------------------------------------------------------------------------
+  {
+    slug: 'alternatives-to-patriot-payroll',
+    name: 'Patriot Payroll',
+    shortName: 'Patriot',
+    primaryKeyword: 'Patriot Payroll alternative',
+    titleTag: 'Patriot Payroll Alternative | Instant Quote | BEG',
+    metaDescription:
+      'Patriot Payroll is budget DIY software for micro businesses. BEG manages payroll fully at $25-$45 PEPM, all-inclusive. Book a free scope review.',
+    headline: 'Patriot Payroll is priced for a spreadsheet mindset. You still do the work.',
+    subHeadline:
+      'Patriot Payroll is one of the most affordable self-service platforms available, built for very small businesses comfortable running their own payroll. BEG delivers a fully managed function at $25-$45 PEPM, all-inclusive, for companies that have outgrown DIY.',
+    competitorModel: 'Budget self-service payroll software for micro businesses',
+    competitorPEPM: '$17-$37 base plus published per-employee fee (Basic vs. Full Service tiers)',
+    pains: [
+      'Patriot Payroll is priced for micro businesses running things themselves. On the Basic tier, tax filing is on you; only the Full Service tier files federal, state, and local taxes on your behalf.',
+      'Support and features are built for simplicity, not scale. As you add employees, states, and payroll complexity, the platform requires more manual attention, not less.',
+      'There is no dedicated payroll specialist assigned to your account. You are working with general support and self-service tools, with the accuracy risk sitting on your team.',
+    ],
+    compRows: [
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$900-$2,000+ depending on tier'],
+      ['Who runs payroll', 'BEG: fully managed', 'You, unless on Full Service tier'],
+      ['Hidden fees', 'None -- one flat PEPM', 'Tax filing is extra on Basic tier'],
+      ['Migration required', 'No -- works in your system or isolved', 'Already set up in Patriot'],
+      ['Ideal company size', 'Growing companies, 10-500 employees', 'Micro businesses, 1-10 employees'],
+      ['Dedicated contact', 'Yes -- one BEG specialist', 'General support, no named rep'],
+    ],
+    bonuses: [
+      {
+        badge: 'Bonus 01',
+        title: 'Tax filing is never an upsell with BEG.',
+        objection: 'Common objection: "We are on Patriot Basic and handle our own tax filings."',
+        body: 'With BEG, every client gets full tax filing, W-2 preparation, and compliance monitoring included in the flat PEPM rate from day one. There is no Basic versus Full Service decision to make and no extra fee to unlock it.',
+      },
+      {
+        badge: 'Bonus 02',
+        title: 'BEG can run payroll inside your existing Patriot account.',
+        objection: 'Common objection: "We do not want to migrate our payroll history."',
+        body: 'BEG can manage payroll operations directly inside your current Patriot setup, keeping your data and employee experience intact while BEG takes over the processing, filings, and exception handling. If you later want a full HCM platform, we handle a move to isolved with zero disruption.',
+      },
+      {
+        badge: 'Bonus 03',
+        title: 'Free payroll fee audit before you commit to anything.',
+        objection: 'Common objection: "Patriot feels cheap, why would we pay more?"',
+        body: 'Send us your last three Patriot invoices and BEG calculates your true cost per employee per month, including any tax filing add-ons. Once you add the hours your team spends running payroll, the comparison usually favors a fully managed service. The audit is free and yours to keep whether or not you become a BEG client.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Does Patriot Payroll file taxes for us automatically?',
+        a: 'Only on the Full Service tier. On the Basic tier, your team is responsible for calculating and filing payroll taxes yourselves. BEG includes full tax filing in every engagement at $25-$45 PEPM.',
+      },
+      {
+        q: 'How does Patriot Payroll pricing compare to BEG?',
+        a: 'Patriot Payroll ranges from about $17 PEPM on Basic to $37 or more PEPM on Full Service, plus per-employee fees. BEG managed payroll is $25-$45 PEPM all-inclusive, with a dedicated specialist running your entire cycle.',
+      },
+      {
+        q: 'Can BEG manage payroll inside our existing Patriot account?',
+        a: 'Yes. BEG can operate inside your current Patriot environment, handling processing and compliance without requiring a platform change.',
+      },
+      {
+        q: 'Is Patriot Payroll a good fit as our company grows past a handful of employees?',
+        a: 'Patriot is built for micro businesses running payroll themselves. As you scale past a handful of employees or add multiple states, BEG takes the entire function off your plate at a comparable all-in cost.',
+      },
+      {
+        q: 'What does BEG include that Patriot Basic leaves to us?',
+        a: 'BEG owns the entire cycle: processing, tax filings, W-2s, garnishments, new hire reporting, and year-end close. On Patriot Basic, your team still calculates and files taxes and manages the run yourselves.',
+      },
+    ],
+    relatedIndustries: [
+      { href: '/services/managed-payroll/trades', label: 'Managed Payroll for Trades' },
+      { href: '/services/managed-payroll/home-services', label: 'Managed Payroll for Home Services' },
+      { href: '/services/managed-payroll/construction', label: 'Managed Payroll for Construction' },
+      { href: '/services/managed-payroll/accounting-cpa', label: 'Managed Payroll for Accounting CPA' },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // Justworks Payroll
+  // ---------------------------------------------------------------------------
+  {
+    slug: 'alternatives-to-justworks-payroll',
+    name: 'Justworks Payroll',
+    shortName: 'Justworks',
+    primaryKeyword: 'Justworks alternative',
+    titleTag: 'Justworks Alternative | No PEO, Instant Quote | BEG',
+    metaDescription:
+      'Justworks is a PEO that co-employs your staff. BEG delivers fully managed payroll at $25-$45 PEPM with no co-employment and full employer control.',
+    headline: 'Justworks bundles payroll into a PEO. BEG just manages your payroll.',
+    subHeadline:
+      'Justworks is a PEO, a Professional Employer Organization, which means Justworks becomes co-employer of your staff and charges a flat per-employee fee for payroll, benefits, and HR bundled together. BEG delivers the managed payroll outcome without the PEO structure or co-employment.',
+    competitorModel: 'PEO (Professional Employer Organization), published flat per-employee pricing',
+    competitorPEPM: '$50-$100+ PEPM (published PEO plans, Basic vs. Plus)',
+    pains: [
+      'Justworks co-employment means Justworks is the employer of record for your staff alongside you. You share control over certain HR and employment decisions, and exiting a PEO relationship is a more complex transition than switching software.',
+      'Justworks bundles payroll with benefits access, HR support, and compliance tools and charges one fee for the whole package. If you only need payroll managed correctly, you are paying for benefits infrastructure you may not use.',
+      'PEO costs scale with headcount in ways that get expensive fast. At $70-$100 PEPM and 50 employees, you are paying thousands more per month than a payroll-only managed service for the same core outcome.',
+    ],
+    compRows: [
+      ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$2,500-$5,000+ (PEO plans)'],
+      ['Co-employment', 'None -- you are always the employer', 'Justworks is co-employer of record'],
+      ['Who runs payroll', 'BEG: fully managed', 'Justworks platform, PEO-run'],
+      ['Services bundled', 'Payroll fully managed', 'Payroll plus benefits plus HR bundled'],
+      ['Migration required', 'No -- works in your system or isolved', 'Justworks requires PEO enrollment'],
+      ['Dedicated contact', 'Yes -- one BEG specialist', 'Shared PEO support team'],
+    ],
+    bonuses: [
+      {
+        badge: 'Bonus 01',
+        title: 'You stay the employer. Always.',
+        objection: 'Common objection: "We are concerned about co-employment with a PEO like Justworks."',
+        body: 'BEG is not a PEO. We never co-employ your staff. You remain the sole employer of record for everyone on your payroll. BEG manages the payroll function, processing, filings, compliance, employee support, while you keep full control over your employment relationships and HR policies.',
+      },
+      {
+        badge: 'Bonus 02',
+        title: 'Pay for managed payroll, not a bundled PEO suite.',
+        objection: 'Common objection: "Justworks benefits access is valuable, is it worth the extra cost?"',
+        body: 'If you need PEO-pooled benefits and bundled HR advisory, Justworks may be the right structure. If you need payroll managed correctly every cycle by a dedicated specialist, BEG is $25-$45 PEPM versus $50-$100+ PEPM for the PEO bundle. The difference funds a lot of what you could buy directly.',
+      },
+      {
+        badge: 'Bonus 03',
+        title: 'No co-employment exit process if you decide to change later.',
+        objection: 'Common objection: "We are worried about being locked into a PEO structure."',
+        body: 'Exiting a PEO means transitioning employees out of co-employment: new EIN setup, benefits re-enrollment, and payroll platform migration. Leaving BEG is clean because your employees are already on your own EIN, in your system, with your data. Nothing changes for them.',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is the difference between Justworks and BEG managed payroll?',
+        a: 'Justworks is a PEO that co-employs your staff and bundles payroll with benefits and HR under one fee. BEG is a managed payroll service, we run payroll on your behalf while you remain the sole employer of all your staff.',
+      },
+      {
+        q: 'How does Justworks pricing compare to BEG at 50 employees?',
+        a: 'Justworks published PEO plans run roughly $50-$100+ PEPM, or $2,500-$5,000+ per month at 50 employees. BEG managed payroll for 50 employees is $1,250-$2,250 per month with no bundled PEO overhead.',
+      },
+      {
+        q: 'Does BEG offer benefits access the way Justworks does?',
+        a: 'BEG is focused on fully managed payroll. For companies that also need HCM software, benefits administration, or talent management, BEG is an authorized isolved reseller and can connect you with those tools separately.',
+      },
+      {
+        q: 'How do I transition off Justworks to BEG without disrupting payroll?',
+        a: 'BEG manages the full transition: EIN setup if needed, state registrations, data migration, and a clean parallel cycle before going live. Most Justworks exits with BEG complete in 2-3 weeks.',
+      },
+      {
+        q: 'Will my employees notice a change when switching from Justworks to BEG?',
+        a: 'Employees will see a change in their pay stub portal and possibly their benefits enrollment if those were pooled through Justworks. BEG coordinates employee communication and confirms direct deposit setup before the first live cycle.',
+      },
+    ],
+    relatedIndustries: [
+      { href: '/services/managed-payroll/technology', label: 'Managed Payroll for Technology' },
+      { href: '/services/managed-payroll/finance', label: 'Managed Payroll for Finance' },
+      { href: '/services/managed-payroll/legal', label: 'Managed Payroll for Legal' },
+      { href: '/services/managed-payroll/healthcare', label: 'Managed Payroll for Healthcare' },
+    ],
+  },
 ];
 
 /** Map from slug to competitor record */

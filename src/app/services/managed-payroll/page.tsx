@@ -482,6 +482,99 @@ export default function ManagedPayrollPage() {
               <h3>BEG vs. TriNet</h3>
               <p>TriNet co-employs your staff at $125-$200 PEPM. BEG manages payroll at $25-$45 PEPM with no PEO structure.</p>
             </Link>
+            <Link href="/services/managed-payroll/alternatives-to-quickbooks-payroll" className="card-link">
+              <span className="tag">QuickBooks</span>
+              <h3>BEG vs. QuickBooks Payroll</h3>
+              <p>QuickBooks Payroll is software you run inside your books. BEG runs the entire payroll function for you at $25-$45 PEPM.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-onpay" className="card-link">
+              <span className="tag">OnPay</span>
+              <h3>BEG vs. OnPay</h3>
+              <p>OnPay is a clean DIY platform. BEG takes payroll off your desk entirely, all-inclusive at one flat PEPM.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-square-payroll" className="card-link">
+              <span className="tag">Square</span>
+              <h3>BEG vs. Square Payroll</h3>
+              <p>Square Payroll fits simple hourly teams. BEG manages multi-state, salaried, and exception-heavy payroll for you.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-surepayroll" className="card-link">
+              <span className="tag">SurePayroll</span>
+              <h3>BEG vs. SurePayroll</h3>
+              <p>SurePayroll is self-service payroll software. BEG is a managed service: we run every cycle and filing for you.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-patriot-payroll" className="card-link">
+              <span className="tag">Patriot</span>
+              <h3>BEG vs. Patriot Payroll</h3>
+              <p>Patriot is budget DIY software. BEG hands the work to a dedicated specialist at $25-$45 PEPM, all-inclusive.</p>
+            </Link>
+            <Link href="/services/managed-payroll/alternatives-to-justworks-payroll" className="card-link">
+              <span className="tag">Justworks</span>
+              <h3>BEG vs. Justworks Payroll</h3>
+              <p>Justworks bundles payroll into a PEO. BEG manages payroll in your existing system with no co-employment.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* HEAD-TO-HEAD REFEREE COMPARISONS */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '980px' }}>
+          <div className="head center reveal">
+            <p className="eyebrow">Head to Head</p>
+            <h2>Comparing two payroll platforms? Read the honest breakdown first.</h2>
+            <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '640px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+              Neutral, side-by-side breakdowns of the payroll platforms buyers weigh against each other, then where fully managed payroll fits.
+            </p>
+          </div>
+          <div className="cards reveal" style={{ marginTop: '2.5rem' }}>
+            <Link href="/services/managed-payroll/adp-vs-paychex" className="card-link">
+              <h3>ADP vs. Paychex</h3>
+              <p>The two enterprise incumbents, side by side on pricing, service model, and who actually runs payroll.</p>
+            </Link>
+            <Link href="/services/managed-payroll/gusto-vs-adp" className="card-link">
+              <h3>Gusto vs. ADP</h3>
+              <p>Modern small-business software against the enterprise standard. Where each one fits.</p>
+            </Link>
+            <Link href="/services/managed-payroll/gusto-vs-quickbooks-payroll" className="card-link">
+              <h3>Gusto vs. QuickBooks Payroll</h3>
+              <p>Two popular small-business platforms compared on features, pricing visibility, and support.</p>
+            </Link>
+            <Link href="/services/managed-payroll/adp-vs-quickbooks-payroll" className="card-link">
+              <h3>ADP vs. QuickBooks Payroll</h3>
+              <p>Enterprise scale versus books-native simplicity. Which model matches your company.</p>
+            </Link>
+            <Link href="/services/managed-payroll/paychex-vs-gusto" className="card-link">
+              <h3>Paychex vs. Gusto</h3>
+              <p>Full-service incumbent against modern self-service. The honest tradeoffs.</p>
+            </Link>
+            <Link href="/services/managed-payroll/rippling-vs-gusto" className="card-link">
+              <h3>Rippling vs. Gusto</h3>
+              <p>All-in-one workforce automation versus focused payroll. What you gain and give up.</p>
+            </Link>
+            <Link href="/services/managed-payroll/adp-run-vs-adp-workforce-now" className="card-link">
+              <h3>ADP RUN vs. Workforce Now</h3>
+              <p>ADP's small-business product against its midmarket suite. When to move up.</p>
+            </Link>
+            <Link href="/services/managed-payroll/paychex-vs-quickbooks-payroll" className="card-link">
+              <h3>Paychex vs. QuickBooks Payroll</h3>
+              <p>Full-service payroll against books-native DIY. Which fits your team.</p>
+            </Link>
+            <Link href="/services/managed-payroll/gusto-vs-onpay" className="card-link">
+              <h3>Gusto vs. OnPay</h3>
+              <p>Two clean small-business platforms compared on pricing and depth.</p>
+            </Link>
+            <Link href="/services/managed-payroll/square-payroll-vs-gusto" className="card-link">
+              <h3>Square Payroll vs. Gusto</h3>
+              <p>Simple hourly payroll versus a fuller feature set. Where each wins.</p>
+            </Link>
+            <Link href="/services/managed-payroll/deel-vs-rippling" className="card-link">
+              <h3>Deel vs. Rippling</h3>
+              <p>Two global workforce platforms compared for US and international teams.</p>
+            </Link>
+            <Link href="/services/managed-payroll/justworks-payroll-vs-gusto" className="card-link">
+              <h3>Justworks vs. Gusto</h3>
+              <p>PEO-bundled payroll against standalone software. The structural difference.</p>
+            </Link>
           </div>
         </div>
       </section>

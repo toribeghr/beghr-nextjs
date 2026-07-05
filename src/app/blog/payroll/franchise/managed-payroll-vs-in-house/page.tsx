@@ -133,7 +133,7 @@ export default function FranchiseComparisonPage() {
           During onboarding, we configure separate cost centers for each location and entity, audit your current state registrations for completeness, and set up minimum wage floor calculations for each applicable jurisdiction. When you acquire new units, we add them to your configuration before the first pay cycle.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month across all locations in your existing system or $45 per employee per month in our iSolved account. For a 60-person operator, that is $1,500 to $2,700 per month, all-inclusive, compared to $66,000 to $96,000 annually for a qualified in-house payroll manager. Most operators are live within 3 to 5 business days of contract signing.
+          Pricing is $25 per employee per month across all locations in your existing system or $45 per employee per month in our isolved account. For a 60-person operator, that is $1,500 to $2,700 per month, all-inclusive, compared to $66,000 to $96,000 annually for a qualified in-house payroll manager. Most operators are live within 3 to 5 business days of contract signing.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

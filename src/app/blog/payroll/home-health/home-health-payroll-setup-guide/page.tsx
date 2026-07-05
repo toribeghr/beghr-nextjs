@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for home health agency payroll?',
-    answer: 'Home health payroll runs at $25–$45 per employee per month. Visit-based pay, travel time tracking, and Medicaid reconciliation reporting are all included. For an agency with 30 caregivers, that is $750–$1,350 per month.',
+    answer: 'Home health payroll runs at $25-$45 per employee per month. Visit-based pay, travel time tracking, and Medicaid reconciliation reporting are all included. For an agency with 30 caregivers, that is $750-$1,350 per month.',
   },
 ];
 
@@ -94,11 +94,11 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>The Faster Path: Managed Payroll for Home Health Agencies</h2>
 
-        <p>BEG managed payroll handles all of the above for home health agencies at $25–$45 PEPM, all-inclusive. Setup takes 3–5 business days. We configure your pay types, establish your tax accounts, and run your first payroll on schedule.</p>
+        <p>BEG managed payroll handles all of the above for home health agencies at $25-$45 PEPM, all-inclusive. Setup takes 3-5 business days. We configure your pay types, establish your tax accounts, and run your first payroll on schedule.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -130,14 +130,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Home Health Agencies. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Home Health Agencies. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle visit-based pay for home health aides?","acceptedAnswer":{"@type":"Answer","text":"Yes. Aides paid per visit are set up as hourly employees with a per-visit rate. Visit logs from your scheduling software are the input for pay calculation, and we ensure per-visit pay meets minimum wage for time including travel between clients."}},{"@type":"Question","name":"How do you handle travel time between client visits?","acceptedAnswer":{"@type":"Answer","text":"Under DOL guidance, travel time between client sites is compensable and must be paid at minimum wage. We include it in the total hours calculation for overtime purposes."}},{"@type":"Question","name":"Can you handle multi-state operations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Home health agencies serving clients across state lines register in each state, handle state employer setup, and file required returns in all applicable states."}},{"@type":"Question","name":"What does BEG charge for home health agency payroll?","acceptedAnswer":{"@type":"Answer","text":"Home health payroll runs at $25–$45 per employee per month. Visit-based pay, travel time tracking, and Medicaid reconciliation reporting are all included. For an agency with 30 caregivers, that is $750–$1,350 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle visit-based pay for home health aides?","acceptedAnswer":{"@type":"Answer","text":"Yes. Aides paid per visit are set up as hourly employees with a per-visit rate. Visit logs from your scheduling software are the input for pay calculation, and we ensure per-visit pay meets minimum wage for time including travel between clients."}},{"@type":"Question","name":"How do you handle travel time between client visits?","acceptedAnswer":{"@type":"Answer","text":"Under DOL guidance, travel time between client sites is compensable and must be paid at minimum wage. We include it in the total hours calculation for overtime purposes."}},{"@type":"Question","name":"Can you handle multi-state operations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Home health agencies serving clients across state lines register in each state, handle state employer setup, and file required returns in all applicable states."}},{"@type":"Question","name":"What does BEG charge for home health agency payroll?","acceptedAnswer":{"@type":"Answer","text":"Home health payroll runs at $25-$45 per employee per month. Visit-based pay, travel time tracking, and Medicaid reconciliation reporting are all included. For an agency with 30 caregivers, that is $750-$1,350 per month."}}]}`,
         }}
       />
 

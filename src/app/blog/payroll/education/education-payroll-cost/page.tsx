@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What is the average cost of managed payroll for a private school?",
-    answer: "Managed payroll for schools is typically priced per employee per month (PEPM). BEG prices at $25 to $45 PEPM depending on whether the school uses its existing payroll system (the lower end) or BEG's iSolved account (the higher end). For a school with 50 employees, that is $1,250 to $2,250 per month, or $15,000 to $27,000 per year, all-inclusive. That compares favorably to the true all-in cost of an in-house payroll administrator, which typically runs $55,000 to $80,000 when salary, benefits, and overhead are included.",
+    answer: "Managed payroll for schools is typically priced per employee per month (PEPM). BEG prices at $25 to $45 PEPM depending on whether the school uses its existing payroll system (the lower end) or BEG's isolved account (the higher end). For a school with 50 employees, that is $1,250 to $2,250 per month, or $15,000 to $27,000 per year, all-inclusive. That compares favorably to the true all-in cost of an in-house payroll administrator, which typically runs $55,000 to $80,000 when salary, benefits, and overhead are included.",
   },
   {
     question: "What hidden costs do private schools typically overlook in their in-house payroll cost calculations?",

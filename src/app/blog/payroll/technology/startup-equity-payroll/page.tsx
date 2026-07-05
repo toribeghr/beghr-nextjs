@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for startup payroll with equity compensation?",
-    answer: "BEG manages startup payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. Both include equity income event support (RSU, NSO, restricted stock), multi-state withholding, tax filings, and W-2 production. For a 15-person startup, that is $375 to $675 per month.",
+    answer: "BEG manages startup payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's isolved platform. Both include equity income event support (RSU, NSO, restricted stock), multi-state withholding, tax filings, and W-2 production. For a 15-person startup, that is $375 to $675 per month.",
   },
 ];
 

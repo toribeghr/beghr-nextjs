@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for managed payroll at a staffing agency?',
-    answer: `BEG charges $25 PEPM if we work within your existing payroll system, or $45 PEPM on BEG's iSolved account. Both are all-inclusive. At 75 employees, that is $2,625/month compared to an HR manager at $6,500+/month in fully loaded cost.`,
+    answer: `BEG charges $25 PEPM if we work within your existing payroll system, or $45 PEPM on BEG's isolved account. Both are all-inclusive. At 75 employees, that is $2,625/month compared to an HR manager at $6,500+/month in fully loaded cost.`,
   },
 ];
 
@@ -122,7 +122,7 @@ export default function StaffingRecruitingPayrollPage() {
 
         <h2 style={{ borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem', marginTop: '2.5rem' }}>BEG Managed Payroll Pricing vs. In-House</h2>
 
-        <p>BEG charges a flat per-employee-per-month rate. The rate is $25 PEPM when BEG works inside your existing payroll system, or $45 PEPM on BEG's iSolved account if you want to move off your current platform entirely.</p>
+        <p>BEG charges a flat per-employee-per-month rate. The rate is $25 PEPM when BEG works inside your existing payroll system, or $45 PEPM on BEG's isolved account if you want to move off your current platform entirely.</p>
 
         <div style={{ overflowX: 'auto', margin: '1.5rem 0' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.93rem' }}>

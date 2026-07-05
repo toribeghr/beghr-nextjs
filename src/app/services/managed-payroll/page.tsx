@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import InlineSearch from '@/components/InlineSearch';
 import PricingCta from '@/components/pricing/PricingCta';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
@@ -41,6 +42,14 @@ export default function ManagedPayrollPage() {
         { value: '3-5 Days', label: 'To live managed payroll' },
       ]}
     >
+
+      {/* SITE SEARCH — vertical-scoped band beneath the hero */}
+      <InlineSearch
+        vertical="Managed Payroll"
+        heading="Looking for something specific?"
+        subhead="Search our Managed Payroll pages and guides."
+        chips={['payroll pricing', 'cost calculator', 'payroll by industry', 'tax filing']}
+      />
 
       {/* PAIN */}
       <section className="section section--soft">
@@ -198,7 +207,7 @@ export default function ManagedPayrollPage() {
                 badge: 'Bonus 01',
                 title: 'We work in your existing system. No migration required.',
                 objection: 'Common objection: "Switching payroll is too painful to be worth it."',
-                body: 'BEG can run payroll in your existing system or in our iSolved account, whichever fits your situation. Most clients do not need to migrate anything. We configure around your current setup and run from there. No disruption, no lost history, no re-training your team on new software.',
+                body: 'BEG can run payroll in your existing system or in our isolved account, whichever fits your situation. Most clients do not need to migrate anything. We configure around your current setup and run from there. No disruption, no lost history, no re-training your team on new software.',
               },
               {
                 badge: 'Bonus 02',
@@ -593,11 +602,11 @@ export default function ManagedPayrollPage() {
             </div>
             <div className="faq-item">
               <h3>Do I have to switch payroll platforms?</h3>
-              <p>No. BEG can work in your existing payroll system, including ADP, Paychex, QuickBooks Payroll, and others, or we can run payroll in our iSolved account if you prefer. Most clients do not migrate anything. We configure around what you already have.</p>
+              <p>No. BEG can work in your existing payroll system, including ADP, Paychex, QuickBooks Payroll, and others, or we can run payroll in our isolved account if you prefer. Most clients do not migrate anything. We configure around what you already have.</p>
             </div>
             <div className="faq-item">
               <h3>How long does onboarding take?</h3>
-              <p>Most clients are running cleanly within 3-5 business days. BEG handles data migration, system configuration, and a test cycle before processing your first live payroll. The 3-5 day window applies to clients moving to iSolved. If we work in your existing system, setup is often faster.</p>
+              <p>Most clients are running cleanly within 3-5 business days. BEG handles data migration, system configuration, and a test cycle before processing your first live payroll. The 3-5 day window applies to clients moving to isolved. If we work in your existing system, setup is often faster.</p>
             </div>
             <div className="faq-item">
               <h3>What does the $25-$45 PEPM include?</h3>
@@ -621,7 +630,7 @@ export default function ManagedPayrollPage() {
             </div>
             <div className="faq-item">
               <h3>How is my payroll data kept secure?</h3>
-              <p>iSolved, BEG's preferred platform, runs on SOC 2 Type II certified infrastructure with multi-tenant architecture and encryption at rest and in transit. Access to your payroll data is role-controlled and limited to authorized personnel. BEG never shares your payroll data outside of legally required remittances to tax authorities and direct deposit networks.</p>
+              <p>isolved, BEG's preferred platform, runs on SOC 2 Type II certified infrastructure with multi-tenant architecture and encryption at rest and in transit. Access to your payroll data is role-controlled and limited to authorized personnel. BEG never shares your payroll data outside of legally required remittances to tax authorities and direct deposit networks.</p>
             </div>
           </div>
         </div>
@@ -666,7 +675,7 @@ export default function ManagedPayrollPage() {
               {
                 '@type': 'Question',
                 name: 'Do I have to switch payroll platforms?',
-                acceptedAnswer: { '@type': 'Answer', text: 'No. BEG can work in your existing payroll system or in our iSolved account. Most clients do not need to migrate anything.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'No. BEG can work in your existing payroll system or in our isolved account. Most clients do not need to migrate anything.' },
               },
               {
                 '@type': 'Question',
@@ -701,7 +710,7 @@ export default function ManagedPayrollPage() {
               {
                 '@type': 'Question',
                 name: 'How is my payroll data kept secure?',
-                acceptedAnswer: { '@type': 'Answer', text: 'iSolved runs on SOC 2 Type II certified infrastructure with encryption at rest and in transit. Access is role-controlled. BEG never shares payroll data outside of legally required remittances.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'isolved runs on SOC 2 Type II certified infrastructure with encryption at rest and in transit. Access is role-controlled. BEG never shares payroll data outside of legally required remittances.' },
               },
             ],
           }),

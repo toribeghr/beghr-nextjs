@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for real estate agency payroll?',
-    answer: 'Real estate payroll runs at $25–$45 per employee per month for W-2 staff. For a team with 10 W-2 support staff, that is $250–$450 per month covering payroll, tax filing, and year-end forms.',
+    answer: 'Real estate payroll runs at $25-$45 per employee per month for W-2 staff. For a team with 10 W-2 support staff, that is $250-$450 per month covering payroll, tax filing, and year-end forms.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Key Payroll Compliance Requirements for Real Estate Agencies</h2>
 
-        <p><strong>Federal requirements.</strong> All real estate agencies must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2–15% of the unpaid amount depending on how many days late.</p>
+        <p><strong>Federal requirements.</strong> All real estate agencies must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2-15% of the unpaid amount depending on how many days late.</p>
 
         <p><strong>State requirements.</strong> NAR agent classification guidance, state real estate commission payroll requirements, 1099-NEC for independent contractor agents. State requirements vary and change frequently. Multi-location real estate agencies face multiple sets of state rules simultaneously.</p>
 
@@ -86,7 +86,7 @@ export default function Page() {
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}><strong>Misclassifying employees</strong> -- especially relevant for real estate agencies where licensed agents and administrative staff may be paid differently depending on role structure</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2–15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2-15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect state filings</strong> -- real estate agencies with employees in multiple states must file in each state and maintain separate records</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Failing to update payroll for rate changes</strong> -- minimum wage, SUTA rates, and state withholding tables change annually in most states</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Year-end W-2 errors</strong> -- incorrect box entries on W-2s require corrected W-2Cs filed with both the employee and the IRS</li>
@@ -100,7 +100,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -132,14 +132,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Real Estate Agencies. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Real Estate Agencies. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle 1099 agents vs. W-2 support staff?","acceptedAnswer":{"@type":"Answer","text":"Licensed agents working as independent contractors receive 1099-NEC for commission income. W-2 administrative staff are processed through payroll. We handle both payment types and produce the correct year-end forms."}},{"@type":"Question","name":"Can you process draw-against-commission payroll?","acceptedAnswer":{"@type":"Answer","text":"Yes. Draw advances are processed through payroll with correct tax withholding, and the draw balance is tracked against earned commissions."}},{"@type":"Question","name":"What about year-end 1099s for independent contractor agents?","acceptedAnswer":{"@type":"Answer","text":"We produce and file 1099-NEC for all independent contractor agents who received $600 or more in commission income during the year, including electronic filing with the IRS."}},{"@type":"Question","name":"What does BEG charge for real estate agency payroll?","acceptedAnswer":{"@type":"Answer","text":"Real estate payroll runs at $25–$45 per employee per month for W-2 staff. For a team with 10 W-2 support staff, that is $250–$450 per month covering payroll, tax filing, and year-end forms."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle 1099 agents vs. W-2 support staff?","acceptedAnswer":{"@type":"Answer","text":"Licensed agents working as independent contractors receive 1099-NEC for commission income. W-2 administrative staff are processed through payroll. We handle both payment types and produce the correct year-end forms."}},{"@type":"Question","name":"Can you process draw-against-commission payroll?","acceptedAnswer":{"@type":"Answer","text":"Yes. Draw advances are processed through payroll with correct tax withholding, and the draw balance is tracked against earned commissions."}},{"@type":"Question","name":"What about year-end 1099s for independent contractor agents?","acceptedAnswer":{"@type":"Answer","text":"We produce and file 1099-NEC for all independent contractor agents who received $600 or more in commission income during the year, including electronic filing with the IRS."}},{"@type":"Question","name":"What does BEG charge for real estate agency payroll?","acceptedAnswer":{"@type":"Answer","text":"Real estate payroll runs at $25-$45 per employee per month for W-2 staff. For a team with 10 W-2 support staff, that is $250-$450 per month covering payroll, tax filing, and year-end forms."}}]}`,
         }}
       />
 

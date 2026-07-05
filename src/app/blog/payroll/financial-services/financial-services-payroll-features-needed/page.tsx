@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for financial services firm payroll?',
-    answer: 'Financial services payroll runs at $25–$45 per employee per month. Deferred comp handling, FINRA-compliant recordkeeping, and 5500 data production are included. For a 20-person firm, that is $500–$900 per month.',
+    answer: 'Financial services payroll runs at $25-$45 per employee per month. Deferred comp handling, FINRA-compliant recordkeeping, and 5500 data production are included. For a 20-person firm, that is $500-$900 per month.',
   },
 ];
 
@@ -89,7 +89,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll for Financial Services Firms: What Is Included</h2>
 
-        <p>BEG provides all payroll features for financial services firms at $25–$45 PEPM, all-inclusive:</p>
+        <p>BEG provides all payroll features for financial services firms at $25-$45 PEPM, all-inclusive:</p>
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}>Payroll processing on your schedule (weekly, bi-weekly, semi-monthly)</li>
@@ -102,7 +102,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -134,14 +134,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Financial Services & Accounting Firms. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Financial Services & Accounting Firms. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle deferred compensation structures?","acceptedAnswer":{"@type":"Answer","text":"Deferred comp plans under IRC 409A are handled with correct payroll treatment for the deferral year and distribution year, including W-2 Box 11 reporting."}},{"@type":"Question","name":"Can you handle FINRA payroll recordkeeping requirements?","acceptedAnswer":{"@type":"Answer","text":"FINRA registered representatives require payroll records maintained for at least three years. We maintain complete records and can produce them in response to a FINRA examination request."}},{"@type":"Question","name":"Can you produce Form 5500 payroll data for our benefit plan audit?","acceptedAnswer":{"@type":"Answer","text":"Yes. We produce payroll-based data including eligible compensation by employee, contribution amounts, and plan participation data to support the annual benefit plan audit."}},{"@type":"Question","name":"What does BEG charge for financial services firm payroll?","acceptedAnswer":{"@type":"Answer","text":"Financial services payroll runs at $25–$45 per employee per month. Deferred comp handling, FINRA-compliant recordkeeping, and 5500 data production are included. For a 20-person firm, that is $500–$900 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle deferred compensation structures?","acceptedAnswer":{"@type":"Answer","text":"Deferred comp plans under IRC 409A are handled with correct payroll treatment for the deferral year and distribution year, including W-2 Box 11 reporting."}},{"@type":"Question","name":"Can you handle FINRA payroll recordkeeping requirements?","acceptedAnswer":{"@type":"Answer","text":"FINRA registered representatives require payroll records maintained for at least three years. We maintain complete records and can produce them in response to a FINRA examination request."}},{"@type":"Question","name":"Can you produce Form 5500 payroll data for our benefit plan audit?","acceptedAnswer":{"@type":"Answer","text":"Yes. We produce payroll-based data including eligible compensation by employee, contribution amounts, and plan participation data to support the annual benefit plan audit."}},{"@type":"Question","name":"What does BEG charge for financial services firm payroll?","acceptedAnswer":{"@type":"Answer","text":"Financial services payroll runs at $25-$45 per employee per month. Deferred comp handling, FINRA-compliant recordkeeping, and 5500 data production are included. For a 20-person firm, that is $500-$900 per month."}}]}`,
         }}
       />
 

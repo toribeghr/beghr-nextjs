@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for tech company payroll?',
-    answer: 'Tech company payroll runs at $25–$45 per employee per month. For a 40-person Series A company, that is $1,000–$1,800 per month covering payroll, multi-state tax filing, W-2s, and equity comp withholding coordination.',
+    answer: 'Tech company payroll runs at $25-$45 per employee per month. For a 40-person Series A company, that is $1,000-$1,800 per month covering payroll, multi-state tax filing, W-2s, and equity comp withholding coordination.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Key Payroll Compliance Requirements for Technology & SaaS Companies</h2>
 
-        <p><strong>Federal requirements.</strong> All tech companies must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2–15% of the unpaid amount depending on how many days late.</p>
+        <p><strong>Federal requirements.</strong> All tech companies must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2-15% of the unpaid amount depending on how many days late.</p>
 
         <p><strong>State requirements.</strong> Nexus rules for remote employees, equity comp reporting, R&D payroll allocation for tax credits. State requirements vary and change frequently. Multi-location tech companies face multiple sets of state rules simultaneously.</p>
 
@@ -86,7 +86,7 @@ export default function Page() {
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}><strong>Misclassifying employees</strong> -- especially relevant for tech companies where software engineers and product managers may be paid differently depending on role structure</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2–15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2-15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect state filings</strong> -- tech companies with employees in multiple states must file in each state and maintain separate records</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Failing to update payroll for rate changes</strong> -- minimum wage, SUTA rates, and state withholding tables change annually in most states</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Year-end W-2 errors</strong> -- incorrect box entries on W-2s require corrected W-2Cs filed with both the employee and the IRS</li>
@@ -100,7 +100,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -132,14 +132,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Technology & SaaS Companies. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Technology & SaaS Companies. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle payroll for fully remote teams across multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Remote-first teams with employees in multiple states are a standard use case. We register in each state, withhold state income tax for each employee's resident state, and pay state unemployment where the employee works."}},{"@type":"Question","name":"How do you handle RSU vesting events in payroll?","acceptedAnswer":{"@type":"Answer","text":"RSU vesting events require supplemental wage withholding. We coordinate with your equity platform on vesting schedules and process supplemental withholding on vest dates, including the net shares sold for taxes approach when applicable."}},{"@type":"Question","name":"Can you handle commission payroll for our sales team?","acceptedAnswer":{"@type":"Answer","text":"Yes. Commission payroll is processed as supplemental pay runs or integrated into regular payroll. We apply the correct supplemental withholding rate and reconcile commission against draw when applicable."}},{"@type":"Question","name":"What does BEG charge for tech company payroll?","acceptedAnswer":{"@type":"Answer","text":"Tech company payroll runs at $25–$45 per employee per month. For a 40-person Series A company, that is $1,000–$1,800 per month covering payroll, multi-state tax filing, W-2s, and equity comp withholding coordination."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle payroll for fully remote teams across multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Remote-first teams with employees in multiple states are a standard use case. We register in each state, withhold state income tax for each employee's resident state, and pay state unemployment where the employee works."}},{"@type":"Question","name":"How do you handle RSU vesting events in payroll?","acceptedAnswer":{"@type":"Answer","text":"RSU vesting events require supplemental wage withholding. We coordinate with your equity platform on vesting schedules and process supplemental withholding on vest dates, including the net shares sold for taxes approach when applicable."}},{"@type":"Question","name":"Can you handle commission payroll for our sales team?","acceptedAnswer":{"@type":"Answer","text":"Yes. Commission payroll is processed as supplemental pay runs or integrated into regular payroll. We apply the correct supplemental withholding rate and reconcile commission against draw when applicable."}},{"@type":"Question","name":"What does BEG charge for tech company payroll?","acceptedAnswer":{"@type":"Answer","text":"Tech company payroll runs at $25-$45 per employee per month. For a 40-person Series A company, that is $1,000-$1,800 per month covering payroll, multi-state tax filing, W-2s, and equity comp withholding coordination."}}]}`,
         }}
       />
 

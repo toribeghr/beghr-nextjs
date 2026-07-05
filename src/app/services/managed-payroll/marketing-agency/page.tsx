@@ -139,7 +139,7 @@ export default function PayrollMarketingAgencyPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "We use Gusto and it is fine -- we just do not have time to manage it properly."',
-                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system -- Gusto, Rippling, QuickBooks, or whatever you are on. If you want to move to iSolved for a more complete HR platform, we can manage that -- but it is never a requirement.',
+                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system -- Gusto, Rippling, QuickBooks, or whatever you are on. If you want to move to isolved for a more complete HR platform, we can manage that -- but it is never a requirement.',
               },
               {
                 badge: 'Bonus 02',

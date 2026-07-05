@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for law firm payroll?',
-    answer: 'Law firm payroll runs at $25–$45 per employee per month, all-inclusive. For a 20-attorney firm with 30 total staff, that is approximately $750–$1,350 per month.',
+    answer: 'Law firm payroll runs at $25-$45 per employee per month, all-inclusive. For a 20-attorney firm with 30 total staff, that is approximately $750-$1,350 per month.',
   },
 ];
 
@@ -80,7 +80,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Key Payroll Compliance Requirements for Law Firms</h2>
 
-        <p><strong>Federal requirements.</strong> All law firms must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2–15% of the unpaid amount depending on how many days late.</p>
+        <p><strong>Federal requirements.</strong> All law firms must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2-15% of the unpaid amount depending on how many days late.</p>
 
         <p><strong>State requirements.</strong> State bar payroll requirements, attorney overtime exemptions under FLSA, IOLTA trust accounting separation. State requirements vary and change frequently. Multi-location law firms face multiple sets of state rules simultaneously.</p>
 
@@ -90,7 +90,7 @@ export default function Page() {
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}><strong>Misclassifying employees</strong> -- especially relevant for law firms where attorneys and paralegals may be paid differently depending on role structure</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2–15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2-15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect state filings</strong> -- law firms with employees in multiple states must file in each state and maintain separate records</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Failing to update payroll for rate changes</strong> -- minimum wage, SUTA rates, and state withholding tables change annually in most states</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Year-end W-2 errors</strong> -- incorrect box entries on W-2s require corrected W-2Cs filed with both the employee and the IRS</li>
@@ -104,7 +104,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -136,14 +136,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Law Firms. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Law Firms. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle attorney bonus payroll?","acceptedAnswer":{"@type":"Answer","text":"Yes. Attorney bonuses are processed as supplemental pay runs with the correct federal and state supplemental withholding rates applied."}},{"@type":"Question","name":"How do you handle partner draws vs. salary?","acceptedAnswer":{"@type":"Answer","text":"Partners taking guaranteed payments or draws are set up with the correct pay type. For W-2 partners, salary runs normally. For guaranteed payments outside W-2, we coordinate with your accounting team."}},{"@type":"Question","name":"How do you handle attorney overtime exemptions?","acceptedAnswer":{"@type":"Answer","text":"Attorneys meeting the FLSA learned professional exemption are classified as exempt and not subject to overtime. We ensure exemption criteria are documented in the payroll system."}},{"@type":"Question","name":"Can you process payroll across multiple office locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Law firms with multiple offices run on a single payroll system with state withholding and unemployment handled for each state."}},{"@type":"Question","name":"What does BEG charge for law firm payroll?","acceptedAnswer":{"@type":"Answer","text":"Law firm payroll runs at $25–$45 per employee per month, all-inclusive. For a 20-attorney firm with 30 total staff, that is approximately $750–$1,350 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle attorney bonus payroll?","acceptedAnswer":{"@type":"Answer","text":"Yes. Attorney bonuses are processed as supplemental pay runs with the correct federal and state supplemental withholding rates applied."}},{"@type":"Question","name":"How do you handle partner draws vs. salary?","acceptedAnswer":{"@type":"Answer","text":"Partners taking guaranteed payments or draws are set up with the correct pay type. For W-2 partners, salary runs normally. For guaranteed payments outside W-2, we coordinate with your accounting team."}},{"@type":"Question","name":"How do you handle attorney overtime exemptions?","acceptedAnswer":{"@type":"Answer","text":"Attorneys meeting the FLSA learned professional exemption are classified as exempt and not subject to overtime. We ensure exemption criteria are documented in the payroll system."}},{"@type":"Question","name":"Can you process payroll across multiple office locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Law firms with multiple offices run on a single payroll system with state withholding and unemployment handled for each state."}},{"@type":"Question","name":"What does BEG charge for law firm payroll?","acceptedAnswer":{"@type":"Answer","text":"Law firm payroll runs at $25-$45 per employee per month, all-inclusive. For a 20-attorney firm with 30 total staff, that is approximately $750-$1,350 per month."}}]}`,
         }}
       />
 

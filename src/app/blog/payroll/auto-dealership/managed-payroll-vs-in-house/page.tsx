@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs In-House for Dealers (Real Cost) | BEG',
-  description: 'Auto dealership payroll outsourcing vs. hiring a payroll manager. Real cost comparison for dealerships with 20–200 employees. Commission.',
+  description: 'Auto dealership payroll outsourcing vs. hiring a payroll manager. Real cost comparison for dealerships with 20-200 employees. Commission.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/auto-dealership/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs In-House for Dealers (Real Cost) | BEG',
-    description: 'Auto dealership payroll outsourcing vs. hiring a payroll manager. Real cost comparison for dealerships with 20–200 employees. Commission reconciliation,...',
+    description: 'Auto dealership payroll outsourcing vs. hiring a payroll manager. Real cost comparison for dealerships with 20-200 employees. Commission reconciliation,...',
     url: 'https://www.beghr.com/blog/payroll/auto-dealership/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs In-House for Dealers (Real Cost) | BEG', description: 'Auto dealership payroll outsourcing vs. hiring a payroll manager. Real cost comparison for dealerships with 20–200 employees. Commission reconciliation,...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs In-House for Dealers (Real Cost) | BEG', description: 'Auto dealership payroll outsourcing vs. hiring a payroll manager. Real cost comparison for dealerships with 20-200 employees. Commission reconciliation,...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: 'What does payroll management cost for an 80-employee dealership?',
-    a: 'At $25 per employee per month in your existing system, an 80-person dealership runs $2,000 per month, or $24,000 annually. At $45 per employee per month through our iSolved account, that is $3,600 per month, or $43,200 annually. Compare that to $65,000 to $90,000 for a qualified in-house payroll manager with automotive dealership experience.',
+    a: 'At $25 per employee per month in your existing system, an 80-person dealership runs $2,000 per month, or $24,000 annually. At $45 per employee per month through our isolved account, that is $3,600 per month, or $43,200 annually. Compare that to $65,000 to $90,000 for a qualified in-house payroll manager with automotive dealership experience.',
   },
   {
     q: 'Can BEG manage both our W-2 sales staff and any 1099 contractors on the lot?',
@@ -89,9 +89,9 @@ export default function AutoDealershipComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (80 employees)', '$2,000–$3,600', '$5,800–$8,000', '$300–$600 + your time'],
-                ['Annual cost', '$24,000–$43,200', '$69,600–$96,000+', '$3,600–$7,200 + errors'],
-                ['Setup time', '3–5 business days', '4–8 weeks to hire', '2–4 weeks'],
+                ['Monthly cost (80 employees)', '$2,000-$3,600', '$5,800-$8,000', '$300-$600 + your time'],
+                ['Annual cost', '$24,000-$43,200', '$69,600-$96,000+', '$3,600-$7,200 + errors'],
+                ['Setup time', '3-5 business days', '4-8 weeks to hire', '2-4 weeks'],
                 ['Draw-plus-commission tracking', 'Included', 'Varies by candidate', 'Manual configuration'],
                 ['F&I chargeback reconciliation', 'Included', 'Varies by candidate', 'Manual configuration'],
                 ['State commission payment law compliance', 'Included', 'Varies by candidate', 'Manual research'],
@@ -133,7 +133,7 @@ export default function AutoDealershipComparisonPage() {
           During onboarding, we map your compensation plans for each department, configure draw and commission reconciliation rules, and set up the flat-rate minimum wage floor calculation for service. We review your current chargeback processing workflow and rebuild it correctly if needed.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. For an 80-person dealership, that is $2,000 to $3,600 per month, all-inclusive, compared to $69,600 to $96,000 annually for a qualified in-house payroll manager. Most dealerships are live within 3 to 5 business days of contract signing.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our isolved account. For an 80-person dealership, that is $2,000 to $3,600 per month, all-inclusive, compared to $69,600 to $96,000 annually for a qualified in-house payroll manager. Most dealerships are live within 3 to 5 business days of contract signing.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

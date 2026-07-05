@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for nonprofit payroll?",
-    answer: "BEG manages 501(c)(3) nonprofit payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. We understand FICA applicability, FUTA exemption, and 990 compensation disclosure requirements. For a 20-person nonprofit, that is $500 to $900 per month, all-inclusive.",
+    answer: "BEG manages 501(c)(3) nonprofit payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's isolved platform. We understand FICA applicability, FUTA exemption, and 990 compensation disclosure requirements. For a 20-person nonprofit, that is $500 to $900 per month, all-inclusive.",
   },
 ];
 

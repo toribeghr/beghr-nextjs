@@ -222,7 +222,7 @@ export default function PayrollOutsourcingForLawFirmsPage() {
           <li>FLSA classification review during onboarding to ensure exempt/non-exempt designations are correct</li>
           <li>Year-end W-2 preparation and distribution; coordination with your CPA on K-1 timing</li>
           <li>A dedicated point of contact -- not a ticketing system</li>
-          <li>Works inside your existing payroll platform (no migration required) or on iSolved if you want to consolidate</li>
+          <li>Works inside your existing payroll platform (no migration required) or on isolved if you want to consolidate</li>
         </ul>
         <p>
           For more detail on the managed payroll model, see <a href="/services/managed-payroll/legal" style={{ color: '#9a6b1f', fontWeight: 600 }}>BEG Managed Payroll for Law Firms</a> or read how the cost breaks down in our guide to <a href="/blog/payroll/cost/how-much-does-a-payroll-manager-cost" style={{ color: '#9a6b1f', fontWeight: 600 }}>payroll manager cost vs. managed payroll</a>.

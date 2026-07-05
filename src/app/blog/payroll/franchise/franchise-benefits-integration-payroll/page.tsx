@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for franchise payroll?',
-    answer: 'Franchise payroll runs at $25–$45 per employee per month. For a 5-unit franchisee with 50 total employees, that is $1,250–$2,250 per month covering all locations, tax filing, and year-end W-2s.',
+    answer: 'Franchise payroll runs at $25-$45 per employee per month. For a 5-unit franchisee with 50 total employees, that is $1,250-$2,250 per month covering all locations, tax filing, and year-end W-2s.',
   },
 ];
 
@@ -89,7 +89,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>BEG Managed Payroll for Franchise Operations: What Is Included</h2>
 
-        <p>BEG provides all payroll features for franchise operations at $25–$45 PEPM, all-inclusive:</p>
+        <p>BEG provides all payroll features for franchise operations at $25-$45 PEPM, all-inclusive:</p>
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}>Payroll processing on your schedule (weekly, bi-weekly, semi-monthly)</li>
@@ -102,7 +102,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -134,14 +134,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Franchise Operations. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Franchise Operations. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you protect me from joint employer liability with the franchisor?","acceptedAnswer":{"@type":"Answer","text":"Using a third-party payroll provider that processes payroll independently from the franchisor&apos;s systems helps establish operational separation. We document that payroll decisions are made at the franchisee level."}},{"@type":"Question","name":"Can you handle payroll for multiple franchise units?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-unit franchisees run all locations on a single account with individual cost centers per unit and unit-level labor cost reporting."}},{"@type":"Question","name":"How do you handle different minimum wage rates across states?","acceptedAnswer":{"@type":"Answer","text":"Each location is set up with the applicable state and local minimum wage. Our compliance calendar tracks minimum wage changes and flags upcoming rate increases."}},{"@type":"Question","name":"What does BEG charge for franchise payroll?","acceptedAnswer":{"@type":"Answer","text":"Franchise payroll runs at $25–$45 per employee per month. For a 5-unit franchisee with 50 total employees, that is $1,250–$2,250 per month covering all locations, tax filing, and year-end W-2s."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you protect me from joint employer liability with the franchisor?","acceptedAnswer":{"@type":"Answer","text":"Using a third-party payroll provider that processes payroll independently from the franchisor&apos;s systems helps establish operational separation. We document that payroll decisions are made at the franchisee level."}},{"@type":"Question","name":"Can you handle payroll for multiple franchise units?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-unit franchisees run all locations on a single account with individual cost centers per unit and unit-level labor cost reporting."}},{"@type":"Question","name":"How do you handle different minimum wage rates across states?","acceptedAnswer":{"@type":"Answer","text":"Each location is set up with the applicable state and local minimum wage. Our compliance calendar tracks minimum wage changes and flags upcoming rate increases."}},{"@type":"Question","name":"What does BEG charge for franchise payroll?","acceptedAnswer":{"@type":"Answer","text":"Franchise payroll runs at $25-$45 per employee per month. For a 5-unit franchisee with 50 total employees, that is $1,250-$2,250 per month covering all locations, tax filing, and year-end W-2s."}}]}`,
         }}
       />
 

@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Government Contractor Payroll | Instant Quote | BEG',
-  description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.',
+  description: 'Government contractor payroll fully managed at $25-$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/government-contractor' },
   openGraph: {
     title: 'Government Contractor Payroll | Instant Quote | BEG',
-    description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.',
+    description: 'Government contractor payroll fully managed at $25-$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.',
     url: 'https://www.beghr.com/services/managed-payroll/government-contractor',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Government Contractor Payroll | Instant Quote | BEG', description: 'Government contractor payroll fully managed at $25–$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Government Contractor Payroll | Instant Quote | BEG', description: 'Government contractor payroll fully managed at $25-$45 PEPM. Certified payroll, Davis-Bacon prevailing wage, WH-347, and DOL audit readiness included.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('government-contractor-payroll');
@@ -30,7 +30,7 @@ export default function PayrollGovernmentContractorPage() {
       imageAlt="Government contractor with fully managed certified payroll"
       eyebrow="Managed Payroll · Government Contractors"
       title="Certified payroll and prevailing wage compliance is not optional. We make sure you never miss a filing."
-      description="Davis-Bacon Act prevailing wage requirements, certified payroll reporting on WH-347, fringe benefit tracking by trade classification, DOL audit risk, and multi-state federal project sites create a payroll compliance burden that most contractors either manage poorly or pay a consultant to handle. BEG manages all of it at $25–$45 per employee per month - fully managed, no migration required."
+      description="Davis-Bacon Act prevailing wage requirements, certified payroll reporting on WH-347, fringe benefit tracking by trade classification, DOL audit risk, and multi-state federal project sites create a payroll compliance burden that most contractors either manage poorly or pay a consultant to handle. BEG manages all of it at $25-$45 per employee per month - fully managed, no migration required."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       showHeroImage={false}
@@ -157,7 +157,7 @@ export default function PayrollGovernmentContractorPage() {
                   ['DOL audit record maintenance', 'Managed', 'Depends on process quality', 'You maintain it'],
                   ['Prevailing wage schedule updates', 'Automatic', 'Must track manually', 'Manual update'],
                   ['Multi-state federal project compliance', 'Included', 'May need outside counsel', 'You manage it'],
-                  ['Monthly cost (40 workers)', '$1,000–$1,800', '$5,800–$8,300', '$600–$1,200 + risk'],
+                  ['Monthly cost (40 workers)', '$1,000-$1,800', '$5,800-$8,300', '$600-$1,200 + risk'],
                 ].map(([factor, beg, inhouse, software], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
                     <td style={{ padding: '0.85rem 1rem', fontWeight: '600', color: '#222222' }}>{factor}</td>
@@ -184,7 +184,7 @@ export default function PayrollGovernmentContractorPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to transition is before your next contract award - not after one is already in flight.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Government contractors that set up managed payroll before a new contract award can start the contract with compliant certified payroll from day one. Contractors that wait add compliance risk from the first pay period of a new engagement.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Government contractors that set up managed payroll before a new contract award can start the contract with compliant certified payroll from day one. Contractors that wait add compliance risk from the first pay period of a new engagement.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -237,7 +237,7 @@ export default function PayrollGovernmentContractorPage() {
               <p>Misclassifying a worker to a lower-paid trade classification creates back-wage liability for the difference between what was paid and what the correct classification's prevailing wage rate required. The DOL can recover back wages for the life of the contract, plus interest. BEG reviews trade classifications against the applicable wage determination before the first pay cycle to prevent classification errors from compounding over a contract term.</p>
             </div>
             <div className="faq-item">
-              <h3>What does $25–$45 PEPM include for a government contractor?</h3>
+              <h3>What does $25-$45 PEPM include for a government contractor?</h3>
               <p>Everything: payroll processing, prevailing wage calculations, WH-347 certified payroll submissions, fringe benefit tracking, multi-state compliance for project sites in multiple states, year-end W-2 preparation, and dedicated BEG support. No per-filing fees, no per-contract surcharges.</p>
             </div>
             <div className="faq-item">

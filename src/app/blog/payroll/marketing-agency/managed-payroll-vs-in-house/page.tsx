@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs In-House for Agencies: Which Wins? | BEG',
-  description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp.',
+  description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10-80 employees. Remote multi-state staff, S-corp.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs In-House for Agencies: Which Wins? | BEG',
-    description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner...',
+    description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10-80 employees. Remote multi-state staff, S-corp owner...',
     url: 'https://www.beghr.com/blog/payroll/marketing-agency/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-marketing-agency-managed-payroll-vs-in-house.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs In-House for Agencies: Which Wins? | BEG', description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10–80 employees. Remote multi-state staff, S-corp owner...', images: ['https://www.beghr.com/blog-images/blog-payroll-marketing-agency-managed-payroll-vs-in-house.webp'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs In-House for Agencies: Which Wins? | BEG', description: 'Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 10-80 employees. Remote multi-state staff, S-corp owner...', images: ['https://www.beghr.com/blog-images/blog-payroll-marketing-agency-managed-payroll-vs-in-house.webp'] },
 
 };
 
@@ -93,9 +93,9 @@ export default function MarketingAgencyComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (20 employees)', '$500–$900', '$4,500–$6,500', '$100–$300 + your time'],
-                ['Annual cost', '$6,000–$10,800', '$54,000–$78,000+', '$1,200–$3,600 + errors'],
-                ['Setup time', '3–5 business days', '4–8 weeks to hire', '2–4 weeks'],
+                ['Monthly cost (20 employees)', '$500-$900', '$4,500-$6,500', '$100-$300 + your time'],
+                ['Annual cost', '$6,000-$10,800', '$54,000-$78,000+', '$1,200-$3,600 + errors'],
+                ['Setup time', '3-5 business days', '4-8 weeks to hire', '2-4 weeks'],
                 ['Multi-state remote team compliance', 'No extra fee per state', 'Requires specialist knowledge', 'Manual per state'],
                 ['S-corp owner salary processing', 'Included', 'Varies by knowledge', 'Requires correct setup'],
                 ['New state registration for new hires', 'Included', 'Included in job responsibilities', 'Owner handles'],
@@ -137,7 +137,7 @@ export default function MarketingAgencyComparisonPage() {
           During onboarding, we audit your current state registrations, confirm your owner-employee compensation structure is correctly configured, and review your active roster for contractor relationships that may warrant reclassification. New state registrations for remote hires are completed before the employee's first paycheck.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. For a 20-person agency, that is $500 to $900 per month, all-inclusive, compared to $54,000 to $78,000 annually for a qualified in-house HR coordinator. Most agencies are live within 3 to 5 business days of contract signing.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our isolved account. For a 20-person agency, that is $500 to $900 per month, all-inclusive, compared to $54,000 to $78,000 annually for a qualified in-house HR coordinator. Most agencies are live within 3 to 5 business days of contract signing.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

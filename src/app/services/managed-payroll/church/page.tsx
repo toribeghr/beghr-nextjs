@@ -139,7 +139,7 @@ export default function PayrollChurchPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "We have used the same simple payroll setup for years and do not want to disrupt it."',
-                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system. If you want to move to iSolved for a more capable platform that handles clergy payroll correctly out of the box, we can manage that transition -- but it is never a requirement.',
+                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system. If you want to move to isolved for a more capable platform that handles clergy payroll correctly out of the box, we can manage that transition -- but it is never a requirement.',
               },
               {
                 badge: 'Bonus 02',

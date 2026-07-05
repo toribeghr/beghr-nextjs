@@ -225,7 +225,7 @@ export default function SaaSPayrollPage() {
               Managed Payroll vs. Rippling &rarr;
             </a>
             <a href="/services/hcm-software" style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.5rem 1.25rem', borderRadius: '4px', fontWeight: '600', fontSize: '0.9rem', textDecoration: 'none' }}>
-              iSolved HCM Software &rarr;
+              isolved HCM Software &rarr;
             </a>
           </div>
         </div>

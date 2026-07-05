@@ -139,7 +139,7 @@ export default function PayrollTruckingPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Switching payroll systems disrupts dispatch and fleet management integrations."',
-                body: 'We do not require you to change TMS or payroll platforms. BEG operates as your managed payroll team inside your current system. If you want to upgrade to iSolved or a better platform, we can handle that transition -- but it is never a prerequisite to getting started.',
+                body: 'We do not require you to change TMS or payroll platforms. BEG operates as your managed payroll team inside your current system. If you want to upgrade to isolved or a better platform, we can handle that transition -- but it is never a prerequisite to getting started.',
               },
               {
                 badge: 'Bonus 02',

@@ -137,7 +137,7 @@ export default function TruckingPayrollTaxesPage() {
           Running payroll for a fleet means managing multi-state withholding, per diem structuring, driver classification documentation, quarterly tax deposits, and year-end W-2 preparation -- on top of the day-to-day demands of running trucks.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1.2rem' }}>
-          BEG manages payroll for trucking companies at $25 per employee per month in your existing system or $45 PEPM in our iSolved account. That includes every state filing, every federal deposit, and year-end W-2s. You are not buying software to learn; we run it for you.
+          BEG manages payroll for trucking companies at $25 per employee per month in your existing system or $45 PEPM in our isolved account. That includes every state filing, every federal deposit, and year-end W-2s. You are not buying software to learn; we run it for you.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
           From signed agreement to first managed pay run is typically 3 to 5 business days.

@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for retail chain payroll?",
-    answer: "BEG manages retail chain payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. Both are all-inclusive: multi-location payroll, multi-state withholding, overtime calculations, tax filings, and W-2 production. For a 5-location chain with 60 total employees, that is $1,500 to $2,700 per month.",
+    answer: "BEG manages retail chain payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's isolved platform. Both are all-inclusive: multi-location payroll, multi-state withholding, overtime calculations, tax filings, and W-2 production. For a 5-location chain with 60 total employees, that is $1,500 to $2,700 per month.",
   },
 ];
 

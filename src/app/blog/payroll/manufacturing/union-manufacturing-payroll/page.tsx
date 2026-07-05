@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for union manufacturing payroll?",
-    answer: "BEG manages union manufacturing payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For a 150-person union plant, that is $3,750 to $6,750 per month, all-inclusive: CBA wage schedule management, fringe remittance calculation, dues checkoff, overtime under CBA terms, and tax filings.",
+    answer: "BEG manages union manufacturing payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's isolved platform. For a 150-person union plant, that is $3,750 to $6,750 per month, all-inclusive: CBA wage schedule management, fringe remittance calculation, dues checkoff, overtime under CBA terms, and tax filings.",
   },
 ];
 

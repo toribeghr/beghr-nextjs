@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for fitness studio payroll?',
-    answer: 'Fitness payroll runs at $25–$45 per employee per month. For a 20-employee gym, that is $500–$900 per month, all-inclusive, covering trainer commission, class-based pay, and year-end W-2s.',
+    answer: 'Fitness payroll runs at $25-$45 per employee per month. For a 20-employee gym, that is $500-$900 per month, all-inclusive, covering trainer commission, class-based pay, and year-end W-2s.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function Page() {
           <li style={{ marginBottom: '0.5rem' }}><strong>Wrong employee classification.</strong> fitness businesses often have personal trainers and group fitness instructors in roles that require careful classification. Misclassifying a W-2 employee as a 1099 contractor triggers back FICA taxes, penalties, and interest.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect overtime calculation.</strong> FLSA overtime rules require time-and-a-half for hours over 40 in a work week. For fitness businesses with trainer 1099 vs W-2 classification, the blended rate calculation is often done incorrectly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing state new hire reporting.</strong> All states require employers to report new hires within 20 days of the hire date. Missing this deadline creates state penalties that most fitness businesses do not know about until they receive a notice.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2–15% penalty.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2-15% penalty.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>W-2 errors at year-end.</strong> Incorrect W-2s require corrected W-2Cs filed with the IRS and re-issued to employees. If discovered during audit, the correction process is more costly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing compliance updates.</strong> State minimum wages, SUTA rates, and payroll tax tables change annually. fitness businesses that do not update their systems face under-withholding liability.</li>
         </ul>
@@ -91,11 +91,11 @@ export default function Page() {
 
         <p>The most reliable solution is managed payroll from a provider that handles the compliance layer as part of the service. Payroll tax deposits are made on time, withholding is calculated correctly, and compliance updates are applied without your intervention.</p>
 
-        <p>For fitness businesses, managed payroll at $25–$45 PEPM provides full coverage of the scenarios above -- including trainer 1099 vs W-2 classification and commission-based training pay -- at a fraction of the cost of an in-house hire.</p>
+        <p>For fitness businesses, managed payroll at $25-$45 PEPM provides full coverage of the scenarios above -- including trainer 1099 vs W-2 classification and commission-based training pay -- at a fraction of the cost of an in-house hire.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -127,14 +127,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Fitness Studios & Gyms. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Fitness Studios & Gyms. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle personal trainer classification?","acceptedAnswer":{"@type":"Answer","text":"We review trainer agreements against the IRS 20-factor test and help determine the correct classification. Misclassified trainers expose studios to back employment taxes and penalties."}},{"@type":"Question","name":"Can you handle session-based commission pay for trainers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Trainers paid per session have their comp calculated based on session logs submitted each pay period, with correct withholding applied."}},{"@type":"Question","name":"Can you handle payroll for multiple studio locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Each location is a cost center, and you get labor cost by location for P&L analysis."}},{"@type":"Question","name":"What does BEG charge for fitness studio payroll?","acceptedAnswer":{"@type":"Answer","text":"Fitness payroll runs at $25–$45 per employee per month. For a 20-employee gym, that is $500–$900 per month, all-inclusive, covering trainer commission, class-based pay, and year-end W-2s."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle personal trainer classification?","acceptedAnswer":{"@type":"Answer","text":"We review trainer agreements against the IRS 20-factor test and help determine the correct classification. Misclassified trainers expose studios to back employment taxes and penalties."}},{"@type":"Question","name":"Can you handle session-based commission pay for trainers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Trainers paid per session have their comp calculated based on session logs submitted each pay period, with correct withholding applied."}},{"@type":"Question","name":"Can you handle payroll for multiple studio locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Each location is a cost center, and you get labor cost by location for P&L analysis."}},{"@type":"Question","name":"What does BEG charge for fitness studio payroll?","acceptedAnswer":{"@type":"Answer","text":"Fitness payroll runs at $25-$45 per employee per month. For a 20-employee gym, that is $500-$900 per month, all-inclusive, covering trainer commission, class-based pay, and year-end W-2s."}}]}`,
         }}
       />
 

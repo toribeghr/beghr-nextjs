@@ -139,7 +139,7 @@ export default function PayrollFranchisePage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Our franchisor may have a preferred payroll system and we cannot always switch."',
-                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system -- whether that is a franchisor-approved platform or one you selected. If you want to move to iSolved for a more capable HCM platform, we can manage that -- but it is never a requirement.',
+                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system -- whether that is a franchisor-approved platform or one you selected. If you want to move to isolved for a more capable HCM platform, we can manage that -- but it is never a requirement.',
               },
               {
                 badge: 'Bonus 02',
@@ -229,7 +229,7 @@ export default function PayrollFranchisePage() {
             </div>
             <div className="faq-item">
               <h3>What if my franchisor requires a specific payroll system?</h3>
-              <p>We work inside your franchisor-approved system if one is mandated. If you have flexibility to choose your platform, we can advise on options -- including iSolved, which handles multi-location franchise payroll well. Either way, we manage the payroll execution regardless of platform.</p>
+              <p>We work inside your franchisor-approved system if one is mandated. If you have flexibility to choose your platform, we can advise on options -- including isolved, which handles multi-location franchise payroll well. Either way, we manage the payroll execution regardless of platform.</p>
             </div>
             <div className="faq-item">
               <h3>How do you handle joint-employer documentation?</h3>

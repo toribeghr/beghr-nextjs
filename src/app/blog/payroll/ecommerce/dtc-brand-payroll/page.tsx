@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for DTC brand payroll?",
-    answer: "BEG manages DTC brand payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. Both include multi-state withholding, quarterly tax filings, W-2 production, and automatic compliance updates. For a 25-person DTC brand with warehouse and remote marketing staff, that is $625 to $1,125 per month, all-inclusive.",
+    answer: "BEG manages DTC brand payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's isolved platform. Both include multi-state withholding, quarterly tax filings, W-2 production, and automatic compliance updates. For a 25-person DTC brand with warehouse and remote marketing staff, that is $625 to $1,125 per month, all-inclusive.",
   },
 ];
 

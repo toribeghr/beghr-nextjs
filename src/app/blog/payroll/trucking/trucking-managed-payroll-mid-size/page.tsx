@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for trucking company payroll?',
-    answer: 'Trucking payroll runs at $25–$45 per employee per month. For a 20-truck fleet with 25 W-2 employees, that is approximately $625–$1,125 per month covering payroll, tax filing, per-diem administration, and W-2s.',
+    answer: 'Trucking payroll runs at $25-$45 per employee per month. For a 20-truck fleet with 25 W-2 employees, that is approximately $625-$1,125 per month covering payroll, tax filing, per-diem administration, and W-2s.',
   },
 ];
 
@@ -66,7 +66,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Managed payroll at $25–$45 PEPM all-inclusive makes economic sense at nearly every size for trucking companies, but the specific value drivers differ depending on headcount.</p>
+        <p>Managed payroll at $25-$45 PEPM all-inclusive makes economic sense at nearly every size for trucking companies, but the specific value drivers differ depending on headcount.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Payroll at Different Sizes for Trucking Companies</h2>
 
@@ -82,34 +82,34 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>5-truck carrier</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$125–$225/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K–$78K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$125-$225/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $53K-$78K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>20-truck fleet</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$500–$900/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $48K–$72K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$500-$900/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $48K-$72K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>80-truck carrier</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$2,000–$3,600/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $32K–$56K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$2,000-$3,600/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $32K-$56K/yr</td>
                 </tr>
             </tbody>
           </table>
         </div>
 
-        <p>The comparison is against an in-house hire at $55,000–$80,000 fully loaded to $57K–$83K per year.</p>
+        <p>The comparison is against an in-house hire at $55,000-$80,000 fully loaded to $57K-$83K per year.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Under 25 Employees: The Clearest ROI</h2>
 
-        <p>For trucking companies under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $55,000–$80,000 fully loaded -- compared to $625–$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2–3 months.</p>
+        <p>For trucking companies under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $55,000-$80,000 fully loaded -- compared to $625-$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2-3 months.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25–75 Employees: Complexity Drives the Case</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25-75 Employees: Complexity Drives the Case</h2>
 
-        <p>In the 25–75 employee range, trucking companies are dealing with more per-diem pay for drivers, owner-operator vs W-2 classification, DOT compliance, mileage reimbursement. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
+        <p>In the 25-75 employee range, trucking companies are dealing with more per-diem pay for drivers, owner-operator vs W-2 classification, DOT compliance, mileage reimbursement. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75–200 Employees: Hybrid Approaches Emerge</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75-200 Employees: Hybrid Approaches Emerge</h2>
 
         <p>At 75+ employees, trucking companies often consider a hybrid approach: an HR generalist handles employee relations and benefits while a managed payroll provider handles the compliance-heavy payroll function. This keeps an internal HR presence while outsourcing the most technically complex piece.</p>
 
@@ -119,7 +119,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -151,14 +151,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Trucking & Transportation Companies. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Trucking & Transportation Companies. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle per-diem pay for OTR drivers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Per-diem is set up as a non-taxable allowance at the IRS-approved transportation industry rate ($69/day in 2026 for CONUS). We track per-diem days separately and produce correct W-2 treatment."}},{"@type":"Question","name":"How do you handle owner-operators vs. W-2 drivers?","acceptedAnswer":{"@type":"Answer","text":"Owner-operators are processed as 1099 independent contractors; W-2 drivers run through regular payroll. We maintain correct classification documentation to withstand an IRS or DOL audit."}},{"@type":"Question","name":"Can you handle payroll for drivers in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state driver payroll, including resident state income tax withholding, is handled automatically. We file in each applicable state."}},{"@type":"Question","name":"What does BEG charge for trucking company payroll?","acceptedAnswer":{"@type":"Answer","text":"Trucking payroll runs at $25–$45 per employee per month. For a 20-truck fleet with 25 W-2 employees, that is approximately $625–$1,125 per month covering payroll, tax filing, per-diem administration, and W-2s."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle per-diem pay for OTR drivers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Per-diem is set up as a non-taxable allowance at the IRS-approved transportation industry rate ($69/day in 2026 for CONUS). We track per-diem days separately and produce correct W-2 treatment."}},{"@type":"Question","name":"How do you handle owner-operators vs. W-2 drivers?","acceptedAnswer":{"@type":"Answer","text":"Owner-operators are processed as 1099 independent contractors; W-2 drivers run through regular payroll. We maintain correct classification documentation to withstand an IRS or DOL audit."}},{"@type":"Question","name":"Can you handle payroll for drivers in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state driver payroll, including resident state income tax withholding, is handled automatically. We file in each applicable state."}},{"@type":"Question","name":"What does BEG charge for trucking company payroll?","acceptedAnswer":{"@type":"Answer","text":"Trucking payroll runs at $25-$45 per employee per month. For a 20-truck fleet with 25 W-2 employees, that is approximately $625-$1,125 per month covering payroll, tax filing, per-diem administration, and W-2s."}}]}`,
         }}
       />
 

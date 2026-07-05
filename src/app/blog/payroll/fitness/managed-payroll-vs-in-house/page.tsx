@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Fitness Payroll, Managed vs In-House (What to Know) | BEG',
-  description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification.',
+  description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10-80 staff. Trainer W-2 vs. 1099 classification.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Fitness Payroll, Managed vs In-House (What to Know) | BEG',
-    description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification, ...',
+    description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10-80 staff. Trainer W-2 vs. 1099 classification, ...',
     url: 'https://www.beghr.com/blog/payroll/fitness/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Fitness Payroll, Managed vs In-House (What to Know) | BEG', description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10–80 staff. Trainer W-2 vs. 1099 classification, ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Fitness Payroll, Managed vs In-House (What to Know) | BEG', description: 'Fitness studio and gym payroll outsourcing vs. hiring in-house. Real cost comparison for studios with 10-80 staff. Trainer W-2 vs. 1099 classification, ...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -89,9 +89,9 @@ export default function FitnessComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (25 employees)', '$625–$1,125', '$3,500–$5,500', '$100–$300 + your time'],
-                ['Annual cost', '$7,500–$13,500', '$42,000–$66,000+', '$1,200–$3,600 + errors'],
-                ['Setup time', '3–5 business days', '2–6 weeks to hire or train', '2–4 weeks'],
+                ['Monthly cost (25 employees)', '$625-$1,125', '$3,500-$5,500', '$100-$300 + your time'],
+                ['Annual cost', '$7,500-$13,500', '$42,000-$66,000+', '$1,200-$3,600 + errors'],
+                ['Setup time', '3-5 business days', '2-6 weeks to hire or train', '2-4 weeks'],
                 ['Trainer W-2 vs. 1099 classification review', 'Flagged at onboarding', 'Varies by knowledge', 'Not provided'],
                 ['Per-class / per-session pay structure', 'Configured in existing system', 'Manual calculation risk', 'Requires custom setup'],
                 ['ACA FTE tracking across locations', 'Included', 'Varies by training', 'Add-on or manual'],
@@ -133,7 +133,7 @@ export default function FitnessComparisonPage() {
           During onboarding, we review your trainer arrangements for classification risk, configure per-class pay calculations with the correct minimum wage floor, and set up FTE tracking for ACA compliance from day one. Studios that have been paying trainers as 1099 contractors often use the onboarding process to restructure those relationships correctly before the first managed cycle.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. For a 25-person studio, that is $625 to $1,125 per month, all-inclusive, compared to $42,000 to $66,000 annually for a studio manager handling payroll as part of a broader role. Most studios are live within 3 to 5 business days.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our isolved account. For a 25-person studio, that is $625 to $1,125 per month, all-inclusive, compared to $42,000 to $66,000 annually for a studio manager handling payroll as part of a broader role. Most studios are live within 3 to 5 business days.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

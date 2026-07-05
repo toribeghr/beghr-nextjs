@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for trucking company payroll?',
-    answer: 'Trucking payroll runs at $25–$45 per employee per month. For a 20-truck fleet with 25 W-2 employees, that is approximately $625–$1,125 per month covering payroll, tax filing, per-diem administration, and W-2s.',
+    answer: 'Trucking payroll runs at $25-$45 per employee per month. For a 20-truck fleet with 25 W-2 employees, that is approximately $625-$1,125 per month covering payroll, tax filing, per-diem administration, and W-2s.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function Page() {
           <li style={{ marginBottom: '0.5rem' }}><strong>Wrong employee classification.</strong> trucking companies often have OTR drivers and local drivers in roles that require careful classification. Misclassifying a W-2 employee as a 1099 contractor triggers back FICA taxes, penalties, and interest.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect overtime calculation.</strong> FLSA overtime rules require time-and-a-half for hours over 40 in a work week. For trucking companies with per-diem pay for drivers, the blended rate calculation is often done incorrectly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing state new hire reporting.</strong> All states require employers to report new hires within 20 days of the hire date. Missing this deadline creates state penalties that most trucking companies do not know about until they receive a notice.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2–15% penalty.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2-15% penalty.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>W-2 errors at year-end.</strong> Incorrect W-2s require corrected W-2Cs filed with the IRS and re-issued to employees. If discovered during audit, the correction process is more costly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing compliance updates.</strong> State minimum wages, SUTA rates, and payroll tax tables change annually. trucking companies that do not update their systems face under-withholding liability.</li>
         </ul>
@@ -91,11 +91,11 @@ export default function Page() {
 
         <p>The most reliable solution is managed payroll from a provider that handles the compliance layer as part of the service. Payroll tax deposits are made on time, withholding is calculated correctly, and compliance updates are applied without your intervention.</p>
 
-        <p>For trucking companies, managed payroll at $25–$45 PEPM provides full coverage of the scenarios above -- including per-diem pay for drivers and owner-operator vs W-2 classification -- at a fraction of the cost of an in-house hire.</p>
+        <p>For trucking companies, managed payroll at $25-$45 PEPM provides full coverage of the scenarios above -- including per-diem pay for drivers and owner-operator vs W-2 classification -- at a fraction of the cost of an in-house hire.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -127,14 +127,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Trucking & Transportation Companies. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Trucking & Transportation Companies. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle per-diem pay for OTR drivers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Per-diem is set up as a non-taxable allowance at the IRS-approved transportation industry rate ($69/day in 2026 for CONUS). We track per-diem days separately and produce correct W-2 treatment."}},{"@type":"Question","name":"How do you handle owner-operators vs. W-2 drivers?","acceptedAnswer":{"@type":"Answer","text":"Owner-operators are processed as 1099 independent contractors; W-2 drivers run through regular payroll. We maintain correct classification documentation to withstand an IRS or DOL audit."}},{"@type":"Question","name":"Can you handle payroll for drivers in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state driver payroll, including resident state income tax withholding, is handled automatically. We file in each applicable state."}},{"@type":"Question","name":"What does BEG charge for trucking company payroll?","acceptedAnswer":{"@type":"Answer","text":"Trucking payroll runs at $25–$45 per employee per month. For a 20-truck fleet with 25 W-2 employees, that is approximately $625–$1,125 per month covering payroll, tax filing, per-diem administration, and W-2s."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle per-diem pay for OTR drivers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Per-diem is set up as a non-taxable allowance at the IRS-approved transportation industry rate ($69/day in 2026 for CONUS). We track per-diem days separately and produce correct W-2 treatment."}},{"@type":"Question","name":"How do you handle owner-operators vs. W-2 drivers?","acceptedAnswer":{"@type":"Answer","text":"Owner-operators are processed as 1099 independent contractors; W-2 drivers run through regular payroll. We maintain correct classification documentation to withstand an IRS or DOL audit."}},{"@type":"Question","name":"Can you handle payroll for drivers in multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-state driver payroll, including resident state income tax withholding, is handled automatically. We file in each applicable state."}},{"@type":"Question","name":"What does BEG charge for trucking company payroll?","acceptedAnswer":{"@type":"Answer","text":"Trucking payroll runs at $25-$45 per employee per month. For a 20-truck fleet with 25 W-2 employees, that is approximately $625-$1,125 per month covering payroll, tax filing, per-diem administration, and W-2s."}}]}`,
         }}
       />
 

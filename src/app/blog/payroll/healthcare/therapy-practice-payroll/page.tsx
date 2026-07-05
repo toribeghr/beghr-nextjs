@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for therapy practice payroll?",
-    answer: "BEG manages therapy practice payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For a 15-clinician group practice, that is $375 to $675 per month, all-inclusive. Per-session pay calculations, PTO accrual, multi-location tracking, and W-2 production included. Live in 3 to 5 business days from contract signing.",
+    answer: "BEG manages therapy practice payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's isolved platform. For a 15-clinician group practice, that is $375 to $675 per month, all-inclusive. Per-session pay calculations, PTO accrual, multi-location tracking, and W-2 production included. Live in 3 to 5 business days from contract signing.",
   },
 ];
 

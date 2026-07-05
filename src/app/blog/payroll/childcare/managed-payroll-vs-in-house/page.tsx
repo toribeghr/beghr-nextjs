@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. In-House for Childcare Centers | BEG',
-  description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy.',
+  description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10-80 staff. High turnover, subsidy.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. In-House for Childcare Centers | BEG',
-    description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy documentati...',
+    description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10-80 staff. High turnover, subsidy documentati...',
     url: 'https://www.beghr.com/blog/payroll/childcare/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. In-House for Childcare Centers | BEG', description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10–80 staff. High turnover, subsidy documentati...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. In-House for Childcare Centers | BEG', description: 'Childcare center payroll outsourcing vs. hiring an office manager. Real cost comparison for centers with 10-80 staff. High turnover, subsidy documentati...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: 'What does managed payroll cost for a 30-person childcare center?',
-    a: 'At $25 per employee per month in your existing system, a 30-person center pays $750 per month, or $9,000 annually. At $45 per employee per month through our iSolved account, that is $1,350 per month, or $16,200 annually. Compare that to $50,000 to $75,000 annually for an office manager or HR coordinator handling payroll full-time.',
+    a: 'At $25 per employee per month in your existing system, a 30-person center pays $750 per month, or $9,000 annually. At $45 per employee per month through our isolved account, that is $1,350 per month, or $16,200 annually. Compare that to $50,000 to $75,000 annually for an office manager or HR coordinator handling payroll full-time.',
   },
 ];
 
@@ -89,9 +89,9 @@ export default function ChildcareComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (30 employees)', '$750–$1,350', '$4,200–$6,500', '$100–$300 + your time'],
-                ['Annual cost', '$9,000–$16,200', '$50,400–$78,000+', '$1,200–$3,600 + errors'],
-                ['Setup time', '3–5 business days', '4–8 weeks to hire', '2–4 weeks'],
+                ['Monthly cost (30 employees)', '$750-$1,350', '$4,200-$6,500', '$100-$300 + your time'],
+                ['Annual cost', '$9,000-$16,200', '$50,400-$78,000+', '$1,200-$3,600 + errors'],
+                ['Setup time', '3-5 business days', '4-8 weeks to hire', '2-4 weeks'],
                 ['FLSA overtime compliance for aides', 'Included', 'Varies by candidate', 'Manual configuration'],
                 ['State subsidy audit documentation', 'Included', 'Varies by knowledge', 'Manual production'],
                 ['High-turnover onboarding management', 'Managed for you', 'Owner handles with support', 'Owner handles'],
@@ -133,7 +133,7 @@ export default function ChildcareComparisonPage() {
           During onboarding, we audit your current overtime calculation setup, confirm your subsidy documentation procedures, and review your state tax registrations. Most centers are live within 3 to 5 business days of contract signing, with high-turnover centers typically seeing an immediate reduction in payroll errors starting with the first managed cycle.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. For a 30-person center, that is $750 to $1,350 per month, all-inclusive, compared to $50,400 to $78,000 annually for a full-time office manager handling payroll responsibilities.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our isolved account. For a 30-person center, that is $750 to $1,350 per month, all-inclusive, compared to $50,400 to $78,000 annually for a full-time office manager handling payroll responsibilities.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

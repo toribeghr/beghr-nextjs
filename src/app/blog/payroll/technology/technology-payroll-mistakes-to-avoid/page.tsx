@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for tech company payroll?',
-    answer: 'Tech company payroll runs at $25–$45 per employee per month. For a 40-person Series A company, that is $1,000–$1,800 per month covering payroll, multi-state tax filing, W-2s, and equity comp withholding coordination.',
+    answer: 'Tech company payroll runs at $25-$45 per employee per month. For a 40-person Series A company, that is $1,000-$1,800 per month covering payroll, multi-state tax filing, W-2s, and equity comp withholding coordination.',
   },
 ];
 
@@ -80,7 +80,7 @@ export default function Page() {
           <li style={{ marginBottom: '0.5rem' }}><strong>Wrong employee classification.</strong> tech companies often have software engineers and product managers in roles that require careful classification. Misclassifying a W-2 employee as a 1099 contractor triggers back FICA taxes, penalties, and interest.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect overtime calculation.</strong> FLSA overtime rules require time-and-a-half for hours over 40 in a work week. For tech companies with equity compensation handling, the blended rate calculation is often done incorrectly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing state new hire reporting.</strong> All states require employers to report new hires within 20 days of the hire date. Missing this deadline creates state penalties that most tech companies do not know about until they receive a notice.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2–15% penalty.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2-15% penalty.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>W-2 errors at year-end.</strong> Incorrect W-2s require corrected W-2Cs filed with the IRS and re-issued to employees. If discovered during audit, the correction process is more costly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing compliance updates.</strong> State minimum wages, SUTA rates, and payroll tax tables change annually. tech companies that do not update their systems face under-withholding liability.</li>
         </ul>
@@ -95,11 +95,11 @@ export default function Page() {
 
         <p>The most reliable solution is managed payroll from a provider that handles the compliance layer as part of the service. Payroll tax deposits are made on time, withholding is calculated correctly, and compliance updates are applied without your intervention.</p>
 
-        <p>For tech companies, managed payroll at $25–$45 PEPM provides full coverage of the scenarios above -- including equity compensation handling and remote employee multi-state tax -- at a fraction of the cost of an in-house hire.</p>
+        <p>For tech companies, managed payroll at $25-$45 PEPM provides full coverage of the scenarios above -- including equity compensation handling and remote employee multi-state tax -- at a fraction of the cost of an in-house hire.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -131,14 +131,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Technology & SaaS Companies. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Technology & SaaS Companies. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle payroll for fully remote teams across multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Remote-first teams with employees in multiple states are a standard use case. We register in each state, withhold state income tax for each employee's resident state, and pay state unemployment where the employee works."}},{"@type":"Question","name":"How do you handle RSU vesting events in payroll?","acceptedAnswer":{"@type":"Answer","text":"RSU vesting events require supplemental wage withholding. We coordinate with your equity platform on vesting schedules and process supplemental withholding on vest dates, including the net shares sold for taxes approach when applicable."}},{"@type":"Question","name":"Can you handle commission payroll for our sales team?","acceptedAnswer":{"@type":"Answer","text":"Yes. Commission payroll is processed as supplemental pay runs or integrated into regular payroll. We apply the correct supplemental withholding rate and reconcile commission against draw when applicable."}},{"@type":"Question","name":"What does BEG charge for tech company payroll?","acceptedAnswer":{"@type":"Answer","text":"Tech company payroll runs at $25–$45 per employee per month. For a 40-person Series A company, that is $1,000–$1,800 per month covering payroll, multi-state tax filing, W-2s, and equity comp withholding coordination."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you handle payroll for fully remote teams across multiple states?","acceptedAnswer":{"@type":"Answer","text":"Yes. Remote-first teams with employees in multiple states are a standard use case. We register in each state, withhold state income tax for each employee's resident state, and pay state unemployment where the employee works."}},{"@type":"Question","name":"How do you handle RSU vesting events in payroll?","acceptedAnswer":{"@type":"Answer","text":"RSU vesting events require supplemental wage withholding. We coordinate with your equity platform on vesting schedules and process supplemental withholding on vest dates, including the net shares sold for taxes approach when applicable."}},{"@type":"Question","name":"Can you handle commission payroll for our sales team?","acceptedAnswer":{"@type":"Answer","text":"Yes. Commission payroll is processed as supplemental pay runs or integrated into regular payroll. We apply the correct supplemental withholding rate and reconcile commission against draw when applicable."}},{"@type":"Question","name":"What does BEG charge for tech company payroll?","acceptedAnswer":{"@type":"Answer","text":"Tech company payroll runs at $25-$45 per employee per month. For a 40-person Series A company, that is $1,000-$1,800 per month covering payroll, multi-state tax filing, W-2s, and equity comp withholding coordination."}}]}`,
         }}
       />
 

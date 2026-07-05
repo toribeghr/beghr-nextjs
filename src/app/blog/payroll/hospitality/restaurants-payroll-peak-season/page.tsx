@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for restaurant payroll?',
-    answer: 'Restaurant payroll runs at $25–$45 per employee per month. Tip credit tracking, tip pooling distribution, and multi-rate pay are all included. For a 25-employee restaurant, that is $625–$1,125 per month.',
+    answer: 'Restaurant payroll runs at $25-$45 per employee per month. Tip credit tracking, tip pooling distribution, and multi-rate pay are all included. For a 25-employee restaurant, that is $625-$1,125 per month.',
   },
 ];
 
@@ -99,11 +99,11 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>How Managed Payroll Simplifies Restaurants & Hospitality Operations</h2>
 
-        <p>BEG managed payroll at $25–$45 PEPM handles all of the above as part of the base service. Payroll operations run on your schedule without requiring your management team to maintain expertise in tip credit and tip pooling or high turnover.</p>
+        <p>BEG managed payroll at $25-$45 PEPM handles all of the above as part of the base service. Payroll operations run on your schedule without requiring your management team to maintain expertise in tip credit and tip pooling or high turnover.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -135,14 +135,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Restaurants & Hospitality. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Restaurants & Hospitality. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle tip credit for tipped employees?","acceptedAnswer":{"@type":"Answer","text":"Tip credit is configured per state. We calculate whether each employee received enough tips to bring total compensation to minimum wage per pay period. Where no tip credit exists, tipped employees are paid at full minimum wage."}},{"@type":"Question","name":"How do you handle multiple pay rates for the same employee?","acceptedAnswer":{"@type":"Answer","text":"An employee working as a server at one rate and a shift supervisor at a different rate is set up with dual rate codes. Overtime is calculated at the blended rate across all hours worked in the week."}},{"@type":"Question","name":"How do you handle tip pooling under FLSA?","acceptedAnswer":{"@type":"Answer","text":"Post-2018, tip pools can include back-of-house employees in non-tip-credit states. We track pool contributions and distributions and produce the required documentation."}},{"@type":"Question","name":"What does BEG charge for restaurant payroll?","acceptedAnswer":{"@type":"Answer","text":"Restaurant payroll runs at $25–$45 per employee per month. Tip credit tracking, tip pooling distribution, and multi-rate pay are all included. For a 25-employee restaurant, that is $625–$1,125 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle tip credit for tipped employees?","acceptedAnswer":{"@type":"Answer","text":"Tip credit is configured per state. We calculate whether each employee received enough tips to bring total compensation to minimum wage per pay period. Where no tip credit exists, tipped employees are paid at full minimum wage."}},{"@type":"Question","name":"How do you handle multiple pay rates for the same employee?","acceptedAnswer":{"@type":"Answer","text":"An employee working as a server at one rate and a shift supervisor at a different rate is set up with dual rate codes. Overtime is calculated at the blended rate across all hours worked in the week."}},{"@type":"Question","name":"How do you handle tip pooling under FLSA?","acceptedAnswer":{"@type":"Answer","text":"Post-2018, tip pools can include back-of-house employees in non-tip-credit states. We track pool contributions and distributions and produce the required documentation."}},{"@type":"Question","name":"What does BEG charge for restaurant payroll?","acceptedAnswer":{"@type":"Answer","text":"Restaurant payroll runs at $25-$45 per employee per month. Tip credit tracking, tip pooling distribution, and multi-rate pay are all included. For a 25-employee restaurant, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

@@ -281,7 +281,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
           One flat invoice per month.
         </p>
         <p>
-          You can also stay on your existing payroll platform. BEG operates inside your current system at $25 PEPM, or moves you to iSolved at $45 PEPM if you want to consolidate.
+          You can also stay on your existing payroll platform. BEG operates inside your current system at $25 PEPM, or moves you to isolved at $45 PEPM if you want to consolidate.
         </p>
         <p>
           For more on how BEG manages payroll alongside existing software, see <a href="/blog/compare/managed-payroll-vs-adp" style={{ color: '#9a6b1f', fontWeight: 600 }}>ADP vs. Managed Payroll</a> and <a href="/blog/compare/managed-payroll-vs-gusto" style={{ color: '#9a6b1f', fontWeight: 600 }}>Gusto vs. Managed Payroll</a>.

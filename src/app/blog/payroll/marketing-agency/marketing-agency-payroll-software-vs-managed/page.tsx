@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for agency payroll?',
-    answer: 'Agency payroll runs at $25–$45 per employee per month. For a 20-person agency, that is $500–$900 per month covering payroll, tax filing, year-end W-2s, and multi-state compliance.',
+    answer: 'Agency payroll runs at $25-$45 per employee per month. For a 20-person agency, that is $500-$900 per month covering payroll, tax filing, year-end W-2s, and multi-state compliance.',
   },
 ];
 
@@ -115,7 +115,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -147,14 +147,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Marketing & PR Agencies. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Marketing & PR Agencies. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle freelancers vs. employees?","acceptedAnswer":{"@type":"Answer","text":"Freelancers classified as independent contractors are paid through a 1099 contractor system. W-2 employees go through payroll. We help review worker classifications to reduce audit risk."}},{"@type":"Question","name":"Can you handle performance bonuses for account managers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Performance bonuses are processed as supplemental pay runs with the correct federal supplemental withholding rate applied, included on the employee's W-2."}},{"@type":"Question","name":"How do you handle remote employees across states?","acceptedAnswer":{"@type":"Answer","text":"Remote employees in multiple states are standard. We withhold state income tax based on each employee's state of residence and pay state unemployment where the employee works."}},{"@type":"Question","name":"What does BEG charge for agency payroll?","acceptedAnswer":{"@type":"Answer","text":"Agency payroll runs at $25–$45 per employee per month. For a 20-person agency, that is $500–$900 per month covering payroll, tax filing, year-end W-2s, and multi-state compliance."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle freelancers vs. employees?","acceptedAnswer":{"@type":"Answer","text":"Freelancers classified as independent contractors are paid through a 1099 contractor system. W-2 employees go through payroll. We help review worker classifications to reduce audit risk."}},{"@type":"Question","name":"Can you handle performance bonuses for account managers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Performance bonuses are processed as supplemental pay runs with the correct federal supplemental withholding rate applied, included on the employee's W-2."}},{"@type":"Question","name":"How do you handle remote employees across states?","acceptedAnswer":{"@type":"Answer","text":"Remote employees in multiple states are standard. We withhold state income tax based on each employee's state of residence and pay state unemployment where the employee works."}},{"@type":"Question","name":"What does BEG charge for agency payroll?","acceptedAnswer":{"@type":"Answer","text":"Agency payroll runs at $25-$45 per employee per month. For a 20-person agency, that is $500-$900 per month covering payroll, tax filing, year-end W-2s, and multi-state compliance."}}]}`,
         }}
       />
 

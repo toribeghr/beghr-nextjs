@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for remote tech team payroll?",
-    answer: "BEG manages remote tech team payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. Both include multi-state withholding, quarterly and annual filings in all active states, and W-2 production. For a 20-person distributed team, that is $500 to $900 per month all-in.",
+    answer: "BEG manages remote tech team payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's isolved platform. Both include multi-state withholding, quarterly and annual filings in all active states, and W-2 production. For a 20-person distributed team, that is $500 to $900 per month all-in.",
   },
 ];
 

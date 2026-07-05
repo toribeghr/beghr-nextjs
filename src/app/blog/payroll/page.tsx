@@ -20,17 +20,17 @@ export const metadata: Metadata = {
 const industryPosts = [
   {
     title: 'Managed Payroll vs. Hiring In-House for Trucking Companies',
-    description: 'Driver classification, per diem structuring, and multi-state DOT compliance. What a fully managed payroll service costs vs. a qualified in-house hire for fleets of 10–200 drivers.',
+    description: 'Driver classification, per diem structuring, and multi-state DOT compliance. What a fully managed payroll service costs vs. a qualified in-house hire for fleets of 10-200 drivers.',
     slug: '/blog/payroll/trucking/managed-payroll-vs-in-house',
   },
   {
     title: 'Managed Payroll vs. Hiring In-House for Veterinary Practices',
-    description: 'DVM salaries, technician shift differentials, ACA FTE tracking, and multi-location expansion. Real cost comparison for practices with 10–100 staff.',
+    description: 'DVM salaries, technician shift differentials, ACA FTE tracking, and multi-location expansion. Real cost comparison for practices with 10-100 staff.',
     slug: '/blog/payroll/veterinary/managed-payroll-vs-in-house',
   },
   {
     title: 'Managed Payroll vs. Hiring In-House for Auto Dealerships',
-    description: 'Draw-plus-commission reconciliation, F&I chargebacks, and flat-rate minimum wage floors. Full cost comparison for dealerships with 20–200 employees.',
+    description: 'Draw-plus-commission reconciliation, F&I chargebacks, and flat-rate minimum wage floors. Full cost comparison for dealerships with 20-200 employees.',
     slug: '/blog/payroll/auto-dealership/managed-payroll-vs-in-house',
   },
   {
@@ -40,12 +40,12 @@ const industryPosts = [
   },
   {
     title: 'Managed Payroll vs. Hiring In-House for Childcare Centers',
-    description: 'FLSA overtime for aides, state subsidy audit documentation, and high-turnover onboarding. Real numbers for centers with 10–80 staff.',
+    description: 'FLSA overtime for aides, state subsidy audit documentation, and high-turnover onboarding. Real numbers for centers with 10-80 staff.',
     slug: '/blog/payroll/childcare/managed-payroll-vs-in-house',
   },
   {
     title: 'Managed Payroll vs. Hiring In-House for Home Health Agencies',
-    description: 'Inter-client travel time compensation, EVV data reconciliation, and multi-state operations. Full cost comparison for agencies with 15–150 staff.',
+    description: 'Inter-client travel time compensation, EVV data reconciliation, and multi-state operations. Full cost comparison for agencies with 15-150 staff.',
     slug: '/blog/payroll/home-health/managed-payroll-vs-in-house',
   },
   {
@@ -55,12 +55,12 @@ const industryPosts = [
   },
   {
     title: 'Managed Payroll vs. Hiring In-House for Marketing Agencies',
-    description: 'Multi-state remote teams, S-corp owner salary processing, and contractor classification risk. Real cost comparison for agencies with 10–80 employees.',
+    description: 'Multi-state remote teams, S-corp owner salary processing, and contractor classification risk. Real cost comparison for agencies with 10-80 employees.',
     slug: '/blog/payroll/marketing-agency/managed-payroll-vs-in-house',
   },
   {
     title: 'Managed Payroll vs. Hiring In-House for Fitness Studios and Gyms',
-    description: 'Trainer W-2 vs. 1099 classification, per-class pay minimum wage floors, and ACA FTE tracking. Full cost comparison for studios with 10–80 staff.',
+    description: 'Trainer W-2 vs. 1099 classification, per-class pay minimum wage floors, and ACA FTE tracking. Full cost comparison for studios with 10-80 staff.',
     slug: '/blog/payroll/fitness/managed-payroll-vs-in-house',
   },
   {
@@ -317,6 +317,35 @@ export default function BlogPayrollPage() {
         </div>
       </section>
 
+      <section className="section section--soft">
+        <div className="container">
+          <div className="head center reveal">
+            <h2>Minimum Wage and Payroll Calendars</h2>
+            <p>State-by-state 2026 minimum wage rates and full pay-date calendars for 2026 and 2027.</p>
+          </div>
+          <div className="cards">
+            <article className="card reveal">
+              <h3>
+                <Link href="/blog/payroll/minimum-wage">State Minimum Wage 2026: Rates by State</Link>
+              </h3>
+              <p>Current 2026 minimum wage, scheduled increases, and overtime rules for all 50 states.</p>
+              <Link href="/blog/payroll/minimum-wage" className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
+                Browse States
+              </Link>
+            </article>
+            <article className="card reveal">
+              <h3>
+                <Link href="/blog/payroll/calendars">Payroll Calendars: 2026, 2027, and Schedules</Link>
+              </h3>
+              <p>Biweekly and semimonthly pay dates, weekly schedules, and 2026 payroll tax deadlines.</p>
+              <Link href="/blog/payroll/calendars" className="btn btn--gold" style={{ marginTop: '16px', display: 'inline-block' }}>
+                View Calendars
+              </Link>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container">
           <div className="head center reveal">
@@ -333,6 +362,56 @@ export default function BlogPayrollPage() {
                   Read Post
                 </Link>
               </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section--soft">
+        <div className="container">
+          <div className="head center reveal">
+            <h2>Browse Payroll Guides by Topic</h2>
+            <p>Every payroll topic and industry collection in one place.</p>
+          </div>
+          <div className="reveal" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem', justifyContent: 'center', maxWidth: '900px', margin: '1.5rem auto 0' }}>
+            {[
+              ['Minimum Wage 2026', '/blog/payroll/minimum-wage'],
+              ['Payroll Calendars', '/blog/payroll/calendars'],
+              ['Cost and Pricing', '/blog/payroll/cost'],
+              ['Compliance', '/blog/payroll/compliance'],
+              ['How-To Guides', '/blog/payroll/how-to'],
+              ['Guides', '/blog/payroll/guides'],
+              ['By Company Size', '/blog/payroll/company-size'],
+              ['Compare Providers', '/blog/payroll/compare'],
+              ['Common Problems', '/blog/payroll/problems'],
+              ['Manufacturing', '/blog/payroll/manufacturing'],
+              ['Security', '/blog/payroll/security'],
+              ['Salon and Spa', '/blog/payroll/salon-spa'],
+              ['Churches', '/blog/payroll/church'],
+              ['Healthcare', '/blog/payroll/healthcare-general'],
+              ['Hospitality', '/blog/payroll/hospitality-general'],
+              ['Professional Services', '/blog/payroll/professional-services-staffing'],
+            ].map(([label, href]) => (
+              <Link key={href} href={href} style={{ display: 'inline-block', background: '#fff', border: '1px solid #ECAC60', color: '#000', padding: '0.45rem 1rem', borderRadius: '20px', fontWeight: 600, fontSize: '0.88rem', textDecoration: 'none' }}>
+                {label}
+              </Link>
+            ))}
+          </div>
+          <div className="head center reveal" style={{ marginTop: '2.5rem' }}>
+            <h2>More Industry Payroll Guides</h2>
+          </div>
+          <div className="reveal" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem', justifyContent: 'center', maxWidth: '900px', margin: '1.5rem auto 0' }}>
+            {[
+              ['Taproom and Brewery Tip Credit', '/blog/payroll/brewery/taproom-tip-credit-payroll'],
+              ['Teacher and School Payroll', '/blog/payroll/education/teacher-payroll-compliance'],
+              ['Law Firm Payroll Outsourcing', '/blog/payroll/law-firms/payroll-outsourcing-for-law-firms'],
+              ['Resident Manager Housing Allowance', '/blog/payroll/property-management/resident-manager-housing-allowance-payroll'],
+              ['Spa Payroll Compliance', '/blog/payroll/salon-spa/spa-payroll-compliance'],
+              ['Security Guard SCA Payroll', '/blog/payroll/security/service-contract-act-security-payroll'],
+            ].map(([label, href]) => (
+              <Link key={href} href={href} style={{ display: 'inline-block', background: '#fff', border: '1px solid #e5e5e5', color: '#000', padding: '0.45rem 1rem', borderRadius: '20px', fontWeight: 600, fontSize: '0.88rem', textDecoration: 'none' }}>
+                {label}
+              </Link>
             ))}
           </div>
         </div>

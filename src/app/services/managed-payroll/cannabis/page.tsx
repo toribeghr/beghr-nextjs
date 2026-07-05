@@ -139,7 +139,7 @@ export default function PayrollCannabisPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "Most payroll platforms will not serve cannabis companies, so we are already on a limited system."',
-                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team within your existing system. If you want to move to iSolved for a more capable HCM platform that serves the cannabis industry, we can manage that transition -- but it is never a prerequisite.',
+                body: 'We do not require you to switch platforms. BEG operates as your managed payroll team within your existing system. If you want to move to isolved for a more capable HCM platform that serves the cannabis industry, we can manage that transition -- but it is never a prerequisite.',
               },
               {
                 badge: 'Bonus 02',

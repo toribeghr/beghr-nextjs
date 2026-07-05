@@ -7,17 +7,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Auto Dealership Payroll | Instant Quote | BEG',
-  description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
+  description: 'Auto dealership payroll fully managed at $25-45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-payroll/auto-dealership' },
   openGraph: {
     title: 'Auto Dealership Payroll | Instant Quote | BEG',
-    description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
+    description: 'Auto dealership payroll fully managed at $25-45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.',
     url: 'https://www.beghr.com/services/managed-payroll/auto-dealership',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Auto Dealership Payroll | Instant Quote | BEG', description: 'Auto dealership payroll fully managed at $25–45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Auto Dealership Payroll | Instant Quote | BEG', description: 'Auto dealership payroll fully managed at $25-45 PEPM. Commission draws, flat-rate tech pay, clawbacks, and demo vehicle taxes handled.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -31,11 +31,11 @@ export default function PayrollAutoDealershipPage() {
       imageAlt="Auto dealership with fully managed commission and flat-rate payroll"
       eyebrow="Managed Payroll · Auto Dealerships"
       title="Managed Payroll for Auto Dealerships"
-      description="Commission draws, flat-rate techs, and finance clawbacks -- fully managed. Auto dealerships run one of the most complex compensation environments of any industry: sales commission draws with advances, flat-rate service writer pay, finance manager charge-backs, and demo vehicle tax implications -- all on the same bi-weekly payroll. We manage all of it at $25–$45 per employee per month."
+      description="Commission draws, flat-rate techs, and finance clawbacks -- fully managed. Auto dealerships run one of the most complex compensation environments of any industry: sales commission draws with advances, flat-rate service writer pay, finance manager charge-backs, and demo vehicle tax implications -- all on the same bi-weekly payroll. We manage all of it at $25-$45 per employee per month."
       calendlyLink={CALENDLY}
       heroCta={<PricingCta service="managed-payroll" />}
       heroStats={[
-        { value: '$25–$45', label: 'Per employee per month, all-inclusive' },
+        { value: '$25-$45', label: 'Per employee per month, all-inclusive' },
         { value: 'All 50', label: 'States covered, including multi-rooftop operations' },
         { value: 'No migration', label: 'Works alongside your DMS' },
       ]}
@@ -139,13 +139,13 @@ export default function PayrollAutoDealershipPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work alongside your DMS.',
                 objection: 'Common objection: "We cannot disrupt our CDK or Reynolds and Reynolds integration."',
-                body: 'We do not require you to change your DMS or payroll platform. BEG operates as your managed payroll team, pulling the data we need from your existing systems. If you want to move to iSolved for a cleaner payroll and HR platform, we can manage that transition -- but it is never a requirement to get started.',
+                body: 'We do not require you to change your DMS or payroll platform. BEG operates as your managed payroll team, pulling the data we need from your existing systems. If you want to move to isolved for a cleaner payroll and HR platform, we can manage that transition -- but it is never a requirement to get started.',
               },
               {
                 badge: 'Bonus 02',
                 title: 'All-inclusive flat rate.',
                 objection: 'Common objection: "Payroll companies charge extra for commission processing, clawbacks, and year-end fringe benefit reporting."',
-                body: 'The $25–$45 PEPM rate covers it all: commission processing, clawback handling, flat-rate FLSA calculations, demo vehicle fringe benefit reporting, multi-state filings, year-end W-2s, and BEG support. One number. Everything included.',
+                body: 'The $25-$45 PEPM rate covers it all: commission processing, clawback handling, flat-rate FLSA calculations, demo vehicle fringe benefit reporting, multi-state filings, year-end W-2s, and BEG support. One number. Everything included.',
               },
               {
                 badge: 'Bonus 03',
@@ -174,13 +174,13 @@ export default function PayrollAutoDealershipPage() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
             <p className="eyebrow">Getting Started</p>
-            <h2>From scope review to live dealership payroll in 3–5 business days</h2>
+            <h2>From scope review to live dealership payroll in 3-5 business days</h2>
           </div>
           <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
             {[
               { day: 'Day 1', title: 'Scope review call', body: '15 minutes. We map your commission structure, flat-rate tech pay, F&I compensation plan, and demo vehicle program -- and give you a fixed monthly price.' },
-              { day: 'Days 1–2', title: 'Onboarding', body: 'Agreement signed, DMS access granted, commission structures and employee roster reviewed.' },
-              { day: 'Days 2–4', title: 'Configuration', body: 'Commission draw tracking, flat-rate FLSA calculations, and demo vehicle fringe benefit reporting configured in your existing system.' },
+              { day: 'Days 1-2', title: 'Onboarding', body: 'Agreement signed, DMS access granted, commission structures and employee roster reviewed.' },
+              { day: 'Days 2-4', title: 'Configuration', body: 'Commission draw tracking, flat-rate FLSA calculations, and demo vehicle fringe benefit reporting configured in your existing system.' },
               { day: 'Day 5', title: 'First live payroll', body: 'Your first fully managed dealership pay run -- BEG executes, your team approves. No migration required.' },
             ].map(({ day, title, body }) => (
               <div key={day} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.25rem' }}>
@@ -200,12 +200,12 @@ export default function PayrollAutoDealershipPage() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Math on Waiting</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>One FLSA back wage claim costs more than a year of managed payroll.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>DOL investigations into flat-rate technician overtime are one of the most common enforcement actions in auto retail. A single investigation covering three years of service tech payroll, on a shop floor of 12 technicians, routinely results in six-figure back wage assessments plus liquidated damages. Fully managed payroll at $25–$45 PEPM on a 60-person dealership costs under $25,000 per year -- less than the legal fees on one DOL investigation.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>DOL investigations into flat-rate technician overtime are one of the most common enforcement actions in auto retail. A single investigation covering three years of service tech payroll, on a shop floor of 12 technicians, routinely results in six-figure back wage assessments plus liquidated damages. Fully managed payroll at $25-$45 PEPM on a 60-person dealership costs under $25,000 per year -- less than the legal fees on one DOL investigation.</p>
             </div>
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>Your Next Transition Window</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The best time to fix flat-rate calculations is before the next DOL audit.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30–60 days. Quarter-start cutovers require starting the scope review now. Every month your shop floor runs on incorrect flat-rate overtime calculations is a month of liability that compounds if a complaint or audit surfaces.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>Payroll transitions take 30-60 days. Quarter-start cutovers require starting the scope review now. Every month your shop floor runs on incorrect flat-rate overtime calculations is a month of liability that compounds if a complaint or audit surfaces.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -249,11 +249,11 @@ export default function PayrollAutoDealershipPage() {
             </div>
             <div className="faq-item">
               <h3>What does managed payroll cost for a dealership with 80 employees?</h3>
-              <p>At $25 PEPM in your existing system, an 80-person dealership pays $2,000 per month all-inclusive. At $45 PEPM on BEG's iSolved platform, that's $3,600 per month -- still less than the fully-loaded cost of one payroll administrator and a fraction of the legal fees on a single DOL flat-rate overtime investigation targeting your service department.</p>
+              <p>At $25 PEPM in your existing system, an 80-person dealership pays $2,000 per month all-inclusive. At $45 PEPM on BEG's isolved platform, that's $3,600 per month -- still less than the fully-loaded cost of one payroll administrator and a fraction of the legal fees on a single DOL flat-rate overtime investigation targeting your service department.</p>
             </div>
             <div className="faq-item">
               <h3>How long does it take to set up managed payroll for a dealership?</h3>
-              <p>From signed agreement to live payroll: 3–5 business days. We map your commission structures, flat-rate pay rules, F&I compensation plan, and DMS integration during onboarding, then configure everything in your existing system. Most dealerships complete their first fully managed pay cycle within a week of the scope review call.</p>
+              <p>From signed agreement to live payroll: 3-5 business days. We map your commission structures, flat-rate pay rules, F&I compensation plan, and DMS integration during onboarding, then configure everything in your existing system. Most dealerships complete their first fully managed pay cycle within a week of the scope review call.</p>
             </div>
           </div>
         </div>

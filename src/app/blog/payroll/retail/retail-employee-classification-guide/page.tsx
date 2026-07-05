@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for retail payroll?',
-    answer: 'Retail payroll runs at $25–$45 per employee per month. For a 25-employee retailer, that is $625–$1,125 per month covering payroll, tax filing, new hire processing, W-2s, and multi-state compliance.',
+    answer: 'Retail payroll runs at $25-$45 per employee per month. For a 25-employee retailer, that is $625-$1,125 per month covering payroll, tax filing, new hire processing, W-2s, and multi-state compliance.',
   },
 ];
 
@@ -72,7 +72,7 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Key Payroll Compliance Requirements for Retail Businesses</h2>
 
-        <p><strong>Federal requirements.</strong> All retail businesses must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2–15% of the unpaid amount depending on how many days late.</p>
+        <p><strong>Federal requirements.</strong> All retail businesses must withhold federal income tax, FICA (Social Security and Medicare), and pay the employer&apos;s share of FICA. Federal tax deposits must be made on time -- failure to deposit triggers a penalty of 2-15% of the unpaid amount depending on how many days late.</p>
 
         <p><strong>State requirements.</strong> State minimum wage variance, predictive scheduling laws, FLSA child labor restrictions for under-18 employees. State requirements vary and change frequently. Multi-location retail businesses face multiple sets of state rules simultaneously.</p>
 
@@ -82,7 +82,7 @@ export default function Page() {
 
         <ul style={{ marginLeft: '1.5rem', marginBottom: '1rem' }}>
           <li style={{ marginBottom: '0.5rem' }}><strong>Misclassifying employees</strong> -- especially relevant for retail businesses where sales associates and cashiers may be paid differently depending on role structure</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2–15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Missing tax deposit deadlines</strong> -- the IRS charges 2-15% penalty for late deposits, and deposits can be required semi-weekly for many businesses</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect state filings</strong> -- retail businesses with employees in multiple states must file in each state and maintain separate records</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Failing to update payroll for rate changes</strong> -- minimum wage, SUTA rates, and state withholding tables change annually in most states</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Year-end W-2 errors</strong> -- incorrect box entries on W-2s require corrected W-2Cs filed with both the employee and the IRS</li>
@@ -96,7 +96,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -128,14 +128,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Retail Businesses. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Retail Businesses. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle high turnover and constant new-hire processing?","acceptedAnswer":{"@type":"Answer","text":"New hire processing is included in the base fee. We handle tax withholding setup and direct deposit enrollment for new hires in time for the next pay cycle."}},{"@type":"Question","name":"Can you manage payroll for multiple retail locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Each location runs as a cost center under a single payroll system with consolidated reporting and location-specific labor cost breakdowns."}},{"@type":"Question","name":"How do you handle the seasonal overtime spike during the holidays?","acceptedAnswer":{"@type":"Answer","text":"Seasonal overtime is calculated automatically at the federal FLSA rate and any applicable state premium. We track hours across all locations for employees who work multiple stores."}},{"@type":"Question","name":"What does BEG charge for retail payroll?","acceptedAnswer":{"@type":"Answer","text":"Retail payroll runs at $25–$45 per employee per month. For a 25-employee retailer, that is $625–$1,125 per month covering payroll, tax filing, new hire processing, W-2s, and multi-state compliance."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle high turnover and constant new-hire processing?","acceptedAnswer":{"@type":"Answer","text":"New hire processing is included in the base fee. We handle tax withholding setup and direct deposit enrollment for new hires in time for the next pay cycle."}},{"@type":"Question","name":"Can you manage payroll for multiple retail locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Each location runs as a cost center under a single payroll system with consolidated reporting and location-specific labor cost breakdowns."}},{"@type":"Question","name":"How do you handle the seasonal overtime spike during the holidays?","acceptedAnswer":{"@type":"Answer","text":"Seasonal overtime is calculated automatically at the federal FLSA rate and any applicable state premium. We track hours across all locations for employees who work multiple stores."}},{"@type":"Question","name":"What does BEG charge for retail payroll?","acceptedAnswer":{"@type":"Answer","text":"Retail payroll runs at $25-$45 per employee per month. For a 25-employee retailer, that is $625-$1,125 per month covering payroll, tax filing, new hire processing, W-2s, and multi-state compliance."}}]}`,
         }}
       />
 

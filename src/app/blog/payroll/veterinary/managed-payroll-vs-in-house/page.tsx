@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'How much does managed payroll cost for a veterinary practice?',
-    a: 'BEG charges $25 per employee per month when we operate inside your existing payroll system, or $45 per employee per month through our iSolved account. For a 20-person practice with DVMs and support staff, that is $500 to $900 per month, all-inclusive.',
+    a: 'BEG charges $25 per employee per month when we operate inside your existing payroll system, or $45 per employee per month through our isolved account. For a 20-person practice with DVMs and support staff, that is $500 to $900 per month, all-inclusive.',
   },
   {
     q: 'Can BEG handle the mix of DVM salaries, technician hourly pay, and receptionist wages in one system?',
@@ -133,7 +133,7 @@ export default function VeterinaryComparisonPage() {
           During onboarding, we review your current pay structures for all employee categories, configure production bonus calculation rules, and confirm your state registrations are active. We also document your current FTE count so ACA threshold tracking starts accurately from day one.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. Both tiers include multi-location support, all state filings, and W-2 generation. For a 20-person practice, that is $500 to $900 per month, compared to $57,600 to $84,000 annually for a full-time in-house HR coordinator with veterinary payroll experience.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our isolved account. Both tiers include multi-location support, all state filings, and W-2 generation. For a 20-person practice, that is $500 to $900 per month, compared to $57,600 to $84,000 annually for a full-time in-house HR coordinator with veterinary payroll experience.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

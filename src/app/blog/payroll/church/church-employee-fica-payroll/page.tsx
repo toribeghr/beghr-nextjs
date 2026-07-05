@@ -134,7 +134,7 @@ export default function ChurchFICAPage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Church payroll is different -- let BEG handle it correctly</h2>
-          <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Minister dual-status setup, housing allowance designation, FICA for non-ministerial staff -- fully managed at $25–$45 PEPM. 15-minute call.</p>
+          <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Minister dual-status setup, housing allowance designation, FICA for non-ministerial staff -- fully managed at $25-$45 PEPM. 15-minute call.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

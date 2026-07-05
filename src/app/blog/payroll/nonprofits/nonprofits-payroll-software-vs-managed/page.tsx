@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for nonprofit payroll?',
-    answer: 'Nonprofit payroll runs at $25–$45 per employee per month. FUTA exemption filing and grant allocation reporting are included. For a 25-person organization, that is $625–$1,125 per month.',
+    answer: 'Nonprofit payroll runs at $25-$45 per employee per month. FUTA exemption filing and grant allocation reporting are included. For a 25-person organization, that is $625-$1,125 per month.',
   },
 ];
 
@@ -111,7 +111,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -143,14 +143,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Nonprofits & Religious Organizations. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Nonprofits & Religious Organizations. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle grant-funded payroll allocation?","acceptedAnswer":{"@type":"Answer","text":"We set up grant codes in the payroll system and produce time-and-effort reports that document the percentage of each employee&apos;s time spent on grant-funded activities for reimbursement documentation."}},{"@type":"Question","name":"How do you handle clergy housing allowance?","acceptedAnswer":{"@type":"Answer","text":"Under Section 107, we set up the housing allowance designation in payroll and produce the correct W-2 treatment, excluding the allowance from Box 1 while including it in Box 14."}},{"@type":"Question","name":"Does our 501(c)(3) status affect payroll taxes?","acceptedAnswer":{"@type":"Answer","text":"Yes. 501(c)(3) organizations are exempt from FUTA. State SUTA exemptions vary. We verify your organization&apos;s state exemption status and file accordingly."}},{"@type":"Question","name":"What does BEG charge for nonprofit payroll?","acceptedAnswer":{"@type":"Answer","text":"Nonprofit payroll runs at $25–$45 per employee per month. FUTA exemption filing and grant allocation reporting are included. For a 25-person organization, that is $625–$1,125 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle grant-funded payroll allocation?","acceptedAnswer":{"@type":"Answer","text":"We set up grant codes in the payroll system and produce time-and-effort reports that document the percentage of each employee&apos;s time spent on grant-funded activities for reimbursement documentation."}},{"@type":"Question","name":"How do you handle clergy housing allowance?","acceptedAnswer":{"@type":"Answer","text":"Under Section 107, we set up the housing allowance designation in payroll and produce the correct W-2 treatment, excluding the allowance from Box 1 while including it in Box 14."}},{"@type":"Question","name":"Does our 501(c)(3) status affect payroll taxes?","acceptedAnswer":{"@type":"Answer","text":"Yes. 501(c)(3) organizations are exempt from FUTA. State SUTA exemptions vary. We verify your organization&apos;s state exemption status and file accordingly."}},{"@type":"Question","name":"What does BEG charge for nonprofit payroll?","acceptedAnswer":{"@type":"Answer","text":"Nonprofit payroll runs at $25-$45 per employee per month. FUTA exemption filing and grant allocation reporting are included. For a 25-person organization, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

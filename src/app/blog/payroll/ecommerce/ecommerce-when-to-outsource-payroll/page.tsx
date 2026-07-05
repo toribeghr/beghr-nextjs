@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for e-commerce brand payroll?',
-    answer: 'E-commerce payroll runs at $25–$45 per employee per month. Seasonal scaling, multi-state filing, and year-end W-2 and 1099 processing are all included. For a brand with 30 employees, that is $750–$1,350 per month.',
+    answer: 'E-commerce payroll runs at $25-$45 per employee per month. Seasonal scaling, multi-state filing, and year-end W-2 and 1099 processing are all included. For a brand with 30 employees, that is $750-$1,350 per month.',
   },
 ];
 
@@ -87,11 +87,11 @@ export default function Page() {
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Why E-Commerce & DTC Brands Choose BEG Managed Payroll</h2>
 
-        <p>BEG manages payroll for e-commerce brands at $25–$45 PEPM, all-inclusive. Setup takes 3–5 business days from contract to first live payroll run. We handle the seasonal workforce spikes and multi-state nexus payroll tax requirements that generic software gets wrong.</p>
+        <p>BEG manages payroll for e-commerce brands at $25-$45 PEPM, all-inclusive. Setup takes 3-5 business days from contract to first live payroll run. We handle the seasonal workforce spikes and multi-state nexus payroll tax requirements that generic software gets wrong.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -123,14 +123,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including E-Commerce & DTC Brands. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including E-Commerce & DTC Brands. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle the Q4 staffing spike for holiday fulfillment?","acceptedAnswer":{"@type":"Answer","text":"Seasonal workforce additions are processed rapidly through batch new hire entry with state new hire reporting, withholding setup, and direct deposit enrollment for each new hire."}},{"@type":"Question","name":"How do you handle payroll tax nexus in states where we have warehouse employees?","acceptedAnswer":{"@type":"Answer","text":"Having employees in a state creates payroll tax nexus. We handle state employer registration, withholding account setup, and state unemployment registration for each new state."}},{"@type":"Question","name":"Can you handle payroll for a mix of W-2 warehouse workers and 1099 fulfillment contractors?","acceptedAnswer":{"@type":"Answer","text":"Yes. W-2 warehouse employees run through regular payroll. 1099 independent contractors are tracked separately with 1099-NEC forms at year-end."}},{"@type":"Question","name":"What does BEG charge for e-commerce brand payroll?","acceptedAnswer":{"@type":"Answer","text":"E-commerce payroll runs at $25–$45 per employee per month. Seasonal scaling, multi-state filing, and year-end W-2 and 1099 processing are all included. For a brand with 30 employees, that is $750–$1,350 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle the Q4 staffing spike for holiday fulfillment?","acceptedAnswer":{"@type":"Answer","text":"Seasonal workforce additions are processed rapidly through batch new hire entry with state new hire reporting, withholding setup, and direct deposit enrollment for each new hire."}},{"@type":"Question","name":"How do you handle payroll tax nexus in states where we have warehouse employees?","acceptedAnswer":{"@type":"Answer","text":"Having employees in a state creates payroll tax nexus. We handle state employer registration, withholding account setup, and state unemployment registration for each new state."}},{"@type":"Question","name":"Can you handle payroll for a mix of W-2 warehouse workers and 1099 fulfillment contractors?","acceptedAnswer":{"@type":"Answer","text":"Yes. W-2 warehouse employees run through regular payroll. 1099 independent contractors are tracked separately with 1099-NEC forms at year-end."}},{"@type":"Question","name":"What does BEG charge for e-commerce brand payroll?","acceptedAnswer":{"@type":"Answer","text":"E-commerce payroll runs at $25-$45 per employee per month. Seasonal scaling, multi-state filing, and year-end W-2 and 1099 processing are all included. For a brand with 30 employees, that is $750-$1,350 per month."}}]}`,
         }}
       />
 

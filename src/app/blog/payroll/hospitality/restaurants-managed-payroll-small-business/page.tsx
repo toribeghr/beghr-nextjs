@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for restaurant payroll?',
-    answer: 'Restaurant payroll runs at $25–$45 per employee per month. Tip credit tracking, tip pooling distribution, and multi-rate pay are all included. For a 25-employee restaurant, that is $625–$1,125 per month.',
+    answer: 'Restaurant payroll runs at $25-$45 per employee per month. Tip credit tracking, tip pooling distribution, and multi-rate pay are all included. For a 25-employee restaurant, that is $625-$1,125 per month.',
   },
 ];
 
@@ -70,7 +70,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>
-        <p>Managed payroll at $25–$45 PEPM all-inclusive makes economic sense at nearly every size for restaurants, but the specific value drivers differ depending on headcount.</p>
+        <p>Managed payroll at $25-$45 PEPM all-inclusive makes economic sense at nearly every size for restaurants, but the specific value drivers differ depending on headcount.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Payroll at Different Sizes for Restaurants & Hospitality</h2>
 
@@ -86,13 +86,13 @@ export default function Page() {
             <tbody>
                 <tr key={0} style={{ background: 0 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Single restaurant (15-25 staff)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$375–$1,125/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $47K–$73K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$375-$1,125/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $47K-$73K/yr</td>
                 </tr>
                 <tr key={1} style={{ background: 1 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>2-5 locations (30-75 staff)</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$750–$3,375/mo</td>
-                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $38K–$60K/yr</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right' }}>$750-$3,375/mo</td>
+                  <td style={{ padding: '0.65rem 0.75rem', textAlign: 'right', color: '#2a7a2a', fontWeight: '600' }}>Save $38K-$60K/yr</td>
                 </tr>
                 <tr key={2} style={{ background: 2 % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '0.65rem 0.75rem' }}>Regional group (5-20 locations)</td>
@@ -103,17 +103,17 @@ export default function Page() {
           </table>
         </div>
 
-        <p>The comparison is against an in-house hire at $50,000–$75,000 fully loaded to $52K–$78K per year.</p>
+        <p>The comparison is against an in-house hire at $50,000-$75,000 fully loaded to $52K-$78K per year.</p>
 
         <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>Under 25 Employees: The Clearest ROI</h2>
 
-        <p>For restaurants under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $50,000–$75,000 fully loaded -- compared to $625–$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2–3 months.</p>
+        <p>For restaurants under 25 employees, in-house payroll cannot be justified. A payroll coordinator costs $50,000-$75,000 fully loaded -- compared to $625-$1,125/month for managed payroll. The savings pay for a year of managed payroll in the first 2-3 months.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25–75 Employees: Complexity Drives the Case</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>25-75 Employees: Complexity Drives the Case</h2>
 
-        <p>In the 25–75 employee range, restaurants are dealing with more tip credit and tip pooling, high turnover, multiple pay rates, split shift premiums. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
+        <p>In the 25-75 employee range, restaurants are dealing with more tip credit and tip pooling, high turnover, multiple pay rates, split shift premiums. An in-house generalist is less likely to have the depth needed in these areas. Managed payroll provides specialist coverage that reduces exposure.</p>
 
-        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75–200 Employees: Hybrid Approaches Emerge</h2>
+        <h2 style={{ marginTop: '2rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>75-200 Employees: Hybrid Approaches Emerge</h2>
 
         <p>At 75+ employees, restaurants often consider a hybrid approach: an HR generalist handles employee relations and benefits while a managed payroll provider handles the compliance-heavy payroll function. This keeps an internal HR presence while outsourcing the most technically complex piece.</p>
 
@@ -123,7 +123,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -155,14 +155,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Restaurants & Hospitality. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Restaurants & Hospitality. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle tip credit for tipped employees?","acceptedAnswer":{"@type":"Answer","text":"Tip credit is configured per state. We calculate whether each employee received enough tips to bring total compensation to minimum wage per pay period. Where no tip credit exists, tipped employees are paid at full minimum wage."}},{"@type":"Question","name":"How do you handle multiple pay rates for the same employee?","acceptedAnswer":{"@type":"Answer","text":"An employee working as a server at one rate and a shift supervisor at a different rate is set up with dual rate codes. Overtime is calculated at the blended rate across all hours worked in the week."}},{"@type":"Question","name":"How do you handle tip pooling under FLSA?","acceptedAnswer":{"@type":"Answer","text":"Post-2018, tip pools can include back-of-house employees in non-tip-credit states. We track pool contributions and distributions and produce the required documentation."}},{"@type":"Question","name":"What does BEG charge for restaurant payroll?","acceptedAnswer":{"@type":"Answer","text":"Restaurant payroll runs at $25–$45 per employee per month. Tip credit tracking, tip pooling distribution, and multi-rate pay are all included. For a 25-employee restaurant, that is $625–$1,125 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle tip credit for tipped employees?","acceptedAnswer":{"@type":"Answer","text":"Tip credit is configured per state. We calculate whether each employee received enough tips to bring total compensation to minimum wage per pay period. Where no tip credit exists, tipped employees are paid at full minimum wage."}},{"@type":"Question","name":"How do you handle multiple pay rates for the same employee?","acceptedAnswer":{"@type":"Answer","text":"An employee working as a server at one rate and a shift supervisor at a different rate is set up with dual rate codes. Overtime is calculated at the blended rate across all hours worked in the week."}},{"@type":"Question","name":"How do you handle tip pooling under FLSA?","acceptedAnswer":{"@type":"Answer","text":"Post-2018, tip pools can include back-of-house employees in non-tip-credit states. We track pool contributions and distributions and produce the required documentation."}},{"@type":"Question","name":"What does BEG charge for restaurant payroll?","acceptedAnswer":{"@type":"Answer","text":"Restaurant payroll runs at $25-$45 per employee per month. Tip credit tracking, tip pooling distribution, and multi-rate pay are all included. For a 25-employee restaurant, that is $625-$1,125 per month."}}]}`,
         }}
       />
 

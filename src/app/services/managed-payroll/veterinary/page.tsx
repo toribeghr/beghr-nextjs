@@ -139,7 +139,7 @@ export default function PayrollVeterinaryPage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "We do not want to disrupt our practice management or payroll software."',
-                body: 'We do not require you to switch software. BEG operates as your managed payroll team inside your current system -- whether that is AviMark, Cornerstone, ezyVet, or a standalone payroll platform. If you want to move to iSolved for a better experience, we can handle that transition, but it is never a requirement.',
+                body: 'We do not require you to switch software. BEG operates as your managed payroll team inside your current system -- whether that is AviMark, Cornerstone, ezyVet, or a standalone payroll platform. If you want to move to isolved for a better experience, we can handle that transition, but it is never a requirement.',
               },
               {
                 badge: 'Bonus 02',

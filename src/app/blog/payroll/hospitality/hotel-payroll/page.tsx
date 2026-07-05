@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     question: "What does hotel payroll management cost through BEG?",
-    answer: "BEG manages hotel payroll at $25 per employee per month if we work within your existing payroll system, or $45 per employee per month if we move you onto BEG's iSolved account, which includes the software. For a 60-employee hotel that is $1,500 to $2,700 per month all-inclusive. Included: tip tracking, multi-state compliance, tax filings, W-2 production, and compliance updates when state laws change.",
+    answer: "BEG manages hotel payroll at $25 per employee per month if we work within your existing payroll system, or $45 per employee per month if we move you onto BEG's isolved account, which includes the software. For a 60-employee hotel that is $1,500 to $2,700 per month all-inclusive. Included: tip tracking, multi-state compliance, tax filings, W-2 production, and compliance updates when state laws change.",
   },
   {
     question: "How long does it take to get started?",

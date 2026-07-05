@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for commercial real estate firm payroll?",
-    answer: "BEG manages CRE firm payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For a 20-person firm with a mix of brokers and staff, that is $500 to $900 per month, all-inclusive: commission tracking support, multi-state withholding, tax filings, W-2 and 1099 production.",
+    answer: "BEG manages CRE firm payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's isolved platform. For a 20-person firm with a mix of brokers and staff, that is $500 to $900 per month, all-inclusive: commission tracking support, multi-state withholding, tax filings, W-2 and 1099 production.",
   },
 ];
 

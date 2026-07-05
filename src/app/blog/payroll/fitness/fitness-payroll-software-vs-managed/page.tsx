@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for fitness studio payroll?',
-    answer: 'Fitness payroll runs at $25–$45 per employee per month. For a 20-employee gym, that is $500–$900 per month, all-inclusive, covering trainer commission, class-based pay, and year-end W-2s.',
+    answer: 'Fitness payroll runs at $25-$45 per employee per month. For a 20-employee gym, that is $500-$900 per month, all-inclusive, covering trainer commission, class-based pay, and year-end W-2s.',
   },
 ];
 
@@ -111,7 +111,7 @@ export default function Page() {
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -143,14 +143,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Fitness Studios & Gyms. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Fitness Studios & Gyms. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle personal trainer classification?","acceptedAnswer":{"@type":"Answer","text":"We review trainer agreements against the IRS 20-factor test and help determine the correct classification. Misclassified trainers expose studios to back employment taxes and penalties."}},{"@type":"Question","name":"Can you handle session-based commission pay for trainers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Trainers paid per session have their comp calculated based on session logs submitted each pay period, with correct withholding applied."}},{"@type":"Question","name":"Can you handle payroll for multiple studio locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Each location is a cost center, and you get labor cost by location for P&L analysis."}},{"@type":"Question","name":"What does BEG charge for fitness studio payroll?","acceptedAnswer":{"@type":"Answer","text":"Fitness payroll runs at $25–$45 per employee per month. For a 20-employee gym, that is $500–$900 per month, all-inclusive, covering trainer commission, class-based pay, and year-end W-2s."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle personal trainer classification?","acceptedAnswer":{"@type":"Answer","text":"We review trainer agreements against the IRS 20-factor test and help determine the correct classification. Misclassified trainers expose studios to back employment taxes and penalties."}},{"@type":"Question","name":"Can you handle session-based commission pay for trainers?","acceptedAnswer":{"@type":"Answer","text":"Yes. Trainers paid per session have their comp calculated based on session logs submitted each pay period, with correct withholding applied."}},{"@type":"Question","name":"Can you handle payroll for multiple studio locations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Each location is a cost center, and you get labor cost by location for P&L analysis."}},{"@type":"Question","name":"What does BEG charge for fitness studio payroll?","acceptedAnswer":{"@type":"Answer","text":"Fitness payroll runs at $25-$45 per employee per month. For a 20-employee gym, that is $500-$900 per month, all-inclusive, covering trainer commission, class-based pay, and year-end W-2s."}}]}`,
         }}
       />
 

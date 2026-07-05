@@ -139,7 +139,7 @@ export default function PayrollChildcarePage() {
                 badge: 'Bonus 01',
                 title: 'No migration. We work in your existing system.',
                 objection: 'Common objection: "We do not have time to switch payroll platforms while managing a center."',
-                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system. If you want to move to iSolved for better HR and payroll capabilities, we can manage that transition -- but it is never a requirement to get started.',
+                body: 'We do not require you to change platforms. BEG operates as your managed payroll team inside your current system. If you want to move to isolved for better HR and payroll capabilities, we can manage that transition -- but it is never a requirement to get started.',
               },
               {
                 badge: 'Bonus 02',

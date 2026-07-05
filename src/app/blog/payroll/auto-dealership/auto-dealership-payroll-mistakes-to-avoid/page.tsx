@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for auto dealership payroll?',
-    answer: 'Dealership payroll runs at $25–$45 per employee per month. Commission processing, flat-rate tech pay, and chargeback adjustments are all included. For a single rooftop with 20 employees, that is $500–$900 per month.',
+    answer: 'Dealership payroll runs at $25-$45 per employee per month. Commission processing, flat-rate tech pay, and chargeback adjustments are all included. For a single rooftop with 20 employees, that is $500-$900 per month.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function Page() {
           <li style={{ marginBottom: '0.5rem' }}><strong>Wrong employee classification.</strong> auto dealerships often have salespeople and finance managers in roles that require careful classification. Misclassifying a W-2 employee as a 1099 contractor triggers back FICA taxes, penalties, and interest.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Incorrect overtime calculation.</strong> FLSA overtime rules require time-and-a-half for hours over 40 in a work week. For auto dealerships with front-end and back-end commission structures, the blended rate calculation is often done incorrectly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing state new hire reporting.</strong> All states require employers to report new hires within 20 days of the hire date. Missing this deadline creates state penalties that most auto dealerships do not know about until they receive a notice.</li>
-          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2–15% penalty.</li>
+          <li style={{ marginBottom: '0.5rem' }}><strong>Late payroll tax deposits.</strong> The IRS requires deposits on a semi-weekly or monthly schedule depending on your lookback period. Late deposits trigger a 2-15% penalty.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>W-2 errors at year-end.</strong> Incorrect W-2s require corrected W-2Cs filed with the IRS and re-issued to employees. If discovered during audit, the correction process is more costly.</li>
           <li style={{ marginBottom: '0.5rem' }}><strong>Missing compliance updates.</strong> State minimum wages, SUTA rates, and payroll tax tables change annually. auto dealerships that do not update their systems face under-withholding liability.</li>
         </ul>
@@ -91,11 +91,11 @@ export default function Page() {
 
         <p>The most reliable solution is managed payroll from a provider that handles the compliance layer as part of the service. Payroll tax deposits are made on time, withholding is calculated correctly, and compliance updates are applied without your intervention.</p>
 
-        <p>For auto dealerships, managed payroll at $25–$45 PEPM provides full coverage of the scenarios above -- including front-end and back-end commission structures and flat-rate tech pay -- at a fraction of the cost of an in-house hire.</p>
+        <p>For auto dealerships, managed payroll at $25-$45 PEPM provides full coverage of the scenarios above -- including front-end and back-end commission structures and flat-rate tech pay -- at a fraction of the cost of an in-house hire.</p>
 
         <div style={{ background: '#ECAC60', color: '#000000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2rem 0' }}>
           <h3 style={{ color: '#000000', margin: 0 }}>Managed Payroll, Handled.</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25&ndash;$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG manages payroll at $25-$45 per employee per month, all-inclusive. Get an instant cost comparison for your business.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -127,14 +127,14 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Auto Dealerships. BEG manages payroll at $25&ndash;$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
+          <p style={{ margin: 0 }}>Anthony leads payroll solutions at Business Executive Group, a national managed payroll firm serving businesses across industries including Auto Dealerships. BEG manages payroll at $25-$45 PEPM, all-inclusive, with deep expertise in compliance, multi-state filing, and industry-specific payroll requirements. Get instant pricing at beghr.com.</p>
         </div>
       </section>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle front-end and back-end commission for salespeople?","acceptedAnswer":{"@type":"Answer","text":"Front-end gross profit commission and back-end finance reserve commission are both processed through payroll. We receive deal sheet data, calculate total commission, and include it with correct supplemental withholding."}},{"@type":"Question","name":"How do you handle flat-rate pay for service technicians?","acceptedAnswer":{"@type":"Answer","text":"Flat-rate pay is calculated based on flagged hours at the technician&apos;s flag rate. We run compliance checks to ensure flat-rate pay meets minimum wage requirements for hours clocked."}},{"@type":"Question","name":"What about F&I manager chargebacks?","acceptedAnswer":{"@type":"Answer","text":"F&I chargebacks are handled as negative adjustments in the current pay period with documentation for audit purposes."}},{"@type":"Question","name":"What does BEG charge for auto dealership payroll?","acceptedAnswer":{"@type":"Answer","text":"Dealership payroll runs at $25–$45 per employee per month. Commission processing, flat-rate tech pay, and chargeback adjustments are all included. For a single rooftop with 20 employees, that is $500–$900 per month."}}]}`,
+          __html: `{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you handle front-end and back-end commission for salespeople?","acceptedAnswer":{"@type":"Answer","text":"Front-end gross profit commission and back-end finance reserve commission are both processed through payroll. We receive deal sheet data, calculate total commission, and include it with correct supplemental withholding."}},{"@type":"Question","name":"How do you handle flat-rate pay for service technicians?","acceptedAnswer":{"@type":"Answer","text":"Flat-rate pay is calculated based on flagged hours at the technician&apos;s flag rate. We run compliance checks to ensure flat-rate pay meets minimum wage requirements for hours clocked."}},{"@type":"Question","name":"What about F&I manager chargebacks?","acceptedAnswer":{"@type":"Answer","text":"F&I chargebacks are handled as negative adjustments in the current pay period with documentation for audit purposes."}},{"@type":"Question","name":"What does BEG charge for auto dealership payroll?","acceptedAnswer":{"@type":"Answer","text":"Dealership payroll runs at $25-$45 per employee per month. Commission processing, flat-rate tech pay, and chargeback adjustments are all included. For a single rooftop with 20 employees, that is $500-$900 per month."}}]}`,
         }}
       />
 

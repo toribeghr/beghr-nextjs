@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for Shopify store payroll outsourcing?",
-    answer: "BEG manages e-commerce and Shopify store payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's iSolved platform. Both are all-inclusive: payroll processing, tax filings, W-2 production, and compliance updates. For a 10-person Shopify operation, that is $250 to $450 per month.",
+    answer: "BEG manages e-commerce and Shopify store payroll at $25 per employee per month on your existing payroll system, or $45 per employee per month on BEG's isolved platform. Both are all-inclusive: payroll processing, tax filings, W-2 production, and compliance updates. For a 10-person Shopify operation, that is $250 to $450 per month.",
   },
 ];
 

@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for bar and nightclub payroll?",
-    answer: "BEG manages bar and nightclub payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform, which includes the software. For a 25-person bar team, that is $625 to $1,125 per month all-inclusive. Included: tip pool tracking, tipped minimum wage compliance, tax filings, W-2 production, and automatic compliance updates when your state's minimum wage changes.",
+    answer: "BEG manages bar and nightclub payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's isolved platform, which includes the software. For a 25-person bar team, that is $625 to $1,125 per month all-inclusive. Included: tip pool tracking, tipped minimum wage compliance, tax filings, W-2 production, and automatic compliance updates when your state's minimum wage changes.",
   },
 ];
 

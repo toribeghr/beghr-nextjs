@@ -44,7 +44,7 @@ export default function ManagedPayrollPricingPage() {
             <p className="eyebrow">Your Two Options</p>
             <h2>Same full service. Two ways to run it.</h2>
             <p style={{ marginTop: '0.75rem', color: '#666666', maxWidth: '580px', margin: '0.75rem auto 0', fontSize: '0.97rem', lineHeight: '1.7' }}>
-              The difference is where payroll runs -- in your existing system or in BEG's iSolved account. The service scope is identical either way.
+              The difference is where payroll runs -- in your existing system or in BEG's isolved account. The service scope is identical either way.
             </p>
           </div>
 
@@ -79,9 +79,9 @@ export default function ManagedPayrollPricingPage() {
               </div>
               <div style={{ fontSize: '3.5rem', fontWeight: '900', color: '#000', lineHeight: 1, marginTop: '0.75rem' }}>$45</div>
               <div style={{ fontSize: '0.88rem', color: '#777', marginBottom: '1.25rem' }}>per employee / month</div>
-              <strong style={{ display: 'block', fontSize: '1.05rem', marginBottom: '0.6rem' }}>We move you to iSolved</strong>
+              <strong style={{ display: 'block', fontSize: '1.05rem', marginBottom: '0.6rem' }}>We move you to isolved</strong>
               <p style={{ fontSize: '0.92rem', color: '#555', lineHeight: '1.7', marginBottom: '1.5rem' }}>
-                BEG migrates your payroll to iSolved -- a full HCM platform with automated compliance updates, employee self-service, benefits administration, and time tracking beyond basic payroll. Onboarding: 3-5 business days from contract to live payroll.
+                BEG migrates your payroll to isolved -- a full HCM platform with automated compliance updates, employee self-service, benefits administration, and time tracking beyond basic payroll. Onboarding: 3-5 business days from contract to live payroll.
               </p>
               <div style={{ background: '#fff9ee', border: '1px solid #f0d898', borderRadius: '8px', padding: '1rem', fontSize: '0.85rem', color: '#555', marginBottom: '1.5rem', lineHeight: '1.6' }}>
                 <strong style={{ display: 'block', marginBottom: '0.4rem', color: '#000' }}>Best for:</strong>
@@ -132,7 +132,7 @@ export default function ManagedPayrollPricingPage() {
                   ['Dedicated BEG payroll contact', true, true],
                   ['Multi-state payroll -- all 50 states', true, true],
                   ['New state registrations as you grow', true, true],
-                  ['iSolved HCM platform access', false, true],
+                  ['isolved HCM platform access', false, true],
                   ['Employee self-service portal', false, true],
                   ['Automated compliance updates', false, true],
                   ['Time and attendance integration', false, true],
@@ -140,7 +140,7 @@ export default function ManagedPayrollPricingPage() {
                   ['3-5 day implementation to live payroll', false, true],
                 ].map(([feature, t1, t2], i) => (
                   <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #eee' }}>
-                    <td style={{ padding: '11px 16px', color: '#333', fontWeight: typeof feature === 'string' && feature.includes('iSolved') ? '600' : '400' }}>{feature as string}</td>
+                    <td style={{ padding: '11px 16px', color: '#333', fontWeight: typeof feature === 'string' && feature.includes('isolved') ? '600' : '400' }}>{feature as string}</td>
                     <td style={{ padding: '11px 16px', textAlign: 'center', fontSize: '1.1rem' }}>{t1 ? <span style={{ color: '#1a6e1a', fontWeight: 700 }}>✓</span> : <span style={{ color: '#ccc' }}>-</span>}</td>
                     <td style={{ padding: '11px 16px', textAlign: 'center', fontSize: '1.1rem' }}>{t2 ? <span style={{ color: '#1a6e1a', fontWeight: 700 }}>✓</span> : <span style={{ color: '#ccc' }}>-</span>}</td>
                   </tr>
@@ -269,7 +269,7 @@ export default function ManagedPayrollPricingPage() {
             </div>
             <div className="faq-item">
               <h3>What is not included?</h3>
-              <p>BEG does not administer health insurance or 401(k) contributions -- those remain with your benefits broker and plan administrator. If you need benefits administration added, that is handled through the iSolved platform (Tier 2) as a separate engagement. Everything on the scope table above is included in the PEPM rate.</p>
+              <p>BEG does not administer health insurance or 401(k) contributions -- those remain with your benefits broker and plan administrator. If you need benefits administration added, that is handled through the isolved platform (Tier 2) as a separate engagement. Everything on the scope table above is included in the PEPM rate.</p>
             </div>
             <div className="faq-item">
               <h3>How do I get my exact monthly cost?</h3>
@@ -305,7 +305,7 @@ export default function ManagedPayrollPricingPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'Is there a contract or minimum commitment?', acceptedAnswer: { '@type': 'Answer', text: 'BEG operates month-to-month with no annual contract requirement.' } },
-              { '@type': 'Question', name: 'How much does managed payroll cost per employee?', acceptedAnswer: { '@type': 'Answer', text: 'BEG managed payroll costs $25 per employee per month when operating in your existing system, or $45 per employee per month when migrating to iSolved. Both rates are all-inclusive.' } },
+              { '@type': 'Question', name: 'How much does managed payroll cost per employee?', acceptedAnswer: { '@type': 'Answer', text: 'BEG managed payroll costs $25 per employee per month when operating in your existing system, or $45 per employee per month when migrating to isolved. Both rates are all-inclusive.' } },
               { '@type': 'Question', name: 'Is multi-state payroll included in the price?', acceptedAnswer: { '@type': 'Answer', text: 'Ongoing multi-state payroll is included in the flat PEPM rate. A one-time $300 multi-state setup fee applies.' } },
               { '@type': 'Question', name: 'Are W-2s and year-end included in managed payroll pricing?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. W-2 preparation, SSA filing, employee delivery, and year-end reconciliation are all included in the monthly PEPM rate.' } },
             ],

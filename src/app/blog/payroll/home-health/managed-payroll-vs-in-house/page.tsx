@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Home Health Payroll, Managed vs In-House Costs | BEG',
-  description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV.',
+  description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15-150 staff. Travel time compensation, EVV.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/home-health/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Home Health Payroll, Managed vs In-House Costs | BEG',
-    description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV complianc...',
+    description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15-150 staff. Travel time compensation, EVV complianc...',
     url: 'https://www.beghr.com/blog/payroll/home-health/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Health Payroll, Managed vs In-House Costs | BEG', description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15–150 staff. Travel time compensation, EVV complianc...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Health Payroll, Managed vs In-House Costs | BEG', description: 'Home health agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with 15-150 staff. Travel time compensation, EVV complianc...', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -89,9 +89,9 @@ export default function HomeHealthComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (40 employees)', '$1,000–$1,800', '$5,200–$7,500', '$150–$400 + your time'],
-                ['Annual cost', '$12,000–$21,600', '$62,400–$90,000+', '$1,800–$4,800 + errors'],
-                ['Setup time', '3–5 business days', '4–8 weeks to hire', '2–4 weeks'],
+                ['Monthly cost (40 employees)', '$1,000-$1,800', '$5,200-$7,500', '$150-$400 + your time'],
+                ['Annual cost', '$12,000-$21,600', '$62,400-$90,000+', '$1,800-$4,800 + errors'],
+                ['Setup time', '3-5 business days', '4-8 weeks to hire', '2-4 weeks'],
                 ['Inter-client travel time compensation', 'Included', 'Varies by candidate', 'Manual configuration'],
                 ['EVV data integration into payroll', 'Included', 'Varies by candidate', 'Manual reconciliation'],
                 ['Multi-state payroll', 'All states, no extra fee', 'Requires specialist', 'Manual research required'],
@@ -133,7 +133,7 @@ export default function HomeHealthComparisonPage() {
           During onboarding, we review your current travel time policy and how it is reflected in your payroll system, confirm your EVV reconciliation process, and audit your state tax registrations. We then configure payroll to track travel time correctly and reconcile it with your EVV data before the first managed run.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. For a 40-person agency, that is $1,000 to $1,800 per month, all-inclusive, compared to $62,400 to $90,000 annually for a qualified in-house payroll specialist. Most agencies are live within 3 to 5 business days of contract signing.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our isolved account. For a 40-person agency, that is $1,000 to $1,800 per month, all-inclusive, compared to $62,400 to $90,000 annually for a qualified in-house payroll specialist. Most agencies are live within 3 to 5 business days of contract signing.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

@@ -130,7 +130,7 @@ export default function ChildcareOvertimePage() {
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', marginBottom: '2.5rem' }}>
           <h2 style={{ color: '#ECAC60', margin: '0 0 1rem', fontSize: '1.4rem' }}>Let BEG manage childcare payroll compliance</h2>
-          <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Overtime tracking, high-turnover onboarding, and year-end W-2s -- fully managed at $25–$45 per employee per month. 15-minute call.</p>
+          <p style={{ color: '#ddd', marginBottom: '1.5rem' }}>Overtime tracking, high-turnover onboarding, and year-end W-2s -- fully managed at $25-$45 per employee per month. 15-minute call.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 

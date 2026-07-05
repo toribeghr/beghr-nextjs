@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for retail payroll outsourcing?',
-    answer: 'BEG charges $25 PEPM working in your existing payroll system, or $45 PEPM on BEG\'s iSolved platform, all-inclusive. At 60 employees, that is $1,500-$2,700/month compared to an HR Coordinator at $4,000-$6,000/month in fully loaded cost. During seasonal peaks, the PEPM count rises with headcount and falls back when the season ends, you never pay a flat salary for a capacity you do not use year-round.',
+    answer: 'BEG charges $25 PEPM working in your existing payroll system, or $45 PEPM on BEG\'s isolved platform, all-inclusive. At 60 employees, that is $1,500-$2,700/month compared to an HR Coordinator at $4,000-$6,000/month in fully loaded cost. During seasonal peaks, the PEPM count rises with headcount and falls back when the season ends, you never pay a flat salary for a capacity you do not use year-round.',
   },
 ];
 

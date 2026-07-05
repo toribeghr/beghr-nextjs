@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'What does BEG charge for real estate company payroll?',
-    answer: 'BEG charges $25 PEPM working in your existing system, or $45 PEPM on BEG\'s iSolved platform. Both are all-inclusive, covering commission processing, multi-state filings, and W-2 production. At 40 W-2 employees, that is $1,000-$1,800/month compared to an HR Coordinator at $4,500-$6,500/month in fully loaded cost.',
+    answer: 'BEG charges $25 PEPM working in your existing system, or $45 PEPM on BEG\'s isolved platform. Both are all-inclusive, covering commission processing, multi-state filings, and W-2 production. At 40 W-2 employees, that is $1,000-$1,800/month compared to an HR Coordinator at $4,500-$6,500/month in fully loaded cost.',
   },
 ];
 

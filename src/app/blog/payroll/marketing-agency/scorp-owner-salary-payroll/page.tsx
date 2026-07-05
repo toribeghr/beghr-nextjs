@@ -104,10 +104,10 @@ export default function SCorpOwnerSalaryPage() {
             </thead>
             <tbody>
               {[
-                ['Solo freelancer / micro agency (primary doer)', '$60,000 – $90,000'],
-                ['Agency owner managing 2–5 staff (player-coach)', '$80,000 – $120,000'],
-                ['Agency owner managing 10–20 staff (CEO/strategy focus)', '$100,000 – $160,000'],
-                ['Agency owner at $3M+ revenue (executive role)', '$130,000 – $200,000+'],
+                ['Solo freelancer / micro agency (primary doer)', '$60,000 - $90,000'],
+                ['Agency owner managing 2-5 staff (player-coach)', '$80,000 - $120,000'],
+                ['Agency owner managing 10-20 staff (CEO/strategy focus)', '$100,000 - $160,000'],
+                ['Agency owner at $3M+ revenue (executive role)', '$130,000 - $200,000+'],
               ].map(([role, range], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '10px 14px' }}>{role}</td>

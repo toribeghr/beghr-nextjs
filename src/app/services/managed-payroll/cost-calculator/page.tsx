@@ -83,7 +83,7 @@ export default function PayrollCostCalculatorPage() {
             </div>
             <div className="faq-item">
               <h3>Is the $25 rate really all-inclusive or is it a base rate?</h3>
-              <p>All-inclusive. The $25 PEPM covers full managed payroll service when BEG operates in your existing system. The $45 PEPM covers full managed payroll service when BEG migrates you to iSolved. Both rates include everything listed above. Your discovery call confirms the exact rate for your situation before you commit to anything.</p>
+              <p>All-inclusive. The $25 PEPM covers full managed payroll service when BEG operates in your existing system. The $45 PEPM covers full managed payroll service when BEG migrates you to isolved. Both rates include everything listed above. Your discovery call confirms the exact rate for your situation before you commit to anything.</p>
             </div>
             <div className="faq-item">
               <h3>Can the calculator handle multi-state payroll?</h3>
@@ -143,7 +143,7 @@ export default function PayrollCostCalculatorPage() {
                 name: 'Is the $25 managed payroll rate all-inclusive?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Yes. The $25 PEPM covers full managed payroll service when BEG operates in your existing system. The $45 PEPM covers full managed payroll when BEG migrates you to iSolved. Both include everything with no add-ons.',
+                  text: 'Yes. The $25 PEPM covers full managed payroll service when BEG operates in your existing system. The $45 PEPM covers full managed payroll when BEG migrates you to isolved. Both include everything with no add-ons.',
                 },
               },
               {

@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Managed Payroll vs. In-House Hire for Churches | BEG',
-  description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance.',
+  description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5-80 staff. Minister housing allowance.',
   alternates: { canonical: 'https://www.beghr.com/blog/payroll/church/managed-payroll-vs-in-house' },
   openGraph: {
     title: 'Managed Payroll vs. In-House Hire for Churches | BEG',
-    description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Soci...',
+    description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5-80 staff. Minister housing allowance, Soci...',
     url: 'https://www.beghr.com/blog/payroll/church/managed-payroll-vs-in-house',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-church-managed-payroll-vs-in-house.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. In-House Hire for Churches | BEG', description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5–80 staff. Minister housing allowance, Soci...', images: ['https://www.beghr.com/blog-images/blog-payroll-church-managed-payroll-vs-in-house.webp'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll vs. In-House Hire for Churches | BEG', description: 'Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for churches with 5-80 staff. Minister housing allowance, Soci...', images: ['https://www.beghr.com/blog-images/blog-payroll-church-managed-payroll-vs-in-house.webp'] },
 
 };
 
@@ -93,9 +93,9 @@ export default function ChurchComparisonPage() {
             </thead>
             <tbody>
               {[
-                ['Monthly cost (15 employees)', '$375–$675', '$2,000–$4,500', '$75–$200 + your time'],
-                ['Annual cost', '$4,500–$8,100', '$24,000–$54,000+', '$900–$2,400 + errors'],
-                ['Setup time', '3–5 business days', '2–6 weeks to hire or train', '2–4 weeks'],
+                ['Monthly cost (15 employees)', '$375-$675', '$2,000-$4,500', '$75-$200 + your time'],
+                ['Annual cost', '$4,500-$8,100', '$24,000-$54,000+', '$900-$2,400 + errors'],
+                ['Setup time', '3-5 business days', '2-6 weeks to hire or train', '2-4 weeks'],
                 ['Minister housing allowance handling', 'Included', 'Varies by knowledge', 'Manual configuration'],
                 ['Form 4361 Social Security opt-out', 'Included', 'Varies by knowledge', 'Manual configuration'],
                 ['Dual tax status for ministers', 'Included', 'Often misunderstood', 'Rarely configured correctly'],
@@ -137,7 +137,7 @@ export default function ChurchComparisonPage() {
           During onboarding, we review your current minister compensation agreements, confirm the housing allowance designation is properly documented, and audit your FICA setup for all employee categories. If your church also operates a school or daycare, we configure separate cost centers for each ministry in your existing payroll system.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2rem' }}>
-          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our iSolved account. For a 15-person church staff, that is $375 to $675 per month, all-inclusive. Most churches are live within 3 to 5 business days of contract signing.
+          Pricing is $25 per employee per month in your existing system or $45 per employee per month in our isolved account. For a 15-person church staff, that is $375 to $675 per month, all-inclusive. Most churches are live within 3 to 5 business days of contract signing.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>Frequently Asked Questions</h2>

@@ -51,3 +51,12 @@
 - [HCM Technology Guides](https://www.beghr.com/blog/hcm-technology)
 - [Payroll by Industry](https://www.beghr.com/blog/payroll)
 - [Resource Hub](https://www.beghr.com/resources)
+
+## Payroll Guides and Data
+
+- [State Minimum Wage 2026](https://www.beghr.com/blog/payroll/minimum-wage): 2026 minimum wage rates, scheduled increases, and overtime rules for all 50 states, verified against U.S. Department of Labor data.
+- [Payroll Calendars](https://www.beghr.com/blog/payroll/calendars): 2026 and 2027 pay-date calendars, biweekly and semimonthly schedules, and federal payroll tax deadlines.
+- [Payroll Cost and Pricing Guides](https://www.beghr.com/blog/payroll/cost): what payroll costs across in-house, software, PEO, and managed models, plus vendor pricing explainers for ADP, Paychex, Gusto, and QuickBooks.
+- [Payroll Provider Comparisons](https://www.beghr.com/services/managed-payroll): honest head-to-head breakdowns (ADP vs Paychex, Gusto vs QuickBooks, and more) and alternatives to ADP, Gusto, Paychex, QuickBooks, OnPay, Square, SurePayroll, Patriot, Rippling, Deel, TriNet, and Justworks.
+
+BEG managed payroll is a fully managed service at $25-$45 per employee per month, all-inclusive, run inside a client's existing payroll system in all 50 states, with no co-employment.

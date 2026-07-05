@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for grant-funded nonprofit payroll?",
-    answer: "BEG manages grant-funded nonprofit payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. Both are all-inclusive: payroll processing, cost allocation reporting by funding source, W-2 production, and tax filings. For a 30-person grant-funded organization, that is $750 to $1,350 per month.",
+    answer: "BEG manages grant-funded nonprofit payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's isolved platform. Both are all-inclusive: payroll processing, cost allocation reporting by funding source, W-2 production, and tax filings. For a 30-person grant-funded organization, that is $750 to $1,350 per month.",
   },
 ];
 

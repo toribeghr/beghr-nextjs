@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'How long does onboarding take for a senior care facility switching to BEG?',
-    answer: 'BEG onboards senior care facilities in 3-5 business days from contract signing to live payroll. For mid-year switches, year-to-date payroll data is migrated to ensure accurate year-end W-2s. The onboarding process includes: gathering existing employee records and pay configurations, setting up shift differential codes and rate tables, configuring multi-state tax accounts if applicable, establishing direct deposit and tax remittance banking, and running a parallel payroll to verify calculations before going live. Facilities using iSolved or compatible time and attendance systems have a streamlined data feed setup.',
+    answer: 'BEG onboards senior care facilities in 3-5 business days from contract signing to live payroll. For mid-year switches, year-to-date payroll data is migrated to ensure accurate year-end W-2s. The onboarding process includes: gathering existing employee records and pay configurations, setting up shift differential codes and rate tables, configuring multi-state tax accounts if applicable, establishing direct deposit and tax remittance banking, and running a parallel payroll to verify calculations before going live. Facilities using isolved or compatible time and attendance systems have a streamlined data feed setup.',
   },
   {
     question: 'Can BEG handle both full-time and per-diem staff payroll?',

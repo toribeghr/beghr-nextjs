@@ -206,6 +206,7 @@ export default function ArchitectureFirmPayrollGuidePage() {
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Architecture Partner Draw Payroll (K-1 vs W-2)", excerpt: "Architecture partnership payroll: managing partner draws, W-2 salaries, K-1 distributions, and...", href: "/blog/payroll/architecture/architecture-partner-draw-payroll" },
         { category: "Payroll", title: "Architecture Project Payroll Allocation (AIA)", excerpt: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by...", href: "/blog/payroll/architecture/architecture-project-payroll-allocation" },

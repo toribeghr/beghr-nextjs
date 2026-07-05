@@ -159,6 +159,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/affordable-care-act/employers" target="_blank" rel="noopener noreferrer">IRS: Affordable Care Act for Employers</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Auto Dealer Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for auto dealerships. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/auto-dealership/auto-dealership-direct-deposit-setup" },
         { category: "Payroll", title: "Auto Dealer Payroll Employee Classification [2026]", excerpt: "Managed payroll for auto dealerships. Employee Classification for Payroll. $25-$45 PEPM...", href: "/blog/payroll/auto-dealership/auto-dealership-employee-classification-guide" },

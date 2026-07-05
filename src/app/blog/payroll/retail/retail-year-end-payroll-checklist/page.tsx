@@ -153,6 +153,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/understanding-employment-taxes" target="_blank" rel="noopener noreferrer">IRS: Understanding Employment Taxes</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Retail Payroll Benefits Integration for Hourly Teams", excerpt: "Managed payroll for retail. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/retail/retail-benefits-integration-payroll" },
         { category: "Payroll", title: "Retail Chain Payroll: Multi-Location & Hourly Staff", excerpt: "Retail chain payroll: multi-location hourly staff, minimum wage compliance, overtime, tip credit...", href: "/blog/payroll/retail/retail-chain-payroll" },

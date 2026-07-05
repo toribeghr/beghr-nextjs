@@ -181,6 +181,7 @@ export default function StaffingAgencyPayrollCostPage() {
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.bls.gov/oes/" target="_blank" rel="noopener noreferrer">U.S. Bureau of Labor Statistics: Occupational Employment and Wage Statistics</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Staffing Agency Payroll: Should You Outsource It", excerpt: "Should you outsource staffing agency payroll? What outsourcing covers, how it handles W-2 vs 1099,...", href: "/blog/payroll/staffing-agency/outsource-staffing-agency-payroll" },
         { category: "Payroll", title: "Staffing Agency Payroll Compliance for 2026", excerpt: "Staffing agency payroll compliance: IRS classification test, FLSA for temp workers, state...", href: "/blog/payroll/staffing-agency/staffing-agency-payroll-compliance" },

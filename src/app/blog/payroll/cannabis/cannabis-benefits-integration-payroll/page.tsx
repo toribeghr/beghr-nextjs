@@ -163,6 +163,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/affordable-care-act/employers" target="_blank" rel="noopener noreferrer">IRS: Affordable Care Act for Employers</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Cannabis Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for cannabis. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/cannabis/cannabis-direct-deposit-setup" },
         { category: "Payroll", title: "Cannabis Payroll Employee Classification [2026]", excerpt: "Managed payroll for cannabis. Employee Classification for Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/cannabis/cannabis-employee-classification-guide" },

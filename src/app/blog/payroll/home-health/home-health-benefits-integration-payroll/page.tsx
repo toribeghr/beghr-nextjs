@@ -159,6 +159,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/affordable-care-act/employers" target="_blank" rel="noopener noreferrer">IRS: Affordable Care Act for Employers</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "EVV Payroll Reconciliation, Fixing Data Mismatches", excerpt: "How to reconcile EVV system data with payroll for home health agencies -- the most common...", href: "/blog/payroll/home-health/evv-payroll-reconciliation" },
         { category: "Payroll", title: "Home Health Payroll, Direct Deposit Setup Steps", excerpt: "Managed payroll for home health. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/home-health/home-health-direct-deposit-setup" },

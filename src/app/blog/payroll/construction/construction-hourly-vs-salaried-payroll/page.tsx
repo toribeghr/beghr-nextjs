@@ -153,6 +153,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd/overtime" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Overtime Pay Under the FLSA</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Certified Payroll and Prevailing Wage for Contractors", excerpt: "Certified payroll reporting and prevailing wage compliance for construction contractors on federal...", href: "/blog/payroll/construction/certified-payroll-prevailing-wage" },
         { category: "Payroll", title: "Construction Payroll Benefits Integration", excerpt: "Managed payroll for construction. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/construction/construction-benefits-integration-payroll" },

@@ -150,6 +150,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "How Managed Payroll Works, From Onboarding to Payday", excerpt: "How Managed Payroll Works: From Onboarding to First Pay Run. Expert guidance from BEG managed...", href: "/blog/payroll/guides/managed-payroll-how-it-works" },
         { category: "Payroll", title: "Managed Payroll Onboarding, the First 30 Days Explained", excerpt: "What to Expect in the First 30 Days of Managed Payroll. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/guides/managed-payroll-onboarding-what-to-expect" },

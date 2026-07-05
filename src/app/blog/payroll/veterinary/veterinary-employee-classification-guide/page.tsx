@@ -153,6 +153,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee" target="_blank" rel="noopener noreferrer">IRS: Independent Contractor or Employee</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "DVM Compensation in Payroll: What Nobody Tells You", excerpt: "A practical guide to DVM compensation structures in payroll -- base salary, production bonus...", href: "/blog/payroll/veterinary/dvm-compensation-payroll" },
         { category: "Payroll", title: "Vet Payroll: Managed vs. In-House, What It Costs", excerpt: "Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for...", href: "/blog/payroll/veterinary/managed-payroll-vs-in-house" },

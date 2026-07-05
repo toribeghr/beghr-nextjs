@@ -153,6 +153,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/understanding-employment-taxes" target="_blank" rel="noopener noreferrer">IRS: Understanding Employment Taxes</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Managed Payroll vs. In-House for Trucking: What It Costs", excerpt: "Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets...", href: "/blog/payroll/trucking/managed-payroll-vs-in-house" },
         { category: "Payroll", title: "Per Diem Pay for Truck Drivers: What Nobody Tells You", excerpt: "How to structure per diem pay for truck drivers correctly -- IRS accountable plan rules, the 2025...", href: "/blog/payroll/trucking/per-diem-pay-truck-drivers" },

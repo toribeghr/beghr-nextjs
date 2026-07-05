@@ -227,6 +227,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.bls.gov/oes/" target="_blank" rel="noopener noreferrer">U.S. Bureau of Labor Statistics: Occupational Employment and Wage Statistics</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Remote Tech Team Payroll: Multi-State Nexus Rules", excerpt: "Remote tech team payroll: multi-state withholding, contractor classification, nexus compliance, and...", href: "/blog/payroll/technology/remote-tech-team-payroll" },
         { category: "Payroll", title: "SaaS Payroll Outsourcing: Cost vs. an In-House Hire", excerpt: "SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote,...", href: "/blog/payroll/technology/saas-payroll-outsourcing" },

@@ -161,6 +161,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.bls.gov/oes/" target="_blank" rel="noopener noreferrer">U.S. Bureau of Labor Statistics: Occupational Employment and Wage Statistics</a></p>
       <RelatedPosts posts={[
         { category: "Payroll", title: "How Much Does Paychex Cost?", excerpt: "How Much Does Paychex Cost? The Pricing Model Explained. Managed payroll at $25-$45 PEPM all-inclusive...", href: "/blog/payroll/cost/how-much-does-paychex-cost" },
         { category: "Payroll", title: "PEPM Pricing Explained", excerpt: "PEPM Pricing Explained: What Per-Employee-Per-Month Means. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/pepm-pricing-explained" },

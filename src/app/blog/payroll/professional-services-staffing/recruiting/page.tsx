@@ -286,6 +286,7 @@ export default function StaffingRecruitingPayrollPage() {
         mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/payroll/professional-services-staffing/recruiting' },
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Accounting Hiring", title: "Accounting Job Description: What Candidates Notice First", excerpt: "Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and...", href: "/blog/accounting-hiring/accounting-job-description" },
         { category: "Accounting Hiring", title: "Accounting Salary Trends 2026: What Comp Data Hides", excerpt: "Accounting comp is climbing in 2026, but the best candidates are passive and pay is only part of...", href: "/blog/accounting-hiring/accounting-salary-trends" },

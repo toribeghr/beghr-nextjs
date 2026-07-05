@@ -155,6 +155,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/understanding-employment-taxes" target="_blank" rel="noopener noreferrer">IRS: Understanding Employment Taxes</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Auto Dealer Payroll Benefits Integration [2026]", excerpt: "Managed payroll for auto dealerships. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/auto-dealership/auto-dealership-benefits-integration-payroll" },
         { category: "Payroll", title: "Auto Dealer Payroll Employee Classification [2026]", excerpt: "Managed payroll for auto dealerships. Employee Classification for Payroll. $25-$45 PEPM...", href: "/blog/payroll/auto-dealership/auto-dealership-employee-classification-guide" },

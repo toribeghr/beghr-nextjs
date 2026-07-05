@@ -113,6 +113,7 @@ export default function CalendarsHubPage() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
       <RelatedPosts posts={[
         { category: "Payroll", title: "State Minimum Wage 2026: Rates by State", excerpt: "2026 minimum wage, scheduled increases, and overtime rules for all 50 states.", href: "/blog/payroll/minimum-wage" },
         { category: "Payroll", title: "Payroll Cost and Pricing Guides", excerpt: "What payroll costs across in-house, software, PEO, and managed models.", href: "/blog/payroll/cost" },

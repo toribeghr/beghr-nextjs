@@ -153,6 +153,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd/garnishment" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage Garnishment</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "401(k) Payroll Deductions: What Employers Must Know", excerpt: "401(k) Payroll Deductions: Employer Compliance Guide. Expert guidance from BEG managed payroll....", href: "/blog/payroll/compliance/401k-payroll-deduction-compliance" },
         { category: "Payroll", title: "IRS Form 940 vs. 941: The Real Difference", excerpt: "IRS Form 940 vs. 941: What Employers Need to Know. Expert guidance from BEG managed payroll. Get instant pricing...", href: "/blog/payroll/compliance/940-vs-941-payroll-tax-explained" },

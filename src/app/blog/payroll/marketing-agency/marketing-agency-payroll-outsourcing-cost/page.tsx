@@ -227,6 +227,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.bls.gov/oes/" target="_blank" rel="noopener noreferrer">U.S. Bureau of Labor Statistics: Occupational Employment and Wage Statistics</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Managed Payroll vs In-House for Agencies: Which Wins?", excerpt: "Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with...", href: "/blog/payroll/marketing-agency/managed-payroll-vs-in-house" },
         { category: "Payroll", title: "Agency Payroll: What Nobody Tells You About Benefits", excerpt: "Managed payroll for marketing agencies. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/marketing-agency/marketing-agency-benefits-integration-payroll" },

@@ -147,6 +147,7 @@ export default function MinisterHousingAllowancePage() {
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Church Payroll and FICA: Who Is Actually Exempt", excerpt: "A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial...", href: "/blog/payroll/church/church-employee-fica-payroll" },
         { category: "Payroll", title: "Managed Payroll vs. In-House Hire for Churches", excerpt: "Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for...", href: "/blog/payroll/church/managed-payroll-vs-in-house" },

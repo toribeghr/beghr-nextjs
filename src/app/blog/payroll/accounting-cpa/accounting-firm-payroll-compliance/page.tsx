@@ -208,6 +208,7 @@ export default function AccountingFirmPayrollCompliancePage() {
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Accounting Firm Partner Draw Payroll (K-1 vs W-2)", excerpt: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for...", href: "/blog/payroll/accounting-cpa/accounting-firm-partner-draw-payroll" },
         { category: "Payroll", title: "CPA Busy Season Payroll Overtime (FLSA Rules)", excerpt: "CPA firm busy season payroll: FLSA overtime rules, exempt vs non-exempt staff classification,...", href: "/blog/payroll/accounting-cpa/cpa-busy-season-payroll-overtime" },

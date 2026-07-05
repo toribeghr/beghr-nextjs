@@ -198,6 +198,7 @@ export default function OutsourceStaffingAgencyPayrollPage() {
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Staffing Agency Payroll Compliance for 2026", excerpt: "Staffing agency payroll compliance: IRS classification test, FLSA for temp workers, state...", href: "/blog/payroll/staffing-agency/staffing-agency-payroll-compliance" },
         { category: "Payroll", title: "Staffing Agency Payroll Costs: In-House vs. Managed", excerpt: "How much does staffing agency payroll cost? Compare in-house payroll specialist ($60K-$100K) vs...", href: "/blog/payroll/staffing-agency/staffing-agency-payroll-cost" },

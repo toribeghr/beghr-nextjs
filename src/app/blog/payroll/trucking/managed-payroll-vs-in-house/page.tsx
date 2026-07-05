@@ -195,6 +195,7 @@ export default function TruckingComparisonPage() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.bls.gov/oes/" target="_blank" rel="noopener noreferrer">U.S. Bureau of Labor Statistics: Occupational Employment and Wage Statistics</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Per Diem Pay for Truck Drivers: What Nobody Tells You", excerpt: "How to structure per diem pay for truck drivers correctly -- IRS accountable plan rules, the 2025...", href: "/blog/payroll/trucking/per-diem-pay-truck-drivers" },
         { category: "Payroll", title: "Trucking Payroll Taxes: The Truth Fleet Owners Miss", excerpt: "A plain-English guide to payroll taxes for trucking companies -- FUTA, SUTA, Social Security,...", href: "/blog/payroll/trucking/truck-driver-payroll-taxes" },

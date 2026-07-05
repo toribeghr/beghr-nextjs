@@ -154,6 +154,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Employee Overpaid on Payroll, Before You Try to Fix It", excerpt: "Employee Overpaid on Payroll: What Employers Must Do. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/problems/employee-overpaid-what-to-do" },
         { category: "Payroll", title: "Employees Complaining About Payroll Errors, Fixed", excerpt: "Employees Complaining About Payroll Errors: What to Fix. Expert guidance from BEG managed payroll...", href: "/blog/payroll/problems/employees-complaining-payroll-errors" },

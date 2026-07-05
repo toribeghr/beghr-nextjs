@@ -158,6 +158,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/understanding-employment-taxes" target="_blank" rel="noopener noreferrer">IRS: Understanding Employment Taxes</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "How to Calculate Overtime Pay, No Guesswork", excerpt: "How to Calculate Overtime Pay Correctly. Step-by-step guidance from BEG managed payroll...", href: "/blog/payroll/how-to/how-to-calculate-overtime-pay" },
         { category: "Payroll", title: "How to Calculate Payroll Taxes, An Employer Guide", excerpt: "How to Calculate Payroll Taxes: Employer Guide. Step-by-step guidance from BEG managed payroll...", href: "/blog/payroll/how-to/how-to-calculate-payroll-taxes" },

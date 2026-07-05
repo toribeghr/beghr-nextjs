@@ -198,6 +198,7 @@ export default function CaptiveVsIndependentAgentPayrollPage() {
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee" target="_blank" rel="noopener noreferrer">IRS: Independent Contractor or Employee</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Insurance Agency Payroll Compliance: Is It Worth It?", excerpt: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration,...", href: "/blog/payroll/insurance-agency/insurance-agency-payroll-compliance" },
         { category: "Payroll", title: "Insurance Agency Payroll: How Commission Really Works", excerpt: "Insurance agency payroll: producer commission timing, draw vs commission payroll, W-2 vs 1099...", href: "/blog/payroll/insurance-agency/insurance-agency-payroll-guide" },

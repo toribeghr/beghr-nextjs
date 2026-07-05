@@ -168,6 +168,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Managed Payroll for 100-Employee Companies", excerpt: "Managed Payroll for 100-Employee Businesses. BEG managed payroll at $25-$45 PEPM all-inclusive....", href: "/blog/payroll/company-size/managed-payroll-100-employees" },
         { category: "Payroll", title: "Managed Payroll for 20-Employee Teams", excerpt: "Managed Payroll for 20-Employee Businesses. BEG managed payroll at $25-$45 PEPM all-inclusive. Find...", href: "/blog/payroll/company-size/managed-payroll-20-employees" },

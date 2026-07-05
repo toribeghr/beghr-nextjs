@@ -177,6 +177,7 @@ export default function OutsourceGovernmentContractorPayrollPage() {
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee" target="_blank" rel="noopener noreferrer">IRS: Independent Contractor or Employee</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "DoD Contractor Payroll, Before a DCAA Audit Finds You", excerpt: "DoD contractor payroll requirements: ITAR labor tracking, security clearance employee costs, DCAA...", href: "/blog/payroll/government-contractor/dod-contractor-payroll-requirements" },
         { category: "Payroll", title: "Government Contractor Fringe Benefits (What to Know)", excerpt: "How government contractors satisfy SCA and Davis-Bacon fringe benefit requirements: bona fide...", href: "/blog/payroll/government-contractor/government-contractor-fringe-benefits-payroll" },

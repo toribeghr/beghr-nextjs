@@ -189,6 +189,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
       <RelatedPosts posts={[
         { category: "Payroll Calendars", title: "Biweekly Payroll Calendar 2026: Every Payday", excerpt: "The full 2026 biweekly payroll calendar with pay periods and paydays, verified date by date...", href: "/blog/payroll/calendars/biweekly-payroll-calendar-2026" },
         { category: "Payroll Calendars", title: "Semimonthly vs. Biweekly Payroll: Which Fits", excerpt: "24 vs 26 pay periods a year: how semimonthly and biweekly payroll compare for budgeting...", href: "/blog/payroll/calendars/semimonthly-vs-biweekly-payroll" },

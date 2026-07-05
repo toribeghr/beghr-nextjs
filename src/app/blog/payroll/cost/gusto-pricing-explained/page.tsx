@@ -147,6 +147,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.bls.gov/oes/" target="_blank" rel="noopener noreferrer">U.S. Bureau of Labor Statistics: Occupational Employment and Wage Statistics</a></p>
       <RelatedPosts posts={[
         { category: "Payroll", title: "QuickBooks Payroll Pricing Explained", excerpt: "QuickBooks Payroll Pricing Explained: Published Tiers, Linked. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/quickbooks-payroll-pricing-explained" },
         { category: "Payroll", title: "Payroll Software Pricing Guide", excerpt: "Payroll Software Pricing Guide: DIY vs Full-Service vs Managed. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/payroll-software-pricing-guide" },

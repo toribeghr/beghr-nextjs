@@ -191,6 +191,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
       <RelatedPosts posts={[
         { category: "Payroll Calendars", title: "2026 Payroll Calendar: All 26 Biweekly Paydays", excerpt: "The complete 2026 payroll calendar with every biweekly pay period and payday mapped out...", href: "/blog/payroll/calendars/2026-payroll-calendar" },
         { category: "Payroll Calendars", title: "2027 Payroll Calendar: Biweekly Pay Periods", excerpt: "Every biweekly pay period and payday for 2027, verified date by date from the 2026 rollover...", href: "/blog/payroll/calendars/2027-payroll-calendar" },

@@ -168,6 +168,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.bls.gov/oes/" target="_blank" rel="noopener noreferrer">U.S. Bureau of Labor Statistics: Occupational Employment and Wage Statistics</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Financial Firm Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for financial services. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/financial-services/financial-services-benefits-integration-payroll" },
         { category: "Payroll", title: "Financial Firm Payroll: Direct Deposit, Done Right", excerpt: "Managed payroll for financial services. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/financial-services/financial-services-direct-deposit-setup" },

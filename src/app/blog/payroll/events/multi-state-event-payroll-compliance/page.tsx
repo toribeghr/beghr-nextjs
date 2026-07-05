@@ -196,6 +196,7 @@ export default function MultiStateEventPayrollCompliancePage() {
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "California Event Payroll Rules: What AB5 Requires", excerpt: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders,...", href: "/blog/payroll/events/california-event-payroll-rules" },
         { category: "Payroll", title: "Event Company Payroll in 2026: Seasonal Crew Costs", excerpt: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state...", href: "/blog/payroll/events/event-company-payroll-guide" },

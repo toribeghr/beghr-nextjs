@@ -159,6 +159,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd/overtime" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Overtime Pay Under the FLSA</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Retail Chain Payroll: Multi-Location & Hourly Staff", excerpt: "Retail chain payroll: multi-location hourly staff, minimum wage compliance, overtime, tip credit...", href: "/blog/payroll/retail/retail-chain-payroll" },
         { category: "Payroll", title: "Retail Payroll Direct Deposit Setup for Hourly Crews", excerpt: "Managed payroll for retail. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/retail/retail-direct-deposit-setup" },

@@ -173,6 +173,7 @@ export default function ArchitecturePartnerDrawPayrollPage() {
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/understanding-employment-taxes" target="_blank" rel="noopener noreferrer">IRS: Understanding Employment Taxes</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Architecture Firm Payroll Guide in 2026", excerpt: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws,...", href: "/blog/payroll/architecture/architecture-firm-payroll-guide" },
         { category: "Payroll", title: "Architecture Project Payroll Allocation (AIA)", excerpt: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by...", href: "/blog/payroll/architecture/architecture-project-payroll-allocation" },

@@ -178,6 +178,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Payroll Outsourcing in Arizona for Growing Businesses", excerpt: "Payroll Outsourcing in Arizona for Growing Businesses. BEG provides managed payroll nationwide....", href: "/blog/payroll/state/payroll-outsourcing-arizona" },
         { category: "Payroll", title: "Payroll Outsourcing in Colorado: New 2026 Rules", excerpt: "Payroll Outsourcing in Colorado: New Laws and Requirements. BEG provides managed payroll...", href: "/blog/payroll/state/payroll-outsourcing-colorado" },

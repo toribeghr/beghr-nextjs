@@ -195,6 +195,7 @@ export default function VeterinaryComparisonPage() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.bls.gov/oes/" target="_blank" rel="noopener noreferrer">U.S. Bureau of Labor Statistics: Occupational Employment and Wage Statistics</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "DVM Compensation in Payroll: What Nobody Tells You", excerpt: "A practical guide to DVM compensation structures in payroll -- base salary, production bonus...", href: "/blog/payroll/veterinary/dvm-compensation-payroll" },
         { category: "Payroll", title: "Vet Practice Payroll Benefits: What Nobody Tells You", excerpt: "Managed payroll for veterinary. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/veterinary/veterinary-benefits-integration-payroll" },

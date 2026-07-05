@@ -172,6 +172,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Fully Managed Payroll vs. Self-Service Payroll Softw..", excerpt: "Fully Managed Payroll vs. Self-Service Payroll Software. See how BEG managed payroll at $25-$45...", href: "/blog/payroll/compare/fully-managed-vs-self-service-payroll" },
         { category: "Payroll", title: "Managed Payroll Service vs. BambooHR Payroll", excerpt: "Managed Payroll Service vs. BambooHR Payroll. See how BEG managed payroll at $25-$45 PEPM compares....", href: "/blog/payroll/compare/managed-payroll-vs-bamboohr" },

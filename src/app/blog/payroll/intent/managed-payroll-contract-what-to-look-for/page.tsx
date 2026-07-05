@@ -150,6 +150,7 @@ export default function Page() {
         }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
+      <p style={{ fontSize: '0.85rem', color: '#666666', margin: '2.5rem 0 0' }}>Authoritative source: <a href="https://www.dol.gov/agencies/whd" target="_blank" rel="noopener noreferrer">U.S. Department of Labor: Wage and Hour Division</a></p>
           <RelatedPosts posts={[
         { category: "Payroll", title: "Outsourcing Payroll in 2026: Is It Actually Worth It?", excerpt: "Benefits of Outsourcing Payroll in 2026. Expert guidance from BEG managed payroll at $25-$45 PEPM....", href: "/blog/payroll/intent/benefits-of-outsourcing-payroll-2026" },
         { category: "Payroll", title: "Evaluating a Payroll Service: What Actually Matters", excerpt: "How to Evaluate and Choose a Managed Payroll Service. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/intent/how-to-evaluate-payroll-service" },

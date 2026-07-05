@@ -173,6 +173,15 @@ export default function HCMSoftwarePage() {
       </section>
 
       {/* HOW IT WORKS */}
+            {/* CROSS-SILO: HR OUTSOURCING */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '720px' }}>
+          <p className="reveal" style={{ fontSize: '0.97rem', color: '#555555', textAlign: 'center', lineHeight: '1.7', margin: 0 }}>
+            Want humans handling HR, not just software? BEG also delivers <Link href="/services/hr-outsourcing">HR outsourcing, powered by isolved</Link>: certified HR professionals who build your handbook, track law changes, and guide every leave.
+          </p>
+        </div>
+      </section>
+
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">

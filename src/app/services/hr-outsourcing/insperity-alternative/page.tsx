@@ -222,6 +222,15 @@ export default function InsperityAlternativePage() {
           </div>
         </section>
 
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center', margin: 0 }}>
+              PEO certification status is verifiable through the{' '}
+              <a href="https://www.irs.gov/businesses/small-businesses-self-employed/certified-professional-employer-organization" target="_blank" rel="noopener noreferrer">IRS Certified Professional Employer Organization program</a>.
+            </p>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section className="section">
           <div className="container" style={{ maxWidth: '820px' }}>

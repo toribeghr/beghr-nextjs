@@ -432,6 +432,15 @@ export default function ManagedPayrollPage() {
         </div>
       </section>
 
+      {/* CROSS-SILO: HR OUTSOURCING */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '720px' }}>
+          <p className="reveal" style={{ fontSize: '0.97rem', color: '#555555', textAlign: 'center', lineHeight: '1.7', margin: 0 }}>
+            Payroll handled but handbooks, compliance, and leave still landing on your desk? BEG also delivers <Link href="/services/hr-outsourcing">HR outsourcing, powered by isolved</Link>: certified HR professionals for a fraction of an in-house HR hire.
+          </p>
+        </div>
+      </section>
+
       {/* COMPETITOR COMPARISONS */}
       <section className="section section--soft">
         <div className="container" style={{ maxWidth: '980px' }}>

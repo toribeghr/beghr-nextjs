@@ -351,6 +351,9 @@ export default function ManagedBenefitsPage() {
                 </Link>
               ))}
             </div>
+            <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '1.5rem', lineHeight: '1.7' }}>
+              State continuation guides: <Link href="/services/managed-benefits/nevada">Nevada mini-COBRA</Link> · <Link href="/services/managed-benefits/idaho">Idaho continuation rules</Link>
+            </p>
           </div>
         </section>
 

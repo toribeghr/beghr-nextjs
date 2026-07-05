@@ -316,6 +316,98 @@ export default function ManagedBenefitsPage() {
           </div>
         </section>
 
+        {/* COMPARE YOUR OPTIONS */}
+        <section className="section">
+          <div className="container">
+            <div className="head center reveal">
+              <p className="eyebrow">Compare Your Options</p>
+              <h2>Benefits administration, compared without the sales gate</h2>
+              <p style={{ marginTop: '0.75rem', color: '#666666', maxWidth: '620px', margin: '0.75rem auto 0', fontSize: '0.97rem', lineHeight: '1.7' }}>
+                The category hides behind demos. These break down the models and the named platforms in plain language, then point you at an instant estimate.
+              </p>
+            </div>
+            <div className="cards">
+              {([
+                ['tpa-vs-peo', 'TPA vs PEO'],
+                ['outsourced-vs-in-house-benefits-administration', 'Outsourced vs In-House Benefits Admin'],
+                ['what-is-a-third-party-administrator', 'What Is a Third-Party Administrator?'],
+                ['cobra-vs-mini-cobra', 'COBRA vs Mini-COBRA'],
+                ['irs-226j-letter', 'The IRS 226-J Letter, Explained'],
+                ['benefits-administration-software-vs-services', 'Benefits Software vs Services'],
+                ['employee-navigator-alternative', 'Employee Navigator Alternative'],
+                ['bswift-alternative', 'bswift Alternative'],
+                ['businessolver-alternative', 'Businessolver Alternative'],
+                ['plansource-alternative', 'PlanSource Alternative'],
+                ['tasc-alternative', 'TASC Alternative'],
+                ['wex-alternative', 'WEX Alternative'],
+                ['employee-navigator-vs-plansource', 'Employee Navigator vs PlanSource'],
+                ['bswift-vs-businessolver', 'bswift vs Businessolver'],
+                ['gusto-benefits-vs-employee-navigator', 'Gusto Benefits vs Employee Navigator'],
+                ['wex-vs-healthequity', 'WEX vs HealthEquity'],
+                ['wex-vs-tasc', 'WEX vs TASC'],
+              ] as [string, string][]).map(([slug, label]) => (
+                <Link key={slug} href={`/services/managed-benefits/${slug}`} className="card-link reveal">
+                  <h3 style={{ fontSize: '1rem', margin: 0 }}>{label}</h3>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* BY INDUSTRY */}
+        <section className="section section--soft">
+          <div className="container">
+            <div className="head center reveal">
+              <p className="eyebrow">By Industry</p>
+              <h2>Benefits administration built for how your industry gets in trouble</h2>
+            </div>
+            <div className="cards">
+              {([
+                ['healthcare', 'Healthcare', 'Variable-hour ACA tracking and relentless COBRA volume.'],
+                ['multi-unit-restaurant', 'Multi-Unit Restaurants', 'Hourly swings, high turnover, and per-location enrollment.'],
+                ['manufacturing', 'Manufacturing', 'Shift workers, plant turnover, and ACA measurement.'],
+                ['construction', 'Construction', 'Seasonal crews, fringe benefits, and mobile enrollment.'],
+                ['senior-care', 'Senior Care', 'Aide turnover, variable hours, and constant COBRA events.'],
+                ['home-health', 'Home Health', 'Field caregivers, variable hours, and eligibility tracking.'],
+                ['franchise', 'Franchise', 'One benefits standard across units, no joint-employer risk.'],
+                ['staffing-agency', 'Staffing Agencies', 'Assignment churn, ACA look-back, and heavy COBRA volume.'],
+                ['education', 'Education', 'Academic-year schedules, adjuncts, and 1095-C filing.'],
+                ['technology', 'Technology', 'Fast hiring, equity-heavy comp, and clean enrollment.'],
+                ['accounting-cpa', 'Accounting & CPA Firms', 'Busy-season hours, ACA measurement, and clean filings.'],
+                ['agriculture', 'Agriculture', 'Seasonal crews and variable-hour ACA eligibility.'],
+                ['architecture', 'Architecture', 'Project-cycle staffing and streamlined enrollment.'],
+                ['auto-dealership', 'Auto Dealerships', 'Commissioned staff, turnover, and deduction accuracy.'],
+                ['brewery', 'Breweries', 'Taproom part-timers, seasonal spikes, and ACA hours.'],
+                ['cannabis', 'Cannabis', 'Fast growth, high turnover, and by-the-book enrollment.'],
+                ['childcare', 'Childcare', 'Part-time ratios, turnover, and eligibility tracking.'],
+                ['church', 'Churches & Faith-Based', 'Mixed staff and volunteers with clean benefits records.'],
+                ['engineering', 'Engineering', 'Project benches, cleared staff, and accurate deductions.'],
+                ['events', 'Events', 'Seasonal surges, part-time crews, and ACA measurement.'],
+                ['executive', 'Executive Teams', 'Group-term life over $50,000 and imputed-income accuracy.'],
+                ['finance', 'Finance', 'Licensed staff, turnover, and precise enrollment data.'],
+                ['fitness', 'Fitness & Gyms', 'Trainer part-timers, session pay, and ACA hours.'],
+                ['government-contractor', 'Government Contractors', 'SCA fringe, ACA filing, and audit-ready records.'],
+                ['home-services', 'Home Services', 'Field techs, seasonal swings, and mobile enrollment.'],
+                ['insurance-agency', 'Insurance Agencies', 'Producer turnover and clean benefits administration.'],
+                ['legal', 'Legal', 'Associate churn and precise enrollment and deductions.'],
+                ['marketing-agency', 'Marketing Agencies', 'Contract-to-hire churn and streamlined enrollment.'],
+                ['property-management', 'Property Management', 'Multi-site staff, turnover, and one eligibility record.'],
+                ['salon-spa', 'Salons & Spas', 'Booth and hourly mix, tips, and ACA hours.'],
+                ['security', 'Security', '24/7 guards, high turnover, and variable-hour ACA.'],
+                ['trades', 'Trades', 'Seasonal crews, mobile staff, and eligibility tracking.'],
+                ['trucking', 'Trucking', 'Driver turnover, DOT churn, and COBRA volume.'],
+                ['veterinary', 'Veterinary', 'Clinic turnover, part-timers, and ACA measurement.'],
+              ] as [string, string, string][]).map(([slug, label, blurb]) => (
+                <Link key={slug} href={`/services/managed-benefits/${slug}`} className="card-link reveal">
+                  <span className="tag">{label}</span>
+                  <h3>{label}</h3>
+                  <p>{blurb}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* CROSS-SILO */}
         <section className="section">
           <div className="container" style={{ maxWidth: '820px' }}>

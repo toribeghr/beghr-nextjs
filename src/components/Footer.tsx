@@ -61,6 +61,7 @@ export default function Footer() {
           <div className="footer-col">
             <h5 className="footer-col-heading">HR Outsourcing</h5>
             <Link href="/services/hr-outsourcing" className="footer-link footer-link--overview">Overview</Link>
+            <Link href="/services/hr-outsourcing/leave-law-lookup" className="footer-link">State Leave Law Lookup</Link>
             <Link href="/services/hr-outsourcing/healthcare" className="footer-link">Healthcare</Link>
             <Link href="/services/hr-outsourcing/construction" className="footer-link">Construction</Link>
             <Link href="/services/hr-outsourcing/multi-unit-restaurant" className="footer-link">Multi-Unit Restaurants</Link>
@@ -101,6 +102,41 @@ export default function Footer() {
           <div className="footer-col">
             <h5 className="footer-col-heading">Managed Benefits</h5>
             <Link href="/services/managed-benefits" className="footer-link footer-link--overview">Overview</Link>
+            <Link href="/services/managed-benefits/pricing" className="footer-link">Pricing</Link>
+            <Link href="/services/managed-benefits/healthcare" className="footer-link">Healthcare</Link>
+            <Link href="/services/managed-benefits/construction" className="footer-link">Construction</Link>
+            <Link href="/services/managed-benefits/multi-unit-restaurant" className="footer-link">Multi-Unit Restaurants</Link>
+            <Link href="/services/managed-benefits/senior-care" className="footer-link">Senior Care</Link>
+            <Link href="/services/managed-benefits/home-health" className="footer-link">Home Health</Link>
+            <Link href="/services/managed-benefits/manufacturing" className="footer-link">Manufacturing</Link>
+            <Link href="/services/managed-benefits/accounting-cpa" className="footer-link">Accounting &amp; CPA Firms</Link>
+            <Link href="/services/managed-benefits/agriculture" className="footer-link">Agriculture</Link>
+            <Link href="/services/managed-benefits/architecture" className="footer-link">Architecture</Link>
+            <Link href="/services/managed-benefits/auto-dealership" className="footer-link">Auto Dealerships</Link>
+            <Link href="/services/managed-benefits/brewery" className="footer-link">Breweries</Link>
+            <Link href="/services/managed-benefits/cannabis" className="footer-link">Cannabis</Link>
+            <Link href="/services/managed-benefits/childcare" className="footer-link">Childcare</Link>
+            <Link href="/services/managed-benefits/church" className="footer-link">Churches &amp; Faith-Based</Link>
+            <Link href="/services/managed-benefits/education" className="footer-link">Education</Link>
+            <Link href="/services/managed-benefits/engineering" className="footer-link">Engineering</Link>
+            <Link href="/services/managed-benefits/events" className="footer-link">Events</Link>
+            <Link href="/services/managed-benefits/executive" className="footer-link">Executive Teams</Link>
+            <Link href="/services/managed-benefits/finance" className="footer-link">Finance</Link>
+            <Link href="/services/managed-benefits/fitness" className="footer-link">Fitness &amp; Gyms</Link>
+            <Link href="/services/managed-benefits/franchise" className="footer-link">Franchise</Link>
+            <Link href="/services/managed-benefits/government-contractor" className="footer-link">Government Contractors</Link>
+            <Link href="/services/managed-benefits/home-services" className="footer-link">Home Services</Link>
+            <Link href="/services/managed-benefits/insurance-agency" className="footer-link">Insurance Agencies</Link>
+            <Link href="/services/managed-benefits/legal" className="footer-link">Law Firms</Link>
+            <Link href="/services/managed-benefits/marketing-agency" className="footer-link">Marketing Agencies</Link>
+            <Link href="/services/managed-benefits/property-management" className="footer-link">Property Management</Link>
+            <Link href="/services/managed-benefits/salon-spa" className="footer-link">Salon &amp; Spa</Link>
+            <Link href="/services/managed-benefits/security" className="footer-link">Security</Link>
+            <Link href="/services/managed-benefits/staffing-agency" className="footer-link">Staffing Agencies</Link>
+            <Link href="/services/managed-benefits/technology" className="footer-link">Technology</Link>
+            <Link href="/services/managed-benefits/trades" className="footer-link">Skilled Trades</Link>
+            <Link href="/services/managed-benefits/trucking" className="footer-link">Trucking</Link>
+            <Link href="/services/managed-benefits/veterinary" className="footer-link">Veterinary</Link>
           </div>
 
           {/* HCM Software */}

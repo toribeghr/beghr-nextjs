@@ -526,6 +526,50 @@ export default function HrOutsourcingPage() {
           </div>
         </section>
 
+        {/* COMPARISONS */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '980px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Compare Your Options</p>
+              <h2>Every model, compared honestly</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem', marginTop: '2rem' }}>
+              <div>
+                <h3 style={{ fontSize: '0.95rem', fontWeight: 700, marginBottom: '0.6rem' }}>Understand the models</h3>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, fontSize: '0.9rem', lineHeight: 2 }}>
+                  <li><Link href="/services/hr-outsourcing/peo-vs-hr-outsourcing">PEO vs HR outsourcing</Link></li>
+                  <li><Link href="/services/hr-outsourcing/aso-vs-peo">ASO vs PEO</Link></li>
+                  <li><Link href="/services/hr-outsourcing/peo-vs-aso-vs-hro">PEO vs ASO vs HRO</Link></li>
+                  <li><Link href="/services/hr-outsourcing/what-is-co-employment">What is co-employment?</Link></li>
+                  <li><Link href="/services/hr-outsourcing/hr-outsourcing-vs-hiring-hr-manager">Outsource vs hire an HR manager</Link></li>
+                  <li><Link href="/services/hr-outsourcing/fractional-hr-vs-full-time-hr">Fractional vs full-time HR</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h3 style={{ fontSize: '0.95rem', fontWeight: 700, marginBottom: '0.6rem' }}>Alternatives to the big names</h3>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, fontSize: '0.9rem', lineHeight: 2 }}>
+                  <li><Link href="/services/hr-outsourcing/adp-totalsource-alternative">ADP TotalSource alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/insperity-alternative">Insperity alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/trinet-alternative">TriNet alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/paychex-peo-alternative">Paychex PEO alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/justworks-alternative">Justworks alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/bambee-alternative">Bambee alternative</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h3 style={{ fontSize: '0.95rem', fontWeight: 700, marginBottom: '0.6rem' }}>Head to head</h3>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, fontSize: '0.9rem', lineHeight: 2 }}>
+                  <li><Link href="/services/hr-outsourcing/adp-totalsource-vs-insperity">ADP TotalSource vs Insperity</Link></li>
+                  <li><Link href="/services/hr-outsourcing/insperity-vs-trinet">Insperity vs TriNet</Link></li>
+                  <li><Link href="/services/hr-outsourcing/trinet-vs-justworks">TriNet vs Justworks</Link></li>
+                  <li><Link href="/services/hr-outsourcing/bambee-vs-gusto">Bambee vs Gusto</Link></li>
+                  <li><Link href="/services/hr-outsourcing/justworks-vs-adp-totalsource">Justworks vs ADP TotalSource</Link></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section className="section">
           <div className="container" style={{ maxWidth: '820px' }}>

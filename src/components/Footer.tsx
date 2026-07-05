@@ -57,6 +57,12 @@ export default function Footer() {
             <Link href="/services/managed-payroll/veterinary" className="footer-link">Veterinary Practices</Link>
           </div>
 
+          {/* HR Outsourcing */}
+          <div className="footer-col">
+            <h5 className="footer-col-heading">HR Outsourcing</h5>
+            <Link href="/services/hr-outsourcing" className="footer-link footer-link--overview">Overview</Link>
+          </div>
+
           {/* HCM Software */}
           <div className="footer-col">
             <h5 className="footer-col-heading">HCM Software</h5>

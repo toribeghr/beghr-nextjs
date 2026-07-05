@@ -2,6 +2,7 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import InlineSearch from '@/components/InlineSearch';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -41,6 +42,14 @@ export default function HCMSoftwarePage() {
         { value: 'BEG', label: 'Implements and supports' },
       ]}
     >
+
+      {/* SITE SEARCH — vertical-scoped band beneath the hero */}
+      <InlineSearch
+        vertical="HCM Software"
+        heading="Looking for something specific?"
+        subhead="Search our HCM Software pages and guides."
+        chips={['isolved features', 'HCM pricing', 'implementation', 'integrations']}
+      />
 
       {/* PAIN */}
       <section className="section section--soft">

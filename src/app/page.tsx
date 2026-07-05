@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import HeroVideoBox from '@/components/HeroVideoBox';
 import PricingCta from '@/components/pricing/PricingCta';
+import InlineSearch from '@/components/InlineSearch';
 
 const heroVideoCss = `
 .hero-video-split{display:flex;flex-direction:column;gap:6px}
@@ -74,6 +75,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* SITE SEARCH — pitch-then-search band directly beneath the hero */}
+      <InlineSearch />
 
       {/* PAIN */}
       <section className="section section--soft">

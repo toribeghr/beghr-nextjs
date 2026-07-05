@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import InlineSearch from '@/components/InlineSearch';
 
 export const metadata: Metadata = {
   title: 'Blog | Business Executive Group',
@@ -65,6 +66,13 @@ export default function BlogPage() {
           </div>
         </div>
       </section>
+
+      {/* SITE SEARCH — search band beneath the blog hero */}
+      <InlineSearch
+        heading="Search the BEG library"
+        subhead="Payroll, HR, hiring, and compliance answers across 3,000+ pages."
+        chips={['payroll by industry', 'legal hiring', 'compare alternatives', 'HCM technology']}
+      />
 
       {topicGroups.map((group) => (
         <section key={group.heading} className="section section--soft">

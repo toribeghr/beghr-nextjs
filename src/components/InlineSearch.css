@@ -1,0 +1,177 @@
+/*
+  Inline search band. Self-contained dark strip so it looks identical wherever
+  it is placed (homepage, service hubs, blog index). Colors match the site
+  tokens (black/navy header, gold accents).
+*/
+
+.beg-inline-band {
+  background: #0d0d0d;
+  border-top: 1px solid rgba(236, 172, 96, 0.15);
+  border-bottom: 1px solid rgba(236, 172, 96, 0.15);
+  padding: 28px 20px;
+}
+
+.beg-inline-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.beg-inline-heading {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.beg-inline-ico {
+  color: #ecac60;
+}
+
+.beg-inline-sub {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  margin: 0 0 14px;
+}
+
+.beg-inline-form {
+  position: relative;
+  display: block;
+}
+
+.beg-inline-input {
+  width: 100%;
+  height: 52px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  padding: 0 44px;
+  font-size: 16px;
+  color: #16203a;
+  background: #fff;
+  font-family: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.beg-inline-input::placeholder {
+  color: #9aa3b0;
+}
+
+.beg-inline-submit {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #ecac60;
+}
+
+.beg-inline-submit svg {
+  width: 18px;
+  height: 18px;
+  fill: #ecac60;
+}
+
+.beg-inline-reset {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #99a0ab;
+}
+
+.beg-inline-reset svg {
+  width: 14px;
+  height: 14px;
+  fill: #99a0ab;
+}
+
+.beg-inline-reset[hidden] {
+  display: none;
+}
+
+.beg-inline-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.beg-inline-chip {
+  padding: 6px 12px;
+  border: 1px solid rgba(236, 172, 96, 0.35);
+  border-radius: 999px;
+  color: #f2f2f2;
+  font-size: 12px;
+  background: rgba(236, 172, 96, 0.07);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.beg-inline-chip:hover {
+  background: rgba(236, 172, 96, 0.16);
+}
+
+.beg-inline-results {
+  background: #fff;
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 8px;
+  text-align: left;
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.beg-inline-hit {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 11px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.beg-inline-hit:hover {
+  background: #f5f6f8;
+}
+
+.beg-inline-tag {
+  flex: none;
+  font-size: 11px;
+  font-weight: 500;
+  color: #8a5410;
+  background: #f7e3c6;
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-top: 1px;
+}
+
+.beg-inline-hit-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #16203a;
+}
+
+.beg-inline-empty {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  margin-top: 12px;
+}

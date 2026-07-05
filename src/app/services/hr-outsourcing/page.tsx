@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import InlineSearch from '@/components/InlineSearch';
 import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -80,6 +81,14 @@ export default function HrOutsourcingPage() {
           { value: '3 Plans', label: 'From answers on demand to a dedicated HR partner' },
         ]}
       >
+        {/* SITE SEARCH — vertical-scoped band beneath the hero */}
+        <InlineSearch
+          vertical="HR Outsourcing"
+          heading="Looking for something specific?"
+          subhead="Search our HR Outsourcing pages and guides."
+          chips={['PEO alternative', 'HR by state', 'pricing', 'compliance']}
+        />
+
         {/* PAIN */}
         <section className="section section--soft">
           <div className="container" style={{ maxWidth: '820px' }}>

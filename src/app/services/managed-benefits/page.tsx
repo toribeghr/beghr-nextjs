@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import InlineSearch from '@/components/InlineSearch';
 import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -84,6 +85,14 @@ export default function ManagedBenefitsPage() {
           { value: '3 Plans', label: 'From self-service software to fully managed' },
         ]}
       >
+        {/* SITE SEARCH — vertical-scoped band beneath the hero */}
+        <InlineSearch
+          vertical="Managed Benefits"
+          heading="Looking for something specific?"
+          subhead="Search our Managed Benefits pages and guides."
+          chips={['benefits admin', 'by industry', 'pricing', 'COBRA']}
+        />
+
         {/* PAIN */}
         <section className="section section--soft">
           <div className="container" style={{ maxWidth: '820px' }}>

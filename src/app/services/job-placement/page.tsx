@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
+import InlineSearch from '@/components/InlineSearch';
 import PricingCta from '@/components/pricing/PricingCta';
 import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
@@ -41,6 +42,14 @@ export default function JobPlacementPage() {
         { value: '~50%', label: 'Less than contingency pricing' },
       ]}
     >
+
+      {/* SITE SEARCH — vertical-scoped band beneath the hero */}
+      <InlineSearch
+        vertical="Job Placement"
+        heading="Looking for something specific?"
+        subhead="Search our Job Placement pages and guides."
+        chips={['legal hiring', 'placement pricing', 'fill rate', 'by industry']}
+      />
 
       {/* KEY TAKEAWAYS (AEO) */}
       <section className="section" style={{ paddingTop: '2rem', paddingBottom: '0' }}>

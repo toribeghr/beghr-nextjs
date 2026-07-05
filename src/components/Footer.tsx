@@ -38,6 +38,8 @@ export default function Footer() {
             <Link href="/services/managed-payroll" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/managed-payroll/pricing" className="footer-link">Pricing</Link>
             <Link href="/services/managed-payroll/cost-calculator" className="footer-link">Cost Calculator</Link>
+            <Link href="/services/managed-payroll/small-business" className="footer-link">Small Business</Link>
+            <Link href="/services/managed-payroll/payroll-outsourcing" className="footer-link">Payroll Outsourcing</Link>
             <Link href="/services/managed-payroll/legal" className="footer-link">Law Firms</Link>
             <Link href="/services/managed-payroll/healthcare" className="footer-link">Healthcare</Link>
             <Link href="/services/managed-payroll/finance" className="footer-link">Finance &amp; Accounting</Link>

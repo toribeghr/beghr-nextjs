@@ -335,6 +335,28 @@ export default function ManagedPayrollPage() {
         </div>
       </section>
 
+      {/* BY NEED */}
+      <section className="section section--soft">
+        <div className="container">
+          <div className="head center reveal">
+            <p className="eyebrow">By Need</p>
+            <h2>However you buy payroll</h2>
+          </div>
+          <div className="cards">
+            <Link href="/services/managed-payroll/small-business" className="card-link reveal">
+              <span className="tag">Small Business</span>
+              <h3>Small Business Payroll</h3>
+              <p>Fully managed payroll for small teams with no HR staff, at $25-$45 PEPM.</p>
+            </Link>
+            <Link href="/services/managed-payroll/payroll-outsourcing" className="card-link reveal">
+              <span className="tag">Outsourcing</span>
+              <h3>Payroll Outsourcing</h3>
+              <p>Hand payroll to certified specialists who work inside your existing system, no migration.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* BY INDUSTRY */}
       <section className="section">
         <div className="container">

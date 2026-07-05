@@ -310,6 +310,9 @@ export default function ManagedBenefitsPage() {
                 </tbody>
               </table>
             </div>
+            <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', marginTop: '1.5rem', textAlign: 'center', lineHeight: '1.7' }}>
+              Go deeper: <Link href="/services/managed-benefits/tpa-vs-peo">TPA vs PEO</Link> · <Link href="/services/managed-benefits/outsourced-vs-in-house-benefits-administration">outsourced vs in-house benefits administration</Link>
+            </p>
           </div>
         </section>
 

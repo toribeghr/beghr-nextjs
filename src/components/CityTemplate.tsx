@@ -85,8 +85,8 @@ export function cityMeta(industrySlug: string, citySlug: string) {
   const name = ind.name;
   const url = `https://www.beghr.com/services/job-placement/${industrySlug}/${citySlug}`;
   const title = `${name} Recruiters in ${metro.name} | BEG`;
-  const description = `${name} placement in ${metro.name}. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.`;
-  const ogDesc = `${name} placement in ${metro.name} in 23-35 days at roughly 50% less than contingency.`;
+  const description = `${name} direct hire placement in ${metro.name}. Permanent hires in 23-35 days at roughly 50% less than contingency. 45-day guarantee.`;
+  const ogDesc = `${name} direct hire placement in ${metro.name} in 23-35 days at roughly 50% less than contingency.`;
   return {
     title,
     description,

@@ -192,6 +192,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Payroll Service Fees Explained: What You Really Pay","item":"https://www.beghr.com/blog/payroll/cost/payroll-service-fees-explained"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Average Cost of Payroll Services in 2026", excerpt: "Average Cost of Payroll Services in 2026. Managed payroll at $25-$45 PEPM all-inclusive. Get a free...", href: "/blog/payroll/cost/average-cost-payroll-services-2026" },
         { category: "Payroll", title: "Payroll Errors: What They Cost a Small Business", excerpt: "What a Payroll Error Actually Costs a Small Business. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/cost-payroll-error-small-business" },

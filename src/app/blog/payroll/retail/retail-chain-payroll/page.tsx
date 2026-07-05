@@ -185,6 +185,7 @@ export default function RetailChainPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Retail Chain Payroll", "item": "https://www.beghr.com/blog/payroll/retail/retail-chain-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Retail Payroll Benefits Integration for Hourly Teams", excerpt: "Managed payroll for retail. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/retail/retail-benefits-integration-payroll" },
         { category: "Payroll", title: "Retail Payroll Direct Deposit Setup for Hourly Crews", excerpt: "Managed payroll for retail. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/retail/retail-direct-deposit-setup" },

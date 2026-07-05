@@ -183,6 +183,7 @@ export default function TruckingPayrollTaxesPage() {
         '@context': 'https://schema.org', '@type': 'FAQPage',
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Managed Payroll vs. In-House for Trucking: What It Costs", excerpt: "Trucking payroll outsourcing vs. hiring a payroll manager in-house. Real cost comparison for fleets...", href: "/blog/payroll/trucking/managed-payroll-vs-in-house" },
         { category: "Payroll", title: "Per Diem Pay for Truck Drivers: What Nobody Tells You", excerpt: "How to structure per diem pay for truck drivers correctly -- IRS accountable plan rules, the 2025...", href: "/blog/payroll/trucking/per-diem-pay-truck-drivers" },

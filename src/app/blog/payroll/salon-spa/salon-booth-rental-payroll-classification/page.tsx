@@ -167,6 +167,7 @@ export default function SalonBoothRentalPayrollClassificationPage() {
           { "@type": "ListItem", "position": 5, "name": "Booth Rental Classification", "item": "https://www.beghr.com/blog/payroll/salon-spa/salon-booth-rental-payroll-classification" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Outsourcing Salon and Spa Payroll: What Changes", excerpt: "Why salons and spas outsource payroll, what to look for in a provider, and what changes immediately...", href: "/blog/payroll/salon-spa/outsource-salon-spa-payroll" },
         { category: "Payroll", title: "Salon Commission Payroll: Splits, Chargebacks & Tips", excerpt: "How to process salon commission payroll correctly: percentage splits, product chargebacks, tip...", href: "/blog/payroll/salon-spa/salon-commission-payroll" },

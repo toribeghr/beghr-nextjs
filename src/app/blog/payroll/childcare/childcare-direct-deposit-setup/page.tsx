@@ -154,6 +154,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Childcare Centers & Preschools: Setting Up Direct Deposit (2026)","item":"https://www.beghr.com/blog/payroll/childcare/childcare-direct-deposit-setup"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Childcare Payroll Benefits Integration [2026]", excerpt: "Managed payroll for childcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/childcare/childcare-benefits-integration-payroll" },
         { category: "Payroll", title: "Childcare Payroll Employee Classification [2026]", excerpt: "Managed payroll for childcare. Employee Classification for Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/childcare/childcare-employee-classification-guide" },

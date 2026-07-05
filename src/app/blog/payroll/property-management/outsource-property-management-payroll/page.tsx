@@ -179,6 +179,7 @@ export default function OutsourcePropertyManagementPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Outsource Property Management Payroll", "item": "https://www.beghr.com/blog/payroll/property-management/outsource-property-management-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Multi-Property Payroll, Consolidated Reporting", excerpt: "How property management companies consolidate payroll across multiple properties without losing...", href: "/blog/payroll/property-management/multi-property-payroll-management" },
         { category: "Payroll", title: "Property Management Commission Payroll (Full Breakdown)", excerpt: "How to handle leasing agent commission payroll: splits, chargebacks, reconciliation, and tax...", href: "/blog/payroll/property-management/property-management-commission-payroll" },

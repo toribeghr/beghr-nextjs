@@ -192,6 +192,7 @@ export default function MortgageCompanyPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Mortgage Company Payroll", "item": "https://www.beghr.com/blog/payroll/real-estate/mortgage-company-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Commercial Real Estate Payroll (Full Breakdown)", excerpt: "Commercial real estate payroll: broker commission splits, draw programs, contractor classification,...", href: "/blog/payroll/real-estate/commercial-real-estate-payroll" },
         { category: "Payroll", title: "Real Estate Payroll, W-2 and 1099 (Full Breakdown)", excerpt: "Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099...", href: "/blog/payroll/real-estate/property-management" },

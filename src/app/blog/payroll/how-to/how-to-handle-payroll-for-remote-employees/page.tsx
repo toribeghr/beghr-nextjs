@@ -157,6 +157,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"How to Handle Payroll for Remote Employees","item":"https://www.beghr.com/blog/payroll/how-to/how-to-handle-payroll-for-remote-employees"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "How to Calculate Overtime Pay, No Guesswork", excerpt: "How to Calculate Overtime Pay Correctly. Step-by-step guidance from BEG managed payroll...", href: "/blog/payroll/how-to/how-to-calculate-overtime-pay" },
         { category: "Payroll", title: "How to Calculate Payroll Taxes, An Employer Guide", excerpt: "How to Calculate Payroll Taxes: Employer Guide. Step-by-step guidance from BEG managed payroll...", href: "/blog/payroll/how-to/how-to-calculate-payroll-taxes" },

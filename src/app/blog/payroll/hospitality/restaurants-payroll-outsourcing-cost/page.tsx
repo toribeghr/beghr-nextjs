@@ -226,6 +226,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Restaurants & Hospitality: Payroll Outsourcing Cost vs. In-House Hire (2026)","item":"https://www.beghr.com/blog/payroll/hospitality/restaurants-payroll-outsourcing-cost"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Bar and Nightclub Payroll, Tip Pools Explained", excerpt: "Bar and nightclub payroll outsourcing: tip credits, tip pools, late-night shift rules, bartender...", href: "/blog/payroll/hospitality/bar-nightclub-payroll" },
         { category: "Payroll", title: "Hotel Payroll, Tipped Staff and Multi-State Rules", excerpt: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification,...", href: "/blog/payroll/hospitality/hotel-payroll" },

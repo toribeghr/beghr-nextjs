@@ -153,6 +153,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Off-Cycle Payroll Runs: When and How They Work","item":"https://www.beghr.com/blog/payroll/features/off-cycle-payroll-runs"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Benefits Deductions in Payroll: What Gets Handled", excerpt: "Benefits Deductions in Managed Payroll: What Gets Handled. Expert guidance from BEG managed payroll...", href: "/blog/payroll/features/benefits-deductions-payroll" },
         { category: "Payroll", title: "Bonus Pay in Payroll: The Tax Part Nobody Explains", excerpt: "How Managed Payroll Handles Bonus Pay. Expert guidance from BEG managed payroll at $25-$45 PEPM....", href: "/blog/payroll/features/bonus-payroll-processing" },

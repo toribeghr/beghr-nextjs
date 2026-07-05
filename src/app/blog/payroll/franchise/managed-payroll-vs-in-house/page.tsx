@@ -194,6 +194,7 @@ export default function FranchiseComparisonPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Franchise Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for franchise. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/franchise/franchise-benefits-integration-payroll" },
         { category: "Payroll", title: "Franchise Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for franchise. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/franchise/franchise-direct-deposit-setup" },

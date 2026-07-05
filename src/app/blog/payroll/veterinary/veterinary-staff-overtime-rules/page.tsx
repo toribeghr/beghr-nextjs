@@ -167,6 +167,7 @@ export default function VeterinaryOvertimePage() {
         '@context': 'https://schema.org', '@type': 'FAQPage',
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "DVM Compensation in Payroll: What Nobody Tells You", excerpt: "A practical guide to DVM compensation structures in payroll -- base salary, production bonus...", href: "/blog/payroll/veterinary/dvm-compensation-payroll" },
         { category: "Payroll", title: "Vet Payroll: Managed vs. In-House, What It Costs", excerpt: "Veterinary practice payroll outsourcing vs. hiring an HR coordinator. Real cost comparison for...", href: "/blog/payroll/veterinary/managed-payroll-vs-in-house" },

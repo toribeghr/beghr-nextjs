@@ -191,6 +191,7 @@ export default function FarmPayrollOutsourcingPage() {
           { '@type': 'ListItem', position: 5, name: 'Farm Payroll Outsourcing', item: 'https://www.beghr.com/blog/payroll/agriculture/farm-payroll-outsourcing' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Farm and Agriculture Payroll Guide in 2026", excerpt: "Complete farm payroll guide: H-2A visa workers, seasonal crew pay, FLSA agricultural exemptions,...", href: "/blog/payroll/agriculture/agriculture-farm-payroll-guide" },
         { category: "Payroll", title: "H-2A Worker Payroll Compliance | Housing + Deductions", excerpt: "H-2A agricultural worker payroll: Adverse Effect Wage Rate, housing and meal deductions, piece rate...", href: "/blog/payroll/agriculture/h2a-worker-payroll-compliance" },

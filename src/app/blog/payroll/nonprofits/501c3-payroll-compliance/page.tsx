@@ -185,6 +185,7 @@ export default function Nonprofit501c3PayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "501(c)(3) Payroll", "item": "https://www.beghr.com/blog/payroll/nonprofits/501c3-payroll-compliance" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Nonprofit Payroll Outsourcing: Is It Worth It?", excerpt: "Nonprofit payroll outsourcing for 501(c)(3) organizations. Grant-funded payroll, Form 990, FUTA...", href: "/blog/payroll/nonprofits/charity-payroll" },
         { category: "Payroll", title: "Grant-Funded Payroll: What Nobody Tells You on Audits", excerpt: "Grant-funded payroll: cost allocation, time tracking for funder compliance, and single audit...", href: "/blog/payroll/nonprofits/grant-funded-payroll" },

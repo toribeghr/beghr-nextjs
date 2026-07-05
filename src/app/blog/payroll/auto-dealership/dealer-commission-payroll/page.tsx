@@ -138,6 +138,7 @@ export default function DealerCommissionPayrollPage() {
         '@context': 'https://schema.org', '@type': 'FAQPage',
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Auto Dealer Payroll Benefits Integration [2026]", excerpt: "Managed payroll for auto dealerships. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/auto-dealership/auto-dealership-benefits-integration-payroll" },
         { category: "Payroll", title: "Auto Dealer Payroll Direct Deposit Setup in 2026", excerpt: "Managed payroll for auto dealerships. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/auto-dealership/auto-dealership-direct-deposit-setup" },

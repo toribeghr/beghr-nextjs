@@ -305,6 +305,7 @@ export default function ManufacturingPayrollPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Shift Work Payroll: The Truth About 24/7 Overtime", excerpt: "Manufacturing shift work payroll: shift differentials, rotating schedules, overtime rules, and FLSA...", href: "/blog/payroll/manufacturing/shift-work-payroll" },
         { category: "Payroll", title: "Union Manufacturing Payroll: What Nobody Tells You", excerpt: "Union manufacturing payroll: CBA wage schedules, fringe remittances, grievance documentation, and...", href: "/blog/payroll/manufacturing/union-manufacturing-payroll" },

@@ -179,6 +179,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"E-Commerce & DTC Brands: Managed Payroll for Small Businesses (Under 25 Employees) (2026)","item":"https://www.beghr.com/blog/payroll/ecommerce/ecommerce-managed-payroll-small-business"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "DTC Brand Payroll: What Nobody Tells You About Scaling", excerpt: "DTC brand payroll: warehouse staff, remote marketing teams, variable headcount, contractor...", href: "/blog/payroll/ecommerce/dtc-brand-payroll" },
         { category: "Payroll", title: "E-Commerce Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll" },

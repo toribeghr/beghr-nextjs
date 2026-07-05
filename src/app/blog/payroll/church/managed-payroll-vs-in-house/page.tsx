@@ -198,6 +198,7 @@ export default function ChurchComparisonPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Church Payroll and FICA: Who Is Actually Exempt", excerpt: "A clear guide to FICA obligations for church employers -- ordained ministers, non-ministerial...", href: "/blog/payroll/church/church-employee-fica-payroll" },
         { category: "Payroll", title: "Minister Housing Allowance Setup in Payroll", excerpt: "A step-by-step guide to setting up minister housing allowance in payroll -- designation...", href: "/blog/payroll/church/minister-housing-allowance-payroll" },

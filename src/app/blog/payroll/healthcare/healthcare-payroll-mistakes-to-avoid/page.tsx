@@ -159,6 +159,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Healthcare Practices: Payroll Mistakes to Avoid (2026)","item":"https://www.beghr.com/blog/payroll/healthcare/healthcare-payroll-mistakes-to-avoid"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Dental Office Payroll Outsourcing (Full Breakdown)", excerpt: "Dental office payroll outsourcing vs. hiring in-house. Hygienist tips, associate dentist comp, DSO...", href: "/blog/payroll/healthcare/dental" },
         { category: "Payroll", title: "Healthcare Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for healthcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/healthcare/healthcare-benefits-integration-payroll" },

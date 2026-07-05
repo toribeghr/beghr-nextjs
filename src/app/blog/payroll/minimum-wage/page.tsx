@@ -92,6 +92,7 @@ export default function MinimumWageHubPage() {
           })
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
       <RelatedPosts posts={[
         { category: "Payroll", title: "Payroll Calendars: 2026, 2027, and Schedules", excerpt: "Biweekly and semimonthly pay dates, weekly schedules, and 2026 payroll tax deadlines.", href: "/blog/payroll/calendars" },
         { category: "Payroll", title: "Payroll Cost and Pricing Guides", excerpt: "What payroll costs across in-house, software, PEO, and managed models.", href: "/blog/payroll/cost" },

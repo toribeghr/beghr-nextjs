@@ -154,6 +154,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Franchise Operations: Payroll Setup Guide (2026)","item":"https://www.beghr.com/blog/payroll/franchise/franchise-payroll-setup-guide"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Franchise Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for franchise. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/franchise/franchise-benefits-integration-payroll" },
         { category: "Payroll", title: "Franchise Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for franchise. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/franchise/franchise-direct-deposit-setup" },

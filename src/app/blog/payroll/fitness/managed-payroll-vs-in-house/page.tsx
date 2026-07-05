@@ -194,6 +194,7 @@ export default function FitnessComparisonPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Fitness Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for fitness. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/fitness/fitness-benefits-integration-payroll" },
         { category: "Payroll", title: "Fitness Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for fitness. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/fitness/fitness-direct-deposit-setup" },

@@ -195,6 +195,7 @@ export default function OutsourceArchitectureFirmPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Outsource Architecture Payroll", "item": "https://www.beghr.com/blog/payroll/architecture/outsource-architecture-firm-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Architecture Firm Payroll Guide in 2026", excerpt: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws,...", href: "/blog/payroll/architecture/architecture-firm-payroll-guide" },
         { category: "Payroll", title: "Architecture Partner Draw Payroll (K-1 vs W-2)", excerpt: "Architecture partnership payroll: managing partner draws, W-2 salaries, K-1 distributions, and...", href: "/blog/payroll/architecture/architecture-partner-draw-payroll" },

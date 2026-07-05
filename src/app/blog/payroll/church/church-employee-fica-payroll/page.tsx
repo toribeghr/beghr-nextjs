@@ -162,6 +162,7 @@ export default function ChurchFICAPage() {
         '@context': 'https://schema.org', '@type': 'FAQPage',
         mainEntity: faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
       })}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Managed Payroll vs. In-House Hire for Churches", excerpt: "Church payroll outsourcing vs. hiring a bookkeeper or administrator. Real cost comparison for...", href: "/blog/payroll/church/managed-payroll-vs-in-house" },
         { category: "Payroll", title: "Minister Housing Allowance Setup in Payroll", excerpt: "A step-by-step guide to setting up minister housing allowance in payroll -- designation...", href: "/blog/payroll/church/minister-housing-allowance-payroll" },

@@ -176,6 +176,7 @@ export default function BreweryDistilleryPayrollGuidePage() {
           { "@type": "ListItem", "position": 5, "name": "Brewery Distillery Payroll Guide", "item": "https://www.beghr.com/blog/payroll/brewery/brewery-distillery-payroll-guide" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Brewery Production Staff Payroll [Full Breakdown]", excerpt: "How to run payroll for brewery production staff: shift differentials, overtime for long production...", href: "/blog/payroll/brewery/brewery-production-payroll" },
         { category: "Payroll", title: "Craft Brewery Payroll Compliance in 2026", excerpt: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and...", href: "/blog/payroll/brewery/craft-brewery-payroll-compliance" },

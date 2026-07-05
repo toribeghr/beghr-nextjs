@@ -188,6 +188,7 @@ export default function ShiftWorkPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Shift Work Payroll", "item": "https://www.beghr.com/blog/payroll/manufacturing/shift-work-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Manufacturing Payroll Outsourcing: Is It Worth It?", excerpt: "Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials,...", href: "/blog/payroll/manufacturing/outsourcing-payroll" },
         { category: "Payroll", title: "Union Manufacturing Payroll: What Nobody Tells You", excerpt: "Union manufacturing payroll: CBA wage schedules, fringe remittances, grievance documentation, and...", href: "/blog/payroll/manufacturing/union-manufacturing-payroll" },

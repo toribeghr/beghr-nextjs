@@ -177,6 +177,7 @@ export default function ConsultingFirmPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Consulting Firm Payroll", "item": "https://www.beghr.com/blog/payroll/professional-services/consulting-firm-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Accounting Firm Payroll, Outsourced vs. In-House", excerpt: "Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, Quick. Get instant pricing...", href: "/blog/payroll/professional-services/accounting" },
         { category: "Payroll", title: "Engineering Firm Payroll, Benefits Integration", excerpt: "Managed payroll for engineering. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/professional-services/engineering-benefits-integration-payroll" },

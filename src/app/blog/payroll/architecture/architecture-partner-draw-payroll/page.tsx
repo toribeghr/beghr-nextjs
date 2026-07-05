@@ -172,6 +172,7 @@ export default function ArchitecturePartnerDrawPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Partner Draw Payroll", "item": "https://www.beghr.com/blog/payroll/architecture/architecture-partner-draw-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Architecture Firm Payroll Guide in 2026", excerpt: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws,...", href: "/blog/payroll/architecture/architecture-firm-payroll-guide" },
         { category: "Payroll", title: "Architecture Project Payroll Allocation (AIA)", excerpt: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by...", href: "/blog/payroll/architecture/architecture-project-payroll-allocation" },

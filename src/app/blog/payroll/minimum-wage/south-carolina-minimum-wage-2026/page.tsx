@@ -166,6 +166,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Minimum Wage","item":"https://www.beghr.com/blog/payroll/minimum-wage"},{"@type":"ListItem","position":5,"name":"South Carolina Minimum Wage 2026: Federal Rate Applies","item":"https://www.beghr.com/blog/payroll/minimum-wage/south-carolina-minimum-wage-2026"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
       <RelatedPosts posts={[
         { category: "Payroll", title: "Rhode Island Minimum Wage 2026: Retail Premium Rules", excerpt: "Rhode Island's 2026 minimum wage is $16.00 per hour, well above the federal $7.25 floor. See Sunday and holiday premium rules...", href: "/blog/payroll/minimum-wage/rhode-island-minimum-wage-2026" },
         { category: "Payroll", title: "PEPM Pricing Explained: What Providers Leave Out", excerpt: "PEPM Pricing Explained: What Per-Employee-Per-Month Means. Managed payroll at $25-$45 PEPM all-inclusive. Get a free...", href: "/blog/payroll/cost/pepm-pricing-explained" },

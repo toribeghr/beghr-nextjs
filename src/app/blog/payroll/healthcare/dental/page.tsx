@@ -292,6 +292,7 @@ export default function DentalPayrollPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Healthcare Payroll Benefits Integration (Full Breakdown)", excerpt: "Managed payroll for healthcare. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/healthcare/healthcare-benefits-integration-payroll" },
         { category: "Payroll", title: "Healthcare Payroll Direct Deposit Setup, Step by Step", excerpt: "Managed payroll for healthcare. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/healthcare/healthcare-direct-deposit-setup" },

@@ -203,6 +203,7 @@ export default function AgricultureFarmPayrollGuidePage() {
           { '@type': 'ListItem', position: 5, name: 'Agriculture Farm Payroll Guide', item: 'https://www.beghr.com/blog/payroll/agriculture/agriculture-farm-payroll-guide' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Farm Payroll Outsourcing | Why It Works", excerpt: "Why farm and agriculture businesses outsource payroll, what a managed provider covers, and what to...", href: "/blog/payroll/agriculture/farm-payroll-outsourcing" },
         { category: "Payroll", title: "H-2A Worker Payroll Compliance | Housing + Deductions", excerpt: "H-2A agricultural worker payroll: Adverse Effect Wage Rate, housing and meal deductions, piece rate...", href: "/blog/payroll/agriculture/h2a-worker-payroll-compliance" },

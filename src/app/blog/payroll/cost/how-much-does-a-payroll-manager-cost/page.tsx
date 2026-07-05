@@ -357,6 +357,7 @@ export default function HowMuchDoesPayrollManagerCostPage() {
       <section className="container" style={{ maxWidth: '840px', padding: '0 0 2rem' }}>
         <p style={{ fontSize: '0.95rem', color: '#333' }}>Ready to hand payroll off? See <a href="/services/managed-payroll" style={{ color: '#000', fontWeight: 600 }}>BEG Managed Payroll</a>.</p>
       </section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Average Cost of Payroll Services in 2026", excerpt: "Average Cost of Payroll Services in 2026. Managed payroll at $25-$45 PEPM all-inclusive. Get a free...", href: "/blog/payroll/cost/average-cost-payroll-services-2026" },
         { category: "Payroll", title: "Payroll Errors: What They Cost a Small Business", excerpt: "What a Payroll Error Actually Costs a Small Business. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/cost-payroll-error-small-business" },

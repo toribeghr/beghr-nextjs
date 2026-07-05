@@ -292,6 +292,7 @@ export default function RestaurantPayrollPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Bar and Nightclub Payroll, Tip Pools Explained", excerpt: "Bar and nightclub payroll outsourcing: tip credits, tip pools, late-night shift rules, bartender...", href: "/blog/payroll/hospitality/bar-nightclub-payroll" },
         { category: "Payroll", title: "Hotel Payroll, Tipped Staff and Multi-State Rules", excerpt: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification,...", href: "/blog/payroll/hospitality/hotel-payroll" },

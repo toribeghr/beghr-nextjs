@@ -112,6 +112,7 @@ export default function CalendarsHubPage() {
           })
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
       <RelatedPosts posts={[
         { category: "Payroll", title: "State Minimum Wage 2026: Rates by State", excerpt: "2026 minimum wage, scheduled increases, and overtime rules for all 50 states.", href: "/blog/payroll/minimum-wage" },
         { category: "Payroll", title: "Payroll Cost and Pricing Guides", excerpt: "What payroll costs across in-house, software, PEO, and managed models.", href: "/blog/payroll/cost" },

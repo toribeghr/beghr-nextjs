@@ -182,6 +182,7 @@ export default function SecurityCompanyPayrollCompliancePage() {
           { "@type": "ListItem", "position": 5, "name": "Security Payroll Compliance", "item": "https://www.beghr.com/blog/payroll/security/security-company-payroll-compliance" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Outsourcing Security Company Payroll: What Changes", excerpt: "Why security companies outsource payroll, what to look for in a provider, and what changes...", href: "/blog/payroll/security/outsource-security-company-payroll" },
         { category: "Payroll", title: "Security Company Payroll Guide: Guard Shifts & SCA", excerpt: "Security company payroll guide: SCA compliance for federal contracts, 24/7 shift processing,...", href: "/blog/payroll/security/security-company-payroll-guide" },

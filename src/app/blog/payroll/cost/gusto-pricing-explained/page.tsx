@@ -146,6 +146,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Cost","item":"https://www.beghr.com/blog/payroll/cost"},{"@type":"ListItem","position":5,"name":"Gusto Pricing Explained: Published Tiers, Linked","item":"https://www.beghr.com/blog/payroll/cost/gusto-pricing-explained"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
       <RelatedPosts posts={[
         { category: "Payroll", title: "QuickBooks Payroll Pricing Explained", excerpt: "QuickBooks Payroll Pricing Explained: Published Tiers, Linked. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/quickbooks-payroll-pricing-explained" },
         { category: "Payroll", title: "Payroll Software Pricing Guide", excerpt: "Payroll Software Pricing Guide: DIY vs Full-Service vs Managed. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/payroll-software-pricing-guide" },

@@ -292,6 +292,7 @@ export default function SaaSPayrollPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Remote Tech Team Payroll: Multi-State Nexus Rules", excerpt: "Remote tech team payroll: multi-state withholding, contractor classification, nexus compliance, and...", href: "/blog/payroll/technology/remote-tech-team-payroll" },
         { category: "Payroll", title: "Startup Equity Payroll: RSUs, Options and 83(b)", excerpt: "Startup payroll for equity compensation: ISO and NSO stock options, RSU vesting, 83(b) elections,...", href: "/blog/payroll/technology/startup-equity-payroll" },

@@ -158,6 +158,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Construction Companies: Integrating Benefits with Payroll (2026)","item":"https://www.beghr.com/blog/payroll/construction/construction-benefits-integration-payroll"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Certified Payroll and Prevailing Wage for Contractors", excerpt: "Certified payroll reporting and prevailing wage compliance for construction contractors on federal...", href: "/blog/payroll/construction/certified-payroll-prevailing-wage" },
         { category: "Payroll", title: "Construction Payroll Direct Deposit Setup for Crews", excerpt: "Managed payroll for construction. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/construction/construction-direct-deposit-setup" },

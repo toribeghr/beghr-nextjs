@@ -182,6 +182,7 @@ export default function TeacherPayrollCompliancePage() {
           { "@type": "ListItem", "position": 5, "name": "Teacher Payroll Compliance", "item": "https://www.beghr.com/blog/payroll/education/teacher-payroll-compliance" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "School Payroll Costs: In-House vs Managed, the Gap", excerpt: "What it really costs to run payroll for a private school in-house vs managed. Hidden costs, staff...", href: "/blog/payroll/education/education-payroll-cost" },
         { category: "Payroll", title: "Outsource School Payroll: What Charter Schools Miss", excerpt: "Why private and charter schools outsource payroll, what to look for in a provider, and how managed...", href: "/blog/payroll/education/outsource-education-payroll" },

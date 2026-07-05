@@ -199,6 +199,7 @@ export default function BarNightclubPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Bar and Nightclub Payroll", "item": "https://www.beghr.com/blog/payroll/hospitality/bar-nightclub-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Hotel Payroll, Tipped Staff and Multi-State Rules", excerpt: "Hotel payroll outsourcing: tip credits, banquet overtime, multi-department classification,...", href: "/blog/payroll/hospitality/hotel-payroll" },
         { category: "Payroll", title: "Restaurant Payroll, Tipped Staff and Tip Pools", excerpt: "Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift...", href: "/blog/payroll/hospitality/restaurant" },

@@ -241,6 +241,7 @@ export default function HotelPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Hotel Payroll", "item": "https://www.beghr.com/blog/payroll/hospitality/hotel-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Bar and Nightclub Payroll, Tip Pools Explained", excerpt: "Bar and nightclub payroll outsourcing: tip credits, tip pools, late-night shift rules, bartender...", href: "/blog/payroll/hospitality/bar-nightclub-payroll" },
         { category: "Payroll", title: "Restaurant Payroll, Tipped Staff and Tip Pools", excerpt: "Restaurant payroll outsourcing vs. hiring in-house. Tip credit rules, FLSA tip pooling, split-shift...", href: "/blog/payroll/hospitality/restaurant" },

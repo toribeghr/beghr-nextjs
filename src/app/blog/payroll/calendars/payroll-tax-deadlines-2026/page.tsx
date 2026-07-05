@@ -147,6 +147,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Calendars","item":"https://www.beghr.com/blog/payroll/calendars"},{"@type":"ListItem","position":5,"name":"Payroll Tax Deadlines 2026: Deposit Rules Explained","item":"https://www.beghr.com/blog/payroll/calendars/payroll-tax-deadlines-2026"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
       <RelatedPosts posts={[
         { category: "Payroll Calendars", title: "2026 Payroll Calendar: All 26 Biweekly Paydays", excerpt: "The complete 2026 payroll calendar with every biweekly pay period and payday mapped out...", href: "/blog/payroll/calendars/2026-payroll-calendar" },
         { category: "Payroll Calendars", title: "Semimonthly vs. Biweekly Payroll: Which Fits You", excerpt: "24 vs 26 pay periods a year: how semimonthly and biweekly payroll compare for budgeting...", href: "/blog/payroll/calendars/semimonthly-vs-biweekly-payroll" },

@@ -197,6 +197,7 @@ export default function OutsourceStaffingAgencyPayrollPage() {
           { '@type': 'ListItem', position: 5, name: 'Outsource Staffing Agency Payroll', item: 'https://www.beghr.com/blog/payroll/staffing-agency/outsource-staffing-agency-payroll' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Staffing Agency Payroll Compliance for 2026", excerpt: "Staffing agency payroll compliance: IRS classification test, FLSA for temp workers, state...", href: "/blog/payroll/staffing-agency/staffing-agency-payroll-compliance" },
         { category: "Payroll", title: "Staffing Agency Payroll Costs: In-House vs. Managed", excerpt: "How much does staffing agency payroll cost? Compare in-house payroll specialist ($60K-$100K) vs...", href: "/blog/payroll/staffing-agency/staffing-agency-payroll-cost" },

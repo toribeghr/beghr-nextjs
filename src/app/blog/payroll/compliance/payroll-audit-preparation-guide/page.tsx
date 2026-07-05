@@ -152,6 +152,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"How to Prepare for a Payroll Audit","item":"https://www.beghr.com/blog/payroll/compliance/payroll-audit-preparation-guide"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "401(k) Payroll Deductions: What Employers Must Know", excerpt: "401(k) Payroll Deductions: Employer Compliance Guide. Expert guidance from BEG managed payroll....", href: "/blog/payroll/compliance/401k-payroll-deduction-compliance" },
         { category: "Payroll", title: "IRS Form 940 vs. 941: The Real Difference", excerpt: "IRS Form 940 vs. 941: What Employers Need to Know. Expert guidance from BEG managed payroll. Get instant pricing...", href: "/blog/payroll/compliance/940-vs-941-payroll-tax-explained" },

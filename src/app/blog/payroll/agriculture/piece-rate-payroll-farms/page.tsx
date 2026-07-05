@@ -208,6 +208,7 @@ export default function PieceRatePayrollFarmsPage() {
           { '@type': 'ListItem', position: 5, name: 'Piece Rate Payroll for Farms', item: 'https://www.beghr.com/blog/payroll/agriculture/piece-rate-payroll-farms' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Farm and Agriculture Payroll Guide in 2026", excerpt: "Complete farm payroll guide: H-2A visa workers, seasonal crew pay, FLSA agricultural exemptions,...", href: "/blog/payroll/agriculture/agriculture-farm-payroll-guide" },
         { category: "Payroll", title: "Farm Payroll Outsourcing | Why It Works", excerpt: "Why farm and agriculture businesses outsource payroll, what a managed provider covers, and what to...", href: "/blog/payroll/agriculture/farm-payroll-outsourcing" },

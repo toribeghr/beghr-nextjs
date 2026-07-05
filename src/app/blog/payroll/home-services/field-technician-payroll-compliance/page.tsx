@@ -195,6 +195,7 @@ export default function FieldTechnicianPayrollCompliancePage() {
           { '@type': 'ListItem', position: 5, name: 'Field Technician Payroll Compliance', item: 'https://www.beghr.com/blog/payroll/home-services/field-technician-payroll-compliance' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Home Services Payroll Costs, In-House vs Managed", excerpt: "How much does payroll cost for a home services company? Compare in-house payroll specialist...", href: "/blog/payroll/home-services/home-services-payroll-cost" },
         { category: "Payroll", title: "Home Services Payroll Guide for HVAC and Plumbing", excerpt: "Complete home services payroll guide: field tech pay structures, overtime, drive time compensation,...", href: "/blog/payroll/home-services/home-services-payroll-guide" },

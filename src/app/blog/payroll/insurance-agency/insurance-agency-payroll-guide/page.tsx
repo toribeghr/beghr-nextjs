@@ -207,6 +207,7 @@ export default function InsuranceAgencyPayrollGuidePage() {
           { "@type": "ListItem", "position": 5, "name": "Insurance Agency Payroll Guide", "item": "https://www.beghr.com/blog/payroll/insurance-agency/insurance-agency-payroll-guide" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Captive vs Independent Agent Payroll: Key Difference", excerpt: "Captive vs independent insurance agent payroll: W-2 vs 1099 classification rules, IRS tests, state...", href: "/blog/payroll/insurance-agency/captive-vs-independent-agent-payroll" },
         { category: "Payroll", title: "Insurance Agency Payroll Compliance: Is It Worth It?", excerpt: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration,...", href: "/blog/payroll/insurance-agency/insurance-agency-payroll-compliance" },

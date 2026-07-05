@@ -185,6 +185,7 @@ export default function UnionManufacturingPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Union Manufacturing Payroll", "item": "https://www.beghr.com/blog/payroll/manufacturing/union-manufacturing-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Manufacturing Payroll Outsourcing: Is It Worth It?", excerpt: "Manufacturing payroll outsourcing vs. hiring in-house. Real cost comparison: shift differentials,...", href: "/blog/payroll/manufacturing/outsourcing-payroll" },
         { category: "Payroll", title: "Shift Work Payroll: The Truth About 24/7 Overtime", excerpt: "Manufacturing shift work payroll: shift differentials, rotating schedules, overtime rules, and FLSA...", href: "/blog/payroll/manufacturing/shift-work-payroll" },

@@ -288,6 +288,7 @@ export default function AccountingPayrollPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Consulting Firm Payroll, Billable Hours (Full Breakdown)", excerpt: "Consulting firm payroll: utilization bonuses, multi-state remote consultant compliance, exempt...", href: "/blog/payroll/professional-services/consulting-firm-payroll" },
         { category: "Payroll", title: "Engineering Firm Payroll, Benefits Integration", excerpt: "Managed payroll for engineering. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/professional-services/engineering-benefits-integration-payroll" },

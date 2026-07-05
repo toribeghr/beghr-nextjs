@@ -193,6 +193,7 @@ export default function RemoteTechTeamPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Remote Tech Team Payroll", "item": "https://www.beghr.com/blog/payroll/technology/remote-tech-team-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "SaaS Payroll Outsourcing: Cost vs. an In-House Hire", excerpt: "SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote,...", href: "/blog/payroll/technology/saas-payroll-outsourcing" },
         { category: "Payroll", title: "Startup Equity Payroll: RSUs, Options and 83(b)", excerpt: "Startup payroll for equity compensation: ISO and NSO stock options, RSU vesting, 83(b) elections,...", href: "/blog/payroll/technology/startup-equity-payroll" },

@@ -167,6 +167,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Calendars","item":"https://www.beghr.com/blog/payroll/calendars"},{"@type":"ListItem","position":5,"name":"Weekly Payroll Schedule Guide: 52 Runs a Year","item":"https://www.beghr.com/blog/payroll/calendars/weekly-payroll-schedule-guide"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
       <RelatedPosts posts={[
         { category: "Payroll Calendars", title: "Semimonthly vs. Biweekly Payroll: Which Fits You", excerpt: "24 vs 26 pay periods a year: how semimonthly and biweekly payroll compare for budgeting...", href: "/blog/payroll/calendars/semimonthly-vs-biweekly-payroll" },
         { category: "Payroll Calendars", title: "Biweekly Payroll Calendar 2026: How the Math Works", excerpt: "How the 14-day biweekly cycle works, why some years have 27 paydays, and the verified 2026 schedule...", href: "/blog/payroll/calendars/biweekly-payroll-calendar-2026" },

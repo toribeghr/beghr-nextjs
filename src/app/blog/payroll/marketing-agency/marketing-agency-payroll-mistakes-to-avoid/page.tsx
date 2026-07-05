@@ -155,6 +155,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Marketing & PR Agencies: Payroll Mistakes to Avoid (2026)","item":"https://www.beghr.com/blog/payroll/marketing-agency/marketing-agency-payroll-mistakes-to-avoid"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Managed Payroll vs In-House for Agencies: Which Wins?", excerpt: "Marketing agency payroll outsourcing vs. hiring in-house. Real cost comparison for agencies with...", href: "/blog/payroll/marketing-agency/managed-payroll-vs-in-house" },
         { category: "Payroll", title: "Agency Payroll: What Nobody Tells You About Benefits", excerpt: "Managed payroll for marketing agencies. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/marketing-agency/marketing-agency-benefits-integration-payroll" },

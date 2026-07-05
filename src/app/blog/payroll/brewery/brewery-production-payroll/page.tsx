@@ -179,6 +179,7 @@ export default function BreweryProductionPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Brewery Production Payroll", "item": "https://www.beghr.com/blog/payroll/brewery/brewery-production-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Brewery and Distillery Payroll Guide in 2026", excerpt: "Complete brewery and distillery payroll guide: taproom tip credit, production staff payroll, sales...", href: "/blog/payroll/brewery/brewery-distillery-payroll-guide" },
         { category: "Payroll", title: "Craft Brewery Payroll Compliance in 2026", excerpt: "Craft brewery payroll compliance: TTB record-keeping, state liquor license labor conditions, and...", href: "/blog/payroll/brewery/craft-brewery-payroll-compliance" },

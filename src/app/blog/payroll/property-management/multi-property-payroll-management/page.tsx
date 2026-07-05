@@ -172,6 +172,7 @@ export default function MultiPropertyPayrollManagementPage() {
           { "@type": "ListItem", "position": 5, "name": "Multi-Property Payroll", "item": "https://www.beghr.com/blog/payroll/property-management/multi-property-payroll-management" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Property Management Payroll Outsourcing (What to Know)", excerpt: "Why property management companies outsource payroll, what changes immediately, and how to evaluate...", href: "/blog/payroll/property-management/outsource-property-management-payroll" },
         { category: "Payroll", title: "Property Management Commission Payroll (Full Breakdown)", excerpt: "How to handle leasing agent commission payroll: splits, chargebacks, reconciliation, and tax...", href: "/blog/payroll/property-management/property-management-commission-payroll" },

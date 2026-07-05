@@ -194,6 +194,7 @@ export default function OutsourceMultiLocationRestaurantPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Outsource Multi-Location Restaurant Payroll", "item": "https://www.beghr.com/blog/payroll/multi-unit-restaurant/outsource-multi-location-restaurant-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Multi-Location Restaurant Payroll: The Real Playbook", excerpt: "Multi-location restaurant payroll: consolidated reporting, tip credit by state, high-volume W-2...", href: "/blog/payroll/multi-unit-restaurant/multi-location-restaurant-payroll-guide" },
         { category: "Payroll", title: "Restaurant Payroll Reporting: What Operators Need", excerpt: "Per-location payroll reporting for multi-unit restaurant groups: labor cost by location, FOH vs BOH...", href: "/blog/payroll/multi-unit-restaurant/multi-location-restaurant-payroll-reporting" },

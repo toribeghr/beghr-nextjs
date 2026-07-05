@@ -190,6 +190,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Calendars","item":"https://www.beghr.com/blog/payroll/calendars"},{"@type":"ListItem","position":5,"name":"Biweekly Payroll Calendar 2026: How the Math Works","item":"https://www.beghr.com/blog/payroll/calendars/biweekly-payroll-calendar-2026"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
       <RelatedPosts posts={[
         { category: "Payroll Calendars", title: "2026 Payroll Calendar: All 26 Biweekly Paydays", excerpt: "The complete 2026 payroll calendar with every biweekly pay period and payday mapped out...", href: "/blog/payroll/calendars/2026-payroll-calendar" },
         { category: "Payroll Calendars", title: "2027 Payroll Calendar: Biweekly Pay Periods", excerpt: "Every biweekly pay period and payday for 2027, verified date by date from the 2026 rollover...", href: "/blog/payroll/calendars/2027-payroll-calendar" },

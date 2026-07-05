@@ -192,6 +192,7 @@ export default function DtcBrandPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "DTC Brand Payroll", "item": "https://www.beghr.com/blog/payroll/ecommerce/dtc-brand-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "E-Commerce Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll" },
         { category: "Payroll", title: "E-Commerce Payroll: Direct Deposit Setup, Done Right", excerpt: "Managed payroll for e-commerce. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/ecommerce/ecommerce-direct-deposit-setup" },

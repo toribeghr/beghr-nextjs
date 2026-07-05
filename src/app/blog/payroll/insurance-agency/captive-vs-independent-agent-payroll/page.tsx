@@ -197,6 +197,7 @@ export default function CaptiveVsIndependentAgentPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Captive vs Independent Agent Payroll", "item": "https://www.beghr.com/blog/payroll/insurance-agency/captive-vs-independent-agent-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Insurance Agency Payroll Compliance: Is It Worth It?", excerpt: "Insurance agency payroll compliance: state producer licensing, ERISA benefits administration,...", href: "/blog/payroll/insurance-agency/insurance-agency-payroll-compliance" },
         { category: "Payroll", title: "Insurance Agency Payroll: How Commission Really Works", excerpt: "Insurance agency payroll: producer commission timing, draw vs commission payroll, W-2 vs 1099...", href: "/blog/payroll/insurance-agency/insurance-agency-payroll-guide" },

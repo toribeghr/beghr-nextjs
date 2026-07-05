@@ -279,6 +279,7 @@ export default function RetailStaffingPayrollPage() {
         url: 'https://www.beghr.com/blog/payroll/retail/staffing-payroll',
         mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/payroll/retail/staffing-payroll' },
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Retail Payroll Benefits Integration for Hourly Teams", excerpt: "Managed payroll for retail. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/retail/retail-benefits-integration-payroll" },
         { category: "Payroll", title: "Retail Chain Payroll: Multi-Location & Hourly Staff", excerpt: "Retail chain payroll: multi-location hourly staff, minimum wage compliance, overtime, tip credit...", href: "/blog/payroll/retail/retail-chain-payroll" },

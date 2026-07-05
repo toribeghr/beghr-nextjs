@@ -158,6 +158,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Real Estate Agencies: New Hire Payroll Onboarding (2026)","item":"https://www.beghr.com/blog/payroll/real-estate/real-estate-new-hire-payroll-onboarding"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Commercial Real Estate Payroll (Full Breakdown)", excerpt: "Commercial real estate payroll: broker commission splits, draw programs, contractor classification,...", href: "/blog/payroll/real-estate/commercial-real-estate-payroll" },
         { category: "Payroll", title: "Mortgage Company Payroll, LO Commission (What to Know)", excerpt: "Mortgage company payroll: loan officer commission, RESPA compliance, draw programs, and multi-state...", href: "/blog/payroll/real-estate/mortgage-company-payroll" },

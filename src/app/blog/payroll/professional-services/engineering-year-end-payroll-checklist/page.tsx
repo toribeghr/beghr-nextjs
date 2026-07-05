@@ -152,6 +152,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Engineering & Professional Services Firms: Year-End Payroll Checklist (2026)","item":"https://www.beghr.com/blog/payroll/professional-services/engineering-year-end-payroll-checklist"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Accounting Firm Payroll, Outsourced vs. In-House", excerpt: "Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, Quick. Get instant pricing...", href: "/blog/payroll/professional-services/accounting" },
         { category: "Payroll", title: "Consulting Firm Payroll, Billable Hours (Full Breakdown)", excerpt: "Consulting firm payroll: utilization bonuses, multi-state remote consultant compliance, exempt...", href: "/blog/payroll/professional-services/consulting-firm-payroll" },

@@ -184,6 +184,7 @@ export default function ShopifyPayrollOutsourcingPage() {
           { "@type": "ListItem", "position": 5, "name": "Shopify Payroll Outsourcing", "item": "https://www.beghr.com/blog/payroll/ecommerce/shopify-payroll-outsourcing" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "DTC Brand Payroll: What Nobody Tells You About Scaling", excerpt: "DTC brand payroll: warehouse staff, remote marketing teams, variable headcount, contractor...", href: "/blog/payroll/ecommerce/dtc-brand-payroll" },
         { category: "Payroll", title: "E-Commerce Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for e-commerce. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/ecommerce/ecommerce-benefits-integration-payroll" },

@@ -180,6 +180,7 @@ export default function StaffingAgencyPayrollCostPage() {
           { '@type': 'ListItem', position: 5, name: 'Staffing Agency Payroll Cost', item: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-cost' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Staffing Agency Payroll: Should You Outsource It", excerpt: "Should you outsource staffing agency payroll? What outsourcing covers, how it handles W-2 vs 1099,...", href: "/blog/payroll/staffing-agency/outsource-staffing-agency-payroll" },
         { category: "Payroll", title: "Staffing Agency Payroll Compliance for 2026", excerpt: "Staffing agency payroll compliance: IRS classification test, FLSA for temp workers, state...", href: "/blog/payroll/staffing-agency/staffing-agency-payroll-compliance" },

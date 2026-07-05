@@ -180,6 +180,7 @@ export default function CraftBreweryPayrollCompliancePage() {
           { "@type": "ListItem", "position": 5, "name": "Craft Brewery Payroll Compliance", "item": "https://www.beghr.com/blog/payroll/brewery/craft-brewery-payroll-compliance" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Brewery and Distillery Payroll Guide in 2026", excerpt: "Complete brewery and distillery payroll guide: taproom tip credit, production staff payroll, sales...", href: "/blog/payroll/brewery/brewery-distillery-payroll-guide" },
         { category: "Payroll", title: "Brewery Production Staff Payroll [Full Breakdown]", excerpt: "How to run payroll for brewery production staff: shift differentials, overtime for long production...", href: "/blog/payroll/brewery/brewery-production-payroll" },

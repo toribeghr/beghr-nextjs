@@ -189,6 +189,7 @@ export default function MemoryCareAssistedLivingPayrollPage() {
           { '@type': 'ListItem', position: 5, name: 'Memory Care and Assisted Living Payroll', item: 'https://www.beghr.com/blog/payroll/senior-care/memory-care-assisted-living-payroll' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Nursing Home Payroll Compliance: CMS and FLSA Rules", excerpt: "Nursing home payroll compliance guide: CMS minimum staffing rules, FLSA overtime for nurses and...", href: "/blog/payroll/senior-care/nursing-home-payroll-compliance" },
         { category: "Payroll", title: "Should Senior Care Facilities Outsource Payroll", excerpt: "Should senior care facilities outsource payroll? What operators get, cost vs in-house comparison,...", href: "/blog/payroll/senior-care/outsource-senior-care-payroll" },

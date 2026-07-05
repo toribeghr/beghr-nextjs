@@ -185,6 +185,7 @@ export default function SeniorCarePayrollGuidePage() {
           { '@type': 'ListItem', position: 5, name: 'Senior Care Payroll Guide', item: 'https://www.beghr.com/blog/payroll/senior-care/senior-care-payroll-guide' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Memory Care and Assisted Living Payroll, Explained", excerpt: "Memory care and assisted living payroll differences: staffing ratios, wage premiums, high-turnover...", href: "/blog/payroll/senior-care/memory-care-assisted-living-payroll" },
         { category: "Payroll", title: "Nursing Home Payroll Compliance: CMS and FLSA Rules", excerpt: "Nursing home payroll compliance guide: CMS minimum staffing rules, FLSA overtime for nurses and...", href: "/blog/payroll/senior-care/nursing-home-payroll-compliance" },

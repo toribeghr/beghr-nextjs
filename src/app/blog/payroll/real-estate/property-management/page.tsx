@@ -285,6 +285,7 @@ export default function RealEstatePropertyManagementPayrollPage() {
         url: 'https://www.beghr.com/blog/payroll/real-estate/property-management',
         mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/payroll/real-estate/property-management' },
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Commercial Real Estate Payroll (Full Breakdown)", excerpt: "Commercial real estate payroll: broker commission splits, draw programs, contractor classification,...", href: "/blog/payroll/real-estate/commercial-real-estate-payroll" },
         { category: "Payroll", title: "Mortgage Company Payroll, LO Commission (What to Know)", excerpt: "Mortgage company payroll: loan officer commission, RESPA compliance, draw programs, and multi-state...", href: "/blog/payroll/real-estate/mortgage-company-payroll" },

@@ -184,6 +184,7 @@ export default function HomeServicesPayrollCostPage() {
           { '@type': 'ListItem', position: 5, name: 'Home Services Payroll Cost', item: 'https://www.beghr.com/blog/payroll/home-services/home-services-payroll-cost' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Field Technician Payroll, Drive Time and OT Rules", excerpt: "Field technician payroll compliance: when drive time is compensable, overtime for service techs,...", href: "/blog/payroll/home-services/field-technician-payroll-compliance" },
         { category: "Payroll", title: "Home Services Payroll Guide for HVAC and Plumbing", excerpt: "Complete home services payroll guide: field tech pay structures, overtime, drive time compensation,...", href: "/blog/payroll/home-services/home-services-payroll-guide" },

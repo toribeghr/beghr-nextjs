@@ -173,6 +173,7 @@ export default function HvacCompanyPayrollPage() {
           { '@type': 'ListItem', position: 5, name: 'HVAC Company Payroll', item: 'https://www.beghr.com/blog/payroll/home-services/hvac-company-payroll' },
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Field Technician Payroll, Drive Time and OT Rules", excerpt: "Field technician payroll compliance: when drive time is compensable, overtime for service techs,...", href: "/blog/payroll/home-services/field-technician-payroll-compliance" },
         { category: "Payroll", title: "Home Services Payroll Costs, In-House vs Managed", excerpt: "How much does payroll cost for a home services company? Compare in-house payroll specialist...", href: "/blog/payroll/home-services/home-services-payroll-cost" },

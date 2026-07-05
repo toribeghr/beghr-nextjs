@@ -171,6 +171,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Managed Payroll Service vs. BambooHR Payroll","item":"https://www.beghr.com/blog/payroll/compare/managed-payroll-vs-bamboohr"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Fully Managed Payroll vs. Self-Service Payroll Softw..", excerpt: "Fully Managed Payroll vs. Self-Service Payroll Software. See how BEG managed payroll at $25-$45...", href: "/blog/payroll/compare/fully-managed-vs-self-service-payroll" },
         { category: "Payroll", title: "Managed Payroll Service vs. ADP Run: Full Comparison", excerpt: "Managed Payroll Service vs. ADP Run: Full Comparison. See how BEG managed payroll at $25-$45 PEPM...", href: "/blog/payroll/compare/managed-payroll-vs-adp-run" },

@@ -289,6 +289,7 @@ export default function WealthFirmsPayrollPage() {
         url: 'https://www.beghr.com/blog/payroll/financial-services/wealth-firms',
         mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.beghr.com/blog/payroll/financial-services/wealth-firms' },
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Financial Firm Payroll: The Benefits Integration Gap", excerpt: "Managed payroll for financial services. Integrating Benefits with Payroll. $25-$45 PEPM...", href: "/blog/payroll/financial-services/financial-services-benefits-integration-payroll" },
         { category: "Payroll", title: "Financial Firm Payroll: Direct Deposit, Done Right", excerpt: "Managed payroll for financial services. Setting Up Direct Deposit. $25-$45 PEPM all-inclusive. Get instant pricing...", href: "/blog/payroll/financial-services/financial-services-direct-deposit-setup" },

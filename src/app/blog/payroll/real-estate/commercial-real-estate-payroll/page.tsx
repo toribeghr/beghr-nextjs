@@ -191,6 +191,7 @@ export default function CommercialRealEstatePayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Commercial Real Estate Payroll", "item": "https://www.beghr.com/blog/payroll/real-estate/commercial-real-estate-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Mortgage Company Payroll, LO Commission (What to Know)", excerpt: "Mortgage company payroll: loan officer commission, RESPA compliance, draw programs, and multi-state...", href: "/blog/payroll/real-estate/mortgage-company-payroll" },
         { category: "Payroll", title: "Real Estate Payroll, W-2 and 1099 (Full Breakdown)", excerpt: "Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099...", href: "/blog/payroll/real-estate/property-management" },

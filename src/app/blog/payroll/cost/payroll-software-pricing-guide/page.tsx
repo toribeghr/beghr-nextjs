@@ -156,6 +156,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Cost","item":"https://www.beghr.com/blog/payroll/cost"},{"@type":"ListItem","position":5,"name":"Payroll Software Pricing Guide: DIY vs Full-Service vs Managed","item":"https://www.beghr.com/blog/payroll/cost/payroll-software-pricing-guide"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
       <RelatedPosts posts={[
         { category: "Payroll", title: "PEPM Pricing Explained", excerpt: "PEPM Pricing Explained: What Per-Employee-Per-Month Means. Managed payroll at $25-$45 PEPM...", href: "/blog/payroll/cost/pepm-pricing-explained" },
         { category: "Payroll", title: "How Much Does ADP Cost?", excerpt: "How Much Does ADP Cost? The Pricing Model Explained. Managed payroll at $25-$45 PEPM all-inclusive...", href: "/blog/payroll/cost/how-much-does-adp-cost" },

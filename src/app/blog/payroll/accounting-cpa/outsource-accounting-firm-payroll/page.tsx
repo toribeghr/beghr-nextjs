@@ -171,6 +171,7 @@ export default function OutsourceAccountingFirmPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Outsource Accounting Firm Payroll", "item": "https://www.beghr.com/blog/payroll/accounting-cpa/outsource-accounting-firm-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Accounting Firm Partner Draw Payroll (K-1 vs W-2)", excerpt: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for...", href: "/blog/payroll/accounting-cpa/accounting-firm-partner-draw-payroll" },
         { category: "Payroll", title: "Accounting Firm Payroll Compliance in 2026", excerpt: "CPA firm payroll compliance: multi-state remote staff, 401(k) administration, year-end close...", href: "/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" },

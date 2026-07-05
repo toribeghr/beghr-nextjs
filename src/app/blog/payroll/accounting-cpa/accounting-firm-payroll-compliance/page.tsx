@@ -207,6 +207,7 @@ export default function AccountingFirmPayrollCompliancePage() {
           { "@type": "ListItem", "position": 5, "name": "Payroll Compliance", "item": "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-payroll-compliance" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Accounting Firm Partner Draw Payroll (K-1 vs W-2)", excerpt: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for...", href: "/blog/payroll/accounting-cpa/accounting-firm-partner-draw-payroll" },
         { category: "Payroll", title: "CPA Busy Season Payroll Overtime (FLSA Rules)", excerpt: "CPA firm busy season payroll: FLSA overtime rules, exempt vs non-exempt staff classification,...", href: "/blog/payroll/accounting-cpa/cpa-busy-season-payroll-overtime" },

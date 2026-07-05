@@ -177,6 +177,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Payroll Outsourcing in Georgia for Small Businesses","item":"https://www.beghr.com/blog/payroll/state/payroll-outsourcing-georgia"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Payroll Outsourcing in Arizona for Growing Businesses", excerpt: "Payroll Outsourcing in Arizona for Growing Businesses. BEG provides managed payroll nationwide....", href: "/blog/payroll/state/payroll-outsourcing-arizona" },
         { category: "Payroll", title: "Payroll Outsourcing in California: 2026 Compliance", excerpt: "Payroll Outsourcing in California: Compliance Guide. BEG provides managed payroll nationwide. Get instant pricing...", href: "/blog/payroll/state/payroll-outsourcing-california" },

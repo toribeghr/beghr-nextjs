@@ -297,6 +297,7 @@ export default function LawFirmPayrollPage() {
           }),
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Accounting Firm Payroll, Outsourced vs. In-House", excerpt: "Accounting firm payroll outsourcing vs. hiring in-house. Partner comp, seasonal surge, Quick. Get instant pricing...", href: "/blog/payroll/professional-services/accounting" },
         { category: "Payroll", title: "Consulting Firm Payroll, Billable Hours (Full Breakdown)", excerpt: "Consulting firm payroll: utilization bonuses, multi-state remote consultant compliance, exempt...", href: "/blog/payroll/professional-services/consulting-firm-payroll" },

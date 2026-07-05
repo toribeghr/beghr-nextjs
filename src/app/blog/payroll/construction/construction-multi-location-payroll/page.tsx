@@ -155,6 +155,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Construction Companies: Multi-Location Payroll Guide (2026)","item":"https://www.beghr.com/blog/payroll/construction/construction-multi-location-payroll"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Certified Payroll and Prevailing Wage for Contractors", excerpt: "Certified payroll reporting and prevailing wage compliance for construction contractors on federal...", href: "/blog/payroll/construction/certified-payroll-prevailing-wage" },
         { category: "Payroll", title: "Construction Payroll Benefits Integration", excerpt: "Managed payroll for construction. Integrating Benefits with Payroll. $25-$45 PEPM all-inclusive....", href: "/blog/payroll/construction/construction-benefits-integration-payroll" },

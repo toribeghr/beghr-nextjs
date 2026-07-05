@@ -191,6 +191,7 @@ export default function StartupEquityPayrollPage() {
           { "@type": "ListItem", "position": 5, "name": "Startup Equity Payroll", "item": "https://www.beghr.com/blog/payroll/technology/startup-equity-payroll" }
         ]
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Remote Tech Team Payroll: Multi-State Nexus Rules", excerpt: "Remote tech team payroll: multi-state withholding, contractor classification, nexus compliance, and...", href: "/blog/payroll/technology/remote-tech-team-payroll" },
         { category: "Payroll", title: "SaaS Payroll Outsourcing: Cost vs. an In-House Hire", excerpt: "SaaS company payroll outsourcing vs. hiring in-house. RSU tax events, multi-state remote,...", href: "/blog/payroll/technology/saas-payroll-outsourcing" },

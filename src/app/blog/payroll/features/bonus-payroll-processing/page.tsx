@@ -153,6 +153,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"How Managed Payroll Handles Bonus Pay","item":"https://www.beghr.com/blog/payroll/features/bonus-payroll-processing"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Benefits Deductions in Payroll: What Gets Handled", excerpt: "Benefits Deductions in Managed Payroll: What Gets Handled. Expert guidance from BEG managed payroll...", href: "/blog/payroll/features/benefits-deductions-payroll" },
         { category: "Payroll", title: "Direct Deposit in Payroll: The Part Nobody Explains", excerpt: "Direct Deposit in Managed Payroll: How It Works. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/features/direct-deposit-managed-payroll" },

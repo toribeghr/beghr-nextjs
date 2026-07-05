@@ -153,6 +153,7 @@ export default function Page() {
           __html: `{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.beghr.com"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.beghr.com/blog"},{"@type":"ListItem","position":3,"name":"Payroll","item":"https://www.beghr.com/blog/payroll"},{"@type":"ListItem","position":4,"name":"Payroll Reconciliation Errors: How to Find and Fix Them","item":"https://www.beghr.com/blog/payroll/problems/payroll-reconciliation-errors"}]}`,
         }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".faq-item"]}}) }} />
           <RelatedPosts posts={[
         { category: "Payroll", title: "Employee Overpaid on Payroll, Before You Try to Fix It", excerpt: "Employee Overpaid on Payroll: What Employers Must Do. Expert guidance from BEG managed payroll at...", href: "/blog/payroll/problems/employee-overpaid-what-to-do" },
         { category: "Payroll", title: "Employees Complaining About Payroll Errors, Fixed", excerpt: "Employees Complaining About Payroll Errors: What to Fix. Expert guidance from BEG managed payroll...", href: "/blog/payroll/problems/employees-complaining-payroll-errors" },

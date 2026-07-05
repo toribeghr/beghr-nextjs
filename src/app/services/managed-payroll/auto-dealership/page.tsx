@@ -26,7 +26,7 @@ const CALENDLY = getCalendlyLink('payroll-auto-dealership');
 export default function PayrollAutoDealershipPage() {
   return (
     <ServicePage
-      heroVideoId="mBMhq_l0Nxw"
+      heroVideoId="4GrFmvdTkZ8"
       imageSrc="/assets/hero-images/auto-dealership.svg"
       imageAlt="Auto dealership with fully managed commission and flat-rate payroll"
       eyebrow="Managed Payroll · Auto Dealerships"

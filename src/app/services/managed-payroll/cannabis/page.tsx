@@ -26,7 +26,7 @@ const CALENDLY = getCalendlyLink('payroll-cannabis');
 export default function PayrollCannabisPage() {
   return (
     <ServicePage
-      heroVideoId="Fapff-oQSzU"
+      heroVideoId="5V4RreDnttc"
       imageSrc="/assets/hero-images/cannabis.svg"
       imageAlt="Cannabis dispensary with fully managed payroll compliance"
       eyebrow="Managed Payroll · Cannabis & Dispensaries"

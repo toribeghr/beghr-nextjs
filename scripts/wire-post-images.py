@@ -17,7 +17,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BLOG = os.path.join(REPO, "src", "app", "blog")
 OUT_DIR = os.path.join(REPO, "public", "blog-images")
 DEFAULT_OG = "assets/og-image.png"
-ANCHOR = '<section className="container"'
+HERO_OPEN = re.compile(r'<section className="hero"[^>]*>')
 
 
 def title_of(src):
@@ -58,17 +58,23 @@ def main():
         # (a) OG + twitter image swap
         if DEFAULT_OG in new:
             new = new.replace(DEFAULT_OG, "blog-images/" + slug + ".webp")
-        # (b) on-page banner before the article body
+        # (b) on-page banner directly AFTER the hero (title block), so every post
+        # renders title -> image -> body. Never anchor on the first container
+        # section: 318 templates open with a breadcrumb container before the hero,
+        # which put the image above the title (fixed 2026-07-05).
         did_img = False
-        if ANCHOR in new:
+        h = HERO_OPEN.search(new)
+        close = new.find("</section>", h.end()) if h else -1
+        if close != -1:
             alt = title_of(src)
+            insert_at = close + len("</section>")
             banner = (
-                '<section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>\n'
+                '\n\n      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>\n'
                 '        <img src="' + img_rel + '" alt={`' + alt + '`} width={1344} height={768} '
                 'style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />\n'
-                '      </section>\n\n      '
+                '      </section>'
             )
-            new = new.replace(ANCHOR, banner + ANCHOR, 1)
+            new = new[:insert_at] + banner + new[insert_at:]
             did_img = True
         else:
             missing_anchor += 1

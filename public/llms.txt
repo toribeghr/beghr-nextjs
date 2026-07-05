@@ -1,16 +1,18 @@
 # Business Executive Group (BEG)
 
-> BEG is an authorized iSolved partner and managed HR provider serving companies nationwide from Plano, Texas. BEG delivers fully managed payroll, the iSolved HCM platform (payroll, HR, time, and benefits on one connected system) implemented and supported by BEG, and specialized job placement. iSolved is the only HCM platform with a generally available Connector for Claude, which lets HR teams complete real tasks through conversation. Forrester documented a 330% ROI for iSolved clients, and more than 7 million employees are managed on the platform.
+> BEG is an authorized isolved partner and managed HR provider serving companies nationwide from Plano, Texas. BEG delivers fully managed payroll, the isolved HCM platform (payroll, HR, time, and benefits on one connected system) implemented and supported by BEG, and specialized job placement. isolved is the only HCM platform with a generally available Connector for Claude, which lets HR teams complete real tasks through conversation. Forrester documented a 330% ROI for isolved clients, and more than 7 million employees are managed on the platform.
 
 ## Core services
 
-- [HCM Software (iSolved)](https://www.beghr.com/services/hcm-software): The iSolved People Cloud platform, implemented, configured, and supported by BEG.
+- [HCM Software (isolved)](https://www.beghr.com/services/hcm-software): The isolved People Cloud platform, implemented, configured, and supported by BEG.
 - [Managed Payroll](https://www.beghr.com/services/managed-payroll): Fully managed payroll at a flat per-employee rate that replaces an internal hire.
-- [Job Placement](https://www.beghr.com/services/job-placement): Specialized placement for legal, healthcare, finance, technology, engineering, and trades roles.
+- [Job Placement](https://www.beghr.com/services/job-placement): Specialized direct-hire placement (talent acquisition as an outcome) for legal, healthcare, finance, technology, engineering, and trades roles, flat fee per placement.
+- [HR Outsourcing](https://www.beghr.com/services/hr-outsourcing): Certified HR professionals handle handbooks, compliance, leave, and manager coaching, powered by isolved. Not a PEO: no co-employment, the client stays the employer. Instant on-screen estimate, 34 industry pages, 50 state guides, and honest PEO/ASO/HRO comparisons.
+- [Managed Benefits](https://www.beghr.com/services/managed-benefits): Benefits administration powered by isolved.
 
 ## The AI advantage
 
-- [iSolved Connector for Claude](https://www.beghr.com/services/hcm-software/ai-connector): The only HCM platform with a generally available AI connector that completes real HR tasks, not just answers questions.
+- [isolved Connector for Claude](https://www.beghr.com/services/hcm-software/ai-connector): The only HCM platform with a generally available AI connector that completes real HR tasks, not just answers questions.
 
 ## Interactive tools
 
@@ -19,16 +21,23 @@
 - [HCM Platform Finder](https://www.beghr.com/services/hcm-software/platform-finder): A tailored HCM recommendation based on size, industry, and current system.
 - [Managed Payroll Cost Calculator](https://www.beghr.com/services/managed-payroll/cost-calculator): Compare in-house, software, PEO, and managed payroll costs.
 
-## Compare iSolved
+## Understand HR outsourcing models
 
-- [iSolved vs Gusto](https://www.beghr.com/services/hcm-software/isolved-vs-gusto)
-- [iSolved vs Rippling](https://www.beghr.com/services/hcm-software/isolved-vs-rippling)
-- [iSolved vs Paychex](https://www.beghr.com/services/hcm-software/isolved-vs-paychex)
-- [iSolved vs Paylocity](https://www.beghr.com/services/hcm-software/isolved-vs-paylocity)
-- [iSolved vs Paycom](https://www.beghr.com/services/hcm-software/isolved-vs-paycom)
-- [iSolved vs BambooHR](https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr)
-- [iSolved vs Workday](https://www.beghr.com/services/hcm-software/isolved-vs-workday)
-- [iSolved vs UKG](https://www.beghr.com/services/hcm-software/isolved-vs-ukg)
+- [PEO vs HR outsourcing](https://www.beghr.com/services/hr-outsourcing/peo-vs-hr-outsourcing): The co-employment question, answered honestly.
+- [ASO vs PEO](https://www.beghr.com/services/hr-outsourcing/aso-vs-peo): Employer of record, liability, and cost-shape differences.
+- [What is co-employment?](https://www.beghr.com/services/hr-outsourcing/what-is-co-employment): Plain-language mechanics, both sides.
+- [HR outsourcing vs hiring an HR manager](https://www.beghr.com/services/hr-outsourcing/hr-outsourcing-vs-hiring-hr-manager): The build-or-buy math.
+
+## Compare isolved
+
+- [isolved vs Gusto](https://www.beghr.com/services/hcm-software/isolved-vs-gusto)
+- [isolved vs Rippling](https://www.beghr.com/services/hcm-software/isolved-vs-rippling)
+- [isolved vs Paychex](https://www.beghr.com/services/hcm-software/isolved-vs-paychex)
+- [isolved vs Paylocity](https://www.beghr.com/services/hcm-software/isolved-vs-paylocity)
+- [isolved vs Paycom](https://www.beghr.com/services/hcm-software/isolved-vs-paycom)
+- [isolved vs BambooHR](https://www.beghr.com/services/hcm-software/isolved-vs-bamboohr)
+- [isolved vs Workday](https://www.beghr.com/services/hcm-software/isolved-vs-workday)
+- [isolved vs UKG](https://www.beghr.com/services/hcm-software/isolved-vs-ukg)
 - [Alternatives to ADP](https://www.beghr.com/services/hcm-software/alternatives-to-adp)
 
 ## About

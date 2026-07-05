@@ -6,7 +6,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Accounting Manager Recruiters | 23-35 Days | BEG',
-  description: 'Accounting Manager placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
+  description: 'Accounting Manager direct hire placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/accounting-cpa/accounting-manager' },
   openGraph: { title: 'Accounting Manager Recruiters | 23-35 Days | BEG', description: 'Accounting Manager placement in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/accounting-cpa/accounting-manager', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
   twitter: { card: 'summary_large_image', title: 'Accounting Manager Recruiters | 23-35 Days | BEG', description: 'Accounting Manager placement in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
@@ -46,7 +46,7 @@ export default function PlacementAccountingcpaAccountingmanagerPage() {
             <h2>The best accounting manager candidates are not on job boards</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1rem', color: '#444444', lineHeight: 1.8, marginTop: '1.5rem' }}>
-            Accounting managers who can lead a team are in short supply across the mid-market. That is why a posting-and-waiting search rarely fills a accounting manager seat with the right person. We source passive accounting manager candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
+            Accounting managers who can lead a team are in short supply across the mid-market. That is why a posting-and-waiting search rarely fills a accounting manager seat with the right person. Our recruiters source passive accounting manager candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function PlacementAccountingcpaAccountingmanagerPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'How long does it take to place a accounting manager?', acceptedAnswer: { '@type': 'Answer', text: 'On average 23-35 days from discovery call to placed hire, with an 86% fill rate on active searches.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
             ],
           }),
         }}

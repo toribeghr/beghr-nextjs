@@ -6,7 +6,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'HVAC Technician Recruiters | 23-35 Days | BEG',
-  description: 'HVAC Technician placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
+  description: 'HVAC Technician direct hire placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/trades/hvac-technician' },
   openGraph: { title: 'HVAC Technician Recruiters | 23-35 Days | BEG', description: 'HVAC Technician placement in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/trades/hvac-technician', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
   twitter: { card: 'summary_large_image', title: 'HVAC Technician Recruiters | 23-35 Days | BEG', description: 'HVAC Technician placement in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
@@ -46,7 +46,7 @@ export default function PlacementTradesHvactechnicianPage() {
             <h2>The best hvac technician candidates are not on job boards</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1rem', color: '#444444', lineHeight: 1.8, marginTop: '1.5rem' }}>
-            Skilled HVAC techs are scarce and quickly hired in every market. That is why a posting-and-waiting search rarely fills a hvac technician seat with the right person. We source passive hvac technician candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
+            Skilled HVAC techs are scarce and quickly hired in every market. That is why a posting-and-waiting search rarely fills a hvac technician seat with the right person. Our recruiters source passive hvac technician candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function PlacementTradesHvactechnicianPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'How long does it take to place a hvac technician?', acceptedAnswer: { '@type': 'Answer', text: 'On average 23-35 days from discovery call to placed hire, with an 86% fill rate on active searches.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
             ],
           }),
         }}

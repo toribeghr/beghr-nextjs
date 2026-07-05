@@ -4,11 +4,11 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Executive Search | Instant Fee Quote | BEG',
+  title: 'Executive Search & Recruiting | Instant Fee Quote | BEG',
   description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/executive' },
-  openGraph: { title: 'Executive Search | Instant Fee Quote | BEG', description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.', url: 'https://www.beghr.com/services/job-placement/executive', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Executive Search | Instant Fee Quote | BEG', description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Executive Search & Recruiting | Instant Fee Quote | BEG', description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.', url: 'https://www.beghr.com/services/job-placement/executive', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Executive Search & Recruiting | Instant Fee Quote | BEG', description: 'Confidential executive and director-level search. Milestone-based, 45-day guarantee. Find C-suite and leadership talent that moves the needle.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-executive');
@@ -210,7 +210,7 @@ export default function PlacementExecutivePage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'What roles do you place?', acceptedAnswer: { '@type': 'Answer', text: 'CEOs, Presidents, COOs, CFOs, CTOs, CMOs, CROs, VPs of Sales, Marketing, Operations, Finance, HR, General Counsel, and Director-level leadership across all business functions.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
               { '@type': 'Question', name: 'How does milestone-based pricing work?', acceptedAnswer: { '@type': 'Answer', text: 'Payments tied to defined milestones. Total cost roughly 50% less than contingency.' } },
               { '@type': 'Question', name: 'What does the 45-day guarantee cover?', acceptedAnswer: { '@type': 'Answer', text: 'If the hire does not work out within 45 days, we replace at no additional charge.' } },
             ],

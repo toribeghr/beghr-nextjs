@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Litigation Associate Recruiters | 23-35 Days | BEG',
-  description: 'Litigation associate placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
+  description: 'Litigation associate direct hire placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/legal/litigation-associate' },
   openGraph: {
     title: 'Litigation Associate Recruiters | 23-35 Days | BEG',
-    description: 'Litigation associate placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
+    description: 'Litigation associate direct hire placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
     url: 'https://www.beghr.com/services/job-placement/legal/litigation-associate',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
@@ -58,7 +58,7 @@ export default function PlacementLegalLitigationAssociatePage() {
             <h2>The best litigation associates are not on job boards</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1rem', color: '#444444', lineHeight: 1.8, marginTop: '1.5rem' }}>
-            Associates who can manage discovery, handle depositions, and step into a trial role are employed, performing, and fielding calls from other firms constantly. A job posting reaches whoever is between positions, not whoever is quietly open to the right opportunity at the right firm. We source passive litigation associates directly, screen them against your practice area, bar status, and billing requirements, and deliver a shortlist of 3 to 5 pre-qualified candidates.
+            Associates who can manage discovery, handle depositions, and step into a trial role are employed, performing, and fielding calls from other firms constantly. A job posting reaches whoever is between positions, not whoever is quietly open to the right opportunity at the right firm. Our recruiters source passive litigation associates directly, screen them against your practice area, bar status, and billing requirements, and deliver a shortlist of 3 to 5 pre-qualified candidates.
           </p>
           <div className="beg-grid-3 reveal" style={{ marginTop: '2rem' }}>
             {[
@@ -137,7 +137,7 @@ export default function PlacementLegalLitigationAssociatePage() {
         '@type': 'FAQPage',
         mainEntity: [
           { '@type': 'Question', name: 'How long does it take to place a litigation associate?', acceptedAnswer: { '@type': 'Answer', text: 'On average 23-35 days from discovery call to placed hire, with an 86% fill rate on active searches.' } },
-          { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. We are not a staffing or temp agency. You hire the candidate directly.' } },
+          { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. We are not a staffing or temp agency. You hire the candidate directly.' } },
           { '@type': 'Question', name: 'What does the 45-day guarantee cover?', acceptedAnswer: { '@type': 'Answer', text: 'If the placed candidate does not work out within 45 days of their start date for any performance-related reason, we conduct a replacement search at no additional charge.' } },
           { '@type': 'Question', name: 'What practice areas do you cover?', acceptedAnswer: { '@type': 'Answer', text: 'Litigation associates across practice areas including commercial litigation, employment litigation, insurance defense, and civil litigation, at law firms from 11 to 200 attorneys.' } },
         ],

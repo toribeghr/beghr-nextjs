@@ -4,11 +4,11 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Biotech Placement | Instant Fee Quote | BEG',
-  description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.',
+  title: 'Biotech Placement & Recruiting | Instant Fee Quote | BEG',
+  description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/biotech' },
-  openGraph: { title: 'Biotech Placement | Instant Fee Quote | BEG', description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.', url: 'https://www.beghr.com/services/job-placement/biotech', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Biotech Placement | Instant Fee Quote | BEG', description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee. Book a call.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Biotech Placement & Recruiting | Instant Fee Quote | BEG', description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/biotech', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Biotech Placement & Recruiting | Instant Fee Quote | BEG', description: 'Fill clinical, regulatory, and QA roles in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-biotech');
@@ -210,7 +210,7 @@ export default function PlacementBiotechPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'What roles do you place?', acceptedAnswer: { '@type': 'Answer', text: 'Clinical research associates, regulatory affairs managers, QA managers, scientists, medical affairs leads, directors of clinical operations, and other clinical, regulatory, and quality roles.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
               { '@type': 'Question', name: 'How does milestone-based pricing work?', acceptedAnswer: { '@type': 'Answer', text: 'Payments tied to defined milestones. Total cost roughly 50% less than contingency.' } },
               { '@type': 'Question', name: 'What does the 45-day guarantee cover?', acceptedAnswer: { '@type': 'Answer', text: 'If the hire does not work out within 45 days, we replace at no additional charge.' } },
             ],

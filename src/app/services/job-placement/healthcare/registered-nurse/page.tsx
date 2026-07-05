@@ -6,7 +6,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Registered Nurse Recruiters | 23-35 Days | BEG',
-  description: 'Registered Nurse placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
+  description: 'Registered Nurse direct hire placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/healthcare/registered-nurse' },
   openGraph: { title: 'Registered Nurse Recruiters | 23-35 Days | BEG', description: 'Registered Nurse placement in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/healthcare/registered-nurse', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
   twitter: { card: 'summary_large_image', title: 'Registered Nurse Recruiters | 23-35 Days | BEG', description: 'Registered Nurse placement in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
@@ -46,7 +46,7 @@ export default function PlacementHealthcareRegisterednursePage() {
             <h2>The best registered nurse candidates are not on job boards</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1rem', color: '#444444', lineHeight: 1.8, marginTop: '1.5rem' }}>
-            Staffing shortages and burnout make experienced RNs one of the hardest clinical roles to hire and keep. That is why a posting-and-waiting search rarely fills a registered nurse seat with the right person. We source passive registered nurse candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
+            Staffing shortages and burnout make experienced RNs one of the hardest clinical roles to hire and keep. That is why a posting-and-waiting search rarely fills a registered nurse seat with the right person. Our recruiters source passive registered nurse candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function PlacementHealthcareRegisterednursePage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'How long does it take to place a registered nurse?', acceptedAnswer: { '@type': 'Answer', text: 'On average 23-35 days from discovery call to placed hire, with an 86% fill rate on active searches.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
             ],
           }),
         }}

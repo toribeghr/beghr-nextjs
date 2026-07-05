@@ -138,7 +138,7 @@ export default function PlacementLegalParalegalPage() {
         mainEntity: [
           { '@type': 'Question', name: 'How long does it take to place a paralegal?', acceptedAnswer: { '@type': 'Answer', text: 'On average 23-35 days from discovery call to placed hire, with an 86% fill rate on active searches.' } },
           { '@type': 'Question', name: 'What practice areas do you place paralegals in?', acceptedAnswer: { '@type': 'Answer', text: 'Litigation, corporate, real estate, employment, family law, and other practice areas at law firms from 11 to 200 attorneys. We match candidates to your specific practice area requirements.' } },
-          { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. We are not a staffing or temp agency. You hire the candidate directly.' } },
+          { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. We are not a staffing or temp agency. You hire the candidate directly.' } },
           { '@type': 'Question', name: 'What does the 45-day guarantee cover?', acceptedAnswer: { '@type': 'Answer', text: 'If the placed candidate does not work out within 45 days of their start date for any performance-related reason, we conduct a replacement search at no additional charge.' } },
         ],
       }) }} />

@@ -6,7 +6,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Electrician Recruiters | 23-35 Days | BEG',
-  description: 'Electrician placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
+  description: 'Electrician direct hire placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/trades/electrician' },
   openGraph: { title: 'Electrician Recruiters | 23-35 Days | BEG', description: 'Electrician placement in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/trades/electrician', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
   twitter: { card: 'summary_large_image', title: 'Electrician Recruiters | 23-35 Days | BEG', description: 'Electrician placement in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
@@ -46,7 +46,7 @@ export default function PlacementTradesElectricianPage() {
             <h2>The best electrician candidates are not on job boards</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1rem', color: '#444444', lineHeight: 1.8, marginTop: '1.5rem' }}>
-            Licensed electricians are in chronic short supply as demand outpaces the trained workforce. That is why a posting-and-waiting search rarely fills a electrician seat with the right person. We source passive electrician candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
+            Licensed electricians are in chronic short supply as demand outpaces the trained workforce. That is why a posting-and-waiting search rarely fills a electrician seat with the right person. Our recruiters source passive electrician candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function PlacementTradesElectricianPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'How long does it take to place a electrician?', acceptedAnswer: { '@type': 'Answer', text: 'On average 23-35 days from discovery call to placed hire, with an 86% fill rate on active searches.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
             ],
           }),
         }}

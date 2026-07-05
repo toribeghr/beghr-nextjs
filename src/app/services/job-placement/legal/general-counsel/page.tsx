@@ -6,11 +6,11 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'General Counsel Recruiters | 23-35 Days | BEG',
-  description: 'General counsel search for companies and in-house legal teams. Permanent placement in 23-35 days at roughly 50% less than contingency.',
+  description: 'General counsel search for companies and in-house legal teams. Permanent direct hire placement in 23-35 days at roughly 50% less than contingency.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/legal/general-counsel' },
   openGraph: {
     title: 'General Counsel Recruiters | 23-35 Days | BEG',
-    description: 'General counsel search for companies and in-house legal teams. Permanent placement in 23-35 days at roughly 50% less than contingency.',
+    description: 'General counsel search for companies and in-house legal teams. Permanent direct hire placement in 23-35 days at roughly 50% less than contingency.',
     url: 'https://www.beghr.com/services/job-placement/legal/general-counsel',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],

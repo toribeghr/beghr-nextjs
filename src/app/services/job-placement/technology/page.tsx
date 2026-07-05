@@ -5,10 +5,10 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'IT & Technology Placement | Instant Fee Quote | BEG',
-  description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.',
+  description: 'Recruit and place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/technology' },
-  openGraph: { title: 'IT & Technology Placement | Instant Fee Quote | BEG', description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/technology', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'IT & Technology Placement | Instant Fee Quote | BEG', description: 'Place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'IT & Technology Placement | Instant Fee Quote | BEG', description: 'Recruit and place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.', url: 'https://www.beghr.com/services/job-placement/technology', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'IT & Technology Placement | Instant Fee Quote | BEG', description: 'Recruit and place software engineers, data scientists, and IT professionals before your roadmap slips. Milestone billing, 45-day guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-technology');
@@ -210,7 +210,7 @@ export default function PlacementTechnologyPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'What roles do you place?', acceptedAnswer: { '@type': 'Answer', text: 'Software engineers (frontend, backend, full-stack), mobile developers, data scientists, machine learning engineers, DevOps and platform engineers, engineering managers, CTOs, IT directors, and other technical leadership roles.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
               { '@type': 'Question', name: 'How does milestone-based pricing work?', acceptedAnswer: { '@type': 'Answer', text: 'Payments tied to defined milestones. Total cost roughly 50% less than contingency.' } },
               { '@type': 'Question', name: 'What does the 45-day guarantee cover?', acceptedAnswer: { '@type': 'Answer', text: 'If the hire does not work out within 45 days, we replace at no additional charge.' } },
             ],

@@ -4,11 +4,11 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Engineering Placement | Instant Fee Quote | BEG',
+  title: 'Engineering Placement & Recruiting | Instant Fee Quote | BEG',
   description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/engineering' },
-  openGraph: { title: 'Engineering Placement | Instant Fee Quote | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/engineering', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
-  twitter: { card: 'summary_large_image', title: 'Engineering Placement | Instant Fee Quote | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  openGraph: { title: 'Engineering Placement & Recruiting | Instant Fee Quote | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', url: 'https://www.beghr.com/services/job-placement/engineering', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
+  twitter: { card: 'summary_large_image', title: 'Engineering Placement & Recruiting | Instant Fee Quote | BEG', description: 'Fill engineering and technical roles on time. Specialized engineering recruiting with milestone billing and 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('placement-engineering');
@@ -210,7 +210,7 @@ export default function PlacementEngineeringPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'What roles do you place?', acceptedAnswer: { '@type': 'Answer', text: 'Civil engineers, structural engineers, mechanical engineers, electrical engineers, project engineers, PE-licensed professionals, engineering managers, and technical project directors across construction, infrastructure, manufacturing, and industrial sectors.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
               { '@type': 'Question', name: 'How does milestone-based pricing work?', acceptedAnswer: { '@type': 'Answer', text: 'Payments tied to defined milestones. Total cost roughly 50% less than contingency.' } },
               { '@type': 'Question', name: 'What does the 45-day guarantee cover?', acceptedAnswer: { '@type': 'Answer', text: 'If the hire does not work out within 45 days, we replace at no additional charge.' } },
             ],

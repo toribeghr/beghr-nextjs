@@ -6,20 +6,20 @@ import RelatedPosts from '@/components/RelatedPosts';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Job Placement | Instant Fee Quote, 23-35 Day Fill | BEG',
+  title: 'Job Placement & Recruiting | Instant Fee Quote | BEG',
   description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
   alternates: {
     canonical: 'https://www.beghr.com/services/job-placement',
   },
   openGraph: {
-    title: 'Job Placement | Instant Fee Quote, 23-35 Day Fill | BEG',
+    title: 'Job Placement & Recruiting | Instant Fee Quote | BEG',
     description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.',
     url: 'https://www.beghr.com/services/job-placement',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Job Placement | Instant Fee Quote, 23-35 Day Fill | BEG', description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Job Placement & Recruiting | Instant Fee Quote | BEG', description: 'Fill attorney, clinical, tech, and finance roles in 23-35 days at roughly 50% less than contingency. Milestone billing. 45-day replacement guarantee.', images: ['https://www.beghr.com/assets/og-image.png'] },
 
 };
 
@@ -121,7 +121,7 @@ export default function JobPlacementPage() {
             <div>
               <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.75rem', color: '#000000' }}>What BEG does differently</h3>
               <p style={{ fontSize: '0.95rem', color: '#444444', lineHeight: '1.7' }}>
-                We source passive candidates directly. Milestone billing aligns our incentives with your timeline, not just the final placement fee. And we move: 23-35 days on average versus 90+ for traditional contingency. When the candidate window is 2-4 weeks, speed is the entire differentiator.
+                Our recruiters source passive candidates directly. Milestone billing aligns our incentives with your timeline, not just the final placement fee. And we move: 23-35 days on average versus 90+ for traditional contingency. When the candidate window is 2-4 weeks, speed is the entire differentiator.
               </p>
             </div>
           </div>
@@ -445,6 +445,10 @@ export default function JobPlacementPage() {
               <p>We are not a staffing agency. BEG Job Placement Services is direct permanent placement with milestone-based pricing. You hire the candidate directly into your organization. We do not place temps, contractors, or interim staff. We place permanent hires, and the candidate is your employee from day one.</p>
             </div>
             <div className="faq-item">
+              <h3>Is this the same as talent acquisition or direct hire recruiting?</h3>
+              <p>Same work, different label. What HR teams call talent acquisition, direct hire, or permanent recruiting, we deliver as a flat-fee placement: we recruit, screen, and place the hire, and you pay per placement. Job placement is the outcome, the role filled for you. If you want hiring tools and talent acquisition support your own team runs instead, that is our <Link href="/services/hr-outsourcing" style={{ color: '#000000', fontWeight: 600 }}>HR outsourcing service</Link>.</p>
+            </div>
+            <div className="faq-item">
               <h3>How fast can you fill a role?</h3>
               <p>23-35 days on average, which is 2-3 times faster than the industry standard for contingency search. On your discovery call we give you a realistic timeline for your specific role and vertical. Legal roles in competitive markets move faster because we source passively rather than waiting for applicants.</p>
             </div>
@@ -510,7 +514,12 @@ export default function JobPlacementPage() {
               {
                 '@type': 'Question',
                 name: 'How is this different from a staffing agency?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency. You hire the candidate directly into your organization from day one.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency. You hire the candidate directly into your organization from day one.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Is this the same as talent acquisition or direct hire recruiting?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Same work, different label. What HR teams call talent acquisition, direct hire, or permanent recruiting, BEG delivers as a flat-fee placement service: the role filled for you, paid per placement.' },
               },
               {
                 '@type': 'Question',

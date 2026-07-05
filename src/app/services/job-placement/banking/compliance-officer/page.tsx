@@ -6,7 +6,7 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Compliance Officer Recruiters | 23-35 Days | BEG',
-  description: 'Compliance Officer placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
+  description: 'Compliance Officer direct hire placement in 23-35 days at roughly 50% less than contingency. Milestone billing, 45-day replacement guarantee.',
   alternates: { canonical: 'https://www.beghr.com/services/job-placement/banking/compliance-officer' },
   openGraph: { title: 'Compliance Officer Recruiters | 23-35 Days | BEG', description: 'Compliance Officer placement in 23-35 days at roughly 50% less than contingency.', url: 'https://www.beghr.com/services/job-placement/banking/compliance-officer', siteName: 'Business Executive Group', images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }], type: 'website' },
   twitter: { card: 'summary_large_image', title: 'Compliance Officer Recruiters | 23-35 Days | BEG', description: 'Compliance Officer placement in 23-35 days at roughly 50% less than contingency.', images: ['https://www.beghr.com/assets/og-image.png'] },
@@ -46,7 +46,7 @@ export default function PlacementBankingComplianceofficerPage() {
             <h2>The best compliance officer candidates are not on job boards</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1rem', color: '#444444', lineHeight: 1.8, marginTop: '1.5rem' }}>
-            Banking compliance officers are in chronic short supply as regulation tightens. That is why a posting-and-waiting search rarely fills a compliance officer seat with the right person. We source passive compliance officer candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
+            Banking compliance officers are in chronic short supply as regulation tightens. That is why a posting-and-waiting search rarely fills a compliance officer seat with the right person. Our recruiters source passive compliance officer candidates directly, screen them against your specific criteria, and deliver a shortlist of 3 to 5 people, not a stack of resumes.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function PlacementBankingComplianceofficerPage() {
             '@type': 'FAQPage',
             mainEntity: [
               { '@type': 'Question', name: 'How long does it take to place a compliance officer?', acceptedAnswer: { '@type': 'Answer', text: 'On average 23-35 days from discovery call to placed hire, with an 86% fill rate on active searches.' } },
-              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
+              { '@type': 'Question', name: 'How is this different from a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'Direct hire permanent placement with milestone-based pricing. Not a staffing or temp agency.' } },
             ],
           }),
         }}

@@ -67,6 +67,34 @@ export default function Footer() {
             <Link href="/services/hr-outsourcing/senior-care" className="footer-link">Senior Care</Link>
             <Link href="/services/hr-outsourcing/home-health" className="footer-link">Home Health</Link>
             <Link href="/services/hr-outsourcing/manufacturing" className="footer-link">Manufacturing</Link>
+            <Link href="/services/hr-outsourcing/accounting-cpa" className="footer-link">Accounting &amp; CPA Firms</Link>
+            <Link href="/services/hr-outsourcing/agriculture" className="footer-link">Agriculture</Link>
+            <Link href="/services/hr-outsourcing/architecture" className="footer-link">Architecture</Link>
+            <Link href="/services/hr-outsourcing/auto-dealership" className="footer-link">Auto Dealerships</Link>
+            <Link href="/services/hr-outsourcing/brewery" className="footer-link">Breweries</Link>
+            <Link href="/services/hr-outsourcing/cannabis" className="footer-link">Cannabis</Link>
+            <Link href="/services/hr-outsourcing/childcare" className="footer-link">Childcare</Link>
+            <Link href="/services/hr-outsourcing/church" className="footer-link">Churches &amp; Faith-Based</Link>
+            <Link href="/services/hr-outsourcing/education" className="footer-link">Education</Link>
+            <Link href="/services/hr-outsourcing/engineering" className="footer-link">Engineering</Link>
+            <Link href="/services/hr-outsourcing/events" className="footer-link">Events</Link>
+            <Link href="/services/hr-outsourcing/executive" className="footer-link">Executive Teams</Link>
+            <Link href="/services/hr-outsourcing/finance" className="footer-link">Finance</Link>
+            <Link href="/services/hr-outsourcing/fitness" className="footer-link">Fitness &amp; Gyms</Link>
+            <Link href="/services/hr-outsourcing/franchise" className="footer-link">Franchise</Link>
+            <Link href="/services/hr-outsourcing/government-contractor" className="footer-link">Government Contractors</Link>
+            <Link href="/services/hr-outsourcing/home-services" className="footer-link">Home Services</Link>
+            <Link href="/services/hr-outsourcing/insurance-agency" className="footer-link">Insurance Agencies</Link>
+            <Link href="/services/hr-outsourcing/legal" className="footer-link">Law Firms</Link>
+            <Link href="/services/hr-outsourcing/marketing-agency" className="footer-link">Marketing Agencies</Link>
+            <Link href="/services/hr-outsourcing/property-management" className="footer-link">Property Management</Link>
+            <Link href="/services/hr-outsourcing/salon-spa" className="footer-link">Salon &amp; Spa</Link>
+            <Link href="/services/hr-outsourcing/security" className="footer-link">Security</Link>
+            <Link href="/services/hr-outsourcing/staffing-agency" className="footer-link">Staffing Agencies</Link>
+            <Link href="/services/hr-outsourcing/technology" className="footer-link">Technology</Link>
+            <Link href="/services/hr-outsourcing/trades" className="footer-link">Skilled Trades</Link>
+            <Link href="/services/hr-outsourcing/trucking" className="footer-link">Trucking</Link>
+            <Link href="/services/hr-outsourcing/veterinary" className="footer-link">Veterinary</Link>
           </div>
 
           {/* HCM Software */}

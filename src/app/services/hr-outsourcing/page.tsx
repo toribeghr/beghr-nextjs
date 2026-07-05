@@ -382,6 +382,146 @@ export default function HrOutsourcingPage() {
                 <h3>Manufacturing</h3>
                 <p>Attendance systems with protected-absence carve-outs and discipline that survives scrutiny.</p>
               </Link>
+              <Link href="/services/hr-outsourcing/accounting-cpa" className="card-link reveal">
+                <span className="tag">Accounting</span>
+                <h3>Accounting &amp; CPA Firms</h3>
+                <p>Busy-season exempt traps, CPE tracking, and counter-offer season handled.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/agriculture" className="card-link reveal">
+                <span className="tag">Agriculture</span>
+                <h3>Agriculture</h3>
+                <p>H-2A obligations, MSPA records, and piece-rate floors from the HR side.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/architecture" className="card-link reveal">
+                <span className="tag">Architecture</span>
+                <h3>Architecture</h3>
+                <p>AXP supervision records, studio overtime reality, and project-cycle separations.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/auto-dealership" className="card-link reveal">
+                <span className="tag">Auto</span>
+                <h3>Auto Dealerships</h3>
+                <p>Dealer exemptions applied per role and commission plans that end disputes.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/brewery" className="card-link reveal">
+                <span className="tag">Breweries</span>
+                <h3>Breweries</h3>
+                <p>Production rules meet taproom tips, server ages, and seasonal staffing.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/cannabis" className="card-link reveal">
+                <span className="tag">Cannabis</span>
+                <h3>Cannabis</h3>
+                <p>Agent badges, licensee background rules, and by-the-book hiring at growth speed.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/childcare" className="card-link reveal">
+                <span className="tag">Childcare</span>
+                <h3>Childcare</h3>
+                <p>Ratio-driven staffing, registry checks, and training hours that pass licensing.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/church" className="card-link reveal">
+                <span className="tag">Churches</span>
+                <h3>Churches &amp; Faith-Based</h3>
+                <p>Ministerial exception limits, volunteer lines, and youth-facing screening.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/education" className="card-link reveal">
+                <span className="tag">Education</span>
+                <h3>Education</h3>
+                <p>Fingerprint clearances, certification tracking, and academic-year contracts.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/engineering" className="card-link reveal">
+                <span className="tag">Engineering</span>
+                <h3>Engineering</h3>
+                <p>PE licensure accountability, cleared staff, and project-bench separations.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/events" className="card-link reveal">
+                <span className="tag">Events</span>
+                <h3>Events</h3>
+                <p>Day-rate classification, event-day minors, and surge hiring paperwork.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/executive" className="card-link reveal">
+                <span className="tag">Executive</span>
+                <h3>Executive Teams</h3>
+                <p>Executive agreements, compliant releases, and restrictive covenant frameworks.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/finance" className="card-link reveal">
+                <span className="tag">Finance</span>
+                <h3>Finance</h3>
+                <p>License and registration tracking, clawback documentation, and clean exits.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/fitness" className="card-link reveal">
+                <span className="tag">Fitness</span>
+                <h3>Fitness &amp; Gyms</h3>
+                <p>Trainer classification, cert tracking, and session-pay overtime math.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/franchise" className="card-link reveal">
+                <span className="tag">Franchise</span>
+                <h3>Franchise</h3>
+                <p>Joint-employer exposure managed and one employment standard across units.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/government-contractor" className="card-link reveal">
+                <span className="tag">Government</span>
+                <h3>Government Contractors</h3>
+                <p>E-Verify, SCA fringe administration, and OFCCP thresholds handled.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/home-services" className="card-link reveal">
+                <span className="tag">Home</span>
+                <h3>Home Services</h3>
+                <p>Tech screening, on-call pay policies, and piece-rate overtime done right.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/insurance-agency" className="card-link reveal">
+                <span className="tag">Insurance</span>
+                <h3>Insurance Agencies</h3>
+                <p>Producer licensing, chargeback terms, and book-of-business exits.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/legal" className="card-link reveal">
+                <span className="tag">Law</span>
+                <h3>Law Firms</h3>
+                <p>Paralegal overtime, conflicts-gated onboarding, and bar and CLE tracking.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/marketing-agency" className="card-link reveal">
+                <span className="tag">Marketing</span>
+                <h3>Marketing Agencies</h3>
+                <p>Freelancer classification, burnout-era leave, and commission plans in writing.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/property-management" className="card-link reveal">
+                <span className="tag">Property</span>
+                <h3>Property Management</h3>
+                <p>Rent credits as wages, on-call maintenance pay, and fair housing training.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/salon-spa" className="card-link reveal">
+                <span className="tag">Salon</span>
+                <h3>Salon &amp; Spa</h3>
+                <p>Booth renter vs employee settled, license tracking, and tip policies.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/security" className="card-link reveal">
+                <span className="tag">Security</span>
+                <h3>Security</h3>
+                <p>Guard licensing, post orders as policy, and multi-post overtime math.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/staffing-agency" className="card-link reveal">
+                <span className="tag">Staffing</span>
+                <h3>Staffing Agencies</h3>
+                <p>ACA at volume, placement-speed I-9s, and unemployment claims control.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/technology" className="card-link reveal">
+                <span className="tag">Technology</span>
+                <h3>Technology</h3>
+                <p>Multi-state remote hiring, IP packets, and RIFs that survive scrutiny.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/trades" className="card-link reveal">
+                <span className="tag">Skilled</span>
+                <h3>Skilled Trades</h3>
+                <p>Apprenticeship records, travel-time pay, and discipline that holds up.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/trucking" className="card-link reveal">
+                <span className="tag">Trucking</span>
+                <h3>Trucking</h3>
+                <p>Clearinghouse queries, DQ files, and driver classification documented.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/veterinary" className="card-link reveal">
+                <span className="tag">Veterinary</span>
+                <h3>Veterinary</h3>
+                <p>License and DEA tracking, on-call pay, and accommodation done with care.</p>
+              </Link>
             </div>
           </div>
         </section>

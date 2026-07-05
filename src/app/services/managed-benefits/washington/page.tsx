@@ -118,7 +118,7 @@ export default function ManagedBenefitsWashingtonPage() {
               </table>
             </div>
             <p className="reveal" style={{ fontSize: '0.8rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
-              Source: <a href="https://law.justia.com/codes/washington/title-48/chapter-48-21/section-48-21-250/" target="_blank" rel="noopener noreferrer">Washington statute and department of insurance (law.justia.com)</a>. This page is general information, not legal advice.
+              Source: <a href="https://app.leg.wa.gov/rcw/default.aspx?cite=48.21.250" target="_blank" rel="noopener noreferrer">Washington statute and department of insurance (app.leg.wa.gov)</a>. This page is general information, not legal advice.
             </p>
           </div>
         </section>

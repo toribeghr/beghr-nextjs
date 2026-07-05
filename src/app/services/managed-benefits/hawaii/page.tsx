@@ -118,7 +118,7 @@ export default function ManagedBenefitsHawaiiPage() {
               </table>
             </div>
             <p className="reveal" style={{ fontSize: '0.8rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
-              Source: <a href="https://law.justia.com/codes/hawaii/title-21/chapter-393/section-393-15/" target="_blank" rel="noopener noreferrer">Hawaii statute and department of insurance (law.justia.com)</a>. This page is general information, not legal advice.
+              Source: <a href="https://www.capitol.hawaii.gov/hrscurrent/vol07_ch0346-0398/hrs0393/HRS_0393-0015.htm" target="_blank" rel="noopener noreferrer">Hawaii statute and department of insurance (www.capitol.hawaii.gov)</a>. This page is general information, not legal advice.
             </p>
           </div>
         </section>

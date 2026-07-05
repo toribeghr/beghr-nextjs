@@ -21,6 +21,18 @@
 - [HCM Platform Finder](https://www.beghr.com/services/hcm-software/platform-finder): A tailored HCM recommendation based on size, industry, and current system.
 - [Managed Payroll Cost Calculator](https://www.beghr.com/services/managed-payroll/cost-calculator): Compare in-house, software, PEO, and managed payroll costs.
 
+## Managed Benefits and state continuation
+
+- [Managed Benefits](https://www.beghr.com/services/managed-benefits): Benefits administration powered by isolved. Enrollment, ACA reporting, and COBRA handled while the client keeps their broker. Not a PEO. Instant on-screen estimate, 34 industry pages, and 50 state mini-COBRA guides.
+- [Managed Benefits pricing](https://www.beghr.com/services/managed-benefits/pricing): Three plans from self-service software to fully managed, instant estimate, no demo gate.
+- [COBRA vs mini-COBRA](https://www.beghr.com/services/managed-benefits/cobra-vs-mini-cobra): Which law covers your company, federal 20-employee threshold vs state continuation.
+- [TPA vs PEO](https://www.beghr.com/services/managed-benefits/tpa-vs-peo): Who actually runs your benefits, and who employs your staff.
+- [What is a third-party administrator?](https://www.beghr.com/services/managed-benefits/what-is-a-third-party-administrator): Plain-language explainer.
+- [IRS Letter 226-J](https://www.beghr.com/services/managed-benefits/irs-226j-letter): The ACA employer-mandate penalty letter and how to respond.
+- [Benefits software vs services](https://www.beghr.com/services/managed-benefits/benefits-administration-software-vs-services): Who does the work.
+- [Outsourced vs in-house benefits administration](https://www.beghr.com/services/managed-benefits/outsourced-vs-in-house-benefits-administration): The real cost math.
+- State mini-COBRA guides for all 50 states, one page per state with statute-level rules (for example [California](https://www.beghr.com/services/managed-benefits/california), [Texas](https://www.beghr.com/services/managed-benefits/texas), [New York](https://www.beghr.com/services/managed-benefits/new-york), [Florida](https://www.beghr.com/services/managed-benefits/florida)), all linked from the Managed Benefits hub.
+
 ## Understand HR outsourcing models
 
 - [PEO vs HR outsourcing](https://www.beghr.com/services/hr-outsourcing/peo-vs-hr-outsourcing): The co-employment question, answered honestly.

@@ -118,7 +118,7 @@ export default function ManagedBenefitsSouthCarolinaPage() {
               </table>
             </div>
             <p className="reveal" style={{ fontSize: '0.8rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
-              Source: <a href="https://law.justia.com/codes/south-carolina/title-38/chapter-71/section-38-71-770/" target="_blank" rel="noopener noreferrer">South Carolina statute and department of insurance (law.justia.com)</a>. This page is general information, not legal advice.
+              Source: <a href="https://www.scstatehouse.gov/code/t38c071.php" target="_blank" rel="noopener noreferrer">South Carolina statute and department of insurance (www.scstatehouse.gov)</a>. This page is general information, not legal advice.
             </p>
           </div>
         </section>

@@ -118,7 +118,7 @@ export default function ManagedBenefitsOregonPage() {
               </table>
             </div>
             <p className="reveal" style={{ fontSize: '0.8rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
-              Source: <a href="https://oregon.public.law/statutes/ors_743b.347" target="_blank" rel="noopener noreferrer">Oregon statute and department of insurance (oregon.public.law)</a>. This page is general information, not legal advice.
+              Source: <a href="https://www.oregonlegislature.gov/bills_laws/ors/ors743b.html" target="_blank" rel="noopener noreferrer">Oregon statute and department of insurance (www.oregonlegislature.gov)</a>. This page is general information, not legal advice.
             </p>
           </div>
         </section>

@@ -6,17 +6,17 @@ import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Benefits Admin for Architects | Instant Estimate | BEG',
-  description: 'Benefits administration for architecture firms: enrollment, ACA compliance, and carrier updates off the principal\'s desk. Keep your broker. Instant estimate.',
+  description: 'Benefits administration for architecture firms: enrollment, ACA compliance, and carrier updates off your desk. Keep your broker. Instant estimate.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-benefits/architecture' },
   openGraph: {
     title: 'Benefits Admin for Architects | Instant Estimate | BEG',
-    description: 'Benefits administration for architecture firms: enrollment, ACA compliance, and carrier updates off the principal\'s desk. Keep your broker. Instant estimate.',
+    description: 'Benefits administration for architecture firms: enrollment, ACA compliance, and carrier updates off your desk. Keep your broker. Instant estimate.',
     url: 'https://www.beghr.com/services/managed-benefits/architecture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Benefits Admin for Architects | Instant Estimate | BEG', description: 'Benefits administration for architecture firms: enrollment, ACA compliance, and carrier updates off the principal\'s desk. Keep your broker. Instant estimate.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Benefits Admin for Architects | Instant Estimate | BEG', description: 'Benefits administration for architecture firms: enrollment, ACA compliance, and carrier updates off your desk. Keep your broker. Instant estimate.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('managed-benefits-architecture');

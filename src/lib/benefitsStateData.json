@@ -128,7 +128,7 @@
     "months": 3,
     "who": "An employee who is hospitalized or otherwise prevented by sickness from working. The employer must keep contributing its pre-sickness share of the premium so the employee can continue coverage, for up to 3 months following the month the employee became hospitalized/disabled, or the period the employer pays regular wages, whichever is longer.",
     "statute": "Haw. Rev. Stat. section 393-15 (Continuation of coverage in case of inability to earn wages), part of the Prepaid Health Care Act (HRS ch. 393)",
-    "src": "https://law.justia.com/codes/hawaii/title-21/chapter-393/section-393-15/",
+    "src": "https://www.capitol.hawaii.gov/hrscurrent/vol07_ch0346-0398/hrs0393/HRS_0393-0015.htm",
     "market": "Uses HealthCare.gov (Hawaii shut down its state exchange, the Hawaii Health Connector, and uses the federal platform)."
   },
   "idaho": {
@@ -236,7 +236,7 @@
     "months": 18,
     "who": "An insured employee who is a Maryland resident and covered under the current or predecessor group contract with the same employer for at least 3 months before a change in status (termination of employment other than for cause) may continue coverage for up to 18 months. A separate section, 15-407, provides continuation for surviving spouses and dependent children (up to 18 months after the.",
     "statute": "Md. Code, Insurance section 15-409 (Continuation coverage for terminated employees); section 15-409.1 (small employers); section 15-407 (surviving spouses/dependents)",
-    "src": "https://law.justia.com/codes/maryland/insurance/title-15/subtitle-4/section-15-409/",
+    "src": "https://insurance.maryland.gov/Consumer/Pages/continuationcoverage.aspx",
     "market": "State-based marketplace: Maryland Health Connection (uses its own platform, not HealthCare.gov)."
   },
   "massachusetts": {
@@ -440,7 +440,7 @@
     "months": 9,
     "who": "A covered person (certificate holder on the day before the qualifying event and during the three-month period ending on that date) and qualified beneficiaries (spouse, dependent child, or a child born/adopted during continuation). Qualifying events: voluntary or involuntary termination of employment, reduction in hours, Medicare eligibility, loss of dependent-child status, termination of group.",
     "statute": "ORS 743B.347 (formerly ORS 743.610)",
-    "src": "https://oregon.public.law/statutes/ors_743b.347",
+    "src": "https://www.oregonlegislature.gov/bills_laws/ors/ors743b.html",
     "market": "Uses a state-based marketplace on the federal platform: the Oregon Health Insurance Marketplace uses HealthCare.gov for enrollment."
   },
   "pennsylvania": {
@@ -452,7 +452,7 @@
     "months": 9,
     "who": "Covered employees (and their covered dependents) who were continuously insured under the group plan for at least three consecutive months before a qualifying event and who lose coverage due to a qualifying event such as termination of employment (other than for gross misconduct) or reduction in hours. The individual must not be eligible for other group coverage or Medicare.",
     "statute": "40 P.S. section 764j (added by Act 2 of 2009)",
-    "src": "https://codes.findlaw.com/pa/title-40-ps-insurance/pa-st-sect-40-764j/",
+    "src": "https://www.legis.state.pa.us/cfdocs/legis/li/uconsCheck.cfm?yr=2009&sessInd=0&act=2",
     "market": "Runs its own state-based marketplace: Pennie (https://pennie.com/)."
   },
   "rhode-island": {
@@ -476,7 +476,7 @@
     "months": 6,
     "who": "Any employee or member (and dependents, spouses/children losing coverage by death, divorce, or loss of dependent status) who has been continuously insured under the same employer's group policy for at least six consecutive months and whose coverage ends for a reason other than nonpayment of premium.",
     "statute": "S.C. Code Ann. section 38-71-770 (Mandatory continuation privileges)",
-    "src": "https://law.justia.com/codes/south-carolina/title-38/chapter-71/section-38-71-770/",
+    "src": "https://www.scstatehouse.gov/code/t38c071.php",
     "market": "Uses the federal marketplace, HealthCare.gov (South Carolina does not run a state-based exchange)."
   },
   "south-dakota": {
@@ -560,7 +560,7 @@
     "months": null,
     "who": "A person who becomes ineligible for coverage under the group policy (employee, member, spouse, or dependent), where the policyholder elected to include the continuation provision. On termination of continuation, the covered person may convert to an individual policy under RCW 48.21.260.",
     "statute": "RCW 48.21.250 (continuation option); RCW 48.21.260 (conversion). Parallel provisions apply to health care service contractors (RCW 48.44) and HMOs (RCW 48.46).",
-    "src": "https://law.justia.com/codes/washington/title-48/chapter-48-21/section-48-21-250/",
+    "src": "https://app.leg.wa.gov/rcw/default.aspx?cite=48.21.250",
     "market": "Runs its own state-based marketplace: Washington Healthplanfinder (https://www.wahealthplanfinder.org/)."
   },
   "west-virginia": {

@@ -118,7 +118,7 @@ export default function ManagedBenefitsMarylandPage() {
               </table>
             </div>
             <p className="reveal" style={{ fontSize: '0.8rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
-              Source: <a href="https://law.justia.com/codes/maryland/insurance/title-15/subtitle-4/section-15-409/" target="_blank" rel="noopener noreferrer">Maryland statute and department of insurance (law.justia.com)</a>. This page is general information, not legal advice.
+              Source: <a href="https://insurance.maryland.gov/Consumer/Pages/continuationcoverage.aspx" target="_blank" rel="noopener noreferrer">Maryland statute and department of insurance (insurance.maryland.gov)</a>. This page is general information, not legal advice.
             </p>
           </div>
         </section>

@@ -118,7 +118,7 @@ export default function ManagedBenefitsPennsylvaniaPage() {
               </table>
             </div>
             <p className="reveal" style={{ fontSize: '0.8rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
-              Source: <a href="https://codes.findlaw.com/pa/title-40-ps-insurance/pa-st-sect-40-764j/" target="_blank" rel="noopener noreferrer">Pennsylvania statute and department of insurance (codes.findlaw.com)</a>. This page is general information, not legal advice.
+              Source: <a href="https://www.legis.state.pa.us/cfdocs/legis/li/uconsCheck.cfm?yr=2009&sessInd=0&act=2" target="_blank" rel="noopener noreferrer">Pennsylvania statute and department of insurance (www.legis.state.pa.us)</a>. This page is general information, not legal advice.
             </p>
           </div>
         </section>

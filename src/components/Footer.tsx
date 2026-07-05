@@ -97,6 +97,12 @@ export default function Footer() {
             <Link href="/services/hr-outsourcing/veterinary" className="footer-link">Veterinary</Link>
           </div>
 
+          {/* Managed Benefits */}
+          <div className="footer-col">
+            <h5 className="footer-col-heading">Managed Benefits</h5>
+            <Link href="/services/managed-benefits" className="footer-link footer-link--overview">Overview</Link>
+          </div>
+
           {/* HCM Software */}
           <div className="footer-col">
             <h5 className="footer-col-heading">HCM Software</h5>

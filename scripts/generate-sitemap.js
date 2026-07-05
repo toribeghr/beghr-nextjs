@@ -83,7 +83,7 @@ try {
 function priority(route) {
   if (route === '/') return '1.0';
   const segs = route.split('/').filter(Boolean);
-  if (route === '/services/job-placement' || route === '/services/managed-payroll' || route === '/services/hcm-software') return '0.9';
+  if (route === '/services/job-placement' || route === '/services/managed-payroll' || route === '/services/hcm-software' || route === '/services/hr-outsourcing' || route === '/services/managed-benefits') return '0.9';
   // industry hub: /services/<silo>/<industry>
   if (segs[0] === 'services' && segs.length === 3) return '0.7';
   // city/role leaf: /services/<silo>/<industry>/<leaf>

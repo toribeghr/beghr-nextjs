@@ -3,6 +3,8 @@
 import PricingCta from '@/components/pricing/PricingCta';
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import MobileNav from '@/components/MobileNav';
+import SearchOverlay from '@/components/SearchOverlay';
 
 const navGroups = [
   {
@@ -48,6 +50,7 @@ const navGroups = [
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openGroup,  setOpenGroup]  = useState<number | null>(null);
+  const [searchOpen, setSearchOpen] = useState(false);
 
   const closeAll = useCallback(() => {
     setMobileOpen(false);
@@ -115,6 +118,19 @@ export default function Header() {
             </div>
           ))}
 
+          <button
+            type="button"
+            className="nav-search-btn"
+            aria-label="Search the site"
+            onClick={() => { closeAll(); setSearchOpen(true); }}
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="2" fill="none" />
+              <path d="M21 21L16.65 16.65" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            </svg>
+            <span>Search</span>
+          </button>
+
           <PricingCta service="chooser" subline={false} label="Get Instant Pricing" />
         </nav>
 
@@ -129,7 +145,14 @@ export default function Header() {
           <span /><span /><span />
         </button>
 
+        {/* Mobile drawer nav — replaces the old flattened dropdown at <=768px
+            (see MobileNav.css). Old .nav-toggle above is hidden at that
+            breakpoint so there is only one mobile hamburger. */}
+        <MobileNav onSearchClick={() => setSearchOpen(true)} />
+
       </div>
+
+      <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
     </header>
   );
 }

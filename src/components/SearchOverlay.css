@@ -1,0 +1,138 @@
+.beg-search-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.beg-search-scrim {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.beg-search-panel {
+  position: relative;
+  width: min(720px, 92vw);
+  margin-top: 8vh;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.beg-search-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.beg-search-box {
+  margin-bottom: 12px;
+}
+
+.beg-search-input {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px 14px;
+  border: 1px solid #d9dde3;
+  border-radius: 8px;
+}
+
+.beg-search-body {
+  display: flex;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.beg-search-facets {
+  width: 160px;
+  flex-shrink: 0;
+}
+
+.beg-search-facets-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.beg-search-results {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.beg-search-hit {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.beg-search-hit:hover,
+.beg-search-hit:focus {
+  background: #f5f6f8;
+}
+
+.beg-search-hit-vertical {
+  font-size: 12px;
+  color: #999;
+}
+
+.beg-search-hit-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+}
+
+.beg-search-hit-desc {
+  font-size: 13px;
+  color: #555;
+}
+
+.beg-search-unconfigured {
+  padding: 24px 8px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+/* Desktop search trigger in the header nav. Hidden on mobile because it
+   lives inside .nav-links, which globals.css hides at <=768px. */
+.nav-search-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font: inherit;
+  font-size: 0.95rem;
+  padding: 8px 10px;
+  opacity: 0.9;
+}
+
+.nav-search-btn:hover {
+  opacity: 1;
+  color: var(--gold-light, #f5c97a);
+}
+
+.nav-search-btn svg {
+  color: var(--gold, #ecac60);
+}

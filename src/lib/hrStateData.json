@@ -1,0 +1,396 @@
+{
+ "alabama": {
+  "n": "Alabama",
+  "w": "Federal $7.25 (no state minimum wage law)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "alaska": {
+  "n": "Alaska",
+  "w": "$13.00",
+  "ot": "Daily over 8 and weekly over 40",
+  "sched": "Scheduled to rise to $14.00 on July 1, 2026",
+  "thresh": "Daily/weekly premium not applicable to employers of fewer than 4 employees",
+  "sick": true,
+  "pfml": false
+ },
+ "arizona": {
+  "n": "Arizona",
+  "w": "$15.15",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": true,
+  "pfml": false
+ },
+ "arkansas": {
+  "n": "Arkansas",
+  "w": "$11.00",
+  "ot": "Weekly over 40",
+  "thresh": "Applies to employers with 4 or more employees",
+  "sick": false,
+  "pfml": false
+ },
+ "california": {
+  "n": "California",
+  "w": "$16.90",
+  "ot": "Daily over 8 (1.5x), over 12 (2x), weekly over 40, plus 7th-day rules",
+  "sched": "Adjusted annually by formula",
+  "extra": "Many California cities set higher local minimums",
+  "sick": true,
+  "pfml": true
+ },
+ "colorado": {
+  "n": "Colorado",
+  "w": "$15.16",
+  "ot": "Daily over 12 and weekly over 40",
+  "extra": "Denver sets a higher local minimum",
+  "sick": true,
+  "pfml": true
+ },
+ "connecticut": {
+  "n": "Connecticut",
+  "w": "$16.94",
+  "ot": "Weekly over 40",
+  "extra": "7th consecutive day premium in restaurants and hotel restaurants",
+  "sick": true,
+  "pfml": true
+ },
+ "delaware": {
+  "n": "Delaware",
+  "w": "$15.00",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": true,
+  "extra": "State paid family and medical leave benefits begin in 2026"
+ },
+ "florida": {
+  "n": "Florida",
+  "w": "$14.00",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sched": "Rising to $15.00 on September 30, 2026 under the constitutional amendment schedule",
+  "sick": false,
+  "pfml": false
+ },
+ "georgia": {
+  "n": "Georgia",
+  "w": "Federal $7.25 (state rate $5.15 superseded by FLSA)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "thresh": "State law applies to employers of 6 or more",
+  "sick": false,
+  "pfml": false
+ },
+ "hawaii": {
+  "n": "Hawaii",
+  "w": "$16.00",
+  "ot": "Weekly over 40",
+  "extra": "Temporary disability insurance (TDI) coverage is required for employees",
+  "sick": false,
+  "pfml": false
+ },
+ "idaho": {
+  "n": "Idaho",
+  "w": "$7.25",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "illinois": {
+  "n": "Illinois",
+  "w": "$15.00",
+  "ot": "Weekly over 40",
+  "thresh": "Applies to employers of 4 or more (family members excluded)",
+  "extra": "Paid Leave for All Workers: leave usable for any reason",
+  "sick": true,
+  "pfml": false
+ },
+ "indiana": {
+  "n": "Indiana",
+  "w": "$7.25",
+  "ot": "Weekly over 40",
+  "thresh": "Applies to employers of 2 or more",
+  "sick": false,
+  "pfml": false
+ },
+ "iowa": {
+  "n": "Iowa",
+  "w": "$7.25",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "kansas": {
+  "n": "Kansas",
+  "w": "$7.25",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "kentucky": {
+  "n": "Kentucky",
+  "w": "$7.25",
+  "ot": "Weekly over 40, plus a 7th-day overtime rule",
+  "sick": false,
+  "pfml": false
+ },
+ "louisiana": {
+  "n": "Louisiana",
+  "w": "Federal $7.25 (no state minimum wage law)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "maine": {
+  "n": "Maine",
+  "w": "$15.10",
+  "ot": "Weekly over 40",
+  "sched": "Adjusted annually by formula",
+  "extra": "Earned paid leave is usable for any reason",
+  "sick": true,
+  "pfml": true
+ },
+ "maryland": {
+  "n": "Maryland",
+  "w": "$15.00",
+  "ot": "Weekly over 40",
+  "extra": "State FAMLI paid leave program is enacted and phasing in; confirm current dates",
+  "sick": true,
+  "pfml": true
+ },
+ "massachusetts": {
+  "n": "Massachusetts",
+  "w": "$15.00",
+  "ot": "Weekly over 40",
+  "extra": "State rate must stay at least $0.50 above the federal rate",
+  "sick": true,
+  "pfml": true
+ },
+ "michigan": {
+  "n": "Michigan",
+  "w": "$13.73",
+  "ot": "Weekly over 40",
+  "sched": "Scheduled to reach $15.00 on January 1, 2027, then formula-adjusted",
+  "thresh": "Applies to employers of 2 or more",
+  "sick": true,
+  "pfml": false
+ },
+ "minnesota": {
+  "n": "Minnesota",
+  "w": "$11.41",
+  "ot": "Weekly over 48 under state law",
+  "sched": "Adjusted annually by formula",
+  "extra": "Earned sick and safe time statewide; state paid leave program launching in 2026",
+  "sick": true,
+  "pfml": true
+ },
+ "mississippi": {
+  "n": "Mississippi",
+  "w": "Federal $7.25 (no state minimum wage law)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "missouri": {
+  "n": "Missouri",
+  "w": "$15.00",
+  "ot": "Weekly over 40",
+  "extra": "Voter-approved sick leave rules were modified by the legislature; verify current status with the state",
+  "sick": null,
+  "pfml": false
+ },
+ "montana": {
+  "n": "Montana",
+  "w": "$10.85",
+  "ot": "Weekly over 40",
+  "thresh": "$4.00 rate allowed for non-FLSA businesses with gross annual sales of $110,000 or less",
+  "sched": "Adjusted annually by formula",
+  "sick": false,
+  "pfml": false
+ },
+ "nebraska": {
+  "n": "Nebraska",
+  "w": "$15.00",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "thresh": "Applies to employers of 4 or more",
+  "extra": "Voter-approved paid sick leave recently took effect; verify details",
+  "sick": true,
+  "pfml": false
+ },
+ "nevada": {
+  "n": "Nevada",
+  "w": "$12.00",
+  "ot": "Daily over 8 for employees earning under 1.5x minimum wage; weekly over 40 otherwise",
+  "extra": "Paid leave usable for any reason at employers with 50 or more employees",
+  "sick": true,
+  "pfml": false
+ },
+ "new-hampshire": {
+  "n": "New Hampshire",
+  "w": "$7.25",
+  "ot": "Weekly over 40",
+  "extra": "Voluntary state paid family leave plan available",
+  "sick": false,
+  "pfml": false
+ },
+ "new-jersey": {
+  "n": "New Jersey",
+  "w": "$15.92",
+  "ot": "Weekly over 40",
+  "thresh": "$15.23 rate for employers with fewer than 6 employees and seasonal work",
+  "sched": "Adjusted annually by formula",
+  "sick": true,
+  "pfml": true
+ },
+ "new-mexico": {
+  "n": "New Mexico",
+  "w": "$12.00",
+  "ot": "Weekly over 40",
+  "extra": "Santa Fe and Albuquerque set higher local minimums",
+  "sick": true,
+  "pfml": false
+ },
+ "new-york": {
+  "n": "New York",
+  "w": "$17.00 in NYC, Nassau, Suffolk, and Westchester; $16.00 rest of state",
+  "ot": "Weekly over 40 (44 for residential workers)",
+  "extra": "Spread-of-hours and split-shift rules add an extra hour of pay in some cases",
+  "sick": true,
+  "pfml": true
+ },
+ "north-carolina": {
+  "n": "North Carolina",
+  "w": "$7.25",
+  "ot": "Weekly over 40 (45 in seasonal amusement)",
+  "sick": false,
+  "pfml": false
+ },
+ "north-dakota": {
+  "n": "North Dakota",
+  "w": "$7.25",
+  "ot": "Weekly over 40",
+  "sick": false,
+  "pfml": false
+ },
+ "ohio": {
+  "n": "Ohio",
+  "w": "$11.00 (employers grossing $405,000+; $7.25 below that)",
+  "ot": "Weekly over 40",
+  "sched": "Adjusted annually by formula",
+  "sick": false,
+  "pfml": false
+ },
+ "oklahoma": {
+  "n": "Oklahoma",
+  "w": "$7.25 (larger employers; $2.00 state rate otherwise, superseded by FLSA)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "oregon": {
+  "n": "Oregon",
+  "w": "$15.05 standard; $16.30 Portland metro; $14.05 non-urban counties",
+  "ot": "Weekly over 40, plus daily rules in some mills and factories",
+  "sched": "Adjusted annually each July 1",
+  "sick": true,
+  "pfml": true
+ },
+ "pennsylvania": {
+  "n": "Pennsylvania",
+  "w": "$7.25",
+  "ot": "Weekly over 40",
+  "extra": "Philadelphia and Pittsburgh have local paid sick leave ordinances",
+  "sick": false,
+  "pfml": false
+ },
+ "rhode-island": {
+  "n": "Rhode Island",
+  "w": "$16.00",
+  "ot": "Weekly over 40, plus Sunday and holiday premium rules in retail",
+  "sick": true,
+  "pfml": true
+ },
+ "south-carolina": {
+  "n": "South Carolina",
+  "w": "Federal $7.25 (no state minimum wage law)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "south-dakota": {
+  "n": "South Dakota",
+  "w": "$11.85",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sched": "Adjusted annually by formula",
+  "sick": false,
+  "pfml": false
+ },
+ "tennessee": {
+  "n": "Tennessee",
+  "w": "Federal $7.25 (no state minimum wage law)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "texas": {
+  "n": "Texas",
+  "w": "$7.25 (adopts the federal rate by reference)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "utah": {
+  "n": "Utah",
+  "w": "$7.25",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ },
+ "vermont": {
+  "n": "Vermont",
+  "w": "$14.42",
+  "ot": "Weekly over 40",
+  "thresh": "Applies to employers of 2 or more",
+  "sched": "Adjusted annually by formula",
+  "extra": "Voluntary state paid family leave plan available",
+  "sick": true,
+  "pfml": false
+ },
+ "virginia": {
+  "n": "Virginia",
+  "w": "$12.77",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sched": "Adjusted annually by formula",
+  "sick": false,
+  "pfml": false
+ },
+ "washington": {
+  "n": "Washington",
+  "w": "$17.13",
+  "ot": "Weekly over 40",
+  "sched": "Adjusted annually by formula",
+  "extra": "Seattle and other cities set higher local minimums",
+  "sick": true,
+  "pfml": true
+ },
+ "west-virginia": {
+  "n": "West Virginia",
+  "w": "$8.75",
+  "ot": "Weekly over 40",
+  "thresh": "Applies to employers of 6 or more at one location",
+  "sick": false,
+  "pfml": false
+ },
+ "wisconsin": {
+  "n": "Wisconsin",
+  "w": "$7.25",
+  "ot": "Weekly over 40",
+  "sick": false,
+  "pfml": false
+ },
+ "wyoming": {
+  "n": "Wyoming",
+  "w": "Federal $7.25 (state rate $5.15 superseded by FLSA)",
+  "ot": "Federal FLSA rules (weekly over 40)",
+  "sick": false,
+  "pfml": false
+ }
+}

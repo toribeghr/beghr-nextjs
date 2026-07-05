@@ -526,6 +526,71 @@ export default function HrOutsourcingPage() {
           </div>
         </section>
 
+        {/* BY STATE */}
+        <section className="section">
+          <div className="container">
+            <div className="head center reveal">
+              <p className="eyebrow">By State</p>
+              <h2>HR outsourcing with your state&apos;s actual rules built in</h2>
+              <p className="lede" style={{ margin: '12px auto 0', maxWidth: '720px' }}>
+                Minimum wage, overtime, and leave mandates differ everywhere. Find your state below.
+              </p>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', gap: '0.4rem 1.25rem', marginTop: '2rem' }}>
+              <Link key="alabama" href="/services/hr-outsourcing/alabama" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Alabama</Link>
+              <Link key="alaska" href="/services/hr-outsourcing/alaska" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Alaska</Link>
+              <Link key="arizona" href="/services/hr-outsourcing/arizona" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Arizona</Link>
+              <Link key="arkansas" href="/services/hr-outsourcing/arkansas" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Arkansas</Link>
+              <Link key="california" href="/services/hr-outsourcing/california" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>California</Link>
+              <Link key="colorado" href="/services/hr-outsourcing/colorado" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Colorado</Link>
+              <Link key="connecticut" href="/services/hr-outsourcing/connecticut" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Connecticut</Link>
+              <Link key="delaware" href="/services/hr-outsourcing/delaware" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Delaware</Link>
+              <Link key="florida" href="/services/hr-outsourcing/florida" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Florida</Link>
+              <Link key="georgia" href="/services/hr-outsourcing/georgia" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Georgia</Link>
+              <Link key="hawaii" href="/services/hr-outsourcing/hawaii" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Hawaii</Link>
+              <Link key="idaho" href="/services/hr-outsourcing/idaho" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Idaho</Link>
+              <Link key="illinois" href="/services/hr-outsourcing/illinois" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Illinois</Link>
+              <Link key="indiana" href="/services/hr-outsourcing/indiana" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Indiana</Link>
+              <Link key="iowa" href="/services/hr-outsourcing/iowa" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Iowa</Link>
+              <Link key="kansas" href="/services/hr-outsourcing/kansas" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Kansas</Link>
+              <Link key="kentucky" href="/services/hr-outsourcing/kentucky" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Kentucky</Link>
+              <Link key="louisiana" href="/services/hr-outsourcing/louisiana" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Louisiana</Link>
+              <Link key="maine" href="/services/hr-outsourcing/maine" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Maine</Link>
+              <Link key="maryland" href="/services/hr-outsourcing/maryland" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Maryland</Link>
+              <Link key="massachusetts" href="/services/hr-outsourcing/massachusetts" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Massachusetts</Link>
+              <Link key="michigan" href="/services/hr-outsourcing/michigan" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Michigan</Link>
+              <Link key="minnesota" href="/services/hr-outsourcing/minnesota" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Minnesota</Link>
+              <Link key="mississippi" href="/services/hr-outsourcing/mississippi" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Mississippi</Link>
+              <Link key="missouri" href="/services/hr-outsourcing/missouri" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Missouri</Link>
+              <Link key="montana" href="/services/hr-outsourcing/montana" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Montana</Link>
+              <Link key="nebraska" href="/services/hr-outsourcing/nebraska" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Nebraska</Link>
+              <Link key="nevada" href="/services/hr-outsourcing/nevada" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Nevada</Link>
+              <Link key="new-hampshire" href="/services/hr-outsourcing/new-hampshire" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>New Hampshire</Link>
+              <Link key="new-jersey" href="/services/hr-outsourcing/new-jersey" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>New Jersey</Link>
+              <Link key="new-mexico" href="/services/hr-outsourcing/new-mexico" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>New Mexico</Link>
+              <Link key="new-york" href="/services/hr-outsourcing/new-york" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>New York</Link>
+              <Link key="north-carolina" href="/services/hr-outsourcing/north-carolina" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>North Carolina</Link>
+              <Link key="north-dakota" href="/services/hr-outsourcing/north-dakota" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>North Dakota</Link>
+              <Link key="ohio" href="/services/hr-outsourcing/ohio" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Ohio</Link>
+              <Link key="oklahoma" href="/services/hr-outsourcing/oklahoma" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Oklahoma</Link>
+              <Link key="oregon" href="/services/hr-outsourcing/oregon" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Oregon</Link>
+              <Link key="pennsylvania" href="/services/hr-outsourcing/pennsylvania" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Pennsylvania</Link>
+              <Link key="rhode-island" href="/services/hr-outsourcing/rhode-island" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Rhode Island</Link>
+              <Link key="south-carolina" href="/services/hr-outsourcing/south-carolina" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>South Carolina</Link>
+              <Link key="south-dakota" href="/services/hr-outsourcing/south-dakota" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>South Dakota</Link>
+              <Link key="tennessee" href="/services/hr-outsourcing/tennessee" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Tennessee</Link>
+              <Link key="texas" href="/services/hr-outsourcing/texas" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Texas</Link>
+              <Link key="utah" href="/services/hr-outsourcing/utah" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Utah</Link>
+              <Link key="vermont" href="/services/hr-outsourcing/vermont" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Vermont</Link>
+              <Link key="virginia" href="/services/hr-outsourcing/virginia" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Virginia</Link>
+              <Link key="washington" href="/services/hr-outsourcing/washington" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Washington</Link>
+              <Link key="west-virginia" href="/services/hr-outsourcing/west-virginia" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>West Virginia</Link>
+              <Link key="wisconsin" href="/services/hr-outsourcing/wisconsin" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Wisconsin</Link>
+              <Link key="wyoming" href="/services/hr-outsourcing/wyoming" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Wyoming</Link>
+            </div>
+          </div>
+        </section>
+
         {/* COMPARISONS */}
         <section className="section">
           <div className="container" style={{ maxWidth: '980px' }}>

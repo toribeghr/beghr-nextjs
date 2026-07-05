@@ -597,16 +597,19 @@ p {
   transform: translateY(0);
 }
 
-/* FAQ */
+/* FAQ - visible by default; animates only when it also carries .reveal (the layout observer only watches .reveal). Bare className="faq" on ~822 blog pages was stuck at opacity 0. Fixed July 4, 2026. */
 .faq {
   display: grid;
   gap: 24px;
+}
+
+.faq.reveal {
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.5s ease;
 }
 
-.faq.in {
+.faq.reveal.in {
   opacity: 1;
   transform: translateY(0);
 }

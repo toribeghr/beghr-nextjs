@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'Seasonal agricultural payroll guide: FLSA exemptions, peak-season ramp-up, onboarding at scale, pay frequency requirements, and year-end offboarding for',
     url: 'https://www.beghr.com/blog/payroll/agriculture/seasonal-agricultural-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-agriculture-seasonal-agricultural-payroll.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Seasonal Farm Payroll | Hire and Terminate at Scale | BEG', description: 'How to hire, pay, and terminate seasonal farm workers at scale. FLSA exemptions and year-end compliance.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Seasonal Farm Payroll | Hire and Terminate at Scale | BEG', description: 'How to hire, pay, and terminate seasonal farm workers at scale. FLSA exemptions and year-end compliance.', images: ['https://www.beghr.com/blog-images/blog-payroll-agriculture-seasonal-agricultural-payroll.webp'] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function SeasonalAgriculturalPayrollPage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-agriculture-seasonal-agricultural-payroll.webp" alt={`Seasonal Farm Payroll`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

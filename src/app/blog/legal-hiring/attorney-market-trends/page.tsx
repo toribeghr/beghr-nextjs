@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...',
     url: 'https://www.beghr.com/blog/legal-hiring/attorney-market-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-legal-hiring-attorney-market-trends.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: '2026 Attorney Market Trends: What Partners Miss | BEG', description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: '2026 Attorney Market Trends: What Partners Miss | BEG', description: '2026 attorney market analysis. Law school enrollment down 30%, passive candidates dominate, practice area demand by specialty. How top firms are filling...', images: ['https://www.beghr.com/blog-images/blog-legal-hiring-attorney-market-trends.webp'] },
 
 };
 
@@ -83,6 +83,10 @@ export default function AttorneyMarketTrendsPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-legal-hiring-attorney-market-trends.webp" alt={`2026 Attorney Market Trends: What Partners Miss`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

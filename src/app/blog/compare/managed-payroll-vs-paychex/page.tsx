@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Paychex Flex is powerful payroll software -- but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...',
     url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-paychex',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-compare-managed-payroll-vs-paychex.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG', description: 'Paychex Flex is powerful payroll software -- but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Paychex vs Managed Payroll | Done For You vs. DIY Software | BEG', description: 'Paychex Flex is powerful payroll software -- but you still run it yourself. BEG managed payroll runs it for you. Full comparison for companies with 20–20...', images: ['https://www.beghr.com/blog-images/blog-compare-managed-payroll-vs-paychex.webp'] },
 
 };
 
@@ -39,6 +39,10 @@ export default function ManagedPayrollVsPaychexPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-compare-managed-payroll-vs-paychex.webp" alt={`Paychex vs Managed Payroll`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

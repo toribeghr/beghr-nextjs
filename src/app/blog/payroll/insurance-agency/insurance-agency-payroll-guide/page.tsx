@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Insurance agency payroll: producer commission timing, draw vs commission payroll, W-2 vs 1099 agents, E&O deduction tracking, and multi-state compliance.",
     url: "https://www.beghr.com/blog/payroll/insurance-agency/insurance-agency-payroll-guide",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-insurance-agency-insurance-agency-payroll-guide.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Insurance Agency Payroll: How Commission Really Works | BEG", description: "Insurance agency payroll: producer commission, draws, W-2 vs 1099, and multi-state compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Insurance Agency Payroll: How Commission Really Works | BEG", description: "Insurance agency payroll: producer commission, draws, W-2 vs 1099, and multi-state compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-insurance-agency-insurance-agency-payroll-guide.webp"] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function InsuranceAgencyPayrollGuidePage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-insurance-agency-insurance-agency-payroll-guide.webp" alt={`Insurance Agency Payroll: How Commission Really Works`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

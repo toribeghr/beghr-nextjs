@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a distributed company.',
     url: 'https://www.beghr.com/blog/entrepreneur-resources/remote-team-management',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-entrepreneur-resources-remote-team-management.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Remote Team Management: What Founders Learn Late | BEG', description: 'Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a distributed company.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Remote Team Management: What Founders Learn Late | BEG', description: 'Build and manage remote teams effectively. Hiring remote talent, HR compliance, and culture in a distributed company.', images: ['https://www.beghr.com/blog-images/blog-entrepreneur-resources-remote-team-management.webp'] },
 
 };
 
@@ -35,6 +35,10 @@ export default function RemoteTeamManagementPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-entrepreneur-resources-remote-team-management.webp" alt={`Remote Team Management: What Founders Learn Late`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

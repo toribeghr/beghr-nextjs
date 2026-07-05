@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to formal payroll. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/entrepreneur-resources/owner-draw-vs-salary",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-entrepreneur-resources-owner-draw-vs-salary.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Owner Draw vs Salary: What New Founders Miss | BEG", description: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to payroll. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Owner Draw vs Salary: What New Founders Miss | BEG", description: "Owner draw vs salary: tax treatment by entity type, self-employment tax, and when to switch to payroll. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-entrepreneur-resources-owner-draw-vs-salary.webp"] },
 };
 
 const faqs = [
@@ -61,6 +61,10 @@ export default function OwnerDrawVsSalaryPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-entrepreneur-resources-owner-draw-vs-salary.webp" alt={`Owner Draw vs Salary: What New Founders Miss`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>

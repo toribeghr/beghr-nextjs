@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership.',
     url: 'https://www.beghr.com/blog/insurance-hiring/insurance-interview-questions',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-insurance-hiring-insurance-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Insurance Interview Questions That Actually Work | BEG', description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Insurance Interview Questions That Actually Work | BEG', description: 'Insurance interviews that reveal underwriting judgment, book-of-business quality, and claims leadership.', images: ['https://www.beghr.com/blog-images/blog-insurance-hiring-insurance-interview-questions.webp'] },
 };
 
 
@@ -53,6 +53,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-insurance-hiring-insurance-interview-questions.webp" alt={`Insurance Interview Questions That Actually Work`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

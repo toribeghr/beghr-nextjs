@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant HR director seat risks culture, compliance, and retention. A confidential playbook to hire an HR director in 23-35 days without settling.',
     url: 'https://www.beghr.com/blog/hr-hiring/hiring-an-hr-director',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hr-hiring-hiring-an-hr-director.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring an HR Director in 2026 Without Overpaying | BEG', description: 'A vacant HR director seat risks culture, compliance, and retention. A confidential playbook to hire an HR director in 23-35 days without settling.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring an HR Director in 2026 Without Overpaying | BEG', description: 'A vacant HR director seat risks culture, compliance, and retention. A confidential playbook to hire an HR director in 23-35 days without settling.', images: ['https://www.beghr.com/blog-images/blog-hr-hiring-hiring-an-hr-director.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function HiringAnHrDirectorPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hr-hiring-hiring-an-hr-director.webp" alt={`Hiring an HR Director in 2026 Without Overpaying`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

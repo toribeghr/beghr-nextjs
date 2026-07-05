@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'HVAC company payroll guide: managing summer and winter demand spikes, seasonal technician overtime, multi-state crew compliance, and licensing',
     url: 'https://www.beghr.com/blog/payroll/home-services/hvac-company-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-home-services-hvac-company-payroll.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HVAC Company Payroll, Seasonal Spikes and Overtime | BEG', description: 'HVAC payroll guide: seasonal spikes, overtime management, and multi-state crew compliance.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HVAC Company Payroll, Seasonal Spikes and Overtime | BEG', description: 'HVAC payroll guide: seasonal spikes, overtime management, and multi-state crew compliance.', images: ['https://www.beghr.com/blog-images/blog-payroll-home-services-hvac-company-payroll.webp'] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function HvacCompanyPayrollPage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-home-services-hvac-company-payroll.webp" alt={`HVAC Company Payroll, Seasonal Spikes and Overtime`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

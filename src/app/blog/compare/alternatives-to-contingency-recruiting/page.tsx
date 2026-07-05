@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on cost, speed, and risk to find a better fit.',
     url: 'https://www.beghr.com/blog/compare/alternatives-to-contingency-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-compare-alternatives-to-contingency-recruiting.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Alternatives to Contingency Recruiting | BEG', description: 'Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on cost, speed, and risk to find a better fit.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Alternatives to Contingency Recruiting | BEG', description: 'Tired of contingency fees? Compare retained search, RPO, in-house, and milestone-based placement on cost, speed, and risk to find a better fit.', images: ['https://www.beghr.com/blog-images/blog-compare-alternatives-to-contingency-recruiting.webp'] },
 };
 
 
@@ -38,6 +38,10 @@ export default function AlternativesToContingencyRecruitingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-compare-alternatives-to-contingency-recruiting.webp" alt={`Alternatives to Contingency Recruiting`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

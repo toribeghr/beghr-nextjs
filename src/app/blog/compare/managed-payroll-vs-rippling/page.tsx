@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled -- not rebuilt -- managed payroll may cost 60–70% less. Full compar...',
     url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-rippling',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-compare-managed-payroll-vs-rippling.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Rippling vs Managed Payroll | Not Software. A Service. | BEG', description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled -- not rebuilt -- managed payroll may cost 60–70% less. Full compar...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Rippling vs Managed Payroll | Not Software. A Service. | BEG', description: 'Rippling bundles payroll, IT, and HR in one platform. If you only need payroll handled -- not rebuilt -- managed payroll may cost 60–70% less. Full compar...', images: ['https://www.beghr.com/blog-images/blog-compare-managed-payroll-vs-rippling.webp'] },
 
 };
 
@@ -66,6 +66,10 @@ export default function ManagedPayrollVsRipplingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-compare-managed-payroll-vs-rippling.webp" alt={`Rippling vs Managed Payroll`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

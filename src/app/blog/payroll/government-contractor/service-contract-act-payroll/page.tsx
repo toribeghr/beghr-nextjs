@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: 'SCA payroll compliance: wage determinations, health and welfare benefits, contractor obligations, DOL enforcement, and managed payroll solutions for service contractors.',
     url: 'https://www.beghr.com/blog/payroll/government-contractor/service-contract-act-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-government-contractor-service-contract-act-payroll.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
   twitter: { card: 'summary_large_image', title: 'Service Contract Act Payroll Compliance [2026 Data] | BEG', description: 'SCA payroll compliance guide for government service contractors: wage determinations, fringe benefits, and enforcement.', images: ['https://www.beghr.com/assets/og-image.org'] },
@@ -49,6 +49,10 @@ export default function ServiceContractActPayrollPage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-government-contractor-service-contract-act-payroll.webp" alt={`Service Contract Act Payroll Compliance [2026 Data]`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

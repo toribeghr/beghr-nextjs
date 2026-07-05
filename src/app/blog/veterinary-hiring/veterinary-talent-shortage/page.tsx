@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Vet school output is flat and demand keeps rising. What the 2026 veterinary shortage means for hiring and how to fill DVM roles in 23-35 days anyway.',
     url: 'https://www.beghr.com/blog/veterinary-hiring/veterinary-talent-shortage',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-veterinary-hiring-veterinary-talent-shortage.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Veterinary Talent Shortage 2026: What Nobody Tells You | BEG', description: 'Vet school output is flat and demand keeps rising. What the 2026 veterinary shortage means for hiring and how to fill DVM roles in 23-35 days anyway.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Veterinary Talent Shortage 2026: What Nobody Tells You | BEG', description: 'Vet school output is flat and demand keeps rising. What the 2026 veterinary shortage means for hiring and how to fill DVM roles in 23-35 days anyway.', images: ['https://www.beghr.com/blog-images/blog-veterinary-hiring-veterinary-talent-shortage.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function VeterinaryTalentShortagePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-veterinary-hiring-veterinary-talent-shortage.webp" alt={`Veterinary Talent Shortage 2026: What Nobody Tells You`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...',
     url: 'https://www.beghr.com/blog/payroll/real-estate/property-management',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-real-estate-property-management.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Real Estate Payroll, W-2 and 1099 (Full Breakdown) | BEG', description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Real Estate Payroll, W-2 and 1099 (Full Breakdown) | BEG', description: 'Real estate payroll outsourcing for brokerages and property management companies. Mixed W-2/1099 workforce, commission processing, brokerage splits. Sav...', images: ['https://www.beghr.com/blog-images/blog-payroll-real-estate-property-management.webp'] },
 
 };
 
@@ -49,6 +49,10 @@ export default function RealEstatePropertyManagementPayrollPage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-real-estate-property-management.webp" alt={`Real Estate Payroll, W-2 and 1099 (Full Breakdown)`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Marketing comp is climbing, but the best marketers are passive and pay is only part of the decision. What actually closes a marketing hire.',
     url: 'https://www.beghr.com/blog/marketing-hiring/marketing-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-marketing-hiring-marketing-salary-trends.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Marketing Salary Trends 2026: What Averages Hide | BEG', description: 'Marketing comp is climbing, but the best marketers are passive and pay is only part of the decision. What actually closes a marketing hire.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Marketing Salary Trends 2026: What Averages Hide | BEG', description: 'Marketing comp is climbing, but the best marketers are passive and pay is only part of the decision. What actually closes a marketing hire.', images: ['https://www.beghr.com/blog-images/blog-marketing-hiring-marketing-salary-trends.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function MarketingSalaryTrendsPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-marketing-hiring-marketing-salary-trends.webp" alt={`Marketing Salary Trends 2026: What Averages Hide`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

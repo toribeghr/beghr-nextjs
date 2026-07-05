@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Experienced underwriters are scarce and passive. A practical playbook to source and close commercial underwriters in 23-35 days without settling.',
     url: 'https://www.beghr.com/blog/insurance-hiring/hiring-commercial-underwriters',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-insurance-hiring-hiring-commercial-underwriters.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring Commercial Underwriters Without Overpaying | BEG', description: 'Experienced underwriters are scarce and passive. A practical playbook to source and close commercial underwriters in 23-35 days without settling.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring Commercial Underwriters Without Overpaying | BEG', description: 'Experienced underwriters are scarce and passive. A practical playbook to source and close commercial underwriters in 23-35 days without settling.', images: ['https://www.beghr.com/blog-images/blog-insurance-hiring-hiring-commercial-underwriters.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function HiringCommercialUnderwritersPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-insurance-hiring-hiring-commercial-underwriters.webp" alt={`Hiring Commercial Underwriters Without Overpaying`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

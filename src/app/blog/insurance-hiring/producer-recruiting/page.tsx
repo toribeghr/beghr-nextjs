@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Recruiting a producer with a portable book is delicate and confidential. How to source revenue-generating producers without tipping off their agency.',
     url: 'https://www.beghr.com/blog/insurance-hiring/producer-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-insurance-hiring-producer-recruiting.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Producer Recruiting: What Nobody Tells You | BEG', description: 'Recruiting a producer with a portable book is delicate and confidential. How to source revenue-generating producers without tipping off their agency.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Producer Recruiting: What Nobody Tells You | BEG', description: 'Recruiting a producer with a portable book is delicate and confidential. How to source revenue-generating producers without tipping off their agency.', images: ['https://www.beghr.com/blog-images/blog-insurance-hiring-producer-recruiting.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function ProducerRecruitingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-insurance-hiring-producer-recruiting.webp" alt={`Producer Recruiting: What Nobody Tells You`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

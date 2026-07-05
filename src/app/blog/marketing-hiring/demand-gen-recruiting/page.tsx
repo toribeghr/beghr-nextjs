@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Demand gen talent is measured on pipeline and revenue, which makes the best people hard to win. How to recruit demand gen managers in 23-35 days.',
     url: 'https://www.beghr.com/blog/marketing-hiring/demand-gen-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-marketing-hiring-demand-gen-recruiting.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Demand Gen Recruiting Before Pipeline Dries Up | BEG', description: 'Demand gen talent is measured on pipeline and revenue, which makes the best people hard to win. How to recruit demand gen managers in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Demand Gen Recruiting Before Pipeline Dries Up | BEG', description: 'Demand gen talent is measured on pipeline and revenue, which makes the best people hard to win. How to recruit demand gen managers in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-marketing-hiring-demand-gen-recruiting.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function DemandGenRecruitingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-marketing-hiring-demand-gen-recruiting.webp" alt={`Demand Gen Recruiting Before Pipeline Dries Up`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

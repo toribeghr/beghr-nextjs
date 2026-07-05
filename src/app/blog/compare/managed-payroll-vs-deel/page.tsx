@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually del...',
     url: 'https://www.beghr.com/blog/compare/managed-payroll-vs-deel',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-compare-managed-payroll-vs-deel.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG', description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually del...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Deel vs BEG Managed Payroll | U.S. Payroll Done For You | BEG', description: 'Deel is built for global contractors. BEG managed payroll is built for domestic W-2 teams. Full comparison of cost, use case, and what each actually del...', images: ['https://www.beghr.com/blog-images/blog-compare-managed-payroll-vs-deel.webp'] },
 
 };
 
@@ -39,6 +39,10 @@ export default function ManagedPayrollVsDeelPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-compare-managed-payroll-vs-deel.webp" alt={`Deel vs BEG Managed Payroll`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

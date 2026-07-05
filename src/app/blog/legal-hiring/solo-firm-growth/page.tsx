@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...',
     url: 'https://www.beghr.com/blog/legal-hiring/solo-firm-growth',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-legal-hiring-solo-firm-growth.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Solo Firm Growth: What Nobody Tells You | BEG', description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Solo Firm Growth: What Nobody Tells You | BEG', description: 'Solo attorney hiring guide. Financial case for your first associate, avoiding common mistakes, the 23-35 day search process, and what to expect in year ...', images: ['https://www.beghr.com/blog-images/blog-legal-hiring-solo-firm-growth.webp'] },
 
 };
 
@@ -88,6 +88,10 @@ export default function SoloFirmGrowthPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-legal-hiring-solo-firm-growth.webp" alt={`Solo Firm Growth: What Nobody Tells You`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

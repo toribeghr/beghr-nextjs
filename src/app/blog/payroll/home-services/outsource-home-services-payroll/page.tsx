@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'What outsourced payroll covers for home services companies, how it handles field tech overtime and drive time, and how BEG onboards home services',
     url: 'https://www.beghr.com/blog/payroll/home-services/outsource-home-services-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-home-services-outsource-home-services-payroll.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Outsourcing Home Services Payroll in 3-5 Days | BEG', description: 'What outsourced payroll covers for home services companies and how BEG onboards in 3-5 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Outsourcing Home Services Payroll in 3-5 Days | BEG', description: 'What outsourced payroll covers for home services companies and how BEG onboards in 3-5 days.', images: ['https://www.beghr.com/blog-images/blog-payroll-home-services-outsource-home-services-payroll.webp'] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function OutsourceHomeServicesPayrollPage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-home-services-outsource-home-services-payroll.webp" alt={`Outsourcing Home Services Payroll in 3-5 Days`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'The average contingency attorney search takes 60\u201390 days. BEG fills attorney roles in 23\u201335 days with an 86% fill rate. Here is why the gap exists.',
     url: 'https://www.beghr.com/blog/compare/how-long-should-attorney-placement-take',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-compare-how-long-should-attorney-placement-take.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How Long Should Attorney Placement Take? 23-35 Days. | BEG', description: 'The average contingency attorney search takes 60\u201390 days. BEG fills attorney roles in 23\u201335 days with an 86% fill rate. Here is why the gap exists.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'How Long Should Attorney Placement Take? 23-35 Days. | BEG', description: 'The average contingency attorney search takes 60\u201390 days. BEG fills attorney roles in 23\u201335 days with an 86% fill rate. Here is why the gap exists.', images: ['https://www.beghr.com/blog-images/blog-compare-how-long-should-attorney-placement-take.webp'] },
 
 };
 
@@ -39,6 +39,10 @@ export default function HowLongAttorneyPlacementPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-compare-how-long-should-attorney-placement-take.webp" alt={`Attorney Placement Timeline`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

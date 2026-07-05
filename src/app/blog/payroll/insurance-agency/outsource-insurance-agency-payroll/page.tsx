@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Why insurance agencies outsource payroll: commission complexity, classification risk, multi-state producer compliance, and ERISA benefits.",
     url: "https://www.beghr.com/blog/payroll/insurance-agency/outsource-insurance-agency-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-insurance-agency-outsource-insurance-agency-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Outsource Insurance Agency Payroll: What Nobody Says | BEG", description: "Why insurance agencies outsource payroll, especially when commission is involved. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Outsource Insurance Agency Payroll: What Nobody Says | BEG", description: "Why insurance agencies outsource payroll, especially when commission is involved. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-insurance-agency-outsource-insurance-agency-payroll.webp"] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function OutsourceInsuranceAgencyPayrollPage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-insurance-agency-outsource-insurance-agency-payroll.webp" alt={`Outsource Insurance Agency Payroll: What Nobody Says`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

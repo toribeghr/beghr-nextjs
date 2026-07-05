@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "How craft breweries apply the FLSA tip credit for taproom servers: tip pooling, tip reporting, state variations, and overtime on tipped wages.",
     url: "https://www.beghr.com/blog/payroll/brewery/taproom-tip-credit-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-brewery-taproom-tip-credit-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Taproom Tip Credit Payroll | State Rules Explained | BEG", description: "Brewery taproom tip credit: FLSA rules, tip pooling, state variations, and overtime calculation for tipped servers.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Taproom Tip Credit Payroll | State Rules Explained | BEG", description: "Brewery taproom tip credit: FLSA rules, tip pooling, state variations, and overtime calculation for tipped servers.", images: ["https://www.beghr.com/blog-images/blog-payroll-brewery-taproom-tip-credit-payroll.webp"] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function TaproomTipCreditPayrollPage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-brewery-taproom-tip-credit-payroll.webp" alt={`Taproom Tip Credit Payroll`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

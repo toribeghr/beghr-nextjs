@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Payroll guides for security companies: SCA compliance, 24/7 guard shift payroll, overtime, and high-volume W-2 production. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/security",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-security.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Security Company Payroll Guides | Guard Shifts + SCA | BEG", description: "Payroll guides for security companies: SCA compliance, shift payroll, overtime, and W-2 production.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Security Company Payroll Guides | Guard Shifts + SCA | BEG", description: "Payroll guides for security companies: SCA compliance, shift payroll, overtime, and W-2 production.", images: ["https://www.beghr.com/blog-images/blog-payroll-security.webp"] },
 };
 
 const posts = [
@@ -62,6 +62,10 @@ export default function SecurityPayrollHubPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-security.webp" alt={`Security Company Payroll Guides`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>

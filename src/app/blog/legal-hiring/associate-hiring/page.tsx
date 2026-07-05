@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...',
     url: 'https://www.beghr.com/blog/legal-hiring/associate-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-legal-hiring-associate-hiring.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days | BEG', description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Law Firm Associate Hiring: Fill Roles in 23-35 Days | BEG', description: 'Law firms average 60-90 days to hire an associate. Top firms fill in 23-35 days using passive lateral searches. 86% fill rate, 45-day guarantee. See the...', images: ['https://www.beghr.com/blog-images/blog-legal-hiring-associate-hiring.webp'] },
 
 };
 
@@ -62,6 +62,10 @@ export default function AssociateHiringPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-legal-hiring-associate-hiring.webp" alt={`Law Firm Associate Hiring: Fill Roles in 23-35 Days`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

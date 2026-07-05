@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Payroll guides for craft breweries and distilleries: taproom tip credit, production staff overtime, TTB record-keeping, and compliance.",
     url: "https://www.beghr.com/blog/payroll/brewery",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-brewery.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Brewery & Distillery Payroll Guides | Taproom + Production | BEG", description: "Payroll guides for craft breweries: taproom tips, production staff, sales reps, and compliance.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Brewery & Distillery Payroll Guides | Taproom + Production | BEG", description: "Payroll guides for craft breweries: taproom tips, production staff, sales reps, and compliance.", images: ["https://www.beghr.com/blog-images/blog-payroll-brewery.webp"] },
 };
 
 const posts = [
@@ -62,6 +62,10 @@ export default function BreweryPayrollHubPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-brewery.webp" alt={`Brewery & Distillery Payroll Guides`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>

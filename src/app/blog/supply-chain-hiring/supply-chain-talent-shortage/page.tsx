@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Demand for supply chain talent outpaces supply. What the 2026 shortage means for hiring and how to fill operations roles in 23-35 days anyway.',
     url: 'https://www.beghr.com/blog/supply-chain-hiring/supply-chain-talent-shortage',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-supply-chain-hiring-supply-chain-talent-shortage.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Supply Chain Talent Shortage 2026: The Truth Behind It | BEG', description: 'Demand for supply chain talent outpaces supply. What the 2026 shortage means for hiring and how to fill operations roles in 23-35 days anyway.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Supply Chain Talent Shortage 2026: The Truth Behind It | BEG', description: 'Demand for supply chain talent outpaces supply. What the 2026 shortage means for hiring and how to fill operations roles in 23-35 days anyway.', images: ['https://www.beghr.com/blog-images/blog-supply-chain-hiring-supply-chain-talent-shortage.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function SupplyChainTalentShortagePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-supply-chain-hiring-supply-chain-talent-shortage.webp" alt={`Supply Chain Talent Shortage 2026: The Truth Behind It`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

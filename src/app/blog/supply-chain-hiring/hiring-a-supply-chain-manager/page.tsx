@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant supply chain manager seat risks service, cost, and inventory. A practical playbook to hire one in 23-35 days with passive candidate sourcing.',
     url: 'https://www.beghr.com/blog/supply-chain-hiring/hiring-a-supply-chain-manager',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-supply-chain-hiring-hiring-a-supply-chain-manager.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring a Supply Chain Manager: How Does It Work? | BEG', description: 'A vacant supply chain manager seat risks service, cost, and inventory. A practical playbook to hire one in 23-35 days with passive candidate sourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring a Supply Chain Manager: How Does It Work? | BEG', description: 'A vacant supply chain manager seat risks service, cost, and inventory. A practical playbook to hire one in 23-35 days with passive candidate sourcing.', images: ['https://www.beghr.com/blog-images/blog-supply-chain-hiring-hiring-a-supply-chain-manager.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function HiringASupplyChainManagerPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-supply-chain-hiring-hiring-a-supply-chain-manager.webp" alt={`Hiring a Supply Chain Manager: How Does It Work?`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

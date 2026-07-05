@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A strong BIM manager keeps documentation, standards, and coordination on track. How to recruit one in 23-35 days when the pool is thin.',
     url: 'https://www.beghr.com/blog/architecture-hiring/bim-manager-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-architecture-hiring-bim-manager-recruiting.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'BIM Manager Recruiting: Before You Post the Job | BEG', description: 'A strong BIM manager keeps documentation, standards, and coordination on track. How to recruit one in 23-35 days when the pool is thin.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'BIM Manager Recruiting: Before You Post the Job | BEG', description: 'A strong BIM manager keeps documentation, standards, and coordination on track. How to recruit one in 23-35 days when the pool is thin.', images: ['https://www.beghr.com/blog-images/blog-architecture-hiring-bim-manager-recruiting.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function BimManagerRecruitingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-architecture-hiring-bim-manager-recruiting.webp" alt={`BIM Manager Recruiting: Before You Post the Job`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

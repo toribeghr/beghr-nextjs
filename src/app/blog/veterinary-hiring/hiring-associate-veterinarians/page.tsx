@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'An open DVM seat means lost revenue and a stretched team. A practical playbook to hire an associate veterinarian in 23-35 days with passive sourcing.',
     url: 'https://www.beghr.com/blog/veterinary-hiring/hiring-associate-veterinarians',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-veterinary-hiring-hiring-associate-veterinarians.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring Associate Veterinarians Fast: How Does It Work? | BEG', description: 'An open DVM seat means lost revenue and a stretched team. A practical playbook to hire an associate veterinarian in 23-35 days with passive sourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring Associate Veterinarians Fast: How Does It Work? | BEG', description: 'An open DVM seat means lost revenue and a stretched team. A practical playbook to hire an associate veterinarian in 23-35 days with passive sourcing.', images: ['https://www.beghr.com/blog-images/blog-veterinary-hiring-hiring-associate-veterinarians.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function HiringAssociateVeterinariansPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-veterinary-hiring-hiring-associate-veterinarians.webp" alt={`Hiring Associate Veterinarians Fast: How Does It Work?`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

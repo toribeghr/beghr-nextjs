@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means and how to staff awards in 23-35 days.',
     url: 'https://www.beghr.com/blog/government-hiring/government-contractor-hiring-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-government-hiring-government-contractor-hiring-trends.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Government Contractor Hiring Trends 2026: What Changed | BEG', description: 'Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means and how to staff awards in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Government Contractor Hiring Trends 2026: What Changed | BEG', description: 'Cleared talent is scarce and award timelines are tight. What the 2026 GovCon hiring market means and how to staff awards in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-government-hiring-government-contractor-hiring-trends.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function GovernmentContractorHiringTrendsPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-government-hiring-government-contractor-hiring-trends.webp" alt={`Government Contractor Hiring Trends 2026: What Changed`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

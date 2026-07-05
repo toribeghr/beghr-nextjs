@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Credit analysts are hard to find and central to sound lending. How to source and close strong credit talent in 23-35 days in a tight market.',
     url: 'https://www.beghr.com/blog/banking-hiring/credit-analyst-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-banking-hiring-credit-analyst-recruiting.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Credit Analyst Recruiting: What Nobody Tells You | BEG', description: 'Credit analysts are hard to find and central to sound lending. How to source and close strong credit talent in 23-35 days in a tight market.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Credit Analyst Recruiting: What Nobody Tells You | BEG', description: 'Credit analysts are hard to find and central to sound lending. How to source and close strong credit talent in 23-35 days in a tight market.', images: ['https://www.beghr.com/blog-images/blog-banking-hiring-credit-analyst-recruiting.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function CreditAnalystRecruitingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-banking-hiring-credit-analyst-recruiting.webp" alt={`Credit Analyst Recruiting: What Nobody Tells You`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

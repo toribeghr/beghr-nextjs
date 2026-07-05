@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Modern people-ops leaders blend HR judgment with systems and data fluency. How to source the rare candidates who do both in 23-35 days.',
     url: 'https://www.beghr.com/blog/hr-hiring/people-operations-recruiting',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hr-hiring-people-operations-recruiting.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'People Ops Recruiting: Before You Post the Role | BEG', description: 'Modern people-ops leaders blend HR judgment with systems and data fluency. How to source the rare candidates who do both in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'People Ops Recruiting: Before You Post the Role | BEG', description: 'Modern people-ops leaders blend HR judgment with systems and data fluency. How to source the rare candidates who do both in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-hr-hiring-people-operations-recruiting.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function PeopleOperationsRecruitingPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hr-hiring-people-operations-recruiting.webp" alt={`People Ops Recruiting: Before You Post the Role`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.',
     url: 'https://www.beghr.com/blog/legal-hiring/in-house-counsel',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-legal-hiring-in-house-counsel.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'In-House Counsel Hiring: Before You Need a GC | BEG', description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'In-House Counsel Hiring: Before You Need a GC | BEG', description: 'When to hire in-house counsel vs. stick with outside firms. General Counsel hiring process, compensation, and search timeline for growing companies.', images: ['https://www.beghr.com/blog-images/blog-legal-hiring-in-house-counsel.webp'] },
 
 };
 
@@ -62,6 +62,10 @@ export default function InHouseCounselPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-legal-hiring-in-house-counsel.webp" alt={`In-House Counsel Hiring: Before You Need a GC`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

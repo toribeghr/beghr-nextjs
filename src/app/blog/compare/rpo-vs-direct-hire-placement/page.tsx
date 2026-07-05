@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'RPO vs direct-hire placement compared on cost, commitment, and speed. See when each fits and where milestone-based placement saves roughly 50%.',
     url: 'https://www.beghr.com/blog/compare/rpo-vs-direct-hire-placement',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-compare-rpo-vs-direct-hire-placement.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'RPO vs Direct-Hire Placement | BEG', description: 'RPO vs direct-hire placement compared on cost, commitment, and speed. See when each fits and where milestone-based placement saves roughly 50%.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'RPO vs Direct-Hire Placement | BEG', description: 'RPO vs direct-hire placement compared on cost, commitment, and speed. See when each fits and where milestone-based placement saves roughly 50%.', images: ['https://www.beghr.com/blog-images/blog-compare-rpo-vs-direct-hire-placement.webp'] },
 };
 
 
@@ -38,6 +38,10 @@ export default function RpoVsDirectHirePlacementPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-compare-rpo-vs-direct-hire-placement.webp" alt={`RPO vs Direct-Hire Placement`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

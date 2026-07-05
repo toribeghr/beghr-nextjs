@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Commercial banking interviews that go beyond credentials. The questions that reveal credit judgment, relationship-building ability, and regulatory fitness.',
     url: 'https://www.beghr.com/blog/banking-hiring/banking-interview-questions',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-banking-hiring-banking-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Banking Interview Questions That Actually Predict Fit | BEG', description: 'Commercial banking interviews that go beyond credentials. The questions that reveal credit judgment, relationship-building ability, and regulatory fitness.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Banking Interview Questions That Actually Predict Fit | BEG', description: 'Commercial banking interviews that go beyond credentials. The questions that reveal credit judgment, relationship-building ability, and regulatory fitness.', images: ['https://www.beghr.com/blog-images/blog-banking-hiring-banking-interview-questions.webp'] },
 };
 
 
@@ -53,6 +53,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-banking-hiring-banking-interview-questions.webp" alt={`Banking Interview Questions That Actually Predict Fit`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

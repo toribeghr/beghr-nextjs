@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how to fill HR roles in 23-35 days anyway.',
     url: 'https://www.beghr.com/blog/hr-hiring/hr-talent-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hr-hiring-hr-talent-trends.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HR Talent Trends 2026: What Changed in People Ops | BEG', description: 'People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how to fill HR roles in 23-35 days anyway.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HR Talent Trends 2026: What Changed in People Ops | BEG', description: 'People-ops teams are asked to do more with less. What the 2026 HR hiring market looks like and how to fill HR roles in 23-35 days anyway.', images: ['https://www.beghr.com/blog-images/blog-hr-hiring-hr-talent-trends.webp'] },
 };
 
 
@@ -57,6 +57,10 @@ export default function HrTalentTrendsPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hr-hiring-hr-talent-trends.webp" alt={`HR Talent Trends 2026: What Changed in People Ops`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

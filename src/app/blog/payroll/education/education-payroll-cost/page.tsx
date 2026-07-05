@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "What it really costs to run payroll for a private school in-house vs managed. Hidden costs, staff time, and how $25-$45 PEPM compares. BEG managed payroll.",
     url: "https://www.beghr.com/blog/payroll/education/education-payroll-cost",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-education-education-payroll-cost.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "School Payroll Costs: In-House vs Managed, the Gap | BEG", description: "What it costs to run payroll for a private school in-house vs managed payroll at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "School Payroll Costs: In-House vs Managed, the Gap | BEG", description: "What it costs to run payroll for a private school in-house vs managed payroll at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-education-education-payroll-cost.webp"] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function EducationPayrollCostPage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-education-education-payroll-cost.webp" alt={`School Payroll Costs: In-House vs Managed, the Gap`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

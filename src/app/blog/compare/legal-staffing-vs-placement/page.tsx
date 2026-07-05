@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...',
     url: 'https://www.beghr.com/blog/compare/legal-staffing-vs-placement',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-compare-legal-staffing-vs-placement.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Legal Staffing vs Placement | The Real Difference | BEG', description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Legal Staffing vs Placement | The Real Difference | BEG', description: 'Legal staffing and attorney placement are not the same thing. One fills temporary gaps. The other finds permanent hires. Know the difference before you ...', images: ['https://www.beghr.com/blog-images/blog-compare-legal-staffing-vs-placement.webp'] },
 
 };
 
@@ -39,6 +39,10 @@ export default function LegalStaffingVsPlacementPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-compare-legal-staffing-vs-placement.webp" alt={`Legal Staffing vs Attorney Placement`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

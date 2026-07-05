@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Complete brewery and distillery payroll guide: taproom tip credit, production staff, sales rep commissions, seasonal staffing, and TTB record-keeping. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/brewery/brewery-distillery-payroll-guide",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-brewery-brewery-distillery-payroll-guide.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Brewery and Distillery Payroll Guide in 2026 | BEG", description: "Brewery and distillery payroll: taproom tips, production staff, sales rep commissions, and compliance.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Brewery and Distillery Payroll Guide in 2026 | BEG", description: "Brewery and distillery payroll: taproom tips, production staff, sales rep commissions, and compliance.", images: ["https://www.beghr.com/blog-images/blog-payroll-brewery-brewery-distillery-payroll-guide.webp"] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function BreweryDistilleryPayrollGuidePage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-brewery-brewery-distillery-payroll-guide.webp" alt={`Brewery and Distillery Payroll Guide in 2026`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

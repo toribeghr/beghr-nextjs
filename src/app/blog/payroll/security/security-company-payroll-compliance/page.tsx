@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Security company payroll compliance: state licensing, workers comp classifications, multi-state payroll, and record requirements. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/security/security-company-payroll-compliance",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-security-security-company-payroll-compliance.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Security Company Payroll Compliance for 2026 | BEG", description: "Security company payroll compliance: state licensing, workers comp, multi-state registration, and records.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Security Company Payroll Compliance for 2026 | BEG", description: "Security company payroll compliance: state licensing, workers comp, multi-state registration, and records.", images: ["https://www.beghr.com/blog-images/blog-payroll-security-security-company-payroll-compliance.webp"] },
 };
 
 const faqs = [
@@ -49,6 +49,10 @@ export default function SecurityCompanyPayrollCompliancePage() {
   return (
     <article className="blog-post">
       {/* FREE TOOL CALLOUT */}
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-security-security-company-payroll-compliance.webp" alt={`Security Company Payroll Compliance for 2026`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+      </section>
+
       <section className="container" style={{ maxWidth: '820px', paddingBottom: '3rem' }}>
         <div style={{ background: '#fff7ec', border: '1px solid #ECAC60', borderRadius: '10px', padding: '1.5rem 1.75rem' }}>
           <p style={{ fontWeight: '700', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#9a6b1f', margin: '0 0 0.4rem' }}>Free Payroll Tool</p>

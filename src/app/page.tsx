@@ -114,7 +114,7 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="head center reveal">
-            <p className="eyebrow">Three Services. One Partner.</p>
+            <p className="eyebrow">One Partner. Every HR Problem.</p>
             <h2>Pick your problem. We have a solution.</h2>
           </div>
           <div className="cards">
@@ -127,7 +127,7 @@ export default function Home() {
             <Link href="/services/hcm-software" className="card-link reveal">
               <span className="tag">HCM Software</span>
               <h3>HR software your team actually uses?</h3>
-              <p>iSolved People Cloud puts payroll, HR, time, and benefits on one platform. BEG implements and supports you year-round. 330% documented ROI. Now with Claude AI integration.</p>
+              <p>isolved People Cloud puts payroll, HR, time, and benefits on one platform. BEG implements and supports you year-round. 330% documented ROI. Now with Claude AI integration.</p>
               <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See HCM software &rarr;</span>
             </Link>
             <Link href="/services/job-placement" className="card-link reveal">
@@ -135,6 +135,12 @@ export default function Home() {
               <h3>A role that has been open too long?</h3>
               <p>We place specialized professionals in 23-35 days at roughly 50% less than contingency firms. 45-day replacement guarantee. Legal, healthcare, finance, tech, and more.</p>
               <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See job placement &rarr;</span>
+            </Link>
+            <Link href="/services/hr-outsourcing" className="card-link reveal">
+              <span className="tag">HR Outsourcing</span>
+              <h3>HR problems without an HR department?</h3>
+              <p>Certified HR pros handle your handbook, compliance, and leave for a fraction of a $60K-$100K hire. Powered by isolved. Not a PEO: you stay the employer.</p>
+              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See HR outsourcing &rarr;</span>
             </Link>
           </div>
         </div>

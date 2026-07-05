@@ -535,6 +535,9 @@ export default function HrOutsourcingPage() {
               <p className="lede" style={{ margin: '12px auto 0', maxWidth: '720px' }}>
                 Minimum wage, overtime, and leave mandates differ everywhere. Find your state below.
               </p>
+              <p style={{ margin: '14px auto 0' }}>
+                <Link href="/services/hr-outsourcing/leave-law-lookup" style={{ color: '#ECAC60', fontWeight: 700 }}>Free tool: check any state&apos;s paid sick and family leave rules &rarr;</Link>
+              </p>
             </div>
             <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(170px, 1fr))', gap: '0.4rem 1.25rem', marginTop: '2rem' }}>
               <Link key="alabama" href="/services/hr-outsourcing/alabama" style={{ padding: '0.35rem 0', color: 'inherit', textDecoration: 'none', borderBottom: '1px solid #ececec' }}>Alabama</Link>
@@ -619,6 +622,11 @@ export default function HrOutsourcingPage() {
                   <li><Link href="/services/hr-outsourcing/paychex-peo-alternative">Paychex PEO alternative</Link></li>
                   <li><Link href="/services/hr-outsourcing/justworks-alternative">Justworks alternative</Link></li>
                   <li><Link href="/services/hr-outsourcing/bambee-alternative">Bambee alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/vensure-alternative">Vensure alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/ga-partners-alternative">G&amp;A Partners alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/engage-peo-alternative">Engage PEO alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/rippling-peo-alternative">Rippling PEO alternative</Link></li>
+                  <li><Link href="/services/hr-outsourcing/deel-peo-alternative">Deel PEO alternative</Link></li>
                 </ul>
               </div>
               <div>

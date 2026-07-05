@@ -372,7 +372,7 @@ export default function PlacementPricingForm({ industry = null, onClose }: { ind
               )}
 
               <div style={{ background: '#0c0800', border: `2px solid ${G}`, borderRadius: '12px', padding: '16px 18px', marginBottom: '14px', textAlign: 'left' }}>
-                {([['⚡', '23-35 day average fill'], ['✅', '86% fill rate'], ['🛡️', '45-day replacement guarantee'], ['🏛️', 'Clients pay iSolved directly']] as [string, string][]).map(([ic, tx]) => (
+                {([['⚡', '23-35 day average fill'], ['✅', '86% fill rate'], ['🛡️', '45-day replacement guarantee'], ['🏛️', 'Clients pay isolved directly']] as [string, string][]).map(([ic, tx]) => (
                   <div key={tx} style={{ display: 'flex', gap: '8px', fontSize: '0.78rem', color: '#888', marginBottom: '7px' }}><span>{ic}</span><span>{tx}</span></div>
                 ))}
                 <div style={{ background: '#141000', border: '1px solid #4a3800', borderRadius: '9px', padding: '10px 12px', marginTop: '6px', display: 'flex', gap: '8px', alignItems: 'flex-start' }}>

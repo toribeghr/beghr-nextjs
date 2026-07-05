@@ -30,8 +30,8 @@ const LABELS: Record<Service, string> = {
   'managed-payroll': 'Get Pricing in 90 Seconds',
   'job-placement': 'Get Pricing in 90 Seconds',
   'hcm-software': 'Get Your Instant Quote',
-  'hr-outsourcing': 'Get Your Instant Estimate',
-  'managed-benefits': 'Get Your Instant Estimate',
+  'hr-outsourcing': 'Get Instant Pricing',
+  'managed-benefits': 'Get Instant Pricing',
   chooser: 'Get Instant Pricing',
 };
 

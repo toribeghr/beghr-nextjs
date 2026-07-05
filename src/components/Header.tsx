@@ -115,7 +115,7 @@ export default function Header() {
             </div>
           ))}
 
-          <PricingCta service="chooser" subline={false} label="&#9889; Get Instant Pricing" />
+          <PricingCta service="chooser" subline={false} label="Get Instant Pricing" />
         </nav>
 
         {/* Hamburger — 3-line → X animation via CSS */}

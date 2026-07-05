@@ -367,6 +367,21 @@ export default function HrOutsourcingPage() {
                 <h3>Multi-Unit Restaurants</h3>
                 <p>Tip policies, minor labor rules, and GM coaching standardized across every location.</p>
               </Link>
+              <Link href="/services/hr-outsourcing/senior-care" className="card-link reveal">
+                <span className="tag">Senior Care</span>
+                <h3>Senior Care</h3>
+                <p>Background screening, aide certification tracking, and personnel files that pass survey.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/home-health" className="card-link reveal">
+                <span className="tag">Home Health</span>
+                <h3>Home Health</h3>
+                <p>Field-workforce handbooks, post-2015 caregiver pay policies, and survey-ready aide files.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/manufacturing" className="card-link reveal">
+                <span className="tag">Manufacturing</span>
+                <h3>Manufacturing</h3>
+                <p>Attendance systems with protected-absence carve-outs and discipline that survives scrutiny.</p>
+              </Link>
             </div>
           </div>
         </section>

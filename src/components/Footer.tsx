@@ -64,6 +64,9 @@ export default function Footer() {
             <Link href="/services/hr-outsourcing/healthcare" className="footer-link">Healthcare</Link>
             <Link href="/services/hr-outsourcing/construction" className="footer-link">Construction</Link>
             <Link href="/services/hr-outsourcing/multi-unit-restaurant" className="footer-link">Multi-Unit Restaurants</Link>
+            <Link href="/services/hr-outsourcing/senior-care" className="footer-link">Senior Care</Link>
+            <Link href="/services/hr-outsourcing/home-health" className="footer-link">Home Health</Link>
+            <Link href="/services/hr-outsourcing/manufacturing" className="footer-link">Manufacturing</Link>
           </div>
 
           {/* HCM Software */}

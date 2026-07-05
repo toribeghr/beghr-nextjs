@@ -14,8 +14,9 @@ const PricingModal = dynamic(() => import('./PricingModal'), { ssr: false });
 const PlacementPricingForm = dynamic(() => import('./PlacementPricingForm'), { ssr: false });
 const PayrollPricingForm = dynamic(() => import('./PayrollPricingForm'), { ssr: false });
 const HcmPricingForm = dynamic(() => import('./HcmPricingForm'), { ssr: false });
+const HrOutsourcingPricingForm = dynamic(() => import('./HrOutsourcingPricingForm'), { ssr: false });
 
-type Service = 'job-placement' | 'managed-payroll' | 'hcm-software' | 'chooser';
+type Service = 'job-placement' | 'managed-payroll' | 'hcm-software' | 'hr-outsourcing' | 'chooser';
 
 interface Props {
   service: Service;
@@ -28,6 +29,7 @@ const LABELS: Record<Service, string> = {
   'managed-payroll': 'Get Pricing in 90 Seconds',
   'job-placement': 'Get Pricing in 90 Seconds',
   'hcm-software': 'Get Your Instant Quote',
+  'hr-outsourcing': 'Get Your Instant Estimate',
   chooser: 'Get Instant Pricing',
 };
 
@@ -35,6 +37,7 @@ const SUBLINES: Record<Service, string> = {
   'managed-payroll': 'See your exact monthly & annual price - no call required',
   'job-placement': 'See your exact placement price - no call required',
   'hcm-software': 'Exact monthly and annual price - no call required',
+  'hr-outsourcing': 'Your monthly estimate on screen - no call required',
   chooser: 'Pick a service, see your price - no call required',
 };
 
@@ -85,6 +88,7 @@ export default function PricingCta({ service, industry, subline = true, label }:
                   {chooserCard('managed-payroll', '💵', 'Managed Payroll & HR', 'We run payroll for you - every filing, deadline and W-2 handled')}
                   {chooserCard('job-placement', '🎯', 'Job Placement', 'Open roles filled in 23-35 days, priced per role')}
                   {chooserCard('hcm-software', '🖥️', 'HCM Software (isolved)', 'HR, payroll, talent and benefits on one platform')}
+                  {chooserCard('hr-outsourcing', '🧑‍💼', 'HR Outsourcing', 'Handbooks, compliance and a dedicated HR pro - your HR, handled')}
                 </Wrap>
               </div>
             </>
@@ -92,6 +96,8 @@ export default function PricingCta({ service, industry, subline = true, label }:
             <PayrollPricingForm onClose={close} />
           ) : active === 'job-placement' ? (
             <PlacementPricingForm industry={industry} onClose={close} />
+          ) : active === 'hr-outsourcing' ? (
+            <HrOutsourcingPricingForm onClose={close} />
           ) : (
             <HcmPricingForm onClose={close} />
           )}

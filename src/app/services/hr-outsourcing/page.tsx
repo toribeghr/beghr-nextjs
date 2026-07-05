@@ -344,8 +344,35 @@ export default function HrOutsourcingPage() {
           </div>
         </section>
 
-        {/* FAQ */}
+        {/* BY INDUSTRY */}
         <section className="section section--soft">
+          <div className="container">
+            <div className="head center reveal">
+              <p className="eyebrow">By Industry</p>
+              <h2>HR outsourcing built for how your industry gets in trouble</h2>
+            </div>
+            <div className="cards">
+              <Link href="/services/hr-outsourcing/healthcare" className="card-link reveal">
+                <span className="tag">Healthcare</span>
+                <h3>Healthcare</h3>
+                <p>Credential tracking, exclusion screening, and personnel files that survive a survey.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/construction" className="card-link reveal">
+                <span className="tag">Construction</span>
+                <h3>Construction</h3>
+                <p>Classification calls documented, jobsite-speed hiring paperwork, and policies that hold up after an incident.</p>
+              </Link>
+              <Link href="/services/hr-outsourcing/multi-unit-restaurant" className="card-link reveal">
+                <span className="tag">Restaurants</span>
+                <h3>Multi-Unit Restaurants</h3>
+                <p>Tip policies, minor labor rules, and GM coaching standardized across every location.</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="section">
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">Questions</p>

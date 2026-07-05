@@ -61,6 +61,9 @@ export default function Footer() {
           <div className="footer-col">
             <h5 className="footer-col-heading">HR Outsourcing</h5>
             <Link href="/services/hr-outsourcing" className="footer-link footer-link--overview">Overview</Link>
+            <Link href="/services/hr-outsourcing/healthcare" className="footer-link">Healthcare</Link>
+            <Link href="/services/hr-outsourcing/construction" className="footer-link">Construction</Link>
+            <Link href="/services/hr-outsourcing/multi-unit-restaurant" className="footer-link">Multi-Unit Restaurants</Link>
           </div>
 
           {/* HCM Software */}

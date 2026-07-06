@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Education LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for education. BEG resells and configures isolved Learn & Grow so you can assign mandated-reporter, safety, and professional-development training, track completions, and stay audit-ready, nationwide.',
+  title: 'School District Compliance Training Software | BEG',
+  description: 'Assign mandated reporter, Title IX, and FERPA training, track completion by staff role, prove compliance instantly. See isolved Learn & Grow pricing.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/education' },
   openGraph: {
-    title: 'Education LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for education. BEG resells and configures isolved Learn & Grow so you can assign mandated-reporter, safety, and professional-development training, track completions, and stay audit-ready, nationwide.',
+    title: 'School District Compliance Training Software | BEG',
+    description: 'Assign mandated reporter, Title IX, and FERPA training, track completion by staff role, prove compliance instantly. See isolved Learn & Grow pricing.',
     url: 'https://www.beghr.com/services/lms-learning-management/education',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Education LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for education. BEG resells and configures isolved Learn & Grow so you can assign mandated-reporter, safety, and professional-development training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'School District Compliance Training Software | BEG', description: 'Assign mandated reporter, Title IX, and FERPA training, track completion by staff role, prove compliance instantly. See isolved Learn & Grow pricing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('education');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your education roles and training requirements.',
+    'Who is required to complete mandated reporter training in schools?',
+    'Most states require teachers, paraprofessionals, and other school staff to act as mandated reporters of suspected abuse or neglect, with training and reporting timelines set by state law. isolved Learn & Grow assigns the training to every applicable role and documents completion for state compliance.',
+  ],
+  [
+    'Does FERPA prevent schools from reporting under Title IX?',
+    'No. FERPA protects student education records, but it does not restrict a school’s duty to report and address discrimination under Title IX. Learn & Grow lets districts train staff on both requirements separately so responsibilities under each law are clear and documented.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific mandated-reporter, safety, and professional-development training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific education training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for education employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsEducationPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Deliver required and professional-development training across the whole staff.',
-            description: 'Training software for education. BEG resells and configures isolved Learn & Grow so you can assign mandated-reporter, safety, and professional-development training, track completions, and stay audit-ready, nationwide.',
+            headline: 'A teacher who misses a mandated reporter training requirement can face personal legal consequences, and so can the district that failed to document it.',
+            description: 'Assign mandated reporter, Title IX, and FERPA training, track completion by staff role, prove compliance instantly. See isolved Learn & Grow pricing.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsEducationPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Education"
-        title="Deliver required and professional-development training across the whole staff."
-        description="Training teachers and staff on mandated-reporter, safety, and professional-development training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your education team stays trained, compliant, and audit-ready, in all 50 states."
+        title="A teacher who misses a mandated reporter training requirement can face personal legal consequences, and so can the district that failed to document it."
+        description="In education, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for education teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsEducationPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in education shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in education</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'mandated-reporter, safety, and professional-development training cannot lapse',
-                  sub: 'In education, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: 'Every employee',
+                  label: 'Title IX responsible employee scope',
+                  sub: 'Any school employee who has authority to address harassment or a duty to report it is a Title IX responsible employee, meaning most staff, not just administrators, need documented training on reporting obligations.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When teachers and staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: 'State-set timelines',
+                  label: 'Mandated reporter deadlines',
+                  sub: 'Teachers and staff acting as mandated reporters must report suspected abuse or neglect to authorities, often within a defined timeline set by state law, and failure to act can carry legal consequences for the individual educator.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'FERPA does not block Title IX duties',
+                  label: 'Two laws, one compliance record',
+                  sub: 'FERPA protects student education records, but it does not restrict a school’s duty to prevent and address discrimination under Title IX, meaning staff need training on how both rules interact, not just one in isolation.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsEducationPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how education actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how education actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsEducationPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required mandated-reporter, safety, and professional-development training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign mandated reporter and Title IX training by role',
+                  body: 'isolved Learn & Grow lets a district push mandated reporter, Title IX responsible employee, and FERPA training to every staff category, with documented completion for each.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New teachers and staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track annual and new-hire completion deadlines',
+                  body: 'Get automatic reminders as new staff onboard and as annual refresher deadlines approach for existing employees across every building in the district.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance to your school board or state auditor',
+                  body: 'Generate a district-wide or building-specific training completion report instantly when a board member, state auditor, or Title IX coordinator needs documentation.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsEducationPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.ecfr.gov/current/title-34/subtitle-B/chapter-I/part-106" target="_blank" rel="noopener noreferrer">Title IX Regulations, 34 CFR Part 106</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

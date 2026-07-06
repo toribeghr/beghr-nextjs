@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Security LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for security. BEG resells and configures isolved Learn & Grow so you can assign state licensing, use-of-force, and safety training, track completions, and stay audit-ready, nationwide.',
+  title: 'Security Guard Training Compliance Software | BEG',
+  description: 'Assign state-mandated guard training and use-of-force hours, track license renewals, and prove compliance to clients and regulators. isolved learn and grow.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/security' },
   openGraph: {
-    title: 'Security LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for security. BEG resells and configures isolved Learn & Grow so you can assign state licensing, use-of-force, and safety training, track completions, and stay audit-ready, nationwide.',
+    title: 'Security Guard Training Compliance Software | BEG',
+    description: 'Assign state-mandated guard training and use-of-force hours, track license renewals, and prove compliance to clients and regulators. isolved learn and grow.',
     url: 'https://www.beghr.com/services/lms-learning-management/security',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Security LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for security. BEG resells and configures isolved Learn & Grow so you can assign state licensing, use-of-force, and safety training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Security Guard Training Compliance Software | BEG', description: 'Assign state-mandated guard training and use-of-force hours, track license renewals, and prove compliance to clients and regulators. isolved learn and grow.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('security');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your security roles and training requirements.',
+    'Do guard training hour requirements really differ that much by state?',
+    'Yes. Entry-level unarmed guard training ranges from about 4 hours in some states to 40 hours in California, plus separate use-of-force and armed-guard requirements. isolved learn and grow tracks each guard’s completed hours against their specific state’s rule.',
+  ],
+  [
+    'Can we prove a guard was properly trained if a client or regulator asks after an incident?',
+    'Yes. You can produce a dated training and certification record for any guard, showing exactly which state-required hours and use-of-force training were completed and when.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific state licensing, use-of-force, and safety training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific security training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for security employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsSecurityPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep officers licensed and trained across every post and shift.',
-            description: 'Training software for security. BEG resells and configures isolved Learn & Grow so you can assign state licensing, use-of-force, and safety training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Guard license hours and use-of-force training tracked before your client’s contract requires proof',
+            description: 'Assign state-mandated guard training and use-of-force hours, track license renewals, and prove compliance to clients and regulators. isolved learn and grow.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsSecurityPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Security"
-        title="Keep officers licensed and trained across every post and shift."
-        description="Training guards and officers on state licensing, use-of-force, and safety training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your security team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Guard license hours and use-of-force training tracked before your client’s contract requires proof"
+        description="In security, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for security teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsSecurityPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in security shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in security</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'state licensing, use-of-force, and safety training cannot lapse',
-                  sub: 'In security, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '4 to 40 hours',
+                  label: 'Range of state entry-level guard training requirements',
+                  sub: 'Unarmed guard training mandates range from as little as 4 hours in Tennessee to 40 hours in California, and a guard working across state lines needs each state’s hours documented separately.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When guards and officers turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '8 hours',
+                  label: 'California’s required use-of-force training before a Guard Card',
+                  sub: 'California requires 8 hours of Powers to Arrest and appropriate use-of-force training before an applicant can even apply for a Guard Card.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '1 incident',
+                  label: 'What turns a training gap into a lawsuit',
+                  sub: 'A use-of-force incident involving an under-trained or improperly licensed guard is the fastest way a security firm loses a client contract and faces liability.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsSecurityPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how security actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how security actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsSecurityPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required state licensing, use-of-force, and safety training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign state-specific guard training tracks',
+                  body: 'isolved learn and grow lets you build required curricula matched to each state’s entry-level and use-of-force training hours, since requirements differ dramatically state to state.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New guards and officers run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track license and certification renewal',
+                  body: 'Automated tracking flags guards approaching license renewal or missing required hours before they are assigned to a post.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance to clients and regulators',
+                  body: 'Generate a per-guard, per-state training and licensing report, useful for client contract audits and state licensing board reviews.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsSecurityPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://dos.ny.gov/security-guard-training-requirements" target="_blank" rel="noopener noreferrer">NY security guard training requirements</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://dos.ny.gov/security-guard-training-requirements" target="_blank" rel="noopener noreferrer">New York Department of State, security guard training requirements</a>, <a href="https://calsaga.org/training-requirements-faq/" target="_blank" rel="noopener noreferrer">California Association of Licensed Security Agencies, training requirements FAQ</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

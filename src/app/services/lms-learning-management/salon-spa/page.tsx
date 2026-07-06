@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Salon & Spa LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for salons and spas. BEG resells and configures isolved Learn & Grow so you can assign licensing, sanitation, and safety training, track completions, and stay audit-ready, nationwide.',
+  title: 'Salon and Spa Staff Training Software | BEG',
+  description: 'Assign cosmetology CE, sanitation, and bloodborne pathogen training to every stylist and tech, track license renewals, and prove compliance. isolved learn and grow.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/salon-spa' },
   openGraph: {
-    title: 'Salon & Spa LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for salons and spas. BEG resells and configures isolved Learn & Grow so you can assign licensing, sanitation, and safety training, track completions, and stay audit-ready, nationwide.',
+    title: 'Salon and Spa Staff Training Software | BEG',
+    description: 'Assign cosmetology CE, sanitation, and bloodborne pathogen training to every stylist and tech, track license renewals, and prove compliance. isolved learn and grow.',
     url: 'https://www.beghr.com/services/lms-learning-management/salon-spa',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Salon & Spa LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for salons and spas. BEG resells and configures isolved Learn & Grow so you can assign licensing, sanitation, and safety training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Salon and Spa Staff Training Software | BEG', description: 'Assign cosmetology CE, sanitation, and bloodborne pathogen training to every stylist and tech, track license renewals, and prove compliance. isolved learn and grow.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('salon-spa');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your salons and spas roles and training requirements.',
+    'Do continuing education requirements for cosmetologists vary by state?',
+    'Yes, significantly. Some states require 10 to 14 hours every renewal cycle covering sanitation and safety, while others require none. isolved learn and grow tracks each employee’s specific state requirement and renewal date automatically.',
+  ],
+  [
+    'Can we prove bloodborne pathogen and sanitation training if the state board inspects us?',
+    'Yes. You can pull a dated completion record for every stylist and technician showing sanitation and infection control training, which is exactly what a state board inspector asks for.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific licensing, sanitation, and safety training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific salons and spas training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for salons and spas employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsSalonSpaPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep licenses current and staff sanitation-trained across the salon.',
-            description: 'Training software for salons and spas. BEG resells and configures isolved Learn & Grow so you can assign licensing, sanitation, and safety training, track completions, and stay audit-ready, nationwide.',
+            headline: 'License renewal and bloodborne pathogen training tracked by stylist, not by sticky note',
+            description: 'Assign cosmetology CE, sanitation, and bloodborne pathogen training to every stylist and tech, track license renewals, and prove compliance. isolved learn and grow.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsSalonSpaPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Salon &amp; Spa"
-        title="Keep licenses current and staff sanitation-trained across the salon."
-        description="Training stylists and staff on licensing, sanitation, and safety training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your salons and spas team stays trained, compliant, and audit-ready, in all 50 states."
+        title="License renewal and bloodborne pathogen training tracked by stylist, not by sticky note"
+        description="In salons and spas, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for salons and spas teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsSalonSpaPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in salons and spas shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in salons and spas</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'licensing, sanitation, and safety training cannot lapse',
-                  sub: 'In salons and spas, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '14 hours',
+                  label: 'Example state CE requirement, Illinois cosmetologists',
+                  sub: 'Illinois requires cosmetologists to complete 14 hours of approved continuing education every 2 years to renew, including sanitation topics, and requirements differ by state.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When stylists and staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '1,500 hours',
+                  label: 'Typical initial cosmetology licensing hours',
+                  sub: 'Most states require roughly 1,500 hours of training before initial licensure, and every renewal cycle after that has its own separate continuing education rule.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '1 inspection',
+                  label: 'What exposes a lapsed license or missed sanitation training',
+                  sub: 'A state board inspection or client complaint is when a lapsed license or undocumented bloodborne pathogen training becomes a fine, not just an oversight.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsSalonSpaPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how salons and spas actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how salons and spas actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsSalonSpaPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required licensing, sanitation, and safety training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Track license renewal by stylist and by state',
+                  body: 'isolved learn and grow tracks each stylist’s or technician’s license expiration and required CE hours, which vary state to state, so nothing lapses unnoticed.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New stylists and staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Assign sanitation and bloodborne pathogen training',
+                  body: 'Require infection control and bloodborne pathogen training as part of onboarding and ongoing renewal, matching what most state boards expect to see documented.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance during a state board inspection',
+                  body: 'Generate a dated completion report per employee, ready to hand to a state cosmetology board inspector on the spot.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsSalonSpaPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.bloodbornepathogenstrainingonline.com/page/BeautySalon.html" target="_blank" rel="noopener noreferrer">Bloodborne pathogens training standards for salons</a>, <a href="https://www.osha.gov/bloodborne-pathogens" target="_blank" rel="noopener noreferrer">OSHA, bloodborne pathogens standard</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Agriculture LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for agriculture. BEG resells and configures isolved Learn & Grow so you can assign equipment safety, chemical handling, and worker-protection training, track completions, and stay audit-ready, nationwide.',
+  title: 'Agriculture Safety Training Software | BEG',
+  description: 'Assign EPA Worker Protection Standard pesticide training, track annual renewals, prove compliance instantly. See isolved Learn & Grow pricing.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/agriculture' },
   openGraph: {
-    title: 'Agriculture LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for agriculture. BEG resells and configures isolved Learn & Grow so you can assign equipment safety, chemical handling, and worker-protection training, track completions, and stay audit-ready, nationwide.',
+    title: 'Agriculture Safety Training Software | BEG',
+    description: 'Assign EPA Worker Protection Standard pesticide training, track annual renewals, prove compliance instantly. See isolved Learn & Grow pricing.',
     url: 'https://www.beghr.com/services/lms-learning-management/agriculture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Agriculture LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for agriculture. BEG resells and configures isolved Learn & Grow so you can assign equipment safety, chemical handling, and worker-protection training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Agriculture Safety Training Software | BEG', description: 'Assign EPA Worker Protection Standard pesticide training, track annual renewals, prove compliance instantly. See isolved Learn & Grow pricing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('agriculture');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your agriculture roles and training requirements.',
+    'When must agricultural workers receive pesticide safety training?',
+    'EPA’s Worker Protection Standard requires training on the first day on the job and every 12 months thereafter for workers and handlers with reasonably anticipated pesticide exposure. isolved Learn & Grow assigns the training automatically at hire and flags the annual renewal.',
+  ],
+  [
+    'How long must WPS training records be kept?',
+    'EPA requires employers to retain training records for at least two years after completion. Learn & Grow stores every completion record digitally so it is ready the moment a state pesticide inspector asks.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific equipment safety, chemical handling, and worker-protection training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific agriculture training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for agriculture employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsAgriculturePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep seasonal and year-round crews trained and compliant across the operation.',
-            description: 'Training software for agriculture. BEG resells and configures isolved Learn & Grow so you can assign equipment safety, chemical handling, and worker-protection training, track completions, and stay audit-ready, nationwide.',
+            headline: 'An unlicensed worker who never got Worker Protection Standard training before entering a treated field is an EPA violation your operation owns.',
+            description: 'Assign EPA Worker Protection Standard pesticide training, track annual renewals, prove compliance instantly. See isolved Learn & Grow pricing.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsAgriculturePage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Agriculture"
-        title="Keep seasonal and year-round crews trained and compliant across the operation."
-        description="Training farm and operations crews on equipment safety, chemical handling, and worker-protection training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your agriculture team stays trained, compliant, and audit-ready, in all 50 states."
+        title="An unlicensed worker who never got Worker Protection Standard training before entering a treated field is an EPA violation your operation owns."
+        description="In agriculture, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for agriculture teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsAgriculturePage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in agriculture shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in agriculture</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'equipment safety, chemical handling, and worker-protection training cannot lapse',
-                  sub: 'In agriculture, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: 'First day, then annually',
+                  label: 'EPA WPS training window',
+                  sub: 'The EPA’s Agricultural Worker Protection Standard requires agricultural workers and pesticide handlers to receive WPS-specific training on their first day on the job and every 12 months after.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When farm and operations crews turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '2 years',
+                  label: 'Training records retention',
+                  sub: 'Employers must maintain records of every WPS training session for at least two years following completion, a requirement that is hard to manage reliably on paper across seasonal crews.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'Understandable format required',
+                  label: 'Language and comprehension mandate',
+                  sub: 'EPA requires WPS training be delivered in a manner workers can understand, using a translator if necessary, which means tracking not just completion but the language it was delivered in.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsAgriculturePage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how agriculture actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how agriculture actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsAgriculturePage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required equipment safety, chemical handling, and worker-protection training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign Worker Protection Standard training on day one',
+                  body: 'isolved Learn & Grow lets you push EPA WPS training to every new agricultural worker and handler before they enter a treated area, satisfying the first-day requirement automatically.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New farm and operations crews run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track the annual retraining cycle',
+                  body: 'Get automatic reminders as each worker’s 12-month WPS training window approaches, even across a large or seasonal workforce.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Keep two years of records ready for inspection',
+                  body: 'Maintain a digital, always-available training record that meets EPA’s two-year retention requirement without a filing cabinet.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsAgriculturePage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.epa.gov/pesticide-worker-safety/agricultural-worker-protection-standard-wps" target="_blank" rel="noopener noreferrer">EPA Agricultural Worker Protection Standard</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Law Firms LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for law firms. BEG resells and configures isolved Learn & Grow so you can assign CLE, ethics, and data-security training, track completions, and stay audit-ready, nationwide.',
+  title: 'Law Firm MCLE and Ethics Training Tracking | BEG',
+  description: 'Assign state bar CLE requirements, track ethics credit hours and reporting deadlines, and prove compliance for every attorney. isolved learn and grow, national support.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/legal' },
   openGraph: {
-    title: 'Law Firms LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for law firms. BEG resells and configures isolved Learn & Grow so you can assign CLE, ethics, and data-security training, track completions, and stay audit-ready, nationwide.',
+    title: 'Law Firm MCLE and Ethics Training Tracking | BEG',
+    description: 'Assign state bar CLE requirements, track ethics credit hours and reporting deadlines, and prove compliance for every attorney. isolved learn and grow, national support.',
     url: 'https://www.beghr.com/services/lms-learning-management/legal',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Law Firms LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for law firms. BEG resells and configures isolved Learn & Grow so you can assign CLE, ethics, and data-security training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Law Firm MCLE and Ethics Training Tracking | BEG', description: 'Assign state bar CLE requirements, track ethics credit hours and reporting deadlines, and prove compliance for every attorney. isolved learn and grow, national support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('legal');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your law firms roles and training requirements.',
+    'Can we track different MCLE requirements for attorneys licensed in more than one state?',
+    'Yes. Since CLE totals, ethics minimums, and reporting periods vary by bar, isolved learn and grow tracks each attorney’s requirement separately by jurisdiction, including deadlines like California’s 3-year, 25-hour cycle with 4 hours of ethics.',
+  ],
+  [
+    'How do we show the State Bar our CLE records if we get audited?',
+    'You can pull a dated, per-attorney completion report by category and jurisdiction at any time, rather than reconstructing records from certificates and email confirmations.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific CLE, ethics, and data-security training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific law firms training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for law firms employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsLegalPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Track CLE and firm training without chasing attorneys for certificates.',
-            description: 'Training software for law firms. BEG resells and configures isolved Learn & Grow so you can assign CLE, ethics, and data-security training, track completions, and stay audit-ready, nationwide.',
+            headline: 'MCLE hours and ethics credits tracked by bar and by deadline, not by spreadsheet',
+            description: 'Assign state bar CLE requirements, track ethics credit hours and reporting deadlines, and prove compliance for every attorney. isolved learn and grow, national support.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsLegalPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Legal"
-        title="Track CLE and firm training without chasing attorneys for certificates."
-        description="Training attorneys and staff on CLE, ethics, and data-security training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your law firms team stays trained, compliant, and audit-ready, in all 50 states."
+        title="MCLE hours and ethics credits tracked by bar and by deadline, not by spreadsheet"
+        description="In law firms, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for law firms teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsLegalPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in law firms shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in law firms</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'CLE, ethics, and data-security training cannot lapse',
-                  sub: 'In law firms, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '25 hours',
+                  label: 'Typical 3-year MCLE requirement',
+                  sub: 'California requires 25 hours of MCLE every 3-year compliance period, including at least 4 hours of legal ethics, and reporting is mandatory to the State Bar.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When attorneys and staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '4 hours',
+                  label: 'Minimum legal ethics credit in California’s cycle',
+                  sub: 'California’s MCLE rule requires a minimum of 4 credit hours specifically in legal ethics within each 3-year period, separate from general CLE.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '50 bars',
+                  label: 'Different reporting rules if attorneys are multi-jurisdictional',
+                  sub: 'CLE hour totals, ethics minimums, and reporting periods differ by state bar, and firms with attorneys licensed in multiple states track a different deadline for each.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsLegalPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how law firms actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how law firms actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsLegalPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required CLE, ethics, and data-security training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign CLE tracks by jurisdiction and attorney',
+                  body: 'isolved learn and grow lets you build state-specific CLE requirements, including ethics, technology, and bias-elimination credit categories, for every attorney you employ.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New attorneys and staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track reporting deadlines before they are due',
+                  body: 'Automated reminders flag attorneys approaching their bar’s reporting deadline, so no one misses the compliance period cutoff.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove CLE compliance during a bar audit',
+                  body: 'Generate a per-attorney, per-jurisdiction completion report, useful if the State Bar audits your CLE compliance or a client asks for documentation.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsLegalPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.americanbar.org/groups/departments_offices/abacle/" target="_blank" rel="noopener noreferrer">ABA continuing legal education</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.calbar.ca.gov/legal-professionals/maintaining-compliance/mcle/mcle-requirements" target="_blank" rel="noopener noreferrer">State Bar of California, MCLE requirements</a>, <a href="https://www.americanbar.org/events-cle/mcle/" target="_blank" rel="noopener noreferrer">American Bar Association, MCLE resources by jurisdiction</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

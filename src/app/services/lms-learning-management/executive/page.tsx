@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Executive Teams LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for leadership teams. BEG resells and configures isolved Learn & Grow so you can assign leadership, compliance, and harassment-prevention training, track completions, and stay audit-ready, nationwide.',
+  title: 'Executive Leadership Training Software | BEG',
+  description: 'Assign leadership, anti-harassment, and compliance training to every manager, track completion, and prove it happened. Powered by isolved Learn & Grow. National support.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/executive' },
   openGraph: {
-    title: 'Executive Teams LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for leadership teams. BEG resells and configures isolved Learn & Grow so you can assign leadership, compliance, and harassment-prevention training, track completions, and stay audit-ready, nationwide.',
+    title: 'Executive Leadership Training Software | BEG',
+    description: 'Assign leadership, anti-harassment, and compliance training to every manager, track completion, and prove it happened. Powered by isolved Learn & Grow. National support.',
     url: 'https://www.beghr.com/services/lms-learning-management/executive',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Executive Teams LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for leadership teams. BEG resells and configures isolved Learn & Grow so you can assign leadership, compliance, and harassment-prevention training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Executive Leadership Training Software | BEG', description: 'Assign leadership, anti-harassment, and compliance training to every manager, track completion, and prove it happened. Powered by isolved Learn & Grow. National support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('executive');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your leadership teams roles and training requirements.',
+    'How do we prove our managers completed anti-harassment training if we get sued?',
+    'isolved learn and grow keeps a timestamped completion record for every manager, including the course version and date, so you can produce proof on demand instead of digging through email threads or sign-in sheets.',
+  ],
+  [
+    'Can we require different training for new managers versus senior executives?',
+    'Yes. You can build separate required tracks by role or level, assign leadership and compliance courses automatically on promotion, and track renewal deadlines like California’s 2-year supervisor cycle without manual follow-up.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific leadership, compliance, and harassment-prevention training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific leadership teams training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for leadership teams employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsExecutivePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Roll out leadership and compliance training your whole team completes.',
-            description: 'Training software for leadership teams. BEG resells and configures isolved Learn & Grow so you can assign leadership, compliance, and harassment-prevention training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Leadership training that holds up when HR asks for proof, not just a certificate of completion',
+            description: 'Assign leadership, anti-harassment, and compliance training to every manager, track completion, and prove it happened. Powered by isolved Learn & Grow. National support.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsExecutivePage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Executive &amp; Leadership"
-        title="Roll out leadership and compliance training your whole team completes."
-        description="Training managers and leaders on leadership, compliance, and harassment-prevention training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your leadership teams team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Leadership training that holds up when HR asks for proof, not just a certificate of completion"
+        description="In leadership teams, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for leadership teams teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsExecutivePage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in leadership teams shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in leadership teams</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'leadership, compliance, and harassment-prevention training cannot lapse',
-                  sub: 'In leadership teams, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '2 hours',
+                  label: 'California supervisor harassment training length',
+                  sub: 'California requires 2 hours of interactive supervisor training every 2 years under AB 1825, and most companies cannot show which managers actually completed it.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When managers and leaders turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '1 year',
+                  label: 'Window to train newly promoted managers',
+                  sub: 'Several states, including Maine, require new supervisors to complete harassment prevention training within a year of promotion, a deadline that slips without automated tracking.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '0 minutes',
+                  label: 'Time HR wants to spend chasing manager sign-off sheets',
+                  sub: 'When a complaint escalates, the first question is whether the manager was trained, and paper rosters rarely answer it fast enough.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsExecutivePage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how leadership teams actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how leadership teams actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsExecutivePage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required leadership, compliance, and harassment-prevention training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign leadership tracks by role',
+                  body: 'isolved learn and grow lets you build required curricula for new managers, directors, and executives, so promotion into a leadership seat automatically triggers the right training.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New managers and leaders run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track completion and renewal dates',
+                  body: 'Supervisor harassment training deadlines and refresher cycles are tracked automatically, with reminders before a manager falls out of compliance.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove it in an audit or a demand letter',
+                  body: 'When legal or HR needs a defensible record that a manager completed anti-harassment and compliance training, isolved learn and grow produces the completion report in minutes.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsExecutivePage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.eeoc.gov/training-institute/harassment-prevention-and-respectful-workplaces-training" target="_blank" rel="noopener noreferrer">EEOC harassment prevention training guidance</a>, <a href="https://www.eeoc.gov/checklists-employers-2" target="_blank" rel="noopener noreferrer">EEOC compliance checklist for employers</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

@@ -1,0 +1,1912 @@
+{
+"healthcare": {
+"hook": "One missed bloodborne pathogen refresher or a lapsed nursing license can shut down a unit and trigger a federal citation.",
+"keyword": "healthcare compliance training software",
+"metaTitle": "Healthcare Compliance Training Software | BEG",
+"metaDesc": "Assign HIPAA and OSHA training, track license renewals, prove compliance instantly. See isolved Learn & Grow pricing for healthcare teams today.",
+"painStats": [
+{
+"stat": "29 CFR 1910.1030",
+"label": "Bloodborne pathogens standard",
+"sub": "OSHA requires annual, employer-funded bloodborne pathogen training for every worker with reasonably anticipated exposure to blood or infectious materials, with documentation on file."
+},
+{
+"stat": "Every hire, every role",
+"label": "HIPAA training has no fixed hour count",
+"sub": "HHS confirms there is no single standardized HIPAA training program, so covered entities must document their own training was actually delivered and understood by each workforce member."
+},
+{
+"stat": "Continuous",
+"label": "Clinical competencies expire quietly",
+"sub": "Certifications like BLS, ACLS, and unit-specific skills checkoffs lapse on a rolling basis, and a single expired credential found during a survey can trigger a deficiency citation."
+}
+],
+"solves": [
+{
+"title": "Assign HIPAA and OSHA training by role",
+"body": "isolved Learn & Grow lets you push bloodborne pathogen and HIPAA modules to the right job codes automatically, so new hires get trained before their first shift."
+},
+{
+"title": "Track license and certification renewals",
+"body": "Set expiration dates on RN licenses, BLS, and ACLS cards and get automatic renewal reminders instead of discovering a lapse during a survey."
+},
+{
+"title": "Produce audit-ready proof on demand",
+"body": "Pull a complete training and credential report in minutes when a surveyor, auditor, or risk manager asks who is current and who is not."
+}
+],
+"authority": [
+{
+"href": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+"label": "OSHA 1910.1030 Bloodborne Pathogens Standard"
+},
+{
+"href": "https://www.hhs.gov/hipaa/for-professionals/training/index.html",
+"label": "HHS HIPAA Training and Resources"
+}
+],
+"faq": [
+[
+"What training does OSHA require for healthcare workers?",
+"OSHA's bloodborne pathogens standard, 29 CFR 1910.1030, requires initial and annual training for any employee with reasonably anticipated exposure to blood or other potentially infectious materials. isolved Learn & Grow assigns the module by job code and keeps a dated completion record for every employee."
+],
+[
+"Does HIPAA require a specific training program?",
+"No. HHS confirms HIPAA training is flexible and scales to the organization, but you still must prove training happened and was understood. Learn & Grow tracks assignment, completion, and quiz scores so you can show an auditor exactly who was trained and when."
+]
+]
+},
+"construction": {
+"hook": "A crew without documented fall protection training is one OSHA inspection away from a stop-work order and a five-figure fine.",
+"keyword": "construction safety training software",
+"metaTitle": "Construction Safety Training Software | BEG",
+"metaDesc": "Assign OSHA 10/30 and fall protection training, track cards and renewals, prove compliance instantly. See isolved Learn & Grow pricing today.",
+"painStats": [
+{
+"stat": "6 feet",
+"label": "Fall protection trigger height",
+"sub": "Under OSHA 1926.501, any employee on a walking or working surface 6 feet or more above a lower level must be protected by a guardrail, safety net, or personal fall arrest system."
+},
+{
+"stat": "#1 for 15 years",
+"label": "Most-cited OSHA violation",
+"sub": "Fall protection has topped OSHA's most-cited standards list for 15 straight years, with thousands of citations issued annually across the construction industry."
+},
+{
+"stat": "10 or 30 hours",
+"label": "OSHA Outreach card levels",
+"sub": "Workers typically complete the 10-hour course for hazard awareness and supervisors complete the 30-hour course, and cards must be tracked so expired training does not put a crew on a jobsite unqualified."
+}
+],
+"solves": [
+{
+"title": "Assign OSHA 10/30 and fall protection training by trade",
+"body": "isolved Learn & Grow lets you push the right safety modules to laborers, foremen, and supervisors based on role, and confirm every worker completed it before stepping on site."
+},
+{
+"title": "Track certification cards and expirations",
+"body": "Keep OSHA Outreach cards, crane and lift certifications, and confined space training in one system with automatic renewal alerts before anything lapses."
+},
+{
+"title": "Prove compliance during a site inspection",
+"body": "Pull a jobsite-ready compliance report showing every worker's current training status the moment an OSHA inspector or GC safety officer asks."
+}
+],
+"authority": [
+{
+"href": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.501",
+"label": "OSHA 1926.501 Fall Protection Standard"
+},
+{
+"href": "https://www.osha.gov/training/outreach/construction",
+"label": "OSHA Outreach Training, Construction Industry"
+}
+],
+"faq": [
+[
+"What training does OSHA require for construction workers?",
+"OSHA 1926.501 requires fall protection for anyone working 6 feet or higher, and many employers layer on the OSHA 10-hour or 30-hour Outreach course for broader hazard awareness. isolved Learn & Grow assigns these by trade and tracks card expiration so a crew is never caught without current training."
+],
+[
+"Does the OSHA 10 or 30 card expire?",
+"OSHA Outreach cards do not have a federal expiration, but many states, GCs, and unions require refreshers on a set cycle. Learn & Grow lets you set your own renewal schedule and get alerted before a worker's training falls out of your policy window."
+]
+]
+},
+"manufacturing": {
+"hook": "Skipping a lockout/tagout refresher is how a routine machine jam turns into a preventable amputation and an OSHA citation.",
+"keyword": "manufacturing safety training software",
+"metaTitle": "Manufacturing Safety Training Software | BEG",
+"metaDesc": "Assign OSHA lockout/tagout and PPE training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing for plants today.",
+"painStats": [
+{
+"stat": "120 deaths prevented yearly",
+"label": "Lockout/tagout standard impact",
+"sub": "OSHA 1910.147 is estimated to prevent about 120 fatalities and 50,000 injuries a year by requiring trained, authorized employees to control hazardous energy before servicing equipment."
+},
+{
+"stat": "#4 most cited",
+"label": "1910.147 citation ranking",
+"sub": "Lockout/tagout ranked #4 on OSHA's most-cited standards in FY2025, with violations traced mostly to missing written procedures and inadequate employee training."
+},
+{
+"stat": "Annual",
+"label": "Required inspection and retraining cycle",
+"sub": "OSHA requires employers to conduct annual inspections of energy control procedures and retrain authorized employees whenever a new hazard, procedure change, or deviation is identified."
+}
+],
+"solves": [
+{
+"title": "Assign lockout/tagout and PPE training by line",
+"body": "isolved Learn & Grow lets you push 1910.147 energy control training and PPE requirements to specific production lines or machine classes, not a one-size-fits-all plant-wide course."
+},
+{
+"title": "Track HAZCOM and authorized employee status",
+"body": "Keep a live record of who is an authorized versus affected employee under your energy control program, with renewal reminders before annual retraining is due."
+},
+{
+"title": "Prove compliance on demand",
+"body": "Generate a plant-wide or line-specific training report in minutes when a safety audit, insurance carrier, or OSHA inspector asks for documentation."
+}
+],
+"authority": [
+{
+"href": "https://www.osha.gov/control-hazardous-energy/",
+"label": "OSHA Control of Hazardous Energy (Lockout/Tagout)"
+},
+{
+"href": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+"label": "OSHA 1910.147 Standard"
+}
+],
+"faq": [
+[
+"What training does OSHA require for lockout/tagout?",
+"OSHA 1910.147 requires a written energy control program, machine-specific procedures, and training for every authorized and affected employee, plus annual inspections. isolved Learn & Grow assigns the training by line and machine class and keeps proof ready for your annual audit."
+],
+[
+"How often does lockout/tagout training need to be repeated?",
+"OSHA requires retraining whenever there is a job change, new equipment, a new hazard, or a deviation from procedure, on top of an annual program review. Learn & Grow tracks these triggers so retraining does not get missed between formal reviews."
+]
+]
+},
+"multi-unit-restaurant": {
+"hook": "One expired food handler card or an untrained alcohol server can cost a multi-unit operator its liquor license across every location.",
+"keyword": "restaurant compliance training software",
+"metaTitle": "Restaurant Compliance Training Software | BEG",
+"metaDesc": "Assign food handler, alcohol server, and allergen training across every location, track renewals, prove compliance instantly. See isolved pricing.",
+"painStats": [
+{
+"stat": "3 years",
+"label": "ServSafe Food Handler validity",
+"sub": "The ServSafe Food Handler certificate, aligned to the FDA Food Code, is valid for three years, and multi-unit operators need a system to know exactly which employee at which location is due for renewal."
+},
+{
+"stat": "6 states",
+"label": "Mandate allergen training",
+"sub": "California, Massachusetts, Maryland, Michigan, Rhode Island, and Virginia require restaurant employees or certified managers to complete food allergy awareness training, and requirements differ by state, which is hard to manage location by location without a system."
+},
+{
+"stat": "70% to pass",
+"label": "TIPS and food safety exam threshold",
+"sub": "Most alcohol server and food handler certifications require a passing score around 70 percent, and multi-unit brands need proof every location's staff actually passed, not just enrolled."
+}
+],
+"solves": [
+{
+"title": "Assign food handler and alcohol server training by location",
+"body": "isolved Learn & Grow lets you push ServSafe-aligned food safety and TIPS-aligned alcohol server training to every unit, matched to each state's specific requirement."
+},
+{
+"title": "Track renewals across every store",
+"body": "Get a single dashboard showing which employees at which locations have expiring food handler cards or alcohol certifications before they lapse."
+},
+{
+"title": "Prove compliance store by store",
+"body": "Pull a location-specific compliance report in minutes when a health inspector or state alcohol board asks for proof at any single unit."
+}
+],
+"authority": [
+{
+"href": "https://www.servsafe.com/ServSafe-Food-Handler/Get-Certified",
+"label": "ServSafe Food Handler Certification"
+},
+{
+"href": "https://www.foodallergyawareness.org/living-with-food-allergies/statewide-restaurant-legislation/statewide-restaurant-legislation/",
+"label": "FAACT Statewide Restaurant Allergen Legislation"
+}
+],
+"faq": [
+[
+"What food safety training is required for restaurant employees?",
+"Most jurisdictions require food handlers to complete a food safety course aligned to the FDA Food Code, such as ServSafe, and require at least one certified food protection manager on staff. isolved Learn & Grow tracks certification status and expiration for every employee at every unit."
+],
+[
+"Do restaurants have to train staff on food allergies?",
+"Six states, including California, Massachusetts, and Illinois, now require food allergy awareness training for restaurant staff or managers. Learn & Grow lets multi-unit operators assign the correct state-specific allergen module to each location and prove it was completed."
+]
+]
+},
+"senior-care": {
+"hook": "A direct care aide without documented dementia training is a deficiency citation waiting to happen at your next state survey.",
+"keyword": "senior living compliance training software",
+"metaTitle": "Senior Living Compliance Training Software | BEG",
+"metaDesc": "Assign state-required aide and dementia training, track renewals, prove compliance on demand. See isolved Learn & Grow pricing for senior care.",
+"painStats": [
+{
+"stat": "4 to 16 hours",
+"label": "Initial dementia training varies by state",
+"sub": "States set their own dementia care training minimums for direct care staff, ranging from about 4 hours in some states to 16 hours in others, with separate annual continuing education on top."
+},
+{
+"stat": "75 hours",
+"label": "Federal nurse aide training minimum",
+"sub": "Under 42 CFR 483.152, CMS requires nurse aide training and competency evaluation programs in Medicare and Medicaid-certified facilities to total at least 75 clock hours before certification."
+},
+{
+"stat": "Annual cycle",
+"label": "Continuing education keeps resetting",
+"sub": "Most states require ongoing annual dementia and mental health de-escalation training on top of initial hours, and tracking that cycle manually across a growing staff is where operators fall behind."
+}
+],
+"solves": [
+{
+"title": "Assign state-specific aide and dementia training",
+"body": "isolved Learn & Grow lets you configure training by state and role so every community meets its specific hour requirement instead of a generic national default."
+},
+{
+"title": "Track the 75-hour CNA requirement and annual renewals",
+"body": "Monitor completion of the federal 75-hour nurse aide training program alongside state continuing education cycles in one dashboard."
+},
+{
+"title": "Prove compliance before the state surveyor arrives",
+"body": "Generate a per-community, per-employee training report instantly, turning survey prep from a scramble into a five-minute export."
+}
+],
+"authority": [
+{
+"href": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D/section-483.152",
+"label": "42 CFR 483.152 Nurse Aide Training Requirements"
+},
+{
+"href": "https://www.cms.gov/priorities/nursing-home-careers/overview/certified-nursing-assistant-cna",
+"label": "CMS Certified Nursing Assistant Overview"
+}
+],
+"faq": [
+[
+"How many training hours does CMS require for nurse aides?",
+"Federal regulation 42 CFR 483.152 requires at least 75 clock hours of training and a competency evaluation before a nurse aide can work unsupervised in a Medicare or Medicaid-certified facility. isolved Learn & Grow tracks progress toward those 75 hours and flags gaps before survey."
+],
+[
+"Is dementia care training required for assisted living staff?",
+"Most states require a set number of initial dementia training hours plus annual continuing education for direct care staff, though the exact hours vary by state. Learn & Grow lets you configure the correct requirement per state and community and prove it on demand."
+]
+]
+},
+"home-health": {
+"hook": "An aide who has not completed the federally mandated 75 hours cannot legally bill a visit, and one gap in the file can trigger a survey deficiency.",
+"keyword": "home health aide training software",
+"metaTitle": "Home Health Aide Training Software | BEG",
+"metaDesc": "Assign the 42 CFR 484.80 aide curriculum, track the 75-hour requirement and 12-hour in-service, prove compliance instantly. See isolved pricing.",
+"painStats": [
+{
+"stat": "75 hours",
+"label": "Federal home health aide training minimum",
+"sub": "42 CFR 484.80 requires at least 75 hours of combined classroom and supervised practical training, including a minimum of 16 classroom hours before 16 hours of supervised practical work."
+},
+{
+"stat": "12 hours annually",
+"label": "Required in-service training",
+"sub": "Every home health aide must complete at least 12 hours of in-service training during each 12-month period to keep furnishing services under Medicare conditions of participation."
+},
+{
+"stat": "Before first visit",
+"label": "Competency evaluation required",
+"sub": "An aide may only furnish services after successfully completing a competency evaluation, and the agency must maintain documentation proving the requirement was met before that first billable visit."
+}
+],
+"solves": [
+{
+"title": "Assign the 75-hour aide curriculum by module",
+"body": "isolved Learn & Grow structures the required classroom and practical training hours under 42 CFR 484.80 so you can track exactly where each aide is against the 75-hour minimum."
+},
+{
+"title": "Track the 12-hour annual in-service requirement",
+"body": "Get automatic reminders as each aide's 12-month in-service window approaches so no one falls out of compliance with Medicare conditions of participation."
+},
+{
+"title": "Prove competency and training instantly for surveys",
+"body": "Produce documentation for any aide, any date range, the moment a state surveyor or Medicare auditor requests proof of the competency evaluation and training record."
+}
+],
+"authority": [
+{
+"href": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-484/subpart-B/section-484.80",
+"label": "42 CFR 484.80 Home Health Aide Services"
+}
+],
+"faq": [
+[
+"How many hours of training does a home health aide need?",
+"42 CFR 484.80 requires at least 75 hours of combined classroom and supervised practical training, with a minimum of 16 classroom hours preceding 16 hours of supervised practical training. isolved Learn & Grow tracks progress toward the full 75-hour requirement per aide."
+],
+[
+"Is ongoing training required after certification?",
+"Yes. Home health aides must complete at least 12 hours of in-service training every 12 months to remain compliant with Medicare conditions of participation. Learn & Grow flags each aide's renewal window automatically so agencies do not miss the annual cycle."
+]
+]
+},
+"accounting-cpa": {
+"hook": "A CPA who falls short on ethics CPE at renewal can lose their license, not just a line item on a compliance checklist.",
+"keyword": "CPA firm training and CPE tracking software",
+"metaTitle": "CPA Firm CPE Tracking Software | BEG",
+"metaDesc": "Assign CPE and ethics training, track hours toward state and AICPA requirements, prove compliance instantly. See isolved Learn & Grow pricing.",
+"painStats": [
+{
+"stat": "120 hours / 3 years",
+"label": "AICPA CPE requirement",
+"sub": "AICPA members must complete 120 hours of continuing professional education every three-year reporting period to maintain membership and demonstrate ongoing competency."
+},
+{
+"stat": "80 to 120 hours",
+"label": "State board CPE ranges",
+"sub": "Each state board of accountancy sets its own CPE hour totals, reporting periods, and ethics minimums, so a multi-state firm must track different requirements for licensees in different jurisdictions."
+},
+{
+"stat": "State-set ethics minimum",
+"label": "Ethics hours required annually or per cycle",
+"sub": "Most state boards carve out a specific ethics CPE minimum within total hours, for example a set number of hours each renewal period, and missing it can jeopardize license renewal even if total hours are met."
+}
+],
+"solves": [
+{
+"title": "Assign CPE and ethics courses by state license",
+"body": "isolved Learn & Grow lets a firm configure CPE tracking per employee's licensing state, so multi-state staff are not stuck with a one-size-fits-all requirement."
+},
+{
+"title": "Track hours toward the 3-year and annual cycles",
+"body": "See exactly how many CPE and ethics hours each CPA has banked against their specific reporting period deadline, not just a generic completion checkbox."
+},
+{
+"title": "Prove compliance for peer review and licensing boards",
+"body": "Generate a CPE transcript for any staff member instantly when a state board, peer reviewer, or managing partner needs proof of hours completed."
+}
+],
+"authority": [
+{
+"href": "https://www.aicpa-cima.com/help/cpe-requirements-and-credits",
+"label": "AICPA CPE Requirements and Credits"
+}
+],
+"faq": [
+[
+"How many CPE hours does a CPA need?",
+"AICPA members need 120 hours every three years, though each state board sets its own total, typically 80 to 120 hours per cycle, with a specific ethics hour minimum built in. isolved Learn & Grow tracks each CPA's hours against their specific state and cycle requirement."
+],
+[
+"Does ethics CPE have its own requirement?",
+"Yes. Most state boards require a set number of ethics hours within the total CPE requirement each renewal period, and missing that carve-out can block license renewal even with enough total hours. Learn & Grow separates ethics completion from general CPE so nothing gets missed."
+]
+]
+},
+"agriculture": {
+"hook": "An unlicensed worker who never got Worker Protection Standard training before entering a treated field is an EPA violation your operation owns.",
+"keyword": "agriculture safety training software",
+"metaTitle": "Agriculture Safety Training Software | BEG",
+"metaDesc": "Assign EPA Worker Protection Standard pesticide training, track annual renewals, prove compliance instantly. See isolved Learn & Grow pricing.",
+"painStats": [
+{
+"stat": "First day, then annually",
+"label": "EPA WPS training window",
+"sub": "The EPA's Agricultural Worker Protection Standard requires agricultural workers and pesticide handlers to receive WPS-specific training on their first day on the job and every 12 months after."
+},
+{
+"stat": "2 years",
+"label": "Training records retention",
+"sub": "Employers must maintain records of every WPS training session for at least two years following completion, a requirement that is hard to manage reliably on paper across seasonal crews."
+},
+{
+"stat": "Understandable format required",
+"label": "Language and comprehension mandate",
+"sub": "EPA requires WPS training be delivered in a manner workers can understand, using a translator if necessary, which means tracking not just completion but the language it was delivered in."
+}
+],
+"solves": [
+{
+"title": "Assign Worker Protection Standard training on day one",
+"body": "isolved Learn & Grow lets you push EPA WPS training to every new agricultural worker and handler before they enter a treated area, satisfying the first-day requirement automatically."
+},
+{
+"title": "Track the annual retraining cycle",
+"body": "Get automatic reminders as each worker's 12-month WPS training window approaches, even across a large or seasonal workforce."
+},
+{
+"title": "Keep two years of records ready for inspection",
+"body": "Maintain a digital, always-available training record that meets EPA's two-year retention requirement without a filing cabinet."
+}
+],
+"authority": [
+{
+"href": "https://www.epa.gov/pesticide-worker-safety/agricultural-worker-protection-standard-wps",
+"label": "EPA Agricultural Worker Protection Standard"
+}
+],
+"faq": [
+[
+"When must agricultural workers receive pesticide safety training?",
+"EPA's Worker Protection Standard requires training on the first day on the job and every 12 months thereafter for workers and handlers with reasonably anticipated pesticide exposure. isolved Learn & Grow assigns the training automatically at hire and flags the annual renewal."
+],
+[
+"How long must WPS training records be kept?",
+"EPA requires employers to retain training records for at least two years after completion. Learn & Grow stores every completion record digitally so it is ready the moment a state pesticide inspector asks."
+]
+]
+},
+"architecture": {
+"hook": "Losing track of HSW continuing education hours means a principal architect risks their license over a paperwork gap, not a design failure.",
+"keyword": "architecture firm continuing education training software",
+"metaTitle": "Architecture Firm CE Tracking Software | BEG",
+"metaDesc": "Assign HSW continuing education, track hours toward state license renewal, prove compliance instantly. See isolved Learn & Grow pricing for firms.",
+"painStats": [
+{
+"stat": "18 LUs / year",
+"label": "AIA member CE requirement",
+"sub": "AIA members must complete 18 learning units annually from registered AIA/CES providers, with at least 12 of those hours specifically in health, safety, and welfare topics."
+},
+{
+"stat": "12 HSW hours",
+"label": "Health, safety, welfare minimum",
+"sub": "Of the annual learning units required, a majority must be HSW-focused, covering knowledge that protects the health, safety, and welfare of building occupants."
+},
+{
+"stat": "Varies by state",
+"label": "License renewal cycles differ",
+"sub": "State licensing boards set their own continuing education cycles, some annual and some biennial or triennial, so a firm with architects licensed in multiple states must track several different clocks at once."
+}
+],
+"solves": [
+{
+"title": "Assign HSW continuing education by license state",
+"body": "isolved Learn & Grow lets a firm configure CE tracking per architect's licensing jurisdiction, so multi-state staff are not stuck managing conflicting renewal cycles manually."
+},
+{
+"title": "Track LU and HSW hour splits",
+"body": "See at a glance how many total learning units and how many HSW-specific hours each licensed architect has completed against their annual or biennial requirement."
+},
+{
+"title": "Prove compliance for license renewal",
+"body": "Generate a CE transcript instantly when a state board audit or license renewal deadline requires documented proof of hours completed."
+}
+],
+"authority": [
+{
+"href": "https://www.aia.org/career-growth/aia-state-requirements",
+"label": "AIA State Continuing Education Requirements"
+},
+{
+"href": "https://www.aia.org/health-safety-and-welfare-hsw-ce-guidelines",
+"label": "AIA Health, Safety, and Welfare CE Guidelines"
+}
+],
+"faq": [
+[
+"How many continuing education hours do architects need?",
+"AIA members need 18 learning units annually, with at least 12 in health, safety, and welfare topics, though each state licensing board sets its own separate requirement and cycle. isolved Learn & Grow tracks both AIA and state-specific hours per architect."
+],
+[
+"What counts as HSW credit?",
+"HSW credit covers content that protects the health, safety, and welfare of building occupants, such as accessibility, structural safety, and code compliance topics. Learn & Grow lets firms tag courses as HSW so hour tracking matches what license boards actually require."
+]
+]
+},
+"auto-dealership": {
+"hook": "An F&I manager who never completed Safeguards Rule training is a compliance gap that can cost your dealership $11,000 a day per violation.",
+"keyword": "auto dealership compliance training software",
+"metaTitle": "Auto Dealership Compliance Training Software | BEG",
+"metaDesc": "Assign FTC Safeguards Rule and F&I compliance training, track completion by role, prove compliance instantly. See isolved Learn & Grow pricing.",
+"painStats": [
+{
+"stat": "$11,000 per day",
+"label": "Potential Safeguards Rule penalty",
+"sub": "The FTC's Safeguards Rule applies to dealers who finance or lease vehicles, and non-compliance can result in fines reaching $11,000 per day per occurrence."
+},
+{
+"stat": "Every employee",
+"label": "Security awareness training required",
+"sub": "The FTC requires dealerships to provide security awareness training for all personnel and specialized training for staff who carry out the information security program, not just F&I."
+},
+{
+"stat": "Effective June 9, 2023",
+"label": "Current Safeguards Rule in force",
+"sub": "The amended FTC Safeguards Rule has been in effect since June 2023, and dealerships are expected to be fully compliant with its employee training provisions today."
+}
+],
+"solves": [
+{
+"title": "Assign Safeguards Rule and F&I compliance training by department",
+"body": "isolved Learn & Grow lets you push security awareness training to every employee and specialized F&I and OFAC training to the staff who handle customer financial data."
+},
+{
+"title": "Track completion across sales and F&I teams",
+"body": "See exactly who on your sales floor and in the finance office has completed required compliance modules and who is overdue."
+},
+{
+"title": "Prove compliance if the FTC or a lender audits your dealership",
+"body": "Pull a complete training record in minutes to demonstrate your information security program's training requirement is actually being met."
+}
+],
+"authority": [
+{
+"href": "https://www.ftc.gov/business-guidance/resources/automobile-dealers-ftcs-safeguards-rule-frequently-asked-questions",
+"label": "FTC Safeguards Rule FAQs for Auto Dealers"
+}
+],
+"faq": [
+[
+"What training does the FTC Safeguards Rule require for dealerships?",
+"The rule requires dealerships to train all personnel on security awareness and provide specialized training to staff who carry out the information security program, such as F&I. isolved Learn & Grow assigns the right level of training by role and tracks completion for every employee."
+],
+[
+"What happens if a dealership does not comply with the Safeguards Rule?",
+"Non-compliance can result in FTC fines of up to $11,000 per day per violation. Learn & Grow gives dealerships a documented training record to demonstrate the required program, including employee training, is actually in place."
+]
+]
+},
+"brewery": {
+"hook": "A tasting room pouring without a certified alcohol server or a brewhouse running without OSHA safety training is one incident away from a shutdown.",
+"keyword": "brewery safety and compliance training software",
+"metaTitle": "Brewery Safety and Compliance Training Software | BEG",
+"metaDesc": "Assign OSHA brewery safety and alcohol server training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.",
+"painStats": [
+{
+"stat": "CO2, ammonia, confined space",
+"label": "Brewery-specific OSHA hazards",
+"sub": "Breweries face unique OSHA exposure from CO2 asphyxiation risk, ammonia refrigeration systems, and confined space entry into tanks, all of which require documented, task-specific safety training."
+},
+{
+"stat": "3 years typical",
+"label": "Alcohol server certification validity",
+"sub": "Responsible beverage service certifications for tasting room and taproom staff are typically valid around three years, and multi-location brewers need a system to track expiration per employee, per state."
+},
+{
+"stat": "Free BA-sponsored courses",
+"label": "Brewers Association safety training",
+"sub": "The Brewers Association offers online brewery safety courses covering task-based hazard recognition, and completion needs to be documented per employee to demonstrate a functioning safety program."
+}
+],
+"solves": [
+{
+"title": "Assign OSHA brewery safety training by department",
+"body": "isolved Learn & Grow lets you push CO2, ammonia, and confined space safety training to production staff while assigning responsible beverage service training separately to taproom staff."
+},
+{
+"title": "Track alcohol server certification expiration",
+"body": "Get renewal reminders before a tasting room employee's server certification lapses, across every location you operate."
+},
+{
+"title": "Prove compliance for insurance and state alcohol boards",
+"body": "Generate a complete safety and server training report in minutes when your insurance carrier, state alcohol control board, or OSHA asks for documentation."
+}
+],
+"authority": [
+{
+"href": "https://www.brewersassociation.org/educational-publications/a-guide-to-understanding-basic-osha-brewery-compliance/",
+"label": "Brewers Association Guide to OSHA Brewery Compliance"
+},
+{
+"href": "https://www.brewersassociation.org/online-courses/brewery-safety/",
+"label": "Brewers Association Brewery Safety Courses"
+}
+],
+"faq": [
+[
+"What OSHA training do breweries need?",
+"Breweries face unique hazards including CO2 asphyxiation, ammonia refrigeration, and confined space entry, all requiring documented, task-specific safety training beyond general industry basics. isolved Learn & Grow assigns brewery-specific safety modules by department and tracks completion."
+],
+[
+"Do brewery taproom staff need alcohol server certification?",
+"Most states require or strongly recommend responsible beverage service training for anyone serving alcohol, with certifications typically valid a few years before renewal. Learn & Grow tracks server certification status and expiration for every taproom employee, at every location."
+]
+]
+},
+"cannabis": {
+"hook": "An untrained budtender selling to a minor or a seed-to-sale tracking gap can cost a cannabis operator their license overnight.",
+"keyword": "cannabis compliance training software",
+"metaTitle": "Cannabis Compliance Training Software | BEG",
+"metaDesc": "Assign state responsible vendor and seed-to-sale training, track annual renewals, prove compliance instantly. See isolved Learn & Grow pricing.",
+"painStats": [
+{
+"stat": "Annual renewal",
+"label": "Responsible Vendor Training cycle",
+"sub": "States like Maryland require every cannabis business agent to complete an approved Responsible Vendor Training course before January 1st each year to remain compliant."
+},
+{
+"stat": "Within 90 days of hire",
+"label": "New employee training deadline",
+"sub": "Massachusetts requires cannabis employees who handle or sell product to complete responsible vendor training within 90 days of hire, on top of an annual general training minimum."
+},
+{
+"stat": "No certificate, no sales",
+"label": "Training gates legal work",
+"sub": "Employees of licensed cannabis businesses generally cannot legally handle, sell, or transport product without a valid, state-approved Responsible Vendor Training certificate on file."
+}
+],
+"solves": [
+{
+"title": "Assign state-specific responsible vendor training",
+"body": "isolved Learn & Grow lets multi-state cannabis operators configure the correct Responsible Vendor and seed-to-sale training per state license, matched to each jurisdiction's specific hours and topics."
+},
+{
+"title": "Track new hire deadlines and annual renewals",
+"body": "Get automatic alerts as a new budtender's 90-day training deadline approaches, and again as annual renewal windows come up for every agent."
+},
+{
+"title": "Prove compliance to state cannabis regulators",
+"body": "Pull a per-location, per-employee training certificate report instantly when a state cannabis control commission audits your license."
+}
+],
+"authority": [
+{
+"href": "https://cannabis.maryland.gov/pages/responsible_vendor_training.aspx",
+"label": "Maryland Cannabis Responsible Vendor Training"
+},
+{
+"href": "https://masscannabiscontrol.com/applicants-licensees/responsible-vendor-training/",
+"label": "Massachusetts Cannabis Control Commission Responsible Vendor Training"
+}
+],
+"faq": [
+[
+"What is Responsible Vendor Training for cannabis employees?",
+"Most states require cannabis business agents to complete approved Responsible Vendor Training covering topics like preventing sales to minors and public health compliance, often required annually or within a set window after hire. isolved Learn & Grow tracks each employee's certificate and renewal deadline by state."
+],
+[
+"What happens if a cannabis employee's training lapses?",
+"Without a valid, current Responsible Vendor Training certificate, an employee generally cannot legally handle, sell, or transport cannabis products under state law. Learn & Grow flags expiring certificates before they lapse so agents stay compliant."
+]
+]
+},
+"childcare": {
+"hook": "A daycare caught without a CPR-certified staff member on site during an inspection can lose its license the same day.",
+"keyword": "childcare licensing training software",
+"metaTitle": "Childcare Licensing Training Software | BEG",
+"metaDesc": "Assign state licensing hours, CPR, and first aid training, track renewals, prove compliance instantly. See isolved Learn & Grow pricing for centers.",
+"painStats": [
+{
+"stat": "15 to 16 hours",
+"label": "Initial licensing training varies by state",
+"sub": "States like California and New York require 15 to 16 hours of health and safety or foundational training for new child care staff before or shortly after licensing, and the specific topics required differ by state."
+},
+{
+"stat": "Staff must be present at all times",
+"label": "CPR and first aid coverage requirement",
+"sub": "Most states require at least one staff member certified in pediatric CPR and first aid on site at all times children are present, not just somewhere on the roster."
+},
+{
+"stat": "Within 90 days of hire",
+"label": "Certification deadline for new staff",
+"sub": "States such as Georgia require direct care staff to obtain CPR and first aid certification within their first 90 days of employment, creating a hard clock centers must track per new hire."
+}
+],
+"solves": [
+{
+"title": "Assign state-specific licensing hours by role",
+"body": "isolved Learn & Grow lets centers configure the correct initial training hours and topics required by their state licensing agency, tracked per employee from date of hire."
+},
+{
+"title": "Track CPR and first aid certification coverage",
+"body": "See in real time which certified staff are scheduled for each shift so a center never falls out of compliance with its always-on-site requirement."
+},
+{
+"title": "Prove compliance during a licensing inspection",
+"body": "Generate a complete staff training and certification report instantly when a state licensing inspector arrives unannounced."
+}
+],
+"authority": [
+{
+"href": "https://emsa.ca.gov/childcare_provider/",
+"label": "California EMSA Child Care Provider Training"
+},
+{
+"href": "https://www.decal.ga.gov/documents/attachments/FirstAidandCPR.pdf",
+"label": "Georgia DECAL First Aid and CPR Requirements"
+}
+],
+"faq": [
+[
+"How many training hours do new childcare staff need?",
+"Requirements vary by state, with California requiring 16 hours of health and safety training before licensing and other states setting different initial hour minimums. isolved Learn & Grow lets centers configure the exact requirement for their state and track each employee's progress."
+],
+[
+"Does a childcare center need CPR-certified staff at all times?",
+"Yes, most states require at least one CPR and first aid certified staff member present whenever children are on site, with new hires often given a 90-day window to certify. Learn & Grow tracks certification status per employee and flags scheduling gaps before an inspection catches them."
+]
+]
+},
+"church": {
+"hook": "A volunteer working with kids without a background check or Safe Sanctuaries training is a liability your church cannot afford to carry.",
+"keyword": "church child protection training software",
+"metaTitle": "Church Child Protection Training Software | BEG",
+"metaDesc": "Assign Safe Sanctuaries training, track background checks and renewals, prove compliance instantly. See isolved Learn & Grow pricing for churches.",
+"painStats": [
+{
+"stat": "90 minutes",
+"label": "Typical Safe Sanctuaries course length",
+"sub": "Safe Sanctuaries training is commonly delivered as a 90-minute course with interactive modules and a comprehension assessment, required for every staff member and volunteer working with children, youth, or vulnerable adults."
+},
+{
+"stat": "Every 3 years",
+"label": "Recommended background check cycle",
+"sub": "Denominational guidance recommends every staff member or volunteer working with vulnerable populations complete a national background check at least every three years, and tracking that cycle by hand across dozens of volunteers gets missed."
+},
+{
+"stat": "1996 mandate",
+"label": "Denominational policy requirement",
+"sub": "Since a 1996 General Conference mandate, United Methodist churches and many other denominations require a documented child protection policy covering background checks, training, and reporting procedures for every congregation."
+}
+],
+"solves": [
+{
+"title": "Assign Safe Sanctuaries training to every volunteer",
+"body": "isolved Learn & Grow lets a church push child protection training to staff and volunteers before they are ever alone with a child, with a documented completion record."
+},
+{
+"title": "Track background check renewal cycles",
+"body": "Set background check dates for every volunteer and staff member and get reminders before the recommended renewal window closes."
+},
+{
+"title": "Prove compliance to your denomination or insurer",
+"body": "Pull a complete roster of trained, background-checked volunteers instantly when your conference, insurer, or a concerned parent asks for proof."
+}
+],
+"authority": [
+{
+"href": "https://www.txcumc.org/safe-sanctuary",
+"label": "Safe Sanctuary Training Overview"
+}
+],
+"faq": [
+[
+"What is Safe Sanctuaries training and who needs it?",
+"Safe Sanctuaries is a child and vulnerable adult protection training, typically a 90-minute course with an assessment, required for any staff member or volunteer who works with children, youth, or vulnerable adults. isolved Learn & Grow assigns the course to every relevant volunteer and keeps a dated completion record."
+],
+[
+"How often should church volunteers get background checks?",
+"Denominational guidance commonly recommends a national background check every three years for anyone supervising children or vulnerable adults. Learn & Grow tracks each volunteer's last check date and flags who is due for renewal."
+]
+]
+},
+"education": {
+"hook": "A teacher who misses a mandated reporter training requirement can face personal legal consequences, and so can the district that failed to document it.",
+"keyword": "school district compliance training software",
+"metaTitle": "School District Compliance Training Software | BEG",
+"metaDesc": "Assign mandated reporter, Title IX, and FERPA training, track completion by staff role, prove compliance instantly. See isolved Learn & Grow pricing.",
+"painStats": [
+{
+"stat": "Every employee",
+"label": "Title IX responsible employee scope",
+"sub": "Any school employee who has authority to address harassment or a duty to report it is a Title IX responsible employee, meaning most staff, not just administrators, need documented training on reporting obligations."
+},
+{
+"stat": "State-set timelines",
+"label": "Mandated reporter deadlines",
+"sub": "Teachers and staff acting as mandated reporters must report suspected abuse or neglect to authorities, often within a defined timeline set by state law, and failure to act can carry legal consequences for the individual educator."
+},
+{
+"stat": "FERPA does not block Title IX duties",
+"label": "Two laws, one compliance record",
+"sub": "FERPA protects student education records, but it does not restrict a school's duty to prevent and address discrimination under Title IX, meaning staff need training on how both rules interact, not just one in isolation."
+}
+],
+"solves": [
+{
+"title": "Assign mandated reporter and Title IX training by role",
+"body": "isolved Learn & Grow lets a district push mandated reporter, Title IX responsible employee, and FERPA training to every staff category, with documented completion for each."
+},
+{
+"title": "Track annual and new-hire completion deadlines",
+"body": "Get automatic reminders as new staff onboard and as annual refresher deadlines approach for existing employees across every building in the district."
+},
+{
+"title": "Prove compliance to your school board or state auditor",
+"body": "Generate a district-wide or building-specific training completion report instantly when a board member, state auditor, or Title IX coordinator needs documentation."
+}
+],
+"authority": [
+{
+"href": "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-I/part-106",
+"label": "Title IX Regulations, 34 CFR Part 106"
+}
+],
+"faq": [
+[
+"Who is required to complete mandated reporter training in schools?",
+"Most states require teachers, paraprofessionals, and other school staff to act as mandated reporters of suspected abuse or neglect, with training and reporting timelines set by state law. isolved Learn & Grow assigns the training to every applicable role and documents completion for state compliance."
+],
+[
+"Does FERPA prevent schools from reporting under Title IX?",
+"No. FERPA protects student education records, but it does not restrict a school's duty to report and address discrimination under Title IX. Learn & Grow lets districts train staff on both requirements separately so responsibilities under each law are clear and documented."
+]
+]
+},
+"engineering": {
+"hook": "A firm that lets a PE's license lapse over missed continuing education hours can lose a project stamp right when a client needs it signed.",
+"keyword": "engineering firm continuing education training software",
+"metaTitle": "Engineering Firm CE Tracking Software | BEG",
+"metaDesc": "Assign PDH continuing education and safety training, track hours toward state license renewal, prove compliance instantly. See isolved pricing.",
+"painStats": [
+{
+"stat": "15 to 36 PDH",
+"label": "State PDH ranges per cycle",
+"sub": "Most states require between 15 and 36 professional development hours per renewal cycle for a licensed PE, with no national standard since each state board sets its own rule."
+},
+{
+"stat": "1 ethics hour",
+"label": "Common ethics carve-out",
+"sub": "States like Texas require engineers to complete 15 PDH annually with at least one hour specifically in ethics, a requirement that is easy to lose track of within broader technical training."
+},
+{
+"stat": "Biennial or triennial cycles",
+"label": "Renewal windows vary by state",
+"sub": "Some states set annual PDH requirements while others use two or three-year cycles, meaning multi-state engineering firms must track several different renewal clocks simultaneously."
+}
+],
+"solves": [
+{
+"title": "Assign PDH and ethics training by license state",
+"body": "isolved Learn & Grow lets a firm configure PDH tracking per engineer's licensing jurisdiction, so multi-state PEs are not managed against a single generic requirement."
+},
+{
+"title": "Track hours toward each state's renewal cycle",
+"body": "See exactly how many PDH and ethics hours each licensed engineer has banked against their specific annual, biennial, or triennial deadline."
+},
+{
+"title": "Prove compliance for license renewal and project stamps",
+"body": "Generate a PDH transcript instantly when a state board audit or client due diligence request requires documented proof of an engineer's current hours."
+}
+],
+"authority": [
+{
+"href": "https://ncees.org/continuing-education/",
+"label": "NCEES Continuing Education for Engineers"
+}
+],
+"faq": [
+[
+"How many PDH hours does a professional engineer need?",
+"Most states require between 15 and 36 professional development hours per renewal cycle, with cycles ranging from annual to triennial depending on the state board. isolved Learn & Grow tracks each engineer's hours against their specific state's requirement and cycle."
+],
+[
+"Do engineers need ethics-specific continuing education?",
+"Some states, like Texas, require a set number of ethics hours within the total PDH requirement each year. Learn & Grow separates ethics completion from general PDH tracking so firms can confirm both requirements are met, not just the total hour count."
+]
+]
+},
+"events": {
+"hook": "An event without a trained crowd manager on staff is one incident away from a liability claim and a venue permit review.",
+"keyword": "event venue safety training software",
+"metaTitle": "Event Venue Safety Training Software | BEG",
+"metaDesc": "Assign crowd management, alcohol service, and safety training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.",
+"painStats": [
+{
+"stat": "1 per 250 attendees",
+"label": "NFPA crowd manager ratio",
+"sub": "NFPA 101 requires an additional certified crowd manager for every 250 people at an assembly gathering, meaning larger events need multiple trained staff, not just one."
+},
+{
+"stat": "1,000+ attendees",
+"label": "Threshold triggering mandatory training",
+"sub": "Many jurisdictions following the International Fire Code require at least one properly trained crowd manager on site for any venue or event hosting 1,000 people or more."
+},
+{
+"stat": "70% to pass",
+"label": "Typical crowd manager certification exam",
+"sub": "Crowd manager courses commonly require passing a certification exam, often around 70 percent correct, and venues need proof every staff member on the floor actually passed, not just enrolled."
+}
+],
+"solves": [
+{
+"title": "Assign crowd management and alcohol service training by role",
+"body": "isolved Learn & Grow lets venues push NFPA-aligned crowd manager training to floor staff and responsible beverage service training to bar staff, matched to event size and local code."
+},
+{
+"title": "Track certification ratios against attendance",
+"body": "See at a glance whether you have enough certified crowd managers on staff to meet the ratio required for your largest planned events."
+},
+{
+"title": "Prove compliance to fire marshals and insurers",
+"body": "Pull a complete certification roster in minutes when a fire marshal, permit office, or event insurer requires documentation before approving an event."
+}
+],
+"authority": [
+{
+"href": "https://www.mass.gov/info-details/crowd-managers",
+"label": "Massachusetts Crowd Manager Requirements"
+},
+{
+"href": "https://www.dhses.ny.gov/crowd-manager-training",
+"label": "New York Crowd Manager Training"
+}
+],
+"faq": [
+[
+"How many crowd managers does an event need?",
+"NFPA 101 requires an additional certified crowd manager for every 250 attendees at an assembly event, and many jurisdictions mandate at least one trained crowd manager for any event of 1,000 or more people. isolved Learn & Grow tracks certified staff against your expected attendance for every event."
+],
+[
+"Do bar staff at events need alcohol server certification?",
+"Most jurisdictions require or strongly recommend responsible beverage service training for any staff serving alcohol at an event. Learn & Grow tracks server certification status separately from crowd management training so both requirements are covered and documented."
+]
+]
+},
+"executive": {
+"hook": "Leadership training that holds up when HR asks for proof, not just a certificate of completion",
+"keyword": "leadership compliance training software",
+"metaTitle": "Executive Leadership Training Software | BEG",
+"metaDesc": "Assign leadership, anti-harassment, and compliance training to every manager, track completion, and prove it happened. Powered by isolved Learn & Grow. National support.",
+"painStats": [
+{
+"stat": "2 hours",
+"label": "California supervisor harassment training length",
+"sub": "California requires 2 hours of interactive supervisor training every 2 years under AB 1825, and most companies cannot show which managers actually completed it."
+},
+{
+"stat": "1 year",
+"label": "Window to train newly promoted managers",
+"sub": "Several states, including Maine, require new supervisors to complete harassment prevention training within a year of promotion, a deadline that slips without automated tracking."
+},
+{
+"stat": "0 minutes",
+"label": "Time HR wants to spend chasing manager sign-off sheets",
+"sub": "When a complaint escalates, the first question is whether the manager was trained, and paper rosters rarely answer it fast enough."
+}
+],
+"solves": [
+{
+"title": "Assign leadership tracks by role",
+"body": "isolved learn and grow lets you build required curricula for new managers, directors, and executives, so promotion into a leadership seat automatically triggers the right training."
+},
+{
+"title": "Track completion and renewal dates",
+"body": "Supervisor harassment training deadlines and refresher cycles are tracked automatically, with reminders before a manager falls out of compliance."
+},
+{
+"title": "Prove it in an audit or a demand letter",
+"body": "When legal or HR needs a defensible record that a manager completed anti-harassment and compliance training, isolved learn and grow produces the completion report in minutes."
+}
+],
+"authority": [
+{
+"href": "https://www.eeoc.gov/training-institute/harassment-prevention-and-respectful-workplaces-training",
+"label": "EEOC harassment prevention training guidance"
+},
+{
+"href": "https://www.eeoc.gov/checklists-employers-2",
+"label": "EEOC compliance checklist for employers"
+}
+],
+"faq": [
+[
+"How do we prove our managers completed anti-harassment training if we get sued?",
+"isolved learn and grow keeps a timestamped completion record for every manager, including the course version and date, so you can produce proof on demand instead of digging through email threads or sign-in sheets."
+],
+[
+"Can we require different training for new managers versus senior executives?",
+"Yes. You can build separate required tracks by role or level, assign leadership and compliance courses automatically on promotion, and track renewal deadlines like California's 2-year supervisor cycle without manual follow-up."
+]
+]
+},
+"finance": {
+"hook": "FINRA CE deadlines and AML training that do not slip through the cracks",
+"keyword": "finra continuing education tracking software",
+"metaTitle": "FINRA CE and AML Training Software | BEG",
+"metaDesc": "Assign Firm Element CE and BSA/AML training, track completion against FINRA deadlines, and prove it on exam day. isolved learn and grow, national support.",
+"painStats": [
+{
+"stat": "Dec. 31",
+"label": "Annual Regulatory Element deadline",
+"sub": "FINRA Rule 1240 requires every registered person to complete the Regulatory Element by December 31 each year for every registration held, with no grace period."
+},
+{
+"stat": "Annually",
+"label": "Firm Element training plan review cycle",
+"sub": "Firms must evaluate and prioritize training needs at least once a year and maintain a written Firm Element plan tied to each registered person's role."
+},
+{
+"stat": "31 U.S.C. 5334",
+"label": "Statutory AML training mandate",
+"sub": "The AML Act of 2020 added a formal training requirement to the Bank Secrecy Act, and examiners expect role-specific, documented completion for anyone touching AML or SAR filing."
+}
+],
+"solves": [
+{
+"title": "Map Firm Element CE to each role",
+"body": "isolved learn and grow assigns Firm Element and product-specific coursework by registration type, so supervisors, reps, and ops staff each get what their role requires."
+},
+{
+"title": "Track renewal and Regulatory Element deadlines",
+"body": "Registered persons and compliance officers see completion status against the December 31 Regulatory Element deadline before it becomes a finding."
+},
+{
+"title": "Produce AML and SAR training records on demand",
+"body": "When an examiner or auditor asks for proof of BSA/AML training under 31 U.S.C. 5334, pull a complete, dated report instead of assembling one from spreadsheets."
+}
+],
+"authority": [
+{
+"href": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240",
+"label": "FINRA Rule 1240, Continuing Education"
+},
+{
+"href": "https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act",
+"label": "FinCEN, the Bank Secrecy Act"
+}
+],
+"faq": [
+[
+"Does isolved learn and grow track FINRA Regulatory Element deadlines by registration?",
+"It tracks each registered person's Regulatory Element status against the December 31 annual deadline under FINRA Rule 1240, and flags anyone approaching a lapse before it becomes a compliance gap."
+],
+[
+"Can we assign different AML training to tellers versus compliance staff?",
+"Yes. You can build role-specific AML and BSA training tracks, since the AML Act of 2020 requires training tailored to each employee's exposure to money laundering risk, and keep a dated completion record for examiners."
+]
+]
+},
+"fitness": {
+"hook": "CPR certification and staff safety training you can prove before the state or your insurer asks",
+"keyword": "gym staff training compliance software",
+"metaTitle": "Fitness Staff Training and CPR Tracking | BEG",
+"metaDesc": "Assign CPR/AED certification, onboarding, and safety training to trainers and front desk staff, track renewal dates, and prove compliance. isolved learn and grow.",
+"painStats": [
+{
+"stat": "2 years",
+"label": "Typical CPR/AED certification validity",
+"sub": "Most CPR certifications expire every two years, and a lapsed card on a trainer's file is one of the fastest ways to fail an insurance or franchise audit."
+},
+{
+"stat": "5 AEDs",
+"label": "California's per-certified-staff AED ratio",
+"sub": "California Health and Safety Code Section 104113 requires at least one CPR and AED certified person per up to 5 AED units on site, which most multi-location gyms cannot track manually."
+},
+{
+"stat": "1 incident",
+"label": "What it takes to expose a training gap",
+"sub": "A cardiac event on the gym floor with no certified staff present turns a training oversight into a liability and reputation problem overnight."
+}
+],
+"solves": [
+{
+"title": "Assign CPR/AED and onboarding tracks by location",
+"body": "isolved learn and grow assigns required certifications to trainers and front desk staff per location, so every shift has someone current on CPR and AED use."
+},
+{
+"title": "Track certification renewal before it lapses",
+"body": "Automated reminders flag expiring CPR/AED cards well before the 2-year renewal window closes, instead of finding out during an incident review."
+},
+{
+"title": "Prove staff coverage to your insurer",
+"body": "Generate a location-by-location report showing certified staff coverage, useful for liability insurance renewals and state or franchise audits."
+}
+],
+"authority": [
+{
+"href": "https://www.redcross.org/take-a-class/lp/cpr-for-personal-trainer-fitness-instuctors",
+"label": "American Red Cross, CPR for personal trainers"
+},
+{
+"href": "https://www.osha.gov/laws-regs/standardinterpretations/2007-04-23-0",
+"label": "OSHA standard interpretation on CPR/AED and bloodborne pathogens"
+}
+],
+"faq": [
+[
+"Do our trainers need CPR certification to work the floor?",
+"Requirements vary by state and certifying body, but most personal trainer certifications require current CPR/AED credentials, and states like California mandate it by law. isolved learn and grow tracks each trainer's certification and renewal date automatically."
+],
+[
+"How do we prove AED coverage across multiple gym locations?",
+"You can pull a per-location report showing which certified staff are on shift, which satisfies both insurance requirements and state rules like California's one-certified-person-per-5-AEDs standard."
+]
+]
+},
+"franchise": {
+"hook": "Brand-standard training every location can prove, not just the ones corporate happens to visit",
+"keyword": "multi unit franchise training software",
+"metaTitle": "Franchise Training and Compliance Software | BEG",
+"metaDesc": "Assign brand-standard, food safety, and alcohol training across every franchise location, track completion, and prove it during brand audits. isolved learn and grow.",
+"painStats": [
+{
+"stat": "5 years",
+"label": "Typical ServSafe manager certification cycle",
+"sub": "Food-service franchise managers typically need ServSafe or equivalent manager certification renewed every 5 years, and tracking that across dozens of units by spreadsheet does not scale."
+},
+{
+"stat": "60 days",
+"label": "California's window for new alcohol server training",
+"sub": "California requires servers and managers to complete ABC-approved Responsible Beverage Service training and pass the state exam within 60 days of their first day, a deadline franchisors are on the hook for enforcing."
+},
+{
+"stat": "1 location",
+"label": "What it takes to put the brand at risk",
+"sub": "One under-trained unit with a lapsed food safety or alcohol certification can trigger a health department citation or franchise agreement violation that reflects on the whole brand."
+}
+],
+"solves": [
+{
+"title": "Standardize training across every unit",
+"body": "isolved learn and grow lets corporate push one required curriculum, brand standards, food safety, alcohol service, to every franchise location, so training is consistent no matter who owns the unit."
+},
+{
+"title": "Track certification renewals location by location",
+"body": "See at a glance which units have lapsed ServSafe or Responsible Beverage Service certifications before a health inspector or franchise auditor does."
+},
+{
+"title": "Upload your own brand and operations content",
+"body": "Layer proprietary brand-standard modules, POS training, and operating procedures on top of required compliance courses, all in one system."
+}
+],
+"authority": [
+{
+"href": "https://www.abc.ca.gov/",
+"label": "California Department of Alcoholic Beverage Control"
+},
+{
+"href": "https://www.servsafe.com/",
+"label": "ServSafe food safety certification"
+}
+],
+"faq": [
+[
+"Can we require the same training across every franchise location from one dashboard?",
+"Yes. isolved learn and grow lets a franchisor assign required brand-standard, food safety, and alcohol server courses to every unit, and see completion status location by location instead of relying on each franchisee to self-report."
+],
+[
+"How do we prove a location was compliant if a health inspector or franchise auditor asks?",
+"Pull a dated completion report for that unit showing every employee's certifications, including food handler cards and alcohol server training, on demand."
+]
+]
+},
+"government-contractor": {
+"hook": "Insider threat and ethics training documented the way DCSA and your contracting officer expect",
+"keyword": "government contractor compliance training software",
+"metaTitle": "Government Contractor Compliance Training | BEG",
+"metaDesc": "Assign annual insider threat, ethics, and NISPOM training, track completion by clearance level, and prove it to DCSA or your contracting officer. isolved learn and grow.",
+"painStats": [
+{
+"stat": "Annually",
+"label": "Required insider threat refresher for cleared staff",
+"sub": "32 CFR 117.12 requires all cleared employees to complete insider threat awareness training annually, on top of initial training before classified access is granted."
+},
+{
+"stat": "90 days",
+"label": "Window to stand up an ethics program after award",
+"sub": "FAR 52.203-13 requires contractors to establish a business ethics awareness and compliance program, including training, within 90 days of contract award unless a longer period is set."
+},
+{
+"stat": "1 finding",
+"label": "What a missed training record costs at a DCSA review",
+"sub": "An incomplete insider threat or ethics training record is exactly the kind of gap a facility security officer does not want to explain during a Defense Counterintelligence and Security Agency review."
+}
+],
+"solves": [
+{
+"title": "Assign training by clearance level and role",
+"body": "isolved learn and grow separates initial and annual insider threat training, ethics awareness, and role-specific compliance courses so cleared and non-cleared staff each get what NISPOM and the FAR require."
+},
+{
+"title": "Track annual renewal against the 32 CFR 117.12 clock",
+"body": "Automated tracking flags any cleared employee approaching their annual insider threat training deadline before it lapses."
+},
+{
+"title": "Produce documentation for DCSA or contracting officer review",
+"body": "Generate a complete, dated training record for insider threat and ethics compliance, ready for a facility security clearance review or contract audit."
+}
+],
+"authority": [
+{
+"href": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-D/part-117/section-117.12",
+"label": "32 CFR 117.12, security training and briefings"
+},
+{
+"href": "https://www.acquisition.gov/far/52.203-13",
+"label": "FAR 52.203-13, Contractor Code of Business Ethics and Conduct"
+}
+],
+"faq": [
+[
+"Does isolved learn and grow track annual insider threat training deadlines for cleared employees?",
+"Yes. Under 32 CFR 117.12, cleared employees need insider threat training before initial access and annually after. isolved learn and grow tracks each employee's due date and produces the completion record DCSA expects to see."
+],
+[
+"Can we prove our ethics training program to a contracting officer after contract award?",
+"Yes. FAR 52.203-13 requires an ethics awareness program within 90 days of award. You can assign the required course, track completion across the workforce, and pull a dated report for any audit or disclosure request."
+]
+]
+},
+"home-services": {
+"hook": "Field safety, EPA, and driver training that follows the technician, not the filing cabinet",
+"keyword": "home services field safety training software",
+"metaTitle": "HVAC and Field Services Training Software | BEG",
+"metaDesc": "Assign OSHA, EPA 608, and driver safety training to field technicians, track certification renewals, and prove compliance. isolved learn and grow, national support.",
+"painStats": [
+{
+"stat": "40 CFR Part 82",
+"label": "Federal rule requiring EPA 608 certification",
+"sub": "Any technician who services equipment that could release refrigerant must hold EPA Section 608 certification, and it does not expire, but firms still need proof on file per hire."
+},
+{
+"stat": "Per state",
+"label": "Pesticide applicator certification is state issued",
+"sub": "Anyone applying restricted-use pesticides must be certified under EPA rules through their state's program, and certification does not transfer automatically across state lines."
+},
+{
+"stat": "1 truck",
+"label": "What one uncertified tech on a job site risks",
+"sub": "A technician without EPA 608 or current OSHA safety training on a job site is a compliance exposure that shows up during a customer complaint, an insurance audit, or a workers comp claim."
+}
+],
+"solves": [
+{
+"title": "Assign OSHA field safety by trade and role",
+"body": "isolved learn and grow lets you build required safety curricula for HVAC, plumbing, electrical, and pest control technicians so each trade gets the right OSHA and hazard training."
+},
+{
+"title": "Track EPA 608 and state pesticide certifications",
+"body": "Keep certification records on file per technician, including EPA 608 type and state pesticide applicator credentials, without chasing paper cards."
+},
+{
+"title": "Roll in driver safety training",
+"body": "Assign and track fleet driver safety training alongside trade certifications, so every tech on the road has both credentials current in one system."
+}
+],
+"authority": [
+{
+"href": "https://www.epa.gov/section608/section-608-technician-certification-requirements",
+"label": "EPA, Section 608 technician certification requirements"
+},
+{
+"href": "https://www.epa.gov/pesticide-worker-safety/how-get-certified-pesticide-applicator",
+"label": "EPA, how to get certified as a pesticide applicator"
+}
+],
+"faq": [
+[
+"Do our HVAC technicians need EPA 608 certification, and does it expire?",
+"Federal law under 40 CFR Part 82 requires certification for anyone who could release refrigerant during service, and the certification itself does not expire, but you still need proof on file for every technician, which isolved learn and grow tracks by hire date and type."
+],
+[
+"Can we track pest control applicator licenses separately by state?",
+"Yes. Since pesticide applicator certification is issued state by state, you can track each technician's state-specific license and renewal date alongside their OSHA and safety training in one record."
+]
+]
+},
+"insurance-agency": {
+"hook": "Producer CE hours and ethics credits tracked by state, so renewal season stops being a scramble",
+"keyword": "insurance producer continuing education tracking software",
+"metaTitle": "Insurance Producer CE Tracking Software | BEG",
+"metaDesc": "Assign state-specific CE and ethics hours to every producer, track renewal deadlines, and prove compliance at audit time. isolved learn and grow, national support.",
+"painStats": [
+{
+"stat": "24 credits",
+"label": "Typical biennial CE requirement under NAIC's uniform standard",
+"sub": "Most states following the NAIC Uniform Licensing Standard require 24 CE credits per 2-year period, including a mandatory ethics component."
+},
+{
+"stat": "3 hours",
+"label": "Ethics credit typically required per cycle",
+"sub": "Under the NAIC uniform standard, at least 3 of the 24 required credits must be in ethics, a requirement nearly every state has adopted in some form."
+},
+{
+"stat": "50 states",
+"label": "Different rules to track if you write business broadly",
+"sub": "CE hour totals, ethics minimums, and renewal cycles vary by state, and a producer licensed in multiple states has a different deadline in each one."
+}
+],
+"solves": [
+{
+"title": "Assign CE tracks by state and license type",
+"body": "isolved learn and grow lets you build state-specific CE requirements, including ethics hours, for every producer, so multi-state agents are not guessing at what applies where."
+},
+{
+"title": "Track renewal deadlines before they lapse",
+"body": "Automated alerts flag a producer approaching their biennial renewal deadline in any state they hold a license in."
+},
+{
+"title": "Prove CE completion during a market conduct exam",
+"body": "Pull a dated completion report by producer and state, ready for a Department of Insurance audit or E&O carrier request."
+}
+],
+"authority": [
+{
+"href": "https://content.naic.org/sites/default/files/inline-files/Chapter%2014.pdf",
+"label": "NAIC, Producer Licensing Model Act, Chapter 14, Continuing Education"
+},
+{
+"href": "https://content.naic.org/sites/default/files/model-law-chart-pr-20-producer-education-and-examination-requirements.pdf",
+"label": "NAIC, producer education and examination requirements chart"
+}
+],
+"faq": [
+[
+"Do we need to track CE hours differently for producers licensed in multiple states?",
+"Yes. Each state sets its own CE total and ethics minimum, though most follow the NAIC uniform standard of 24 credits per 2 years with 3 in ethics. isolved learn and grow tracks each producer's requirement and deadline state by state."
+],
+[
+"How do we prove ethics CE compliance if the Department of Insurance audits us?",
+"You can generate a dated completion report showing each producer's ethics hours against their state's requirement, which satisfies most market conduct exam and audit requests."
+]
+]
+},
+"legal": {
+"hook": "MCLE hours and ethics credits tracked by bar and by deadline, not by spreadsheet",
+"keyword": "law firm cle tracking software",
+"metaTitle": "Law Firm MCLE and Ethics Training Tracking | BEG",
+"metaDesc": "Assign state bar CLE requirements, track ethics credit hours and reporting deadlines, and prove compliance for every attorney. isolved learn and grow, national support.",
+"painStats": [
+{
+"stat": "25 hours",
+"label": "Typical 3-year MCLE requirement",
+"sub": "California requires 25 hours of MCLE every 3-year compliance period, including at least 4 hours of legal ethics, and reporting is mandatory to the State Bar."
+},
+{
+"stat": "4 hours",
+"label": "Minimum legal ethics credit in California's cycle",
+"sub": "California's MCLE rule requires a minimum of 4 credit hours specifically in legal ethics within each 3-year period, separate from general CLE."
+},
+{
+"stat": "50 bars",
+"label": "Different reporting rules if attorneys are multi-jurisdictional",
+"sub": "CLE hour totals, ethics minimums, and reporting periods differ by state bar, and firms with attorneys licensed in multiple states track a different deadline for each."
+}
+],
+"solves": [
+{
+"title": "Assign CLE tracks by jurisdiction and attorney",
+"body": "isolved learn and grow lets you build state-specific CLE requirements, including ethics, technology, and bias-elimination credit categories, for every attorney you employ."
+},
+{
+"title": "Track reporting deadlines before they are due",
+"body": "Automated reminders flag attorneys approaching their bar's reporting deadline, so no one misses the compliance period cutoff."
+},
+{
+"title": "Prove CLE compliance during a bar audit",
+"body": "Generate a per-attorney, per-jurisdiction completion report, useful if the State Bar audits your CLE compliance or a client asks for documentation."
+}
+],
+"authority": [
+{
+"href": "https://www.calbar.ca.gov/legal-professionals/maintaining-compliance/mcle/mcle-requirements",
+"label": "State Bar of California, MCLE requirements"
+},
+{
+"href": "https://www.americanbar.org/events-cle/mcle/",
+"label": "American Bar Association, MCLE resources by jurisdiction"
+}
+],
+"faq": [
+[
+"Can we track different MCLE requirements for attorneys licensed in more than one state?",
+"Yes. Since CLE totals, ethics minimums, and reporting periods vary by bar, isolved learn and grow tracks each attorney's requirement separately by jurisdiction, including deadlines like California's 3-year, 25-hour cycle with 4 hours of ethics."
+],
+[
+"How do we show the State Bar our CLE records if we get audited?",
+"You can pull a dated, per-attorney completion report by category and jurisdiction at any time, rather than reconstructing records from certificates and email confirmations."
+]
+]
+},
+"marketing-agency": {
+"hook": "Client data privacy and harassment training your agency can actually document, not just claim",
+"keyword": "marketing agency employee training software",
+"metaTitle": "Marketing Agency Compliance Training Software | BEG",
+"metaDesc": "Assign data privacy, harassment prevention, and tool onboarding training to every employee, track completion, and prove it to clients. isolved learn and grow.",
+"painStats": [
+{
+"stat": "1798.130(a)(6)",
+"label": "CCPA section requiring privacy training",
+"sub": "The California Consumer Privacy Act requires anyone handling consumer data requests or compliance to be informed of the law's requirements, a duty that extends to marketing and data teams handling client campaigns."
+},
+{
+"stat": "Annually",
+"label": "Recommended CCPA/CPRA training refresh",
+"sub": "Privacy counsel generally recommend refreshing employee CCPA and CPRA training every year as the law and enforcement guidance evolves."
+},
+{
+"stat": "1 client audit",
+"label": "What exposes a gap in agency training records",
+"sub": "Enterprise clients increasingly require proof of data handling and harassment prevention training before signing a vendor agreement, and agencies without documentation lose deals over it."
+}
+],
+"solves": [
+{
+"title": "Assign privacy and harassment training by role",
+"body": "isolved learn and grow lets you require CCPA/CPRA data handling training for anyone touching client data, plus state-mandated harassment prevention for all staff."
+},
+{
+"title": "Standardize new-hire and tool onboarding",
+"body": "Build required onboarding tracks that cover both compliance basics and internal tool training, so every new hire starts client work fully ramped."
+},
+{
+"title": "Prove training compliance to enterprise clients",
+"body": "When a client's procurement or legal team asks for proof of data privacy and harassment training, generate the report instead of scrambling."
+}
+],
+"authority": [
+{
+"href": "https://www.fisherphillips.com/en/news-insights/employers-need-to-know-california-consumer-privacy-acts-training-requirement.html",
+"label": "Fisher Phillips, CCPA employee training requirement"
+},
+{
+"href": "https://www.eeoc.gov/training-institute/harassment-prevention-and-respectful-workplaces-training",
+"label": "EEOC harassment prevention training guidance"
+}
+],
+"faq": [
+[
+"Does the CCPA actually require us to train employees, or is that optional?",
+"Section 1798.130(a)(6) of the CCPA requires that individuals responsible for handling consumer privacy requests or compliance be trained on the law's requirements. isolved learn and grow lets you assign and document that training for the right roles, and refresh it annually as guidance changes."
+],
+[
+"Can we show a client proof of our training program during vendor onboarding?",
+"Yes. You can generate a completion report covering data privacy, harassment prevention, and onboarding training for any employee or team, which satisfies most enterprise client vendor security and compliance reviews."
+]
+]
+},
+"property-management": {
+"hook": "Fair housing and safety training that holds up when HUD or a tenant's attorney comes asking",
+"keyword": "property management fair housing training software",
+"metaTitle": "Property Management Fair Housing Training | BEG",
+"metaDesc": "Assign fair housing, OSHA, and fair-credit training to leasing staff, track completion, and prove compliance during an audit or complaint. isolved learn and grow.",
+"painStats": [
+{
+"stat": "Fair Housing Act",
+"label": "Federal law governing every leasing decision",
+"sub": "The Fair Housing Act prohibits discrimination in housing based on protected classes, and HUD-approved training is the standard defense when a leasing decision is challenged."
+},
+{
+"stat": "1 complaint",
+"label": "What triggers a HUD fair housing investigation",
+"sub": "A single tenant complaint can open a HUD investigation into a property's leasing practices, and documented staff training is one of the first things investigators ask about."
+},
+{
+"stat": "FCRA",
+"label": "Federal law governing tenant screening",
+"sub": "The Fair Credit Reporting Act governs how leasing staff use credit and background reports in tenant screening, and untrained staff create liability with every application they process."
+}
+],
+"solves": [
+{
+"title": "Assign fair housing training to every leasing role",
+"body": "isolved learn and grow lets you require fair housing, FCRA screening, and OSHA safety training for leasing agents and maintenance staff before they touch an application or a work order."
+},
+{
+"title": "Track completion across every property",
+"body": "See at a glance which properties and staff have current fair housing and safety training, whether you manage 5 doors or 5,000."
+},
+{
+"title": "Prove compliance if HUD or a tenant complaint comes in",
+"body": "Pull a dated training record for any leasing agent or property, ready to hand to counsel or an investigator the day it is requested."
+}
+],
+"authority": [
+{
+"href": "https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_rights_and_obligations",
+"label": "HUD, fair housing rights and obligations"
+},
+{
+"href": "https://www.hudexchange.info/programs/nfhta/",
+"label": "HUD Exchange, National Fair Housing Training Academy"
+}
+],
+"faq": [
+[
+"Do our leasing agents need documented fair housing training, or is a policy enough?",
+"A written policy alone will not satisfy HUD if a complaint is filed. isolved learn and grow lets you require and document fair housing training for every leasing agent, with a dated completion record you can produce if an investigation opens."
+],
+[
+"Can we track training separately across multiple properties under one management company?",
+"Yes. You can assign and monitor fair housing, FCRA, and OSHA training property by property, so you know exactly which locations and staff are current at any moment."
+]
+]
+},
+"salon-spa": {
+"hook": "License renewal and bloodborne pathogen training tracked by stylist, not by sticky note",
+"keyword": "salon spa staff training compliance software",
+"metaTitle": "Salon and Spa Staff Training Software | BEG",
+"metaDesc": "Assign cosmetology CE, sanitation, and bloodborne pathogen training to every stylist and tech, track license renewals, and prove compliance. isolved learn and grow.",
+"painStats": [
+{
+"stat": "14 hours",
+"label": "Example state CE requirement, Illinois cosmetologists",
+"sub": "Illinois requires cosmetologists to complete 14 hours of approved continuing education every 2 years to renew, including sanitation topics, and requirements differ by state."
+},
+{
+"stat": "1,500 hours",
+"label": "Typical initial cosmetology licensing hours",
+"sub": "Most states require roughly 1,500 hours of training before initial licensure, and every renewal cycle after that has its own separate continuing education rule."
+},
+{
+"stat": "1 inspection",
+"label": "What exposes a lapsed license or missed sanitation training",
+"sub": "A state board inspection or client complaint is when a lapsed license or undocumented bloodborne pathogen training becomes a fine, not just an oversight."
+}
+],
+"solves": [
+{
+"title": "Track license renewal by stylist and by state",
+"body": "isolved learn and grow tracks each stylist's or technician's license expiration and required CE hours, which vary state to state, so nothing lapses unnoticed."
+},
+{
+"title": "Assign sanitation and bloodborne pathogen training",
+"body": "Require infection control and bloodborne pathogen training as part of onboarding and ongoing renewal, matching what most state boards expect to see documented."
+},
+{
+"title": "Prove compliance during a state board inspection",
+"body": "Generate a dated completion report per employee, ready to hand to a state cosmetology board inspector on the spot."
+}
+],
+"authority": [
+{
+"href": "https://www.bloodbornepathogenstrainingonline.com/page/BeautySalon.html",
+"label": "Bloodborne pathogens training standards for salons"
+},
+{
+"href": "https://www.osha.gov/bloodborne-pathogens",
+"label": "OSHA, bloodborne pathogens standard"
+}
+],
+"faq": [
+[
+"Do continuing education requirements for cosmetologists vary by state?",
+"Yes, significantly. Some states require 10 to 14 hours every renewal cycle covering sanitation and safety, while others require none. isolved learn and grow tracks each employee's specific state requirement and renewal date automatically."
+],
+[
+"Can we prove bloodborne pathogen and sanitation training if the state board inspects us?",
+"Yes. You can pull a dated completion record for every stylist and technician showing sanitation and infection control training, which is exactly what a state board inspector asks for."
+]
+]
+},
+"security": {
+"hook": "Guard license hours and use-of-force training tracked before your client's contract requires proof",
+"keyword": "security guard training compliance software",
+"metaTitle": "Security Guard Training Compliance Software | BEG",
+"metaDesc": "Assign state-mandated guard training and use-of-force hours, track license renewals, and prove compliance to clients and regulators. isolved learn and grow.",
+"painStats": [
+{
+"stat": "4 to 40 hours",
+"label": "Range of state entry-level guard training requirements",
+"sub": "Unarmed guard training mandates range from as little as 4 hours in Tennessee to 40 hours in California, and a guard working across state lines needs each state's hours documented separately."
+},
+{
+"stat": "8 hours",
+"label": "California's required use-of-force training before a Guard Card",
+"sub": "California requires 8 hours of Powers to Arrest and appropriate use-of-force training before an applicant can even apply for a Guard Card."
+},
+{
+"stat": "1 incident",
+"label": "What turns a training gap into a lawsuit",
+"sub": "A use-of-force incident involving an under-trained or improperly licensed guard is the fastest way a security firm loses a client contract and faces liability."
+}
+],
+"solves": [
+{
+"title": "Assign state-specific guard training tracks",
+"body": "isolved learn and grow lets you build required curricula matched to each state's entry-level and use-of-force training hours, since requirements differ dramatically state to state."
+},
+{
+"title": "Track license and certification renewal",
+"body": "Automated tracking flags guards approaching license renewal or missing required hours before they are assigned to a post."
+},
+{
+"title": "Prove compliance to clients and regulators",
+"body": "Generate a per-guard, per-state training and licensing report, useful for client contract audits and state licensing board reviews."
+}
+],
+"authority": [
+{
+"href": "https://dos.ny.gov/security-guard-training-requirements",
+"label": "New York Department of State, security guard training requirements"
+},
+{
+"href": "https://calsaga.org/training-requirements-faq/",
+"label": "California Association of Licensed Security Agencies, training requirements FAQ"
+}
+],
+"faq": [
+[
+"Do guard training hour requirements really differ that much by state?",
+"Yes. Entry-level unarmed guard training ranges from about 4 hours in some states to 40 hours in California, plus separate use-of-force and armed-guard requirements. isolved learn and grow tracks each guard's completed hours against their specific state's rule."
+],
+[
+"Can we prove a guard was properly trained if a client or regulator asks after an incident?",
+"Yes. You can produce a dated training and certification record for any guard, showing exactly which state-required hours and use-of-force training were completed and when."
+]
+]
+},
+"staffing-agency": {
+"hook": "Site-specific safety training documented for every placement, so the OSHA joint-employer question never catches you off guard",
+"keyword": "staffing agency safety training software",
+"metaTitle": "Staffing Agency Safety Training Software | BEG",
+"metaDesc": "Assign generic and client-site safety training to every placement, track completion by assignment, and prove joint-employer compliance. isolved learn and grow.",
+"painStats": [
+{
+"stat": "2 employers",
+"label": "Who OSHA holds responsible for a temp worker's training",
+"sub": "OSHA can cite both the staffing agency and the host employer for training gaps under its joint-employer framework, since both share responsibility for hazard communication and safety training."
+},
+{
+"stat": "1 contract",
+"label": "Where training responsibilities should be spelled out",
+"sub": "OSHA recommends staffing agencies and host employers define who handles generic versus site-specific safety training in the placement contract itself, or the gap falls on both."
+},
+{
+"stat": "1 placement",
+"label": "What it takes to expose an untracked training record",
+"sub": "An injury at a client site with no record of which safety training was completed by which party is exactly what triggers a joint OSHA investigation."
+}
+],
+"solves": [
+{
+"title": "Assign generic and site-specific safety training separately",
+"body": "isolved learn and grow lets you assign your baseline safety and harassment training to every placement, while tracking which client-site training was completed for each assignment."
+},
+{
+"title": "Track training by placement, not just by employee",
+"body": "Since a single worker may rotate through multiple client sites, track training completion per assignment so you always know what is current for where they are working today."
+},
+{
+"title": "Prove joint-employer compliance if OSHA investigates",
+"body": "Produce a training record showing exactly what your agency completed versus what the host site was responsible for, which is critical documentation in a joint-employer OSHA case."
+}
+],
+"authority": [
+{
+"href": "https://www.osha.gov/temporaryworkers",
+"label": "OSHA, protecting temporary workers"
+},
+{
+"href": "https://www.osha.gov/sites/default/files/publications/OSHA3859.pdf",
+"label": "OSHA Temporary Worker Initiative Bulletin, safety and health training"
+}
+],
+"faq": [
+[
+"Who is responsible for training a temp worker, us or the client site?",
+"OSHA treats staffing agencies and host employers as joint employers for safety training purposes, generally expecting the agency to cover generic safety training and the client to cover site-specific hazards. isolved learn and grow tracks completion of both so you can show your side of the record."
+],
+[
+"Can we track different training requirements for the same worker across different placements?",
+"Yes. You can assign and track training per placement, so a worker rotating between client sites has a current, documented record specific to each assignment."
+]
+]
+},
+"technology": {
+"hook": "Security awareness training that shows up as evidence in your SOC 2 report, not just a slide deck memory",
+"keyword": "soc 2 security awareness training software",
+"metaTitle": "SOC 2 Security Awareness Training Software | BEG",
+"metaDesc": "Assign annual security awareness, privacy, and code-of-conduct training, track completion for every employee, and produce SOC 2 audit evidence. isolved learn and grow.",
+"painStats": [
+{
+"stat": "100%",
+"label": "Completion rate auditors expect for SOC 2 training evidence",
+"sub": "SOC 2 Type II auditors look for an annual training completion report showing full workforce coverage, not a sample, across the entire audit observation period."
+},
+{
+"stat": "30 days",
+"label": "Typical window for new-hire security training",
+"sub": "Best practice, and what most SOC 2 auditors expect, is that new employees complete security awareness training within their first 30 days, ideally before production access is granted."
+},
+{
+"stat": "1 audit cycle",
+"label": "How often gaps in training evidence get discovered",
+"sub": "A SOC 2 Type II audit reviews training completion throughout the entire period, so a single quarter with no documented refresher training becomes a finding."
+}
+],
+"solves": [
+{
+"title": "Assign annual security awareness training company-wide",
+"body": "isolved learn and grow lets you require and refresh security awareness, data privacy, and code-of-conduct training for every employee, from engineering to sales."
+},
+{
+"title": "Track new-hire onboarding against the 30-day window",
+"body": "Automated tracking flags new hires approaching their onboarding training deadline, keeping you ahead of the completion window auditors expect."
+},
+{
+"title": "Generate SOC 2 audit-ready completion reports",
+"body": "Pull a full-workforce, dated completion report covering the entire audit period, exactly what your SOC 2 auditor requests as training evidence."
+}
+],
+"authority": [
+{
+"href": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2",
+"label": "AICPA, SOC 2 examinations overview"
+},
+{
+"href": "https://www.cisa.gov/topics/cybersecurity-best-practices/organizations-and-cyber-safety/cybersecurity-training-resources",
+"label": "CISA, cybersecurity training resources"
+}
+],
+"faq": [
+[
+"What training evidence does a SOC 2 Type II audit actually require?",
+"Auditors expect a documented, dated record showing all employees completed annual security awareness training throughout the observation period, not just at one point in time. isolved learn and grow generates that full-workforce completion report on demand."
+],
+[
+"Can we track new-hire security training separately from annual refreshers?",
+"Yes. You can assign onboarding security training with its own due date for every new hire, then automatically roll them into the annual refresher cycle once onboarding is complete."
+]
+]
+},
+"trades": {
+"hook": "OSHA 10, OSHA 30, and licensing CE tracked by crew, so the job site is never one card short",
+"keyword": "trades osha training tracking software",
+"metaTitle": "OSHA 10/30 and Trades Training Tracking | BEG",
+"metaDesc": "Assign OSHA 10, OSHA 30, and state licensing CE to every crew member, track card renewals, and prove job-site compliance. isolved learn and grow, national support.",
+"painStats": [
+{
+"stat": "15 days",
+"label": "New York City's deadline for a new hire's OSHA 10 card",
+"sub": "NYC requires every construction employee to obtain an OSHA 10-hour card within 15 days of hire, and supervisory staff need OSHA 30 on the same timeline."
+},
+{
+"stat": "$10,000",
+"label": "Public project threshold triggering mandatory OSHA 10",
+"sub": "Many jurisdictions require OSHA 10-hour training for every worker on public projects estimated above $10,000, a threshold that catches even small subcontractor crews."
+},
+{
+"stat": "1 supervisor",
+"label": "Who needs OSHA 30 on most job sites",
+"sub": "OSHA 30 is generally required or recommended for any worker with supervisory or safety responsibility on a job site, distinct from the base OSHA 10 requirement for the rest of the crew."
+}
+],
+"solves": [
+{
+"title": "Assign OSHA 10 and OSHA 30 by role",
+"body": "isolved learn and grow lets you require OSHA 10 for every crew member and OSHA 30 for supervisors, matching the jurisdiction and project requirements you actually work under."
+},
+{
+"title": "Track state trade licensing CE alongside safety cards",
+"body": "Electricians, plumbers, and HVAC techs often carry separate state licensing CE requirements. Track those renewal cycles in the same system as OSHA cards."
+},
+{
+"title": "Prove compliance before a job site inspection",
+"body": "Pull a crew-by-crew report showing current OSHA cards and licensing CE, ready before a general contractor or municipal inspector asks for it."
+}
+],
+"authority": [
+{
+"href": "https://www.osha.gov/training/outreach/construction",
+"label": "OSHA, Outreach Training Program for construction"
+},
+{
+"href": "https://www.osha.gov/training/outreach",
+"label": "OSHA, Outreach Training Program overview"
+}
+],
+"faq": [
+[
+"Do all our crew members need OSHA 10, or just supervisors?",
+"OSHA 10 is generally expected for all construction workers where required by state or local law, while OSHA 30 is aimed at supervisors and anyone with safety responsibility. isolved learn and grow assigns the right course by role and tracks card status by crew."
+],
+[
+"Can we track state trade licensing CE hours in the same system as OSHA cards?",
+"Yes. You can track electrician, plumbing, and HVAC continuing education requirements alongside OSHA 10/30 cards, so every worker's full compliance picture is in one place."
+]
+]
+},
+"trucking": {
+"hook": "ELDT, hours-of-service, and hazmat training documented before FMCSA asks, not after",
+"keyword": "fmcsa driver training compliance software",
+"metaTitle": "FMCSA ELDT and Driver Training Software | BEG",
+"metaDesc": "Assign Entry Level Driver Training, hazmat, and annual safety training to every driver, track completion, and prove FMCSA compliance. isolved learn and grow.",
+"painStats": [
+{
+"stat": "Feb. 7, 2022",
+"label": "Date ELDT became mandatory for new CDL holders",
+"sub": "FMCSA's Entry-Level Driver Training rule requires anyone obtaining a CLP on or after that date to complete both theory and behind-the-wheel training before earning a Class A or Class B CDL."
+},
+{
+"stat": "Every 3 years",
+"label": "Hazmat employee training renewal cycle",
+"sub": "Under 49 CFR 172.704, hazmat employees must be retrained at least once every 3 years, covering general awareness, function-specific, safety, and security awareness training."
+},
+{
+"stat": "90 days",
+"label": "Grace period for a new hazmat employee to complete training",
+"sub": "A new hazmat employee can perform job functions before training is finished only if it is completed within 90 days of hire or a change in job function."
+}
+],
+"solves": [
+{
+"title": "Track ELDT completion before CDL testing",
+"body": "isolved learn and grow documents each new driver's theory and behind-the-wheel Entry-Level Driver Training completion, satisfying the FMCSA Training Provider Registry record requirement."
+},
+{
+"title": "Track hazmat retraining on the 3-year cycle",
+"body": "Automated tracking flags hazmat-endorsed drivers approaching their 49 CFR 172.704 retraining deadline, and flags new hires against the 90-day grace period."
+},
+{
+"title": "Prove annual safety training during a DOT audit",
+"body": "Generate a per-driver training and certification record covering ELDT, hazmat, and ongoing safety training, ready for an FMCSA compliance review."
+}
+],
+"authority": [
+{
+"href": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license/entry-level-driver-training-eldt",
+"label": "FMCSA, Entry-Level Driver Training (ELDT)"
+},
+{
+"href": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-H/section-172.704",
+"label": "49 CFR 172.704, hazmat training requirements"
+}
+],
+"faq": [
+[
+"Do we need to document ELDT completion for every new driver hired after February 2022?",
+"Yes. FMCSA requires anyone obtaining a commercial learner's permit on or after February 7, 2022 to complete Entry-Level Driver Training before CDL testing. isolved learn and grow tracks each driver's theory and behind-the-wheel completion for your records."
+],
+[
+"How often does hazmat training actually need to be renewed?",
+"Under 49 CFR 172.704, hazmat employees must be retrained at least once every 3 years, and new hires get a 90-day grace period. isolved learn and grow tracks each driver's due date against that cycle automatically."
+]
+]
+},
+"veterinary": {
+"hook": "Hazardous drug handling and controlled substance training documented the way OSHA and DEA expect",
+"keyword": "veterinary staff safety training software",
+"metaTitle": "Veterinary Practice Safety Training Software | BEG",
+"metaDesc": "Assign OSHA hazardous drug, radiation safety, and DEA controlled-substance training to every staff member, track completion, and prove compliance. isolved learn and grow.",
+"painStats": [
+{
+"stat": "NIOSH list",
+"label": "Hazardous drugs veterinary staff regularly handle",
+"sub": "NIOSH includes veterinary care workers among those who handle hazardous drugs, and OSHA guidance on safe handling applies directly to veterinary practices administering chemotherapy and other agents."
+},
+{
+"stat": "Annually",
+"label": "Recommended refresher for hazardous drug and PPE training",
+"sub": "Staff handling hazardous drugs, sharps, and animal restraint should receive both initial and annual refresher training on safe handling and PPE use."
+},
+{
+"stat": "DEA registration",
+"label": "Requirement for any practice storing controlled substances",
+"sub": "Practices storing and dispensing controlled substances need proper DEA registration and recordkeeping, and staff handling those substances need documented training on storage and record accuracy."
+}
+],
+"solves": [
+{
+"title": "Assign hazardous drug and PPE training by role",
+"body": "isolved learn and grow lets you require OSHA-aligned hazardous drug handling, sharps safety, and PPE training for every clinical staff member, refreshed annually."
+},
+{
+"title": "Track radiation safety and DEA training separately",
+"body": "Assign radiation safety training for staff operating imaging equipment and controlled-substance handling training for anyone with DEA-related recordkeeping responsibility."
+},
+{
+"title": "Prove compliance during a state board or OSHA inspection",
+"body": "Generate a dated, per-employee training record covering hazardous drugs, radiation safety, and controlled substances, ready for any inspection or audit."
+}
+],
+"authority": [
+{
+"href": "https://www.osha.gov/hazardous-drugs",
+"label": "OSHA, hazardous drugs overview"
+},
+{
+"href": "https://www.gammacompliance.com/compliance101/10-common-OSHA-requirements-in-veterinary-facilities",
+"label": "Common OSHA requirements in veterinary facilities"
+}
+],
+"faq": [
+[
+"Does OSHA guidance on hazardous drugs actually apply to veterinary practices?",
+"Yes. NIOSH specifically includes veterinary care workers among those who handle hazardous drugs, since many drugs used in human medicine, including chemotherapy agents, are also used in animal care. isolved learn and grow lets you assign and track that training for every clinical staff member."
+],
+[
+"Can we track DEA controlled-substance training separately from general safety training?",
+"Yes. You can build a separate required track for controlled-substance storage and recordkeeping training, alongside hazardous drug and radiation safety training, all tracked by employee in one system."
+]
+]
+}
+}

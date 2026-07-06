@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Staffing Agencies LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for staffing agencies. BEG resells and configures isolved Learn & Grow so you can assign client-specific, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+  title: 'Staffing Agency Safety Training Software | BEG',
+  description: 'Assign generic and client-site safety training to every placement, track completion by assignment, and prove joint-employer compliance. isolved learn and grow.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/staffing-agency' },
   openGraph: {
-    title: 'Staffing Agencies LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for staffing agencies. BEG resells and configures isolved Learn & Grow so you can assign client-specific, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+    title: 'Staffing Agency Safety Training Software | BEG',
+    description: 'Assign generic and client-site safety training to every placement, track completion by assignment, and prove joint-employer compliance. isolved learn and grow.',
     url: 'https://www.beghr.com/services/lms-learning-management/staffing-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agencies LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for staffing agencies. BEG resells and configures isolved Learn & Grow so you can assign client-specific, safety, and compliance training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Safety Training Software | BEG', description: 'Assign generic and client-site safety training to every placement, track completion by assignment, and prove joint-employer compliance. isolved learn and grow.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('staffing-agency');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your staffing agencies roles and training requirements.',
+    'Who is responsible for training a temp worker, us or the client site?',
+    'OSHA treats staffing agencies and host employers as joint employers for safety training purposes, generally expecting the agency to cover generic safety training and the client to cover site-specific hazards. isolved learn and grow tracks completion of both so you can show your side of the record.',
+  ],
+  [
+    'Can we track different training requirements for the same worker across different placements?',
+    'Yes. You can assign and track training per placement, so a worker rotating between client sites has a current, documented record specific to each assignment.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific client-specific, safety, and compliance training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific staffing agencies training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for staffing agencies employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsStaffingAgencyPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Get placed workers trained and compliant before their first shift.',
-            description: 'Training software for staffing agencies. BEG resells and configures isolved Learn & Grow so you can assign client-specific, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Site-specific safety training documented for every placement, so the OSHA joint-employer question never catches you off guard',
+            description: 'Assign generic and client-site safety training to every placement, track completion by assignment, and prove joint-employer compliance. isolved learn and grow.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsStaffingAgencyPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Staffing Agencies"
-        title="Get placed workers trained and compliant before their first shift."
-        description="Training placed workers on client-specific, safety, and compliance training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your staffing agencies team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Site-specific safety training documented for every placement, so the OSHA joint-employer question never catches you off guard"
+        description="In staffing agencies, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for staffing agencies teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsStaffingAgencyPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in staffing agencies shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in staffing agencies</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'client-specific, safety, and compliance training cannot lapse',
-                  sub: 'In staffing agencies, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '2 employers',
+                  label: 'Who OSHA holds responsible for a temp worker’s training',
+                  sub: 'OSHA can cite both the staffing agency and the host employer for training gaps under its joint-employer framework, since both share responsibility for hazard communication and safety training.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When placed workers turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '1 contract',
+                  label: 'Where training responsibilities should be spelled out',
+                  sub: 'OSHA recommends staffing agencies and host employers define who handles generic versus site-specific safety training in the placement contract itself, or the gap falls on both.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '1 placement',
+                  label: 'What it takes to expose an untracked training record',
+                  sub: 'An injury at a client site with no record of which safety training was completed by which party is exactly what triggers a joint OSHA investigation.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsStaffingAgencyPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how staffing agencies actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how staffing agencies actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsStaffingAgencyPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required client-specific, safety, and compliance training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign generic and site-specific safety training separately',
+                  body: 'isolved learn and grow lets you assign your baseline safety and harassment training to every placement, while tracking which client-site training was completed for each assignment.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New placed workers run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track training by placement, not just by employee',
+                  body: 'Since a single worker may rotate through multiple client sites, track training completion per assignment so you always know what is current for where they are working today.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove joint-employer compliance if OSHA investigates',
+                  body: 'Produce a training record showing exactly what your agency completed versus what the host site was responsible for, which is critical documentation in a joint-employer OSHA case.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsStaffingAgencyPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.osha.gov/temporaryworkers" target="_blank" rel="noopener noreferrer">OSHA, protecting temporary workers</a>, <a href="https://www.osha.gov/sites/default/files/publications/OSHA3859.pdf" target="_blank" rel="noopener noreferrer">OSHA Temporary Worker Initiative Bulletin, safety and health training</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

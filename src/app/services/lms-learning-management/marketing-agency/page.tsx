@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Marketing Agencies LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for marketing agencies. BEG resells and configures isolved Learn & Grow so you can assign tools, compliance, and onboarding training, track completions, and stay audit-ready, nationwide.',
+  title: 'Marketing Agency Compliance Training Software | BEG',
+  description: 'Assign data privacy, harassment prevention, and tool onboarding training to every employee, track completion, and prove it to clients. isolved learn and grow.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/marketing-agency' },
   openGraph: {
-    title: 'Marketing Agencies LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for marketing agencies. BEG resells and configures isolved Learn & Grow so you can assign tools, compliance, and onboarding training, track completions, and stay audit-ready, nationwide.',
+    title: 'Marketing Agency Compliance Training Software | BEG',
+    description: 'Assign data privacy, harassment prevention, and tool onboarding training to every employee, track completion, and prove it to clients. isolved learn and grow.',
     url: 'https://www.beghr.com/services/lms-learning-management/marketing-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Marketing Agencies LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for marketing agencies. BEG resells and configures isolved Learn & Grow so you can assign tools, compliance, and onboarding training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Marketing Agency Compliance Training Software | BEG', description: 'Assign data privacy, harassment prevention, and tool onboarding training to every employee, track completion, and prove it to clients. isolved learn and grow.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('marketing-agency');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your marketing agencies roles and training requirements.',
+    'Does the CCPA actually require us to train employees, or is that optional?',
+    'Section 1798.130(a)(6) of the CCPA requires that individuals responsible for handling consumer privacy requests or compliance be trained on the law’s requirements. isolved learn and grow lets you assign and document that training for the right roles, and refresh it annually as guidance changes.',
+  ],
+  [
+    'Can we show a client proof of our training program during vendor onboarding?',
+    'Yes. You can generate a completion report covering data privacy, harassment prevention, and onboarding training for any employee or team, which satisfies most enterprise client vendor security and compliance reviews.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific tools, compliance, and onboarding training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific marketing agencies training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for marketing agencies employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsMarketingAgencyPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Onboard and upskill agency talent without slowing billable work.',
-            description: 'Training software for marketing agencies. BEG resells and configures isolved Learn & Grow so you can assign tools, compliance, and onboarding training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Client data privacy and harassment training your agency can actually document, not just claim',
+            description: 'Assign data privacy, harassment prevention, and tool onboarding training to every employee, track completion, and prove it to clients. isolved learn and grow.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsMarketingAgencyPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Marketing Agencies"
-        title="Onboard and upskill agency talent without slowing billable work."
-        description="Training account and creative staff on tools, compliance, and onboarding training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your marketing agencies team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Client data privacy and harassment training your agency can actually document, not just claim"
+        description="In marketing agencies, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for marketing agencies teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsMarketingAgencyPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in marketing agencies shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in marketing agencies</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'tools, compliance, and onboarding training cannot lapse',
-                  sub: 'In marketing agencies, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '1798.130(a)(6)',
+                  label: 'CCPA section requiring privacy training',
+                  sub: 'The California Consumer Privacy Act requires anyone handling consumer data requests or compliance to be informed of the law’s requirements, a duty that extends to marketing and data teams handling client campaigns.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When account and creative staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: 'Annually',
+                  label: 'Recommended CCPA/CPRA training refresh',
+                  sub: 'Privacy counsel generally recommend refreshing employee CCPA and CPRA training every year as the law and enforcement guidance evolves.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '1 client audit',
+                  label: 'What exposes a gap in agency training records',
+                  sub: 'Enterprise clients increasingly require proof of data handling and harassment prevention training before signing a vendor agreement, and agencies without documentation lose deals over it.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsMarketingAgencyPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how marketing agencies actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how marketing agencies actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsMarketingAgencyPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required tools, compliance, and onboarding training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign privacy and harassment training by role',
+                  body: 'isolved learn and grow lets you require CCPA/CPRA data handling training for anyone touching client data, plus state-mandated harassment prevention for all staff.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New account and creative staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Standardize new-hire and tool onboarding',
+                  body: 'Build required onboarding tracks that cover both compliance basics and internal tool training, so every new hire starts client work fully ramped.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove training compliance to enterprise clients',
+                  body: 'When a client’s procurement or legal team asks for proof of data privacy and harassment training, generate the report instead of scrambling.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsMarketingAgencyPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.fisherphillips.com/en/news-insights/employers-need-to-know-california-consumer-privacy-acts-training-requirement.html" target="_blank" rel="noopener noreferrer">Fisher Phillips, CCPA employee training requirement</a>, <a href="https://www.eeoc.gov/training-institute/harassment-prevention-and-respectful-workplaces-training" target="_blank" rel="noopener noreferrer">EEOC harassment prevention training guidance</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

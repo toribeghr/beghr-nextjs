@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Accounting & CPA Firms LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for accounting firms. BEG resells and configures isolved Learn & Grow so you can assign CPE, ethics, and data-security training, track completions, and stay audit-ready, nationwide.',
+  title: 'CPA Firm CPE Tracking Software | BEG',
+  description: 'Assign CPE and ethics training, track hours toward state and AICPA requirements, prove compliance instantly. See isolved Learn & Grow pricing.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/accounting-cpa' },
   openGraph: {
-    title: 'Accounting & CPA Firms LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for accounting firms. BEG resells and configures isolved Learn & Grow so you can assign CPE, ethics, and data-security training, track completions, and stay audit-ready, nationwide.',
+    title: 'CPA Firm CPE Tracking Software | BEG',
+    description: 'Assign CPE and ethics training, track hours toward state and AICPA requirements, prove compliance instantly. See isolved Learn & Grow pricing.',
     url: 'https://www.beghr.com/services/lms-learning-management/accounting-cpa',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Accounting & CPA Firms LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for accounting firms. BEG resells and configures isolved Learn & Grow so you can assign CPE, ethics, and data-security training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'CPA Firm CPE Tracking Software | BEG', description: 'Assign CPE and ethics training, track hours toward state and AICPA requirements, prove compliance instantly. See isolved Learn & Grow pricing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('accounting-cpa');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your accounting firms roles and training requirements.',
+    'How many CPE hours does a CPA need?',
+    'AICPA members need 120 hours every three years, though each state board sets its own total, typically 80 to 120 hours per cycle, with a specific ethics hour minimum built in. isolved Learn & Grow tracks each CPA’s hours against their specific state and cycle requirement.',
+  ],
+  [
+    'Does ethics CPE have its own requirement?',
+    'Yes. Most state boards require a set number of ethics hours within the total CPE requirement each renewal period, and missing that carve-out can block license renewal even with enough total hours. Learn & Grow separates ethics completion from general CPE so nothing gets missed.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific CPE, ethics, and data-security training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific accounting firms training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for accounting firms employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsAccountingCpaPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Track CPE and firm training without another spreadsheet at busy season.',
-            description: 'Training software for accounting firms. BEG resells and configures isolved Learn & Grow so you can assign CPE, ethics, and data-security training, track completions, and stay audit-ready, nationwide.',
+            headline: 'A CPA who falls short on ethics CPE at renewal can lose their license, not just a line item on a compliance checklist.',
+            description: 'Assign CPE and ethics training, track hours toward state and AICPA requirements, prove compliance instantly. See isolved Learn & Grow pricing.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsAccountingCpaPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Accounting &amp; CPA Firms"
-        title="Track CPE and firm training without another spreadsheet at busy season."
-        description="Training accountants and staff on CPE, ethics, and data-security training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your accounting firms team stays trained, compliant, and audit-ready, in all 50 states."
+        title="A CPA who falls short on ethics CPE at renewal can lose their license, not just a line item on a compliance checklist."
+        description="In accounting firms, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for accounting firms teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsAccountingCpaPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in accounting firms shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in accounting firms</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'CPE, ethics, and data-security training cannot lapse',
-                  sub: 'In accounting firms, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '120 hours / 3 years',
+                  label: 'AICPA CPE requirement',
+                  sub: 'AICPA members must complete 120 hours of continuing professional education every three-year reporting period to maintain membership and demonstrate ongoing competency.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When accountants and staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '80 to 120 hours',
+                  label: 'State board CPE ranges',
+                  sub: 'Each state board of accountancy sets its own CPE hour totals, reporting periods, and ethics minimums, so a multi-state firm must track different requirements for licensees in different jurisdictions.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'State-set ethics minimum',
+                  label: 'Ethics hours required annually or per cycle',
+                  sub: 'Most state boards carve out a specific ethics CPE minimum within total hours, for example a set number of hours each renewal period, and missing it can jeopardize license renewal even if total hours are met.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsAccountingCpaPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how accounting firms actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how accounting firms actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsAccountingCpaPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required CPE, ethics, and data-security training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign CPE and ethics courses by state license',
+                  body: 'isolved Learn & Grow lets a firm configure CPE tracking per employee’s licensing state, so multi-state staff are not stuck with a one-size-fits-all requirement.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New accountants and staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track hours toward the 3-year and annual cycles',
+                  body: 'See exactly how many CPE and ethics hours each CPA has banked against their specific reporting period deadline, not just a generic completion checkbox.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance for peer review and licensing boards',
+                  body: 'Generate a CPE transcript for any staff member instantly when a state board, peer reviewer, or managing partner needs proof of hours completed.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsAccountingCpaPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.aicpa-cima.com/help/cpe-requirements-and-credits" target="_blank" rel="noopener noreferrer">AICPA CPE Requirements and Credits</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

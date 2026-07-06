@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Events LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for events. BEG resells and configures isolved Learn & Grow so you can assign safety, alcohol service, and crowd-management training, track completions, and stay audit-ready, nationwide.',
+  title: 'Event Venue Safety Training Software | BEG',
+  description: 'Assign crowd management, alcohol service, and safety training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/events' },
   openGraph: {
-    title: 'Events LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for events. BEG resells and configures isolved Learn & Grow so you can assign safety, alcohol service, and crowd-management training, track completions, and stay audit-ready, nationwide.',
+    title: 'Event Venue Safety Training Software | BEG',
+    description: 'Assign crowd management, alcohol service, and safety training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.',
     url: 'https://www.beghr.com/services/lms-learning-management/events',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Events LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for events. BEG resells and configures isolved Learn & Grow so you can assign safety, alcohol service, and crowd-management training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Event Venue Safety Training Software | BEG', description: 'Assign crowd management, alcohol service, and safety training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('events');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your events roles and training requirements.',
+    'How many crowd managers does an event need?',
+    'NFPA 101 requires an additional certified crowd manager for every 250 attendees at an assembly event, and many jurisdictions mandate at least one trained crowd manager for any event of 1,000 or more people. isolved Learn & Grow tracks certified staff against your expected attendance for every event.',
+  ],
+  [
+    'Do bar staff at events need alcohol server certification?',
+    'Most jurisdictions require or strongly recommend responsible beverage service training for any staff serving alcohol at an event. Learn & Grow tracks server certification status separately from crowd management training so both requirements are covered and documented.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific safety, alcohol service, and crowd-management training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific events training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for events employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsEventsPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Train seasonal and part-time event crews fast, in one place.',
-            description: 'Training software for events. BEG resells and configures isolved Learn & Grow so you can assign safety, alcohol service, and crowd-management training, track completions, and stay audit-ready, nationwide.',
+            headline: 'An event without a trained crowd manager on staff is one incident away from a liability claim and a venue permit review.',
+            description: 'Assign crowd management, alcohol service, and safety training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsEventsPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Events"
-        title="Train seasonal and part-time event crews fast, in one place."
-        description="Training event and venue staff on safety, alcohol service, and crowd-management training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your events team stays trained, compliant, and audit-ready, in all 50 states."
+        title="An event without a trained crowd manager on staff is one incident away from a liability claim and a venue permit review."
+        description="In events, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for events teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsEventsPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in events shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in events</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'safety, alcohol service, and crowd-management training cannot lapse',
-                  sub: 'In events, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '1 per 250 attendees',
+                  label: 'NFPA crowd manager ratio',
+                  sub: 'NFPA 101 requires an additional certified crowd manager for every 250 people at an assembly gathering, meaning larger events need multiple trained staff, not just one.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When event and venue staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '1,000+ attendees',
+                  label: 'Threshold triggering mandatory training',
+                  sub: 'Many jurisdictions following the International Fire Code require at least one properly trained crowd manager on site for any venue or event hosting 1,000 people or more.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '70% to pass',
+                  label: 'Typical crowd manager certification exam',
+                  sub: 'Crowd manager courses commonly require passing a certification exam, often around 70 percent correct, and venues need proof every staff member on the floor actually passed, not just enrolled.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsEventsPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how events actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how events actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsEventsPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required safety, alcohol service, and crowd-management training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign crowd management and alcohol service training by role',
+                  body: 'isolved Learn & Grow lets venues push NFPA-aligned crowd manager training to floor staff and responsible beverage service training to bar staff, matched to event size and local code.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New event and venue staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track certification ratios against attendance',
+                  body: 'See at a glance whether you have enough certified crowd managers on staff to meet the ratio required for your largest planned events.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance to fire marshals and insurers',
+                  body: 'Pull a complete certification roster in minutes when a fire marshal, permit office, or event insurer requires documentation before approving an event.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsEventsPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.mass.gov/info-details/crowd-managers" target="_blank" rel="noopener noreferrer">Massachusetts Crowd Manager Requirements</a>, <a href="https://www.dhses.ny.gov/crowd-manager-training" target="_blank" rel="noopener noreferrer">New York Crowd Manager Training</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

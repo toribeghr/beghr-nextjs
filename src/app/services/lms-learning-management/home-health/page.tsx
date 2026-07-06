@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Home Health LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for home health. BEG resells and configures isolved Learn & Grow so you can assign in-home care, HIPAA, and aide certification training, track completions, and stay audit-ready, nationwide.',
+  title: 'Home Health Aide Training Software | BEG',
+  description: 'Assign the 42 CFR 484.80 aide curriculum, track the 75-hour requirement and 12-hour in-service, prove compliance instantly. See isolved pricing.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/home-health' },
   openGraph: {
-    title: 'Home Health LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for home health. BEG resells and configures isolved Learn & Grow so you can assign in-home care, HIPAA, and aide certification training, track completions, and stay audit-ready, nationwide.',
+    title: 'Home Health Aide Training Software | BEG',
+    description: 'Assign the 42 CFR 484.80 aide curriculum, track the 75-hour requirement and 12-hour in-service, prove compliance instantly. See isolved pricing.',
     url: 'https://www.beghr.com/services/lms-learning-management/home-health',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Home Health LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for home health. BEG resells and configures isolved Learn & Grow so you can assign in-home care, HIPAA, and aide certification training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Home Health Aide Training Software | BEG', description: 'Assign the 42 CFR 484.80 aide curriculum, track the 75-hour requirement and 12-hour in-service, prove compliance instantly. See isolved pricing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('home-health');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your home health roles and training requirements.',
+    'How many hours of training does a home health aide need?',
+    '42 CFR 484.80 requires at least 75 hours of combined classroom and supervised practical training, with a minimum of 16 classroom hours preceding 16 hours of supervised practical training. isolved Learn & Grow tracks progress toward the full 75-hour requirement per aide.',
+  ],
+  [
+    'Is ongoing training required after certification?',
+    'Yes. Home health aides must complete at least 12 hours of in-service training every 12 months to remain compliant with Medicare conditions of participation. Learn & Grow flags each aide’s renewal window automatically so agencies do not miss the annual cycle.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific in-home care, HIPAA, and aide certification training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific home health training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for home health employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsHomeHealthPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Train and certify a field workforce you rarely see in one place.',
-            description: 'Training software for home health. BEG resells and configures isolved Learn & Grow so you can assign in-home care, HIPAA, and aide certification training, track completions, and stay audit-ready, nationwide.',
+            headline: 'An aide who has not completed the federally mandated 75 hours cannot legally bill a visit, and one gap in the file can trigger a survey deficiency.',
+            description: 'Assign the 42 CFR 484.80 aide curriculum, track the 75-hour requirement and 12-hour in-service, prove compliance instantly. See isolved pricing.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsHomeHealthPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Home Health"
-        title="Train and certify a field workforce you rarely see in one place."
-        description="Training field caregivers and clinicians on in-home care, HIPAA, and aide certification training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your home health team stays trained, compliant, and audit-ready, in all 50 states."
+        title="An aide who has not completed the federally mandated 75 hours cannot legally bill a visit, and one gap in the file can trigger a survey deficiency."
+        description="In home health, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for home health teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsHomeHealthPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in home health shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in home health</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'in-home care, HIPAA, and aide certification training cannot lapse',
-                  sub: 'In home health, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '75 hours',
+                  label: 'Federal home health aide training minimum',
+                  sub: '42 CFR 484.80 requires at least 75 hours of combined classroom and supervised practical training, including a minimum of 16 classroom hours before 16 hours of supervised practical work.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When field caregivers and clinicians turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '12 hours annually',
+                  label: 'Required in-service training',
+                  sub: 'Every home health aide must complete at least 12 hours of in-service training during each 12-month period to keep furnishing services under Medicare conditions of participation.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'Before first visit',
+                  label: 'Competency evaluation required',
+                  sub: 'An aide may only furnish services after successfully completing a competency evaluation, and the agency must maintain documentation proving the requirement was met before that first billable visit.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsHomeHealthPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how home health actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how home health actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsHomeHealthPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required in-home care, HIPAA, and aide certification training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign the 75-hour aide curriculum by module',
+                  body: 'isolved Learn & Grow structures the required classroom and practical training hours under 42 CFR 484.80 so you can track exactly where each aide is against the 75-hour minimum.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New field caregivers and clinicians run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track the 12-hour annual in-service requirement',
+                  body: 'Get automatic reminders as each aide’s 12-month in-service window approaches so no one falls out of compliance with Medicare conditions of participation.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove competency and training instantly for surveys',
+                  body: 'Produce documentation for any aide, any date range, the moment a state surveyor or Medicare auditor requests proof of the competency evaluation and training record.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsHomeHealthPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.law.cornell.edu/cfr/text/42/484.80" target="_blank" rel="noopener noreferrer">42 CFR 484.80, home health aide training</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-484/subpart-B/section-484.80" target="_blank" rel="noopener noreferrer">42 CFR 484.80 Home Health Aide Services</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

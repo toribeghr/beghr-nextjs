@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Breweries LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for breweries. BEG resells and configures isolved Learn & Grow so you can assign alcohol service, food safety, and equipment safety training, track completions, and stay audit-ready, nationwide.',
+  title: 'Brewery Safety and Compliance Training Software | BEG',
+  description: 'Assign OSHA brewery safety and alcohol server training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/brewery' },
   openGraph: {
-    title: 'Breweries LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for breweries. BEG resells and configures isolved Learn & Grow so you can assign alcohol service, food safety, and equipment safety training, track completions, and stay audit-ready, nationwide.',
+    title: 'Brewery Safety and Compliance Training Software | BEG',
+    description: 'Assign OSHA brewery safety and alcohol server training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.',
     url: 'https://www.beghr.com/services/lms-learning-management/brewery',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Breweries LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for breweries. BEG resells and configures isolved Learn & Grow so you can assign alcohol service, food safety, and equipment safety training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Brewery Safety and Compliance Training Software | BEG', description: 'Assign OSHA brewery safety and alcohol server training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('brewery');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your breweries roles and training requirements.',
+    'What OSHA training do breweries need?',
+    'Breweries face unique hazards including CO2 asphyxiation, ammonia refrigeration, and confined space entry, all requiring documented, task-specific safety training beyond general industry basics. isolved Learn & Grow assigns brewery-specific safety modules by department and tracks completion.',
+  ],
+  [
+    'Do brewery taproom staff need alcohol server certification?',
+    'Most states require or strongly recommend responsible beverage service training for anyone serving alcohol, with certifications typically valid a few years before renewal. Learn & Grow tracks server certification status and expiration for every taproom employee, at every location.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific alcohol service, food safety, and equipment safety training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific breweries training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for breweries employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsBreweryPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Train production and taproom staff on safety and service without the binder.',
-            description: 'Training software for breweries. BEG resells and configures isolved Learn & Grow so you can assign alcohol service, food safety, and equipment safety training, track completions, and stay audit-ready, nationwide.',
+            headline: 'A tasting room pouring without a certified alcohol server or a brewhouse running without OSHA safety training is one incident away from a shutdown.',
+            description: 'Assign OSHA brewery safety and alcohol server training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsBreweryPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Breweries"
-        title="Train production and taproom staff on safety and service without the binder."
-        description="Training production and taproom staff on alcohol service, food safety, and equipment safety training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your breweries team stays trained, compliant, and audit-ready, in all 50 states."
+        title="A tasting room pouring without a certified alcohol server or a brewhouse running without OSHA safety training is one incident away from a shutdown."
+        description="In breweries, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for breweries teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsBreweryPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in breweries shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in breweries</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'alcohol service, food safety, and equipment safety training cannot lapse',
-                  sub: 'In breweries, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: 'CO2, ammonia, confined space',
+                  label: 'Brewery-specific OSHA hazards',
+                  sub: 'Breweries face unique OSHA exposure from CO2 asphyxiation risk, ammonia refrigeration systems, and confined space entry into tanks, all of which require documented, task-specific safety training.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When production and taproom staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '3 years typical',
+                  label: 'Alcohol server certification validity',
+                  sub: 'Responsible beverage service certifications for tasting room and taproom staff are typically valid around three years, and multi-location brewers need a system to track expiration per employee, per state.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'Free BA-sponsored courses',
+                  label: 'Brewers Association safety training',
+                  sub: 'The Brewers Association offers online brewery safety courses covering task-based hazard recognition, and completion needs to be documented per employee to demonstrate a functioning safety program.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsBreweryPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how breweries actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how breweries actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsBreweryPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required alcohol service, food safety, and equipment safety training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign OSHA brewery safety training by department',
+                  body: 'isolved Learn & Grow lets you push CO2, ammonia, and confined space safety training to production staff while assigning responsible beverage service training separately to taproom staff.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New production and taproom staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track alcohol server certification expiration',
+                  body: 'Get renewal reminders before a tasting room employee’s server certification lapses, across every location you operate.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance for insurance and state alcohol boards',
+                  body: 'Generate a complete safety and server training report in minutes when your insurance carrier, state alcohol control board, or OSHA asks for documentation.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsBreweryPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.brewersassociation.org/educational-publications/a-guide-to-understanding-basic-osha-brewery-compliance/" target="_blank" rel="noopener noreferrer">Brewers Association Guide to OSHA Brewery Compliance</a>, <a href="https://www.brewersassociation.org/online-courses/brewery-safety/" target="_blank" rel="noopener noreferrer">Brewers Association Brewery Safety Courses</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

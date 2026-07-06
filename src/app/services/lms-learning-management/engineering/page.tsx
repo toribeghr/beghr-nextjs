@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Engineering LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for engineering. BEG resells and configures isolved Learn & Grow so you can assign licensure PDH, safety, and standards training, track completions, and stay audit-ready, nationwide.',
+  title: 'Engineering Firm CE Tracking Software | BEG',
+  description: 'Assign PDH continuing education and safety training, track hours toward state license renewal, prove compliance instantly. See isolved pricing.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/engineering' },
   openGraph: {
-    title: 'Engineering LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for engineering. BEG resells and configures isolved Learn & Grow so you can assign licensure PDH, safety, and standards training, track completions, and stay audit-ready, nationwide.',
+    title: 'Engineering Firm CE Tracking Software | BEG',
+    description: 'Assign PDH continuing education and safety training, track hours toward state license renewal, prove compliance instantly. See isolved pricing.',
     url: 'https://www.beghr.com/services/lms-learning-management/engineering',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Engineering LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for engineering. BEG resells and configures isolved Learn & Grow so you can assign licensure PDH, safety, and standards training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Engineering Firm CE Tracking Software | BEG', description: 'Assign PDH continuing education and safety training, track hours toward state license renewal, prove compliance instantly. See isolved pricing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('engineering');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your engineering roles and training requirements.',
+    'How many PDH hours does a professional engineer need?',
+    'Most states require between 15 and 36 professional development hours per renewal cycle, with cycles ranging from annual to triennial depending on the state board. isolved Learn & Grow tracks each engineer’s hours against their specific state’s requirement and cycle.',
+  ],
+  [
+    'Do engineers need ethics-specific continuing education?',
+    'Some states, like Texas, require a set number of ethics hours within the total PDH requirement each year. Learn & Grow separates ethics completion from general PDH tracking so firms can confirm both requirements are met, not just the total hour count.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific licensure PDH, safety, and standards training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific engineering training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for engineering employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsEngineeringPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Track PDH and technical training without the certificate scramble.',
-            description: 'Training software for engineering. BEG resells and configures isolved Learn & Grow so you can assign licensure PDH, safety, and standards training, track completions, and stay audit-ready, nationwide.',
+            headline: 'A firm that lets a PE’s license lapse over missed continuing education hours can lose a project stamp right when a client needs it signed.',
+            description: 'Assign PDH continuing education and safety training, track hours toward state license renewal, prove compliance instantly. See isolved pricing.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsEngineeringPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Engineering"
-        title="Track PDH and technical training without the certificate scramble."
-        description="Training engineers and technical staff on licensure PDH, safety, and standards training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your engineering team stays trained, compliant, and audit-ready, in all 50 states."
+        title="A firm that lets a PE’s license lapse over missed continuing education hours can lose a project stamp right when a client needs it signed."
+        description="In engineering, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for engineering teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsEngineeringPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in engineering shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in engineering</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'licensure PDH, safety, and standards training cannot lapse',
-                  sub: 'In engineering, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '15 to 36 PDH',
+                  label: 'State PDH ranges per cycle',
+                  sub: 'Most states require between 15 and 36 professional development hours per renewal cycle for a licensed PE, with no national standard since each state board sets its own rule.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When engineers and technical staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '1 ethics hour',
+                  label: 'Common ethics carve-out',
+                  sub: 'States like Texas require engineers to complete 15 PDH annually with at least one hour specifically in ethics, a requirement that is easy to lose track of within broader technical training.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'Biennial or triennial cycles',
+                  label: 'Renewal windows vary by state',
+                  sub: 'Some states set annual PDH requirements while others use two or three-year cycles, meaning multi-state engineering firms must track several different renewal clocks simultaneously.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsEngineeringPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how engineering actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how engineering actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsEngineeringPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required licensure PDH, safety, and standards training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign PDH and ethics training by license state',
+                  body: 'isolved Learn & Grow lets a firm configure PDH tracking per engineer’s licensing jurisdiction, so multi-state PEs are not managed against a single generic requirement.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New engineers and technical staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track hours toward each state’s renewal cycle',
+                  body: 'See exactly how many PDH and ethics hours each licensed engineer has banked against their specific annual, biennial, or triennial deadline.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance for license renewal and project stamps',
+                  body: 'Generate a PDH transcript instantly when a state board audit or client due diligence request requires documented proof of an engineer’s current hours.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsEngineeringPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://ncees.org/continuing-education/" target="_blank" rel="noopener noreferrer">NCEES Continuing Education for Engineers</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

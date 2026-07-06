@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Insurance Agencies LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for insurance agencies. BEG resells and configures isolved Learn & Grow so you can assign licensing CE, compliance, and product training, track completions, and stay audit-ready, nationwide.',
+  title: 'Insurance Producer CE Tracking Software | BEG',
+  description: 'Assign state-specific CE and ethics hours to every producer, track renewal deadlines, and prove compliance at audit time. isolved learn and grow, national support.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/insurance-agency' },
   openGraph: {
-    title: 'Insurance Agencies LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for insurance agencies. BEG resells and configures isolved Learn & Grow so you can assign licensing CE, compliance, and product training, track completions, and stay audit-ready, nationwide.',
+    title: 'Insurance Producer CE Tracking Software | BEG',
+    description: 'Assign state-specific CE and ethics hours to every producer, track renewal deadlines, and prove compliance at audit time. isolved learn and grow, national support.',
     url: 'https://www.beghr.com/services/lms-learning-management/insurance-agency',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Insurance Agencies LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for insurance agencies. BEG resells and configures isolved Learn & Grow so you can assign licensing CE, compliance, and product training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Insurance Producer CE Tracking Software | BEG', description: 'Assign state-specific CE and ethics hours to every producer, track renewal deadlines, and prove compliance at audit time. isolved learn and grow, national support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('insurance-agency');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your insurance agencies roles and training requirements.',
+    'Do we need to track CE hours differently for producers licensed in multiple states?',
+    'Yes. Each state sets its own CE total and ethics minimum, though most follow the NAIC uniform standard of 24 credits per 2 years with 3 in ethics. isolved learn and grow tracks each producer’s requirement and deadline state by state.',
+  ],
+  [
+    'How do we prove ethics CE compliance if the Department of Insurance audits us?',
+    'You can generate a dated completion report showing each producer’s ethics hours against their state’s requirement, which satisfies most market conduct exam and audit requests.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific licensing CE, compliance, and product training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific insurance agencies training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for insurance agencies employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsInsuranceAgencyPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Track agent CE and product training without missing a renewal.',
-            description: 'Training software for insurance agencies. BEG resells and configures isolved Learn & Grow so you can assign licensing CE, compliance, and product training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Producer CE hours and ethics credits tracked by state, so renewal season stops being a scramble',
+            description: 'Assign state-specific CE and ethics hours to every producer, track renewal deadlines, and prove compliance at audit time. isolved learn and grow, national support.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsInsuranceAgencyPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Insurance Agencies"
-        title="Track agent CE and product training without missing a renewal."
-        description="Training agents and staff on licensing CE, compliance, and product training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your insurance agencies team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Producer CE hours and ethics credits tracked by state, so renewal season stops being a scramble"
+        description="In insurance agencies, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for insurance agencies teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsInsuranceAgencyPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in insurance agencies shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in insurance agencies</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'licensing CE, compliance, and product training cannot lapse',
-                  sub: 'In insurance agencies, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '24 credits',
+                  label: 'Typical biennial CE requirement under NAIC’s uniform standard',
+                  sub: 'Most states following the NAIC Uniform Licensing Standard require 24 CE credits per 2-year period, including a mandatory ethics component.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When agents and staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '3 hours',
+                  label: 'Ethics credit typically required per cycle',
+                  sub: 'Under the NAIC uniform standard, at least 3 of the 24 required credits must be in ethics, a requirement nearly every state has adopted in some form.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '50 states',
+                  label: 'Different rules to track if you write business broadly',
+                  sub: 'CE hour totals, ethics minimums, and renewal cycles vary by state, and a producer licensed in multiple states has a different deadline in each one.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsInsuranceAgencyPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how insurance agencies actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how insurance agencies actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsInsuranceAgencyPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required licensing CE, compliance, and product training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign CE tracks by state and license type',
+                  body: 'isolved learn and grow lets you build state-specific CE requirements, including ethics hours, for every producer, so multi-state agents are not guessing at what applies where.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New agents and staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track renewal deadlines before they lapse',
+                  body: 'Automated alerts flag a producer approaching their biennial renewal deadline in any state they hold a license in.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove CE completion during a market conduct exam',
+                  body: 'Pull a dated completion report by producer and state, ready for a Department of Insurance audit or E&O carrier request.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsInsuranceAgencyPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://content.naic.org/sites/default/files/inline-files/Chapter%2014.pdf" target="_blank" rel="noopener noreferrer">NAIC, Producer Licensing Model Act, Chapter 14, Continuing Education</a>, <a href="https://content.naic.org/sites/default/files/model-law-chart-pr-20-producer-education-and-examination-requirements.pdf" target="_blank" rel="noopener noreferrer">NAIC, producer education and examination requirements chart</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

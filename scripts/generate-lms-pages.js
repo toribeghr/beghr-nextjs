@@ -22,6 +22,7 @@ const path = require('path');
 const HUB = 'lms-learning-management';
 const BASE = path.join(__dirname, '..', 'src', 'app', 'services', HUB);
 const CANON = 'https://www.beghr.com/services/' + HUB;
+const DEEP = (() => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'src', 'lib', 'lmsIndustryDeep.json'), 'utf8')); } catch (e) { return {}; } })();
 const TODAY = '2026-07-05';
 
 // ---- helpers ---------------------------------------------------------------
@@ -298,57 +299,47 @@ function industryCrossSilo(nameLower) {
 
 // ---- industry page template ------------------------------------------------
 function genIndustry(slug, d) {
-  const name = d.name;
-  const short = d.short || d.name;
-  const tag = d.tag || d.name;
+  const dd = DEEP[slug] || {};
+  const name = d.name; const short = d.short || d.name; const tag = d.tag || d.name;
   const nl = (d.nameLower || d.name).toLowerCase();
   const url = `${CANON}/${slug}`;
   const fn = 'Lms' + slug.split('-').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join('') + 'Page';
-  const metaTitle = `${name} LMS | isolved Learn & Grow, Configured by BEG`;
-  const metaDesc = `Training software for ${nl}. BEG resells and configures isolved Learn & Grow so you can assign ${esc(d.need)}, track completions, and stay audit-ready, nationwide.`;
-  const description = `Training ${d.roles} on ${d.need} should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your ${nl} team stays trained, compliant, and audit-ready, in all 50 states.`;
-
-  const faqs = [
-    ['Is this isolved Learn & Grow?', `Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your ${nl} roles and training requirements.`],
-    ['Can we upload our own training content?', `Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific ${d.need} lives in the same system as everything else.`],
-    ['How does it help with compliance?', 'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.'],
-    ['What does it cost?', 'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.'],
-    ['Do you serve companies in my state?', 'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.'],
+  const metaTitle = dd.metaTitle || `${name} LMS | isolved Learn & Grow, Configured by BEG`;
+  const metaDesc = dd.metaDesc || `Training software for ${nl}. BEG resells and configures isolved Learn & Grow so you assign required training, track completions, and stay audit-ready, nationwide.`;
+  const title = dd.hook || `Keep your ${nl} team trained, compliant, and audit-ready in one system.`;
+  const description = `In ${nl}, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for ${nl} teams and all 50 states.`;
+  const painStats = (dd.painStats && dd.painStats.length === 3) ? dd.painStats : [
+    { stat: 'Compliance', label: `Required ${nl} training cannot lapse`, sub: 'A missed or expired requirement becomes a liability the day an auditor, regulator, or client asks for proof.' },
+    { stat: 'Turnover', label: 'Every new hire starts training from zero', sub: 'Re-running the same onboarding and safety training by hand pulls your best people off the floor.' },
+    { stat: 'No trail', label: 'A binder is not a training record', sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew.' },
   ];
-
-  const schemaExtra = [
-    articleSchema(d.hook, metaDesc, url),
-    breadcrumbSchema(`${name} LMS`, url),
-  ].join('\n');
-
+  const solves = (dd.solves && dd.solves.length === 3) ? dd.solves : [
+    { title: 'Assign the right courses automatically', body: 'Required training is assigned by role the moment someone is hired, with due dates and reminders.' },
+    { title: 'Onboard new hires in days, not weeks', body: `New ${nl} staff run a consistent onboarding path, including your own uploaded content.` },
+    { title: 'Prove compliance in one click', body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit becomes a report you pull.' },
+  ];
+  const authority = (dd.authority || []).concat([LMS_WIKI]);
+  const faqs = (dd.faq || []).concat([
+    ['Can we upload our own training content?', `Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific ${nl} training lives in one system.`],
+    ['What does isolved Learn & Grow cost?', 'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.'],
+    ['Do you serve employers in my state?', `Yes. BEG configures and supports isolved Learn & Grow for ${nl} employers in all 50 states, delivered remotely nationwide.`],
+  ]);
+  const schemaExtra = [ articleSchema(title, metaDesc, url), breadcrumbSchema(`${name} LMS`, url) ].join('\n');
   const sections = [
-    statCards('The Training Problem', `Every training gap in ${nl} shows up as risk, not just a missing checkbox`, [
-      { stat: 'Compliance', label: `${d.need} cannot lapse`, sub: `In ${nl}, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.` },
-      { stat: 'Turnover', label: 'Every new hire starts training from zero', sub: `When ${d.roles} turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.` },
-      { stat: 'No trail', label: 'A binder is not a training record', sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.' },
-    ], true),
+    statCards('The Training Problem', `Where training compliance actually bites in ${nl}`, painStats, true),
     steps('How It Works', 'From scattered training to one tracked system in three steps', [
-      { num: '01', title: 'BEG configures isolved Learn & Grow to your requirements', body: `Your roles, required courses, and renewal schedules get built into the system around how ${nl} actually trains, not a generic template.` },
+      { num: '01', title: 'BEG configures isolved Learn & Grow to your requirements', body: `Your roles, required courses, and renewal schedules get built in around how ${nl} actually trains, not a generic template.` },
       { num: '02', title: 'Assign courses and upload your own content', body: 'Use the isolved course library or upload your own videos, documents, and quizzes, then assign them by role, location, or team.' },
       { num: '03', title: 'Track completions and stay audit-ready', body: 'Every completion, score, and due date is tracked automatically, so your team stays current and you can prove it on demand.' },
     ]),
-    solveCards('What This Solves', `Training built for how ${nl} teams actually operate`, [
-      { title: 'Assign the right courses automatically', body: `Required ${d.need} gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.` },
-      { title: 'Onboard new hires in days, not weeks', body: `New ${d.roles} run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.` },
-      { title: 'Prove compliance in one click', body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.' },
-    ], true),
-    sourcesLine(industryAuthority(slug)),
+    solveCards('What This Solves', `Training built for how ${nl} teams actually operate`, solves, true),
+    sourcesLine(authority),
     industryCrossSilo(nl),
     midCta('Ready?', 'See your isolved Learn & Grow price before you talk to anyone', true),
     faqBlock(`Learning management for ${nl}, answered`),
   ].join('\n');
-
-  return pageFile({ fn, slug, imports: [], metaTitle, metaDesc, url, faqs, schemaExtra, eyebrow: `Learning Management · ${tag}`, title: d.hook, description,
-    heroStats: [
-      { value: 'One system', label: 'Every course and completion in one place' },
-      { value: `Built for ${short}`, label: 'Configured to your roles and requirements' },
-      { value: '90 sec', label: 'To your instant estimate' },
-    ], sections });
+  return pageFile({ fn, slug, imports: [], metaTitle, metaDesc, url, faqs, schemaExtra, eyebrow: `Learning Management · ${tag}`, title, description,
+    heroStats: [ { value: 'One system', label: 'Every course and completion in one place' }, { value: `Built for ${short}`, label: 'Configured to your roles and requirements' }, { value: '90 sec', label: 'To your instant estimate' } ], sections });
 }
 
 // ---- 34 industry cuts (mirrors the managed-benefits industry set) ----------

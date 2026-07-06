@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Franchise LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for franchise. BEG resells and configures isolved Learn & Grow so you can assign brand-standard, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+  title: 'Franchise Training and Compliance Software | BEG',
+  description: 'Assign brand-standard, food safety, and alcohol training across every franchise location, track completion, and prove it during brand audits. isolved learn and grow.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/franchise' },
   openGraph: {
-    title: 'Franchise LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for franchise. BEG resells and configures isolved Learn & Grow so you can assign brand-standard, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+    title: 'Franchise Training and Compliance Software | BEG',
+    description: 'Assign brand-standard, food safety, and alcohol training across every franchise location, track completion, and prove it during brand audits. isolved learn and grow.',
     url: 'https://www.beghr.com/services/lms-learning-management/franchise',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Franchise LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for franchise. BEG resells and configures isolved Learn & Grow so you can assign brand-standard, safety, and compliance training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Franchise Training and Compliance Software | BEG', description: 'Assign brand-standard, food safety, and alcohol training across every franchise location, track completion, and prove it during brand audits. isolved learn and grow.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('franchise');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your franchise roles and training requirements.',
+    'Can we require the same training across every franchise location from one dashboard?',
+    'Yes. isolved learn and grow lets a franchisor assign required brand-standard, food safety, and alcohol server courses to every unit, and see completion status location by location instead of relying on each franchisee to self-report.',
+  ],
+  [
+    'How do we prove a location was compliant if a health inspector or franchise auditor asks?',
+    'Pull a dated completion report for that unit showing every employee’s certifications, including food handler cards and alcohol server training, on demand.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific brand-standard, safety, and compliance training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific franchise training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for franchise employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsFranchisePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Deliver the same brand and compliance training at every franchise location.',
-            description: 'Training software for franchise. BEG resells and configures isolved Learn & Grow so you can assign brand-standard, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Brand-standard training every location can prove, not just the ones corporate happens to visit',
+            description: 'Assign brand-standard, food safety, and alcohol training across every franchise location, track completion, and prove it during brand audits. isolved learn and grow.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsFranchisePage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Franchise"
-        title="Deliver the same brand and compliance training at every franchise location."
-        description="Training franchise and location staff on brand-standard, safety, and compliance training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your franchise team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Brand-standard training every location can prove, not just the ones corporate happens to visit"
+        description="In franchise, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for franchise teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsFranchisePage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in franchise shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in franchise</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'brand-standard, safety, and compliance training cannot lapse',
-                  sub: 'In franchise, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '5 years',
+                  label: 'Typical ServSafe manager certification cycle',
+                  sub: 'Food-service franchise managers typically need ServSafe or equivalent manager certification renewed every 5 years, and tracking that across dozens of units by spreadsheet does not scale.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When franchise and location staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '60 days',
+                  label: 'California’s window for new alcohol server training',
+                  sub: 'California requires servers and managers to complete ABC-approved Responsible Beverage Service training and pass the state exam within 60 days of their first day, a deadline franchisors are on the hook for enforcing.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '1 location',
+                  label: 'What it takes to put the brand at risk',
+                  sub: 'One under-trained unit with a lapsed food safety or alcohol certification can trigger a health department citation or franchise agreement violation that reflects on the whole brand.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsFranchisePage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how franchise actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how franchise actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsFranchisePage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required brand-standard, safety, and compliance training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Standardize training across every unit',
+                  body: 'isolved learn and grow lets corporate push one required curriculum, brand standards, food safety, alcohol service, to every franchise location, so training is consistent no matter who owns the unit.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New franchise and location staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track certification renewals location by location',
+                  body: 'See at a glance which units have lapsed ServSafe or Responsible Beverage Service certifications before a health inspector or franchise auditor does.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Upload your own brand and operations content',
+                  body: 'Layer proprietary brand-standard modules, POS training, and operating procedures on top of required compliance courses, all in one system.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsFranchisePage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.abc.ca.gov/" target="_blank" rel="noopener noreferrer">California Department of Alcoholic Beverage Control</a>, <a href="https://www.servsafe.com/" target="_blank" rel="noopener noreferrer">ServSafe food safety certification</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

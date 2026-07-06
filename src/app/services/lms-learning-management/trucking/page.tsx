@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Trucking LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for trucking. BEG resells and configures isolved Learn & Grow so you can assign DOT, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+  title: 'FMCSA ELDT and Driver Training Software | BEG',
+  description: 'Assign Entry Level Driver Training, hazmat, and annual safety training to every driver, track completion, and prove FMCSA compliance. isolved learn and grow.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/trucking' },
   openGraph: {
-    title: 'Trucking LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for trucking. BEG resells and configures isolved Learn & Grow so you can assign DOT, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+    title: 'FMCSA ELDT and Driver Training Software | BEG',
+    description: 'Assign Entry Level Driver Training, hazmat, and annual safety training to every driver, track completion, and prove FMCSA compliance. isolved learn and grow.',
     url: 'https://www.beghr.com/services/lms-learning-management/trucking',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Trucking LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for trucking. BEG resells and configures isolved Learn & Grow so you can assign DOT, safety, and compliance training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'FMCSA ELDT and Driver Training Software | BEG', description: 'Assign Entry Level Driver Training, hazmat, and annual safety training to every driver, track completion, and prove FMCSA compliance. isolved learn and grow.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('trucking');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your trucking roles and training requirements.',
+    'Do we need to document ELDT completion for every new driver hired after February 2022?',
+    'Yes. FMCSA requires anyone obtaining a commercial learner’s permit on or after February 7, 2022 to complete Entry-Level Driver Training before CDL testing. isolved learn and grow tracks each driver’s theory and behind-the-wheel completion for your records.',
+  ],
+  [
+    'How often does hazmat training actually need to be renewed?',
+    'Under 49 CFR 172.704, hazmat employees must be retrained at least once every 3 years, and new hires get a 90-day grace period. isolved learn and grow tracks each driver’s due date against that cycle automatically.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific DOT, safety, and compliance training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific trucking training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for trucking employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsTruckingPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep drivers DOT-compliant and trained across the whole fleet.',
-            description: 'Training software for trucking. BEG resells and configures isolved Learn & Grow so you can assign DOT, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+            headline: 'ELDT, hours-of-service, and hazmat training documented before FMCSA asks, not after',
+            description: 'Assign Entry Level Driver Training, hazmat, and annual safety training to every driver, track completion, and prove FMCSA compliance. isolved learn and grow.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsTruckingPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Trucking"
-        title="Keep drivers DOT-compliant and trained across the whole fleet."
-        description="Training drivers and yard staff on DOT, safety, and compliance training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your trucking team stays trained, compliant, and audit-ready, in all 50 states."
+        title="ELDT, hours-of-service, and hazmat training documented before FMCSA asks, not after"
+        description="In trucking, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for trucking teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsTruckingPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in trucking shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in trucking</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'DOT, safety, and compliance training cannot lapse',
-                  sub: 'In trucking, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: 'Feb. 7, 2022',
+                  label: 'Date ELDT became mandatory for new CDL holders',
+                  sub: 'FMCSA’s Entry-Level Driver Training rule requires anyone obtaining a CLP on or after that date to complete both theory and behind-the-wheel training before earning a Class A or Class B CDL.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When drivers and yard staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: 'Every 3 years',
+                  label: 'Hazmat employee training renewal cycle',
+                  sub: 'Under 49 CFR 172.704, hazmat employees must be retrained at least once every 3 years, covering general awareness, function-specific, safety, and security awareness training.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '90 days',
+                  label: 'Grace period for a new hazmat employee to complete training',
+                  sub: 'A new hazmat employee can perform job functions before training is finished only if it is completed within 90 days of hire or a change in job function.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsTruckingPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how trucking actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how trucking actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsTruckingPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required DOT, safety, and compliance training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Track ELDT completion before CDL testing',
+                  body: 'isolved learn and grow documents each new driver’s theory and behind-the-wheel Entry-Level Driver Training completion, satisfying the FMCSA Training Provider Registry record requirement.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New drivers and yard staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track hazmat retraining on the 3-year cycle',
+                  body: 'Automated tracking flags hazmat-endorsed drivers approaching their 49 CFR 172.704 retraining deadline, and flags new hires against the 90-day grace period.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove annual safety training during a DOT audit',
+                  body: 'Generate a per-driver training and certification record covering ELDT, hazmat, and ongoing safety training, ready for an FMCSA compliance review.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsTruckingPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.fmcsa.dot.gov/registration/commercial-drivers-license/entry-level-driver-training-eldt" target="_blank" rel="noopener noreferrer">FMCSA Entry-Level Driver Training</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.fmcsa.dot.gov/registration/commercial-drivers-license/entry-level-driver-training-eldt" target="_blank" rel="noopener noreferrer">FMCSA, Entry-Level Driver Training (ELDT)</a>, <a href="https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-H/section-172.704" target="_blank" rel="noopener noreferrer">49 CFR 172.704, hazmat training requirements</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

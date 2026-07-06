@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Fitness & Gyms LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for fitness. BEG resells and configures isolved Learn & Grow so you can assign CPR, certification, and safety training, track completions, and stay audit-ready, nationwide.',
+  title: 'Fitness Staff Training and CPR Tracking | BEG',
+  description: 'Assign CPR/AED certification, onboarding, and safety training to trainers and front desk staff, track renewal dates, and prove compliance. isolved learn and grow.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/fitness' },
   openGraph: {
-    title: 'Fitness & Gyms LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for fitness. BEG resells and configures isolved Learn & Grow so you can assign CPR, certification, and safety training, track completions, and stay audit-ready, nationwide.',
+    title: 'Fitness Staff Training and CPR Tracking | BEG',
+    description: 'Assign CPR/AED certification, onboarding, and safety training to trainers and front desk staff, track renewal dates, and prove compliance. isolved learn and grow.',
     url: 'https://www.beghr.com/services/lms-learning-management/fitness',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Fitness & Gyms LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for fitness. BEG resells and configures isolved Learn & Grow so you can assign CPR, certification, and safety training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Fitness Staff Training and CPR Tracking | BEG', description: 'Assign CPR/AED certification, onboarding, and safety training to trainers and front desk staff, track renewal dates, and prove compliance. isolved learn and grow.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('fitness');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your fitness roles and training requirements.',
+    'Do our trainers need CPR certification to work the floor?',
+    'Requirements vary by state and certifying body, but most personal trainer certifications require current CPR/AED credentials, and states like California mandate it by law. isolved learn and grow tracks each trainer’s certification and renewal date automatically.',
+  ],
+  [
+    'How do we prove AED coverage across multiple gym locations?',
+    'You can pull a per-location report showing which certified staff are on shift, which satisfies both insurance requirements and state rules like California’s one-certified-person-per-5-AEDs standard.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific CPR, certification, and safety training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific fitness training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for fitness employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsFitnessPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep trainers certified and staff safety-trained across every location.',
-            description: 'Training software for fitness. BEG resells and configures isolved Learn & Grow so you can assign CPR, certification, and safety training, track completions, and stay audit-ready, nationwide.',
+            headline: 'CPR certification and staff safety training you can prove before the state or your insurer asks',
+            description: 'Assign CPR/AED certification, onboarding, and safety training to trainers and front desk staff, track renewal dates, and prove compliance. isolved learn and grow.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsFitnessPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Fitness &amp; Gyms"
-        title="Keep trainers certified and staff safety-trained across every location."
-        description="Training trainers and front-desk staff on CPR, certification, and safety training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your fitness team stays trained, compliant, and audit-ready, in all 50 states."
+        title="CPR certification and staff safety training you can prove before the state or your insurer asks"
+        description="In fitness, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for fitness teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsFitnessPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in fitness shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in fitness</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'CPR, certification, and safety training cannot lapse',
-                  sub: 'In fitness, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '2 years',
+                  label: 'Typical CPR/AED certification validity',
+                  sub: 'Most CPR certifications expire every two years, and a lapsed card on a trainer’s file is one of the fastest ways to fail an insurance or franchise audit.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When trainers and front-desk staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '5 AEDs',
+                  label: 'California’s per-certified-staff AED ratio',
+                  sub: 'California Health and Safety Code Section 104113 requires at least one CPR and AED certified person per up to 5 AED units on site, which most multi-location gyms cannot track manually.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '1 incident',
+                  label: 'What it takes to expose a training gap',
+                  sub: 'A cardiac event on the gym floor with no certified staff present turns a training oversight into a liability and reputation problem overnight.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsFitnessPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how fitness actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how fitness actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsFitnessPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required CPR, certification, and safety training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign CPR/AED and onboarding tracks by location',
+                  body: 'isolved learn and grow assigns required certifications to trainers and front desk staff per location, so every shift has someone current on CPR and AED use.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New trainers and front-desk staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track certification renewal before it lapses',
+                  body: 'Automated reminders flag expiring CPR/AED cards well before the 2-year renewal window closes, instead of finding out during an incident review.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove staff coverage to your insurer',
+                  body: 'Generate a location-by-location report showing certified staff coverage, useful for liability insurance renewals and state or franchise audits.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsFitnessPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.redcross.org/take-a-class/lp/cpr-for-personal-trainer-fitness-instuctors" target="_blank" rel="noopener noreferrer">American Red Cross, CPR for personal trainers</a>, <a href="https://www.osha.gov/laws-regs/standardinterpretations/2007-04-23-0" target="_blank" rel="noopener noreferrer">OSHA standard interpretation on CPR/AED and bloodborne pathogens</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

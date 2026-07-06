@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Senior Care LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for senior care. BEG resells and configures isolved Learn & Grow so you can assign resident care, dementia, and state-mandated caregiver training, track completions, and stay audit-ready, nationwide.',
+  title: 'Senior Living Compliance Training Software | BEG',
+  description: 'Assign state-required aide and dementia training, track renewals, prove compliance on demand. See isolved Learn & Grow pricing for senior care.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/senior-care' },
   openGraph: {
-    title: 'Senior Care LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for senior care. BEG resells and configures isolved Learn & Grow so you can assign resident care, dementia, and state-mandated caregiver training, track completions, and stay audit-ready, nationwide.',
+    title: 'Senior Living Compliance Training Software | BEG',
+    description: 'Assign state-required aide and dementia training, track renewals, prove compliance on demand. See isolved Learn & Grow pricing for senior care.',
     url: 'https://www.beghr.com/services/lms-learning-management/senior-care',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Senior Care LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for senior care. BEG resells and configures isolved Learn & Grow so you can assign resident care, dementia, and state-mandated caregiver training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Senior Living Compliance Training Software | BEG', description: 'Assign state-required aide and dementia training, track renewals, prove compliance on demand. See isolved Learn & Grow pricing for senior care.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('senior-care');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your senior care roles and training requirements.',
+    'How many training hours does CMS require for nurse aides?',
+    'Federal regulation 42 CFR 483.152 requires at least 75 clock hours of training and a competency evaluation before a nurse aide can work unsupervised in a Medicare or Medicaid-certified facility. isolved Learn & Grow tracks progress toward those 75 hours and flags gaps before survey.',
+  ],
+  [
+    'Is dementia care training required for assisted living staff?',
+    'Most states require a set number of initial dementia training hours plus annual continuing education for direct care staff, though the exact hours vary by state. Learn & Grow lets you configure the correct requirement per state and community and prove it on demand.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific resident care, dementia, and state-mandated caregiver training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific senior care training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for senior care employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsSeniorCarePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep caregivers trained and state-compliant across every shift and site.',
-            description: 'Training software for senior care. BEG resells and configures isolved Learn & Grow so you can assign resident care, dementia, and state-mandated caregiver training, track completions, and stay audit-ready, nationwide.',
+            headline: 'A direct care aide without documented dementia training is a deficiency citation waiting to happen at your next state survey.',
+            description: 'Assign state-required aide and dementia training, track renewals, prove compliance on demand. See isolved Learn & Grow pricing for senior care.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsSeniorCarePage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Senior Care"
-        title="Keep caregivers trained and state-compliant across every shift and site."
-        description="Training caregivers and aides on resident care, dementia, and state-mandated caregiver training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your senior care team stays trained, compliant, and audit-ready, in all 50 states."
+        title="A direct care aide without documented dementia training is a deficiency citation waiting to happen at your next state survey."
+        description="In senior care, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for senior care teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsSeniorCarePage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in senior care shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in senior care</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'resident care, dementia, and state-mandated caregiver training cannot lapse',
-                  sub: 'In senior care, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '4 to 16 hours',
+                  label: 'Initial dementia training varies by state',
+                  sub: 'States set their own dementia care training minimums for direct care staff, ranging from about 4 hours in some states to 16 hours in others, with separate annual continuing education on top.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When caregivers and aides turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '75 hours',
+                  label: 'Federal nurse aide training minimum',
+                  sub: 'Under 42 CFR 483.152, CMS requires nurse aide training and competency evaluation programs in Medicare and Medicaid-certified facilities to total at least 75 clock hours before certification.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'Annual cycle',
+                  label: 'Continuing education keeps resetting',
+                  sub: 'Most states require ongoing annual dementia and mental health de-escalation training on top of initial hours, and tracking that cycle manually across a growing staff is where operators fall behind.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsSeniorCarePage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how senior care actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how senior care actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsSeniorCarePage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required resident care, dementia, and state-mandated caregiver training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign state-specific aide and dementia training',
+                  body: 'isolved Learn & Grow lets you configure training by state and role so every community meets its specific hour requirement instead of a generic national default.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New caregivers and aides run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track the 75-hour CNA requirement and annual renewals',
+                  body: 'Monitor completion of the federal 75-hour nurse aide training program alongside state continuing education cycles in one dashboard.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance before the state surveyor arrives',
+                  body: 'Generate a per-community, per-employee training report instantly, turning survey prep from a scramble into a five-minute export.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsSeniorCarePage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.osha.gov/training" target="_blank" rel="noopener noreferrer">OSHA worker training</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D/section-483.152" target="_blank" rel="noopener noreferrer">42 CFR 483.152 Nurse Aide Training Requirements</a>, <a href="https://www.cms.gov/priorities/nursing-home-careers/overview/certified-nursing-assistant-cna" target="_blank" rel="noopener noreferrer">CMS Certified Nursing Assistant Overview</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

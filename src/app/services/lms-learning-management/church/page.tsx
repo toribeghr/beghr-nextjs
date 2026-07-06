@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Churches & Faith-Based LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for churches. BEG resells and configures isolved Learn & Grow so you can assign child-protection, safety, and background-check training, track completions, and stay audit-ready, nationwide.',
+  title: 'Church Child Protection Training Software | BEG',
+  description: 'Assign Safe Sanctuaries training, track background checks and renewals, prove compliance instantly. See isolved Learn & Grow pricing for churches.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/church' },
   openGraph: {
-    title: 'Churches & Faith-Based LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for churches. BEG resells and configures isolved Learn & Grow so you can assign child-protection, safety, and background-check training, track completions, and stay audit-ready, nationwide.',
+    title: 'Church Child Protection Training Software | BEG',
+    description: 'Assign Safe Sanctuaries training, track background checks and renewals, prove compliance instantly. See isolved Learn & Grow pricing for churches.',
     url: 'https://www.beghr.com/services/lms-learning-management/church',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Churches & Faith-Based LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for churches. BEG resells and configures isolved Learn & Grow so you can assign child-protection, safety, and background-check training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Church Child Protection Training Software | BEG', description: 'Assign Safe Sanctuaries training, track background checks and renewals, prove compliance instantly. See isolved Learn & Grow pricing for churches.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('church');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your churches roles and training requirements.',
+    'What is Safe Sanctuaries training and who needs it?',
+    'Safe Sanctuaries is a child and vulnerable adult protection training, typically a 90-minute course with an assessment, required for any staff member or volunteer who works with children, youth, or vulnerable adults. isolved Learn & Grow assigns the course to every relevant volunteer and keeps a dated completion record.',
+  ],
+  [
+    'How often should church volunteers get background checks?',
+    'Denominational guidance commonly recommends a national background check every three years for anyone supervising children or vulnerable adults. Learn & Grow tracks each volunteer’s last check date and flags who is due for renewal.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific child-protection, safety, and background-check training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific churches training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for churches employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsChurchPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Train staff and volunteers on safety and child-protection consistently.',
-            description: 'Training software for churches. BEG resells and configures isolved Learn & Grow so you can assign child-protection, safety, and background-check training, track completions, and stay audit-ready, nationwide.',
+            headline: 'A volunteer working with kids without a background check or Safe Sanctuaries training is a liability your church cannot afford to carry.',
+            description: 'Assign Safe Sanctuaries training, track background checks and renewals, prove compliance instantly. See isolved Learn & Grow pricing for churches.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsChurchPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Churches &amp; Faith-Based"
-        title="Train staff and volunteers on safety and child-protection consistently."
-        description="Training staff and volunteers on child-protection, safety, and background-check training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your churches team stays trained, compliant, and audit-ready, in all 50 states."
+        title="A volunteer working with kids without a background check or Safe Sanctuaries training is a liability your church cannot afford to carry."
+        description="In churches, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for churches teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsChurchPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in churches shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in churches</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'child-protection, safety, and background-check training cannot lapse',
-                  sub: 'In churches, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '90 minutes',
+                  label: 'Typical Safe Sanctuaries course length',
+                  sub: 'Safe Sanctuaries training is commonly delivered as a 90-minute course with interactive modules and a comprehension assessment, required for every staff member and volunteer working with children, youth, or vulnerable adults.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When staff and volunteers turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: 'Every 3 years',
+                  label: 'Recommended background check cycle',
+                  sub: 'Denominational guidance recommends every staff member or volunteer working with vulnerable populations complete a national background check at least every three years, and tracking that cycle by hand across dozens of volunteers gets missed.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '1996 mandate',
+                  label: 'Denominational policy requirement',
+                  sub: 'Since a 1996 General Conference mandate, United Methodist churches and many other denominations require a documented child protection policy covering background checks, training, and reporting procedures for every congregation.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsChurchPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how churches actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how churches actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsChurchPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required child-protection, safety, and background-check training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign Safe Sanctuaries training to every volunteer',
+                  body: 'isolved Learn & Grow lets a church push child protection training to staff and volunteers before they are ever alone with a child, with a documented completion record.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New staff and volunteers run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track background check renewal cycles',
+                  body: 'Set background check dates for every volunteer and staff member and get reminders before the recommended renewal window closes.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance to your denomination or insurer',
+                  body: 'Pull a complete roster of trained, background-checked volunteers instantly when your conference, insurer, or a concerned parent asks for proof.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsChurchPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.txcumc.org/safe-sanctuary" target="_blank" rel="noopener noreferrer">Safe Sanctuary Training Overview</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

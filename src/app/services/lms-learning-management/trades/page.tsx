@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Skilled Trades LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for skilled trades. BEG resells and configures isolved Learn & Grow so you can assign safety, certification, and equipment training, track completions, and stay audit-ready, nationwide.',
+  title: 'OSHA 10/30 and Trades Training Tracking | BEG',
+  description: 'Assign OSHA 10, OSHA 30, and state licensing CE to every crew member, track card renewals, and prove job-site compliance. isolved learn and grow, national support.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/trades' },
   openGraph: {
-    title: 'Skilled Trades LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for skilled trades. BEG resells and configures isolved Learn & Grow so you can assign safety, certification, and equipment training, track completions, and stay audit-ready, nationwide.',
+    title: 'OSHA 10/30 and Trades Training Tracking | BEG',
+    description: 'Assign OSHA 10, OSHA 30, and state licensing CE to every crew member, track card renewals, and prove job-site compliance. isolved learn and grow, national support.',
     url: 'https://www.beghr.com/services/lms-learning-management/trades',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Skilled Trades LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for skilled trades. BEG resells and configures isolved Learn & Grow so you can assign safety, certification, and equipment training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'OSHA 10/30 and Trades Training Tracking | BEG', description: 'Assign OSHA 10, OSHA 30, and state licensing CE to every crew member, track card renewals, and prove job-site compliance. isolved learn and grow, national support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('trades');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your skilled trades roles and training requirements.',
+    'Do all our crew members need OSHA 10, or just supervisors?',
+    'OSHA 10 is generally expected for all construction workers where required by state or local law, while OSHA 30 is aimed at supervisors and anyone with safety responsibility. isolved learn and grow assigns the right course by role and tracks card status by crew.',
+  ],
+  [
+    'Can we track state trade licensing CE hours in the same system as OSHA cards?',
+    'Yes. You can track electrician, plumbing, and HVAC continuing education requirements alongside OSHA 10/30 cards, so every worker’s full compliance picture is in one place.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific safety, certification, and equipment training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific skilled trades training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for skilled trades employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsTradesPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep tradespeople certified and safety-trained without the paperwork.',
-            description: 'Training software for skilled trades. BEG resells and configures isolved Learn & Grow so you can assign safety, certification, and equipment training, track completions, and stay audit-ready, nationwide.',
+            headline: 'OSHA 10, OSHA 30, and licensing CE tracked by crew, so the job site is never one card short',
+            description: 'Assign OSHA 10, OSHA 30, and state licensing CE to every crew member, track card renewals, and prove job-site compliance. isolved learn and grow, national support.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsTradesPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Skilled Trades"
-        title="Keep tradespeople certified and safety-trained without the paperwork."
-        description="Training tradespeople and crews on safety, certification, and equipment training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your skilled trades team stays trained, compliant, and audit-ready, in all 50 states."
+        title="OSHA 10, OSHA 30, and licensing CE tracked by crew, so the job site is never one card short"
+        description="In skilled trades, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for skilled trades teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsTradesPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in skilled trades shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in skilled trades</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'safety, certification, and equipment training cannot lapse',
-                  sub: 'In skilled trades, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '15 days',
+                  label: 'New York City’s deadline for a new hire’s OSHA 10 card',
+                  sub: 'NYC requires every construction employee to obtain an OSHA 10-hour card within 15 days of hire, and supervisory staff need OSHA 30 on the same timeline.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When tradespeople and crews turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '$10,000',
+                  label: 'Public project threshold triggering mandatory OSHA 10',
+                  sub: 'Many jurisdictions require OSHA 10-hour training for every worker on public projects estimated above $10,000, a threshold that catches even small subcontractor crews.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '1 supervisor',
+                  label: 'Who needs OSHA 30 on most job sites',
+                  sub: 'OSHA 30 is generally required or recommended for any worker with supervisory or safety responsibility on a job site, distinct from the base OSHA 10 requirement for the rest of the crew.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsTradesPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how skilled trades actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how skilled trades actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsTradesPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required safety, certification, and equipment training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign OSHA 10 and OSHA 30 by role',
+                  body: 'isolved learn and grow lets you require OSHA 10 for every crew member and OSHA 30 for supervisors, matching the jurisdiction and project requirements you actually work under.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New tradespeople and crews run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track state trade licensing CE alongside safety cards',
+                  body: 'Electricians, plumbers, and HVAC techs often carry separate state licensing CE requirements. Track those renewal cycles in the same system as OSHA cards.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance before a job site inspection',
+                  body: 'Pull a crew-by-crew report showing current OSHA cards and licensing CE, ready before a general contractor or municipal inspector asks for it.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsTradesPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.osha.gov/training/outreach/construction" target="_blank" rel="noopener noreferrer">OSHA, Outreach Training Program for construction</a>, <a href="https://www.osha.gov/training/outreach" target="_blank" rel="noopener noreferrer">OSHA, Outreach Training Program overview</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

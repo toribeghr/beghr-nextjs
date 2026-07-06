@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Finance LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for finance. BEG resells and configures isolved Learn & Grow so you can assign compliance, anti-money-laundering, and data-security training, track completions, and stay audit-ready, nationwide.',
+  title: 'FINRA CE and AML Training Software | BEG',
+  description: 'Assign Firm Element CE and BSA/AML training, track completion against FINRA deadlines, and prove it on exam day. isolved learn and grow, national support.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/finance' },
   openGraph: {
-    title: 'Finance LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for finance. BEG resells and configures isolved Learn & Grow so you can assign compliance, anti-money-laundering, and data-security training, track completions, and stay audit-ready, nationwide.',
+    title: 'FINRA CE and AML Training Software | BEG',
+    description: 'Assign Firm Element CE and BSA/AML training, track completion against FINRA deadlines, and prove it on exam day. isolved learn and grow, national support.',
     url: 'https://www.beghr.com/services/lms-learning-management/finance',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Finance LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for finance. BEG resells and configures isolved Learn & Grow so you can assign compliance, anti-money-laundering, and data-security training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'FINRA CE and AML Training Software | BEG', description: 'Assign Firm Element CE and BSA/AML training, track completion against FINRA deadlines, and prove it on exam day. isolved learn and grow, national support.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('finance');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your finance roles and training requirements.',
+    'Does isolved learn and grow track FINRA Regulatory Element deadlines by registration?',
+    'It tracks each registered person’s Regulatory Element status against the December 31 annual deadline under FINRA Rule 1240, and flags anyone approaching a lapse before it becomes a compliance gap.',
+  ],
+  [
+    'Can we assign different AML training to tellers versus compliance staff?',
+    'Yes. You can build role-specific AML and BSA training tracks, since the AML Act of 2020 requires training tailored to each employee’s exposure to money laundering risk, and keep a dated completion record for examiners.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific compliance, anti-money-laundering, and data-security training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific finance training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for finance employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsFinancePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep finance teams current on compliance without the manual tracking.',
-            description: 'Training software for finance. BEG resells and configures isolved Learn & Grow so you can assign compliance, anti-money-laundering, and data-security training, track completions, and stay audit-ready, nationwide.',
+            headline: 'FINRA CE deadlines and AML training that do not slip through the cracks',
+            description: 'Assign Firm Element CE and BSA/AML training, track completion against FINRA deadlines, and prove it on exam day. isolved learn and grow, national support.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsFinancePage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Finance"
-        title="Keep finance teams current on compliance without the manual tracking."
-        description="Training finance and accounting staff on compliance, anti-money-laundering, and data-security training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your finance team stays trained, compliant, and audit-ready, in all 50 states."
+        title="FINRA CE deadlines and AML training that do not slip through the cracks"
+        description="In finance, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for finance teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsFinancePage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in finance shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in finance</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'compliance, anti-money-laundering, and data-security training cannot lapse',
-                  sub: 'In finance, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: 'Dec. 31',
+                  label: 'Annual Regulatory Element deadline',
+                  sub: 'FINRA Rule 1240 requires every registered person to complete the Regulatory Element by December 31 each year for every registration held, with no grace period.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When finance and accounting staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: 'Annually',
+                  label: 'Firm Element training plan review cycle',
+                  sub: 'Firms must evaluate and prioritize training needs at least once a year and maintain a written Firm Element plan tied to each registered person’s role.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '31 U.S.C. 5334',
+                  label: 'Statutory AML training mandate',
+                  sub: 'The AML Act of 2020 added a formal training requirement to the Bank Secrecy Act, and examiners expect role-specific, documented completion for anyone touching AML or SAR filing.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsFinancePage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how finance actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how finance actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsFinancePage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required compliance, anti-money-laundering, and data-security training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Map Firm Element CE to each role',
+                  body: 'isolved learn and grow assigns Firm Element and product-specific coursework by registration type, so supervisors, reps, and ops staff each get what their role requires.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New finance and accounting staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track renewal and Regulatory Element deadlines',
+                  body: 'Registered persons and compliance officers see completion status against the December 31 Regulatory Element deadline before it becomes a finding.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Produce AML and SAR training records on demand',
+                  body: 'When an examiner or auditor asks for proof of BSA/AML training under 31 U.S.C. 5334, pull a complete, dated report instead of assembling one from spreadsheets.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsFinancePage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.finra.org/registration-exams-ce/continuing-education" target="_blank" rel="noopener noreferrer">FINRA continuing education</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240" target="_blank" rel="noopener noreferrer">FINRA Rule 1240, Continuing Education</a>, <a href="https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act" target="_blank" rel="noopener noreferrer">FinCEN, the Bank Secrecy Act</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

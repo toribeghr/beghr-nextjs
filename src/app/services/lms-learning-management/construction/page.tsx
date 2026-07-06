@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Construction LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for construction. BEG resells and configures isolved Learn & Grow so you can assign OSHA, jobsite safety, and equipment certification training, track completions, and stay audit-ready, nationwide.',
+  title: 'Construction Safety Training Software | BEG',
+  description: 'Assign OSHA 10/30 and fall protection training, track cards and renewals, prove compliance instantly. See isolved Learn & Grow pricing today.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/construction' },
   openGraph: {
-    title: 'Construction LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for construction. BEG resells and configures isolved Learn & Grow so you can assign OSHA, jobsite safety, and equipment certification training, track completions, and stay audit-ready, nationwide.',
+    title: 'Construction Safety Training Software | BEG',
+    description: 'Assign OSHA 10/30 and fall protection training, track cards and renewals, prove compliance instantly. See isolved Learn & Grow pricing today.',
     url: 'https://www.beghr.com/services/lms-learning-management/construction',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for construction. BEG resells and configures isolved Learn & Grow so you can assign OSHA, jobsite safety, and equipment certification training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction Safety Training Software | BEG', description: 'Assign OSHA 10/30 and fall protection training, track cards and renewals, prove compliance instantly. See isolved Learn & Grow pricing today.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('construction');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your construction roles and training requirements.',
+    'What training does OSHA require for construction workers?',
+    'OSHA 1926.501 requires fall protection for anyone working 6 feet or higher, and many employers layer on the OSHA 10-hour or 30-hour Outreach course for broader hazard awareness. isolved Learn & Grow assigns these by trade and tracks card expiration so a crew is never caught without current training.',
+  ],
+  [
+    'Does the OSHA 10 or 30 card expire?',
+    'OSHA Outreach cards do not have a federal expiration, but many states, GCs, and unions require refreshers on a set cycle. Learn & Grow lets you set your own renewal schedule and get alerted before a worker’s training falls out of your policy window.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific OSHA, jobsite safety, and equipment certification training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific construction training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for construction employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsConstructionPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep every crew safety-trained and certified before they step on the jobsite.',
-            description: 'Training software for construction. BEG resells and configures isolved Learn & Grow so you can assign OSHA, jobsite safety, and equipment certification training, track completions, and stay audit-ready, nationwide.',
+            headline: 'A crew without documented fall protection training is one OSHA inspection away from a stop-work order and a five-figure fine.',
+            description: 'Assign OSHA 10/30 and fall protection training, track cards and renewals, prove compliance instantly. See isolved Learn & Grow pricing today.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsConstructionPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Construction &amp; Trades"
-        title="Keep every crew safety-trained and certified before they step on the jobsite."
-        description="Training crews and field staff on OSHA, jobsite safety, and equipment certification training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your construction team stays trained, compliant, and audit-ready, in all 50 states."
+        title="A crew without documented fall protection training is one OSHA inspection away from a stop-work order and a five-figure fine."
+        description="In construction, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for construction teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsConstructionPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in construction shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in construction</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'OSHA, jobsite safety, and equipment certification training cannot lapse',
-                  sub: 'In construction, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '6 feet',
+                  label: 'Fall protection trigger height',
+                  sub: 'Under OSHA 1926.501, any employee on a walking or working surface 6 feet or more above a lower level must be protected by a guardrail, safety net, or personal fall arrest system.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When crews and field staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '#1 for 15 years',
+                  label: 'Most-cited OSHA violation',
+                  sub: 'Fall protection has topped OSHA’s most-cited standards list for 15 straight years, with thousands of citations issued annually across the construction industry.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: '10 or 30 hours',
+                  label: 'OSHA Outreach card levels',
+                  sub: 'Workers typically complete the 10-hour course for hazard awareness and supervisors complete the 30-hour course, and cards must be tracked so expired training does not put a crew on a jobsite unqualified.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsConstructionPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how construction actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how construction actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsConstructionPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required OSHA, jobsite safety, and equipment certification training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign OSHA 10/30 and fall protection training by trade',
+                  body: 'isolved Learn & Grow lets you push the right safety modules to laborers, foremen, and supervisors based on role, and confirm every worker completed it before stepping on site.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New crews and field staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track certification cards and expirations',
+                  body: 'Keep OSHA Outreach cards, crane and lift certifications, and confined space training in one system with automatic renewal alerts before anything lapses.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance during a site inspection',
+                  body: 'Pull a jobsite-ready compliance report showing every worker’s current training status the moment an OSHA inspector or GC safety officer asks.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsConstructionPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.503" target="_blank" rel="noopener noreferrer">OSHA 1926.503 training requirements</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.501" target="_blank" rel="noopener noreferrer">OSHA 1926.501 Fall Protection Standard</a>, <a href="https://www.osha.gov/training/outreach/construction" target="_blank" rel="noopener noreferrer">OSHA Outreach Training, Construction Industry</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Property Management LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for property management. BEG resells and configures isolved Learn & Grow so you can assign fair-housing, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+  title: 'Property Management Fair Housing Training | BEG',
+  description: 'Assign fair housing, OSHA, and fair-credit training to leasing staff, track completion, and prove compliance during an audit or complaint. isolved learn and grow.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/property-management' },
   openGraph: {
-    title: 'Property Management LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for property management. BEG resells and configures isolved Learn & Grow so you can assign fair-housing, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+    title: 'Property Management Fair Housing Training | BEG',
+    description: 'Assign fair housing, OSHA, and fair-credit training to leasing staff, track completion, and prove compliance during an audit or complaint. isolved learn and grow.',
     url: 'https://www.beghr.com/services/lms-learning-management/property-management',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Property Management LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for property management. BEG resells and configures isolved Learn & Grow so you can assign fair-housing, safety, and compliance training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Property Management Fair Housing Training | BEG', description: 'Assign fair housing, OSHA, and fair-credit training to leasing staff, track completion, and prove compliance during an audit or complaint. isolved learn and grow.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('property-management');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your property management roles and training requirements.',
+    'Do our leasing agents need documented fair housing training, or is a policy enough?',
+    'A written policy alone will not satisfy HUD if a complaint is filed. isolved learn and grow lets you require and document fair housing training for every leasing agent, with a dated completion record you can produce if an investigation opens.',
+  ],
+  [
+    'Can we track training separately across multiple properties under one management company?',
+    'Yes. You can assign and monitor fair housing, FCRA, and OSHA training property by property, so you know exactly which locations and staff are current at any moment.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific fair-housing, safety, and compliance training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific property management training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for property management employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsPropertyManagementPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep property teams trained on fair-housing and safety across every site.',
-            description: 'Training software for property management. BEG resells and configures isolved Learn & Grow so you can assign fair-housing, safety, and compliance training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Fair housing and safety training that holds up when HUD or a tenant’s attorney comes asking',
+            description: 'Assign fair housing, OSHA, and fair-credit training to leasing staff, track completion, and prove compliance during an audit or complaint. isolved learn and grow.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsPropertyManagementPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Property Management"
-        title="Keep property teams trained on fair-housing and safety across every site."
-        description="Training property and maintenance staff on fair-housing, safety, and compliance training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your property management team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Fair housing and safety training that holds up when HUD or a tenant’s attorney comes asking"
+        description="In property management, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for property management teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsPropertyManagementPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in property management shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in property management</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'fair-housing, safety, and compliance training cannot lapse',
-                  sub: 'In property management, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: 'Fair Housing Act',
+                  label: 'Federal law governing every leasing decision',
+                  sub: 'The Fair Housing Act prohibits discrimination in housing based on protected classes, and HUD-approved training is the standard defense when a leasing decision is challenged.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When property and maintenance staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '1 complaint',
+                  label: 'What triggers a HUD fair housing investigation',
+                  sub: 'A single tenant complaint can open a HUD investigation into a property’s leasing practices, and documented staff training is one of the first things investigators ask about.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'FCRA',
+                  label: 'Federal law governing tenant screening',
+                  sub: 'The Fair Credit Reporting Act governs how leasing staff use credit and background reports in tenant screening, and untrained staff create liability with every application they process.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsPropertyManagementPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how property management actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how property management actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsPropertyManagementPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required fair-housing, safety, and compliance training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign fair housing training to every leasing role',
+                  body: 'isolved learn and grow lets you require fair housing, FCRA screening, and OSHA safety training for leasing agents and maintenance staff before they touch an application or a work order.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New property and maintenance staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track completion across every property',
+                  body: 'See at a glance which properties and staff have current fair housing and safety training, whether you manage 5 doors or 5,000.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance if HUD or a tenant complaint comes in',
+                  body: 'Pull a dated training record for any leasing agent or property, ready to hand to counsel or an investigator the day it is requested.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsPropertyManagementPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_rights_and_obligations" target="_blank" rel="noopener noreferrer">HUD, fair housing rights and obligations</a>, <a href="https://www.hudexchange.info/programs/nfhta/" target="_blank" rel="noopener noreferrer">HUD Exchange, National Fair Housing Training Academy</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

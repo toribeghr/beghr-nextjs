@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Manufacturing LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for manufacturing. BEG resells and configures isolved Learn & Grow so you can assign OSHA, machine safety, and quality-standard training, track completions, and stay audit-ready, nationwide.',
+  title: 'Manufacturing Safety Training Software | BEG',
+  description: 'Assign OSHA lockout/tagout and PPE training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing for plants today.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/manufacturing' },
   openGraph: {
-    title: 'Manufacturing LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for manufacturing. BEG resells and configures isolved Learn & Grow so you can assign OSHA, machine safety, and quality-standard training, track completions, and stay audit-ready, nationwide.',
+    title: 'Manufacturing Safety Training Software | BEG',
+    description: 'Assign OSHA lockout/tagout and PPE training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing for plants today.',
     url: 'https://www.beghr.com/services/lms-learning-management/manufacturing',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Manufacturing LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for manufacturing. BEG resells and configures isolved Learn & Grow so you can assign OSHA, machine safety, and quality-standard training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Manufacturing Safety Training Software | BEG', description: 'Assign OSHA lockout/tagout and PPE training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing for plants today.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('manufacturing');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your manufacturing roles and training requirements.',
+    'What training does OSHA require for lockout/tagout?',
+    'OSHA 1910.147 requires a written energy control program, machine-specific procedures, and training for every authorized and affected employee, plus annual inspections. isolved Learn & Grow assigns the training by line and machine class and keeps proof ready for your annual audit.',
+  ],
+  [
+    'How often does lockout/tagout training need to be repeated?',
+    'OSHA requires retraining whenever there is a job change, new equipment, a new hazard, or a deviation from procedure, on top of an annual program review. Learn & Grow tracks these triggers so retraining does not get missed between formal reviews.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific OSHA, machine safety, and quality-standard training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific manufacturing training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for manufacturing employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsManufacturingPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Keep every shift trained on safety and quality without stopping the line.',
-            description: 'Training software for manufacturing. BEG resells and configures isolved Learn & Grow so you can assign OSHA, machine safety, and quality-standard training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Skipping a lockout/tagout refresher is how a routine machine jam turns into a preventable amputation and an OSHA citation.',
+            description: 'Assign OSHA lockout/tagout and PPE training, track certifications, prove compliance instantly. See isolved Learn & Grow pricing for plants today.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsManufacturingPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Manufacturing"
-        title="Keep every shift trained on safety and quality without stopping the line."
-        description="Training plant and line workers on OSHA, machine safety, and quality-standard training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your manufacturing team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Skipping a lockout/tagout refresher is how a routine machine jam turns into a preventable amputation and an OSHA citation."
+        description="In manufacturing, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for manufacturing teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsManufacturingPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in manufacturing shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in manufacturing</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'OSHA, machine safety, and quality-standard training cannot lapse',
-                  sub: 'In manufacturing, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '120 deaths prevented yearly',
+                  label: 'Lockout/tagout standard impact',
+                  sub: 'OSHA 1910.147 is estimated to prevent about 120 fatalities and 50,000 injuries a year by requiring trained, authorized employees to control hazardous energy before servicing equipment.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When plant and line workers turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '#4 most cited',
+                  label: '1910.147 citation ranking',
+                  sub: 'Lockout/tagout ranked #4 on OSHA’s most-cited standards in FY2025, with violations traced mostly to missing written procedures and inadequate employee training.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'Annual',
+                  label: 'Required inspection and retraining cycle',
+                  sub: 'OSHA requires employers to conduct annual inspections of energy control procedures and retrain authorized employees whenever a new hazard, procedure change, or deviation is identified.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsManufacturingPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how manufacturing actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how manufacturing actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsManufacturingPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required OSHA, machine safety, and quality-standard training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign lockout/tagout and PPE training by line',
+                  body: 'isolved Learn & Grow lets you push 1910.147 energy control training and PPE requirements to specific production lines or machine classes, not a one-size-fits-all plant-wide course.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New plant and line workers run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track HAZCOM and authorized employee status',
+                  body: 'Keep a live record of who is an authorized versus affected employee under your energy control program, with renewal reminders before annual retraining is due.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance on demand',
+                  body: 'Generate a plant-wide or line-specific training report in minutes when a safety audit, insurance carrier, or OSHA inspector asks for documentation.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsManufacturingPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132" target="_blank" rel="noopener noreferrer">OSHA 1910.132 training requirements</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.osha.gov/control-hazardous-energy/" target="_blank" rel="noopener noreferrer">OSHA Control of Hazardous Energy (Lockout/Tagout)</a>, <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147" target="_blank" rel="noopener noreferrer">OSHA 1910.147 Standard</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

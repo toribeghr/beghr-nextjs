@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Auto Dealerships LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for dealerships. BEG resells and configures isolved Learn & Grow so you can assign sales certification, F&I compliance, and safety training, track completions, and stay audit-ready, nationwide.',
+  title: 'Auto Dealership Compliance Training Software | BEG',
+  description: 'Assign FTC Safeguards Rule and F&I compliance training, track completion by role, prove compliance instantly. See isolved Learn & Grow pricing.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/auto-dealership' },
   openGraph: {
-    title: 'Auto Dealerships LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for dealerships. BEG resells and configures isolved Learn & Grow so you can assign sales certification, F&I compliance, and safety training, track completions, and stay audit-ready, nationwide.',
+    title: 'Auto Dealership Compliance Training Software | BEG',
+    description: 'Assign FTC Safeguards Rule and F&I compliance training, track completion by role, prove compliance instantly. See isolved Learn & Grow pricing.',
     url: 'https://www.beghr.com/services/lms-learning-management/auto-dealership',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Auto Dealerships LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for dealerships. BEG resells and configures isolved Learn & Grow so you can assign sales certification, F&I compliance, and safety training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Auto Dealership Compliance Training Software | BEG', description: 'Assign FTC Safeguards Rule and F&I compliance training, track completion by role, prove compliance instantly. See isolved Learn & Grow pricing.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('auto-dealership');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your dealerships roles and training requirements.',
+    'What training does the FTC Safeguards Rule require for dealerships?',
+    'The rule requires dealerships to train all personnel on security awareness and provide specialized training to staff who carry out the information security program, such as F&I. isolved Learn & Grow assigns the right level of training by role and tracks completion for every employee.',
+  ],
+  [
+    'What happens if a dealership does not comply with the Safeguards Rule?',
+    'Non-compliance can result in FTC fines of up to $11,000 per day per violation. Learn & Grow gives dealerships a documented training record to demonstrate the required program, including employee training, is actually in place.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific sales certification, F&I compliance, and safety training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific dealerships training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for dealerships employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsAutoDealershipPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Onboard and certify dealership staff across sales, service, and F&I in one system.',
-            description: 'Training software for dealerships. BEG resells and configures isolved Learn & Grow so you can assign sales certification, F&I compliance, and safety training, track completions, and stay audit-ready, nationwide.',
+            headline: 'An F&I manager who never completed Safeguards Rule training is a compliance gap that can cost your dealership $11,000 a day per violation.',
+            description: 'Assign FTC Safeguards Rule and F&I compliance training, track completion by role, prove compliance instantly. See isolved Learn & Grow pricing.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsAutoDealershipPage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Auto Dealerships"
-        title="Onboard and certify dealership staff across sales, service, and F&I in one system."
-        description="Training sales and service staff on sales certification, F&I compliance, and safety training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your dealerships team stays trained, compliant, and audit-ready, in all 50 states."
+        title="An F&I manager who never completed Safeguards Rule training is a compliance gap that can cost your dealership $11,000 a day per violation."
+        description="In dealerships, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for dealerships teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsAutoDealershipPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in dealerships shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in dealerships</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'sales certification, F&I compliance, and safety training cannot lapse',
-                  sub: 'In dealerships, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '$11,000 per day',
+                  label: 'Potential Safeguards Rule penalty',
+                  sub: 'The FTC’s Safeguards Rule applies to dealers who finance or lease vehicles, and non-compliance can result in fines reaching $11,000 per day per occurrence.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When sales and service staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: 'Every employee',
+                  label: 'Security awareness training required',
+                  sub: 'The FTC requires dealerships to provide security awareness training for all personnel and specialized training for staff who carry out the information security program, not just F&I.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'Effective June 9, 2023',
+                  label: 'Current Safeguards Rule in force',
+                  sub: 'The amended FTC Safeguards Rule has been in effect since June 2023, and dealerships are expected to be fully compliant with its employee training provisions today.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsAutoDealershipPage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how dealerships actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how dealerships actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsAutoDealershipPage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required sales certification, F&I compliance, and safety training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign Safeguards Rule and F&I compliance training by department',
+                  body: 'isolved Learn & Grow lets you push security awareness training to every employee and specialized F&I and OFAC training to the staff who handle customer financial data.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New sales and service staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track completion across sales and F&I teams',
+                  body: 'See exactly who on your sales floor and in the finance office has completed required compliance modules and who is overdue.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance if the FTC or a lender audits your dealership',
+                  body: 'Pull a complete training record in minutes to demonstrate your information security program’s training requirement is actually being met.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsAutoDealershipPage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.ftc.gov/business-guidance/resources/automobile-dealers-ftcs-safeguards-rule-frequently-asked-questions" target="_blank" rel="noopener noreferrer">FTC Safeguards Rule FAQs for Auto Dealers</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

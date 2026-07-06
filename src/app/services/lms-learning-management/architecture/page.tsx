@@ -5,42 +5,42 @@ import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
 export const metadata: Metadata = {
-  title: 'Architecture LMS | isolved Learn & Grow, Configured by BEG',
-  description: 'Training software for architecture. BEG resells and configures isolved Learn & Grow so you can assign licensure CE, software, and standards training, track completions, and stay audit-ready, nationwide.',
+  title: 'Architecture Firm CE Tracking Software | BEG',
+  description: 'Assign HSW continuing education, track hours toward state license renewal, prove compliance instantly. See isolved Learn & Grow pricing for firms.',
   alternates: { canonical: 'https://www.beghr.com/services/lms-learning-management/architecture' },
   openGraph: {
-    title: 'Architecture LMS | isolved Learn & Grow, Configured by BEG',
-    description: 'Training software for architecture. BEG resells and configures isolved Learn & Grow so you can assign licensure CE, software, and standards training, track completions, and stay audit-ready, nationwide.',
+    title: 'Architecture Firm CE Tracking Software | BEG',
+    description: 'Assign HSW continuing education, track hours toward state license renewal, prove compliance instantly. See isolved Learn & Grow pricing for firms.',
     url: 'https://www.beghr.com/services/lms-learning-management/architecture',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Architecture LMS | isolved Learn & Grow, Configured by BEG', description: 'Training software for architecture. BEG resells and configures isolved Learn & Grow so you can assign licensure CE, software, and standards training, track completions, and stay audit-ready, nationwide.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Architecture Firm CE Tracking Software | BEG', description: 'Assign HSW continuing education, track hours toward state license renewal, prove compliance instantly. See isolved Learn & Grow pricing for firms.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('architecture');
 
 const FAQS: [string, string][] = [
   [
-    'Is this isolved Learn & Grow?',
-    'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management system built into the isolved platform. isolved builds the software; BEG sets it up around your architecture roles and training requirements.',
+    'How many continuing education hours do architects need?',
+    'AIA members need 18 learning units annually, with at least 12 in health, safety, and welfare topics, though each state licensing board sets its own separate requirement and cycle. isolved Learn & Grow tracks both AIA and state-specific hours per architect.',
+  ],
+  [
+    'What counts as HSW credit?',
+    'HSW credit covers content that protects the health, safety, and welfare of building occupants, such as accessibility, structural safety, and code compliance topics. Learn & Grow lets firms tag courses as HSW so hour tracking matches what license boards actually require.',
   ],
   [
     'Can we upload our own training content?',
-    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific licensure CE, software, and standards training lives in the same system as everything else.',
+    'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific architecture training lives in one system.',
   ],
   [
-    'How does it help with compliance?',
-    'Required courses are assigned by role with due dates, renewals, and automatic reminders. Completions and pass rates are tracked so you can produce an audit-ready record on demand.',
+    'What does isolved Learn & Grow cost?',
+    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
-    'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
-  ],
-  [
-    'Do you serve companies in my state?',
-    'Yes. BEG configures and supports isolved Learn & Grow for companies in all 50 states, delivered remotely nationwide.',
+    'Do you serve employers in my state?',
+    'Yes. BEG configures and supports isolved Learn & Grow for architecture employers in all 50 states, delivered remotely nationwide.',
   ],
 ];
 
@@ -53,8 +53,8 @@ export default function LmsArchitecturePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Track continuing education and studio training without chasing certificates.',
-            description: 'Training software for architecture. BEG resells and configures isolved Learn & Grow so you can assign licensure CE, software, and standards training, track completions, and stay audit-ready, nationwide.',
+            headline: 'Losing track of HSW continuing education hours means a principal architect risks their license over a paperwork gap, not a design failure.',
+            description: 'Assign HSW continuing education, track hours toward state license renewal, prove compliance instantly. See isolved Learn & Grow pricing for firms.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -90,8 +90,8 @@ export default function LmsArchitecturePage() {
       <ServicePage
         showHeroImage={false}
         eyebrow="Learning Management · Architecture"
-        title="Track continuing education and studio training without chasing certificates."
-        description="Training architects and design staff on licensure CE, software, and standards training should not mean chasing sign-in sheets and expired certificates. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system so your architecture team stays trained, compliant, and audit-ready, in all 50 states."
+        title="Losing track of HSW continuing education hours means a principal architect risks their license over a paperwork gap, not a design failure."
+        description="In architecture, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for architecture teams and all 50 states."
         calendlyLink={CALENDLY}
         heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
         heroStats={[
@@ -104,24 +104,24 @@ export default function LmsArchitecturePage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">The Training Problem</p>
-              <h2>Every training gap in architecture shows up as risk, not just a missing checkbox</h2>
+              <h2>Where training compliance actually bites in architecture</h2>
             </div>
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  stat: 'Compliance',
-                  label: 'licensure CE, software, and standards training cannot lapse',
-                  sub: 'In architecture, a missed or expired training requirement becomes a liability the day an auditor, regulator, or client asks for proof. Paper records make that proof slow to find and easy to lose.',
+                  stat: '18 LUs / year',
+                  label: 'AIA member CE requirement',
+                  sub: 'AIA members must complete 18 learning units annually from registered AIA/CES providers, with at least 12 of those hours specifically in health, safety, and welfare topics.',
                 },
                 {
-                  stat: 'Turnover',
-                  label: 'Every new hire starts training from zero',
-                  sub: 'When architects and design staff turn over, someone re-runs the same onboarding and safety training by hand. That time adds up fast and pulls your best people off the floor.',
+                  stat: '12 HSW hours',
+                  label: 'Health, safety, welfare minimum',
+                  sub: 'Of the annual learning units required, a majority must be HSW-focused, covering knowledge that protects the health, safety, and welfare of building occupants.',
                 },
                 {
-                  stat: 'No trail',
-                  label: 'A binder is not a training record',
-                  sub: 'Sign-in sheets tell you who showed up, not who completed, passed, and is due to renew. That gap is where compliance risk hides.',
+                  stat: 'Varies by state',
+                  label: 'License renewal cycles differ',
+                  sub: 'State licensing boards set their own continuing education cycles, some annual and some biennial or triennial, so a firm with architects licensed in multiple states must track several different clocks at once.',
                 },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -144,7 +144,7 @@ export default function LmsArchitecturePage() {
                 {
                   num: '01',
                   title: 'BEG configures isolved Learn & Grow to your requirements',
-                  body: 'Your roles, required courses, and renewal schedules get built into the system around how architecture actually trains, not a generic template.',
+                  body: 'Your roles, required courses, and renewal schedules get built in around how architecture actually trains, not a generic template.',
                 },
                 {
                   num: '02',
@@ -175,16 +175,16 @@ export default function LmsArchitecturePage() {
             <div className="beg-grid-3 reveal">
               {[
                 {
-                  title: 'Assign the right courses automatically',
-                  body: 'Required licensure CE, software, and standards training gets assigned by role the moment someone is hired, with due dates and reminders, so nothing depends on a manager remembering.',
+                  title: 'Assign HSW continuing education by license state',
+                  body: 'isolved Learn & Grow lets a firm configure CE tracking per architect’s licensing jurisdiction, so multi-state staff are not stuck managing conflicting renewal cycles manually.',
                 },
                 {
-                  title: 'Onboard new hires in days, not weeks',
-                  body: 'New architects and design staff run a consistent onboarding path, including your own uploaded content, and get productive faster instead of shadowing until it sticks.',
+                  title: 'Track LU and HSW hour splits',
+                  body: 'See at a glance how many total learning units and how many HSW-specific hours each licensed architect has completed against their annual or biennial requirement.',
                 },
                 {
-                  title: 'Prove compliance in one click',
-                  body: 'Completion, pass rates, and renewal dates live in one dashboard, so an audit or client request becomes a report you pull, not a scramble.',
+                  title: 'Prove compliance for license renewal',
+                  body: 'Generate a CE transcript instantly when a state board audit or license renewal deadline requires documented proof of hours completed.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
@@ -198,7 +198,7 @@ export default function LmsArchitecturePage() {
         <section className="section">
           <div className="container" style={{ maxWidth: '760px' }}>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', textAlign: 'center' }}>
-              Further reading and sources: <a href="https://www.td.org/content/press-release/atd-research-spending-on-employee-training-remains-strong" target="_blank" rel="noopener noreferrer">ATD, employee training spend research</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
+              Further reading and sources: <a href="https://www.aia.org/career-growth/aia-state-requirements" target="_blank" rel="noopener noreferrer">AIA State Continuing Education Requirements</a>, <a href="https://www.aia.org/health-safety-and-welfare-hsw-ce-guidelines" target="_blank" rel="noopener noreferrer">AIA Health, Safety, and Welfare CE Guidelines</a>, <a href="https://en.wikipedia.org/wiki/Learning_management_system" target="_blank" rel="noopener noreferrer">Learning management system, overview</a>.
             </p>
           </div>
         </section>

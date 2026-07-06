@@ -254,14 +254,154 @@ export default function ApplicantTrackingSystemPage() {
                 <p>High-volume field hiring tracked in one pipeline instead of scattered across job sites and texts.</p>
               </Link>
               <Link href="/services/applicant-tracking-system/applicant-tracking-for-restaurants" className="card-link reveal">
-                <span className="tag">Restaurants &amp; Hospitality</span>
-                <h3>Restaurants &amp; Hospitality</h3>
+                <span className="tag">Restaurants</span>
+                <h3>Restaurants</h3>
                 <p>Fast, high-turnover hiring across multiple locations, tracked and screened in one place.</p>
               </Link>
               <Link href="/services/applicant-tracking-system/applicant-tracking-for-manufacturing" className="card-link reveal">
                 <span className="tag">Manufacturing</span>
                 <h3>Manufacturing</h3>
                 <p>Shift-based hiring at volume, with screening questions that filter for the roles that matter.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-retail" className="card-link reveal">
+                <span className="tag">Retail</span>
+                <h3>Retail</h3>
+                <p>Seasonal peaks and hourly turnover handled with fast, mobile-friendly applicant tracking.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-senior-care" className="card-link reveal">
+                <span className="tag">Senior Care</span>
+                <h3>Senior Care</h3>
+                <p>Caregiver and aide hiring with credential tracking, so open shifts get covered faster.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-warehouse-logistics" className="card-link reveal">
+                <span className="tag">Warehouse &amp; Logistics</span>
+                <h3>Warehouse &amp; Logistics</h3>
+                <p>High-volume, peak-season hiring for pickers, packers, and drivers in one pipeline.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-hospitality" className="card-link reveal">
+                <span className="tag">Hospitality &amp; Hotels</span>
+                <h3>Hospitality &amp; Hotels</h3>
+                <p>Front desk, housekeeping, and food and beverage roles filled across every property.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-dental" className="card-link reveal">
+                <span className="tag">Dental</span>
+                <h3>Dental Practices</h3>
+                <p>Hygienist, assistant, and front-office hiring for practices with no dedicated HR.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-franchise" className="card-link reveal">
+                <span className="tag">Franchise</span>
+                <h3>Franchise</h3>
+                <p>One consistent hiring process across every location, so no unit stays short-staffed.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-legal" className="card-link reveal">
+                <span className="tag">Legal</span>
+                <h3>Legal</h3>
+                <p>Conflict checks and license verification built into the hiring workflow, not chased down after the fact.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-technology" className="card-link reveal">
+                <span className="tag">Technology</span>
+                <h3>Technology</h3>
+                <p>Fast-moving requisitions and scarce technical talent tracked in one pipeline instead of five job boards.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-real-estate" className="card-link reveal">
+                <span className="tag">Real Estate</span>
+                <h3>Real Estate</h3>
+                <p>Agent and staff hiring for brokerages, tracked separately from tenant or rental applications.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-veterinary" className="card-link reveal">
+                <span className="tag">Veterinary</span>
+                <h3>Veterinary</h3>
+                <p>DVM and vet tech hiring with credential tracking for practices that cannot afford an open shift.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-nonprofit" className="card-link reveal">
+                <span className="tag">Nonprofit</span>
+                <h3>Nonprofit</h3>
+                <p>Paid staff hiring for lean HR teams, tracked in one place instead of a shared inbox.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-staffing-agency" className="card-link reveal">
+                <span className="tag">Staffing Agencies</span>
+                <h3>Staffing Agencies</h3>
+                <p>Internal recruiter and ops hiring for the agency itself, tracked in one pipeline.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-property-management" className="card-link reveal">
+                <span className="tag">Property Management</span>
+                <h3>Property Management</h3>
+                <p>Leasing agent and maintenance tech hiring for the company, separate from tenant screening.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-insurance" className="card-link reveal">
+                <span className="tag">Insurance</span>
+                <h3>Insurance</h3>
+                <p>Producer and account manager hiring with licensing steps built into the workflow.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-professional-services" className="card-link reveal">
+                <span className="tag">Professional Services</span>
+                <h3>Professional Services</h3>
+                <p>Project-based staffing for consulting and advisory firms, tracked against every open engagement.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-education" className="card-link reveal">
+                <span className="tag">Education</span>
+                <h3>Education</h3>
+                <p>Teacher and staff hiring for schools, with background check steps that do not fall through the cracks.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-government-contractor" className="card-link reveal">
+                <span className="tag">Government Contractors</span>
+                <h3>Government Contractors</h3>
+                <p>Hiring records organized for OFCCP and EEO documentation, not scattered across inboxes before an audit.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-financial-services" className="card-link reveal">
+                <span className="tag">Financial Services</span>
+                <h3>Financial Services</h3>
+                <p>Branch-network hiring at volume, with background check steps built into the pipeline.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-engineering" className="card-link reveal">
+                <span className="tag">Engineering</span>
+                <h3>Engineering</h3>
+                <p>PE-licensed hiring and project-based staffing ramps tracked in one place, not a shared spreadsheet.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-childcare" className="card-link reveal">
+                <span className="tag">Childcare</span>
+                <h3>Childcare</h3>
+                <p>Background check and credentialing steps built into the workflow, so ratio compliance does not slip.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-agriculture" className="card-link reveal">
+                <span className="tag">Agriculture</span>
+                <h3>Agriculture</h3>
+                <p>Seasonal surges and H-2A documentation tracked in one pipeline, not a folder of paperwork.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-cannabis" className="card-link reveal">
+                <span className="tag">Cannabis</span>
+                <h3>Cannabis</h3>
+                <p>State licensing and background check steps built into hiring, so compliance risk does not slip through.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-salon-spa" className="card-link reveal">
+                <span className="tag">Salon &amp; Spa</span>
+                <h3>Salon &amp; Spa</h3>
+                <p>License verification and high-turnover hiring tracked in one place, not a stack of paper applications.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-auto-dealership" className="card-link reveal">
+                <span className="tag">Auto Dealerships</span>
+                <h3>Auto Dealerships</h3>
+                <p>Sales, service, and F&amp;I hiring across every department tracked in one pipeline.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-transportation" className="card-link reveal">
+                <span className="tag">Transportation</span>
+                <h3>Transportation</h3>
+                <p>CDL driver hiring with DOT documentation built into the workflow, not chased down after the fact.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-security" className="card-link reveal">
+                <span className="tag">Security Services</span>
+                <h3>Security Services</h3>
+                <p>Licensing and background checks built into the pipeline before anyone starts on post.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-marketing-agency" className="card-link reveal">
+                <span className="tag">Marketing Agencies</span>
+                <h3>Marketing Agencies</h3>
+                <p>Project-based hiring for account, creative, and strategy roles tracked against every open seat.</p>
+              </Link>
+              <Link href="/services/applicant-tracking-system/applicant-tracking-for-architecture" className="card-link reveal">
+                <span className="tag">Architecture</span>
+                <h3>Architecture</h3>
+                <p>Licensed architect hiring and project-based staffing ramps tracked in one place.</p>
               </Link>
             </div>
           </div>

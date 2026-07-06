@@ -155,6 +155,34 @@ export default function Footer() {
             <Link href="/services/applicant-tracking-system/applicant-tracking-for-construction" className="footer-link">Construction</Link>
             <Link href="/services/applicant-tracking-system/applicant-tracking-for-restaurants" className="footer-link">Restaurants</Link>
             <Link href="/services/applicant-tracking-system/applicant-tracking-for-manufacturing" className="footer-link">Manufacturing</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-retail" className="footer-link">Retail</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-senior-care" className="footer-link">Senior Care</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-warehouse-logistics" className="footer-link">Warehouse &amp; Logistics</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-hospitality" className="footer-link">Hospitality</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-dental" className="footer-link">Dental</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-franchise" className="footer-link">Franchise</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-legal" className="footer-link">Legal</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-technology" className="footer-link">Technology</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-real-estate" className="footer-link">Real Estate</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-veterinary" className="footer-link">Veterinary</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-nonprofit" className="footer-link">Nonprofit</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-staffing-agency" className="footer-link">Staffing Agencies</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-property-management" className="footer-link">Property Management</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-insurance" className="footer-link">Insurance</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-professional-services" className="footer-link">Professional Services</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-education" className="footer-link">Education</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-government-contractor" className="footer-link">Government Contractors</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-financial-services" className="footer-link">Financial Services</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-engineering" className="footer-link">Engineering</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-childcare" className="footer-link">Childcare</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-agriculture" className="footer-link">Agriculture</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-cannabis" className="footer-link">Cannabis</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-salon-spa" className="footer-link">Salon &amp; Spa</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-auto-dealership" className="footer-link">Auto Dealerships</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-transportation" className="footer-link">Transportation</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-security" className="footer-link">Security Services</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-marketing-agency" className="footer-link">Marketing Agencies</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-architecture" className="footer-link">Architecture</Link>
           </div>
 
           {/* HCM Software */}

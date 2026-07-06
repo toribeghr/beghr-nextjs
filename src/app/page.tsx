@@ -146,6 +146,18 @@ export default function Home() {
               <p>Certified HR pros handle your handbook, compliance, and leave for a fraction of a $60K-$100K hire. Powered by isolved. Not a PEO: you stay the employer.</p>
               <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See HR outsourcing &rarr;</span>
             </Link>
+            <Link href="/services/managed-benefits" className="card-link reveal">
+              <span className="tag">Managed Benefits</span>
+              <h3>Benefits admin eating open enrollment alive?</h3>
+              <p>Open enrollment, ACA forms, COBRA, and carrier updates handled. Powered by isolved. Keep your broker, we run the administration. All 50 states.</p>
+              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See managed benefits &rarr;</span>
+            </Link>
+            <Link href="/services/applicant-tracking-system" className="card-link reveal">
+              <span className="tag">Applicant Tracking</span>
+              <h3>Losing good applicants to a scattered hiring process?</h3>
+              <p>isolved Attract &amp; Hire Small Business puts every candidate in one pipeline. $2.00 PEPM, added to isolved HCM, configured and supported by BEG. All 50 states.</p>
+              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See applicant tracking &rarr;</span>
+            </Link>
           </div>
         </div>
       </section>

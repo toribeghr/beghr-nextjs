@@ -32,6 +32,7 @@ const NAV_GROUPS: NavGroup[] = [
       { label: 'HCM Software', href: '/services/hcm-software' },
       { label: 'HR Outsourcing', href: '/services/hr-outsourcing' },
       { label: 'Managed Benefits', href: '/services/managed-benefits' },
+      { label: 'Applicant Tracking', href: '/services/applicant-tracking-system' },
       { label: 'Payroll Pricing', href: '/services/managed-payroll/pricing' },
       { label: 'Cost Calculator', href: '/services/managed-payroll/cost-calculator' },
     ],

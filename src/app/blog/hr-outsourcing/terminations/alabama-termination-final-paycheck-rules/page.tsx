@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'What Alabama employers must handle when ending employment: final pay timing, documentation, and unemployment claim risk in 2026.',
     url: 'https://www.beghr.com/blog/hr-outsourcing/terminations/alabama-termination-final-paycheck-rules',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hr-outsourcing-terminations-alabama-termination-final-paycheck-rules.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Alabama Termination and Final Paycheck Rules (2026)', description: 'What Alabama employers must handle when ending employment: final pay timing, documentation, and unemployment claim risk in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Alabama Termination and Final Paycheck Rules (2026)', description: 'What Alabama employers must handle when ending employment: final pay timing, documentation, and unemployment claim risk in 2026.', images: ['https://www.beghr.com/blog-images/blog-hr-outsourcing-terminations-alabama-termination-final-paycheck-rules.webp'] },
 };
 
 const faqs = [
@@ -58,6 +58,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hr-outsourcing-terminations-alabama-termination-final-paycheck-rules.webp" alt={`Alabama Termination and Final Paycheck Rules (2026)`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Does Washington mandate paid sick leave and paid family leave? How the two programs and Seattle rules differ for employers in 2026.',
     url: 'https://www.beghr.com/blog/hr-outsourcing/leave/washington-paid-sick-leave-explained',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hr-outsourcing-leave-washington-paid-sick-leave-explained.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Washington Paid Sick Leave Explained: Sick Leave vs. PFML', description: 'Does Washington mandate paid sick leave and paid family leave? How the two programs and Seattle rules differ for employers in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Washington Paid Sick Leave Explained: Sick Leave vs. PFML', description: 'Does Washington mandate paid sick leave and paid family leave? How the two programs and Seattle rules differ for employers in 2026.', images: ['https://www.beghr.com/blog-images/blog-hr-outsourcing-leave-washington-paid-sick-leave-explained.webp'] },
 };
 
 const faqs = [
@@ -58,6 +58,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hr-outsourcing-leave-washington-paid-sick-leave-explained.webp" alt={`Washington Paid Sick Leave Explained: Sick Leave vs. PFML`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

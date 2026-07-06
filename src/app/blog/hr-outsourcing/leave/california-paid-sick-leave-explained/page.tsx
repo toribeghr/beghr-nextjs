@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Does California mandate paid sick leave and paid family leave? How the two programs differ, and what employers must do in 2026.',
     url: 'https://www.beghr.com/blog/hr-outsourcing/leave/california-paid-sick-leave-explained',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hr-outsourcing-leave-california-paid-sick-leave-explained.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'California Paid Sick Leave Explained (2026) | BEG', description: 'Does California mandate paid sick leave and paid family leave? How the two programs differ, and what employers must do in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'California Paid Sick Leave Explained (2026) | BEG', description: 'Does California mandate paid sick leave and paid family leave? How the two programs differ, and what employers must do in 2026.', images: ['https://www.beghr.com/blog-images/blog-hr-outsourcing-leave-california-paid-sick-leave-explained.webp'] },
 };
 
 const faqs = [
@@ -58,6 +58,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hr-outsourcing-leave-california-paid-sick-leave-explained.webp" alt={`California Paid Sick Leave Explained (2026)`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

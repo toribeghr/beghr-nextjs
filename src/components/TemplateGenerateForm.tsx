@@ -18,20 +18,21 @@ type Values = Record<string, string>;
 export default function TemplateGenerateForm({ slug, title, docType, fields }: Props) {
   const [values, setValues] = useState<Values>({});
   const [errors, setErrors] = useState<Values>({});
+  // Two-step flow: step 1 collects the template's merge fields, step 2 the lead fields.
+  // The generate API is only called on the step-2 submit, with both sets together.
+  const [step, setStep] = useState<1 | 2>(1);
   const [status, setStatus] = useState<'idle' | 'sending' | 'done' | 'error'>('idle');
   const [serverError, setServerError] = useState('');
-
-  // Merge fields from config first, then the three fixed lead fields (always required).
-  const allFields: TemplateField[] = [...fields, ...LEAD_FIELDS];
 
   function setValue(key: string, value: string) {
     setValues((v) => ({ ...v, [key]: value }));
     if (errors[key]) setErrors((e) => ({ ...e, [key]: '' }));
   }
 
-  function validate(): boolean {
+  // Validate a given subset of fields, set their inline errors, and report validity.
+  function validateSubset(fieldList: TemplateField[]): boolean {
     const next: Values = {};
-    for (const f of allFields) {
+    for (const f of fieldList) {
       const val = (values[f.key] ?? '').trim();
       if (f.required && !val) {
         next[f.key] = `${f.label} is required.`;
@@ -47,10 +48,23 @@ export default function TemplateGenerateForm({ slug, title, docType, fields }: P
     return Object.keys(next).length === 0;
   }
 
+  // Step 1 → Step 2: validate only the merge fields, keep values in state, no API call.
+  function handleContinue(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setServerError('');
+    if (!validateSubset(fields)) return;
+    setStep(2);
+  }
+
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setServerError('');
-    if (!validate()) return;
+    // Final validation covers both sets; if a merge field is somehow invalid, go back to step 1.
+    if (!validateSubset(fields)) {
+      setStep(1);
+      return;
+    }
+    if (!validateSubset(LEAD_FIELDS)) return;
 
     setStatus('sending');
     try {
@@ -185,6 +199,37 @@ export default function TemplateGenerateForm({ slug, title, docType, fields }: P
     );
   }
 
+  const cardStyle: CSSProperties = {
+    background: '#ffffff',
+    border: '1px solid #e5e5e5',
+    borderTop: `4px solid ${GOLD}`,
+    borderRadius: '10px',
+    padding: '1.75rem',
+    width: '100%',
+    maxWidth: '520px',
+    boxSizing: 'border-box',
+    margin: '0 auto',
+  };
+  const badgeStyle: CSSProperties = {
+    display: 'inline-block',
+    background: GOLD,
+    color: '#000',
+    fontWeight: 700,
+    fontSize: '0.72rem',
+    padding: '0.2rem 0.6rem',
+    borderRadius: '4px',
+    letterSpacing: '0.05em',
+    margin: '0 0 0.75rem',
+  };
+  const stepHintStyle: CSSProperties = {
+    fontSize: '0.78rem',
+    fontWeight: 600,
+    color: '#888',
+    textTransform: 'uppercase',
+    letterSpacing: '0.05em',
+    margin: '0 0 0.4rem',
+  };
+
   if (status === 'done') {
     return (
       <div
@@ -209,6 +254,7 @@ export default function TemplateGenerateForm({ slug, title, docType, fields }: P
           style={{ display: 'inline-block' }}
           onClick={() => {
             setStatus('idle');
+            setStep(1);
           }}
         >
           Generate another copy
@@ -218,77 +264,85 @@ export default function TemplateGenerateForm({ slug, title, docType, fields }: P
   }
 
   return (
-    <div
-      style={{
-        background: '#ffffff',
-        border: '1px solid #e5e5e5',
-        borderTop: `4px solid ${GOLD}`,
-        borderRadius: '10px',
-        padding: '1.75rem',
-        width: '100%',
-        maxWidth: '520px',
-        boxSizing: 'border-box',
-        margin: '0 auto',
-      }}
-    >
-      <p
-        style={{
-          display: 'inline-block',
-          background: GOLD,
-          color: '#000',
-          fontWeight: 700,
-          fontSize: '0.72rem',
-          padding: '0.2rem 0.6rem',
-          borderRadius: '4px',
-          letterSpacing: '0.05em',
-          margin: '0 0 0.75rem',
-        }}
-      >
-        FILL &amp; DOWNLOAD
-      </p>
+    <div style={cardStyle}>
+      <p style={badgeStyle}>FILL &amp; DOWNLOAD</p>
       <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#000', margin: '0 0 1.25rem' }}>
         {title}
       </h3>
 
-      <form onSubmit={handleSubmit} noValidate>
-        {fields.map(renderField)}
+      {step === 1 ? (
+        <form onSubmit={handleContinue} noValidate>
+          <p style={stepHintStyle}>Step 1 of 2 · Your details</p>
+          {/* Disclose the work-email requirement up front, before any fields are filled in. */}
+          <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: 1.5, margin: '0 0 1.25rem' }}>
+            A work email is required in step 2 to download your completed document.
+          </p>
 
-        <div
-          style={{
-            borderTop: '1px solid #eee',
-            margin: '0.5rem 0 1.25rem',
-            paddingTop: '1.25rem',
-          }}
-        >
-          <p style={{ fontSize: '0.82rem', color: '#666', margin: '0 0 1rem' }}>
+          {fields.map(renderField)}
+
+          <button
+            type="submit"
+            className="btn btn--gold"
+            style={{ width: '100%', fontSize: '1rem', padding: '0.8rem', marginTop: '0.25rem' }}
+          >
+            Continue
+          </button>
+        </form>
+      ) : (
+        <form onSubmit={handleSubmit} noValidate>
+          <p style={stepHintStyle}>Step 2 of 2 · Where to send it</p>
+          <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: 1.5, margin: '0 0 1.25rem' }}>
             Tell us where to send it. A work email is required.
           </p>
+
           {LEAD_FIELDS.map(renderField)}
-        </div>
 
-        <button
-          type="submit"
-          className="btn btn--gold"
-          disabled={status === 'sending'}
-          style={{
-            width: '100%',
-            fontSize: '1rem',
-            padding: '0.8rem',
-            opacity: status === 'sending' ? 0.7 : 1,
-          }}
-        >
-          {status === 'sending' ? 'Generating…' : 'Generate & Download'}
-        </button>
+          <button
+            type="submit"
+            className="btn btn--gold"
+            disabled={status === 'sending'}
+            style={{
+              width: '100%',
+              fontSize: '1rem',
+              padding: '0.8rem',
+              opacity: status === 'sending' ? 0.7 : 1,
+            }}
+          >
+            {status === 'sending' ? 'Generating…' : 'Download'}
+          </button>
 
-        {serverError && status === 'error' && (
-          <p style={{ color: '#b00000', fontSize: '0.88rem', marginTop: '0.75rem' }}>
-            {serverError}
-          </p>
-        )}
-        <p style={{ color: '#999', fontSize: '0.78rem', marginTop: '0.85rem', lineHeight: 1.4 }}>
-          We will only use your details to send what you requested and follow up. No spam.
-        </p>
-      </form>
+          <button
+            type="button"
+            onClick={() => {
+              setServerError('');
+              setStep(1);
+            }}
+            disabled={status === 'sending'}
+            style={{
+              display: 'block',
+              margin: '0.85rem auto 0',
+              background: 'none',
+              border: 'none',
+              color: '#666',
+              fontSize: '0.85rem',
+              fontWeight: 600,
+              cursor: 'pointer',
+            }}
+          >
+            ← Back to your details
+          </button>
+
+          {serverError && status === 'error' && (
+            <p style={{ color: '#b00000', fontSize: '0.88rem', marginTop: '0.75rem' }}>
+              {serverError}
+            </p>
+          )}
+        </form>
+      )}
+
+      <p style={{ color: '#999', fontSize: '0.78rem', marginTop: '1rem', lineHeight: 1.4 }}>
+        We will only use your details to send what you requested and follow up. No spam.
+      </p>
     </div>
   );
 }

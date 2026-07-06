@@ -3,6 +3,7 @@ import PizZip from 'pizzip';
 import Docxtemplater from 'docxtemplater';
 import { getTemplateBySlug, type Template } from '@/lib/templates';
 import { getTemplateFileBytes } from '@/lib/template-files/registry';
+import { getPdfFiller } from '@/lib/template-files/pdf-fillers';
 import { validateWorkEmail } from '@/lib/emailDomains';
 import { saveLead } from '@/lib/leads';
 
@@ -80,14 +81,6 @@ export async function POST(req: Request) {
     mergeData[field.key] = String(fields[field.key] ?? '').trim();
   }
 
-  if (template.docType !== 'docx') {
-    // Only the docx path is wired up for the pilot template.
-    return NextResponse.json(
-      { success: false, error: 'Unsupported document type.' },
-      { status: 501 }
-    );
-  }
-
   const fileBuffer = getTemplateFileBytes(template.templateFile);
   if (!fileBuffer) {
     return NextResponse.json(
@@ -96,9 +89,26 @@ export async function POST(req: Request) {
     );
   }
 
+  // Generate the document. Real government forms (docType 'pdf') are filled with pdf-lib via a
+  // per-template field mapper keyed on slug; custom documents (docType 'docx') are merged with
+  // docxtemplater. In both cases only the values above are used — nothing is persisted.
   let output: Buffer;
+  let contentType: string;
   try {
-    output = renderDocx(fileBuffer, mergeData);
+    if (template.docType === 'pdf') {
+      const fillPdf = getPdfFiller(template.slug);
+      if (!fillPdf) {
+        return NextResponse.json(
+          { success: false, error: 'Unsupported document type.' },
+          { status: 501 }
+        );
+      }
+      output = await fillPdf(fileBuffer, mergeData);
+      contentType = 'application/pdf';
+    } else {
+      output = renderDocx(fileBuffer, mergeData);
+      contentType = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+    }
   } catch {
     return NextResponse.json(
       { success: false, error: 'Could not generate the document.' },
@@ -122,12 +132,11 @@ export async function POST(req: Request) {
   }
 
   // 5) Stream the generated file and discard — nothing is persisted server-side.
-  const filename = `${template.slug}.docx`;
+  const filename = `${template.slug}.${template.docType}`;
   return new NextResponse(new Uint8Array(output), {
     status: 200,
     headers: {
-      'Content-Type':
-        'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+      'Content-Type': contentType,
       'Content-Disposition': `attachment; filename="${filename}"`,
       'Content-Length': String(output.length),
       'Cache-Control': 'no-store',

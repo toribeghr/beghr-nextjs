@@ -62,12 +62,12 @@ export const TEMPLATES: Template[] = [
     title: 'I-9 Employment Eligibility Verification',
     category: 'Hiring & Onboarding',
     description:
-      'A fillable worksheet that captures the employee and employer details needed to complete USCIS Form I-9 for a new hire.',
-    seoTitle: 'Free I-9 Verification Template (Fillable) | BEG',
+      'Enter your employee and employer details and download the official USCIS Form I-9, pre-filled and ready for the employee and employer to complete.',
+    seoTitle: 'Free Fillable I-9 Form (Official USCIS PDF) | BEG',
     metaDescription:
-      'Fill in employee and employer details and download a ready-to-use I-9 employment eligibility verification worksheet. Free from Business Executive Group.',
-    docType: 'docx',
-    templateFile: 'src/lib/template-files/i9-verification.docx',
+      'Enter employee and employer details and download the official USCIS Form I-9, pre-filled and ready to complete. Free from Business Executive Group.',
+    docType: 'pdf',
+    templateFile: 'src/lib/template-files/i9.pdf',
     fields: [
       {
         key: 'employeeName',

@@ -916,6 +916,96 @@ p {
   }
 }
 
+/* ---------------------------------------------------------------------------
+   Footer columns as native <details>/<summary>: static columns on desktop,
+   collapsible accordion on mobile (< 768px). Zero JS — see Footer.tsx.
+   --------------------------------------------------------------------------- */
+
+/* Remove the native disclosure triangle in every browser. */
+.footer-col-heading {
+  list-style: none;                 /* Firefox */
+  display: block;
+}
+.footer-col-heading::-webkit-details-marker {
+  display: none;                    /* Chrome / Safari */
+}
+
+/* Desktop (default): every column reads as always-open. The summary is inert (no
+   toggle, no pointer affordance) and the panel shows regardless of the <details>
+   open state. Author rules override the UA's closed-<details> hiding — covering
+   both the legacy `display:none` mechanism and the newer ::details-content /
+   content-visibility one — so the layout is identical to the old <div>/<h5>. */
+.footer-col > .footer-col-body {
+  display: block;
+}
+.footer-col::details-content {
+  content-visibility: visible;
+}
+.footer-col-heading {
+  cursor: default;
+  pointer-events: none;             /* a heading click never toggles on desktop */
+}
+.footer-col-heading::after {
+  content: '';
+  display: none;                    /* caret is mobile-only */
+}
+
+/* Mobile: real accordion, all sections collapsed on load, multiple may be open. */
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .footer-col {
+    border-bottom: 1px solid rgba(236,172,96,0.15);
+  }
+
+  /* Summary is the interactive tap row (>= 44px) with a caret on the right. */
+  .footer-col-heading {
+    cursor: pointer;
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 44px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: none;
+  }
+
+  /* Decorative chevron: down = collapsed, up = expanded. */
+  .footer-col-heading::after {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin-left: 12px;
+    border-right: 2px solid var(--gold);
+    border-bottom: 2px solid var(--gold);
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+  }
+  .footer-col[open] > .footer-col-heading::after {
+    transform: rotate(225deg);
+  }
+
+  /* Collapse when closed, reveal (with breathing room) when open. */
+  .footer-col:not([open]) > .footer-col-body {
+    display: none;
+  }
+  .footer-col:not([open])::details-content {
+    content-visibility: hidden;
+  }
+  .footer-col[open] > .footer-col-body {
+    display: block;
+    padding-bottom: 14px;
+  }
+}
+
 .foot-bottom {
   display: flex;
   justify-content: space-between;

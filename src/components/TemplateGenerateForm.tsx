@@ -274,8 +274,18 @@ export default function TemplateGenerateForm({ slug, title, docType, fields }: P
         <form onSubmit={handleContinue} noValidate>
           <p style={stepHintStyle}>Step 1 of 2 · Your details</p>
           {/* Disclose the work-email requirement up front, before any fields are filled in. */}
-          <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: 1.5, margin: '0 0 1.25rem' }}>
+          <p style={{ fontSize: '0.85rem', color: '#555', lineHeight: 1.5, margin: '0 0 1rem' }}>
             A work email is required in step 2 to download your completed document.
+          </p>
+          {/*
+            Privacy disclosure for the document-content (merge) fields below. The claim is
+            accurate: the generate route passes these values straight into the document and
+            streams it back — they are never logged or written to any store. Only the Step 2
+            lead fields (name, work email, phone) are saved via saveLead(). If that ever
+            changes, update or remove this line.
+          */}
+          <p style={{ fontSize: '0.82rem', color: '#666', lineHeight: 1.5, margin: '0 0 1.25rem' }}>
+            We don’t save the information you enter here, it’s used only to generate your document.
           </p>
 
           {fields.map(renderField)}

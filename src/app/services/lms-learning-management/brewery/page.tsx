@@ -36,7 +36,7 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does isolved Learn & Grow cost?',
-    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
+    'It is bundled into the Grow tier of isolved HCM at no separate module charge. Your total is the Grow tier per-employee rate, which starts at $45 per employee per month and includes the full talent suite. Get an instant estimate on screen in about 90 seconds.',
   ],
   [
     'Do you serve employers in my state?',
@@ -93,7 +93,7 @@ export default function LmsBreweryPage() {
         title="A tasting room pouring without a certified alcohol server or a brewhouse running without OSHA safety training is one incident away from a shutdown."
         description="In breweries, a training gap shows up as a citation, a lawsuit, or a lost license, not just a missing checkbox. isolved Learn & Grow, resold and configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you audit-ready proof on demand, for breweries teams and all 50 states."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'One system', label: 'Every course and completion in one place' },
           { value: 'Built for Breweries', label: 'Configured to your roles and requirements' },
@@ -246,7 +246,7 @@ export default function LmsBreweryPage() {
               <h2>See your isolved Learn &amp; Grow price before you talk to anyone</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>

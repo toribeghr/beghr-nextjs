@@ -36,7 +36,7 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month on your isolved platform, with volume pricing. Get an instant estimate on screen in about 90 seconds.',
+    'isolved Learn & Grow is included in the Grow tier of isolved HCM, at no separate module charge, starting at $45 per employee per month. Get an instant estimate on screen in about 90 seconds.',
   ],
 ];
 
@@ -89,7 +89,7 @@ export default function LmsVsDiyTrainingPage() {
         title="LMS vs DIY training: spreadsheets, binders, and free videos"
         description="Tracking training in spreadsheets and binders works until it does not. Here is where do-it-yourself training breaks down as your team grows, and what an LMS like isolved Learn & Grow changes."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'One system', label: 'Instead of five tools and a binder' },
           { value: 'Audit-ready', label: 'Proof on demand, not a scramble' },
@@ -205,7 +205,7 @@ export default function LmsVsDiyTrainingPage() {
               <h2>See your isolved Learn &amp; Grow price before you talk to anyone</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>

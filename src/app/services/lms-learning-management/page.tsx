@@ -41,7 +41,7 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
+    'isolved Learn & Grow is bundled into the Grow tier of isolved HCM at no separate module charge. Your total is the Grow tier per-employee rate, which starts at $45 per employee per month and includes the full talent suite alongside Learning Management. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.',
   ],
   [
     'What is a learning management system used for?',
@@ -49,7 +49,7 @@ const FAQS: [string, string][] = [
   ],
   [
     'Is isolved Learn & Grow a good LMS for a small business?',
-    'Yes. Because Learn & Grow is a module on the isolved platform, a small business gets a full LMS without buying and integrating separate software. BEG configures and supports it, and volume pricing keeps the per-employee cost low as you grow.',
+    'Yes. Because Learn & Grow is a module on the isolved platform, a small business gets a full LMS without buying and integrating separate software. BEG configures and supports it, and it is bundled into the Grow tier of isolved HCM at no separate module charge.',
   ],
   [
     'Do you serve my state?',
@@ -77,7 +77,7 @@ export default function LearningManagementSystemPage() {
         title="Still training your team with sign-in sheets, scattered videos, and hope?"
         description="When training lives in binders, inboxes, and one-off videos, people fall behind, compliance lapses, and you cannot prove who completed what. isolved Learn & Grow, resold and configured by BEG, puts every course, assignment, and completion record in one system. Train faster, stay compliant, and prove it, in all 50 states, without adding software to manage."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'All 50', label: 'States served, remote nationwide' },
           { value: 'One system', label: 'Courses, assignments, and records in one place' },
@@ -697,7 +697,7 @@ export default function LearningManagementSystemPage() {
               </Link>
               <Link href="/services/lms-learning-management/lms-pricing" className="card-link reveal">
                 <h3>LMS pricing</h3>
-                <p>How per-learner pricing works and what shapes your number.</p>
+                <p>How Learning Management is bundled into isolved HCM pricing.</p>
               </Link>
             </div>
           </div>
@@ -747,7 +747,7 @@ export default function LearningManagementSystemPage() {
         {/* MID-PAGE CTA */}
         <section className="section">
           <div className="container" style={{ textAlign: 'center' }}>
-            <PricingCta service="hcm-software" label="Get Instant Pricing" />
+            <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
           </div>
         </section>
         <section className="section">

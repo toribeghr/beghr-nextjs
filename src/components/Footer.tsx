@@ -33,8 +33,8 @@ export default function Footer() {
           </div>
 
           {/* Managed Payroll */}
-          <div className="footer-col">
-            <h5 className="footer-col-heading">Managed Payroll</h5>
+          <details className="footer-col">
+            <summary className="footer-col-heading">Managed Payroll</summary>
             <Link href="/services/managed-payroll" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/managed-payroll/pricing" className="footer-link">Pricing</Link>
             <Link href="/services/managed-payroll/cost-calculator" className="footer-link">Cost Calculator</Link>
@@ -57,11 +57,11 @@ export default function Footer() {
             <Link href="/services/managed-payroll/marketing-agency" className="footer-link">Marketing Agencies</Link>
             <Link href="/services/managed-payroll/trucking" className="footer-link">Trucking &amp; Fleets</Link>
             <Link href="/services/managed-payroll/veterinary" className="footer-link">Veterinary Practices</Link>
-          </div>
+          </details>
 
           {/* HR Outsourcing */}
-          <div className="footer-col">
-            <h5 className="footer-col-heading">HR Outsourcing</h5>
+          <details className="footer-col">
+            <summary className="footer-col-heading">HR Outsourcing</summary>
             <Link href="/services/hr-outsourcing" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/hr-outsourcing/leave-law-lookup" className="footer-link">State Leave Law Lookup</Link>
             <Link href="/resources/hr-glossary" className="footer-link">HR Glossary</Link>
@@ -99,11 +99,11 @@ export default function Footer() {
             <Link href="/services/hr-outsourcing/trades" className="footer-link">Skilled Trades</Link>
             <Link href="/services/hr-outsourcing/trucking" className="footer-link">Trucking</Link>
             <Link href="/services/hr-outsourcing/veterinary" className="footer-link">Veterinary</Link>
-          </div>
+          </details>
 
           {/* Managed Benefits */}
-          <div className="footer-col">
-            <h5 className="footer-col-heading">Managed Benefits</h5>
+          <details className="footer-col">
+            <summary className="footer-col-heading">Managed Benefits</summary>
             <Link href="/services/managed-benefits" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/managed-benefits/pricing" className="footer-link">Pricing</Link>
             <Link href="/services/managed-benefits/healthcare" className="footer-link">Healthcare</Link>
@@ -140,11 +140,11 @@ export default function Footer() {
             <Link href="/services/managed-benefits/trades" className="footer-link">Skilled Trades</Link>
             <Link href="/services/managed-benefits/trucking" className="footer-link">Trucking</Link>
             <Link href="/services/managed-benefits/veterinary" className="footer-link">Veterinary</Link>
-          </div>
+          </details>
 
           {/* Applicant Tracking System */}
-          <div className="footer-col">
-            <h5 className="footer-col-heading">Applicant Tracking</h5>
+          <details className="footer-col">
+            <summary className="footer-col-heading">Applicant Tracking</summary>
             <Link href="/services/applicant-tracking-system" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/applicant-tracking-system/ats-pricing" className="footer-link">Pricing</Link>
             <Link href="/services/applicant-tracking-system/isolved-attract-hire" className="footer-link">isolved Attract &amp; Hire</Link>
@@ -183,11 +183,11 @@ export default function Footer() {
             <Link href="/services/applicant-tracking-system/applicant-tracking-for-security" className="footer-link">Security Services</Link>
             <Link href="/services/applicant-tracking-system/applicant-tracking-for-marketing-agency" className="footer-link">Marketing Agencies</Link>
             <Link href="/services/applicant-tracking-system/applicant-tracking-for-architecture" className="footer-link">Architecture</Link>
-          </div>
+          </details>
 
-          {/* HCM Software */}
-          <div className="footer-col">
-            <h5 className="footer-col-heading">Learning Management</h5>
+          {/* Learning Management */}
+          <details className="footer-col">
+            <summary className="footer-col-heading">Learning Management</summary>
             <Link href="/services/lms-learning-management" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/lms-learning-management/lms-pricing" className="footer-link">Pricing</Link>
             <Link href="/services/lms-learning-management/isolved-learn-grow" className="footer-link">isolved Learn &amp; Grow</Link>
@@ -208,9 +208,9 @@ export default function Footer() {
             <Link href="/services/lms-learning-management/childcare" className="footer-link">Childcare</Link>
             <Link href="/services/lms-learning-management/staffing-agency" className="footer-link">Staffing Agencies</Link>
             <Link href="/services/lms-learning-management/veterinary" className="footer-link">Veterinary</Link>
-          </div>
-          <div className="footer-col">
-            <h5 className="footer-col-heading">HCM Software</h5>
+          </details>
+          <details className="footer-col">
+            <summary className="footer-col-heading">HCM Software</summary>
             <Link href="/services/hcm-software" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/hcm-software/legal" className="footer-link">Law Firms</Link>
             <Link href="/services/hcm-software/healthcare" className="footer-link">Healthcare</Link>
@@ -240,11 +240,11 @@ export default function Footer() {
             <Link href="/services/hcm-software/education" className="footer-link">Education</Link>
             <Link href="/services/hcm-software/ai-connector" className="footer-link">Connector for Claude</Link>
             <Link href="/services/hcm-software/roi-calculator" className="footer-link">ROI Calculator</Link>
-          </div>
+          </details>
 
           {/* Job Placement */}
-          <div className="footer-col">
-            <h5 className="footer-col-heading">Job Placement</h5>
+          <details className="footer-col">
+            <summary className="footer-col-heading">Job Placement</summary>
             <Link href="/services/job-placement" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/job-placement/legal" className="footer-link">Legal &amp; Attorney</Link>
             <Link href="/services/job-placement/healthcare" className="footer-link">Healthcare &amp; Nursing</Link>
@@ -272,7 +272,7 @@ export default function Footer() {
             <Link href="/services/job-placement/hospitality" className="footer-link">Hospitality</Link>
             <Link href="/services/job-placement/veterinary" className="footer-link">Veterinary</Link>
             <Link href="/services/job-placement/government" className="footer-link">Government Contracting</Link>
-          </div>
+          </details>
 
           {/* Free HR Templates */}
           <div className="footer-col">

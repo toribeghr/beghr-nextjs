@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ServicePage from '@/components/ServicePage';
 import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
+import benefitsStates from '@/lib/benefitsStateData.json';
 
 
 export const metadata: Metadata = {
@@ -202,6 +203,42 @@ export default function CobraVsMiniCobraPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* 50-STATE TABLE */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '1000px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Every State</p>
+              <h2>State continuation (mini-COBRA) at a glance, all 50 states</h2>
+              <p style={{ marginTop: '0.75rem', color: '#666666', maxWidth: '660px', margin: '0.75rem auto 0', fontSize: '0.97rem', lineHeight: '1.7' }}>
+                Whether your state has a mini-COBRA law, and how long continuation runs where it does. Tap a state for its statute-level rules. Federal COBRA still governs employers with 20 or more employees everywhere.
+              </p>
+            </div>
+            <div style={{ overflowX: 'auto', marginTop: '2rem' }} className="reveal">
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#000000', color: '#ECAC60' }}>
+                    <th style={{ padding: '12px 14px', textAlign: 'left', fontWeight: 700 }}>State</th>
+                    <th style={{ padding: '12px 14px', textAlign: 'left', fontWeight: 700 }}>State mini-COBRA law</th>
+                    <th style={{ padding: '12px 14px', textAlign: 'left', fontWeight: 700 }}>Max continuation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(benefitsStates as Record<string, { n: string; exists: boolean; months: number | null }>).map(([slug, s], i) => (
+                    <tr key={slug} style={{ background: i % 2 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '11px 14px', fontWeight: 600 }}><Link href={`/services/managed-benefits/${slug}`}>{s.n}</Link></td>
+                      <td style={{ padding: '11px 14px', color: s.exists ? '#1a6e1a' : '#999999' }}>{s.exists ? 'Yes' : 'No state law'}</td>
+                      <td style={{ padding: '11px 14px', color: '#555555' }}>{s.exists ? (s.months ? `Up to ${s.months} months` : 'See state page') : 'Federal COBRA only'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1rem', textAlign: 'center', lineHeight: 1.6 }}>
+              Each linked state page cites its own statute. This page is general information, not legal advice.
+            </p>
           </div>
         </section>
 

@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'Senior care facility payroll guide: CNA overtime rules, shift differential configuration, CMS staffing compliance, and payroll management for nursing',
     url: 'https://www.beghr.com/blog/payroll/senior-care/senior-care-payroll-guide',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-senior-care-senior-care-payroll-guide.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll Guide: CNA Pay and Shift Diffs | BEG', description: 'Senior care payroll: CNA overtime, shift differentials, CMS compliance. Complete guide for nursing homes and ALFs.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Senior Care Payroll Guide: CNA Pay and Shift Diffs | BEG', description: 'Senior care payroll: CNA overtime, shift differentials, CMS compliance. Complete guide for nursing homes and ALFs.', images: ['https://www.beghr.com/blog-images/blog-payroll-senior-care-senior-care-payroll-guide.webp'] },
 };
 
 const faqs = [
@@ -58,7 +58,8 @@ export default function SeniorCarePayrollGuidePage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Senior Care Payroll Guide 2026 | CNA + Shift Differential | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/senior-care/senior-care-payroll-guide"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-senior-care-senior-care-payroll-guide.webp", "headline": "Senior Care Payroll Guide 2026 | CNA + Shift Differential | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/senior-care/senior-care-payroll-guide"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -72,6 +73,10 @@ export default function SeniorCarePayrollGuidePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-senior-care-senior-care-payroll-guide.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

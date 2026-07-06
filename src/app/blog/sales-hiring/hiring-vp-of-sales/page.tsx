@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A VP of Sales hire shapes revenue for years. What good looks like, why confidential search matters, and how to fill the seat in 23-35 days.',
     url: 'https://www.beghr.com/blog/sales-hiring/hiring-vp-of-sales',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-sales-hiring-hiring-vp-of-sales.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring a VP of Sales in 2026: How Does It Work? | BEG', description: 'A VP of Sales hire shapes revenue for years. What good looks like, why confidential search matters, and how to fill the seat in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring a VP of Sales in 2026: How Does It Work? | BEG', description: 'A VP of Sales hire shapes revenue for years. What good looks like, why confidential search matters, and how to fill the seat in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-sales-hiring-hiring-vp-of-sales.webp'] },
 };
 
 
@@ -40,7 +40,8 @@ const faqs = [
 export default function HiringVpOfSalesPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Hire a VP of Sales (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/sales-hiring/hiring-vp-of-sales"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-sales-hiring-hiring-vp-of-sales.webp", "headline": "How to Hire a VP of Sales (2026 Guide) | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/sales-hiring/hiring-vp-of-sales"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -57,6 +58,10 @@ export default function HiringVpOfSalesPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-sales-hiring-hiring-vp-of-sales.webp" alt={`A sales team on calls and reviewing a pipeline in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

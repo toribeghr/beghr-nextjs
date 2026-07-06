@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Demand for specialized engineers keeps climbing while the qualified pool stays thin. How to fill technology roles in 23-35 days anyway.',
     url: 'https://www.beghr.com/blog/technology-hiring/tech-talent-shortage',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-technology-hiring-tech-talent-shortage.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Tech Talent Shortage 2026: What Nobody Tells You | BEG', description: 'Demand for specialized engineers keeps climbing while the qualified pool stays thin. How to fill technology roles in 23-35 days anyway.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Tech Talent Shortage 2026: What Nobody Tells You | BEG', description: 'Demand for specialized engineers keeps climbing while the qualified pool stays thin. How to fill technology roles in 23-35 days anyway.', images: ['https://www.beghr.com/blog-images/blog-technology-hiring-tech-talent-shortage.webp'] },
 };
 
 
@@ -40,7 +40,8 @@ const faqs = [
 export default function TechTalentShortagePage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "The Tech Talent Shortage in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/technology-hiring/tech-talent-shortage"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-technology-hiring-tech-talent-shortage.webp", "headline": "The Tech Talent Shortage in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/technology-hiring/tech-talent-shortage"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -57,6 +58,10 @@ export default function TechTalentShortagePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-technology-hiring-tech-talent-shortage.webp" alt={`A modern tech office, software team collaborating at workstations`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

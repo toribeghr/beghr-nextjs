@@ -43,7 +43,8 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Nevada Paid Sick Leave Explained for Employers", "description": "Nevada paid leave rules explained: accrual, carryover, permitted uses, and the any-reason paid leave rule at larger employers.", "datePublished": "2026-07-06", "dateModified": "2026-07-06", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hr-outsourcing/leave/nevada-paid-sick-leave-explained"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-hr-outsourcing-leave-nevada-paid-sick-leave-explained.webp", "headline": "Nevada Paid Sick Leave Explained for Employers", "description": "Nevada paid leave rules explained: accrual, carryover, permitted uses, and the any-reason paid leave rule at larger employers.", "datePublished": "2026-07-06", "dateModified": "2026-07-06", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hr-outsourcing/leave/nevada-paid-sick-leave-explained"}) }} />
 
       <section className="hero">
         <div className="container">
@@ -61,7 +62,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-hr-outsourcing-leave-nevada-paid-sick-leave-explained.webp" alt={`Nevada Paid Sick Leave: Any-Reason Leave Rules`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-hr-outsourcing-leave-nevada-paid-sick-leave-explained.webp" alt={`An HR team reviewing employee documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

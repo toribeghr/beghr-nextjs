@@ -75,7 +75,7 @@ export default function InsuranceAgencyPayrollGuidePage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-payroll-insurance-agency-insurance-agency-payroll-guide.webp" alt={`Insurance Agency Payroll: How Commission Really Works`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-payroll-insurance-agency-insurance-agency-payroll-guide.webp" alt={`Insurance professionals meeting with a client in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -189,6 +189,7 @@ export default function InsuranceAgencyPayrollGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-insurance-agency-insurance-agency-payroll-guide.webp",
         "headline": "Insurance Agency Payroll Guide: Producer Commission, Draws, and W-2 vs 1099 Agents (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

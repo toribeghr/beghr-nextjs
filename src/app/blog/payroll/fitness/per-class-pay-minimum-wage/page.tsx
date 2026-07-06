@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what ...',
     url: 'https://www.beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-fitness-per-class-pay-minimum-wage.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Per-Class Pay and Minimum Wage, Before You Get It Wrong | BEG', description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what ...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Per-Class Pay and Minimum Wage, Before You Get It Wrong | BEG', description: 'How to calculate minimum wage compliance for fitness instructors paid per class -- what counts as compensable time, how to calculate the floor, and what ...', images: ['https://www.beghr.com/blog-images/blog-payroll-fitness-per-class-pay-minimum-wage.webp'] },
 
 };
 
@@ -51,7 +51,8 @@ export default function PerClassPayMinimumWagePage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-fitness-per-class-pay-minimum-wage.webp", "headline": "Per-Class Pay & Minimum Wage | Fitness Studio Compliance | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/fitness/per-class-pay-minimum-wage"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,6 +65,10 @@ export default function PerClassPayMinimumWagePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-fitness-per-class-pay-minimum-wage.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

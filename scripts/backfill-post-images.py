@@ -3,9 +3,16 @@
 Backfill branded header images for existing blog posts, industry-matched.
 Walks src/app/blog for real posts (those with datePublished), derives a scene +
 category + headline from each, and calls make-post-image.py. Skips posts that already
-have an image. Respects the free tier -- pass --limit to cap how many per run.
+have an image.
 
-Usage: python3 scripts/backfill-post-images.py [--limit 400] [--dry]
+Default image source is Pexels search (free, real photos, no per-image billing, no
+review wait -- 200 requests/hour / 20,000/month). Pass --source unsplash once that
+app clears production review, or --source gemini to fall back to the old
+Gemini-generated-scene path (needs a funded GEMINI_API_KEY).
+
+Usage: python3 scripts/backfill-post-images.py [--limit 400] [--dry] [--source pexels|unsplash|gemini] [--only <path fragment>]
+--only scopes to posts whose path contains the fragment (e.g. a slug just written by the
+daily blog-generation task), so a single new post can be imaged without touching the backlog.
 Image filename = the post's blog path with slashes as hyphens (unique, page can recompute it).
 """
 import os, re, subprocess, sys
@@ -80,10 +87,14 @@ def clean_title(t):
 def main():
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else 9999
     dry = "--dry" in sys.argv
+    source = sys.argv[sys.argv.index("--source") + 1] if "--source" in sys.argv else "pexels"
+    only = sys.argv[sys.argv.index("--only") + 1] if "--only" in sys.argv else None
     os.makedirs(OUT_DIR, exist_ok=True)
     done = made = 0
     for root, _, files in os.walk(BLOG):
         if "page.tsx" not in files:
+            continue
+        if only and only not in root:
             continue
         src = open(os.path.join(root, "page.tsx")).read()
         if '"datePublished"' not in src:
@@ -102,7 +113,7 @@ def main():
         print("[%d] %s | %s | %s" % (made, slug, cat, scene[:40]))
         if dry:
             continue
-        subprocess.run(["python3", MAKE, slug, cat, headline, scene])
+        subprocess.run(["python3", MAKE, slug, cat, headline, scene, "--source", source])
     print("Processed %d posts this run." % made)
 
 

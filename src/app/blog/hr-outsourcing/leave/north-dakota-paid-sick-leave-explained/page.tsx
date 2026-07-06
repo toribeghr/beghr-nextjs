@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Does North Dakota require paid sick leave? What employers must know about local ordinances, remote workers, and FMLA in 2026.',
     url: 'https://www.beghr.com/blog/hr-outsourcing/leave/north-dakota-paid-sick-leave-explained',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hr-outsourcing-leave-north-dakota-paid-sick-leave-explained.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'North Dakota Paid Sick Leave Explained (2026) | BEG', description: 'Does North Dakota require paid sick leave? What employers must know about local ordinances, remote workers, and FMLA in 2026.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'North Dakota Paid Sick Leave Explained (2026) | BEG', description: 'Does North Dakota require paid sick leave? What employers must know about local ordinances, remote workers, and FMLA in 2026.', images: ['https://www.beghr.com/blog-images/blog-hr-outsourcing-leave-north-dakota-paid-sick-leave-explained.webp'] },
 };
 
 const faqs = [
@@ -43,7 +43,8 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "BlogPosting", "headline": "North Dakota Paid Sick Leave Explained: What Employers Must Know", "description": "Does North Dakota require paid sick leave? What employers must know about local ordinances, remote workers, and FMLA in 2026.", "datePublished": "2026-07-06", "dateModified": "2026-07-06", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hr-outsourcing/leave/north-dakota-paid-sick-leave-explained"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-hr-outsourcing-leave-north-dakota-paid-sick-leave-explained.webp", "headline": "North Dakota Paid Sick Leave Explained: What Employers Must Know", "description": "Does North Dakota require paid sick leave? What employers must know about local ordinances, remote workers, and FMLA in 2026.", "datePublished": "2026-07-06", "dateModified": "2026-07-06", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hr-outsourcing/leave/north-dakota-paid-sick-leave-explained"}) }} />
 
       <section className="hero">
         <div className="container">
@@ -58,6 +59,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hr-outsourcing-leave-north-dakota-paid-sick-leave-explained.webp" alt={`An HR team reviewing employee documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

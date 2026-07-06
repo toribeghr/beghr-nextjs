@@ -49,7 +49,8 @@ export default function ManagedPayrollVsADPPage() {
 
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/managed-payroll-vs-adp"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-compare-managed-payroll-vs-adp.webp", "headline": "ADP vs Managed Payroll | We Cost Less. You Do Less Work. | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/compare/managed-payroll-vs-adp"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -69,7 +70,7 @@ export default function ManagedPayrollVsADPPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-compare-managed-payroll-vs-adp.webp" alt={`ADP vs Managed Payroll`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-compare-managed-payroll-vs-adp.webp" alt={`Business professionals comparing options on a laptop in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

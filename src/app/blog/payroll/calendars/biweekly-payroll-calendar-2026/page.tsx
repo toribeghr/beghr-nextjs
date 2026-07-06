@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Biweekly payroll calendar for 2026 explained: how the 14-day cycle works, why some years have 27 paydays, and the full verified pay period schedule.',
     url: 'https://www.beghr.com/blog/payroll/calendars/biweekly-payroll-calendar-2026',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-calendars-biweekly-payroll-calendar-2026.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Biweekly Payroll Calendar 2026: How the Math Works | BEG', description: 'Biweekly payroll calendar for 2026 explained: how the 14-day cycle works, why some years have 27 paydays, and the full verified pay period schedule.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Biweekly Payroll Calendar 2026: How the Math Works | BEG', description: 'Biweekly payroll calendar for 2026 explained: how the 14-day cycle works, why some years have 27 paydays, and the full verified pay period schedule.', images: ['https://www.beghr.com/blog-images/blog-payroll-calendars-biweekly-payroll-calendar-2026.webp'] },
 };
 
 const faqs = [
@@ -72,7 +72,8 @@ const paydays2026 = [
 export default function Page() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Biweekly Payroll Calendar 2026: How the Math Works", "datePublished": "2026-07-06", "dateModified": "2026-07-06", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/calendars/biweekly-payroll-calendar-2026"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-calendars-biweekly-payroll-calendar-2026.webp", "headline": "Biweekly Payroll Calendar 2026: How the Math Works", "datePublished": "2026-07-06", "dateModified": "2026-07-06", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/calendars/biweekly-payroll-calendar-2026"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -86,6 +87,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-calendars-biweekly-payroll-calendar-2026.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

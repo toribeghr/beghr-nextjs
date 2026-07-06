@@ -40,7 +40,8 @@ const faqs = [
 export default function RealEstateTalentTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Real Estate Talent Trends in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/real-estate-hiring/real-estate-talent-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-real-estate-hiring-real-estate-talent-trends.webp", "headline": "Real Estate Talent Trends in 2026 | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/real-estate-hiring/real-estate-talent-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -60,7 +61,7 @@ export default function RealEstateTalentTrendsPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-real-estate-hiring-real-estate-talent-trends.webp" alt={`Real Estate Talent Trends 2026: The Truth About Hiring`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-real-estate-hiring-real-estate-talent-trends.webp" alt={`A real estate agent showing a modern home to clients`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

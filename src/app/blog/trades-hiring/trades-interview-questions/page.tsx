@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record.',
     url: 'https://www.beghr.com/blog/trades-hiring/trades-interview-questions',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-trades-hiring-trades-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Trades Interview Questions: What Real Skill Looks Like | BEG', description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Trades Interview Questions: What Real Skill Looks Like | BEG', description: 'Trades interviews that reveal real hands-on skill, safety commitment, and supervisory track record.', images: ['https://www.beghr.com/blog-images/blog-trades-hiring-trades-interview-questions.webp'] },
 };
 
 
@@ -53,6 +53,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-trades-hiring-trades-interview-questions.webp" alt={`Skilled trade workers on a job site with tools and equipment`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

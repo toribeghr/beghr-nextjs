@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common se...',
     url: 'https://www.beghr.com/blog/payroll/veterinary/dvm-compensation-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-veterinary-dvm-compensation-payroll.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'DVM Compensation in Payroll: What Nobody Tells You | BEG', description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common se...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'DVM Compensation in Payroll: What Nobody Tells You | BEG', description: 'A practical guide to DVM compensation structures in payroll -- base salary, production bonus calculation, associate vs. owner pay, and the most common se...', images: ['https://www.beghr.com/blog-images/blog-payroll-veterinary-dvm-compensation-payroll.webp'] },
 
 };
 
@@ -51,7 +51,8 @@ export default function DVMCompensationPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Set Up DVM Salary and Production Bonuses in Payroll | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/veterinary/dvm-compensation-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-veterinary-dvm-compensation-payroll.webp", "headline": "How to Set Up DVM Salary and Production Bonuses in Payroll | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/veterinary/dvm-compensation-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,6 +65,10 @@ export default function DVMCompensationPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-veterinary-dvm-compensation-payroll.webp" alt={`A veterinary clinic with a vet examining a dog, staff assisting`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...',
     url: 'https://www.beghr.com/blog/payroll/childcare/childcare-payroll-overtime',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-childcare-childcare-payroll-overtime.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Childcare Payroll and FLSA Overtime for Operators | BEG', description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Childcare Payroll and FLSA Overtime for Operators | BEG', description: 'FLSA overtime rules for childcare staff -- which employees are exempt, how to calculate overtime for part-time and split-shift workers, and the most comm...', images: ['https://www.beghr.com/blog-images/blog-payroll-childcare-childcare-payroll-overtime.webp'] },
 
 };
 
@@ -51,7 +51,8 @@ export default function ChildcareOvertimePage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Childcare Payroll and FLSA Overtime for Operators | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/childcare/childcare-payroll-overtime"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-childcare-childcare-payroll-overtime.webp", "headline": "Childcare Payroll and FLSA Overtime for Operators | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/childcare/childcare-payroll-overtime"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,6 +65,10 @@ export default function ChildcareOvertimePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-childcare-childcare-payroll-overtime.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

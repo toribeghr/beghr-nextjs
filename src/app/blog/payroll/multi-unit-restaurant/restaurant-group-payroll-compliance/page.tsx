@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Payroll compliance for multi-unit restaurant groups: tip pools, minimum wage by location, overtime rules, and FLSA requirements across all locations.",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/restaurant-group-payroll-compliance",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-multi-unit-restaurant-restaurant-group-payroll-compliance.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Restaurant Group Payroll: What Nobody Tells You | BEG", description: "Multi-unit restaurant payroll compliance: tip pools, minimum wage, overtime, and FLSA. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Restaurant Group Payroll: What Nobody Tells You | BEG", description: "Multi-unit restaurant payroll compliance: tip pools, minimum wage, overtime, and FLSA. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-multi-unit-restaurant-restaurant-group-payroll-compliance.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function RestaurantGroupPayrollCompliancePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-multi-unit-restaurant-restaurant-group-payroll-compliance.webp" alt={`A busy modern restaurant kitchen with chefs and staff working the line`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -162,6 +166,7 @@ export default function RestaurantGroupPayrollCompliancePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-multi-unit-restaurant-restaurant-group-payroll-compliance.webp",
         "headline": "Payroll Compliance for Multi-Unit Restaurant Groups: Tip Pools, Minimum Wage, and Overtime",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

@@ -75,7 +75,7 @@ export default function OutsourceBreweryPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-payroll-brewery-outsource-brewery-payroll.webp" alt={`Outsource Brewery Payroll`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-payroll-brewery-outsource-brewery-payroll.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -154,6 +154,7 @@ export default function OutsourceBreweryPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-brewery-outsource-brewery-payroll.webp",
         "headline": "Why Breweries and Distilleries Outsource Payroll",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

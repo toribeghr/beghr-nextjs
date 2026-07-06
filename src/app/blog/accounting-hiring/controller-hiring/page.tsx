@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant controller seat risks your close and audit. A practical playbook to hire a controller in 23-35 days with passive candidate sourcing.',
     url: 'https://www.beghr.com/blog/accounting-hiring/controller-hiring',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-accounting-hiring-controller-hiring.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Controller Hiring: What Nobody Tells You | BEG', description: 'A vacant controller seat risks your close and audit. A practical playbook to hire a controller in 23-35 days with passive candidate sourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Controller Hiring: What Nobody Tells You | BEG', description: 'A vacant controller seat risks your close and audit. A practical playbook to hire a controller in 23-35 days with passive candidate sourcing.', images: ['https://www.beghr.com/blog-images/blog-accounting-hiring-controller-hiring.webp'] },
 };
 
 
@@ -40,7 +40,8 @@ const faqs = [
 export default function ControllerHiringPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Controller Hiring: What Nobody Tells You | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/accounting-hiring/controller-hiring"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-accounting-hiring-controller-hiring.webp", "headline": "Controller Hiring: What Nobody Tells You | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/accounting-hiring/controller-hiring"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -57,6 +58,10 @@ export default function ControllerHiringPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-accounting-hiring-controller-hiring.webp" alt={`An accountant reviewing spreadsheets and documents at a desk`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Salon commission payroll: percentage splits, product chargebacks, tip pooling, and minimum wage compliance. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/salon-spa/salon-commission-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-salon-spa-salon-commission-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Salon Commission Payroll: Splits, Chargebacks & Tips | BEG", description: "Salon commission payroll: splits, chargebacks, tip pooling, and minimum wage compliance.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Salon Commission Payroll: Splits, Chargebacks & Tips | BEG", description: "Salon commission payroll: splits, chargebacks, tip pooling, and minimum wage compliance.", images: ["https://www.beghr.com/blog-images/blog-payroll-salon-spa-salon-commission-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function SalonCommissionPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-salon-spa-salon-commission-payroll.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -154,6 +158,7 @@ export default function SalonCommissionPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-salon-spa-salon-commission-payroll.webp",
         "headline": "Salon Commission Payroll: How to Handle Percentage Splits, Product Chargebacks, and Tip Pooling",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Multi-state restaurant tip credit compliance: which states allow it, tipped minimum wages by state, tip pool rules, and how to configure payroll",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/restaurant-tip-credit-multi-state",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-multi-unit-restaurant-restaurant-tip-credit-multi-state.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Multi-State Tip Credit: The Truth About the Rules | BEG", description: "Multi-state tip credit for restaurants: state-by-state rules, tipped minimum wages, and tip pool compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Multi-State Tip Credit: The Truth About the Rules | BEG", description: "Multi-state tip credit for restaurants: state-by-state rules, tipped minimum wages, and tip pool compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-multi-unit-restaurant-restaurant-tip-credit-multi-state.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function RestaurantTipCreditMultiStatePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-multi-unit-restaurant-restaurant-tip-credit-multi-state.webp" alt={`A busy modern restaurant kitchen with chefs and staff working the line`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -161,6 +165,7 @@ export default function RestaurantTipCreditMultiStatePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-multi-unit-restaurant-restaurant-tip-credit-multi-state.webp",
         "headline": "Multi-State Restaurant Tip Credit: How to Handle Different Rules Across Your Locations",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

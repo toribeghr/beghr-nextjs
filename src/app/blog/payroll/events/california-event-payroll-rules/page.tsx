@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "California event payroll: AB5 worker classification, 1-day worker rules, entertainment wage orders, minimum wage, and overtime for events in California.",
     url: "https://www.beghr.com/blog/payroll/events/california-event-payroll-rules",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-events-california-event-payroll-rules.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "California Event Payroll Rules: What AB5 Requires | BEG", description: "California event payroll: AB5, 1-day worker rules, entertainment wage orders, and overtime. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "California Event Payroll Rules: What AB5 Requires | BEG", description: "California event payroll: AB5, 1-day worker rules, entertainment wage orders, and overtime. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-events-california-event-payroll-rules.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function CaliforniaEventPayrollRulesPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-events-california-event-payroll-rules.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -184,6 +188,7 @@ export default function CaliforniaEventPayrollRulesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-events-california-event-payroll-rules.webp",
         "headline": "California Event Payroll: AB5, 1-Day Worker Rules, and How to Stay Compliant",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

@@ -75,7 +75,7 @@ export default function RemoteTechTeamPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-payroll-technology-remote-tech-team-payroll.webp" alt={`Remote Tech Team Payroll: Multi-State Nexus Rules`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-payroll-technology-remote-tech-team-payroll.webp" alt={`A modern tech office, software team collaborating at workstations`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -175,6 +175,7 @@ export default function RemoteTechTeamPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-technology-remote-tech-team-payroll.webp",
         "headline": "Remote Tech Team Payroll: Multi-State Compliance, Nexus Rules, and Distributed Team Setup (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

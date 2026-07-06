@@ -56,7 +56,7 @@ export default function Page() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-banking-hiring-banking-interview-questions.webp" alt={`Banking Interview Questions That Actually Predict Fit`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-banking-hiring-banking-interview-questions.webp" alt={`A modern bank or finance office with professionals at desks`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

@@ -104,11 +104,24 @@ function changefreq(route) {
   return 'monthly';
 }
 
+// Image sitemap extension (added July 6, 2026): blog posts with a branded header image
+// get an <image:image> entry so Google Image Search / AI crawlers index the asset as a
+// first-class object, not just embedded page content.
+const BLOG_IMG_DIR = path.join(__dirname, '..', 'public', 'blog-images');
+function imageEntryFor(route) {
+  if (!route.startsWith('/blog/')) return '';
+  const slug = 'blog-' + route.slice('/blog/'.length).replace(/\//g, '-');
+  const file = path.join(BLOG_IMG_DIR, slug + '.webp');
+  if (!fs.existsSync(file)) return '';
+  return `\n    <image:image><image:loc>${BASE}/blog-images/${slug}.webp</image:loc></image:image>`;
+}
+
 routes.sort();
 const urls = routes.map(r =>
-  `  <url><loc>${BASE}${r === '/' ? '/' : r}</loc><lastmod>${today}</lastmod><changefreq>${changefreq(r)}</changefreq><priority>${priority(r)}</priority></url>`
+  `  <url><loc>${BASE}${r === '/' ? '/' : r}</loc><lastmod>${today}</lastmod><changefreq>${changefreq(r)}</changefreq><priority>${priority(r)}</priority>${imageEntryFor(r)}</url>`
 ).join('\n');
 
-const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls}\n</urlset>\n`;
 fs.writeFileSync(OUT, xml, 'utf8');
-console.log('Wrote ' + routes.length + ' URLs to public/sitemap.xml');
+const imgCount = routes.filter(r => imageEntryFor(r)).length;
+console.log('Wrote ' + routes.length + ' URLs to public/sitemap.xml (' + imgCount + ' with image entries)');

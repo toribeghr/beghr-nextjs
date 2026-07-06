@@ -60,7 +60,7 @@ export default function GovernmentSalaryTrendsPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-government-hiring-government-salary-trends.webp" alt={`Government Contractor Salary Trends 2026: What`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-government-hiring-government-salary-trends.webp" alt={`Professional staff working in a modern public-sector office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

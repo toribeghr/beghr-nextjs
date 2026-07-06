@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and',
     url: 'https://www.beghr.com/blog/biotech-hiring/biotech-interview-questions',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-biotech-hiring-biotech-interview-questions.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Biotech Interview Questions That Actually Work | BEG', description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Biotech Interview Questions That Actually Work | BEG', description: 'Biotech interviews that go beyond publications and credentials. The questions that reveal whether a candidate can operate in a regulated environment and', images: ['https://www.beghr.com/blog-images/blog-biotech-hiring-biotech-interview-questions.webp'] },
 };
 
 
@@ -53,6 +53,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-biotech-hiring-biotech-interview-questions.webp" alt={`Scientists working in a modern biotech laboratory`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

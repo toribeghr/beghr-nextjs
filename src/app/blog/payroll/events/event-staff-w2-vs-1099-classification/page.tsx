@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "When event staff should be W-2 employees vs 1099 contractors: IRS tests, California AB5, recurring worker risk, and how to audit your classification.",
     url: "https://www.beghr.com/blog/payroll/events/event-staff-w2-vs-1099-classification",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-events-event-staff-w2-vs-1099-classification.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Event Staff W-2 vs 1099: What Nobody Tells You | BEG", description: "W-2 vs 1099 for event crew and vendors: IRS rules, state tests, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Event Staff W-2 vs 1099: What Nobody Tells You | BEG", description: "W-2 vs 1099 for event crew and vendors: IRS rules, state tests, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-events-event-staff-w2-vs-1099-classification.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function EventStaffW2Vs1099ClassificationPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-events-event-staff-w2-vs-1099-classification.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -184,6 +188,7 @@ export default function EventStaffW2Vs1099ClassificationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-events-event-staff-w2-vs-1099-classification.webp",
         "headline": "Event Staff Classification: When to Issue W-2 vs 1099 for Crew and Vendors",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

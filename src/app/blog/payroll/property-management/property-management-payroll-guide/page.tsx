@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Property management payroll guide: housing allowances, leasing commissions, maintenance overtime, and multi-property consolidated payroll. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/property-management/property-management-payroll-guide",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-property-management-property-management-payroll-guide.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Property Management Payroll [2026 Data] | BEG", description: "Property management payroll: housing allowances, commissions, overtime, and multi-property consolidated payroll.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Property Management Payroll [2026 Data] | BEG", description: "Property management payroll: housing allowances, commissions, overtime, and multi-property consolidated payroll.", images: ["https://www.beghr.com/blog-images/blog-payroll-property-management-property-management-payroll-guide.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function PropertyManagementPayrollGuidePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-property-management-property-management-payroll-guide.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -160,6 +164,7 @@ export default function PropertyManagementPayrollGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-property-management-property-management-payroll-guide.webp",
         "headline": "Property Management Payroll Guide: Housing Allowances, Commission, and Multi-Property Compliance (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

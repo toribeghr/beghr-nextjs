@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved',
     url: 'https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hcm-software-chatbots-answer-isolved-does-the-task.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Chatbots Answer, isolved Does the Task: The Difference | BEG', description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Chatbots Answer, isolved Does the Task: The Difference | BEG', description: 'The difference between an HR chatbot and a platform that completes the work. Why that gap decides how much time your team actually saves, with the isolved', images: ['https://www.beghr.com/blog-images/blog-hcm-software-chatbots-answer-isolved-does-the-task.webp'] },
 
 };
 
@@ -45,7 +45,8 @@ const faqs = [
 export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Chatbots Answer, isolved Does the Task: The Difference | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-hcm-software-chatbots-answer-isolved-does-the-task.webp", "headline": "Chatbots Answer, isolved Does the Task: The Difference | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/chatbots-answer-isolved-does-the-task"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -60,6 +61,10 @@ export default function ChatbotsAnswerISolvedDoesTheTaskPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hcm-software-chatbots-answer-isolved-does-the-task.webp" alt={`Professionals using HR software on laptops in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

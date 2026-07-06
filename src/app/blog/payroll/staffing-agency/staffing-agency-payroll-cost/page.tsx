@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'How much does staffing agency payroll cost? Compare in-house payroll specialist ($60K-$100K) vs managed payroll at $25-$45 PEPM. Real numbers and ROI.',
     url: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-cost',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-staffing-agency-staffing-agency-payroll-cost.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Costs: In-House vs. Managed | BEG', description: 'Compare in-house payroll specialist vs managed payroll at $25-$45 PEPM for staffing agencies.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Costs: In-House vs. Managed | BEG', description: 'Compare in-house payroll specialist vs managed payroll at $25-$45 PEPM for staffing agencies.', images: ['https://www.beghr.com/blog-images/blog-payroll-staffing-agency-staffing-agency-payroll-cost.webp'] },
 };
 
 const faqs = [
@@ -58,7 +58,8 @@ export default function StaffingAgencyPayrollCostPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Staffing Agency Payroll Costs | In-House vs Managed | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-cost"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-staffing-agency-staffing-agency-payroll-cost.webp", "headline": "Staffing Agency Payroll Costs | In-House vs Managed | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-cost"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -72,6 +73,10 @@ export default function StaffingAgencyPayrollCostPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-staffing-agency-staffing-agency-payroll-cost.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

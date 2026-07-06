@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'Memory care and assisted living payroll differences: staffing ratios, wage premiums, high-turnover onboarding, state ALF licensing requirements, and',
     url: 'https://www.beghr.com/blog/payroll/senior-care/memory-care-assisted-living-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-senior-care-memory-care-assisted-living-payroll.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Memory Care and Assisted Living Payroll, Explained | BEG', description: 'Payroll differences between memory care, assisted living, and nursing homes. Staffing ratios and compliance.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Memory Care and Assisted Living Payroll, Explained | BEG', description: 'Payroll differences between memory care, assisted living, and nursing homes. Staffing ratios and compliance.', images: ['https://www.beghr.com/blog-images/blog-payroll-senior-care-memory-care-assisted-living-payroll.webp'] },
 };
 
 const faqs = [
@@ -58,7 +58,8 @@ export default function MemoryCareAssistedLivingPayrollPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Memory Care + Assisted Living Payroll | BEG Guide", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/senior-care/memory-care-assisted-living-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-senior-care-memory-care-assisted-living-payroll.webp", "headline": "Memory Care + Assisted Living Payroll | BEG Guide", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/senior-care/memory-care-assisted-living-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -72,6 +73,10 @@ export default function MemoryCareAssistedLivingPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-senior-care-memory-care-assisted-living-payroll.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

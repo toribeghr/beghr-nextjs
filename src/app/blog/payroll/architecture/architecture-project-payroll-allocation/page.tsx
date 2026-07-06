@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "How architecture firms align project-coded payroll with AIA billing structures. Track labor by project, improve profitability, and bill accurately.",
     url: "https://www.beghr.com/blog/payroll/architecture/architecture-project-payroll-allocation",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-architecture-architecture-project-payroll-allocation.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Architecture Project Payroll Allocation (AIA) | BEG", description: "Project-coded payroll for architecture firms aligned to AIA billing. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Architecture Project Payroll Allocation (AIA) | BEG", description: "Project-coded payroll for architecture firms aligned to AIA billing. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-architecture-architecture-project-payroll-allocation.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function ArchitectureProjectPayrollAllocationPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-architecture-architecture-project-payroll-allocation.webp" alt={`Architects reviewing building models and blueprints in a studio`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -164,6 +168,7 @@ export default function ArchitectureProjectPayrollAllocationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-architecture-architecture-project-payroll-allocation.webp",
         "headline": "Project-Coded Payroll for Architecture Firms: How to Align Labor Costs with AIA Billing",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

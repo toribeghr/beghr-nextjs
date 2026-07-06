@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "CPA firm busy season payroll: FLSA overtime rules, exempt vs non-exempt staff classification, salary threshold, and overtime calculation for staff",
     url: "https://www.beghr.com/blog/payroll/accounting-cpa/cpa-busy-season-payroll-overtime",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-accounting-cpa-cpa-busy-season-payroll-overtime.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "CPA Busy Season Payroll Overtime (FLSA Rules) | BEG", description: "Busy season overtime rules for CPA firms: FLSA classification, exempt vs non-exempt, and calculation. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "CPA Busy Season Payroll Overtime (FLSA Rules) | BEG", description: "Busy season overtime rules for CPA firms: FLSA classification, exempt vs non-exempt, and calculation. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-accounting-cpa-cpa-busy-season-payroll-overtime.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function CpaBusySeasonPayrollOvertimePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-accounting-cpa-cpa-busy-season-payroll-overtime.webp" alt={`An accountant reviewing spreadsheets and documents at a desk`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -186,6 +190,7 @@ export default function CpaBusySeasonPayrollOvertimePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-accounting-cpa-cpa-busy-season-payroll-overtime.webp",
         "headline": "CPA Firm Busy Season Payroll: Overtime Rules, Exempt vs Non-Exempt Staff, and FLSA Compliance",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

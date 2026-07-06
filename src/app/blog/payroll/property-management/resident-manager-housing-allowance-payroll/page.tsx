@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "IRC Section 119 housing allowance rules for resident managers: what qualifies, what is taxable, and how to configure it correctly in payroll.",
     url: "https://www.beghr.com/blog/payroll/property-management/resident-manager-housing-allowance-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-property-management-resident-manager-housing-allowance-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Resident Manager Housing Allowance (What to Know) | BEG", description: "IRC Section 119 rules for resident manager housing allowances and how to configure them in payroll.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Resident Manager Housing Allowance (What to Know) | BEG", description: "IRC Section 119 rules for resident manager housing allowances and how to configure them in payroll.", images: ["https://www.beghr.com/blog-images/blog-payroll-property-management-resident-manager-housing-allowance-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function ResidentManagerHousingAllowancePayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-property-management-resident-manager-housing-allowance-payroll.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -159,6 +163,7 @@ export default function ResidentManagerHousingAllowancePayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-property-management-resident-manager-housing-allowance-payroll.webp",
         "headline": "Resident Manager Housing Allowances: How to Handle Them Correctly in Payroll",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...',
     url: 'https://www.beghr.com/blog/payroll/construction/contractors-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-construction-contractors-payroll.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction Payroll Outsourcing: What It Costs | BEG', description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction Payroll Outsourcing: What It Costs | BEG', description: 'Construction payroll outsourcing vs. hiring in-house. Real cost comparison for contractors: certified payroll, Davis-Bacon, union wages, multi-job costi...', images: ['https://www.beghr.com/blog-images/blog-payroll-construction-contractors-payroll.webp'] },
 
 };
 
@@ -58,7 +58,8 @@ export default function ConstructionPayrollPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Construction Payroll Outsourcing: What It Costs | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/construction/contractors-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-construction-contractors-payroll.webp", "headline": "Construction Payroll Outsourcing: What It Costs | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/construction/contractors-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -72,6 +73,10 @@ export default function ConstructionPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-construction-contractors-payroll.webp" alt={`A real construction site, workers in hard hats and hi-vis vests reviewing plans`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

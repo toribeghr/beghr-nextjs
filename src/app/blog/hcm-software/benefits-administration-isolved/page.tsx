@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: "isolved benefits administration: open enrollment, carrier connections, ACA tracking, FSA/HSA management, and life events. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/hcm-software/benefits-administration-isolved",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-hcm-software-benefits-administration-isolved.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Benefits Administration in isolved: What ACA Reveals | BEG", description: "isolved benefits admin: open enrollment, carrier connections, ACA, FSA/HSA, and life events. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Benefits Administration in isolved: What ACA Reveals | BEG", description: "isolved benefits admin: open enrollment, carrier connections, ACA, FSA/HSA, and life events. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-hcm-software-benefits-administration-isolved.webp"] },
 };
 
 const faqs = [
@@ -61,6 +61,10 @@ export default function BenefitsAdministrationIsolvedPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hcm-software-benefits-administration-isolved.webp" alt={`Professionals using HR software on laptops in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -159,6 +163,7 @@ export default function BenefitsAdministrationIsolvedPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-hcm-software-benefits-administration-isolved.webp",
         "headline": "Benefits Administration in isolved: Open Enrollment, ACA Reporting, and Life Events (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

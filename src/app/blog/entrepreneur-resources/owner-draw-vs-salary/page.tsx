@@ -64,7 +64,7 @@ export default function OwnerDrawVsSalaryPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-entrepreneur-resources-owner-draw-vs-salary.webp" alt={`Owner Draw vs Salary: What New Founders Miss`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-entrepreneur-resources-owner-draw-vs-salary.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -162,6 +162,7 @@ export default function OwnerDrawVsSalaryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-entrepreneur-resources-owner-draw-vs-salary.webp",
         "headline": "Owner Draw vs Salary: Tax Implications, Entity Rules, and When to Switch to Payroll (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

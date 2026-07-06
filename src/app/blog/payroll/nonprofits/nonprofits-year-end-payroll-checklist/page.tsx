@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Managed payroll for nonprofits. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.',
     url: 'https://www.beghr.com/blog/payroll/nonprofits/nonprofits-year-end-payroll-checklist',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-nonprofits-nonprofits-year-end-payroll-checklist.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Nonprofit Year-End Payroll Checklist [2026 Data] | BEG', description: 'Managed payroll for nonprofits. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Nonprofit Year-End Payroll Checklist [2026 Data] | BEG', description: 'Managed payroll for nonprofits. Year-End Payroll Checklist. $25-$45 PEPM all-inclusive. Get instant pricing at beghr.com.', images: ['https://www.beghr.com/blog-images/blog-payroll-nonprofits-nonprofits-year-end-payroll-checklist.webp'] },
 };
 
 const faqs = [
@@ -49,7 +49,8 @@ export default function Page() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Nonprofit Payroll: Year-End Checklist | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/nonprofits/nonprofits-year-end-payroll-checklist"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-nonprofits-nonprofits-year-end-payroll-checklist.webp", "headline": "Nonprofit Payroll: Year-End Checklist | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/nonprofits/nonprofits-year-end-payroll-checklist"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -63,6 +64,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-nonprofits-nonprofits-year-end-payroll-checklist.webp" alt={`A nonprofit team and volunteers collaborating in a community space`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

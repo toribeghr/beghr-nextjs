@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Why event companies outsource payroll: seasonal crew cycles, multi-state compliance, AB5, and classification risk. BEG at $25-$45 PEPM, 3-5 day setup.",
     url: "https://www.beghr.com/blog/payroll/events/outsource-event-company-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-events-outsource-event-company-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Outsource Event Company Payroll: Seasonal Crew Reality | BEG", description: "Why event companies outsource payroll and how fast they can onboard. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Outsource Event Company Payroll: Seasonal Crew Reality | BEG", description: "Why event companies outsource payroll and how fast they can onboard. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-events-outsource-event-company-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function OutsourceEventCompanyPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-events-outsource-event-company-payroll.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -159,6 +163,7 @@ export default function OutsourceEventCompanyPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-events-outsource-event-company-payroll.webp",
         "headline": "Why Event Companies Outsource Payroll - and How Fast They Can Onboard",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

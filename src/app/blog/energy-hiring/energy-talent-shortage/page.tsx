@@ -60,7 +60,7 @@ export default function EnergyTalentShortagePage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-energy-hiring-energy-talent-shortage.webp" alt={`Energy Talent Shortage 2026: What Nobody Warns`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-energy-hiring-energy-talent-shortage.webp" alt={`Energy sector workers at a solar or power facility in hi-vis gear`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant PM seat risks your schedule and budget. A playbook to source and hire a construction project manager in 23-35 days with passive sourcing.',
     url: 'https://www.beghr.com/blog/construction-hiring/hiring-project-managers',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-construction-hiring-hiring-project-managers.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring Construction PMs Before You Lose the Bid | BEG', description: 'A vacant PM seat risks your schedule and budget. A playbook to source and hire a construction project manager in 23-35 days with passive sourcing.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring Construction PMs Before You Lose the Bid | BEG', description: 'A vacant PM seat risks your schedule and budget. A playbook to source and hire a construction project manager in 23-35 days with passive sourcing.', images: ['https://www.beghr.com/blog-images/blog-construction-hiring-hiring-project-managers.webp'] },
 };
 
 
@@ -40,7 +40,8 @@ const faqs = [
 export default function HiringProjectManagersPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Hiring Construction PMs Before You Lose the Bid | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/construction-hiring/hiring-project-managers"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-construction-hiring-hiring-project-managers.webp", "headline": "Hiring Construction PMs Before You Lose the Bid | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/construction-hiring/hiring-project-managers"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -57,6 +58,10 @@ export default function HiringProjectManagersPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-construction-hiring-hiring-project-managers.webp" alt={`A real construction site, workers in hard hats and hi-vis vests reviewing plans`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

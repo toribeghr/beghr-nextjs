@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Architecture firm payroll: AIA project billing, licensed architect and PE tracking, partner draws, multi-state staff, and overtime compliance.",
     url: "https://www.beghr.com/blog/payroll/architecture/architecture-firm-payroll-guide",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-architecture-architecture-firm-payroll-guide.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Architecture Firm Payroll Guide in 2026 | BEG", description: "Architecture firm payroll: project billing, licensed staff tracking, partner draws, and overtime. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Architecture Firm Payroll Guide in 2026 | BEG", description: "Architecture firm payroll: project billing, licensed staff tracking, partner draws, and overtime. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-architecture-architecture-firm-payroll-guide.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function ArchitectureFirmPayrollGuidePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-architecture-architecture-firm-payroll-guide.webp" alt={`Architects reviewing building models and blueprints in a studio`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -187,6 +191,7 @@ export default function ArchitectureFirmPayrollGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-architecture-architecture-firm-payroll-guide.webp",
         "headline": "Architecture Firm Payroll Guide: Project Billing, Licensed Staff, and Partner Draws (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

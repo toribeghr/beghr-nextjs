@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Certified payroll reporting and prevailing wage compliance for construction contractors on federal and state public works projects. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/construction/certified-payroll-prevailing-wage",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-construction-certified-payroll-prevailing-wage.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Certified Payroll and Prevailing Wage for Contractors | BEG", description: "Certified payroll and prevailing wage compliance for construction contractors on public works projects. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Certified Payroll and Prevailing Wage for Contractors | BEG", description: "Certified payroll and prevailing wage compliance for construction contractors on public works projects. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-construction-certified-payroll-prevailing-wage.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function CertifiedPayrollPrevailingWagePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-construction-certified-payroll-prevailing-wage.webp" alt={`A real construction site, workers in hard hats and hi-vis vests reviewing plans`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -181,6 +185,7 @@ export default function CertifiedPayrollPrevailingWagePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-construction-certified-payroll-prevailing-wage.webp",
         "headline": "Certified Payroll and Prevailing Wage Compliance: A Contractor's Guide to Davis-Bacon (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

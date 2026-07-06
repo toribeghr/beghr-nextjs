@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant mechanical engineer seat stalls your product and projects. A practical playbook to hire mechanical engineers in 23-35 days without settling.',
     url: 'https://www.beghr.com/blog/engineering-hiring/hiring-mechanical-engineers',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-engineering-hiring-hiring-mechanical-engineers.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring Mechanical Engineers Without Overpaying | BEG', description: 'A vacant mechanical engineer seat stalls your product and projects. A practical playbook to hire mechanical engineers in 23-35 days without settling.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring Mechanical Engineers Without Overpaying | BEG', description: 'A vacant mechanical engineer seat stalls your product and projects. A practical playbook to hire mechanical engineers in 23-35 days without settling.', images: ['https://www.beghr.com/blog-images/blog-engineering-hiring-hiring-mechanical-engineers.webp'] },
 };
 
 
@@ -40,7 +40,8 @@ const faqs = [
 export default function HiringMechanicalEngineersPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Hiring Mechanical Engineers Without Overpaying | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/engineering-hiring/hiring-mechanical-engineers"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-engineering-hiring-hiring-mechanical-engineers.webp", "headline": "Hiring Mechanical Engineers Without Overpaying | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/engineering-hiring/hiring-mechanical-engineers"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -57,6 +58,10 @@ export default function HiringMechanicalEngineersPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-engineering-hiring-hiring-mechanical-engineers.webp" alt={`Engineers reviewing technical drawings in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

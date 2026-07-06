@@ -75,7 +75,7 @@ export default function CaptiveVsIndependentAgentPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-payroll-insurance-agency-captive-vs-independent-agent-payroll.webp" alt={`Captive vs Independent Agent Payroll: Key Difference`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-payroll-insurance-agency-captive-vs-independent-agent-payroll.webp" alt={`Insurance professionals meeting with a client in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -179,6 +179,7 @@ export default function CaptiveVsIndependentAgentPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-insurance-agency-captive-vs-independent-agent-payroll.webp",
         "headline": "Captive vs. Independent Insurance Agent Payroll: W-2 vs 1099 Classification",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

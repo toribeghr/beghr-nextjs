@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Insurance agency payroll: commission splits, producer draws, E&O deductions, and compliance. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/financial-services/insurance-agency-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-financial-services-insurance-agency-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Insurance Agency Payroll: What Commission Splits Miss | BEG", description: "Insurance agency payroll: commission splits, producer draws, E&O deductions, and compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Insurance Agency Payroll: What Commission Splits Miss | BEG", description: "Insurance agency payroll: commission splits, producer draws, E&O deductions, and compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-financial-services-insurance-agency-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function InsuranceAgencyPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-financial-services-insurance-agency-payroll.webp" alt={`Insurance professionals meeting with a client in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -171,6 +175,7 @@ export default function InsuranceAgencyPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-financial-services-insurance-agency-payroll.webp",
         "headline": "Insurance Agency Payroll: Commission Splits, Producer Classification, and Multi-State Compliance (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "The IRS test for salon stylist classification: what makes a true booth renter vs an employee, and the risks of misclassification. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/salon-spa/salon-booth-rental-payroll-classification",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-salon-spa-salon-booth-rental-payroll-classification.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Salon Booth Rental vs. W-2: IRS Classification Rules | BEG", description: "Salon stylist classification: booth rental IRS test, contract requirements, and misclassification risks.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Salon Booth Rental vs. W-2: IRS Classification Rules | BEG", description: "Salon stylist classification: booth rental IRS test, contract requirements, and misclassification risks.", images: ["https://www.beghr.com/blog-images/blog-payroll-salon-spa-salon-booth-rental-payroll-classification.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function SalonBoothRentalPayrollClassificationPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-salon-spa-salon-booth-rental-payroll-classification.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -149,6 +153,7 @@ export default function SalonBoothRentalPayrollClassificationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-salon-spa-salon-booth-rental-payroll-classification.webp",
         "headline": "Salon Booth Rental vs Employee: How to Classify Stylists for Payroll and Taxes",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

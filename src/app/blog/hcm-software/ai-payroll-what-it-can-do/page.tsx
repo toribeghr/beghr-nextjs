@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR',
     url: 'https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hcm-software-ai-payroll-what-it-can-do.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: "AI Payroll in 2026: What It Still Can't Do | BEG", description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: "AI Payroll in 2026: What It Still Can't Do | BEG", description: 'An honest 2026 look at AI in payroll. What AI can reliably handle, where humans stay in control, and how task completing connectors change the daily HR', images: ['https://www.beghr.com/blog-images/blog-hcm-software-ai-payroll-what-it-can-do.webp'] },
 
 };
 
@@ -45,7 +45,8 @@ const faqs = [
 export default function AIPayrollWhatItCanDoPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "AI Payroll in 2026: What It Still Can't Do | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-hcm-software-ai-payroll-what-it-can-do.webp", "headline": "AI Payroll in 2026: What It Still Can't Do | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/ai-payroll-what-it-can-do"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -60,6 +61,10 @@ export default function AIPayrollWhatItCanDoPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hcm-software-ai-payroll-what-it-can-do.webp" alt={`Professionals using HR software on laptops in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

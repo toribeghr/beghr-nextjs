@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'A plain-English guide to payroll taxes for trucking companies -- FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...',
     url: 'https://www.beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-trucking-truck-driver-payroll-taxes.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Trucking Payroll Taxes: The Truth Fleet Owners Miss | BEG', description: 'A plain-English guide to payroll taxes for trucking companies -- FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Trucking Payroll Taxes: The Truth Fleet Owners Miss | BEG', description: 'A plain-English guide to payroll taxes for trucking companies -- FUTA, SUTA, Social Security, Medicare, multi-state withholding, and what changes when dr...', images: ['https://www.beghr.com/blog-images/blog-payroll-trucking-truck-driver-payroll-taxes.webp'] },
 
 };
 
@@ -51,7 +51,8 @@ export default function TruckingPayrollTaxesPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Trucking Payroll Taxes | What Fleet Owners Need to Know | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-trucking-truck-driver-payroll-taxes.webp", "headline": "Trucking Payroll Taxes | What Fleet Owners Need to Know | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/trucking/truck-driver-payroll-taxes"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,6 +65,10 @@ export default function TruckingPayrollTaxesPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-trucking-truck-driver-payroll-taxes.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

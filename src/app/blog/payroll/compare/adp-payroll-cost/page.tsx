@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'ADP payroll pricing is built around quoted tiers plus add-ons. See what drives the real cost and how BEG managed payroll at $25-$45 PEPM compares.',
     url: 'https://www.beghr.com/blog/payroll/compare/adp-payroll-cost',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-compare-adp-payroll-cost.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'ADP Payroll Cost: What Small Businesses Actually Pay | BEG', description: 'ADP payroll pricing is built around quoted tiers plus add-ons. See what drives the real cost vs. BEG at $25-$45 PEPM.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'ADP Payroll Cost: What Small Businesses Actually Pay | BEG', description: 'ADP payroll pricing is built around quoted tiers plus add-ons. See what drives the real cost vs. BEG at $25-$45 PEPM.', images: ['https://www.beghr.com/blog-images/blog-payroll-compare-adp-payroll-cost.webp'] },
 };
 
 const faqs = [
@@ -43,7 +43,8 @@ const faqs = [
 export default function Page() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "BlogPosting", "headline": "ADP Payroll Cost: What Small Businesses Actually Pay", "description": "ADP payroll pricing is built around quoted tiers plus add-ons. See what drives the real cost and how BEG managed payroll at $25-$45 PEPM compares.", "datePublished": "2026-07-06", "dateModified": "2026-07-06", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/compare/adp-payroll-cost"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-compare-adp-payroll-cost.webp", "headline": "ADP Payroll Cost: What Small Businesses Actually Pay", "description": "ADP payroll pricing is built around quoted tiers plus add-ons. See what drives the real cost and how BEG managed payroll at $25-$45 PEPM compares.", "datePublished": "2026-07-06", "dateModified": "2026-07-06", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/compare/adp-payroll-cost"}) }} />
 
       <section className="hero">
         <div className="container">
@@ -58,6 +59,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-compare-adp-payroll-cost.webp" alt={`Business professionals comparing options on a laptop in a modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Grant-funded payroll: cost allocation, employee time tracking, funder compliance, and single audit. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/nonprofits/grant-funded-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-nonprofits-grant-funded-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Grant-Funded Payroll: What Nobody Tells You on Audits | BEG", description: "Grant-funded payroll: cost allocation, time tracking, funder compliance, and single audit. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Grant-Funded Payroll: What Nobody Tells You on Audits | BEG", description: "Grant-funded payroll: cost allocation, time tracking, funder compliance, and single audit. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-nonprofits-grant-funded-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function GrantFundedPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-nonprofits-grant-funded-payroll.webp" alt={`A nonprofit team and volunteers collaborating in a community space`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -174,6 +178,7 @@ export default function GrantFundedPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-nonprofits-grant-funded-payroll.webp",
         "headline": "Grant-Funded Payroll: Cost Allocation, Time Tracking, and Federal Audit Compliance (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

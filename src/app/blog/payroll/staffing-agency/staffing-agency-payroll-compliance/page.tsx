@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'Staffing agency payroll compliance: IRS classification test, FLSA for temp workers, state registration, workers comp, and multi-state new hire reporting.',
     url: 'https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-compliance',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-staffing-agency-staffing-agency-payroll-compliance.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Compliance for 2026 | BEG', description: 'Staffing agency payroll compliance: IRS classification, FLSA, state registration, and multi-state reporting.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Staffing Agency Payroll Compliance for 2026 | BEG', description: 'Staffing agency payroll compliance: IRS classification, FLSA, state registration, and multi-state reporting.', images: ['https://www.beghr.com/blog-images/blog-payroll-staffing-agency-staffing-agency-payroll-compliance.webp'] },
 };
 
 const faqs = [
@@ -58,7 +58,8 @@ export default function StaffingAgencyPayrollCompliancePage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Staffing Agency Payroll Compliance 2026 | BEG Guide", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-compliance"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-staffing-agency-staffing-agency-payroll-compliance.webp", "headline": "Staffing Agency Payroll Compliance 2026 | BEG Guide", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/staffing-agency/staffing-agency-payroll-compliance"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -72,6 +73,10 @@ export default function StaffingAgencyPayrollCompliancePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-staffing-agency-staffing-agency-payroll-compliance.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

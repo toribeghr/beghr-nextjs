@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Nonprofit payroll: FICA exemptions, FUTA rules, 990 executive comp reporting, and volunteer classification. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/nonprofits/501c3-payroll-compliance",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-nonprofits-501c3-payroll-compliance.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "501(c)(3) Payroll Compliance: What Nobody Tells You | BEG", description: "Nonprofit payroll: FICA exemptions, FUTA rules, 990 exec comp reporting, and volunteer classification. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "501(c)(3) Payroll Compliance: What Nobody Tells You | BEG", description: "Nonprofit payroll: FICA exemptions, FUTA rules, 990 exec comp reporting, and volunteer classification. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-nonprofits-501c3-payroll-compliance.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function Nonprofit501c3PayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-nonprofits-501c3-payroll-compliance.webp" alt={`A nonprofit team and volunteers collaborating in a community space`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -167,6 +171,7 @@ export default function Nonprofit501c3PayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-nonprofits-501c3-payroll-compliance.webp",
         "headline": "501(c)(3) Payroll Compliance: FICA Exemptions, FUTA Rules, and Form 990 Reporting (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

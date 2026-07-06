@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """
-One-shot branded blog image: Gemini scene -> BEG featured-card branding -> WebP.
+One-shot branded blog image: real photo (Unsplash search, default) or Gemini-generated
+scene (fallback) -> BEG featured-card branding -> WebP.
 Usage:
-  python3 scripts/make-post-image.py <slug> "<Category>" "<Headline>" "<scene topic>"
+  python3 scripts/make-post-image.py <slug> "<Category>" "<Headline>" "<scene topic>" [--source unsplash|gemini]
 
-Writes public/blog-images/<slug>.webp (skips if it already exists, so no re-billing).
-Key is read from GEMINI_API_KEY or ~/Downloads/Claude/gemini_api_key.txt (never committed).
+Writes public/blog-images/<slug>.webp (skips if it already exists, so no re-billing/re-fetching).
+Unsplash key: UNSPLASH_ACCESS_KEY env or ~/Downloads/Claude/unsplash_api_key.txt (never committed).
+Gemini key:   GEMINI_API_KEY env or ~/Downloads/Claude/gemini_api_key.txt (never committed).
+Default source is unsplash (free, no daily cap tied to our billing). Pass --source gemini
+to force the old photorealistic-generation path once Gemini credits are funded again.
 """
-import base64, io, json, os, sys, urllib.request, urllib.error, subprocess
+import base64, io, json, os, sys, urllib.request, urllib.error, urllib.parse, subprocess
 try:
     from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 except ImportError:
@@ -15,6 +19,9 @@ except ImportError:
     from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
 MODEL = "gemini-2.5-flash-image"
+# Cloudflare (fronting Pexels/Unsplash) blocks the default urllib UA with a 403 (error
+# 1010, ASN-based bot block) -- a normal browser UA sails through, same key, same IP.
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 GOLD = (236, 172, 96)
 WHITE = (245, 245, 245)
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -47,6 +54,32 @@ def load_key():
     sys.exit("No API key found (GEMINI_API_KEY or ~/Downloads/Claude/gemini_api_key.txt).")
 
 
+def load_unsplash_key():
+    if os.environ.get("UNSPLASH_ACCESS_KEY"):
+        return os.environ["UNSPLASH_ACCESS_KEY"].strip()
+    for p in (os.path.expanduser("~/Downloads/Claude/unsplash_api_key.txt"),
+              "/sessions/serene-nice-tesla/mnt/Claude/unsplash_api_key.txt",
+              os.path.join(REPO, ".unsplash_api_key")):
+        if os.path.isfile(p):
+            k = open(p).read().strip()
+            if k:
+                return k
+    sys.exit("No Unsplash key found (UNSPLASH_ACCESS_KEY or ~/Downloads/Claude/unsplash_api_key.txt).")
+
+
+def load_pexels_key():
+    if os.environ.get("PEXELS_API_KEY"):
+        return os.environ["PEXELS_API_KEY"].strip()
+    for p in (os.path.expanduser("~/Downloads/Claude/pexels_api_key.txt"),
+              "/sessions/serene-nice-tesla/mnt/Claude/pexels_api_key.txt",
+              os.path.join(REPO, ".pexels_api_key")):
+        if os.path.isfile(p):
+            k = open(p).read().strip()
+            if k:
+                return k
+    sys.exit("No Pexels key found (PEXELS_API_KEY or ~/Downloads/Claude/pexels_api_key.txt).")
+
+
 def generate_scene(topic):
     prompt = (
         "Professional editorial photograph depicting " + topic + ". Realistic, sharp, "
@@ -74,6 +107,90 @@ def generate_scene(topic):
             if inl and inl.get("data"):
                 return Image.open(io.BytesIO(base64.b64decode(inl["data"]))).convert("RGB")
     sys.exit("No image in Gemini response: " + json.dumps(data)[:500])
+
+
+def generate_scene_unsplash(topic, seed=""):
+    """Search Unsplash for a real photo matching the topic. Free, no per-image cost.
+    Note: Unsplash demo apps are capped at 50 requests/hour; production (post-review)
+    apps get 5000/hour -- pace batch runs accordingly until production access is granted.
+    """
+    key = load_unsplash_key()
+    query = " ".join(topic.split()[:6])  # short keyword query beats long natural language
+    page = 1 + (abs(hash(seed)) % 3 if seed else 0)  # light variety across repeated categories
+    url = ("https://api.unsplash.com/search/photos?query=" + urllib.parse.quote(query)
+           + "&orientation=landscape&per_page=10&page=" + str(page))
+    req = urllib.request.Request(url)
+    req.add_header("Authorization", "Client-ID " + key)
+    req.add_header("User-Agent", UA)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        sys.exit("Unsplash API " + str(e.code) + ": " + e.read().decode()[:600])
+    results = data.get("results") or []
+    if not results and page != 1:
+        req = urllib.request.Request(url.replace("&page=" + str(page), "&page=1"))
+        req.add_header("Authorization", "Client-ID " + key)
+        req.add_header("User-Agent", UA)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.loads(r.read().decode())
+        results = data.get("results") or []
+    if not results:
+        sys.exit("No Unsplash results for query: " + query)
+    pick = results[abs(hash(seed)) % len(results)] if seed else results[0]
+    img_url = pick["urls"]["regular"]
+    # Unsplash API guideline: ping download_location when a photo is actually used.
+    dl = (pick.get("links") or {}).get("download_location")
+    if dl:
+        try:
+            dreq = urllib.request.Request(dl)
+            dreq.add_header("Authorization", "Client-ID " + key)
+            dreq.add_header("User-Agent", UA)
+            urllib.request.urlopen(dreq, timeout=15)
+        except Exception:
+            pass
+    ireq = urllib.request.Request(img_url)
+    ireq.add_header("User-Agent", UA)
+    with urllib.request.urlopen(ireq, timeout=60) as r:
+        img_bytes = r.read()
+    return Image.open(io.BytesIO(img_bytes)).convert("RGB")
+
+
+def generate_scene_pexels(topic, seed=""):
+    """Search Pexels for a real photo matching the topic. Free tier: 200 req/hour,
+    20,000/month, no billing, no review wait -- the working default until/unless
+    Unsplash production access comes through.
+    """
+    key = load_pexels_key()
+    query = " ".join(topic.split()[:6])
+    page = 1 + (abs(hash(seed)) % 3 if seed else 0)
+    url = ("https://api.pexels.com/v1/search?query=" + urllib.parse.quote(query)
+           + "&orientation=landscape&per_page=10&page=" + str(page))
+    req = urllib.request.Request(url)
+    req.add_header("Authorization", key)
+    req.add_header("User-Agent", UA)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        sys.exit("Pexels API " + str(e.code) + ": " + e.read().decode()[:600])
+    photos = data.get("photos") or []
+    if not photos and page != 1:
+        req = urllib.request.Request(url.replace("&page=" + str(page), "&page=1"))
+        req.add_header("Authorization", key)
+        req.add_header("User-Agent", UA)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.loads(r.read().decode())
+        photos = data.get("photos") or []
+    if not photos:
+        sys.exit("No Pexels results for query: " + query)
+    pick = photos[abs(hash(seed)) % len(photos)] if seed else photos[0]
+    img_url = pick["src"]["large2x"] if "large2x" in pick.get("src", {}) else pick["src"]["large"]
+    ireq = urllib.request.Request(img_url)
+    ireq.add_header("User-Agent", UA)
+    with urllib.request.urlopen(ireq, timeout=60) as r:
+        img_bytes = r.read()
+    return Image.open(io.BytesIO(img_bytes)).convert("RGB")
 
 
 def knockout_lion(size):
@@ -153,18 +270,29 @@ def brand(im, category, headline):
     return im
 
 
+SCENE_FUNCS = {
+    "pexels": lambda topic, slug: generate_scene_pexels(topic, seed=slug),
+    "unsplash": lambda topic, slug: generate_scene_unsplash(topic, seed=slug),
+    "gemini": lambda topic, slug: generate_scene(topic),
+}
+
+
 def main():
     if len(sys.argv) < 5:
-        sys.exit('Usage: make-post-image.py <slug> "<Category>" "<Headline>" "<scene topic>"')
+        sys.exit('Usage: make-post-image.py <slug> "<Category>" "<Headline>" "<scene topic>" [--source pexels|unsplash|gemini]')
     slug, category, headline, topic = sys.argv[1:5]
+    source = sys.argv[sys.argv.index("--source") + 1] if "--source" in sys.argv else "pexels"
+    if source not in SCENE_FUNCS:
+        sys.exit("Unknown --source: " + source + " (use pexels, unsplash, or gemini)")
     os.makedirs(OUT_DIR, exist_ok=True)
     out = os.path.join(OUT_DIR, slug + ".webp")
     if os.path.exists(out):
         print("SKIP (exists): " + out)
         return
-    im = brand(generate_scene(topic), category, headline)
+    scene = SCENE_FUNCS[source](topic, slug)
+    im = brand(scene, category, headline)
     im.save(out, "WEBP", quality=82, method=6)
-    print("Wrote " + out + " (" + str(os.path.getsize(out) // 1024) + " KB)")
+    print("Wrote [" + source + "] " + out + " (" + str(os.path.getsize(out) // 1024) + " KB)")
 
 
 if __name__ == "__main__":

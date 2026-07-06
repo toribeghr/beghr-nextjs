@@ -75,7 +75,7 @@ export default function HotelPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-payroll-hospitality-hotel-payroll.webp" alt={`Hotel Payroll, Tipped Staff and Multi-State Rules`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-payroll-hospitality-hotel-payroll.webp" alt={`A hotel front desk and staff welcoming guests in a modern lobby`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -223,6 +223,7 @@ export default function HotelPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-hospitality-hotel-payroll.webp",
         "headline": "Hotel Payroll Outsourcing: Tipped Staff, Banquet Overtime, and Multi-State Compliance (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

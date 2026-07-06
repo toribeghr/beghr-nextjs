@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends mean for hiring and why speed beats salary.',
     url: 'https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-cybersecurity-hiring-cybersecurity-salary-trends.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Cybersecurity Salary Trends 2026: What Nobody Warns | BEG', description: 'Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends mean for hiring and why speed beats salary.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Cybersecurity Salary Trends 2026: What Nobody Warns | BEG', description: 'Security comp is climbing but the best candidates weigh more than pay. What cyber salary trends mean for hiring and why speed beats salary.', images: ['https://www.beghr.com/blog-images/blog-cybersecurity-hiring-cybersecurity-salary-trends.webp'] },
 };
 
 
@@ -40,7 +40,8 @@ const faqs = [
 export default function CybersecuritySalaryTrendsPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Cybersecurity Salary Trends 2026: What Nobody Warns | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-cybersecurity-hiring-cybersecurity-salary-trends.webp", "headline": "Cybersecurity Salary Trends 2026: What Nobody Warns | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/cybersecurity-hiring/cybersecurity-salary-trends"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -57,6 +58,10 @@ export default function CybersecuritySalaryTrendsPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-cybersecurity-hiring-cybersecurity-salary-trends.webp" alt={`A security operations center with analysts at multi-screen desks`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "How to consolidate payroll across multiple properties without losing per-property visibility and cost allocation. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/property-management/multi-property-payroll-management",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-property-management-multi-property-payroll-management.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Multi-Property Payroll, Consolidated Reporting | BEG", description: "How to consolidate payroll across multiple properties while maintaining per-property cost allocation and reporting.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Multi-Property Payroll, Consolidated Reporting | BEG", description: "How to consolidate payroll across multiple properties while maintaining per-property cost allocation and reporting.", images: ["https://www.beghr.com/blog-images/blog-payroll-property-management-multi-property-payroll-management.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function MultiPropertyPayrollManagementPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-property-management-multi-property-payroll-management.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -154,6 +158,7 @@ export default function MultiPropertyPayrollManagementPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-property-management-multi-property-payroll-management.webp",
         "headline": "Multi-Property Payroll: How to Consolidate Without Losing Per-Property Visibility",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

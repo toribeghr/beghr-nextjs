@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'A vacant GM seat risks your service, numbers, and team. A practical playbook to hire a hospitality general manager in 23-35 days.',
     url: 'https://www.beghr.com/blog/hospitality-hiring/hiring-a-general-manager',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hospitality-hiring-hiring-a-general-manager.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Hiring a General Manager Without Overpaying | BEG', description: 'A vacant GM seat risks your service, numbers, and team. A practical playbook to hire a hospitality general manager in 23-35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Hiring a General Manager Without Overpaying | BEG', description: 'A vacant GM seat risks your service, numbers, and team. A practical playbook to hire a hospitality general manager in 23-35 days.', images: ['https://www.beghr.com/blog-images/blog-hospitality-hiring-hiring-a-general-manager.webp'] },
 };
 
 
@@ -40,7 +40,8 @@ const faqs = [
 export default function HiringAGeneralManagerPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Hiring a General Manager Without Overpaying | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hospitality-hiring/hiring-a-general-manager"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-hospitality-hiring-hiring-a-general-manager.webp", "headline": "Hiring a General Manager Without Overpaying | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hospitality-hiring/hiring-a-general-manager"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -57,6 +58,10 @@ export default function HiringAGeneralManagerPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hospitality-hiring-hiring-a-general-manager.webp" alt={`A hotel front desk and staff welcoming guests in a modern lobby`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

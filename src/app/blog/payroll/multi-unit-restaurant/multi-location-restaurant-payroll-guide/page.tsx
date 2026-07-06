@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Multi-location restaurant payroll: consolidated reporting, tip credit by state, high-volume W-2 production, per-location P&L, and franchise compliance.",
     url: "https://www.beghr.com/blog/payroll/multi-unit-restaurant/multi-location-restaurant-payroll-guide",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-multi-unit-restaurant-multi-location-restaurant-payroll-guide.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Multi-Location Restaurant Payroll: The Real Playbook | BEG", description: "Consolidated payroll for multi-unit restaurant groups: tip credit, W-2 production, and per-location reporting. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Multi-Location Restaurant Payroll: The Real Playbook | BEG", description: "Consolidated payroll for multi-unit restaurant groups: tip credit, W-2 production, and per-location reporting. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-multi-unit-restaurant-multi-location-restaurant-payroll-guide.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function MultiLocationRestaurantPayrollGuidePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-multi-unit-restaurant-multi-location-restaurant-payroll-guide.webp" alt={`A busy modern restaurant kitchen with chefs and staff working the line`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -181,6 +185,7 @@ export default function MultiLocationRestaurantPayrollGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-multi-unit-restaurant-multi-location-restaurant-payroll-guide.webp",
         "headline": "Multi-Location Restaurant Payroll Guide: Consolidated Payroll, Tip Credit, and State Compliance (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

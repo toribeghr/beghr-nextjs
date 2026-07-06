@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Multi-state payroll compliance for event companies: employer registration, withholding by state, touring tax obligations, and destination event",
     url: "https://www.beghr.com/blog/payroll/events/multi-state-event-payroll-compliance",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-events-multi-state-event-payroll-compliance.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Multi-State Event Payroll: The Touring Compliance Trap | BEG", description: "Multi-state payroll for touring and destination event companies. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Multi-State Event Payroll: The Touring Compliance Trap | BEG", description: "Multi-state payroll for touring and destination event companies. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-events-multi-state-event-payroll-compliance.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function MultiStateEventPayrollCompliancePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-events-multi-state-event-payroll-compliance.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -177,6 +181,7 @@ export default function MultiStateEventPayrollCompliancePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-events-multi-state-event-payroll-compliance.webp",
         "headline": "Multi-State Payroll for Event Companies: Compliance for Touring Productions and Destination Events",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

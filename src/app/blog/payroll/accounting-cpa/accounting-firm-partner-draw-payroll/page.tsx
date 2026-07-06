@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Partner draw and compensation payroll for accounting firms: K-1 guaranteed payments, W-2 salary for S-corp partners, reasonable compensation, and entity",
     url: "https://www.beghr.com/blog/payroll/accounting-cpa/accounting-firm-partner-draw-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-accounting-cpa-accounting-firm-partner-draw-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Accounting Firm Partner Draw Payroll (K-1 vs W-2) | BEG", description: "Partner draw payroll for accounting firms: K-1 vs W-2, reasonable comp, and entity structure. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Accounting Firm Partner Draw Payroll (K-1 vs W-2) | BEG", description: "Partner draw payroll for accounting firms: K-1 vs W-2, reasonable comp, and entity structure. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-accounting-cpa-accounting-firm-partner-draw-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function AccountingFirmPartnerDrawPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-accounting-cpa-accounting-firm-partner-draw-payroll.webp" alt={`An accountant reviewing spreadsheets and documents at a desk`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -181,6 +185,7 @@ export default function AccountingFirmPartnerDrawPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-accounting-cpa-accounting-firm-partner-draw-payroll.webp",
         "headline": "Partner Draw and Compensation Payroll for Accounting Firms: K-1, W-2, and Reasonable Comp",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

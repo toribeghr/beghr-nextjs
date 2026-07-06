@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in',
     url: 'https://www.beghr.com/blog/construction-hiring/construction-job-description',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-construction-hiring-construction-job-description.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Construction PM Job Description: What Top PMs Skip | BEG', description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Construction PM Job Description: What Top PMs Skip | BEG', description: 'Most construction JDs list certifications and skip delivery record. How to write a construction PM or superintendent job description that brings in', images: ['https://www.beghr.com/blog-images/blog-construction-hiring-construction-job-description.webp'] },
 };
 
 
@@ -53,6 +53,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-construction-hiring-construction-job-description.webp" alt={`A real construction site, workers in hard hats and hi-vis vests reviewing plans`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

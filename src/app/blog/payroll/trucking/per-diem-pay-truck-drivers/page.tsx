@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'How to structure per diem pay for truck drivers correctly -- IRS accountable plan rules, the 2025 rate, how per diem reduces payroll taxes, and common se...',
     url: 'https://www.beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-trucking-per-diem-pay-truck-drivers.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Per Diem Pay for Truck Drivers: What Nobody Tells You | BEG', description: 'How to structure per diem pay for truck drivers correctly -- IRS accountable plan rules, the 2025 rate, how per diem reduces payroll taxes, and common se...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Per Diem Pay for Truck Drivers: What Nobody Tells You | BEG', description: 'How to structure per diem pay for truck drivers correctly -- IRS accountable plan rules, the 2025 rate, how per diem reduces payroll taxes, and common se...', images: ['https://www.beghr.com/blog-images/blog-payroll-trucking-per-diem-pay-truck-drivers.webp'] },
 
 };
 
@@ -51,7 +51,8 @@ export default function PerDiemTruckDriversPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-trucking-per-diem-pay-truck-drivers.webp", "headline": "Per Diem Pay for Truck Drivers: IRS Rules and Payroll Setup | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/trucking/per-diem-pay-truck-drivers"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,6 +65,10 @@ export default function PerDiemTruckDriversPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-trucking-per-diem-pay-truck-drivers.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

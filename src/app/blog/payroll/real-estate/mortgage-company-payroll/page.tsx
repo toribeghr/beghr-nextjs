@@ -74,7 +74,7 @@ export default function MortgageCompanyPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-payroll-real-estate-mortgage-company-payroll.webp" alt={`Mortgage Company Payroll, LO Commission (What to Know)`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-payroll-real-estate-mortgage-company-payroll.webp" alt={`A real estate agent showing a modern home to clients`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -174,6 +174,7 @@ export default function MortgageCompanyPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-real-estate-mortgage-company-payroll.webp",
         "headline": "Mortgage Company Payroll: Loan Officer Commission, Dodd-Frank Rules, and Draw Programs (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

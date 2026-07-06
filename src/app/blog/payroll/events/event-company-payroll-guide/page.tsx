@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Event company payroll: seasonal mass hire, same-day pay, W-2 vs 1099 classification, multi-state touring compliance, and California AB5 rules.",
     url: "https://www.beghr.com/blog/payroll/events/event-company-payroll-guide",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-events-event-company-payroll-guide.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Event Company Payroll in 2026: Seasonal Crew Costs | BEG", description: "Event company payroll: seasonal crews, W-2 vs 1099, multi-state touring compliance, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Event Company Payroll in 2026: Seasonal Crew Costs | BEG", description: "Event company payroll: seasonal crews, W-2 vs 1099, multi-state touring compliance, and AB5. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-events-event-company-payroll-guide.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function EventCompanyPayrollGuidePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-events-event-company-payroll-guide.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -188,6 +192,7 @@ export default function EventCompanyPayrollGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-events-event-company-payroll-guide.webp",
         "headline": "Event Company Payroll Guide: Seasonal Crews, 1099 vs W-2, and Multi-State Compliance (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

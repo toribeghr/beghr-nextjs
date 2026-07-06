@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "How to handle leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding. BEG managed payroll at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/property-management/property-management-commission-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-property-management-property-management-commission-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Property Management Commission Payroll (Full Breakdown) | BEG", description: "Leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding for property management.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Property Management Commission Payroll (Full Breakdown) | BEG", description: "Leasing agent commission payroll: splits, chargebacks, reconciliation, and tax withholding for property management.", images: ["https://www.beghr.com/blog-images/blog-payroll-property-management-property-management-commission-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function PropertyManagementCommissionPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-property-management-property-management-commission-payroll.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -154,6 +158,7 @@ export default function PropertyManagementCommissionPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-property-management-property-management-commission-payroll.webp",
         "headline": "Leasing Agent Commission Payroll: How to Handle Splits, Chargebacks, and Reconciliation",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

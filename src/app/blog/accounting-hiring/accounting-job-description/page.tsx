@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and how to write a JD that fills the role faster.',
     url: 'https://www.beghr.com/blog/accounting-hiring/accounting-job-description',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-accounting-hiring-accounting-job-description.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Accounting Job Description: What Candidates Notice First | BEG', description: 'Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and how to write a JD that fills the role faster.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Accounting Job Description: What Candidates Notice First | BEG', description: 'Most accounting job descriptions repel the best candidates. Learn what to include, what to cut, and how to write a JD that fills the role faster.', images: ['https://www.beghr.com/blog-images/blog-accounting-hiring-accounting-job-description.webp'] },
 };
 
 
@@ -45,6 +45,10 @@ export default function AccountingJobDescriptionPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-accounting-hiring-accounting-job-description.webp" alt={`An accountant reviewing spreadsheets and documents at a desk`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.8', fontSize: '1.05rem' }}>

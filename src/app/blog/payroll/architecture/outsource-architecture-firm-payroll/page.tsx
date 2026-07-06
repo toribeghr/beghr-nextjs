@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Why architecture firms outsource payroll: project coding, multi-state licensed staff, partner structures, and compliance.",
     url: "https://www.beghr.com/blog/payroll/architecture/outsource-architecture-firm-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-architecture-outsource-architecture-firm-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Outsource Architecture Firm Payroll (What to Know) | BEG", description: "Why architecture firms outsource payroll and how fast they can onboard. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Outsource Architecture Firm Payroll (What to Know) | BEG", description: "Why architecture firms outsource payroll and how fast they can onboard. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-architecture-outsource-architecture-firm-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function OutsourceArchitectureFirmPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-architecture-outsource-architecture-firm-payroll.webp" alt={`Architects reviewing building models and blueprints in a studio`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -177,6 +181,7 @@ export default function OutsourceArchitectureFirmPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-architecture-outsource-architecture-firm-payroll.webp",
         "headline": "Why Architecture Firms Outsource Payroll",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

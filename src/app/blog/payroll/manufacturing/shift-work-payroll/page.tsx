@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Shift work payroll: differentials, rotating schedules, 24/7 overtime, and FLSA compliance. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/manufacturing/shift-work-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-manufacturing-shift-work-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Shift Work Payroll: The Truth About 24/7 Overtime | BEG", description: "Shift work payroll: differentials, rotating schedules, 24/7 overtime, and FLSA compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Shift Work Payroll: The Truth About 24/7 Overtime | BEG", description: "Shift work payroll: differentials, rotating schedules, 24/7 overtime, and FLSA compliance. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-manufacturing-shift-work-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function ShiftWorkPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-manufacturing-shift-work-payroll.webp" alt={`A clean modern factory floor with workers operating machinery`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -170,6 +174,7 @@ export default function ShiftWorkPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-manufacturing-shift-work-payroll.webp",
         "headline": "Shift Work Payroll: Differentials, Rotating Schedules, and 24/7 Operations Overtime (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

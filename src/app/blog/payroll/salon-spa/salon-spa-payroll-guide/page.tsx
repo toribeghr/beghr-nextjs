@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Salon and spa payroll guide: booth rental classification, commission payroll, tip credit, and W-2 vs 1099 for stylists and estheticians. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/salon-spa/salon-spa-payroll-guide",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-salon-spa-salon-spa-payroll-guide.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Salon and Spa Payroll Guide for 2026 | BEG", description: "Salon and spa payroll: booth rental, W-2 stylists, commission, tip credit, and cosmetology wage rules.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Salon and Spa Payroll Guide for 2026 | BEG", description: "Salon and spa payroll: booth rental, W-2 stylists, commission, tip credit, and cosmetology wage rules.", images: ["https://www.beghr.com/blog-images/blog-payroll-salon-spa-salon-spa-payroll-guide.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function SalonSpaPayrollGuidePage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-salon-spa-salon-spa-payroll-guide.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -154,6 +158,7 @@ export default function SalonSpaPayrollGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-salon-spa-salon-spa-payroll-guide.webp",
         "headline": "Salon and Spa Payroll Guide: Booth Rental, Commission, Tips, and W-2 vs 1099 (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

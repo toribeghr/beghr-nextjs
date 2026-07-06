@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'How to Manage Payroll Across Multiple States. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.',
     url: 'https://www.beghr.com/blog/payroll/how-to/how-to-manage-payroll-multiple-states',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-how-to-how-to-manage-payroll-multiple-states.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'How to Manage Payroll Across Multiple States | BEG', description: 'How to Manage Payroll Across Multiple States. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'How to Manage Payroll Across Multiple States | BEG', description: 'How to Manage Payroll Across Multiple States. Step-by-step guidance from BEG managed payroll specialists. Questions? Get instant pricing at beghr.com.', images: ['https://www.beghr.com/blog-images/blog-payroll-how-to-how-to-manage-payroll-multiple-states.webp'] },
 };
 
 const faqs = [
@@ -53,7 +53,8 @@ export default function Page() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "How to Manage Payroll Across Multiple States | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/how-to/how-to-manage-payroll-multiple-states"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-how-to-how-to-manage-payroll-multiple-states.webp", "headline": "How to Manage Payroll Across Multiple States | BEG", "datePublished": "2026-06-28", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/how-to/how-to-manage-payroll-multiple-states"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -67,6 +68,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-how-to-how-to-manage-payroll-multiple-states.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

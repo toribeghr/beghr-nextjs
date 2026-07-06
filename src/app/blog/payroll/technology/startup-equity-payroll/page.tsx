@@ -75,7 +75,7 @@ export default function StartupEquityPayrollPage() {
       </section>
 
       <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
-        <img src="/blog-images/blog-payroll-technology-startup-equity-payroll.webp" alt={`Startup Equity Payroll: RSUs, Options and 83(b)`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
+        <img src="/blog-images/blog-payroll-technology-startup-equity-payroll.webp" alt={`A modern tech office, software team collaborating at workstations`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -173,6 +173,7 @@ export default function StartupEquityPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-technology-startup-equity-payroll.webp",
         "headline": "Startup Payroll with Equity Compensation: Stock Options, RSUs, and 83(b) Elections (2026)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

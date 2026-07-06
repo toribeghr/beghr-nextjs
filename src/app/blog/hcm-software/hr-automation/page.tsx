@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connec...',
     url: 'https://www.beghr.com/blog/hcm-software/hr-automation',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-hcm-software-hr-automation.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'HR Automation 2026: What isolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connec...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'HR Automation 2026: What isolved Actually Does | BEG', description: 'What HR automation actually looks like in 2026. How isolved People Cloud automates payroll, onboarding, compliance, and ACA tracking. The isolved Connec...', images: ['https://www.beghr.com/blog-images/blog-hcm-software-hr-automation.webp'] },
 
 };
 
@@ -109,7 +109,8 @@ const bestFitRows = [
 export default function HRAutomationPage() {
   return (
     <article className="blog-post">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "HR Automation 2026: What isolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/hr-automation"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-hcm-software-hr-automation.webp", "headline": "HR Automation 2026: What isolved Actually Does | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/hcm-software/hr-automation"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-single">
@@ -123,6 +124,10 @@ export default function HRAutomationPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-hcm-software-hr-automation.webp" alt={`An HR team reviewing employee documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '840px', lineHeight: '1.6' }}>

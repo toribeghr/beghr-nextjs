@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll -- and how to avoid the most common co...',
     url: 'https://www.beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll',
     siteName: 'Business Executive Group',
-    images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
+    images: [{ url: 'https://www.beghr.com/blog-images/blog-payroll-auto-dealership-dealer-commission-payroll.webp', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Dealer Commission Payroll (Draw and Clawback) | BEG', description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll -- and how to avoid the most common co...', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Dealer Commission Payroll (Draw and Clawback) | BEG', description: 'How to process draw-against-commission pay, F&I chargebacks, and flat-rate compensation in auto dealership payroll -- and how to avoid the most common co...', images: ['https://www.beghr.com/blog-images/blog-payroll-auto-dealership-dealer-commission-payroll.webp'] },
 
 };
 
@@ -51,7 +51,8 @@ export default function DealerCommissionPayrollPage() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article", "headline": "Dealer Commission Payroll | How to Process Draw & Clawback | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "Article",
+        "image": "https://beghr.com/blog-images/blog-payroll-auto-dealership-dealer-commission-payroll.webp", "headline": "Dealer Commission Payroll | How to Process Draw & Clawback | BEG", "datePublished": "2026-06-25", "dateModified": "2026-06-28", "author": {"@type": "Person", "name": "Anthony Moretti", "jobTitle": "VP of Sales", "url": "https://www.linkedin.com/in/theanthonymoretti"}, "publisher": {"@type": "Organization", "name": "Business Executive Group", "logo": {"@type": "ImageObject", "url": "https://www.beghr.com/assets/beg-header-image.png"}}, "mainEntityOfPage": "https://www.beghr.com/blog/payroll/auto-dealership/dealer-commission-payroll"}) }} />
       <section className="hero">
         <div className="container">
           <div className="hero-split">
@@ -64,6 +65,10 @@ export default function DealerCommissionPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-auto-dealership-dealer-commission-payroll.webp" alt={`Business professionals reviewing payroll and HR documents in a bright modern office`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: '820px', paddingTop: '3rem', paddingBottom: '4rem' }}>

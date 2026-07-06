@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     description: "Why accounting firms outsource payroll: partner structures, busy season overtime, multi-state remote staff, and year-end coordination. BEG at $25-$45 PEPM.",
     url: "https://www.beghr.com/blog/payroll/accounting-cpa/outsource-accounting-firm-payroll",
     siteName: "Business Executive Group",
-    images: [{ url: "https://www.beghr.com/assets/og-image.png", width: 1200, height: 630, alt: "Business Executive Group" }],
+    images: [{ url: "https://www.beghr.com/blog-images/blog-payroll-accounting-cpa-outsource-accounting-firm-payroll.webp", width: 1200, height: 630, alt: "Business Executive Group" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", title: "Outsource Accounting Firm Payroll (What Changes) | BEG", description: "Why accounting firms outsource their own payroll. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/assets/og-image.png"] },
+  twitter: { card: "summary_large_image", title: "Outsource Accounting Firm Payroll (What Changes) | BEG", description: "Why accounting firms outsource their own payroll. BEG at $25-$45 PEPM.", images: ["https://www.beghr.com/blog-images/blog-payroll-accounting-cpa-outsource-accounting-firm-payroll.webp"] },
 };
 
 const faqs = [
@@ -72,6 +72,10 @@ export default function OutsourceAccountingFirmPayrollPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{ maxWidth: "980px", marginTop: "0.5rem" }}>
+        <img src="/blog-images/blog-payroll-accounting-cpa-outsource-accounting-firm-payroll.webp" alt={`An accountant reviewing spreadsheets and documents at a desk`} width={1344} height={768} style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }} />
       </section>
 
       <section className="container" style={{ maxWidth: "820px", paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -153,6 +157,7 @@ export default function OutsourceAccountingFirmPayrollPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "image": "https://beghr.com/blog-images/blog-payroll-accounting-cpa-outsource-accounting-firm-payroll.webp",
         "headline": "Why Accounting Firms Outsource Payroll (Hint: They Know What It Costs to Do It Wrong)",
         "author": { "@type": "Person", "name": "Anthony Moretti" },
         "publisher": { "@type": "Organization", "name": "Business Executive Group", "url": "https://www.beghr.com" },

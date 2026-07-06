@@ -1,9 +1,8 @@
 import { NextResponse } from 'next/server';
-import { readFile } from 'node:fs/promises';
-import path from 'node:path';
 import PizZip from 'pizzip';
 import Docxtemplater from 'docxtemplater';
 import { getTemplateBySlug, type Template } from '@/lib/templates';
+import { getTemplateFileBytes } from '@/lib/template-files/registry';
 import { validateWorkEmail } from '@/lib/emailDomains';
 import { saveLead } from '@/lib/leads';
 
@@ -89,10 +88,8 @@ export async function POST(req: Request) {
     );
   }
 
-  let fileBuffer: Buffer;
-  try {
-    fileBuffer = await readFile(path.join(process.cwd(), template.templateFile));
-  } catch {
+  const fileBuffer = getTemplateFileBytes(template.templateFile);
+  if (!fileBuffer) {
     return NextResponse.json(
       { success: false, error: 'Template source is unavailable.' },
       { status: 500 }

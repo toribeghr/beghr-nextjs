@@ -159,6 +159,29 @@ export default function Footer() {
 
           {/* HCM Software */}
           <div className="footer-col">
+            <h5 className="footer-col-heading">Learning Management</h5>
+            <Link href="/services/lms-learning-management" className="footer-link footer-link--overview">Overview</Link>
+            <Link href="/services/lms-learning-management/lms-pricing" className="footer-link">Pricing</Link>
+            <Link href="/services/lms-learning-management/isolved-learn-grow" className="footer-link">isolved Learn &amp; Grow</Link>
+            <Link href="/services/lms-learning-management/lms-for-compliance-training" className="footer-link">Compliance Training</Link>
+            <Link href="/services/lms-learning-management/employee-onboarding-lms" className="footer-link">Employee Onboarding</Link>
+            <Link href="/services/lms-learning-management/lms-vs-diy-training" className="footer-link">LMS vs DIY Training</Link>
+            <Link href="/services/lms-learning-management/healthcare" className="footer-link">Healthcare</Link>
+            <Link href="/services/lms-learning-management/construction" className="footer-link">Construction</Link>
+            <Link href="/services/lms-learning-management/manufacturing" className="footer-link">Manufacturing</Link>
+            <Link href="/services/lms-learning-management/multi-unit-restaurant" className="footer-link">Multi-Unit Restaurants</Link>
+            <Link href="/services/lms-learning-management/senior-care" className="footer-link">Senior Care</Link>
+            <Link href="/services/lms-learning-management/home-health" className="footer-link">Home Health</Link>
+            <Link href="/services/lms-learning-management/accounting-cpa" className="footer-link">Accounting &amp; CPA Firms</Link>
+            <Link href="/services/lms-learning-management/legal" className="footer-link">Law Firms</Link>
+            <Link href="/services/lms-learning-management/finance" className="footer-link">Finance</Link>
+            <Link href="/services/lms-learning-management/technology" className="footer-link">Technology</Link>
+            <Link href="/services/lms-learning-management/trucking" className="footer-link">Trucking</Link>
+            <Link href="/services/lms-learning-management/childcare" className="footer-link">Childcare</Link>
+            <Link href="/services/lms-learning-management/staffing-agency" className="footer-link">Staffing Agencies</Link>
+            <Link href="/services/lms-learning-management/veterinary" className="footer-link">Veterinary</Link>
+          </div>
+          <div className="footer-col">
             <h5 className="footer-col-heading">HCM Software</h5>
             <Link href="/services/hcm-software" className="footer-link footer-link--overview">Overview</Link>
             <Link href="/services/hcm-software/legal" className="footer-link">Law Firms</Link>

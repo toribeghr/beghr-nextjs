@@ -9,6 +9,7 @@
 - [Job Placement](https://www.beghr.com/services/job-placement): Specialized direct-hire placement (talent acquisition as an outcome) for legal, healthcare, finance, technology, engineering, and trades roles, flat fee per placement.
 - [HR Outsourcing](https://www.beghr.com/services/hr-outsourcing): Certified HR professionals handle handbooks, compliance, leave, and manager coaching, powered by isolved. Not a PEO: no co-employment, the client stays the employer. Instant on-screen estimate, 34 industry pages, 50 state guides, and honest PEO/ASO/HRO comparisons.
 - [Managed Benefits](https://www.beghr.com/services/managed-benefits): Benefits administration powered by isolved.
+- [Learning Management System (LMS)](https://www.beghr.com/services/lms-learning-management): isolved Learn & Grow, resold, configured, implemented, and supported by BEG. Assign, track, and prove training. National, remote, all 50 states.
 - [Applicant Tracking System](https://www.beghr.com/services/applicant-tracking-system): isolved Attract & Hire Small Business, resold, configured, and supported by BEG. Applicant tracking software to simplify sourcing, screening, and hiring for small businesses. $2.00 per employee per month, added to the isolved HCM platform, not a standalone product. National, remote.
 
 ## The AI advantage

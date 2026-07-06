@@ -49,6 +49,7 @@ function detectVertical(pathname) {
   if (pathname.startsWith("/services/hcm-software")) return "HCM Software";
   if (pathname.startsWith("/services/hr-outsourcing")) return "HR Outsourcing";
   if (pathname.startsWith("/services/managed-benefits")) return "Managed Benefits";
+  if (pathname.startsWith("/services/lms-learning-management")) return "LMS";
   if (pathname.startsWith("/services/applicant-tracking-system")) return "ATS";
   if (pathname.startsWith("/network") || pathname.includes("dfwleadershipconnect")) return "Network";
   if (pathname.startsWith("/partners")) return "Partners";
@@ -61,7 +62,7 @@ function detectVertical(pathname) {
 function detectIndustry(pathname) {
   const parts = pathname.split("/").filter(Boolean);
   const last = parts[parts.length - 1];
-  const knownSections = new Set(["managed-payroll", "job-placement", "hcm-software", "hr-outsourcing", "managed-benefits", "applicant-tracking-system"]);
+  const knownSections = new Set(["managed-payroll", "job-placement", "hcm-software", "hr-outsourcing", "managed-benefits", "applicant-tracking-system", "lms-learning-management"]);
   if (parts.length >= 3 && knownSections.has(parts[1]) && !["pricing", "cost-calculator", "roi-calculator", "ai-connector"].includes(last)) {
     return last;
   }

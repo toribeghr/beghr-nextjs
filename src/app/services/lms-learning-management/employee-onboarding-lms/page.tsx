@@ -40,7 +40,7 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month on your isolved platform, with volume pricing. Get an instant estimate on screen in about 90 seconds.',
+    'isolved Learn & Grow is included in the Grow tier of isolved HCM, at no separate module charge, starting at $45 per employee per month. Get an instant estimate on screen in about 90 seconds.',
   ],
 ];
 
@@ -93,7 +93,7 @@ export default function EmployeeOnboardingLmsPage() {
         title="Get new hires productive in days, not weeks"
         description="A strong first week decides whether a new hire stays. isolved Learn & Grow, configured by BEG, gives every new hire a consistent onboarding path, including your own content, and connects it to HR and payroll so nothing gets re-keyed."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'Consistent', label: 'The same strong start for every hire' },
           { value: 'Faster', label: 'Productive in days, not weeks' },
@@ -209,7 +209,7 @@ export default function EmployeeOnboardingLmsPage() {
               <h2>See your isolved Learn &amp; Grow price before you talk to anyone</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>

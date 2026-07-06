@@ -36,7 +36,7 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does it cost?',
-    'isolved Learn & Grow is priced per employee per month on your isolved platform, with volume pricing. Get an instant estimate on screen in about 90 seconds.',
+    'isolved Learn & Grow is included in the Grow tier of isolved HCM, at no separate module charge, starting at $45 per employee per month. Get an instant estimate on screen in about 90 seconds.',
   ],
 ];
 
@@ -89,7 +89,7 @@ export default function LmsForComplianceTrainingPage() {
         title="Assign, track, and prove compliance training without the binder"
         description="Safety, harassment, HIPAA, and industry-specific training cannot lapse, and a sign-in sheet is not proof. isolved Learn & Grow, configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you an audit-ready record on demand."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'Assigned', label: 'By role, with due dates and reminders' },
           { value: 'Tracked', label: 'Completions and renewals, automatically' },
@@ -205,7 +205,7 @@ export default function LmsForComplianceTrainingPage() {
               <h2>See your isolved Learn &amp; Grow price before you talk to anyone</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>

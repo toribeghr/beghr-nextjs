@@ -18,7 +18,7 @@ const FAQS: [string, string][] = [
   ['Does Illinois require sexual harassment training?', 'All employers with employees working in Illinois must provide annual interactive sexual-harassment-prevention training to every employee, using the state model program or an equivalent that meets Illinois Human Rights Act minimum standards; restaurants and bars face additional supplemental training rules.'],
   ['How do we prove training compliance in Illinois?', 'isolved Learn & Grow assigns required courses by role, tracks completion and renewal dates, and produces an audit-ready record on demand, so proving compliance is a report you pull, not a scramble.'],
   ['Can we upload our own training content?', 'Yes. Alongside the isolved course library, you can upload your own videos, documents, and quizzes, so state-specific and company-specific training lives in one system.'],
-  ['What does it cost?', 'isolved Learn & Grow is priced per employee per month on your isolved HCM platform, with volume pricing. Answer a few questions and get an instant estimate on screen in about 90 seconds.'],
+  ['What does it cost?', 'isolved Learn & Grow is bundled into the Grow tier of isolved HCM at no separate module charge, starting at $45 per employee per month. Answer a few questions and get an instant estimate on screen in about 90 seconds.'],
   ['Do you serve employers in Illinois?', 'Yes. BEG configures and supports isolved Learn & Grow for Illinois employers, delivered remotely, and for teams across all 50 states.'],
 ];
 
@@ -35,7 +35,7 @@ export default function LmsStateIllinoisPage() {
         title="Illinois requires harassment-prevention training. Track it and prove it in one system."
         description="Illinois mandates sexual-harassment-prevention training, and a sign-in sheet is not proof. isolved Learn & Grow, configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you an audit-ready record on demand, for Illinois teams and all 50 states."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'Required', label: 'Harassment-prevention training in Illinois' },
           { value: 'Tracked', label: 'Completions and renewals, automatically' },
@@ -106,7 +106,7 @@ export default function LmsStateIllinoisPage() {
               <h2>See your isolved Learn &amp; Grow price before you talk to anyone</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>

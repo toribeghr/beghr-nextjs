@@ -18,7 +18,7 @@ const FAQS: [string, string][] = [
   ['Does Maine require sexual harassment training?', 'Employers with 15 or more employees must provide sexual-harassment-prevention training to all employees within 1 year of hire, with additional supervisor-specific training within 1 year of taking on supervisory duties; annual written notice to employees is also required.'],
   ['How do we prove training compliance in Maine?', 'isolved Learn & Grow assigns required courses by role, tracks completion and renewal dates, and produces an audit-ready record on demand, so proving compliance is a report you pull, not a scramble.'],
   ['Can we upload our own training content?', 'Yes. Alongside the isolved course library, you can upload your own videos, documents, and quizzes, so state-specific and company-specific training lives in one system.'],
-  ['What does it cost?', 'isolved Learn & Grow is priced per employee per month on your isolved HCM platform, with volume pricing. Answer a few questions and get an instant estimate on screen in about 90 seconds.'],
+  ['What does it cost?', 'isolved Learn & Grow is bundled into the Grow tier of isolved HCM at no separate module charge, starting at $45 per employee per month. Answer a few questions and get an instant estimate on screen in about 90 seconds.'],
   ['Do you serve employers in Maine?', 'Yes. BEG configures and supports isolved Learn & Grow for Maine employers, delivered remotely, and for teams across all 50 states.'],
 ];
 
@@ -35,7 +35,7 @@ export default function LmsStateMainePage() {
         title="Maine requires harassment-prevention training. Track it and prove it in one system."
         description="Maine mandates sexual-harassment-prevention training, and a sign-in sheet is not proof. isolved Learn & Grow, configured by BEG, assigns required courses by role, tracks completions and renewals, and gives you an audit-ready record on demand, for Maine teams and all 50 states."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'Required', label: 'Harassment-prevention training in Maine' },
           { value: 'Tracked', label: 'Completions and renewals, automatically' },
@@ -102,7 +102,7 @@ export default function LmsStateMainePage() {
               <h2>See your isolved Learn &amp; Grow price before you talk to anyone</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>

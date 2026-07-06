@@ -210,7 +210,7 @@ function midCta(eyebrow, h2, soft) {
               <h2>${amp(h2)}</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>`;
@@ -243,7 +243,7 @@ ${schemaBlocks}
         title="${esc(title)}"
         description="${esc(description)}"
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
 ${stats}
         ]}
@@ -321,7 +321,7 @@ function genIndustry(slug, d) {
   const authority = (dd.authority || []).concat([LMS_WIKI]);
   const faqs = (dd.faq || []).concat([
     ['Can we upload our own training content?', `Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, so your specific ${nl} training lives in one system.`],
-    ['What does isolved Learn & Grow cost?', 'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.'],
+    ['What does isolved Learn & Grow cost?', 'It is bundled into the Grow tier of isolved HCM at no separate module charge. Your total is the Grow tier per-employee rate, which starts at $45 per employee per month and includes the full talent suite. Get an instant estimate on screen in about 90 seconds.'],
     ['Do you serve employers in my state?', `Yes. BEG configures and supports isolved Learn & Grow for ${nl} employers in all 50 states, delivered remotely nationwide.`],
   ]);
   const schemaExtra = [ articleSchema(title, metaDesc, url), breadcrumbSchema(`${name} LMS`, url) ].join('\n');
@@ -422,9 +422,9 @@ function genHub() {
     ['Is this isolved Learn & Grow?', 'Yes. BEG resells, configures, implements, and supports isolved Learn & Grow, the learning management module built into the isolved platform. It is the software running behind this service.'],
     ['Does BEG build the software?', 'No. isolved builds and maintains Learn & Grow. BEG resells it, configures it to your roles and training requirements, and provides ongoing support so your team gets it running correctly.'],
     ['Can we upload our own training content?', 'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes, and add social learning and gamification to keep people engaged.'],
-    ['What does it cost?', 'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Volume pricing lowers the per-employee rate as your headcount grows. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.'],
+    ['What does it cost?', 'isolved Learn & Grow is bundled into the Grow tier of isolved HCM at no separate module charge. Your total is the Grow tier per-employee rate, which starts at $45 per employee per month and includes the full talent suite alongside Learning Management. Answer a few questions and get an instant estimate on screen in about 90 seconds, no call required.'],
     ['What is a learning management system used for?', 'A learning management system is used to host training courses, assign them by role, deliver them on any device, and track who completed what. Companies use it for compliance training, onboarding, and ongoing professional development in one place.'],
-    ['Is isolved Learn & Grow a good LMS for a small business?', 'Yes. Because Learn & Grow is a module on the isolved platform, a small business gets a full LMS without buying and integrating separate software. BEG configures and supports it, and volume pricing keeps the per-employee cost low as you grow.'],
+    ['Is isolved Learn & Grow a good LMS for a small business?', 'Yes. Because Learn & Grow is a module on the isolved platform, a small business gets a full LMS without buying and integrating separate software. BEG configures and supports it, and it is bundled into the Grow tier of isolved HCM at no separate module charge.'],
     ['Do you serve my state?', 'Yes. BEG supports learning management for companies in all 50 states, configured and delivered remotely.'],
   ];
 
@@ -515,7 +515,7 @@ ${industryCards}
               </Link>
               <Link href="/services/${HUB}/lms-pricing" className="card-link reveal">
                 <h3>LMS pricing</h3>
-                <p>How per-learner pricing works and what shapes your number.</p>
+                <p>How Learning Management is bundled into isolved HCM pricing.</p>
               </Link>
             </div>
           </div>
@@ -560,7 +560,7 @@ ${industryCards}
   const midCtaHub = `        {/* MID-PAGE CTA */}
         <section className="section">
           <div className="container" style={{ textAlign: 'center' }}>
-            <PricingCta service="hcm-software" label="Get Instant Pricing" />
+            <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
           </div>
         </section>`;
 
@@ -659,7 +659,7 @@ function genLearnGrow() {
     ['What is isolved Learn & Grow?', 'isolved Learn & Grow is the learning management system built into the isolved platform. It hosts training courses, lets you upload your own content, assigns training by role, and tracks completion, with social learning and gamification built in.'],
     ['Does BEG or isolved build it?', 'isolved builds and maintains Learn & Grow. BEG resells, configures, implements, and supports it so it fits your roles, courses, and workflow from day one.'],
     ['Can we upload our own courses?', 'Yes. Alongside the isolved course library, you can upload your own videos, documents, slide decks, and quizzes.'],
-    ['What does it cost?', 'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.'],
+    ['What does it cost?', 'It is bundled into the Grow tier of isolved HCM at no separate module charge. Your total is the Grow tier per-employee rate, which starts at $45 per employee per month and includes the full talent suite. Get an instant estimate on screen in about 90 seconds.'],
   ];
   const sections = [
     featureCards('The Platform', 'What isolved Learn & Grow does', [
@@ -689,46 +689,13 @@ function genLearnGrow() {
     heroStats: [ { value: 'One platform', label: 'Courses, tracking, and reporting together' }, { value: 'Your content', label: 'Upload your own training too' }, { value: 'isolved', label: 'Built in, configured by BEG' } ], sections });
 }
 
-function genPricing() {
-  const slug = 'lms-pricing'; const url = `${CANON}/${slug}`;
-  const faqs = [
-    ['How is isolved Learn & Grow priced?', 'Per employee per month, added to your isolved HCM platform rather than sold on its own. The per-employee rate drops as your headcount grows.'],
-    ['Is there a separate LMS bill?', 'No. Learn & Grow is a module on your isolved platform, so it is part of your platform pricing rather than a standalone invoice to manage.'],
-    ['Can I see my exact price without a call?', 'Yes. Answer a few questions and get an instant estimate on screen in about 90 seconds. Get Instant Pricing does the math for you.'],
-    ['Does BEG charge for setup?', 'BEG configures and implements Learn & Grow as part of the relationship. Any one-time setup is quoted transparently, never a surprise professional-services invoice.'],
-  ];
-  const sections = [
-    sectionText('How Pricing Works', 'Priced per learner, on the platform you already run', [
-      'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold as a standalone product. That means training lives on the same system as payroll, HR, and onboarding, with one relationship and one bill.',
-      'The per-employee rate drops as your headcount grows, so larger teams pay less per person. Your exact number depends on how many employees are on the platform and how you configure it.',
-    ]),
-    tierTable(),
-    solveCards('What Shapes Your Number', 'Three things that determine your monthly price', [
-      { title: 'How many employees', body: 'Pricing is per employee per month, and the rate drops at each volume tier, so headcount is the biggest driver.' },
-      { title: 'Your configuration', body: 'Whether you use the course library, upload your own content, and how many required courses you run all shape setup.' },
-      { title: 'The rest of your platform', body: 'Learn & Grow is added to isolved HCM, so your total reflects the platform, not a separate LMS contract.' },
-    ], true),
-    sourcesLine([ATD_SRC, LMS_WIKI]),
-    midCta('Ready?', 'Get your exact isolved Learn & Grow price in about 90 seconds', false),
-    faqBlock('LMS pricing, answered'),
-    hubBackLink(),
-  ].join('\n');
-  return pageFile({ fn: 'LmsPricingPage', slug, imports: [],
-    metaTitle: 'LMS Pricing | isolved Learn & Grow Cost Per Employee | BEG',
-    metaDesc: 'How isolved Learn & Grow pricing works: per employee per month, volume pricing that drops as you grow, added to your isolved platform. Get an instant estimate.',
-    url, faqs, schemaExtra: [articleSchema('isolved Learn & Grow pricing', 'How isolved Learn & Grow LMS pricing works, per employee per month with volume discounts.', url), breadcrumbSchema('LMS Pricing', url)].join('\n'),
-    eyebrow: 'Learning Management · Pricing', title: 'isolved Learn & Grow pricing',
-    description: 'isolved Learn & Grow is priced per employee per month and added to your isolved HCM platform rather than sold on its own. Per-learner pricing drops as your headcount grows. Here is how it works, and how to get your exact number in about 90 seconds.',
-    heroStats: [ { value: 'Per learner', label: 'Priced per employee per month' }, { value: 'Volume pricing', label: 'The rate drops as you grow' }, { value: '90 sec', label: 'To your instant estimate' } ], sections });
-}
-
 function genVsDiy() {
   const slug = 'lms-vs-diy-training'; const url = `${CANON}/${slug}`;
   const faqs = [
     ['What is wrong with tracking training in spreadsheets?', 'Spreadsheets and sign-in sheets record attendance, not completion, scores, or renewals. They do not remind anyone, do not prove compliance, and break down the moment you have more than a handful of people or requirements.'],
     ['When do teams outgrow DIY training?', 'Usually when compliance requirements, turnover, or multiple locations make manual tracking too slow and too risky. If you cannot answer who is due to renew this month in a few seconds, you have outgrown it.'],
     ['What does an LMS change?', 'An LMS like isolved Learn & Grow assigns training by role, tracks completion automatically, reminds people, and produces an audit-ready record on demand.'],
-    ['What does it cost?', 'isolved Learn & Grow is priced per employee per month on your isolved platform, with volume pricing. Get an instant estimate on screen in about 90 seconds.'],
+    ['What does it cost?', 'isolved Learn & Grow is included in the Grow tier of isolved HCM, at no separate module charge, starting at $45 per employee per month. Get an instant estimate on screen in about 90 seconds.'],
   ];
   const sections = [
     statCards('Where DIY Breaks Down', 'Do-it-yourself training works until it quietly stops working', [
@@ -766,7 +733,7 @@ function genCompliance() {
     ['What compliance training can we run?', 'Safety and OSHA, harassment prevention, HIPAA, data security, and industry-specific requirements, plus any of your own required courses uploaded into the system.'],
     ['How does it prove compliance?', 'Required courses are assigned by role with due dates and renewals. Completions and pass rates are tracked, so you can produce an audit-ready record on demand.'],
     ['Can we upload our own required courses?', 'Yes. Alongside the isolved course library, upload your own videos, documents, and quizzes so your specific requirements live in the same system.'],
-    ['What does it cost?', 'isolved Learn & Grow is priced per employee per month on your isolved platform, with volume pricing. Get an instant estimate on screen in about 90 seconds.'],
+    ['What does it cost?', 'isolved Learn & Grow is included in the Grow tier of isolved HCM, at no separate module charge, starting at $45 per employee per month. Get an instant estimate on screen in about 90 seconds.'],
   ];
   const sections = [
     statCards('The Compliance Problem', 'Required training is only useful if you can prove it', [
@@ -805,7 +772,7 @@ function genOnboarding() {
     ['How long should employee onboarding take?', 'Most structured onboarding runs across the first 30 to 90 days, with the core training front-loaded into the first week. An LMS delivers that path consistently so every new hire gets the same start and reaches productivity faster.'],
     ['Can we use our own onboarding content?', 'Yes. Upload your own videos, documents, and quizzes alongside the isolved course library, and assign them automatically to new hires.'],
     ['Does it connect to payroll and HR?', 'Yes. Because Learn & Grow is part of the isolved platform, onboarding connects to HR and payroll, so a new hire is not re-keyed from one system to the next.'],
-    ['What does it cost?', 'isolved Learn & Grow is priced per employee per month on your isolved platform, with volume pricing. Get an instant estimate on screen in about 90 seconds.'],
+    ['What does it cost?', 'isolved Learn & Grow is included in the Grow tier of isolved HCM, at no separate module charge, starting at $45 per employee per month. Get an instant estimate on screen in about 90 seconds.'],
   ];
   const sections = [
     statCards('The Onboarding Problem', 'A rough first week is the fastest way to lose a new hire', [
@@ -883,12 +850,10 @@ function productSchema(url) {
             description: 'Learning management system resold, configured, implemented, and supported by Business Executive Group.',
             url: '${url}',
             offers: {
-              '@type': 'AggregateOffer',
+              '@type': 'Offer',
               priceCurrency: 'USD',
-              lowPrice: '1.50',
-              highPrice: '3.00',
-              offerCount: 9,
-              description: 'Per employee per month, added to the isolved HCM platform. Volume pricing lowers the rate as headcount grows.',
+              price: '45.00',
+              description: 'Included in the Grow tier of the isolved HCM platform at no separate module charge, starting at $45 per employee per month.',
               seller: { '@type': 'Organization', name: 'Business Executive Group' },
             },
           }),
@@ -911,7 +876,6 @@ write('page.tsx', genHub());
 
 console.log('=== LMS supporting pages ===');
 write('isolved-learn-grow/page.tsx', genLearnGrow());
-write('lms-pricing/page.tsx', genPricing());
 write('lms-vs-diy-training/page.tsx', genVsDiy());
 write('lms-for-compliance-training/page.tsx', genCompliance());
 write('employee-onboarding-lms/page.tsx', genOnboarding());

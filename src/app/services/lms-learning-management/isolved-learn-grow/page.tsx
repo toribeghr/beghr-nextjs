@@ -36,7 +36,7 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does it cost?',
-    'It is priced per employee per month and added to your isolved HCM platform. Volume pricing lowers the per-employee rate as your headcount grows. Get an instant estimate on screen in about 90 seconds.',
+    'It is bundled into the Grow tier of isolved HCM at no separate module charge. Your total is the Grow tier per-employee rate, which starts at $45 per employee per month and includes the full talent suite. Get an instant estimate on screen in about 90 seconds.',
   ],
 ];
 
@@ -84,12 +84,10 @@ export default function IsolvedLearnGrowPage() {
             description: 'Learning management system resold, configured, implemented, and supported by Business Executive Group.',
             url: 'https://www.beghr.com/services/lms-learning-management/isolved-learn-grow',
             offers: {
-              '@type': 'AggregateOffer',
+              '@type': 'Offer',
               priceCurrency: 'USD',
-              lowPrice: '1.50',
-              highPrice: '3.00',
-              offerCount: 9,
-              description: 'Per employee per month, added to the isolved HCM platform. Volume pricing lowers the rate as headcount grows.',
+              price: '45.00',
+              description: 'Included in the Grow tier of the isolved HCM platform at no separate module charge, starting at $45 per employee per month.',
               seller: { '@type': 'Organization', name: 'Business Executive Group' },
             },
           }),
@@ -112,7 +110,7 @@ export default function IsolvedLearnGrowPage() {
         title="Inside isolved Learn & Grow"
         description="isolved Learn & Grow is the learning management system built into the isolved platform. BEG resells, configures, and supports it so your team can host courses, upload your own content, assign training by role, and track every completion in one place, nationwide."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'One platform', label: 'Courses, tracking, and reporting together' },
           { value: 'Your content', label: 'Upload your own training too' },
@@ -207,7 +205,7 @@ export default function IsolvedLearnGrowPage() {
               <h2>See your isolved Learn &amp; Grow price before you talk to anyone</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>

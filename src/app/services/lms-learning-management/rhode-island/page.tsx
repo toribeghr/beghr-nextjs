@@ -18,7 +18,7 @@ const FAQS: [string, string][] = [
   ['Does Rhode Island require sexual harassment training?', 'The status is nuanced: Rhode Island requires employers with 50 or more employees to adopt a harassment policy and to train supervisory employees, but does not mandate training for all employees statewide. Verify current statute language before treating this as a full mandate. Federal EEOC guidance also applies.'],
   ['How do we prove training compliance in Rhode Island?', 'isolved Learn & Grow assigns required courses by role, tracks completion and renewal dates, and produces an audit-ready record on demand, so proving compliance is a report you pull, not a scramble.'],
   ['Can we upload our own training content?', 'Yes. Alongside the isolved course library, you can upload your own videos, documents, and quizzes, so state-specific and company-specific training lives in one system.'],
-  ['What does it cost?', 'isolved Learn & Grow is priced per employee per month on your isolved HCM platform, with volume pricing. Answer a few questions and get an instant estimate on screen in about 90 seconds.'],
+  ['What does it cost?', 'isolved Learn & Grow is bundled into the Grow tier of isolved HCM at no separate module charge, starting at $45 per employee per month. Answer a few questions and get an instant estimate on screen in about 90 seconds.'],
   ['Do you serve employers in Rhode Island?', 'Yes. BEG configures and supports isolved Learn & Grow for Rhode Island employers, delivered remotely, and for teams across all 50 states.'],
 ];
 
@@ -35,7 +35,7 @@ export default function LmsStateRhodeIslandPage() {
         title="Rhode Island training rules are nuanced. One system keeps you covered and audit-ready."
         description="Federal OSHA safety and EEOC anti-harassment training still apply to Rhode Island employers, and multi-state teams add more. isolved Learn & Grow, configured by BEG, puts every required course, assignment, and completion record in one system so your Rhode Island team stays trained and audit-ready, nationwide."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" />}
+        heroCta={<PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />}
         heroStats={[
           { value: 'One system', label: 'Training and records for Rhode Island teams' },
           { value: 'Audit-ready', label: 'Proof on demand, not a scramble' },
@@ -102,7 +102,7 @@ export default function LmsStateRhodeIslandPage() {
               <h2>See your isolved Learn &amp; Grow price before you talk to anyone</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" label="Get Instant Pricing" />
+              <PricingCta service="hcm-software" label="Get Instant Pricing" preselectModule="lms" />
             </div>
           </div>
         </section>

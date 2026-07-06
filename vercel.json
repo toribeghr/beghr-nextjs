@@ -1,6 +1,12 @@
 {
   "buildCommand": "next build",
   "outputDirectory": ".next",
+  "crons": [
+    {
+      "path": "/api/reindex",
+      "schedule": "0 8 * * *"
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

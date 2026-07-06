@@ -113,6 +113,8 @@ export async function POST(req: Request) {
       workEmail,
       phone,
       templateSlug: template.slug,
+      templateTitle: template.title,
+      category: template.category,
       timestamp: new Date().toISOString(),
     });
   } catch {

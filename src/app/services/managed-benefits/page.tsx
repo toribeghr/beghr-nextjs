@@ -73,6 +73,7 @@ export default function ManagedBenefitsPage() {
         }}
       />
       <ServicePage
+        heroVideoId="Zf-CDxr2q68"
         showHeroImage={false}
         eyebrow="Managed Benefits · Powered by isolved"
         title="Benefits administration is a full-time job. It should not be yours."

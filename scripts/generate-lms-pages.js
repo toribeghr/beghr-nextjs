@@ -573,7 +573,29 @@ ${industryCards}
           </div>
         </section>`;
 
-  const sections = [inlineSearch, pain, how, whatYouGet, whyBeg, byIndustry, explore, sourcesLine([LMS_WIKI, ISOLVED_LG, ATD_SRC], true), crossSilo, midCtaHub, faqBlock('Learning management, answered plainly')].join('\n');
+  let stateCards = '';
+  try {
+    const sd = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'src', 'lib', 'lmsStateData.json'), 'utf8'));
+    stateCards = Object.entries(sd).map(([sslug, sd2]) => `              <Link href="/services/${HUB}/${sslug}" className="card-link reveal">
+                <span className="tag">${amp(sd2.n)}</span>
+                <h3>${amp(sd2.n)}</h3>
+                <p>Employee training compliance for ${amp(sd2.n)} employers.</p>
+              </Link>`).join('\n');
+  } catch (e) {}
+  const byState = stateCards ? `        {/* BY STATE */}
+        <section className="section">
+          <div className="container">
+            <div className="head center reveal">
+              <p className="eyebrow">By State</p>
+              <h2>Employee training compliance, state by state</h2>
+            </div>
+            <div className="cards">
+${stateCards}
+            </div>
+          </div>
+        </section>` : '';
+
+  const sections = [inlineSearch, pain, how, whatYouGet, whyBeg, byIndustry, byState, explore, sourcesLine([LMS_WIKI, ISOLVED_LG, ATD_SRC], true), crossSilo, midCtaHub, faqBlock('Learning management, answered plainly')].join('\n');
 
   return pageFile({
     fn: 'LearningManagementSystemPage', slug: HUB,

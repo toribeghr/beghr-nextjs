@@ -158,6 +158,12 @@ export default function Home() {
               <p>isolved Attract &amp; Hire Small Business puts every candidate in one pipeline. $2.00 PEPM, added to isolved HCM, configured and supported by BEG. All 50 states.</p>
               <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See applicant tracking &rarr;</span>
             </Link>
+            <Link href="/services/lms-learning-management" className="card-link reveal">
+              <span className="tag">Learning Management</span>
+              <h3>Still training your team with sign-in sheets and scattered videos?</h3>
+              <p>isolved Learn &amp; Grow puts every course, assignment, and completion record in one system. Compliance training, onboarding, and upskilling, configured and supported by BEG. All 50 states.</p>
+              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See learning management &rarr;</span>
+            </Link>
           </div>
         </div>
       </section>

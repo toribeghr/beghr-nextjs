@@ -43,6 +43,18 @@ const FAQS: [string, string][] = [
     'Which is easier to leave, a TPA or a PEO?',
     'A TPA or administration service, by far. Your plans, carriers, and employer status never moved, so you swap administrators. Leaving a PEO means migrating your people off its master plans entirely.',
   ],
+  [
+    'Who is legally liable if something goes wrong with a benefit plan?',
+    'With a TPA, you remain the plan sponsor and carry fiduciary responsibility, with the administrator liable only for the operational tasks it performs under contract. With a PEO, liability splits along co-employment lines defined in the client service agreement, and a Certified PEO takes on defined federal employment tax liability under the IRS CPEO program. Either way, ask for the liability language in writing before you sign anything.',
+  ],
+  [
+    'How does self-funded health coverage work under each model?',
+    'A TPA is the standard partner for a self-funded plan: your company bears the claims risk, and the TPA processes claims, manages stop-loss coordination, and handles reporting on your behalf. Most PEOs run fully-insured master plans instead, because pooling many small employers under one self-funded plan raises separate regulatory questions. If you are already self-funded or want to be, that alone usually rules out a standard PEO.',
+  ],
+  [
+    'Is there a contract lock-in with a PEO that a TPA does not have?',
+    'Generally yes. PEO client service agreements commonly run a full plan year with renewal auto-triggers tied to open enrollment, because unwinding co-employment mid-year is disruptive for everyone. TPA and benefits administration agreements are typically vendor contracts with standard notice periods, since no employment relationship has to be unwound to switch.',
+  ],
 ];
 
 export default function TpaVsPeoPage() {
@@ -118,14 +130,18 @@ export default function TpaVsPeoPage() {
                 </thead>
                 <tbody>
                   {[
+                    ['Co-employment', 'No, never', 'Yes, structural to the model'],
                     ['Employer of record', 'You, for everything', 'Co-employment: the PEO for tax and benefits purposes'],
-                    ['Benefit plans', 'Yours, chosen with your broker, administered for you', 'PEO-sponsored master plans with pooled buying power'],
+                    ['Who owns the benefit plans', 'You do, chosen with your broker, administered for you', 'The PEO does; you and your people sit on its master plans'],
                     ['Your broker', 'Stays; the administrator works alongside', 'Usually displaced; the PEO controls carrier relationships'],
+                    ['Liability', 'You retain plan sponsor and fiduciary responsibility; administrator liable for contracted tasks only', 'Splits by the client service agreement; a Certified PEO holds defined federal employment tax liability'],
                     ['Scope', 'Operations: enrollment, accounts, COBRA, claims, filings', 'Payroll, benefits, workers comp, and HR in one bundle'],
+                    ['Self-funded plan handling', 'Core use case; TPA processes claims and coordinates stop-loss on your self-funded plan', 'Rare; most PEOs run fully-insured master plans, not client-level self-funding'],
                     ['ACA reporting', 'Depends on scope; defined feature in managed services', 'Handled inside the bundle'],
-                    ['Cost shape', 'Per employee or per account, itemized', 'Quote-gated, often a percent of total payroll'],
+                    ['Cost shape', 'Per employee or per account, itemized against services you can see', 'Quote-gated, often a percent of total payroll or a per-head bundle fee'],
+                    ['Contract and lock-in', 'Standard vendor agreement, typical notice period to exit', 'Client service agreement often runs a full plan year with renewal auto-triggers'],
                     ['Plan control at renewal', 'You and your broker decide', 'The PEO decides its master plan lineup'],
-                    ['Leaving', 'Swap administrators; nothing structural moved', 'Migrate everyone off PEO plans, unwind co-employment'],
+                    ['Speed to leave', 'Weeks; swap administrators, nothing structural moved', 'Months; migrate everyone off PEO plans on a re-enrollment timeline'],
                   ].map(([factor, tpa, peo], i) => (
                     <tr key={factor} style={{ background: i % 2 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #eeeeee' }}>
                       <td style={{ padding: '13px 16px', fontWeight: 600, color: '#000000' }}>{factor}</td>
@@ -174,22 +190,34 @@ export default function TpaVsPeoPage() {
         <section className="section section--soft">
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
-              <p className="eyebrow">Which Should You Choose</p>
-              <h2>Three honest scenarios</h2>
+              <p className="eyebrow">Which Fits You</p>
+              <h2>Match your company profile to a model</h2>
             </div>
             <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
               {[
                 {
-                  title: 'You are under 50 employees and premiums are the whole problem',
+                  title: 'Under 50 employees, premiums are the whole problem, no broker relationship to protect',
                   body: 'A PEO deserves a real look. Pooled master plans can beat small-group rates in ways no administrator can. Price the exit before you sign, and we will tell you the same on a call.',
                 },
                 {
-                  title: 'You have a broker you trust and drowning operations',
+                  title: 'You have a broker you trust, and operations are drowning your HR team',
                   body: 'A benefits administration service fits exactly. Your broker keeps the strategy; the enrollment, data, filings, and carrier chasing move off your desk. That is the BEG model.',
                 },
                 {
-                  title: 'You are self-funded or heavy on FSA, HSA, and COBRA volume',
+                  title: 'You are self-funded, or heavy on FSA, HSA, and COBRA volume',
                   body: 'A classic TPA is built for this, and the right answer may be a TPA for claims plus managed administration for enrollment and compliance. Scope both on one discovery call.',
+                },
+                {
+                  title: '100 to 1,000 employees, multi-state, and already own your plan strategy',
+                  body: 'Co-employment adds cost and rigidity you no longer need at this size. A benefits administration service scales the operational load without asking you to give up plan control or your broker.',
+                },
+                {
+                  title: 'You tried a PEO before and the renewal or exit experience burned you',
+                  body: 'Common story. Moving to a TPA-style administrator returns plan ownership to you permanently, so a future renewal fight is between you, your broker, and the carrier, not a vendor with its own master plan agenda.',
+                },
+                {
+                  title: 'You are building HR from zero and want one bundled vendor',
+                  body: 'A PEO is a legitimate shortcut here, effectively renting an HR department. Just weigh that convenience against the co-employment tradeoffs above before you sign a multi-year runway on it.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>

@@ -29,15 +29,27 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does in-house benefits administration really cost?',
-    'The visible cost is the salary of whoever owns it; per BLS, compensation and benefits specialists average well into five figures. The hidden cost is error exposure, penalty risk, and everything that person is not doing instead.',
+    'The visible cost is a salary; per BLS, compensation and benefits specialists average well into five figures loaded, before software and overhead. Most companies under a few hundred employees never budget a fully loaded $60,000 to $100,000 hire for this and instead absorb it into an HR generalist role, which hides the real number. The hidden cost sits on top of that: error exposure, penalty risk, and everything that person is not doing instead.',
+  ],
+  [
+    'How much does a missed COBRA or ACA deadline actually cost?',
+    'Under federal COBRA, ERISA allows penalties of up to $110 per day per beneficiary for notice failures, and the IRS can assess a separate excise tax for COBRA violations. ACA reporting failures carry per-form IRS penalties for late or incorrect 1095-C filings, which scale with headcount. None of this shows up on a budget line until the notice arrives.',
   ],
   [
     'When does keeping benefits administration in-house make sense?',
-    'When you have enough benefits-eligible headcount to keep a specialist genuinely busy, real HRIS tooling instead of spreadsheets, and coverage for the person who owns COBRA deadlines when they take vacation.',
+    'When you have enough benefits-eligible headcount to keep a specialist genuinely busy, real HRIS tooling instead of spreadsheets, stable headcount with low plan-change volume, and coverage for the person who owns COBRA deadlines when they take vacation. Low-change, single-state, stable-headcount companies are the profile where in-house holds up best.',
+  ],
+  [
+    'What happens to benefits administration when that person quits or takes leave?',
+    'In most in-house setups, nothing is documented outside one person\'s head and inbox. When they leave or take PTO, deadlines still land, carrier files still need reconciling, and open enrollment does not pause. Turnover in this role is one of the least discussed costs of the in-house model because it never appears until the week it happens.',
   ],
   [
     'Is outsourcing benefits administration the same as buying software?',
     'No. Software gives your team better tools and keeps the work on your desk. An administration service takes the work itself. Many companies buy software believing they bought the service.',
+  ],
+  [
+    'How do I decide by headcount and how fast we are changing?',
+    'Roughly: under 100 employees with stable headcount and one state, in-house can work if the role is real and covered. Growing headcount, multi-state operations, high turnover, or frequent M&A activity push the math toward outsourcing, because each of those multiplies the work a single in-house owner has to track without multiplying their hours.',
   ],
   [
     'Can we outsource benefits administration and keep our broker?',
@@ -139,6 +151,145 @@ export default function OutsourcedVsInHouseBenefitsPage() {
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
               Sources: <a href="https://www.bls.gov/oes/current/oes131141.htm" target="_blank" rel="noopener noreferrer">BLS OES, compensation, benefits, and job analysis specialists</a> · <a href="https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra" target="_blank" rel="noopener noreferrer">DOL, COBRA continuation coverage</a>
             </p>
+          </div>
+        </section>
+
+        {/* COST COMPARISON TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '900px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">The Real Numbers</p>
+              <h2>What each model costs, line by line</h2>
+              <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '640px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+                Most comparisons stop at &quot;a salary vs a fee.&quot; Here is what actually sits inside each number for a company with roughly 150 benefits-eligible employees.
+              </p>
+            </div>
+            <div style={{ overflowX: 'auto', marginTop: '2.5rem' }} className="reveal">
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem' }}>
+                <thead>
+                  <tr style={{ background: '#000000', color: '#ECAC60' }}>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700, minWidth: '190px' }}>Cost Line</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>In-House Hire</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>Outsourced Administration</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Base cost', 'Loaded salary of $60,000 to $100,000 for a dedicated benefits admin specialist (BLS OES puts the role well into five figures before loading)', 'Per-employee-per-month fee, billed monthly, scales directly with headcount'],
+                    ['Software and tools', 'HRIS or benefits admin software license, typically separate from the salary line', 'Included in the service; one system of record'],
+                    ['Backup during PTO or leave', 'Usually none; deadlines wait on one person or get missed', 'Team coverage; no single point of failure'],
+                    ['Ramp time for a new hire', '2 to 4 months to reach full competence on carrier rules and your specific plans', 'None; the service is already trained on your plans'],
+                    ['Error and rework cost', 'Hard to quantify but shows up as carrier bill disputes, employee escalations, and manual reconciliation hours', 'Built into the service; caught before it becomes a claim or penalty'],
+                    ['Compliance risk exposure', 'COBRA penalty exposure up to $110/day per beneficiary; ACA per-form penalties; both uncapped by headcount', 'Deadlines tracked systematically as a plan feature, not a personal task list'],
+                    ['Turnover cost', 'Severance, recruiting, and a knowledge gap that is rarely documented anywhere else', 'Not applicable; institutional knowledge lives in the system, not one inbox'],
+                  ].map(([factor, inh, out], i) => (
+                    <tr key={factor} style={{ background: i % 2 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '13px 16px', fontWeight: 600, color: '#000000' }}>{factor}</td>
+                      <td style={{ padding: '13px 16px', color: '#555555' }}>{inh}</td>
+                      <td style={{ padding: '13px 16px', color: '#555555' }}>{out}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
+              Sources: <a href="https://www.bls.gov/oes/current/oes131141.htm" target="_blank" rel="noopener noreferrer">BLS OES, compensation, benefits, and job analysis specialists</a> · <a href="https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra" target="_blank" rel="noopener noreferrer">DOL, COBRA continuation coverage</a> · <a href="https://www.irs.gov/affordable-care-act/employers/aca-information-center-for-applicable-large-employers-ales" target="_blank" rel="noopener noreferrer">IRS, ACA information reporting penalties</a>
+            </p>
+          </div>
+        </section>
+
+        {/* HIDDEN COSTS OF IN-HOUSE */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">What Does Not Show Up On The Org Chart</p>
+              <h2>The hidden costs of keeping it in-house</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+              {[
+                {
+                  title: 'Turnover and knowledge loss',
+                  body: 'When the person who owns benefits administration leaves, the process usually leaves with them. Carrier quirks, plan-year exceptions, and the informal workarounds built up over years rarely make it into a written procedure before the exit interview.',
+                },
+                {
+                  title: 'Missed COBRA or ACA deadlines',
+                  body: 'A dedicated specialist stretched across five other duties is the profile most likely to miss a notice window. COBRA exposure runs up to $110 per day per beneficiary under ERISA; ACA reporting penalties apply per form under IRS rules.',
+                },
+                {
+                  title: 'No backup during PTO',
+                  body: 'Open enrollment, new hires, and life events do not pause because the one person who understands your plans is on vacation or out sick. Deadlines either wait, or someone unfamiliar with the process handles them under pressure.',
+                },
+                {
+                  title: 'Data drift between systems',
+                  body: 'Spreadsheets reconciled by hand against carrier invoices drift over time. Each drift becomes a billing dispute, a coverage gap, or an employee who finds out at the doctor\'s office that their dependent was never added.',
+                },
+                {
+                  title: 'Opportunity cost',
+                  body: 'Every hour spent on enrollment paperwork and carrier chasing is an hour not spent on the strategic HR work that person was probably hired to do. The fractional version of this role is the most expensive, because the company pays full salary for partial output.',
+                },
+                {
+                  title: 'Scaling friction',
+                  body: 'A new state, an acquisition, or a headcount jump that outpaces hiring all land on the same one or two people. Each becomes a research project instead of a solved problem.',
+                },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.4rem', fontSize: '0.97rem' }}>{title}</strong>
+                  <p style={{ margin: 0, fontSize: '0.88rem', color: '#555555', lineHeight: '1.55' }}>{body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* DECISION FRAMEWORK */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '900px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Decision Framework</p>
+              <h2>Decide by headcount and change-volume, not gut feel</h2>
+              <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '640px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+                The single biggest predictor of whether in-house or outsourced wins is not company size alone. It is size crossed with how much your plans and headcount change in a given year.
+              </p>
+            </div>
+            <div style={{ overflowX: 'auto', marginTop: '2.5rem' }} className="reveal">
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem' }}>
+                <thead>
+                  <tr style={{ background: '#000000', color: '#ECAC60' }}>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700, minWidth: '160px' }}>Headcount</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>Stable, low change-volume</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>Growth, multi-state, or high turnover</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Under 100 employees', 'In-house can work if one person owns it with real bandwidth and a backup for PTO. Otherwise outsource the whole function.', 'Outsource. There is rarely enough dedicated headcount to justify a specialist, and change-volume will overwhelm a generalist fast.'],
+                    ['100 to 500 employees', 'In-house with an HRIS is viable; the role is real enough to justify a dedicated hire and a documented process.', 'Outsource or hybrid. Multi-state rules and turnover-driven enrollment churn are exactly what a fractional in-house owner cannot keep up with.'],
+                    ['500+ employees', 'In-house with a small team usually wins on day-to-day speed and institutional knowledge.', 'Hybrid: keep an in-house owner for strategy and escalations, outsource high-volume production work like ACA filing and COBRA administration.'],
+                  ].map(([hc, low, high], i) => (
+                    <tr key={hc} style={{ background: i % 2 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '13px 16px', fontWeight: 600, color: '#000000' }}>{hc}</td>
+                      <td style={{ padding: '13px 16px', color: '#555555' }}>{low}</td>
+                      <td style={{ padding: '13px 16px', color: '#555555' }}>{high}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* WHEN IN-HOUSE WINS */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">The Honest Case</p>
+              <h2>When in-house genuinely wins</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                It is easy for a page like this to tilt toward outsourcing because that is the service being sold at the bottom of it. The honest answer is that in-house wins in a specific, identifiable set of conditions, and pretending otherwise does not help anyone make a good decision. In-house is the better model when the benefits-eligible headcount is large enough to keep a specialist genuinely busy on this work alone, when the company runs a real HRIS instead of spreadsheets, when headcount and plan design are stable year over year, and when a second trained person can cover COBRA and enrollment deadlines during vacations or departures. Under those conditions, an internal owner is faster on same-day requests, carries more institutional context about your specific plans and employees, and costs less over a multi-year horizon than a per-employee monthly fee once the specialist is fully ramped. The model breaks down when any one of those conditions is missing, most commonly when the role is fractional, spreadsheets stand in for real systems, or the company is changing faster than one person can track. The honest test is not company size; it is whether the role, as staffed today, would survive an audit of its own deadlines.
+              </p>
+            </div>
           </div>
         </section>
 

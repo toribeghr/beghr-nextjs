@@ -6,18 +6,18 @@ import { getCalendlyLink } from '@/lib/services';
 
 
 export const metadata: Metadata = {
-  title: 'Benefits Software vs Services: Who Does the Work? | BEG',
-  description: 'Benefits administration software vs outsourcing: who actually does the enrollment, ACA, and COBRA work, and how to pick the model your team can live with.',
+  title: 'Benefits Admin Software vs Services: Who Works? | BEG',
+  description: 'Benefits administration software vs services vs fully managed: who does the enrollment, ACA, and COBRA work, the hidden labor cost, and how to choose.',
   alternates: { canonical: 'https://www.beghr.com/services/managed-benefits/benefits-administration-software-vs-services' },
   openGraph: {
-    title: 'Benefits Software vs Services: Who Does the Work? | BEG',
-    description: 'Benefits administration software vs outsourcing: who actually does the enrollment, ACA, and COBRA work, and how to pick the model your team can live with.',
+    title: 'Benefits Admin Software vs Services: Who Works? | BEG',
+    description: 'Benefits administration software vs services vs fully managed: who does the enrollment, ACA, and COBRA work, the hidden labor cost, and how to choose.',
     url: 'https://www.beghr.com/services/managed-benefits/benefits-administration-software-vs-services',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Benefits Software vs Services: Who Does the Work? | BEG', description: 'Benefits administration software vs outsourcing: who actually does the enrollment, ACA, and COBRA work, and how to pick the model your team can live with.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Benefits Admin Software vs Services: Who Works? | BEG', description: 'Benefits administration software vs services vs fully managed: who does the enrollment, ACA, and COBRA work, the hidden labor cost, and how to choose.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 const CALENDLY = getCalendlyLink('managed-benefits-software-vs-services');
@@ -25,27 +25,35 @@ const CALENDLY = getCalendlyLink('managed-benefits-software-vs-services');
 const FAQS: [string, string][] = [
   [
     'What is the difference between benefits administration software and services?',
-    'Software gives your team a system to run enrollment, changes, and reporting themselves. A service puts people behind the system who do that work for you. The difference is who carries the workload.',
+    'Software gives your team a system to run enrollment, changes, and reporting themselves. A service puts people behind the system who do that work for you. Fully managed benefits administration is both: the software plus a dedicated team operating it. The difference in all three cases is who carries the workload, not what the screen looks like.',
   ],
   [
     'Is benefits administration software enough for a small company?',
-    'Sometimes. If someone on your team genuinely has the hours and knows the compliance calendar, software works. It stops working when enrollment season, COBRA notices, and ACA filings pile onto one busy person.',
+    'Sometimes. If someone on your team genuinely has the hours and knows the compliance calendar, software alone works. It stops working when enrollment season, COBRA notices, and ACA filings pile onto one busy person who already owns payroll and hiring.',
   ],
   [
     'Does outsourcing benefits administration replace our broker?',
-    'No. Your broker keeps advising on plans and placing coverage. An administration service runs the operations behind those plans. BEG is built explicitly around keeping your broker in place.',
+    'No. Your broker keeps advising on plans and placing coverage. An administration service or fully managed provider runs the operations behind those plans. BEG is built explicitly as a broker ally, not a replacement, and is not a PEO.',
   ],
   [
-    'Who is responsible for compliance if we outsource?',
-    'Your company remains the employer and plan sponsor, so legal responsibility stays with you. What changes is execution: a service tracks the eligibility data, notices, and filings that create that exposure.',
+    'Who is responsible for compliance if we outsource benefits administration?',
+    'Your company remains the employer and plan sponsor, so legal responsibility stays with you regardless of which model you pick. What changes is execution: a service or managed provider tracks the eligibility data, notices, and filings that create that exposure, per DOL and IRS rules.',
   ],
   [
     'Can we start with software and add the service later?',
-    'Yes, and it is a common path. BEG Managed Benefits runs on one platform with three tiers, from self-service software to fully managed, so moving up does not mean re-implementing.',
+    'Yes, and it is a common path. BEG Managed Benefits runs on one platform with three tiers, Benefits Admin Software, Software plus ACA Compliance, and Fully Managed, so moving up does not mean re-implementing or migrating data.',
   ],
   [
     'What does each model cost?',
-    'Software is usually priced per employee per month at published rates; services are usually quote-gated. BEG shows an instant on-screen monthly estimate for all three of its tiers instead.',
+    'Software is usually priced per employee per month at published rates; services are usually quote-gated behind a sales call. BEG shows an instant on-screen monthly estimate for all three of its tiers instead of hiding pricing behind a demo.',
+  ],
+  [
+    'What is the hidden cost of software-only benefits administration?',
+    'It is the labor your team already absorbs: someone configuring plans, chasing carrier feed errors, answering employee questions the tool cannot, and tracking ACA deadlines. A full-time in-house hire to own this typically runs $60,000 to $100,000 a year in loaded cost, and that is before counting the hours a smaller team spends doing it on the side.',
+  ],
+  [
+    'When do I actually need a managed service instead of just software?',
+    'When the compliance calendar starts competing with the rest of your team\'s job. Signs include missed or late COBRA notices, uncertainty about ACA Applicable Large Employer status, carrier feed errors nobody catches until an employee complains, or an HR-of-one also running payroll and recruiting. At that point the software was never the gap; the operator was.',
   ],
 ];
 
@@ -59,7 +67,7 @@ export default function SoftwareVsServicesPage() {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: 'Benefits administration software vs services: who does the work?',
-            description: 'Benefits administration software vs outsourcing: who actually does the enrollment, ACA, and COBRA work, and how to pick the model your team can live with.',
+            description: 'Benefits administration software vs services vs fully managed: who does the enrollment, ACA, and COBRA work, the hidden labor cost, and how to choose.',
             author: { '@type': 'Organization', name: 'Business Executive Group', url: 'https://www.beghr.com' },
             publisher: { '@type': 'Organization', name: 'Business Executive Group' },
             datePublished: '2026-07-05',
@@ -104,6 +112,50 @@ export default function SoftwareVsServicesPage() {
           { value: '90 sec', label: 'To your instant estimate' },
         ]}
       >
+        {/* THREE-WAY COMPARISON TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '1100px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">The Three Models</p>
+              <h2>Software vs services vs fully managed</h2>
+              <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '700px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+                Most comparisons stop at two boxes. There are three, and the third is the one nobody sells you until you ask.
+              </p>
+            </div>
+            <div style={{ overflowX: 'auto', marginTop: '2.5rem' }} className="reveal">
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#000000', color: '#ECAC60' }}>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700, minWidth: '160px' }}>Dimension</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>Software</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>Services</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>Fully managed</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Who does the work', 'Your team, using the tool', 'A vendor team, using their process', 'A dedicated team, using the same platform your data lives in'],
+                    ['What is included', 'Enrollment engine, self-service portal, reporting', 'Enrollment execution, sometimes ACA or COBRA add-ons', 'Enrollment, ACA tracking and filing, COBRA, carrier feed monitoring, an auditing analyst'],
+                    ['Effort on your team', 'High: configuration, exceptions, deadlines, fixes', 'Medium: oversight and approvals, less hands-on execution', 'Low: you review and decide, the team executes and watches the calendar'],
+                    ['Cost shape', 'Per employee per month, published, predictable', 'Often quote-gated, scoped per project or per task', 'Per employee per month across three tiers, shown on screen in about 90 seconds'],
+                    ['Best-fit company', 'Has HR hours and compliance knowledge in-house', 'Wants specific tasks (like COBRA) off its plate without switching systems', 'HR-of-one, multi-state, ACA-exposed, or just tired of owning the deadline'],
+                  ].map(([dim, sw, svc, mng], i) => (
+                    <tr key={dim} style={{ background: i % 2 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '13px 16px', fontWeight: 600, color: '#000000' }}>{dim}</td>
+                      <td style={{ padding: '13px 16px', color: '#555555' }}>{sw}</td>
+                      <td style={{ padding: '13px 16px', color: '#555555' }}>{svc}</td>
+                      <td style={{ padding: '13px 16px', color: '#000000', background: 'rgba(236,172,96,0.08)', fontWeight: 500 }}>{mng}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="reveal" style={{ fontSize: '0.85rem', color: '#666666', marginTop: '1.5rem', lineHeight: '1.7' }}>
+              The middle column, plain services, is where most confusion lives. A benefits administration service can mean a vendor that runs enrollment for you on their own system, or a broker-adjacent team that layers execution onto your existing software. Fully managed collapses that ambiguity: same platform, same data, a team embedded in it rather than bolted beside it.
+            </p>
+          </div>
+        </section>
+
         {/* COMPARISON TABLE */}
         <section className="section section--soft">
           <div className="container" style={{ maxWidth: '1000px' }}>
@@ -174,6 +226,60 @@ export default function SoftwareVsServicesPage() {
           </div>
         </section>
 
+        {/* HIDDEN LABOR COST */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">The Number Nobody Quotes</p>
+              <h2>The hidden labor cost of &quot;just software&quot;</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem' }}>
+              <p style={{ margin: '0 0 1.1rem', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                Software vendors price the license. Nobody prices the person. But every benefits administration platform assumes an operator, and that operator&apos;s time is a real cost even when it never appears on an invoice. Hiring a dedicated in-house benefits administrator to own configuration, enrollment, exceptions, and compliance filings typically runs $60,000 to $100,000 a year in fully loaded cost, depending on market and scope. Most companies under a few hundred employees do not make that hire. They absorb the work into an HR manager who already owns payroll, hiring, and onboarding, which means the benefits work gets done in the gaps, not on a schedule.
+              </p>
+              <p style={{ margin: '0 0 1.1rem', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                That gap-time work is where the real cost hides: a COBRA notice sent four days late, an ACA code entered wrong on a form the IRS will eventually ask about, a carrier feed error that silently drops a dependent for two pay cycles. None of that shows up as a line item. It shows up as a penalty letter, a benefits gap an employee discovers at the pharmacy counter, or a Friday afternoon spent reconciling a feed that should have synced itself. COBRA administration errors alone can cost a company roughly $110 per day per qualified beneficiary in exposure once a notice is missed, which adds up fast across even a handful of affected employees.
+              </p>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                None of this means software is a bad buy. It means the honest price of software-only benefits administration is the license fee plus whatever fraction of a salaried person it quietly consumes, plus the tail risk of the one filing or notice that slips. A managed service prices that operator explicitly instead of hiding it inside someone else&apos;s job description.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* WHEN SOFTWARE ALONE IS ENOUGH */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">The Actual Decision</p>
+              <h2>When software alone is enough, and when it is not</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
+              <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.5rem' }}>
+                <strong style={{ display: 'block', marginBottom: '0.75rem', fontSize: '1rem', color: '#000000' }}>Software alone is enough when</strong>
+                <ul style={{ margin: 0, paddingLeft: '1.1rem', color: '#444444', lineHeight: '1.8', fontSize: '0.93rem' }}>
+                  <li>A named person owns benefits, with real hours set aside for it, not squeezed between other jobs</li>
+                  <li>Plans are simple: one or two carriers, one state, low variable-hour headcount</li>
+                  <li>You are not an ACA Applicable Large Employer, or your status is stable and well understood</li>
+                  <li>Turnover is low enough that COBRA and life-event volume stays manageable by hand</li>
+                </ul>
+              </div>
+              <div style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+                <strong style={{ display: 'block', marginBottom: '0.75rem', fontSize: '1rem', color: '#000000' }}>You need services or fully managed when</strong>
+                <ul style={{ margin: 0, paddingLeft: '1.1rem', color: '#444444', lineHeight: '1.8', fontSize: '0.93rem' }}>
+                  <li>Benefits is one responsibility among many for whoever owns it, not a dedicated role</li>
+                  <li>You operate in multiple states, with varying continuation coverage rules to track</li>
+                  <li>You are ACA-exposed: variable-hour staff, high turnover, or a past penalty notice</li>
+                  <li>A notice, filing, or carrier reconciliation has already slipped once</li>
+                </ul>
+              </div>
+            </div>
+            <p className="reveal" style={{ marginTop: '1.5rem', color: '#555555', lineHeight: '1.7', fontSize: '0.95rem', textAlign: 'center' }}>
+              Most companies do not sit cleanly in one column. That is exactly why BEG built three tiers on one platform instead of a single all-or-nothing product: Benefits Admin Software for teams in the left column, Software plus ACA Compliance for teams straddling the middle, and Fully Managed for teams solidly in the right.
+            </p>
+          </div>
+        </section>
+
         {/* WHICH SHOULD YOU CHOOSE */}
         <section className="section section--soft">
           <div className="container" style={{ maxWidth: '820px' }}>
@@ -212,7 +318,7 @@ export default function SoftwareVsServicesPage() {
               <p className="eyebrow">Where BEG Fits</p>
               <h2>Both ends of the spectrum, one platform, one estimate</h2>
               <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '640px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
-                BEG Managed Benefits, powered by isolved, deliberately spans this whole page: a self-service software tier, a software plus ACA compliance tier, and a fully managed tier with a dedicated specialist and auditing analyst. You pick where on the spectrum you sit today and slide later without re-implementing, your broker stays your broker, and the monthly estimate for all three tiers shows on screen in about 90 seconds instead of behind a demo. Details live on the <Link href="/services/managed-benefits">Managed Benefits overview</Link>.
+                BEG Managed Benefits, powered by isolved, deliberately spans this whole page across three plans: Benefits Admin Software for teams that want the tool and already have the operator, Software plus ACA Compliance for teams that want the tool with the compliance filing work handled, and Fully Managed for teams that want a dedicated specialist and auditing analyst running the whole operation. You pick where on the spectrum you sit today and slide later without re-implementing, your broker stays your broker, BEG is not a PEO, and the monthly estimate for all three plans shows on screen in about 90 seconds instead of behind a demo. Details live on the <Link href="/services/managed-benefits">Managed Benefits overview</Link>.
               </p>
             </div>
             <div className="reveal" style={{ marginTop: '2rem', textAlign: 'center' }}>

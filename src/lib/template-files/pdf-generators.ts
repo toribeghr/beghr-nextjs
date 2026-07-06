@@ -7,11 +7,13 @@
 // generator first, then falls back to a filler.
 
 import { generateHandbookPdf } from './handbook-pdf';
+import { generateOfferLetterPdf } from './offer-letter-pdf';
 
 export type PdfGenerator = (data: Record<string, string>) => Promise<Buffer>;
 
 const PDF_GENERATORS: Record<string, PdfGenerator> = {
   'employee-handbook-starter': generateHandbookPdf,
+  'employee-offer-letter': generateOfferLetterPdf,
 };
 
 /** Returns the PDF generator for a template slug, or null if none is registered. */

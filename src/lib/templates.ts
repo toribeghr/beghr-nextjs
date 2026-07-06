@@ -149,6 +149,82 @@ export const TEMPLATES: Template[] = [
       },
     ],
   },
+  {
+    slug: 'employee-offer-letter',
+    title: 'Employee Offer Letter',
+    category: 'Hiring & Onboarding',
+    description:
+      'Enter the candidate, role, and pay details and download a clean, professional offer letter — including a state-aware at-will clause — ready to send.',
+    seoTitle: 'Free Employee Offer Letter Template - Fill Out & Download | BEG',
+    metaDescription: 'Absolutely free. Fill it out and download, no email tricks, no upsells.',
+    // Rendered from scratch by a PDF generator (lib/template-files/pdf-generators.ts) — no
+    // source file, so no templateFile.
+    docType: 'pdf',
+    fields: [
+      {
+        key: 'candidateName',
+        label: 'Candidate name',
+        type: 'text',
+        required: true,
+        placeholder: 'Candidate full name',
+      },
+      {
+        key: 'jobTitle',
+        label: 'Job title',
+        type: 'text',
+        required: true,
+        placeholder: 'Job title',
+      },
+      {
+        key: 'companyName',
+        label: 'Company name',
+        type: 'text',
+        required: true,
+        placeholder: 'Company or organization name',
+      },
+      {
+        key: 'managerName',
+        label: 'Reports To',
+        type: 'text',
+        required: true,
+        placeholder: 'Manager name',
+      },
+      {
+        key: 'startDate',
+        label: 'Start date',
+        type: 'date',
+        required: true,
+      },
+      {
+        key: 'compensation',
+        label: 'Compensation Amount',
+        type: 'text',
+        required: true,
+        placeholder: 'e.g. 65,000 or 32.00',
+      },
+      {
+        key: 'compensationType',
+        label: 'Compensation type',
+        type: 'select',
+        required: true,
+        options: ['Per Year', 'Per Hour'],
+      },
+      {
+        key: 'state',
+        label: 'State of Employment',
+        type: 'select',
+        required: true,
+        options: US_STATES,
+      },
+      {
+        key: 'hrContactName',
+        label: 'HR Contact Name',
+        type: 'text',
+        required: true,
+        placeholder: 'HR contact full name',
+      },
+    ],
+  },
 ];
 
 // ---- Lookup helpers ---------------------------------------------------------

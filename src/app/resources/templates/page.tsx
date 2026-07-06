@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import PricingCta from '@/components/pricing/PricingCta';
 import {
   TEMPLATE_CATEGORIES,
   getTemplatesByCategory,
@@ -115,7 +114,12 @@ export default function TemplatesHubPage() {
         </div>
       </section>
 
-      <PricingCta service="hr-outsourcing" />
+      {/*
+        Route-level exclusion: the templates hub intentionally does NOT render the sitewide
+        "Get Instant Pricing" CTA banner, matching the /resources/templates/[slug] detail pages.
+        The PricingCta component is unchanged and still renders on every other page and in the
+        header nav.
+      */}
     </>
   );
 }

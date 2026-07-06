@@ -248,6 +248,10 @@ export default function PayrollSeniorCarePage() {
               <h3>Can BEG manage payroll for a multi-facility senior care group?</h3>
               <p>Yes. BEG manages payroll across multiple facilities within the same organization, with separate facility-level cost reporting and consolidated billing. Multi-facility senior care groups can standardize payroll management across all locations through a single BEG engagement.</p>
             </div>
+            <div className="faq-item">
+              <h3>Is care home payroll different from standard small business payroll?</h3>
+              <p>Yes. Care home payroll (the same complexity described above for senior care and assisted living facilities, just under different naming) has to handle round-the-clock shift coverage, differential pay for nights and weekends, high CNA and aide turnover, and CMS-facing hours-worked records, none of which a generic small business payroll setup is built to manage correctly. BEG configures payroll specifically for the care home staffing model rather than treating it like standard hourly payroll.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -263,6 +267,7 @@ export default function PayrollSeniorCarePage() {
               { '@type': 'Question', name: 'Can BEG handle high W-2 volume from CNA and aide turnover?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Year-end W-2 preparation for high-turnover care staff is fully included with no additional fees.' } },
               { '@type': 'Question', name: 'What does $25-$45 PEPM include for a senior care facility?', acceptedAnswer: { '@type': 'Answer', text: 'Everything: payroll processing, shift differentials, CNA overtime, state tax filing, garnishment administration, benefit deduction tracking, year-end W-2 volume, and dedicated support.' } },
               { '@type': 'Question', name: 'Do we need to switch payroll systems?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG operates inside your existing system. Migration is available if you want a better platform but is never required.' } },
+              { '@type': 'Question', name: 'Is care home payroll different from standard small business payroll?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Care home payroll requires round-the-clock shift coverage, differential pay, high CNA and aide turnover management, and CMS-facing hours-worked records that generic small business payroll is not built to handle.' } },
             ],
           }),
         }}

@@ -68,7 +68,7 @@ export default function HrOutsourcingPage() {
           }),
         }}
       />
-      <ServicePage
+      <ServicePage heroVideoId="6h4Ot124e34"
         showHeroImage={false}
         eyebrow="HR Outsourcing · Powered by isolved"
         title="Your business has HR problems. It does not need an HR department."
@@ -350,6 +350,15 @@ export default function HrOutsourcingPage() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* CROSS-SILO: HR AND PAYROLL COMBINED */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '720px' }}>
+            <p className="reveal" style={{ fontSize: '0.97rem', color: '#555555', textAlign: 'center', lineHeight: '1.7', margin: 0 }}>
+              Searched for HR and payroll handled together? See exactly how <Link href="/services/hr-outsourcing/hr-and-payroll-managed-services">BEG&apos;s managed payroll and HR outsourcing combine</Link>, two separate services, not one blurred offer, so you can see which one (or both) fits.
+            </p>
           </div>
         </section>
 

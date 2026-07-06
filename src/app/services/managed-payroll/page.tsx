@@ -353,6 +353,48 @@ export default function ManagedPayrollPage() {
               <h3>Payroll Outsourcing</h3>
               <p>Hand payroll to certified specialists who work inside your existing system, no migration.</p>
             </Link>
+            <Link href="/services/managed-payroll/payroll-companies" className="card-link reveal">
+              <span className="tag">Buyer's Guide</span>
+              <h3>Payroll Companies, Compared</h3>
+              <p>How to evaluate payroll companies: transparent pricing, no forced migration, a real point of contact.</p>
+            </Link>
+            <Link href="/services/managed-payroll/employer-payroll-provider" className="card-link reveal">
+              <span className="tag">For Employers</span>
+              <h3>Employer Payroll Provider</h3>
+              <p>What a real payroll provider takes off an owner or CFO's desk, and what stays your liability.</p>
+            </Link>
+            <Link href="/services/managed-payroll/pay-stub-services" className="card-link reveal">
+              <span className="tag">Pay Stubs</span>
+              <h3>Pay Stub Services</h3>
+              <p>Accurate stubs from real processed payroll, employee self-service access, state compliance built in.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* COST GUIDES */}
+      <section className="section section--soft">
+        <div className="container">
+          <div className="head center reveal">
+            <p className="eyebrow">Cost Guides</p>
+            <h2>What payroll actually costs, broken down</h2>
+          </div>
+          <div className="cards">
+            <Link href="/services/managed-payroll/payroll-cost" className="card-link reveal">
+              <span className="tag">Cost</span>
+              <h3>Payroll Cost, By Method</h3>
+              <p>In-house, software, PEO, or managed: the real all-in monthly cost, compared side by side.</p>
+            </Link>
+            <Link href="/services/managed-payroll/payroll-cost-per-employee" className="card-link reveal">
+              <span className="tag">Per Employee</span>
+              <h3>Payroll Cost Per Employee</h3>
+              <p>The per-employee breakdown by company size, including an honest look at the $500 monthly minimum.</p>
+            </Link>
+            <Link href="/services/managed-payroll/payroll-system-cost" className="card-link reveal">
+              <span className="tag">Systems</span>
+              <h3>Payroll System Cost</h3>
+              <p>Buying software or an HCM system yourself vs. paying BEG to run payroll for you.</p>
+            </Link>
           </div>
         </div>
       </section>
@@ -435,6 +477,11 @@ export default function ManagedPayrollPage() {
               <h3>Churches &amp; Faith-Based Orgs</h3>
               <p>Minister housing allowance, dual-status clergy, and SECA elections managed correctly.</p>
             </Link>
+            <Link href="/services/managed-payroll/nonprofit" className="card-link reveal">
+              <span className="tag">Nonprofit</span>
+              <h3>Nonprofit Organizations</h3>
+              <p>Grant-restricted fund allocation, volunteer classification, and Form 990 comp disclosure handled.</p>
+            </Link>
             <Link href="/services/managed-payroll/marketing-agency" className="card-link reveal">
               <span className="tag">Agency</span>
               <h3>Marketing &amp; Creative Agencies</h3>
@@ -449,6 +496,36 @@ export default function ManagedPayrollPage() {
               <span className="tag">Franchise</span>
               <h3>Franchise Businesses</h3>
               <p>Multi-location payroll, joint-employer documentation, and new location setup as you scale.</p>
+            </Link>
+            <Link href="/services/managed-payroll/banking" className="card-link reveal">
+              <span className="tag">Banking</span>
+              <h3>Banking &amp; Financial Institutions</h3>
+              <p>Garnishment volume, loan officer commission overtime math, and multi-branch compliance handled.</p>
+            </Link>
+            <Link href="/services/managed-payroll/biotech" className="card-link reveal">
+              <span className="tag">Biotech</span>
+              <h3>Biotech &amp; Life Sciences</h3>
+              <p>Clinical stipend classification, R&amp;D credit wage documentation, and equity comp withholding managed.</p>
+            </Link>
+            <Link href="/services/managed-payroll/cybersecurity" className="card-link reveal">
+              <span className="tag">Cybersecurity</span>
+              <h3>Cybersecurity Companies</h3>
+              <p>Contractor classification, on-call incident-response overtime, and government contract recordkeeping handled.</p>
+            </Link>
+            <Link href="/services/managed-payroll/dental" className="card-link reveal">
+              <span className="tag">Dental</span>
+              <h3>Dental Practices &amp; DSOs</h3>
+              <p>Associate production pay, multi-location DSO consolidation, and hygienist overtime handled correctly.</p>
+            </Link>
+            <Link href="/services/managed-payroll/energy" className="card-link reveal">
+              <span className="tag">Energy</span>
+              <h3>Energy &amp; Field Operations</h3>
+              <p>Per diem tax treatment, multi-state field crews, certified payroll, and shift differential pay managed.</p>
+            </Link>
+            <Link href="/services/managed-payroll/hospitality" className="card-link reveal">
+              <span className="tag">Hospitality</span>
+              <h3>Hotels &amp; Lodging</h3>
+              <p>Tip credit compliance, multi-property consolidation, and the service charge vs. tip distinction handled.</p>
             </Link>
           </div>
         </div>
@@ -598,6 +675,24 @@ export default function ManagedPayrollPage() {
               <p>PEO-bundled payroll against standalone software. The structural difference.</p>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* DIY VS MANAGED */}
+      <section className="section">
+        <div className="container" style={{ maxWidth: '720px' }}>
+          <p className="reveal" style={{ fontSize: '0.97rem', color: '#555555', textAlign: 'center', lineHeight: '1.7', margin: 0 }}>
+            Still running payroll yourself with free software or a spreadsheet? See an honest breakdown of <Link href="/services/managed-payroll/diy-payroll-vs-managed">when DIY payroll makes sense and when it becomes a liability</Link>, including real IRS penalty numbers.
+          </p>
+        </div>
+      </section>
+
+      {/* CROSS-SILO: HR AND PAYROLL COMBINED */}
+      <section className="section section--soft">
+        <div className="container" style={{ maxWidth: '720px' }}>
+          <p className="reveal" style={{ fontSize: '0.97rem', color: '#555555', textAlign: 'center', lineHeight: '1.7', margin: 0 }}>
+            Searching for HR and payroll handled together? See how <Link href="/services/hr-outsourcing/hr-and-payroll-managed-services">BEG&apos;s managed payroll and HR outsourcing combine</Link>, two separate services, not one blurred offer.
+          </p>
         </div>
       </section>
 

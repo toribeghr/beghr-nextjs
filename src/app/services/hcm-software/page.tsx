@@ -453,6 +453,10 @@ export default function HCMSoftwarePage() {
             <h2>See how isolved stacks up against your current platform</h2>
           </div>
           <div className="cards">
+            <Link href="/services/hcm-software/best-hcm-software" className="card-link reveal">
+              <h3>Best HCM Software</h3>
+              <p>isolved and 7 other major platforms compared honestly on fit, pricing, and features.</p>
+            </Link>
             <Link href="/services/hcm-software/isolved-vs-paylocity" className="card-link reveal">
               <h3>isolved vs Paylocity</h3>
               <p>Side-by-side comparison on features, pricing, AI capabilities, and mid-market fit.</p>
@@ -613,6 +617,7 @@ export default function HCMSoftwarePage() {
             <Link href="/services/hcm-software/aca-compliance-software" className="card-link reveal"><h3>ACA Compliance</h3><p>ACA tracking, eligibility, and 1094/1095 filing.</p></Link>
             <Link href="/services/hcm-software/cobra-administration-software" className="card-link reveal"><h3>COBRA Administration</h3><p>Notices, elections, payments, and compliance timelines.</p></Link>
             <Link href="/services/hcm-software/workforce-analytics-software" className="card-link reveal"><h3>Workforce Analytics</h3><p>Headcount, turnover, and labor cost dashboards.</p></Link>
+            <Link href="/services/hcm-software/hrms-for-employees" className="card-link reveal"><h3>HRMS for Employees</h3><p>What self-service actually gives your employees, not just HR.</p></Link>
           </div>
         </div>
       </section>

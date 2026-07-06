@@ -310,7 +310,7 @@ This is a build-process rule, not optional polish. The same answer-first structu
 
 5. **TL;DR / key-takeaways block** near the top (class `tldr`) summarizing the page in 2 to 3 lines. Comparison pages already do this as "Bottom Line Up Front"; extend the pattern to all page types.
 
-Rules that still apply: no em-dashes, iSolved capitalized in display text, one clear claim per section backed by a fact.
+Rules that still apply: no em-dashes, "isolved" always lowercase (including display text and sentence starts, restructure rather than capitalize), one clear claim per section backed by a fact.
 
 ---
 

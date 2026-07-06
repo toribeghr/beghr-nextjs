@@ -268,6 +268,10 @@ export default function PayrollHealthcarePage() {
               <h3>Can BEG manage payroll for clinical staff who rotate between multiple facilities?</h3>
               <p>Yes. BEG configures payroll to track labor allocation by facility or cost center within the same organization. Clinical staff working at multiple locations in the same pay period are allocated correctly so facility-level cost reports reconcile without manual adjustments after each cycle.</p>
             </div>
+            <div className="faq-item">
+              <h3>Does your healthcare payroll system connect to our scheduling software?</h3>
+              <p>BEG configures payroll to sync with the time and scheduling data your facility already uses, so shift differentials, on-call hours, and per-diem or PRN shifts flow into payroll without manual re-entry. For multi-location healthcare organizations, that sync has to hold up across every site: a PRN nurse who picks up a shift at a second facility should show up correctly in that facility's labor cost report, not just get paid. BEG configures this scheduling-to-payroll connection during implementation and manages it as staff schedules and facility rosters change.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -284,6 +288,7 @@ export default function PayrollHealthcarePage() {
               { '@type': 'Question', name: 'How long does the transition take?', acceptedAnswer: { '@type': 'Answer', text: '30-60 days from scope review to first managed payroll run.' } },
               { '@type': 'Question', name: 'How does BEG handle shift differentials for clinical staff?', acceptedAnswer: { '@type': 'Answer', text: 'BEG configures shift differentials for each clinical role and applies them automatically based on hours worked and shift schedule. In unionized facilities, rates come from the applicable CBA. Differential pay is included in the regular rate for overtime calculations.' } },
               { '@type': 'Question', name: 'Does HIPAA apply to payroll data at a healthcare organization?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Payroll files at healthcare employers often contain or link to PHI -- medical leave records, ADA accommodations, FMLA records. BEG manages payroll access under policies appropriate for a HIPAA-sensitive environment.' } },
+              { '@type': 'Question', name: 'Does your healthcare payroll system connect to our scheduling software?', acceptedAnswer: { '@type': 'Answer', text: 'BEG configures payroll to sync with existing scheduling and time data, so shift differentials, on-call hours, and per-diem or PRN shifts flow into payroll automatically, including across multi-location facilities.' } },
             ],
           }),
         }}

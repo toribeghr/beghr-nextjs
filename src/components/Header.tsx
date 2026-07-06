@@ -15,6 +15,7 @@ const navGroups = [
       { href: '/services/hcm-software',                     label: 'HCM Software',       hub: true  },
       { href: '/services/hr-outsourcing',                   label: 'HR Outsourcing',     hub: true  },
       { href: '/services/managed-benefits',                 label: 'Managed Benefits',   hub: true  },
+      { href: '/services/applicant-tracking-system',        label: 'Applicant Tracking', hub: true  },
       { href: '/services/managed-payroll/pricing',          label: 'Payroll Pricing',    hub: false },
       { href: '/services/managed-payroll/cost-calculator',  label: 'Cost Calculator',    hub: false },
     ],

@@ -9,6 +9,7 @@
 - [Job Placement](https://www.beghr.com/services/job-placement): Specialized direct-hire placement (talent acquisition as an outcome) for legal, healthcare, finance, technology, engineering, and trades roles, flat fee per placement.
 - [HR Outsourcing](https://www.beghr.com/services/hr-outsourcing): Certified HR professionals handle handbooks, compliance, leave, and manager coaching, powered by isolved. Not a PEO: no co-employment, the client stays the employer. Instant on-screen estimate, 34 industry pages, 50 state guides, and honest PEO/ASO/HRO comparisons.
 - [Managed Benefits](https://www.beghr.com/services/managed-benefits): Benefits administration powered by isolved.
+- [Applicant Tracking System](https://www.beghr.com/services/applicant-tracking-system): isolved Attract & Hire Small Business, resold, configured, and supported by BEG. Applicant tracking software to simplify sourcing, screening, and hiring for small businesses. $2.00 per employee per month, added to the isolved HCM platform, not a standalone product. National, remote.
 
 ## The AI advantage
 
@@ -32,6 +33,16 @@
 - [Benefits software vs services](https://www.beghr.com/services/managed-benefits/benefits-administration-software-vs-services): Who does the work.
 - [Outsourced vs in-house benefits administration](https://www.beghr.com/services/managed-benefits/outsourced-vs-in-house-benefits-administration): The real cost math.
 - State mini-COBRA guides for all 50 states, one page per state with statute-level rules (for example [California](https://www.beghr.com/services/managed-benefits/california), [Texas](https://www.beghr.com/services/managed-benefits/texas), [New York](https://www.beghr.com/services/managed-benefits/new-york), [Florida](https://www.beghr.com/services/managed-benefits/florida)), all linked from the Managed Benefits hub.
+
+## Applicant Tracking System (isolved Attract & Hire)
+
+- [Applicant Tracking System](https://www.beghr.com/services/applicant-tracking-system): The hub. isolved Attract & Hire Small Business, resold, configured, and supported by BEG. One applicant pipeline from job posting to signed offer. $2.00 per employee per month, added to the isolved HCM platform, not standalone. National, remote.
+- [What is an applicant tracking system?](https://www.beghr.com/services/applicant-tracking-system/what-is-an-applicant-tracking-system): Plain-language explainer of what an ATS does and who needs one.
+- [ATS vs spreadsheets](https://www.beghr.com/services/applicant-tracking-system/ats-vs-spreadsheets): The hidden cost of tracking applicants in spreadsheets and email.
+- [isolved Attract & Hire](https://www.beghr.com/services/applicant-tracking-system/isolved-attract-hire): What the product does and what BEG configures and supports.
+- [Applicant tracking system pricing](https://www.beghr.com/services/applicant-tracking-system/ats-pricing): $2.00 per employee per month added to isolved HCM, instant estimate, no demo gate.
+- [ATS for small business](https://www.beghr.com/services/applicant-tracking-system/small-business-applicant-tracking-system): Right-sized applicant tracking for teams of 25 to 100.
+- Industry pages for [healthcare](https://www.beghr.com/services/applicant-tracking-system/applicant-tracking-for-healthcare), [construction](https://www.beghr.com/services/applicant-tracking-system/applicant-tracking-for-construction), [restaurants](https://www.beghr.com/services/applicant-tracking-system/applicant-tracking-for-restaurants), and [manufacturing](https://www.beghr.com/services/applicant-tracking-system/applicant-tracking-for-manufacturing), all linked from the Applicant Tracking System hub.
 
 ## Understand HR outsourcing models
 

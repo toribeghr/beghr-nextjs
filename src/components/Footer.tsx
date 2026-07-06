@@ -142,6 +142,21 @@ export default function Footer() {
             <Link href="/services/managed-benefits/veterinary" className="footer-link">Veterinary</Link>
           </div>
 
+          {/* Applicant Tracking System */}
+          <div className="footer-col">
+            <h5 className="footer-col-heading">Applicant Tracking</h5>
+            <Link href="/services/applicant-tracking-system" className="footer-link footer-link--overview">Overview</Link>
+            <Link href="/services/applicant-tracking-system/ats-pricing" className="footer-link">Pricing</Link>
+            <Link href="/services/applicant-tracking-system/isolved-attract-hire" className="footer-link">isolved Attract &amp; Hire</Link>
+            <Link href="/services/applicant-tracking-system/what-is-an-applicant-tracking-system" className="footer-link">What Is an ATS?</Link>
+            <Link href="/services/applicant-tracking-system/ats-vs-spreadsheets" className="footer-link">ATS vs Spreadsheets</Link>
+            <Link href="/services/applicant-tracking-system/small-business-applicant-tracking-system" className="footer-link">Small Business</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-healthcare" className="footer-link">Healthcare</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-construction" className="footer-link">Construction</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-restaurants" className="footer-link">Restaurants</Link>
+            <Link href="/services/applicant-tracking-system/applicant-tracking-for-manufacturing" className="footer-link">Manufacturing</Link>
+          </div>
+
           {/* HCM Software */}
           <div className="footer-col">
             <h5 className="footer-col-heading">HCM Software</h5>

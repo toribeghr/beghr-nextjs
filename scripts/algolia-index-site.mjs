@@ -49,6 +49,7 @@ function detectVertical(pathname) {
   if (pathname.startsWith("/services/hcm-software")) return "HCM Software";
   if (pathname.startsWith("/services/hr-outsourcing")) return "HR Outsourcing";
   if (pathname.startsWith("/services/managed-benefits")) return "Managed Benefits";
+  if (pathname.startsWith("/services/applicant-tracking-system")) return "ATS";
   if (pathname.startsWith("/network") || pathname.includes("dfwleadershipconnect")) return "Network";
   if (pathname.startsWith("/partners")) return "Partners";
   if (pathname.startsWith("/blog")) return "Resources";
@@ -60,7 +61,7 @@ function detectVertical(pathname) {
 function detectIndustry(pathname) {
   const parts = pathname.split("/").filter(Boolean);
   const last = parts[parts.length - 1];
-  const knownSections = new Set(["managed-payroll", "job-placement", "hcm-software", "hr-outsourcing", "managed-benefits"]);
+  const knownSections = new Set(["managed-payroll", "job-placement", "hcm-software", "hr-outsourcing", "managed-benefits", "applicant-tracking-system"]);
   if (parts.length >= 3 && knownSections.has(parts[1]) && !["pricing", "cost-calculator", "roi-calculator", "ai-connector"].includes(last)) {
     return last;
   }
@@ -153,7 +154,10 @@ async function main() {
 
   console.log(`Extracted ${records.length} records. Pushing to Algolia index "${INDEX_NAME}" ...`);
 
-  await client.saveObjects({ indexName: INDEX_NAME, objects: records });
+  // replaceAllObjects atomically mirrors the live sitemap each run: adds new
+  // pages and removes records for pages that no longer exist, so the index
+  // never drifts into dead links. (saveObjects only adds/updates.)
+  await client.replaceAllObjects({ indexName: INDEX_NAME, objects: records });
 
   await client.setSettings({
     indexName: INDEX_NAME,

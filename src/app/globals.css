@@ -813,6 +813,45 @@ p {
   border-bottom: 1px solid rgba(236,172,96,0.2);
 }
 
+/* Footer accordion columns (industry-heavy sections, collapsed by default) */
+summary.footer-col-heading {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+summary.footer-col-heading::-webkit-details-marker {
+  display: none;
+}
+
+summary.footer-col-heading::marker {
+  content: '';
+}
+
+summary.footer-col-heading::after {
+  content: '+';
+  color: var(--gold);
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+details.footer-col[open] > summary.footer-col-heading::after {
+  content: '\2212';
+}
+
+details.footer-col[open] > summary.footer-col-heading {
+  margin-bottom: 14px;
+}
+
+details.footer-col > summary.footer-col-heading {
+  margin-bottom: 0;
+}
+
 .footer-contact-info {
   color: rgba(255,255,255,0.65);
   font-size: 0.82rem;

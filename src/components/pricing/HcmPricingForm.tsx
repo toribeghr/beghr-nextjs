@@ -59,18 +59,24 @@ const STEPS: { id: string; q: string; hint: string; opts: Opt[]; grid?: boolean 
 
 type Screen = 'quiz' | 'modules' | 'reco' | 'custom' | 'contact' | 'submitting' | 'result';
 
-// Question numbering across the mixed flow (6 visible questions total)
-const Q_NUM: Record<string, number> = { employees: 1, eins: 2, current: 3, benefitsAdmin: 5, states: 6 };
-const TOTAL_Q = 6;
+// Question numbering across the mixed flow (6 visible questions total).
+// When a module arrives preselected (from the ATS or LMS pricing pages), the
+// modules screen is skipped entirely, so the flow is 5 questions, not 6.
+const Q_NUM_FULL: Record<string, number> = { employees: 1, eins: 2, current: 3, benefitsAdmin: 5, states: 6 };
+const Q_NUM_PRESELECTED: Record<string, number> = { employees: 1, eins: 2, current: 3, benefitsAdmin: 4, states: 5 };
 
-export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
+export default function HcmPricingForm({ onClose, preselectModule }: { onClose: () => void; preselectModule?: 'ats' | 'lms' }) {
   const [screen, setScreen] = useState<Screen>('quiz');
   const [step, setStep] = useState(0);
   const [ans, setAns] = useState<Record<string, Opt>>({});
-  const [picks, setPicks] = useState<string[]>([]);
+  const [picks, setPicks] = useState<string[]>(preselectModule ? [preselectModule] : []);
   const [tierKey, setTierKey] = useState<HcmTierKey | null>(null);
   const [contact, setContact] = useState<Contact>(EMPTY_CONTACT);
   const [show, setShow] = useState(true);
+
+  const TOTAL_Q = preselectModule ? 5 : 6;
+  const Q_NUM = preselectModule ? Q_NUM_PRESELECTED : Q_NUM_FULL;
+  const preselectedModuleDef = preselectModule ? HCM_PICK_MODULES.find(m => m.id === preselectModule) : undefined;
 
   const fade = (fn: () => void) => { setShow(false); setTimeout(() => { fn(); setShow(true); }, 170); };
   const qNum = screen === 'modules' ? 4 : (Q_NUM[STEPS[step]?.id] ?? 1);
@@ -85,7 +91,11 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
     const id = STEPS[step].id;
     setAns(p => ({ ...p, [id]: opt }));
     if (opt.custom) { fade(() => setScreen('custom')); return; }
-    if (id === 'current') { fade(() => setScreen('modules')); return; }
+    if (id === 'current') {
+      if (preselectModule) { const i = STEPS.findIndex(s => s.id === 'benefitsAdmin'); fade(() => { setScreen('quiz'); setStep(i); }); return; }
+      fade(() => setScreen('modules'));
+      return;
+    }
     if (id === 'benefitsAdmin') { fade(() => setScreen('reco')); return; }
     if (id === 'states') { fade(() => setScreen('contact')); return; }
     fade(() => setStep(step + 1));
@@ -108,7 +118,10 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
     else if (screen === 'quiz') {
       const id = STEPS[step].id;
       if (id === 'states') fade(() => setScreen('reco'));
-      else if (id === 'benefitsAdmin') fade(() => setScreen('modules'));
+      else if (id === 'benefitsAdmin') {
+        if (preselectModule) { const i = STEPS.findIndex(s => s.id === 'current'); fade(() => setStep(i)); }
+        else fade(() => setScreen('modules'));
+      }
       else if (step > 0) fade(() => setStep(step - 1));
       else onClose();
     }
@@ -135,6 +148,7 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
     if (!canSubmit) return;
     fade(() => setScreen('submitting'));
     const lines = [
+      ...(preselectedModuleDef ? [`Entry point: ${preselectedModuleDef.name} pricing page (bundled into ${tier.name}, no separate charge)`] : []),
       `Tier: ${tier.name} (${tier.pkg})`,
       `Modules picked: ${pickedNames.join('; ')}`,
       `Employees: ${ans.employees?.label ?? ''} · EINs: ${eins}`,
@@ -153,6 +167,7 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
         modules: pickedNames,
         benefits_admin: ans.benefitsAdmin?.label ?? '', states: ans.states?.label ?? '',
         recommended: reco.key, chosen: tierKey ?? reco.key, benefits_gap: bensGap ? 'yes' : 'no',
+        preselected_module: preselectModule ?? '',
         monthly: money(monthly), annual: money(annual),
         discount_annual: money(annual * 0.8), you_keep: money(annual * 0.2),
         tier_name: tier.name, tier_pkg: tier.pkg,
@@ -357,6 +372,11 @@ export default function HcmPricingForm({ onClose }: { onClose: () => void }) {
                   {bensGap && (
                     <div style={{ fontSize: '0.66rem', color: '#fbbf24', marginTop: '6px' }}>
                       ⚠ Your answers flagged unowned benefits admin - the Comply tier includes it. Worth comparing on your call.
+                    </div>
+                  )}
+                  {preselectedModuleDef && (
+                    <div style={{ fontSize: '0.64rem', color: '#4ade80', marginTop: '7px' }}>
+                      ✓ Includes {preselectedModuleDef.name} - bundled into the {tier.name} tier above, no separate line item
                     </div>
                   )}
                 </div>

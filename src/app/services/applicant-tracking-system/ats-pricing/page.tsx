@@ -24,11 +24,11 @@ const CALENDLY = getCalendlyLink('applicant-tracking-system-ats-pricing');
 const FAQS: [string, string][] = [
   [
     'How much does an applicant tracking system cost?',
-    'isolved Attract & Hire Small Business is $2.00 per employee per month. It is an add-on to the isolved HCM platform rather than standalone software, so your total is that module price plus the isolved HCM plan it runs on. Answer a few questions and BEG shows you an instant, on-screen estimate for the whole platform.',
+    'isolved Attract & Hire is bundled into the Build tier of isolved HCM and up, at no separate module charge. Your total is simply your isolved HCM per-employee rate for that tier, which starts at $12 per employee per month. Answer a few questions and BEG shows you an instant, on-screen estimate for the whole platform.',
   ],
   [
-    'Is isolved Attract & Hire Small Business sold on its own?',
-    'No. It is a hiring module that runs on the isolved HCM platform, priced at $2.00 per employee per month on top of your isolved HCM plan. That is why the instant-pricing tool prices the platform and the module together, so the number you see is the real one.',
+    'Is isolved Attract & Hire sold on its own?',
+    'No. It is a hiring module included the moment your team is on the Build tier of isolved HCM or higher. There is no separate ATS invoice to track: it is inside the tier price you already see quoted.',
   ],
   [
     'Is there a demo I have to sit through before I see a price?',
@@ -36,15 +36,15 @@ const FAQS: [string, string][] = [
   ],
   [
     'What drives the price up or down?',
-    'The module itself is a flat $2.00 per employee per month, so your headcount is the main driver. The other factor is which isolved HCM plan it runs on underneath. Fewer employees and a leaner platform plan mean a lower total.',
+    'Your headcount and which isolved HCM tier you land on. Attract & Hire itself carries no additional per-employee charge once you are on Build tier or above, so the tier and employee count are the only two levers.',
   ],
   [
-    'Is isolved Attract & Hire Small Business cheaper than hiring another recruiter?',
-    'For most small and mid-size teams, yes. At $2.00 per employee per month the module is priced as software, while a recruiter is a full salary. Many companies use both: software to run the process, and existing staff or BEG job placement to fill specific roles.',
+    'Is isolved Attract & Hire cheaper than hiring another recruiter?',
+    'For most small and mid-size teams, yes. It is bundled into your platform tier rather than billed separately, while a recruiter is a full salary. Many companies use both: software to run the process, and existing staff or BEG job placement to fill specific roles.',
   ],
   [
     'Does the price include setup and support?',
-    'BEG configures and supports isolved Attract & Hire Small Business for your team as part of the relationship. You are not left to self-implement hiring software. Exact scope is confirmed on your discovery call after you see your instant estimate.',
+    'BEG configures and supports isolved Attract & Hire for your team as part of the relationship. You are not left to self-implement hiring software. Exact scope is confirmed on your discovery call after you see your instant estimate.',
   ],
 ];
 
@@ -94,11 +94,11 @@ export default function AtsPricingPage() {
         showHeroImage={false}
         eyebrow="Applicant Tracking System · Pricing"
         title="What does an applicant tracking system cost for a team your size?"
-        description="A vacant role costs you more every week it stays open. isolved Attract & Hire Small Business is applicant tracking software priced at $2.00 per employee per month, added to your isolved HCM platform, not sold on its own. See your instant estimate below, no demo required."
+        description="A vacant role costs you more every week it stays open. isolved Attract & Hire is applicant tracking software bundled into the Build tier of isolved HCM and up, not sold on its own. See your instant estimate below, no demo required."
         calendlyLink={CALENDLY}
-        heroCta={<PricingCta service="hcm-software" />}
+        heroCta={<PricingCta service="hcm-software" preselectModule="ats" />}
         heroStats={[
-          { value: '$2.00', label: 'Per employee per month, added to isolved HCM' },
+          { value: 'Bundled', label: 'Included in Build tier and up, no separate charge' },
           { value: '90 sec', label: 'To your instant on-screen estimate' },
           { value: '0', label: 'Demos required to see a number' },
         ]}
@@ -146,21 +146,21 @@ export default function AtsPricingPage() {
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">What Drives Your Price</p>
-              <h2>A flat module price, plus the platform it runs on</h2>
+              <h2>No separate module fee, just the isolved HCM tier it lives on</h2>
             </div>
             <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1.5rem', marginTop: '2rem' }}>
               {[
                 {
-                  title: 'The module price is flat, and it is a fraction of standalone ATS software',
-                  body: 'isolved Attract & Hire Small Business is $2.00 per employee per month. No per-recruiter fees, no per-job-posting charges. Standalone applicant tracking software sold on its own typically carries per-seat licensing, implementation fees, and tiered add-ons that push the real cost well beyond a flat per-employee rate. Bundled as a module on isolved HCM, you skip that separate software bill entirely.',
+                  title: 'Attract & Hire has no per-employee charge of its own',
+                  body: 'It is bundled into the Build tier of isolved HCM and every tier above it. No per-recruiter fees, no per-job-posting charges, and no separate line item to track. Standalone applicant tracking software sold on its own typically carries per-seat licensing, implementation fees, and tiered add-ons that push the real cost well beyond what you pay here.',
                 },
                 {
                   title: 'It rides on isolved HCM',
-                  body: 'Attract & Hire Small Business is not standalone. It is added to your isolved HCM platform, so the plan you run underneath is the other half of your total. BEG scopes both together.',
+                  body: 'Attract & Hire is not standalone. It comes included once you are on the Build tier of isolved HCM or higher, so your total is simply that tier\'s per-employee rate. BEG scopes the whole platform together.',
                 },
                 {
-                  title: 'Headcount, not hiring volume',
-                  body: 'Because pricing is per employee per month, your cost tracks your team size, not how many roles you happen to be filling this quarter. A busy hiring month does not spike the bill.',
+                  title: 'Headcount and tier, not hiring volume',
+                  body: 'Because the platform is priced per employee per month, your cost tracks your team size and which tier you land on, not how many roles you happen to be filling this quarter. A busy hiring month does not spike the bill.',
                 },
               ].map(({ title, body }) => (
                 <div key={title} style={{ background: '#f9f9f9', borderRadius: '8px', padding: '1.5rem' }}>
@@ -189,7 +189,7 @@ export default function AtsPricingPage() {
                 {
                   num: '02',
                   title: 'See your number on screen',
-                  body: 'Your estimate for isolved HCM with Attract & Hire Small Business appears instantly, sized to what you told us, not a generic sticker price.',
+                  body: 'Your estimate for isolved HCM with Attract & Hire included appears instantly, sized to what you told us, not a generic sticker price.',
                 },
                 {
                   num: '03',
@@ -205,7 +205,7 @@ export default function AtsPricingPage() {
               ))}
             </div>
             <div className="reveal" style={{ marginTop: '2rem', textAlign: 'center' }}>
-              <PricingCta service="hcm-software" />
+              <PricingCta service="hcm-software" preselectModule="ats" />
             </div>
           </div>
         </section>

@@ -24,6 +24,7 @@ interface Props {
   industry?: string;   // slug on the 26 job-placement industry pages
   subline?: boolean;   // false for compact placements (blog posts, header)
   label?: string;      // override the button text
+  preselectModule?: 'ats' | 'lms'; // hcm-software only: skip module picker, quote is already scoped to this module's tier
 }
 
 const LABELS: Record<Service, string> = {
@@ -44,7 +45,7 @@ const SUBLINES: Record<Service, string> = {
   chooser: 'Pick a service, see your price - no call required',
 };
 
-export default function PricingCta({ service, industry, subline = true, label }: Props) {
+export default function PricingCta({ service, industry, subline = true, label, preselectModule }: Props) {
   const [open, setOpen] = useState(false);
   const [chosen, setChosen] = useState<Service | null>(null);
   const active = service === 'chooser' ? chosen : service;
@@ -90,7 +91,7 @@ export default function PricingCta({ service, industry, subline = true, label }:
                   <p style={{ color: T3, fontSize: '0.74rem', marginBottom: '16px' }}>Takes about 90 seconds either way</p>
                   {chooserCard('managed-payroll', '💵', 'Managed Payroll & HR', 'We run payroll for you - every filing, deadline and W-2 handled')}
                   {chooserCard('job-placement', '🎯', 'Job Placement', 'Open roles filled in 23-35 days, priced per role')}
-                  {chooserCard('hcm-software', '🖥️', 'HCM Software (isolved)', 'HR, payroll, talent and benefits on one platform')}
+                  {chooserCard('hcm-software', '🖥️', 'HCM Software (isolved)', 'HR, payroll, talent and benefits, including hiring and training tools, on one platform')}
                   {chooserCard('hr-outsourcing', '🧑‍💼', 'HR Outsourcing', 'Handbooks, compliance and a dedicated HR pro - your HR, handled')}
                   {chooserCard('managed-benefits', '🛡️', 'Managed Benefits', 'Enrollment, ACA and benefits admin off your desk - you keep your broker')}
                 </Wrap>
@@ -105,7 +106,7 @@ export default function PricingCta({ service, industry, subline = true, label }:
           ) : active === 'managed-benefits' ? (
             <BenefitsPricingForm onClose={close} />
           ) : (
-            <HcmPricingForm onClose={close} />
+            <HcmPricingForm onClose={close} preselectModule={service === 'hcm-software' ? preselectModule : undefined} />
           )}
         </PricingModal>
       )}

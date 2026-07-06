@@ -46,6 +46,14 @@ const FAQS: [string, string][] = [
     'Is this a PEO for fitness businesses?',
     'No. There is no co-employment and your plans stay your plans. BEG Managed Benefits, powered by isolved, administers the coverage you and your broker already chose. You stay the employer.',
   ],
+  [
+    'Our instructors are 1099 contractors. Does that change anything?',
+    'It changes what needs to be checked, not whether it needs checking. Misclassifying an instructor who is functionally an employee (set schedule, studio equipment, no other clients) creates ACA and payroll exposure at once. BEG Managed Benefits tracks classification alongside eligibility so a reclassified instructor is caught and enrolled on schedule instead of surfacing during an audit.',
+  ],
+  [
+    'Instructor turnover is constant. Does that create a COBRA problem?',
+    'Volume, mainly. Every enrolled instructor or front-desk employee who leaves triggers a COBRA notice, an election window, and premium billing, and a studio with high seasonal turnover can generate dozens of these a year. Internal teams that miss a notice deadline own the liability directly; outsourced COBRA administration typically runs around $110 a day per plan administrator, and BEG Managed Benefits includes it, notices and all, inside Fully Managed.',
+  ],
 ];
 
 export default function ManagedBenefitsFitnessPage() {
@@ -126,6 +134,31 @@ export default function ManagedBenefitsFitnessPage() {
           </div>
         </section>
 
+        {/* WHO THIS SERVES */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Who This Serves</p>
+              <h2>Fitness operators carrying real ACA exposure without a benefits department</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+              {[
+                { title: 'Independent gyms', body: 'A single-location gym with salaried managers, hourly front desk, and a bench of per-class instructors, where eligibility tracking has been a spreadsheet someone updates when they remember.' },
+                { title: 'Boutique fitness studios', body: 'Yoga, pilates, and cycling studios paying instructors per class taught, with weekly hours that swing with class sign-ups instead of a fixed schedule.' },
+                { title: 'Multi-location franchise operators', body: 'Regional operators running a dozen or more clubs under one ownership group, where combined part-time hours can cross the 50-FTE line long before headcount at any single location looks like it.' },
+                { title: 'CrossFit-style affiliate boxes', body: 'Owner-operators with a small core staff and a rotating group of coaches paid per class, where classification and eligibility questions come up constantly and get answered inconsistently.' },
+                { title: 'Martial arts and dance studios', body: 'Instructor-heavy rosters with after-school scheduling gaps and instructors who teach at more than one location, complicating both eligibility and payroll.' },
+                { title: 'Personal training studios', body: 'Trainers paid per session with client loads that vary week to week, making the IRS look-back measurement method the only reliable way to know who is eligible.' },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.25rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.4rem', fontSize: '0.97rem' }}>{title}</strong>
+                  <p style={{ margin: 0, fontSize: '0.88rem', color: '#555555', lineHeight: '1.55' }}>{body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* WHAT GETS HANDLED, BY PLAN */}
         <section className="section">
           <div className="container" style={{ maxWidth: '820px' }}>
@@ -141,6 +174,7 @@ export default function ManagedBenefitsFitnessPage() {
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Software + ACA Compliance: the plan built for per-class rosters</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>This is where fitness businesses usually land. Variable-hour tracking applies the look-back method to every instructor, FTE counts are watched so applicable large employer status is a known fact rather than a surprise, and Forms 1094-C and 1095-C are produced on schedule. When an auditor or the IRS asks why someone was or was not offered coverage, the measurement records answer.</p>
+                <p style={{ margin: '0.9rem 0 0', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Take a three-studio operator with 40 payroll employees across managers and front desk, plus 25 instructors teaching 8 to 15 hours a week apiece. No single studio looks like an applicable large employer. Aggregate every instructor&apos;s hours into full-time equivalents across all three locations, though, and that operator can cross 50 FTEs while still telling people they run three small studios. The measurement period is what catches it, not a headcount check done location by location.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fully Managed: turnover volume handled by someone else</h3>

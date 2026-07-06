@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Is this a PEO?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans you and your broker already chose. You stay the employer.',
   ],
+  [
+    'How does licensed-staff turnover affect eligibility tracking?',
+    'Advisors and registered staff move between firms more than most industries, often mid-plan-year and mid-quarter. Terminations, COBRA notices, and new-hire enrollments have to fire on the actual departure or start date, not whenever someone remembers to update the carrier.',
+  ],
+  [
+    'Can the data support an internal controls review, not just a DOL filing?',
+    'Yes. Because eligibility, elections, and deductions live in one system instead of three, the same export that supports a Form 5500 also holds up under an internal audit or SOC-type review of HR data controls.',
+  ],
+  [
+    'What does this cost compared to an internal hire?',
+    'A monthly per-employee fee that is typically a fraction of the $60,000 to $100,000 a firm would spend on a dedicated benefits administrator, and it comes with the ACA filings and audit-ready data built in rather than built by that one hire.',
+  ],
 ];
 
 export default function ManagedBenefitsFinancePage() {
@@ -123,6 +135,55 @@ export default function ManagedBenefitsFinancePage() {
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
               Source: <a href="https://www.dol.gov/agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/reporting-and-filing/form-5500" target="_blank" rel="noopener noreferrer">U.S. Department of Labor, Form 5500 reporting and filing</a>.
             </p>
+          </div>
+        </section>
+
+        {/* PAIN TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Where the Numbers Stop Reconciling</p>
+              <h2>Three records, one truth: getting benefits data to match</h2>
+            </div>
+            <div className="reveal" style={{ overflowX: 'auto', marginTop: '2rem' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid #000000' }}>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>Record</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>Common gap</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>What one system fixes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Carrier bill', 'Terminated employees still generating charges', 'Terminations sync to carriers on the effective date'],
+                    ['Payroll deduction', 'Deduction amount does not match the current election', 'Elections and deductions draw from the same record'],
+                    ['Enrollment spreadsheet', 'Manually updated, usually stale by the time anyone checks it', 'Replaced by a live system of record with audit trail'],
+                    ['Form 5500 participant count', 'Nobody is watching the 100-participant threshold', 'Eligibility and headcount tracked continuously'],
+                  ].map(([rec, gap, fix]) => (
+                    <tr key={rec} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.75rem 0.5rem', fontWeight: 600 }}>{rec}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{gap}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{fix}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The Form 5500 filing that starts three weeks late</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+              <p>A firm crosses 100 plan participants during a hiring push and does not notice until the filing preparer asks for a current census. The office manager pulls headcount from payroll, enrollment from a spreadsheet, and carrier confirmations from an inbox, and the three numbers disagree by a dozen people. Reconciling them by hand before a filing deadline turns a routine annual task into a fire drill.</p>
+              <p style={{ marginTop: '1rem' }}>With eligibility, elections, and deductions maintained in one system, the participant count is always current, and the filing preparer gets a clean export instead of a reconstruction project.</p>
+            </div>
           </div>
         </section>
 

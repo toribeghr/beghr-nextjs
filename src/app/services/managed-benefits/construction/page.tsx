@@ -42,6 +42,14 @@ const FAQS: [string, string][] = [
     'What does benefits administration cost for a contractor?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'Do prevailing-wage fringe benefit dollars affect benefits administration?',
+    'Yes, on the tracking side. Contractors crediting health plan contributions against the Davis-Bacon or state prevailing-wage fringe rate need enrollment and contribution records that reconcile against certified payroll by employee and by job. That record-keeping runs in the same system as everyday enrollment, so the fringe credit and the benefit itself never drift apart. Certified payroll production itself is a managed payroll function.',
+  ],
+  [
+    'How does COBRA work when a project closes and the crew scatters to other employers?',
+    'The election right belongs to the employee regardless of where they land next, and the notice and election-window clocks run on federal deadlines from the qualifying event date. COBRA premium billing on the Fully Managed plan runs in the same system alongside active enrollment, so a closeout wave does not turn into a manual billing project.',
+  ],
 ];
 
 export default function ManagedBenefitsConstructionPage() {
@@ -150,6 +158,25 @@ export default function ManagedBenefitsConstructionPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Benefits data that holds up next to certified payroll</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Contractors already live with documentation discipline on the payroll side. Benefits deserves the same: enrollments reconciled against carrier bills, eligibility determinations documented, filings produced from live data. On the Fully Managed plan a Benefits Auditing Analyst runs those checks continuously, so the carrier invoice stops carrying ghosts from three closeouts ago.</p>
               </div>
+              <div>
+                <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Prevailing-wage fringe credit, tracked next to the enrollment it backs</h3>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Contractors crediting health plan contributions against a Davis-Bacon or state prevailing-wage fringe rate need the enrollment and contribution record to match the certified payroll figure, by employee and by job. When the two systems run separately, the fringe credit and the actual benefit drift apart quietly until a compliance review catches it. One data set backs both.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">How It Plays Out</p>
+              <h2>A closeout wave, start to finish</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '1.5rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A general contractor closes out a highway job on a Friday. Fourteen enrolled crew members separate the same day, three of them from a joint-venture entity the IRS combines with the parent for ALE purposes. Each separation generates a coverage end date, a continuation election notice on its federal deadline, and a payroll deduction stop. Six weeks later, four of those fourteen are rehired onto a new job within the 13-week break-in-service window, so they return as continuing employees with no new waiting period, not new hires. The Managed Benefits Specialist processes both waves from the same eligibility record; the Benefits Auditing Analyst confirms the carrier bill matches actual headcount before it is paid.
+              </p>
             </div>
           </div>
         </section>

@@ -42,6 +42,14 @@ const FAQS: [string, string][] = [
     'What does benefits administration cost for a design firm?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'How does COBRA billing work once a departing employee elects continuation coverage?',
+    'On the Fully Managed plan, COBRA administration, including premium billing and collection, runs in the same system alongside active enrollment. The election, notice, and payment tracking live in the same system as active enrollment, which matters at a firm crossing the 20-employee federal threshold for the first time and unsure what the obligation actually requires.',
+  ],
+  [
+    'Does licensure or professional liability coverage change how benefits are administered?',
+    'Not the health and welfare administration itself. Professional liability and state licensing board requirements sit outside the benefits program, but firms tracking them alongside payroll and HR often want the same eligibility and headcount data feeding both, which is where a combined managed payroll and HR outsourcing relationship helps.',
+  ],
 ];
 
 export default function ManagedBenefitsArchitecturePage() {
@@ -150,6 +158,21 @@ export default function ManagedBenefitsArchitecturePage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Data an auditor, or a partner meeting, can trust</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Benefits cost is one of the largest line items after salaries, and most firms cannot answer basic questions about it without an afternoon of spreadsheet archaeology. Real-time reporting shows enrollment, cost, and utilization on demand, and on the Fully Managed plan a Benefits Auditing Analyst checks elections against carrier bills so the firm stops paying for coverage nobody has.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">How It Plays Out</p>
+              <h2>Crossing the 20-employee line mid-project</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '1.5rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A 17-person studio wins a hospital commission and hires six people to staff it, crossing 20 employees mid-year. Nobody adjusts the benefits process, because nobody realized the federal COBRA threshold had a headcount trigger. Three months later a senior designer leaves. Because eligibility and headcount are tracked continuously, the firm already knows it owes a federal COBRA notice rather than the shorter state-continuation process it used at 17 employees, and premium billing for the elected coverage runs in the same system alongside active enrollment instead of getting invented on the spot.
+              </p>
             </div>
           </div>
         </section>

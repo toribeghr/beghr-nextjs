@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Is this a PEO for franchise groups?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans you and your broker already chose. You stay the employer at every unit.',
   ],
+  [
+    'Does administering benefits at one standard create joint-employer risk with a franchisor?',
+    'No, and the distinction matters. Joint-employer exposure attaches to who determines which benefit plans or benefit levels apply, not to who processes enrollment or files the paperwork behind a plan the franchisee already chose. BEG Managed Benefits administers the plans your ownership group selected; plan design decisions stay with you and your broker, keeping the administrative layer separate from the control question regulators actually look at.',
+  ],
+  [
+    'What does franchise benefits administration cost across multiple units?',
+    'A monthly per-employee cost far below hiring one internal benefits administrator per unit, which realistically runs $60K-$100K a year in salary and overhead for a single location, let alone five. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'What happens to COBRA when a franchise unit closes or changes ownership?',
+    'Coverage loss from a unit closing or an ownership transfer is a qualifying event like any other, and election notices and premium deadlines run on the same federal timelines regardless of what happened at the entity level. COBRA premiums run up to 102% of plan cost, commonly translating to roughly $110/day of exposure per lapsed election if notices or payment windows are mishandled during a transition. Centralized tracking keeps that clock accurate even while ownership paperwork is still being sorted out.',
+  ],
 ];
 
 export default function ManagedBenefitsFranchisePage() {
@@ -166,6 +178,21 @@ export default function ManagedBenefitsFranchisePage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               Multi-entity payroll the bigger fire? BEG&apos;s core service is <Link href="/services/managed-payroll/franchise">managed payroll for franchises</Link>, and one employment standard across units lives in <Link href="/services/hr-outsourcing/franchise">franchise HR outsourcing</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* SCENARIO: CONTROLLED GROUP AGGREGATION */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>Five 15-employee units. One 75-employee employer.</h2>
+            </div>
+            <div className="reveal" style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '1.5rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                An owner with five units, each its own LLC with its own EIN and around 15 employees, reasonably assumes none of them individually approach the 50-employee applicable-large-employer line. Under IRS controlled-group aggregation rules, common ownership combines those entities for ACA status: the same owner is a 75-employee employer, obligated to offer coverage to full-time staff agency-wide, even though every individual unit files its own Forms 1094-C and 1095-C. Operators who count each LLC in isolation typically discover the aggregation rule from a penalty notice, not from their own payroll reports.
+              </p>
+            </div>
           </div>
         </section>
 

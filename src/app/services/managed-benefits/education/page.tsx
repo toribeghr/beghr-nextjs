@@ -42,6 +42,18 @@ const FAQS: [string, string][] = [
     'What does benefits administration cost for a school?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'Do adjunct professors ever qualify for benefits under ACA rules?',
+    'Yes, if their measured hours cross the full-time line, and the Department of Education\'s own guidance plus IRS rules require institutions to have a documented, defensible method for crediting adjunct hours, including time spent on prep and grading that is not always captured by classroom hours alone.',
+  ],
+  [
+    'How is teacher retention actually connected to benefits administration?',
+    'Slow, confusing enrollment is itself a retention cost. A new teacher who cannot get a straight answer about coverage during the August rush forms an early opinion about the institution, and schools competing for talent in a persistent shortage cannot afford that friction on top of everything else new hires are absorbing.',
+  ],
+  [
+    'Who actually regulates education benefits compliance?',
+    'The IRS enforces the ACA employer mandate, including the education-specific break-in-service and averaging rules written for academic-year employers, and produces the guidance those calculations depend on. State insurance departments separately govern what plans can be sold to the institution.',
+  ],
 ];
 
 export default function ManagedBenefitsEducationPage() {
@@ -150,6 +162,57 @@ export default function ManagedBenefitsEducationPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>A business office that gets its fall back</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>In most schools, benefits administration lives with a business manager who also owns tuition, budgets, and vendors. On the Fully Managed plan, a dedicated Managed Benefits Specialist runs open enrollment start to finish and processes the year&apos;s changes, while a Benefits Auditing Analyst reconciles carrier bills against actual enrollment, a check most schools have never once run.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* COMPARISON TABLE */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Staff Type by Staff Type</p>
+              <h2>Academic staffing categories and where benefits administration breaks</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f7f7f7', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Staff type</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Where it breaks</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>The regulator</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Full-time faculty on 9-month contracts', 'Summer break must not be treated as a termination for hours-averaging purposes.', 'IRS (education-specific break-in-service rules)'],
+                    ['Adjunct and part-time faculty', 'Classroom hours alone undercount actual work; prep and grading time needs a documented crediting method.', 'IRS (lookback measurement method)'],
+                    ['Substitutes', 'Highly variable weekly schedules make manual full-time determination close to impossible.', 'IRS (variable-hour averaging)'],
+                    ['Coaches and seasonal staff', 'Twelve intense weeks of a season have to reconcile to twelve months of monthly reporting codes.', 'IRS (Form 1095-C monthly codes)'],
+                    ['Charter or diocesan network staff', 'Employees moving between campuses under common control can be miscounted as terminated and rehired.', 'IRS (aggregated ALE group counting)'],
+                  ].map(([group, breaks, reg]) => (
+                    <tr key={group} style={{ borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{group}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#444444' }}>{breaks}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#666666' }}>{reg}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* VIGNETTE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Familiar August</p>
+              <h2>What academic-year eligibility looks like without break-period rules built in</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A business manager tracking eligibility in a spreadsheet sees a nine-month teacher&apos;s hours drop to zero every June, July, and August, and a generic system with no education-specific logic reads that as the employee falling below the full-time threshold. Coverage gets flagged for termination in the fall, the teacher gets a confusing letter about losing benefits over a summer she was never supposed to lose them, and the business office spends the first week of the school year fixing a problem that IRS break-in-service rules were written specifically to prevent. Administration built around the education-specific averaging rules never generates that letter in the first place, because summer break is credited correctly the moment the school year data comes in.
+              </p>
             </div>
           </div>
         </section>

@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Is this a PEO?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans your agency already chose. You stay the employer.',
   ],
+  [
+    'What does insurance agency benefits administration cost?',
+    'A monthly per-employee cost far below adding an internal benefits administrator, which typically runs $60K-$100K a year in salary and overhead on top of the E&O exposure of that person learning on the job. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'Does the Department of Labor hold agencies to a higher standard because we sell benefits?',
+    'The legal standard under ERISA and DOL rules is the same for every plan sponsor regardless of industry, but the practical scrutiny is not. An agency principal who advises clients on fiduciary duties and plan documentation invites obvious follow-up questions if the agency’s own plan administration, summary plan descriptions, or Form 5500 filings are behind. Clean administration removes that specific vulnerability before a client, a carrier, or an employee ever raises it.',
+  ],
+  [
+    'How do we handle COBRA for a producer who is terminated for performance, not the agency as a whole?',
+    'The same as any single-employee termination: the qualifying event starts the clock regardless of the reason for departure, and election notices and premium windows run on federal deadlines. COBRA premiums run up to 102% of plan cost, commonly landing near $110/day of exposure if a single termination notice slips through because it was not part of a larger, more visible event like a layoff.',
+  ],
 ];
 
 export default function ManagedBenefitsInsuranceAgencyPage() {
@@ -166,6 +178,41 @@ export default function ManagedBenefitsInsuranceAgencyPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               Commission payroll the bigger grind? BEG&apos;s core service is <Link href="/services/managed-payroll/insurance-agency">managed payroll for insurance agencies</Link>, and licensing and people policies live in <Link href="/services/hr-outsourcing/insurance-agency">insurance agency HR outsourcing</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* PAIN TABLE: PRODUCER VS STAFF CLASSES */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Where Agencies Get Caught</p>
+              <h2>Producer, CSR, and admin classes rarely follow the same rules by accident</h2>
+            </div>
+            <div className="reveal" style={{ overflowX: 'auto', marginTop: '1.5rem' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid #000000' }}>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem', fontWeight: 700 }}>Role</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem', fontWeight: 700 }}>Common pay structure</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem', fontWeight: 700 }}>Where affordability math gets missed</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Producers', 'Commission-heavy, variable monthly pay', 'Affordability safe harbor calculated once, never re-checked as commission swings'],
+                    ['CSRs / account staff', 'Salaried, standard hours', 'Correct by default, but waiting periods drift when class rules live in someone’s memory'],
+                    ['Part-time admin', 'Hourly, variable schedule', 'Full-time-equivalent hours undercounted toward the 50-FTE line'],
+                    ['New producers, first 90 days', 'Draw against future commission', 'Treated as a probationary non-issue instead of tracked against the offer deadline'],
+                  ].map(([role, pay, gap]) => (
+                    <tr key={role} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.75rem 0.5rem', fontWeight: 600 }}>{role}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#444444' }}>{pay}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#444444' }}>{gap}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
 

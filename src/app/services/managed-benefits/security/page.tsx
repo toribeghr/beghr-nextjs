@@ -44,7 +44,19 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does security company benefits administration cost?',
-    'A monthly per-employee cost far below an internal benefits hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+    'A monthly per-employee cost far below an internal benefits hire, which typically runs $60,000 to $100,000 a year loaded. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'What happens if a departed guard is missed for COBRA?',
+    'A missed or late election notice carries real cost. Continuation coverage itself commonly runs at least $110 a day once elected, and separately the IRS can assess excise tax penalties for notice failures on top of that. At guard-industry turnover volume, tracking every departure against the federal notice deadline is what prevents that from becoming a pattern instead of a one-off.',
+  ],
+  [
+    'How do we handle benefits when guards are assigned across multiple branches or franchises?',
+    'Eligibility and enrollment data has to reconcile at the company level even when scheduling happens branch by branch. One system tracking hours and eligibility across every site keeps a guard who splits time between two contracts from falling through a gap between two branch offices that each assume the other has it covered.',
+  ],
+  [
+    'Do part-time guards ever need a coverage offer?',
+    'Only if their averaged hours cross the ACA full-time threshold under the lookback measurement method, generally 30 hours a week. A guard hired as part-time who picks up extra shifts to cover a colleague, or wins hours from a new contract, can cross that line mid-year without anyone flagging it by hand.',
   ],
 ];
 
@@ -170,6 +182,57 @@ export default function ManagedBenefitsSecurityPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               Overtime and multi-site pay runs the bigger fire? That is <Link href="/services/managed-payroll/security">managed payroll for security companies</Link>; for licensing policies and guard handbooks, see <Link href="/services/hr-outsourcing/security">security company HR outsourcing</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* COMPLIANCE TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Where Security Company Benefits Admin Breaks</p>
+              <h2>24/7 posts, contract swings, and high turnover create failure points a fixed office never sees</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f9f9f9', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>Pain point</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>Why a guard roster creates it</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>What handles it</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Guards never enroll', 'Posts run 24/7 across client sites, so a branch-office enrollment event never reaches an overnight shift.', 'Online self-service enrollment a guard completes from any post, any shift.'],
+                    ['Contract wins and losses swing eligibility', 'Winning a new site can double a group of guards hours overnight; losing one halves them.', 'Continuous lookback measurement that catches averaged hours crossing the 30-hour line either direction.'],
+                    ['COBRA notices missed at high turnover', 'Guard turnover runs well above average, and every covered exit opens a federal notice deadline.', 'Every termination tracked against notice deadlines, with elections and coverage end dates flowing to carriers.'],
+                    ['Multi-branch data never reconciles', 'Scheduling happens branch by branch, but eligibility has to be counted at the company level.', 'One system tracking hours and eligibility across every branch and site.'],
+                    ['Departed guards stay on the carrier invoice', 'A termination logged at the branch does not always reach the carrier feed on the same day.', 'Carrier records audited against active roster data by a Benefits Auditing Analyst.'],
+                  ].map(([pain, why, fix]) => (
+                    <tr key={pain} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{pain}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#555555' }}>{why}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#555555' }}>{fix}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The contract win that quietly created a coverage obligation</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '2rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A regional security company wins a hospital contract that requires round-the-clock coverage. Forty guards who were averaging 22 hours a week across two smaller sites suddenly pick up enough extra shifts to average 32 hours over the following measurement period. Nobody flags it, because the contract win looks like good news, not a benefits event. Six months later, an ACA penalty notice arrives for failing to offer coverage to newly full-time guards. With lookback measurement running continuously across every site, the same company sees the averaged-hours shift the month it happens and has the measurement period to plan a coverage offer instead of a penalty letter to answer.
+              </p>
+            </div>
           </div>
         </section>
 

@@ -42,6 +42,14 @@ const FAQS: [string, string][] = [
     'What does benefits administration cost for an engineering firm?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'How does COBRA billing work for a departing engineer who elects continuation coverage?',
+    'On the Fully Managed plan, COBRA administration, including premium billing and collection, runs in the same system alongside active enrollment. That is a meaningful line for firms with steady project-cycle turnover among field staff, since every departure carries its own notice deadline and billing cycle.',
+  ],
+  [
+    'Does government contract overhead reporting change how benefits data needs to be kept?',
+    'Firms with federal or state on-call contracts often face overhead rate audits that ask for fringe benefit costs by employee and by contract. Benefits administration itself does not change, but clean, continuously reconciled enrollment and cost data is what lets a firm answer an overhead audit in days instead of reconstructing a year of records from carrier invoices.',
+  ],
 ];
 
 export default function ManagedBenefitsEngineeringPage() {
@@ -150,6 +158,21 @@ export default function ManagedBenefitsEngineeringPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Growth thresholds crossed with eyes open</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>A firm that wins two on-call contracts and acquires a survey practice can cross the 50 full-time-equivalent ACA line in a single year, and commonly owned sister entities count together. Continuous tracking means the firm knows where it stands each month, and Forms 1094-C and 1095-C are produced from live data when the obligation arrives.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">How It Plays Out</p>
+              <h2>An overhead audit, and a bench-time layoff, in the same quarter</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '1.5rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A civil engineering firm with two state DOT on-call contracts gets notice of an overhead rate audit requesting fringe benefit costs by contract for the prior year. The same month, a resident engineer&apos;s project demobilizes and the firm considers cutting his coverage since his hours dropped. Because eligibility already locked in for the full stability period under the IRS lookback rule, coverage stays in place, avoiding a compliance mistake, and the audit response pulls straight from continuously reconciled enrollment and cost data instead of a scramble through twelve months of carrier invoices.
+              </p>
             </div>
           </div>
         </section>

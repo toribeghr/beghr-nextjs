@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'What does property management benefits administration cost?',
     'A monthly per-employee cost far below an internal benefits hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'What happens to benefits when an on-site manager transfers to a different community in the portfolio?',
+    'A transfer within the same ownership group should carry coverage forward, not reset it. Handled property by property in separate files, that transfer often reads as a termination at one site and a new hire at another, which resets waiting periods the employee should not have to serve twice.',
+  ],
+  [
+    'How does high turnover at the property level affect our ACA filing risk?',
+    'Every departure and every new hire at every community is a data point that has to reach one combined system before filing season, or the Forms 1094-C and 1095-C get built on an incomplete picture. Portfolios that track eligibility per property instead of per company are the ones that discover gaps at filing time instead of before it.',
+  ],
+  [
+    'Who actually regulates property management benefits compliance?',
+    'The IRS enforces the ACA employer mandate and its seasonal-worker provisions, and the Department of Labor enforces COBRA notice and election timelines. Neither cares which community an employee happened to work at; both count the workforce at the company level.',
+  ],
 ];
 
 export default function ManagedBenefitsPropertyManagementPage() {
@@ -150,6 +162,57 @@ export default function ManagedBenefitsPropertyManagementPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fully Managed: a dedicated team behind your corporate office</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>On the Fully Managed plan, a dedicated Managed Benefits Specialist runs open enrollment start to finish across every property, processes changes, and chases carrier updates, while a Benefits Auditing Analyst checks your data for the errors distributed workforces breed: departed techs still on the invoice, elections that never reached the carrier, dependents past eligibility. Your corporate team manages properties; the benefits team manages benefits.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* COMPARISON TABLE */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Roster by Roster</p>
+              <h2>Property management workforce types and where benefits administration breaks</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f7f7f7', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Workforce group</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Where it breaks</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>The regulator</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Corporate and leasing office staff', 'Straightforward eligibility on paper, but easy to lose track of across dozens of properties reporting up to one company.', 'IRS (ACA employer mandate)'],
+                    ['On-site maintenance techs', 'Variable hours and on-call time drift across the 130-hour monthly eligibility line at each community.', 'IRS (lookback measurement method)'],
+                    ['Seasonal grounds and make-ready crews', 'IRS seasonal-worker carve-outs only help if applied correctly; applied casually, they become exposure.', 'IRS (seasonal worker provisions)'],
+                    ['Site staff transferring between properties', 'A transfer within the same ownership group can read as a termination at one site and a new hire at another.', 'IRS (aggregated ALE group counting)'],
+                    ['High-turnover community-level staff', 'Covered departures happen somewhere in the portfolio every month, each opening a federal notice deadline.', 'DOL (COBRA election and notice timelines)'],
+                  ].map(([group, breaks, reg]) => (
+                    <tr key={group} style={{ borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{group}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#444444' }}>{breaks}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#666666' }}>{reg}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* VIGNETTE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Familiar Portfolio Problem</p>
+              <h2>What a mid-portfolio transfer looks like without one system</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A maintenance tech transfers from one community to another in the same ownership group because the second property needs the coverage more. The two communities run enrollment out of separate files kept by two different site managers, so the transfer gets processed as a termination at the first property and a brand-new hire at the second, complete with a fresh waiting period the tech already served once. He finds out his coverage has a gap only when he tries to use it. With enrollment and eligibility held in one system across the portfolio, a transfer is a status change, not two separate events, and coverage and waiting-period credit move with the employee automatically.
+              </p>
             </div>
           </div>
         </section>

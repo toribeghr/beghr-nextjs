@@ -46,6 +46,14 @@ const FAQS: [string, string][] = [
     'Is this a PEO for home health agencies?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans you and your broker already chose. You stay the employer.',
   ],
+  [
+    'What is the actual cost of getting ACA eligibility wrong?',
+    'For 2026, the IRS penalty under Section 4980H(a) for not offering coverage to enough full-time staff is $3,340 per full-time employee, and the Section 4980H(b) penalty for an offer that is unaffordable or fails minimum value is $5,010 per affected employee. On a roster where caseload-driven hours shift weekly, that risk sits on every aide whose average nobody is tracking.',
+  ],
+  [
+    'Do state licensing rules for home health agencies affect benefits administration?',
+    'State health departments and, in many states, boards of nursing regulate home health agency licensure and clinical staffing, separate from benefits compliance. BEG Managed Benefits handles the ACA, COBRA, and enrollment administration layer; your agency&apos;s licensing and clinical oversight obligations stay exactly where they are today.',
+  ],
 ];
 
 export default function ManagedBenefitsHomeHealthPage() {
@@ -140,7 +148,7 @@ export default function ManagedBenefitsHomeHealthPage() {
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Software + ACA Compliance: the plan built for census-driven hours</h3>
-                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>This is where most agencies land. Aides and nurses with visit-driven schedules are measured under the IRS look-back method, offers of coverage are documented per employee, and Forms 1094-C and 1095-C are produced on schedule. An agency living on Medicare and Medicaid margins cannot afford an employer shared responsibility penalty discovered two filing years late.</p>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>This is where most agencies land. Aides and nurses with visit-driven schedules are measured under the IRS look-back method, offers of coverage are documented per employee, and Forms 1094-C and 1095-C are produced on schedule. An agency living on Medicare and Medicaid margins cannot afford an employer shared responsibility penalty discovered two filing years late: for 2026, that exposure runs $3,340 per full-time employee under Section 4980H(a), or $5,010 per employee under Section 4980H(b) if the offer made was not affordable. Consider an aide who covers 22 hours a week most of the year, then absorbs a colleague&apos;s caseload for a full quarter at 34 hours a week. The look-back measurement period is what catches that shift and documents the resulting eligibility determination, instead of leaving it to whoever happens to notice the schedule change.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fully Managed: turnover-scale administration, run by a dedicated team</h3>

@@ -39,6 +39,14 @@ const FAQS: [string, string][] = [
     'No. There is no co-employment and no employer-of-record change. The brewery stays the employer and your plans stay your plans. Powered by isolved.',
   ],
   [
+    'We opened a second taproom under a separate LLC. Does that change our ACA math?',
+    'Often, yes. The IRS applies controlled group and common ownership rules that can combine related entities for ACA employer size and full-time equivalent counting, even when each taproom has its own LLC and payroll. A brewery that looks like two 25-employee companies on paper can be a single 50-plus applicable large employer once the entities are combined. Getting the aggregation right, and tracking hours across every entity in one system, is exactly what the Software + ACA Compliance plan is built to do.',
+  ],
+  [
+    'What happens to benefits when a seasonal taproom closes for the winter?',
+    'Every enrolled employee who is laid off or drops below eligible hours triggers a coverage end date and, in most states, a COBRA or state continuation notice that has to go out on a deadline. A taproom that staffs up for patio season and cuts back in winter can generate a wave of these notices at once. Processed through one system, the coverage end dates, notices, and deduction stops fire automatically instead of getting missed in a seasonal staffing scramble.',
+  ],
+  [
     'What does benefits administration cost for a brewery?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
@@ -108,6 +116,11 @@ export default function ManagedBenefitsBreweryPage() {
                   label: 'Part-timers count toward the ACA reporting line',
                   sub: 'Full-time equivalents include aggregated part-time hours. A brewery with 30 full-time staff and a deep part-time taproom bench can be an applicable large employer and not know it.',
                 },
+                {
+                  stat: '4.3%',
+                  label: 'Monthly quit rate in accommodation and food services, the highest of any industry BLS tracks',
+                  sub: 'Nearly double the private-sector average. Every one of those exits from an enrolled taproom employee triggers a coverage end date, a COBRA or state continuation notice, and a deduction stop that has to happen on time.',
+                },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>{stat}</div>
@@ -117,7 +130,7 @@ export default function ManagedBenefitsBreweryPage() {
               ))}
             </div>
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
-              Source: <a href="https://www.irs.gov/affordable-care-act/employers/identifying-full-time-employees" target="_blank" rel="noopener noreferrer">IRS, identifying full-time employees under the ACA</a>.
+              Sources: <a href="https://www.irs.gov/affordable-care-act/employers/identifying-full-time-employees" target="_blank" rel="noopener noreferrer">IRS, identifying full-time employees under the ACA</a>; <a href="https://www.bls.gov/news.release/jolts.t04.htm" target="_blank" rel="noopener noreferrer">BLS, JOLTS quits levels and rates by industry</a>.
             </p>
           </div>
         </section>
@@ -145,6 +158,7 @@ export default function ManagedBenefitsBreweryPage() {
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Growth mode: taproom two, the barrelhouse, the pizza kitchen</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Successful breweries sprawl: a second taproom, a restaurant concept, a distribution arm, sometimes each in its own LLC. Common ownership can combine those entities for ACA counting, and every new location adds staff whose hours belong in the same eligibility math. One system holds the whole picture, so growth changes the numbers without breaking the process.</p>
+                <p style={{ margin: '0.9rem 0 0', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Picture a brewery with 28 full-time staff at the original location that opens a second taproom under its own LLC with 15 more employees, mostly part-time. Neither entity looks like an applicable large employer alone. Combined under common ownership, the full-time equivalents can cross 50 and change what the brewery owes under the ACA the same year the second location opens, which is precisely the point where a spreadsheet approach quietly falls behind.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Enrollment that fits a brewery&apos;s actual staff</h3>

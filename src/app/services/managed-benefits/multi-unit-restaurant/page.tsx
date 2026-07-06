@@ -46,6 +46,10 @@ const FAQS: [string, string][] = [
     'What does restaurant benefits administration cost?',
     'A monthly per-employee cost far below an internal benefits hire. Answer five questions in the estimate form and your monthly range appears on screen, including restaurant-specific packages; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'We operate several franchise entities under common ownership. Do we count as one employer for ACA?',
+    'Often, yes. Under IRS controlled group rules, legally separate entities with common ownership can be treated as a single employer for ACA purposes, meaning full-time and full-time-equivalent headcounts across every entity are combined to determine applicable large employer status. Franchisees who track eligibility entity by entity are the most common ACA misstep in the industry. Aggregation across your full ownership structure is scoped on your discovery call.',
+  ],
 ];
 
 export default function ManagedBenefitsMultiUnitRestaurantPage() {

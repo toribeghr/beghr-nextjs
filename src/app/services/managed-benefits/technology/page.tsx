@@ -44,7 +44,19 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does technology company benefits administration cost?',
-    'A monthly per-employee cost far below an internal benefits hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+    'A monthly per-employee cost far below an internal benefits hire, which typically runs $60K-$100K a year in fully loaded salary before that person has software to administer anything in. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'How does equity-heavy compensation affect ACA affordability calculations?',
+    'Affordability is measured against W-2 wages and the IRS safe harbors, rate of pay, W-2, or federal poverty line, not against total compensation including unvested equity. A tech employee with modest cash salary and significant equity can still trigger an affordability failure if the cash-only premium share crosses the IRS threshold, so equity-heavy comp does not automatically solve the affordability test the way total-comp numbers might suggest.',
+  ],
+  [
+    'We laid off part of the team in a single reduction in force. What happens to COBRA?',
+    'Every employee who loses coverage in the RIF has an individual COBRA qualifying event, and notices, the election window, and premium deadlines run on federal timelines for each one simultaneously. Premiums run up to 102% of plan cost, commonly translating to roughly $110/day of exposure per lapsed election if a stack of notices goes out late during a chaotic week. Volume does not extend the deadlines.',
+  ],
+  [
+    'Does hiring through a professional employer of record change our ACA obligations for that hire?',
+    'It depends on which structure is used and who the common-law employer is; a true PEO or employer-of-record arrangement can shift the ACA reporting obligation for those specific workers, while co-employer arrangements without that legal structure generally do not. BEG Managed Benefits is not a PEO, so this question is scoped on your discovery call against your actual hiring structure rather than assumed either way.',
   ],
 ];
 
@@ -170,6 +182,21 @@ export default function ManagedBenefitsTechnologyPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               Multi-state payroll registrations the bigger fire? That is <Link href="/services/managed-payroll/technology">managed payroll for technology companies</Link>; for remote-work policies and handbooks, see <Link href="/services/hr-outsourcing/technology">technology HR outsourcing</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* SCENARIO: CROSSING 50 FTE MID-ROADMAP */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>Series B hiring push crosses the ALE line nobody was watching</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '1.5rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A 42-person remote-first company closes a Series B and hires 15 engineers and three support staff across eight states in four months. Nobody tracked full-time-equivalent hours through the sprint because headcount, not FTE math, was the number leadership watched. By month three the company is an applicable large employer, obligated to offer coverage to at least 95% of full-time employees, and the obligation applies retroactively to the measurement period once the threshold is crossed. Continuous FTE tracking flags the crossing before it becomes a compliance gap discovered at tax filing time, in a state the company has no HR presence in.
+              </p>
+            </div>
           </div>
         </section>
 

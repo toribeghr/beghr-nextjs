@@ -44,7 +44,19 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does staffing agency benefits administration cost?',
-    'A monthly per-employee cost far below an internal benefits hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+    'A monthly per-employee cost far below an internal benefits hire, which typically runs $60K-$100K a year in salary and overhead before that person even has software to work in. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'What happens if a placed worker is misclassified and should have been offered coverage?',
+    'The exposure runs backward, not just forward. If lookback measurement shows a worker averaged full-time hours across assignments and was never offered coverage, the IRS can assess a shared-responsibility penalty for the months that worker went without an offer, and that penalty stacks per employee under employer shared responsibility provisions. Continuous, cross-assignment hour tracking is what catches the crossover before a filing season does.',
+  ],
+  [
+    'How does COBRA work when a placement ends but the worker might get placed again?',
+    'The COBRA clock starts at the qualifying event, an assignment ending that drops coverage, regardless of whether the agency expects to place that worker again. Election notices, the election window, and premium payment deadlines run on federal timelines: COBRA premiums are billed at up to 102% of the plan cost, commonly landing near $110/day of coverage lapse risk if elections and payments are not tracked cleanly. A new placement later starts a new eligibility clock; it does not reopen the old COBRA election.',
+  ],
+  [
+    'Do different client bill rates or markups affect ACA affordability calculations?',
+    'No, affordability is measured against the employee’s household income or one of the IRS safe harbors (rate of pay, W-2, or federal poverty line), not against what a client is billed for the placement. Agencies with wide pay-rate bands across assignments still need a single, consistent affordability method applied agency-wide rather than calculated placement by placement.',
   ],
 ];
 
@@ -170,6 +182,21 @@ export default function ManagedBenefitsStaffingAgencyPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               High-volume weekly pay runs the bigger headache? That is <Link href="/services/managed-payroll/staffing-agency">managed payroll for staffing agencies</Link>; for co-employment policies and unemployment claims, see <Link href="/services/hr-outsourcing/staffing-agency">staffing agency HR outsourcing</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* SCENARIO: ASSIGNMENT CHURN */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>One worker, three assignments, one eligibility answer</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '1.5rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A worker takes a 6-week assignment at Client A, sits idle for two weeks, then starts a 10-week assignment at Client B, followed immediately by a third placement at Client C. Handled manually, each assignment looks like a fresh, short-term placement, none of them individually close to full-time. Tracked under one employer record, the hours tell a different story: averaged across the measurement period, that worker crosses the 130-hour-per-month line, and the two-week gap falls inside IRS break-in-service rules rather than resetting the clock. The agency owes an offer of coverage it would otherwise miss, and the miss would not surface until an IRS letter arrived referencing months already closed out.
+              </p>
+            </div>
           </div>
         </section>
 

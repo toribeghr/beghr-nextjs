@@ -42,6 +42,14 @@ const FAQS: [string, string][] = [
     'What does benefits administration cost for a childcare business?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'What is the actual dollar exposure if a center group misclassifies part-time aides?',
+    'For 2026, the IRS penalty under Section 4980H(a) for not offering coverage to enough full-time employees is $3,340 per full-time employee, and the Section 4980H(b) penalty for an offer that is unaffordable or fails minimum value is $5,010 per affected employee. Because full-time equivalents aggregate across a multi-site group, a bench of part-time aides can push a center group over the reporting threshold before ownership realizes it.',
+  ],
+  [
+    'Does state childcare licensing affect benefits compliance?',
+    'State childcare licensing agencies regulate staff-to-child ratios, background checks, and facility standards, which is separate from ACA and COBRA compliance enforced federally by the IRS and DOL. BEG Managed Benefits handles the benefits administration layer only; your center&apos;s licensing obligations and ratio requirements are unaffected and stay with your team.',
+  ],
 ];
 
 export default function ManagedBenefitsChildcarePage() {
@@ -132,7 +140,7 @@ export default function ManagedBenefitsChildcarePage() {
             <div className="reveal" style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem', marginTop: '2rem' }}>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Variable-hour tracking for floaters and aides</h3>
-                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Ratio requirements mean schedules flex daily: an aide covers an infant room Monday, closes Thursday, picks up a summer camp week in June. The Software + ACA Compliance plan applies the IRS lookback measurement method to those hours continuously, so full-time determinations, offers of coverage, and the records behind them happen on schedule instead of in a panicked January reconstruction.</p>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Ratio requirements mean schedules flex daily: an aide covers an infant room Monday, closes Thursday, picks up a summer camp week in June. The Software + ACA Compliance plan applies the IRS lookback measurement method to those hours continuously, so full-time determinations, offers of coverage, and the records behind them happen on schedule instead of in a panicked January reconstruction. Consider a two-location center group where an aide splits 18 hours at one site and 14 at another during the school year, then covers a full-time summer-camp schedule for ten weeks: combined hours across sites, measured over the right period, are what determine whether an offer of coverage was owed, and getting it wrong risks the Section 4980H(a) penalty of $3,340 per full-time employee for 2026, or $5,010 per employee under Section 4980H(b) for an inadequate offer.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Turnover events processed before they become penalties</h3>

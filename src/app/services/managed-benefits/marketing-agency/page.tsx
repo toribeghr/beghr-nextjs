@@ -44,7 +44,19 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does marketing agency benefits administration cost?',
-    'A monthly per-employee cost far below an internal benefits hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+    'A monthly per-employee cost far below an internal benefits hire, which typically runs $60K-$100K a year in salary and overhead before that hire even has systems to work in. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'A contractor just converted to a full-time W-2 hire mid-quarter. Does that change our ACA count?',
+    'Yes, and the timing matters more than agencies expect. Once someone becomes a common-law W-2 employee, their hours count toward applicable-large-employer status and, if they average full-time hours, they need an offer of coverage within the initial measurement or standard IRS timelines. Agencies that convert contract-to-hire staff regularly need eligibility tracked at the moment of conversion, not batched at the next open enrollment.',
+  ],
+  [
+    'What happens to benefits when we lose a big account and have to let staff go?',
+    'Every covered departure opens a COBRA qualifying event on federal timelines regardless of why the role ended. Losing an account can trigger several notices in the same week, and premiums run up to 102% of plan cost, commonly landing near $110/day of exposure if elections or payment windows slip during a stressful reduction. Notice timing does not flex for how the layoff happened.',
+  ],
+  [
+    'Can a long-term freelancer trigger ACA obligations even if we never put them on payroll?',
+    'Potentially, yes. The IRS looks at the working relationship, not the label on the invoice, and a freelancer who works agency hours, uses agency equipment, and takes agency direction can be reclassified as a common-law employee. Reclassification is retroactive: it can add that person, and the months they worked, to your ACA counts after the fact, which is why the freelancer-versus-staff line needs to be reviewed, not just assumed.',
   ],
 ];
 
@@ -170,6 +182,41 @@ export default function ManagedBenefitsMarketingAgencyPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               Contractor payments and payroll the bigger fire? That is <Link href="/services/managed-payroll/marketing-agency">managed payroll for marketing agencies</Link>; for classification policies and handbooks, see <Link href="/services/hr-outsourcing/marketing-agency">marketing agency HR outsourcing</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* PAIN TABLE: BLENDED WORKFORCE CHURN */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Where Agencies Get Caught</p>
+              <h2>Contract-to-hire churn, mapped to the compliance question it raises</h2>
+            </div>
+            <div className="reveal" style={{ overflowX: 'auto', marginTop: '1.5rem' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid #000000' }}>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem', fontWeight: 700 }}>Roster event</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem', fontWeight: 700 }}>What it triggers</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem', fontWeight: 700 }}>Where agencies get caught</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Freelancer converts to W-2', 'ACA eligibility clock starts at conversion', 'Tracked at next open enrollment instead of the conversion date'],
+                    ['Long-tenured 1099 works like staff', 'Misclassification risk; retroactive ACA counts', 'Assumed settled because a contract says "contractor"'],
+                    ['Account loss triggers layoffs', 'Multiple COBRA qualifying events at once', 'Notices delayed while the agency handles client fallout'],
+                    ['Part-time staff added for a pitch cycle', 'Full-time-equivalent aggregation toward the 50-FTE line', 'Counted as headcount, not as FTE hours'],
+                  ].map(([event, trigger, catchpoint]) => (
+                    <tr key={event} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.75rem 0.5rem', fontWeight: 600 }}>{event}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#444444' }}>{trigger}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#444444' }}>{catchpoint}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
 

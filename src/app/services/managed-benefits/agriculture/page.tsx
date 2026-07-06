@@ -40,7 +40,19 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does benefits administration cost for an agricultural employer?',
-    'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+    'A monthly per-employee cost that lands far below one internal admin hire, which typically runs $60,000 to $100,000 a year loaded. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'Do H-2A workers get counted differently for ACA purposes?',
+    'H-2A workers are nonimmigrant visa holders performing seasonal or temporary agricultural labor, and they typically fall inside the same seasonal worker treatment as other seasonal hires when the IRS measures full-time equivalents. What matters is the same for any seasonal roster: clean hours records so the exception, if it applies, is documented rather than assumed.',
+  ],
+  [
+    'What happens if a returning seasonal worker was never terminated correctly in our system?',
+    'It creates two problems at once: a phantom active employee still showing coverage or eligibility, and a break-in-service question for a worker who actually did return. Benefits administration tied to real hours and real termination dates keeps both from happening, so a rehired picker starts the season on an accurate record instead of an inherited error.',
+  ],
+  [
+    'Can one system handle benefits across our land LLC, operating company, and packing shed?',
+    'Yes. Common ownership across related agricultural entities usually has to be counted together for ACA purposes even though each entity runs its own payroll day to day. Administering benefits in one system keeps the combined full-time equivalent count accurate instead of three separate, and separately wrong, entity-level counts.',
   ],
 ];
 
@@ -195,6 +207,57 @@ export default function ManagedBenefitsAgriculturePage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               Payroll for seasonal crews the bigger fight? BEG&apos;s core service is <Link href="/services/managed-payroll/agriculture">managed payroll for agriculture</Link>. People policies and compliance questions? See <Link href="/services/hr-outsourcing/agriculture">HR outsourcing for agriculture</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* COMPLIANCE TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Where Farm Benefits Admin Breaks</p>
+              <h2>Seasonal labor and H-2A rosters create failure points a year-round office never sees</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f9f9f9', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>Pain point</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>Why harvest labor creates it</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>What handles it</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['FTE count assumed to be under 50', 'Year-round crew looks small, but the IRS counts full-time equivalents month by month across the whole seasonal workforce.', 'Monthly FTE tracking that shows the real count before filing season, not after.'],
+                    ['Seasonal worker exception claimed without proof', 'The exception only holds if the over-50 period stays at 120 days or fewer and the overage is genuinely seasonal.', 'Hours data that documents the exception instead of assuming it applies.'],
+                    ['H-2A and domestic seasonal hours mixed up', 'Visa-status recordkeeping and ACA hour-tracking run on different clocks, and one team rarely owns both.', 'One system tracking measurement-period hours regardless of visa classification.'],
+                    ['Multi-entity operations counted separately', 'The land LLC, operating company, and packing shed each run payroll independently.', 'Combined workforce counting across commonly owned entities, the way the IRS counts them.'],
+                    ['Rehire status guessed instead of applied', 'Break-in-service rules decide new-hire versus continuing-employee status, and the answer changes eligibility timing.', 'Break-in-service rules applied consistently across every returning worker, every season.'],
+                  ].map(([pain, why, fix]) => (
+                    <tr key={pain} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{pain}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#555555' }}>{why}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#555555' }}>{fix}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The grower who assumed the seasonal exception without checking it</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '2rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                An orchard operation runs 22 year-round employees and brings on H-2A and domestic pickers for a 14-week harvest that pushes total headcount past 90. The owner assumes the seasonal worker exception covers them automatically because &quot;everyone knows harvest labor is seasonal.&quot; When hours are actually measured, the surge period runs 132 days that year, four days past the 120-day exception window, because early bloom pushed the start date up two weeks. Without hour-by-hour tracking, that four-day miss is invisible until an IRS inquiry raises it. With measurement-period tracking in place from planting through packing, the same operation sees the exception window closing in real time and can plan the harvest schedule, or the coverage response, around it instead of finding out after the season ends.
+              </p>
+            </div>
           </div>
         </section>
 

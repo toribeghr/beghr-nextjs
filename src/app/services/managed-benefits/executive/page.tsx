@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Is this a PEO?',
     'No. There is no co-employment and your plans stay your plans. BEG Managed Benefits, powered by isolved, administers the coverage you and your broker already chose. You stay the employer.',
   ],
+  [
+    'How is the group-term life imputed income actually calculated?',
+    'The IRS publishes a uniform premium table by age band that determines the taxable value of coverage above $50,000. That value becomes imputed income, added to wages and run through payroll each period so W-2 and paystub figures stay correct all year instead of getting corrected in a year-end scramble.',
+  ],
+  [
+    'What if an executive is enrolled in a spouse or dependent life rider too?',
+    'Spouse and dependent group-term life above the de minimis threshold can also generate imputed income under IRS rules, separate from the executive\'s own coverage. Administration tracks each rider on its own record so the payroll sync reflects the household picture, not just the primary policy.',
+  ],
+  [
+    'Who at the company can see executive benefit elections?',
+    'Access is role-based. HR and payroll see what they need to process elections and deductions; broader visibility is restricted, so executive coverage details are not sitting in a shared enrollment spreadsheet everyone in the building can open.',
+  ],
 ];
 
 export default function ManagedBenefitsExecutivePage() {
@@ -123,6 +135,55 @@ export default function ManagedBenefitsExecutivePage() {
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
               Source: <a href="https://www.irs.gov/government-entities/federal-state-local-governments/group-term-life-insurance" target="_blank" rel="noopener noreferrer">IRS, group-term life insurance rules</a>.
             </p>
+          </div>
+        </section>
+
+        {/* PAIN TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Group-Term Life Over $50,000</p>
+              <h2>What imputed income actually touches</h2>
+            </div>
+            <div className="reveal" style={{ overflowX: 'auto', marginTop: '2rem' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid #000000' }}>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>Coverage detail</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>What the IRS requires</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>What administration keeps current</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Coverage above $50,000', 'Excess value becomes imputed income under IRC Section 79', 'Uniform premium table applied per executive, every period'],
+                    ['Payroll sync', 'Imputed income must hit wages, not just the year-end W-2', 'Deduction and wage sync run each pay cycle, not once a year'],
+                    ['Spouse or dependent riders', 'Coverage over the de minimis limit can also generate imputed income', 'Tracked as its own record alongside the executive policy'],
+                    ['W-2 reporting', 'Imputed income reported in wages and Social Security and Medicare wages', 'Figures reconcile because payroll and benefits share one data set'],
+                  ].map(([detail, requires, keeps]) => (
+                    <tr key={detail} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.75rem 0.5rem', fontWeight: 600 }}>{detail}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{requires}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{keeps}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The W-2 correction nobody wants to explain to the CFO</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+              <p>An executive carries $300,000 of employer-paid group-term life, well above the $50,000 threshold where imputed income kicks in. The imputed income was never synced to payroll during the year, so it shows up as a lump correction in December, right as the executive is reviewing year-end compensation. Now HR is explaining a W-2 adjustment to someone who did not expect one, on a plan the company designed to be a benefit, not a headache.</p>
+              <p style={{ marginTop: '1rem' }}>With imputed income calculated and synced to payroll every pay period, the number on the December paystub already matches what lands on the W-2. No surprise, no year-end conversation.</p>
+            </div>
           </div>
         </section>
 

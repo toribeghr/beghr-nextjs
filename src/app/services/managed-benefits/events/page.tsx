@@ -46,6 +46,14 @@ const FAQS: [string, string][] = [
     'Is this a PEO for event companies?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans you and your broker already chose. You stay the employer.',
   ],
+  [
+    'Our event-day crew is a mix of 1099 contractors and W-2 staff. Does that change benefits eligibility?',
+    'Only W-2 employees count toward ACA hours tracking and eligibility; properly classified 1099 contractors do not. The risk shows up when day-of gig staff are treated as contractors but actually work under the kind of direction and schedule control that makes them employees. Getting that classification right first is what makes the hours count trustworthy, and misclassification review is scoped on your discovery call alongside eligibility tracking.',
+  ],
+  [
+    'Our crews work events in multiple states. Do COBRA and continuation rules travel with them?',
+    'Federal COBRA applies the same way regardless of which state an employee works in, but many states layer on their own mini-COBRA continuation rules for smaller employers, and those rules follow the state where the employee was covered, not where your company is headquartered. A crew that works festivals in three states in one season can trigger three different continuation frameworks at offboarding. Which states apply to your roster is confirmed on your discovery call.',
+  ],
 ];
 
 export default function ManagedBenefitsEventsPage() {
@@ -123,6 +131,9 @@ export default function ManagedBenefitsEventsPage() {
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
               Source: <a href="https://www.irs.gov/affordable-care-act/employers/identifying-full-time-employees" target="_blank" rel="noopener noreferrer">IRS, identifying full-time employees under the ACA</a>.
             </p>
+            <p className="reveal" style={{ marginTop: '1.5rem', color: '#444444', lineHeight: '1.7', fontSize: '0.95rem' }}>
+              Picture a mid-size event production company with 14 core, year-round staff. Every spring it staffs up for wedding season: 40 additional coordinators, day-of crew, and setup hands come on between April and September, most of them part-time or seasonal. The look-back measurement period that started the previous fall determines, hour by hour, which of those seasonal hires already crossed into ACA full-time status before the season even peaks. Then September ends, wedding season winds down, and 30 or more people roll off coverage inside a few weeks, each one starting its own COBRA election clock. Handled by hand, that is two compliance projects a year running on spreadsheets. Handled in one system, the measurement periods and the offboarding wave are just two phases of the same process.
+            </p>
           </div>
         </section>
 
@@ -146,12 +157,41 @@ export default function ManagedBenefitsEventsPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fully Managed: peak-season churn becomes someone else&apos;s inbox</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>A dedicated Managed Benefits Specialist runs open enrollment start to finish, processes the flood of hires, exits, and status changes each season generates, and keeps carrier records current. A Benefits Auditing Analyst checks the data for the errors that cost real money: departed seasonal staff still on the carrier bill, missed eligibility dates, and deductions that stopped matching elections after a schedule change.</p>
               </div>
+              <div>
+                <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Year-round core staff and seasonal surge staff, tracked as the different populations they are</h3>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>An events company usually runs two workforces at once: a small year-round core that behaves like ordinary full-time or part-time staff, and a much larger surge population that comes and goes with the calendar. Eligibility measurement treats them differently from day one instead of forcing one rule onto both, so core staff get standard tracking while surge hires run through look-back measurement built for variable hours. Getting that split wrong in either direction, over-tracking core staff or under-tracking surge hires, is where most in-house event benefits administration breaks down.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* WHO THIS SERVES */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Who This Serves</p>
+              <h2>Event businesses carrying real ACA and COBRA exposure without a benefits department</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+              {[
+                { title: 'Wedding and event planning companies', body: 'A small year-round planning team backed by a much larger roster of day-of coordinators and assistants who only show up on booked weekends.' },
+                { title: 'Corporate and conference event staffing firms', body: 'Registration, AV, and hospitality crews that scale up for a conference calendar and scale back down between bookings, often across multiple client sites and states.' },
+                { title: 'Festival and concert production companies', body: 'Short, intense builds where headcount can multiply for a single weekend, then drop to a skeleton crew until the next show.' },
+                { title: 'Catering companies with event divisions', body: 'A core kitchen and office staff plus a rotating bench of event-day servers and bartenders whose hours swing with the booking calendar.' },
+                { title: 'Trade show and exhibition staffing agencies', body: 'Crews that travel from city to city on a show circuit, working under different state rules from one event to the next.' },
+                { title: 'Seasonal holiday event and pop-up operators', body: 'Businesses that exist in a concentrated burst each year, hiring fast for the season and offboarding an entire workforce at once when it ends.' },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.25rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.4rem', fontSize: '0.97rem' }}>{title}</strong>
+                  <p style={{ margin: 0, fontSize: '0.88rem', color: '#555555', lineHeight: '1.55' }}>{body}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* PLANS + CROSS-LINKS */}
-        <section className="section section--soft">
+        <section className="section">
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">How You Buy It</p>
@@ -170,7 +210,7 @@ export default function ManagedBenefitsEventsPage() {
         </section>
 
         {/* FAQ */}
-        <section className="section">
+        <section className="section section--soft">
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">Questions</p>
@@ -178,7 +218,7 @@ export default function ManagedBenefitsEventsPage() {
             </div>
             <div className="reveal" style={{ marginTop: '2rem' }}>
               {FAQS.map(([q, a]) => (
-                <div key={q} className="faq-item" style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.25rem 1.5rem', marginBottom: '0.75rem' }}>
+                <div key={q} className="faq-item" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.25rem 1.5rem', marginBottom: '0.75rem' }}>
                   <h3 style={{ fontSize: '1rem', fontWeight: 700, margin: '0 0 0.5rem' }}>{q}</h3>
                   <p style={{ margin: 0, fontSize: '0.93rem', color: '#555555', lineHeight: '1.65' }}>{a}</p>
                 </div>

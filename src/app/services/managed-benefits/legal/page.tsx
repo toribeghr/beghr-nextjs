@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Is this a PEO for law firms?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans you and your broker already chose. Your firm stays the employer.',
   ],
+  [
+    'What happens when an associate makes partner mid-year?',
+    'The class change is applied in the system on the effective date: new eligibility, new contribution level, new waiting period rules if any apply, and a clean break from the associate-class record. No one has to remember to move the person manually before the next carrier bill goes out.',
+  ],
+  [
+    'How do you handle of counsel and contract attorneys?',
+    'Of counsel, contract, and staff attorneys are their own eligibility tier if the firm wants one, distinct from equity partner and associate classes. Hours and status are tracked so a contract attorney who moves to a permanent role gets reclassified without a manual eligibility review.',
+  ],
+  [
+    'What does this cost compared to hiring a benefits administrator?',
+    'A monthly per-employee fee, typically well under the $60,000 to $100,000 a firm would spend to bring the role in house. You get the software, the ACA filings, and, on Fully Managed, a specialist and auditing analyst, without adding headcount.',
+  ],
 ];
 
 export default function ManagedBenefitsLegalPage() {
@@ -123,6 +135,55 @@ export default function ManagedBenefitsLegalPage() {
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
               Source: <a href="https://www.irs.gov/pub/irs-drop/n-11-01.pdf" target="_blank" rel="noopener noreferrer">IRS Notice 2011-1 on insured group health plan nondiscrimination rules</a>.
             </p>
+          </div>
+        </section>
+
+        {/* PAIN TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Law Firm Benefits, by Class</p>
+              <h2>Where firm benefits break, tier by tier</h2>
+            </div>
+            <div className="reveal" style={{ overflowX: 'auto', marginTop: '2rem' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid #000000' }}>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>Class</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>Where it breaks</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>What administration fixes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Equity partners', 'Self-employed tax treatment on premiums gets mixed up with W-2 staff records', 'Partner-class records kept distinct, visible to your CPA at tax time'],
+                    ['Associates', 'Lateral moves and promotions land in the wrong class or waiting period', 'Class rules applied automatically on the hire or promotion date'],
+                    ['Of counsel / contract attorneys', 'Ambiguous eligibility, especially on hours-based tests', 'A defined tier with its own eligibility logic, not a manual judgment call'],
+                    ['Staff', 'Turnover churn creates enrollment and COBRA notice gaps', 'Standard workflows for enrollment, terminations, and notices'],
+                  ].map(([cls, breaks, fix]) => (
+                    <tr key={cls} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.75rem 0.5rem', fontWeight: 600 }}>{cls}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{breaks}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{fix}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The lateral partner who arrives with a signing deadline</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+              <p>A 60-attorney firm brings on a lateral partner in March, mid-plan-year, with a start date the recruiting partner locked in before anyone checked the benefits calendar. The partner class has a different contribution structure and no standard waiting period; associate-class defaults do not apply. Without a system enforcing class rules, the firm administrator either delays enrollment past the partner&apos;s expectations or manually reconstructs the partner-class setup from an old email thread.</p>
+              <p style={{ marginTop: '1rem' }}>With BEG Managed Benefits, the partner class already exists as a configured tier. HR selects the class, the system applies the right plans and contribution level, and the partner enrolls online within days of the start date, no improvisation required.</p>
+            </div>
           </div>
         </section>
 

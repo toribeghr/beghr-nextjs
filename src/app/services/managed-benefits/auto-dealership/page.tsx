@@ -42,6 +42,18 @@ const FAQS: [string, string][] = [
     'What does benefits administration cost for a dealership?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'Do F&I managers and commissioned salespeople get treated differently for ACA purposes?',
+    'The pay structure does not change the eligibility test, but it changes how affordability gets measured. Commission and bonus income complicates the federal poverty line and rate-of-pay safe harbors, so the calculation has to be run correctly for every pay type on the roster, not just hourly staff.',
+  ],
+  [
+    'What happens to benefits when a technician moves between service and a different rooftop in the same group?',
+    'A transfer between commonly owned entities should not read as a termination and a new hire. Handled correctly, coverage and waiting-period credit carry over; handled by two separate office managers in two separate spreadsheets, it usually does not.',
+  ],
+  [
+    'Who actually regulates dealership benefits compliance?',
+    'The IRS enforces the ACA employer mandate and 1094-C and 1095-C filings, and the Department of Labor enforces COBRA notice timing. Neither agency cares that the org chart runs through a dealer group; both count employees the way their own rules say to.',
+  ],
 ];
 
 export default function ManagedBenefitsAutoDealershipPage() {
@@ -150,6 +162,57 @@ export default function ManagedBenefitsAutoDealershipPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>An audit trail for the carrier bill</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>High turnover means the monthly carrier invoice is wrong more often than in any calm industry: departed employees still on the bill, new hires missing, dependents never removed. On the Fully Managed plan a Benefits Auditing Analyst reconciles elections against carrier records every cycle, and a dedicated Managed Benefits Specialist runs enrollment and changes so the office manager can go back to running the office.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* COMPARISON TABLE */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Roster by Roster</p>
+              <h2>Dealership pay types and where benefits administration breaks</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f7f7f7', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Workforce group</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Where it breaks</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>The regulator</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Commissioned salespeople', 'High turnover generates COBRA qualifying events constantly; commission pay complicates ACA affordability testing.', 'DOL (COBRA notices), IRS (ACA affordability)'],
+                    ['F&I managers', 'Bonus-heavy compensation needs the right affordability safe harbor applied consistently across the group.', 'IRS (ACA employer mandate)'],
+                    ['Technicians', 'Skilled hires expect real benefits fast; slow enrollment loses candidates to the shop down the street.', 'DOL (waiting period rules)'],
+                    ['Detail bay and BDC', 'Variable-hour and part-time schedules drift across the 130-hour monthly eligibility line.', 'IRS (lookback measurement method)'],
+                    ['Multi-rooftop staff', 'Employees transferring between commonly owned entities get miscounted as terminations and new hires.', 'IRS (aggregated ALE group counting)'],
+                  ].map(([group, breaks, reg]) => (
+                    <tr key={group} style={{ borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{group}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#444444' }}>{breaks}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#666666' }}>{reg}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* VIGNETTE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Familiar Tuesday</p>
+              <h2>What a missed termination event actually looks like</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A salesperson quits on a Friday after a rough month. The office manager is buried in month-end paperwork and enters the termination the following Thursday, ten days later. Under Department of Labor rules the clock to report the qualifying event and send the COBRA election notice was already running from the last day worked, not from the date someone got around to the paperwork. Multiply that by a sales floor that turns over several people a month and the dealership is carrying notice-timing exposure it does not know about. With administration handled in one system, the separation date entered in payroll triggers the COBRA notice, the coverage end date, and the deduction stop the same day, so the ten-day gap never opens in the first place.
+              </p>
             </div>
           </div>
         </section>

@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Is this a PEO for government contractors?',
     'No. There is no co-employment, which matters when your name is on the contract. BEG Managed Benefits, powered by isolved, administers the plans you already chose. You stay the employer.',
   ],
+  [
+    'What records do we need if DOL requests a compliance review?',
+    'Per-employee eligibility, elections, employer contributions, and deductions, reconciled and exportable, covering the period under review. Administration keeps that data current as a byproduct of running enrollment, not as a special project assembled after the request arrives.',
+  ],
+  [
+    'How do you handle a workforce that shifts between covered and non-covered contracts?',
+    'Employees moving between SCA-covered task orders and commercial or non-covered work need eligibility and fringe treatment tracked per assignment. The system reflects each employee\'s current contract population so benefits and hours data follow the actual work, not a static job title.',
+  ],
+  [
+    'What happens to benefits during a contract recompete or transition?',
+    'Incumbent capture means enrollment, eligibility, and carrier records for the incoming workforce have to be live on day one of the new contract, sometimes with days of notice. A dedicated Managed Benefits Specialist on the Fully Managed plan runs that transition instead of the contracts team assembling it manually.',
+  ],
 ];
 
 export default function ManagedBenefitsGovernmentContractorPage() {
@@ -123,6 +135,55 @@ export default function ManagedBenefitsGovernmentContractorPage() {
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
               Source: <a href="https://www.dol.gov/agencies/whd/government-contracts/service-contracts" target="_blank" rel="noopener noreferrer">U.S. Department of Labor, McNamara-O&apos;Hara Service Contract Act</a>.
             </p>
+          </div>
+        </section>
+
+        {/* PAIN TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">SCA Fringe, Reconciled</p>
+              <h2>What auditors ask for, and what has to be ready</h2>
+            </div>
+            <div className="reveal" style={{ overflowX: 'auto', marginTop: '2rem' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid #000000' }}>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>Compliance question</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>What it requires</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>What administration produces</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Does the fringe rate get satisfied?', 'Bona fide benefits per employee documented against the wage determination', 'Elections and employer contributions recorded per employee, per contract'],
+                    ['Are records audit-ready?', 'Per-employee cost data a contracting officer or DOL reviewer can trace', 'One reconciled export instead of carrier statements and spreadsheets'],
+                    ['Is the ACA overlay covered too?', 'Eligibility tracked regardless of SCA status', 'Forms 1094-C and 1095-C produced from the same underlying data'],
+                    ['What happens at recompete?', 'Incumbent workforce enrollment ready on day one of the new contract', 'A dedicated specialist runs the enrollment transition'],
+                  ].map(([q, requires, produces]) => (
+                    <tr key={q} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.75rem 0.5rem', fontWeight: 600 }}>{q}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{requires}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{produces}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The recompete that adds 80 people on day one</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+              <p>A contractor wins a recompete and inherits 80 incumbent employees who transfer on the contract start date, with benefits expected to be active immediately under the wage determination. Enrollment records from the outgoing contractor are incomplete, hours histories are inconsistent, and the fringe rate has to be satisfied from day one, not phased in. Without a system built for this, the contracts team ends up building eligibility records by hand under a hard deadline.</p>
+              <p style={{ marginTop: '1rem' }}>With a dedicated Managed Benefits Specialist running the transition, incoming employees enroll online against the correct wage determination, and per-employee fringe documentation exists from the first day of the contract rather than getting reconstructed after an audit request.</p>
+            </div>
           </div>
         </section>
 

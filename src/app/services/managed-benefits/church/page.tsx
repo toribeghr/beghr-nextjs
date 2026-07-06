@@ -42,6 +42,18 @@ const FAQS: [string, string][] = [
     'What does benefits administration cost for a church or ministry?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'How does a housing allowance affect benefits eligibility for pastors?',
+    'A clergy housing allowance is a tax treatment of compensation, not a benefits eligibility test on its own, but it does affect how a pastor\'s total pay is documented and reported. Administration needs to keep the housing allowance designation, salary, and benefits enrollment as clean, separate records so nothing gets tangled at tax time or at renewal.',
+  ],
+  [
+    'Do volunteers ever need to be tracked for benefits purposes?',
+    'Volunteers are not employees and are not eligible for employer-sponsored benefits, but ministries sometimes blur the line with stipended volunteers or part-time roles that look like volunteer work. Getting that classification right up front avoids eligibility disputes and protects the exempt status of programs that depend on true volunteer labor.',
+  ],
+  [
+    'Who actually regulates church benefits compliance?',
+    'It depends on the plan. A true church plan sits outside ERISA and federal DOL oversight; a commercial group plan a congregation buys instead falls under the same federal and state rules as any small employer, including state insurance departments for continuation coverage. Getting the classification right at the start determines which regulator matters.',
+  ],
 ];
 
 export default function ManagedBenefitsChurchPage() {
@@ -150,6 +162,57 @@ export default function ManagedBenefitsChurchPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Stewardship-grade records for the board</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Elder boards and finance committees ask reasonable questions: what does coverage cost per employee, who is enrolled, why did the invoice jump? Real-time reporting answers them without a weekend of spreadsheet work, and on the Fully Managed plan a Benefits Auditing Analyst reconciles enrollments against carrier bills so the ministry stops paying for coverage nobody holds.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* COMPARISON TABLE */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Role by Role</p>
+              <h2>Ministry staffing types and where benefits administration breaks</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f7f7f7', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Staffing type</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Where it breaks</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>The regulator</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Ordained clergy', 'Housing allowance designation has to stay clean and separate from benefits enrollment records.', 'IRS (clergy tax treatment)'],
+                    ['Lay staff on a group plan', 'A different plan, a different eligibility window, and a different renewal date than the clergy program running alongside it.', 'State insurance department (if not a church plan)'],
+                    ['Part-time ministry staff', 'Nursery workers, aides, and part-time worship staff whose hours have to be tracked consistently to determine eligibility.', 'DOL (ERISA, if the plan is not exempt)'],
+                    ['Volunteers and stipended roles', 'Easy to blend with part-time employment; getting the classification wrong creates real eligibility exposure.', 'IRS (worker classification)'],
+                    ['Multi-entity ministry staff', 'A worship leader teaching at the affiliated school crosses entity lines that can combine for ACA counting.', 'IRS (aggregated ALE group counting)'],
+                  ].map(([group, breaks, reg]) => (
+                    <tr key={group} style={{ borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{group}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#444444' }}>{breaks}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#666666' }}>{reg}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* VIGNETTE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Familiar Board Meeting</p>
+              <h2>What two parallel benefits programs look like without one system</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A church business administrator manages a denominational plan for the senior pastor and associate pastor, a commercial group plan for eight lay staff, and a part-time nursery team whose hours change every quarter. Open enrollment for the two programs lands on different dates, and this year the finance committee asks a simple question at the fall meeting: why did the group plan invoice jump. The honest answer is nobody had reconciled the roster against the carrier bill since spring, and two people who left in the summer were still being billed. With one administration layer running both programs, the enrollment records for clergy and lay staff stay current in the same system, and a reconciled report is ready before the committee has to ask.
+              </p>
             </div>
           </div>
         </section>

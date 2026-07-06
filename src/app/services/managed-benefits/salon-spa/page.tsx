@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'What does salon benefits administration cost?',
     'A monthly per-employee cost far below an internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'What happens if a booth renter is misclassified?',
+    'If the working relationship looks more like employment than self-employment (the salon sets prices, controls hours, or supplies product and the renter cannot say otherwise) the IRS can reclassify that renter as an employee, retroactively. That brings back pay, missed benefits eligibility, and potential ACA offer obligations for the period in question. Clean recordkeeping on the renter side is the best protection, and BEG Managed Benefits keeps the employee side of that line administratively clean so a reclassification does not also become a benefits data mess.',
+  ],
+  [
+    'How does ACA eligibility work across a multi-location salon chain?',
+    'ACA full-time employee counts and offer-of-coverage obligations aggregate across all locations under common ownership, not per store. A chain with four locations that each look small individually can still cross the 50 full-time-equivalent threshold for Applicable Large Employer status once combined. BEG Managed Benefits tracks hours and eligibility across the whole chain as one system, so filings reflect the true combined headcount instead of four disconnected spreadsheets.',
+  ],
+  [
+    'Do seasonal or holiday temp staff need to be tracked for benefits?',
+    'Yes, at least for eligibility purposes. Seasonal spikes around the holidays, prom, or wedding season often push part-time stylists and estheticians into full-time-average hours for a stretch, and those averaged hours count toward ACA measurement periods even if the extra hours do not last. Temp and seasonal staff also need a clear, documented classification from day one so they are not counted as, or confused with, booth renters.',
+  ],
 ];
 
 export default function ManagedBenefitsSalonSpaPage() {
@@ -112,6 +124,11 @@ export default function ManagedBenefitsSalonSpaPage() {
                   label: 'Benefits administrators on a typical salon payroll',
                   sub: 'Enrollment, carrier changes, and continuation notices land on the owner or the front desk between appointments. The work is not hard; it is constant, deadline-driven, and invisible until it is missed.',
                 },
+                {
+                  stat: 'Holiday spike',
+                  label: 'Seasonal staff who complicate the headcount you report',
+                  sub: 'Salons and spas bring on seasonal or temp staff for the holiday rush, gift-card season, and prom or wedding peaks. Each one needs a clean classification decision and, if they cross into measurement periods, an eligibility record, not a verbal agreement forgotten by February.',
+                },
               ].map(({ stat, label, sub }) => (
                 <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
                   <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>{stat}</div>
@@ -123,6 +140,52 @@ export default function ManagedBenefitsSalonSpaPage() {
             <p className="reveal" style={{ fontSize: '0.82rem', color: '#888888', marginTop: '1.25rem', textAlign: 'center' }}>
               Source: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee" target="_blank" rel="noopener noreferrer">IRS, independent contractor or employee classification</a>.
             </p>
+            <p className="reveal" style={{ fontSize: '0.95rem', color: '#444444', lineHeight: '1.7', marginTop: '1.5rem' }}>
+              A common scenario: a day spa runs six W-2 estheticians and four booth-renting hairstylists under one roof. Two estheticians pick up extra shifts through December and January and drift past 30 hours a week on average. Nobody flags it until a filing deadline asks who was eligible for coverage in that stretch, and by then the answer requires reconstructing months of schedules by hand. The renters, meanwhile, need to stay completely off that same eligibility count, or the salon has just blurred the line it was trying to protect.
+            </p>
+          </div>
+        </section>
+
+        {/* WHO THIS SERVES */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '900px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Who This Serves</p>
+              <h2>Built for every shape a salon or spa business takes</h2>
+            </div>
+            <div className="beg-grid-3 reveal" style={{ marginTop: '2rem' }}>
+              {[
+                {
+                  title: 'Independent hair salons',
+                  body: 'A single location with a mix of W-2 stylists and part-timers whose hours swing with the season. Eligibility tracking runs in the background instead of on a sticky note by the register.',
+                },
+                {
+                  title: 'Day spas and medical spas',
+                  body: 'Estheticians, massage therapists, and injectables staff often sit across different classifications and pay structures. Benefits administration has to match each person to the right roster, not a single default.',
+                },
+                {
+                  title: 'Nail salons',
+                  body: 'High part-time headcounts and frequent staff turnover make manual eligibility tracking especially error-prone. Automated lookback tracking catches the drift a busy front desk cannot.',
+                },
+                {
+                  title: 'Barbershops',
+                  body: 'Often a blend of commission employees and chair renters in a tight-knit shop. Keeping the renter roster and the benefits roster separate protects the classification your business model depends on.',
+                },
+                {
+                  title: 'Salon suites and studio-rental groups',
+                  body: 'The booth-renter-heavy model, where most of the building is independent operators and a small W-2 staff runs the front desk and support roles. Getting the line right here is the whole compliance question.',
+                },
+                {
+                  title: 'Multi-location salon chains',
+                  body: 'ACA eligibility and filing obligations aggregate across locations under common ownership, not per store. Enrollment, eligibility, and Forms 1094-C and 1095-C need one consistent system across every chair in every location.',
+                },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.5rem' }}>
+                  <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '0.5rem', color: '#000000' }}>{title}</h3>
+                  <p style={{ margin: 0, color: '#555555', lineHeight: '1.65', fontSize: '0.92rem' }}>{body}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 

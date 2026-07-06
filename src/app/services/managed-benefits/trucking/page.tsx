@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Is this a PEO for trucking companies?',
     'No. There is no co-employment and your plans stay the plans you and your broker chose. BEG Managed Benefits, powered by isolved, administers them while your company stays the employer.',
   ],
+  [
+    'What does benefits administration cost for a trucking company?',
+    'A monthly per-employee cost, well under the $60,000 to $100,000 a year an in-house benefits hire typically costs loaded. Answer five questions in the estimate form and a monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'What happens if COBRA notices get missed for high driver turnover?',
+    'The exposure is real at fleet turnover volume. Continuation coverage commonly runs at least $110 a day once elected, and the IRS can separately assess excise tax penalties for notice failures. Tracking every driver departure against the federal notice deadline, no matter which terminal they worked out of, is what keeps that from compounding.',
+  ],
+  [
+    'How do we keep owner-operator and W-2 driver rosters from getting mixed together?',
+    'The two rosters have to stay administratively separate because they answer different questions: who counts toward applicable large employer status, and who is offered coverage. Running benefits administration in one system with owner-operators excluded by design keeps ACA filings reflecting your actual W-2 population instead of a blended file that invites a misclassification question.',
+  ],
 ];
 
 export default function ManagedBenefitsTruckingPage() {
@@ -170,6 +182,57 @@ export default function ManagedBenefitsTruckingPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               Multi-state withholding and settlements the bigger fire? That is <Link href="/services/managed-payroll/trucking">managed payroll for trucking</Link>; for driver classification policies and handbooks, see <Link href="/services/hr-outsourcing/trucking">trucking HR outsourcing</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* COMPLIANCE TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Where Trucking Benefits Admin Breaks</p>
+              <h2>Driver turnover, DOT churn, and multi-state rosters create failure points a terminal office never sees</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f9f9f9', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>Pain point</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>Why a driver fleet creates it</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>What handles it</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Drivers never enroll', 'Open enrollment by terminal bulletin board only reaches whoever happens to be home that week.', 'Online self-service enrollment a driver completes from a phone at any truck stop.'],
+                    ['Owner-operators bleed into ACA filings', 'Dispatch and payroll data often mix W-2 drivers and contracted owner-operators in the same roster view.', 'Owner-operators excluded from the benefits roster by design, keeping filings tied to actual employees.'],
+                    ['High turnover outruns COBRA deadlines', 'DOT-driven churn and constant recruiting mean covered departures happen weekly, not occasionally.', 'Every termination tracked against federal notice deadlines, with elections and coverage end dates sent to carriers.'],
+                    ['Notices never reach drivers', 'Drivers are domiciled across many states and rarely see paperwork routed through a home terminal.', 'Notices and enrollment materials sent to reliably reach drivers wherever they actually live.'],
+                    ['1094-C and 1095-C rebuilt from scratch', 'Fleet churn and seasonal freight cycles make year-end reconstruction from separate systems slow.', 'Forms produced from the same hours and eligibility data tracked on W-2 drivers all year.'],
+                  ].map(([pain, why, fix]) => (
+                    <tr key={pain} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{pain}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#555555' }}>{why}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#555555' }}>{fix}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The fleet that blended two rosters and inherited a filing problem</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '2rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A regional carrier runs 60 W-2 company drivers and leases on 25 owner-operators. Payroll and benefits data live in the same spreadsheet because it is simpler to manage one file, and the owner-operators get pulled into the ACA eligibility count by mistake during a system migration. The fleet nearly offers coverage to contractors who should never have been on the benefits roster, and separately understates its true W-2 headcount for the year. With owner-operators excluded from the benefits system by design and W-2 driver hours tracked independently, the same fleet files 1094-C and 1095-C forms that reflect its actual employee population, with no reclassification scramble before the deadline.
+              </p>
+            </div>
           </div>
         </section>
 

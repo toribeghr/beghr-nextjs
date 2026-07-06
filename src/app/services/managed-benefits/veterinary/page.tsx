@@ -46,6 +46,14 @@ const FAQS: [string, string][] = [
     'What does veterinary benefits administration cost?',
     'A monthly per-employee cost far below an internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'What happens if a growing multi-location practice group misses the ALE threshold?',
+    'Once a practice group averages 50 or more full-time employees, including full-time equivalents, it becomes an applicable large employer subject to ACA reporting and offer requirements. For 2026, the penalty under Section 4980H(a) for not offering coverage to enough full-time staff is $3,340 per full-time employee, and the Section 4980H(b) penalty for an inadequate offer is $5,010 per employee. Groups that cross the line mid-year and keep running on a small-practice mindset are the ones that get caught.',
+  ],
+  [
+    'Does the state veterinary medical board have any say in benefits administration?',
+    'State veterinary medical boards regulate licensing and practice standards for vets and, in many states, credentialed technicians, but they do not touch benefits compliance. ACA, COBRA, and ERISA are federal rules enforced by the IRS and DOL. BEG Managed Benefits handles that administration layer; your practice&apos;s licensing obligations with the board are unaffected.',
+  ],
 ];
 
 export default function ManagedBenefitsVeterinaryPage() {
@@ -140,7 +148,7 @@ export default function ManagedBenefitsVeterinaryPage() {
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Eligibility tracking sized to a practice, ACA filings when you grow into them</h3>
-                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Part-time techs, relief vets, and kennel staff mean eligibility is not a static list. The Software + ACA Compliance plan tracks hours continuously, so plan-term eligibility stays accurate now, and if your practice group grows past the applicable-large-employer line, the measurement framework and Forms 1094-C and 1095-C are already running instead of being invented in a panic the year obligations attach.</p>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Part-time techs, relief vets, and kennel staff mean eligibility is not a static list. The Software + ACA Compliance plan tracks hours continuously, so plan-term eligibility stays accurate now, and if your practice group grows past the applicable-large-employer line, the measurement framework and Forms 1094-C and 1095-C are already running instead of being invented in a panic the year obligations attach. A three-location practice group acquiring a fourth clinic is the classic case: combined full-time-equivalent headcount can cross 50 the same year the acquisition closes, and the Section 4980H(a) penalty for missing that transition is $3,340 per full-time employee for 2026, with $5,010 per employee under Section 4980H(b) if the offer made turns out to be unaffordable.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Continuation notices under whichever rulebook applies to you</h3>

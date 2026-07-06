@@ -42,6 +42,18 @@ const FAQS: [string, string][] = [
     'What does benefits administration cost for a cannabis operator?',
     'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'Why do cannabis companies struggle to find any benefits vendor at all?',
+    'Because federal Schedule I status makes many carriers and payroll-adjacent vendors treat the industry as too risky to touch, whatever the state licensing says. Administration is a service, not a banking relationship, and does not carry that same reluctance, but the shortage of willing vendors is real, which is exactly why operators end up running enrollment out of a spreadsheet.',
+  ],
+  [
+    'We grew from one dispensary to four in eighteen months. What changes?',
+    'Fast growth is where cannabis operators cross ACA thresholds without noticing. Once combined entities hit 50 full-time equivalents, offer-of-coverage and 1094-C and 1095-C filing obligations apply, and the count includes every commonly owned license, not just the flagship store.',
+  ],
+  [
+    'Who actually regulates cannabis benefits compliance?',
+    'The IRS enforces the ACA employer mandate regardless of the product being federally illegal to sell; state departments of insurance regulate what plans can be sold in your market; and state cannabis regulators separately require the agent badges that can interact with eligibility. Three regulators, one workforce.',
+  ],
 ];
 
 export default function ManagedBenefitsCannabisPage() {
@@ -150,6 +162,57 @@ export default function ManagedBenefitsCannabisPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>An administration layer that makes renewals easier, not harder</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Brokers work hard to place cannabis coverage. Clean census data, accurate enrollment records, and reconciled carrier bills make your broker&apos;s renewal job easier and your company a better risk. On the Fully Managed plan, a dedicated Managed Benefits Specialist runs enrollment and changes, and a Benefits Auditing Analyst keeps the data your broker takes to market accurate.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* COMPARISON TABLE */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Operation by Operation</p>
+              <h2>Where cannabis benefits administration actually breaks</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f7f7f7', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Operation type</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>Where it breaks</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #e5e5e5' }}>The regulator</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Multi-license groups', 'Each license sits in its own LLC, but common ownership can combine them for ACA workforce counting.', 'IRS (aggregated ALE group counting)'],
+                    ['Retail dispensaries', 'Budtender turnover generates enrollment and continuation events in steady volume, in a labor market with thin benefits reputations.', 'DOL (COBRA notices, where applicable)'],
+                    ['Cultivation and trim crews', 'Harvest-driven schedules push seasonal workers across full-time eligibility lines the same way agricultural employers see.', 'IRS (lookback measurement method)'],
+                    ['Badged and licensed staff', 'A suspended or lapsed state agent card can force an unpaid gap that interacts with eligibility in ways generic administration misses.', 'State cannabis regulators'],
+                    ['Fast-growth operators', 'Crossing 50 full-time equivalents through expansion triggers ACA filing obligations that can arrive faster than the back office notices.', 'IRS (ACA employer mandate)'],
+                  ].map(([group, breaks, reg]) => (
+                    <tr key={group} style={{ borderBottom: '1px solid #eeeeee' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{group}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#444444' }}>{breaks}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#666666' }}>{reg}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* VIGNETTE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Familiar Growth Spurt</p>
+              <h2>What crossing the ALE threshold looks like from the inside</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                An operator running one cultivation license and two dispensaries adds a third store and a processing facility inside a year, common ownership tying all five entities together. Headcount crosses 50 full-time equivalents sometime in the spring, but nobody runs that math until a broker asks about 1095-C filings at renewal. Reconstructing a year of hours, hires, and terminations across five entities after the fact is the expensive version of this problem. Tracked from day one in one system, the combined count updates automatically as each new location opens, and the offer-of-coverage documentation exists before anyone has to ask for it.
+              </p>
             </div>
           </div>
         </section>

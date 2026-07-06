@@ -46,6 +46,14 @@ const FAQS: [string, string][] = [
     'Is this a PEO for healthcare employers?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans you and your broker already chose. You stay the employer.',
   ],
+  [
+    'What happens if we misclassify a per-diem employee as part-time?',
+    'For 2026, the IRS penalty under Section 4980H(a) for failing to offer coverage to enough full-time employees is $3,340 per full-time employee, and the Section 4980H(b) penalty for an unaffordable or insufficient offer is $5,010 per affected employee. A single misclassified per-diem nurse who should have been offered coverage can trigger either exposure, which is why measurement-period documentation matters more than a snapshot headcount.',
+  ],
+  [
+    'Who actually regulates healthcare staffing and benefits compliance?',
+    'Multiple layers apply at once: CMS and state health departments oversee facility licensing and staffing ratios, the IRS enforces ACA employer shared responsibility, and the DOL oversees COBRA and ERISA. BEG Managed Benefits handles the benefits administration layer; your credentialing and licensing obligations stay with your compliance team.',
+  ],
 ];
 
 export default function ManagedBenefitsHealthcarePage() {
@@ -140,7 +148,7 @@ export default function ManagedBenefitsHealthcarePage() {
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Software + ACA Compliance: the plan built for variable-hour clinical rosters</h3>
-                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>This is where most healthcare employers land. Per-diem, PRN, and flex staff are measured under the IRS look-back method, offers of coverage are documented, and Forms 1094-C and 1095-C are produced on schedule. When the IRS asks why a 32-hour-average tech was or was not offered coverage, the measurement records answer instead of the office manager&apos;s memory.</p>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>This is where most healthcare employers land. Per-diem, PRN, and flex staff are measured under the IRS look-back method, offers of coverage are documented, and Forms 1094-C and 1095-C are produced on schedule. When the IRS asks why a 32-hour-average tech was or was not offered coverage, the measurement records answer instead of the office manager&apos;s memory. Consider a home health aide who works 24 hours a week for most of the year, then covers 36 to 40 hours a week for a three-month stretch while a colleague is out. Under the look-back method, that stretch can pull her average into full-time territory for the following stability period, whether or not anyone in the office noticed the schedule change in real time.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fully Managed: turnover volume becomes someone else&apos;s inbox</h3>

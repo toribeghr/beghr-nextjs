@@ -46,6 +46,14 @@ const FAQS: [string, string][] = [
     'What does trades benefits administration cost?',
     'A monthly per-employee cost far below an internal benefits hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'How is COBRA premium billing handled once someone elects continuation coverage?',
+    'On the Fully Managed plan, COBRA administration, including premium billing and collection, runs in the same system alongside active enrollment. Elections, notices, and payment tracking stay in the same system as active enrollment instead of a separate spreadsheet someone checks when they remember.',
+  ],
+  [
+    'Do apprentices count differently for ACA eligibility?',
+    'Apprentices are measured the same way as any variable-hour employee under the IRS lookback method: hours worked during the measurement period determine full-time status for the following stability period. A first-year apprentice ramping up hours through a program does not get a special exception, so the averaging has to be tracked from day one, not backfilled at renewal.',
+  ],
 ];
 
 export default function ManagedBenefitsTradesPage() {
@@ -150,6 +158,25 @@ export default function ManagedBenefitsTradesPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fully Managed: a dedicated team instead of the office manager&apos;s fourth job</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>In most trades businesses, benefits administration belongs to whoever also does billing, permits, and dispatch. On the Fully Managed plan, a dedicated Managed Benefits Specialist runs open enrollment start to finish, processes the seasonal adds and drops, and chases carrier updates, while a Benefits Auditing Analyst checks your data for the errors churn creates: laid-off crew still on the invoice, elections that never reached the carrier, dependents past eligibility. The office runs the business; the benefits team runs benefits.</p>
               </div>
+              <div>
+                <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Apprentices and licensed journeymen on the same eligibility clock</h3>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>A trades shop typically runs apprentices ramping up hours next to licensed journeymen at full schedule, sometimes across separate state licensing requirements if the shop works multiple jurisdictions. Both classes measure under the same IRS lookback method, so an apprentice&apos;s hours during their first measurement period drive their own stability-period eligibility, independent of the journeyman crew around them. That distinction is easy to blur by hand and it does not blur in the system.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">How It Plays Out</p>
+              <h2>Busy season to slow season, without a coverage gap</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '1.5rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                An HVAC shop measures a service tech at 46 average weekly hours across the summer stability period and offers coverage. Come February, the same tech drops to 24 hours a week as call volume falls. Because the IRS lookback rule locks in full-time status for the whole stability period once earned, coverage stays in place through the slow months instead of being cut the moment hours dip, an ACA compliance mistake shops make when they measure by the pay period instead of the stability period. If the tech is laid off entirely in March, the COBRA clock and premium billing pick up the same day, in the same system alongside active enrollment.
+              </p>
             </div>
           </div>
         </section>

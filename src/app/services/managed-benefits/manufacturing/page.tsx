@@ -46,6 +46,14 @@ const FAQS: [string, string][] = [
     'Is this a PEO for manufacturers?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans you and your broker already chose. You stay the employer.',
   ],
+  [
+    'How does ACA reporting work when union benefits come through a multiemployer plan?',
+    'Employers generally cannot certify affordability or minimum value for coverage the union plan itself administers, so IRS Form 1095-C reporting for those employees uses the multiemployer, or MEWA, code series instead of the standard offer codes. Non-union floor and office staff still report under the normal rules. Running both code sets correctly, for the right employee, in the same filing is where manual processes usually break.',
+  ],
+  [
+    'What happens to benefits during a layoff tied to a production slowdown?',
+    'A covered employee separated in a slowdown is a COBRA qualifying event like any other termination: coverage end date, election notice on the federal deadline, and a deduction stop. Volume varies with production, not the calendar, so a slow month can generate more continuation events than a normal one.',
+  ],
 ];
 
 export default function ManagedBenefitsManufacturingPage() {
@@ -146,6 +154,25 @@ export default function ManagedBenefitsManufacturingPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Fully Managed: the plant office stops moonlighting as a benefits department</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>A dedicated Managed Benefits Specialist runs open enrollment across shifts and classes, processes conversions, exits, and the continuation notices turnover generates, and keeps carrier records current. A Benefits Auditing Analyst checks the data for plant-floor classics: wrong-class enrollments, departed operators still on the carrier bill, and deductions that stopped matching elections after a shift change.</p>
               </div>
+              <div>
+                <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>MEWA reporting run separately from the standard offer codes</h3>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Union employees covered through a multiemployer welfare plan generally cannot be reported under the standard ACA offer-of-coverage codes, since the employer is not the one certifying affordability or minimum value. Forms 1094-C and 1095-C need the multiemployer code series applied to that class while non-union staff run under normal codes, in the same filing. Mixing the two up is a documented, recurring source of 226-J correspondence.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">How It Plays Out</p>
+              <h2>A 226-J letter, eighteen months later</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '1.5rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A plant converts eleven agency temps to direct hire over a busy quarter. Each conversion starts a waiting period and an offer deadline. Eighteen months later, an IRS Letter 226-J arrives questioning three of those eleven. Because eligibility, waiting-period start dates, and the resulting Form 1095-C codes lived in one system rather than a since-departed coordinator&apos;s spreadsheet, the response documents each offer of coverage on time, with the union-class employees in the group correctly reported under the multiemployer codes instead of the standard ones.
+              </p>
             </div>
           </div>
         </section>

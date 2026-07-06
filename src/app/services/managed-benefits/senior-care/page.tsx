@@ -46,6 +46,14 @@ const FAQS: [string, string][] = [
     'What does senior care benefits administration cost?',
     'A monthly per-employee cost far below an internal benefits hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
   ],
+  [
+    'What is the real financial exposure of getting caregiver eligibility wrong?',
+    'For 2026, the IRS penalty under Section 4980H(a) for not offering coverage to enough full-time employees is $3,340 per full-time employee, and the Section 4980H(b) penalty for an offer that is unaffordable or fails minimum value is $5,010 per affected employee. On a community running three shifts with constant caregiver movement, a handful of missed determinations adds up fast.',
+  ],
+  [
+    'Who regulates senior care staffing versus benefits compliance?',
+    'State health departments, state boards of nursing, and in many states a separate assisted living licensing agency oversee staffing ratios and caregiver credentialing. That is distinct from ACA, COBRA, and ERISA, which are federal benefits rules enforced by the IRS and DOL. BEG Managed Benefits handles the benefits administration layer only; your licensing and staffing compliance stay with your operations team.',
+  ],
 ];
 
 export default function ManagedBenefitsSeniorCarePage() {
@@ -140,7 +148,7 @@ export default function ManagedBenefitsSeniorCarePage() {
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Variable-hour ACA measurement for per-diem and PRN staff</h3>
-                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Senior care rosters are full of employees nobody can classify on hire date: the aide at 25 hours who covers every callout, the PRN nurse who works full-time in flu season. The Software + ACA Compliance plan runs lookback measurement continuously, so eligibility is determined by actual averaged hours instead of guesswork, offers of coverage go out when the law requires them, and Forms 1094-C and 1095-C are produced for you from data the system tracked all year.</p>
+                <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Senior care rosters are full of employees nobody can classify on hire date: the aide at 25 hours who covers every callout, the PRN nurse who works full-time in flu season. The Software + ACA Compliance plan runs lookback measurement continuously, so eligibility is determined by actual averaged hours instead of guesswork, offers of coverage go out when the law requires them, and Forms 1094-C and 1095-C are produced for you from data the system tracked all year. Take a caregiver who covers 22 hours a week most quarters but picks up enough overnight shifts during a bad flu season to average 33 hours over the measurement period: the system catches that shift and documents the resulting offer, rather than leaving it to whoever happens to be reviewing the schedule that week. Getting it wrong is not free either: for 2026, the Section 4980H(a) penalty for insufficient coverage offers is $3,340 per full-time employee, and the Section 4980H(b) penalty for an inadequate offer is $5,010 per employee.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>COBRA and continuation notices at caregiver turnover volume</h3>

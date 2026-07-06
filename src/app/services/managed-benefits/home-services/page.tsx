@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Is this a PEO for home services businesses?',
     'No. There is no co-employment and no master plan takeover. BEG Managed Benefits, powered by isolved, administers the plans you and your broker already chose. You stay the employer.',
   ],
+  [
+    'What happens when a tech quits mid-season and stays on the health plan by mistake?',
+    'That is the most common home services benefits error: a termination gets flagged in the field but never reaches the carrier feed, so premiums keep billing for a tech who left in June. A Benefits Auditing Analyst on the Fully Managed plan checks carrier records against active roster data so terminated techs come off the bill on schedule and COBRA notices go out on the federal timeline.',
+  ],
+  [
+    'What does benefits administration cost for a home services company?',
+    'A monthly per-employee cost that runs well under the $60,000 to $100,000 a year a mid-market employer typically pays to hire a benefits admin in-house. Answer five questions in the estimate form and a monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'What happens if we miss a COBRA notice for a departed tech?',
+    'Missed or late COBRA election notices carry real exposure. Continuation coverage itself commonly runs at least $110 a day once elected, and separately the IRS can assess excise tax penalties for notice failures. Tracking departures and notice deadlines in one system is what keeps that from happening by accident.',
+  ],
 ];
 
 export default function ManagedBenefitsHomeServicesPage() {
@@ -166,6 +178,57 @@ export default function ManagedBenefitsHomeServicesPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '2rem', lineHeight: '1.7' }}>
               Per-job pay breaking payroll too? BEG&apos;s core service is <Link href="/services/managed-payroll/home-services">managed payroll for home services</Link>, and crew policies and compliance live in <Link href="/services/hr-outsourcing/home-services">home services HR outsourcing</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* COMPLIANCE TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Where Home Services Benefits Admin Breaks</p>
+              <h2>Field crews and busy seasons create failure points a desk job never sees</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '2rem', overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ background: '#f9f9f9', textAlign: 'left' }}>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>Pain point</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>Why it happens on a crew roster</th>
+                    <th style={{ padding: '0.85rem 1rem', borderBottom: '2px solid #ECAC60', fontWeight: 700 }}>What handles it</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Techs missing open enrollment', 'Crews are on trucks, not at a shop meeting, so a paper packet or one shop-floor session never reaches everyone.', 'Phone-based self-service enrollment with AI-guided plan recommendations, open on the tech’s own schedule.'],
+                    ['FTE count drifts past 50 unnoticed', 'Spring and summer hiring waves are part-timers and helpers, and their hours combine into full-time equivalents under IRS rules.', 'FTE counts tracked monthly so applicable large employer status is a known fact, not a year-end surprise.'],
+                    ['Eligibility hours hard to capture', 'Flat-rate jobs, piece-rate installs, and commission pay do not produce a clean hourly clock the way a shift punch does.', 'IRS look-back measurement applied to actual service hours, regardless of how the tech is paid.'],
+                    ['Terminated techs still on the carrier bill', 'A fall wind-down separation gets logged in payroll but never reaches the benefits carrier feed.', 'Carrier records audited against active roster data, with COBRA notices triggered on the federal timeline.'],
+                    ['1094-C and 1095-C assembled from scratch every January', 'Seasonal hire and exit waves make year-end reconstruction from spreadsheets slow and error-prone.', 'Forms produced from the same hours data tracked all year, not rebuilt at filing season.'],
+                  ].map(([pain, why, fix]) => (
+                    <tr key={pain} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.85rem 1rem', fontWeight: 600 }}>{pain}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#555555' }}>{why}</td>
+                      <td style={{ padding: '0.85rem 1rem', color: '#555555' }}>{fix}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The office manager who found out about ACA the hard way</h2>
+            </div>
+            <div className="reveal" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem', marginTop: '2rem' }}>
+              <p style={{ margin: 0, color: '#444444', lineHeight: '1.75', fontSize: '0.97rem' }}>
+                A residential HVAC company runs 38 year-round employees. Every summer they bring on 15 to 20 seasonal helpers and dispatch techs to keep up with install season. Nobody ran the math on full-time equivalents, because the company &quot;isn&apos;t a 50-employee business.&quot; By July, combined FTEs crossed 50 for the first time, triggering applicable large employer status and a coverage-offer obligation the owner did not know existed until a letter arrived the following year. With hours tracked under the IRS look-back method from day one, the same company sees the FTE line coming months in advance, with time to decide how to respond instead of reacting to a penalty notice.
+              </p>
+            </div>
           </div>
         </section>
 

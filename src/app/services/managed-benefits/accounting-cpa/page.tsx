@@ -40,7 +40,19 @@ const FAQS: [string, string][] = [
   ],
   [
     'What does benefits administration cost for a CPA firm?',
-    'A monthly per-employee cost that lands far below one internal admin hire. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+    'A monthly per-employee cost that lands far below one internal admin hire, typically well under the $60,000 to $100,000 it takes to bring a benefits administrator on staff. Answer five questions in the estimate form and your monthly range appears on screen; exact pricing is confirmed on your discovery call.',
+  ],
+  [
+    'How do you track hours for seasonal preparers and interns during busy season?',
+    'Hours are tracked continuously against the ACA full-time threshold, including staff whose schedules spike in February and March. When a seasonal preparer crosses into full-time status, the eligibility clock and offer-of-coverage requirement are triggered by the system, not by someone remembering to check.',
+  ],
+  [
+    'What happens if a departing employee elects COBRA?',
+    'COBRA administration runs through the same system: election notices, deadlines, and premium collection are handled and tracked. Missing a required COBRA notice can carry an IRS excise tax exposure of up to $110 per day per qualified beneficiary, so this is not a step a firm wants running on memory during busy season.',
+  ],
+  [
+    'Can this handle multiple offices with different renewal dates?',
+    'Yes. Multi-office firms often inherit different plans and renewal dates through mergers. Each office or legacy plan can be configured as its own eligibility group inside one system, so a firm-wide view does not require reconciling separate spreadsheets per location.',
   ],
 ];
 
@@ -150,6 +162,55 @@ export default function ManagedBenefitsAccountingCpaPage() {
                 <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem', color: '#000000' }}>Competing for talent against firms with bigger benefits desks</h3>
                 <p style={{ margin: 0, color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>Recruiting seniors and managers means competing with regional and national firms whose enrollment experience is polished and self-serve. A modern enrollment experience, where a new hire compares plans and enrolls online in minutes, is table stakes for the candidates a growing firm wants, and it comes standard on every plan tier.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* PAIN TABLE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">The Calendar Collision</p>
+              <h2>Busy season and benefits season, overlapping on purpose</h2>
+            </div>
+            <div className="reveal" style={{ overflowX: 'auto', marginTop: '2rem' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid #000000' }}>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>Firm calendar event</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>Benefits event it collides with</th>
+                    <th style={{ textAlign: 'left', padding: '0.75rem 0.5rem' }}>What administration handles</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Jan-Apr busy season', 'ACA Form 1095-C furnishing deadline to employees', 'Forms produced and tracked without pulling staff off client work'],
+                    ['Seasonal intern and preparer hiring', 'ACA full-time hours threshold monitoring', 'Hours tracked continuously against the ALE line'],
+                    ['Oct 15 extension deadline', 'Open enrollment planning and carrier renewal', 'A dedicated specialist runs enrollment on the Fully Managed plan'],
+                    ['Year-end close', 'COBRA notices for any Q4 departures', 'Notices and deadlines tracked to avoid excise tax exposure'],
+                  ].map(([event, collision, fix]) => (
+                    <tr key={event} style={{ borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '0.75rem 0.5rem', fontWeight: 600 }}>{event}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{collision}</td>
+                      <td style={{ padding: '0.75rem 0.5rem', color: '#555555' }}>{fix}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* SCENARIO */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">A Common Scenario</p>
+              <h2>The intern class that quietly crosses the ALE line</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem', color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+              <p>A 40-person firm brings on eight tax season interns and three per-diem preparers each January through April. Nobody is tracking their hours against the ACA full-time equivalent formula, because the firm administrator is buried in extension work. By March, two of the seasonal hires have crossed into full-time status and should have received an offer of coverage weeks earlier. The firm finds out when its filing preparer asks why the eligibility list does not match payroll.</p>
+              <p style={{ marginTop: '1rem' }}>With hours tracked continuously across the whole roster, including seasonal and variable-hour staff, the eligibility trigger fires on schedule instead of getting discovered during filing season.</p>
             </div>
           </div>
         </section>

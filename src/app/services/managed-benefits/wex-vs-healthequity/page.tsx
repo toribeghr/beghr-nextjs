@@ -46,6 +46,22 @@ const FAQS: [string, string][] = [
     'Where does BEG fit in a WEX vs HealthEquity decision?',
     'Both vendors administer accounts and COBRA; neither runs your open enrollment, eligibility, life events, or ACA reporting. BEG Managed Benefits, powered by isolved, is the layer that takes that administration off your desk with a dedicated team, while you keep your broker, your plans, and whichever account custodian you choose.',
   ],
+  [
+    'What account types do WEX and HealthEquity each cover?',
+    'Both administer HSAs, FSAs including limited-purpose and dependent care variants, HRAs, commuter and lifestyle accounts, and COBRA. The overlap in account types is why they compete head to head in RFPs; the difference is which one is built around, HSA custodianship for HealthEquity, platform breadth for WEX.',
+  ],
+  [
+    'How long does it take to switch HSA custodians between the two?',
+    'Employer-side account migrations typically run 60 to 90 days from signed agreement to go-live, timed to a plan year. HSA balances move trustee-to-trustee because the funds belong to the employee, not the employer or the vendor, so a custodian change does not put member balances at risk. Confirm the transfer timeline and any account-closure fees in writing before you sign.',
+  ],
+  [
+    'Which is easier to migrate away from later?',
+    'Neither publishes a migration-friendliness policy, so ask directly: request the data export format, the transfer timeline for existing HSA balances, and whether investment positions liquidate or transfer in kind. Get these answers in writing during the sales process, not after you have signed.',
+  ],
+  [
+    'Do either of these vendors run open enrollment or ACA reporting?',
+    'No. Both are account and COBRA administrators. Open enrollment, eligibility management, life-event processing, carrier data feeds, and ACA Forms 1094-C/1095-C production sit in a separate administration layer that neither WEX nor HealthEquity performs. That is the gap BEG Managed Benefits, powered by isolved, is built to close.',
+  ],
 ];
 
 export default function WexVsHealthequityPage() {
@@ -239,6 +255,24 @@ export default function WexVsHealthequityPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '1.5rem', lineHeight: '1.7' }}>
               Comparing WEX against the other account TPA? See <Link href="/services/managed-benefits/wex-vs-tasc">WEX vs TASC</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* MIGRATION NOTE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">What To Expect</p>
+              <h2>Switching custodians: what actually happens</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem' }}>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.95rem' }}>
+                Moving from one HSA custodian to another, in either direction, is generally a 60-to-90-day project timed around your plan year. Employees keep their HSA balances regardless of which custodian holds the account, because the funds are owned by the employee and transfer trustee-to-trustee; the employer coordinates timing and communication, not ownership. Ask each vendor for their data export format, the balance-transfer timeline, and whether invested funds liquidate or move in kind, and get the answer in writing before you commit.
+              </p>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.95rem', marginTop: '1rem' }}>
+                A custodian switch does not, by itself, fix a broken enrollment process. If eligibility data feeding into either platform is manual today, plan to fix that layer in parallel or you will migrate the same data problem to a new vendor.
+              </p>
+            </div>
           </div>
         </section>
 

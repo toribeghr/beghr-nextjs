@@ -27,6 +27,10 @@ const FAQS: [string, string][] = [
     'Not your broker, ever. Your broker keeps advising you, negotiating renewals, and placing coverage regardless of which administration system sits behind the plans. What BEG Managed Benefits, powered by isolved, changes is who carries the administrative work: a dedicated team runs it instead of your HR person running it inside software.',
   ],
   [
+    'Is BEG a PEO?',
+    'No. BEG Managed Benefits, powered by isolved, administers the benefit plans your broker already placed. There is no co-employment, and your company remains the employer of record. BEG is a broker-ally managed service, not a PEO and not a replacement for your carriers or your advisor.',
+  ],
+  [
     'How is BEG different from PlanSource?',
     'PlanSource is a benefits administration platform that blends its software with human guidance, reaching many employers through brokers and reseller partners. BEG Managed Benefits is a done-for-you service for small and mid-sized employers: on the Fully Managed plan, a dedicated Managed Benefits Specialist runs enrollment, life events, and carrier updates, and a Benefits Auditing Analyst checks your data, with payroll available on the same platform.',
   ],
@@ -37,6 +41,18 @@ const FAQS: [string, string][] = [
   [
     'We like the PlanSource platform. Is this an either-or decision?',
     'The real decision is about who does the work, not which logo is on the software. If your team runs benefits comfortably in the platform your broker or reseller provides, keep that setup. If the hours are the problem, a managed service moves the work itself, and that is the comparison worth pricing.',
+  ],
+  [
+    'Does PlanSource handle ACA reporting and Forms 1094-C and 1095-C?',
+    'PlanSource offers ACA tracking and reporting capabilities as part of its platform, and your team or your broker-provided package typically operates those tools. On the BEG software-plus-compliance plan, Forms 1094-C and 1095-C are produced for you as part of the service; on Fully Managed, the same reporting runs alongside enrollment administration your team no longer has to drive. See the IRS reference on employer ACA reporting linked below for the underlying requirement.',
+  ],
+  [
+    'Does PlanSource handle COBRA administration?',
+    'PlanSource\'s core focus is enrollment and benefits administration technology; COBRA administration, when offered, typically runs through a partner or add-on rather than being the platform\'s center of gravity. Employers with meaningful COBRA volume should confirm exactly who is administering notices, elections, and premium collection, since federal COBRA rules carry real deadlines and penalty exposure, including an IRS excise tax of $110/day per qualified beneficiary for certain violations. The DOL\'s COBRA overview, linked below, is the authoritative starting point.',
+  ],
+  [
+    'What does moving off PlanSource actually look like?',
+    'In broad terms: your broker and BEG confirm current plans, carriers, and census; data is loaded and checked against your existing PlanSource records; a parallel or cutover period validates deductions and eligibility before go-live; and open enrollment (or the next life event cycle) runs on the new setup. Exact timelines depend on carrier responsiveness, plan count, and your renewal date, so treat any specific week count you see elsewhere as an estimate, not a guarantee.',
   ],
   [
     'What platform does BEG Managed Benefits run on?',
@@ -166,11 +182,14 @@ export default function PlansourceAlternativePage() {
                 <tbody>
                   {[
                     ['What it is', 'A managed service on the isolved platform', 'A benefits administration platform with services'],
+                    ['Enrollment vs. accounts-only', 'Full enrollment administration, all plan types', 'Full enrollment administration; not an accounts-only TPA'],
                     ['Who does the admin work', 'A dedicated team on the Fully Managed plan', 'Typically your team in the platform; service scope varies by package'],
+                    ['ACA / 1094-C, 1095-C', 'Produced for you on two of three plans', 'Platform tracking and reporting tools your team or package operates'],
+                    ['COBRA administration', 'Scoped on your discovery call', 'Available, often through a partner or add-on rather than the core focus'],
+                    ['Carrier feed management', 'Monitored by your BEG team', 'Maintained through PlanSource carrier partnerships'],
                     ['Your broker', 'Stays; we work alongside them', 'Stays; often the reseller providing the platform'],
-                    ['Built for', 'SMBs, roughly 25 to 500 employees', 'Mid-sized and larger employers, plus channel partners'],
-                    ['ACA reporting', 'Tracked and produced for you', 'Platform capabilities your team or package operates'],
-                    ['Pricing visibility', 'Instant on-screen estimate for employers', 'Request-a-demo; no published pricing'],
+                    ['Best-fit company size', 'Roughly 25 to 500 employees', 'Mid-sized and larger employers, plus channel partners'],
+                    ['Pricing visibility', 'Instant on-screen estimate for employers', 'Request-a-demo; no published pricing (see plansource.com)'],
                     ['Payroll connection', 'Same platform as BEG managed payroll', 'Integrations to your payroll vendor'],
                     ['Getting started', '15-minute call after your estimate', 'Demo and scoping, often through your reseller'],
                   ].map(([factor, beg, them], i) => (
@@ -182,6 +201,50 @@ export default function PlansourceAlternativePage() {
                   ))}
                 </tbody>
               </table>
+              <p style={{ fontSize: '0.82rem', color: '#888888', marginTop: '0.85rem' }}>
+                Figures on PlanSource reflect its public marketing and product pages at <a href="https://www.plansource.com" target="_blank" rel="noopener noreferrer">plansource.com</a> as of this writing. Confirm current specifics directly with PlanSource or your reseller before deciding.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* WHO SHOULD SWITCH */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Decision Criteria</p>
+              <h2>Who should actually consider switching</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+              {[
+                { title: 'Stay on PlanSource if', body: 'You have an internal owner who runs the platform comfortably, a broker or reseller providing real support, and plan designs complex enough to benefit from deep configurability. There is no operational pain here to fix.' },
+                { title: 'Consider switching if', body: 'Benefits administration is a side duty stacked on your HR generalist, open enrollment is a fire drill every year, or ACA filings and carrier corrections keep slipping because nobody owns them full time.' },
+                { title: 'Company size is a signal', body: 'Under roughly 500 employees with lean HR staff, the ratio of administrative hours to headcount tends to justify a managed team faster than it justifies a bigger internal build-out.' },
+                { title: 'Cost of the alternative matters', body: 'Hiring a dedicated internal benefits administrator typically runs $60K-$100K a year in salary alone, before software. Weigh that against a managed service where the work is already staffed and shared across specialists.' },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.4rem', fontSize: '0.97rem' }}>{title}</strong>
+                  <p style={{ margin: 0, fontSize: '0.9rem', color: '#555555', lineHeight: '1.6' }}>{body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* MIGRATION */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">What To Expect</p>
+              <h2>Moving from PlanSource, at a glance</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem' }}>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                A benefits administration transition follows a similar shape regardless of the systems involved. Your broker and the BEG team confirm current plans, carriers, and census data. That data is loaded into isolved and checked against what PlanSource has on file, since discrepancies here are where enrollment errors usually start. A parallel or cutover period lets both sides validate deductions and eligibility before anything goes live for employees. The transition typically lines up with your next open enrollment or renewal date, since that is the natural point where a new plan year, and a new administration setup, begin together.
+              </p>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                Exact timelines depend on plan count, carrier responsiveness, and how clean the current data is, so treat this as the general shape of the process rather than a fixed schedule. Your BEG contact will walk through the specifics for your account before anything is finalized.
+              </p>
             </div>
           </div>
         </section>

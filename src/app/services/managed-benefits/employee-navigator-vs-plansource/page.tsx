@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Where does BEG fit in an Employee Navigator vs PlanSource decision?',
     'BEG Managed Benefits, powered by isolved, is the option where a dedicated team runs the administration: enrollment, changes, carrier updates, and ACA forms, while you keep your broker and your plans. If neither having your broker run software nor buying an enterprise platform fits, that is the third path.',
   ],
+  [
+    'How does COBRA administration compare between the two?',
+    'Neither Employee Navigator nor PlanSource is primarily marketed as a COBRA administrator; both integrate with COBRA vendors or support the process through their broader platforms, and PlanSource\'s published compliance tooling leans further into this than Employee Navigator\'s. Whoever administers it, missing a COBRA notice deadline can carry an IRS excise tax exposure of up to $110 per day per qualified beneficiary, so verify who owns that task before you assume it is covered.',
+  ],
+  [
+    'What about 834 carrier feeds and ACA reporting?',
+    'Both platforms support 834 EDI carrier feeds and ACA reporting tools, including 1094-C and 1095-C support. Employee Navigator prices its 834 feed access per employee on some tiers; PlanSource bundles this into its demo-gated pricing. In both cases, someone still has to monitor the feed for rejected records and validate ACA eligibility data all year, which is a task, not a checkbox.',
+  ],
+  [
+    'Is BEG a PEO or a broker replacement?',
+    'No to both. BEG Managed Benefits, powered by isolved, is not a professional employer organization; there is no co-employment and you remain the employer of record. BEG is a broker-ally: your existing broker keeps advising on plan design and renewals, and BEG\'s team runs the day-to-day administration behind those plans.',
+  ],
 ];
 
 export default function EmployeeNavigatorVsPlansourcePage() {
@@ -164,6 +176,10 @@ export default function EmployeeNavigatorVsPlansourcePage() {
                     ['Integrations', '600+ carrier, payroll, and TPA integrations', 'HRIS, payroll, and carrier connections'],
                     ['Pricing visibility', 'Broker tiers published, dollar amounts gated; $0.45 PEPM EDI fee is printed', 'Fully demo-gated, no published numbers'],
                     ['Your broker relationship', 'Central: the broker is the operator', 'Optional: brokers can be involved but the vendor relationship is direct'],
+                    ['COBRA administration', 'Not built in; typically a separate vendor or broker-led process', 'Compliance tooling covers more of this; still often paired with a COBRA vendor'],
+                    ['Carrier / 834 feeds', 'Supported; per-employee EDI fee on some tiers', 'Supported as part of the platform; pricing not published'],
+                    ['Who does the admin work', 'Your broker and your HR team, inside the software', 'Your team, or PlanSource\'s services staff if purchased'],
+                    ['Best-fit company profile', 'Small to mid-size group with an engaged broker', 'Mid-market or enterprise HR team wanting a direct vendor and services layer'],
                   ].map(([factor, en, ps], i) => (
                     <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #e5e5e5' }}>
                       <td style={{ padding: '13px 16px', fontWeight: 600, color: '#333333' }}>{factor}</td>
@@ -253,6 +269,9 @@ export default function EmployeeNavigatorVsPlansourcePage() {
               </p>
               <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '1rem' }}>
                 If you want software your team runs, pick from these. If you want the administration off your desk without a co-employment contract or losing your broker, that is <Link href="/services/managed-benefits">BEG Managed Benefits</Link>, powered by isolved: a dedicated team runs enrollment, changes, carrier updates, and ACA forms behind the plans you and your broker already chose, and your estimate is on screen in about 90 seconds.
+              </p>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '1rem' }}>
+                To be specific about what BEG is not: it is not a PEO, there is no co-employment, and it is not a broker replacement. It is software plus a team that runs it, working alongside whichever broker you already trust.
               </p>
               <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
                 <PricingCta service="managed-benefits" />

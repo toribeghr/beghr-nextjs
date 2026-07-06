@@ -42,6 +42,22 @@ const FAQS: [string, string][] = [
     'What platform does BEG Managed Benefits run on?',
     'The service is powered by isolved, the HCM platform behind thousands of American employers. Benefits and payroll live on the same data, so deductions, eligibility, and ACA hours tracking stop drifting apart across systems.',
   ],
+  [
+    'What account types does WEX cover that BEG should know about?',
+    'WEX administers HSAs, FSAs including limited-purpose and dependent care variants, HRAs, lifestyle spending accounts, commuter benefits, and COBRA continuation. BEG Managed Benefits does not replace an account custodian; it runs the enrollment, eligibility, and compliance layer that feeds clean data to whichever HSA or FSA administrator you choose, WEX or otherwise.',
+  ],
+  [
+    'How long does switching away from WEX benefits administration usually take?',
+    'Vendors in this space generally quote 60 to 90 days from signed agreement to go-live, timed around your plan year so accounts and elections carry over cleanly. BEG Managed Benefits is not an account custodian swap; onboarding centers on connecting your existing carriers and payroll data, which typically moves faster than a full account-platform migration.',
+  ],
+  [
+    'Does switching affect employee HSA balances or COBRA rights?',
+    'No. HSA funds belong to the employee and transfer trustee-to-trustee regardless of which company administers enrollment. COBRA continuation is a legal obligation of the employer under federal law, not a vendor feature, so coverage rights are unaffected by who runs the paperwork behind it. See the Department of Labor COBRA guidance below for the underlying rules.',
+  ],
+  [
+    'What is the biggest reason employers move off WEX or a similar platform?',
+    'Independent buyer research on WEX alternatives points to three recurring reasons: pricing that is quote-gated and hard to model in advance, integration depth that varies by payroll provider, and service gaps where compliance support and audit trails are not proactive. BEG addresses the pricing opacity issue directly with an instant on-screen estimate, and addresses service gaps with a named specialist and auditing analyst rather than a ticket queue.',
+  ],
 ];
 
 export default function WexAlternativePage() {
@@ -186,19 +202,82 @@ export default function WexAlternativePage() {
           </div>
         </section>
 
-        {/* WHO SHOULD STAY */}
+        {/* ACCOUNT TYPES TABLE */}
         <section className="section">
+          <div className="container" style={{ maxWidth: '1000px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">What Each Layer Actually Covers</p>
+              <h2>Account administration vs. the enrollment layer, factor by factor</h2>
+              <p style={{ marginTop: '1rem', color: '#555555', maxWidth: '680px', margin: '1rem auto 0', textAlign: 'center', lineHeight: '1.7' }}>
+                WEX is an account administrator. BEG Managed Benefits is the enrollment and compliance layer around it. Some employers need to replace WEX; many need to add BEG alongside whichever account administrator they keep.
+              </p>
+            </div>
+            <div style={{ overflowX: 'auto', marginTop: '2.5rem' }} className="reveal">
+              <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.92rem' }}>
+                <thead>
+                  <tr style={{ background: '#000000', color: '#ECAC60' }}>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700, minWidth: '170px' }}>Factor</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>WEX</th>
+                    <th style={{ padding: '14px 16px', textAlign: 'left', fontWeight: 700 }}>BEG Managed Benefits</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Account types administered', 'HSA, FSA (health care, limited-purpose, dependent care), HRA, commuter, lifestyle accounts', 'None; BEG administers enrollment and eligibility, not the accounts themselves'],
+                    ['COBRA', 'COBRA administration inside the same account platform', 'COBRA notice and compliance tracking as part of the managed service'],
+                    ['Who holds the money', 'WEX, as account custodian and card issuer', 'Not applicable; your existing account custodian keeps the funds'],
+                    ['Carrier and payroll feeds', '350+ payroll and HRIS partners and 225+ carriers, per WEX', 'Same-platform data with isolved payroll; carrier feeds set up per plan'],
+                    ['Employer experience', 'Configurable platform, quote-gated pricing, proposal-driven sales', 'Instant on-screen estimate, 15-minute call to confirm scope'],
+                    ['Day-to-day admin owner', 'Employer or broker manages the platform; WEX supports the account tech', 'Dedicated Managed Benefits Specialist runs enrollment and life events'],
+                    ['Data quality checks', 'Platform-level reporting', 'Benefits Auditing Analyst reviews data on the top plan'],
+                    ['Best-fit company', 'Employers needing consumer-directed account technology at scale, or TPAs wanting a white-label engine', '25 to 500 employees who need the enrollment and compliance work done by a named team'],
+                  ].map(([factor, wex, beg], i) => (
+                    <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
+                      <td style={{ padding: '13px 16px', fontWeight: 600, color: '#333333' }}>{factor}</td>
+                      <td style={{ padding: '13px 16px', color: '#555555' }}>{wex}</td>
+                      <td style={{ padding: '13px 16px', color: '#1a6e1a', fontWeight: 600 }}>{beg}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* WHO SHOULD STAY / SWITCH */}
+        <section className="section section--soft">
           <div className="container" style={{ maxWidth: '820px' }}>
             <div className="head center reveal">
               <p className="eyebrow">Honest Answer</p>
-              <h2>When WEX is the right choice</h2>
+              <h2>When WEX is the right choice, and who should look at BEG instead</h2>
             </div>
             <div className="reveal" style={{ marginTop: '1.5rem' }}>
               <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
                 If you have thousands of employees, a complex consumer-directed account program, union or Taft-Hartley plans, or you are a health plan, financial institution, or TPA that needs a white-label benefits platform, WEX is built for exactly that job and does it at a scale few can match. An employer with dedicated benefits staff and an RFP process will get real value from WEX&apos;s implementation discipline and account technology, and switching away from that for a leaner service would be solving a problem you do not have.
               </p>
-              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '1rem' }}>
+                Consider switching, or adding BEG alongside your current account administrator, if any of these sound familiar: your team fields employee questions about declined transactions with no clear escalation path, open enrollment is run from spreadsheets and email rather than a system, ACA Forms 1094-C and 1095-C are produced under deadline pressure each January, or nobody owns the carrier feed when someone has a life event mid-year. None of that is a WEX problem specifically; it is what happens when account administration and enrollment administration are two different jobs and only one of them has an owner.
+              </p>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '1rem' }}>
                 The time to look at BEG is when you are the whole benefits department: when enrollment season, ACA forms, and carrier updates land on one desk, and what you need is a team that runs it, priced and scoped for a company your size, with a number you can see today.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* MIGRATION NOTE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">What To Expect</p>
+              <h2>Switching or adding a layer: what actually happens</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem' }}>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                A full account-platform migration, moving HSA custody, FSA administration, and COBRA from one vendor to another, is typically quoted in the 60-to-90-day range industry-wide, timed to your plan year so balances and elections transfer cleanly. Employee HSA funds are portable by law and move trustee-to-trustee; COBRA continuation rights are a federal employer obligation, not a vendor feature, so neither is put at risk by a vendor change.
+              </p>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '1rem' }}>
+                Onboarding BEG Managed Benefits is a narrower project than an account-platform migration, because BEG is not asking you to move HSA custody or reissue benefit cards. The work is connecting your existing carriers, confirming your account administrator&apos;s data feed, and setting up payroll on isolved if you are not already there. Most employers can target their next open enrollment as the go-live date, with the 15-minute scoping call as the first step.
               </p>
             </div>
           </div>

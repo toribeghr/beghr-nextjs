@@ -42,6 +42,22 @@ const FAQS: [string, string][] = [
     'What platform does BEG Managed Benefits run on?',
     'The service is powered by isolved, the HCM platform behind thousands of American employers. Benefits and payroll live on the same data, so deductions, eligibility, and ACA hours tracking stay in sync instead of drifting across systems.',
   ],
+  [
+    'Does BEG administer FSA, HSA, or HRA accounts the way TASC does?',
+    'BEG Managed Benefits centers on core benefits administration, enrollment, life events, carrier data, and ACA compliance, rather than operating as a reimbursement-account TPA. If your strategy depends on a wide menu of account types on one card, discuss scope directly on your discovery call; TASC\'s Universal Benefit Account remains a strong, purpose-built option for that specific need.',
+  ],
+  [
+    'Does TASC handle COBRA administration and the excise tax exposure that comes with getting it wrong?',
+    'Yes, COBRA and continuation administration is one of TASC\'s core strengths, covering notices, elections, and premium billing. Getting COBRA wrong carries real cost either way: the IRS can assess an excise tax of $110/day per qualified beneficiary for certain violations, on top of DOL enforcement exposure. Whichever administrator you use, confirm in writing who owns notice timing and deadlines. The DOL\'s COBRA overview, linked below, lays out the underlying obligations.',
+  ],
+  [
+    'Does TASC handle ACA reporting and Forms 1094-C and 1095-C?',
+    'TASC offers ACA employer reporting as one of its compliance services. BEG produces Forms 1094-C and 1095-C for you on two of its three plans, with that reporting running alongside enrollment administration on Fully Managed rather than as a standalone add-on. The IRS reference on ACA employer reporting, linked below, covers the statutory requirement itself.',
+  ],
+  [
+    'What does moving off TASC actually look like?',
+    'In broad terms: your broker and BEG confirm current plans, carriers, and census; if TASC also administers your accounts or COBRA, those relationships are reviewed separately since they may continue on their own track; core enrollment data is loaded into isolved and checked for accuracy; and a parallel or cutover period validates deductions before go-live, typically timed to your next open enrollment or renewal. Timelines vary by plan count and data quality, so treat this as the general shape of the process, not a fixed schedule.',
+  ],
 ];
 
 export default function TascAlternativePage() {
@@ -166,11 +182,14 @@ export default function TascAlternativePage() {
                 <tbody>
                   {[
                     ['Center of gravity', 'Core benefits administration, run for you', 'Benefit accounts: FSA, HSA, HRA, lifestyle, and more'],
+                    ['Enrollment vs. accounts-only', 'Full core benefits enrollment administration', 'Primarily accounts-only; not a full benadmin platform'],
                     ['Who does the admin work', 'Dedicated specialist and auditing analyst on the top plan', 'TASC administers accounts; core enrollment often stays with your team'],
-                    ['Pricing visibility', 'Instant on-screen estimate, no demo gate', 'Request-a-proposal form'],
+                    ['ACA / 1094-C, 1095-C', 'Produced for you on two of three plans', 'Offered as a standalone ACA employer reporting service'],
+                    ['COBRA administration', 'Support scoped exactly on your discovery call', 'A core TASC continuation strength, notices through premium billing'],
+                    ['Carrier feed management', 'Monitored by your BEG team', 'Not TASC\'s core focus; carrier feeds usually sit with your benadmin system'],
+                    ['Pricing visibility', 'Instant on-screen estimate, no demo gate', 'Request-a-proposal form (see tasconline.com)'],
                     ['Your broker', 'Stays; we administer the plans they place', 'Works through distributors, including brokers'],
-                    ['ACA reporting', 'Tracked and produced on the ACA plan', 'Offered as an ACA employer reporting service'],
-                    ['COBRA', 'Support scoped exactly on your discovery call', 'A core TASC continuation strength'],
+                    ['Best-fit company profile', 'SMBs, roughly 25 to 500 employees, needing core admin run', 'Any size employer wanting deep reimbursement-account variety'],
                     ['Payroll connection', 'Same platform as BEG managed payroll', 'Payroll Plus, a separate TASC offering'],
                     ['Getting started', '15-minute call after your estimate', 'Proposal, then implementation'],
                   ].map(([factor, beg, them], i) => (
@@ -182,6 +201,50 @@ export default function TascAlternativePage() {
                   ))}
                 </tbody>
               </table>
+              <p style={{ fontSize: '0.82rem', color: '#888888', marginTop: '0.85rem' }}>
+                Figures on TASC reflect its public marketing and product pages at <a href="https://www.tasconline.com" target="_blank" rel="noopener noreferrer">tasconline.com</a> as of this writing. Confirm current specifics directly with TASC before deciding.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* WHO SHOULD SWITCH */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Decision Criteria</p>
+              <h2>Who should actually consider switching</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+              {[
+                { title: 'Stay with TASC if', body: 'Reimbursement and lifestyle accounts are central to your benefits strategy, or you need deep COBRA and continuation administration, and your core enrollment is already handled elsewhere without pain.' },
+                { title: 'Consider BEG if', body: 'The pain point is not the accounts, it is enrollment season, carrier updates, and ACA filings landing on one overloaded desk with nobody dedicated to owning them.' },
+                { title: 'You can run both', body: 'These two services are not always mutually exclusive. Some employers keep TASC for accounts and continuation while moving core benefits administration to a managed service; confirm the split on your discovery call.' },
+                { title: 'Cost of the alternative matters', body: 'Hiring a dedicated internal benefits administrator typically runs $60K-$100K a year in salary alone, before any software. Weigh that against a managed service where a team is already staffed for the work.' },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.4rem', fontSize: '0.97rem' }}>{title}</strong>
+                  <p style={{ margin: 0, fontSize: '0.9rem', color: '#555555', lineHeight: '1.6' }}>{body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* MIGRATION */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">What To Expect</p>
+              <h2>Moving core administration off TASC, at a glance</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem' }}>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                A transition like this follows a familiar shape. Your broker and the BEG team confirm current plans, carriers, and census data. If TASC also administers your reimbursement accounts or COBRA, those relationships are reviewed on their own track, since many employers keep them running independently of core enrollment administration. Core data is loaded into isolved and checked for accuracy, then a parallel or cutover period validates deductions and eligibility before anything goes live for employees, typically timed to your next open enrollment or renewal date.
+              </p>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                Exact timelines depend on plan count, carrier responsiveness, and data quality, so treat this as the general shape of the process rather than a fixed schedule. Your BEG contact will walk through specifics for your account before anything is finalized.
+              </p>
             </div>
           </div>
         </section>

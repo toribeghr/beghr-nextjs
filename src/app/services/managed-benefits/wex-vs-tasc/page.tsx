@@ -46,6 +46,22 @@ const FAQS: [string, string][] = [
     'Where does BEG fit in a WEX vs TASC decision?',
     'WEX and TASC administer benefit accounts and COBRA. BEG Managed Benefits, powered by isolved, covers the layer around them: enrollment, eligibility, life events, carrier updates, and ACA reporting, run by a dedicated team while you keep your broker and your plans. Many companies need both layers handled.',
   ],
+  [
+    'What account types do WEX and TASC each cover?',
+    'Both administer HSA, FSA (health care and dependent care), HRA, and commuter accounts, plus COBRA and continuation billing. TASC extends further into lifestyle-style benefits under its Universal Benefit Account umbrella, such as wellness and education reimbursement; WEX covers a comparable range through its own configurable account and lifestyle-account offerings.',
+  ],
+  [
+    'How long does switching between WEX and TASC take?',
+    'Account-administration migrations in this space generally run 60 to 90 days from signed agreement to go-live, aligned to a plan year so account balances and elections carry over cleanly. HSA funds are owned by the employee and move trustee-to-trustee regardless of which administrator you choose next.',
+  ],
+  [
+    'Does either WEX or TASC run open enrollment or ACA reporting?',
+    'No. Both are account and COBRA administrators, not enrollment platforms. Eligibility management, life-event processing, carrier data feeds, and ACA Forms 1094-C/1095-C production are a separate layer that both vendors expect the employer, a broker platform, or a managed service to handle.',
+  ],
+  [
+    'Which is the better fit for a company already using Employee Navigator or a similar enrollment platform?',
+    'Either can work, since both connect to common payroll and enrollment platforms; the deciding factor is usually account breadth and employee experience preference, one universal card from TASC versus WEX’s configurable multi-account platform, not enrollment compatibility. Confirm the specific integration with your enrollment vendor before signing either.',
+  ],
 ];
 
 export default function WexVsTascPage() {
@@ -239,6 +255,24 @@ export default function WexVsTascPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '1.5rem', lineHeight: '1.7' }}>
               Comparing WEX against the HSA specialist instead? See <Link href="/services/managed-benefits/wex-vs-healthequity">WEX vs HealthEquity</Link>. Evaluating enrollment platforms? Start with <Link href="/services/managed-benefits/employee-navigator-vs-plansource">Employee Navigator vs PlanSource</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* MIGRATION NOTE */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">What To Expect</p>
+              <h2>Switching account administrators: what actually happens</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem' }}>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.95rem' }}>
+                Moving benefit-account administration from WEX to TASC, or the reverse, is typically a 60-to-90-day project timed to your plan year: new cards get issued, existing HSA balances transfer trustee-to-trustee since the funds belong to the employee, and COBRA continuation rights carry over because they are a federal employer obligation, not a vendor feature. Get the data-export format, balance-transfer timeline, and card-reissue plan in writing from whichever vendor you are leaving and joining.
+              </p>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.95rem', marginTop: '1rem' }}>
+                Neither vendor migration touches your enrollment platform or your ACA reporting process. If those are still manual, plan that fix separately, ideally before the account migration, so the new administrator receives clean eligibility data from day one instead of inheriting the same gaps.
+              </p>
+            </div>
           </div>
         </section>
 

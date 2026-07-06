@@ -42,6 +42,18 @@ const FAQS: [string, string][] = [
     'What platform does BEG Managed Benefits run on?',
     'The service is powered by isolved, the HCM platform behind thousands of American employers. Benefits and payroll live on the same data, so deductions, eligibility, and ACA hours tracking stay in sync instead of drifting across systems.',
   ],
+  [
+    'Who handles COBRA administration in each model?',
+    'Employee Navigator itself is not a COBRA administrator; COBRA notices, elections, and premium collection are typically handled by a separate COBRA vendor or by your broker and HR team working outside the platform. On the Fully Managed plan, BEG coordinates COBRA-related administrative work as part of the service. Either way, the employer stays legally responsible for meeting the notice deadlines described on the Department of Labor COBRA page below.',
+  ],
+  [
+    'What happens to carrier or 834 feed errors?',
+    'Carrier feeds, often called 834 EDI feeds, move enrollment data from the benefits platform to each insurance carrier. Employee Navigator supports these feeds and lists a per-employee fee for them on some of its published tiers, but when a feed breaks or a carrier rejects a record, someone still has to notice, diagnose, and fix it. In the Fully Managed plan, BEG\'s Benefits Auditing Analyst is the one watching for those discrepancies.',
+  ],
+  [
+    'Is BEG Managed Benefits a PEO?',
+    'No. BEG Managed Benefits, powered by isolved, is not a professional employer organization and there is no co-employment relationship. Your company remains the sole employer of record, keeps its own EIN and benefit plans, and keeps its broker. BEG provides software plus a dedicated team that operates it, not a leased-employee arrangement.',
+  ],
 ];
 
 export default function EmployeeNavigatorAlternativePage() {
@@ -172,6 +184,10 @@ export default function EmployeeNavigatorAlternativePage() {
                     ['ACA reporting', 'Tracked and produced for you', 'Reporting module your team operates; some services carry added fees per its pricing page'],
                     ['Pricing visibility', 'Instant on-screen estimate for employers', 'Tier features published; plan pricing through sales, sold to brokers'],
                     ['Payroll connection', 'Same platform as BEG managed payroll', 'Payroll integrations'],
+                    ['COBRA administration', 'Coordinated as part of the Fully Managed service', 'Not built in; typically a separate COBRA vendor or your team'],
+                    ['Carrier / 834 feeds', 'Monitored and corrected by a Benefits Auditing Analyst', 'Supported feeds; a per-employee fee applies on some published tiers'],
+                    ['PEO or co-employment?', 'No. Not a PEO; you remain the employer of record', 'Not applicable; it is software, not an employment model'],
+                    ['Best-fit company profile', 'Broker-supported employers whose team is out of hours for enrollment, ACA, or carrier cleanup', 'Employers whose broker actively runs the platform and whose team has capacity to do the data work'],
                     ['Getting started', '15-minute call after your estimate', 'Through your broker'],
                   ].map(([factor, beg, them], i) => (
                     <tr key={i} style={{ background: i % 2 === 0 ? '#ffffff' : '#f9f9f9', borderBottom: '1px solid #e5e5e5' }}>
@@ -201,6 +217,40 @@ export default function EmployeeNavigatorAlternativePage() {
                 The time to look at BEG is when the tool is fine but the hours are not: when enrollment season swallows your HR person, ACA filings feel like a gamble, and the administration needs an owner whose whole job it is.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* WHICH OPTION FITS YOU */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Which Fits You</p>
+              <h2>Match the option to your actual situation</h2>
+            </div>
+            <div className="beg-grid-3 reveal" style={{ marginTop: '2rem' }}>
+              {[
+                {
+                  title: 'Small team, broker actively engaged',
+                  body: 'Under 50 employees with a broker who logs into Employee Navigator, builds your plans, and answers questions quickly? Stay put. A managed service adds cost you likely do not need yet.',
+                },
+                {
+                  title: 'Growing headcount, one HR generalist',
+                  body: 'One person owns benefits, payroll, and half of HR, and open enrollment already eats two weeks of their quarter. This is the profile where a Fully Managed team pays for itself in reclaimed hours, not features.',
+                },
+                {
+                  title: 'ACA filing anxiety or carrier feed errors',
+                  body: 'If 1095-C season means scrambling, or carrier discrepancies surface at renewal instead of in real time, the gap is not the software, it is having someone dedicated to watching the data all year.',
+                },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.97rem' }}>{title}</strong>
+                  <p style={{ margin: 0, fontSize: '0.9rem', color: '#555555', lineHeight: '1.6' }}>{body}</p>
+                </div>
+              ))}
+            </div>
+            <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '1.5rem', lineHeight: '1.7' }}>
+              None of these situations argue that BEG "wins" universally. They argue that the right choice depends on whether your bottleneck is missing software or missing hours. If it is hours, that is what a managed service is built to solve.
+            </p>
           </div>
         </section>
 

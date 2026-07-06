@@ -46,6 +46,22 @@ const FAQS: [string, string][] = [
     'Where does BEG fit in a bswift vs Businessolver decision?',
     'If you are enterprise scale with a benefits team, pick between these two. If you are a smaller company that landed here because benefits administration is eating your week, BEG Managed Benefits, powered by isolved, puts a dedicated team on the work itself, without an enterprise contract, and with your broker staying put.',
   ],
+  [
+    'How do bswift and Businessolver handle ACA reporting and Forms 1094-C and 1095-C?',
+    'Both include ACA tracking and Forms 1094-C and 1095-C production as part of their administration services, scoped in the contract. Neither publishes a standard price for the work; confirm exactly what is included in each proposal against the IRS reporting requirements linked below.',
+  ],
+  [
+    'How do bswift and Businessolver handle COBRA?',
+    'Both offer COBRA administration as part of their broader administrative services, bswift bundling it with dependent verification and retirement administration, Businessolver through its services teams around Benefitsolver. Ask each vendor for their notice-timing guarantees against the DOL COBRA rules linked below; a missed election notice creates real exposure regardless of which platform sends it.',
+  ],
+  [
+    'What does implementation look like for either platform?',
+    'Expect a formal, multi-month implementation: carrier and 834 feed setup, eligibility rule configuration, testing, and a phased launch, usually timed to a plan year. Both vendors are set up to run this well for employers with a benefits team who can own requirements and testing on the client side; the timeline stretches when that owner is not clearly assigned.',
+  ],
+  [
+    'Where does BEG fit if neither platform is the right size?',
+    'If you are under a few hundred employees with one person running benefits and HR, an enterprise implementation of either platform is likely to feel oversized. BEG Managed Benefits, powered by isolved, puts a dedicated Managed Benefits Specialist and Benefits Auditing Analyst on the work itself, with an instant on-screen estimate instead of an RFP, and your broker stays in place.',
+  ],
 ];
 
 export default function BswiftVsBusinessolverPage() {
@@ -158,11 +174,16 @@ export default function BswiftVsBusinessolverPage() {
                   {[
                     ['Platform story', 'AI-native benefits administration platform', 'One platform, Benefitsolver, built in-house'],
                     ['AI assistant', 'Emma: chat, IVR, and EnrollPro recommendations', 'Sofia: chat, balances, claims status; 94%+ account inquiry resolution, per Businessolver'],
+                    ['Enrollment', 'Self-service with Emma-guided recommendations, service center backup', 'Self-service on Benefitsolver with Sofia guidance'],
+                    ['ACA / 1095-C', 'Part of its administrative services, scoped per contract', 'Part of its administration offering, scoped per contract'],
+                    ['COBRA', 'Bundled with dependent verification and retirement admin', 'Available through its services teams'],
+                    ['Carrier / 834 feeds', '550+ pre-built integrations, per bswift', 'Carrier and HR ecosystem connections through Benefitsolver'],
+                    ['Who does the work', 'Your benefits team plus bswift service center', 'Your benefits team plus Businessolver service teams'],
                     ['Consumer accounts', 'Accounts plus COBRA and verification services', 'MyChoice Accounts: FSA, HSA, HRA, integrated or standalone'],
                     ['Engagement', 'Evive capability for year-round targeted nudges', 'Year-round engagement and a redesigned mobile app'],
-                    ['Administrative services', 'Dependent verification, COBRA, retirement, payroll reconciliation', 'Service teams and accounts administration around Benefitsolver'],
-                    ['Integrations', '550+ pre-built and partner integrations, per bswift', 'Carrier and HR ecosystem connections through Benefitsolver'],
-                    ['Target employer', 'Mid-size to large, complex eligibility welcome', 'Mid-size to large, single-platform buyers'],
+                    ['Implementation effort', 'Multi-month enterprise implementation project', 'Multi-month enterprise implementation project'],
+                    ['Service model', 'Account team, Emma AI, human service center', 'Account team, Sofia AI, consumer-account specialists'],
+                    ['Target employer / best-fit size', 'Mid-size to large, complex eligibility welcome', 'Mid-size to large, single-platform buyers'],
                     ['Pricing visibility', 'Quote-gated', 'Quote-gated'],
                   ].map(([factor, bs, bso], i) => (
                     <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #e5e5e5' }}>
@@ -239,6 +260,43 @@ export default function BswiftVsBusinessolverPage() {
             <p className="reveal" style={{ fontSize: '0.9rem', color: '#555555', textAlign: 'center', marginTop: '1.5rem', lineHeight: '1.7' }}>
               Shopping the small and mid-market tier instead? See <Link href="/services/managed-benefits/employee-navigator-vs-plansource">Employee Navigator vs PlanSource</Link>. Comparing account administrators? Read <Link href="/services/managed-benefits/wex-vs-tasc">WEX vs TASC</Link>.
             </p>
+          </div>
+        </section>
+
+        {/* WHO SHOULD CONSIDER SWITCHING */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Which Fits You</p>
+              <h2>Who should be shopping bswift or Businessolver, and who should not</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+              {[
+                { title: 'Shop between these two if', body: 'You have a benefits team that owns strategy and vendor management, complex eligibility or a large carrier ecosystem, and the budget and timeline for a multi-month enterprise implementation.' },
+                { title: 'Consider switching away from either if', body: 'You are under a few hundred employees, benefits administration sits on one overloaded desk, or a demo-then-quote sales process does not fit how fast you need an answer.' },
+                { title: 'Also worth a look', body: 'Employee Navigator, PlanSource, Ease, Benefitfocus, Asure, and Paycor turn up as alternatives to one or both platforms on most software comparison sites; they are lighter-weight than bswift or Businessolver but still self-run software.' },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.4rem', fontSize: '0.97rem' }}>{title}</strong>
+                  <p style={{ margin: 0, fontSize: '0.9rem', color: '#555555', lineHeight: '1.6' }}>{body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* IMPLEMENTATION / MIGRATION */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Switching Over</p>
+              <h2>What migrating off either platform, or to BEG instead, actually involves</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem' }}>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                A bswift or Businessolver implementation is a multi-month project: eligibility rules, carrier and 834 feed setup, testing, and a phased launch, usually timed to a plan year and staffed by your internal benefits team alongside the vendor. Moving to BEG Managed Benefits instead is a smaller lift for a 25-to-500-employee group, typically 4 to 8 weeks, timed to your next open enrollment. Your Managed Benefits Specialist collects census, plan documents, and carrier contacts and sets up feeds and ACA and COBRA tracking before anything goes live; employees keep their existing coverage throughout.
+              </p>
+            </div>
           </div>
         </section>
 

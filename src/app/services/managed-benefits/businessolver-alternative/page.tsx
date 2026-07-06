@@ -42,6 +42,22 @@ const FAQS: [string, string][] = [
     'What platform does BEG Managed Benefits run on?',
     'The service is powered by isolved, the HCM platform behind thousands of American employers. Benefits and payroll live on the same data, so deductions, eligibility, and ACA hours tracking stay in sync instead of drifting across systems.',
   ],
+  [
+    'What about Asure, Paycom, Paycor, or Forma?',
+    'Those names show up alongside Businessolver on most software comparison sites as similar-category alternatives. They range from broader HCM suites to consumer-account specialists, and each is still software your team or broker configures and runs. BEG is a managed service: isolved as the platform, plus a dedicated Managed Benefits Specialist and Benefits Auditing Analyst who run enrollment and check your data on the Fully Managed plan.',
+  ],
+  [
+    'How does BEG handle ACA reporting and Forms 1094-C and 1095-C?',
+    'The ACA plan tracks full-time-equivalent status and measurement periods, then produces Forms 1094-C and 1095-C for you. See the IRS guidance on employer information reporting linked below for the underlying requirements; BEG handles the production, not the legal determination of your filing status.',
+  ],
+  [
+    'What happens to COBRA administration if we switch?',
+    'COBRA notices and elections run on the isolved platform tied to your enrollment and life-event data, so a qualifying event triggers the required notice on the same system that already knows about the termination or hours change. Missing the required election notice risks IRS excise tax exposure and DOL enforcement, detailed in the COBRA link below.',
+  ],
+  [
+    'How long does switching off Businessolver take?',
+    'Plan on 4 to 8 weeks for a typical 25-to-500-employee group, timed to land before your next open enrollment rather than mid-plan-year. Current census, plan documents, and carrier contacts are the main inputs; your Managed Benefits Specialist maps those before anything goes live.',
+  ],
 ];
 
 export default function BusinessolverAlternativePage() {
@@ -168,9 +184,15 @@ export default function BusinessolverAlternativePage() {
                     ['Built for', 'SMBs, roughly 25 to 500 employees', 'Primarily enterprise employers'],
                     ['Who does the admin work', 'Dedicated specialist and auditing analyst on the top plan', 'Businessolver services plus your internal benefits team'],
                     ['Platform', 'isolved, benefits and payroll on one system', 'Benefitsolver, its proprietary benefits platform'],
+                    ['Enrollment', 'Run for you on the Fully Managed plan', 'Self-service on Benefitsolver with Sofia AI guidance'],
+                    ['ACA / 1095-C', 'Tracked and Forms 1094-C/1095-C produced on the ACA plan', 'Part of its administration offering, scoped per contract'],
+                    ['COBRA', 'Administered on the same platform as enrollment and life events', 'Available through its services offering'],
+                    ['Carrier / 834 feeds', 'Managed by your Benefits Auditing Analyst', 'Configured during implementation and maintained by Businessolver'],
+                    ['Implementation effort', 'Weeks, timed to your open enrollment', 'Formal enterprise implementation project, typically months'],
+                    ['Service model', 'Named specialist plus auditing analyst', 'Account team plus Sofia AI and consumer-account specialists'],
+                    ['Best-fit company size', '25 to 500 employees', 'Enterprise employers with an internal benefits team'],
                     ['Pricing visibility', 'Instant on-screen estimate, no demo gate', 'Sales process; no published pricing'],
                     ['Your broker', 'Stays; we administer the plans they place', 'Works with employers and their advisors'],
-                    ['ACA reporting', 'Tracked and produced on the ACA plan', 'Part of its administration offering'],
                     ['Payroll connection', 'Same platform as BEG managed payroll', 'Integrations and file feeds to your payroll vendor'],
                     ['Getting started', '15-minute call after your estimate', 'Sales cycle, then an implementation project'],
                   ].map(([factor, beg, them], i) => (
@@ -199,6 +221,43 @@ export default function BusinessolverAlternativePage() {
               </p>
               <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
                 The time to look at BEG is when you do not have that benefits team: when the administration itself is the problem, and what you need is a service that runs it, scoped for your size, with a price you can see today.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* WHO SHOULD CONSIDER SWITCHING */}
+        <section className="section section--soft">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Which Fits You</p>
+              <h2>Who should consider switching away from an enterprise platform</h2>
+            </div>
+            <div className="reveal" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '1.25rem', marginTop: '2rem' }}>
+              {[
+                { title: 'Consider switching if', body: 'You are 25 to 500 employees, benefits administration sits on one already-busy person, an enterprise sales and implementation cycle felt oversized for your headcount, or you just want a number before a demo.' },
+                { title: 'Stay put or evaluate Businessolver if', body: 'You run a dedicated benefits function, manage complex eligibility across a large carrier ecosystem, or want to consolidate enrollment, engagement, and consumer accounts on one proprietary platform.' },
+                { title: 'Also worth comparing', body: 'Asure, Paycom, Paycor, and Forma show up alongside Businessolver on most software comparison sites. They range from full HCM suites to consumer-account specialists, but each is still software your team or broker configures and runs; BEG adds the dedicated team that runs it for you.' },
+              ].map(({ title, body }) => (
+                <div key={title} style={{ background: '#f9f9f9', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+                  <strong style={{ display: 'block', marginBottom: '0.4rem', fontSize: '0.97rem' }}>{title}</strong>
+                  <p style={{ margin: 0, fontSize: '0.9rem', color: '#555555', lineHeight: '1.6' }}>{body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* IMPLEMENTATION / MIGRATION */}
+        <section className="section">
+          <div className="container" style={{ maxWidth: '820px' }}>
+            <div className="head center reveal">
+              <p className="eyebrow">Switching Over</p>
+              <h2>What moving off Businessolver, or any enterprise platform, actually involves</h2>
+            </div>
+            <div className="reveal" style={{ marginTop: '1.5rem' }}>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem' }}>
+                A typical migration for a 25-to-500-employee group runs 4 to 8 weeks, timed to land before your next open enrollment rather than mid-plan-year. Your Managed Benefits Specialist collects current census, plan documents, and carrier contacts, sets up carrier and 834 feeds, and confirms COBRA and ACA tracking before anything goes live. Employees keep their existing coverage; what changes is who is running the system underneath it and who answers when something breaks.
               </p>
             </div>
           </div>

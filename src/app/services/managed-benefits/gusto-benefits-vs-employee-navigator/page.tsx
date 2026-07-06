@@ -46,6 +46,18 @@ const FAQS: [string, string][] = [
     'Where does BEG fit in a Gusto vs Employee Navigator decision?',
     'Both leave the administration work with your team or your broker. BEG Managed Benefits, powered by isolved, is the done-for-you option: a dedicated team runs enrollment, changes, carrier updates, and ACA forms while you keep your broker and your plans, whatever payroll you run.',
   ],
+  [
+    'Does Gusto or Employee Navigator handle COBRA administration?',
+    'Gusto publishes a COBRA administration add-on at 30 dollars per month on its pricing page. Employee Navigator does not sell COBRA administration as a core feature; that work typically sits with a separate COBRA vendor, your broker, or your HR team. Either way, missing a COBRA election notice deadline can expose an employer to an IRS excise tax of up to $110 per day per qualified beneficiary, so confirm ownership of that task in writing.',
+  ],
+  [
+    'How do 834 carrier feeds work with each option?',
+    'Employee Navigator supports 834 EDI carrier feeds through its broker-run platform, with a published 45 cent per employee per month fee on some tiers. Gusto\'s carrier connections run through its own brokerage or its broker integration path. In both cases, a feed rejection or mismatched record needs a person watching for it, not just a connection that exists.',
+  ],
+  [
+    'Is BEG Managed Benefits a PEO, or does it replace our broker?',
+    'Neither. BEG Managed Benefits, powered by isolved, is not a professional employer organization, so there is no co-employment and your company stays the employer of record. BEG is a broker-ally: it works alongside your existing broker rather than replacing them, adding a dedicated team that runs the administrative work behind the plans you already have.',
+  ],
 ];
 
 export default function GustoBenefitsVsEmployeeNavigatorPage() {
@@ -164,6 +176,10 @@ export default function GustoBenefitsVsEmployeeNavigatorPage() {
                     ['Pricing visibility', 'Published: plan prices and add-on fees on its site', 'Broker tiers published, dollar amounts gated, EDI fee printed'],
                     ['Plan sophistication', 'Small-group focus through the Gusto brokerage or integration', 'Handles the broader small and mid-size group market'],
                     ['If you switch payroll', 'Benefits administration must be rebuilt elsewhere', 'Platform stays; only the payroll feed changes'],
+                    ['COBRA administration', 'Published add-on at $30 per month', 'Not a core feature; usually a separate vendor or your team'],
+                    ['Carrier / 834 feeds', 'Runs through Gusto brokerage or broker integration', 'Supported; per-employee EDI fee on some tiers'],
+                    ['PEO or co-employment?', 'No; Gusto is payroll and HR software, not a PEO', 'No; it is software distributed through brokers'],
+                    ['Best-fit company profile', 'Small business already on Gusto payroll wanting one bill', 'Employer whose broker actively runs the platform, any payroll provider'],
                   ].map(([factor, gusto, en], i) => (
                     <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#ffffff', borderBottom: '1px solid #e5e5e5' }}>
                       <td style={{ padding: '13px 16px', fontWeight: 600, color: '#333333' }}>{factor}</td>
@@ -253,6 +269,9 @@ export default function GustoBenefitsVsEmployeeNavigatorPage() {
               </p>
               <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '1rem' }}>
                 If you want software your team runs, pick from these. If you want the administration off your desk without a co-employment contract or losing your broker, that is <Link href="/services/managed-benefits">BEG Managed Benefits</Link>, powered by isolved: a dedicated team runs enrollment, changes, carrier updates, and ACA forms behind the plans you and your broker already chose, on a platform that is not tethered to whose payroll you run. Your estimate is on screen in about 90 seconds.
+              </p>
+              <p style={{ color: '#444444', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '1rem' }}>
+                One clarification worth stating directly: BEG Managed Benefits is not a PEO. There is no co-employment, your company remains the employer of record, and your broker stays in place. BEG is a broker-ally, adding a team that runs the administration, not a replacement for the relationships you already have.
               </p>
               <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
                 <PricingCta service="managed-benefits" />

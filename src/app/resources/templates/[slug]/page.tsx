@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import PricingCta from '@/components/pricing/PricingCta';
 import TemplateGenerateForm from '@/components/TemplateGenerateForm';
 import { getAllTemplateSlugs, getTemplateBySlug } from '@/lib/templates';
 
@@ -133,7 +132,14 @@ export default function TemplatePage({ params }: { params: { slug: string } }) {
         </div>
       </section>
 
-      <PricingCta service="hr-outsourcing" />
+      {/*
+        Route-level exclusion: template detail pages intentionally do NOT render the
+        sitewide "Get Instant Pricing" CTA banner. The page already has one primary
+        conversion path — the fill-and-download form above, which captures the lead —
+        so the pricing banner is omitted here to avoid competing CTAs. The banner
+        component itself (PricingCta) is unchanged and still renders on every other
+        page and in the header nav.
+      */}
 
       {/* Single-column stack on narrow viewports. */}
       <style

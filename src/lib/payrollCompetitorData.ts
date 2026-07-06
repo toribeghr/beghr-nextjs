@@ -68,7 +68,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       ['Monthly cost (50 employees)', '$1,250-$2,250 all-in', '$7,500-$10,000+ (TotalSource PEO)'],
       ['Who runs payroll', 'BEG: fully managed', 'You, with ADP software'],
       ['Hidden fees', 'None -- one flat PEPM', 'Per-run, W-2, year-end, add-on modules'],
-      ['Migration required', 'No -- works in ADP or iSolved', 'Already in ADP but paying for it'],
+      ['Migration required', 'No -- works in ADP or isolved', 'Already in ADP but paying for it'],
       ['Co-employment risk', 'None -- you keep control', 'PEO model: ADP is co-employer'],
       ['Dedicated contact', 'Yes -- one BEG specialist', 'Call center queue'],
     ],
@@ -77,7 +77,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 01',
         title: 'We can run payroll inside your existing ADP account.',
         objection: 'Common objection: "We have years of history in ADP and cannot start over."',
-        body: 'You do not have to migrate anything. BEG can manage payroll directly inside your current ADP account -- same platform, same employee portals, same history. We just take the management off your plate. If you later want to move to iSolved, we handle that transition with zero disruption.',
+        body: 'You do not have to migrate anything. BEG can manage payroll directly inside your current ADP account -- same platform, same employee portals, same history. We just take the management off your plate. If you later want to move to isolved, we handle that transition with zero disruption.',
       },
       {
         badge: 'Bonus 02',
@@ -103,7 +103,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'Does switching from ADP to BEG require migrating employee data?',
-        a: 'Not necessarily. If you want to stay in ADP, we manage inside it. If you want to move to iSolved, BEG handles the full data migration with no disruption to your payroll cycle.',
+        a: 'Not necessarily. If you want to stay in ADP, we manage inside it. If you want to move to isolved, BEG handles the full data migration with no disruption to your payroll cycle.',
       },
       {
         q: 'What does BEG include that ADP charges extra for?',
@@ -111,7 +111,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'Can I keep my ADP employee self-service portal?',
-        a: 'If we manage payroll inside your ADP account, yes -- employee portals remain unchanged. If you move to iSolved, employees gain the iSolved self-service portal plus the isolved Connector for Claude for AI-assisted HR tasks.',
+        a: 'If we manage payroll inside your ADP account, yes -- employee portals remain unchanged. If you move to isolved, employees gain the isolved self-service portal plus the isolved Connector for Claude for AI-assisted HR tasks.',
       },
     ],
     relatedIndustries: [
@@ -169,7 +169,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 03',
         title: 'No migration required. We can run in your existing system.',
         objection: 'Common objection: "We just set up Gusto and do not want to redo it."',
-        body: 'If you want to stay in Gusto, BEG can manage payroll operations inside it. You keep the platform your employees are used to. We take over the processing, compliance, and exception management. If you later prefer to move to iSolved, we handle the full migration.',
+        body: 'If you want to stay in Gusto, BEG can manage payroll operations inside it. You keep the platform your employees are used to. We take over the processing, compliance, and exception management. If you later prefer to move to isolved, we handle the full migration.',
       },
     ],
     faqs: [
@@ -246,9 +246,9 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         badge: 'Bonus 03',
-        title: 'Stay in Paychex or move to iSolved. Either way, BEG manages it.',
+        title: 'Stay in Paychex or move to isolved. Either way, BEG manages it.',
         objection: 'Common objection: "We have employee history in Paychex we cannot lose."',
-        body: 'BEG can manage your payroll operations inside your existing Paychex account -- your employees keep their portals, your data stays intact, and BEG takes the processing off your plate. If you want to move to iSolved for better features and lower cost, BEG handles the full migration with zero cycle disruption.',
+        body: 'BEG can manage your payroll operations inside your existing Paychex account -- your employees keep their portals, your data stays intact, and BEG takes the processing off your plate. If you want to move to isolved for better features and lower cost, BEG handles the full migration with zero cycle disruption.',
       },
     ],
     faqs: [
@@ -270,7 +270,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'What is the transition process from Paychex to BEG?',
-        a: 'BEG reviews your current Paychex setup, maps your payroll structure, migrates data if moving to iSolved, and runs a clean parallel cycle before going live. Most companies complete transition in 3-5 business days.',
+        a: 'BEG reviews your current Paychex setup, maps your payroll structure, migrates data if moving to isolved, and runs a clean parallel cycle before going live. Most companies complete transition in 3-5 business days.',
       },
     ],
     relatedIndustries: [
@@ -322,7 +322,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
         badge: 'Bonus 02',
         title: 'No migration required. We work in your existing system.',
         objection: 'Common objection: "We are already mid-evaluation on Deel and do not want to restart."',
-        body: 'BEG does not require you to move to a new platform. If you are already in ADP, Paychex, QuickBooks Payroll, or iSolved, BEG manages inside it. No new logins for your employees. No data migration project. No retraining your team.',
+        body: 'BEG does not require you to move to a new platform. If you are already in ADP, Paychex, QuickBooks Payroll, or isolved, BEG manages inside it. No new logins for your employees. No data migration project. No retraining your team.',
       },
       {
         badge: 'Bonus 03',
@@ -346,7 +346,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'Does switching to BEG require moving off our current payroll platform?',
-        a: 'No. BEG manages payroll inside your existing system. You can also move to iSolved if you want a better platform -- BEG handles that migration.',
+        a: 'No. BEG manages payroll inside your existing system. You can also move to isolved if you want a better platform -- BEG handles that migration.',
       },
     ],
     relatedIndustries: [
@@ -494,7 +494,7 @@ export const payrollCompetitors: PayrollCompetitor[] = [
       },
       {
         q: 'Does BEG offer HR services beyond payroll?',
-        a: 'BEG is focused on fully managed payroll. For companies that also need HCM software, benefits administration, or talent management, BEG is an authorized iSolved reseller and can connect you with those tools as separate services.',
+        a: 'BEG is focused on fully managed payroll. For companies that also need HCM software, benefits administration, or talent management, BEG is an authorized isolved reseller and can connect you with those tools as separate services.',
       },
       {
         q: 'How do I transition off TriNet to BEG without disrupting payroll?',

@@ -78,7 +78,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
                 ['Fill rate', '40–60%', '70–85%', '86%'],
                 ['Risk if no placement', 'You owe nothing', 'You lose retainer', 'You owe nothing'],
                 ['Replacement guarantee', 'Varies, often limited', 'Often 90 days', '45 days standard'],
-                ['Who pays the firm', 'Your firm pays recruiter', 'Your firm pays recruiter', 'Firm pays iSolved directly'],
+                ['Who pays the firm', 'Your firm pays recruiter', 'Your firm pays recruiter', 'Firm pays isolved directly'],
                 ['Best for', 'Low-urgency, standard hires', 'Senior partner / rainmaker search', 'Active open roles, time-sensitive'],
               ].map(([factor, cont, ret, mile], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
@@ -130,7 +130,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
           How Milestone-Based Placement Works (BEG's Model)
         </h2>
         <p>
-          Milestone-based placement is the model BEG uses through iSolved Job Placement Services. It combines the best elements of contingency (no fee unless you hire) with a dedicated search capability and significantly faster timelines.
+          Milestone-based placement is the model BEG uses through isolved Job Placement Services. It combines the best elements of contingency (no fee unless you hire) with a dedicated search capability and significantly faster timelines.
         </p>
         <p>
           Here's how it works:
@@ -138,10 +138,10 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>You pay nothing upfront.</strong> No retainer. No commitment fees.</li>
           <li><strong>Payments are tied to milestones</strong> -- typically at candidate presentation and at start date.</li>
-          <li><strong>Fees are roughly 50% less than standard contingency.</strong> This is possible because of the iSolved platform infrastructure, which reduces the manual sourcing overhead traditional recruiters face.</li>
+          <li><strong>Fees are roughly 50% less than standard contingency.</strong> This is possible because of the isolved platform infrastructure, which reduces the manual sourcing overhead traditional recruiters face.</li>
           <li><strong>The candidate pool is passive, not just active.</strong> BEG's pipeline sources candidates who aren't actively on job boards -- the same pool retained firms access, at a fraction of the cost.</li>
           <li><strong>45-day replacement guarantee</strong> -- if the placed attorney leaves within 45 days, BEG fills the role again at no additional fee. 50% discount on repeat hires for the same role description.</li>
-          <li><strong>Payment goes to iSolved directly</strong> -- BEG is the authorized reseller; your firm's payment relationship is with iSolved.</li>
+          <li><strong>Payment goes to isolved directly</strong> -- BEG is the authorized reseller; your firm's payment relationship is with isolved.</li>
         </ul>
         <p>
           The average fill time in BEG's placement program is 23–35 days, with an 86% fill rate across completed searches.
@@ -211,7 +211,7 @@ export default function ContingencyVsRetainedVsMilestonePage() {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
         mainEntity: [
-          { '@type': 'Question', name: "What is the difference between contingency and retained attorney search?", acceptedAnswer: { '@type': 'Answer', text: "Contingency search means the firm only pays if a candidate is placed. Retained search requires an upfront fee before the search begins, often 30 to 33 percent of first-year compensation. Milestone-based is a hybrid: fees are split across defined stages such as engagement, shortlist, and placement. BEG uses a milestone model through iSolved Job Placement Services." } },
+          { '@type': 'Question', name: "What is the difference between contingency and retained attorney search?", acceptedAnswer: { '@type': 'Answer', text: "Contingency search means the firm only pays if a candidate is placed. Retained search requires an upfront fee before the search begins, often 30 to 33 percent of first-year compensation. Milestone-based is a hybrid: fees are split across defined stages such as engagement, shortlist, and placement. BEG uses a milestone model through isolved Job Placement Services." } },
           { '@type': 'Question', name: "Which attorney search model is fastest?", acceptedAnswer: { '@type': 'Answer', text: "Milestone-based search, like the model BEG uses, typically produces placements in 23 to 35 days because the recruiter is engaged and incentivized from day one. Pure contingency searches can drag on because the recruiter may prioritize retained clients instead." } },
           { '@type': 'Question', name: "What is the typical contingency fee for attorney placement?", acceptedAnswer: { '@type': 'Answer', text: "Contingency fees for attorney placement typically run 25 to 35 percent of the placed candidate's first-year compensation. For a $120,000 associate, that is $30,000 to $42,000. BEG's milestone model runs roughly 50 percent less than that range." } },
           { '@type': 'Question', name: "Is retained search worth it for law firms?", acceptedAnswer: { '@type': 'Answer', text: "Retained search makes sense for highly specialized or partner-level roles where market visibility matters and the search requires significant research investment. For associate and mid-level attorney roles, a milestone-based model delivers the same quality at substantially lower cost and typically faster." } },

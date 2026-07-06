@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire skilled trades professionals only. It is not a staffing agency and does not provide temporary or contract labor. BEG uses a milestone-based model through iSolved Job Placement Services, at roughly 50 percent less than contingency, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire skilled trades professionals only. It is not a staffing agency and does not provide temporary or contract labor. BEG uses a milestone-based model through isolved Job Placement Services, at roughly 50 percent less than contingency, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -111,7 +111,7 @@ export default function TradesSalaryTrendsPage() {
           How BEG Helps You Close
         </h2>
         <p>
-          BEG fills skilled trades roles through iSolved Job Placement Services on a milestone-based model, and the support extends through the offer stage where pay deals are won or lost. The pipeline reaches passive tradespeople directly, the average fill time is 23-35 days, and the fill rate is 86%. BEG advises on packaging and stays with the candidate through resignation and start to reduce counter-offer risk. Fees run roughly 50% less than standard contingency, with a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, including the <a href="/services/job-placement/trades/production-supervisor">production supervisor</a>, and is not a staffing agency.
+          BEG fills skilled trades roles through isolved Job Placement Services on a milestone-based model, and the support extends through the offer stage where pay deals are won or lost. The pipeline reaches passive tradespeople directly, the average fill time is 23-35 days, and the fill rate is 86%. BEG advises on packaging and stays with the candidate through resignation and start to reduce counter-offer risk. Fees run roughly 50% less than standard contingency, with a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, including the <a href="/services/job-placement/trades/production-supervisor">production supervisor</a>, and is not a staffing agency.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -142,7 +142,7 @@ export default function TradesSalaryTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads skilled trades placement at Business Executive Group. BEG fills electrician, maintenance, and supervisory trades roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads skilled trades placement at Business Executive Group. BEG fills electrician, maintenance, and supervisory trades roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

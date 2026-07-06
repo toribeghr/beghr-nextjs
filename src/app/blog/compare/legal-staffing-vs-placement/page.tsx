@@ -125,7 +125,7 @@ export default function LegalStaffingVsPlacementPage() {
           Why BEG Is Not a Staffing Agency
         </h2>
         <p>
-          This is important enough to state clearly: BEG Job Placement Services, through iSolved, is not a staffing agency. We do not supply temporary or contract attorneys. We do not employ attorneys and provide them to you on a leased basis.
+          This is important enough to state clearly: BEG Job Placement Services, through isolved, is not a staffing agency. We do not supply temporary or contract attorneys. We do not employ attorneys and provide them to you on a leased basis.
         </p>
         <p>
           BEG finds and places permanent attorney hires. When the placement is complete, the attorney is your employee with a direct employment relationship to your firm. BEG's role in the engagement ends at placement.
@@ -166,7 +166,7 @@ export default function LegalStaffingVsPlacementPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales -- Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony works with law firm managing partners and hiring partners to find and place attorneys faster and at significantly lower cost than traditional search. BEG is an authorized reseller of iSolved Job Placement Services -- a permanent placement service, not a staffing agency.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony works with law firm managing partners and hiring partners to find and place attorneys faster and at significantly lower cost than traditional search. BEG is an authorized reseller of isolved Job Placement Services -- a permanent placement service, not a staffing agency.</p>
         </div>
 
       </section>
@@ -188,7 +188,7 @@ export default function LegalStaffingVsPlacementPage() {
         mainEntity: [
           { '@type': 'Question', name: "What is the difference between legal staffing and legal placement?", acceptedAnswer: { '@type': 'Answer', text: "Legal staffing provides temporary or contract attorneys and paralegals, usually billed hourly. Legal placement is a permanent hire where a recruiter sources a full-time employee for a firm and earns a fee upon successful placement. BEG handles placement only -- permanent, direct-hire attorney and staff positions." } },
           { '@type': 'Question', name: "When should a law firm use staffing vs. placement?", acceptedAnswer: { '@type': 'Answer', text: "Use staffing for project overflow, trial support, or short-term capacity gaps. Use placement when you have an ongoing role to fill and need a long-term team member. Placement costs more upfront but is far more cost-effective over a multi-year employment relationship." } },
-          { '@type': 'Question', name: "Does BEG do legal staffing?", acceptedAnswer: { '@type': 'Answer', text: "No. BEG handles permanent placement only, through iSolved Job Placement Services. We do not provide temporary or contract staffing. Our model is milestone-based, meaning fees are structured across the engagement, shortlist, and placement stages." } },
+          { '@type': 'Question', name: "Does BEG do legal staffing?", acceptedAnswer: { '@type': 'Answer', text: "No. BEG handles permanent placement only, through isolved Job Placement Services. We do not provide temporary or contract staffing. Our model is milestone-based, meaning fees are structured across the engagement, shortlist, and placement stages." } },
           { '@type': 'Question', name: "What is the cost difference between legal staffing and placement?", acceptedAnswer: { '@type': 'Answer', text: "Legal staffing markups typically run 40 to 60 percent above the contractor's hourly rate. Placement fees are typically 25 to 35 percent of first-year compensation on a contingency basis, or structured differently on milestone or retained models. BEG's milestone placement runs roughly 50 percent less than traditional contingency fees." } },
         ]
       }) }} />

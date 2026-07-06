@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How long does it take to hire a maintenance technician?',
-    answer: 'Through job postings alone, a maintenance tech search often runs many weeks because skilled, multi-craft technicians are in short supply and the best ones are already employed. BEG fills maintenance technician roles in 23 to 35 days on average by sourcing passive, qualified techs directly through iSolved Job Placement Services.',
+    answer: 'Through job postings alone, a maintenance tech search often runs many weeks because skilled, multi-craft technicians are in short supply and the best ones are already employed. BEG fills maintenance technician roles in 23 to 35 days on average by sourcing passive, qualified techs directly through isolved Job Placement Services.',
   },
   {
     question: 'What skills should a maintenance technician have?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire maintenance technicians and other trades professionals only. It is not a staffing agency and does not provide temporary or contract labor. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire maintenance technicians and other trades professionals only. It is not a staffing agency and does not provide temporary or contract labor. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -101,7 +101,7 @@ export default function MaintenanceTechRecruitingPage() {
           A 23-35 Day Maintenance Hiring Playbook
         </h2>
         <p>
-          This is the cadence BEG runs to fill maintenance roles through iSolved Job Placement Services:
+          This is the cadence BEG runs to fill maintenance roles through isolved Job Placement Services:
         </p>
         <p><strong>Intake (Days 1-2).</strong> A structured call to lock the equipment, craft mix, shift, pay range, and decision process. The clearer the brief, the faster everything downstream moves.</p>
         <p><strong>Sourcing (Days 2-10).</strong> Direct, targeted outreach to passive, qualified maintenance techs who match the profile, not a job posting and a wait. These are employed tradespeople contacted individually with a specific reason your role may fit.</p>
@@ -123,7 +123,7 @@ export default function MaintenanceTechRecruitingPage() {
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Passive candidate access.</strong> The pipeline reaches employed techs who never see a posting.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> A continuous pipeline, not a reactive one.</li>
-          <li><strong>Roughly 50% less than contingency.</strong> The iSolved platform reduces the sourcing overhead traditional recruiters price in.</li>
+          <li><strong>Roughly 50% less than contingency.</strong> The isolved platform reduces the sourcing overhead traditional recruiters price in.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed tech leaves within 45 days, BEG fills the role again at no additional fee.</li>
           <li><strong>Permanent, direct hire only.</strong> BEG is not a staffing agency and does not place temporary or contract labor.</li>
         </ul>
@@ -159,7 +159,7 @@ export default function MaintenanceTechRecruitingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads skilled trades placement at Business Executive Group. BEG fills maintenance, electrician, and supervisory trades roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads skilled trades placement at Business Executive Group. BEG fills maintenance, electrician, and supervisory trades roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

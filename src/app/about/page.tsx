@@ -64,7 +64,7 @@ export default function AboutPage() {
             <p style={{ marginBottom: '1.25rem' }}>
               Business Executive Group was built to solve exactly that. We are an established entrepreneur network and
               professional services organization headquartered in Dallas-Fort Worth, with 1,500+ member entrepreneurs in our DFW Leadership Connect network, a board
-              of directors, and active corporate sponsors including iSolved and WTW. Our members are business owners,
+              of directors, and active corporate sponsors including isolved and WTW. Our members are business owners,
               founders, and executives who understand what it means to wear every hat and have decided there are certain
               hats worth handing off.
             </p>
@@ -76,15 +76,15 @@ export default function AboutPage() {
               when something needs to be fixed. No call centers. No ticket queues.
             </p>
             <p style={{ marginBottom: '1.25rem' }}>
-              For businesses that prefer to keep HR in-house, our HCM Software platform, powered by iSolved, puts
+              For businesses that prefer to keep HR in-house, our HCM Software platform, powered by isolved, puts
               payroll, HR, time tracking, and benefits on one connected system. We handle the implementation,
               configuration, and ongoing support so your team is never stuck navigating a platform alone or stitching
-              together tools that do not talk to each other. Seven million employees run on iSolved. Your team can too,
+              together tools that do not talk to each other. Seven million employees run on isolved. Your team can too,
               with BEG behind it.
             </p>
             <p style={{ marginBottom: '1.25rem' }}>
               When a business needs to fill a specialized role and the traditional hiring process is taking too long,
-              our Job Placement services, powered by iSolved, step in. We source, screen, and shortlist candidates
+              our Job Placement services, powered by isolved, step in. We source, screen, and shortlist candidates
               in 23 to 35 days on average, at roughly 50% less than what contingency recruiters charge, with an 86%
               fill rate and a 45-day replacement guarantee on every placement. We are not a staffing agency. We are a
               milestone-based recruiting partner that gets compensated when results are delivered.
@@ -134,7 +134,7 @@ export default function AboutPage() {
             <div><b>1,500+</b><small>Network Members</small></div>
             <div><b>All 50 States</b><small>Payroll Coverage</small></div>
             <div><b>3 Services</b><small>Managed Payroll, HCM, Placement</small></div>
-            <div><b>iSolved</b><small>Powered by 7M+ Employee Platform</small></div>
+            <div><b>isolved</b><small>Powered by 7M+ Employee Platform</small></div>
           </div>
         </div>
       </section>

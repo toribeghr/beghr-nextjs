@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: 'What are the risks of outsourcing payroll?',
-    a: `The main risk is choosing a vendor who delivers less than a full managed service. If your outsourcing provider processes payroll runs but leaves tax deposits, state filings, and compliance up to you, you have outsourced the easy part and kept the liability. Other risks include: poor support responsiveness (ticket queues instead of a dedicated contact), hidden fees that inflate the real monthly cost, and data security vulnerabilities if the provider does not maintain SOC 2 certification or equivalent controls. BEG mitigates these by providing a dedicated contact for every client, all-inclusive PEPM pricing, and processing on iSolved\'s SOC 2 Type II certified infrastructure.`,
+    a: `The main risk is choosing a vendor who delivers less than a full managed service. If your outsourcing provider processes payroll runs but leaves tax deposits, state filings, and compliance up to you, you have outsourced the easy part and kept the liability. Other risks include: poor support responsiveness (ticket queues instead of a dedicated contact), hidden fees that inflate the real monthly cost, and data security vulnerabilities if the provider does not maintain SOC 2 certification or equivalent controls. BEG mitigates these by providing a dedicated contact for every client, all-inclusive PEPM pricing, and processing on isolved\'s SOC 2 Type II certified infrastructure.`,
   },
   {
     q: 'What does a payroll outsourcing company handle?',
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: 'What happens to my current payroll data?',
-    a: 'When you move to a managed payroll service like BEG, your historical payroll data is migrated or imported into your new system. Year-to-date wage and tax information is preserved so W-2s at year-end reflect the full calendar year accurately regardless of when you switched providers. Employee records, direct deposit information, deduction setups, and pay history are all transferred. BEG handles the data migration as part of onboarding. If you stay in your existing payroll platform rather than migrating to iSolved, no data migration is required at all. BEG simply takes over operation of your current system.',
+    a: 'When you move to a managed payroll service like BEG, your historical payroll data is migrated or imported into your new system. Year-to-date wage and tax information is preserved so W-2s at year-end reflect the full calendar year accurately regardless of when you switched providers. Employee records, direct deposit information, deduction setups, and pay history are all transferred. BEG handles the data migration as part of onboarding. If you stay in your existing payroll platform rather than migrating to isolved, no data migration is required at all. BEG simply takes over operation of your current system.',
   },
   {
     q: 'Is payroll outsourcing right for my size company?',

@@ -137,7 +137,7 @@ export default function BegVsVacoPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders compare placement providers and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services. Vaco is a trademark of its respective owner and is not affiliated with BEG.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders compare placement providers and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services. Vaco is a trademark of its respective owner and is not affiliated with BEG.</p>
         </div>
 
       </section>
@@ -149,7 +149,7 @@ export default function BegVsVacoPage() {
           { '@type': 'Question', name: 'What is the difference between BEG and Vaco?', acceptedAnswer: { '@type': 'Answer', text: 'Vaco is a talent solutions firm covering consulting, contract, and permanent hiring with a strong mid-market finance and accounting focus. BEG focuses only on permanent placement using a milestone-based fee model that costs roughly 50% less than standard contingency. The difference is scope and pricing structure.' } },
           { '@type': 'Question', name: 'Is BEG cheaper than Vaco for permanent placement?', acceptedAnswer: { '@type': 'Answer', text: 'For permanent direct hire, BEG milestone-based placement is designed to run roughly 50% less than standard contingency, which commonly sits at 20 to 25 percent of salary. Confirm current Vaco terms directly when you compare.' } },
           { '@type': 'Question', name: 'When is Vaco the better choice?', acceptedAnswer: { '@type': 'Answer', text: 'Vaco is a strong fit when you need consulting, interim, or contract-to-hire coverage in finance, accounting, or related fields. BEG does not offer consulting or contract staffing, so for those needs Vaco is the right call.' } },
-          { '@type': 'Question', name: 'Does BEG place contract or temporary workers?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG places permanent, direct hire employees only and is not a staffing or consulting firm. It uses a milestone-based permanent placement model as an authorized reseller of iSolved Job Placement Services.' } },
+          { '@type': 'Question', name: 'Does BEG place contract or temporary workers?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG places permanent, direct hire employees only and is not a staffing or consulting firm. It uses a milestone-based permanent placement model as an authorized reseller of isolved Job Placement Services.' } },
         ],
       }) }} />
           <RelatedPosts posts={[

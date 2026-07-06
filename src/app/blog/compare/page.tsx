@@ -103,7 +103,7 @@ const PAYROLL_COMPARISONS = [
   {
     href: '/blog/compare/managed-payroll-vs-paychex',
     title: 'Paychex vs. Managed Payroll',
-    description: 'Already on Paychex? BEG can operate within your existing account -- or transition you to iSolved. Full comparison inside.',
+    description: 'Already on Paychex? BEG can operate within your existing account -- or transition you to isolved. Full comparison inside.',
     time: '6 min read',
   },
   {

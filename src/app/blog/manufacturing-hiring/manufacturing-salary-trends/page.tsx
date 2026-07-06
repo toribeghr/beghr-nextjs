@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire manufacturing and operations professionals only. It is not a staffing agency and does not provide temporary or contract labor. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate, fees roughly 50 percent less than contingency, and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire manufacturing and operations professionals only. It is not a staffing agency and does not provide temporary or contract labor. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate, fees roughly 50 percent less than contingency, and a 45-day replacement guarantee.',
   },
 ];
 
@@ -122,7 +122,7 @@ export default function ManufacturingSalaryTrendsPage() {
           <li><strong>They reach passive candidates directly,</strong> since the best people are not applying and a posting never finds them.</li>
         </ol>
         <p>
-          This is exactly how BEG fills manufacturing roles through iSolved Job Placement Services. The pipeline reaches passive candidates, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary labor.
+          This is exactly how BEG fills manufacturing roles through isolved Job Placement Services. The pipeline reaches passive candidates, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary labor.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -154,7 +154,7 @@ export default function ManufacturingSalaryTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads manufacturing and operations placement at Business Executive Group. BEG fills plant manager, quality, and operations leadership roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads manufacturing and operations placement at Business Executive Group. BEG fills plant manager, quality, and operations leadership roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

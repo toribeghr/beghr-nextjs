@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How long does it take to hire a clinical research associate?',
-    answer: 'Through traditional job postings and contingency recruiting, a CRA search commonly runs 45 to 90 days because experienced monitors are in heavy demand and the strongest are passive. BEG fills clinical research associate roles in 23 to 35 days on average by sourcing passive candidates directly through iSolved Job Placement Services.',
+    answer: 'Through traditional job postings and contingency recruiting, a CRA search commonly runs 45 to 90 days because experienced monitors are in heavy demand and the strongest are passive. BEG fills clinical research associate roles in 23 to 35 days on average by sourcing passive candidates directly through isolved Job Placement Services.',
   },
   {
     question: 'What makes a strong clinical research associate?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire clinical research and biotech professionals only. It is not a staffing agency and does not provide interim or contract CRAs. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire clinical research and biotech professionals only. It is not a staffing agency and does not provide interim or contract CRAs. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -101,7 +101,7 @@ export default function ClinicalResearchRecruitingPage() {
           A 23-35 Day Clinical Research Hiring Playbook
         </h2>
         <p>
-          This is the cadence BEG runs to fill CRA roles through iSolved Job Placement Services:
+          This is the cadence BEG runs to fill CRA roles through isolved Job Placement Services:
         </p>
         <p><strong>Intake (Days 1-2).</strong> A structured call to lock the therapeutic area, phase, monitoring model, comp range, and decision process. The clearer the brief, the faster everything downstream moves.</p>
         <p><strong>Sourcing (Days 2-10).</strong> Direct, targeted outreach to passive CRAs who match the profile, not a job posting and a wait. These are employed monitors contacted individually with a specific reason your role may fit.</p>
@@ -123,7 +123,7 @@ export default function ClinicalResearchRecruitingPage() {
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Passive candidate access.</strong> The pipeline reaches employed CRAs who never see a posting.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> A continuous pipeline, not a reactive one.</li>
-          <li><strong>Roughly 50% less than contingency.</strong> The iSolved platform reduces the sourcing overhead traditional recruiters price in.</li>
+          <li><strong>Roughly 50% less than contingency.</strong> The isolved platform reduces the sourcing overhead traditional recruiters price in.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed CRA leaves within 45 days, BEG fills the role again at no additional fee.</li>
           <li><strong>Permanent, direct hire only.</strong> BEG is not a staffing agency and does not place interim or contract CRAs.</li>
         </ul>
@@ -157,7 +157,7 @@ export default function ClinicalResearchRecruitingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads biotech and life sciences placement at Business Executive Group. BEG fills regulatory affairs, clinical research, and scientific roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads biotech and life sciences placement at Business Executive Group. BEG fills regulatory affairs, clinical research, and scientific roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

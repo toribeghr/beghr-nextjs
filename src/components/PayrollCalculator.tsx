@@ -284,7 +284,7 @@ export default function PayrollCalculator() {
             <div style={{ border: '2px solid #ECAC60', borderRadius: '10px', padding: '2rem', background: '#fffdf7' }}>
               <div style={{ fontSize: '2.5rem', fontWeight: '900', color: '#000', lineHeight: 1 }}>$45</div>
               <div style={{ fontSize: '0.85rem', color: '#666', marginBottom: '1rem' }}>per employee / month</div>
-              <strong style={{ display: 'block', fontSize: '1rem', marginBottom: '0.5rem' }}>We move you to iSolved</strong>
+              <strong style={{ display: 'block', fontSize: '1rem', marginBottom: '0.5rem' }}>We move you to isolved</strong>
               <p style={{ fontSize: '0.9rem', color: '#555', lineHeight: '1.65', margin: '0 0 1rem' }}>
                 BEG migrates your payroll to isolved, a purpose-built HCM platform with automated compliance updates, employee self-service, and a full suite of HR tools beyond payroll. Onboarding takes 3–5 business days.
               </p>

@@ -27,8 +27,8 @@ const topicGroups = [
     heading: 'Payroll, HCM & Compliance',
     items: [
       { slug: 'payroll', title: 'Payroll by Industry', description: 'Industry-by-industry guides to managed payroll, pricing, compliance, and cost calculators.' },
-      { slug: 'hcm-software', title: 'HCM Software & HR Tech', description: 'iSolved features, the Connector for Claude, HR automation, and platform comparisons.' },
-      { slug: 'compare', title: 'Compare Alternatives', description: 'Honest comparisons of BEG and iSolved against the major payroll, HCM, and recruiting alternatives.' },
+      { slug: 'hcm-software', title: 'HCM Software & HR Tech', description: 'isolved features, the Connector for Claude, HR automation, and platform comparisons.' },
+      { slug: 'compare', title: 'Compare Alternatives', description: 'Honest comparisons of BEG and isolved against the major payroll, HCM, and recruiting alternatives.' },
     ],
   },
   {

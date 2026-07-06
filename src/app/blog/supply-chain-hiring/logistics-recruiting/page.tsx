@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: 'How long does it take to hire a logistics manager?',
-    answer: 'Through job postings and contingency recruiting, a logistics manager search commonly runs 60 to 90 days, longer when the role is senior or the location is hard to staff. BEG fills logistics and distribution leadership roles in 23 to 35 days on average by sourcing passive candidates directly through iSolved Job Placement Services.',
+    answer: 'Through job postings and contingency recruiting, a logistics manager search commonly runs 60 to 90 days, longer when the role is senior or the location is hard to staff. BEG fills logistics and distribution leadership roles in 23 to 35 days on average by sourcing passive candidates directly through isolved Job Placement Services.',
   },
   {
     question: 'What should I look for in a logistics manager?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency for logistics roles?',
-    answer: 'No. BEG places permanent, direct hire logistics and distribution professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire logistics and distribution professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -122,7 +122,7 @@ export default function LogisticsRecruitingPage() {
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Passive candidate access.</strong> The pipeline reaches employed logistics leaders who never see a posting.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> A continuous pipeline, not a reactive one.</li>
-          <li><strong>Roughly 50% less than contingency.</strong> The iSolved platform reduces the sourcing overhead traditional recruiters price in.</li>
+          <li><strong>Roughly 50% less than contingency.</strong> The isolved platform reduces the sourcing overhead traditional recruiters price in.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed manager leaves within 45 days, BEG fills the role again at no additional fee.</li>
           <li><strong>Permanent, direct hire only.</strong> BEG is not a staffing agency and does not place temporary or contract logistics staff.</li>
         </ul>
@@ -156,7 +156,7 @@ export default function LogisticsRecruitingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads supply chain and operations placement at Business Executive Group. BEG fills logistics, distribution, and planning roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads supply chain and operations placement at Business Executive Group. BEG fills logistics, distribution, and planning roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

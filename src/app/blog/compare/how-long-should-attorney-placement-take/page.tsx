@@ -137,12 +137,12 @@ export default function HowLongAttorneyPlacementPage() {
           What Changes with BEG's Model
         </h2>
         <p>
-          BEG's placement program through iSolved Job Placement Services is built around two things the traditional search model isn't: speed and passive candidate access.
+          BEG's placement program through isolved Job Placement Services is built around two things the traditional search model isn't: speed and passive candidate access.
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>23–35 day average fill time.</strong> Not because we cut corners -- because the sourcing pipeline operates continuously, not reactively. We're reaching passive candidates before you have an opening, not after.</li>
           <li><strong>86% fill rate.</strong> Contingency search averages 40–60%. The gap comes from candidate quality and commitment -- we only present candidates we're confident in.</li>
-          <li><strong>Roughly 50% less than contingency fees.</strong> Not a bait-and-switch. The iSolved platform infrastructure reduces the sourcing overhead that traditional recruiters have to price in.</li>
+          <li><strong>Roughly 50% less than contingency fees.</strong> Not a bait-and-switch. The isolved platform infrastructure reduces the sourcing overhead that traditional recruiters have to price in.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed attorney leaves within 45 days, we fill the role again at no additional fee.</li>
           <li><strong>No upfront payment.</strong> Milestone-based -- you pay at placement, not before.</li>
         </ul>
@@ -174,7 +174,7 @@ export default function HowLongAttorneyPlacementPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales -- Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony works with law firm managing partners and hiring partners to find and place attorneys faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony works with law firm managing partners and hiring partners to find and place attorneys faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>
@@ -194,7 +194,7 @@ export default function HowLongAttorneyPlacementPage() {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
         mainEntity: [
-          { '@type': 'Question', name: "How long does attorney placement typically take?", acceptedAnswer: { '@type': 'Answer', text: "The national average for attorney placement through traditional search is 90 to 120 days from brief to accepted offer. BEG completes placements in 23 to 35 days using iSolved Job Placement Services and a passive candidate network that most law firm hiring processes cannot reach." } },
+          { '@type': 'Question', name: "How long does attorney placement typically take?", acceptedAnswer: { '@type': 'Answer', text: "The national average for attorney placement through traditional search is 90 to 120 days from brief to accepted offer. BEG completes placements in 23 to 35 days using isolved Job Placement Services and a passive candidate network that most law firm hiring processes cannot reach." } },
           { '@type': 'Question', name: "Why does attorney hiring take so long at most firms?", acceptedAnswer: { '@type': 'Answer', text: "Most law firm hiring processes are slow because they rely on job boards where only active candidates apply, require multiple partner rounds, and have no dedicated recruiter keeping the search moving. The best lateral candidates are passive -- they are not browsing job boards -- and only a recruiter with active relationships can surface them." } },
           { '@type': 'Question', name: "What is a good benchmark for time-to-fill for attorney roles?", acceptedAnswer: { '@type': 'Answer', text: "A well-run attorney search should reach an accepted offer within 30 to 45 days. Anything beyond 60 days represents either a sourcing problem (not enough quality candidates), a process problem (too many approval layers), or both. BEG's 23–35 day average reflects a structured process with passive candidate access." } },
           { '@type': 'Question', name: "Does a longer search mean a better hire?", acceptedAnswer: { '@type': 'Answer', text: "No. Extended searches typically mean the firm is either not reaching the right candidate pool or the internal approval process is a bottleneck. The quality of the placement depends on the recruiter's access to passive candidates and the depth of the role brief -- not how long the search runs." } },

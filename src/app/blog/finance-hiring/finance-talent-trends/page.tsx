@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     question: 'How long should a corporate finance hire take?',
-    answer: 'Through job postings and contingency recruiting, finance manager and FP&A searches often run 60 to 90 days because the role is analytical, the pool is thin, and the best candidates are passive. BEG fills permanent finance roles in 23 to 35 days on average by sourcing passive candidates directly through iSolved Job Placement Services.',
+    answer: 'Through job postings and contingency recruiting, finance manager and FP&A searches often run 60 to 90 days because the role is analytical, the pool is thin, and the best candidates are passive. BEG fills permanent finance roles in 23 to 35 days on average by sourcing passive candidates directly through isolved Job Placement Services.',
   },
   {
     question: 'Is BEG a staffing agency for finance roles?',
-    answer: 'No. BEG places permanent, direct hire finance professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire finance professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -116,7 +116,7 @@ export default function FinanceTalentTrendsPage() {
           How BEG Fills Finance Roles Through the Shortage
         </h2>
         <p>
-          BEG fills permanent corporate finance roles, from financial analyst through finance manager and FP&amp;A leadership, through iSolved Job Placement Services. The pipeline reaches passive candidates the job boards miss, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff. You can see the full finance practice on the <a href="/services/job-placement/finance">finance placement</a> page, and the specific role detail on the <a href="/services/job-placement/finance/financial-analyst">financial analyst placement</a> page.
+          BEG fills permanent corporate finance roles, from financial analyst through finance manager and FP&amp;A leadership, through isolved Job Placement Services. The pipeline reaches passive candidates the job boards miss, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff. You can see the full finance practice on the <a href="/services/job-placement/finance">finance placement</a> page, and the specific role detail on the <a href="/services/job-placement/finance/financial-analyst">financial analyst placement</a> page.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -147,7 +147,7 @@ export default function FinanceTalentTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads accounting and finance placement at Business Executive Group. BEG fills financial analyst, finance manager, and FP&amp;A leadership roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads accounting and finance placement at Business Executive Group. BEG fills financial analyst, finance manager, and FP&amp;A leadership roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

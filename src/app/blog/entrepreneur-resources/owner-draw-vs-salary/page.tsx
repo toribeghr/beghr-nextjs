@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG help with for owner payroll?",
-    answer: "BEG manages payroll for business owners who pay themselves a W-2 salary -- typically S-corp shareholders. We configure the salary at a reasonable compensation level, run payroll through your existing system or BEG's iSolved platform, and produce W-2s at year end. The service is $25 per employee per month on your existing system, or $45 per employee per month on iSolved. For an S-corp owner running their own payroll, that is $25 to $45 per month, all-inclusive.",
+    answer: "BEG manages payroll for business owners who pay themselves a W-2 salary -- typically S-corp shareholders. We configure the salary at a reasonable compensation level, run payroll through your existing system or BEG's isolved platform, and produce W-2s at year end. The service is $25 per employee per month on your existing system, or $45 per employee per month on isolved. For an S-corp owner running their own payroll, that is $25 to $45 per month, all-inclusive.",
   },
 ];
 

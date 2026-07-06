@@ -281,7 +281,7 @@ export default function SearchOverdueDiagnostic() {
         </div>
 
         <p style={{ fontSize: '0.78rem', color: '#999', marginTop: '1rem', textAlign: 'center', lineHeight: '1.5' }}>
-          This diagnostic is a rule-based estimate to help you gauge timeline risk. BEG is a permanent placement service and an authorized reseller of iSolved Job Placement, not a staffing agency.
+          This diagnostic is a rule-based estimate to help you gauge timeline risk. BEG is a permanent placement service and an authorized reseller of isolved Job Placement, not a staffing agency.
         </p>
       </div>
     </section>

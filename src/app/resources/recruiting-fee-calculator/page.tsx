@@ -77,7 +77,7 @@ export default function RecruitingFeeCalculatorPage() {
           <p className="eyebrow" style={{ color: '#ECAC60' }}>Get Your Exact Fee</p>
           <h2 style={{ color: '#ffffff', marginBottom: '1rem' }}>Get the exact milestone fee for your role in 90 seconds.</h2>
           <p style={{ color: '#cccccc', lineHeight: '1.7', marginBottom: '2rem' }}>
-            BEG is a permanent placement service and an authorized reseller of iSolved Job Placement. We fill roles in 23 to 35 days with an 86% fill rate, at roughly 50% less than contingency, backed by a 45-day replacement guarantee. Book a call to confirm the exact fee for your role.
+            BEG is a permanent placement service and an authorized reseller of isolved Job Placement. We fill roles in 23 to 35 days with an 86% fill rate, at roughly 50% less than contingency, backed by a 45-day replacement guarantee. Book a call to confirm the exact fee for your role.
           </p>
           <PricingCta service="job-placement" subline={false} />
         </div>

@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     question: 'How do you recruit clinicians without a large internal team?',
-    answer: 'You partner with a placement model built for passive sourcing. Rather than expanding internal recruiters, a milestone-based partner runs the outreach, screening, and offer support, then hands you a short slate of qualified, interested clinicians. BEG fills clinical roles this way in 23 to 35 days through iSolved Job Placement Services.',
+    answer: 'You partner with a placement model built for passive sourcing. Rather than expanding internal recruiters, a milestone-based partner runs the outreach, screening, and offer support, then hands you a short slate of qualified, interested clinicians. BEG fills clinical roles this way in 23 to 35 days through isolved Job Placement Services.',
   },
   {
     question: 'Is BEG a healthcare staffing agency?',
-    answer: 'No. BEG places permanent, direct hire clinical professionals only. It is not a staffing agency and does not provide travel, per diem, or contract staff. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire clinical professionals only. It is not a staffing agency and does not provide travel, per diem, or contract staff. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -111,12 +111,12 @@ export default function ClinicalStaffRecruitingPage() {
           How BEG Recruits Clinical Staff
         </h2>
         <p>
-          BEG recruits clinical staff on a milestone-based model through iSolved Job Placement Services. The differences are what make it work in a tight market:
+          BEG recruits clinical staff on a milestone-based model through isolved Job Placement Services. The differences are what make it work in a tight market:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Passive candidate access.</strong> The pipeline reaches employed nurses, NPs, and clinical leaders who never see a posting.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> A continuous pipeline, not a reactive one.</li>
-          <li><strong>Roughly 50% less than contingency.</strong> The iSolved platform reduces the sourcing overhead traditional recruiters price in.</li>
+          <li><strong>Roughly 50% less than contingency.</strong> The isolved platform reduces the sourcing overhead traditional recruiters price in.</li>
           <li><strong>45-day replacement guarantee.</strong> If a placed clinician leaves within 45 days, BEG fills the role again at no additional fee.</li>
           <li><strong>Permanent, direct hire only.</strong> BEG is not a staffing agency and does not place travel or contract clinicians.</li>
         </ul>
@@ -153,7 +153,7 @@ export default function ClinicalStaffRecruitingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads healthcare and clinical placement at Business Executive Group. BEG fills nurse, nurse practitioner, and clinical leadership roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads healthcare and clinical placement at Business Executive Group. BEG fills nurse, nurse practitioner, and clinical leadership roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

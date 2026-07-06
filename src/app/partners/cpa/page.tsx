@@ -116,7 +116,7 @@ export default function CPAPartnerPage() {
           Beyond data quality, BEG eliminates common payroll problems that create accounting complications: misclassified workers, missed multi-state registrations, incorrectly calculated overtime, and pay codes that do not match accounting chart of accounts categories. When we onboard a new client, we review their current setup for these issues before the first managed run.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '2.5rem' }}>
-          The setup is fast. From the client's signed agreement to their first managed pay cycle is typically 3 to 5 business days. Pricing is $25 per employee per month in their existing payroll system or $45 per employee per month in our iSolved account.
+          The setup is fast. From the client's signed agreement to their first managed pay cycle is typically 3 to 5 business days. Pricing is $25 per employee per month in their existing payroll system or $45 per employee per month in our isolved account.
         </p>
 
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Clients Who Benefit Most from This Referral</h2>

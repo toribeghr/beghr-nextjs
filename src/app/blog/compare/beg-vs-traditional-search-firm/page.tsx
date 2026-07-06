@@ -51,7 +51,7 @@ export default function BegVsTraditionalSearchFirmPage() {
           <ul style={{ margin: 0, paddingLeft: '1.1rem', lineHeight: 1.6, fontSize: '0.97rem', color: '#333333' }}>
             <li>Traditional firms charge contingency (20-25% of salary on placement) or retained (a similar total billed up front).</li>
             <li>BEG bills against defined milestones at roughly 50% less than contingency, with no retainer at risk.</li>
-            <li>BEG averages 23-35 day fills and an 86% fill rate with a 45-day replacement guarantee, through iSolved Job Placement Services.</li>
+            <li>BEG averages 23-35 day fills and an 86% fill rate with a 45-day replacement guarantee, through isolved Job Placement Services.</li>
           </ul>
         </aside>
 
@@ -110,10 +110,10 @@ export default function BegVsTraditionalSearchFirmPage() {
           Where the Milestone Model Wins
         </h2>
         <p>
-          For the high-volume reality of most hiring, professional and management roles that need to be filled well and fast, the traditional cost structure is hard to justify. BEG fills these permanent roles through iSolved Job Placement Services on a milestone-based model:
+          For the high-volume reality of most hiring, professional and management roles that need to be filled well and fast, the traditional cost structure is hard to justify. BEG fills these permanent roles through isolved Job Placement Services on a milestone-based model:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
-          <li><strong>Roughly 50% less than standard contingency.</strong> The iSolved platform reduces the manual sourcing overhead a traditional firm prices into its fee.</li>
+          <li><strong>Roughly 50% less than standard contingency.</strong> The isolved platform reduces the manual sourcing overhead a traditional firm prices into its fee.</li>
           <li><strong>Payment tied to milestones.</strong> No lump-sum bet on a single outcome and no retainer at risk.</li>
           <li><strong>23-35 day average fill, 86% fill rate.</strong> A continuous sourcing pipeline rather than a reactive search.</li>
           <li><strong>Passive candidate access.</strong> Reaches currently-employed candidates who never see a job posting.</li>
@@ -151,7 +151,7 @@ export default function BegVsTraditionalSearchFirmPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders compare search models and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders compare search models and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>
@@ -172,7 +172,7 @@ export default function BegVsTraditionalSearchFirmPage() {
         '@type': 'FAQPage',
         mainEntity: [
           { '@type': 'Question', name: 'What is the difference between BEG and a traditional search firm?', acceptedAnswer: { '@type': 'Answer', text: 'The core difference is the fee model. A traditional firm bills contingency at 20 to 25 percent of salary at placement, or retained at a similar total up front. BEG ties payment to defined search milestones and runs roughly 50 percent less than contingency, while still placing permanent direct hire employees.' } },
-          { '@type': 'Question', name: 'Is BEG cheaper than a traditional search firm?', acceptedAnswer: { '@type': 'Answer', text: 'For most professional and management roles, yes. BEG milestone-based placement runs roughly 50 percent less than standard contingency because the iSolved platform reduces the manual sourcing overhead a traditional firm prices into its fee.' } },
+          { '@type': 'Question', name: 'Is BEG cheaper than a traditional search firm?', acceptedAnswer: { '@type': 'Answer', text: 'For most professional and management roles, yes. BEG milestone-based placement runs roughly 50 percent less than standard contingency because the isolved platform reduces the manual sourcing overhead a traditional firm prices into its fee.' } },
           { '@type': 'Question', name: 'When is a traditional search firm the better choice?', acceptedAnswer: { '@type': 'Answer', text: 'A specialist retained search firm can be worth the premium for a singular, confidential, or executive role where the firm has decades of relevant network and the search demands deep discretion. For everyday permanent hiring, the milestone model usually delivers the same outcome faster and at lower cost.' } },
           { '@type': 'Question', name: 'How fast does BEG fill a role compared with a search firm?', acceptedAnswer: { '@type': 'Answer', text: 'BEG averages a 23 to 35 day fill time with an 86 percent fill rate, compared with the 60 to 120 plus days common in traditional contingency search. BEG also carries a 45-day replacement guarantee.' } },
         ]

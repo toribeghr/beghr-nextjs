@@ -126,7 +126,7 @@ export default function BegVsMichaelPagePage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders compare placement providers and fill permanent roles faster and at lower cost. BEG is an authorized reseller of iSolved Job Placement Services. Michael Page and PageGroup are trademarks of their respective owners and are not affiliated with BEG.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders compare placement providers and fill permanent roles faster and at lower cost. BEG is an authorized reseller of isolved Job Placement Services. Michael Page and PageGroup are trademarks of their respective owners and are not affiliated with BEG.</p>
         </div>
 
       </section>

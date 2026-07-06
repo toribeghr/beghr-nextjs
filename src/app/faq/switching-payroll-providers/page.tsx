@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: 'What happens to my existing payroll software?',
-    a: 'If BEG takes over operation of your existing payroll platform (for example, running payroll within your current ADP or Paychex account), your software subscription continues as-is and you retain full access to historical data. BEG simply operates the system on your behalf. If you prefer to move to iSolved, BEG handles the migration and your previous system can be cancelled after the transition is complete and you have exported any historical records you want to retain. You are not required to migrate. The choice of platform does not affect your PEPM rate.',
+    a: 'If BEG takes over operation of your existing payroll platform (for example, running payroll within your current ADP or Paychex account), your software subscription continues as-is and you retain full access to historical data. BEG simply operates the system on your behalf. If you prefer to move to isolved, BEG handles the migration and your previous system can be cancelled after the transition is complete and you have exported any historical records you want to retain. You are not required to migrate. The choice of platform does not affect your PEPM rate.',
   },
   {
     q: 'Do I need to notify my employees when switching?',

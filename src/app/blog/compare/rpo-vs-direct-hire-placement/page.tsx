@@ -112,7 +112,7 @@ export default function RpoVsDirectHirePlacementPage() {
           Most companies are not hiring at RPO volume. They have a defined set of permanent roles to fill, and they want each one filled well, fast, and without committing to a long contract or fixed overhead. That is what direct-hire placement is for. You pay per placement, the provider owns the search for that role, and there is no ongoing spend when the role is filled.
         </p>
         <p>
-          BEG delivers direct-hire placement through iSolved Job Placement Services on a milestone-based model. Fees are tied to defined search milestones rather than a single lump sum, and the total runs roughly 50% less than standard contingency. The program averages a 23-35 day fill time and an 86% fill rate, reaches passive candidates who are not on job boards, and carries a 45-day replacement guarantee. Every placement is a permanent employee on your payroll. BEG is not a staffing agency and does not place temporary or contract workers.
+          BEG delivers direct-hire placement through isolved Job Placement Services on a milestone-based model. Fees are tied to defined search milestones rather than a single lump sum, and the total runs roughly 50% less than standard contingency. The program averages a 23-35 day fill time and an 86% fill rate, reaches passive candidates who are not on job boards, and carries a 45-day replacement guarantee. Every placement is a permanent employee on your payroll. BEG is not a staffing agency and does not place temporary or contract workers.
         </p>
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
@@ -146,7 +146,7 @@ export default function RpoVsDirectHirePlacementPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders match the recruiting model to their volume and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders match the recruiting model to their volume and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>
@@ -169,7 +169,7 @@ export default function RpoVsDirectHirePlacementPage() {
           { '@type': 'Question', name: 'What is the difference between RPO and direct-hire placement?', acceptedAnswer: { '@type': 'Answer', text: 'RPO (recruitment process outsourcing) hands your end-to-end hiring function to an external team on an ongoing contract billed monthly or per hire. Direct-hire placement engages a provider to fill specific permanent roles, paid per placement. RPO is a function; placement is a transaction.' } },
           { '@type': 'Question', name: 'When is RPO better than direct-hire placement?', acceptedAnswer: { '@type': 'Answer', text: 'RPO is better when hiring is high-volume and continuous, such as opening dozens of roles a quarter while scaling. The contracted spend is justified because the volume absorbs it. For a handful of permanent roles, per-placement direct hire is usually more economical.' } },
           { '@type': 'Question', name: 'How much does direct-hire placement cost?', acceptedAnswer: { '@type': 'Answer', text: 'BEG direct-hire placement is billed against defined milestones and runs roughly 50 percent less than standard contingency, which commonly sits at 20 to 25 percent of first-year salary. There is no ongoing spend once the role is filled.' } },
-          { '@type': 'Question', name: 'Is BEG an RPO provider?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG provides direct-hire placement for specific permanent roles on a milestone-based model through iSolved Job Placement Services. It is not an RPO and not a staffing agency, and it does not place temporary or contract workers. Placements carry a 45-day replacement guarantee.' } },
+          { '@type': 'Question', name: 'Is BEG an RPO provider?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG provides direct-hire placement for specific permanent roles on a milestone-based model through isolved Job Placement Services. It is not an RPO and not a staffing agency, and it does not place temporary or contract workers. Placements carry a 45-day replacement guarantee.' } },
         ]
       }) }} />
           <RelatedPosts posts={[

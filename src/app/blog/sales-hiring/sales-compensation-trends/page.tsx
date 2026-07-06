@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire sales professionals only. It is not a staffing agency and does not provide temporary or contract reps. BEG fills roles on a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire sales professionals only. It is not a staffing agency and does not provide temporary or contract reps. BEG fills roles on a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -122,7 +122,7 @@ export default function SalesCompensationTrendsPage() {
           <li><strong>Direct access to passive talent,</strong> so you are competing for the best reps in the market rather than the active few a posting happens to attract.</li>
         </ol>
         <p>
-          This is the model BEG uses to fill sales roles through iSolved Job Placement Services. The pipeline reaches passive reps the job boards miss, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff.
+          This is the model BEG uses to fill sales roles through isolved Job Placement Services. The pipeline reaches passive reps the job boards miss, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -154,7 +154,7 @@ export default function SalesCompensationTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads sales and revenue placement at Business Executive Group. BEG fills VP of Sales, account executive, and sales leadership roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads sales and revenue placement at Business Executive Group. BEG fills VP of Sales, account executive, and sales leadership roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

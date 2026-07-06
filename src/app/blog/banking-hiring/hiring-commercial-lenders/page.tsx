@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How long does it take to hire a commercial lender?',
-    answer: 'Through traditional job postings and contingency recruiting, a commercial lender search commonly runs 60 to 120 days because the role is senior, the pool is thin, and the strongest producers are passive. BEG fills commercial lender roles in 23 to 35 days on average by sourcing passive candidates directly through iSolved Job Placement Services.',
+    answer: 'Through traditional job postings and contingency recruiting, a commercial lender search commonly runs 60 to 120 days because the role is senior, the pool is thin, and the strongest producers are passive. BEG fills commercial lender roles in 23 to 35 days on average by sourcing passive candidates directly through isolved Job Placement Services.',
   },
   {
     question: 'What should I look for when hiring a commercial lender?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire commercial lenders and banking professionals only. It is not a staffing agency and does not provide interim or contract lenders. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire commercial lenders and banking professionals only. It is not a staffing agency and does not provide interim or contract lenders. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -105,7 +105,7 @@ export default function HiringCommercialLendersPage() {
           A 23-35 Day Commercial Lender Hiring Playbook
         </h2>
         <p>
-          This is the cadence BEG runs to fill lender roles through iSolved Job Placement Services:
+          This is the cadence BEG runs to fill lender roles through isolved Job Placement Services:
         </p>
         <p><strong>Intake (Days 1-2).</strong> A structured call to lock the segment, loan types, market, production targets, comp range, and decision process. The clearer the brief, the faster everything downstream moves.</p>
         <p><strong>Sourcing (Days 2-10).</strong> Direct, targeted outreach to passive commercial lenders who match the profile, not a job posting and a wait. These are employed producers contacted individually with a specific reason your role may fit.</p>
@@ -127,7 +127,7 @@ export default function HiringCommercialLendersPage() {
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Passive candidate access.</strong> The pipeline reaches employed lenders who never see a posting.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> A continuous pipeline, not a reactive one.</li>
-          <li><strong>Roughly 50% less than contingency.</strong> The iSolved platform reduces the sourcing overhead traditional recruiters price in.</li>
+          <li><strong>Roughly 50% less than contingency.</strong> The isolved platform reduces the sourcing overhead traditional recruiters price in.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed lender leaves within 45 days, BEG fills the role again at no additional fee.</li>
           <li><strong>Permanent, direct hire only.</strong> BEG is not a staffing agency and does not place interim or contract lenders.</li>
         </ul>
@@ -161,7 +161,7 @@ export default function HiringCommercialLendersPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads banking and finance placement at Business Executive Group. BEG fills commercial lender, credit analyst, and banking leadership roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads banking and finance placement at Business Executive Group. BEG fills commercial lender, credit analyst, and banking leadership roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

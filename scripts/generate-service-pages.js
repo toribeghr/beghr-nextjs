@@ -329,136 +329,136 @@ const MP_INDUSTRIES = {
 const HCM_INDUSTRIES = {
   legal: {
     eyebrow: 'HCM Software · Legal',
-    metaTitle: 'iSolved HCM for Law Firms | Legal HR & Payroll Platform | BEG',
-    metaDesc: 'iSolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',
+    metaTitle: 'isolved HCM for Law Firms | Legal HR & Payroll Platform | BEG',
+    metaDesc: 'isolved HCM for law firms. Manage partner compensation, associate tracking, and billable time on one platform. Implemented and supported by BEG.',
     canonical: 'https://www.beghr.com/services/hcm-software/legal',
     title: 'One HR platform built for how law firms actually operate.',
-    description: 'Partner compensation tiers, associate tracking, billable time integration, and IOLTA-adjacent payroll make law firm HR unlike any generic HCM setup. iSolved People Cloud handles all of it — implemented and supported by BEG.',
+    description: 'Partner compensation tiers, associate tracking, billable time integration, and IOLTA-adjacent payroll make law firm HR unlike any generic HCM setup. isolved People Cloud handles all of it — implemented and supported by BEG.',
     imageSrc: '/assets/hero-images/legal.svg',
-    imageAlt: 'Law firm using iSolved HCM platform implemented by BEG',
+    imageAlt: 'Law firm using isolved HCM platform implemented by BEG',
     painStats: [
       { stat: '4+ systems', label: 'Average number of disconnected tools a law firm uses for HR', sub: 'Time tracking in one system, payroll in another, benefits in a third. Every data transfer is a reconciliation risk.' },
-      { stat: 'IOLTA', label: 'Trust accounting compliance that most HR platforms ignore', sub: 'iSolved is configurable to handle legal firm compensation structures, including partner draws and trust account separation.' },
-      { stat: '330%', label: 'ROI documented by Forrester for iSolved implementations', sub: 'The average iSolved client sees full ROI within 12 months based on reduced admin time, fewer errors, and eliminated point solutions.' },
+      { stat: 'IOLTA', label: 'Trust accounting compliance that most HR platforms ignore', sub: 'isolved is configurable to handle legal firm compensation structures, including partner draws and trust account separation.' },
+      { stat: '330%', label: 'ROI documented by Forrester for isolved implementations', sub: 'The average isolved client sees full ROI within 12 months based on reduced admin time, fewer errors, and eliminated point solutions.' },
     ],
-    platformFit: 'iSolved for law firms handles partner distribution tracking, associate compensation tiers, benefits administration, time and attendance, and talent management in one connected platform. BEG configures and maintains it for your firm\'s specific structure.',
-    claudeAngle: 'The iSolved Connector for Claude lets your HR or office manager complete tasks — pulling headcount reports, updating employee records, managing PTO — through a natural conversation with Claude AI. No forms. No manual data entry.',
+    platformFit: 'isolved for law firms handles partner distribution tracking, associate compensation tiers, benefits administration, time and attendance, and talent management in one connected platform. BEG configures and maintains it for your firm\'s specific structure.',
+    claudeAngle: 'The isolved Connector for Claude lets your HR or office manager complete tasks — pulling headcount reports, updating employee records, managing PTO — through a natural conversation with Claude AI. No forms. No manual data entry.',
     faqPrimary: 'Partner compensation and draw schedules, associate salary and bonus structures, paralegal and staff payroll, benefits administration, time and attendance tracking, and HR compliance.',
     contractNote: 'If your firm is on ADP, Paychex, or another platform, BEG will time implementation to align with your contract renewal — so you never pay for two systems at once.',
   },
   healthcare: {
     eyebrow: 'HCM Software · Healthcare',
-    metaTitle: 'iSolved HCM for Healthcare | Clinical HR & Payroll Platform | BEG',
-    metaDesc: 'iSolved HCM for healthcare. Shift scheduling, compliance tracking, and clinical staff management on one platform. Implemented and supported by BEG.',
+    metaTitle: 'isolved HCM for Healthcare | Clinical HR & Payroll Platform | BEG',
+    metaDesc: 'isolved HCM for healthcare. Shift scheduling, compliance tracking, and clinical staff management on one platform. Implemented and supported by BEG.',
     canonical: 'https://www.beghr.com/services/hcm-software/healthcare',
     title: 'One platform for every clinical schedule, shift, and compliance rule.',
-    description: 'Healthcare HR means 24/7 scheduling, shift differentials, multi-site clinical staff, and compliance requirements that change constantly. iSolved People Cloud handles all of it in one platform — implemented and supported by BEG.',
+    description: 'Healthcare HR means 24/7 scheduling, shift differentials, multi-site clinical staff, and compliance requirements that change constantly. isolved People Cloud handles all of it in one platform — implemented and supported by BEG.',
     imageSrc: '/assets/hero-images/healthcare.svg',
-    imageAlt: 'Healthcare organization using iSolved HCM platform',
+    imageAlt: 'Healthcare organization using isolved HCM platform',
     painStats: [
       { stat: '5+ tools', label: 'Average systems a mid-size healthcare org uses for HR', sub: 'Scheduling in one system, payroll in another, benefits in a third, compliance in a fourth. Silos cost time and create errors.' },
-      { stat: 'ACA', label: 'And Joint Commission compliance built into iSolved', sub: 'Healthcare compliance is not optional. iSolved tracks and documents it so your team does not have to chase records manually.' },
-      { stat: '330%', label: 'Average ROI documented by Forrester for iSolved clients', sub: 'Healthcare clients see the fastest ROI due to scheduling and overtime cost reduction in the first 90 days.' },
+      { stat: 'ACA', label: 'And Joint Commission compliance built into isolved', sub: 'Healthcare compliance is not optional. isolved tracks and documents it so your team does not have to chase records manually.' },
+      { stat: '330%', label: 'Average ROI documented by Forrester for isolved clients', sub: 'Healthcare clients see the fastest ROI due to scheduling and overtime cost reduction in the first 90 days.' },
     ],
-    platformFit: 'iSolved for healthcare manages 24/7 shift scheduling, differential pay calculation, multi-site clinical staff, ACA compliance tracking, benefits administration, and talent management in one connected platform. BEG implements and maintains it for your specific clinical structure.',
-    claudeAngle: 'The iSolved Connector for Claude lets your HR team pull staffing reports, update employee records, and manage scheduling — all through a Claude AI conversation. Less time in the system, more time running the operation.',
+    platformFit: 'isolved for healthcare manages 24/7 shift scheduling, differential pay calculation, multi-site clinical staff, ACA compliance tracking, benefits administration, and talent management in one connected platform. BEG implements and maintains it for your specific clinical structure.',
+    claudeAngle: 'The isolved Connector for Claude lets your HR team pull staffing reports, update employee records, and manage scheduling — all through a Claude AI conversation. Less time in the system, more time running the operation.',
     faqPrimary: 'RNs, LPNs, physicians, clinical coordinators, PRN and per-diem staff, administrative and support staff across single and multi-site healthcare organizations.',
-    contractNote: 'BEG times implementation to your current platform contract renewal. Most healthcare clients complete the iSolved transition in 60–90 days with zero payroll interruption.',
+    contractNote: 'BEG times implementation to your current platform contract renewal. Most healthcare clients complete the isolved transition in 60–90 days with zero payroll interruption.',
   },
   finance: {
     eyebrow: 'HCM Software · Finance',
-    metaTitle: 'iSolved HCM for Finance Firms | Bonus & Payroll Platform | BEG',
-    metaDesc: 'iSolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
+    metaTitle: 'isolved HCM for Finance Firms | Bonus & Payroll Platform | BEG',
+    metaDesc: 'isolved HCM for finance and accounting. Bonus tracking, commission management, and payroll on one platform. Implemented and supported by BEG.',
     canonical: 'https://www.beghr.com/services/hcm-software/finance',
     title: 'One HR platform for firms where compensation gets complicated.',
-    description: 'Performance bonuses, commission tracking, deferred compensation, and equity events require an HCM platform that can handle complexity without a custom dev project. iSolved People Cloud does — implemented and supported by BEG.',
+    description: 'Performance bonuses, commission tracking, deferred compensation, and equity events require an HCM platform that can handle complexity without a custom dev project. isolved People Cloud does — implemented and supported by BEG.',
     imageSrc: '/assets/hero-images/finance.svg',
-    imageAlt: 'Finance firm using iSolved HCM platform implemented by BEG',
+    imageAlt: 'Finance firm using isolved HCM platform implemented by BEG',
     painStats: [
-      { stat: 'Bonus cycles', label: 'That most HR platforms cannot calculate without manual overrides', sub: 'Performance-based compensation requires configuration, not workarounds. iSolved handles complex pay structures natively.' },
-      { stat: '100%', label: 'Payroll accuracy required in a zero-error-tolerance environment', sub: 'Finance firms cannot afford payroll restatements. iSolved\'s accuracy rate and audit trail eliminate the risk.' },
-      { stat: '330%', label: 'Average ROI documented by Forrester for iSolved clients', sub: 'Finance firms with complex comp structures see the highest returns from elimination of manual reconciliation and spreadsheet errors.' },
+      { stat: 'Bonus cycles', label: 'That most HR platforms cannot calculate without manual overrides', sub: 'Performance-based compensation requires configuration, not workarounds. isolved handles complex pay structures natively.' },
+      { stat: '100%', label: 'Payroll accuracy required in a zero-error-tolerance environment', sub: 'Finance firms cannot afford payroll restatements. isolved\'s accuracy rate and audit trail eliminate the risk.' },
+      { stat: '330%', label: 'Average ROI documented by Forrester for isolved clients', sub: 'Finance firms with complex comp structures see the highest returns from elimination of manual reconciliation and spreadsheet errors.' },
     ],
-    platformFit: 'iSolved for finance firms handles variable compensation tracking, bonus cycle management, commission calculation, deferred compensation events, benefits administration, and zero-error payroll in one connected platform.',
-    claudeAngle: 'The iSolved Connector for Claude lets your HR or finance ops team run compensation reports, update employee data, and manage benefits enrollment — all through Claude AI. No system switching. No manual data pulls.',
+    platformFit: 'isolved for finance firms handles variable compensation tracking, bonus cycle management, commission calculation, deferred compensation events, benefits administration, and zero-error payroll in one connected platform.',
+    claudeAngle: 'The isolved Connector for Claude lets your HR or finance ops team run compensation reports, update employee data, and manage benefits enrollment — all through Claude AI. No system switching. No manual data pulls.',
     faqPrimary: 'Partners, analysts, portfolio managers, advisors, associates, and all staff at investment management firms, RIAs, accounting firms, and financial services companies.',
-    contractNote: 'BEG aligns your iSolved implementation with your current platform contract renewal. Most finance clients are live in 60–90 days with no payroll interruption.',
+    contractNote: 'BEG aligns your isolved implementation with your current platform contract renewal. Most finance clients are live in 60–90 days with no payroll interruption.',
   },
   technology: {
     eyebrow: 'HCM Software · Technology',
-    metaTitle: 'iSolved HCM for Tech Companies | HR & Equity Platform | BEG',
-    metaDesc: 'iSolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
+    metaTitle: 'isolved HCM for Tech Companies | HR & Equity Platform | BEG',
+    metaDesc: 'isolved HCM for technology companies. Manage equity comp, contractors, and distributed teams on one platform. Implemented and supported by BEG.',
     canonical: 'https://www.beghr.com/services/hcm-software/technology',
     title: 'One HR platform that scales as fast as your headcount does.',
-    description: 'Remote teams, equity events, contractor classification, and rapid headcount growth make tech company HR a moving target. iSolved People Cloud scales with you — implemented and supported by BEG, without ripping out your current system.',
+    description: 'Remote teams, equity events, contractor classification, and rapid headcount growth make tech company HR a moving target. isolved People Cloud scales with you — implemented and supported by BEG, without ripping out your current system.',
     imageSrc: '/assets/hero-images/technology.svg',
-    imageAlt: 'Tech company using iSolved HCM platform for distributed team management',
+    imageAlt: 'Tech company using isolved HCM platform for distributed team management',
     painStats: [
-      { stat: 'Multi-state', label: 'Tax compliance for distributed remote teams', sub: 'iSolved auto-updates state tax tables and handles registration across all 50 states as your team grows.' },
-      { stat: 'Equity events', label: 'RSU vesting and option exercises handled natively', sub: 'iSolved processes equity compensation tax events without requiring a separate system or manual withholding calculations.' },
-      { stat: '330%', label: 'Average ROI documented by Forrester for iSolved clients', sub: 'Technology companies see fast ROI through elimination of multi-system data transfer, HR ops time savings, and compliance cost avoidance.' },
+      { stat: 'Multi-state', label: 'Tax compliance for distributed remote teams', sub: 'isolved auto-updates state tax tables and handles registration across all 50 states as your team grows.' },
+      { stat: 'Equity events', label: 'RSU vesting and option exercises handled natively', sub: 'isolved processes equity compensation tax events without requiring a separate system or manual withholding calculations.' },
+      { stat: '330%', label: 'Average ROI documented by Forrester for isolved clients', sub: 'Technology companies see fast ROI through elimination of multi-system data transfer, HR ops time savings, and compliance cost avoidance.' },
     ],
-    platformFit: 'iSolved for tech companies manages multi-state remote team compliance, equity compensation events, contractor and employee benefit administration, rapid onboarding workflows, and talent management — all in one connected platform.',
-    claudeAngle: 'The iSolved Connector for Claude is a natural fit for tech-forward teams. Your HR ops team can complete tasks — onboarding new hires, pulling headcount reports, managing PTO policies — directly through Claude AI. It is the most advanced HR AI integration available in any HCM platform today.',
+    platformFit: 'isolved for tech companies manages multi-state remote team compliance, equity compensation events, contractor and employee benefit administration, rapid onboarding workflows, and talent management — all in one connected platform.',
+    claudeAngle: 'The isolved Connector for Claude is a natural fit for tech-forward teams. Your HR ops team can complete tasks — onboarding new hires, pulling headcount reports, managing PTO policies — directly through Claude AI. It is the most advanced HR AI integration available in any HCM platform today.',
     faqPrimary: 'Full-time remote employees, W-2 contractors, part-time staff, and executive team members at software, SaaS, and technology companies at any stage of growth.',
     contractNote: 'Most tech companies complete the migration from their existing platform in 60–90 days. BEG handles the transition during your current contract\'s final 90 days so you switch cleanly at renewal.',
   },
   engineering: {
     eyebrow: 'HCM Software · Engineering',
-    metaTitle: 'iSolved HCM for Engineering | Prevailing Wage & Payroll | BEG',
-    metaDesc: 'iSolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
+    metaTitle: 'isolved HCM for Engineering | Prevailing Wage & Payroll | BEG',
+    metaDesc: 'isolved HCM for engineering firms. Certified payroll, prevailing wage compliance, and project tracking on one platform. Implemented by BEG.',
     canonical: 'https://www.beghr.com/services/hcm-software/engineering',
     title: 'One platform for certified payroll, prevailing wage, and project HR.',
-    description: 'Government contracts require certified payroll documentation. Davis-Bacon and state prevailing wage rules differ by project. iSolved People Cloud handles all of it in one connected platform — implemented and maintained by BEG.',
+    description: 'Government contracts require certified payroll documentation. Davis-Bacon and state prevailing wage rules differ by project. isolved People Cloud handles all of it in one connected platform — implemented and maintained by BEG.',
     imageSrc: '/assets/hero-images/engineering.svg',
-    imageAlt: 'Engineering firm using iSolved HCM for certified payroll and project tracking',
+    imageAlt: 'Engineering firm using isolved HCM for certified payroll and project tracking',
     painStats: [
-      { stat: 'Certified', label: 'Payroll reporting required on every government project', sub: 'Weekly certified payroll submissions are a contract requirement. iSolved generates them automatically from your payroll data.' },
-      { stat: 'Davis-Bacon', label: 'And state prevailing wage compliance across all active projects', sub: 'iSolved tracks prevailing wage rates by project and jurisdiction, so every crew member is paid correctly every cycle.' },
-      { stat: '330%', label: 'Average ROI documented by Forrester for iSolved clients', sub: 'Engineering firms save the most on compliance documentation time and audit-related costs after implementing iSolved.' },
+      { stat: 'Certified', label: 'Payroll reporting required on every government project', sub: 'Weekly certified payroll submissions are a contract requirement. isolved generates them automatically from your payroll data.' },
+      { stat: 'Davis-Bacon', label: 'And state prevailing wage compliance across all active projects', sub: 'isolved tracks prevailing wage rates by project and jurisdiction, so every crew member is paid correctly every cycle.' },
+      { stat: '330%', label: 'Average ROI documented by Forrester for isolved clients', sub: 'Engineering firms save the most on compliance documentation time and audit-related costs after implementing isolved.' },
     ],
-    platformFit: 'iSolved for engineering firms handles certified payroll report generation, prevailing wage tracking by project and jurisdiction, multi-site workforce management, fringe benefit calculations, and government contract HR documentation in one platform.',
-    claudeAngle: 'The iSolved Connector for Claude lets your project HR team pull labor reports, verify compliance documentation, and manage employee records — all through a Claude AI conversation. Less manual system work, more time managing projects.',
+    platformFit: 'isolved for engineering firms handles certified payroll report generation, prevailing wage tracking by project and jurisdiction, multi-site workforce management, fringe benefit calculations, and government contract HR documentation in one platform.',
+    claudeAngle: 'The isolved Connector for Claude lets your project HR team pull labor reports, verify compliance documentation, and manage employee records — all through a Claude AI conversation. Less manual system work, more time managing projects.',
     faqPrimary: 'Engineers, project managers, field crews, prevailing wage workers, and administrative staff at civil, structural, mechanical, and infrastructure engineering firms.',
-    contractNote: 'BEG times your iSolved implementation to your current platform renewal. Most engineering firms are live in 60–90 days, with certified payroll running correctly from the first government project cycle.',
+    contractNote: 'BEG times your isolved implementation to your current platform renewal. Most engineering firms are live in 60–90 days, with certified payroll running correctly from the first government project cycle.',
   },
   executive: {
     eyebrow: 'HCM Software · Executive',
-    metaTitle: 'iSolved HCM for Executive Teams | Deferred Comp Platform | BEG',
-    metaDesc: 'iSolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
+    metaTitle: 'isolved HCM for Executive Teams | Deferred Comp Platform | BEG',
+    metaDesc: 'isolved HCM for executive compensation. Deferred comp tracking, complex benefits administration, and discreet management. Implemented by BEG.',
     canonical: 'https://www.beghr.com/services/hcm-software/executive',
     title: 'Executive compensation needs a platform — not a spreadsheet.',
-    description: 'Deferred compensation plans, non-qualified benefits, 409A compliance, and restricted access requirements make executive HR a category of its own. iSolved People Cloud handles it correctly — implemented and maintained by BEG with full confidentiality controls.',
+    description: 'Deferred compensation plans, non-qualified benefits, 409A compliance, and restricted access requirements make executive HR a category of its own. isolved People Cloud handles it correctly — implemented and maintained by BEG with full confidentiality controls.',
     imageSrc: '/assets/hero-images/executive.svg',
-    imageAlt: 'Organization using iSolved HCM for executive compensation management',
+    imageAlt: 'Organization using isolved HCM for executive compensation management',
     painStats: [
-      { stat: 'NQDC plans', label: 'That must integrate cleanly with payroll tax processing', sub: 'Non-qualified deferred compensation distributions have specific tax timing requirements. iSolved handles the withholding automatically.' },
-      { stat: '409A', label: 'Valuation compliance tracked within the same platform', sub: 'iSolved maintains the documentation trail for 409A compliance without requiring a separate system or manual recordkeeping.' },
-      { stat: '330%', label: 'Average ROI documented by Forrester for iSolved clients', sub: 'Organizations with complex executive compensation see high ROI from elimination of manual tracking and reduced external consultant fees.' },
+      { stat: 'NQDC plans', label: 'That must integrate cleanly with payroll tax processing', sub: 'Non-qualified deferred compensation distributions have specific tax timing requirements. isolved handles the withholding automatically.' },
+      { stat: '409A', label: 'Valuation compliance tracked within the same platform', sub: 'isolved maintains the documentation trail for 409A compliance without requiring a separate system or manual recordkeeping.' },
+      { stat: '330%', label: 'Average ROI documented by Forrester for isolved clients', sub: 'Organizations with complex executive compensation see high ROI from elimination of manual tracking and reduced external consultant fees.' },
     ],
-    platformFit: 'iSolved for executive teams manages NQDC plan distributions, 409A compliance documentation, deferred compensation elections, executive benefit administration, and restricted-access payroll processing — all in one platform with BEG-managed confidentiality controls.',
-    claudeAngle: 'The iSolved Connector for Claude lets authorized HR team members access executive compensation data, pull reports, and manage benefit events — through Claude AI, with full access controls intact.',
+    platformFit: 'isolved for executive teams manages NQDC plan distributions, 409A compliance documentation, deferred compensation elections, executive benefit administration, and restricted-access payroll processing — all in one platform with BEG-managed confidentiality controls.',
+    claudeAngle: 'The isolved Connector for Claude lets authorized HR team members access executive compensation data, pull reports, and manage benefit events — through Claude AI, with full access controls intact.',
     faqPrimary: 'C-suite executives, board members, senior vice presidents, and other leadership with non-qualified deferred compensation, equity, or complex benefit arrangements.',
     contractNote: 'BEG handles executive data migration and access control configuration as part of implementation. All executive compensation data is restricted to authorized users only, separate from standard employee records.',
   },
   trades: {
     eyebrow: 'HCM Software · Skilled Trades',
-    metaTitle: 'iSolved HCM for Skilled Trades | Union & Multi-Site Payroll | BEG',
-    metaDesc: 'iSolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
+    metaTitle: 'isolved HCM for Skilled Trades | Union & Multi-Site Payroll | BEG',
+    metaDesc: 'isolved HCM for trades and manufacturing. Union compliance, certified payroll, and multi-site management on one platform. Implemented by BEG.',
     canonical: 'https://www.beghr.com/services/hcm-software/trades',
     title: 'One platform for union compliance, multi-site payroll, and workforce tracking.',
-    description: 'Union CBAs, prevailing wage by jurisdiction, multi-site workforce management, and certified payroll reporting require an HCM platform that can handle all of it without workarounds. iSolved People Cloud does — implemented and maintained by BEG.',
+    description: 'Union CBAs, prevailing wage by jurisdiction, multi-site workforce management, and certified payroll reporting require an HCM platform that can handle all of it without workarounds. isolved People Cloud does — implemented and maintained by BEG.',
     imageSrc: '/assets/hero-images/trades.svg',
-    imageAlt: 'Trades and manufacturing operation using iSolved HCM platform',
+    imageAlt: 'Trades and manufacturing operation using isolved HCM platform',
     painStats: [
-      { stat: 'CBA', label: 'Collective bargaining agreement terms enforced in every payroll run', sub: 'iSolved calculates union wage rates, overtime premiums, fringe benefits, and apprenticeship ratios automatically from your CBA terms.' },
-      { stat: 'Multi-site', label: 'Workforce management across multiple project locations', sub: 'Different prevailing wage rates by project and jurisdiction — iSolved tracks them all without manual rate tables.' },
-      { stat: '330%', label: 'Average ROI documented by Forrester for iSolved clients', sub: 'Trades and manufacturing firms see high ROI from union compliance automation, overtime cost reduction, and certified payroll generation savings.' },
+      { stat: 'CBA', label: 'Collective bargaining agreement terms enforced in every payroll run', sub: 'isolved calculates union wage rates, overtime premiums, fringe benefits, and apprenticeship ratios automatically from your CBA terms.' },
+      { stat: 'Multi-site', label: 'Workforce management across multiple project locations', sub: 'Different prevailing wage rates by project and jurisdiction — isolved tracks them all without manual rate tables.' },
+      { stat: '330%', label: 'Average ROI documented by Forrester for isolved clients', sub: 'Trades and manufacturing firms see high ROI from union compliance automation, overtime cost reduction, and certified payroll generation savings.' },
     ],
-    platformFit: 'iSolved for trades and manufacturing handles union CBA compliance, prevailing wage tracking by jurisdiction, certified payroll report generation, multi-site workforce management, apprenticeship ratio tracking, and benefits administration in one connected platform.',
-    claudeAngle: 'The iSolved Connector for Claude lets your HR and operations team pull workforce reports, verify union compliance documentation, and manage employee records — all through a Claude AI conversation. Less time in the system, more time running the operation.',
+    platformFit: 'isolved for trades and manufacturing handles union CBA compliance, prevailing wage tracking by jurisdiction, certified payroll report generation, multi-site workforce management, apprenticeship ratio tracking, and benefits administration in one connected platform.',
+    claudeAngle: 'The isolved Connector for Claude lets your HR and operations team pull workforce reports, verify union compliance documentation, and manage employee records — all through a Claude AI conversation. Less time in the system, more time running the operation.',
     faqPrimary: 'Union and non-union tradespeople, electricians, plumbers, HVAC technicians, welders, ironworkers, heavy equipment operators, production workers, and field supervisors.',
-    contractNote: 'BEG times implementation to your current platform renewal and configures iSolved for your specific union CBAs and prevailing wage schedules before your first managed payroll run.',
+    contractNote: 'BEG times implementation to your current platform renewal and configures isolved for your specific union CBAs and prevailing wage schedules before your first managed payroll run.',
   },
 };
 
@@ -880,7 +880,7 @@ export default function HCM${cap(slug)}Page() {
       description="${data.description}"
       calendlyLink={CALENDLY}
       heroStats={[
-        { value: 'iSolved', label: 'People Cloud — all-in-one HCM' },
+        { value: 'isolved', label: 'People Cloud — all-in-one HCM' },
         { value: '330%', label: 'ROI documented by Forrester' },
         { value: 'BEG', label: 'Implements and supports your platform' },
       ]}
@@ -911,7 +911,7 @@ export default function HCM${cap(slug)}Page() {
       <section className="section">
         <div className="container" style={{ maxWidth: '820px' }}>
           <div className="head center reveal">
-            <p className="eyebrow">Why iSolved + BEG</p>
+            <p className="eyebrow">Why isolved + BEG</p>
             <h2>Everything your HR team needs. One platform. One contact.</h2>
           </div>
           <p className="reveal" style={{ fontSize: '1.05rem', lineHeight: '1.7', color: '#444444', maxWidth: '700px', margin: '1.5rem auto' }}>
@@ -920,7 +920,7 @@ export default function HCM${cap(slug)}Page() {
           <div className="beg-grid-3 reveal">
             {[
               { num: '01', title: 'Platform assessment', body: 'BEG reviews your current HR stack, headcount, and compliance requirements. You get a clear implementation plan and timeline.' },
-              { num: '02', title: 'BEG-managed implementation', body: 'We configure iSolved for your specific structure — compensation, benefits, compliance, and workflows — and manage go-live.' },
+              { num: '02', title: 'BEG-managed implementation', body: 'We configure isolved for your specific structure — compensation, benefits, compliance, and workflows — and manage go-live.' },
               { num: '03', title: 'Ongoing BEG support', body: 'Your BEG contact manages updates, configuration changes, and compliance adjustments year-round. You are never sent to a support queue.' },
             ].map(({ num, title, body }) => (
               <div key={num} style={{ padding: '1.5rem', background: '#f9f9f9', borderRadius: '8px' }}>
@@ -946,19 +946,19 @@ export default function HCM${cap(slug)}Page() {
                 badge: 'Bonus 01',
                 title: 'BEG implementation included — no professional services invoice.',
                 objection: 'Common objection: "HCM implementations are expensive and take forever."',
-                body: 'BEG manages your full iSolved implementation — configuration, data migration, training, and go-live — as part of the relationship. You are not paying a separate professional services team $50,000 to stand up the system. Implementation is what BEG does.',
+                body: 'BEG manages your full isolved implementation — configuration, data migration, training, and go-live — as part of the relationship. You are not paying a separate professional services team $50,000 to stand up the system. Implementation is what BEG does.',
               },
               {
                 badge: 'Bonus 02',
-                title: 'iSolved Connector for Claude — HR tasks through AI.',
+                title: 'isolved Connector for Claude — HR tasks through AI.',
                 objection: 'Common objection: "Every HCM vendor claims to have AI now."',
-                body: '${data.claudeAngle} No competitor offers this. The iSolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
+                body: '${data.claudeAngle} No competitor offers this. The isolved Connector for Claude is generally available in the Claude directory today - not a roadmap item, not a beta feature.',
               },
               {
                 badge: 'Bonus 03',
                 title: 'One BEG contact. Not a support ticket queue.',
                 objection: 'Common objection: "Software vendors disappear after you sign."',
-                body: 'Your BEG contact manages your iSolved platform ongoing. When compliance requirements change, when you add a new location, when you need a new workflow configured — you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact.',
+                body: 'Your BEG contact manages your isolved platform ongoing. When compliance requirements change, when you add a new location, when you need a new workflow configured — you call BEG. Not a 1-800 number. Not a ticket queue. Your account contact.',
               },
             ].map(({ badge, title, objection, body }) => (
               <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
@@ -988,7 +988,7 @@ export default function HCM${cap(slug)}Page() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>The Claude AI Advantage</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>The only HCM platform with a live Claude AI integration.</h2>
-              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>iSolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI — not just get answers, but take action. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation workflows around it now will compound that advantage over time.</p>
+              <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>isolved launched the Connector for Claude in June 2026. It is the only HCM integration that lets your team complete actual HR tasks through Claude AI — not just get answers, but take action. Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR automation workflows around it now will compound that advantage over time.</p>
             </div>
           </div>
           <div className="reveal" style={{ marginTop: '2.5rem', textAlign: 'center' }}>
@@ -1009,24 +1009,24 @@ export default function HCM${cap(slug)}Page() {
           </div>
           <div className="faq reveal">
             <div className="faq-item">
-              <h3>What does iSolved handle for our organization?</h3>
+              <h3>What does isolved handle for our organization?</h3>
               <p>${data.faqPrimary}</p>
             </div>
             <div className="faq-item">
               <h3>Do we have to migrate away from our current platform?</h3>
-              <p>Yes — iSolved replaces your current HCM platform. BEG manages the full migration: data transfer, configuration, testing, and training. Most clients complete the transition in 60–90 days with zero payroll interruption.</p>
+              <p>Yes — isolved replaces your current HCM platform. BEG manages the full migration: data transfer, configuration, testing, and training. Most clients complete the transition in 60–90 days with zero payroll interruption.</p>
             </div>
             <div className="faq-item">
-              <h3>What is the iSolved Connector for Claude?</h3>
+              <h3>What is the isolved Connector for Claude?</h3>
               <p>It is the only live AI integration in an HCM platform that completes actual HR tasks. Instead of just answering questions, your team can run payroll, pull reports, and update records through a Claude AI conversation. Available now in Claude&apos;s directory.</p>
             </div>
             <div className="faq-item">
               <h3>How does BEG support us after implementation?</h3>
-              <p>Your BEG contact manages your iSolved platform year-round. Configuration changes, compliance updates, new hires, new locations — one contact, no ticket queue.</p>
+              <p>Your BEG contact manages your isolved platform year-round. Configuration changes, compliance updates, new hires, new locations — one contact, no ticket queue.</p>
             </div>
             <div className="faq-item">
-              <h3>What does iSolved cost?</h3>
-              <p>iSolved is priced per employee per month based on your headcount and selected modules. BEG provides a transparent cost comparison against your current platform on your discovery call.</p>
+              <h3>What does isolved cost?</h3>
+              <p>isolved is priced per employee per month based on your headcount and selected modules. BEG provides a transparent cost comparison against your current platform on your discovery call.</p>
             </div>
           </div>
         </div>
@@ -1039,9 +1039,9 @@ export default function HCM${cap(slug)}Page() {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'What is the iSolved Connector for Claude?', acceptedAnswer: { '@type': 'Answer', text: 'The only live AI integration in an HCM platform that completes actual HR tasks through Claude AI. Available now.' } },
+              { '@type': 'Question', name: 'What is the isolved Connector for Claude?', acceptedAnswer: { '@type': 'Answer', text: 'The only live AI integration in an HCM platform that completes actual HR tasks through Claude AI. Available now.' } },
               { '@type': 'Question', name: 'Do we have to migrate from our current platform?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG manages the full migration in 60-90 days with no payroll interruption.' } },
-              { '@type': 'Question', name: 'How does BEG support us after implementation?', acceptedAnswer: { '@type': 'Answer', text: 'Your BEG contact manages your iSolved platform year-round. One contact, no ticket queue.' } },
+              { '@type': 'Question', name: 'How does BEG support us after implementation?', acceptedAnswer: { '@type': 'Answer', text: 'Your BEG contact manages your isolved platform year-round. One contact, no ticket queue.' } },
             ],
           }),
         }}

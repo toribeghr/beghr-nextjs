@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a tech staffing agency?',
-    answer: 'No. BEG places permanent, direct hire technology professionals only. It is not a staffing agency and does not provide contract, contract-to-hire, or temporary engineers. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire technology professionals only. It is not a staffing agency and does not provide contract, contract-to-hire, or temporary engineers. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -123,7 +123,7 @@ export default function TechSalaryTrendsPage() {
           How BEG Helps You Win on More Than Pay
         </h2>
         <p>
-          BEG fills technology roles on a milestone-based model through iSolved Job Placement Services, and market knowledge is built into it:
+          BEG fills technology roles on a milestone-based model through isolved Job Placement Services, and market knowledge is built into it:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Current market benchmarks.</strong> Real comp data for your level and market, so you neither overpay nor lose candidates to a low offer.</li>
@@ -165,7 +165,7 @@ export default function TechSalaryTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads technology placement at Business Executive Group. BEG fills software engineer, data scientist, and engineering leadership roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads technology placement at Business Executive Group. BEG fills software engineer, data scientist, and engineering leadership roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

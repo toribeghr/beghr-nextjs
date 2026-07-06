@@ -105,7 +105,7 @@ export default function ManagedPayrollVsADPPage() {
                 ['Implementation time', '4–12 weeks', '2–4 weeks'],
                 ['Typical annual cost (50 employees)', '$12,000–$25,000+', '$15,000–$27,000'],
                 ['Payroll errors your responsibility', 'Yes', 'No -- BEG takes responsibility'],
-                ['Works with existing system', 'Must use ADP platform', 'Yes -- or move to iSolved'],
+                ['Works with existing system', 'Must use ADP platform', 'Yes -- or move to isolved'],
               ].map(([factor, adp, beg], i) => (
                 <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff', borderBottom: '1px solid #e5e5e5' }}>
                   <td style={{ padding: '12px 16px', fontWeight: 600 }}>{factor}</td>

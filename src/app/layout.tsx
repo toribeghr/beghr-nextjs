@@ -16,7 +16,7 @@ const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600', '700'], 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.beghr.com'),
   title: 'Business Executive Group - Payroll, HCM Software & Job Placement',
-  description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
+  description: 'Fully managed payroll, HCM software powered by isolved, and specialized job placement services for businesses nationwide.',
   icons: {
     icon: '/favicon.ico',
   },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Business Executive Group',
-    description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
+    description: 'Fully managed payroll, HCM software powered by isolved, and specialized job placement services for businesses nationwide.',
     url: 'https://www.beghr.com',
     siteName: 'Business Executive Group',
     images: [
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Business Executive Group',
-    description: 'Fully managed payroll, HCM software powered by iSolved, and specialized job placement services for businesses nationwide.',
+    description: 'Fully managed payroll, HCM software powered by isolved, and specialized job placement services for businesses nationwide.',
     images: ['https://www.beghr.com/assets/og-image.png'],
   },
 };
@@ -85,13 +85,13 @@ export default function RootLayout({
                 postalCode: '75024',
                 addressCountry: 'US',
               },
-              description: 'Business Executive Group is an authorized iSolved partner delivering fully managed payroll, the iSolved HCM platform implemented and supported by BEG, and specialized job placement. iSolved is the only HCM platform with a Connector for Claude.',
+              description: 'Business Executive Group is an authorized isolved partner delivering fully managed payroll, the isolved HCM platform implemented and supported by BEG, and specialized job placement. isolved is the only HCM platform with a Connector for Claude.',
               areaServed: 'United States',
               knowsAbout: [
                 'Managed payroll',
                 'HCM software',
-                'iSolved',
-                'iSolved Connector for Claude',
+                'isolved',
+                'isolved Connector for Claude',
                 'Payroll outsourcing',
                 'HR outsourcing',
                 'Benefits administration',
@@ -127,7 +127,7 @@ export default function RootLayout({
               name: 'Business Executive Group',
               url: 'https://www.beghr.com',
               publisher: { '@type': 'Organization', name: 'Business Executive Group' },
-              description: 'Managed payroll, iSolved HCM software, and job placement for growing companies. iSolved is the only HCM platform with a Connector for Claude.',
+              description: 'Managed payroll, isolved HCM software, and job placement for growing companies. isolved is the only HCM platform with a Connector for Claude.',
             }),
           }}
         />

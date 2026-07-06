@@ -76,7 +76,7 @@ export default function ManagedPayrollVsPaychexPage() {
                 ['Compliance monitoring', 'Alerts + some automation', 'Active monitoring by BEG team'],
                 ['Pricing', 'Quoted, typically $39–$150/mo base + per-employee', '$25–$45 PEPM all-in'],
                 ['Contract terms', 'Annual contracts common', 'Month-to-month'],
-                ['Migration required', 'Must use Paychex system', 'No -- work in existing system, or iSolved'],
+                ['Migration required', 'Must use Paychex system', 'No -- work in existing system, or isolved'],
                 ['Internal time required', '5–15 hours/month depending on team size', 'Near zero'],
                 ['Support model', 'Tiered support, dedicated rep at higher tiers', 'Dedicated BEG team contact'],
               ].map(([factor, paychex, beg], i) => (
@@ -118,7 +118,7 @@ export default function ManagedPayrollVsPaychexPage() {
 
         <div style={{ background: '#ECAC60', color: '#000', padding: '2rem', borderRadius: '8px', textAlign: 'center', margin: '2.5rem 0' }}>
           <h3 style={{ color: '#000', margin: '0 0 0.75rem' }}>Currently on Paychex and wondering if managed payroll makes sense?</h3>
-          <p style={{ marginBottom: '1.5rem' }}>BEG can operate within your existing Paychex setup, or move you to iSolved -- your call. Answer a few quick questions and see the numbers for both paths on screen.</p>
+          <p style={{ marginBottom: '1.5rem' }}>BEG can operate within your existing Paychex setup, or move you to isolved -- your call. Answer a few quick questions and see the numbers for both paths on screen.</p>
           <PricingCta service="managed-payroll" subline={false} />
         </div>
 
@@ -129,7 +129,7 @@ export default function ManagedPayrollVsPaychexPage() {
           This is something many companies don't realize: BEG managed payroll can operate within your existing Paychex account. We don't require you to switch platforms. If you're on Paychex and want the operational burden off your team, we can take over the processing while you stay on the platform you're already invested in.
         </p>
         <p>
-          Alternatively, if your Paychex contract is up for renewal and you want to evaluate switching to iSolved alongside the managed service, we can handle that migration too.
+          Alternatively, if your Paychex contract is up for renewal and you want to evaluate switching to isolved alongside the managed service, we can handle that migration too.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -148,7 +148,7 @@ export default function ManagedPayrollVsPaychexPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales -- Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps HR managers and CFOs evaluate payroll operations and implement managed solutions that eliminate operational overhead -- whether that means staying on your current platform or transitioning to iSolved.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps HR managers and CFOs evaluate payroll operations and implement managed solutions that eliminate operational overhead -- whether that means staying on your current platform or transitioning to isolved.</p>
         </div>
 
       </section>

@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     question: 'How do you recruit a passive estimator?',
-    answer: 'You reach them directly. The estimators worth hiring are employed and not on job boards, so a posting will not surface them. It takes targeted outreach to people who match your sector and project size, a clear and compelling reason to consider a move, and a fast process that closes before a competitor does. That is the model BEG uses to fill estimator roles in 23 to 35 days through iSolved Job Placement Services.',
+    answer: 'You reach them directly. The estimators worth hiring are employed and not on job boards, so a posting will not surface them. It takes targeted outreach to people who match your sector and project size, a clear and compelling reason to consider a move, and a fast process that closes before a competitor does. That is the model BEG uses to fill estimator roles in 23 to 35 days through isolved Job Placement Services.',
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire estimators and construction management professionals only. It is not a staffing agency and does not provide interim or contract estimators. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire estimators and construction management professionals only. It is not a staffing agency and does not provide interim or contract estimators. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -119,7 +119,7 @@ export default function EstimatorRecruitingPage() {
           Why BEG Fills Estimator Roles Faster
         </h2>
         <p>
-          BEG fills estimator and other construction roles on a milestone-based model through iSolved Job Placement Services. The pipeline reaches passive estimators who never see a posting, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary or contract estimators.
+          BEG fills estimator and other construction roles on a milestone-based model through isolved Job Placement Services. The pipeline reaches passive estimators who never see a posting, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary or contract estimators.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -151,7 +151,7 @@ export default function EstimatorRecruitingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads construction management placement at Business Executive Group. BEG fills estimator, project manager, superintendent, and preconstruction roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads construction management placement at Business Executive Group. BEG fills estimator, project manager, superintendent, and preconstruction roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

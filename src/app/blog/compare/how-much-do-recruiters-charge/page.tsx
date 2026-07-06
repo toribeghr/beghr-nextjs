@@ -167,10 +167,10 @@ export default function HowMuchDoRecruitersChargePage() {
           Where Milestone-Based Pricing Comes In
         </h2>
         <p>
-          BEG fills permanent roles on a milestone-based model through iSolved Job Placement Services. The fee runs roughly 50% less than standard contingency, paid at defined milestones rather than upfront, with no retainer at risk. The discount is structural, not promotional: the iSolved platform reduces the manual sourcing overhead that traditional recruiters build into their fee.
+          BEG fills permanent roles on a milestone-based model through isolved Job Placement Services. The fee runs roughly 50% less than standard contingency, paid at defined milestones rather than upfront, with no retainer at risk. The discount is structural, not promotional: the isolved platform reduces the manual sourcing overhead that traditional recruiters build into their fee.
         </p>
         <p>
-          The lower fee does not come with a weaker result. The placement program averages a 23-35 day fill time and an 86% fill rate, reaches passive candidates who are not on job boards, and carries a 45-day replacement guarantee. If the placed employee leaves within 45 days, BEG fills the role again at no additional fee. BEG is the authorized reseller, so the payment relationship runs to iSolved directly.
+          The lower fee does not come with a weaker result. The placement program averages a 23-35 day fill time and an 86% fill rate, reaches passive candidates who are not on job boards, and carries a 45-day replacement guarantee. If the placed employee leaves within 45 days, BEG fills the role again at no additional fee. BEG is the authorized reseller, so the payment relationship runs to isolved directly.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -191,7 +191,7 @@ export default function HowMuchDoRecruitersChargePage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders understand recruiting costs and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders understand recruiting costs and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>
@@ -213,7 +213,7 @@ export default function HowMuchDoRecruitersChargePage() {
         mainEntity: [
           { '@type': 'Question', name: 'How much do recruiters charge to fill a role?', acceptedAnswer: { '@type': 'Answer', text: 'Contingency recruiters typically charge 20 to 25 percent of the placed candidate first-year salary, paid in full at the start date. Retained search runs 25 to 35 percent plus an upfront retainer. BEG milestone-based placement runs roughly 50 percent less than standard contingency.' } },
           { '@type': 'Question', name: 'Do you pay a recruiter if they do not find anyone?', acceptedAnswer: { '@type': 'Answer', text: 'With a contingency or milestone-based model you owe nothing if no candidate is placed. With a retained search you pay an upfront retainer that is generally not refundable, so you can lose that portion even if the search does not result in a hire.' } },
-          { '@type': 'Question', name: 'What is the cheapest way to use a recruiter?', acceptedAnswer: { '@type': 'Answer', text: 'A milestone-based model is typically the lowest-cost option that still reaches passive candidates. BEG fills permanent roles at roughly 50 percent less than standard contingency through iSolved Job Placement Services, with no upfront retainer and a 45-day replacement guarantee.' } },
+          { '@type': 'Question', name: 'What is the cheapest way to use a recruiter?', acceptedAnswer: { '@type': 'Answer', text: 'A milestone-based model is typically the lowest-cost option that still reaches passive candidates. BEG fills permanent roles at roughly 50 percent less than standard contingency through isolved Job Placement Services, with no upfront retainer and a 45-day replacement guarantee.' } },
           { '@type': 'Question', name: 'How do I calculate a recruiting fee?', acceptedAnswer: { '@type': 'Answer', text: 'Multiply the candidate first-year salary by the fee percentage. A $150,000 salary at a 25 percent contingency rate is $37,500. The BEG Recruiting Fee Calculator runs this for any salary and shows the milestone-based comparison.' } },
         ]
       }) }} />

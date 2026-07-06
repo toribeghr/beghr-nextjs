@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency for energy companies?',
-    answer: 'No. BEG places permanent, direct hire energy professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire energy professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -128,7 +128,7 @@ export default function EnergyTalentShortagePage() {
           <li><strong>They lead with more than money,</strong> since pay alone rarely pulls someone off a stable project. The work itself, the scope, and growth path matter as much as the number.</li>
         </ol>
         <p>
-          This is the model BEG uses to fill energy roles through iSolved Job Placement Services. The pipeline reaches passive candidates the job boards miss, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff.
+          This is the model BEG uses to fill energy roles through isolved Job Placement Services. The pipeline reaches passive candidates the job boards miss, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -160,7 +160,7 @@ export default function EnergyTalentShortagePage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads energy placement at Business Executive Group. BEG fills project manager, field engineer, and senior energy roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads energy placement at Business Executive Group. BEG fills project manager, field engineer, and senior energy roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

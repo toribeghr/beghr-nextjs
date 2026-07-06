@@ -173,7 +173,7 @@ export default function LegalRecruiterVsPlacementServicePage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony works with law firms to compare legal search options and fill permanent attorney and paralegal roles faster and at lower cost than traditional contingency recruiters. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony works with law firms to compare legal search options and fill permanent attorney and paralegal roles faster and at lower cost than traditional contingency recruiters. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>

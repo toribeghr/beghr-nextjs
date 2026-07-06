@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: 'Is there a managed payroll service that works without migrating from Gusto?',
-    answer: 'Yes. BEG managed payroll can operate within your existing Gusto account -- your team keeps the same employee-facing portal while BEG handles all payroll processing on the back end. Alternatively, BEG can migrate you to iSolved if you want to consolidate platforms. Both options are available at the flat PEPM rate.',
+    answer: 'Yes. BEG managed payroll can operate within your existing Gusto account -- your team keeps the same employee-facing portal while BEG handles all payroll processing on the back end. Alternatively, BEG can migrate you to isolved if you want to consolidate platforms. Both options are available at the flat PEPM rate.',
   },
   {
     question: 'How much does managed payroll cost compared to Gusto?',
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'Can a managed payroll service replace Gusto for benefits administration?',
-    answer: 'BEG managed payroll covers all core payroll functions -- processing, tax filings, direct deposit, year-end W-2s, and compliance monitoring. Benefits administration (health insurance enrollment, 401k management) is typically handled separately through a benefits broker. BEG can coordinate with your existing benefits platform or help you evaluate options as part of the broader iSolved HCM platform.',
+    answer: 'BEG managed payroll covers all core payroll functions -- processing, tax filings, direct deposit, year-end W-2s, and compliance monitoring. Benefits administration (health insurance enrollment, 401k management) is typically handled separately through a benefits broker. BEG can coordinate with your existing benefits platform or help you evaluate options as part of the broader isolved HCM platform.',
   },
   {
     question: 'How long does it take to switch from Gusto to managed payroll?',
@@ -127,7 +127,7 @@ export default function GustoAlternativesPage() {
           <strong>Model:</strong> Fully managed service -- BEG handles every payroll cycle, every filing, and every employee question. Your team approves; BEG does the work.
         </p>
         <p>
-          <strong>Pricing:</strong> $25 PEPM if BEG manages your existing payroll system. $45 PEPM on the iSolved platform. All-inclusive.
+          <strong>Pricing:</strong> $25 PEPM if BEG manages your existing payroll system. $45 PEPM on the isolved platform. All-inclusive.
         </p>
         <p>
           <strong>What makes it different:</strong> BEG is a managed service, not software. You do not need to log in and process payroll -- your team sends hours or updates, and BEG runs the cycle. Errors are BEG's responsibility to fix. BEG can also work inside your existing payroll platform without migration -- if you are already on Gusto, we can manage payroll within your Gusto account at the lower rate.

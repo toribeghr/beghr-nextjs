@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: 'How do I find experienced tax and accounting staff before the rush?',
-    answer: 'The strongest candidates are passive and employed, so reaching them requires direct, targeted outreach well ahead of the season, not a job posting in December. BEG sources passive accounting and tax professionals through iSolved Job Placement Services and fills roles in 23 to 35 days on average.',
+    answer: 'The strongest candidates are passive and employed, so reaching them requires direct, targeted outreach well ahead of the season, not a job posting in December. BEG sources passive accounting and tax professionals through isolved Job Placement Services and fills roles in 23 to 35 days on average.',
   },
   {
     question: 'What does it cost to be understaffed during busy season?',
@@ -119,7 +119,7 @@ export default function BusySeasonStaffingPage() {
           How BEG Helps You Get Ahead
         </h2>
         <p>
-          BEG fills permanent accounting and tax roles through iSolved Job Placement Services, built for exactly this kind of planned hiring:
+          BEG fills permanent accounting and tax roles through isolved Job Placement Services, built for exactly this kind of planned hiring:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Passive candidate sourcing</strong> reaches employed tax and accounting professionals before they are on the market, not after every other firm has called them.</li>
@@ -156,7 +156,7 @@ export default function BusySeasonStaffingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads accounting and finance placement at Business Executive Group. BEG fills tax, audit, and accounting roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads accounting and finance placement at Business Executive Group. BEG fills tax, audit, and accounting roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

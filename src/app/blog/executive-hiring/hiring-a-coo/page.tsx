@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How long does it take to hire a COO?',
-    answer: 'A traditional retained COO search commonly runs three to six months because the role is senior, the pool is small, and the best candidates are passive. BEG fills COO and other senior operations roles in 23 to 35 days on average by sourcing passive executives directly and confidentially through iSolved Job Placement Services.',
+    answer: 'A traditional retained COO search commonly runs three to six months because the role is senior, the pool is small, and the best candidates are passive. BEG fills COO and other senior operations roles in 23 to 35 days on average by sourcing passive executives directly and confidentially through isolved Job Placement Services.',
   },
   {
     question: 'What should I look for in a COO?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire executives only. It is not a staffing agency and does not provide interim or fractional COOs. BEG uses a confidential, milestone-based model through iSolved Job Placement Services, at roughly 50 percent less than retained search, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire executives only. It is not a staffing agency and does not provide interim or fractional COOs. BEG uses a confidential, milestone-based model through isolved Job Placement Services, at roughly 50 percent less than retained search, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -105,7 +105,7 @@ export default function HiringACooPage() {
           A Confidential 23-35 Day COO Playbook
         </h2>
         <p>
-          This is the cadence BEG runs to fill COO roles confidentially through iSolved Job Placement Services:
+          This is the cadence BEG runs to fill COO roles confidentially through isolved Job Placement Services:
         </p>
         <p><strong>Intake (Days 1-2).</strong> A structured, private conversation to lock the mandate, the CEO complement, comp range, and decision process. The clearer the brief, the faster everything downstream moves.</p>
         <p><strong>Sourcing (Days 2-10).</strong> Direct, discreet outreach to passive COOs, VPs of operations, and general managers who match the profile. These are employed leaders contacted individually, never a public posting.</p>
@@ -127,7 +127,7 @@ export default function HiringACooPage() {
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Passive, confidential access.</strong> The pipeline reaches employed executives who never see a posting, one at a time.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> A continuous pipeline, not a reactive one.</li>
-          <li><strong>Roughly 50% less than retained search.</strong> The iSolved platform reduces the overhead a traditional retained firm prices in.</li>
+          <li><strong>Roughly 50% less than retained search.</strong> The isolved platform reduces the overhead a traditional retained firm prices in.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed COO leaves within 45 days, BEG fills the role again at no additional fee.</li>
           <li><strong>Permanent, direct hire only.</strong> BEG is not a staffing agency and does not place interim or fractional COOs.</li>
         </ul>
@@ -163,7 +163,7 @@ export default function HiringACooPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads executive and leadership placement at Business Executive Group. BEG fills CEO, COO, and other senior roles through iSolved Job Placement Services, a confidential, milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads executive and leadership placement at Business Executive Group. BEG fills CEO, COO, and other senior roles through isolved Job Placement Services, a confidential, milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

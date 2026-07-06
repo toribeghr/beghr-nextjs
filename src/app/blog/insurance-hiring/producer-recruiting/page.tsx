@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency for producers?',
-    answer: 'No. BEG places permanent, direct hire producers and insurance professionals only. It is not a staffing agency and does not provide temporary or contract producers. BEG uses a milestone-based, confidential model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire producers and insurance professionals only. It is not a staffing agency and does not provide temporary or contract producers. BEG uses a milestone-based, confidential model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -105,7 +105,7 @@ export default function ProducerRecruitingPage() {
           A Confidential Producer Search, Step by Step
         </h2>
         <p>
-          This is the cadence BEG runs to recruit producers through iSolved Job Placement Services:
+          This is the cadence BEG runs to recruit producers through isolved Job Placement Services:
         </p>
         <p><strong>Intake (Days 1-2).</strong> A structured call to define the lines, markets, geography, and economics you can offer, plus the profile of book you want to add.</p>
         <p><strong>Confidential sourcing (Days 2-12).</strong> Discreet, individual outreach to producers who fit, never exposing their interest. Conversations stay private until a candidate chooses to move forward.</p>
@@ -127,7 +127,7 @@ export default function ProducerRecruitingPage() {
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Confidential, passive candidate access.</strong> The pipeline reaches employed producers who never see a posting and whose interest stays private.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> A continuous pipeline, not a reactive one.</li>
-          <li><strong>Roughly 50% less than contingency.</strong> The iSolved platform reduces the sourcing overhead traditional recruiters price in.</li>
+          <li><strong>Roughly 50% less than contingency.</strong> The isolved platform reduces the sourcing overhead traditional recruiters price in.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed producer leaves within 45 days, BEG fills the role again at no additional fee.</li>
           <li><strong>Permanent, direct hire only.</strong> BEG is not a staffing agency and does not place interim or contract producers.</li>
         </ul>
@@ -160,7 +160,7 @@ export default function ProducerRecruitingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads insurance placement at Business Executive Group. BEG fills producer, underwriter, claims, and actuarial roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads insurance placement at Business Executive Group. BEG fills producer, underwriter, claims, and actuarial roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

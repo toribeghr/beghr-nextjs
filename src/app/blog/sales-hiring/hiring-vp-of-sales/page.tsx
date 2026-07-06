@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How long does it take to hire a VP of Sales?',
-    answer: 'Through job postings and traditional contingency recruiting, a VP of Sales search often runs 60 to 120 days because the role is senior, the qualified pool is narrow, and the strongest candidates are passive and already employed. BEG fills sales leadership roles in 23 to 35 days on average by sourcing passive candidates directly through iSolved Job Placement Services.',
+    answer: 'Through job postings and traditional contingency recruiting, a VP of Sales search often runs 60 to 120 days because the role is senior, the qualified pool is narrow, and the strongest candidates are passive and already employed. BEG fills sales leadership roles in 23 to 35 days on average by sourcing passive candidates directly through isolved Job Placement Services.',
   },
   {
     question: 'What should I look for in a VP of Sales?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire sales leaders and professionals only. It is not a staffing agency and does not provide interim or fractional sales executives. BEG uses a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire sales leaders and professionals only. It is not a staffing agency and does not provide interim or fractional sales executives. BEG uses a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -114,7 +114,7 @@ export default function HiringVpOfSalesPage() {
           A 23-35 Day VP of Sales Hiring Playbook
         </h2>
         <p>
-          This is the cadence BEG runs to fill sales leadership roles through iSolved Job Placement Services:
+          This is the cadence BEG runs to fill sales leadership roles through isolved Job Placement Services:
         </p>
         <p><strong>Intake (Days 1-2).</strong> A structured call to lock the profile, comp range, motion, and decision process. The clearer the brief, the faster everything downstream moves.</p>
         <p><strong>Sourcing (Days 2-10).</strong> Direct, confidential outreach to passive sales leaders who match the profile, not a public posting and a wait. These are employed executives contacted individually with a specific reason your role may fit.</p>
@@ -150,7 +150,7 @@ export default function HiringVpOfSalesPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads sales and revenue placement at Business Executive Group. BEG fills VP of Sales, account executive, and sales leadership roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads sales and revenue placement at Business Executive Group. BEG fills VP of Sales, account executive, and sales leadership roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

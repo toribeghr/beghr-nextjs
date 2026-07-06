@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     question: 'How long does it take to recruit a project engineer?',
-    answer: 'Through job postings and contingency recruiting, project engineer searches often run 45 to 75 days because the qualified pool is thin and the best candidates are passive. BEG fills project engineering and other engineering roles in 23 to 35 days on average by sourcing passive candidates directly through iSolved Job Placement Services.',
+    answer: 'Through job postings and contingency recruiting, project engineer searches often run 45 to 75 days because the qualified pool is thin and the best candidates are passive. BEG fills project engineering and other engineering roles in 23 to 35 days on average by sourcing passive candidates directly through isolved Job Placement Services.',
   },
   {
     question: 'Is BEG a staffing agency for engineering roles?',
-    answer: 'No. BEG places permanent, direct hire project engineers and other engineering professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire project engineers and other engineering professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -114,7 +114,7 @@ export default function ProjectEngineerRecruitingPage() {
           How BEG Recruits Project Engineers
         </h2>
         <p>
-          BEG fills project engineering and other technical roles on a milestone-based model through iSolved Job Placement Services. The pipeline reaches passive engineers the job boards miss, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff. See the full practice on the <a href="/services/job-placement/engineering">engineering placement</a> page, or the role detail on the <a href="/services/job-placement/engineering/project-engineer">project engineer placement</a> page.
+          BEG fills project engineering and other technical roles on a milestone-based model through isolved Job Placement Services. The pipeline reaches passive engineers the job boards miss, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than standard contingency, there is no upfront retainer, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff. See the full practice on the <a href="/services/job-placement/engineering">engineering placement</a> page, or the role detail on the <a href="/services/job-placement/engineering/project-engineer">project engineer placement</a> page.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -146,7 +146,7 @@ export default function ProjectEngineerRecruitingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads engineering and technical placement at Business Executive Group. BEG fills mechanical, project, and design engineering roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads engineering and technical placement at Business Executive Group. BEG fills mechanical, project, and design engineering roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

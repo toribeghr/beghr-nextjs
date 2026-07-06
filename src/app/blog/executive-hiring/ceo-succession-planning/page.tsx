@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire executives only, including CEOs and other senior leaders. It is not a staffing agency and does not provide interim or fractional leaders. BEG runs a confidential, milestone-based search through iSolved Job Placement Services, at roughly 50 percent less than retained search, with a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire executives only, including CEOs and other senior leaders. It is not a staffing agency and does not provide interim or fractional leaders. BEG runs a confidential, milestone-based search through isolved Job Placement Services, at roughly 50 percent less than retained search, with a 45-day replacement guarantee.',
   },
 ];
 
@@ -116,7 +116,7 @@ export default function CeoSuccessionPlanningPage() {
           How BEG Supports CEO Searches
         </h2>
         <p>
-          When the external path is the right one, BEG fills CEO and other senior leadership roles through iSolved Job Placement Services on a confidential, milestone-based model. The pipeline reaches passive senior leaders directly and discreetly, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than traditional retained search, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire leaders only, including the <a href="/services/job-placement/executive/chief-executive-officer">chief executive officer</a>, and is not a staffing agency.
+          When the external path is the right one, BEG fills CEO and other senior leadership roles through isolved Job Placement Services on a confidential, milestone-based model. The pipeline reaches passive senior leaders directly and discreetly, the average fill time is 23-35 days, and the fill rate is 86%. Fees run roughly 50% less than traditional retained search, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire leaders only, including the <a href="/services/job-placement/executive/chief-executive-officer">chief executive officer</a>, and is not a staffing agency.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -147,7 +147,7 @@ export default function CeoSuccessionPlanningPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads executive and leadership placement at Business Executive Group. BEG fills CEO, COO, and other senior roles through iSolved Job Placement Services, a confidential, milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads executive and leadership placement at Business Executive Group. BEG fills CEO, COO, and other senior roles through isolved Job Placement Services, a confidential, milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

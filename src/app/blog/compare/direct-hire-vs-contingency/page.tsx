@@ -69,7 +69,7 @@ export default function DirectHireVsContingencyPage() {
           A direct hire is a permanent, full-time employee placed directly on your payroll. From day one the person works for you, not for a staffing agency, and there is no temp-to-perm conversion or co-employment arrangement in between. Direct hire is the opposite of temp staffing or contract placement, not the opposite of contingency.
         </p>
         <p>
-          BEG operates exclusively in the direct hire world. Every placement is a permanent employee on the client&apos;s payroll. BEG is not a staffing agency and does not place contract or temporary workers. The model is milestone-based permanent placement, delivered as an authorized reseller of iSolved Job Placement Services.
+          BEG operates exclusively in the direct hire world. Every placement is a permanent employee on the client&apos;s payroll. BEG is not a staffing agency and does not place contract or temporary workers. The model is milestone-based permanent placement, delivered as an authorized reseller of isolved Job Placement Services.
         </p>
 
         <h2 style={{ marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.5rem' }}>
@@ -139,11 +139,11 @@ export default function DirectHireVsContingencyPage() {
           How Milestone-Based Placement Fits
         </h2>
         <p>
-          A milestone-based model keeps the part of contingency that firms like (no upfront retainer) and fixes the part that hurts (slow, non-dedicated, active-only sourcing). BEG fills permanent direct hire roles this way through iSolved Job Placement Services:
+          A milestone-based model keeps the part of contingency that firms like (no upfront retainer) and fixes the part that hurts (slow, non-dedicated, active-only sourcing). BEG fills permanent direct hire roles this way through isolved Job Placement Services:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>No upfront payment.</strong> Fees are tied to milestones, typically at candidate presentation and at start date.</li>
-          <li><strong>Roughly 50% less than standard contingency.</strong> The iSolved platform reduces the manual sourcing overhead traditional recruiters price into their fee.</li>
+          <li><strong>Roughly 50% less than standard contingency.</strong> The isolved platform reduces the manual sourcing overhead traditional recruiters price into their fee.</li>
           <li><strong>Passive candidate access.</strong> The pipeline reaches currently-employed candidates who never see a job posting, not just people already searching.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> A continuous sourcing pipeline rather than a reactive one.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed employee leaves within 45 days, BEG fills the role again at no additional fee.</li>
@@ -170,7 +170,7 @@ export default function DirectHireVsContingencyPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders evaluate recruiting models and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders evaluate recruiting models and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>
@@ -192,7 +192,7 @@ export default function DirectHireVsContingencyPage() {
         mainEntity: [
           { '@type': 'Question', name: 'Is direct hire the same as contingency recruiting?', acceptedAnswer: { '@type': 'Answer', text: 'No. Direct hire describes the type of placement: a permanent, full-time employee placed directly on your payroll. Contingency describes how you pay the recruiter: a fee only if a candidate is placed. You can fill a direct hire role through contingency, retained search, or a milestone-based model.' } },
           { '@type': 'Question', name: 'How much does contingency recruiting cost?', acceptedAnswer: { '@type': 'Answer', text: 'Contingency fees typically run 20 to 25 percent of the placed candidate first-year salary, paid in full at the start date. On a $150,000 hire that is $30,000 to $37,500. BEG milestone-based placement runs roughly 50 percent less than standard contingency.' } },
-          { '@type': 'Question', name: 'Is BEG a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG places permanent, direct hire employees only. It is not a staffing agency and does not place temporary or contract workers. BEG uses a milestone-based permanent placement model as an authorized reseller of iSolved Job Placement Services.' } },
+          { '@type': 'Question', name: 'Is BEG a staffing agency?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG places permanent, direct hire employees only. It is not a staffing agency and does not place temporary or contract workers. BEG uses a milestone-based permanent placement model as an authorized reseller of isolved Job Placement Services.' } },
           { '@type': 'Question', name: 'Why is my contingency search taking so long?', acceptedAnswer: { '@type': 'Answer', text: 'Contingency searches are usually non-exclusive, so your role competes for the recruiter attention. The model also skews toward active job seekers rather than the passive candidates who tend to be stronger hires. A milestone-based model with passive candidate access typically fills in 23 to 35 days.' } },
         ]
       }) }} />

@@ -122,7 +122,7 @@ export default function Page() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads architecture and AEC placement at BEG. BEG fills project architect, BIM manager, and design director roles through iSolved Job Placement Services on a milestone model with an 86% fill rate and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads architecture and AEC placement at BEG. BEG fills project architect, BIM manager, and design director roles through isolved Job Placement Services on a milestone model with an 86% fill rate and a 45-day replacement guarantee.</p>
         </div>
       </section>
 

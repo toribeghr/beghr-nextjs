@@ -19,19 +19,19 @@ const heroVideoCss = `
 
 export const metadata: Metadata = {
   title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG',
-  description: 'BEG delivers fully managed payroll at $25-$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23-35 days.',
+  description: 'BEG delivers fully managed payroll at $25-$45 PEPM, isolved HCM software with BEG implementation, and specialized job placement in 23-35 days.',
   alternates: {
     canonical: 'https://www.beghr.com',
   },
   openGraph: {
     title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG',
-    description: 'BEG delivers fully managed payroll at $25–$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23–35 days. All 50 states.',
+    description: 'BEG delivers fully managed payroll at $25–$45 PEPM, isolved HCM software with BEG implementation, and specialized job placement in 23–35 days. All 50 states.',
     url: 'https://www.beghr.com',
     siteName: 'Business Executive Group',
     images: [{ url: 'https://www.beghr.com/assets/og-image.png', width: 1200, height: 630, alt: 'Business Executive Group -- Managed Payroll, HCM Software & Job Placement' }],
     type: 'website',
   },
-  twitter: { card: 'summary_large_image', title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG', description: 'BEG delivers fully managed payroll at $25–$45 PEPM, iSolved HCM software with BEG implementation, and specialized job placement in 23–35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
+  twitter: { card: 'summary_large_image', title: 'Managed Payroll & HCM | Done For You. Not Software. | BEG', description: 'BEG delivers fully managed payroll at $25–$45 PEPM, isolved HCM software with BEG implementation, and specialized job placement in 23–35 days.', images: ['https://www.beghr.com/assets/og-image.png'] },
 };
 
 export default function Home() {
@@ -49,7 +49,7 @@ export default function Home() {
                 '@type': 'VideoObject',
                 name: 'Managed Payroll, HCM Software and Job Placement, Done For You',
                 description:
-                  'BEG delivers fully managed payroll, iSolved HCM software with BEG support, and specialized job placement, remote and nationwide.',
+                  'BEG delivers fully managed payroll, isolved HCM software with BEG support, and specialized job placement, remote and nationwide.',
                 thumbnailUrl: 'https://i.ytimg.com/vi/G4R14pQT3y8/maxresdefault.jpg',
                 uploadDate: '2026-06-30',
                 embedUrl: 'https://www.youtube.com/embed/G4R14pQT3y8',
@@ -61,7 +61,7 @@ export default function Home() {
             <p className="eyebrow hv-eyebrow">Business Executive Group</p>
             <h1 className="hv-title">The people side of your business is costing you more than it should.</h1>
             <p className="lede hv-lede" style={{ margin: '18px 0 0' }}>
-              Payroll eating hours every cycle. HR software nobody logs into. A key role sitting open for three months. BEG solves all three: fully managed payroll, iSolved HCM software with BEG support, and specialized job placement in 23-35 days.
+              Payroll eating hours every cycle. HR software nobody logs into. A key role sitting open for three months. BEG solves all three: fully managed payroll, isolved HCM software with BEG support, and specialized job placement in 23-35 days.
             </p>
             <HeroVideoBox videoId="G4R14pQT3y8" title="Business Executive Group" />
             <div className="hero-cta hv-cta">
@@ -100,7 +100,7 @@ export default function Home() {
               },
               {
                 stat: '330%',
-                label: 'Documented ROI for iSolved customers per Forrester Research',
+                label: 'Documented ROI for isolved customers per Forrester Research',
                 sub: 'Disconnected HR tools cost time and money on every cycle. One platform, configured correctly, pays for itself inside 12 months.',
               },
             ].map(({ stat, label, sub }) => (
@@ -212,10 +212,10 @@ export default function Home() {
             <div>
               <p className="eyebrow" style={{ color: '#ECAC60' }}>New in 2026</p>
               <h2 style={{ color: '#ffffff', fontSize: '1.6rem', fontWeight: '800', marginBottom: '1rem' }}>
-                iSolved is the only HCM platform with a Claude AI connector. BEG is your path to it.
+                isolved is the only HCM platform with a Claude AI connector. BEG is your path to it.
               </h2>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem' }}>
-                The iSolved Connector for Claude (generally available June 2026) lets your team complete HR tasks through a natural conversation with Claude AI. Not just ask questions. Actually run payroll, pull reports, update records, and manage workflows.
+                The isolved Connector for Claude (generally available June 2026) lets your team complete HR tasks through a natural conversation with Claude AI. Not just ask questions. Actually run payroll, pull reports, update records, and manage workflows.
               </p>
               <p style={{ color: '#cccccc', lineHeight: '1.7', fontSize: '0.97rem', marginTop: '0.75rem' }}>
                 Paycom, Paylocity, and ADP have no equivalent. Companies that build their HR workflows around it now will compound that advantage for years.
@@ -239,7 +239,7 @@ export default function Home() {
                 href="/services/hcm-software"
                 style={{ marginTop: '0.5rem', display: 'inline-block', width: 'fit-content' }}
               >
-                See iSolved + BEG
+                See isolved + BEG
               </a>
             </div>
           </div>
@@ -285,7 +285,7 @@ export default function Home() {
             </div>
             <div className="faq-item">
               <h3>Is BEG a software company or a service company?</h3>
-              <p>Both. Managed Payroll is done-for-you. HCM Software is the iSolved People Cloud platform, which BEG implements and supports. Job Placement is an active search service. The model fits whichever problem you need solved.</p>
+              <p>Both. Managed Payroll is done-for-you. HCM Software is the isolved People Cloud platform, which BEG implements and supports. Job Placement is an active search service. The model fits whichever problem you need solved.</p>
             </div>
             <div className="faq-item">
               <h3>What size companies do you work with?</h3>
@@ -314,7 +314,7 @@ export default function Home() {
               {
                 '@type': 'Question',
                 name: 'Is BEG a software company or a service company?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Both. Managed Payroll is done-for-you. HCM Software is the iSolved People Cloud platform BEG implements and supports. Job Placement is an active search service.' },
+                acceptedAnswer: { '@type': 'Answer', text: 'Both. Managed Payroll is done-for-you. HCM Software is the isolved People Cloud platform BEG implements and supports. Job Placement is an active search service.' },
               },
               {
                 '@type': 'Question',

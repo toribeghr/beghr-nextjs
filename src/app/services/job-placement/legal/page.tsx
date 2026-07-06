@@ -226,7 +226,7 @@ export default function PlacementLegalPage() {
             </div>
             <div className="faq-item">
               <h3>How is this different from a staffing agency?</h3>
-              <p>We are not a staffing agency. We do not place temporary or contract workers. This is direct placement - milestone-based, with you hiring the candidate directly. Clients pay iSolved directly at defined milestones, not us on commission. We are a placement service, not a temp shop.</p>
+              <p>We are not a staffing agency. We do not place temporary or contract workers. This is direct placement - milestone-based, with you hiring the candidate directly. Clients pay isolved directly at defined milestones, not us on commission. We are a placement service, not a temp shop.</p>
             </div>
             <div className="faq-item">
               <h3>What size firms do you work with?</h3>
@@ -269,7 +269,7 @@ export default function PlacementLegalPage() {
                 name: 'How is this different from a staffing agency?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'We are not a staffing agency. This is direct placement with milestone-based pricing. Clients pay iSolved directly at defined milestones. We are a placement service, not a temp shop.',
+                  text: 'We are not a staffing agency. This is direct placement with milestone-based pricing. Clients pay isolved directly at defined milestones. We are a placement service, not a temp shop.',
                 },
               },
               {

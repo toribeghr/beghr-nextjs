@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency for finance roles?',
-    answer: 'No. BEG places permanent, direct hire finance professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire finance professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -115,7 +115,7 @@ export default function FinanceSalaryTrendsPage() {
           How BEG Helps You Close
         </h2>
         <p>
-          BEG fills permanent corporate finance roles, from financial analyst through finance manager and FP&amp;A leadership, through iSolved Job Placement Services. Beyond sourcing passive candidates the job boards miss, BEG helps benchmark the offer, frame the opportunity, and manage the close through resignation and start to reduce counter-offer risk. The average fill time is 23-35 days, the fill rate is 86%, fees run roughly 50% less than standard contingency, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff. See the full practice on the <a href="/services/job-placement/finance">finance placement</a> page, or the role detail on the <a href="/services/job-placement/finance/vp-finance">VP of finance placement</a> page.
+          BEG fills permanent corporate finance roles, from financial analyst through finance manager and FP&amp;A leadership, through isolved Job Placement Services. Beyond sourcing passive candidates the job boards miss, BEG helps benchmark the offer, frame the opportunity, and manage the close through resignation and start to reduce counter-offer risk. The average fill time is 23-35 days, the fill rate is 86%, fees run roughly 50% less than standard contingency, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff. See the full practice on the <a href="/services/job-placement/finance">finance placement</a> page, or the role detail on the <a href="/services/job-placement/finance/vp-finance">VP of finance placement</a> page.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -147,7 +147,7 @@ export default function FinanceSalaryTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads accounting and finance placement at Business Executive Group. BEG fills financial analyst, finance manager, and FP&amp;A leadership roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads accounting and finance placement at Business Executive Group. BEG fills financial analyst, finance manager, and FP&amp;A leadership roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

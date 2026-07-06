@@ -40,11 +40,11 @@ const faqs = [
   },
   {
     q: 'How long does implementation take?',
-    a: 'Most BEG clients are running their first live managed payroll within 3-5 business days of signing. The implementation process includes a discovery call to review your current setup, data migration or system access configuration, a test cycle to verify everything, and confirmation of your dedicated BEG contact before the first live run. If we work in your existing payroll system rather than migrating you to iSolved, implementation is often faster because there is no platform setup required.',
+    a: 'Most BEG clients are running their first live managed payroll within 3-5 business days of signing. The implementation process includes a discovery call to review your current setup, data migration or system access configuration, a test cycle to verify everything, and confirmation of your dedicated BEG contact before the first live run. If we work in your existing payroll system rather than migrating you to isolved, implementation is often faster because there is no platform setup required.',
   },
   {
     q: 'Do I need to migrate to a new system?',
-    a: `No. BEG can run payroll in your existing payroll system, including ADP, Paychex, QuickBooks Payroll, and others, or in BEG\'s own iSolved account if you prefer. Most clients do not migrate anything. We configure our process around your current setup and run from there. This is one of the reasons BEG clients switch quickly: there is no painful data migration, no employee re-training on new software, and no disruption to how your team works.`,
+    a: `No. BEG can run payroll in your existing payroll system, including ADP, Paychex, QuickBooks Payroll, and others, or in BEG\'s own isolved account if you prefer. Most clients do not migrate anything. We configure our process around your current setup and run from there. This is one of the reasons BEG clients switch quickly: there is no painful data migration, no employee re-training on new software, and no disruption to how your team works.`,
   },
   {
     q: 'What states do you cover?',
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: 'What payroll software do you work with?',
-    a: `BEG can work within your existing payroll platform or run payroll in our iSolved account. Existing platforms BEG can work within include ADP Run, ADP Workforce Now, Paychex Flex, QuickBooks Payroll, Gusto, and other major platforms. If you prefer to move to iSolved, BEG handles the migration as part of onboarding. iSolved is BEG\'s preferred platform for new clients because of its compliance automation, SOC 2 Type II security posture, and comprehensive reporting capabilities. The choice is yours and does not affect your PEPM rate.`,
+    a: `BEG can work within your existing payroll platform or run payroll in our isolved account. Existing platforms BEG can work within include ADP Run, ADP Workforce Now, Paychex Flex, QuickBooks Payroll, Gusto, and other major platforms. If you prefer to move to isolved, BEG handles the migration as part of onboarding. isolved is BEG\'s preferred platform for new clients because of its compliance automation, SOC 2 Type II security posture, and comprehensive reporting capabilities. The choice is yours and does not affect your PEPM rate.`,
   },
   {
     q: 'How do I get started?',

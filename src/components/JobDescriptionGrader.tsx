@@ -411,7 +411,7 @@ export default function JobDescriptionGrader() {
         </div>
 
         <p style={{ fontSize: '0.78rem', color: '#999', marginTop: '1rem', textAlign: 'center', lineHeight: '1.5' }}>
-          Nothing you paste leaves your browser. BEG is a permanent placement service and an authorized reseller of iSolved Job Placement, not a staffing agency.
+          Nothing you paste leaves your browser. BEG is a permanent placement service and an authorized reseller of isolved Job Placement, not a staffing agency.
         </p>
       </div>
     </section>

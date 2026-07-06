@@ -205,7 +205,7 @@ export default function RecruitingFeeCalculator() {
               { title: 'Milestone-based fees', items: ['You pay across defined milestones', 'Not a single large contingency invoice', 'Roughly 50% less than contingency', 'Predictable, transparent cost'] },
               { title: 'Permanent placements', items: ['Direct-hire, permanent roles', 'Not temporary or contract staffing', 'Candidates join your payroll', '45-day replacement guarantee'] },
               { title: 'Fast time to fill', items: ['Roles filled in 23 to 35 days', '86% fill rate', 'Less time with the seat empty', 'Speed that protects your output'] },
-              { title: 'Backed by iSolved', items: ['Authorized reseller of iSolved Job Placement', 'Proven placement methodology', 'Dedicated BEG contact', 'Support through onboarding'] },
+              { title: 'Backed by isolved', items: ['Authorized reseller of isolved Job Placement', 'Proven placement methodology', 'Dedicated BEG contact', 'Support through onboarding'] },
             ].map(({ title, items }) => (
               <div key={title} style={{ background: '#fff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '0.95rem', fontWeight: '700', marginBottom: '0.85rem', borderBottom: '2px solid #ECAC60', paddingBottom: '0.4rem' }}>{title}</h3>

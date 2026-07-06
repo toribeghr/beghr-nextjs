@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "What does BEG charge for LLC owner and employee payroll?",
-    answer: "BEG manages LLC payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's iSolved platform. For an S-corp LLC with the owner on salary plus 5 employees, that is 6 people at $25 to $45 each -- $150 to $270 per month, all-inclusive. If you just need your own S-corp salary processed, that is $25 to $45 per month. All-inclusive: tax filings, W-2 production, and setup in 3 to 5 business days.",
+    answer: "BEG manages LLC payroll at $25 per employee per month on your existing system, or $45 per employee per month on BEG's isolved platform. For an S-corp LLC with the owner on salary plus 5 employees, that is 6 people at $25 to $45 each -- $150 to $270 per month, all-inclusive. If you just need your own S-corp salary processed, that is $25 to $45 per month. All-inclusive: tax filings, W-2 production, and setup in 3 to 5 business days.",
   },
 ];
 

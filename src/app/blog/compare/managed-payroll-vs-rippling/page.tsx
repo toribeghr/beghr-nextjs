@@ -103,7 +103,7 @@ export default function ManagedPayrollVsRipplingPage() {
                 ['Learning curve', 'Significant -- complex platform', 'None -- we handle it'],
                 ['Pricing model', '$8–$70+/employee/mo (modular)', '$25–$45 PEPM, all-in'],
                 ['Contract required', 'Annual, modular pricing', 'Month-to-month'],
-                ['Works with existing systems', 'Requires Rippling ecosystem', 'Yes -- or move to iSolved'],
+                ['Works with existing systems', 'Requires Rippling ecosystem', 'Yes -- or move to isolved'],
                 ['Employee questions', 'Self-service app', 'BEG handles directly'],
                 ['True annual cost (50 employees)', '$30,000–$60,000+ (full suite)', '$15,000–$27,000'],
               ].map(([factor, rippling, beg], i) => (

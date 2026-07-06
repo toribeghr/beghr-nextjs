@@ -136,7 +136,7 @@ export default function HowToChooseARecruitingFirmPage() {
           How BEG Answers the Five Questions
         </h2>
         <p>
-          For transparency, here is how BEG scores on its own checklist. BEG fills permanent roles through iSolved Job Placement Services on a milestone-based model: the fee runs roughly 50% less than standard contingency, billed against defined milestones with no retainer at risk. The program averages a 23-35 day fill time, an 86% fill rate, and a 45-day replacement guarantee, and it reaches passive candidates who never see a job posting. It covers specialized fields, from <a href="/services/job-placement/legal" style={{ color: '#000', fontWeight: 700, textDecoration: 'underline' }}>legal</a> to accounting, through focused permanent <a href="/services/job-placement" style={{ color: '#000', fontWeight: 700, textDecoration: 'underline' }}>job placement</a>. BEG is not a staffing agency and places permanent employees only.
+          For transparency, here is how BEG scores on its own checklist. BEG fills permanent roles through isolved Job Placement Services on a milestone-based model: the fee runs roughly 50% less than standard contingency, billed against defined milestones with no retainer at risk. The program averages a 23-35 day fill time, an 86% fill rate, and a 45-day replacement guarantee, and it reaches passive candidates who never see a job posting. It covers specialized fields, from <a href="/services/job-placement/legal" style={{ color: '#000', fontWeight: 700, textDecoration: 'underline' }}>legal</a> to accounting, through focused permanent <a href="/services/job-placement" style={{ color: '#000', fontWeight: 700, textDecoration: 'underline' }}>job placement</a>. BEG is not a staffing agency and places permanent employees only.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -157,7 +157,7 @@ export default function HowToChooseARecruitingFirmPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders evaluate recruiting firms and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders evaluate recruiting firms and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>
@@ -180,7 +180,7 @@ export default function HowToChooseARecruitingFirmPage() {
           { '@type': 'Question', name: 'How do you choose the right recruiting firm?', acceptedAnswer: { '@type': 'Answer', text: 'Compare firms on five concrete factors: the fee model, the total cost in dollars, the average time to fill, the historical fill rate, and the replacement guarantee. Ask every firm the same questions and score them the same way, rather than choosing on reputation and a fee percentage alone.' } },
           { '@type': 'Question', name: 'What questions should I ask a recruiter before signing?', acceptedAnswer: { '@type': 'Answer', text: 'Ask what the fee model is and when you pay, what the all-in cost is on your salary, the average time to fill, the historical fill rate, and the replacement guarantee terms. Clear numbers on each let you compare providers fairly.' } },
           { '@type': 'Question', name: 'What are red flags when choosing a recruiting firm?', acceptedAnswer: { '@type': 'Answer', text: 'Watch for a firm that cannot give a clear fill rate or time-to-fill number, a vague replacement guarantee, sourcing that relies only on active job board candidates, and pressure to sign exclusivity without any commitment to speed.' } },
-          { '@type': 'Question', name: 'How does BEG compare on these criteria?', acceptedAnswer: { '@type': 'Answer', text: 'BEG uses a milestone-based model at roughly 50 percent less than contingency, billed against defined milestones with no retainer at risk. It averages a 23 to 35 day fill time, an 86 percent fill rate, and a 45-day replacement guarantee, placing permanent employees only through iSolved Job Placement Services.' } },
+          { '@type': 'Question', name: 'How does BEG compare on these criteria?', acceptedAnswer: { '@type': 'Answer', text: 'BEG uses a milestone-based model at roughly 50 percent less than contingency, billed against defined milestones with no retainer at risk. It averages a 23 to 35 day fill time, an 86 percent fill rate, and a 45-day replacement guarantee, placing permanent employees only through isolved Job Placement Services.' } },
         ]
       }) }} />
           <RelatedPosts posts={[

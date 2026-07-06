@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency?',
-    answer: 'No. BEG places permanent, direct hire executives only. It is not a staffing agency and does not provide interim or fractional leaders. BEG runs a confidential, milestone-based search through iSolved Job Placement Services, at roughly 50 percent less than retained search, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire executives only. It is not a staffing agency and does not provide interim or fractional leaders. BEG runs a confidential, milestone-based search through isolved Job Placement Services, at roughly 50 percent less than retained search, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -118,7 +118,7 @@ export default function ExecutiveCompensationTrendsPage() {
           How BEG Helps You Close
         </h2>
         <p>
-          BEG fills senior leadership roles through iSolved Job Placement Services on a confidential, milestone-based model, and the support extends through the offer stage where comp deals are won or lost. The pipeline reaches passive executives directly, the average fill time is 23-35 days, and the fill rate is 86%. BEG advises on packaging and stays with the candidate through resignation and start to reduce counter-offer risk. Fees run roughly 50% less than traditional retained search, with a 45-day replacement guarantee. BEG places permanent, direct hire leaders only, including the <a href="/services/job-placement/executive/chief-financial-officer">chief financial officer</a>, and is not a staffing agency.
+          BEG fills senior leadership roles through isolved Job Placement Services on a confidential, milestone-based model, and the support extends through the offer stage where comp deals are won or lost. The pipeline reaches passive executives directly, the average fill time is 23-35 days, and the fill rate is 86%. BEG advises on packaging and stays with the candidate through resignation and start to reduce counter-offer risk. Fees run roughly 50% less than traditional retained search, with a 45-day replacement guarantee. BEG places permanent, direct hire leaders only, including the <a href="/services/job-placement/executive/chief-financial-officer">chief financial officer</a>, and is not a staffing agency.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -149,7 +149,7 @@ export default function ExecutiveCompensationTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads executive and leadership placement at Business Executive Group. BEG fills CEO, COO, CFO, and other senior roles through iSolved Job Placement Services, a confidential, milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads executive and leadership placement at Business Executive Group. BEG fills CEO, COO, CFO, and other senior roles through isolved Job Placement Services, a confidential, milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

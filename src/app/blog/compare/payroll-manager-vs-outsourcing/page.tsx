@@ -147,7 +147,7 @@ export default function PayrollManagerVsOutsourcingPage() {
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>$25/PEPM</strong> -- if you stay on your existing payroll system (we run it for you)</li>
-          <li><strong>$45/PEPM</strong> -- if you move to BEG's iSolved account (includes the software)</li>
+          <li><strong>$45/PEPM</strong> -- if you move to BEG's isolved account (includes the software)</li>
         </ul>
         <p>
           For a 50-person company, that's <strong>$1,250–$2,250/month</strong>, or <strong>$15,000–$27,000/year</strong>, all-inclusive: payroll processing, tax filings, year-end W-2s and 1099s, compliance monitoring, and employee question handling.

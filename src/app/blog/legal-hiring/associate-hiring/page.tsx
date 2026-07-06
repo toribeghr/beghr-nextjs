@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: 'How is BEG different from a contingency recruiter?',
-    answer: 'Traditional contingency recruiters are paid only when a hire is made, which creates incentives to push candidates quickly rather than find the right fit. BEG operates on a milestone-based model through iSolved Job Placement Services -- fees are structured around process milestones, not just the final placement. Clients pay iSolved directly; BEG earns a commission. There is no upfront retainer and the 45-day replacement guarantee protects the firm if the hire does not work out.',
+    answer: 'Traditional contingency recruiters are paid only when a hire is made, which creates incentives to push candidates quickly rather than find the right fit. BEG operates on a milestone-based model through isolved Job Placement Services -- fees are structured around process milestones, not just the final placement. Clients pay isolved directly; BEG earns a commission. There is no upfront retainer and the 45-day replacement guarantee protects the firm if the hire does not work out.',
   },
   {
     question: 'What does the 45-day replacement guarantee cover?',
@@ -167,12 +167,12 @@ export default function AssociateHiringPage() {
               <tr style={{ background: '#000', color: '#fff' }}>
                 <th style={{ padding: '0.75rem', textAlign: 'left' }}>Factor</th>
                 <th style={{ padding: '0.75rem', textAlign: 'left' }}>Contingency Recruiter</th>
-                <th style={{ padding: '0.75rem', textAlign: 'left' }}>BEG Job Placement (via iSolved)</th>
+                <th style={{ padding: '0.75rem', textAlign: 'left' }}>BEG Job Placement (via isolved)</th>
               </tr>
             </thead>
             <tbody>
               {[
-                ['Fee structure', '20-30% of first-year salary, due at hire', 'Milestone-based; clients pay iSolved directly'],
+                ['Fee structure', '20-30% of first-year salary, due at hire', 'Milestone-based; clients pay isolved directly'],
                 ['Incentive alignment', 'Paid to close; may push speed over fit', 'Milestone model aligns with quality and placement success'],
                 ['Replacement guarantee', 'Varies; often 60-90 days, limited conditions', '45 days, no conditions; 50% off repeat same-role hire'],
                 ['Fill rate', 'Industry average: ~60-70%', '86%'],
@@ -234,7 +234,7 @@ export default function AssociateHiringPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', margin: '2rem 0', borderRadius: '4px' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Anthony Moretti, VP of Sales</strong>
-          <p style={{ margin: 0 }}>Anthony leads legal placement at Business Executive Group. BEG places associates, counsel, and senior attorneys at law firms with 11-200 attorneys through iSolved Job Placement Services -- a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0 }}>Anthony leads legal placement at Business Executive Group. BEG places associates, counsel, and senior attorneys at law firms with 11-200 attorneys through isolved Job Placement Services -- a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
       </section>
 

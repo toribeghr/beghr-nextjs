@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is BEG a staffing agency for engineering roles?',
-    answer: 'No. BEG places permanent, direct hire engineering professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through iSolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
+    answer: 'No. BEG places permanent, direct hire engineering professionals only. It is not a staffing agency and does not provide temporary or contract staff. BEG fills roles on a milestone-based model through isolved Job Placement Services, with an 86 percent fill rate and a 45-day replacement guarantee.',
   },
 ];
 
@@ -111,7 +111,7 @@ export default function EngineeringSalaryTrendsPage() {
           How BEG Helps You Close
         </h2>
         <p>
-          BEG fills permanent engineering roles, from mechanical and design engineers through project engineers and engineering managers, through iSolved Job Placement Services. Beyond sourcing passive candidates the job boards miss, BEG helps benchmark the offer, frame the opportunity, and manage the close through resignation and start to reduce counter-offer risk. The average fill time is 23-35 days, the fill rate is 86%, fees run roughly 50% less than standard contingency, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff. See the full practice on the <a href="/services/job-placement/engineering">engineering placement</a> page, or the role detail on the <a href="/services/job-placement/engineering/engineering-manager">engineering manager placement</a> page.
+          BEG fills permanent engineering roles, from mechanical and design engineers through project engineers and engineering managers, through isolved Job Placement Services. Beyond sourcing passive candidates the job boards miss, BEG helps benchmark the offer, frame the opportunity, and manage the close through resignation and start to reduce counter-offer risk. The average fill time is 23-35 days, the fill rate is 86%, fees run roughly 50% less than standard contingency, and every placement carries a 45-day replacement guarantee. BEG places permanent, direct hire professionals only, not temporary staff. See the full practice on the <a href="/services/job-placement/engineering">engineering placement</a> page, or the role detail on the <a href="/services/job-placement/engineering/engineering-manager">engineering manager placement</a> page.
         </p>
 
         <div style={{ background: '#000', color: '#fff', padding: '2.5rem', borderRadius: '8px', textAlign: 'center', margin: '3rem 0' }}>
@@ -143,7 +143,7 @@ export default function EngineeringSalaryTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads engineering and technical placement at Business Executive Group. BEG fills mechanical, project, and design engineering roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads engineering and technical placement at Business Executive Group. BEG fills mechanical, project, and design engineering roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

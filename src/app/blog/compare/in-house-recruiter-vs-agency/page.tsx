@@ -137,12 +137,12 @@ export default function InHouseRecruiterVsAgencyPage() {
           Where Milestone-Based Placement Fits
         </h2>
         <p>
-          For a single urgent role, BEG offers a third path that avoids both the fixed cost of a hire and the slow, non-exclusive default of a contingency agency. BEG fills permanent roles on a milestone-based model through iSolved Job Placement Services:
+          For a single urgent role, BEG offers a third path that avoids both the fixed cost of a hire and the slow, non-exclusive default of a contingency agency. BEG fills permanent roles on a milestone-based model through isolved Job Placement Services:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>No fixed headcount cost.</strong> You engage BEG for the role you need filled, not for a year of salary.</li>
           <li><strong>Passive candidate access built in.</strong> The pipeline reaches employed candidates who never see a posting, which a generalist in-house recruiter usually cannot.</li>
-          <li><strong>Roughly 50% less than contingency.</strong> The iSolved platform reduces the sourcing overhead agencies price into their fee.</li>
+          <li><strong>Roughly 50% less than contingency.</strong> The isolved platform reduces the sourcing overhead agencies price into their fee.</li>
           <li><strong>23-35 day average fill time, 86% fill rate.</strong> Built for speed on a specific role, not a year-round funnel.</li>
           <li><strong>45-day replacement guarantee.</strong> If the placed employee leaves within 45 days, BEG fills the role again at no additional fee.</li>
         </ul>
@@ -168,7 +168,7 @@ export default function InHouseRecruiterVsAgencyPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders decide when to build a recruiting function and when to bring in outside help, and fills permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders decide when to build a recruiting function and when to bring in outside help, and fills permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>
@@ -191,7 +191,7 @@ export default function InHouseRecruiterVsAgencyPage() {
           { '@type': 'Question', name: 'Is it cheaper to use an in-house recruiter or an agency?', acceptedAnswer: { '@type': 'Answer', text: 'An in-house recruiter is cheaper per hire only at volume, because the loaded salary of $90,000 to $150,000 a year is spread across many hires. For a few occasional or specialized roles, paying per hire through an agency or a milestone-based model is usually less expensive.' } },
           { '@type': 'Question', name: 'When should I hire an in-house recruiter?', acceptedAnswer: { '@type': 'Answer', text: 'Hire an in-house recruiter when you are filling roles continuously and have enough volume to justify a fixed salary. For one or two urgent or specialized roles, an outside firm or a milestone-based placement model fills the need without a permanent headcount cost.' } },
           { '@type': 'Question', name: 'Why do agency searches sometimes take so long?', acceptedAnswer: { '@type': 'Answer', text: 'Traditional contingency agency searches are usually non-exclusive, so your role competes for the recruiter attention, and sourcing tends to skew toward active job seekers. A milestone-based model with passive candidate access typically fills permanent roles in 23 to 35 days.' } },
-          { '@type': 'Question', name: 'Can a placement firm fill one role without an ongoing contract?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG fills a single permanent role on a milestone-based model through iSolved Job Placement Services with no ongoing contract or fixed headcount cost. There is no upfront retainer, the fee runs roughly 50 percent less than standard contingency, and the placement carries a 45-day replacement guarantee.' } },
+          { '@type': 'Question', name: 'Can a placement firm fill one role without an ongoing contract?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. BEG fills a single permanent role on a milestone-based model through isolved Job Placement Services with no ongoing contract or fixed headcount cost. There is no upfront retainer, the fee runs roughly 50 percent less than standard contingency, and the placement carries a 45-day replacement guarantee.' } },
         ]
       }) }} />
           <RelatedPosts posts={[

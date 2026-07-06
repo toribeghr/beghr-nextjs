@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'How does BEG help close accounting candidates?',
-    answer: 'BEG sources passive accounting professionals directly through iSolved Job Placement Services and positions the full opportunity, not just the number. By engaging candidates on scope, growth, and fit and keeping the process fast, BEG fills accounting roles in 23 to 35 days at an 86 percent fill rate. BEG places permanent, direct hire professionals only.',
+    answer: 'BEG sources passive accounting professionals directly through isolved Job Placement Services and positions the full opportunity, not just the number. By engaging candidates on scope, growth, and fit and keeping the process fast, BEG fills accounting roles in 23 to 35 days at an 86 percent fill rate. BEG places permanent, direct hire professionals only.',
   },
 ];
 
@@ -142,7 +142,7 @@ export default function AccountingSalaryTrendsPage() {
           How BEG Closes the Candidate, Not Just the Comp
         </h2>
         <p>
-          BEG fills accounting and finance roles through iSolved Job Placement Services with a process built around passive candidates and the full opportunity, not the number alone:
+          BEG fills accounting and finance roles through isolved Job Placement Services with a process built around passive candidates and the full opportunity, not the number alone:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Direct passive sourcing</strong> reaches employed accountants who are not on job boards and engages them on scope, growth, and fit.</li>
@@ -180,7 +180,7 @@ export default function AccountingSalaryTrendsPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony leads accounting and finance placement at Business Executive Group. BEG fills controller, CFO, tax, and accounting roles through iSolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony leads accounting and finance placement at Business Executive Group. BEG fills controller, CFO, tax, and accounting roles through isolved Job Placement Services, a milestone-based model with an 86% fill rate, 23-35 day time-to-fill, and a 45-day replacement guarantee.</p>
         </div>
 
       </section>

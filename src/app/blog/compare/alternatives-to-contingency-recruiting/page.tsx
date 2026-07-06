@@ -122,7 +122,7 @@ export default function AlternativesToContingencyRecruitingPage() {
           Milestone-Based Placement: The Middle Path
         </h2>
         <p>
-          Milestone-based placement keeps the part of contingency that firms like, no up-front retainer at risk, and fixes the part that hurts, slow non-dedicated sourcing. BEG fills permanent roles this way through iSolved Job Placement Services. Fees are tied to defined search milestones rather than a single lump sum, and the total runs roughly 50% less than standard contingency. The discount is structural: the iSolved platform reduces the manual sourcing overhead traditional recruiters price into their fee.
+          Milestone-based placement keeps the part of contingency that firms like, no up-front retainer at risk, and fixes the part that hurts, slow non-dedicated sourcing. BEG fills permanent roles this way through isolved Job Placement Services. Fees are tied to defined search milestones rather than a single lump sum, and the total runs roughly 50% less than standard contingency. The discount is structural: the isolved platform reduces the manual sourcing overhead traditional recruiters price into their fee.
         </p>
         <p>
           The lower fee does not buy a weaker result. The program averages a 23-35 day fill time and an 86% fill rate, reaches passive candidates who are not on job boards, and carries a 45-day replacement guarantee. If the placed employee leaves within 45 days, BEG fills the role again at no additional fee. This is permanent <a href="/services/job-placement" style={{ color: '#000', fontWeight: 700, textDecoration: 'underline' }}>job placement</a>, not staffing, and it applies across specialized fields like <a href="/services/job-placement/legal" style={{ color: '#000', fontWeight: 700, textDecoration: 'underline' }}>legal placement</a>.
@@ -146,7 +146,7 @@ export default function AlternativesToContingencyRecruitingPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders weigh recruiting models and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders weigh recruiting models and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services.</p>
         </div>
 
       </section>
@@ -167,7 +167,7 @@ export default function AlternativesToContingencyRecruitingPage() {
         '@type': 'FAQPage',
         mainEntity: [
           { '@type': 'Question', name: 'What are the alternatives to contingency recruiting?', acceptedAnswer: { '@type': 'Answer', text: 'The main alternatives are retained search, recruitment process outsourcing (RPO), building an in-house recruiting team, and milestone-based placement. Each keeps some of what contingency offers and fixes a different weakness, so the right choice depends on hiring volume, seniority, and how much up-front risk you want to carry.' } },
-          { '@type': 'Question', name: 'Is there a cheaper option than contingency recruiting?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. A milestone-based model is typically the lowest-cost option that still reaches passive candidates. BEG fills permanent roles at roughly 50 percent less than standard contingency through iSolved Job Placement Services, with no up-front retainer and a 45-day replacement guarantee.' } },
+          { '@type': 'Question', name: 'Is there a cheaper option than contingency recruiting?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. A milestone-based model is typically the lowest-cost option that still reaches passive candidates. BEG fills permanent roles at roughly 50 percent less than standard contingency through isolved Job Placement Services, with no up-front retainer and a 45-day replacement guarantee.' } },
           { '@type': 'Question', name: 'How is milestone-based placement different from retained search?', acceptedAnswer: { '@type': 'Answer', text: 'Retained search bills a similar total to contingency but in stages before the hire, so you carry the risk if no one is placed. Milestone-based placement ties fees to defined search milestones, runs roughly 50 percent less than contingency, and carries no up-front retainer at risk.' } },
           { '@type': 'Question', name: 'When does RPO make more sense than contingency?', acceptedAnswer: { '@type': 'Answer', text: 'RPO makes sense when you are hiring continuously at volume, since its monthly or per-hire contract spreads cost across many roles. For a handful of permanent roles a year, a per-placement model such as milestone-based placement is usually more economical.' } },
         ]

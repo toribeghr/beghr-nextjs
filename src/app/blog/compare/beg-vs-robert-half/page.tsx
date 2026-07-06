@@ -112,7 +112,7 @@ export default function BegVsRobertHalfPage() {
           Where BEG Is a Strong Fit
         </h2>
         <p>
-          When the need is specifically a permanent direct hire and cost and speed matter, BEG&apos;s focus is the advantage. BEG fills permanent roles through iSolved Job Placement Services on a milestone-based model:
+          When the need is specifically a permanent direct hire and cost and speed matter, BEG&apos;s focus is the advantage. BEG fills permanent roles through isolved Job Placement Services on a milestone-based model:
         </p>
         <ul style={{ marginLeft: '1.5rem', lineHeight: '2', marginBottom: '1rem' }}>
           <li><strong>Roughly 50% less than standard contingency.</strong> Fees are tied to defined milestones rather than a single lump sum.</li>
@@ -153,7 +153,7 @@ export default function BegVsRobertHalfPage() {
 
         <div style={{ background: '#f7f7f7', padding: '1.5rem', borderLeft: '4px solid #ECAC60', borderRadius: '4px', margin: '2rem 0' }}>
           <strong style={{ display: 'block', marginBottom: '0.5rem' }}>Anthony Moretti, VP of Sales - Business Executive Group</strong>
-          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders compare placement providers and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of iSolved Job Placement Services. Robert Half is a trademark of its respective owner and is not affiliated with BEG.</p>
+          <p style={{ margin: 0, color: '#444' }}>Anthony helps hiring leaders compare placement providers and fill permanent roles faster and at lower cost than traditional contingency search. BEG is an authorized reseller of isolved Job Placement Services. Robert Half is a trademark of its respective owner and is not affiliated with BEG.</p>
         </div>
 
       </section>
@@ -176,7 +176,7 @@ export default function BegVsRobertHalfPage() {
           { '@type': 'Question', name: 'What is the difference between BEG and Robert Half?', acceptedAnswer: { '@type': 'Answer', text: 'Robert Half is a large staffing and placement firm covering temporary, contract, and permanent hiring across many fields. BEG focuses only on permanent placement using a milestone-based fee model that runs roughly 50 percent less than standard contingency. The difference is scope and pricing structure.' } },
           { '@type': 'Question', name: 'Is BEG cheaper than Robert Half for permanent placement?', acceptedAnswer: { '@type': 'Answer', text: 'For permanent direct hire, BEG milestone-based placement is designed to run roughly 50 percent less than standard contingency, which commonly sits at 20 to 25 percent of salary. Exact Robert Half terms vary by role and agreement, so confirm current pricing directly when you compare.' } },
           { '@type': 'Question', name: 'When is Robert Half the better choice?', acceptedAnswer: { '@type': 'Answer', text: 'Robert Half is a strong fit when you need temporary staffing, contract-to-hire flexibility, or coverage across many locations and specialties under one national vendor. BEG does not offer temporary or contract staffing, so for those needs a large staffing firm is the right call.' } },
-          { '@type': 'Question', name: 'Does BEG place temporary or contract workers?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG places permanent, direct hire employees only and is not a staffing agency. It uses a milestone-based permanent placement model as an authorized reseller of iSolved Job Placement Services, with a 45-day replacement guarantee.' } },
+          { '@type': 'Question', name: 'Does BEG place temporary or contract workers?', acceptedAnswer: { '@type': 'Answer', text: 'No. BEG places permanent, direct hire employees only and is not a staffing agency. It uses a milestone-based permanent placement model as an authorized reseller of isolved Job Placement Services, with a 45-day replacement guarantee.' } },
         ]
       }) }} />
           <RelatedPosts posts={[

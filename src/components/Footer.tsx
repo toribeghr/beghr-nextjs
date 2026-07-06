@@ -274,6 +274,15 @@ export default function Footer() {
             <Link href="/services/job-placement/government" className="footer-link">Government Contracting</Link>
           </div>
 
+          {/* Free HR Templates */}
+          <div className="footer-col">
+            <h5 className="footer-col-heading">Free HR Templates</h5>
+            <Link href="/resources/templates" className="footer-link footer-link--overview">Overview</Link>
+            <Link href="/resources/templates/i-9-employment-eligibility-verification" className="footer-link">I-9 Employment Eligibility</Link>
+            <Link href="/resources/templates/employee-offer-letter" className="footer-link">Employee Offer Letter</Link>
+            <Link href="/resources/templates/employee-handbook-starter" className="footer-link">Employee Handbook Starter</Link>
+          </div>
+
           {/* Partners */}
           <div className="footer-col">
             <h5 className="footer-col-heading">Partners</h5>

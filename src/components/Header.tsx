@@ -25,6 +25,7 @@ const navGroups = [
     label: 'Resources',
     items: [
       { href: '/blog',                label: 'All Articles',         hub: true  },
+      { href: '/resources/templates', label: 'Free HR Templates',    hub: false },
       { href: '/blog/compare',        label: 'Compare Alternatives', hub: false },
       { href: '/blog/legal-hiring',   label: 'Legal Hiring Guides',  hub: false },
       { href: '/blog/payroll',        label: 'Payroll by Industry',  hub: false },

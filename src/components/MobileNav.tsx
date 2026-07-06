@@ -42,6 +42,7 @@ const NAV_GROUPS: NavGroup[] = [
     label: 'Resources',
     links: [
       { label: 'All Articles', href: '/blog' },
+      { label: 'Free HR Templates', href: '/resources/templates' },
       { label: 'Compare Alternatives', href: '/blog/compare' },
       { label: 'Legal Hiring Guides', href: '/blog/legal-hiring' },
       { label: 'Payroll by Industry', href: '/blog/payroll' },

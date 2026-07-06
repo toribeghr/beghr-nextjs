@@ -24,6 +24,13 @@ const nextConfig = {
     webpackBuildWorker: true,
     memoryBasedWorkersCount: true,
     workerThreads: false,
+    // The build sits right at the 8GB edge. docxtemplater + pizzip (used only by the
+    // /api/templates/generate route) otherwise get parsed, bundled, and minified into the
+    // server webpack graph, and that extra heap was enough to tip the compile into an OOM
+    // SIGKILL. Externalizing them keeps both out of the webpack compile entirely — they are
+    // require()d from node_modules at runtime (still traced into the function because the
+    // import specifiers are static), which restores the build's headroom.
+    serverComponentsExternalPackages: ['docxtemplater', 'pizzip', 'pdf-lib', '@react-pdf/renderer'],
   },
   redirects: async () => {
     // Legacy .html service URLs from the old site are still indexed in Google

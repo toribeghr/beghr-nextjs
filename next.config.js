@@ -30,7 +30,7 @@ const nextConfig = {
     // SIGKILL. Externalizing them keeps both out of the webpack compile entirely — they are
     // require()d from node_modules at runtime (still traced into the function because the
     // import specifiers are static), which restores the build's headroom.
-    serverComponentsExternalPackages: ['docxtemplater', 'pizzip', 'pdf-lib'],
+    serverComponentsExternalPackages: ['docxtemplater', 'pizzip', 'pdf-lib', '@react-pdf/renderer'],
   },
   redirects: async () => {
     // Legacy .html service URLs from the old site are still indexed in Google

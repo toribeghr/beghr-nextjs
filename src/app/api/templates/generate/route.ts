@@ -4,6 +4,7 @@ import Docxtemplater from 'docxtemplater';
 import { getTemplateBySlug, type Template } from '@/lib/templates';
 import { getTemplateFileBytes } from '@/lib/template-files/registry';
 import { getPdfFiller } from '@/lib/template-files/pdf-fillers';
+import { getPdfGenerator } from '@/lib/template-files/pdf-generators';
 import { validateWorkEmail } from '@/lib/emailDomains';
 import { saveLead } from '@/lib/leads';
 
@@ -81,31 +82,45 @@ export async function POST(req: Request) {
     mergeData[field.key] = String(fields[field.key] ?? '').trim();
   }
 
-  const fileBuffer = getTemplateFileBytes(template.templateFile);
-  if (!fileBuffer) {
-    return NextResponse.json(
-      { success: false, error: 'Template source is unavailable.' },
-      { status: 500 }
-    );
-  }
-
-  // Generate the document. Real government forms (docType 'pdf') are filled with pdf-lib via a
-  // per-template field mapper keyed on slug; custom documents (docType 'docx') are merged with
-  // docxtemplater. In both cases only the values above are used — nothing is persisted.
+  // Generate the document. Three config-driven modes, all using only the values above —
+  // nothing is persisted:
+  //   1. PDF generator (@react-pdf/renderer) — renders a designed PDF from the merge values,
+  //      no source file (e.g. Employee Handbook Starter).
+  //   2. PDF filler (pdf-lib) — sets form fields on an official fillable PDF source (e.g. I-9).
+  //   3. docx merge (docxtemplater) — merges the values into a custom .docx source.
   let output: Buffer;
   let contentType: string;
   try {
     if (template.docType === 'pdf') {
-      const fillPdf = getPdfFiller(template.slug);
-      if (!fillPdf) {
+      contentType = 'application/pdf';
+      const generatePdf = getPdfGenerator(template.slug);
+      if (generatePdf) {
+        output = await generatePdf(mergeData);
+      } else {
+        const fillPdf = getPdfFiller(template.slug);
+        if (!fillPdf) {
+          return NextResponse.json(
+            { success: false, error: 'Unsupported document type.' },
+            { status: 501 }
+          );
+        }
+        const fileBuffer = getTemplateFileBytes(template.templateFile ?? '');
+        if (!fileBuffer) {
+          return NextResponse.json(
+            { success: false, error: 'Template source is unavailable.' },
+            { status: 500 }
+          );
+        }
+        output = await fillPdf(fileBuffer, mergeData);
+      }
+    } else {
+      const fileBuffer = getTemplateFileBytes(template.templateFile ?? '');
+      if (!fileBuffer) {
         return NextResponse.json(
-          { success: false, error: 'Unsupported document type.' },
-          { status: 501 }
+          { success: false, error: 'Template source is unavailable.' },
+          { status: 500 }
         );
       }
-      output = await fillPdf(fileBuffer, mergeData);
-      contentType = 'application/pdf';
-    } else {
       output = renderDocx(fileBuffer, mergeData);
       contentType = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
     }

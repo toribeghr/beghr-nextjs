@@ -26,7 +26,9 @@ export interface Template {
   category: string;
   description: string;
   docType: 'docx' | 'pdf';
-  templateFile: string;
+  // Path to a source document (docx-merge or fillable-PDF templates). Omitted for templates
+  // rendered from scratch by a PDF generator (see lib/template-files/pdf-generators.ts).
+  templateFile?: string;
   fields: TemplateField[];
   // SEO overrides for the template's page. Optional: the page falls back to the
   // title/description above when these are absent, so older entries keep working.
@@ -95,6 +97,55 @@ export const TEMPLATES: Template[] = [
         type: 'select',
         required: true,
         options: US_STATES,
+      },
+    ],
+  },
+  {
+    slug: 'employee-handbook-starter',
+    title: 'Employee Handbook Starter',
+    category: 'Policy & Handbook',
+    description:
+      'Enter your company details and download a clean, professionally designed employee handbook covering the core policies every new hire should receive — from at-will employment and EEO to time off, conduct, and an acknowledgment page.',
+    seoTitle: 'Free Employee Handbook Template (Professional PDF) | BEG',
+    metaDescription:
+      'Enter your company details and download a professionally designed employee handbook PDF covering the core HR policies. Free from Business Executive Group.',
+    // Rendered from scratch by a PDF generator (lib/template-files/pdf-generators.ts) — no
+    // source file, so no templateFile.
+    docType: 'pdf',
+    fields: [
+      {
+        key: 'companyName',
+        label: 'Company name',
+        type: 'text',
+        required: true,
+        placeholder: 'Company or organization name',
+      },
+      {
+        key: 'effectiveDate',
+        label: 'Effective date',
+        type: 'date',
+        required: true,
+      },
+      {
+        key: 'state',
+        label: 'State',
+        type: 'select',
+        required: true,
+        options: US_STATES,
+      },
+      {
+        key: 'hrContactName',
+        label: 'HR contact name',
+        type: 'text',
+        required: true,
+        placeholder: 'HR contact full name',
+      },
+      {
+        key: 'hrContactEmail',
+        label: 'HR contact email',
+        type: 'text',
+        required: true,
+        placeholder: 'HR contact email address',
       },
     ],
   },

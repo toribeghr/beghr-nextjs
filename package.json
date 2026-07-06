@@ -12,6 +12,7 @@
     "reindex": "node scripts/algolia-index-site.mjs"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^3.4.5",
     "algoliasearch": "^5.20.0",
     "docxtemplater": "^3.69.0",
     "next": "^14.0.0",

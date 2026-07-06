@@ -4,6 +4,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // The /api/templates/generate serverless function reads the .docx source template with
+  // fs at runtime. Next's output file tracing can't infer a dynamically-built path, so
+  // explicitly bundle the template-files directory into that function's deployment.
+  outputFileTracingIncludes: {
+    '/api/templates/generate': ['./src/lib/template-files/**'],
+  },
   // The Vercel build is memory-bound at 1,500+ pages. Next runs a full project-wide
   // type-check + ESLint pass during `next build`, which loads the entire TS program into
   // memory on top of webpack and is a major OOM contributor. Type/lint are validated

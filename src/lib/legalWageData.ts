@@ -23,7 +23,7 @@ export const legalWageByMetro: Record<string, LegalWage> = {
   "jacksonville": { employment: 3760, mean: 145930, median: 127920, p10: 66500, p90: 225360 },
   "columbus": { employment: 4960, mean: 154090, median: 137810, p10: 79510, p90: 235150 },
   "charlotte": { employment: 5380, mean: 186020, median: 157180, p10: 61830, p90: 371170 },
-  "indianapolis": { employment: 4450, mean: 185840, median: 159660, p10: null, p90: null },
+  "indianapolis": { employment: 4450, mean: null, median: null, p10: null, p90: null },
   "seattle": { employment: 9210, mean: 180920, median: 164980, p10: 99910, p90: 314120 },
   "denver": { employment: 11860, mean: 203690, median: 177380, p10: 90640, p90: 337050 },
   "washington-dc": { employment: 46840, mean: 226780, median: 195190, p10: 106520, p90: 382890 },

@@ -71,8 +71,13 @@ try {
     const wageFile = path.join(__dirname, '..', 'src', 'lib', `${ind}WageData.ts`);
     if (!fs.existsSync(wageFile)) continue;
     const wageText = fs.readFileSync(wageFile, 'utf8');
+    // Mirror cityHasWage() in CityTemplate.tsx: a metro is indexable only when BLS
+    // actually reports a mean wage for it. Rows with mean: null are noindexed.
     const wageSlugs = new Set(
-      Array.from(wageText.matchAll(/["']([a-z0-9-]+)["']\s*:\s*\{/g)).map(m => m[1]).filter(s => metroSet.has(s))
+      Array.from(wageText.matchAll(/["']([a-z0-9-]+)["']\s*:\s*\{([^}]*)\}/g))
+        .filter(m => !/\bmean:\s*null\b/.test(m[2]))
+        .map(m => m[1])
+        .filter(s => metroSet.has(s))
     );
     if (wageSlugs.size === 0) continue;
     deepIndustries++;

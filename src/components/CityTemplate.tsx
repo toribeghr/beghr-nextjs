@@ -91,7 +91,7 @@ export function cityMeta(industrySlug: string, citySlug: string) {
     title,
     description,
     alternates: { canonical: url },
-    robots: { index: true, follow: true },
+    robots: cityHasWage(industrySlug, citySlug) ? undefined : { index: false, follow: true },
     openGraph: {
       title,
       description: ogDesc,

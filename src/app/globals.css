@@ -442,11 +442,102 @@ p {
   width: fit-content;
 }
 
+/* Service card icon tile + animated CTA arrow (progressive enhancement:
+   purely additive, no layout or copy change). */
+.card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: rgba(236, 172, 96, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-deep);
+}
+
+.card-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.card-cta {
+  color: var(--gold-deep);
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.card-cta-arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.25s ease;
+}
+
+.card-link:hover .card-cta-arrow {
+  transform: translateX(4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-cta-arrow {
+    transition: none;
+  }
+}
+
 /* Hero */
 .hero {
   background: var(--navy);
   color: #fff;
   padding: 88px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Soft gold radial glow, upper-right, sitting behind the hero video.
+   Additive depth only — pointer-events off, content layered above it. */
+.hero::after {
+  content: '';
+  position: absolute;
+  top: -80px;
+  right: -60px;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(
+    circle,
+    rgba(236, 172, 96, 0.16),
+    rgba(236, 172, 96, 0) 68%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hairline gold rule leading the hero eyebrow */
+.hero .hv-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero .hv-eyebrow::before {
+  content: '';
+  width: 26px;
+  height: 2px;
+  background: var(--gold);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* Gold marker underline on the key phrase in the hero headline */
+.hero-hl {
+  background: linear-gradient(transparent 78%, rgba(236, 172, 96, 0.55) 0);
+  padding-bottom: 1px;
 }
 
 /* All text inside the hero is always white — never grey on black */

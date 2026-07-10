@@ -59,7 +59,7 @@ export default function Home() {
           />
           <div className="hero-video-split">
             <p className="eyebrow hv-eyebrow">Business Executive Group</p>
-            <h1 className="hv-title">The people side of your business is costing you more than it should.</h1>
+            <h1 className="hv-title">The people side of your business is <span className="hero-hl">costing you more</span> than it should.</h1>
             <p className="lede hv-lede" style={{ margin: '18px 0 0' }}>
               Payroll eating hours every cycle. HR software nobody logs into. A key role sitting open for three months. BEG solves all three: fully managed payroll, isolved HCM software with BEG support, and specialized job placement in 23-35 days.
             </p>
@@ -122,48 +122,115 @@ export default function Home() {
             <h2>Pick your problem. We have a solution.</h2>
           </div>
           <div className="cards">
-            <Link href="/services/managed-payroll" className="card-link reveal">
-              <span className="tag">Managed Payroll</span>
-              <h3>Payroll running your team ragged every cycle?</h3>
-              <p>Fully managed at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. All 50 states. Works in your existing system. No migration required.</p>
-              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See managed payroll &rarr;</span>
-            </Link>
-            <Link href="/services/hcm-software" className="card-link reveal">
-              <span className="tag">HCM Software</span>
-              <h3>HR software your team actually uses?</h3>
-              <p>isolved People Cloud puts payroll, HR, time, and benefits on one platform. BEG implements and supports you year-round. 330% documented ROI. Now with Claude AI integration.</p>
-              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See HCM software &rarr;</span>
-            </Link>
-            <Link href="/services/job-placement" className="card-link reveal">
-              <span className="tag">Job Placement</span>
-              <h3>A role that has been open too long?</h3>
-              <p>We place specialized professionals in 23-35 days at roughly 50% less than contingency firms. 45-day replacement guarantee. Legal, healthcare, finance, tech, and more.</p>
-              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See job placement &rarr;</span>
-            </Link>
-            <Link href="/services/hr-outsourcing" className="card-link reveal">
-              <span className="tag">HR Outsourcing</span>
-              <h3>HR problems without an HR department?</h3>
-              <p>Certified HR pros handle your handbook, compliance, and leave for a fraction of a $60K-$100K hire. Powered by isolved. Not a PEO: you stay the employer.</p>
-              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See HR outsourcing &rarr;</span>
-            </Link>
-            <Link href="/services/managed-benefits" className="card-link reveal">
-              <span className="tag">Managed Benefits</span>
-              <h3>Benefits admin eating open enrollment alive?</h3>
-              <p>Open enrollment, ACA forms, COBRA, and carrier updates handled. Powered by isolved. Keep your broker, we run the administration. All 50 states.</p>
-              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See managed benefits &rarr;</span>
-            </Link>
-            <Link href="/services/applicant-tracking-system" className="card-link reveal">
-              <span className="tag">Applicant Tracking</span>
-              <h3>Losing good applicants to a scattered hiring process?</h3>
-              <p>isolved Attract &amp; Hire Small Business puts every candidate in one pipeline. $2.00 PEPM, added to isolved HCM, configured and supported by BEG. All 50 states.</p>
-              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See applicant tracking &rarr;</span>
-            </Link>
-            <Link href="/services/lms-learning-management" className="card-link reveal">
-              <span className="tag">Learning Management</span>
-              <h3>Still training your team with sign-in sheets and scattered videos?</h3>
-              <p>isolved Learn &amp; Grow puts every course, assignment, and completion record in one system. Compliance training, onboarding, and upskilling, configured and supported by BEG. All 50 states.</p>
-              <span style={{ color: '#ECAC60', fontWeight: '600', fontSize: '0.9rem' }}>See learning management &rarr;</span>
-            </Link>
+            {[
+              {
+                href: '/services/managed-payroll',
+                tag: 'Managed Payroll',
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect x="3" y="6" width="18" height="12" rx="2" />
+                    <circle cx="12" cy="12" r="2.5" />
+                    <path d="M6 9v.01M18 15v.01" />
+                  </svg>
+                ),
+                h3: 'Payroll running your team ragged every cycle?',
+                body: 'Fully managed at $25-$45 PEPM. Taxes, filings, W-2s, and compliance handled. All 50 states. Works in your existing system. No migration required.',
+                cta: 'See managed payroll',
+              },
+              {
+                href: '/services/hcm-software',
+                tag: 'HCM Software',
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M12 3l9 5-9 5-9-5 9-5z" />
+                    <path d="M3 12l9 5 9-5" />
+                    <path d="M3 16l9 5 9-5" />
+                  </svg>
+                ),
+                h3: 'HR software your team actually uses?',
+                body: 'isolved People Cloud puts payroll, HR, time, and benefits on one platform. BEG implements and supports you year-round. 330% documented ROI. Now with Claude AI integration.',
+                cta: 'See HCM software',
+              },
+              {
+                href: '/services/job-placement',
+                tag: 'Job Placement',
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <circle cx="10" cy="8" r="4" />
+                    <path d="M3 20c0-3.3 3.1-6 7-6" />
+                    <circle cx="17.5" cy="16.5" r="3" />
+                    <path d="M22 21l-2.2-2.2" />
+                  </svg>
+                ),
+                h3: 'A role that has been open too long?',
+                body: 'We place specialized professionals in 23-35 days at roughly 50% less than contingency firms. 45-day replacement guarantee. Legal, healthcare, finance, tech, and more.',
+                cta: 'See job placement',
+              },
+              {
+                href: '/services/hr-outsourcing',
+                tag: 'HR Outsourcing',
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M12 3l7 3v5c0 4.4-3 7.5-7 8.5-4-1-7-4.1-7-8.5V6l7-3z" />
+                    <path d="M9 12l2 2 4-4" />
+                  </svg>
+                ),
+                h3: 'HR problems without an HR department?',
+                body: 'Certified HR pros handle your handbook, compliance, and leave for a fraction of a $60K-$100K hire. Powered by isolved. Not a PEO: you stay the employer.',
+                cta: 'See HR outsourcing',
+              },
+              {
+                href: '/services/managed-benefits',
+                tag: 'Managed Benefits',
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M20.5 11H16l-2 4-3-8-2 4H3.5" />
+                    <path d="M12 20s-7-4.3-7-9.3A4.7 4.7 0 0 1 12 7a4.7 4.7 0 0 1 7 3.7c0 5-7 9.3-7 9.3z" />
+                  </svg>
+                ),
+                h3: 'Benefits admin eating open enrollment alive?',
+                body: 'Open enrollment, ACA forms, COBRA, and carrier updates handled. Powered by isolved. Keep your broker, we run the administration. All 50 states.',
+                cta: 'See managed benefits',
+              },
+              {
+                href: '/services/applicant-tracking-system',
+                tag: 'Applicant Tracking',
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M4 5h16l-6 7v6l-4 2v-8L4 5z" />
+                  </svg>
+                ),
+                h3: 'Losing good applicants to a scattered hiring process?',
+                body: 'isolved Attract & Hire Small Business puts every candidate in one pipeline. $2.00 PEPM, added to isolved HCM, configured and supported by BEG. All 50 states.',
+                cta: 'See applicant tracking',
+              },
+              {
+                href: '/services/lms-learning-management',
+                tag: 'Learning Management',
+                icon: (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M12 4l10 5-10 5L2 9l10-5z" />
+                    <path d="M6 11v5c0 1 3 3 6 3s6-2 6-3v-5" />
+                  </svg>
+                ),
+                h3: 'Still training your team with sign-in sheets and scattered videos?',
+                body: 'isolved Learn & Grow puts every course, assignment, and completion record in one system. Compliance training, onboarding, and upskilling, configured and supported by BEG. All 50 states.',
+                cta: 'See learning management',
+              },
+            ].map(({ href, tag, icon, h3, body, cta }) => (
+              <Link key={href} href={href} className="card-link reveal">
+                <span className="card-icon">{icon}</span>
+                <span className="tag">{tag}</span>
+                <h3>{h3}</h3>
+                <p>{body}</p>
+                <span className="card-cta">
+                  {cta}{' '}
+                  <svg className="card-cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

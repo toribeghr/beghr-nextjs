@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:youtube.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:youtu.be)",
+      "WebFetch(domain:m.youtube.com)",
+      "WebFetch(domain:instagram.com)",
+      "WebFetch(domain:www.instagram.com)",
+      "WebFetch(domain:tiktok.com)",
+      "WebFetch(domain:www.tiktok.com)",
+      "WebFetch(domain:x.com)",
+      "WebFetch(domain:twitter.com)",
+      "WebFetch(domain:facebook.com)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:linkedin.com)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:reddit.com)",
+      "WebFetch(domain:www.reddit.com)",
+      "WebFetch(domain:threads.net)"
+    ]
+  }
+}

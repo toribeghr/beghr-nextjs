@@ -94,6 +94,7 @@ export const HCM_TIERS: Record<HcmTierKey, HcmTier> = {
     tagline: 'Everything in Pay, plus hiring firepower',
     modules: [
       ['Applicant Tracking', 'Post jobs, track applicants, hire from one screen'],
+      ['1 Standard Integration', 'Connect one tool you already use'],
     ],
   },
   manage: {
@@ -107,6 +108,7 @@ export const HCM_TIERS: Record<HcmTierKey, HcmTier> = {
       ['Expense Management', 'Snap receipts, approve, reimburse through payroll'],
       ['401(k) 360 Integration', 'Deferrals sync both ways with your provider'],
       ['isolved Perform', 'Reviews, goals and feedback that actually happen'],
+      ['3 Standard Integrations', 'Connect three tools you already use'],
     ],
   },
   comply: {
@@ -121,6 +123,7 @@ export const HCM_TIERS: Record<HcmTierKey, HcmTier> = {
       ['Predictive People Analytics', 'Flight-risk and workforce trends before they bite'],
       ['Benchmark Insights', 'Your pay and turnover vs. companies like yours'],
       ['Managed Garnishment Services', 'Court orders processed and remitted for you'],
+      ['5 Standard Integrations', 'Connect five tools you already use'],
     ],
   },
   grow: {
@@ -135,6 +138,7 @@ export const HCM_TIERS: Record<HcmTierKey, HcmTier> = {
       ['Giving & Volunteering', 'Charitable programs your people rally around'],
       ['e-Verify I-9', 'Work eligibility verification built into onboarding'],
       ['Video Interviews by Wedge', 'Screen candidates on video before the first call'],
+      ['5 Standard Integrations', 'Connect five tools you already use'],
     ],
   },
 };

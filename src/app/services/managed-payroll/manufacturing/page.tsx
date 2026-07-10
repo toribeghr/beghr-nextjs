@@ -25,7 +25,7 @@ const CALENDLY = getCalendlyLink('payroll-manufacturing');
 export default function PayrollManufacturingPage() {
   return (
     <ServicePage
-      heroVideoId="fLwgwBr8DfU"
+      heroVideoId="9eXKTFl5HwM"
       imageSrc="/assets/hero-images/manufacturing.svg"
       imageAlt="Manufacturing company with fully managed payroll"
       eyebrow="Managed Payroll · Manufacturing"

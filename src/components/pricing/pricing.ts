@@ -93,8 +93,7 @@ export const HCM_TIERS: Record<HcmTierKey, HcmTier> = {
     name: 'Build', pkg: 'HR & Pay Plus', base: 155, pepm: 12, emoji: '🧱', rank: 1,
     tagline: 'Everything in Pay, plus hiring firepower',
     modules: [
-      ['isolved Attract & Hire', 'Post jobs, track applicants, hire from one screen'],
-      ['Hiring Services Jumpstart', 'Recruiting setup done for you, not by you'],
+      ['Applicant Tracking', 'Post jobs, track applicants, hire from one screen'],
     ],
   },
   manage: {
@@ -160,8 +159,7 @@ export interface HcmPickModule {
 }
 
 export const HCM_PICK_MODULES: HcmPickModule[] = [
-  { id: 'ats', emoji: '🧲', name: 'Attract & Hire', desc: 'Post jobs, track applicants, hire from one screen', rank: 1, group: 'Hiring' },
-  { id: 'jumpstart', emoji: '🚀', name: 'Hiring Services Jumpstart', desc: 'Recruiting setup done for you, not by you', rank: 1, group: 'Hiring' },
+  { id: 'ats', emoji: '🧲', name: 'Applicant Tracking', desc: 'Post jobs, track applicants, hire from one screen', rank: 1, group: 'Hiring' },
   { id: 'time', emoji: '⏰', name: 'Time & Labor Management', desc: 'Punches, timecards and overtime flow straight into payroll', rank: 2, group: 'Workforce Operations' },
   { id: 'scheduling', emoji: '📅', name: 'Scheduling', desc: 'Build and share shift schedules employees see live', rank: 2, group: 'Workforce Operations' },
   { id: 'onboarding', emoji: '📂', name: 'Onboarding & Offboarding', desc: 'Paperless day-one and clean exits', rank: 2, group: 'Workforce Operations' },

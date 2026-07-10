@@ -132,7 +132,9 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: https://www.facebook.com https://www.google-analytics.com https://www.googletagmanager.com https://px.ads.linkedin.com https://i.ytimg.com https://img.youtube.com",
-              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://connect.facebook.net https://px.ads.linkedin.com",
+              // Algolia search hosts must be allowed here or the browser blocks every
+              // InstantSearch request before it is sent (curl works, browser does not).
+              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://connect.facebook.net https://px.ads.linkedin.com https://*.algolia.net https://*.algolianet.com https://*.algolia.io",
               "frame-src https://www.googletagmanager.com https://calendly.com https://www.youtube-nocookie.com https://www.youtube.com",
               "frame-ancestors 'none'",
             ].join('; '),

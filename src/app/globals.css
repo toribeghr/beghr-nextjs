@@ -602,15 +602,16 @@ p {
 
 .trust-row b {
   display: block;
+  font-family: var(--font-display);
   font-size: 1.4rem;
-  color: var(--gold);
+  color: #ffffff;
   margin-bottom: 4px;
 }
 
 .trust-row small {
   display: block;
   font-size: 0.85rem;
-  color: #C7D2E5;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ── Hero split layout ── */

@@ -486,6 +486,35 @@ p {
   }
 }
 
+/* Card-system polish: pain-stat + bonus cards pick up a soft shadow on hover
+   to match the service-card interaction. Border/radius come from tokens inline. */
+.stat-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.stat-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+}
+
+.bonus-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.bonus-card:hover {
+  box-shadow: var(--shadow);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stat-card,
+  .bonus-card {
+    transition: none;
+  }
+  .stat-card:hover {
+    transform: none;
+  }
+}
+
 /* Hero */
 .hero {
   background: var(--navy);
@@ -534,10 +563,13 @@ p {
   flex-shrink: 0;
 }
 
-/* Gold marker underline on the key phrase in the hero headline */
+/* Thin solid gold underline on the key phrase in the hero headline */
 .hero-hl {
-  background: linear-gradient(transparent 78%, rgba(236, 172, 96, 0.55) 0);
-  padding-bottom: 1px;
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  padding-bottom: 3px;
 }
 
 /* All text inside the hero is always white — never grey on black */

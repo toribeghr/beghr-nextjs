@@ -104,7 +104,7 @@ export default function Home() {
                 sub: 'Disconnected HR tools cost time and money on every cycle. One platform, configured correctly, pays for itself inside 12 months.',
               },
             ].map(({ stat, label, sub }) => (
-              <div key={stat} style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderTop: '4px solid #ECAC60', borderRadius: '8px', padding: '1.5rem' }}>
+              <div key={stat} className="stat-card" style={{ background: '#ffffff', border: '1px solid var(--line)', borderTop: '4px solid #ECAC60', borderRadius: 'var(--radius)', padding: '1.5rem' }}>
                 <div style={{ fontSize: '2rem', fontWeight: '800', color: '#000000', lineHeight: 1 }}>{stat}</div>
                 <div style={{ fontWeight: '600', margin: '0.5rem 0 0.4rem', fontSize: '0.95rem' }}>{label}</div>
                 <div style={{ fontSize: '0.88rem', color: '#666666', lineHeight: '1.5' }}>{sub}</div>
@@ -263,7 +263,7 @@ export default function Home() {
                 body: 'Managed Payroll is $25-$45 PEPM, all-inclusive. HCM Software is transparent PEPM with no surprise module add-ons. Job Placement is milestone-based, not a 20-25% contingency fee. You know what you pay before you sign.',
               },
             ].map(({ badge, title, objection, body }) => (
-              <div key={badge} className="beg-grid-bonus" style={{ background: '#ffffff', border: '1px solid #e5e5e5', borderRadius: '8px', padding: '1.75rem' }}>
+              <div key={badge} className="beg-grid-bonus bonus-card" style={{ background: '#ffffff', border: '1px solid var(--line)', borderRadius: 'var(--radius)', padding: '1.75rem' }}>
                 <div>
                   <span style={{ display: 'inline-block', background: '#ECAC60', color: '#000000', fontWeight: '700', fontSize: '0.75rem', padding: '0.2rem 0.6rem', borderRadius: '4px', marginBottom: '0.6rem', letterSpacing: '0.05em' }}>{badge}</span>
                   <strong style={{ display: 'block', fontSize: '1.05rem', lineHeight: '1.4' }}>{title}</strong>

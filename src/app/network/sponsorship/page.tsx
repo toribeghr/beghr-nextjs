@@ -185,12 +185,12 @@ export default function SponsorshipPage() {
       {/* SPONSORSHIP TIERS */}
       <section className="section section--soft">
         <div className="container">
-          <div className="head center reveal">
+          <div className="head center">
             <p className="eyebrow">Sponsorship Tiers</p>
             <h2>Four ways to put your brand in front of the room.</h2>
           </div>
 
-          <div className="cards reveal" style={{ marginTop: '2.5rem' }}>
+          <div className="cards" style={{ marginTop: '2.5rem' }}>
             {tiers.map((tier) => (
               <div className="card" key={tier.name}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -225,7 +225,7 @@ export default function SponsorshipPage() {
       {/* FAQ */}
       <section className="section">
         <div className="container" style={{ maxWidth: '780px' }}>
-          <div className="head center reveal">
+          <div className="head center">
             <p className="eyebrow">Common Questions</p>
             <h2>Sponsorship FAQ</h2>
           </div>

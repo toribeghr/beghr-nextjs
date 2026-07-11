@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import SocialFollow from '@/components/SocialFollow';
 import ConsentBanner from '@/components/ConsentBanner';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+import RevealOnNavigate from '@/components/RevealOnNavigate';
 import Script from 'next/script';
 import { Fraunces, Inter } from 'next/font/google';
 import './globals.css';
@@ -18,7 +19,11 @@ export const metadata: Metadata = {
   title: 'Business Executive Group - Payroll, HCM Software & Job Placement',
   description: 'Fully managed payroll, HCM software powered by isolved, and specialized job placement services for businesses nationwide.',
   icons: {
+    // Same stable URL Google already crawled, now a multi-size icon
+    // (16/32/48/64/96/128). Google requires a square favicon and recommends
+    // larger than 48x48 so it renders well in search results.
     icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
   alternates: {
     canonical: 'https://www.beghr.com',
@@ -167,6 +172,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <Header />
         {children}
         <BreadcrumbSchema />
+        <RevealOnNavigate />
         <SocialFollow />
         <Footer />
         <ConsentBanner />

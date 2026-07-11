@@ -192,7 +192,7 @@ export default function SponsorshipPage() {
 
           <div className="cards" style={{ marginTop: '2.5rem' }}>
             {tiers.map((tier) => (
-              <div className="card" key={tier.name}>
+              <div className="card reveal" key={tier.name}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={tier.image}

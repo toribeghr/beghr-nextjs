@@ -4,7 +4,6 @@ import Footer from '@/components/Footer';
 import SocialFollow from '@/components/SocialFollow';
 import ConsentBanner from '@/components/ConsentBanner';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
-import RevealOnNavigate from '@/components/RevealOnNavigate';
 import Script from 'next/script';
 import { Fraunces, Inter } from 'next/font/google';
 import './globals.css';
@@ -172,7 +171,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <Header />
         {children}
         <BreadcrumbSchema />
-        <RevealOnNavigate />
         <SocialFollow />
         <Footer />
         <ConsentBanner />

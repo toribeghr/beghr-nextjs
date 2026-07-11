@@ -1306,44 +1306,6 @@ p {
   transform: translateY(0);
 }
 
-/* Per-box staggered entrance for the 3-up content grids (pain stats, how-it-works).
-   The grid wrapper carries .reveal; these rules cascade the animation to each child so
-   the boxes slide in one after another like the homepage service cards, instead of the
-   whole grid appearing as one block. Driven by the wrapper's .in class, so it works on
-   both the first full load and client-side navigation. */
-.beg-grid-3.reveal.will-animate > * {
-  opacity: 0;
-  transform: translateY(16px);
-}
-
-.beg-grid-3.reveal.in > * {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.beg-grid-3.reveal.in > *:nth-child(2) {
-  transition-delay: 0.08s;
-}
-
-.beg-grid-3.reveal.in > *:nth-child(3) {
-  transition-delay: 0.16s;
-}
-
-.beg-grid-3.reveal.in > *:nth-child(4) {
-  transition-delay: 0.24s;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .beg-grid-3.reveal.will-animate > * {
-    opacity: 1;
-    transform: none;
-  }
-  .beg-grid-3.reveal.in > * {
-    transition: none;
-  }
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .nav {

@@ -24,6 +24,7 @@ const CALENDLY = 'https://calendly.com/tori-beghr/15-minute-beg-discovery-call';
 const tiers = [
   {
     name: 'Bronze Sponsor',
+    key: 'bronze',
     emoji: '\u{1F949}',
     price: '$500',
     tagline: 'For businesses looking to support the community and gain exposure.',
@@ -38,6 +39,7 @@ const tiers = [
   },
   {
     name: 'Silver Sponsor',
+    key: 'silver',
     emoji: '\u{1F948}',
     price: '$1,000',
     tagline: 'For organizations seeking deeper engagement and brand visibility.',
@@ -53,6 +55,7 @@ const tiers = [
   },
   {
     name: 'Gold Sponsor',
+    key: 'gold',
     emoji: '\u{1F947}',
     price: '$1,500',
     tagline: 'For premium partners who want to lead the conversation.',
@@ -68,6 +71,7 @@ const tiers = [
   },
   {
     name: 'Platinum Sponsor',
+    key: 'platinum',
     emoji: '\u{1F48E}',
     price: '$3,000',
     tagline: 'The top partnership tier for maximum visibility and recognition.',
@@ -150,13 +154,8 @@ export default function SponsorshipPage() {
                 Sponsorship puts your brand in the room where deals get made.
               </p>
               <div className="hero-cta">
-                <a
-                  className="btn btn--gold"
-                  href={CALENDLY}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Discuss Sponsorship
+                <a className="btn btn--gold" href="#tiers">
+                  View Sponsorship Tiers
                 </a>
               </div>
           </div>
@@ -183,7 +182,7 @@ export default function SponsorshipPage() {
       </section>
 
       {/* SPONSORSHIP TIERS */}
-      <section className="section section--soft">
+      <section className="section section--soft" id="tiers">
         <div className="container">
           <div className="head center">
             <p className="eyebrow">Sponsorship Tiers</p>
@@ -212,6 +211,13 @@ export default function SponsorshipPage() {
                     <li key={b}>{b}</li>
                   ))}
                 </ul>
+                <Link
+                  href={`/network/sponsorship/checkout?tier=${tier.key}`}
+                  className="btn btn--gold"
+                  style={{ display: 'block', textAlign: 'center', marginTop: '20px' }}
+                >
+                  Reserve This Tier
+                </Link>
               </div>
             ))}
           </div>
@@ -252,19 +258,24 @@ export default function SponsorshipPage() {
       <section className="section section--navy">
         <div className="container" style={{ maxWidth: '620px' }}>
           <p className="eyebrow">Partner With Us</p>
-          <h2 style={{ color: '#fff' }}>Let&apos;s talk sponsorship.</h2>
+          <h2 style={{ color: '#fff' }}>Ready to sponsor?</h2>
           <p style={{ color: '#C7D2E5', marginTop: '16px' }}>
-            Book a 15-minute call with our team to explore sponsorship opportunities with Business Executive Group.
+            Pick a tier above to reserve it now, or book a 15-minute call first if you want to talk it through.
           </p>
           <div style={{ marginTop: '26px', textAlign: 'center' }}>
-            <a
-              className="btn btn--gold"
-              href={CALENDLY}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book a Discovery Call
+            <a className="btn btn--gold" href="#tiers">
+              View Sponsorship Tiers
             </a>
+            <div style={{ marginTop: '14px' }}>
+              <a
+                href={CALENDLY}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#C7D2E5', fontSize: '0.9rem', textDecoration: 'underline' }}
+              >
+                Book a Discovery Call instead
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -11,7 +11,17 @@ const OUT = path.join(__dirname, '..', 'public', 'sitemap.xml');
 const BASE = 'https://www.beghr.com';
 const today = new Date().toISOString().slice(0, 10);
 
+// A page is noindexed when its metadata sets robots to noindex. Such routes must
+// never appear in the sitemap (Google flags "noindexable page in sitemap"), so we
+// detect the marker in the page source and skip it. Covers /privacy-policy, /terms,
+// the sponsorship checkout, and any future noindexed page automatically.
+const NOINDEX_RE = /index:\s*false|robots:\s*['"]?noindex|noindex:\s*true/;
+function isNoindex(file) {
+  try { return NOINDEX_RE.test(fs.readFileSync(file, 'utf8')); } catch (e) { return false; }
+}
+
 const routes = [];
+const skippedNoindex = [];
 function walk(dir, rel) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
@@ -19,11 +29,16 @@ function walk(dir, rel) {
       if (entry.name.startsWith('(') || entry.name.startsWith('[') || entry.name.startsWith('_')) continue;
       walk(path.join(dir, entry.name), rel + '/' + entry.name);
     } else if (entry.name === 'page.tsx') {
-      routes.push(rel === '' ? '/' : rel);
+      const route = rel === '' ? '/' : rel;
+      if (isNoindex(path.join(dir, entry.name))) { skippedNoindex.push(route); continue; }
+      routes.push(route);
     }
   }
 }
 walk(APP, '');
+if (skippedNoindex.length) {
+  console.log('Excluded noindexed routes: ' + skippedNoindex.sort().join(', '));
+}
 
 // ISR data-routes live under dynamic [slug] dirs, which the walker skips. Add their
 // generated URLs explicitly so the pages are listed in the sitemap.

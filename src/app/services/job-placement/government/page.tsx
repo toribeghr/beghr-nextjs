@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import ServicePage from '@/components/ServicePage';
+import JobPlacementHubLinks from '@/components/JobPlacementHubLinks';
 import PricingCta from '@/components/pricing/PricingCta';
 import { getCalendlyLink } from '@/lib/services';
 
@@ -217,6 +218,8 @@ export default function PlacementGovernmentPage() {
           }),
         }}
       />
+
+    <JobPlacementHubLinks industry="government" />
 
     </ServicePage>
   );
